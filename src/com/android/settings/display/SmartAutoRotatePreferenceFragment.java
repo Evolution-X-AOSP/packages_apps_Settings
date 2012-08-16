@@ -59,12 +59,13 @@ public class SmartAutoRotatePreferenceFragment extends DashboardFragment {
     static final String AUTO_ROTATE_SWITCH_PREFERENCE_KEY = "auto_rotate_switch";
     private static final String KEY_FOOTER_PREFERENCE = "auto_rotate_footer_preference";
 
-
+    private static final String LOCKSCREEN_ROTATION = "lockscreen_rotation";
     private static final String ROTATION_0_PREF = "display_rotation_0";
     private static final String ROTATION_90_PREF = "display_rotation_90";
     private static final String ROTATION_180_PREF = "display_rotation_180";
     private static final String ROTATION_270_PREF = "display_rotation_270";
 
+    private SwitchPreference mLockScreenRotationPref;
     private SwitchPreference mRotation0Pref;
     private SwitchPreference mRotation90Pref;
     private SwitchPreference mRotation180Pref;
@@ -106,6 +107,7 @@ public class SmartAutoRotatePreferenceFragment extends DashboardFragment {
             setupFooter();
         }
 
+        mLockScreenRotationPref = findPreference(LOCKSCREEN_ROTATION);
         mRotation0Pref = findPreference(ROTATION_0_PREF);
         mRotation90Pref = findPreference(ROTATION_90_PREF);
         mRotation180Pref = findPreference(ROTATION_180_PREF);
@@ -115,6 +117,12 @@ public class SmartAutoRotatePreferenceFragment extends DashboardFragment {
                         Settings.System.ACCELEROMETER_ROTATION_ANGLES,
                         ROTATION_0_MODE|ROTATION_90_MODE|ROTATION_270_MODE, UserHandle.USER_CURRENT);
 
+        boolean configEnableLockRotation = getResources().
+                        getBoolean(com.android.internal.R.bool.config_enableLockScreenRotation);
+        boolean lockScreenRotationEnabled = Settings.System.getInt(getContentResolver(),
+                        Settings.System.LOCKSCREEN_ROTATION, configEnableLockRotation ? 1 : 0) != 0;
+
+        mLockScreenRotationPref.setChecked(lockScreenRotationEnabled);
         mRotation0Pref.setChecked((mode & ROTATION_0_MODE) != 0);
         mRotation90Pref.setChecked((mode & ROTATION_90_MODE) != 0);
         mRotation180Pref.setChecked((mode & ROTATION_180_MODE) != 0);
@@ -192,6 +200,11 @@ public class SmartAutoRotatePreferenceFragment extends DashboardFragment {
             }
             Settings.System.putIntForUser(getActivity().getApplicationContext().getContentResolver(),
                     Settings.System.ACCELEROMETER_ROTATION_ANGLES, mode, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mLockScreenRotationPref) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_ROTATION,
+                    mLockScreenRotationPref.isChecked() ? 1 : 0);
             return true;
         }
         return super.onPreferenceTreeClick(preference);
