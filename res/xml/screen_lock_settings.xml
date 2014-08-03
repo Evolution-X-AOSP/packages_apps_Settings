@@ -27,6 +27,12 @@
         android:key="visiblepattern"
         android:title="@string/lockpattern_settings_enable_visible_pattern_title" />
 
+    <!-- available in pin -->
+    <SwitchPreference
+        android:key="lockscreen_scramble_pin_layout"
+        android:title="@string/unlock_scramble_pin_layout_title"
+        android:summary="@string/unlock_scramble_pin_layout_summary" />
+
     <!-- available in pin/pattern/password -->
     <com.android.settings.display.TimeoutListPreference
         android:key="lock_after_timeout"
