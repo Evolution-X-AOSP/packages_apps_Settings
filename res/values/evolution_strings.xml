@@ -600,4 +600,8 @@
     <string name="pattern_custom">Custom</string>
     <string name="custom_vibration_pattern_title">Set a custom vibration pattern</string>
     <string name="haptic_feedback_intensity">Haptic feedback intensity</string>
+
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 </resources>

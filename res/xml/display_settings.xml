@@ -215,6 +215,12 @@
             android:title="@string/enable_blurs_on_windows_title"
             android:summary="@string/enable_blurs_on_windows_summary" />
 
+        <com.evolution.settings.preference.GlobalSettingSwitchPreference
+            android:key="wake_when_plugged_or_unplugged"
+            android:title="@string/wake_when_plugged_or_unplugged_title"
+            android:summary="@string/wake_when_plugged_or_unplugged_summary"
+            android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
