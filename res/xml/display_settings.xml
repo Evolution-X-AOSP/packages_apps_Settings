@@ -216,6 +216,12 @@
             android:defaultValue="false"
             settings:controller="com.android.settings.custom.touch.HighTouchPollingRateSettingsPreferenceController" />
 
+        <com.evolution.settings.preference.GlobalSettingSwitchPreference
+            android:key="wake_when_plugged_or_unplugged"
+            android:title="@string/wake_when_plugged_or_unplugged_title"
+            android:summary="@string/wake_when_plugged_or_unplugged_summary"
+            android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
+
         <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="high_touch_sensitivity_enable"
             android:title="@string/high_touch_sensitivity_title"
