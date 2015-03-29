@@ -212,6 +212,11 @@
         android:summary="%s"
         android:order="-10"/>
 
+    <!-- Screenshot sound -->
+    <SwitchPreference
+        android:key="screenshot_shutter_sound"
+        android:title="@string/screenshot_shutter_sound_title" />
+
     <Preference
         android:key="sound_work_settings"
         android:title="@string/sound_work_settings"
