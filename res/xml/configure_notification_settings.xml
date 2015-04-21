@@ -188,5 +188,15 @@
             android:persistent="false"
             android:title="@string/notification_polite_title"
             settings:controller="com.android.settings.notification.PoliteNotificationsPreferenceController" />
+
+        <!-- Heads up -->
+        <com.evolution.settings.preference.GlobalSettingPrimarySwitchPreference
+            android:fragment="com.evolution.settings.fragments.HeadsUpSettings"
+            android:key="heads_up_notifications_enabled"
+            android:order="24"
+            android:title="@string/notification_heads_up_title"
+            android:summary="@string/notification_heads_up_summary"
+            android:defaultValue="true"
+            settings:observe="true" />
     </PreferenceCategory>
 </PreferenceScreen>
