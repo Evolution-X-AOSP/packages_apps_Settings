@@ -68,11 +68,11 @@
         android:fragment="com.android.settings.display.AdaptiveSleepSettings"
         settings:controller="com.android.settings.display.AdaptiveSleepPreferenceController" />
 
-    <SwitchPreference
-        android:key="auto_rotate"
-        android:title="@string/accelerometer_title"
-        settings:keywords="@string/keywords_auto_rotate"
-        settings:controller="com.android.settings.display.AutoRotatePreferenceController" />
+    <Preference
+        android:key="display_rotation"
+        android:title="@string/display_rotation_title"
+        android:summary="@string/display_rotation_summary"
+        android:fragment="com.android.settings.preference.DisplayRotation"/>
 
     <Preference
         android:key="color_mode"
