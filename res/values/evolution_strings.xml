@@ -413,4 +413,15 @@
     <string name="random_summary_24">Acknowledge us!</string>
     <string name="random_summary_25">We\'re aware we\'re named after a Mitsubishi</string>
     <string name="random_summary_26">It\'s bootloop time!</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
+    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
 </resources>
