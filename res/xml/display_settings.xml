@@ -86,18 +86,10 @@
         android:fragment="com.android.settings.display.AdaptiveSleepSettings"
         settings:controller="com.android.settings.display.AdaptiveSleepPreferenceController" />
 
-    <SwitchPreference
-        android:key="auto_rotate"
-        android:title="@string/accelerometer_title"
-        settings:keywords="@string/keywords_auto_rotate"
-        settings:controller="com.android.settings.display.AutoRotatePreferenceController" />
-
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
-        android:key="lockscreen_rotation"
-        android:title="@string/lockscreen_rotation_title"
-        android:summary="@string/lockscreen_rotation_summary"
-        android:defaultValue="false"
-        android:dependency="auto_rotate" />
+    <Preference
+        android:key="display_rotation"
+        android:fragment="com.android.settings.preference.DisplayRotation"
+        android:title="@string/display_rotation_title" />
 
     <Preference
         android:key="color_mode"
