@@ -19,4 +19,8 @@
     <string name="rom_version">Evolution X version</string>
     <string name="rom_version_default">Unknown</string>
 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+
 </resources>
