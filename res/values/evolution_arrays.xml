@@ -39,4 +39,12 @@
         <item>@string/volume_steps_5</item>
     </string-array>
 
+    <!-- Fingerprint sensor locations.  Devices should configure their sensor location using
+         config_fingerprintSensorLocation -->
+    <string-array name="security_settings_fingerprint_sensor_locations" translatable="false">
+        <item>@string/security_settings_fingerprint_enroll_find_sensor_message</item>
+        <item>@string/security_settings_fingerprint_enroll_find_sensor_message_front</item>
+        <item>@string/security_settings_fingerprint_enroll_find_sensor_message_left</item>
+        <item>@string/security_settings_fingerprint_enroll_find_sensor_message_right</item>
+    </string-array>
 </resources>
