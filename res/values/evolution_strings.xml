@@ -371,4 +371,7 @@ Notifications may be delayed for these apps."</string>
 
     <!-- Search keywords -->
     <string name="keywords_notification_log">notifications, notification log</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
 </resources>
