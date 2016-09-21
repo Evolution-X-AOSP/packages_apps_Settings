@@ -124,6 +124,10 @@
         android:fragment="com.android.settings.display.ScreenZoomSettings"
         settings:searchable="false"/>
 
+    <com.android.settings.display.DensityPreference
+        android:key="density"
+        android:title="@string/developer_smallest_width" />
+
     <SwitchPreference
         android:key="show_operator_name"
         android:title="@string/show_operator_name_title"
