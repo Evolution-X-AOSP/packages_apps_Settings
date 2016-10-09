@@ -51,4 +51,8 @@
     <string name="lockscreen_rotation_title">Auto-rotate lockscreen</string>
     <string name="lockscreen_rotation_summary">Allow rotation on the lockscreen</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
 </resources>
