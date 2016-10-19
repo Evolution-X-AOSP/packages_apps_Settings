@@ -80,6 +80,20 @@
         android:key="visibility_override"
         android:title="@string/app_notification_visibility_override_title"/>
 
+    <!-- Bypass DND -->
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="bypass_dnd"
+        android:title="@string/app_notification_override_dnd_title"
+        android:summary="@string/app_notification_override_dnd_summary"/>
+
+    <com.android.settings.RestrictedListPreference
+        android:key="sound_timeout"
+        android:title="@string/app_notification_sound_timeout_title"
+        android:entries="@array/app_notification_sound_timeout_entries"
+        android:entryValues="@array/app_notification_sound_timeout_values"
+        android:order="1002"
+        android:persistent="false" />
+
     <!-- Lights -->
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="lights"
@@ -113,17 +127,11 @@
         settings:interval="100"
         settings:units="" />
 
-    <!-- Bypass DND -->
-    <com.android.settingslib.RestrictedSwitchPreference
-        android:key="bypass_dnd"
-        android:title="@string/app_notification_override_dnd_title"
-        android:summary="@string/app_notification_override_dnd_summary"/>
-
-        <Preference
-            android:key="app_link"
-            android:order="1003"
-            android:icon="@drawable/ic_settings_24dp"
-            android:title="@string/app_settings_link" />
+    <Preference
+        android:key="app_link"
+        android:order="1003"
+        android:icon="@drawable/ic_settings_24dp"
+        android:title="@string/app_settings_link" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="desc"
