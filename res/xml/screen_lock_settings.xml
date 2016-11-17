@@ -35,6 +35,12 @@
         android:key="visibledots"
         android:title="@string/lockpattern_settings_enable_dots_title"/>
 
+    <!-- available in pin/pattern/password -->
+    <SwitchPreference
+        android:key="lock_pass_to_security_view"
+        android:title="@string/directly_show_lock"
+        android:summary="@string/directly_show_lock_summary" />
+
     <!-- available in pin/password -->
     <SwitchPreference
         android:key="lockscreen_quick_unlock_control"
