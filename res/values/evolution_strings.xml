@@ -689,4 +689,8 @@
     <string name="string_disabled">Disabled</string>
     <string name="string_on">On</string>
     <string name="string_off">Off</string>
+
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>
