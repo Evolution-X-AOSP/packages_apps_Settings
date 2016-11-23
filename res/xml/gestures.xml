@@ -93,6 +93,12 @@
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
+    <Preference
+        android:key="volume_button_music_control_sumary"
+        android:title="@string/volume_button_music_control_title"
+        android:fragment="com.android.settings.gestures.VolumeButtonMusicControlGestureSettings"
+        settings:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />
+
     <com.android.settings.widget.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"
