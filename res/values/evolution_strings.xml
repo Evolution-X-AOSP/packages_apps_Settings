@@ -245,4 +245,6 @@
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
 
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
