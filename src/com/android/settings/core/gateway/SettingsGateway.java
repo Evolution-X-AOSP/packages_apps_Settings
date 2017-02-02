@@ -41,6 +41,7 @@ import com.android.settings.accounts.ManagedProfileSettings;
 import com.android.settings.applications.AppDashboardFragment;
 import com.android.settings.applications.ProcessStatsSummary;
 import com.android.settings.applications.ProcessStatsUi;
+import com.android.settings.applications.RunningServices;
 import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.appcompat.UserAspectRatioDetails;
 import com.android.settings.applications.appinfo.AlarmsAndRemindersDetails;
@@ -398,7 +399,8 @@ public class SettingsGateway {
             LiveDisplaySettings.class.getName(),
             SmartPixels.class.getName(),
             SleepMode.class.getName(),
-            WirelessDebuggingFragment.class.getName()
+            WirelessDebuggingFragment.class.getName(),
+            RunningServices.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -450,5 +452,6 @@ public class SettingsGateway {
             Settings.SmartPixelsActivity.class.getName(),
             Settings.SleepModeActivity.class.getName(),
             Settings.WirelessDebuggingActivity.class.getName(),
+            Settings.DevRunningServicesActivity.class.getName(),
     };
 }
