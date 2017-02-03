@@ -260,4 +260,7 @@
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
     <string name="application_icon">Application icon</string>
+
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
