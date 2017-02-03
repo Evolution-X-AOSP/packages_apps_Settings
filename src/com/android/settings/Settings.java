@@ -327,4 +327,5 @@ public class Settings extends SettingsActivity {
      * Activity for The Evolver
      */
     public static class EvolutionSettingsActivity extends SettingsActivity {}
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
