@@ -54,11 +54,19 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+        "Evolver/src/**/*.java",
+        "Evolver/src/**/*.kt",
+    ],
+
+    aaptflags: ["--extra-packages com.evolution.settings"],
     resource_dirs: [
         "res",
         "res-export", // for external usage
         "res-product",
+        "Evolver/res",
     ],
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -69,7 +77,11 @@ android_library {
         "androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
         "androidx.compose.runtime_runtime-livedata",
+        "androidx.fragment_fragment",
+        "androidx.fragment_fragment-ktx",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
         "androidx.preference_preference",
+        "androidx.preference_preference-ktx",
         "androidx.recyclerview_recyclerview",
         "androidx.window_window",
         "com.google.android.material_material",
@@ -96,8 +108,11 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "android.hardware.dumpstate-V1-java",
         "lottie",
+        "kotlinx_coroutines_android",
+        "kotlinx_coroutines",
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
+        "SettingsLibMainSwitchPreference",
         "Settings-change-ids",
         "androidx.room_room-runtime",
         "SystemUIUnfoldLib",
@@ -109,6 +124,9 @@ android_library {
         "telephony-common",
         "ims-common",
     ],
+    optimize: {
+        proguard_flags_files: ["proguard-core.flags"],
+    },
 }
 
 platform_compat_config {
