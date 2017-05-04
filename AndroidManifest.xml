@@ -3417,6 +3417,19 @@
                        android:value="com.android.settings.sound.MediaControlsSettings" />
         </activity>
 
+        <!-- The Evolver -->
+        <activity android:name=".Settings$EvolutionSettingsActivity"
+            android:label="@string/evolver_dashboard_title"
+            android:icon="@drawable/ic_homepage_evolution"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="31">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.evolution.settings.EvolutionSettings" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
