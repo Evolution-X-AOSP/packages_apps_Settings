@@ -30,4 +30,8 @@
     <string name="build_maintainer">Build maintainer</string>
     <string name="build_maintainer_summary">Unknown</string>
 
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">The Evolver</string>
+    <string name="evolver_dashboard_summary">Time to continue the Evolution of your device</string>
+
 </resources>
