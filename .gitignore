@@ -1,3 +1,4 @@
 .idea/
 *.code-workspace
 *.iml
+Evolver/*
