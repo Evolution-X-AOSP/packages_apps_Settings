@@ -22,6 +22,15 @@
     android:title="Settings">
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="com.evolution.settings.EvolutionSettings"
+        android:icon="@drawable/ic_settings_evolution"
+        android:key="top_level_evolver"
+        android:order="-160"
+        android:title="@string/evolver_dashboard_title"
+        android:summary="@string/evolver_dashboard_summary"
+        settings:controller="com.evolution.settings.TopLevelEvolutionSettingsPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"
         android:key="top_level_network"
