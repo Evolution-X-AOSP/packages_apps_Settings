@@ -126,6 +126,14 @@
         settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
 
     <Preference
+        android:key="top_level_evolution"
+        android:title="@string/evolution_settings_title"
+        android:summary="@string/evolution_settings_summary"
+        android:icon="@drawable/ic_homepage_evolution"
+        android:order="9"
+        android:fragment="com.evolution.settings.EvolutionSettings"/>
+
+    <Preference
         android:key="top_level_system"
         android:title="@string/header_category_system"
         android:summary="@string/system_dashboard_summary"
