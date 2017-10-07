@@ -172,12 +172,14 @@
             android:title="@string/notification_badging_title"
             settings:controller="com.android.settings.notification.BadgingNotificationPreferenceController"/>
 
-        <!-- Pulse notification light, on devices that support it -->
-        <SwitchPreferenceCompat
-            android:key="notification_pulse"
+        <!-- Notification light, on devices that support it -->
+        <Preference
+            android:key="notification_lights"
             android:order="24"
-            android:title="@string/notification_pulse_title"
-            settings:controller="com.android.settings.notification.PulseNotificationPreferenceController"/>
+            android:title="@string/notification_light_title"
+            android:summary="@string/notification_light_summary"
+            android:fragment="com.android.settings.evolution.notificationlight.NotificationLightSettings"
+            settings:controller="com.android.settings.evolution.notificationlight.NotificationLightPreferenceController" />
 
         <SwitchPreferenceCompat
             android:key="notification_assistant"
