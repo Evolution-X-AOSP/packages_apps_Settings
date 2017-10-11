@@ -42,6 +42,7 @@ import android.util.Log;
 import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.OnLifecycleEvent;
 
+import com.android.internal.util.evolution.EvolutionUtils;
 import com.android.settings.R;
 import com.android.settings.bluetooth.Utils;
 import com.android.settingslib.bluetooth.A2dpProfile;
@@ -49,7 +50,6 @@ import com.android.settingslib.bluetooth.BluetoothUtils;
 import com.android.settingslib.bluetooth.LocalBluetoothManager;
 import com.android.settingslib.bluetooth.LocalBluetoothProfileManager;
 import com.android.settingslib.media.MediaOutputConstants;
-import com.android.settings.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -141,7 +141,7 @@ public class VolumePanel implements PanelContent, LifecycleObserver {
         uris.add(MEDIA_OUTPUT_INDICATOR_SLICE_URI);
         uris.add(VOLUME_CALL_URI);
         uris.add(VOLUME_RINGER_URI);
-        if (Utils.isVoiceCapable(mContext) && Settings.Secure.getInt(
+        if (EvolutionUtils.isVoiceCapable(mContext) && Settings.Secure.getInt(
                 mContext.getContentResolver(), Settings.Secure.VOLUME_LINK_NOTIFICATION, 1) == 0) {
             uris.add(VOLUME_NOTIFICATION_URI);
         }
