@@ -93,7 +93,7 @@
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
-        android:order="-133"
+        android:order="-138"
         settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
 
     <!-- Volume panel to left -->
@@ -101,8 +101,24 @@
         android:key="volume_panel_on_left"
         android:title="@string/volume_panel_on_left_title"
         android:defaultValue="false"
-        android:order="-132"
+        android:order="-137"
         settings:controller="com.android.settings.sound.VolumePanelOnLeftPreferenceController"/>
+
+    <!-- Increasing ring -->
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="increasing_ring"
+        android:title="@string/increasing_ring_volume_option_title"
+        android:defaultValue="false"
+        android:order="-136"
+        settings:controller="com.android.settings.notification.IncreasingRingPreferenceController" />
+
+    <!-- Increasing ring volume -->
+    <com.android.settings.notification.IncreasingRingVolumePreference
+        android:key="increasing_ring_volume"
+        android:icon="@drawable/ring_notif_increasing"
+        android:dependency="increasing_ring"
+        android:order="-135"
+        settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
 
     <!-- Also vibrate for calls -->
     <Preference

@@ -184,4 +184,9 @@
     <string name="doubletap_lockscreen_screen_title">Switch screen off</string>
     <string name="doubletap_lockscreen_title">Double tap to sleep on lockscreen</string>
     <string name="doubletap_lockscreen_summary">Double tap on lockscreen empty areas to switch the screen off</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 </resources>

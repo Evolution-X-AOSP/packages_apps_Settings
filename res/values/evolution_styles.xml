@@ -20,4 +20,12 @@
         <item name="android:textColor">@color/primary_dark_material_light</item>
         <item name="android:lineSpacingMultiplier">1.2</item>
     </style>
+
+    <style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay.SettingsBase">
+        <item name="customPreferenceStyle">@style/CustomPreference</item>
+    </style>
+
+    <style name="CustomPreference" parent="Preference.Material">
+        <item name="allowDividerAbove">false</item>
+    </style>
 </resources>
