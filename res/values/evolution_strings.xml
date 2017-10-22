@@ -706,4 +706,7 @@
     <string name="battery_maximum_capacity">Maximum capacity</string>
     <string name="battery_maximum_capacity_summary" translatable="false">%1$d mAh (%2$d%%)</string>
     <string name="battery_maximum_capacity_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
+
+    <!-- Charger haptic feedback -->
+    <string name="charger_haptic_feedback_title">Vibrate on charger connection changes</string>
 </resources>
