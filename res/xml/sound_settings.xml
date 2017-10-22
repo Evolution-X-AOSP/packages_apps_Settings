@@ -162,6 +162,11 @@
           android:key="charging_sounds"
           android:title="@string/charging_sounds_title"/>
 
+        <!-- Charging vibro -->
+        <SwitchPreference
+          android:key="charging_vibro"
+          android:title="@string/charging_vibro_title" />
+
         <!-- Docking sounds -->
         <SwitchPreference
           android:key="docking_sounds"
@@ -176,7 +181,6 @@
         <SwitchPreference
           android:key="vibrate_on_touch"
           android:title="@string/vibrate_on_touch_title"
-          android:summary="@string/vibrate_on_touch_summary"
           settings:keywords="@string/keywords_vibrate_on_touch"/>
 
         <!-- Dock speaker plays -->

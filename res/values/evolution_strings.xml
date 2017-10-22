@@ -39,4 +39,7 @@
     <string name="evolution_settings_title">Evolution settings</string>
     <string name="evolution_settings_summary">Time to evolve your device</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Charging vibration</string>
+
 </resources>
