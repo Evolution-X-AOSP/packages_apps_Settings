@@ -25,4 +25,7 @@
     <!-- Whether SELinux status should be shown or not. -->
     <bool name="config_show_selinux_status">true</bool>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
+
 </resources>
