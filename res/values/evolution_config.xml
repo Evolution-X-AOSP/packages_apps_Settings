@@ -16,4 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Whether build status should be shown or not. -->
     <bool name="config_show_build_status">false</bool>
+
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
 </resources>
