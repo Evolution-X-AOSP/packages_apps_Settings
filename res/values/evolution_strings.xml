@@ -14,9 +14,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- Hardware info -->
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total RAM</string>
@@ -56,4 +54,7 @@
     <!-- Battery temperature -->
     <string name="battery_temp">Battery temperature</string>
 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>
