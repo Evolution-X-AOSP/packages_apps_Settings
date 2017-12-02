@@ -20,6 +20,8 @@ import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.os.Bundle;
 
+import androidx.preference.Preference;
+
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
@@ -46,6 +48,8 @@ public class DisplaySettings extends DashboardFragment {
     private static final String KEY_HIGH_TOUCH_POLLING_RATE = "high_touch_polling_rate_enable";
     private static final String KEY_HIGH_TOUCH_SENSITIVITY = "high_touch_sensitivity_enable";
 
+    public static final String KEY_PROXIMITY_ON_WAKE = "proximity_on_wake";
+
     @Override
     public int getMetricsCategory() {
         return SettingsEnums.DISPLAY;
@@ -64,6 +68,15 @@ public class DisplaySettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+
+        final Preference proximityWakePreference =
+                (Preference) getPreferenceScreen().findPreference(KEY_PROXIMITY_ON_WAKE);
+        final boolean enableProximityOnWake =
+                getResources().getBoolean(com.android.internal.R.bool.config_proximityCheckOnWake);
+
+        if (!enableProximityOnWake && proximityWakePreference != null){
+            getPreferenceScreen().removePreference(proximityWakePreference);
+        }
     }
 
     @Override
@@ -96,6 +109,10 @@ public class DisplaySettings extends DashboardFragment {
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
+                    if (!context.getResources().getBoolean(
+                            com.android.internal.R.bool.config_proximityCheckOnWake)) {
+                        keys.add(KEY_PROXIMITY_ON_WAKE);
+                    }
                     LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
                     if (!hardware.isSupported(
                             LineageHardwareManager.FEATURE_HIGH_TOUCH_POLLING_RATE)) {
