@@ -84,7 +84,7 @@ public class LightsPreferenceController extends NotificationPreferenceController
             return false;
         }
         return Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.NOTIFICATION_LIGHT_PULSE, 0) == 1;
+                Settings.System.NOTIFICATION_LIGHT_PULSE, 1) == 1;
     }
 
 }
