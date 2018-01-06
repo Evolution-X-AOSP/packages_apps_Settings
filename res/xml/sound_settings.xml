@@ -111,19 +111,27 @@
         android:order="-135"
         settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
 
+    <!-- Volume Steps -->
+    <Preference
+        android:key="volume_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.android.settings.sound.VolumeSteps"
+        android:order="-130" />
+
     <!-- Also vibrate for calls -->
     <SwitchPreference
         android:key="vibrate_when_ringing"
         android:title="@string/vibrate_when_ringing_title"
         settings:controller="com.android.settings.notification.VibrateWhenRingPreferenceController"
-        android:order="-130"/>
+        android:order="-120"/>
 
     <!-- Interruptions -->
     <com.android.settingslib.RestrictedPreference
         android:key="zen_mode"
         android:title="@string/zen_mode_settings_title"
         android:fragment="com.android.settings.notification.ZenModeSettings"
-        android:order="-120"
+        android:order="-110"
         settings:useAdminDisabledSummary="true"
         settings:keywords="@string/keywords_sounds_and_notifications_interruptions"
         settings:allowDividerAbove="true"
@@ -132,7 +140,7 @@
     <Preference
         android:key="gesture_prevent_ringing_sound"
         android:title="@string/gesture_prevent_ringing_sound_title"
-        android:order="-110"
+        android:order="-105"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
 
