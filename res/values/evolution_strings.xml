@@ -41,4 +41,7 @@
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 </resources>
