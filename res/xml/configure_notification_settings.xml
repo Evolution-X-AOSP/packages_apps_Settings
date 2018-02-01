@@ -86,6 +86,10 @@
         android:order="15"
         settings:initialExpandedChildrenCount="0">
 
+        <Preference
+            android:title="@string/notification_log_title"
+            android:fragment="com.android.settings.notification.NotificationStation" />
+
         <SwitchPreference
             android:key="show_snooze_options"
             android:title="@string/snooze_options_title"
