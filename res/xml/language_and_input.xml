@@ -77,6 +77,13 @@
             android:fragment="com.android.settings.tts.TextToSpeechSettings"
             settings:searchable="false"/>
 
+        <com.evolution.settings.preference.SecureSettingSwitchPreference
+            android:key="feature_touch_hovering"
+            android:title="@string/touchscreen_hovering_title"
+            android:summary="@string/touchscreen_hovering_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.touch.TouchHoveringSettingsPreferenceController" />
+
     </PreferenceCategory>
 
     <SwitchPreference
