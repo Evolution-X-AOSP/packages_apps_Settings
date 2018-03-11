@@ -146,4 +146,12 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
     <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
+    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
+    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
 </resources>
