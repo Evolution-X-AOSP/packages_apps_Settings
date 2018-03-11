@@ -203,6 +203,13 @@
             android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
             settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
 
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="high_touch_sensitivity_enable"
+            android:title="@string/high_touch_sensitivity_title"
+            android:summary="@string/high_touch_sensitivity_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.custom.touch.HighTouchSensitivitySettingsPreferenceController" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
