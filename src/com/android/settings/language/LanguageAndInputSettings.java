@@ -40,6 +40,8 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.android.internal.custom.hardware.LineageHardwareManager;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -54,6 +56,7 @@ public class LanguageAndInputSettings extends DashboardFragment {
     private static final String KEY_ON_DEVICE_RECOGNITION = "odsr_settings";
     private static final String KEY_TEXT_TO_SPEECH = "tts_settings_summary";
     private static final String KEY_POINTER_CATEGORY = "pointer_category";
+    private static final String KEY_TOUCH_HOVERING = "feature_touch_hovering";
 
     @Override
     public int getMetricsCategory() {
@@ -163,6 +166,16 @@ public class LanguageAndInputSettings extends DashboardFragment {
                 protected boolean isPageSearchEnabled(Context context) {
                     return !FeatureFlagUtils
                             .isEnabled(context, FeatureFlagUtils.SETTINGS_NEW_KEYBOARD_UI);
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
+                    if (!hardware.isSupported(LineageHardwareManager.FEATURE_TOUCH_HOVERING)) {
+                        keys.add(KEY_TOUCH_HOVERING);
+                    }
+                    return keys;
                 }
             };
 }
