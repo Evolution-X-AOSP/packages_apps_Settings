@@ -386,4 +386,7 @@ Notifications may be delayed for these apps."</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network</string>
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>
