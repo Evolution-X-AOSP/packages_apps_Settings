@@ -290,4 +290,7 @@
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
 
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
 </resources>
