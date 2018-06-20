@@ -164,4 +164,10 @@
     <string name="refresh_rate_summary_90">90Hz / Refresh rate locked at 90Hz for all content. Increased battery usage</string>
     <string name="auto_refresh_rate">Auto</string>
 
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+
 </resources>
