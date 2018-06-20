@@ -29,4 +29,10 @@
     <!-- ROM version -->
     <string name="rom_version">Evolution X version</string>
     <string name="rom_version_default">Unknown</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
 </resources>
