@@ -20,4 +20,7 @@
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total RAM</string>
 
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Evolution X version</string>
+
 </resources>
