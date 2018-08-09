@@ -21,6 +21,13 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Evolution X logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="evolution_logo"
+        android:layout="@layout/evolution_logo"
+        android:clickable="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXLogoPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -29,6 +36,16 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+
+    <!-- Evolution X version -->
+    <Preference
+        android:key="evolution_version"
+        android:title="@string/evolution_version"
+        android:summary="@string/summary_placeholder"
+        android:fragment="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionSettings"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
