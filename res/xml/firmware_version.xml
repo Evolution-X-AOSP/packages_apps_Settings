@@ -37,6 +37,15 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- Evolution X version -->
+    <Preference
+        android:key="evolution_x_version"
+        android:title="@string/evolution_x_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionDetailPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
