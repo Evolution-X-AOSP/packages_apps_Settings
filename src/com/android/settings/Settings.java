@@ -179,11 +179,12 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class EvolutionSettingsActivity extends SettingsActivity {}
     public static class LockscreenDisplayActivity extends SettingsActivity { /* empty */ }
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+    public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
 
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 
     // Gaming mode
     public static class GamingModeActivity extends SettingsActivity {}
-    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
