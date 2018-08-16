@@ -41,7 +41,8 @@ public class BasebandVersionPreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(BASEBAND_PROPERTY,
-                mContext.getString(R.string.device_info_default));
+        return BasebandFormatter.getFormattedBaseband(
+                    SystemProperties.get(BASEBAND_PROPERTY,
+                    mContext.getString(R.string.device_info_default)));
     }
 }
