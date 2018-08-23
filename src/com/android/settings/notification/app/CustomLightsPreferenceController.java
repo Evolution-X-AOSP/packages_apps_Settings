@@ -16,28 +16,36 @@
 
 package com.android.settings.notification.app;
 
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.provider.Settings;
-
 import androidx.preference.Preference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.notification.NotificationBackend;
-import com.android.settingslib.RestrictedSwitchPreference;
 
-public class LightsPreferenceController extends NotificationPreferenceController
+import com.android.settingslib.RestrictedSwitchPreference;
+import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnResume;
+
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
+
+public class CustomLightsPreferenceController extends NotificationPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
-    private static final String KEY_LIGHTS = "lights";
+    private static final String KEY_CUSTOM_LIGHT = "custom_light";
 
-    public LightsPreferenceController(Context context, NotificationBackend backend) {
+    private int mLedColor = 0;
+
+    public CustomLightsPreferenceController(Context context, NotificationBackend backend) {
         super(context, backend);
     }
 
     @Override
     public String getPreferenceKey() {
-        return KEY_LIGHTS;
+        return KEY_CUSTOM_LIGHT;
     }
 
     @Override
@@ -54,19 +62,23 @@ public class LightsPreferenceController extends NotificationPreferenceController
 
     public void updateState(Preference preference) {
         if (mChannel != null) {
-            RestrictedSwitchPreference pref = (RestrictedSwitchPreference) preference;
-            pref.setDisabledByAdmin(mAdmin);
-            pref.setEnabled(!pref.isDisabledByAdmin());
-            pref.setChecked(mChannel.shouldShowLights());
+             //light color pref
+            ColorPickerPreference mCustomLight = (ColorPickerPreference) preference;
+            int defaultLightColor = mContext.getResources().getColor(com.android.internal.R.color.config_defaultNotificationColor);
+            mCustomLight.setDefaultValue(defaultLightColor);
+            mLedColor = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : defaultLightColor);
+            mCustomLight.setAlphaSliderEnabled(false);
+            mCustomLight.setNewPreviewColor(mLedColor);
         }
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (mChannel != null) {
-            final boolean lights = (Boolean) newValue;
-            mChannel.enableLights(lights);
+            mLedColor = ((Integer) newValue).intValue();
+            mChannel.setLightColor(mLedColor);
             saveChannel();
+            showLedPreview();
         }
         return true;
     }
@@ -77,7 +89,18 @@ public class LightsPreferenceController extends NotificationPreferenceController
             return false;
         }
         return Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.NOTIFICATION_LIGHT_PULSE, 0) == 1;
+                Settings.System.NOTIFICATION_LIGHT_PULSE, 1) == 1;
+    }
+
+    private void showLedPreview() {
+        if (mChannel.shouldShowLights()) {
+            if (mLedColor == 0xFFFFFFFF) {
+                // i've no idea why atm but this is needed
+                mLedColor = 0xffffff;
+            }
+            mNm.forcePulseLedLight(
+                    mLedColor, mChannel.getLightOnTime(), mChannel.getLightOffTime());
+        }
     }
 
 }
