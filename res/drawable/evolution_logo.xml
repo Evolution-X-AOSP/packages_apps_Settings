@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:api24="http://schemas.android.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="960dp"
+    android:height="240dp"
+    android:viewportWidth="960"
+    android:viewportHeight="240">
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M847.5,47l-29.75,0l-22.75,38.5l-22.75,-38.5l-29.75,0l36.75,61.25l-36.75,61.25l29.75,0l22.75,-38.5l22.75,38.5l29.75,0l-36.75,-61.25l36.75,-61.25z"/>
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M231.5,146.75l28,-61.25h21l-38.5,84H215.75l-19.25,-84h21Z"/>
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M289.43,168.12a34.32,34.32 0,0 1,-13.05 -13.25,38.05 38.05,0 0,1 -4.63,-18.76 49.12,49.12 0,0 1,5.87 -23.94,43.19 43.19,0 0,1 16.52,-17A48,48 0,0 1,318.69 89a38,38 0,0 1,19.38 4.88,34.32 34.32,0 0,1 13.05,13.25 38.05,38.05 0,0 1,4.63 18.76,49.23 49.23,0 0,1 -5.87,23.94 43.19,43.19 0,0 1,-16.52 17,48 48,0 0,1 -24.55,6.2A38,38 0,0 1,289.43 168.12ZM323.32,150.84a24.28,24.28 0,0 0,8.8 -9.46,27.65 27.65,0 0,0 3.25,-13.33q0,-8.82 -5.1,-14.49t-13.89,-5.65a22.9,22.9 0,0 0,-12.2 3.41,24.44 24.44,0 0,0 -8.8,9.37 27.23,27.23 0,0 0,-3.25 13.25q0,9 5.1,14.65t13.9,5.66A22.89,22.89 0,0 0,323.32 150.84Z"/>
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M375,57.5h21l-19.25,112h-21Z"/>
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M435.26,168.07c-4.28,2.32 -13.36,3.18 -19,3.18q-12.27,0 -18.87,-7t-6.61,-17.88a57.52,57.52 0,0 1,0.79 -9.74l8,-49.35h21L412.61,134a25.71,25.71 0,0 0,-0.62 6.07,11.26 11.26,0 0,0 3.46,8.46 12.51,12.51 0,0 0,9.12 3.36q9.12,0 14.79,-6.15t7.55,-17l6.84,-41.52h21l-14,82.25H441.5l1.23,-8.66A22.29,22.29 0,0 1,435.26 168.07Z"/>
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M518.5,166c-4,3.5 -7.9,5.25 -12.92,5.25q-10.15,0 -16.08,-6t-5.92,-17.51a67.05,67.05 0,0 1,0.77 -8.79l6.15,-34.19H478.25l3.5,-17.5H494l5.25,-28H518.5l-5.25,28H532.5l-3.5,17.5H509.75l-5.25,33.17c-0.21,2.48 -0.31,3.84 -0.31,4.06 0,2.6 -0.42,6.9 1.18,8.68 4.38,4.85 7.88,1.34 7.88,1.34Z"/>
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M539.5,87.25h21l-14,82.25h-21ZM544.29,77.19a10.54,10.54 0,1 1,7.4 3.06A10.15,10.15 0,0 1,544.29 77.19Z"/>
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M578.18,168.12a34.32,34.32 0,0 1,-13 -13.25,38.05 38.05,0 0,1 -4.63,-18.76 49.12,49.12 0,0 1,5.87 -23.94,43.19 43.19,0 0,1 16.52,-17A48,48 0,0 1,607.44 89a38,38 0,0 1,19.38 4.88,34.32 34.32,0 0,1 13,13.25 38.05,38.05 0,0 1,4.63 18.76,49.23 49.23,0 0,1 -5.87,23.94 43.19,43.19 0,0 1,-16.52 17,48 48,0 0,1 -24.55,6.2A38,38 0,0 1,578.18 168.12ZM612.07,150.84a24.28,24.28 0,0 0,8.8 -9.46,27.65 27.65,0 0,0 3.25,-13.33q0,-8.82 -5.1,-14.49t-13.89,-5.65a22.9,22.9 0,0 0,-12.2 3.41,24.44 24.44,0 0,0 -8.8,9.37 27.23,27.23 0,0 0,-3.25 13.25q0,9 5.1,14.65t13.9,5.66A22.89,22.89 0,0 0,612.07 150.84Z"/>
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M685.26,89.47a38.62,38.62 0,0 1,17.76 -4c8.18,0 15.06,4.37 19.47,9.06s6,8.61 6,15.85a76.14,76.14 0,0 1,-0.79 9.9l-8,49.19h-21l7.89,-46.79a25,25 0,0 0,0.62 -6.07,11.07 11.07,0 0,0 -3.46,-8.3 12.51,12.51 0,0 0,-9.12 -3.36q-9.12,0 -14.79,6.15T672.34,128L665.5,169.5h-21l14,-82.25h21l-1.75,7A46.87,46.87 0,0 1,685.26 89.47Z"/>
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M180.4,145l-5.6,24.5l-62.3,-55.3l5.6,-21l61.6,0l16.8,21l-51.1,0l35,30.8z"/>
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M115.3,47l81.2,0l-5.6,21l-53.2,0l-22.4,-21z"/>
+</vector>
