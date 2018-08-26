@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- ROM version -->
+    <string name="build_date">Build date</string>
     <string name="rom_version">Evolution X version</string>
     <string name="rom_version_default">Unknown</string>
 
