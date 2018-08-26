@@ -23,4 +23,7 @@
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Evolution X version</string>
 
+    <!-- About device screen, Build date -->
+    <string name="build_date">Build date</string>
+
 </resources>
