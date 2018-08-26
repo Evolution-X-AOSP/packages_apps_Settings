@@ -28,6 +28,7 @@
 
     <!-- ROM version -->
     <string name="about_device_name">Device</string>
+    <string name="build_date">Build date</string>
     <string name="rom_version">Evolution X version</string>
     <string name="rom_version_default">Unknown</string>
 
