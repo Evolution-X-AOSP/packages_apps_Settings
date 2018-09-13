@@ -38,7 +38,7 @@ public class TransitionAnimationScalePreferenceController extends
     @VisibleForTesting
     static final int TRANSITION_ANIMATION_SCALE_SELECTOR = 1;
     @VisibleForTesting
-    static final float DEFAULT_VALUE = 0.5f;
+    static final float DEFAULT_VALUE = 0.25f;
 
     private final IWindowManager mWindowManager;
     private final String[] mListValues;
