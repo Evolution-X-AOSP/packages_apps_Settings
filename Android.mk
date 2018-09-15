@@ -61,12 +61,6 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages com.evolution.settings
 
-ifneq ($(INCREMENTAL_BUILDS),)
-    LOCAL_PROGUARD_ENABLED := disabled
-    LOCAL_JACK_ENABLED := incremental
-    LOCAL_JACK_FLAGS := --multi-dex native
-endif
-
 include frameworks/base/packages/SettingsLib/common.mk
 include frameworks/base/packages/SettingsLib/search/common.mk
 
