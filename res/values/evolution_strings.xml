@@ -79,4 +79,8 @@
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Home button wake-up</string>
+    <string name="home_wake_button_summary">Enable home button to waking up screen</string>
+
 </resources>
