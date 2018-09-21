@@ -175,6 +175,11 @@
             android:summary="@string/wake_when_plugged_or_unplugged_summary"
             android:defaultValue="true" />
 
+        <SwitchPreference
+            android:key="home_wake_button"
+            android:title="@string/home_wake_button_title"
+            android:summary="@string/home_wake_button_summary" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"

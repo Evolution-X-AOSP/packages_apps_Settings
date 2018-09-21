@@ -210,4 +210,8 @@
     <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Home button wake-up</string>
+    <string name="home_wake_button_summary">Enable home button to waking up screen</string>
 </resources>
