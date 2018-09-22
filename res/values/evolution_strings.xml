@@ -319,4 +319,7 @@
     <string name="bluetooth_timeout_summary_2hours">2 hours</string>
     <string name="bluetooth_timeout_summary_4hours">4 hours</string>
     <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
 </resources>
