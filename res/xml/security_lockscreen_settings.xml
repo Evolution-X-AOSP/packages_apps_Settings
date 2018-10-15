@@ -53,6 +53,12 @@
             android:summary="@string/lockdown_settings_summary"
             settings:controller="com.android.settings.security.LockdownButtonPreferenceController" />
 
+        <com.evolution.settings.preference.SystemSettingSwitchPreference 
+            android:key="ambient_battery_percent" 
+            android:title="@string/ambient_battery_percent_title" 
+            android:summary="@string/ambient_battery_percent_summary" 
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
