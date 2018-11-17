@@ -118,6 +118,7 @@
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="custom_light"
             android:dependency="lights"
+            ledPreview="true"
             android:order="18"
             android:title="@string/custom_light_title"
             settings:defaultColorValue="0xFFFFFFFF" />
