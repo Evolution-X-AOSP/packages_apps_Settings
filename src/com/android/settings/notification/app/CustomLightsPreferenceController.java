@@ -57,7 +57,7 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
             return false;
         }
         return checkCanBeVisible(NotificationManager.IMPORTANCE_DEFAULT)
-                && canPulseLight();
+                && canPulseLight() && isMultiColorLed();
     }
 
     @Override
@@ -95,6 +95,11 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
         }
         return Settings.System.getInt(mContext.getContentResolver(),
                 Settings.System.NOTIFICATION_LIGHT_PULSE, 1) == 1;
+    }
+
+    boolean isMultiColorLed() {
+        return mContext.getResources()
+                .getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed);
     }
 
     private void showLedPreview() {
