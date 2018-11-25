@@ -187,6 +187,12 @@
             android:summary="@string/proximity_wake_summary"
             android:defaultValue="@*android:bool/config_proximityCheckOnWakeEnabledByDefault" />
 
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="wake_when_plugged_or_unplugged"
+            android:title="@string/wake_when_plugged_or_unplugged_title"
+            android:summary="@string/wake_when_plugged_or_unplugged_summary"
+            android:defaultValue="true" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
