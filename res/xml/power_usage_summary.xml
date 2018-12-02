@@ -50,6 +50,12 @@
         android:title="@string/smart_charging_title"
         android:summary="@string/smart_charging_summary" />
 
+    <Preference
+        android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings"
+        android:key="battery_charge_sound"
+        android:title="@string/notification_battery_charge_level_title"
+        android:summary="@string/notification_battery_charge_level_summary" />
+
     <com.evolution.settings.preference.SystemSettingSwitchPreference
         android:key="battery_24_hrs_stats"
         android:title="@string/advanced_battery_preference_summary_with_hours"
