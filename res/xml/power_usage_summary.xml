@@ -59,6 +59,14 @@
         android:fragment="com.android.settings.health.ChargingControlSettings"
         settings:controller="com.android.settings.health.ChargingControlPreferenceController" />
 
+    <com.evolution.settings.preference.SystemSettingPrimarySwitchPreference
+        android:key="battery_level_charge_alarm_enabled"
+        android:title="@string/notification_battery_charge_level_title"
+        android:summary="@string/notification_battery_charge_level_summary"
+        android:defaultValue="false"
+        android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings"
+        settings:observe="true" />
+
     <!-- Sleep Mode -->
     <Preference
         android:key="sleep_mode"
@@ -67,7 +75,8 @@
 
     <Preference
         android:key="high_power_apps"
-        android:title="@string/high_power_apps">
+        android:title="@string/high_power_apps"
+        android:summary="@string/high_power_apps_summary">
         <intent android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS" />
     </Preference>
 
