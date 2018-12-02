@@ -70,6 +70,12 @@
         android:summary="@string/idle_manager_summary"
         android:defaultValue="false" />
 
+    <Preference
+        android:key="battery_charge_sound"
+        android:title="@string/notification_battery_charge_level_title"
+        android:summary="@string/notification_battery_charge_level_summary"
+        android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="battery_temp"
         android:title="@string/battery_temp"
