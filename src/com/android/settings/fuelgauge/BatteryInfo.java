@@ -250,6 +250,8 @@ public class BatteryInfo {
         final long chargeTime = stats.computeChargeTimeRemaining(elapsedRealtimeUs);
         final int status = batteryBroadcast.getIntExtra(BatteryManager.EXTRA_STATUS,
                 BatteryManager.BATTERY_STATUS_UNKNOWN);
+        final boolean dashChargeStatus = batteryBroadcast.getBooleanExtra(
+                BatteryManager.EXTRA_DASH_CHARGER, false);
         info.discharging = false;
         info.suggestionLabel = null;
         if (chargeTime > 0 && status != BatteryManager.BATTERY_STATUS_FULL) {
@@ -257,8 +259,9 @@ public class BatteryInfo {
             CharSequence timeString = StringUtil.formatElapsedTime(context,
                     PowerUtil.convertUsToMs(info.remainingTimeUs), false /* withSeconds */);
             int resId = R.string.power_charging_duration;
-            info.remainingLabel = context.getString(
-                    R.string.power_remaining_charging_duration_only, timeString);
+            info.remainingLabel = dashChargeStatus
+                    ? context.getString(R.string.power_remaining_dash_charging_duration_only, timeString)
+                    : context.getString(R.string.power_remaining_charging_duration_only, timeString);
             info.chargeLabel = context.getString(resId, info.batteryPercentString, timeString);
         } else {
             final String chargeStatusLabel = resources.getString(
