@@ -245,6 +245,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         restartBatteryInfoLoader();
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
+        updateBatteryTempPreference();
     }
 
     @Override
@@ -257,15 +258,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                         .launch();
             return true;
         } else if (KEY_BATTERY_TEMP.equals(preference.getKey())) {
-            if (batteryTemp) {
-                mBatteryTemp.setSubtitle(
-                    com.android.internal.util.evolution.EvolutionUtils.batteryTemperature(getContext(), false));
-                batteryTemp = false;
-            } else {
-                mBatteryTemp.setSubtitle(
-                    com.android.internal.util.evolution.EvolutionUtils.batteryTemperature(getContext(), true));
-                batteryTemp = true;
-            }
+            updateBatteryTempPreference();
         }
         return super.onPreferenceTreeClick(preference);
     }
@@ -352,10 +345,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
         updateLastFullChargePreference();
+        updateBatteryTempPreference();
         mScreenUsagePref.setSummary(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
-        mBatteryTemp.setSubtitle(
-                com.android.internal.util.evolution.EvolutionUtils.batteryTemperature(getContext(), batteryTemp));
 
         final long elapsedRealtimeUs = SystemClock.elapsedRealtime() * 1000;
         Intent batteryBroadcast = context.registerReceiver(null,
@@ -390,6 +382,19 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
             mLastFullChargePref.setSummary(
                     StringUtil.formatRelativeTime(getContext(), lastFullChargeTime,
                             false /* withSeconds */));
+        }
+    }
+
+    @VisibleForTesting
+    void updateBatteryTempPreference() {
+        if (batteryTemp) {
+            mBatteryTemp.setSubtitle(
+                com.android.internal.util.evolution.EvolutionUtils.batteryTemperature(getContext(), false));
+            batteryTemp = false;
+        } else {
+            mBatteryTemp.setSubtitle(
+                com.android.internal.util.evolution.EvolutionUtils.batteryTemperature(getContext(), true));
+            batteryTemp = true;
         }
     }
 
