@@ -113,8 +113,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     BatteryTipPreferenceController mBatteryTipPreferenceController;
     private int mStatsType = BatteryStats.STATS_SINCE_CHARGED;
 
-    private boolean batteryTemp = false;
-
     @VisibleForTesting
     final ContentObserver mSettingsObserver = new ContentObserver(new Handler()) {
         @Override
@@ -242,7 +240,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         restartBatteryInfoLoader();
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
-        updateBatteryTempPreference();
     }
 
     @Override
@@ -254,8 +251,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                         .setTitleRes(R.string.advanced_battery_title)
                         .launch();
             return true;
-        } else if (KEY_BATTERY_TEMP.equals(preference.getKey())) {
-            updateBatteryTempPreference();
         }
         return super.onPreferenceTreeClick(preference);
     }
@@ -370,9 +365,12 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
         updateLastFullChargePreference();
-        updateBatteryTempPreference();
         mScreenUsagePref.setSubtitle(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
+        mBatteryTemp.setSubtitle(
+                com.android.internal.util.evolution.EvolutionUtils.mccCheck(getContext()) ?
+                com.android.internal.util.evolution.EvolutionUtils.batteryTemperature(getContext(), true) + "°F" :
+                com.android.internal.util.evolution.EvolutionUtils.batteryTemperature(getContext(), false) + "°C");
     }
 
     @VisibleForTesting
@@ -400,19 +398,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
             mLastFullChargePref.setSubtitle(
                     StringUtil.formatRelativeTime(getContext(), lastFullChargeTime,
                             false /* withSeconds */));
-        }
-    }
-
-    @VisibleForTesting
-    void updateBatteryTempPreference() {
-        if (batteryTemp) {
-            mBatteryTemp.setSubtitle(
-                com.android.internal.util.evolution.EvolutionUtils.batteryTemperature(getContext(), false));
-            batteryTemp = false;
-        } else {
-            mBatteryTemp.setSubtitle(
-                com.android.internal.util.evolution.EvolutionUtils.batteryTemperature(getContext(), true));
-            batteryTemp = true;
         }
     }
 
