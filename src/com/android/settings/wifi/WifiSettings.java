@@ -36,6 +36,7 @@ import android.net.NetworkRequest;
 import android.net.NetworkTemplate;
 import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiManager;
+import android.net.wifi.WpsInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -99,6 +100,8 @@ public class WifiSettings extends RestrictedSettingsFragment
 
     private static final String TAG = "WifiSettings";
 
+    /* package */ static final int MENU_ID_WPS_PBC = Menu.FIRST;
+    private static final int MENU_ID_WPS_PIN = Menu.FIRST + 1;
     private static final int MENU_ID_CONNECT = Menu.FIRST + 6;
     @VisibleForTesting
     static final int MENU_ID_FORGET = Menu.FIRST + 7;
@@ -108,6 +111,9 @@ public class WifiSettings extends RestrictedSettingsFragment
 
     @VisibleForTesting
     static final int ADD_NETWORK_REQUEST = 2;
+    @VisibleForTesting
+    /* package */ static final int WPS_PBC_DIALOG_ID = 3;
+    private static final int WPS_PIN_DIALOG_ID = 4;
 
     // Instance state keys
     private static final String SAVE_DIALOG_MODE = "dialog_mode";
@@ -452,6 +458,24 @@ public class WifiSettings extends RestrictedSettingsFragment
     }
 
     @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // If the user is not allowed to configure wifi, do not handle menu selections.
+        if (mIsRestricted) {
+            return false;
+        }
+
+        switch (item.getItemId()) {
+            case MENU_ID_WPS_PBC:
+                showDialog(WPS_PBC_DIALOG_ID);
+                return true;
+            case MENU_ID_WPS_PIN:
+                showDialog(WPS_PIN_DIALOG_ID);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
     public void onCreateContextMenu(ContextMenu menu, View view, ContextMenuInfo info) {
         Preference preference = (Preference) view.getTag();
 
@@ -599,6 +623,10 @@ public class WifiSettings extends RestrictedSettingsFragment
                         .createModal(getActivity(), this, mDlgAccessPoint, mDialogMode);
                 mSelectedAccessPoint = mDlgAccessPoint;
                 return mDialog;
+            case WPS_PBC_DIALOG_ID:
+                return new WpsDialog(getActivity(), WpsInfo.PBC);
+            case WPS_PIN_DIALOG_ID:
+                return new WpsDialog(getActivity(), WpsInfo.DISPLAY);
         }
         return super.onCreateDialog(dialogId);
     }
@@ -620,6 +648,10 @@ public class WifiSettings extends RestrictedSettingsFragment
         switch (dialogId) {
             case WIFI_DIALOG_ID:
                 return SettingsEnums.DIALOG_WIFI_AP_EDIT;
+            case WPS_PBC_DIALOG_ID:
+                return SettingsEnums.DIALOG_WIFI_PBC;
+            case WPS_PIN_DIALOG_ID:
+                return SettingsEnums.DIALOG_WIFI_PIN;
             default:
                 return 0;
         }

@@ -88,6 +88,8 @@ public class ConfigureWifiSettings extends DashboardFragment {
                 wifiManager));
         controllers.add(new WifiP2pPreferenceController(context, getSettingsLifecycle(),
                 wifiManager));
+        controllers.add(new WpsPreferenceController(
+                context, getSettingsLifecycle(), wifiManager, getFragmentManager()));
         return controllers;
     }
 

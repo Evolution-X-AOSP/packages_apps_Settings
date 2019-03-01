@@ -36,6 +36,7 @@
         <item name="fingerprint_layout_theme">@style/FingerprintLayoutTheme</item>
         <item name="face_layout_theme">@style/FaceLayoutTheme</item>
         <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
+        <item name="ic_wps">@drawable/ic_wps_dark</item>
 
         <!-- For wifi icon -->
         <item name="wifi_signal">@drawable/wifi_signal</item>
