@@ -219,6 +219,15 @@
             android:summary="@string/proximity_wake_summary"
             android:defaultValue="@*android:bool/config_proximityCheckOnWakeEnabledByDefault" />
 
+        <com.evolution.settings.preference.SystemSettingListPreference
+            android:key="display_cutout_hidden"
+            android:title="@string/display_cutout_mode_title"
+            android:summary="%s"
+            android:entries="@array/display_cutout_mode_entries"
+            android:entryValues="@array/display_cutout_mode_values"
+            android:defaultValue="0"
+            settings:controller="com.android.settings.display.DisplayCutoutPreferenceController" />
+
         <Preference
             android:key="display_cutout_force_fullscreen_settings"
             android:title="@string/display_cutout_force_fullscreen_title"
