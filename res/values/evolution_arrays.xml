@@ -184,4 +184,14 @@
         <item>900000</item>
         <item>1800000</item>
     </string-array>
+
+    <!-- Notch behavior -->
+    <string-array name="display_cutout_mode_entries" translatable="false">
+        <item>@string/display_cutout_mode_normal</item>
+        <item>@string/display_cutout_mode_hidden</item>
+    </string-array>
+    <string-array name="display_cutout_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
 </resources>
