@@ -130,6 +130,13 @@
         android:key="density"
         android:title="@string/developer_smallest_width" />
 
+    <Preference
+        android:key="display_cutout_force_fullscreen_settings"
+        android:title="@string/display_cutout_force_fullscreen_title"
+        android:summary="@string/display_cutout_force_fullscreen_summary"
+        android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
+        settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
+
     <SwitchPreference
         android:key="show_operator_name"
         android:title="@string/show_operator_name_title"
