@@ -88,6 +88,12 @@
         settings:controller="com.android.settings.gestures.AdaptivePlaybackParentPreferenceController" />
 
     <Preference
+        android:key="gesture_swipe_to_screenshot_summary"
+        android:title="@string/swipe_to_screenshot_title"
+        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
+        settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
+
+    <Preference
         android:key="touchscreen_gesture_settings"
         android:persistent="false"
         android:title="@string/touchscreen_gesture_settings_title"
