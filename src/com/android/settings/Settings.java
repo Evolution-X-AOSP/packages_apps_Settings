@@ -527,4 +527,7 @@ public class Settings extends SettingsActivity {
      * Activity for PreviouslyConnectedDeviceDashboardFragment
      */
     public static class PreviouslyConnectedDevicesActivity extends SettingsActivity { /* empty */ }
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 }
