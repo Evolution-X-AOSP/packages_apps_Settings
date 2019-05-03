@@ -170,6 +170,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherClientManager;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.evolution.settings.EvolutionSettings;
 import com.evolution.settings.fragments.HeadsUpSettings;
 
@@ -332,7 +333,8 @@ public class SettingsGateway {
             EvolutionSettings.class.getName(),
             HeadsUpSettings.class.getName(),
             RunningServices.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
