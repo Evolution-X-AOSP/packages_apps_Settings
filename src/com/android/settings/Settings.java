@@ -179,4 +179,7 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class EvolutionSettingsActivity extends SettingsActivity {}
 
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
 }
