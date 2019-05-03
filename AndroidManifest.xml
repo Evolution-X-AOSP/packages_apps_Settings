@@ -122,6 +122,9 @@
     <uses-permission android:name="android.permission.START_VIEW_APP_FEATURES" />
     <uses-permission android:name="android.permission.CUSTOMIZE_SYSTEM_UI" />
 
+    <!-- LiveDisplay -->
+    <uses-permission android:name="lineageos.permission.MANAGE_LIVEDISPLAY" />
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -4254,6 +4257,21 @@
                 <action android:name="android.settings.WIFI_ADD_NETWORKS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+
+       <!-- LiveDisplay -->
+        <activity
+            android:name="Settings$LiveDisplaySettingsActivity"
+            android:label="@*android:string/live_display_title"
+            android:parentActivityName="Settings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.LIVEDISPLAY_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.livedisplay.LiveDisplaySettings" />
         </activity>
 
         <provider android:name=".slices.SettingsSliceProvider"
