@@ -109,6 +109,14 @@
             settings:keywords="@string/keywords_display_night_display"/>
 
         <Preference
+            android:key="livedisplay"
+            android:title="@*android:string/live_display_title"
+            android:summary="@string/live_display_summary"
+            settings:controller="com.android.settings.livedisplay.LiveDisplayPreferenceController">
+            <intent android:action="com.android.settings.LIVEDISPLAY_SETTINGS" />
+        </Preference>
+
+        <Preference
             android:key="color_mode"
             android:title="@string/color_mode_title"
             android:fragment="com.android.settings.display.ColorModePreferenceFragment"
