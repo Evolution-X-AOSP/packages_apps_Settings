@@ -131,6 +131,7 @@ import com.android.settings.inputmethod.UserDictionaryList;
 import com.android.settings.inputmethod.UserDictionarySettings;
 import com.android.settings.language.LanguageAndInputSettings;
 import com.android.settings.language.LanguageSettings;
+import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.android.settings.localepicker.LocaleListEditor;
 import com.android.settings.location.LocationServices;
 import com.android.settings.location.LocationSettings;
@@ -379,7 +380,8 @@ public class SettingsGateway {
             ScreenTimeoutSettings.class.getName(),
             EvolutionSettings.class.getName(),
             HeadsUpSettings.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
