@@ -38,6 +38,13 @@
         settings:widgetLayout="@null"/>
 
     <Preference
+        android:key="livedisplay"
+        android:title="@*android:string/live_display_title"
+        android:summary="@string/live_display_summary">
+        <intent android:action="com.android.settings.LIVEDISPLAY_SETTINGS" />
+    </Preference>
+
+    <Preference
         android:key="auto_brightness_entry"
         android:title="@string/auto_brightness_title"
         android:summary="@string/summary_placeholder"
