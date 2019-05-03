@@ -444,4 +444,7 @@ public class Settings extends SettingsActivity {
      */
     public static class EvolutionSettingsActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 }
