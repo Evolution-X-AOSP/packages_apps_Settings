@@ -27,15 +27,28 @@
             android:paddingEnd="20dip"
             android:paddingBottom="20dip">
 
+        <ImageView
+            android:id="@+id/color_mode_preview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/color_mode_preview_height"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:scaleType="centerCrop"
+            android:cropToPadding="true"
+            android:src="@drawable/color_mode_preview"
+            android:contentDescription="@null" />
+
         <TextView android:id="@+id/adj_hue_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/adj_hue_title"
+                android:layout_below="@id/color_mode_preview"
                 android:paddingTop="10dip" />
         <TextView android:id="@+id/adj_hue_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
+                android:layout_below="@id/color_mode_preview"
                 android:paddingTop="10dip" />
         <com.android.settings.IntervalSeekBar
             android:id="@+id/adj_hue_seekbar"
