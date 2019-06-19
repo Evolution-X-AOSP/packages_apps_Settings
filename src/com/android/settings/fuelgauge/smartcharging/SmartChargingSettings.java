@@ -45,20 +45,35 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
 
     private static final String TAG = "SmartChargingSettings";
     private static final String KEY_SMART_CHARGING_LEVEL = "smart_charging_level";
-
+    private static final String KEY_SMART_CHARGING_RESUME_LEVEL = "smart_charging_resume_level";
     private CustomSeekBarPreference mSmartChargingLevel;
+    private CustomSeekBarPreference mSmartChargingResumeLevel;
 
+    private int mSmartChargingLevelDefaultConfig;
+    private int mSmartChargingResumeLevelDefaultConfig;
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        int mSmartChargingLevelDefaultConfig = getResources().getInteger(
+        mSmartChargingLevelDefaultConfig = getResources().getInteger(
                 com.android.internal.R.integer.config_smartChargingBatteryLevel);
+
+        mSmartChargingResumeLevelDefaultConfig = getResources().getInteger(
+                com.android.internal.R.integer.config_smartChargingBatteryResumeLevel);
 
         mSmartChargingLevel = (CustomSeekBarPreference) findPreference(KEY_SMART_CHARGING_LEVEL);
         int currentLevel = Settings.System.getInt(getContentResolver(),
             Settings.System.SMART_CHARGING_LEVEL, mSmartChargingLevelDefaultConfig);
         mSmartChargingLevel.setValue(currentLevel);
         mSmartChargingLevel.setOnPreferenceChangeListener(this);
+
+        mSmartChargingResumeLevel = (CustomSeekBarPreference) findPreference(KEY_SMART_CHARGING_RESUME_LEVEL);
+        int currentResumeLevel = Settings.System.getInt(getContentResolver(),
+            Settings.System.SMART_CHARGING_RESUME_LEVEL, mSmartChargingResumeLevelDefaultConfig);
+        mSmartChargingResumeLevel.setMax(currentLevel - 1);
+        if (currentResumeLevel >= currentLevel) currentResumeLevel = currentLevel -1;
+        mSmartChargingResumeLevel.setValue(currentResumeLevel);
+        mSmartChargingResumeLevel.setOnPreferenceChangeListener(this);
+
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.smart_charging_footer);
     }
 
@@ -81,8 +96,24 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mSmartChargingLevel) {
             int smartChargingLevel = (Integer) objValue;
+            int mChargingResumeLevel = Settings.System.getInt(getContentResolver(),
+                     Settings.System.SMART_CHARGING_RESUME_LEVEL, mSmartChargingResumeLevelDefaultConfig);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.SMART_CHARGING_LEVEL, smartChargingLevel);
+                mSmartChargingResumeLevel.setMax(smartChargingLevel - 1);
+            if (smartChargingLevel <= mChargingResumeLevel) {
+                mSmartChargingResumeLevel.setValue(smartChargingLevel - 1);
+                Settings.System.putInt(getContentResolver(),
+                    Settings.System.SMART_CHARGING_RESUME_LEVEL, smartChargingLevel - 1);
+            }
+            return true;
+        } else if (preference == mSmartChargingResumeLevel) {
+            int smartChargingResumeLevel = (Integer) objValue;
+            int mChargingLevel = Settings.System.getInt(getContentResolver(),
+                     Settings.System.SMART_CHARGING_LEVEL, mSmartChargingLevelDefaultConfig);
+                mSmartChargingResumeLevel.setMax(mChargingLevel - 1);
+               Settings.System.putInt(getContentResolver(),
+                    Settings.System.SMART_CHARGING_RESUME_LEVEL, smartChargingResumeLevel);
             return true;
         } else {
             return false;
