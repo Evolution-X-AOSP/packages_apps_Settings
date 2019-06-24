@@ -338,4 +338,7 @@
     <string name="battery_charge_cycles">Charge cycles completed</string>
 
     <string name="high_power_apps_summary">Per-app battery optimization</string>
+
+    <!-- Cloudflare DNS Option -->
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
 </resources>
