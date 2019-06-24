@@ -379,4 +379,7 @@
     <string name="volume_rocker_music_controls_delay_title">Playback control activation delay</string>
     <string name="gesture_playback_control_delay">delay</string>
     <string name="unit_ms">ms</string>
+
+    <!-- Cloudflare DNS Option -->
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
 </resources>
