@@ -619,4 +619,7 @@
     <!-- global cleartext network traffic -->
     <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
     <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+
+    <!-- Cloudflare DNS -->
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
 </resources>

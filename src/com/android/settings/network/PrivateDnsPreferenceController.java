@@ -17,6 +17,7 @@
 package com.android.settings.network;
 
 import static android.net.ConnectivityManager.PRIVATE_DNS_MODE_OFF;
+import static android.net.ConnectivityManager.PRIVATE_DNS_MODE_CLOUDFLARE;
 import static android.net.ConnectivityManager.PRIVATE_DNS_MODE_OPPORTUNISTIC;
 import static android.net.ConnectivityManager.PRIVATE_DNS_MODE_PROVIDER_HOSTNAME;
 import static android.provider.Settings.Global.PRIVATE_DNS_DEFAULT_MODE;
@@ -125,6 +126,10 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
         switch (mode) {
             case PRIVATE_DNS_MODE_OFF:
                 return res.getString(R.string.private_dns_mode_off);
+            case PRIVATE_DNS_MODE_CLOUDFLARE:
+                return dnsesResolved
+                        ? res.getString(R.string.private_dns_mode_cloudflare)
+                        : res.getString(R.string.private_dns_mode_provider_failure);
             case PRIVATE_DNS_MODE_OPPORTUNISTIC:
                 return dnsesResolved ? res.getString(R.string.private_dns_mode_on)
                         : res.getString(R.string.private_dns_mode_opportunistic);
