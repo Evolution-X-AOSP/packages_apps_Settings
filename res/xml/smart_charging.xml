@@ -44,4 +44,11 @@
         android:defaultValue="60"
         android:dependency="smart_charging" />
 
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="smart_charging_reset_stats"
+        android:title="@string/smart_charging_reset_stats_title"
+        android:summary="@string/smart_charging_reset_stats_summary"
+        android:defaultValue="false"
+        android:dependency="smart_charging" />
+
 </PreferenceScreen>
