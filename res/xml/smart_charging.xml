@@ -26,6 +26,13 @@
         android:title="@string/smart_charging_switch_title"
         android:defaultValue="false" />
 
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="smart_charging_reset_stats"
+        android:title="@string/smart_charging_reset_stats_title"
+        android:summary="@string/smart_charging_reset_stats_summary"
+        android:defaultValue="false"
+        android:dependency="smart_charging" />
+
     <com.evolution.settings.preference.CustomSeekBarPreference
         android:key="smart_charging_level"
         android:title="@string/smart_charging_level_title"
