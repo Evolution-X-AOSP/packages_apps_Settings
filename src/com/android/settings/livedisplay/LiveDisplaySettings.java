@@ -316,6 +316,10 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
     }
 
     private void updateModeSummary() {
+        if (ColorDisplayManager.isNightDisplayAvailable(getContext())) {
+            return; // Do nothing if device has hwc2 support
+        }
+
         int mode = mLiveDisplayManager.getMode();
 
         int index = ArrayUtils.indexOf(mModeValues, String.valueOf(mode));
