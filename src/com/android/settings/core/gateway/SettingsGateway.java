@@ -183,6 +183,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.evolution.settings.EvolutionSettings;
 import com.evolution.settings.fragments.HeadsUpSettings;
+import com.evolution.settings.fragments.SmartPixels;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
@@ -357,7 +358,8 @@ public class SettingsGateway {
             HeadsUpSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
             WifiTetherClientManager.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -403,5 +405,6 @@ public class SettingsGateway {
             Settings.EvolutionSettingsActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
