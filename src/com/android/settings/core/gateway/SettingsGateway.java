@@ -165,6 +165,7 @@ import com.android.settings.livedisplay.LiveDisplaySettings;
 
 import com.evolution.settings.EvolutionSettings;
 import com.evolution.settings.fragments.GamingMode;
+import com.evolution.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -318,6 +319,7 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             LiveDisplaySettings.class.getName(),
             GamingMode.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -360,5 +362,6 @@ public class SettingsGateway {
             Settings.EvolutionSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }

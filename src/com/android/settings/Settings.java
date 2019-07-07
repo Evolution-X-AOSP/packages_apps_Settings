@@ -238,6 +238,7 @@ public class Settings extends SettingsActivity {
     public static class LockscreenDisplayActivity extends SettingsActivity { /* empty */ }
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class GamingModeActivity extends SettingsActivity {}
+    public static class SmartPixelsActivity extends SettingsActivity {}
 
     /**
      * Activity for MediaControlsSettings
@@ -246,5 +247,4 @@ public class Settings extends SettingsActivity {
 
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
-
 }
