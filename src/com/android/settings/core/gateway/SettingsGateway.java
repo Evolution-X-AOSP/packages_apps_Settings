@@ -173,6 +173,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.evolution.settings.EvolutionSettings;
 import com.evolution.settings.fragments.HeadsUpSettings;
+import com.evolution.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -334,6 +335,7 @@ public class SettingsGateway {
             HeadsUpSettings.class.getName(),
             RunningServices.class.getName(),
             WifiTetherClientManager.class.getName(),
+            SmartPixels.class.getName(),
             LiveDisplaySettings.class.getName()
     };
 
@@ -377,6 +379,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.EvolutionSettingsActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName()
     };
 }
