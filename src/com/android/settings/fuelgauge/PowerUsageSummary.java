@@ -78,6 +78,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
     private static final String KEY_BATTERY_SAVER_SUMMARY = "battery_saver_summary";
     private static final String KEY_BATTERY_TEMP = "battery_temp";
+    private static final String KEY_SMART_CHARGING = "smart_charging_key";
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -240,6 +241,12 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         restartBatteryInfoLoader();
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
+
+        // Check availability of Smart Charging
+        Preference mSmartChargingPref = (Preference) findPreference(KEY_SMART_CHARGING);
+        if (!getResources().getBoolean(R.bool.config_supportSmartCharging)) {
+            getPreferenceScreen().removePreference(mSmartChargingPref);
+        }
     }
 
     @Override
