@@ -14,10 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <!-- Device specific doze package -->
-    <string name="config_customDozePackage" translatable="false"></string>
-
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">false</bool>
+    <java-symbol type="bool" name="config_supportSmartCharging" />
 </resources>
