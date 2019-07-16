@@ -271,6 +271,12 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         if (!getResources().getBoolean(R.bool.config_supportBatteryHealth)) {
             getPreferenceScreen().removePreference(mBatteryInfoCat);
         }
+
+        // Check availability of Smart Charging
+        mSmartChargingCat = (PreferenceCategory) findPreference(KEY_SMART_CHARGING_CATEGORY);
+        if (!getResources().getBoolean(R.bool.config_supportSmartCharging)) {
+            getPreferenceScreen().removePreference(mSmartChargingCat);
+        }
     }
 
     @Override
