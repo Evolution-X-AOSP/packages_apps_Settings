@@ -945,6 +945,8 @@ public class WifiConfigController implements TextWatcher,
 
             if (mAccessPoint != null && mAccessPoint.isSaved()) {
                 mPasswordView.setHint(R.string.wifi_unchanged);
+                // Disable Password Scanner for "Modify Network"
+                mPasswordScanButton.setVisibility(View.GONE);
             }
         }
 
