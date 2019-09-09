@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Evolution X logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="evolution_logo"
+        android:layout="@layout/evolution_logo"
+        android:selectable="false"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
