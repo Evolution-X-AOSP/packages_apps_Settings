@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <resources>
+    <string name="duration_less_than_one_minute">不到 1 分鐘</string>
+    <string name="screen_time_summary_usage_today">今天使用了 %1$s</string>
+  </resources>

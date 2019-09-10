@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <resources>
+    <string name="duration_less_than_one_minute">1 минутқа жетпейді</string>
+    <string name="screen_time_summary_usage_today">Бүгін %1$s</string>
+  </resources>
