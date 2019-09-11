@@ -53,7 +53,8 @@ public class SystemServerHeapDumpPreferenceController extends DeveloperOptionsPr
 
     @Override
     public boolean isAvailable() {
-        return false;
+        return Build.IS_ENG
+                && !mUserManager.hasUserRestriction(UserManager.DISALLOW_DEBUGGING_FEATURES);
     }
 
     @Override

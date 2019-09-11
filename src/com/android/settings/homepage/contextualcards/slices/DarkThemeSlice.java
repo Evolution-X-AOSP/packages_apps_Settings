@@ -49,7 +49,7 @@ import com.android.settings.slices.SliceBackgroundWorker;
 
 public class DarkThemeSlice implements CustomSliceable {
     private static final String TAG = "DarkThemeSlice";
-    private static final boolean DEBUG = Build.IS_DEBUGGABLE;
+    private static final boolean DEBUG = Build.IS_ENG;
     private static final int BATTERY_LEVEL_THRESHOLD = 50;
     private static final int DELAY_TIME_EXECUTING_DARK_THEME = 200;
 
