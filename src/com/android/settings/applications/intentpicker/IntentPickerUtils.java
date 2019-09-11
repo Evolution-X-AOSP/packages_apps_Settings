@@ -30,7 +30,7 @@ import java.util.stream.Collectors;
 /** The common APIs for intent picker */
 public class IntentPickerUtils {
     private static final String TAG = "IntentPickerUtils";
-    private static final boolean DEBUG = Build.IS_DEBUGGABLE;
+    private static final boolean DEBUG = Build.IS_ENG;
 
     private IntentPickerUtils() {
     }

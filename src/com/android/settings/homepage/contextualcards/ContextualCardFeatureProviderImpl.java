@@ -76,7 +76,7 @@ public class ContextualCardFeatureProviderImpl implements ContextualCardFeatureP
                 + CardDatabaseHelper.CardColumns.DISMISSED_TIMESTAMP + " IS NOT NULL";
         final String[] selectionArgs = {String.valueOf(threshold)};
         final int rowsUpdated = database.update(CARD_TABLE, values, selection, selectionArgs);
-        if (Build.IS_DEBUGGABLE) {
+        if (Build.IS_ENG) {
             Log.d(TAG, "Reset " + rowsUpdated + " records of dismissed time.");
         }
         return rowsUpdated;
