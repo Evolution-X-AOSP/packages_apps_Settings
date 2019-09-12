@@ -34,7 +34,8 @@ public class RomVersionDetailPreferenceController extends BasePreferenceControll
 
     private static final Uri INTENT_URI_DATA = Uri.parse("https://paypal.me/joeyhuab/");
     private static final String TAG = "romDialogCtrl";
-    private static final String ROM_PROPERTY = "org.evolution.version";
+    private static final String KEY_ROM_VERSION_PROP = "org.evolution.build_version";
+    private static final String KEY_ROM_RELEASETYPE_PROP = "org.evolution.build_type";
     private final PackageManager mPackageManager = this.mContext.getPackageManager();
 
     public RomVersionDetailPreferenceController(Context context, String preferenceKey) {
@@ -46,9 +47,14 @@ public class RomVersionDetailPreferenceController extends BasePreferenceControll
     }
 
     public CharSequence getSummary() {
-        String rom = SystemProperties.get(ROM_PROPERTY,
+        String romVersion = SystemProperties.get(KEY_ROM_VERSION_PROP,
                 this.mContext.getString(R.string.device_info_default));
-        return rom;
+        String romReleasetype =  SystemProperties.get(KEY_ROM_RELEASETYPE_PROP,
+                this.mContext.getString(R.string.device_info_default));
+        if (!romVersion.isEmpty() && !romReleasetype.isEmpty())
+            return romVersion + " | " + romReleasetype;
+        else
+            return mContext.getString(R.string.rom_version_default);
     }
 
     public boolean handlePreferenceTreeClick(Preference preference) {
