@@ -55,6 +55,11 @@
         settings:allowDividerBelow="true"
         settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"/>
 
+    <ListPreference
+        android:key="android.theme.customization.custom_overlays"
+        android:title="@string/theme_customization_systemui_title"
+        settings:keywords="@string/keywords_dark_ui_mode"/>
+
     <com.android.settingslib.widget.FooterPreference
             android:key="dark_ui_footer"
             android:title="@string/dark_ui_text"
