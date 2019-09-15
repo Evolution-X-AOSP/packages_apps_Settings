@@ -48,4 +48,7 @@
 
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temp">Battery temperature</string>
 </resources>
