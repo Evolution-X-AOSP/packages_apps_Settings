@@ -293,4 +293,7 @@
     <string name="charging_sounds_nos_title">Charging sound</string>
     <string name="charging_vibro_title">Charging vibration</string>
 
+    <!-- Battery temperature -->
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>
