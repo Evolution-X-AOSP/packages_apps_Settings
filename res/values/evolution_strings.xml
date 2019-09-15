@@ -171,4 +171,7 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">High touch polling rate</string>
     <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+
+    <!-- Battery Temperature -->
+    <string name="battery_temp">Battery temperature</string>
 </resources>
