@@ -74,6 +74,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
     private static final String KEY_CURRENT_BATTERY_CAPACITY = "current_battery_capacity";
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
     private static final String KEY_BATTERY_CHARGE_CYCLES = "battery_charge_cycles";
+    private static final String KEY_BATTERY_TEMP = "battery_temp";
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -94,6 +95,8 @@ public class PowerUsageSummary extends PowerUsageBase implements
     PowerGaugePreference mDesignedBatteryCapacity;
     @VisibleForTesting
     PowerGaugePreference mBatteryChargeCycles;
+    @VisibleForTesting
+    PowerGaugePreference mBatteryTempPref;
 
     @VisibleForTesting
     BatteryHeaderPreferenceController mBatteryHeaderPreferenceController;
@@ -281,6 +284,12 @@ public class PowerUsageSummary extends PowerUsageBase implements
             mDesignedBatteryCapacity.setSummary(parseBatterymAhText(getResources().getString(R.string.config_batteryDesignCapacity)));
             mBatteryChargeCycles.setSummary(parseBatteryCycle(getResources().getString(R.string.config_batteryChargeCycles)));
         }
+
+        if (BatteryInfo.batteryTemp != 0f) {
+            mBatteryTempPref.setSummary(BatteryInfo.batteryTemp + " \u2103");
+        } else {
+            mBatteryTempPref.setSummary(getResources().getString(R.string.status_unavailable));
+        }
     }
 
     @VisibleForTesting
@@ -305,6 +314,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         mBatteryUsagePreference = findPreference(KEY_BATTERY_USAGE);
         mBatteryUsagePreference.setSummary(getString(R.string.advanced_battery_preference_summary));
 
+        mBatteryTempPref = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mHelpPreference = findPreference(KEY_BATTERY_ERROR);
         mHelpPreference.setVisible(false);
     }
