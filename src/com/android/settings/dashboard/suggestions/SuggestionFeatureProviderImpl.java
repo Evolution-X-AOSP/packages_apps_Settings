@@ -23,6 +23,7 @@ import android.content.SharedPreferences;
 
 import androidx.annotation.NonNull;
 
+import com.android.settings.R;
 import com.android.settings.Settings.NightDisplaySuggestionActivity;
 import com.android.settings.biometrics.fingerprint.FingerprintEnrollSuggestionActivity;
 import com.android.settings.biometrics.fingerprint.FingerprintSuggestionActivity;
@@ -43,6 +44,7 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
     private static final String SHARED_PREF_FILENAME = "suggestions";
 
     private final MetricsFeatureProvider mMetricsFeatureProvider;
+    protected final Context mContext;
 
     @Override
     public boolean isSuggestionEnabled(Context context) {
@@ -54,8 +56,8 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
     @Override
     public ComponentName getSuggestionServiceComponent() {
         return new ComponentName(
-                "com.android.settings.intelligence",
-                "com.android.settings.intelligence.suggestions.SuggestionService");
+                mContext.getString(R.string.config_settingssuggestion_package_name),
+                mContext.getString(R.string.config_settingssuggestion_package_class));
     }
 
     @Override
@@ -88,6 +90,7 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
 
     public SuggestionFeatureProviderImpl(Context context) {
         final Context appContext = context.getApplicationContext();
+        mContext = context.getApplicationContext();
         mMetricsFeatureProvider = FeatureFactory.getFactory(appContext)
                 .getMetricsFeatureProvider();
     }
