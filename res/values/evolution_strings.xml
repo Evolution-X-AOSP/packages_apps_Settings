@@ -34,4 +34,10 @@
     <string name="evolver_dashboard_title">The Evolver</string>
     <string name="evolver_dashboard_summary">Time to continue the Evolution of your device</string>
 
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
 </resources>
