@@ -471,4 +471,10 @@
     <string name="navbar_radius">Gesture bar Radius</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
