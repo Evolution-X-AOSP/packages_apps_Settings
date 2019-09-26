@@ -18,6 +18,7 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.Intent;
 import android.provider.SearchIndexableResource;
 
 import com.android.settings.R;
@@ -31,6 +32,23 @@ import java.util.List;
 
 @SearchIndexable
 public class FirmwareVersionSettings extends DashboardFragment {
+
+    private SimpleBuildNumberPreferenceController mSimpleBuildNumberPreferenceController;
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        mSimpleBuildNumberPreferenceController = use(SimpleBuildNumberPreferenceController.class);
+        mSimpleBuildNumberPreferenceController.setHost(this /* parent */);
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (mSimpleBuildNumberPreferenceController.onActivityResult(requestCode, resultCode, data)) {
+            return;
+        }
+        super.onActivityResult(requestCode, resultCode, data);
+    }
 
     @Override
     protected int getPreferenceScreenResId() {

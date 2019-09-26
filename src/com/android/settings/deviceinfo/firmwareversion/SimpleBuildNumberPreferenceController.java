@@ -17,12 +17,12 @@
 package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
-import android.os.Build;
-import android.text.BidiFormatter;
 
 import com.android.settings.core.BasePreferenceController;
 
-public class SimpleBuildNumberPreferenceController extends BasePreferenceController {
+import com.android.settings.deviceinfo.BuildNumberPreferenceController;
+
+public class SimpleBuildNumberPreferenceController extends BuildNumberPreferenceController {
 
     public SimpleBuildNumberPreferenceController(Context context,
             String preferenceKey) {
@@ -35,7 +35,21 @@ public class SimpleBuildNumberPreferenceController extends BasePreferenceControl
     }
 
     @Override
-    public CharSequence getSummary() {
-        return BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY);
+    public boolean isSliceable() {
+        return false;
+    }
+
+    @Override
+    public boolean isCopyableSlice() {
+        return false;
+    }
+
+    @Override
+    public boolean useDynamicSliceSummary() {
+        return false;
+    }
+
+    @Override
+    public void copy() {
     }
 }
