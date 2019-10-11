@@ -85,6 +85,13 @@
         settings:keywords="@string/keywords_auto_rotate"
         settings:controller="com.android.settings.display.AutoRotatePreferenceController" />
 
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_rotation"
+        android:title="@string/lockscreen_rotation_title"
+        android:summary="@string/lockscreen_rotation_summary"
+        android:defaultValue="false"
+        android:dependency="auto_rotate" />
+
     <Preference
         android:key="color_mode"
         android:title="@string/color_mode_title"
