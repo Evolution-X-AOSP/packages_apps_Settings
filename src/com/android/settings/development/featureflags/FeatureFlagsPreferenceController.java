@@ -40,7 +40,7 @@ public class FeatureFlagsPreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
-        return Build.IS_ENG ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return AVAILABLE;
     }
 
     @Override
