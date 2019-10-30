@@ -16,7 +16,6 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- Settings intelligence suggestions class -->
     <string name="config_settingsintelligence_suggestions_class" translatable="false">
         com.android.settings.intelligence.suggestions.SuggestionService
@@ -28,4 +27,6 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 
+    <!-- Whether the given language capitalizes nouns -->
+    <bool name="language_capitalizes_nouns">false</bool>
 </resources>
