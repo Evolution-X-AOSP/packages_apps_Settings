@@ -137,4 +137,9 @@
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Custom</string>
     <string name="custom_vibration_pattern_title">Custom pattern</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Skip music tracks</string>
+    <string name="volume_skiptrack_title">Volume rocker skip tracks</string>
+    <string name="volume_skiptrack_summary">Long press the volume rocker to skip tracks when playing music, even remotely on tv or PC with e.g. Spotify (app must run on the phone and show the notification).</string>
 </resources>
