@@ -145,4 +145,7 @@
     <string name="ambient_battery_percent_title">Battery level on bottom</string> 
     <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string> 
 
+    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
+
 </resources>
