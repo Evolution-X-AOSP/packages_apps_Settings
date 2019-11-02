@@ -98,6 +98,18 @@
             android:summary="@string/ambient_wake_gestures_summary"
             settings:controller="com.android.settings.display.AmbientWakeGesturesPreferenceController" />
 
+        <SwitchPreference
+            android:key="pulse_on_new_tracks"
+            android:title="@string/pulse_on_new_tracks_title"
+            android:summary="@string/pulse_on_new_tracks_summary"
+            settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
+
+        <SwitchPreference
+            android:key="pulse_on_new_tracks_soli"
+            android:title="@string/pulse_on_new_tracks_title"
+            android:summary="@string/pulse_on_new_tracks_soli_summary"
+            settings:controller="com.android.settings.display.PulseOnNewTracksSoliPreferenceController" />
+
         <Preference
             android:key="ambient_display_custom"
             android:title="@string/advanced_settings" />
