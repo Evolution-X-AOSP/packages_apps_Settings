@@ -27,6 +27,7 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController;
 import com.android.settings.display.AmbientDisplayNotificationsPreferenceController;
 import com.android.settings.display.AmbientDisplayCustomPreferenceController;
+import com.android.settings.display.PulseOnNewTracksPreferenceController;
 import com.android.settings.gestures.DoubleTapScreenPreferenceController;
 import com.android.settings.gestures.PickupGesturePreferenceController;
 import com.android.settings.notification.LockScreenNotificationPreferenceController;
@@ -93,6 +94,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
         use(AmbientDisplayNotificationsPreferenceController.class).setConfig(getConfig(context));
         use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
+        use(PulseOnNewTracksPreferenceController.class).setConfig(getConfig(context));
         addPreferenceController(new AmbientDisplayCustomPreferenceController(context));
     }
 
