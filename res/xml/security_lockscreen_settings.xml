@@ -98,6 +98,12 @@
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
         <SwitchPreference
+            android:key="ambient_wake_gestures"
+            android:title="@string/ambient_wake_gestures_title"
+            android:summary="@string/ambient_wake_gestures_summary"
+            settings:controller="com.android.settings.display.AmbientWakeGesturesPreferenceController" />
+
+        <SwitchPreference
             android:key="pulse_on_new_tracks"
             android:title="@string/pulse_on_new_tracks_title"
             android:summary="@string/pulse_on_new_tracks_summary"
