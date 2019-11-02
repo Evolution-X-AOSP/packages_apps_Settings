@@ -91,6 +91,12 @@
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
+        <SwitchPreference
+            android:key="pulse_on_new_tracks"
+            android:title="@string/pulse_on_new_tracks_title"
+            android:summary="@string/pulse_on_new_tracks_summary"
+            settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
+
         <Preference
             android:key="ambient_display_custom"
             android:title="@string/advanced_settings" />
