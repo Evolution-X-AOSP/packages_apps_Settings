@@ -179,4 +179,9 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+
+    <!-- Double tap-to-sleep -->
+    <string name="doubletap_lockscreen_screen_title">Switch screen off</string>
+    <string name="doubletap_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="doubletap_lockscreen_summary">Double tap on lockscreen empty areas to switch the screen off</string>
 </resources>
