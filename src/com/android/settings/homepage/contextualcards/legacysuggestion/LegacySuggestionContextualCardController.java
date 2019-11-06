@@ -66,8 +66,8 @@ public class LegacySuggestionContextualCardController implements ContextualCardC
         final ComponentName suggestionServiceComponent =
                 FeatureFactory.getFactory(mContext).getSuggestionFeatureProvider(mContext)
                         .getSuggestionServiceComponent();
-        mSuggestionController = new SuggestionController(
-                mContext, suggestionServiceComponent, this /* listener */);
+        mSuggestionController = null;/*new SuggestionController(*/
+                //mContext, suggestionServiceComponent, this /* listener */);
 
     }
 
