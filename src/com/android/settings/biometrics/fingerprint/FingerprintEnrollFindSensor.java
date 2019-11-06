@@ -25,6 +25,7 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
+import com.android.internal.util.evolution.fod.FodUtils;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.biometrics.BiometricEnrollBase;
@@ -79,6 +80,10 @@ public class FingerprintEnrollFindSensor extends BiometricEnrollBase {
         int sensorLocation = getResources().getInteger(R.integer.config_fingerprintSensorLocation);
         if (sensorLocation < SENSOR_LOCATION_BACK || sensorLocation > SENSOR_LOCATION_RIGHT) {
             sensorLocation = SENSOR_LOCATION_BACK;
+        }
+        if (FodUtils.hasFodSupport(this)){
+            sensorLocation = SENSOR_LOCATION_FRONT;
+            animationView.setVisibility(View.GONE);
         }
         final String location = getResources().getStringArray(
                 R.array.security_settings_fingerprint_sensor_locations)[sensorLocation];
