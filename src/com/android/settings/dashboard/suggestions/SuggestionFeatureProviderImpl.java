@@ -46,9 +46,9 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
 
     @Override
     public boolean isSuggestionEnabled(Context context) {
-        final ActivityManager am =
-                (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
-        return !am.isLowRamDevice();
+        /*final ActivityManager am =
+                (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);*/
+        return /*!am.isLowRamDevice();*/false;
     }
 
     @Override
@@ -60,7 +60,7 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
 
     @Override
     public boolean isSuggestionComplete(Context context, @NonNull ComponentName component) {
-        final String className = component.getClassName();
+        /*final String className = component.getClassName();
         if (className.equals(WallpaperSuggestionActivity.class.getName())) {
             return WallpaperSuggestionActivity.isSuggestionComplete(context);
         } else if (className.equals(StyleSuggestionActivity.class.getName())) {
@@ -77,8 +77,8 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
             return NightDisplayPreferenceController.isSuggestionComplete(context);
         } else if (className.equals(ZenSuggestionActivity.class.getName())) {
             return ZenOnboardingActivity.isSuggestionComplete(context);
-        }
-        return false;
+        }*/
+        return /*false;*/true;
     }
 
     @Override
