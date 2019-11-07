@@ -81,6 +81,12 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
+      <Preference
+        android:key="three_finger_gesture_summary"
+        android:title="@string/three_finger_gesture"
+        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
+        settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
+
     <Preference
         android:key="gesture_power_menu_summary"
         android:title="@string/power_menu_setting_name"
