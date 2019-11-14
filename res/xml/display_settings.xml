@@ -236,6 +236,11 @@
             settings:controller="com.android.settings.touch.HighTouchSensitivitySettingsPreferenceController" />
 
         <ListPreference
+            android:key="display_cutout_emulation"
+            android:title="@string/display_cutout_emulation"
+            settings:keywords="@string/display_cutout_emulation_keywords" />
+
+        <ListPreference
             android:key="theme"
             android:summary="@string/summary_placeholder"
             android:title="@string/device_theme" />
