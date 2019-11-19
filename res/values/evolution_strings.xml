@@ -274,4 +274,8 @@
     <!-- Pulse Volume Panel on un/mute media-->
     <string name="pulse_panel_title">Pulse Volume panel</string>
     <string name="pulse_panel_summary">Pulse Volume panel when un/muting</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>
