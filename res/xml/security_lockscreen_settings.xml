@@ -98,6 +98,12 @@
             android:summary="@string/ambient_wake_gestures_summary"
             settings:controller="com.android.settings.display.AmbientWakeGesturesPreferenceController" />
 
+        <com.evolution.settings.preference.SecureSettingSwitchPreference
+            android:key="doze_on_charge"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="pulse_on_new_tracks"
             android:title="@string/pulse_on_new_tracks_title"

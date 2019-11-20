@@ -274,4 +274,8 @@
     <string name="adj_saturation_title">Saturation</string>
     <string name="adj_intensity_title">Intensity</string>
     <string name="adj_contrast_title">Contrast</string>
+
+    <!-- AoD on charge -->
+    <string name="doze_on_charge_title">Always On when charging</string>
+    <string name="doze_on_charge_summary">Show Always On Ambient display when charging</string>
 </resources>
