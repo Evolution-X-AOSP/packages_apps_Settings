@@ -47,6 +47,8 @@ import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceViewHolder;
 
+import com.android.internal.util.evolution.fod.FodUtils;
+
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.SubSettings;
@@ -134,6 +136,7 @@ public class FingerprintSettings extends SubSettings {
         private int mUserId;
         private CharSequence mFooterTitle;
         private boolean mEnrollClicked;
+        private boolean mHasFod;
 
         private static final String TAG_AUTHENTICATE_SIDECAR = "authenticate_sidecar";
         private static final String TAG_REMOVAL_SIDECAR = "removal_sidecar";
@@ -252,6 +255,7 @@ public class FingerprintSettings extends SubSettings {
         }
 
         private void retryFingerprint() {
+            mHasFod = FodUtils.hasFodSupport(getContext());
             if (mRemovalSidecar.inProgress()
                     || 0 == mFingerprintManager.getEnrolledFingerprints(mUserId).size()) {
                 return;
@@ -259,6 +263,10 @@ public class FingerprintSettings extends SubSettings {
             // Don't start authentication if ChooseLockGeneric is showing, otherwise if the user
             // is in FP lockout, a toast will show on top
             if (mLaunchedConfirm) {
+                return;
+            }
+            // Don't listen if has fod support
+            if (mHasFod){
                 return;
             }
             if (!mInFingerprintLockout) {
