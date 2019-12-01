@@ -27,6 +27,8 @@ import android.content.pm.PackageManager;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
+import com.android.internal.util.custom.NavbarUtils;
+
 public class SystemNavigationPreferenceController extends BasePreferenceController {
 
     static final String PREF_KEY_SYSTEM_NAVIGATION = "gesture_system_navigation";
@@ -71,6 +73,11 @@ public class SystemNavigationPreferenceController extends BasePreferenceControll
                 .setPackage(recentsComponentName.getPackageName());
         if (context.getPackageManager().resolveService(quickStepIntent,
                 PackageManager.MATCH_SYSTEM_ONLY) == null) {
+            return false;
+        }
+
+        // Check if navbar visible
+        if (!NavbarUtils.isEnabled(context)){
             return false;
         }
 
