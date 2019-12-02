@@ -13,6 +13,7 @@
     <string name="total_ram">Total RAM</string>
 
     <!-- About device screen, Evolution X -->
+    <string name="about_device_name">Device</string>
     <string name="evolution_x_version">Evolution X version</string>
 
     <!-- About device screen, Build date -->
