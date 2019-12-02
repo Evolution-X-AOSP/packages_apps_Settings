@@ -27,6 +27,8 @@
     <string name="build_status">Build status</string>
     <string name="build_status_summary" translatable="false">Custom</string>
     <string name="build_type">Build type</string>
+    <string name="about_device_name">Device</string>
+    <string name="about_device_support_url" translatable="false">https://evolution-x.org/</string>
 
     <string name="radio_info_title">Radio info</string>
 
