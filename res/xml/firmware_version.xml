@@ -46,6 +46,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionDetailPreferenceController"/>
 
+    <!-- Device name -->
+    <Preference
+        android:key="about_device_name"
+        android:title="@string/about_device_name"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
