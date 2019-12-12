@@ -158,20 +158,26 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
-        android:key="display_cutout_hidden"
-        android:title="@string/hide_notch_title"
-        android:summary="@string/hide_notch_summary"
-        android:disableDependentsState="true"
-        android:defaultValue="false" />
+    <PreferenceCategory
+        android:key="notch_category"
+        android:title="@string/notch_category_title" 
+        android:order="1100" >
 
-    <Preference
-        android:key="display_cutout_force_fullscreen_settings"
-        android:title="@string/display_cutout_force_fullscreen_title"
-        android:summary="@string/display_cutout_force_fullscreen_summary"
-        android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
-        settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController"
-        android:dependency="display_cutout_hidden" />
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="display_cutout_hidden"
+            android:title="@string/hide_notch_title"
+            android:summary="@string/hide_notch_summary"
+            android:disableDependentsState="true"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="display_cutout_force_fullscreen_settings"
+            android:title="@string/display_cutout_force_fullscreen_title"
+            android:summary="@string/display_cutout_force_fullscreen_summary"
+            android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
+            settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController"
+            android:dependency="display_cutout_hidden" />
+    </PreferenceCategory>
 
     <ListPreference
         android:key="theme"
