@@ -3322,6 +3322,8 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.evolution.settings.EvolutionSettings" />
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/evolution_settings_summary" />
         </activity>
 
         <!-- Gaming mode -->
