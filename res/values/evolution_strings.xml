@@ -14,7 +14,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- ROM version -->
     <string name="rom_version">Evolution X version</string>
     <string name="rom_version_default">Unknown</string>
@@ -37,7 +36,7 @@
 
     <!-- Evolution Settings -->
     <string name="evolution_settings_title">Evolution settings</string>
-    <string name="evolution_settings_summary">Time to evolve your device</string>
+    <string name="evolution_settings_summary">The Evolution of your device continues</string>
 
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
