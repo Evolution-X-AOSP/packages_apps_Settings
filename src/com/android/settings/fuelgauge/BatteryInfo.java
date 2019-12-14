@@ -282,6 +282,8 @@ public class BatteryInfo {
                 BatteryManager.BATTERY_STATUS_UNKNOWN);
         final boolean dashChargeStatus = batteryBroadcast.getBooleanExtra(
                 BatteryManager.EXTRA_DASH_CHARGER, false);
+        final boolean warpChargeStatus = batteryBroadcast.getBooleanExtra(
+                BatteryManager.EXTRA_WARP_CHARGER, false);
         info.discharging = false;
         info.suggestionLabel = null;
         int dockDefenderMode = BatteryUtils.getCurrentDockDefenderMode(context, info);
@@ -301,9 +303,16 @@ public class BatteryInfo {
                     (double) PowerUtil.convertUsToMs(info.remainingTimeUs), false /* withSeconds */,
                     true /* collapseTimeUnit */);
             int resId = R.string.power_charging_duration;
-            info.remainingLabel = dashChargeStatus
-                    ? context.getString(R.string.power_remaining_dash_charging_duration_only, timeString)
-                    : context.getString(R.string.power_remaining_charging_duration_only, timeString);
+            if (dashChargeStatus) {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_dash_charging_duration_only, timeString);
+            } else if (warpChargeStatus) {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_warp_charging_duration_only, timeString);
+            } else {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_charging_duration_only, timeString);
+            }
             info.chargeLabel = context.getString(resId, info.batteryPercentString, timeString);
         } else if (dockDefenderMode == BatteryUtils.DockDefenderMode.FUTURE_BYPASS) {
             // Dock defender will be triggered in the future, charging will be optimized.
