@@ -55,7 +55,7 @@ public class LegalSettings extends DashboardFragment {
                 public List<SearchIndexableResource> getXmlResourcesToIndex(
                         Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.about_legal;
+                    //sir.xmlResId = R.xml.about_legal;
                     return Arrays.asList(sir);
                 }
             };
