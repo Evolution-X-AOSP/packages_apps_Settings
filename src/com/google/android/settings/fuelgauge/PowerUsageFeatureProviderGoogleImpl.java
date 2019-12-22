@@ -111,11 +111,13 @@ public class PowerUsageFeatureProviderGoogleImpl extends PowerUsageFeatureProvid
     @Override
     public boolean isEnhancedBatteryPredictionEnabled(Context context) {
         try {
-            return mPackageManager.getPackageInfo("com.google.android.apps.turbo",
-                                    PackageManager.MATCH_DISABLED_COMPONENTS).applicationInfo.enabled;
-        }catch (Exception unused) {
+           if (!mPackageManager.getPackageInfo("com.google.android.apps.turbo", PackageManager.MATCH_DISABLED_COMPONENTS).applicationInfo.enabled) {
+                return false;
+            }
+            return true;
+        } catch (Exception unused) {
+            return false;
         }
-        return false;
     }
 
     private Uri getEnhancedBatteryPredictionUri() {
