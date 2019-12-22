@@ -34,7 +34,6 @@ public class ApplicationFeatureProviderGoogleImpl extends ApplicationFeatureProv
         keepEnabledPackages.add("com.google.android.settings.intelligence");
         keepEnabledPackages.add("com.google.android.ims");
         keepEnabledPackages.add("com.google.android.packageinstaller");
-        keepEnabledPackages.add("com.android.packageinstaller");
         return keepEnabledPackages;
     }
 
