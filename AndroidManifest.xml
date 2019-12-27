@@ -3440,6 +3440,18 @@
             </intent-filter>
         </activity>
 
+        <!-- Lockscreen Display activity. -->
+        <activity android:name="Settings$LockscreenDisplayActivity"
+                android:label="@string/lockscreen_display_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.security.LockscreenDashboardFragment" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
