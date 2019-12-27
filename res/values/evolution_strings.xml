@@ -280,4 +280,6 @@
 
     <!-- Enable/Disable Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sounds</string>
+
+    <string name="lockscreen_display_title">Lock screen display</string>
 </resources>
