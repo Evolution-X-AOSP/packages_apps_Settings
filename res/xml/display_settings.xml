@@ -22,6 +22,12 @@
     settings:keywords="@string/keywords_display"
     settings:initialExpandedChildrenCount="5">
 
+    <Preference
+        android:key="lockscreen_from_display_settings"
+        android:title="@string/lockscreen_settings_title"
+        android:fragment="com.android.settings.security.LockscreenDashboardFragment"
+        settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
+
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
         android:title="@string/brightness"
@@ -137,12 +143,6 @@
         android:title="@string/screensaver_settings_title"
         android:fragment="com.android.settings.dream.DreamSettings"
         settings:searchable="false" />
-
-    <Preference
-        android:key="lockscreen_from_display_settings"
-        android:title="@string/lockscreen_settings_title"
-        android:fragment="com.android.settings.security.LockscreenDashboardFragment"
-        settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
 
     <SwitchPreference
         android:key="camera_gesture"
