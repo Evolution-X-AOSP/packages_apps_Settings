@@ -21,6 +21,13 @@
     android:title="@string/display_settings"
     settings:keywords="@string/keywords_display">
 
+    <Preference
+        android:key="lockscreen_from_display_settings"
+        android:title="@string/lockscreen_settings_title"
+        android:fragment="com.android.settings.security.LockscreenDashboardFragment"
+        settings:keywords="@string/keywords_ambient_display_screen"
+        settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
+
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
         android:title="@string/brightness"
@@ -146,13 +153,6 @@
         android:key="screensaver"
         android:title="@string/screensaver_settings_title"
         android:fragment="com.android.settings.dream.DreamSettings" />
-
-    <Preference
-        android:key="lockscreen_from_display_settings"
-        android:title="@string/lockscreen_settings_title"
-        android:fragment="com.android.settings.security.LockscreenDashboardFragment"
-        settings:keywords="@string/keywords_ambient_display_screen"
-        settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
 
     <SwitchPreference
         android:key="camera_gesture"
