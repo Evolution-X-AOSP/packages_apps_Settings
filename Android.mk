@@ -54,7 +54,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     zxing-core-1.7
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
-    packages/apps/Evolver/res
+    packages/apps/Evolver/res \
+    packages/apps/TouchGestures/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
