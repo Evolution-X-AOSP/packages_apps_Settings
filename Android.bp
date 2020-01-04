@@ -65,6 +65,7 @@ android_library {
     resource_dirs: [
         "res",
         "Evolver/res",
+        "TouchGestures/res"
     ],
 
     static_libs: [
