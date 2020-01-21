@@ -273,8 +273,9 @@ public class BatteryInfo {
             }
             info.chargeLabel = context.getString(resId, info.batteryPercentString, timeString);
         } else {
-            final String chargeStatusLabel = resources.getString(
-                    R.string.battery_info_status_charging_lower);
+            final String chargeStatusLabel = dashChargeStatus
+                    ? resources.getString(R.string.battery_info_status_dash_charging_lower)
+                    : resources.getString(R.string.battery_info_status_charging_lower);
             info.remainingLabel = null;
             info.chargeLabel = info.batteryLevel == 100 ? info.batteryPercentString :
                     resources.getString(R.string.power_charging, info.batteryPercentString,
