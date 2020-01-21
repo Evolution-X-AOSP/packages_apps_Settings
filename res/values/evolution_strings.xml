@@ -370,4 +370,8 @@
 
     <!-- Battery temperature -->
     <string name="battery_temp">Battery temperature</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
 </resources>
