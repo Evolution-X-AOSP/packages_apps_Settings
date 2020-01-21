@@ -40,6 +40,12 @@
             android:selectable="true"
             settings:textStart="@string/short_label"
             settings:textEnd="@string/long_label"/>
+
+        <com.evolution.settings.preference.SecureSettingSwitchPreference
+            android:key="show_back_arrow_gesture"
+            android:title="@string/back_gesture_arrow_message"
+            android:summary="@string/back_gesture_arrow_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
