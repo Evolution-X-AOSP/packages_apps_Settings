@@ -122,7 +122,7 @@ public class PowerUsageFeatureProviderGoogleImpl extends PowerUsageFeatureProvid
                 return false;
             }
             return true;
-        } catch (Exception unused) {
+        } catch (PackageManager.NameNotFoundException unused) {
             return false;
         }
     }
