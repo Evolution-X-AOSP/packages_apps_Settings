@@ -54,6 +54,7 @@ public class BatteryInfo {
     private BatteryStats mStats;
     private static final String LOG_TAG = "BatteryInfo";
     private long timePeriod;
+    private String chargeStatusLabel;
 
     public interface Callback {
         void onBatteryInfoLoaded(BatteryInfo info);
@@ -252,6 +253,7 @@ public class BatteryInfo {
                 BatteryManager.BATTERY_STATUS_UNKNOWN);
         info.discharging = false;
         info.suggestionLabel = null;
+        info.chargeStatusLabel = null;
         if (chargeTime > 0 && status != BatteryManager.BATTERY_STATUS_FULL) {
             info.remainingTimeUs = chargeTime;
             CharSequence timeString = StringUtil.formatElapsedTime(context,
@@ -261,13 +263,17 @@ public class BatteryInfo {
                     R.string.power_remaining_charging_duration_only, timeString);
             info.chargeLabel = context.getString(resId, info.batteryPercentString, timeString);
         } else {
-            final String chargeStatusLabel = dashChargeStatus
-                    ? resources.getString(R.string.battery_info_status_dash_charging_lower)
-                    : resources.getString(R.string.battery_info_status_charging_lower);
+            if (dashChargeStatus) {
+                info.chargeStatusLabel = resources.getString(R.string.battery_info_status_dash_charging_lower);
+            } else if (warpChargeStatus) {
+                info.chargeStatusLabel = resources.getString(R.string.battery_info_status_warp_charging_lower);
+            } else {
+                info.chargeStatusLabel = resources.getString(R.string.battery_info_status_charging_lower);
+            }
             info.remainingLabel = null;
             info.chargeLabel = info.batteryLevel == 100 ? info.batteryPercentString :
                     resources.getString(R.string.power_charging, info.batteryPercentString,
-                            chargeStatusLabel);
+                            info.chargeStatusLabel);
         }
     }
 
