@@ -51,6 +51,10 @@
         android:key="notification_vibration_intensity"
         android:title="@string/vibration_intensity_notification"/>
 
+    <Preference
+        android:key="haptic_feedback_intensity"
+        android:title="@string/haptic_feedback_intensity"/>
+
     <PreferenceCategory
         android:key="vibration_patterns"
         android:title="@string/ringtone_vibration_pattern"

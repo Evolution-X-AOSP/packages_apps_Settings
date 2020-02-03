@@ -59,21 +59,22 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
 
     private static final String RING_VIBRATION_INTENSITY = "ring_vibration_intensity";
     private static final String NOTIFICATION_VIBRATION_INTENSITY = "notification_vibration_intensity";
+    private static final String HAPTIC_FEEDBACK_INTENSITY = "haptic_feedback_intensity";
     private static final String CUSTOM_VIBRATION = "custom_vibration_pattern";
 
     private static final long[] DZZZ_DZZZ_VIBRATION_PATTERN = {
         0, // No delay before starting
-        800, // How long to vibrate
-        800, // How long to wait before vibrating again
-        800, // How long to vibrate
-        800, // How long to wait before vibrating again
+        1000, // How long to vibrate
+        1000, // How long to wait before vibrating again
+        1000, // How long to vibrate
+        1000, // How long to wait before vibrating again
     };
 
     private static final long[] DZZZ_DA_VIBRATION_PATTERN = {
         0, // No delay before starting
         500, // How long to vibrate
         200, // Delay
-        20, // How long to vibrate
+        70, // How long to vibrate
         720, // How long to wait before vibrating again
     };
 
@@ -84,16 +85,14 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
         300, // How long to vibrate
         400, // Delay
         300, // How long to vibrate
-        1700, // How long to wait before vibrating again
+        1400, // How long to wait before vibrating again
     };
 
     private static final long[] DA_DA_DZZZ_VIBRATION_PATTERN = {
         0, // No delay before starting
-        30, // How long to vibrate
+        70, // How long to vibrate
         80, // Delay
-        30, // How long to vibrate
-        80, // Delay
-        50,  // How long to vibrate
+        70, // How long to vibrate
         180, // Delay
         600,  // How long to vibrate
         1050, // How long to wait before vibrating again
@@ -105,20 +104,8 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
         200, // Delay
         600, // How long to vibrate
         150, // Delay
-        20,  // How long to vibrate
+        60,  // How long to vibrate
         1050, // How long to wait before vibrating again
-    };
-
-    private static final int[] NINE_ELEMENTS_VIBRATION_AMPLITUDE = {
-        0, // No delay before starting
-        255, // Vibrate full amplitude
-        0, // No amplitude while waiting
-        255,
-        0,
-        255,
-        0,
-        255,
-        0,
     };
 
     private static final int[] SEVEN_ELEMENTS_VIBRATION_AMPLITUDE = {
@@ -157,13 +144,14 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
 
     private Preference mRingerVibrationIntensity;
     private Preference mNotifVibrationIntensity;
+    private Preference mHapticIntensity;
     private PreferenceCategory mCustomVibCategory;
     private SystemSettingSwitchPreference mIncallFeedback;
 
     private SettingsObserver mSettingObserver;
     private final Handler mH = new Handler();
 
-    private boolean mHasOnePlusHaptics;
+    private boolean mSupportsMultipleIntensities;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -173,8 +161,8 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
         mContentResolver = mContext.getContentResolver();
         mSettingObserver = new SettingsObserver(mH);
 
-        mHasOnePlusHaptics = getResources().getBoolean(
-            com.android.internal.R.bool.config_hasOnePlusHapticMotor);
+        mSupportsMultipleIntensities = mContext.getResources().getBoolean(
+                R.bool.config_vibration_supports_multiple_intensities);
 
         mVibrator = (Vibrator) mContext.getSystemService(Context.VIBRATOR_SERVICE);
         if (mVibrator != null && !mVibrator.hasVibrator()) {
@@ -183,6 +171,7 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
 
         mRingerVibrationIntensity = (Preference) findPreference(RING_VIBRATION_INTENSITY);
         mNotifVibrationIntensity = (Preference) findPreference(NOTIFICATION_VIBRATION_INTENSITY);
+        mHapticIntensity = (Preference) findPreference(HAPTIC_FEEDBACK_INTENSITY);
         mIncallFeedback = (SystemSettingSwitchPreference) findPreference(INCALL_FEEDBACK_VIBRATE);
         mCustomVibCategory = (PreferenceCategory) findPreference(CUSTOM_VIBRATION);
 
@@ -192,15 +181,18 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
             mRadioPreferences[i].setOnPreferenceClickListener(this);
         }
 
-        if (mHasOnePlusHaptics) {
+        if (mSupportsMultipleIntensities) {
             mRingerVibrationIntensity.setOnPreferenceClickListener(this);
             mNotifVibrationIntensity.setOnPreferenceClickListener(this);
+            mHapticIntensity.setOnPreferenceClickListener(this);
             updateIntensityText();
         } else {
             mRingerVibrationIntensity.setEnabled(false);
             mRingerVibrationIntensity.setVisible(false);
             mNotifVibrationIntensity.setEnabled(false);
             mNotifVibrationIntensity.setVisible(false);
+            mHapticIntensity.setEnabled(false);
+            mHapticIntensity.setVisible(false);
         }
 
         mIncallFeedback.setOnPreferenceClickListener(this);
@@ -215,7 +207,7 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
     @Override
     public void onStop() {
         super.onStop();
-        if (mHasOnePlusHaptics) {
+        if (mSupportsMultipleIntensities) {
             mContentResolver.unregisterContentObserver(mSettingObserver);
         }
     }
@@ -223,14 +215,18 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
     @Override
     public void onStart() {
         super.onStart();
-        if (mHasOnePlusHaptics) {
+        if (mSupportsMultipleIntensities) {
             mContentResolver.registerContentObserver(
                 Settings.System.getUriFor(Settings.System.RING_VIBRATION_INTENSITY),
-                true, mSettingObserver, UserHandle.USER_CURRENT);
+                false, mSettingObserver);
 
             mContentResolver.registerContentObserver(
                 Settings.System.getUriFor(Settings.System.NOTIFICATION_VIBRATION_INTENSITY),
-                true, mSettingObserver, UserHandle.USER_CURRENT);
+                false, mSettingObserver);
+            
+            mContentResolver.registerContentObserver(
+                Settings.System.getUriFor(Settings.System.HAPTIC_FEEDBACK_INTENSITY),
+                false, mSettingObserver);
         }
     }
 
@@ -287,10 +283,12 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
     }
 
     private void updateIntensityText() {
-        setText(mRingerVibrationIntensity, Settings.System.getIntForUser(mContext.getContentResolver(),
-            Settings.System.RING_VIBRATION_INTENSITY, 2, UserHandle.USER_CURRENT));
-        setText(mNotifVibrationIntensity, Settings.System.getIntForUser(mContext.getContentResolver(),
-            Settings.System.NOTIFICATION_VIBRATION_INTENSITY, 2, UserHandle.USER_CURRENT));
+        setText(mRingerVibrationIntensity, Settings.System.getInt(mContext.getContentResolver(),
+            Settings.System.RING_VIBRATION_INTENSITY, 2));
+        setText(mNotifVibrationIntensity, Settings.System.getInt(mContext.getContentResolver(),
+            Settings.System.NOTIFICATION_VIBRATION_INTENSITY, 2));
+        setText(mHapticIntensity, Settings.System.getInt(mContext.getContentResolver(),
+            Settings.System.HAPTIC_FEEDBACK_INTENSITY, 2));
     }
 
     private void setText(Preference pref, int intensity) {
@@ -326,7 +324,7 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
                 break;
             case 3:
                 mDefaultVibrationEffect = VibrationEffect.createWaveform(DA_DA_DZZZ_VIBRATION_PATTERN,
-                    NINE_ELEMENTS_VIBRATION_AMPLITUDE, -1);
+                    SEVEN_ELEMENTS_VIBRATION_AMPLITUDE, -1);
                 break;
             case 4:
                 mDefaultVibrationEffect = VibrationEffect.createWaveform(DA_DZZZ_DA_VIBRATION_PATTERN,
@@ -372,15 +370,19 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
 
         @Override
         public void onChange(boolean selfChange, Uri uri) {
-            if (!selfChange) {
+            mH.postDelayed(() -> {
                 if (uri.equals(Settings.System.getUriFor(Settings.System.RING_VIBRATION_INTENSITY))) {
                     performVibrationDemo(Settings.System.getIntForUser(mContentResolver, RINGTONE_VIBRATION_PATTERN, 0, UserHandle.USER_CURRENT));
                 } else if (uri.equals(Settings.System.getUriFor(Settings.System.NOTIFICATION_VIBRATION_INTENSITY))) {
-                    if (mVibrator != null && mVibrator.hasVibrator()) {
+                    if (mVibrator != null) {
                         mVibrator.vibrate(250, mAudioAttributesNotif);
                     }
+                } else if (uri.equals(Settings.System.getUriFor(Settings.System.HAPTIC_FEEDBACK_INTENSITY))) {
+                    if (mVibrator != null) {
+                        mVibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK));
+                    }
                 }
-            }
+            }, 15);
         }
     }
 }

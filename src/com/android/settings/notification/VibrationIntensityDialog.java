@@ -40,14 +40,17 @@ public class VibrationIntensityDialog extends InstrumentedDialogFragment {
     private static final String TAG = "VibrationIntensityDialog";
     private static final String RING_VIBRATION_INTENSITY = "ring_vibration_intensity";
     private static final String NOTIFICATION_VIBRATION_INTENSITY = "notification_vibration_intensity";
+    private static final String HAPTIC_FEEDBACK_INTENSITY = "haptic_feedback_intensity";
 
     private Context mContext;
     private String mPreferenceKey;
     private int mProgress;
     private Preference mPreference;
     private boolean mIsRinger;
+    private boolean mIsNotif;
     private int mDefaultRingVibration;
     private int mDefaultNotificationVibration;
+    private int mDefaultHapticFeedback;
 
     public void setParameters(Context context, String preferenceKey, Preference preference) {
         mContext = context;
@@ -57,7 +60,8 @@ public class VibrationIntensityDialog extends InstrumentedDialogFragment {
 
     @Override
     public int getMetricsCategory() {
-        return (mIsRinger) ? SettingsEnums.ACCESSIBILITY_VIBRATION_RING : SettingsEnums.ACCESSIBILITY_VIBRATION_NOTIFICATION;
+        return mIsRinger ? SettingsEnums.ACCESSIBILITY_VIBRATION_RING : mIsNotif ?
+                SettingsEnums.ACCESSIBILITY_VIBRATION_NOTIFICATION : SettingsEnums.ACCESSIBILITY_VIBRATION_TOUCH;
     }
 
     @Override
@@ -65,6 +69,7 @@ public class VibrationIntensityDialog extends InstrumentedDialogFragment {
         int dialogTitle;
 
         mIsRinger = mPreferenceKey.equals(RING_VIBRATION_INTENSITY);
+        mIsNotif = mPreferenceKey.equals(NOTIFICATION_VIBRATION_INTENSITY);
         final ContentResolver contentResolver = mContext.getContentResolver();
 
         final View view = getActivity().getLayoutInflater().inflate(
@@ -76,21 +81,34 @@ public class VibrationIntensityDialog extends InstrumentedDialogFragment {
                 com.android.internal.R.integer.config_defaultRingVibrationIntensity);
         mDefaultNotificationVibration = mContext.getResources().getInteger(
                 com.android.internal.R.integer.config_defaultNotificationVibrationIntensity);
+        mDefaultHapticFeedback = mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_defaultHapticFeedbackIntensity);
 
         if (mIsRinger) {
             sb.setMin(1);
             sb.setMax(3);
-            mProgress = Settings.System.getIntForUser(contentResolver, RING_VIBRATION_INTENSITY, mDefaultRingVibration, UserHandle.USER_CURRENT);
+            mProgress = Settings.System.getInt(contentResolver,
+                    RING_VIBRATION_INTENSITY, mDefaultRingVibration);
             sb.setProgress(mProgress);
             setText(txtView, mPreference, mProgress);
             dialogTitle = R.string.vibration_intensity_ringer;
-        } else {
+        } else if (mIsNotif) {
             sb.setMin(0);
             sb.setMax(3);
-            mProgress = Settings.System.getIntForUser(contentResolver, NOTIFICATION_VIBRATION_INTENSITY, mDefaultNotificationVibration, UserHandle.USER_CURRENT);
+            mProgress = Settings.System.getInt(contentResolver,
+                    NOTIFICATION_VIBRATION_INTENSITY, mDefaultNotificationVibration);
             sb.setProgress(mProgress);
             setText(txtView, mPreference, mProgress);
             dialogTitle = R.string.vibration_intensity_notification;
+        } else {
+            sb.setMin(0);
+            sb.setMax(3);
+            mProgress = (Settings.System.getInt(contentResolver,
+                    Settings.System.HAPTIC_FEEDBACK_ENABLED, 0) == 0) ? 0 : Settings.System.
+                    getInt(contentResolver, HAPTIC_FEEDBACK_INTENSITY, mDefaultHapticFeedback);
+            sb.setProgress(mProgress);
+            setText(txtView, mPreference, mProgress);
+            dialogTitle = R.string.haptic_feedback_intensity;
         }
 
         sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -102,14 +120,22 @@ public class VibrationIntensityDialog extends InstrumentedDialogFragment {
             }
 
             @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
+            public void onStartTrackingTouch(SeekBar seekBar) { }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                Settings.System.putIntForUser(contentResolver, (mIsRinger) ? RING_VIBRATION_INTENSITY : NOTIFICATION_VIBRATION_INTENSITY,
-                    mProgress, UserHandle.USER_CURRENT);
+                if (!mIsRinger && !mIsNotif) {
+                    if (mProgress == 0) {
+                        Settings.System.putInt(contentResolver,
+                                Settings.System.HAPTIC_FEEDBACK_ENABLED, 0);
+                    } else {
+                        Settings.System.putInt(contentResolver,
+                                Settings.System.HAPTIC_FEEDBACK_ENABLED, 1);
+                    }
+                }
+                Settings.System.putInt(contentResolver, mIsRinger ? RING_VIBRATION_INTENSITY
+                        : mIsNotif ? NOTIFICATION_VIBRATION_INTENSITY
+                        : HAPTIC_FEEDBACK_INTENSITY, mProgress);
             }
         });
 
