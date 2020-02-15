@@ -368,20 +368,20 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
     @VisibleForTesting
     void updateLastFullChargePreference() {
-        if (mBatteryInfo != null && mBatteryInfo.averageTimeToDischarge
-                != EstimateKt.AVERAGE_TIME_TO_DISCHARGE_UNKNOWN) {
-            mLastFullChargePref.setTitle(R.string.battery_full_charge_last);
-            mLastFullChargePref.setSummary(
-                    StringUtil.formatElapsedTime(getContext(), mBatteryInfo.averageTimeToDischarge,
-                            false /* withSeconds */));
-        } else {
+//       if (mBatteryInfo != null && mBatteryInfo.averageTimeToDischarge
+//                != EstimateKt.AVERAGE_TIME_TO_DISCHARGE_UNKNOWN) {
+//            mLastFullChargePref.setTitle(R.string.battery_full_charge_last);
+//            mLastFullChargePref.setSummary(
+//                    StringUtil.formatElapsedTime(getContext(), mBatteryInfo.averageTimeToDischarge,
+//                            false /* withSeconds */));
+//        } else {
             final long lastFullChargeTime = mBatteryUtils.calculateLastFullChargeTime(mStatsHelper,
                     System.currentTimeMillis());
             mLastFullChargePref.setTitle(R.string.battery_last_full_charge);
             mLastFullChargePref.setSummary(
                     StringUtil.formatRelativeTime(getContext(), lastFullChargeTime,
                             false /* withSeconds */));
-        }
+//        }
     }
 
     @VisibleForTesting
