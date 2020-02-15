@@ -52,7 +52,7 @@ public class ClearAdbKeysPreferenceController extends DeveloperOptionsPreference
 
     @Override
     public boolean isAvailable() {
-        return AdbProperties.secure().orElse(false);
+        return true;
     }
 
     @Override
