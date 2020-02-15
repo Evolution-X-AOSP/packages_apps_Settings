@@ -17,6 +17,7 @@
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Build maintainer</string>
     <string name="build_maintainer_summary" translatable="false">Unknown</string>
+    <string name="build_maintainer_telegram" translatable="false">https://t.me/EvolutionX</string>
 
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
