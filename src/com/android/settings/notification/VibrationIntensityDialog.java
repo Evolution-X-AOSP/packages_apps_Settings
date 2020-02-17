@@ -46,6 +46,8 @@ public class VibrationIntensityDialog extends InstrumentedDialogFragment {
     private int mProgress;
     private Preference mPreference;
     private boolean mIsRinger;
+    private int mDefaultRingVibration;
+    private int mDefaultNotificationVibration;
 
     public void setParameters(Context context, String preferenceKey, Preference preference) {
         mContext = context;
@@ -70,17 +72,22 @@ public class VibrationIntensityDialog extends InstrumentedDialogFragment {
         final TextView txtView = view.findViewById(R.id.vibration_intensity_text);
         final SeekBar sb = view.findViewById(R.id.vibration_intensity_seekbar);
 
+        mDefaultRingVibration = mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_defaultRingVibrationIntensity);
+        mDefaultNotificationVibration = mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_defaultNotificationVibrationIntensity);
+
         if (mIsRinger) {
             sb.setMin(1);
             sb.setMax(3);
-            mProgress = Settings.System.getIntForUser(contentResolver, RING_VIBRATION_INTENSITY, 2, UserHandle.USER_CURRENT);
+            mProgress = Settings.System.getIntForUser(contentResolver, RING_VIBRATION_INTENSITY, mDefaultRingVibration, UserHandle.USER_CURRENT);
             sb.setProgress(mProgress);
             setText(txtView, mPreference, mProgress);
             dialogTitle = R.string.vibration_intensity_ringer;
         } else {
             sb.setMin(0);
             sb.setMax(3);
-            mProgress = Settings.System.getIntForUser(contentResolver, NOTIFICATION_VIBRATION_INTENSITY, 2, UserHandle.USER_CURRENT);
+            mProgress = Settings.System.getIntForUser(contentResolver, NOTIFICATION_VIBRATION_INTENSITY, mDefaultNotificationVibration, UserHandle.USER_CURRENT);
             sb.setProgress(mProgress);
             setText(txtView, mPreference, mProgress);
             dialogTitle = R.string.vibration_intensity_notification;
