@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The Evolution X Project
+ * Copyright (C) 2019-2020 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,6 +17,7 @@
 package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
+import android.os.Build;
 import android.os.SystemProperties;
 
 import com.android.settings.R;
@@ -39,7 +40,9 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_DEVICE_NAME_PROP,
+        String deviceCodename = SystemProperties.get(KEY_DEVICE_NAME_PROP,
                 mContext.getString(R.string.unknown));
+        String deviceModel = Build.MODEL;
+        return deviceModel + " | " + deviceCodename;
     }
 }
