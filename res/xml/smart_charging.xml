@@ -39,7 +39,7 @@
         android:key="smart_charging_resume_level"
         android:title="@string/smart_charging_resume_level_title"
         android:max="99"
-        settings:min="15"
+        settings:min="1"
         settings:units="%"
         android:defaultValue="60"
         android:dependency="smart_charging" />
