@@ -18,7 +18,9 @@ package com.android.settings.display;
 
 import android.content.Context;
 import android.hardware.display.ColorDisplayManager;
+import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
 public class NightDisplayFooterPreferenceController extends BasePreferenceController {
@@ -31,5 +33,12 @@ public class NightDisplayFooterPreferenceController extends BasePreferenceContro
     public int getAvailabilityStatus() {
         return ColorDisplayManager.isNightDisplayAvailable(mContext)
                 ? AVAILABLE_UNSEARCHABLE : UNSUPPORTED_ON_DEVICE;
+    }
+
+    @Override
+    public void updateState(Preference preference) {
+        String s = mContext.getResources().getString(R.string.night_display_text);
+        s += mContext.getResources().getString(R.string.night_display_location_text);
+        preference.setTitle(s);
     }
 }
