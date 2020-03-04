@@ -55,6 +55,8 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
     TextView mBatteryPercentText;
     @VisibleForTesting
     TextView mSummary1;
+    @VisibleForTesting
+    TextView mSummary2;
 
     private Activity mActivity;
     private PreferenceFragmentCompat mHost;
@@ -88,6 +90,7 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
                 .findViewById(R.id.battery_header_icon);
         mBatteryPercentText = mBatteryLayoutPref.findViewById(R.id.battery_percent);
         mSummary1 = mBatteryLayoutPref.findViewById(R.id.summary1);
+        mSummary2 = mBatteryLayoutPref.findViewById(R.id.summary2);
 
         quickUpdateHeaderPreference();
     }
@@ -112,6 +115,9 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
         } else {
             mSummary1.setText(info.remainingLabel);
         }
+        // Clear this just to be sure we don't get UI jank on re-entering this view from another
+        // activity.
+        mSummary2.setText("");
 
         mBatteryMeterView.setBatteryLevel(info.batteryLevel);
         mBatteryMeterView.setCharging(!info.discharging);
