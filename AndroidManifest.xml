@@ -1189,11 +1189,12 @@
         </activity>
 
         <!-- Provide direct entry into Dev settings - Running Services -->
-        <activity android:name="Settings$DevRunningServicesActivity"
-                android:label="@string/runningservices_settings_title"
-                android:excludeFromRecents="true"
-                android:taskAffinity="com.android.settings"
-                android:parentActivityName="Settings">
+        <activity
+            android:name="Settings$DevRunningServicesActivity"
+            android:label="@string/runningservices_settings_title"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.android.settings"
+            android:parentActivityName="Settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -3338,11 +3339,12 @@
                 android:value="com.android.settings.gestures.GlobalActionsPanelSettings" />
         </activity>
 
-        <!-- Evolution Settings -->
-        <activity android:name=".Settings$EvolutionSettingsActivity"
+        <!-- The Evolver -->
+        <activity
+            android:name="Settings$EvolutionSettingsActivity"
             android:label="@string/evolution_settings_title"
             android:icon="@drawable/ic_homepage_evolution"
-            android:parentActivityName="com.android.settings">
+            android:parentActivityName="Settings">
             <intent-filter android:priority="69">
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.android.settings.SHORTCUT" />
@@ -3350,11 +3352,12 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.evolution.settings.EvolutionSettings" />
             <meta-data android:name="com.android.settings.summary"
-                       android:resource="@string/evolution_settings_summary" />
+                android:resource="@string/evolution_settings_summary" />
         </activity>
 
-        <!-- Gaming mode -->
-        <activity android:name=".Settings$GamingModeActivity"
+        <!-- Gaming Mode activity -->
+        <activity
+            android:name="Settings$GamingModeActivity"
             android:label="@string/gaming_mode_title"
             android:taskAffinity="com.android.settings"
             android:parentActivityName="Settings">
@@ -3366,10 +3369,11 @@
                 android:value="com.evolution.settings.fragments.GamingMode" />
         </activity>
 
-        <!-- Lockscreen Display activity. -->
-        <activity android:name="Settings$LockscreenDisplayActivity"
-                android:label="@string/lockscreen_display_title"
-                android:excludeFromRecents="true">
+        <!-- Lockscreen Display activity -->
+        <activity
+            android:name="Settings$LockscreenDisplayActivity"
+            android:label="@string/lockscreen_display_title"
+            android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
