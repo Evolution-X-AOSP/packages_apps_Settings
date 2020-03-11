@@ -17,6 +17,7 @@ package com.android.settings.system;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.UserManager;
 import android.telephony.CarrierConfigManager;
 import android.text.TextUtils;
@@ -76,7 +77,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        CharSequence summary = mContext.getString(R.string.summary_empty);
+        CharSequence summary = mContext.getString(R.string.android_version_summary,
+                Build.VERSION.RELEASE);
         return summary;
     }
 
