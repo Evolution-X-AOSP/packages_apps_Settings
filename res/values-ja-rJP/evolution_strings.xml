@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- ROM version -->
+    <string name="about_device_name">端末</string>
+    <string name="build_date">ビルド日時</string>
+    <string name="build_maintainer">ビルドメンテナ</string>
+    <string name="rom_version">Evolution X バージョン</string>
+    <string name="rom_version_default">不明</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">統計のリセット</string>
+    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">全画面</string>
+    <string name="back_height_high_label">下部</string>
+    <string name="back_options_dialog_title">オプション</string>
+    <string name="back_height_message">戻るジェスチャーに使用される操作可能な画面領域の高さ</string>
+    <string name="back_block_ime_message">戻るジェスチャーのタッチ可能な領域に仮想キーボードの高さを無効化</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">閉じる</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">バッテリー温度</string>
+    <!-- The Evolver -->
+    <string name="evolution_settings_title">The Evolver</string>
+    <string name="evolution_settings_summary">私達の未来と共にあなたの端末を進化させましょう</string>
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">充電時の振動</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">着信音 - SIM 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">着信音 - SIM 2</string>
+    <!-- Lockscreen rotation -->
+    <string name="lockscreen_rotation_title">ロック画面の自動回転</string>
+    <string name="lockscreen_rotation_summary">ロック画面の自動回転を許可する</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
+    <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
+    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">画面を見やすく目の疲れを軽減するために時間と周囲の環境に合わせて画面を最適化する</string>
+    <string name="live_display_mode">表示モード</string>
+    <string name="live_display_color_temperature_title">色温度</string>
+    <string name="live_display_color_temperature_summary">昼: <xliff:g id="day_temperature">%1$d</xliff:g>K  夜: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">昼</string>
+    <string name="live_display_night">夜</string>
+    <string name="live_display_outdoor_mode_title">自動屋外モード</string>
+    <string name="live_display_outdoor_mode_summary">明るい日差しが照射する環境下で明るさと彩度を自動的に向上させる</string>
+    <string name="live_display_low_power_title">消費電力を削減</string>
+    <string name="live_display_low_power_summary">性能を低下させずに画面を最低の消費電力に調整する</string>
+    <string name="live_display_enhance_color_title">色を補正</string>
+    <string name="live_display_enhance_color_summary">肌の色・風景・他の画像の色の鮮やかさを補正する</string>
+    <string name="live_display_color_profile_title">カラープロファイル</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">正確な色と明るい白</string>
+    <string name="live_display_color_profile_natural_title">ナチュラル</string>
+    <string name="live_display_color_profile_natural_summary">写実的な色と肌色</string>
+    <string name="live_display_color_profile_dynamic_title">ダイナミック</string>
+    <string name="live_display_color_profile_dynamic_summary">補正した色と明るい白</string>
+    <string name="live_display_color_profile_cinema_title">シネマ</string>
+    <string name="live_display_color_profile_cinema_summary">ビデオの完全な色再現</string>
+    <string name="live_display_color_profile_astronomy_title">夜空</string>
+    <string name="live_display_color_profile_astronomy_summary">夜間視力に優しい深い赤</string>
+    <string name="live_display_color_profile_photography_title">写真</string>
+    <string name="live_display_color_profile_photography_summary">写真の完全な色再現</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">無調整のディスプレイを使用する</string>
+    <string name="live_display_color_profile_adaptive_title">自動</string>
+    <string name="live_display_color_profile_adaptive_summary">色を周囲の状況に適応する</string>
+    <string name="live_display_color_profile_reading_title">読書</string>
+    <string name="live_display_color_profile_reading_summary">目の負担を軽減するため暖かい色にする</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">正確な sRGB 色空間に補正する</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">正確な DCI-P3 色空間に補正する</string>
+    <string name="live_display_reading_mode_title">読書モード</string>
+    <string name="live_display_reading_mode_summary">長期間読書するのに適したグレースケールモードに変更する</string>
+    <string name="color_calibration_title">色の補正</string>
+    <string name="color_calibration_summary">画面の色を調整する</string>
+    <string name="color_red_title">赤</string>
+    <string name="color_green_title">緑</string>
+    <string name="color_blue_title">青</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">画像調整</string>
+    <string name="picture_adjustment_summary">色彩・彩度・輝度・コントラストを調整する</string>
+    <string name="adj_hue_title">色相</string>
+    <string name="adj_saturation_title">彩度</string>
+    <string name="adj_intensity_title">輝度</string>
+    <string name="adj_contrast_title">コントラスト</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">全画面表示のアプリ</string>
+    <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
+    <!-- Ambient Pulse on new tracks -->
+    <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">新規楽曲再生時にアンビエント表示をする</string>
+    <string name="ambient_ticker_footer">アンビエント音楽ティッカーはアンビエント表示内で再生中の楽曲情報を表示します。\n\nアンビエント表示が無効になっていても新しい曲が開始された時に起動し、アンビエント表示と楽曲情報を画面中央に強制表示します。\n\n楽曲情報をダブルタップして曲をスキップできます。\n\n楽曲情報をダブルタップして、次のトラックにスキップすることもできます。\n\nPixel端末 (第2世代以降) を所有していて、システムのオーディオ設定で「Now Playing」とその通知を有効にすると、アンビエント音楽ティッカーもその中で動作します。</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">回転</string>
+    <string name="display_rotation_disabled">無効</string>
+    <string name="display_rotation_unit">角度</string>
+    <string name="display_rotation_category_title">回転モード</string>
+    <string name="display_rotation_0_title">0度</string>
+    <string name="display_rotation_90_title">90度</string>
+    <string name="display_rotation_180_title">180度</string>
+    <string name="display_rotation_270_title">270度</string>
+    <!-- Fingerprint to dismiss -->
+    <string name="fp_swipe_to_dismiss_notifications_title">指紋センサーで左右にスワイプして通知を削除</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">通知を削除するには端末裏側の指紋センサー上で左右にスワイプして下さい</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">ミュート、メディアなし</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">ON (ミュート、メディアなし)</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">下部のバッテリー残量</string>
+    <string name="ambient_battery_percent_summary">Doze モード時にバッテリー残量の表示を有効にする</string>
+    <string name="ambient_wake_gestures_title">アンビエント復帰ジェスチャー</string>
+    <string name="ambient_wake_gestures_summary">復帰ジェスチャーで通常のロック画面の代わりにアンビエント画面を表示する</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充電時は常に有効</string>
+    <string name="doze_on_charge_summary">充電時は常時 Doze 画面を表示する</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">ダブルタップ</string>
+    <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
+    <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">画面リフレッシュレート</string>
+    <string name="refresh_rate_summary_auto">自動 / いくつかのコンテンツでリフレッシュレートを60Hzから90Hzに自動的に変更します。</string>
+    <string name="refresh_rate_summary_60">60Hz / 全てのコンテンツでリフレッシュレートを60Hzに固定</string>
+    <string name="refresh_rate_summary_90">90Hz / すべてのコンテンツでリフレッシュレートを90Hzに固定する。バッテリー使用量が増加します。</string>
+    <string name="auto_refresh_rate">自動</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">プラットフォーム</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">合計 RAM</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">LED の色</string>
+    <string name="custom_light_on_time_title">LED 点滅時の光っている時間 (ms)</string>
+    <string name="custom_light_off_time_title">LED 点滅時の消えている時間 (ms)</string>
+    <string name="value_equals_default">既定</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">スマート充電</string>
+    <string name="smart_charging_summary">最大充電レベルを設定する</string>
+    <string name="smart_charging_switch_title">スマート充電の使用</string>
+    <string name="smart_charging_level_title">充電停止レベル</string>
+    <string name="smart_charging_resume_level_title">充電開始レベル</string>
+    <string name="smart_charging_reset_stats_title">統計情報をリセット</string>
+    <string name="smart_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後バッテリーの統計情報をリセットする</string>
+    <string name="smart_charging_footer">スマート充電を使用すると最大充電レベルを設定することでバッテリー寿命を延ばすことができます</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
+    <string name="increasing_ring_min_volume_title">開始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">戻るジェスチャーの矢印をアニメーションする</string>
+    <!-- Audio Panel view  -->
+    <string name="audio_panel_view">音量パネル</string>
+    <string name="audio_panel_view_media_title">メディア</string>
+    <string name="audio_panel_view_ringer_title">着信</string>
+    <string name="audio_panel_view_notification_title">通知</string>
+    <string name="audio_panel_view_alarm_title">アラーム</string>
+    <string name="audio_panel_view_voice_title">音声</string>
+    <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択して下さい</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">間違えたパターンを表示</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
+    <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">直接ロックを解除</string>
+    <string name="directly_show_lock_summary">ロック解除のスワイプをスキップしてすぐに PIN 入力画面を表示する</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">音量レベル</string>
+    <string name="volume_steps_summary">音量の目盛りの細かさを選択する</string>
+    <string name="volume_steps_alarm_title">音量レベル: アラーム</string>
+    <string name="volume_steps_dtmf_title">音量レベル: ダイアル入力</string>
+    <string name="volume_steps_music_title">音量レベル: 音楽</string>
+    <string name="volume_steps_notification_title">音量レベル: 通知</string>
+    <string name="volume_steps_ring_title">音量レベル: 着信</string>
+    <string name="volume_steps_system_title">音量レベル: システム</string>
+    <string name="volume_steps_voice_call_title">音量レベル: 音声通話</string>
+    <string name="volume_steps_reset">リセット</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">端末のホスト名</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">バックグラウンドプロセス</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">端末前面にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">端末左側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">端末右側にある指紋認証センサーを探します</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">端末前面にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">端末左側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">端末右側にある指紋認証センサーを探します</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">端末前面にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">端末左側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">端末右側にある指紋認証センサーを探します</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用を許可</string>
+    <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">タッチスクリーンジェスチャー</string>
+    <string name="touchscreen_gesture_settings_summary">様々なタッチスクリーンジェスチャーで素早くアクションを実行する</string>
+    <!-- Enable/Disable Screenshot sound -->
+    <string name="screenshot_sound_title">スクリーンショットの音</string>
+    <string name="lockscreen_display_title">ロック画面の表示</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">通話時の振動</string>
+    <string name="incall_feeedback_summary">振動で通話状態を知らせる</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">振動と触覚フィードバック</string>
+    <string name="summary_vibration_preferences">強さやパターンなど変更する</string>
+    <string name="keywords_vibration_preferences">振動パターン、振動強度、通話時の触覚、タップ振動</string>
+    <string name="ringtone_vibration_pattern">着信音の振動のパターン</string>
+    <string name="vibration_intensity_ringer">着信音の振動の強さ</string>
+    <string name="vibration_intensity_notification">通知の振動の強さ</string>
+    <string name="vibration_intensity_disabled">無効</string>
+    <string name="vibration_intensity_light">弱</string>
+    <string name="vibration_intensity_medium">中</string>
+    <string name="vibration_intensity_strong">強</string>
+    <string name="vibration_intensity_custom">カスタム</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <!-- Improvements to Night Light -->
+    <string name="unknown_night_light_time">不明 - タップして更新</string>
+    <string name="night_display_location_text">\n\n日の出から日の入りからのスケジュールにはあなたの正確な時刻を取得するために位置情報の有効化が必要です。</string>
+    <!-- Android debugging -->
+    <string name="adb_enable">Android デバッグ</string>
+    <string name="adb_enable_summary">Android Debug Bridge (ADB) インターフェースを有効にする</string>
+    <!-- Android debugging notification -->
+    <string name="adb_notify">デバッグ通知</string>
+    <string name="adb_notify_summary">USB デバッグまたはネットワークデバッグが有効になっている時に通知を表示する</string>
+    <!-- Android debugging over network -->
+    <string name="adb_over_network">ネットワーク経由の ADB</string>
+    <string name="adb_over_network_summary">ネットワークインターフェース (Wi\u2011Fi、USB ネットワーク) 経由での TCP/IP デバッグを有効にします。この設定は再起動時にリセットされます。</string>
+    <string name="adb_over_network_warning">警告: ネットワーク経由での ADB を有効にするとあなたの携帯電話は接続している全てのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続している時にのみ使用して下さい。\n\nこの機能を本当に有効にしますか?</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">ジェスチャーバーのサイズ</string>
+    <string name="home_handle_low_label">なし</string>
+    <string name="home_handle_high_label">長い</string>
+    <!-- Wellbeing -->
+    <string name="duration_less_than_one_minute">1分未満</string>
+    <string name="screen_time_summary_usage_today">今日: %1$s</string>
+    <!-- Moto Face Unlock -->
+    <string name="security_settings_face_settings_footer_moto">[顔認証でロック解除]を使用してデバイスのロックを解除してください。\n\n注意: \n電話を見ると、意図しないときにロック解除されることがあります。\n\nあなたが目を開いているときに他の誰かに電話を顔の近くにかざされた場合、ロック解除されることがあります。\n\n自分の子供や双子など、自分によく似た誰かによって電話がロック解除されることがあります。</string>
+    <string name="security_settings_face_settings_remove_dialog_details_moto">[顔認証でロック解除]によって記録されたデータは、完全かつ安全に削除されます。削除後、電話のロックを解除するには、PIN、パターン、またはパスワードが必要です。</string>
+    <!-- Adaptive battery -->
+    <string name="battery_tip_smart_battery_summary_custom">自動調整バッテリーを ON にしてください</string>
+    <string name="smart_battery_footer_custom">"自動調整バッテリーで使用頻度の低いアプリの電池使用を制限すると、電池が長持ちします。時間の経過とともに、スマートフォンがアプリの使用状況を学習します。
+
+このアプリの通知は遅れることがあります。"</string>
+    <string name="smart_battery_manager_title_custom">自動調整バッテリー</string>
+    <string name="smart_battery_title_custom">自動調整バッテリーの使用</string>
+    <!-- Notch -->
+    <string name="notch_category_title">ノッチのオプション</string>
+    <string name="hide_notch_title">ノッチを隠す</string>
+    <string name="hide_notch_summary">アプリはノッチ領域を使えません</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">アダプティブ再生</string>
+    <string name="adaptive_playback_disabled_summary">OFF</string>
+    <string name="adaptive_playback_timeout_title">使用する点灯時間</string>
+    <string name="adaptive_playback_timeout_none">制限なし</string>
+    <string name="adaptive_playback_timeout_none_summary">OFF</string>
+    <string name="adaptive_playback_timeout_30_secs">30秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">ON (30秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1分</string>
+    <string name="adaptive_playback_timeout_1_min_summary">ON (1分)</string>
+    <string name="adaptive_playback_timeout_2_min">2分</string>
+    <string name="adaptive_playback_timeout_2_min_summary">ON (2分)</string>
+    <string name="adaptive_playback_timeout_5_min">5分</string>
+    <string name="adaptive_playback_timeout_5_min_summary">ON (5分)</string>
+    <string name="adaptive_playback_timeout_10_min">10分</string>
+    <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">モバイルデータ</string>
+    <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_vpn">VPN データ</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN データ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_wifi">Wi-Fi データ</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi-Fi データ使用量を有効化する</string>
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="show_gestures_navbar_switch_text">ジェスチャーナビゲーションバーを表示</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME ボタンスペースとピルを表示する</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">通知、通知ログ</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">高感度タッチ</string>
+    <string name="high_touch_sensitivity_summary">手袋を着けたまま使用できるようにタッチ画面の感度を向上させる</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">タッチ画面のホバリング</string>
+    <string name="touchscreen_hovering_summary">ウェブブラウザやリモードデスクトップなどでマウスのようにホバリングできるようにする</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">ネットワークを許可</string>
+    <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効化する</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">保存されたイヤホン</string>
+    <!-- A2DP codec priority -->
+    <string name="a2dp_source_codec_priority_title">Bluetooth オーディオコーデック (優先)</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD オーディオ</string>
+    <string name="sbc_hd_priority_summary">SBC コーデックにデュアルチャンネルモードを既定で使用するかどうかを設定する</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">バッテリー健康度</string>
+    <string name="battery_health_summary">端末のバッテリーの状態を監視する</string>
+    <string name="current_battery_capacity">現在バッテリー容量</string>
+    <string name="current_battery_capacity_summary">カーネルによって測定された現在のバッテリー容量</string>
+    <string name="designed_battery_capacity">設計バッテリー容量</string>
+    <string name="designed_battery_capacity_summary">メーカーによって設計されたバッテリー容量</string>
+    <string name="battery_charge_cycles">充電サイクルが完了しました</string>
+</resources>
