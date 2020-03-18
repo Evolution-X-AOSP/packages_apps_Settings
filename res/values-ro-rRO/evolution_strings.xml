@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- ROM version -->
+    <string name="about_device_name">Dispozitiv</string>
+    <string name="build_date">Dată compilare</string>
+    <string name="rom_version">Versiune Evolution X</string>
+    <string name="rom_version_default">Necunoscut</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Resetare statistici</string>
+    <string name="battery_stats_message">Statisticile privind istoricul bateriei vor fi resetate</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">Complet</string>
+    <string name="back_height_high_label">Jos</string>
+    <string name="back_options_dialog_title">Opţiuni</string>
+    <string name="back_height_message">Valoarea înălțimii ecranului utilizată ca regiune pentru gestul de înapoi.</string>
+    <string name="back_block_ime_message">Blocare înălțime tastatură virtuală ca o regiune accesibilă pentru gestul înapoi.</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Închideți</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura bateriei</string>
+    <!-- The Evolver -->
+    <string name="evolution_settings_title">Setări avansate ROM</string>
+    <string name="evolution_settings_summary">Începeți evoluția dispozitivului cu caracteristicile noastre</string>
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibrații la încărcare</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Ton de apel - SIM 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Ton de apel - SIM 2</string>
+    <!-- Lockscreen rotation -->
+    <string name="lockscreen_rotation_title">Rotire automată a ecranului de blocare</string>
+    <string name="lockscreen_rotation_summary">Permite rotirea ecranului de blocare</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
+    <string name="unlock_quick_unlock_control_summary">Se deblochează automat când se introduce codul PIN/parola corectă</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Amestecă așezarea tastelor</string>
+    <string name="unlock_scramble_pin_layout_summary">Amestecă așezarea în pagină a codului PIN atunci când se deblochează dispozitivul</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Se optimizează ecranul bazat pe timpul zilei şi condiţiile mediului ambient pentru a îmbunătăţi lizibilitatea şi a reduce oboseala ochilor</string>
+    <string name="live_display_mode">Mod de afişare</string>
+    <string name="live_display_color_temperature_title">Temperatura culorii</string>
+    <string name="live_display_color_temperature_summary">Zi: <xliff:g id="day_temperature">%1$d</xliff:g>K Noapte: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Ziua</string>
+    <string name="live_display_night">Noaptea</string>
+    <string name="live_display_outdoor_mode_title">Mod automat exterior</string>
+    <string name="live_display_outdoor_mode_summary">Crește luminozitatea și saturația automat în lumina strălucitoare a soarelui</string>
+    <string name="live_display_low_power_title">Reduce consumul de energie</string>
+    <string name="live_display_low_power_summary">Reglează afişajul pentru cel mai mic consum de energie fără degradare</string>
+    <string name="live_display_enhance_color_title">Îmbunătățire culori</string>
+    <string name="live_display_enhance_color_summary">Îmbunătățește vibranța culorilor pentru tonuri, peisaje și alte imagini</string>
+    <string name="live_display_color_profile_title">Profilul culorii</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Culori precise și alb luminos</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Tonuri și culori realiste</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamic</string>
+    <string name="live_display_color_profile_dynamic_summary">Culori îmbunătățite și alb luminos</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Reproducere perfectă a culorii pentru video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Roșu închis pentru păstrarea viziunii nocturne</string>
+    <string name="live_display_color_profile_photography_title">Fotografie</string>
+    <string name="live_display_color_profile_photography_summary">Reproducere perfectă a culorii pentru fotografii</string>
+    <string name="live_display_color_profile_basic_title">De bază</string>
+    <string name="live_display_color_profile_basic_summary">Utilizați ecranul necalibrat</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
+    <string name="live_display_color_profile_adaptive_summary">Culorile se adaptează la condiţiile ambientale</string>
+    <string name="live_display_color_profile_reading_title">Lectură</string>
+    <string name="live_display_color_profile_reading_summary">Culori mai calde pentru mai puţină oboseală a ochilor</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Culorile se calibrează după spațiul de culori sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Culorile se calibrează după spațiul de culori DCI-P3</string>
+    <string name="live_display_reading_mode_title">Mod lectură</string>
+    <string name="live_display_reading_mode_summary">Mod cu tonuri gri pentru cititul pe termen lung</string>
+    <string name="color_calibration_title">Calibrare culoare</string>
+    <string name="color_calibration_summary">Calibrare culori pe ecran</string>
+    <string name="color_red_title">Roșu</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Albastru</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajustare fotografie</string>
+    <string name="picture_adjustment_summary">Ajustaţi nuanţa, saturaţia, intensitatea şi contrastul</string>
+    <string name="adj_hue_title">Nuanţă</string>
+    <string name="adj_saturation_title">Saturație</string>
+    <string name="adj_intensity_title">Intensitate</string>
+    <string name="adj_contrast_title">Contrast</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Leagă volumele de apel și notificare</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicații ecran complet</string>
+    <string name="display_cutout_force_fullscreen_summary">Forţaţi aplicațiile să ignore spațiul pentru breton</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Stare SELinux</string>
+    <string name="selinux_status_disabled">Dezactivat</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Ambient Pulse on new tracks -->
+    <string name="pulse_on_new_tracks_title">Afișare muzică pe ecranul ambiental</string>
+    <string name="pulse_on_new_tracks_summary">Afișare ecran ambiental când este redată o piesă nouă</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker arată informaţii despre piesa muzicală pe ecranul de blocare şi pe ecranul ambiental.\n\nEste declanșat și dacă afișajul ambiental este dezactivat, atunci când o piesă nouă este pornită, afișând un ecran ambiental curat cu informații despre melodie în mijlocul ecranului.\n\nDe asemenea, puteți apăsa de două ori pe informațiile piesei pentru a trece la piesa următoare.\n\nDacă dețineți un Pixel (a doua generație și mai mare) și activați \"Redare Acum\" și notificarea în setările audio ale sistemului, Ambient Music Ticker va funcţiona şi în interiorul său.</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotaţie</string>
+    <string name="display_rotation_disabled">Dezactivată</string>
+    <string name="display_rotation_unit">grade</string>
+    <string name="display_rotation_category_title">Mod de rotație</string>
+    <string name="display_rotation_0_title">0 grade</string>
+    <string name="display_rotation_90_title">90 de grade</string>
+    <string name="display_rotation_180_title">180 de grade</string>
+    <string name="display_rotation_270_title">270 de grade</string>
+    <!-- Fingerprint to dismiss -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Glisați pe amprentă la stânga sau la dreapta pentru a elimina notificările</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Pentru a elimina notificările, glisaţi la stânga sau la dreapta pe senzorul de amprentă aflat pe partea din spate a telefonului.</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Fără sunet, fără media</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Pornit (fără sunet, fără media)</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Nivelul bateriei în partea de jos</string>
+    <string name="ambient_battery_percent_summary">Activează afișarea procentajului baterie în timpul încărcării</string>
+    <string name="ambient_wake_gestures_title">Gesturi trezire ambientală</string>
+    <string name="ambient_wake_gestures_summary">Afișează afișajul ambiental în locul ecranului de blocare normal la trezire</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Mereu activ când se încarcă</string>
+    <string name="doze_on_charge_summary">Se afişează ecranul ambiental tot timpul când se încarcă</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Atingere dublă</string>
+    <string name="doze_double_tap_title">Atingeți de două ori pentru a verifica telefonul</string>
+    <string name="doze_double_tap_summary">Pulsează notificările la apăsare dublă</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Rata de actualizare a ecranului</string>
+    <string name="refresh_rate_summary_auto">Auto / Crește rata de actualizare de la 60 la 90 Hz pentru un anumit conținut in mod automat</string>
+    <string name="refresh_rate_summary_60">60Hz / Rata de actualizare blocată la 60Hz pentru tot conținutul</string>
+    <string name="refresh_rate_summary_90">90Hz / Rata de actualizare blocată la 90Hz pentru tot conținutul. Utilizează mai multă baterie</string>
+    <string name="auto_refresh_rate">Automat</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platformă</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM total</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Culoare lumină</string>
+    <string name="custom_light_on_time_title">Durată iluminare PORNITĂ în timpul pulsului LED (ms)</string>
+    <string name="custom_light_off_time_title">Durată iluminare OPRITĂ în timpul pulsului LED (ms)\"</string>
+    <string name="value_equals_default">implicit</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Încărcare inteligentă</string>
+    <string name="smart_charging_summary">Setați nivelul maxim de încărcare</string>
+    <string name="smart_charging_switch_title">Utilizați încărcarea inteligentă</string>
+    <string name="smart_charging_level_title">Nivel oprire</string>
+    <string name="smart_charging_resume_level_title">Nivel pornire</string>
+    <string name="smart_charging_reset_stats_title">Resetare statistici baterie</string>
+    <string name="smart_charging_reset_stats_summary">Se resetează statisticile bateriei după atingerea nivelului de încărcare definit de utilizator</string>
+    <string name="smart_charging_footer">Încărcarea inteligentă vă permite să setați nivelul maxim de încărcare pentru a prelungi durata de viață a bateriei</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Volum crescator</string>
+    <string name="increasing_ring_min_volume_title">Volum iniţial</string>
+    <string name="increasing_ring_ramp_up_time_title">Timp de creştere a volumului</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Afișează o săgeată animată pentru gestul de înapoi.</string>
+    <!-- Audio Panel view  -->
+    <string name="audio_panel_view">Panou audio</string>
+    <string name="audio_panel_view_media_title">Media</string>
+    <string name="audio_panel_view_ringer_title">Sonerie</string>
+    <string name="audio_panel_view_notification_title">Notificare</string>
+    <string name="audio_panel_view_alarm_title">Alarmă</string>
+    <string name="audio_panel_view_voice_title">Voce</string>
+    <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Alegeți dimensiunea modelului</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Afișare eroare model</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Afișare puncte model</string>
+    <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Deblocare directă</string>
+    <string name="directly_show_lock_summary">Treci peste glisarea pentru deblocare și începe imediat introducerea codului</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Trepte volum</string>
+    <string name="volume_steps_summary">Numărul de trepte pentru volume</string>
+    <string name="volume_steps_alarm_title">Trepte volum: Alarmă</string>
+    <string name="volume_steps_dtmf_title">Trepte volum: DTMF</string>
+    <string name="volume_steps_music_title">Trepte volum: Muzică</string>
+    <string name="volume_steps_notification_title">Trepte volum: Notificare</string>
+    <string name="volume_steps_ring_title">Trepte volum: Sunet de apel</string>
+    <string name="volume_steps_system_title">Trepte volum: Sistem</string>
+    <string name="volume_steps_voice_call_title">Trepte volum: Apel vocal</string>
+    <string name="volume_steps_reset">Resetați</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">Nume gazdă dispozitiv</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Procesele de fundal</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Găsiți senzorul de amprentă pe partea din faţă a telefonului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Găsiți senzorul de amprentă pe partea stângă a telefonului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Găsiți senzorul de amprentă pe partea dreaptă a telefonului.</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Găsiți senzorul de amprentă pe partea din faţă a dispozitivului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Găsiți senzorul de amprentă pe partea stângă a dispozitivului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Găsiți senzorul de amprentă pe partea dreaptă a dispozitivului.</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Găsiți senzorul de amprentă pe partea din faţă a tabletei.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Găsiți senzorul de amprentă pe partea stângă a tabletei.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Găsiți senzorul de amprentă pe partea dreaptă a tabletei.</string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="gesture_pill_message">Ascunde pastila din bara de navigare pentru gesturile pe tot ecranul.</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permite clienților să utilizeze VPN-uri</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permite clienților hotspot-ului să utilizeze conexiunile VPN ale acestui dispozitiv pentru conexiunea upstream</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Gesturi touchscreen</string>
+    <string name="touchscreen_gesture_settings_summary">Efectuați diverse gesturi pe ecran pentru acţiuni rapide</string>
+    <!-- Enable/Disable Screenshot sound -->
+    <string name="screenshot_sound_title">Sunet captură de ecran</string>
+    <string name="lockscreen_display_title">Ecran de blocare</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Vibrare în apel</string>
+    <string name="incall_feeedback_summary">Vibrare pentru a indica starea apelului</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Vibrații</string>
+    <string name="summary_vibration_preferences">Schimbaţi intensitatea, modelul și altele</string>
+    <string name="keywords_vibration_preferences">model de vibraţie, intensitate vibraţii, apel, atingere, intensitate vibraţie</string>
+    <string name="ringtone_vibration_pattern">Model vibrație ton de sonerie</string>
+    <string name="vibration_intensity_ringer">Intensitatea vibraţiei tonului de sonerie</string>
+    <string name="vibration_intensity_notification">Intensitatea vibrațiilor notificărilor</string>
+    <string name="vibration_intensity_disabled">Dezactivată</string>
+    <string name="vibration_intensity_light">Slabă</string>
+    <string name="vibration_intensity_medium">Medie</string>
+    <string name="vibration_intensity_strong">Puternică</string>
+    <string name="vibration_intensity_custom">Personalizată</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Afișare istoric notificări</string>
+    <!-- Improvements to Night Light -->
+    <string name="unknown_night_light_time">Necunoscut - apăsați pentru actualizare</string>
+    <string name="night_display_location_text">\n\nProgramul de la apus la răsărit necesită servicii de locație activate pentru a obține orele corecte pentru locația dvs.</string>
+    <!-- Android debugging -->
+    <string name="adb_enable">Depanare Android</string>
+    <string name="adb_enable_summary">Activați interfața Android Debug Bridge (ADB)</string>
+    <!-- Android debugging notification -->
+    <string name="adb_notify">Notificare depanare</string>
+    <string name="adb_notify_summary">Afișează o notificare atunci când depanarea prin USB sau rețea este activată</string>
+    <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB prin rețea</string>
+    <string name="adb_over_network_summary">Activează depanarea TCP/IP prin interfețele de rețea (Wi\u2011Fi, rețele USB). Această setare este restaurată la repornire</string>
+    <string name="adb_over_network_warning">AVERTISMENT: Când ADB prin reţea este activat, telefonul dvs. este deschis pentru intruziuni pe toate reţelele conectate! \n\nUtilizaţi această caracteristică doar atunci când sunteţi conectat la rețele de încredere.\n\nDoriţi cu adevărat să activaţi această funcţie?</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Dimensiune bară de gesturi</string>
+    <string name="home_handle_low_label">Mică (AOSP)</string>
+    <string name="home_handle_high_label">Lungă</string>
+    <!-- Wellbeing -->
+    <string name="duration_less_than_one_minute">Mai puțin de 1 minut</string>
+    <string name="screen_time_summary_usage_today">%1$s astăzi</string>
+    <!-- Moto Face Unlock -->
+    <string name="security_settings_face_settings_footer_moto">Utilizaţi funcţia Deblocare facială pentru deblocarea dispozitivului.\n\nReţineţi:\nDacă priviţi spre telefon, îl puteţi debloca neintenţionat.\n\nTelefonul poate fi deblocat de altă persoană dacă este îndreptat spre faţa dumneavoastră atunci când aveţi ochii deschişi.\n\nTelefonul poate fi deblocat de o persoană care seamănă cu dumneavoastră, de exemplu copilul sau un frate geamăn.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_moto">Datele înregistrate de funcţia Deblocare facială vor fi şterse permanent şi în siguranţă. După eliminare, veţi avea nevoie de codul PIN, de model sau de parolă pentru deblocarea telefonului.</string>
+    <!-- Adaptive battery -->
+    <string name="battery_tip_smart_battery_summary_custom">Porniți Baterie adaptivă</string>
+    <string name="smart_battery_footer_custom">"Pentru a prelungi autonomia, Bateria adaptivă limitează bateria pentru aplicațiile utilizate rar. Telefonul va învăța cum folosiți aplicațiile în timp.
+
+Notificările de la aceste aplicații pot fi primite cu întârziere."</string>
+    <string name="smart_battery_manager_title_custom">Baterie adaptivă</string>
+    <string name="smart_battery_title_custom">Utilizare baterie adaptivă</string>
+    <!-- Notch -->
+    <string name="notch_category_title">Opţiuni breton</string>
+    <string name="hide_notch_title">Ascundere breton</string>
+    <string name="hide_notch_summary">Aplicațiile nu pot utiliza zona pentru breton</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Redare adaptivă</string>
+    <string name="adaptive_playback_timeout_title">Folosește un timp expirare de</string>
+    <string name="adaptive_playback_timeout_none_summary">Oprit</string>
+    <string name="adaptive_playback_timeout_30_secs">30 de secunde</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Pornit (30 de secunde)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minut</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Pornit (1 minut)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minute</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Pornit (2 minute)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minute</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Pornit (5 minute)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minute</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Pornit (10 minute)</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Date mobile</string>
+    <string name="data_usage_app_restrict_data_summary">Activați utilizarea datelor mobile</string>
+    <string name="data_usage_app_restrict_vpn">Date VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Activați utilizarea datelor VPN</string>
+    <string name="data_usage_app_restrict_wifi">Date Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Activați utilizarea datelor Wi\u2011Fi</string>
+</resources>
