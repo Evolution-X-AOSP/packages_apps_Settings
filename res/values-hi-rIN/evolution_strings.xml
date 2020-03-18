@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- ROM version -->
+    <string name="about_device_name">डिवाइस </string>
+    <string name="build_date">निर्माण दिनांक</string>
+    <string name="rom_version">इवोल्यूशन एक्स संस्करण</string>
+    <string name="rom_version_default">अज्ञात</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">आँकड़े रीसेट करें</string>
+    <string name="battery_stats_message">बैटरी के आँकड़े रीसेट किये जाने वाले हैं</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">पूर्ण</string>
+    <string name="back_height_high_label">नीचे</string>
+    <string name="back_options_dialog_title">विकल्प</string>
+    <string name="back_height_message">स्क्रीन की ऊंचाई जिसका उपयोग बैक जेस्चर के लिए छूने योग्य क्षेत्र के रूप में किया जा सकता है ।</string>
+    <string name="back_block_ime_message">बैक जेस्चर के लिए कीबोर्ड की ऊंचाई को स्पर्श योग्य क्षेत्र न मानें</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">बंद</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">बैटरी तापमान:</string>
+    <!-- The Evolver -->
+    <string name="evolution_settings_title">द इवोल्वर</string>
+    <string name="evolution_settings_summary">हमारे फीचर्स के साथ अपने फोन को स्टाइलिश बनाएं</string>
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">चार्ज लगाने पर कंपन</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">रिंगटोन - सिम 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">रिंगटोन - सिम 2</string>
+    <!-- Lockscreen rotation -->
+    <string name="lockscreen_rotation_title">लॉक स्क्रीन को स्वत: घुमाएं</string>
+    <string name="lockscreen_rotation_summary">लॉकस्क्रीन को घूमने की अनुमति दें</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">तुरंत लॉक खोलें</string>
+    <string name="unlock_quick_unlock_control_summary">सही पिन / पासवर्ड दर्ज करने पर स्वत: लॉक खोलें</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">अव्यवस्थित प्रारूप</string>
+    <string name="unlock_scramble_pin_layout_summary">फोन का लॉक खोलते समय अव्यवस्थित पिन प्रारूप</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">पठनीयता में सुधार और आंखों की जलन कम करने के लिए दिन और परिवेश की स्थितियों के आधार पर अपनी स्क्रीन का अनुकूलन करें</string>
+    <string name="live_display_mode">डिस्प्ले मोड</string>
+    <string name="live_display_color_temperature_title">रंग तापमान</string>
+    <string name="live_display_color_temperature_summary">दिन: <xliff:g id="दिन_तापमान">%1$d</xliff:g>K रात: <xliff:g id="रात_तापमान">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="डिग्री">%1$d</xliff:g>K</string>
+    <string name="live_display_day">दिन</string>
+    <string name="live_display_night">रात</string>
+    <string name="live_display_outdoor_mode_title">स्वत: आउटडोर मोड</string>
+    <string name="live_display_outdoor_mode_summary">तेज धूप में चमक और संतृप्ति को स्वत: बढ़ाएं</string>
+    <string name="live_display_low_power_title">बैटरी खर्च कम करे</string>
+    <string name="live_display_low_power_summary">कम बैटरी खपत के लिए प्रदर्शन में गिरावट के बिना डिस्प्ले को समायोजित करें</string>
+    <string name="live_display_enhance_color_title">रंग गहरे करें</string>
+    <string name="live_display_enhance_color_summary">फ्लेश धुनों, दृश्यों और दूसरी छवियों के रंगों में सुधार करें</string>
+    <string name="live_display_color_profile_title">रंग प्रोफ़ाइल</string>
+    <string name="live_display_color_profile_standard_title">सामान्य</string>
+    <string name="live_display_color_profile_standard_summary">सटीक रंग और चमकदार सफेद</string>
+    <string name="live_display_color_profile_natural_title">प्राकृतिक</string>
+    <string name="live_display_color_profile_natural_summary">वास्तविक रंग और फ्लेश टोंस</string>
+    <string name="live_display_color_profile_dynamic_title">डायनेमिक</string>
+    <string name="live_display_color_profile_dynamic_summary">सटीक रंग और चमकदार सफेद</string>
+    <string name="live_display_color_profile_cinema_title">सिनेमा</string>
+    <string name="live_display_color_profile_cinema_summary">वीडियो के लिए सही रंग का पुनरुत्पादन करें</string>
+    <string name="live_display_color_profile_astronomy_title">अंतरिक्ष</string>
+    <string name="live_display_color_profile_astronomy_summary">नाइट विजन के संरक्षण के लिए गहरा लाल</string>
+    <string name="live_display_color_profile_photography_title">फोटोग्राफी</string>
+    <string name="live_display_color_profile_photography_summary">फोटो के लिए उत्तम रंग का पुनरुत्पादन करें</string>
+    <string name="live_display_color_profile_basic_title">मूल</string>
+    <string name="live_display_color_profile_basic_summary">गैर समायोजित डिस्प्ले का प्रयोग करें</string>
+    <string name="live_display_color_profile_adaptive_title">अनुकूलन योग्य</string>
+    <string name="live_display_color_profile_adaptive_summary">खुली स्थितियों के लिए रंग अनुकूलन</string>
+    <string name="live_display_color_profile_reading_title">पढ़ना</string>
+    <string name="live_display_color_profile_reading_summary">कम नेत्र तनाव के लिए गर्म रंग</string>
+    <string name="live_display_color_profile_srgb_title">एस आरजीबी</string>
+    <string name="live_display_color_profile_srgb_summary">एस आरजीबी वर्णक्षेत्र के लिए सटीक रंग</string>
+    <string name="live_display_color_profile_dci_p3_title">डीसीआई-पी3</string>
+    <string name="live_display_color_profile_dci_p3_summary">डीसीआई- पी3 वर्णक्षेत्र के लिए सटीक रंग</string>
+    <string name="live_display_reading_mode_title">पठन मोड</string>
+    <string name="live_display_reading_mode_summary">लंबी अवधि तक पढ़ने के लिए ग्रेस्केल मोड</string>
+    <string name="color_calibration_title">रंग समायोजन</string>
+    <string name="color_calibration_summary">स्क्रीन के रंगों को समायोजित करें</string>
+    <string name="color_red_title">लाल</string>
+    <string name="color_green_title">हरा</string>
+    <string name="color_blue_title">नीला</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">चित्र समायोजन</string>
+    <string name="picture_adjustment_summary">छटा, संतृप्ति, तीव्रता, और कंट्रास्ट समायोजित करें</string>
+    <string name="adj_hue_title">वर्ण</string>
+    <string name="adj_saturation_title">संतृप्तता</string>
+    <string name="adj_intensity_title">तीव्रता</string>
+    <string name="adj_contrast_title">कंट्रास्ट</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">रिंगटोन &amp; नोटिफिकेशन वॉल्यूम सम्बद्ध करें</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">पूर्ण स्क्रीन एप्लिकेशन</string>
+    <string name="display_cutout_force_fullscreen_summary">एप्स को नौच को अनदेखा करने पर मजबूर करें</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">एसई लिनक्स स्थिति</string>
+    <string name="selinux_status_disabled">बंद</string>
+    <string name="selinux_status_permissive">पर्मिस्सिव</string>
+    <string name="selinux_status_enforcing">एनफॉर्सिंग</string>
+    <!-- Ambient Pulse on new tracks -->
+    <string name="pulse_on_new_tracks_title">एंबिएंट संगीत टिकर</string>
+    <string name="pulse_on_new_tracks_summary">संगीत चलाने पर एंबिएंट डिस्प्ले दिखाएं</string>
+    <string name="ambient_ticker_footer">एम्बिएंट म्यूजिक टिकर लॉक स्क्रीन और एंबिएंट स्क्रीन पर म्यूजिक ट्रैक की जानकारी को दिखाता है।\n\n यह ट्रिगर भी हो जाता है यदि नया ट्रैक शुरू होने पर एम्बिएंट डिस्प्ले अक्षम हो जाता है, तो स्क्रीन के बीच में गाने की जानकारी स्क्रीन पर दिखाता है।\n\n आप अगला गाना चलाने के लिए गाने की जानकारी पर डबल टैप भी कर सकते हैं।\n\n यदि आप एक पिक्सल (2 पीढ़ी और उच्चतर) के मालिक हैं तो \"Now Playing\" और सिस्टम ऑडियो सेटिंग्स, के भीतर भी यह काम करेगा।</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">रोटेशन</string>
+    <string name="display_rotation_disabled">बंद</string>
+    <string name="display_rotation_unit">डिग्री</string>
+    <string name="display_rotation_category_title">रोटेशन मोड</string>
+    <string name="display_rotation_0_title">0 डिग्री</string>
+    <string name="display_rotation_90_title">90 डिग्री</string>
+    <string name="display_rotation_180_title">180 डिग्री</string>
+    <string name="display_rotation_270_title">270 डिग्री</string>
+    <!-- Fingerprint to dismiss -->
+    <string name="fp_swipe_to_dismiss_notifications_title">नोटिफिकेशन को हटाने के लिए फिंगरप्रिंट पर दाएं या बाएं स्वाइप करें</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">नोटिफिकेशन को हटाने के लिए, अपने फ़ोन के पीछे फ़िंगरप्रिंट सेंसर पर बाएं या दाएं स्वाइप करें।</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">मौन, कोई मीडिया नहीं</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">चालू (मौन, कोई मीडिया नहीं)</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">नीचे बैटरी प्रतिशत दिखाएं</string>
+    <string name="ambient_battery_percent_summary">डोज के समय बैटरी प्रतिशत दिखाने के लिए सक्षम करें</string>
+    <string name="ambient_wake_gestures_title">एम्बिएंट वेक जेस्चर</string>
+    <string name="ambient_wake_gestures_summary">वेक जेस्चर करने पर सामान्य लॉकस्क्रीन के बजाए एम्बिएंट डिस्प्ले दिखाएं</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">चार्जिंग पर हमेशा चालू</string>
+    <string name="doze_on_charge_summary">चार्जिंग पर हमेशा डोज़ स्क्रीन दिखाएँ</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">दो बार दबाएं</string>
+    <string name="doze_double_tap_title">फ़ोन चेक करने के लिए दो बार दबाएं</string>
+    <string name="doze_double_tap_summary">दो बार स्पर्श करने पर पल्स नोटिफिकेशन</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">स्क्रीन रिफ्रेश दर</string>
+    <string name="refresh_rate_summary_auto">स्वतः कुछ कंटेंट के लिए रिफ्रेश दर 60Hz से 90Hz बढ़ाएं</string>
+    <string name="refresh_rate_summary_60">60Hz / सभी कंटेंट के लिए रिफ्रेश दर 60Hz रखें</string>
+    <string name="refresh_rate_summary_90">90Hz / सभी कंटेंट के लिए रिफ्रेश दर 90Hz करें। इससे बैटरी ज़्यादा खर्च होगी</string>
+    <string name="auto_refresh_rate">स्वतः</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">प्लेटफार्म</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">कुल रैम</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">हल्का रंग</string>
+    <string name="custom_light_on_time_title">एलईडी स्पन्द के दौरान प्रकाश शुरू होने कि अवधि (मिलीसेकंड)</string>
+    <string name="custom_light_off_time_title">एलईडी स्पन्द के दौरान प्रकाश बंद होने कि अवधि (मिलीसेकंड)\"</string>
+    <string name="value_equals_default">डिफॉल्ट</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">स्मार्ट चार्जिंग</string>
+    <string name="smart_charging_summary">अधिक्तम चार्जिंग स्तर सेट करें</string>
+    <string name="smart_charging_switch_title">स्मार्ट चार्जिंग प्रयोग करें</string>
+    <string name="smart_charging_level_title">ट्रिगर स्तर बंद</string>
+    <string name="smart_charging_resume_level_title">ट्रिगर स्तर चालू</string>
+    <string name="smart_charging_reset_stats_title">बैटरी के आँकड़े रीसेट करें</string>
+    <string name="smart_charging_reset_stats_summary">उपयोगकर्ता परिभाषित चार्जिंग स्तर तक पहुंचने के बाद बैटरी के आंकड़ों को रीसेट करें</string>
+    <string name="smart_charging_footer">स्मार्ट चार्जिंग आपको अपनी बैटरी की उम्र बढ़ाने के लिए अधिकतम चार्जिंग स्तर निर्धारित करने की अनुमति देता है</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">बढ़ता हुआ रिंगटोन वोल्यूम</string>
+    <string name="increasing_ring_min_volume_title">स्टार्ट वॉल्यूम</string>
+    <string name="increasing_ring_ramp_up_time_title">समय को बढ़ाएँ</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">बैक जेस्चर के लिए एक एनीमेशन तीर दिखाएं</string>
+    <!-- Audio Panel view  -->
+    <string name="audio_panel_view">ऑडियो पैनल</string>
+    <string name="audio_panel_view_media_title">मीडिया</string>
+    <string name="audio_panel_view_ringer_title">रिंग</string>
+    <string name="audio_panel_view_notification_title">सूचना</string>
+    <string name="audio_panel_view_alarm_title">अलार्म</string>
+    <string name="audio_panel_view_voice_title">आवाज़</string>
+    <string name="audio_panel_view_bt_sco_title">ब्लूटूथ</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">पैटर्न का आकार चुने</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">पैटर्न त्रुटि दिखाएं</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">पैटर्न डॉट्स दिखाएं</string>
+    <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">प्रत्यक्ष अनलॉक</string>
+    <string name="directly_show_lock_summary">सही पिन/पासवर्ड/पैटर्न डालने पर बिना स्वाइप के तुरंत स्क्रीन अनलॉक करें</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">ध्वनि स्तर</string>
+    <string name="volume_steps_summary">ध्वनि स्तर की संख्या</string>
+    <string name="volume_steps_alarm_title">ध्वनि स्तर: अलार्म</string>
+    <string name="volume_steps_dtmf_title">ध्वनि स्तर: DTMF</string>
+    <string name="volume_steps_music_title">ध्वनि स्तर: संगीत</string>
+    <string name="volume_steps_notification_title">ध्वनि स्तर: अधिसूचना</string>
+    <string name="volume_steps_ring_title">ध्वनि स्तर: रिंगर</string>
+    <string name="volume_steps_system_title">ध्वनि स्तर: सिस्टम</string>
+    <string name="volume_steps_voice_call_title">ध्वनि स्तर: वॉयस कॉल</string>
+    <string name="volume_steps_reset">रीसेट</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">डिवाइस होस्टनाम</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">पृष्ठभूमि की प्रक्रिया</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">फ़ोन के सामने की ओर फिंगरप्रिंट सेंसर खोजें</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">अपने फोन के बायीं ओर फिंगरप्रिंट सेंसर का पता लगाएँ।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">अपने फोन के दांए तरफ फिंगरप्रिंट सेंसर को ढूंढ़े</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">अपने डिवाइस के मोर्चे पर फिंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">डिवाइस के बाईं ओर फिंगरप्रिंट सेंसर का पता लगाएँ</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">अपने फोन के दांए तरफ फिंगरप्रिंट सेंसर को ढूंडें</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">अपने टैबलेट के फ्रंट पर फिंगरप्रिंट सेंसर लगाएं</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">अपने टैब के बायीं ओर फिंगरप्रिंट सेंसर का पता लगाएँ।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">अपने टेबलेट के दाईं ओर फ़िंगरप्रिंट सेंसर की स्थिति जानें।</string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="gesture_pill_message">फुलस्क्रीन के लिए नेविगेशन बार छिपाएँ</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">वीपीएन का उपयोग करने के लिए ग्राहकों को अनुमति दें</string>
+    <string name="tethering_allow_vpn_upstreams_summary">हॉटस्पॉट क्लाइंट को अपस्ट्रीम कनेक्टिवी के लिए डिवाइस \ u2019s वीपीएन कनेक्शन का उपयोग करने की अनुमति दें</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">टचस्क्रीन इशारा</string>
+    <string name="touchscreen_gesture_settings_summary">त्वरित कार्रवाई के लिए विभिन्न टच स्क्रीन इशारे करें</string>
+    <!-- Enable/Disable Screenshot sound -->
+    <string name="screenshot_sound_title">स्क्रीनशॉट ध्वनि</string>
+    <string name="lockscreen_display_title">लॉक स्क्रीन डिस्प्ले</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">कॉल के दौरान कंपन</string>
+    <string name="incall_feeedback_summary">कॉल स्थिति को इंगित करने के लिए कंपन करें</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">कंपन &amp; हैप्टिक</string>
+    <string name="summary_vibration_preferences">तीव्रता, पैटर्न और अधिक बदलें</string>
+    <string name="keywords_vibration_preferences">कंपन पैटर्न, कंपन तीव्रता, कॉल में, हैप्टिक, नल, कंपन शक्ति</string>
+    <string name="ringtone_vibration_pattern">रिंगटोन कंपन पैटर्न</string>
+    <string name="vibration_intensity_ringer">रिंगटोन्स कंपन तीव्रता</string>
+    <string name="vibration_intensity_notification">अधिसूचना कंपन तीव्रता</string>
+    <string name="vibration_intensity_disabled">अक्षम कर दिया गया हैं</string>
+    <string name="vibration_intensity_light">रोशनी</string>
+    <string name="vibration_intensity_medium">मध्यम</string>
+    <string name="vibration_intensity_strong">मजबूत</string>
+    <string name="vibration_intensity_custom">रिवाज</string>
+    <string name="pattern_dzzz_dzzz">डी साथ साथ साथ-डी साथ साथ साथ</string>
+    <string name="pattern_dzzz_da">डी साथ साथ साथ-डी ए</string>
+    <string name="pattern_mm_mm_mm">मिमी-mm-मिमी</string>
+    <string name="pattern_da_da_dzzz">डी ए-डी ए-डी साथ साथ साथ</string>
+    <string name="pattern_da_dzzz_da">डी ए-डी साथ साथ साथ-डी ए</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">सूचना इतिहास लॉग दिखाएं</string>
+    <!-- Improvements to Night Light -->
+    <string name="unknown_night_light_time">अज्ञात - अद्यतन करने के लिए दबाएँ</string>
+    <string name="night_display_location_text">\n\n सूर्यास्त से लेकर सूर्योदय तक का सही समय जानने के लिए स्थिति की जानकारी की आवश्यकता है</string>
+    <!-- Android debugging -->
+    <string name="adb_enable">ऐंड्रोइड डीबगिंग</string>
+    <string name="adb_enable_summary">एंड्रॉयड डिबग ब्रिज (एडीबी) इंटरफ़ेस सक्षम करें</string>
+    <!-- Android debugging notification -->
+    <string name="adb_notify">डिबगिंग सूचित करें</string>
+    <string name="adb_notify_summary">यूएसबी नेटवर्क डिबगिंग सक्षम होने पर एक नोटिफिकेशन प्रदर्शित करें</string>
+    <!-- Android debugging over network -->
+    <string name="adb_over_network">एडीबी ओवर नेटवर्क</string>
+    <string name="adb_over_network_summary">नेटवर्क इंटरफ़ेसों पर (वाई\u2011फ़ाई, यूएसबी नेटवर्क) नेटवर्क पर टीसीपी/आईपी डीबगिंग को सक्षम करें। यह सेटिंग रीबूट करने पर रीसेट होती है</string>
+    <string name="adb_over_network_warning">चेतावनी: जब ADB नेटवर्क सक्षम होता है, तो आपका फ़ोन सभी कनेक्टेड नेटवर्क पर घुसपैठ के लिए खुला होता है! \n\n इस सुविधा का उपयोग तब करें जब आप विश्वसनीय नेटवर्क पर कनेक्ट हों। \n\n क्या आप वास्तव में इस फ़ंक्शन को सक्षम करना चाहते हैं?</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">जेस्चर बार का आकार</string>
+    <string name="home_handle_low_label">छोटा (एओएसपी)</string>
+    <string name="home_handle_high_label">लंबा</string>
+    <!-- Wellbeing -->
+    <string name="duration_less_than_one_minute">१ मिनट से कम</string>
+    <string name="screen_time_summary_usage_today">आज %1$s</string>
+    <!-- Moto Face Unlock -->
+    <string name="security_settings_face_settings_footer_moto">अपने डिवाइस को अनलॉक करने के लिए फेस अनलॉक का उपयोग करें।\n\nध्यान रखें:\nफ़ोन को देखने पर न चाहते हुए भी वह अनलॉक हो सकता है।\n\nकोई और भी आपके फ़ोन को अनलॉक कर सकता है, यदि इसे आपके चेहरे की ओर करके रखा गया हो और आपकी आंखें खुली हुई हों.\n\nकिसी का चेहरा आपसे बहुत अधिक मिलता-जुलता हो, जैसे कि आपका बच्चा या आप ही की तरह दिखने वाले भाई-बहन, तो वे आपके फ़ोन को अनलॉक कर सकते हैं.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_moto">चेहरे से अनलॉक सुविधा द्वारा रिकॉर्ड किया गया डेटा स्थायी और सुरक्षित रूप से हटा दिया जाएगा. हट जाने के बाद, आपको अपने फ़ोन को अनलॉक करने के लिए पिन, पैटर्न या पासवर्ड की आवश्यकता होगी.</string>
+    <!-- Adaptive battery -->
+    <string name="battery_tip_smart_battery_summary_custom">ज़रूरत के हिसाब से बैटरी के इस्तेमाल की सुविधा चालू करें</string>
+    <string name="smart_battery_footer_custom">"बैटरी लाइफ़ बढ़ाने के लिए, ज़रूरत के हिसाब से बैटरी का इस्तेमाल करने की सुविधा, कभी-कभार इस्तेमाल होने वाले ऐप्लिकेशन पर बैटरी के इस्तेमाल से जुड़ी रोक लगाती है. समय के साथ आपके फ़ोन को यह पता चल जाएगा कि आप किस तरह से ऐप्लिकेशन इस्तेमाल करते हैं.
+
+इन ऐप्लिकेशन से जुड़ी सूचनाएं दिखने में देर हो सकती है."</string>
+    <string name="smart_battery_manager_title_custom">ज़रूरत के हिसाब से बैटरी का इस्तेमाल</string>
+    <string name="smart_battery_title_custom">ज़रूरत के हिसाब से बैटरी का इस्तेमाल करने की सुविधा आज़माएं</string>
+    <!-- Notch -->
+    <string name="notch_category_title">नॉच विकल्प</string>
+    <string name="hide_notch_title">नॉच छिपाना</string>
+    <string name="hide_notch_summary">ऐप्स नॉच क्षेत्र का उपयोग नहीं कर सकते हैं</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">अनुकुलित प्लेबैक</string>
+    <string name="adaptive_playback_timeout_title">टाइमआउट का उपयोग करें</string>
+    <string name="adaptive_playback_timeout_none_summary">ऑफ</string>
+    <string name="adaptive_playback_timeout_30_secs">30 सेकण्ड</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">चालू (30 सेकण्ड)</string>
+    <string name="adaptive_playback_timeout_1_min">1 मिनट बाद</string>
+    <string name="adaptive_playback_timeout_1_min_summary">चालू (1 मिनट)</string>
+    <string name="adaptive_playback_timeout_2_min">2 मिनट बाद</string>
+    <string name="adaptive_playback_timeout_2_min_summary">चालू (2 मिनट)</string>
+    <string name="adaptive_playback_timeout_5_min">5 मिनट बाद</string>
+    <string name="adaptive_playback_timeout_5_min_summary">चालू (5 मिनट)</string>
+    <string name="adaptive_playback_timeout_10_min">10 मिनट बाद</string>
+    <string name="adaptive_playback_timeout_10_min_summary">चालू (10 मिनट)</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">मोबाइल डेटा</string>
+    <string name="data_usage_app_restrict_data_summary">मोबाइल डेटा के उपयोग को सक्रिय करें</string>
+    <string name="data_usage_app_restrict_vpn">वीपीएन डेटा</string>
+    <string name="data_usage_app_restrict_vpn_summary">वीपीएन डेटा के उपयोग को सक्रिय करें</string>
+    <string name="data_usage_app_restrict_wifi">वाई\u2011फाई डेटा</string>
+    <string name="data_usage_app_restrict_wifi_summary">वाई\u2011फाई डेटा के उपयोग को सक्रिय करें</string>
+</resources>

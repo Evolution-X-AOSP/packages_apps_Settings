@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- ROM version -->
+    <string name="about_device_name">裝置</string>
+    <string name="build_date">編譯日期</string>
+    <string name="rom_version">Evolution X 版本</string>
+    <string name="rom_version_default">未知</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">重置統計數據</string>
+    <string name="battery_stats_message">重置電池統計數據</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">全螢幕</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">選項</string>
+    <string name="back_height_message">全螢幕手勢可觸法範圍</string>
+    <string name="back_block_ime_message">禁止在虛擬鍵盤上使用返回手勢</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">關閉</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">電池溫度</string>
+    <!-- The Evolver -->
+    <string name="evolution_settings_title">Evolution X 自定義</string>
+    <string name="evolution_settings_summary">開源進化論 Evolution X  </string>
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">充電時震動</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">手機鈴聲 - SIM卡 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">手機鈴聲 - SIM卡 2</string>
+    <!-- Lockscreen rotation -->
+    <string name="lockscreen_rotation_title">螢幕自動旋轉</string>
+    <string name="lockscreen_rotation_summary">允許在鎖定螢幕上旋轉</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+    <string name="unlock_quick_unlock_control_summary">輸入正確的 PIN/密碼 時手機將自動解鎖</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">隨機排序</string>
+    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用隨機排序 PIN 碼鍵盤</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">根據日夜和環境條件調整您的螢幕色溫，即可改善可讀性和減少眼睛疲勞</string>
+    <string name="live_display_mode">顯示模式</string>
+    <string name="live_display_color_temperature_title">色溫</string>
+    <string name="live_display_color_temperature_summary">白天：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g></string>
+    <string name="live_display_day">白天</string>
+    <string name="live_display_night">夜晚</string>
+    <string name="live_display_outdoor_mode_title">自動戶外模式</string>
+    <string name="live_display_outdoor_mode_summary">在陽光下自動提高亮度和飽和度</string>
+    <string name="live_display_low_power_title">降低耗電量</string>
+    <string name="live_display_low_power_summary">在不降低亮度的情況下調整顯示以降低耗電量</string>
+    <string name="live_display_enhance_color_title">增強色彩</string>
+    <string name="live_display_enhance_color_summary">為風景和其他圖片增強色彩</string>
+    <string name="live_display_color_profile_title">色彩設定檔</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">準確的色彩和明亮度調整</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">還原真實色彩</string>
+    <string name="live_display_color_profile_dynamic_title">動態色彩</string>
+    <string name="live_display_color_profile_dynamic_summary">鮮豔模式</string>
+    <string name="live_display_color_profile_cinema_title">電影模式</string>
+    <string name="live_display_color_profile_cinema_summary">完美顯現影片色彩</string>
+    <string name="live_display_color_profile_astronomy_title">星空</string>
+    <string name="live_display_color_profile_astronomy_summary">濾藍光護眼模式</string>
+    <string name="live_display_color_profile_photography_title">相簿</string>
+    <string name="live_display_color_profile_photography_summary">照片原圖</string>
+    <string name="live_display_color_profile_basic_title">基本模式</string>
+    <string name="live_display_color_profile_basic_summary">色盲模式</string>
+    <string name="live_display_color_profile_adaptive_title">自動調整亮度</string>
+    <string name="live_display_color_profile_adaptive_summary">依照環境條件自動調節顏色</string>
+    <string name="live_display_color_profile_reading_title">閱讀模式</string>
+    <string name="live_display_color_profile_reading_summary">閱讀模式-使用暖色調以減少疲勞</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Srgb 顏色較準</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3廣色域標準</string>
+    <string name="live_display_color_profile_dci_p3_summary">精準DCI-P3廣色域</string>
+    <string name="live_display_reading_mode_title">閱讀模式</string>
+    <string name="live_display_reading_mode_summary">為了長期閱讀的灰色模式</string>
+    <string name="color_calibration_title">色彩校準</string>
+    <string name="color_calibration_summary">校準屏幕顏色</string>
+    <string name="color_red_title">強調色-紅色</string>
+    <string name="color_green_title">強調色-綠色</string>
+    <string name="color_blue_title">強調色-藍色</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">圖片編輯</string>
+    <string name="picture_adjustment_summary">調整色相、飽和度、亮度和對比度</string>
+    <string name="adj_hue_title">強調色</string>
+    <string name="adj_saturation_title">飽和度</string>
+    <string name="adj_intensity_title">明暗度</string>
+    <string name="adj_contrast_title">對比度</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">連接鈴聲 &amp; 通知音量</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">應用強製全屏</string>
+    <string name="display_cutout_force_fullscreen_summary">應用強製忽略屏幕開孔</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux 狀態</string>
+    <string name="selinux_status_disabled">已禁用</string>
+    <string name="selinux_status_permissive">可信代理</string>
+    <string name="selinux_status_enforcing">強製執行</string>
+    <!-- Ambient Pulse on new tracks -->
+    <string name="pulse_on_new_tracks_title">音樂息屏顯示</string>
+    <string name="pulse_on_new_tracks_summary">當切歌時顯示息屏顯示</string>
+    <string name="ambient_ticker_footer">「息屏音樂顯示在鎖定屏幕和環境屏幕上顯示正在播放的音樂曲目信息。 如果在啟動新軌道時禁用了「環境顯示」，也會觸發該事件，從而迫使乾淨的環境屏幕的軌道信息位於屏幕中間。 您也可以雙擊曲目信息以跳到下一首曲目。 如果您擁有Pixel（第二代及更高版本）並在系統音頻設置中啟用「正在播放」及其通知，則環境音樂自動收報器也將在其中運行。」</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">旋轉</string>
+    <string name="display_rotation_disabled">屏幕旋轉已關閉</string>
+    <string name="display_rotation_unit">屏幕旋轉角度</string>
+    <string name="display_rotation_category_title">旋轉模式</string>
+    <string name="display_rotation_0_title">0°</string>
+    <string name="display_rotation_90_title">90°</string>
+    <string name="display_rotation_180_title">180°</string>
+    <string name="display_rotation_270_title">270°</string>
+    <!-- Fingerprint to dismiss -->
+    <string name="fp_swipe_to_dismiss_notifications_title">滑動指紋清除通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">滑動指紋傳感器清除通知</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">勿擾模式</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">勿擾模式已開啟</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">底部電池百分比</string>
+    <string name="ambient_battery_percent_summary">息屏時顯示電池百分比</string>
+    <string name="ambient_wake_gestures_title">息屏喚醒手勢</string>
+    <string name="ambient_wake_gestures_summary">喚醒手勢後顯示息屏顯示，而不是平常的鎖定屏幕</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充電時一直開啟</string>
+    <string name="doze_on_charge_summary">充電時一直處於息屏顯示</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">雙擊休眠</string>
+    <string name="doze_double_tap_title">雙擊檢查通知</string>
+    <string name="doze_double_tap_summary">雙擊查看息屏顯示通知</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">屏幕刷新率</string>
+    <string name="refresh_rate_summary_auto">自動/自動將某些內容的刷新率從60Hz提高到90Hz</string>
+    <string name="refresh_rate_summary_60">60Hz /所有內容的刷新率均鎖定在60Hz</string>
+    <string name="refresh_rate_summary_90">90Hz /所有內容的刷新率均鎖定在90Hz，電池使用量增加</string>
+    <string name="auto_refresh_rate">自動</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Soc-soc平台</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">總內存</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">呼吸燈顏色</string>
+    <string name="custom_light_on_time_title">屏幕開啟下LED閃爍間隔時間(毫秒)</string>
+    <string name="custom_light_off_time_title">屏幕關閉時指示燈閃爍間隔時間 (毫秒)</string>
+    <string name="value_equals_default">默認</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">智能充電</string>
+    <string name="smart_charging_summary">設置快速充電</string>
+    <string name="smart_charging_switch_title">使用智能充電</string>
+    <string name="smart_charging_level_title">停止觸發值</string>
+    <string name="smart_charging_resume_level_title">開始觸發值</string>
+    <string name="smart_charging_reset_stats_title">重置電池統計信息</string>
+    <string name="smart_charging_reset_stats_summary">在達到用戶設定的充電值後，重置電池統計數據</string>
+    <string name="smart_charging_footer">智能充電允許您設置最大充電水平，延長電池壽命</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">增加鈴聲音量</string>
+    <string name="increasing_ring_min_volume_title">開始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">擴量時間</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">側滑返回時顯示一個小箭頭動畫</string>
+    <!-- Audio Panel view  -->
+    <string name="audio_panel_view">聲音面板</string>
+    <string name="audio_panel_view_media_title">媒體</string>
+    <string name="audio_panel_view_ringer_title">鈴聲</string>
+    <string name="audio_panel_view_notification_title">通知</string>
+    <string name="audio_panel_view_alarm_title">鬨鐘</string>
+    <string name="audio_panel_view_voice_title">通話</string>
+    <string name="audio_panel_view_bt_sco_title">藍牙</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">選擇解鎖圖案大小</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">顯示圖案錯誤</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">顯示圖案圓點</string>
+    <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">直接解鎖</string>
+    <string name="directly_show_lock_summary">跳過滑動解鎖，直接顯示密碼輸入界面</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">音階</string>
+    <string name="volume_steps_summary">音階數量</string>
+    <string name="volume_steps_alarm_title">音階：鬨鐘</string>
+    <string name="volume_steps_dtmf_title">音階：雙音多頻</string>
+    <string name="volume_steps_music_title">音階：音樂</string>
+    <string name="volume_steps_notification_title">音階：通知</string>
+    <string name="volume_steps_ring_title">音階：鈴聲</string>
+    <string name="volume_steps_system_title">音階：系統</string>
+    <string name="volume_steps_voice_call_title">音階：通話</string>
+    <string name="volume_steps_reset">重置</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">設備網絡名</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">後台進程</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">您的設備是前置指紋</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">您的設備是左邊框指紋解鎖</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">您的設備是右邊框指紋解鎖</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">您的設備是前置指紋解鎖</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">您的設備是左邊框指紋解鎖</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">您的設備是右邊框指紋解鎖</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">您的平板是前置指紋解鎖</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">您的屏板是左邊框指紋解鎖</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">您的平板是右邊框指紋解鎖</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">允許客戶端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允許熱點客戶端使用此設備\u2019的 VPN 連接到上遊連接</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">觸屏手勢</string>
+    <string name="touchscreen_gesture_settings_summary">執行各種觸摸屏手勢以進行快速操作</string>
+    <!-- Enable/Disable Screenshot sound -->
+    <string name="screenshot_sound_title">截圖聲音</string>
+    <string name="lockscreen_display_title">屏保</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">通話中振動</string>
+    <string name="incall_feeedback_summary">振動以指示通話狀態</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">振動 &amp; 反饋</string>
+    <string name="summary_vibration_preferences">改變強度，模式等</string>
+    <string name="keywords_vibration_preferences">振動模式，振動強度，呼叫振動，觸摸振動，點、按等操作的觸感反饋</string>
+    <string name="ringtone_vibration_pattern">來電振動樣式</string>
+    <string name="vibration_intensity_ringer">鈴聲振動強度</string>
+    <string name="vibration_intensity_notification">通知振動強度</string>
+    <string name="vibration_intensity_disabled">振動關閉</string>
+    <string name="vibration_intensity_light">弱</string>
+    <string name="vibration_intensity_medium">中</string>
+    <string name="vibration_intensity_strong">強</string>
+    <string name="vibration_intensity_custom">自定義</string>
+    <string name="pattern_dzzz_dzzz">貢獻者dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">貢獻者dzzz-da</string>
+    <string name="pattern_mm_mm_mm">貢獻者mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">貢獻者da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">貢獻者da-dzzz-da</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">顯示曆史通知記錄</string>
+    <!-- Improvements to Night Light -->
+    <string name="unknown_night_light_time">改善夜間照明</string>
+    <string name="night_display_location_text">從日落到日出的時間表需要啟用的位置服務才能獲取您所在位置的正確時間。</string>
+    <!-- Android debugging -->
+    <string name="adb_enable">Android 調試</string>
+    <string name="adb_enable_summary">啟用USB或網絡調試通知</string>
+    <!-- Android debugging notification -->
+    <string name="adb_notify">Adb 通知</string>
+    <string name="adb_notify_summary">在啟用android調試時顯示通知</string>
+    <!-- Android debugging over network -->
+    <string name="adb_over_network">網絡 ADB 調試</string>
+    <string name="adb_over_network_summary">啟用網絡接口(Wi-Fi,USB 網絡)的TCP/IP調試，該設置重啟後失效。</string>
+    <string name="adb_over_network_warning">警告：當網絡 ADB 調試啟用時，您的設備將在所有已連接的網絡上接收指令！請只在您信任的網絡中啟用此功能。您真的要開啟這個功能嗎？</string>
+</resources>
