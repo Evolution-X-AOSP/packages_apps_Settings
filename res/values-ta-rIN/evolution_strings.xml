@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- ROM version -->
+    <string name="about_device_name">சாதனம்</string>
+    <string name="build_date">உருவாக்கிய தேதி</string>
+    <string name="rom_version">மென்பொருள் பதிப்பு</string>
+    <string name="rom_version_default">தெரியவில்லை</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">விவர மீட்டமை</string>
+    <string name="battery_stats_message">மின்கல விபரம் மற்றும் இருப்பு நிலை மீட்மை</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">முழுதும்</string>
+    <string name="back_height_high_label">கீழே</string>
+    <string name="back_options_dialog_title">விருப்பங்கள்</string>
+    <string name="back_height_message">பொத்தானின் தொடுதிரை அளவு.</string>
+    <string name="back_block_ime_message">எழுத்து பலகை அளவு.</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">மூடவும்</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">மின்கல வெப்பநிலை</string>
+    <!-- The Evolver -->
+    <string name="evolution_settings_title">பரிணாமம்</string>
+    <string name="evolution_settings_summary">பரிணாம அம்சங்கள்</string>
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">மின்னூட்ட அதிர்வுகள்</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">கைபேசி ரிங்டோன் - சிம் 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">கைபேசி ரிங்டோன் - சிம் 2</string>
+    <!-- Lockscreen rotation -->
+    <string name="lockscreen_rotation_title">திரையை தானாக சுழற்றவும்</string>
+    <string name="lockscreen_rotation_summary">பூட்டு திரையை சுழற்ற</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">விரைவாக திற</string>
+    <string name="unlock_quick_unlock_control_summary">கைப்பேசியை திறக்க கடவுச்சொல் சரியானதாக இருந்தால் மட்டுமே போதும்</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">தோற்று அறியும் தளவமைப்பு</string>
+    <string name="unlock_scramble_pin_layout_summary">கருவியை திறக்கும்போது PIN லேயவுட்டை ஸ்க்ராம்பில் செய்</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">வாசிக்கும்தன்மையை மேம்படுத்தவும் கண்ணுக்கு சிரமத்தை குறைக்கவும் நாளின் நேரத்தையும் சுற்றுச்சூழல் நிலைமைகளையும் பொருத்து உங்கள் திரையை உகந்ததாக்குங்கள்</string>
+    <string name="live_display_mode">காட்சி முறை</string>
+    <string name="live_display_color_temperature_title">நிற தட்பவெப்பம்</string>
+    <string name="live_display_color_temperature_summary">பகல்: <xliff:g id="day_temperature">%1$d</xliff:g>K  இரவு: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="folders">%1$d</xliff:g>கெல்வின்</string>
+    <string name="live_display_day">பகல்</string>
+    <string name="live_display_night">இரவு</string>
+    <string name="live_display_outdoor_mode_title">தானியக்க வெளியிட முறை</string>
+    <string name="live_display_outdoor_mode_summary">பிரகாசமான சூரியவொளியின் கீழ் பிரகாசத்தையும் செறிவையும் தானாக அதிகரி</string>
+    <string name="live_display_low_power_title">மின் பயன்பாட்டை குறை</string>
+    <string name="live_display_low_power_summary">சீரழிவின்றி குறைந்த சக்தி நுகர்வுக்கான காட்சிக்கு மாற்றுக</string>
+    <string name="live_display_enhance_color_title">நிறங்களை மேம்படுத்த</string>
+    <string name="live_display_enhance_color_summary">சதை நிறங்கள், இயற்கை காட்சிகள் மற்றும் பிற படங்களுக்கு நிற பிரகாசத்தை மேம்படுத்த</string>
+    <string name="live_display_color_profile_title">நிற விவரம்</string>
+    <string name="live_display_color_profile_standard_title">இயல்பு</string>
+    <string name="live_display_color_profile_standard_summary">துல்லியமான நிறங்களும் பிரகாசமான வெண்மையும்</string>
+    <string name="live_display_color_profile_natural_title">இயற்கையான</string>
+    <string name="live_display_color_profile_natural_summary">உண்மைத்துவமான நிறங்கள் மற்றும் சதை நிறங்கள்</string>
+    <string name="live_display_color_profile_dynamic_title">சூழலுக்கேற்ப</string>
+    <string name="live_display_color_profile_dynamic_summary">மேம்பட்ட நிறங்களும் பிரகாசமான வெண்மையும்</string>
+    <string name="live_display_color_profile_cinema_title">ஒளிப்பான்</string>
+    <string name="live_display_color_profile_cinema_summary">வீடியோவுக்கான கச்சிதமான வண்ன மறு உருவாக்கம்</string>
+    <string name="live_display_color_profile_astronomy_title">வானியல்</string>
+    <string name="live_display_color_profile_astronomy_summary">இரவு காட்சியை பாதுகாப்பதற்காக ஆழ்ந்த சிவப்பு</string>
+    <string name="live_display_color_profile_photography_title">புகைப்படம்</string>
+    <string name="live_display_color_profile_photography_summary">புகைப்படங்களுக்கான கச்சிதமான வண்ன மறு உருவாக்கம்</string>
+    <string name="live_display_color_profile_basic_title">அடிப்படை</string>
+    <string name="live_display_color_profile_basic_summary">காட்சியை அளவிடாமல் பயன்படுத்து</string>
+    <string name="live_display_color_profile_adaptive_title">தகவமைப்பு</string>
+    <string name="live_display_color_profile_adaptive_summary">நிறங்கள் சுற்றுப்புற சூழ்நிலைகளுக்கு ஏற்ப மாறும்</string>
+    <string name="live_display_color_profile_reading_title">படிக்கிறது</string>
+    <string name="live_display_color_profile_reading_summary">குறைவான உற்றுநோக்கலுக்காக வெப்பமான நிறங்கள்</string>
+    <string name="live_display_color_profile_srgb_title">வண்ண திருத்தம் முன்னமைவு</string>
+    <string name="live_display_color_profile_srgb_summary">Srbg வண்ண இடத்திற்கு நிறங்கள் துல்லியமாக இருக்கும்</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">DCI-P3 வண்ண இடத்திற்கு நிறங்கள் துல்லியமாக இருக்கும்</string>
+    <string name="live_display_reading_mode_title">படித்தல் முறை</string>
+    <string name="live_display_reading_mode_summary">கருப்பு வெள்ளைத் திரை படிப்பதற்காக</string>
+    <string name="color_calibration_title">நிற அளவிடுதல்</string>
+    <string name="color_calibration_summary">திரைமீதுள்ள நிறங்களை அளவிடு</string>
+    <string name="color_red_title">சிவப்பு</string>
+    <string name="color_green_title">பச்சை</string>
+    <string name="color_blue_title">நீலம்</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">படம் சரிசெய்தல்</string>
+    <string name="picture_adjustment_summary">சாயல், செறிவு, தீவிரம் மற்றும் மாறுபாடு ஆகியவற்றைச் சரிசெய்யவும்</string>
+    <string name="adj_hue_title">நிறச்சாயல்</string>
+    <string name="adj_saturation_title">நிறைசெறிவு</string>
+    <string name="adj_intensity_title">தீவிரம்</string>
+    <string name="adj_contrast_title">நிற மாறுபாடு</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">ரிங்டோன், அறிவுறுத்தல் சத்தங்களை இணை</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">முழு திரை</string>
+    <string name="display_cutout_force_fullscreen_summary">கட்டாய புறக்கணிப்பு</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux நிலை</string>
+    <string name="selinux_status_disabled">செயல்நீக்கப்பட்டுள்ளது</string>
+    <string name="selinux_status_permissive">அனுமதி</string>
+    <string name="selinux_status_enforcing">செயற்படுத்துதல்</string>
+    <!-- Ambient Pulse on new tracks -->
+    <string name="pulse_on_new_tracks_title">சுற்றுப்புற இசை டிக்கர்</string>
+    <string name="pulse_on_new_tracks_summary">புதிய இசை பாடல் இயக்கப்படும் போது சுற்றுப்புற காட்சியைக் காட்டு</string>
+    <string name="ambient_ticker_footer">சுற்றுப்புற மியூசிக் டிக்கர் பூட்டுத் திரை மற்றும் சுற்றுப்புறத் திரையில் மியூசிக் டிராக் தகவலைக் காண்பிப்பதைக் காட்டுகிறது. Track n \ n புதிய தடத்தைத் தொடங்கும்போது சுற்றுப்புற காட்சி முடக்கப்பட்டிருந்தால், இது தூண்டப்படுகிறது, இது திரையின் நடுவில் தடத் தகவலுடன் சுத்தமான சுற்றுப்புறத் திரையை கட்டாயப்படுத்துகிறது. \ n \ n அடுத்த தடத்திற்குச் செல்ல நீங்கள் தடத் தகவலை இருமுறை தட்டவும் முடியும். \ n \ n நீங்கள் ஒரு பிக்சல் (2 வது தலைமுறை மற்றும் அதற்கு மேற்பட்டவை) வைத்திருந்தால், \"இப்போது விளையாடுவது\" மற்றும் கணினி ஆடியோ அமைப்புகளில் அதன் அறிவிப்பை இயக்கினால், சுற்றுப்புற இசை டிக்கர் அதனுள் வேலை செய்யுங்கள்.</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">சுழற்சி</string>
+    <string name="display_rotation_disabled">செயல்நீக்கப்பட்டுள்ளது</string>
+    <string name="display_rotation_unit">டிகிரிக்கள்</string>
+    <string name="display_rotation_category_title">சுழற்சி முறைகள்</string>
+    <string name="display_rotation_0_title">0 டிகிரீ</string>
+    <string name="display_rotation_90_title">90 டிகிரீ</string>
+    <string name="display_rotation_180_title">180 டிகிரீ</string>
+    <string name="display_rotation_270_title">270 டிகிரீ</string>
+    <!-- Fingerprint to dismiss -->
+    <string name="fp_swipe_to_dismiss_notifications_title">அறிவிப்புகளை நிராகரிக்க கைரேகையை இடது அல்லது வலதுபுறமாக ஸ்வைப் செய்யவும்</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">உங்கள் அறிவிப்புகளைத் தள்ளுபடி செய்ய, உங்கள் தொலைபேசியின் பின்புறத்தில் கைரேகை சென்சாரில் இடதுபுறம் அல்லது வலதுபுறமாக ஸ்வைப் செய்யவும்.</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">முழு அமைதி</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">கீழே பேட்டரி நிலை</string>
+    <string name="ambient_battery_percent_summary">டஸிங் செய்யும் போது பேட்டரி சதவீதத்தைக் காட்ட இயக்கவும்</string>
+    <string name="ambient_wake_gestures_title">சுற்றுப்புற விழிப்பு சைகைகள்</string>
+    <string name="ambient_wake_gestures_summary">விழித்திருக்கும் சைகைகளில் சாதாரண பூட்டுத் திரைக்கு பதிலாக சுற்றுப்புற காட்சியைக் காட்டு</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">எப்போதுமே சக்தி</string>
+    <string name="doze_on_charge_summary">தூக்கத் திரையில் பேட்டரி அளவை காட்டு</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">இருமுறை தட்டு</string>
+    <string name="doze_double_tap_title">இருமுறை தட்டு செயலியை எழுப்ப</string>
+    <string name="doze_double_tap_summary">அறிவிப்பைக் காட்ட இருமுறை தட்டு</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">திரை புதுப்பிப்பு வீதம்</string>
+    <string name="refresh_rate_summary_auto">தானியங்கு திரை புதுப்பிப்பு வீதம்</string>
+    <string name="refresh_rate_summary_60">திரை புதுப்பிப்பு வீதம் 60hz அமைக்கப்பட்டுள்ளது</string>
+    <string name="refresh_rate_summary_90">திரை புதுப்பிப்பு வீதம் 90hz அமைக்கப்பட்டுள்ளது. பேட்டரி பயன்பாடு அதிகரிக்கும்</string>
+    <string name="auto_refresh_rate">தானியங்கு</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">ப்ளாட்ஃபார்ம்</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">ரேம் அளவு</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">ஒளியின் நிறம்</string>
+    <string name="custom_light_on_time_title">துடிப்பு நேரத்தில் (மி) ஒளி நேரம்</string>
+    <string name="custom_light_off_time_title">துடிப்பு OFF நேரத்தில் (மி) ஒளி நேரம்</string>
+    <string name="value_equals_default">இயல்புநிலை</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">ஸ்மார்ட் சார்ஜிங்</string>
+    <string name="smart_charging_summary">அதிகபட்ச சார்ஜிங் அளவு</string>
+    <string name="smart_charging_switch_title">ஸ்மார்ட் சார்ஜிங் பயன்படுத்த</string>
+    <string name="smart_charging_level_title">தூண்டுதல் அளவை நிறுத்து</string>
+    <string name="smart_charging_resume_level_title">தூண்டுதல் நிலை தொடங்க</string>
+    <string name="smart_charging_reset_stats_title">மின்கலவடுக்கு புள்ளிவிவரங்களை மீட்டமைக்கவும்</string>
+    <string name="smart_charging_reset_stats_summary">சில அளவு பிறகு மின்கல புள்ளிவிவரங்களை மீட்டமைக்க</string>
+    <string name="smart_charging_footer">ஸ்மார்ட் சார்ஜிங் அதிகபட்ச மின்னூட்ட அளவு</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">ரிங் வால்யூமை அதிகரித்தல்</string>
+    <string name="increasing_ring_min_volume_title">ஒலி தொடங்கும் அளவு</string>
+    <string name="increasing_ring_ramp_up_time_title">அதிகரித்தல் நேரம்</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">பின் சைகை அடையாளம்.</string>
+    <!-- Audio Panel view  -->
+    <string name="audio_panel_view">ஒலி அமைவு</string>
+    <string name="audio_panel_view_media_title">மீடியா</string>
+    <string name="audio_panel_view_ringer_title">மணி</string>
+    <string name="audio_panel_view_notification_title">அறிவிக்கை</string>
+    <string name="audio_panel_view_alarm_title">அலாரம்</string>
+    <string name="audio_panel_view_voice_title">குரல்</string>
+    <string name="audio_panel_view_bt_sco_title">ப்ளூடூத்</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">மாதிரி அளவை தேர்வு செய்யவும்</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">பேட்டர்ன் பிழையை காட்டு</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">பேட்டர்ன் புள்ளிகளை காட்டு</string>
+    <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">நேராக திறத்தல்</string>
+    <string name="directly_show_lock_summary">மேலே தள்ளிய பிறகு கடவுச்சொல் போடுவதற்கு பதிலாக நேரடியாக உள்ளிடு</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">ஒலி படிகள்</string>
+    <string name="volume_steps_summary">ஒலி படியின் எண்ணிக்கை</string>
+    <string name="volume_steps_alarm_title">ஒலி படி: அலாரம்</string>
+    <string name="volume_steps_dtmf_title">ஒலி படி: DTMF</string>
+    <string name="volume_steps_music_title">ஒலி படி: இசை</string>
+    <string name="volume_steps_notification_title">ஒலி படி: அறிக்கை</string>
+    <string name="volume_steps_ring_title">ஒலி படி: ஒலிப்பான்</string>
+    <string name="volume_steps_system_title">ஒலி படி: அமைப்பு</string>
+    <string name="volume_steps_voice_call_title">ஒலி படி: குரல் அழைப்பு</string>
+    <string name="volume_steps_reset">மீட்டமை</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">கருவி தொகுப்பின் பெயர்</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">பின்னணி செயல்பாடு</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">உங்கள் தொலைப்பேசியின் முன்புறத்தில் இருக்கும் கைரேகை உணர்வியைக் கண்டறியுங்கள்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">உங்கள் தொலைபேசியின் இடது பக்கத்தில் கைரேகை சென்சார் கண்டுபிடிக்கவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">உங்கள் தொலைபேசியின் வலது பக்கத்தில் கைரேகை சென்சார் கண்டுபிடிக்கவும்.</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">உங்கள் தொலைப்பேசியின் முன்புறத்தில் இருக்கும் கைரேகை உணர்வியைக் கண்டறியுங்கள்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">உங்கள் தொலைபேசியின் இடது புற கைரேகை உணர்வியை கண்டறியவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">உங்கள் தொலைப்பேசியின் வலதுபுறத்தில் இருக்கும் கைரேகை உணர்வியைக் கண்டறியுங்கள்.</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">உங்கள் தொலைப்பேசியின் முன்புறத்தில் இருக்கும் கைரேகை உணர்வியைக் கண்டறியுங்கள்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">உங்கள் டேப்லெட்டின் இடது பக்கத்தில் கைரேகை சென்சார் கண்டுபிடிக்கவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">உங்கள் டேப்லெட்டின் வலது பக்கத்தில் கைரேகை சென்சார் கண்டுபிடிக்கவும்.</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">மெய்நிகர் தனியார் பிணையம் (VPN) உபயோகிக்க</string>
+    <string name="tethering_allow_vpn_upstreams_summary">அப்ஸ்ட்ரீம் இணைப்பிற்காக இந்த சாதனத்தைப் பயன்படுத்த ஹாட்ஸ்பாட் வாடிக்கையாளர்களை அனுமதிக்கவும்</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">தொடுதிரை சைகைகள்</string>
+    <string name="touchscreen_gesture_settings_summary">விரைவான செயல்களுக்காக பல்வேறு தொடுதிரை சைகைகள் செய்யவும்</string>
+    <!-- Enable/Disable Screenshot sound -->
+    <string name="screenshot_sound_title">திரைப்பிடிப்பு ஒலி</string>
+    <string name="lockscreen_display_title">பாதுகாப்பி திறை</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">தொலைபேசி இருப்புநிலை - அதிர்வு பின்னூட்டம்</string>
+    <string name="incall_feeedback_summary">தொலைபேசி இருப்புநிலை அதிர்வு பின்னூட்டம்</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">அதிர்வு &amp; ஆம்ப்; ஹாப்டிக்ஸ்</string>
+    <string name="summary_vibration_preferences">தீவிரங்கள், முறை மற்றும் பலவற்றை மாற்றவும்</string>
+    <string name="keywords_vibration_preferences">அனைத்து அதிர்வு பின்னூட்டக் கட்டுப்பாடு</string>
+    <string name="ringtone_vibration_pattern">தொலைபேசி ஒளி மற்றும் அதிர்வு நிலை கட்டுப்பாடு</string>
+    <string name="vibration_intensity_ringer">தொலைபேசி அதிர்வு தீவிரம்</string>
+    <string name="vibration_intensity_notification">அறிவிப்பு அதிர்வின் தீவிரம்</string>
+    <string name="vibration_intensity_disabled">முடக்கப்பட்டது</string>
+    <string name="vibration_intensity_light">விளக்குகள்</string>
+    <string name="vibration_intensity_medium">நடுத்தர</string>
+    <string name="vibration_intensity_strong">வலுவான</string>
+    <string name="vibration_intensity_custom">தனிப்பயனாக்கம்</string>
+    <string name="pattern_dzzz_dzzz">கிரீர் - கிரீர்</string>
+    <string name="pattern_dzzz_da">கிரீர் - கிர்</string>
+    <string name="pattern_mm_mm_mm">வர் - வர் - வர்</string>
+    <string name="pattern_da_da_dzzz">வர் - வர் - கிரீர்</string>
+    <string name="pattern_da_dzzz_da">வர் - கிரீர் - வர்</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">அறிவிப்புகள் வரலாறு பதிவு</string>
+    <!-- Improvements to Night Light -->
+    <string name="unknown_night_light_time">தெரியவில்லை - புதுப்பிக்க அழுத்தவும்</string>
+    <string name="night_display_location_text">சூரிய அஸ்தமனம் முதல் விடியற்காலை வரை ஆகும் நேரத்தை தெரிவிக்க இருப்பிட நிலை கட்டுப்பாட்டை இயக்கவும்.</string>
+    <!-- Android debugging -->
+    <string name="adb_enable">ஆண்ட்ராய்டு பிழைநீக்கல்</string>
+    <string name="adb_enable_summary">ஆண்ட்ராய்டு பிழைநீக்கல் பாள (ADB) இடைமுகத்தை செயல்படுத்து</string>
+    <!-- Android debugging notification -->
+    <string name="adb_notify">பிழைநீக்கல் அறிவுறுத்தல்</string>
+    <string name="adb_notify_summary">யூ. எஸ். பி அல்லது பிணைய பிழைத்திருத்தம் இயக்கப்பட்டிருக்கும்போது அறிவிப்பைக் காண்பி</string>
+    <!-- Android debugging over network -->
+    <string name="adb_over_network">நெட்வொர்க் வழியாக ADB</string>
+    <string name="adb_over_network_summary">பிணைய இடைமுகங்களில் (Wi \ u2011Fi, USB நெட்வொர்க்குகள்) TCP / IP பிழைத்திருத்தத்தை இயக்கவும். இந்த அமைப்பு மறுதொடக்கத்தில் மீட்டமைக்கப்படுகிறது</string>
+    <string name="adb_over_network_warning">எச்சரிக்கை: நெட்வொர்க்கில் ADB இயக்கப்பட்டிருக்கும்போது, ​​இணைக்கப்பட்ட அனைத்து நெட்வொர்க்குகளிலும் ஊடுருவலுக்காக உங்கள் தொலைபேசி திறந்திருக்கும்! \ N \ n நீங்கள் நம்பகமான நெட்வொர்க்குகளில் இணைக்கப்படும்போது மட்டுமே இந்த அம்சத்தைப் பயன்படுத்தவும். \ N \ n இந்த செயல்பாட்டை நீங்கள் உண்மையில் இயக்க விரும்புகிறீர்களா?</string>
+</resources>
