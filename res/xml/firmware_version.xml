@@ -24,8 +24,9 @@
     <!-- Evolution X logo -->
     <PreferenceScreen
         android:key="evolution_logo"
-        android:enabled="false"
-        android:layout="@layout/evolution_logo" />
+        android:clickable="true"
+        android:layout="@layout/evolution_logo"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomLogoPreferenceController"/>
 
     <!-- Android version -->
     <Preference
