@@ -317,7 +317,7 @@
 
     <!-- Home handle sizing -->
     <string name="home_handle_sizer_title">Gesture bar size</string>
-    <string name="home_handle_low_label">Small (AOSP)</string>
+    <string name="home_handle_low_label">No Pill</string>
     <string name="home_handle_high_label">Long</string>
 
     <!-- Wellbeing -->
