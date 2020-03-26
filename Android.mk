@@ -51,7 +51,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     settings-log-bridge-protos-lite \
     contextualcards \
     settings-logtags \
-    zxing-core-1.7
+    zxing-core-1.7 \
+    faceunlock_utils
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     packages/apps/Evolver/res
