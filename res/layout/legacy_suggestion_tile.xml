@@ -55,7 +55,6 @@
                     android:layout_width="18dp"
                     android:layout_height="18dp"
                     android:layout_gravity="end|top"
-                    android:alpha="0.54"
                     android:src="@drawable/ic_suggestion_close_button"/>
             </FrameLayout>
 
