@@ -330,4 +330,20 @@
     <string name="home_handle_sizer_title">Gesture bar size</string>
     <string name="home_handle_low_label">Small (AOSP)</string>
     <string name="home_handle_high_label">Long</string>
+
+    <!-- Wellbeing -->
+    <string name="duration_less_than_one_minute">Less than 1 minute</string>
+    <string name="screen_time_summary_usage_today">%1$s today</string>
+
+    <!-- Moto Face Unlock -->
+    <string name="security_settings_face_settings_footer_moto">Use Face unlock to unlock your device.\n\nKeep in mind:\nLooking at the phone can unlock it when you don’t intend to.\n\nYour phone can be unlocked by someone else if it’s held up to your face while your eyes are open.\n\nYour phone can be unlocked by someone who looks a lot like you, say, your child or an identical sibling.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_moto">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
+
+    <!-- Adaptive battery -->
+    <string name="battery_tip_smart_battery_summary_custom">Turn on Adaptive Battery</string>
+    <string name="smart_battery_footer_custom">"To extend battery life, Adaptive Battery limits battery for infrequently used apps. Your phone will learn how you use apps over time.
+
+Notifications may be delayed for these apps."</string>
+    <string name="smart_battery_manager_title_custom">Adaptive Battery</string>
+    <string name="smart_battery_title_custom">Use Adaptive Battery</string>
 </resources>
