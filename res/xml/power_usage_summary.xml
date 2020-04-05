@@ -87,6 +87,12 @@
         <intent android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS" />
     </Preference>
 
+    <!-- Battery light -->
+    <SwitchPreference
+        android:key="battery_light_enabled"
+        android:title="@string/battery_light_title"
+        settings:controller="com.android.settings.notification.BatteryLightPreferenceController"/>
+
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
