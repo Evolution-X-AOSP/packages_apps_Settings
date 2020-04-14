@@ -306,8 +306,4 @@ Notificările de la aceste aplicații pot fi primite cu întârziere."</string>
     <string name="data_usage_app_restrict_vpn_summary">Activați utilizarea datelor VPN</string>
     <string name="data_usage_app_restrict_wifi">Date Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Activați utilizarea datelor Wi\u2011Fi</string>
-    <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Îmbunătățește atingerea atunci când se utilizează protectori de ecran</string>
-    <string name="touch_sensitivity_title">Sporește sensibilitatea tactilă</string>
-    <string name="keywords_touch_sensitivity">atingere, sensibilitate, protecţie ecran, peliculă</string>
 </resources>
