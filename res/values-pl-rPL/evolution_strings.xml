@@ -306,8 +306,4 @@ Powiadomienia z takich aplikacji mogą być opóźnione."</string>
     <string name="data_usage_app_restrict_vpn_summary">Włącz użycie danych VPN</string>
     <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
-    <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Poprawia dotyk podczas używania ochrony ekranu</string>
-    <string name="touch_sensitivity_title">Zwiększ czułość dotyku</string>
-    <string name="keywords_touch_sensitivity">dotyk, czułość, czułość, osłona ekranu, film, reagujący na działanie</string>
 </resources>
