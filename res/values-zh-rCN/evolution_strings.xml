@@ -306,8 +306,4 @@
     <string name="data_usage_app_restrict_vpn_summary">启用 VPN 的数据使用统计</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 数据</string>
     <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 的数据使用统计</string>
-    <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">使用屏幕保护器时提高触摸灵敏度</string>
-    <string name="touch_sensitivity_title">增加触摸灵敏度</string>
-    <string name="keywords_touch_sensitivity">触摸、 敏感、 屏幕保护、 胶片、 响应、 响应力</string>
 </resources>
