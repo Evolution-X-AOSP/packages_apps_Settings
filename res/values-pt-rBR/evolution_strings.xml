@@ -306,8 +306,4 @@
     <string name="data_usage_app_restrict_vpn_summary">Ativar o uso de dados VPN</string>
     <string name="data_usage_app_restrict_wifi">Dados Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Ativar o uso de dados Wi\u2011Fi</string>
-    <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Melhora o toque ao usar protetores de tela</string>
-    <string name="touch_sensitivity_title">Aumentar sensibilidade do toque</string>
-    <string name="keywords_touch_sensitivity">toque, sensibilidade, sensibilidade, protetor de tela, filme, responsivos, capacidade de resposta</string>
 </resources>
