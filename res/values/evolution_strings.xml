@@ -365,4 +365,7 @@ Notifications may be delayed for these apps."</string>
     <!-- Gesture nav gear options -->
     <!-- [CHAR LIMIT=60] -->
     <string name="show_gestures_navbar_switch_text">Enable to show gestures navbar</string>
+
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Enable to show IME button space and pill</string>
 </resources>
