@@ -306,8 +306,4 @@
     <string name="data_usage_app_restrict_vpn_summary">ভিপিএন ডাটা ব্যবহারের অনুমতি দিন</string>
     <string name="data_usage_app_restrict_wifi">ওয়াই\u2011ফাই ডাটা</string>
     <string name="data_usage_app_restrict_wifi_summary">ওয়াই\u2011ফাই ডাটা ব্যবহারের অনুমতি দিন</string>
-    <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">স্ক্রিন প্রোটেক্টর ব্যবহার করার সময় টাচ ইম্প্রুভ করে</string>
-    <string name="touch_sensitivity_title">টাচ সেনসিটিভিটি বাড়ান</string>
-    <string name="keywords_touch_sensitivity">টাচ, সেনসিটিভিটি, সেনসিটিভ, স্ক্রিন প্রোটেক্টর, ফিল্ম, রেস্পন্স, রেস্পন্সিভনেস</string>
 </resources>
