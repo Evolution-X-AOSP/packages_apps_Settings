@@ -306,8 +306,4 @@ Oznámení z těchto aplikací se mohou zobrazovat se zpožděním."</string>
     <string name="data_usage_app_restrict_vpn_summary">Povolit používání VPN dat</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
-    <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Vylepšuje dotyk při použití ochranného skla/fólie</string>
-    <string name="touch_sensitivity_title">Zvýšit citlivost dotyku</string>
-    <string name="keywords_touch_sensitivity">dotyk, citlivost, citlivý, ochranné sklo, fólie, reakce, reagující</string>
 </resources>
