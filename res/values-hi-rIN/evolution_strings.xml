@@ -306,8 +306,4 @@
     <string name="data_usage_app_restrict_vpn_summary">वीपीएन डेटा के उपयोग को सक्रिय करें</string>
     <string name="data_usage_app_restrict_wifi">वाई\u2011फाई डेटा</string>
     <string name="data_usage_app_restrict_wifi_summary">वाई\u2011फाई डेटा के उपयोग को सक्रिय करें</string>
-    <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">जब आप स्क्रीन प्रोटेक्टर का प्रयोग करते हैं तब टच को बेहतर बनाता है</string>
-    <string name="touch_sensitivity_title">टच संवेदनशीलता बढ़ाएं</string>
-    <string name="keywords_touch_sensitivity">टच, संवेदनशीलता, संवेदनशील, स्क्रीन प्रोटेक्टर, फिल्म, सक्रिय, सक्रियता</string>
 </resources>
