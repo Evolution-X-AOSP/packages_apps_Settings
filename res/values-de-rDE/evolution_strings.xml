@@ -300,4 +300,11 @@ Benachrichtigungen werden für die entsprechenden Apps eventuell verzögert ange
     <string name="adaptive_playback_timeout_5_min_summary">An (5 Minuten)</string>
     <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
     <string name="adaptive_playback_timeout_10_min_summary">An (10 Minuten)</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobilfunkdaten</string>
+    <string name="data_usage_app_restrict_data_summary">Mobilfunkdatenzugriff erlauben</string>
+    <string name="data_usage_app_restrict_vpn">VPN-Daten</string>
+    <string name="data_usage_app_restrict_vpn_summary">Nutzung von VPN-Daten erlauben</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi Daten</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi Datennutzung aktivieren</string>
 </resources>
