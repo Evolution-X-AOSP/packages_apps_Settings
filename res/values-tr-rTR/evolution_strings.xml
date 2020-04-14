@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- ROM version -->
     <string name="about_device_name">Cihaz</string>
-    <string name="build_date">Derleme tarihi</string>
+    <string name="build_date">Sürüm tarihi</string>
     <string name="rom_version">Evolution X sürümü</string>
     <string name="rom_version_default">Bilinmeyen</string>
     <!-- Battery stats reset -->
@@ -25,10 +25,10 @@
     <string name="battery_stats_message">Pil geçmişi istatistikleri sıfırlanacak</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Tam</string>
-    <string name="back_height_high_label">En Alt</string>
+    <string name="back_height_high_label">Alt</string>
     <string name="back_options_dialog_title">Seçenekler</string>
-    <string name="back_height_message">Geri dönüş hareketi için dokunulabilir bölge olarak kullanılan ekran yüksekliği miktarı.</string>
-    <string name="back_block_ime_message">Sanal klavye yüksekliğini geri hareketi için engelle.</string>
+    <string name="back_height_message">Geri hareketi için dokunulabilir bölge olarak kullanılan ekran yüksekliği miktarı.</string>
+    <string name="back_block_ime_message">Geri hareketi için dokunmatik bölge olarak sanal klavyenin yüksekliğini engeller.</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Kapat</string>
     <!-- Battery temp -->
@@ -44,16 +44,16 @@
     <string name="ringtone2_title">Telefon zil sesi - SIM 2</string>
     <!-- Lockscreen rotation -->
     <string name="lockscreen_rotation_title">Kilit ekranını otomatik döndür</string>
-    <string name="lockscreen_rotation_summary">Kilit ekranını döndürmeyi etkinleştir</string>
+    <string name="lockscreen_rotation_summary">Kilit ekranını döndürmeye izin ver</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
     <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde otomatik olarak kilidi aç</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Karışık düzen</string>
+    <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
     <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken pin düzenini karıştır</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğunu azaltmak için gün ve ortam koşulları zamanına bağlı olarak ekranı iyileştir</string>
-    <string name="live_display_mode">Görüntüleme modu</string>
+    <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğunu azaltmak için gün ve ortam koşulları zamanına bağlı olarak ekranı iyileştirir</string>
+    <string name="live_display_mode">Görüntü modu</string>
     <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
     <string name="live_display_color_temperature_summary">Gündüz: <xliff:g id="day_temperature">%1$d</xliff:g>K Gece: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="derece">%1$d</xliff:g>K</string>
@@ -126,8 +126,8 @@
     <string name="display_rotation_180_title">180 derece</string>
     <string name="display_rotation_270_title">270 derece</string>
     <!-- Fingerprint to dismiss -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Bildirimleri kapatmak için parmağınızı parmak izinde sağa veya sola kaydırın</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Bildirimlerinizi kapatmak için, telefonunuzun parmak izi sensöründe sola veya sağa doğru kaydırın.</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Bildirimleri kapatmak için parmak izi sensöründe parmağınızı sağa yada sola kaydırın</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Bildirimlerinizi kapatmak için, telefonunuzun arkasındaki parmak izi sensöründe sola veya sağa kaydırın.</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Sessiz, medya yok</string>
     <string name="prevent_ringing_option_mute_no_media_summary">Açık (sessiz, medya yok)</string>
@@ -141,12 +141,12 @@
     <string name="doze_on_charge_summary">Şarj olurken her zaman ortam ekranını göster</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Çift dokunma</string>
-    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokun</string>
-    <string name="doze_double_tap_summary">Çift dokunma ile bildirimi titret</string>
+    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
+    <string name="doze_double_tap_summary">Çift dokunma ile bildirimleri göster</string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Ekran yenileme oranı</string>
-    <string name="refresh_rate_summary_auto">Otomatik / Bazı içeriklerin ekran yenileme hızını otomatik olarak 60\'dan 90\'a yükselt</string>
-    <string name="refresh_rate_summary_60">60Hz / Tüm içeriklerin yenileme hızını 60Hz\'ye kilitle</string>
+    <string name="refresh_rate_summary_auto">Otomatik / Bazı içerikler için yenileme hızını otomatik olarak 60\'dan 90Hz\'e yükseltir</string>
+    <string name="refresh_rate_summary_60">60Hz / Tüm içerik için yenileme hızı 60Hz\'de kilitlendi</string>
     <string name="refresh_rate_summary_90">90Hz / Tüm içeriklerin yenileme hızı 90Hz\'de kilitlendi. Pil kullanımını arttırır</string>
     <string name="auto_refresh_rate">Otomatik</string>
     <!-- Hardware info -->
@@ -155,7 +155,7 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Toplam RAM</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Açık renk</string>
+    <string name="custom_light_title">Işık rengi</string>
     <string name="custom_light_on_time_title">LED açıkken yanıp sönme hızı (ms)</string>
     <string name="custom_light_off_time_title">LED kapalıyken yanıp sönme hızı (ms)</string>
     <string name="value_equals_default">varsayılan</string>
@@ -167,7 +167,7 @@
     <string name="smart_charging_resume_level_title">Başlatma tetikleyici seviyesi</string>
     <string name="smart_charging_reset_stats_title">Pil istatistiklerini sıfırla</string>
     <string name="smart_charging_reset_stats_summary">Kullanıcı tanımlı şarj seviyesine ulaştıktan sonra pil istatistiklerini sıfırlayın</string>
-    <string name="smart_charging_footer">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanıza olanak verir</string>
+    <string name="smart_charging_footer">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanızı sağlar</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
     <string name="increasing_ring_min_volume_title">Başlangıç sesi</string>
@@ -180,7 +180,7 @@
     <string name="audio_panel_view_ringer_title">Zil sesi</string>
     <string name="audio_panel_view_notification_title">Bildirim</string>
     <string name="audio_panel_view_alarm_title">Alarm</string>
-    <string name="audio_panel_view_voice_title">Medya</string>
+    <string name="audio_panel_view_voice_title">Konuşma sesi</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Desen boyutu seçin</string>
@@ -252,8 +252,8 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
     <!-- Improvements to Night Light -->
-    <string name="unknown_night_light_time">Bilinmeyen - Güncelleştirmek için dokun</string>
-    <string name="night_display_location_text">\n\n Gün batımından gün doğumuna kadar olan zamanlamanın, konumunuza göre doğru zamanları alması için etkin konum hizmetlerinin olması gerekir.</string>
+    <string name="unknown_night_light_time">Bilinmiyor - güncellemek için basın</string>
+    <string name="night_display_location_text">\n\nGün batımından gün doğumuna kadar olan zamanlamanın, konumunuza göre doğru zamanları alması için etkin konum hizmetlerinin olması gerekir.</string>
     <!-- Android debugging -->
     <string name="adb_enable">Android hata ayıklama</string>
     <string name="adb_enable_summary">Android Hata Ayıklama (ADB) arabirimini etkinleştir</string>
@@ -261,7 +261,7 @@
     <string name="adb_notify">Hata ayıklama bildirimi</string>
     <string name="adb_notify_summary">USB veya ağ üzerinden hata ayıklama etkin olduğunda bildirim görüntüle</string>
     <!-- Android debugging over network -->
-    <string name="adb_over_network">Ağ üzerinden Android Hata Ayıklama (ADB)</string>
+    <string name="adb_over_network">Ağ üzerinden ADB</string>
     <string name="adb_over_network_summary">Ağ arayüzleri (Wi\u2011Fi, USB ağları) üzerinde TCP/IP hata ayıklamayı etkinleştir. Bu ayar yeniden başlatılmada sıfırlanır</string>
     <string name="adb_over_network_warning">Uyarı: Ağ üzerinden ADB etkinken, telefonunuz tüm bağlantılı ağlar üzerinde yetkisiz erişimlere açıktır!\n\nBu özelliği sadece güvenli ağlar üzerindeyken kullanın.\n\nGerçekten bu işlevi kullanmak istiyor musunuz?</string>
     <!-- Home handle sizing -->
@@ -275,12 +275,12 @@
     <string name="security_settings_face_settings_footer_moto">Cihazınızın kilidini açmak için Yüz tanıma kilidini kullanın.\n\nŞunları unutmayın:\nFarkında olmadığınız durumlarda bile telefona baktığınızda telefonun kilidi açılabilir.\n\nGözleriniz açıkken telefonunuz yüzünüze doğru çevrilirse telefonunuzun kilidi başka biri tarafından açılabilir.\n\nTelefonunuzun kilidi, size çok benzeyen biri (ör. çocuğunuz ya da ikiz kardeşiniz) tarafından açılabilir.</string>
     <string name="security_settings_face_settings_remove_dialog_details_moto">Yüz tanıma kilidi ile kaydedilen veriler kalıcı ve güvenli bir şekilde silinir. Kaldırma işleminden sonra telefonunuzun kilidini açmak için PIN, desen veya şifre kullanmanız gerekir.</string>
     <!-- Adaptive battery -->
-    <string name="battery_tip_smart_battery_summary_custom">Uyarlamalı Pil\'i aç</string>
+    <string name="battery_tip_smart_battery_summary_custom">Uyarlanabilir Pili aç</string>
     <string name="smart_battery_footer_custom">"Uyarlamalı Pil özelliği pil ömrünü uzatmak için, sık kullanılmayan uygulamaların pil tüketimini sınırlar. Telefonunuz, zamanla uygulamaları nasıl kullandığınızı öğrenir.
 
 Bu uygulamalara ait bildirimlerde gecikme olabilir."</string>
-    <string name="smart_battery_manager_title_custom">Uyarlamalı Pil</string>
-    <string name="smart_battery_title_custom">Uyarlamalı Pil özelliğini kullan</string>
+    <string name="smart_battery_manager_title_custom">Uyarlanabilir Pil</string>
+    <string name="smart_battery_title_custom">Uyarlanabilir Pil özelliğini kullan</string>
     <!-- Notch -->
     <string name="notch_category_title">Çentik seçenekleri</string>
     <string name="hide_notch_title">Çentiği gizle</string>
@@ -306,8 +306,4 @@ Bu uygulamalara ait bildirimlerde gecikme olabilir."</string>
     <string name="data_usage_app_restrict_vpn_summary">VPN veri kullanımını etkinleştir</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
     <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
-    <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Ekran koruyucuları kullanırken dokunuşu iyileştir</string>
-    <string name="touch_sensitivity_title">Dokunma hassasiyetini artırın</string>
-    <string name="keywords_touch_sensitivity">dokunma, hassaslılık, hassas, ekran koruyucu, film, uyumlu, uyumluluk</string>
 </resources>
