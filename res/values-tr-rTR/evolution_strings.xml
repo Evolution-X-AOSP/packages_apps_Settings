@@ -69,15 +69,15 @@
     <string name="live_display_color_profile_standard_title">Standart</string>
     <string name="live_display_color_profile_standard_summary">Doğru renkler ve parlak beyazlar</string>
     <string name="live_display_color_profile_natural_title">Doğal</string>
-    <string name="live_display_color_profile_natural_summary">Gerçekçi renkler ve taze tonlar</string>
+    <string name="live_display_color_profile_natural_summary">Gerçekçi renkler ve ten tonları</string>
     <string name="live_display_color_profile_dynamic_title">Dinamik</string>
     <string name="live_display_color_profile_dynamic_summary">Gelişmiş renkler ve parlak beyazlar</string>
     <string name="live_display_color_profile_cinema_title">Sinema</string>
-    <string name="live_display_color_profile_cinema_summary">Videolar için harika renk üretimi</string>
+    <string name="live_display_color_profile_cinema_summary">Videolar için mükemmel renk üretimi</string>
     <string name="live_display_color_profile_astronomy_title">Astronomi</string>
     <string name="live_display_color_profile_astronomy_summary">Gece görüşünü korumak için yoğun kırmızı</string>
     <string name="live_display_color_profile_photography_title">Fotoğrafçılık</string>
-    <string name="live_display_color_profile_photography_summary">Fotoğraflar için harika renk üretimi</string>
+    <string name="live_display_color_profile_photography_summary">Fotoğraflar için mükemmel renk üretimi</string>
     <string name="live_display_color_profile_basic_title">Temel</string>
     <string name="live_display_color_profile_basic_summary">Kalibre edilmemiş ekranı kullanın</string>
     <string name="live_display_color_profile_adaptive_title">Uyarlanabilir</string>
@@ -105,17 +105,17 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamaları</string>
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
     <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux durumu</string>
     <string name="selinux_status_disabled">Devre dışı</string>
-    <string name="selinux_status_permissive">Permissive (Serbest)</string>
-    <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
+    <string name="selinux_status_permissive">Serbest</string>
+    <string name="selinux_status_enforcing">Zorunlu</string>
     <!-- Ambient Pulse on new tracks -->
     <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
-    <string name="pulse_on_new_tracks_summary">Yeni bir müzik parçası çalındığında Ortam Ekranını Göster</string>
-    <string name="ambient_ticker_footer">Ortam ekranı müzik bilgisi, ortam ekranında müzik parça bilgilerini gösterir.\n\nYeni bir parça başlatıldığında ortam ekranı devre dışı bırakılmışsa, ekranın ortasında parça bilgisi içeren temiz bir ortam ekranına zorlamak için de kullanılır.\n\nParçayı atlamak için parça bilgisine de iki kez dokunabilirsiniz.</string>
+    <string name="pulse_on_new_tracks_summary">Yeni bir müzik parçası çalındığında Ortam Ekranını göster</string>
+    <string name="ambient_ticker_footer">Ortam ekranı müzik bilgisi, kilit ekranı ve ortam ekranında çalınan müzik bilgilerini gösterir.\n\nYeni bir parça başlatıldığında ortam ekranı devre dışı bırakılmış olsa da gösterilir, ekranın ortasında müzik bilgisi içeren temiz bir ortam ekranına zorlar.\n\nAyrıca bir sonraki parçaya geçmek için parça bilgisine iki kez dokunabilirsiniz.\n\nBir Pixel (2. nesil ve daha üstü) sahibiyseniz ve \"Şimdi Oynatılıyor\" seçeneğini ve sistem Ses ayarlarında bildirimini etkinleştirirseniz, Ortam ekranı müzik bilgisi de bunun içinde çalışır.</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Döndürme</string>
     <string name="display_rotation_disabled">Devre dışı</string>
@@ -193,17 +193,17 @@
     <string name="directly_show_lock_summary">Ekran kilidini açmak için kaydırmayı atlayın ve hemen tuş girişine başla</string>
     <!-- Volume Steps -->
     <string name="volume_steps_title">Ses seviyeleri</string>
-    <string name="volume_steps_summary">Ses seviyesi sayıları</string>
-    <string name="volume_steps_alarm_title">Ses seviyesi sayısı: Alarm</string>
-    <string name="volume_steps_dtmf_title">Ses seviyesi sayısı: Tuş tonu</string>
-    <string name="volume_steps_music_title">Ses seviyesi sayısı: Müzik</string>
-    <string name="volume_steps_notification_title">Ses seviyesi sayısı: Bildirim</string>
-    <string name="volume_steps_ring_title">Ses seviyesi sayısı: Zil sesi</string>
-    <string name="volume_steps_system_title">Ses seviyesi sayısı: Sistem</string>
-    <string name="volume_steps_voice_call_title">Ses seviyesi sayısı: Sesli arama</string>
+    <string name="volume_steps_summary">Sesler için seviye ayarları</string>
+    <string name="volume_steps_alarm_title">Ses seviyesi: Alarm</string>
+    <string name="volume_steps_dtmf_title">Ses seviyesi: Tuş tonu</string>
+    <string name="volume_steps_music_title">Ses seviyesi: Müzik</string>
+    <string name="volume_steps_notification_title">Ses seviyesi: Bildirim</string>
+    <string name="volume_steps_ring_title">Ses seviyesi: Zil sesi</string>
+    <string name="volume_steps_system_title">Ses seviyesi: Sistem</string>
+    <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli arama</string>
     <string name="volume_steps_reset">Sıfırla</string>
     <!-- Hostname setting -->
-    <string name="device_hostname">Cihaz sahibi adı</string>
+    <string name="device_hostname">Cihaz sunucu adı</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Arkaplan işlemleri</string>
     <!-- Fingerprint location message - default -->
@@ -219,21 +219,21 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Tabletinizin sol tarafında bulunan parmak izi sensörünü bulun.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Tabletinizin sağ tarafında bulunan parmak izi sensörünü bulun.</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="gesture_pill_message">Tam ekran hareketleri için gezinme çubuğunu gizle.</string>
+    <string name="gesture_pill_message">Sorunsuz tam ekran hareketleri için gezinme çubuğunu gizle.</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın VPN bağlantısını kullanmasına izin ver</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Ekran hareketleri</string>
+    <string name="touchscreen_gesture_settings_title">Dokunmatik ekran hareketleri</string>
     <string name="touchscreen_gesture_settings_summary">Hızlı işlemler için çeşitli dokunmatik ekran hareketleri gerçekleştirin</string>
     <!-- Enable/Disable Screenshot sound -->
     <string name="screenshot_sound_title">Ekran görüntüsü sesleri</string>
     <string name="lockscreen_display_title">Kilit ekranı görüntüsü</string>
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">Gelen arama geri bildirimleri</string>
-    <string name="incall_feeedback_summary">Çağrı durumunu bildirmek için titret</string>
+    <string name="incall_feeedback_summary">Arama durumunu bildirmek için titret</string>
     <!-- Custom Vibration fragment -->
-    <string name="vibration_preferences">Titreşim &amp; dokunsal geri bildirim</string>
+    <string name="vibration_preferences">Titreşim ve dokunsal geri bildirim</string>
     <string name="summary_vibration_preferences">Yoğunlukları, deseni ve daha fazlasını değiştirin</string>
     <string name="keywords_vibration_preferences">titreşim deseni, titreşim yoğunluğu, gelen arama, geri bildirimler, dokunma, titreşim gücü</string>
     <string name="ringtone_vibration_pattern">Zil sesi titreşim deseni</string>
