@@ -34,7 +34,7 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">电池温度</string>
     <!-- The Evolver -->
-    <string name="evolution_settings_title">Evolution自定义</string>
+    <string name="evolution_settings_title">Evolution 自定义</string>
     <string name="evolution_settings_summary">更多进化设置</string>
     <!-- Charging vibration -->
     <string name="charging_vibro_title">充电时振动</string>
