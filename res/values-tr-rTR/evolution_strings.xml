@@ -50,7 +50,7 @@
     <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde otomatik olarak kilidi aç</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
-    <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken pin düzenini karıştır</string>
+    <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştır</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğunu azaltmak için gün ve ortam koşulları zamanına bağlı olarak ekranı iyileştirir</string>
     <string name="live_display_mode">Görüntü modu</string>
