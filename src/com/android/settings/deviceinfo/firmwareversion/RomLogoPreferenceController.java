@@ -34,28 +34,35 @@ public class RomLogoPreferenceController extends BasePreferenceController {
 
     private static final Uri INTENT_URI_DATA = Uri.parse("https://evolution-x.org/");
     private static final String TAG = "romDialogCtrl";
-    private final PackageManager mPackageManager = this.mContext.getPackageManager();
+
+    private final PackageManager mPackageManager;
 
     public RomLogoPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
+        mPackageManager = mContext.getPackageManager();
     }
 
+    @Override
     public int getAvailabilityStatus() {
         return AVAILABLE;
     }
 
+    @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return false;
         }
-        Intent intent = new Intent();
-        intent.setAction("android.intent.action.VIEW");
+
+        final Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
         intent.setData(INTENT_URI_DATA);
-        if (this.mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
+        if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
+            // Don't send out the intent to stop crash
             Log.w(TAG, "queryIntentActivities() returns empty");
             return true;
         }
-        this.mContext.startActivity(intent);
+
+        mContext.startActivity(intent);
         return true;
     }
 }

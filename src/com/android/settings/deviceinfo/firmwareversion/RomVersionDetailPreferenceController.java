@@ -37,16 +37,20 @@ public class RomVersionDetailPreferenceController extends BasePreferenceControll
     private static final String KEY_ROM_VERSION_PROP = "org.evolution.build_version";
     private static final String KEY_ROM_RELEASETYPE_PROP = "org.evolution.build_type";
     private static final String KEY_ROM_CODENAME_PROP = "org.evolution.build_codename";
-    private final PackageManager mPackageManager = this.mContext.getPackageManager();
 
-    public RomVersionDetailPreferenceController(Context context, String preferenceKey) {
-        super(context, preferenceKey);
+    private final PackageManager mPackageManager;
+
+    public RomVersionDetailPreferenceController(Context context, String key) {
+        super(context, key);
+        mPackageManager = mContext.getPackageManager();
     }
 
+    @Override
     public int getAvailabilityStatus() {
         return AVAILABLE;
     }
 
+    @Override
     public CharSequence getSummary() {
         String romVersion = SystemProperties.get(KEY_ROM_VERSION_PROP,
                 this.mContext.getString(R.string.device_info_default));
@@ -60,18 +64,22 @@ public class RomVersionDetailPreferenceController extends BasePreferenceControll
             return mContext.getString(R.string.rom_version_default);
     }
 
+    @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return false;
         }
-        Intent intent = new Intent();
-        intent.setAction("android.intent.action.VIEW");
+
+        final Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
         intent.setData(INTENT_URI_DATA);
-        if (this.mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
+        if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
+            // Don't send out the intent to stop crash
             Log.w(TAG, "queryIntentActivities() returns empty");
             return true;
         }
-        this.mContext.startActivity(intent);
+
+        mContext.startActivity(intent);
         return true;
     }
 }
