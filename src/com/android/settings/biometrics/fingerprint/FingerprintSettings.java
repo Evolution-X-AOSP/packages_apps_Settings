@@ -26,7 +26,6 @@ import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.hardware.fingerprint.Fingerprint;
 import android.hardware.fingerprint.FingerprintManager;
@@ -47,7 +46,7 @@ import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceViewHolder;
 
-import com.android.internal.custom.app.LineageContextConstants;
+import com.android.internal.util.evolution.fod.FodUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -135,7 +134,6 @@ public class FingerprintSettings extends SubSettings {
         private boolean mLaunchedConfirm;
         private Drawable mHighlightDrawable;
         private int mUserId;
-        private boolean mHasFod;
 
         private static final String TAG_AUTHENTICATE_SIDECAR = "authenticate_sidecar";
         private static final String TAG_REMOVAL_SIDECAR = "removal_sidecar";
@@ -253,8 +251,6 @@ public class FingerprintSettings extends SubSettings {
         }
 
         private void retryFingerprint() {
-            PackageManager packageManager = getPackageManager();
-            mHasFod = packageManager.hasSystemFeature(LineageContextConstants.Features.FOD);
             if (mRemovalSidecar.inProgress()
                     || 0 == mFingerprintManager.getEnrolledFingerprints(mUserId).size()) {
                 return;
@@ -265,7 +261,7 @@ public class FingerprintSettings extends SubSettings {
                 return;
             }
             // Don't listen if has fod support
-            if (mHasFod){
+            if (FodUtils.hasFodSupport(getContext())){
                 return;
             }
             if (!mInFingerprintLockout) {
