@@ -272,9 +272,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Wellbeing -->
     <string name="duration_less_than_one_minute">Kurang dari satu menit</string>
     <string name="screen_time_summary_usage_today">%1$s hari ini</string>
-    <!-- Moto Face Unlock -->
-    <string name="security_settings_face_settings_footer_moto">Gunakan fitur pengenalan Wajah untuk membuka perangkat.\n\nPerlu diingat:\nMelihat ke ponsel secara tak sengaja dapat membuka kunci.\n\nPonsel Anda dapat dibuka oleh orang lain jika ponsel dihadapkan ke wajah Anda dengan mata terbuka.\n\nPonsel Anda dapat dibuka oleh orang lain yang mirip dengan Anda, seperti anak atau saudara yang mirip.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_moto">Data yang disimpan dengan metode pengenalan wajah akan dihapus dan diamankan secara permanen. Setelah dihapus, Anda akan memerlukan PIN, pola, atau kata sandi untuk membuka ponsel Anda.</string>
     <!-- Adaptive battery -->
     <string name="battery_tip_smart_battery_summary_custom">Aktifkan Baterai adaptif</string>
     <string name="smart_battery_footer_custom">"Untuk memperpanjang masa pakai baterai, baterai adaptif membatasi baterai untuk aplikasi yang jarang dipakai. Ponsel akan mempelajari cara Anda menggunakan aplikasi seiring waktu.
