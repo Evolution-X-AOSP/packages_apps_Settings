@@ -272,9 +272,6 @@ Es wird auch ausgelöst, wenn Ambient Display deaktiviert ist wenn eine neuer Tr
     <!-- Wellbeing -->
     <string name="duration_less_than_one_minute">Weniger als 1 Minute</string>
     <string name="screen_time_summary_usage_today">%1$s heute</string>
-    <!-- Moto Face Unlock -->
-    <string name="security_settings_face_settings_footer_moto">Mit Face Unlock kannst du dein Gerät entsperren.\n\nWenn du diese Option nutzt, solltest du Folgendes bedenken:\nEs kann passieren, dass das Smartphone unbeabsichtigt entsperrt wird, wenn du auf das Gerät blickst.\n\nEine andere Person kann dein Smartphone dadurch entsperren, dass sie es vor dein Gesicht hält, auch wenn deine Augen geschlossen sind.\n\nDein Smartphone kann eventuell auch von jemandem entsperrt werden, der dir sehr ähnlich sieht, beispielsweise von einem eineiigen Zwilling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_moto">Die von Face Unlock aufgezeichneten Gesichtsdaten werden endgültig und sicher gelöscht. Nach dem Entfernen benötigst du wieder deine PIN, dein Muster oder dein Passwort, um dein Smartphone zu entsperren.</string>
     <!-- Adaptive battery -->
     <string name="battery_tip_smart_battery_summary_custom">Funktion \"Intelligenter Akku\" aktivieren</string>
     <string name="smart_battery_footer_custom">"Um die Akkulaufzeit zu verlängern, schränkt die Funktion \"Intelligenter Akku\" die Akkunutzung für selten verwendete Apps ein. Dein Smartphone lernt mit der Zeit, wie du deine Apps nutzt.
