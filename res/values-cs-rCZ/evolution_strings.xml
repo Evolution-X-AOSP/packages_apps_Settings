@@ -271,9 +271,6 @@
     <!-- Wellbeing -->
     <string name="duration_less_than_one_minute">Méně než 1 minuta</string>
     <string name="screen_time_summary_usage_today">Dnes %1$s</string>
-    <!-- Moto Face Unlock -->
-    <string name="security_settings_face_settings_footer_moto">Zařízení odemknete pomocí odemknutí obličejem.\n\nNezapomeňte:\nTelefon můžete odemknout pohledem na obrazovku, i když to nemáte v úmyslu.\n\nVáš telefon může odemknout i jiná osoba, pokud jej podrží před vaším obličejem a vy budete mít otevřené oči.\n\nVáš telefon mohou odemknout osoby s podobným vzhledem, například vaše dítě nebo identický sourozenec.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_moto">Data, která se při odemknutí obličeje uloží, budou trvale a bezpečně smazána. Pokud chcete odemknout telefon po jejich odstranění, musíte zadat kód PIN, gesto nebo heslo.</string>
     <!-- Adaptive battery -->
     <string name="battery_tip_smart_battery_summary_custom">Zapnout adaptivní baterii</string>
     <string name="smart_battery_footer_custom">"Adaptivní baterie prodlužuje výdrž baterie tím, že omezuje využití baterie aplikacemi, které nepoužíváte tak často. Telefon postupem času sám zjistí, jak aplikace využíváte.
