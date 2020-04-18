@@ -87,6 +87,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildDatePreferenceController"/>
 
+    <!-- Build maintainer -->
+    <Preference
+        android:key="os_build_maintainer"
+        android:title="@string/build_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildMaintainerPreferenceController"/>
+
     <!-- Build number -->
     <Preference
         android:key="os_build_number"
