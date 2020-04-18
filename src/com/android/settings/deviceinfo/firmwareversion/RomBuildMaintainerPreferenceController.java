@@ -20,7 +20,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
-import android.os.Build;
 import android.os.SystemProperties;
 import android.text.TextUtils;
 import android.util.Log;
@@ -30,15 +29,17 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class AboutDeviceNamePreferenceController extends BasePreferenceController {
+public class RomBuildMaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String KEY_DEVICE_NAME_PROP = "org.evolution.device";
-    private static final String KEY_SUPPORT_URL = "org.evolution.build_support_url";
-    private static final String TAG = "AboutDeviceNameCtrl";
-    private static final Uri INTENT_URI_DATA = Uri.parse(KEY_SUPPORT_URL);
+    private static final String KEY_BUILD_MAINTAINER_PROP =
+        "org.evolution.build_maintainer";
+    private static final String KEY_BUILD_MAINTAINER_URL_URI =
+        "org.evolution.build_maintainer_url";
+    private static final String TAG = "RomMaintainerCtrl";
+    private static final Uri INTENT_URI_DATA = Uri.parse(KEY_BUILD_MAINTAINER_URL_URI);
     private final PackageManager mPackageManager = this.mContext.getPackageManager();
 
-    public AboutDeviceNamePreferenceController(Context context, String key) {
+    public RomBuildMaintainerPreferenceController(Context context, String key) {
         super(context, key);
     }
 
@@ -49,10 +50,8 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
-        String deviceCodename = SystemProperties.get(KEY_DEVICE_NAME_PROP,
+        return SystemProperties.get(KEY_BUILD_MAINTAINER_PROP,
                 mContext.getString(R.string.unknown));
-        String deviceModel = Build.MODEL;
-        return deviceModel + " | " + deviceCodename;
     }
 
     @Override
@@ -60,17 +59,14 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return false;
         }
-
-        final Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
+        Intent intent = new Intent();
+        intent.setAction("android.intent.action.VIEW");
         intent.setData(INTENT_URI_DATA);
-        if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
-            // Don't send out the intent to stop crash
+        if (this.mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
             Log.w(TAG, "queryIntentActivities() returns empty");
             return true;
         }
-
-        mContext.startActivity(intent);
+        this.mContext.startActivity(intent);
         return true;
     }
 }
