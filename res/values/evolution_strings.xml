@@ -26,4 +26,8 @@
     <!-- About device screen, Build date -->
     <string name="build_date">Build date</string>
 
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Build maintainer</string>
+    <string name="build_maintainer_summary">Unknown</string>
+
 </resources>
