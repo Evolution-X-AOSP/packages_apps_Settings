@@ -271,9 +271,6 @@
     <!-- Wellbeing -->
     <string name="duration_less_than_one_minute">Menos de un minuto</string>
     <string name="screen_time_summary_usage_today">%1$s hoy</string>
-    <!-- Moto Face Unlock -->
-    <string name="security_settings_face_settings_footer_moto">Usa el Desbloqueo Facial para desbloquear tu dispositivo.\n\nRecuerda:\nMirar al teléfono puede desbloquearlo aún cuando no deseas hacerlo.\n\nTu teléfono puede ser desbloqueado por alguien más si se lo sostiene frente a tu cara mientras tienes los ojos abiertos.\n\nTu teléfono puede ser desbloqueado por alguien que se parezca a ti, por ejemplo, tu hijo o tu hermano idéntico.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_moto">Los datos guardados por el desbloqueo facial serán eliminados de forma permanente y segura. Después de borrarlos, necesitarás tu PIN, patrón o contraseña para desbloquear tu teléfono.</string>
     <!-- Adaptive battery -->
     <string name="battery_tip_smart_battery_summary_custom">Activar Batería Inteligente</string>
     <string name="smart_battery_footer_custom">"Para aumentar la duración de la batería, Batería Inteligente limita el consumo por parte de aplicaciones que se utilizan con poca frecuencia. Con el tiempo, el teléfono sabrá cómo utilizas las aplicaciones.
