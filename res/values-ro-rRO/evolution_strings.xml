@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Dispozitiv</string>
     <string name="build_date">Dată compilare</string>
+    <string name="build_maintainer">Dezvoltator</string>
     <string name="rom_version">Versiune Evolution X</string>
     <string name="rom_version_default">Necunoscut</string>
     <!-- Battery stats reset -->
