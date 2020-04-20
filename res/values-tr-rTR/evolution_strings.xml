@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Cihaz</string>
     <string name="build_date">Sürüm tarihi</string>
+    <string name="build_maintainer">Cihaz sorumlusu</string>
     <string name="rom_version">Evolution X sürümü</string>
     <string name="rom_version_default">Bilinmeyen</string>
     <!-- Battery stats reset -->
