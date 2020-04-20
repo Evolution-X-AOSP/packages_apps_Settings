@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">डिवाइस </string>
     <string name="build_date">निर्माण दिनांक</string>
+    <string name="build_maintainer">मैंटेनर</string>
     <string name="rom_version">इवोल्यूशन एक्स संस्करण</string>
     <string name="rom_version_default">अज्ञात</string>
     <!-- Battery stats reset -->
