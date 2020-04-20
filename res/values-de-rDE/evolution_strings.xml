@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Gerät</string>
     <string name="build_date">Build-Datum</string>
+    <string name="build_maintainer">Build-Betreuer</string>
     <string name="rom_version">Evolution X Version</string>
     <string name="rom_version_default">Unbekannt</string>
     <!-- Battery stats reset -->
