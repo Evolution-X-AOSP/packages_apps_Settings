@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Thiết bị</string>
     <string name="build_date">Ngày dựng</string>
+    <string name="build_maintainer">Người duy trì</string>
     <string name="rom_version">Phiên bản Evolution X</string>
     <string name="rom_version_default">Không xác định</string>
     <!-- Battery stats reset -->
