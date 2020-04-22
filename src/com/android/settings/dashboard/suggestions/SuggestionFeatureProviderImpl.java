@@ -21,8 +21,6 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import android.provider.Settings;
-
 import androidx.annotation.NonNull;
 
 import com.android.settings.R;
@@ -64,8 +62,6 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
 
     @Override
     public boolean isSuggestionComplete(Context context, @NonNull ComponentName component) {
-        if (Settings.System.getInt(context.getContentResolver(),
-                Settings.System.ENABLE_SUGGESTIONS, 1) == 0) return true;
         final String className = component.getClassName();
         if (className.equals(WallpaperSuggestionActivity.class.getName())) {
             return WallpaperSuggestionActivity.isSuggestionComplete(context);
