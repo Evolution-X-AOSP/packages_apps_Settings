@@ -108,11 +108,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicații ecran complet</string>
     <string name="display_cutout_force_fullscreen_summary">Forţaţi aplicațiile să ignore spațiul pentru breton</string>
-    <!-- SELinux Status -->
-    <string name="selinux_status">Stare SELinux</string>
-    <string name="selinux_status_disabled">Dezactivat</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Ambient Pulse on new tracks -->
     <string name="pulse_on_new_tracks_title">Afișare muzică pe ecranul ambiental</string>
     <string name="pulse_on_new_tracks_summary">Afișare ecran ambiental când este redată o piesă nouă</string>
