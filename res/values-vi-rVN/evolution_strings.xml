@@ -108,11 +108,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
     <string name="display_cutout_force_fullscreen_summary">Buộc các ứng dụng bỏ qua không gian tai thỏ</string>
-    <!-- SELinux Status -->
-    <string name="selinux_status">Trạng thái SELinux</string>
-    <string name="selinux_status_disabled">Vô hiệu hóa</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Ambient Pulse on new tracks -->
     <string name="pulse_on_new_tracks_title">Thẻ âm nhạc xem nhanh</string>
     <string name="pulse_on_new_tracks_summary">Hiển thị màn hình xem nhanh khi một bản nhạc mới được phát</string>
