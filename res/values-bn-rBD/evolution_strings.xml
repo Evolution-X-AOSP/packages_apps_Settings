@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">ডিভাইস</string>
     <string name="build_date">নির্মাণ তারিখ</string>
+    <string name="build_maintainer">বিল্ড রক্ষণাবেক্ষণকারী</string>
     <string name="rom_version">ইভোলুশন এক্স সংস্করণ</string>
     <string name="rom_version_default">অজানা</string>
     <!-- Battery stats reset -->
@@ -107,11 +108,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">পূর্ণ স্ক্রিন অ্যাপস</string>
     <string name="display_cutout_force_fullscreen_summary">অ্যাপ্লিকেশনগুলিকে নচ উপেক্ষা করতে বাধ্য করুন</string>
-    <!-- SELinux Status -->
-    <string name="selinux_status">SELinux অবস্থা</string>
-    <string name="selinux_status_disabled">নিষ্ক্রিয়</string>
-    <string name="selinux_status_permissive">পারমিসিভ</string>
-    <string name="selinux_status_enforcing">প্রয়োগ করা</string>
     <!-- Ambient Pulse on new tracks -->
     <string name="pulse_on_new_tracks_title">আবহ সংগীত টিকার</string>
     <string name="pulse_on_new_tracks_summary">যখন একটি নতুন সঙ্গীত ট্র্যাক বাজানো হবে তখন অ্যাম্বিয়েন্ট স্ক্রিনে প্রদর্শন করুন</string>
