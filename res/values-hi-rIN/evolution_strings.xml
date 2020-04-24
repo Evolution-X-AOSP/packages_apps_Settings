@@ -108,11 +108,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">पूर्ण स्क्रीन एप्लिकेशन</string>
     <string name="display_cutout_force_fullscreen_summary">एप्स को नौच को अनदेखा करने पर मजबूर करें</string>
-    <!-- SELinux Status -->
-    <string name="selinux_status">एसई लिनक्स स्थिति</string>
-    <string name="selinux_status_disabled">बंद</string>
-    <string name="selinux_status_permissive">पर्मिस्सिव</string>
-    <string name="selinux_status_enforcing">एनफॉर्सिंग</string>
     <!-- Ambient Pulse on new tracks -->
     <string name="pulse_on_new_tracks_title">एंबिएंट संगीत टिकर</string>
     <string name="pulse_on_new_tracks_summary">संगीत चलाने पर एंबिएंट डिस्प्ले दिखाएं</string>
