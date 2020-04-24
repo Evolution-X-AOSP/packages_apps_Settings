@@ -108,11 +108,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicaciones en pantalla completa</string>
     <string name="display_cutout_force_fullscreen_summary">Forzar aplicaciones a ignorar espacio de notch</string>
-    <!-- SELinux Status -->
-    <string name="selinux_status">Estado de SELinux</string>
-    <string name="selinux_status_disabled">Desactivado</string>
-    <string name="selinux_status_permissive">Permisivo</string>
-    <string name="selinux_status_enforcing">Forzado</string>
     <!-- Ambient Pulse on new tracks -->
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
     <string name="pulse_on_new_tracks_summary">Mostrar Ambient Display cuando suene una nueva canción</string>
