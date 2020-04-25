@@ -70,13 +70,13 @@ public class DisplayRotation extends SettingsPreferenceFragment implements OnPre
 
         addPreferencesFromResource(R.xml.display_rotation);
 
-        mAccelerometer = (SwitchPreference) findPreference(KEY_ACCELEROMETER);
+        mAccelerometer = findPreference(KEY_ACCELEROMETER);
         mAccelerometer.setPersistent(false);
 
-        mRotation0Pref = (SwitchPreference) findPreference(ROTATION_0_PREF);
-        mRotation90Pref = (SwitchPreference) findPreference(ROTATION_90_PREF);
-        mRotation180Pref = (SwitchPreference) findPreference(ROTATION_180_PREF);
-        mRotation270Pref = (SwitchPreference) findPreference(ROTATION_270_PREF);
+        mRotation0Pref = findPreference(ROTATION_0_PREF);
+        mRotation90Pref = findPreference(ROTATION_90_PREF);
+        mRotation180Pref = findPreference(ROTATION_180_PREF);
+        mRotation270Pref = findPreference(ROTATION_270_PREF);
 
         int mode = Settings.System.getInt(getContentResolver(),
                         Settings.System.ACCELEROMETER_ROTATION_ANGLES,
