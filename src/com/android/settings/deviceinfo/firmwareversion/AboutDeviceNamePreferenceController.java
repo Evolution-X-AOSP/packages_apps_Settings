@@ -34,6 +34,7 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
 
     private static final String TAG = "AboutDeviceNameCtrl";
 
+    private static final String KEY_BRAND_NAME_PROP = "ro.product.brand";
     private static final String KEY_DEVICE_NAME_PROP = "org.evolution.device";
     private static final String KEY_SUPPORT_URL = "org.evolution.build_support_url";
 
@@ -51,10 +52,12 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
+        String deviceBrand = SystemProperties.get(KEY_BRAND_NAME_PROP,
+                mContext.getString(R.string.device_info_default));
         String deviceCodename = SystemProperties.get(KEY_DEVICE_NAME_PROP,
                 mContext.getString(R.string.device_info_default));
         String deviceModel = Build.MODEL;
-        return deviceModel + " | " + deviceCodename;
+        return deviceBrand + " " + deviceModel + " | " + deviceCodename;
     }
 
     @Override
