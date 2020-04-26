@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">ডিভাইস</string>
     <string name="build_date">নির্মাণ তারিখ</string>
+    <string name="build_maintainer">বিল্ড রক্ষণাবেক্ষণকারী</string>
     <string name="rom_version">ইভোলুশন এক্স সংস্করণ</string>
     <string name="rom_version_default">অজানা</string>
     <!-- Battery stats reset -->
