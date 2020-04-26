@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Nama Perangkat</string>
     <string name="build_date">Tanggal Pembuatan</string>
+    <string name="build_maintainer">Pengelola Rom</string>
     <string name="rom_version">Versi Evolution X</string>
     <string name="rom_version_default">Tidak diketahui</string>
     <!-- Battery stats reset -->
