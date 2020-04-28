@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Apparaat</string>
     <string name="build_date">Bouwdatum</string>
+    <string name="build_maintainer">Onderhouder</string>
     <string name="rom_version">Evolution X versie</string>
     <string name="rom_version_default">Onbekend</string>
     <!-- Battery stats reset -->
@@ -291,4 +292,11 @@ Notificaties kunnen vertraagd zijn voor deze apps."</string>
     <string name="adaptive_playback_timeout_5_min_summary">Aan (5 minuten)</string>
     <string name="adaptive_playback_timeout_10_min">10 minuten</string>
     <string name="adaptive_playback_timeout_10_min_summary">Aan (10 minuten)</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobiele data</string>
+    <string name="data_usage_app_restrict_data_summary">Schakel het gebruik van mobiele data in</string>
+    <string name="data_usage_app_restrict_vpn">VPN-data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Schakel gebruik van VPN-data in</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Schakel het gebruik van Wi\u2011Fi data in</string>
 </resources>
