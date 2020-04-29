@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Zařízení</string>
     <string name="build_date">Datum sestavení</string>
+    <string name="build_maintainer">Správce zařízení</string>
     <string name="rom_version">Verze Evolution X</string>
     <string name="rom_version_default">Neznámá</string>
     <!-- Battery stats reset -->
