@@ -53,7 +53,7 @@
     <string name="unlock_scramble_pin_layout_title">Mescola i numeri</string>
     <string name="unlock_scramble_pin_layout_summary">Cambia la disposizione grafica dei numeri PIN per lo sblocco del dispositivo</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Ottimizza lo schermo in base all\'ora del giorno e alle condizioni ambientali per migliorare la leggibilità e ridurre l\'affaticamento degli occhi</string>
+    <string name="live_display_summary">Ottimizza i colori del display in base all\'ora del giorno e delle condizioni ambientali per migliorare la leggibilità e ridurre l\'affaticamento degli occhi</string>
     <string name="live_display_mode">Modalità Display</string>
     <string name="live_display_color_temperature_title">Temperatura colore</string>
     <string name="live_display_color_temperature_summary">Giorno: <xliff:g id="day_temperature">%1$d</xliff:g>K  Notte: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
