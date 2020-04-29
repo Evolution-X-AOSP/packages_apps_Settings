@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">设备</string>
     <string name="build_date">编译日期</string>
+    <string name="build_maintainer">构建维护者</string>
     <string name="rom_version">Evolution X 版本</string>
     <string name="rom_version_default">未知</string>
     <!-- Battery stats reset -->
