@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Пристрій</string>
     <string name="build_date">Дата збірки</string>
+    <string name="build_maintainer">Розробник</string>
     <string name="rom_version">Версія Evolution X</string>
     <string name="rom_version_default">Невідомо</string>
     <!-- Battery stats reset -->
