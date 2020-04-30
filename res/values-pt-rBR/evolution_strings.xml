@@ -18,6 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Dispositivo</string>
     <string name="build_date">Data da compilação</string>
+    <string name="build_maintainer">Mantenedor</string>
     <string name="rom_version">Versão da Evolution X</string>
     <string name="rom_version_default">Desconhecido</string>
     <!-- Battery stats reset -->
@@ -279,7 +280,9 @@
     <string name="hide_notch_summary">Apps não podem usar a área do notch</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
+    <string name="adaptive_playback_disabled_summary">Desativado</string>
     <string name="adaptive_playback_timeout_title">Use um tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Sem tempo limite</string>
     <string name="adaptive_playback_timeout_none_summary">Desativado</string>
     <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
