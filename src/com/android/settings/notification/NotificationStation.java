@@ -271,7 +271,7 @@ public class NotificationStation extends SettingsPreferenceFragment {
             StatusBarNotification[] active = mNoMan.getActiveNotifications(
                     mContext.getPackageName());
             StatusBarNotification[] dismissed = mNoMan.getHistoricalNotifications(
-                    mContext.getPackageName(), 50);
+                    mContext.getPackageName(), 100);
 
             List<HistoricalNotificationInfo> list
                     = new ArrayList<HistoricalNotificationInfo>(active.length + dismissed.length);
