@@ -280,7 +280,9 @@
     <string name="hide_notch_summary">アプリはノッチ領域を使えません</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">アダプティブ再生</string>
+    <string name="adaptive_playback_disabled_summary">OFF</string>
     <string name="adaptive_playback_timeout_title">使用する点灯時間</string>
+    <string name="adaptive_playback_timeout_none">制限なし</string>
     <string name="adaptive_playback_timeout_none_summary">OFF</string>
     <string name="adaptive_playback_timeout_30_secs">30秒</string>
     <string name="adaptive_playback_timeout_30_secs_summary">ON (30秒)</string>
