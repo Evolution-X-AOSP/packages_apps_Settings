@@ -280,7 +280,9 @@ Thông báo có thể bị chậm trễ đối với những ứng dụng này."
     <string name="hide_notch_summary">Ứng dụng không thể sử dụng phần khuyết</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Phát nhạc Linh động</string>
+    <string name="adaptive_playback_disabled_summary">Tắt</string>
     <string name="adaptive_playback_timeout_title">Sử dụng thời gian chờ là</string>
+    <string name="adaptive_playback_timeout_none">Không có thời gian chờ</string>
     <string name="adaptive_playback_timeout_none_summary">Tắt</string>
     <string name="adaptive_playback_timeout_30_secs">30 giây</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Bật (30 giây)</string>
