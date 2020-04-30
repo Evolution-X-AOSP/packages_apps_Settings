@@ -280,7 +280,9 @@ Notificările de la aceste aplicații pot fi primite cu întârziere."</string>
     <string name="hide_notch_summary">Aplicațiile nu pot utiliza zona pentru breton</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Redare adaptivă</string>
+    <string name="adaptive_playback_disabled_summary">Oprit</string>
     <string name="adaptive_playback_timeout_title">Folosește un timp expirare de</string>
+    <string name="adaptive_playback_timeout_none">Fără pauză</string>
     <string name="adaptive_playback_timeout_none_summary">Oprit</string>
     <string name="adaptive_playback_timeout_30_secs">30 de secunde</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Pornit (30 de secunde)</string>
