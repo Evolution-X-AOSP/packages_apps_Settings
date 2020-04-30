@@ -28,6 +28,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class AdaptivePlaybackParentPreferenceController extends BasePreferenceController {
 
+    final int ADAPTIVE_PLAYBACK_TIMEOUT_NONE = 0;
     final int ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS = 30000;
     final int ADAPTIVE_PLAYBACK_TIMEOUT_1_MIN = 60000;
     final int ADAPTIVE_PLAYBACK_TIMEOUT_2_MIN = 120000;
@@ -48,13 +49,16 @@ public class AdaptivePlaybackParentPreferenceController extends BasePreferenceCo
         boolean enabled = Settings.System.getIntForUser(
                 mContext.getContentResolver(), ADAPTIVE_PLAYBACK_ENABLED, 0, UserHandle.USER_CURRENT) != 0;
         int timeout = Settings.System.getIntForUser(
-                mContext.getContentResolver(), ADAPTIVE_PLAYBACK_TIMEOUT, ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS, 
+                mContext.getContentResolver(), ADAPTIVE_PLAYBACK_TIMEOUT, ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS,
                 UserHandle.USER_CURRENT);
-        int summary = R.string.adaptive_playback_timeout_none_summary;
+        int summary = R.string.adaptive_playback_disabled_summary;
         if (!enabled) {
             return mContext.getText(summary);
         }
         switch (timeout) {
+            case ADAPTIVE_PLAYBACK_TIMEOUT_NONE:
+                summary = R.string.adaptive_playback_timeout_none_summary;
+                break;
             case ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS:
                 summary = R.string.adaptive_playback_timeout_30_secs_summary;
                 break;
