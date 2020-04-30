@@ -53,7 +53,7 @@
     <string name="unlock_scramble_pin_layout_title">Mescola i numeri</string>
     <string name="unlock_scramble_pin_layout_summary">Cambia la disposizione grafica dei numeri PIN per lo sblocco del dispositivo</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Ottimizza lo schermo in base all\'ora del giorno e alle condizioni ambientali per migliorare la leggibilità e ridurre l\'affaticamento degli occhi</string>
+    <string name="live_display_summary">Ottimizza i colori del display in base all\'ora del giorno e delle condizioni ambientali per migliorare la leggibilità e ridurre l\'affaticamento degli occhi</string>
     <string name="live_display_mode">Modalità Display</string>
     <string name="live_display_color_temperature_title">Temperatura colore</string>
     <string name="live_display_color_temperature_summary">Giorno: <xliff:g id="day_temperature">%1$d</xliff:g>K  Notte: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
@@ -280,8 +280,10 @@ Potresti ricevere in ritardo le notifiche di queste app."</string>
     <string name="hide_notch_summary">Le app non possono utilizzare l\'area del notch</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Riproduzione adattiva</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
     <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
-    <string name="adaptive_playback_timeout_none_summary">Off</string>
+    <string name="adaptive_playback_timeout_none">Nessun timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">Acceso (nessun timeout)</string>
     <string name="adaptive_playback_timeout_30_secs">30 secondi</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Acceso (30 secondi)</string>
     <string name="adaptive_playback_timeout_1_min">1 minuto</string>
