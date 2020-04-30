@@ -47,6 +47,8 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
         OnResume, OnPause, OnCreate, PreferenceControllerMixin {
 
     @VisibleForTesting
+    static final String KEY_NO_TIMEOUT = "adaptive_playback_timeout_none";
+    @VisibleForTesting
     static final String KEY_30_SECS = "adaptive_playback_timeout_30_secs";
     @VisibleForTesting
     static final String KEY_1_MIN = "adaptive_playback_timeout_1_min";
@@ -62,6 +64,7 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
     private final String KEY = "gesture_adaptive_playback_category";
     private final Context mContext;
 
+    final int ADAPTIVE_PLAYBACK_TIMEOUT_NONE = 0;
     final int ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS = 30000;
     final int ADAPTIVE_PLAYBACK_TIMEOUT_1_MIN = 60000;
     final int ADAPTIVE_PLAYBACK_TIMEOUT_2_MIN = 120000;
@@ -73,6 +76,8 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
 
     @VisibleForTesting
     PreferenceCategory mPreferenceCategory;
+    @VisibleForTesting
+    RadioButtonPreference mTimeoutNonePref;
     @VisibleForTesting
     RadioButtonPreference mTimeout30SecPref;
     @VisibleForTesting
@@ -102,6 +107,7 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
             return;
         }
         mPreferenceCategory = screen.findPreference(getPreferenceKey());
+        mTimeoutNonePref = makeRadioPreference(KEY_NO_TIMEOUT, R.string.adaptive_playback_timeout_none);
         mTimeout30SecPref = makeRadioPreference(KEY_30_SECS, R.string.adaptive_playback_timeout_30_secs);
         mTimeout1MinPref = makeRadioPreference(KEY_1_MIN, R.string.adaptive_playback_timeout_1_min);
         mTimeout2MinPref = makeRadioPreference(KEY_2_MIN, R.string.adaptive_playback_timeout_2_min);
@@ -153,11 +159,15 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
         int adaptivePlaybackTimeout = Settings.System.getIntForUser(mContext.getContentResolver(),
                 Settings.System.ADAPTIVE_PLAYBACK_TIMEOUT, ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS,
                 UserHandle.USER_CURRENT);
+        boolean isTimeoutNone = adaptivePlayback != 0 && adaptivePlaybackTimeout == ADAPTIVE_PLAYBACK_TIMEOUT_NONE;
         boolean isTimeout30Sec = adaptivePlayback != 0 && adaptivePlaybackTimeout == ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS;
         boolean isTimeout1Min = adaptivePlayback != 0 && adaptivePlaybackTimeout == ADAPTIVE_PLAYBACK_TIMEOUT_1_MIN;
         boolean isTimeout2Min = adaptivePlayback != 0 && adaptivePlaybackTimeout == ADAPTIVE_PLAYBACK_TIMEOUT_2_MIN;
         boolean isTimeout5Min = adaptivePlayback != 0 && adaptivePlaybackTimeout == ADAPTIVE_PLAYBACK_TIMEOUT_5_MIN;
         boolean isTimeout10Min = adaptivePlayback != 0 && adaptivePlaybackTimeout == ADAPTIVE_PLAYBACK_TIMEOUT_10_MIN;
+        if (mTimeoutNonePref != null && mTimeoutNonePref.isChecked() != isTimeoutNone) {
+            mTimeoutNonePref.setChecked(isTimeoutNone);
+        }
         if (mTimeout30SecPref != null && mTimeout30SecPref.isChecked() != isTimeout30Sec) {
             mTimeout30SecPref.setChecked(isTimeout30Sec);
         }
@@ -178,12 +188,14 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
             Settings.System.putIntForUser(mContext.getContentResolver(),
                     Settings.System.ADAPTIVE_PLAYBACK_TIMEOUT, ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS,
                     UserHandle.USER_CURRENT);
+            mTimeoutNonePref.setEnabled(false);
             mTimeout30SecPref.setEnabled(false);
             mTimeout1MinPref.setEnabled(false);
             mTimeout2MinPref.setEnabled(false);
             mTimeout5MinPref.setEnabled(false);
             mTimeout10MinPref.setEnabled(false);
         } else {
+            mTimeoutNonePref.setEnabled(true);
             mTimeout30SecPref.setEnabled(true);
             mTimeout1MinPref.setEnabled(true);
             mTimeout2MinPref.setEnabled(true);
@@ -225,6 +237,8 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
 
     private int keyToSetting(String key) {
         switch (key) {
+            case KEY_NO_TIMEOUT:
+                return ADAPTIVE_PLAYBACK_TIMEOUT_NONE;
             case KEY_30_SECS:
                 return ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS;
             case KEY_1_MIN:
@@ -274,7 +288,7 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
         @Override
         public void onChange(boolean selfChange, Uri uri) {
             super.onChange(selfChange, uri);
-            if (uri == null || ADAPTIVE_PLAYBACK.equals(uri) 
+            if (uri == null || ADAPTIVE_PLAYBACK.equals(uri)
                     || ADAPTIVE_PLAYBACK_TIMEOUT.equals(uri)) {
                 updateState(mPreference);
             }
