@@ -280,8 +280,10 @@
     <string name="hide_notch_summary">অ্যাপ্লিকেশনগুলি নচের অঞ্চলটি ব্যবহার করতে পারে না</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">অ্যাডাপ্টিভ প্লেব্যাক</string>
+    <string name="adaptive_playback_disabled_summary">বন্ধ</string>
     <string name="adaptive_playback_timeout_title">একটি সময়সীমা ব্যবহার করুন</string>
-    <string name="adaptive_playback_timeout_none_summary">বন্ধ</string>
+    <string name="adaptive_playback_timeout_none">সময়সীমা নেই</string>
+    <string name="adaptive_playback_timeout_none_summary">চালু (সময়সীমা নেই)</string>
     <string name="adaptive_playback_timeout_30_secs">৩০ সেকেন্ড</string>
     <string name="adaptive_playback_timeout_30_secs_summary">(30 সেকেন্ড) এর সময়</string>
     <string name="adaptive_playback_timeout_1_min">১ মিনিট</string>
