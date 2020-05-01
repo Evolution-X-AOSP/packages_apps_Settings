@@ -26,6 +26,7 @@ import android.provider.Settings;
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceCategory;
 import android.text.TextUtils;
 import android.util.Log;
@@ -72,7 +73,8 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
 
     private static final String TAG = "LiveDisplay";
 
-    private static final String KEY_CATEGORY_LIVE_DISPLAY = "live_display_options";
+    private static final String KEY_SCREEN_LIVE_DISPLAY = "livedisplay";
+
     private static final String KEY_CATEGORY_ADVANCED = "advanced";
 
     private static final String KEY_LIVE_DISPLAY = "live_display";
@@ -139,7 +141,8 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.livedisplay);
 
-        PreferenceCategory liveDisplayPrefs = findPreference(KEY_CATEGORY_LIVE_DISPLAY);
+        PreferenceScreen liveDisplayPrefs = findPreference(KEY_SCREEN_LIVE_DISPLAY);
+
         PreferenceCategory advancedPrefs = findPreference(KEY_CATEGORY_ADVANCED);
 
         int adaptiveMode = mLiveDisplayManager.getMode();
