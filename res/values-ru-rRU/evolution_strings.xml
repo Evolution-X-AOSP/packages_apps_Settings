@@ -280,8 +280,10 @@
     <string name="hide_notch_summary">Приложения не могут использовать область выреза</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
+    <string name="adaptive_playback_disabled_summary">Выкл</string>
     <string name="adaptive_playback_timeout_title">Использовать таймаут</string>
-    <string name="adaptive_playback_timeout_none_summary">Выкл</string>
+    <string name="adaptive_playback_timeout_none">Без паузы</string>
+    <string name="adaptive_playback_timeout_none_summary">Вкл (без паузы)</string>
     <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Вкл (30 секунд)</string>
     <string name="adaptive_playback_timeout_1_min">1 минута</string>
