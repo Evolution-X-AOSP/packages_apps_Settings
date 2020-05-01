@@ -16,55 +16,55 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- ROM version -->
-    <string name="about_device_name">Пристрій</string>
-    <string name="build_date">Дата збірки</string>
-    <string name="build_maintainer">Розробник</string>
-    <string name="rom_version">Версія Evolution X</string>
-    <string name="rom_version_default">Невідомо</string>
+    <string name="about_device_name">WhyGay</string>
+    <string name="build_date">Дата секса</string>
+    <string name="build_maintainer">Проститутка EvoX</string>
+    <string name="rom_version">Версія параши ебаной</string>
+    <string name="rom_version_default">Ноу нейм</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Очистити статистику</string>
-    <string name="battery_stats_message">Історія використання батареї буде скинута</string>
+    <string name="battery_stats_reset">Снести нахуй EvoX</string>
+    <string name="battery_stats_message">Прошiвка Evolutioh X буде скинута,потому шо она гiвно</string>
     <!-- Back Gesture Height -->
-    <string name="back_height_low_label">Повна</string>
-    <string name="back_height_high_label">Униз</string>
-    <string name="back_options_dialog_title">Опції</string>
-    <string name="back_height_message">Довжина екрану використовується як сенсорний регіон для жесту \"Назад\".</string>
-    <string name="back_block_ime_message">Висота віртуальної клавіатури у якості сенсорної області для керування жестом.</string>
+    <string name="back_height_low_label">Порно</string>
+    <string name="back_height_high_label">Параша</string>
+    <string name="back_options_dialog_title">Тут пусто</string>
+    <string name="back_height_message">Для того чтобы изменить регион для жеста назад,снесите EvoX и поставьте другую прошивку</string>
+    <string name="back_block_ime_message">Высота виртуальной клавиатуры при использовании жестов не изменяется. </string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Закрити</string>
+    <string name="suggestion_button_close">Пойти нахуй</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Температура батареї</string>
+    <string name="battery_temp_title">Температура бомбы</string>
     <!-- The Evolver -->
-    <string name="evolution_settings_title">Кастомізація Evolver</string>
+    <string name="evolution_settings_title">Кастомізація пiзды</string>
     <string name="evolution_settings_summary">Почніть розвивати свій пристрій з нашими можливостями</string>
     <!-- Charging vibration -->
-    <string name="charging_vibro_title">Вібрація під час заряджання</string>
+    <string name="charging_vibro_title">Вібрація під час заряджання немаэ</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Мелодія дзвінка - SIM 1</string>
+    <string name="ringtone1_title">Мелодія порно - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Мелодія дзвінка - SIM 2</string>
+    <string name="ringtone2_title">Мелодія порно - SIM 2</string>
     <!-- Lockscreen rotation -->
-    <string name="lockscreen_rotation_title">Автоповорот екрану</string>
-    <string name="lockscreen_rotation_summary">Дозволити поворот на екрані блокування</string>
+    <string name="lockscreen_rotation_title">Автоповорот пiзды</string>
+    <string name="lockscreen_rotation_summary">Дозволити поворот на екрані порнографii</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
-    <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
+    <string name="unlock_quick_unlock_control_title">Швидке порно</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного порно чи GAY-порно</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Перемішана розкладка</string>
-    <string name="unlock_scramble_pin_layout_summary">Перемішувати розкладку PIN-коду під час розблокування пристрою</string>
+    <string name="unlock_scramble_pin_layout_title">Перемішана пiзды</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемішувати розкладку GAY-порно під час розблокування пристрою</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Оптимізувати ваш екран на основі часу доби і освітлення для полегшення читання і зменшення напруги очей</string>
-    <string name="live_display_mode">Режим відображення</string>
-    <string name="live_display_color_temperature_title">Колірна температура</string>
-    <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d</xliff:g>К ніч: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Оптимізувати ваш екран на основі часу добi вас и ваш телефон трахнули в жопу разработчiкi EvolutionX(гiвна).</string>
+    <string name="live_display_mode">Режим порнографii</string>
+    <string name="live_display_color_temperature_title">Порно температура</string>
+    <string name="live_display_color_temperature_summary">Порно: <xliff:g id="day_temperature">%1$d</xliff:g>К Секс: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>К</string>
-    <string name="live_display_day">День</string>
-    <string name="live_display_night">Ніч</string>
-    <string name="live_display_outdoor_mode_title">Автоматичний режим «На вулиці»</string>
+    <string name="live_display_day">Gay</string>
+    <string name="live_display_night">Straight</string>
+    <string name="live_display_outdoor_mode_title">Автоматичний режим «Дрочешь»</string>
     <string name="live_display_outdoor_mode_summary">Збільшити яскравість та насиченість автоматично при яскравому сонячному світлі</string>
-    <string name="live_display_low_power_title">Зменшення споживання енергії</string>
+    <string name="live_display_low_power_title">Зменшення окончания енергії</string>
     <string name="live_display_low_power_summary">Налаштування дисплея для найнижчого енергоспоживання без псування зображення</string>
-    <string name="live_display_enhance_color_title">Покращені кольори</string>
+    <string name="live_display_enhance_color_title">Покращені порно</string>
     <string name="live_display_enhance_color_summary">Поліпшити соковитість відтінків шкіри, пейзажів та інших зображень</string>
     <string name="live_display_color_profile_title">Профіль кольорів</string>
     <string name="live_display_color_profile_standard_title">Стандартний</string>
@@ -280,7 +280,9 @@
     <string name="hide_notch_summary">Програми не можуть використовувати область вирізу</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивне відтворення</string>
+    <string name="adaptive_playback_disabled_summary">Вимкнути</string>
     <string name="adaptive_playback_timeout_title">Використовувати тайм-аут</string>
+    <string name="adaptive_playback_timeout_none">Слава Украйне</string>
     <string name="adaptive_playback_timeout_none_summary">Вимкнути</string>
     <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Увімкнено (30 секунд)</string>
