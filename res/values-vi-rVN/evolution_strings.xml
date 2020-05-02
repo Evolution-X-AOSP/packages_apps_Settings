@@ -26,7 +26,7 @@
     <string name="battery_stats_message">Dữ liệu thống kê pin sẽ được đặt lại</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Toàn bộ</string>
-    <string name="back_height_high_label">Vùng dưới</string>
+    <string name="back_height_high_label">Dưới cùng</string>
     <string name="back_options_dialog_title">Tùy chọn</string>
     <string name="back_height_message">Chiều cao màn hình được sử dụng làm vùng nhận cử chỉ quay lại.</string>
     <string name="back_block_ime_message">Phần màn hình tương đương với chiều cao của bàn phím không thể sử dụng cử chỉ quay lại.</string>
@@ -279,9 +279,9 @@ Thông báo có thể bị chậm trễ đối với những ứng dụng này."
     <string name="hide_notch_title">Ẩn phần khuyết màn hình</string>
     <string name="hide_notch_summary">Ứng dụng không thể sử dụng phần khuyết</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Phát nhạc Linh động</string>
+    <string name="adaptive_playback_screen_title">Phát nhạc linh động</string>
     <string name="adaptive_playback_disabled_summary">Tắt</string>
-    <string name="adaptive_playback_timeout_title">Sử dụng thời gian chờ là</string>
+    <string name="adaptive_playback_timeout_title">Sử dụng thời gian chờ của</string>
     <string name="adaptive_playback_timeout_none">Không có thời gian chờ</string>
     <string name="adaptive_playback_timeout_none_summary">Tắt</string>
     <string name="adaptive_playback_timeout_30_secs">30 giây</string>
