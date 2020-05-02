@@ -280,7 +280,9 @@ Powiadomienia z takich aplikacji mogą być opóźnione."</string>
     <string name="hide_notch_summary">Aplikacje nie mogą używać strefy wcięcia</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptacyjne odtwarzanie</string>
+    <string name="adaptive_playback_disabled_summary">Wyłącz</string>
     <string name="adaptive_playback_timeout_title">Użyj limitu czasu</string>
+    <string name="adaptive_playback_timeout_none">Brak limitu czasu</string>
     <string name="adaptive_playback_timeout_none_summary">Wyłącz</string>
     <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Włączone (30 sekund)</string>
