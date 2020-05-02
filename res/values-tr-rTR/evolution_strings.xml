@@ -283,7 +283,7 @@ Bu uygulamalara ait bildirimlerde gecikme olabilir."</string>
     <string name="adaptive_playback_disabled_summary">Kapalı</string>
     <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
     <string name="adaptive_playback_timeout_none">Zaman aşımı yok</string>
-    <string name="adaptive_playback_timeout_none_summary">Kapalı</string>
+    <string name="adaptive_playback_timeout_none_summary">Açık (zaman aşımı yok)</string>
     <string name="adaptive_playback_timeout_30_secs">30 saniye</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Açık (30 saniye)</string>
     <string name="adaptive_playback_timeout_1_min">1 dakika</string>
