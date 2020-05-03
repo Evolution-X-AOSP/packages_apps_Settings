@@ -283,8 +283,8 @@
     <string name="adaptive_playback_screen_title">Προσαρμοστική αναπαραγωγή</string>
     <string name="adaptive_playback_disabled_summary">Απενεργοποιημένο</string>
     <string name="adaptive_playback_timeout_title">Χρησιμοποιήστε ένα χρονικό όριο για</string>
-    <string name="adaptive_playback_timeout_none">Xωρις χρονικο οριο</string>
-    <string name="adaptive_playback_timeout_none_summary">Ενεργοποιημενο(χωρις χρονικο οριο)</string>
+    <string name="adaptive_playback_timeout_none">Xωρίς χρονικό όριο</string>
+    <string name="adaptive_playback_timeout_none_summary">Ενεργοποιημένο (χωρίς χρονικό όριο)</string>
     <string name="adaptive_playback_timeout_30_secs">30 δευτερόλεπτα</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Ενεργό (30 δευτερόλεπτα)</string>
     <string name="adaptive_playback_timeout_1_min">1 λεπτό</string>
