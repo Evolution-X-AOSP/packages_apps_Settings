@@ -280,8 +280,10 @@
     <string name="hide_notch_summary">应用无法使用刘海区域</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">自适应播放</string>
+    <string name="adaptive_playback_disabled_summary">关闭</string>
     <string name="adaptive_playback_timeout_title">超时</string>
-    <string name="adaptive_playback_timeout_none_summary">关闭</string>
+    <string name="adaptive_playback_timeout_none">不限时</string>
+    <string name="adaptive_playback_timeout_none_summary">开启(无超时)</string>
     <string name="adaptive_playback_timeout_30_secs">30 秒</string>
     <string name="adaptive_playback_timeout_30_secs_summary">开启(30秒)</string>
     <string name="adaptive_playback_timeout_1_min">1 分钟</string>
