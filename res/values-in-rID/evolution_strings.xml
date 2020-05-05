@@ -18,7 +18,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Nama Perangkat</string>
     <string name="build_date">Tanggal Pembuatan</string>
-    <string name="build_maintainer">Pengelola Rom</string>
+    <string name="build_maintainer">Pengelola</string>
     <string name="rom_version">Versi Evolution X</string>
     <string name="rom_version_default">Tidak diketahui</string>
     <!-- Battery stats reset -->
@@ -281,8 +281,10 @@ Notifikasi dapat tertunda untuk beberapa aplikasi."</string>
     <string name="hide_notch_summary">Aplikasi tak dapat digunakan di area notch</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pemutaran adaptif</string>
+    <string name="adaptive_playback_disabled_summary">Mati</string>
     <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
-    <string name="adaptive_playback_timeout_none_summary">Mati</string>
+    <string name="adaptive_playback_timeout_none">Tanpa batas waktu</string>
+    <string name="adaptive_playback_timeout_none_summary">Aktif (tidak ada batas waktu)</string>
     <string name="adaptive_playback_timeout_30_secs">30 detik</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Hidup (30 detik)</string>
     <string name="adaptive_playback_timeout_1_min">1 Menit</string>
