@@ -280,7 +280,9 @@
     <string name="hide_notch_summary">ऐप्स नॉच क्षेत्र का उपयोग नहीं कर सकते हैं</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">अनुकुलित प्लेबैक</string>
+    <string name="adaptive_playback_disabled_summary">ऑफ</string>
     <string name="adaptive_playback_timeout_title">टाइमआउट का उपयोग करें</string>
+    <string name="adaptive_playback_timeout_none">कोई टाइमआउट नहीं</string>
     <string name="adaptive_playback_timeout_none_summary">ऑफ</string>
     <string name="adaptive_playback_timeout_30_secs">30 सेकण्ड</string>
     <string name="adaptive_playback_timeout_30_secs_summary">चालू (30 सेकण्ड)</string>
