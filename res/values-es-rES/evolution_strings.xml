@@ -280,8 +280,10 @@ Es posible que las notificaciones de estas aplicaciones te lleguen con retraso."
     <string name="hide_notch_summary">Aplicaciones que no pueden usar el área del notch</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Reproducción adaptativa</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
     <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
-    <string name="adaptive_playback_timeout_none_summary">Desactivado</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Encendido (sin tiempo de espera)</string>
     <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
     <string name="adaptive_playback_timeout_1_min">1 minuto</string>
