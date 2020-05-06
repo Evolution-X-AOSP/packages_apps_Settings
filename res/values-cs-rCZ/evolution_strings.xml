@@ -280,8 +280,10 @@ Oznámení z těchto aplikací se mohou zobrazovat se zpožděním."</string>
     <string name="hide_notch_summary">Aplikace nemůžou použít oblast výřezu</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptivní přehrávání</string>
+    <string name="adaptive_playback_disabled_summary">Vyp.</string>
     <string name="adaptive_playback_timeout_title">Použít tento časový limit</string>
-    <string name="adaptive_playback_timeout_none_summary">Vyp.</string>
+    <string name="adaptive_playback_timeout_none">Žádný časový limit</string>
+    <string name="adaptive_playback_timeout_none_summary">Zapnuto (žádný časový limit)</string>
     <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Zapnuto (30 sekund)</string>
     <string name="adaptive_playback_timeout_1_min">1 minuta</string>
