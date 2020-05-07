@@ -281,8 +281,10 @@
     <string name="hide_notch_summary">لا يمكن للتطبيقات استخدام منطقة النوتش</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">التشغيل التكيفي</string>
+    <string name="adaptive_playback_disabled_summary">متوقف</string>
     <string name="adaptive_playback_timeout_title">استخدام مهلة من</string>
-    <string name="adaptive_playback_timeout_none_summary">متوقف</string>
+    <string name="adaptive_playback_timeout_none">لا توجد مهلة</string>
+    <string name="adaptive_playback_timeout_none_summary">تشغيل (بدون مهلة)</string>
     <string name="adaptive_playback_timeout_30_secs">30 ثانية</string>
     <string name="adaptive_playback_timeout_30_secs_summary">تشغيل (30 ثانية)</string>
     <string name="adaptive_playback_timeout_1_min">دقيقة</string>
