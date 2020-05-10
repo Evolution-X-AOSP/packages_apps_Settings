@@ -161,8 +161,9 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
         if (info.getKey() == KEY_SYSTEM_NAV_GESTURAL) {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_SETTING);
             p.setExtraWidgetOnClickListener((v) -> GestureNavigationBackSensitivityDialog
-                    .show(this, getBackSensitivity(getContext(), mOverlayManager),
-                    getBackHeight(getContext()), getHomeHandleSize(getContext()), getBackBlockIme(getContext())));
+                        .show(this, getBackSensitivity(getContext(), mOverlayManager),
+                        getBackHeight(getContext()), getBackBlockIme(getContext()),
+                        getHomeHandleSize(getContext()), getShowNav(getContext())));
         } else {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_GONE);
         }
@@ -233,7 +234,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
         context.getSharedPreferences(SHARED_PREFERENCES_NAME, Context.MODE_PRIVATE).edit()
                 .putInt(PREFS_BACK_SENSITIVITY_KEY, sensitivity).apply();
         if (getCurrentSystemNavigationMode(context) == KEY_SYSTEM_NAV_GESTURAL) {
-            setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity]);
+            setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity], false);
         }
     }
 
@@ -292,6 +293,26 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
                 Settings.System.BACK_GESTURE_BLOCK_IME, 1) == 1;
     }
 
+    static boolean getShowNav(Context context) {
+        boolean show = Settings.System.getIntForUser(context.getContentResolver(),
+                Settings.System.GESTURE_NAVBAR_SHOW, 1,
+                USER_CURRENT) != 0;
+        return show;
+    }
+
+    static void setShowNav(Context context, boolean show) {
+        Settings.System.putIntForUser(context.getContentResolver(),
+                Settings.System.GESTURE_NAVBAR_SHOW, show ? 1 : 0,
+                USER_CURRENT);
+        // if gesture nav is already set, force overlay reloading
+        if (getCurrentSystemNavigationMode(context) == KEY_SYSTEM_NAV_GESTURAL) {
+            final IOverlayManager overlayManager = IOverlayManager.Stub.asInterface(
+                    ServiceManager.getService(Context.OVERLAY_SERVICE));
+            int sensitivity = getBackSensitivity(context, overlayManager);
+            setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity], true);
+        }
+    }
+
     @VisibleForTesting
     static String getCurrentSystemNavigationMode(Context context) {
         if (SystemNavigationPreferenceController.isEdgeToEdgeEnabled(context)) {
@@ -309,20 +330,24 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
         switch (key) {
             case KEY_SYSTEM_NAV_GESTURAL:
                 int sensitivity = getBackSensitivity(context, overlayManager);
-                setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity]);
+                setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity], false);
                 break;
             case KEY_SYSTEM_NAV_2BUTTONS:
-                setNavBarInteractionMode(overlayManager, NAV_BAR_MODE_2BUTTON_OVERLAY);
+                setNavBarInteractionMode(overlayManager, NAV_BAR_MODE_2BUTTON_OVERLAY, false);
                 break;
             case KEY_SYSTEM_NAV_3BUTTONS:
-                setNavBarInteractionMode(overlayManager, NAV_BAR_MODE_3BUTTON_OVERLAY);
+                setNavBarInteractionMode(overlayManager, NAV_BAR_MODE_3BUTTON_OVERLAY, false);
                 break;
         }
     }
 
     private static void setNavBarInteractionMode(IOverlayManager overlayManager,
-            String overlayPackage) {
+            String overlayPackage, boolean force) {
         try {
+            if (force) {
+                // disable then enable again
+                overlayManager.setEnabled(overlayPackage, false, USER_CURRENT);
+            }
             overlayManager.setEnabledExclusiveInCategory(overlayPackage, USER_CURRENT);
         } catch (RemoteException e) {
             throw e.rethrowFromSystemServer();
