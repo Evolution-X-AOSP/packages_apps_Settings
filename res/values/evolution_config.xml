@@ -29,4 +29,8 @@
 
     <!-- Whether to add AGPS parameter settings -->
     <bool name="config_agps_enabled">true</bool>
+
+    <!-- Battery Health -->
+    <string name="config_batCurCap"></string>
+    <string name="config_batDesCap"></string>
 </resources>
