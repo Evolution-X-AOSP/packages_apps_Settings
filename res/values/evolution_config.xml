@@ -42,4 +42,8 @@
 
     <!-- Does the device support color inversion -->
     <bool name="config_displayInversionAvailable">true</bool>
+
+    <!-- Battery Health -->
+    <string name="config_batCurCap"></string>
+    <string name="config_batDesCap"></string>
 </resources>
