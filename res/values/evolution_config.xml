@@ -39,4 +39,9 @@
 
     <!-- Diagonal Screen length provided -->
     <string name="config_screen_diagonal_length" translatable="false"></string>
+
+    <!-- Battery health -->
+    <string name="config_batteryCalculatedCapacity">/sys/class/power_supply/bms/charge_full</string>
+    <string name="config_batteryDesignCapacity">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batteryChargeCycles">/sys/class/power_supply/bms/cycle_count</string>
 </resources>
