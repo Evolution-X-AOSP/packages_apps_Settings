@@ -18,6 +18,7 @@ package com.android.settings.fuelgauge.batteryusage;
 
 import static com.android.settings.fuelgauge.BatteryBroadcastReceiver.BatteryUpdateType;
 
+import android.annotation.Nullable;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.database.ContentObserver;
@@ -29,6 +30,7 @@ import android.provider.Settings;
 import android.provider.Settings.Global;
 import android.provider.Settings.Secure;
 import android.text.format.DateFormat;
+import android.util.Log;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.loader.app.LoaderManager;
@@ -51,8 +53,13 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.widget.LayoutPreference;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.lang.Integer;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -71,12 +78,23 @@ public class PowerUsageSummary extends PowerUsageBase implements
     static final String KEY_BATTERY_USAGE = "battery_usage_summary";
 
     private static final String KEY_BATTERY_TEMP = "battery_temp";
+    private static final String KEY_CURRENT_BATTERY_CAPACITY = "current_battery_capacity";
+    private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
+
+    private static final String FILENAME_BATTERY_DESIGN_CAPACITY =
+            "/sys/class/power_supply/bms/charge_full_design";
+    private static final String FILENAME_BATTERY_CURRENT_CAPACITY =
+            "/sys/class/power_supply/bms/charge_full";
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
     @VisibleForTesting
     static final int BATTERY_TIP_LOADER = 2;
 
+    @VisibleForTesting
+    PowerGaugePreference mCurrentBatteryCapacity;
+    @VisibleForTesting
+    PowerGaugePreference mDesignedBatteryCapacity;
     @VisibleForTesting
     PowerUsageFeatureProvider mPowerFeatureProvider;
     @VisibleForTesting
@@ -179,6 +197,10 @@ public class PowerUsageSummary extends PowerUsageBase implements
         initFeatureProvider();
         initPreference();
 
+        mCurrentBatteryCapacity = (PowerGaugePreference) findPreference(
+                KEY_CURRENT_BATTERY_CAPACITY);
+        mDesignedBatteryCapacity = (PowerGaugePreference) findPreference(
+                KEY_DESIGNED_BATTERY_CAPACITY);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
 
         if (Utils.isBatteryPresent(getContext())) {
@@ -323,10 +345,13 @@ public class PowerUsageSummary extends PowerUsageBase implements
         restartBatteryInfoLoader();
 
         if (BatteryInfo.batteryTemp != 0f) {
-            mBatteryTempPref.setSummary(BatteryInfo.batteryTemp + " \u2103");
+            mBatteryTempPref.setSubtitle(BatteryInfo.batteryTemp + " \u2103");
         } else {
-            mBatteryTempPref.setSummary(getResources().getString(R.string.status_unavailable));
+            mBatteryTempPref.setSubtitle(getResources().getString(R.string.status_unavailable));
         }
+
+        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_CURRENT_CAPACITY));
+        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_DESIGN_CAPACITY));
     }
 
     @VisibleForTesting
@@ -392,6 +417,36 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @Override
     public void onBatteryTipHandled(BatteryTip batteryTip) {
         restartBatteryTipLoader();
+    }
+
+    private String parseBatterymAhText(String file) {
+        try {
+            return Integer.parseInt(readLine(file)) / 1000 + " mAh";
+        } catch (IOException ioe) {
+            Log.e(TAG, "Cannot read battery capacity from "
+                    + file, ioe);
+        } catch (NumberFormatException nfe) {
+            Log.e(TAG, "Read a badly formatted battery capacity from "
+                    + file, nfe);
+        }
+        return getResources().getString(R.string.status_unavailable);
+    }
+
+    /**
+    * Reads a line from the specified file.
+    *
+    * @param filename The file to read from.
+    * @return The first line up to 256 characters, or <code>null</code> if file is empty.
+    * @throws IOException If the file couldn't be read.
+    */
+    @Nullable
+    private String readLine(String filename) throws IOException {
+        final BufferedReader reader = new BufferedReader(new FileReader(filename), 256);
+        try {
+            return reader.readLine();
+        } finally {
+            reader.close();
+        }
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
