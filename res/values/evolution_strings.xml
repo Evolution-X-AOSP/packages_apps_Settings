@@ -396,4 +396,12 @@ Notifications may be delayed for these apps."</string>
     <!-- SBC HD (Dual Channel) priority -->
     <string name="sbc_hd_priority_title">SBC HD audio</string>
     <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
+
+    <!-- Battery health -->
+    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_summary">Monitor the battery health of your device</string>
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
 </resources>
