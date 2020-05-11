@@ -111,6 +111,11 @@
         android:selectable="false" />
 
     <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
+        android:key="battery_charge_cycles"
+        android:title="@string/battery_charge_cycles"
+        android:selectable="false" />
+
+    <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
         android:key="battery_temp"
         android:title="@string/battery_temp"
         android:selectable="false" />
