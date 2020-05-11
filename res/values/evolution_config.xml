@@ -39,4 +39,5 @@
     <!-- Battery Health -->
     <string name="config_batCurCap"></string>
     <string name="config_batDesCap"></string>
+    <string name="config_batChargeCycle"></string>
 </resources>
