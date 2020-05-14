@@ -159,7 +159,7 @@
     <string name="smart_charging_title">Charge intelligente Smart Charge</string>
     <string name="smart_charging_summary">Définir le niveau de charge maximal</string>
     <string name="smart_charging_switch_title">Utilisez la charge intelligente</string>
-    <string name="smart_charging_level_title">Niveau d\'arrêt de charge</string>
+    <string name="smart_charging_level_title">Niveau d\'arrêt de la charge</string>
     <string name="smart_charging_resume_level_title">Niveau de déclenchement de la recharge</string>
     <string name="smart_charging_reset_stats_title">Réinitialiser les statistiques de batterie</string>
     <string name="smart_charging_reset_stats_summary">Réinitialiser les statistiques de la batterie après avoir atteint le niveau de charge défini par l\'utilisateur</string>
