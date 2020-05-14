@@ -281,8 +281,10 @@ Benachrichtigungen werden für die entsprechenden Apps eventuell verzögert ange
     <string name="hide_notch_summary">Apps können den Notch-Bereich nicht verwenden</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive Wiedergabe</string>
+    <string name="adaptive_playback_disabled_summary">Aus</string>
     <string name="adaptive_playback_timeout_title">Timeout verwenden von</string>
-    <string name="adaptive_playback_timeout_none_summary">Aus</string>
+    <string name="adaptive_playback_timeout_none">Kein Timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">An (kein Timeout)</string>
     <string name="adaptive_playback_timeout_30_secs">30 Sekunden</string>
     <string name="adaptive_playback_timeout_30_secs_summary">An (30 Sekunden)</string>
     <string name="adaptive_playback_timeout_1_min">1 Minute</string>
