@@ -267,9 +267,6 @@
     <!-- Wellbeing -->
     <string name="duration_less_than_one_minute">1 dakikadan az</string>
     <string name="screen_time_summary_usage_today">Bugün %1$s</string>
-    <!-- Moto Face Unlock -->
-    <string name="security_settings_face_settings_footer_moto">Cihazınızın kilidini açmak için Yüz tanıma kilidini kullanın.\n\nŞunları unutmayın:\nFarkında olmadığınız durumlarda bile telefona baktığınızda telefonun kilidi açılabilir.\n\nGözleriniz açıkken telefonunuz yüzünüze doğru çevrilirse telefonunuzun kilidi başka biri tarafından açılabilir.\n\nTelefonunuzun kilidi, size çok benzeyen biri (ör. çocuğunuz ya da ikiz kardeşiniz) tarafından açılabilir.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_moto">Yüz tanıma kilidi ile kaydedilen veriler kalıcı ve güvenli bir şekilde silinir. Kaldırma işleminden sonra telefonunuzun kilidini açmak için PIN, desen veya şifre kullanmanız gerekir.</string>
     <!-- Adaptive battery -->
     <string name="battery_tip_smart_battery_summary_custom">Uyarlanabilir Pili aç</string>
     <string name="smart_battery_footer_custom">"Uyarlamalı Pil özelliği pil ömrünü uzatmak için, sık kullanılmayan uygulamaların pil tüketimini sınırlar. Telefonunuz, zamanla uygulamaları nasıl kullandığınızı öğrenir.
