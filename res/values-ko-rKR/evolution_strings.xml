@@ -267,9 +267,6 @@
     <!-- Wellbeing -->
     <string name="duration_less_than_one_minute">1분 미만</string>
     <string name="screen_time_summary_usage_today">%1$s(오늘)</string>
-    <!-- Moto Face Unlock -->
-    <string name="security_settings_face_settings_footer_moto">얼굴 잠금 해제를 사용하여 기기의 잠금을 해제합니다. \nn 유의 사항 : \n 원하는 시간에 휴대 전화를 보면 잠금을 해제 할 수 있습니다. \n\n다른 사람이 휴대 전화를 얼굴에 대고 있으면 잠금을 해제 할 수도있습니다.  \n\n 아이나 같은 형제 자매처럼 보이는 사람이 휴대 전화를 잠금 해제 할 수 있습니다.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_moto">얼굴인식 잠금해제에 의해 기록된 데이터는 영구적으로 안전하게 삭제됩니다. 제거한 후 휴대전화의 잠금을 해제하려면 PIN, 패턴 또는 암호가 필요합니다.</string>
     <!-- Adaptive battery -->
     <string name="battery_tip_smart_battery_summary_custom">배터리 자동 조절 사용 설정</string>
     <string name="smart_battery_footer_custom">"배터리 자동 조절에서는 자주 사용하지 않는 앱의 배터리 사용량을 제한하여 배터리 수명을 늘립니다. 시간이 지남에 따라 휴대전화에서 사용자의 앱 사용 방식을 학습합니다.
