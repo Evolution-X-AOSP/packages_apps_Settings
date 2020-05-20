@@ -152,6 +152,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.evolution.settings.EvolutionSettings;
 import com.evolution.settings.fragments.GamingMode;
+import com.evolution.settings.fragments.NavigationSettings;
 import com.evolution.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
@@ -295,6 +296,7 @@ public class SettingsGateway {
             GamingMode.class.getName(),
             RunningServices.class.getName(),
             SmartPixels.class.getName(),
+            NavigationSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -338,5 +340,6 @@ public class SettingsGateway {
             Settings.GamingModeActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
     };
 }
