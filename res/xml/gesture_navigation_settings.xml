@@ -24,6 +24,41 @@
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
     <PreferenceCategory
+        android:key="other_controls_category"
+        android:title="@string/other_controls_title">
+
+        <Preference
+            android:key="gesture_nav_custom_options"
+            android:title="@string/navbar_gesture_tweaks_pref_title"
+            android:summary="@string/navbar_gesture_tweaks_pref_summary"
+            android:fragment="com.android.settings.gestures.GestureTweaksSettings" />
+
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="back_gesture_haptic"
+            android:title="@string/back_gesture_haptic_title"
+            android:summary="@string/back_gesture_haptic_summary"
+            android:defaultValue="true" />
+
+        <com.evolution.settings.preference.SecureSettingSwitchPreference
+            android:key="show_back_arrow_gesture"
+            android:title="@string/back_gesture_arrow_message"
+            android:summary="@string/back_gesture_arrow_summary"
+            android:defaultValue="true" />
+
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="navigation_bar_hint"
+            android:title="@string/show_navbar_gesture_bar_title"
+            android:summary="@string/show_navbar_gesture_bar_summary"
+            android:defaultValue="true" />
+
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="navigation_bar_ime_space"
+            android:title="@string/navigation_bar_ime_space_title"
+            android:summary="@string/navigation_bar_ime_space_summary"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="assistant_gesture_category"
         android:persistent="false"
         android:title="@string/assistant_gesture_category_title">
@@ -73,40 +108,11 @@
             android:selectable="true"
             settings:textStart="@string/short_label"
             settings:textEnd="@string/long_label"/>
-
-        <com.android.settingslib.widget.FooterPreference
-            android:key="gesture_navigation_settings_footer"
-            android:title="@string/back_sensitivity_dialog_message"
-            android:selectable="false"
-            settings:searchable="false"/>
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:key="other_controls_category"
-        android:title="@string/other_controls_title">
-
-        <Preference
-            android:key="gesture_nav_custom_options"
-            android:title="@string/navbar_gesture_tweaks_pref_title"
-            android:summary="@string/navbar_gesture_tweaks_pref_summary"
-            android:fragment="com.android.settings.gestures.GestureTweaksSettings" />
-
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
-            android:key="back_gesture_haptic"
-            android:title="@string/back_gesture_haptic_title"
-            android:summary="@string/back_gesture_haptic_summary"
-            android:defaultValue="true" />
-
-        <com.evolution.settings.preference.SecureSettingSwitchPreference
-            android:key="show_back_arrow_gesture"
-            android:title="@string/back_gesture_arrow_message"
-            android:summary="@string/back_gesture_arrow_summary"
-            android:defaultValue="true" />
-
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
-            android:key="navigation_bar_ime_space"
-            android:title="@string/navigation_bar_ime_space_title"
-            android:summary="@string/navigation_bar_ime_space_summary"
-            android:defaultValue="true"/>
-    </PreferenceCategory>
+    <com.android.settingslib.widget.FooterPreference
+        android:key="gesture_navigation_settings_footer"
+        android:title="@string/back_sensitivity_dialog_message"
+        android:selectable="false"
+        settings:searchable="false"/>
 </PreferenceScreen>
