@@ -368,4 +368,7 @@ Notifications may be delayed for these apps."</string>
 
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Enable to show IME button space and pill</string>
+
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">notifications, notification log</string>
 </resources>
