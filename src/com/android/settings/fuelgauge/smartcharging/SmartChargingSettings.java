@@ -55,18 +55,18 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         mSmartChargingLevelDefaultConfig = getResources().getInteger(
-                com.android.internal.R.integer.config_smartChargingBatteryLevel);
+                com.android.internal.R.integer.config_SmartChargingBatteryLevel);
 
         mSmartChargingResumeLevelDefaultConfig = getResources().getInteger(
-                com.android.internal.R.integer.config_smartChargingBatteryResumeLevel);
+                com.android.internal.R.integer.config_SmartChargingBatteryResumeLevel);
 
-        mSmartChargingLevel = (CustomSeekBarPreference) findPreference(KEY_SMART_CHARGING_LEVEL);
+        mSmartChargingLevel = findPreference(KEY_SMART_CHARGING_LEVEL);
         int currentLevel = Settings.System.getInt(getContentResolver(),
             Settings.System.SMART_CHARGING_LEVEL, mSmartChargingLevelDefaultConfig);
         mSmartChargingLevel.setValue(currentLevel);
         mSmartChargingLevel.setOnPreferenceChangeListener(this);
 
-        mSmartChargingResumeLevel = (CustomSeekBarPreference) findPreference(KEY_SMART_CHARGING_RESUME_LEVEL);
+        mSmartChargingResumeLevel = findPreference(KEY_SMART_CHARGING_RESUME_LEVEL);
         int currentResumeLevel = Settings.System.getInt(getContentResolver(),
             Settings.System.SMART_CHARGING_RESUME_LEVEL, mSmartChargingResumeLevelDefaultConfig);
         mSmartChargingResumeLevel.setMax(currentLevel - 1);
