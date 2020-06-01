@@ -21,7 +21,7 @@
         android:key="night_display_title"
         settings:keywords="@string/keywords_display_night_display">
 
-    <DropDownPreference
+    <ListPreference
         android:key="night_display_auto_mode"
         android:title="@string/night_display_auto_mode_title"
         android:summary="%s"
