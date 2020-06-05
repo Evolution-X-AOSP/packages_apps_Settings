@@ -34,7 +34,7 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
 
     private static final String TAG = "AboutDeviceNameCtrl";
 
-    private static final String KEY_BRAND_NAME_PROP = "ro.product.brand";
+    private static final String KEY_BRAND_NAME_PROP = "ro.product.manufacturer";
     private static final String KEY_DEVICE_NAME_PROP = "org.evolution.device";
     private static final String KEY_SUPPORT_URL = "org.evolution.build_support_url";
 
