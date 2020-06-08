@@ -173,4 +173,17 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+
+    <!-- Ambient music ticker location -->
+    <string-array name="ambient_music_location_entries">
+        <item>@string/ambient_music_disabled</item>
+        <item>@string/ambient_music_bottom</item>
+        <item>@string/ambient_music_center</item>
+    </string-array>
+
+    <string-array name="ambient_music_location_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

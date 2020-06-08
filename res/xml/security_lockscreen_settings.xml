@@ -129,6 +129,14 @@
             android:summary="@string/pulse_on_new_tracks_soli_summary"
             settings:controller="com.android.settings.display.PulseOnNewTracksSoliPreferenceController" />
 
+        <com.evolution.settings.preference.SystemSettingListPreference
+            android:key="ambient_music_ticker"
+            android:title="@string/ambient_music_location"
+            android:summary="%s"
+            android:entries="@array/ambient_music_location_entries"
+            android:entryValues="@array/ambient_music_location_values"
+            android:defaultValue="1" />
+
         <Preference
             android:key="ambient_display_custom"
             android:title="@string/advanced_settings" />
