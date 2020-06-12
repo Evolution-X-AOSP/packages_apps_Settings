@@ -68,4 +68,34 @@
         <item>1800</item>
         <item>3600</item>
     </string-array>
+
+    <!-- Random summary -->
+    <string-array name="evolver_summaries">
+        <item>#KeepEvolving</item>
+        <item>Welcome to the Eve of Evolution</item>
+        <item>Continue the Evolution of your device</item>
+        <item>Start evolving your device with our features</item>
+        <item>Evolution is a mystery</item>
+        <item>Not just any ROM, this is Evolution X!</item>
+        <item>Haters gonna hate, Evo\'s gonna bake</item>
+        <item>Living in a gangsta\'s paradise</item>
+        <item>Keep moving forward</item>
+        <item>Road trip, vroom vroom, skrr skrr, zoom zoom</item>
+        <item>amogus</item>
+        <item>We were lightning before the thunder</item>
+        <item>Now stay woke, haters creepin\'</item>
+        <item>We\'re about to go H.A.M.</item>
+        <item>Tiramisu really tastes nice</item>
+        <item>13 can be lucky too</item>
+        <item>I\'ll eat my candy with the pork and beans</item>
+        <item>Life isn\'t always pixels and rainbows</item>
+        <item>Still Android, just better</item>
+        <item>Ricers, please proceed to the nearest exit</item>
+        <item>Paging the driver of the black BMW...</item>
+        <item>We\'ll vow to last, just like Carter and Cash</item>
+        <item>Be running up that road, be running up that hill</item>
+        <item>Acknowledge us!</item>
+        <item>We\'re aware we\'re named after a Mitsubishi</item>
+        <item>It\'s bootloop time!</item>
+    </string-array>
 </resources>

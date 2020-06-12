@@ -4554,8 +4554,6 @@
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.order" android:value="-1"/>
-            <meta-data android:name="com.android.settings.summary"
-                       android:resource="@string/evolver_dashboard_summary"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.evolution.settings.EvolutionSettings" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
