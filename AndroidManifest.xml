@@ -111,6 +111,9 @@
     <uses-permission android:name="android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK" />
     <uses-permission android:name="android.permission.ALLOW_PLACE_IN_MULTI_PANE_SETTINGS" />
 
+    <!-- LineageHardware -->
+    <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
