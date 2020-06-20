@@ -76,15 +76,18 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
             "This is not Windows",
             "Please step away from the device!",
             "error code: 1D10T",
-            "Go outside",
+            "Go touch some grass",
             "¯\\_(ツ)_/¯",
-            "Pro tip: Stop doing this!",
-            "Y u no speak computer???",
-            "Why are you so stupid?!",
+            "Pro tip: Stop doing this",
             "Perhaps this Android thing is not for you...",
-            "Don't you have anything better to do?!",
-            "This is why nobody likes you...",
-            "Are you even trying?!",};
+            "Don't you have anything better to do?",
+            "Looks like you're evolving... Just BACKWARDS!",
+            "This won't make you look cooler to your friends",
+            "Go back to your stock ROM",
+            "FBI! OPEN UP!",
+            "Would you prefer iOS next time?",
+            "We should hack your device just for this",
+    };
 
     public BuildNumberPreferenceController(Context context, String key) {
         super(context, key);
