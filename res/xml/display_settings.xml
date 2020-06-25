@@ -85,6 +85,13 @@
         android:entryValues="@array/screen_timeout_values"
         settings:keywords="@string/keywords_screen_timeout" />
 
+    <com.evolution.settings.preference.SystemSettingListPreference
+        android:key="lockscreen_timeout"
+        android:title="@string/lockscreen_timeout_title"
+        android:entries="@array/screen_timeout_entries"
+        android:entryValues="@array/screen_timeout_values"
+        android:defaultValue="15000" />
+
     <Preference
         android:key="adaptive_sleep_entry"
         android:title="@string/adaptive_sleep_title"
