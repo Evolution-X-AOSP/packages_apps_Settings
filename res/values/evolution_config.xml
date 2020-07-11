@@ -34,6 +34,5 @@
     <string name="config_batCurCap"></string>
     <string name="config_batDesCap"></string>
     <string name="config_batChargeCycle"></string>
-    <bool name="config_supportBatteryHealth">false</bool>
-
+    <bool name="config_supportBatteryHealth">true</bool>
 </resources>
