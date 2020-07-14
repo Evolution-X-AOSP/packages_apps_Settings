@@ -21,6 +21,11 @@
     android:key="gesture_swipe_to_screenshot"
     android:title="@string/swipe_to_screenshot_title">
 
+    <com.android.settings.widget.VideoPreference 
+        android:key="swipe_to_screenshot_video" 
+        app:animation="@raw/swipe_to_screenshot"
+        app:preview="@drawable/swipe_to_screenshot" />
+
     <com.evolution.settings.preference.SystemSettingSwitchPreference
         android:key="three_finger_gesture"
         android:title="@string/swipe_to_screenshot_title"

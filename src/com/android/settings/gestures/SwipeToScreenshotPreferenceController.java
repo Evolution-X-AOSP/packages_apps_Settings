@@ -25,6 +25,8 @@ import com.android.settings.R;
 
 public class SwipeToScreenshotPreferenceController extends GesturePreferenceController {
 
+    private static final String PREF_KEY_VIDEO = "swipe_to_screenshot_video";
+
     public SwipeToScreenshotPreferenceController(Context context, String key) {
         super(context, key);
     }
@@ -36,7 +38,7 @@ public class SwipeToScreenshotPreferenceController extends GesturePreferenceCont
 
     @Override
     protected String getVideoPrefKey() {
-        return "";
+        return PREF_KEY_VIDEO;
     }
 
     @Override
