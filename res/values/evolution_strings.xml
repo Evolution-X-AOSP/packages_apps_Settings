@@ -413,4 +413,10 @@
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
+    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
 </resources>
