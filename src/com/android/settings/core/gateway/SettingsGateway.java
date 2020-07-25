@@ -100,6 +100,7 @@ import com.android.settings.deviceinfo.batteryinfo.BatteryInfoFragment;
 import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings;
 import com.android.settings.deviceinfo.legal.ModuleLicensesDashboard;
 import com.android.settings.display.AutoBrightnessSettings;
+import com.android.settings.display.DcDimmingSettings;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.display.SmartAutoRotatePreferenceFragment;
 import com.android.settings.display.darkmode.DarkModeSettingsFragment;
@@ -340,6 +341,7 @@ public class SettingsGateway {
             MainClearConfirm.class.getName(),
             ResetDashboardFragment.class.getName(),
             NightDisplaySettings.class.getName(),
+            DcDimmingSettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             StorageDashboardFragment.class.getName(),
