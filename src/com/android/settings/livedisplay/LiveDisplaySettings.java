@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2015 The CyanogenMod Project
- *               2017-2020 The LineageOS Project
+ *               2017-2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -56,6 +56,9 @@ import com.android.settings.custom.utils.ResourceUtils;
 
 import com.android.settings.custom.preference.CustomDialogPreference;
 
+import com.evolution.settings.preference.SystemSettingSwitchPreference;
+
+import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_ANTI_FLICKER;
 import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_CABC;
 import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_COLOR_ADJUSTMENT;
 import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_COLOR_ENHANCEMENT;
@@ -78,6 +81,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_CATEGORY_ADVANCED = "advanced";
 
     private static final String KEY_LIVE_DISPLAY = "live_display";
+    private static final String KEY_LIVE_DISPLAY_ANTI_FLICKER = "display_anti_flicker";
     private static final String KEY_LIVE_DISPLAY_AUTO_OUTDOOR_MODE =
             "display_auto_outdoor_mode";
     private static final String KEY_LIVE_DISPLAY_READING_ENHANCEMENT = "display_reading_mode";
@@ -105,10 +109,11 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
 
     private ListPreference mLiveDisplay;
 
-    private SwitchPreference mColorEnhancement;
-    private SwitchPreference mLowPower;
-    private SwitchPreference mOutdoorMode;
-    private SwitchPreference mReadingMode;
+    private SystemSettingSwitchPreference mAntiFlicker;
+    private SystemSettingSwitchPreference mColorEnhancement;
+    private SystemSettingSwitchPreference mLowPower;
+    private SystemSettingSwitchPreference mOutdoorMode;
+    private SystemSettingSwitchPreference mReadingMode;
 
     private PictureAdjustment mPictureAdjustment;
     private DisplayTemperature mDisplayTemperature;
@@ -260,6 +265,13 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
                 !mConfig.hasFeature(FEATURE_COLOR_ADJUSTMENT)) {
             advancedPrefs.removePreference(mDisplayColor);
             mDisplayColor = null;
+        }
+
+        mAntiFlicker = findPreference(KEY_LIVE_DISPLAY_ANTI_FLICKER);
+        if (liveDisplayPrefs != null && mAntiFlicker != null &&
+                !mHardware.isSupported(LineageHardwareManager.FEATURE_ANTI_FLICKER)) {
+            liveDisplayPrefs.removePreference(mAntiFlicker);
+            mAntiFlicker = null;
         }
     }
 
@@ -471,6 +483,9 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
                     com.android.internal.R.bool.config_enableLiveDisplay)) {
                 result.add(KEY_LIVE_DISPLAY_TEMPERATURE);
                 result.add(KEY_LIVE_DISPLAY);
+            }
+            if (!config.hasFeature(FEATURE_ANTI_FLICKER)) {
+                result.add(KEY_LIVE_DISPLAY_ANTI_FLICKER);
             }
 
             return result;
