@@ -6,4 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Smart Charging -->
     <java-symbol type="bool" name="config_supportSmartCharging" />
+
+    <!-- Battery Health -->
+    <java-symbol type="bool" name="config_supportBatteryHealth" />
 </resources>
