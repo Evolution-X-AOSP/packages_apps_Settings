@@ -191,24 +191,8 @@
         android:order="-60">
 
         <com.evolution.settings.preference.SystemSettingSwitchPreference
-            android:key="audio_panel_view_media"
-            android:title="@string/audio_panel_view_media_title"
-            android:defaultValue="true"
-            android:enabled="false"/>
-
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
-            android:key="audio_panel_view_ringer"
-            android:title="@string/audio_panel_view_ringer_title"
-            android:defaultValue="false"/>
-
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="audio_panel_view_notification"
             android:title="@string/audio_panel_view_notification_title"
-            android:defaultValue="false"/>
-
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
-            android:key="audio_panel_view_alarm"
-            android:title="@string/audio_panel_view_alarm_title"
             android:defaultValue="false"/>
 
         <com.evolution.settings.preference.SystemSettingSwitchPreference
