@@ -620,4 +620,8 @@
 
     <!-- Adguard DNS -->
     <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+
+    <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Show permissions hub</string>
+    <string name="show_permissions_hub_summary">Display privacy indicators in QS</string>
 </resources>

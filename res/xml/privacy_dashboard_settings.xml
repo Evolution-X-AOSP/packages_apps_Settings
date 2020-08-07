@@ -70,6 +70,13 @@
         android:summary="@string/show_password_summary"
         settings:controller="com.android.settings.security.ShowPasswordPreferenceController"/>
 
+    <!-- Permissions hub -->
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="permissions_hub_enabled"
+        android:title="@string/show_permissions_hub"
+        android:summary="@string/show_permissions_hub_summary"
+        android:defaultValue="false" />
+
     <!-- On lock screen notifications -->
     <com.android.settings.RestrictedListPreference
         android:key="privacy_lock_screen_notifications"
