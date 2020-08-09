@@ -35,4 +35,7 @@
     <string name="config_batDesCap"></string>
     <string name="config_batChargeCycle"></string>
     <bool name="config_supportBatteryHealth">false</bool>
+
+    <!-- Screen off FOD -->
+    <bool name="config_supportScreenOffFod">false</bool>
 </resources>
