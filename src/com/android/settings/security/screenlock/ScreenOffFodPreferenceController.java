@@ -18,6 +18,7 @@ package com.android.settings.security.screenlock;
 
 import android.app.admin.DevicePolicyManager;
 import android.content.Context;
+import android.hardware.fingerprint.FingerprintManager;
 import android.provider.Settings;
 import android.text.TextUtils;
 
@@ -27,6 +28,7 @@ import androidx.preference.TwoStatePreference;
 
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
+import com.android.settings.Utils;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.security.trustagent.TrustAgentManager;
@@ -37,14 +39,20 @@ public class ScreenOffFodPreferenceController extends AbstractPreferenceControll
 
     private static final String KEY_FOD_GESTURE = "fod_gesture";
 
+    private FingerprintManager fpm;
+
     public ScreenOffFodPreferenceController(Context context) {
         super(context);
+        fpm = Utils.getFingerprintManagerOrNull(context);
     }
 
     @Override
     public boolean isAvailable() {
+        if (fpm != null && (!fpm.isHardwareDetected() || !fpm.hasEnrolledFingerprints())) {
+            return false;
+        }
         return mContext.getResources().getBoolean(
-                R.bool.config_supportScreenOffFod);
+            R.bool.config_supportScreenOffFod);
     }
 
     @Override
