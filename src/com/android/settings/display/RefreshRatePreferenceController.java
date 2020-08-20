@@ -55,7 +55,8 @@ public class RefreshRatePreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        return getDefaultPeakRefreshRate() != 60 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        boolean supported = mContext.getResources().getBoolean(R.bool.config_supportsRefreshRateSwitch);
+        return supported && getDefaultPeakRefreshRate() != 60 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override

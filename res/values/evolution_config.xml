@@ -38,4 +38,9 @@
 
     <!-- Screen off FOD -->
     <bool name="config_supportScreenOffFod">false</bool>
+
+    <!-- Whether device supports refresh rate switch
+         config_defaultPeakRefreshRate shouldn't be defined as 60 on frameworks/base
+    -->
+    <bool name="config_supportsRefreshRateSwitch">false</bool>
 </resources>
