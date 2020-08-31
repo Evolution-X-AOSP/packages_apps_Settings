@@ -16,19 +16,6 @@
 -->
 
 <resources>
-    <!-- Refresh rate -->
-    <string-array name="refresh_rate_entries">
-        <item>@string/auto_refresh_rate</item>
-        <item>60Hz</item>
-        <item>90Hz</item>
-    </string-array>
-
-    <string-array name="refresh_rate_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
     <!-- Volume step options. -->
     <string-array name="volume_steps_entries" translatable="false">
         <item>@string/volume_steps_60</item>
