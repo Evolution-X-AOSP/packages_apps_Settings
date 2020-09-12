@@ -194,14 +194,4 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         filteredInfos.sort(OVERLAY_INFO_COMPARATOR);
         return filteredInfos;
     }
-
-    @Override
-    protected void onDeveloperOptionsSwitchDisabled() {
-        super.onDeveloperOptionsSwitchDisabled();
-        // TODO b/133222035: remove these developer settings when the
-        // Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES setting is used
-        setOverlay(PACKAGE_DEVICE_DEFAULT);
-        updateState(mPreference);
-    }
-
 }
