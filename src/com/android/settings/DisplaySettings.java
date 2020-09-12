@@ -21,6 +21,7 @@ import android.content.Context;
 import android.os.Bundle;
 
 import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.development.OverlayCategoryPreferenceController;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
@@ -90,6 +91,12 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.accent_color"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.font"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.adaptive_icon_shape"));
         return controllers;
     }
 
