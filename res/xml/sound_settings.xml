@@ -191,11 +191,6 @@
         android:order="-60">
 
         <com.evolution.settings.preference.SystemSettingSwitchPreference
-            android:key="audio_panel_view_notification"
-            android:title="@string/audio_panel_view_notification_title"
-            android:defaultValue="false"/>
-
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="audio_panel_view_voice"
             android:title="@string/audio_panel_view_voice_title"
             android:defaultValue="false"/>
