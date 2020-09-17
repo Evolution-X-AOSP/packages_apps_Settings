@@ -295,7 +295,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(Menu.NONE, MENU_ADVANCED_BATTERY, Menu.NONE, R.string.advanced_battery_title);
 
         super.onCreateOptionsMenu(menu, inflater);
     }
