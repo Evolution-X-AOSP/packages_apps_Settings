@@ -24,6 +24,7 @@ import android.content.Intent;
 import android.provider.Settings;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
+import android.telephony.TelephonyManager;
 import android.util.ArrayMap;
 
 import com.android.internal.annotations.VisibleForTesting;
@@ -115,7 +116,10 @@ public class MobileNetworkListController extends AbstractPreferenceController im
                     pref.setSummary(R.string.mobile_network_inactive_esim);
                 }
             } else {
-                if (mSubscriptionManager.isActiveSubscriptionId(subId)) {
+                int slotId = mSubscriptionManager.getPhoneId(subId);
+                if (mSubscriptionManager.isActiveSubscriptionId(subId) &&
+                        mSubscriptionManager.getSimStateForSlotIndex(slotId) !=
+                                TelephonyManager.SIM_STATE_NOT_READY) {
                     pref.setSummary(R.string.mobile_network_active_sim);
                 } else if (SubscriptionUtil.showToggleForPhysicalSim(mSubscriptionManager)) {
                     pref.setSummary(mContext.getString(R.string.mobile_network_inactive_sim));
