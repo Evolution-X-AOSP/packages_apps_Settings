@@ -169,6 +169,13 @@
             android:summary="@string/proximity_wake_summary"
             android:defaultValue="@*android:bool/config_proximityCheckOnWakeEnabledByDefault" />
 
+        <Preference
+            android:key="display_cutout_force_fullscreen_settings"
+            android:title="@string/display_cutout_force_fullscreen_title"
+            android:summary="@string/display_cutout_force_fullscreen_summary"
+            android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
+            settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
