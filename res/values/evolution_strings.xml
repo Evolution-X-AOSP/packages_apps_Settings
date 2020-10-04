@@ -162,4 +162,9 @@
 
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Color bucket</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
 </resources>
