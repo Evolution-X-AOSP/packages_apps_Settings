@@ -389,7 +389,6 @@
 
         <activity android:name="Settings$ApnSettingsActivity"
                 android:label="@string/apn_settings"
-                android:launchMode="singleTask"
                 android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.APN_SETTINGS" />
