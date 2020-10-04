@@ -136,8 +136,7 @@
 
         <activity android:name=".network.telephony.MobileNetworkActivity"
                   android:label="@string/network_settings_title"
-                  android:theme="@style/Theme.Settings.Home"
-                  android:launchMode="singleTask">
+                  android:theme="@style/Theme.Settings.Home">
             <intent-filter android:priority="1">
                 <!-- Displays the MobileNetworkActivity and opt-in dialog for capability discovery. -->
                 <action android:name="android.telephony.ims.action.SHOW_CAPABILITY_DISCOVERY_OPT_IN" />
