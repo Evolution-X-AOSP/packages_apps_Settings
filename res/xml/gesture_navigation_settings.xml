@@ -92,6 +92,12 @@
             android:fragment="com.android.settings.gestures.GestureTweaksSettings" />
 
         <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="back_gesture_haptic"
+            android:title="@string/back_gesture_haptic_title"
+            android:summary="@string/back_gesture_haptic_summary"
+            android:defaultValue="true" />
+
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="fullscreen_gestures"
             android:title="@string/fullscreen_gestures_title"
             android:summary="@string/fullscreen_gestures_summary"
