@@ -70,23 +70,10 @@ public class AutomaticStorageManagerSwitchBarController
                 mContext.getContentResolver(),
                 Settings.Secure.AUTOMATIC_STORAGE_MANAGER_ENABLED,
                 isChecked ? 1 : 0);
-        // Only show a warning if enabling.
-        if (isChecked) {
-            maybeShowWarning();
-        }
     }
 
     /** Unregisters the controller from listening to further events. */
     public void tearDown() {
         mSwitchBar.removeOnSwitchChangeListener(this);
-    }
-
-    private void maybeShowWarning() {
-        // If the storage manager is on by default, we don't need to show the additional dialog.
-        if (SystemProperties.getBoolean(STORAGE_MANAGER_ENABLED_BY_DEFAULT_PROPERTY, false)) {
-            return;
-        }
-        ActivationWarningFragment fragment = ActivationWarningFragment.newInstance();
-        fragment.show(mFragmentManager, ActivationWarningFragment.TAG);
     }
 }

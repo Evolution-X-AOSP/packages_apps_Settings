@@ -39,7 +39,6 @@ import androidx.preference.PreferenceScreen;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.internal.os.RoSystemProperties;
 import com.android.settings.core.BasePreferenceController;
-import com.android.settings.deletionhelper.ActivationWarningFragment;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.testutils.FakeFeatureFactory;
 import com.android.settings.widget.MasterSwitchPreference;
@@ -140,59 +139,5 @@ public class AutomaticStorageManagementSwitchPreferenceControllerTest {
         final ContentResolver resolver = mContext.getContentResolver();
         assertThat(Settings.Secure.getInt(
                 resolver, Settings.Secure.AUTOMATIC_STORAGE_MANAGER_ENABLED, 0)).isNotEqualTo(0);
-    }
-
-    @Test
-    public void togglingOnShouldTriggerWarningFragment() {
-        final FragmentTransaction transaction = mock(FragmentTransaction.class);
-        when(mFragmentManager.beginTransaction()).thenReturn(transaction);
-        SystemProperties.set(
-                AutomaticStorageManagementSwitchPreferenceController
-                        .STORAGE_MANAGER_ENABLED_BY_DEFAULT_PROPERTY, "false");
-
-        mController.onSwitchToggled(true);
-
-        verify(transaction).add(any(), eq(ActivationWarningFragment.TAG));
-    }
-
-    @Test
-    public void togglingOffShouldTriggerWarningFragment() {
-        final FragmentTransaction transaction = mock(FragmentTransaction.class);
-        when(mFragmentManager.beginTransaction()).thenReturn(transaction);
-
-        mController.onSwitchToggled(false);
-
-        verify(transaction, never()).add(any(), eq(ActivationWarningFragment.TAG));
-    }
-
-    @Test
-    public void togglingOnShouldNotTriggerWarningFragmentIfEnabledByDefault() {
-        final FragmentTransaction transaction = mock(FragmentTransaction.class);
-        when(mFragmentManager.beginTransaction()).thenReturn(transaction);
-        SystemProperties.set(
-            AutomaticStorageManagementSwitchPreferenceController
-                        .STORAGE_MANAGER_ENABLED_BY_DEFAULT_PROPERTY, "true");
-
-        mController.onSwitchToggled(true);
-
-        verify(transaction, never()).add(any(), eq(ActivationWarningFragment.TAG));
-    }
-
-    @Test
-    public void togglingOnShouldTriggerWarningFragmentIfEnabledByDefaultAndDisabledByPolicy() {
-        final FragmentTransaction transaction = mock(FragmentTransaction.class);
-        when(mFragmentManager.beginTransaction()).thenReturn(transaction);
-        SystemProperties.set(
-                AutomaticStorageManagementSwitchPreferenceController
-                        .STORAGE_MANAGER_ENABLED_BY_DEFAULT_PROPERTY,
-                "true");
-        Settings.Secure.putInt(
-                mContext.getContentResolver(),
-                Settings.Secure.AUTOMATIC_STORAGE_MANAGER_TURNED_OFF_BY_POLICY,
-                1);
-
-        mController.onSwitchToggled(true);
-
-        verify(transaction).add(any(), eq(ActivationWarningFragment.TAG));
     }
 }
