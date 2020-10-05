@@ -67,6 +67,12 @@
         settings:textStart="@string/short_label"
         settings:textEnd="@string/long_label"/>
 
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="back_gesture_haptic"
+        android:title="@string/back_gesture_haptic_title"
+        android:summary="@string/back_gesture_haptic_summary"
+        android:defaultValue="false" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="gesture_navigation_settings_footer"
         android:title="@string/back_sensitivity_dialog_message"
