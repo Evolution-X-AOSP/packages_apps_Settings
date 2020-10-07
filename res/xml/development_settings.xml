@@ -239,13 +239,6 @@
             android:summary="@string/graphics_driver_dashboard_summary"
             android:fragment="com.android.settings.development.graphicsdriver.GraphicsDriverDashboard" />
 
-        <Preference
-            android:key="platform_compat_dashboard"
-            android:title="@string/platform_compat_dashboard_title"
-            android:summary="@string/platform_compat_dashboard_summary"
-            android:fragment="com.android.settings.development.compat.PlatformCompatDashboard"
-            />
-
         <SwitchPreference
             android:key="show_refresh_rate"
             android:title="@string/show_refresh_rate"

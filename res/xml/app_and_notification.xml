@@ -82,6 +82,12 @@
         <intent android:action="android.intent.action.MANAGE_PERMISSIONS"/>
     </Preference>
 
+    <Preference
+        android:key="platform_compat_dashboard"
+        android:title="@string/platform_compat_dashboard_title"
+        android:summary="@string/platform_compat_dashboard_summary"
+        android:fragment="com.android.settings.development.compat.PlatformCompatDashboard" />
+
     <com.android.settingslib.RestrictedPreference
         android:key="app_and_notif_cell_broadcast_settings"
         android:title="@string/cell_broadcast_settings"
