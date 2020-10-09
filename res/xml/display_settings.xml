@@ -166,6 +166,11 @@
         android:title="@string/pocket_judge_title"
         android:summary="@string/pocket_judge_summary" />
 
+    <SwitchPreference
+        android:key="enable_blurs_on_windows"
+        android:title="@string/enable_blurs_on_windows_title"
+        android:summary="@string/enable_blurs_on_windows_summary" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
