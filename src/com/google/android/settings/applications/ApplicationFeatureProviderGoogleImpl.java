@@ -6,7 +6,6 @@ import android.content.pm.IPackageManager;
 import android.content.pm.PackageManager;
 import android.content.pm.ProviderInfo;
 import android.icu.text.MeasureFormat;
-import android.icu.text.MeasureFormat.FormatWidth;
 import android.icu.util.Measure;
 import android.icu.util.MeasureUnit;
 import android.os.Bundle;
@@ -25,7 +24,6 @@ public class ApplicationFeatureProviderGoogleImpl extends ApplicationFeatureProv
         mContext = context;
     }
 
-    @Override
     public Set<String> getKeepEnabledPackages() {
         Set<String> keepEnabledPackages = super.getKeepEnabledPackages();
         keepEnabledPackages.add("com.google.android.inputmethod.latin");
@@ -34,52 +32,46 @@ public class ApplicationFeatureProviderGoogleImpl extends ApplicationFeatureProv
         keepEnabledPackages.add("com.google.android.settings.intelligence");
         keepEnabledPackages.add("com.google.android.ims");
         keepEnabledPackages.add("com.google.android.packageinstaller");
-        keepEnabledPackages.add("com.android.packageinstaller");
+        keepEnabledPackages.add("com.google.android.euicc");
+        keepEnabledPackages.add("com.google.android.apps.safetyhub");
         return keepEnabledPackages;
     }
 
-    @Override
     public CharSequence getTimeSpentInApp(String str) {
-        String str2 = "com.google.android.apps.wellbeing.api";
-        String str3 = "";
-        String str4 = "ApplicationFeatureProviderGoogleImpl";
         try {
-            if (!isPrivilegedApp(str2)) {
+            if (!isPrivilegedApp("com.google.android.apps.wellbeing.api")) {
                 if (DEBUG) {
-                    Log.d(str4, "Not a privileged app.");
+                    Log.d("ApplicationFeatureProviderGoogleImpl", "Not a privileged app.");
                 }
-                return str3;
+                return "";
             }
             Bundle bundle = new Bundle();
             bundle.putString("packageName", str);
-            Bundle call = mContext.getContentResolver().call(str2, "get_app_usage_millis", null, bundle);
+            Bundle call = mContext.getContentResolver().call("com.google.android.apps.wellbeing.api", "get_app_usage_millis", (String) null, bundle);
             if (call != null) {
                 if (call.getBoolean("success")) {
                     Bundle bundle2 = call.getBundle("data");
                     if (bundle2 == null) {
                         if (DEBUG) {
-                            Log.d(str4, "data bundle is null.");
+                            Log.d("ApplicationFeatureProviderGoogleImpl", "data bundle is null.");
                         }
-                        return str3;
+                        return "";
                     }
-                    String readableDuration = getReadableDuration(Long.valueOf(bundle2.getLong("total_time_millis")), FormatWidth.NARROW, R.string.duration_less_than_one_minute, false);
+                    String readableDuration = getReadableDuration(Long.valueOf(bundle2.getLong("total_time_millis")), MeasureFormat.FormatWidth.NARROW, R.string.duration_less_than_one_minute, false);
                     return mContext.getString(R.string.screen_time_summary_usage_today, new Object[]{readableDuration});
                 }
             }
             if (DEBUG) {
-                Log.d(str4, "Provider call unsuccessful");
+                Log.d("ApplicationFeatureProviderGoogleImpl", "Provider call unsuccessful");
             }
-            return str3;
+            return "";
         } catch (Exception e) {
-            StringBuilder sb = new StringBuilder();
-            sb.append("Error getting time spent for app ");
-            sb.append(str);
-            Log.w(str4, sb.toString(), e);
-            return str3;
+            Log.w("ApplicationFeatureProviderGoogleImpl", "Error getting time spent for app " + str, e);
+            return "";
         }
     }
 
-    private String getReadableDuration(Long l, FormatWidth formatWidth, int i, boolean z) {
+    private String getReadableDuration(Long l, MeasureFormat.FormatWidth formatWidth, int i, boolean z) {
         long j;
         long j2;
         long longValue = l.longValue();
@@ -101,13 +93,13 @@ public class ApplicationFeatureProviderGoogleImpl extends ApplicationFeatureProv
         } else if (i2 > 0) {
             Locale locale = Locale.getDefault();
             if (!z) {
-                formatWidth = FormatWidth.WIDE;
+                formatWidth = MeasureFormat.FormatWidth.WIDE;
             }
             return MeasureFormat.getInstance(locale, formatWidth).formatMeasures(new Measure[]{new Measure(Long.valueOf(j), MeasureUnit.HOUR)});
         } else if (j2 > 0) {
             Locale locale2 = Locale.getDefault();
             if (!z) {
-                formatWidth = FormatWidth.WIDE;
+                formatWidth = MeasureFormat.FormatWidth.WIDE;
             }
             return MeasureFormat.getInstance(locale2, formatWidth).formatMeasures(new Measure[]{new Measure(Long.valueOf(j2), MeasureUnit.MINUTE)});
         } else if (longValue > 0) {
@@ -115,9 +107,9 @@ public class ApplicationFeatureProviderGoogleImpl extends ApplicationFeatureProv
         } else {
             Locale locale3 = Locale.getDefault();
             if (!z) {
-                formatWidth = FormatWidth.WIDE;
+                formatWidth = MeasureFormat.FormatWidth.WIDE;
             }
-            return MeasureFormat.getInstance(locale3, formatWidth).formatMeasures(new Measure[]{new Measure(Integer.valueOf(0), MeasureUnit.MINUTE)});
+            return MeasureFormat.getInstance(locale3, formatWidth).formatMeasures(new Measure[]{new Measure(0, MeasureUnit.MINUTE)});
         }
     }
 
