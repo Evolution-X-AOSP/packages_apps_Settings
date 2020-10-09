@@ -2,10 +2,8 @@ package com.google.android.settings.fuelgauge;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.content.pm.PackageManager.NameNotFoundException;
 import android.database.Cursor;
 import android.net.Uri;
-import android.net.Uri.Builder;
 import android.text.TextUtils;
 import android.util.SparseIntArray;
 import com.android.internal.os.BatterySipper;
@@ -34,7 +32,6 @@ public class PowerUsageFeatureProviderGoogleImpl extends PowerUsageFeatureProvid
         super(context);
     }
 
-    @Override
     public boolean isTypeService(BatterySipper batterySipper) {
         String[] packagesForUid = mPackageManager.getPackagesForUid(batterySipper.getUid());
         if (packagesForUid == null) {
@@ -48,50 +45,65 @@ public class PowerUsageFeatureProviderGoogleImpl extends PowerUsageFeatureProvid
         return false;
     }
 
-    public void setPackageManager(PackageManager packageManager) {
+    private void setPackageManager(PackageManager packageManager) {
         mPackageManager = packageManager;
     }
 
-    @Override
     public Estimate getEnhancedBatteryPrediction(Context context) {
-        Cursor query = context.getContentResolver().query(getEnhancedBatteryPredictionUri(), null, null, null, null);
+        long j;
+        Cursor query = context.getContentResolver().query(getEnhancedBatteryPredictionUri(), (String[]) null, (String) null, (String[]) null, (String) null);
         if (query != null) {
-            if (query.moveToFirst()) {
-                int columnIndex = query.getColumnIndex(BATTERY_ESTIMATE_BASED_ON_USAGE_COL);
-                boolean z = true;
-                if (columnIndex != -1) {
-                    if (1 != query.getInt(columnIndex)) {
-                        z = false;
-                    }
-                }
-                boolean z2 = z;
-                int columnIndex2 = query.getColumnIndex(AVERAGE_BATTERY_LIFE_COL);
-                long j = -1;
-                if (columnIndex2 != -1) {
-                    long j2 = query.getLong(columnIndex2);
-                    if (j2 != -1) {
-                        long millis = Duration.ofMinutes(15).toMillis();
-                        if (Duration.ofMillis(j2).compareTo(Duration.ofDays(1)) >= 0) {
-                            millis = Duration.ofHours(1).toMillis();
+            try {
+                if (query.moveToFirst()) {
+                    int columnIndex = query.getColumnIndex(BATTERY_ESTIMATE_BASED_ON_USAGE_COL);
+                    boolean z = true;
+                    if (columnIndex != -1) {
+                        if (1 != query.getInt(columnIndex)) {
+                            z = false;
                         }
-                        j = PowerUtil.roundTimeToNearestThreshold(j2, millis);
                     }
+                    boolean z2 = z;
+                    int columnIndex2 = query.getColumnIndex(AVERAGE_BATTERY_LIFE_COL);
+                    if (columnIndex2 != -1) {
+                        long j2 = query.getLong(columnIndex2);
+                        if (j2 != -1) {
+                            long millis = Duration.ofMinutes(15).toMillis();
+                            if (Duration.ofMillis(j2).compareTo(Duration.ofDays(1)) >= 0) {
+                                millis = Duration.ofHours(1).toMillis();
+                            }
+                            j = PowerUtil.roundTimeToNearestThreshold(j2, millis);
+                            Estimate estimate = new Estimate(query.getLong(query.getColumnIndex(BATTERY_ESTIMATE_COL)), z2, j);
+                            if (query != null) {
+                                query.close();
+                            }
+                            return estimate;
+                        }
+                    }
+                    j = -1;
+                    Estimate estimate2 = new Estimate(query.getLong(query.getColumnIndex(BATTERY_ESTIMATE_COL)), z2, j);
+                    if (query != null) {
+                    }
+                    return estimate2;
                 }
-                Estimate estimate = new Estimate(query.getLong(query.getColumnIndex(BATTERY_ESTIMATE_COL)), z2, j);
-                cleanupCursor(query);
-                return estimate;
+            } catch (Throwable th) {
+                th.addSuppressed(th);
             }
         }
-        cleanupCursor(query);
+        if (query == null) {
+            return null;
+        }
+        query.close();
         return null;
     }
 
-    @Override
     public SparseIntArray getEnhancedBatteryPredictionCurve(Context context, long j) {
-        Cursor query = context.getContentResolver().query(getEnhancedBatteryPredictionCurveUri(), null, null, null, null);
+        Cursor query;
         try {
-            if (query == null || !query.moveToFirst()) {
-                cleanupCursor(query);
+            query = context.getContentResolver().query(getEnhancedBatteryPredictionCurveUri(), (String[]) null, (String) null, (String[]) null, (String) null);
+            if (query == null) {
+                if (query != null) {
+                    query.close();
+                }
                 return null;
             }
             int columnIndex = query.getColumnIndex(TIMESTAMP_COL);
@@ -100,76 +112,73 @@ public class PowerUsageFeatureProviderGoogleImpl extends PowerUsageFeatureProvid
             while (query.moveToNext()) {
                 sparseIntArray.append((int) (query.getLong(columnIndex) - j), query.getInt(columnIndex2));
             }
-            cleanupCursor(query);
+            if (query != null) {
+                query.close();
+            }
             return sparseIntArray;
         } catch (NullPointerException unused) {
+            return null;
         }
-        cleanupCursor(query);
-        return null;
     }
 
-    @Override
     public boolean isEnhancedBatteryPredictionEnabled(Context context) {
         try {
-            return mPackageManager.getPackageInfo("com.google.android.apps.turbo",
-                                    PackageManager.MATCH_DISABLED_COMPONENTS).applicationInfo.enabled;
-        }catch (Exception unused) {
+            if (!mPackageManager.getPackageInfo("com.google.android.apps.turbo", 512).applicationInfo.enabled) {
+                return false;
+            }
+            return true;
+        } catch (PackageManager.NameNotFoundException unused) {
+            return false;
         }
-        return false;
     }
 
     private Uri getEnhancedBatteryPredictionUri() {
-        return new Builder().scheme("content").authority("com.google.android.apps.turbo.estimated_time_remaining").appendPath("time_remaining").build();
+        return new Uri.Builder().scheme("content").authority("com.google.android.apps.turbo.estimated_time_remaining").appendPath("time_remaining").build();
     }
 
     private Uri getEnhancedBatteryPredictionCurveUri() {
-        return new Builder().scheme("content").authority("com.google.android.apps.turbo.estimated_time_remaining").appendPath("discharge_curve").build();
+        return new Uri.Builder().scheme("content").authority("com.google.android.apps.turbo.estimated_time_remaining").appendPath("discharge_curve").build();
     }
 
-    @Override
     public String getEnhancedEstimateDebugString(String str) {
-        return mContext.getString(R.string.power_usage_enhanced_debug, str);
+        return mContext.getString(R.string.power_usage_enhanced_debug, new Object[]{str});
     }
 
-    @Override
     public String getOldEstimateDebugString(String str) {
-        return mContext.getString(R.string.power_usage_old_debug, str);
+        return mContext.getString(R.string.power_usage_old_debug, new Object[]{str});
     }
 
-    @Override
     public String getAdvancedUsageScreenInfoString() {
         return mContext.getString(R.string.advanced_battery_graph_subtext);
     }
 
-    @Override
     public boolean getEarlyWarningSignal(Context context, String str) {
-        Builder appendPath = new Builder().scheme("content").authority("com.google.android.apps.turbo.estimated_time_remaining").appendPath("early_warning").appendPath("id");
+        Uri.Builder appendPath = new Uri.Builder().scheme("content").authority("com.google.android.apps.turbo.estimated_time_remaining").appendPath("early_warning").appendPath("id");
         if (TextUtils.isEmpty(str)) {
             appendPath.appendPath(context.getPackageName());
         } else {
             appendPath.appendPath(str);
         }
-        Cursor query = context.getContentResolver().query(appendPath.build(), null, null, null, null);
+        Cursor query = context.getContentResolver().query(appendPath.build(), (String[]) null, (String) null, (String[]) null, (String) null);
         boolean z = false;
         if (query != null) {
-            if (query.moveToFirst()) {
-                if (1 == query.getInt(query.getColumnIndex(IS_EARLY_WARNING_COL))) {
-                    z = true;
+            try {
+                if (query.moveToFirst()) {
+                    if (1 == query.getInt(query.getColumnIndex(IS_EARLY_WARNING_COL))) {
+                        z = true;
+                    }
+                    if (query != null) {
+                        query.close();
+                    }
+                    return z;
                 }
-                cleanupCursor(query);
-                return z;
+            } catch (Throwable th) {
+                th.addSuppressed(th);
             }
         }
-        cleanupCursor(query);
+        if (query != null) {
+            query.close();
+        }
         return false;
     }
-
-    private void cleanupCursor(Cursor query){
-        try {
-            query.close();
-            query = null;
-        }catch (NullPointerException unused) {
-        }
-    }
-
 }
