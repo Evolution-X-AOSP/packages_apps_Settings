@@ -96,6 +96,14 @@
         android:order="-133"
         settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
 
+    <!-- Volume panel to left -->
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="volume_panel_on_left"
+        android:title="@string/volume_panel_on_left_title"
+        android:defaultValue="false"
+        android:order="-132"
+        settings:controller="com.android.settings.sound.VolumePanelOnLeftPreferenceController"/>
+
     <!-- Also vibrate for calls -->
     <Preference
         android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"
