@@ -44,8 +44,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
-import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settingslib.development.DeveloperOptionsPreferenceController;
+import com.android.settingslib.core.AbstractPreferenceController;
 
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -58,8 +57,8 @@ import java.util.stream.Stream;
  * The chosen overlay is enabled along with its Ext overlays belonging to the same category.
  * A default option is also exposed that disables all overlays in the given category.
  */
-public class CustomOverlayPreferenceController extends DeveloperOptionsPreferenceController
-        implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
+public class CustomOverlayPreferenceController extends AbstractPreferenceController
+        implements Preference.OnPreferenceChangeListener {
     private static final String TAG = "CustomOverlayCategoryPC";
     @VisibleForTesting
     static final String PACKAGE_DEVICE_DEFAULT = "package_device_default";
@@ -101,8 +100,7 @@ public class CustomOverlayPreferenceController extends DeveloperOptionsPreferenc
         mPackageManager = packageManager;
         mCategory = category;
         mAvailable = overlayManager != null
-                     && !getOverlayInfos().isEmpty()
-                     && mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_YES;
+                     && !getOverlayInfos().isEmpty();
     }
 
     public CustomOverlayPreferenceController(Context context, String category) {
@@ -136,11 +134,13 @@ public class CustomOverlayPreferenceController extends DeveloperOptionsPreferenc
     @VisibleForTesting
     void setPreference(ListPreference preference) {
         mPreference = preference;
+        mPreference.setEnabled(mUiModeManager.getNightMode() != UiModeManager.MODE_NIGHT_NO);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        return setOverlay((String) newValue);
+        return mUiModeManager.getNightMode() != UiModeManager.MODE_NIGHT_NO
+                    ? setOverlay((String) newValue) : false;
     }
 
     private boolean setOverlay(String packageName) {
@@ -280,7 +280,7 @@ public class CustomOverlayPreferenceController extends DeveloperOptionsPreferenc
                 if (mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_NO) {
 		    Log.w(TAG, "Dark mode turned off, unloading all custom overlays");
                     setOverlay(PACKAGE_DEVICE_DEFAULT);
-                } else if (mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_YES) {
+                } else {
                     // Set back previously selected overlay on re-enabling dark mode
                     setOverlay(Settings.System.getString(resolver, Settings.System.COLOR_BUCKET_OVERLAY));
                 }
