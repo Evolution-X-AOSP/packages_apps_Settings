@@ -54,6 +54,11 @@ public class DarkModePreference extends PrimarySwitchPreference {
     }
 
     @Override
+    protected int getSecondTargetResId() {
+        return 0;
+    }
+
+    @Override
     public void onAttached() {
         super.onAttached();
         mDarkModeObserver.subscribe(mCallback);

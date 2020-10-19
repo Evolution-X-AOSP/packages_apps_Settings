@@ -30,11 +30,6 @@
         android:title="@string/dark_theme_main_switch_title"
         settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"/>
 
-    <ListPreference
-        android:key="android.theme.customization.custom_overlays"
-        android:title="@string/theme_customization_systemui_title"
-        settings:keywords="@string/keywords_dark_ui_mode"/>
-
     <com.android.settingslib.widget.BannerMessagePreference
         android:key="dark_ui_location_off"
         android:title="@string/twilight_mode_location_off_dialog_message"
@@ -59,5 +54,10 @@
         android:key="dark_theme_end_time"
         android:title="@string/night_display_end_time_title"
         settings:searchable="false"/>
+
+    <ListPreference
+        android:key="android.theme.customization.custom_overlays"
+        android:title="@string/theme_customization_systemui_title"
+        settings:keywords="@string/keywords_dark_ui_mode"/>
 
 </PreferenceScreen>
