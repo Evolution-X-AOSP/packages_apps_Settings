@@ -28,7 +28,7 @@
 
     <!-- ROM version -->
     <string name="about_device_name">Пристрій</string>
-    <string name="build_date">Дата  збірки</string>
+    <string name="build_date">Дата збірки</string>
     <string name="build_maintainer">Складальник прошивки</string>
     <string name="rom_version">Версія Evolution X</string>
     <string name="rom_version_default">Невідомо</string>
