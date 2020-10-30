@@ -19,7 +19,6 @@ package com.android.settings.network.telephony;
 import android.content.Context;
 import android.os.PersistableBundle;
 import android.provider.Settings;
-import android.telephony.CarrierConfigManager;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
@@ -42,11 +41,9 @@ public class RoamingPreferenceController extends TelephonyTogglePreferenceContro
         LifecycleObserver, OnStart, OnStop {
 
     private static final String TAG = "RoamingController";
-    private static final String DIALOG_TAG = "MobileDataDialog";
 
     private RestrictedSwitchPreference mSwitchPreference;
     private TelephonyManager mTelephonyManager;
-    private CarrierConfigManager mCarrierConfigManager;
 
     /**
      * There're 2 listeners both activated at the same time.
@@ -62,7 +59,6 @@ public class RoamingPreferenceController extends TelephonyTogglePreferenceContro
 
     public RoamingPreferenceController(Context context, String key) {
         super(context, key);
-        mCarrierConfigManager = context.getSystemService(CarrierConfigManager.class);
     }
 
     @Override
@@ -111,15 +107,8 @@ public class RoamingPreferenceController extends TelephonyTogglePreferenceContro
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        if (isDialogNeeded()) {
-            showDialog();
-        } else {
-            // Update data directly if we don't need dialog
-            mTelephonyManager.setDataRoamingEnabled(isChecked);
-            return true;
-        }
-
-        return false;
+        mTelephonyManager.setDataRoamingEnabled(isChecked);
+        return true;
     }
 
     @Override
@@ -130,20 +119,6 @@ public class RoamingPreferenceController extends TelephonyTogglePreferenceContro
             switchPreference.setEnabled(mSubId != SubscriptionManager.INVALID_SUBSCRIPTION_ID);
             switchPreference.setChecked(isChecked());
         }
-    }
-
-    @VisibleForTesting
-    boolean isDialogNeeded() {
-        final boolean isRoamingEnabled = mTelephonyManager.isDataRoamingEnabled();
-        final PersistableBundle carrierConfig = mCarrierConfigManager.getConfigForSubId(
-                mSubId);
-
-        // Need dialog if we need to turn on roaming and the roaming charge indication is allowed
-        if (!isRoamingEnabled && (carrierConfig == null || !carrierConfig.getBoolean(
-                CarrierConfigManager.KEY_DISABLE_CHARGE_INDICATION_BOOL))) {
-            return true;
-        }
-        return false;
     }
 
     @Override
@@ -166,12 +141,6 @@ public class RoamingPreferenceController extends TelephonyTogglePreferenceContro
             return;
         }
         mTelephonyManager = telephonyManager;
-    }
-
-    private void showDialog() {
-        final RoamingDialogFragment dialogFragment = RoamingDialogFragment.newInstance(mSubId);
-
-        dialogFragment.show(mFragmentManager, DIALOG_TAG);
     }
 
     private void stopMonitor() {
