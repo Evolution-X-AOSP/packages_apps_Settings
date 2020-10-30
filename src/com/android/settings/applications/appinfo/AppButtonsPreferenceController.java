@@ -244,9 +244,9 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
                     // then offer to downgrade the app, otherwise only offer to disable the
                     // app for this user.
                     if (mUpdatedSysApp && isSingleUser()) {
-                        showDialogInner(ButtonActionDialogFragment.DialogType.SPECIAL_DISABLE);
+                        handleDialogClick(ButtonActionDialogFragment.DialogType.SPECIAL_DISABLE);
                     } else {
-                        showDialogInner(ButtonActionDialogFragment.DialogType.DISABLE);
+                        handleDialogClick(ButtonActionDialogFragment.DialogType.DISABLE);
                     }
                 } else {
                     mMetricsFeatureProvider.action(
@@ -274,7 +274,7 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
                 RestrictedLockUtils.sendShowAdminSupportDetailsIntent(
                         mActivity, mAppsControlDisallowedAdmin);
             } else {
-                showDialogInner(ButtonActionDialogFragment.DialogType.FORCE_STOP);
+                handleDialogClick(ButtonActionDialogFragment.DialogType.FORCE_STOP);
             }
         }
     }
