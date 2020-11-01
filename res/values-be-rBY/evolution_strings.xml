@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2020 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Сканар адбіткаў пальцаў размешчаны на <xliff:g id="sensor_location">%1$s </xliff:g> вашага тэлефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Сканар адбіткаў пальцаў размешчаны на <xliff:g id="sensor_location">%1$s </xliff:g> вашага тэлефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Сканар адбіткаў пальцаў размешчаны на <xliff:g id="sensor_location">%1$s </xliff:g> вашага тэлефона.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">заднім баку</string>
+    <string name="security_settings_fingerprint_sensor_location_front">пярэдняй панэлі</string>
+    <string name="security_settings_fingerprint_sensor_location_left">левай грані</string>
+    <string name="security_settings_fingerprint_sensor_location_right">правай грані</string>
+    <!-- ROM version -->
+    <string name="about_device_name">Прылада</string>
+    <string name="build_date">Дата зборкі</string>
+    <string name="rom_version">Версія Evolution X</string>
+    <string name="rom_version_default">Невядома</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Усяго АЗП</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Абярыце памер графічнага ключа</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Паказваць няправільны ўвод</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Паказваць кропкі графічнага ключа</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Гук скрыншота</string>
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">The Evolver</string>
+    <string name="evolver_dashboard_summary">Пачніце распрацоўваць сваю прыладу з нашымі магчымасцямі</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Націсніце, каб паказаць інфармацыю</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Звязаць гучнасць выкліку і апавяшчэнняў</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Адладка суперкарыстальнікам</string>
+    <string name="adb_enable_summary_root">Дазволіць запуск адладкі Android з правамі суперкарыстальніка</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Колер святлодыёда</string>
+    <string name="custom_light_on_time_title">Час уключанага LED (мс)</string>
+    <string name="custom_light_off_time_title">Час адключанага LED (мс)\"</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Захаваныя навушнікі</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Тэмпература батарэі</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Свайп для стварэння скрыншота</string>
+    <string name="three_finger_gesture_summary">Правядзіце ўніз трыма пальцамі для скрыншота</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Панэль гучнасці злева</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Хуткая разблакоўка</string>
+    <string name="unlock_quick_unlock_control_summary">Аўтаматычная разблакоўка пры ўводзе правільнага пароля або PIN-кода</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Змешваць кнопкі</string>
+    <string name="unlock_scramble_pin_layout_summary">Перастаўляць кнопкі ўводу PIN-кода ў выпадковым парадку</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Адбітак пальца на выключаны экране</string>
+    <string name="fod_gesture_summary">Дазваляе разблакаваць прыладу без неабходнасці прачынацца з экрана</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Змяніць пастаўшчыка рэзервовага капіявання</string>
+    <string name="backup_transport_title">Выберыце пастаўшчыка рэзервовага капіявання</string>
+    <!-- Clock style -->
+    <string name="clock_style_title">Стыль гадзінніка</string>
+    <string name="clock_style_summary">Наладзіць гадзіннік на экране блакавання</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Жэсты Ambient Display</string>
+    <string name="ambient_wake_gestures_summary">Паказваць Ambient Display замест звычайнага экрана блакавання з жэстамі абуджэння</string>
+    <string name="lockscreen_display_title">На заблакаваным экране</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Паварот экрана</string>
+    <string name="display_rotation_summary">Выбар кута аўтапаварота</string>
+    <string name="display_rotation_disabled">Адключана</string>
+    <string name="display_rotation_unit">градусаў</string>
+    <string name="display_rotation_category_title">Рэжымы паварота экрана</string>
+    <string name="display_rotation_0_title">0 градусаў</string>
+    <string name="display_rotation_90_title">90 градусаў</string>
+    <string name="display_rotation_180_title">180 градусаў</string>
+    <string name="display_rotation_270_title">270 градусаў</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Шаблон вібрацыі пры тэлефанаванні</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Карыстацкая</string>
+    <string name="custom_vibration_pattern_title">Карыстацкі шаблон</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Прапускаць музычныя трэкі</string>
+    <string name="volume_skiptrack_title">Прапускаць трэкі кнопкамі рэгулявання гучнасці</string>
+    <string name="volume_skiptrack_summary">Утрымлівайце кнопкі гучнасці для пропуску трэкаў пры прайграванні музыкі, нават выдалена на ТБ або ПК, напрыклад з Spotify (праграма павінна працаваць на тэлефоне і паказваць апавяшчэнне).</string>
+    <string name="pulse_on_new_tracks_title">Музычны цікер на Ambient Display</string>
+    <string name="pulse_on_new_tracks_summary">Паказваць Актыўны экран пры прайграванні новага трэка. Двойчы націсніце на інфармацыю трэка, каб перайсці да наступнага трэку.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Падсветка экрана пры прайграванні новай музычнай кампазіцыі</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Скід статыстыкі</string>
+    <string name="battery_stats_message">Статыстыка выкарыстання батарэі будзе скінута</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Здароўе акумулятара</string>
+    <string name="battery_health_summary">Кантралюйце стан батарэі вашай прылады</string>
+    <string name="current_battery_capacity">Бягучая ёмістасць батарэі</string>
+    <string name="current_battery_capacity_summary">Бягучая ёмістасць батарэі вымяраецца ядром</string>
+    <string name="designed_battery_capacity">Агульная ёмістасць батарэі</string>
+    <string name="designed_battery_capacity_summary">Ёмістасць батарэі заяўленая вытворцам</string>
+    <string name="battery_charge_cycles">Цыклы зарадкі завершаныя</string>
+    <!-- Themes customization -->
+    <string name="theme_customization_systemui_title">Палітра колераў</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Даўжыня паласы жэстаў</string>
+    <string name="hidden_label">Схавана</string>
+    <string name="long_label">Доўгі</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Перадача дадзеных</string>
+    <string name="data_usage_app_restrict_data_summary">Уключыць выкарыстанне мабільных дадзеных</string>
+    <string name="data_usage_app_restrict_vpn">Дадзеныя VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Уключыць выкарыстанне дадзеных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Дадзеныя Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Уключыць выкарыстанне дадзеных Wi\u2011Fi</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Пераключэнне рэжымаў</string>
+    <string name="prevent_ringing_option_cycle_summary">Уключана (пераключэнне рэжымаў)</string>
+    <!-- Double tap-to-sleep -->
+    <string name="doubletap_lockscreen_screen_title">Выключыце экран</string>
+    <string name="doubletap_lockscreen_title">Падвойнае націск для засынання на экране блакавання</string>
+    <string name="doubletap_lockscreen_summary">Двойчы націсніце на пусты экран блакавання, каб выключыць экран</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Нарастальная гучнасць званка</string>
+    <string name="increasing_ring_min_volume_title">Пачатковая гучнасць</string>
+    <string name="increasing_ring_ramp_up_time_title">Час павелічэння</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">паведамлення, журнал паведамленняў</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Рэжым \"У кішэні\"</string>
+    <string name="pocket_judge_summary">Блакаваць экран і кнопкі, калі прылада знаходзіцца ў кішэні</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Адаптыўнае прайграванне</string>
+    <string name="adaptive_playback_disabled_summary">Адкл</string>
+    <string name="adaptive_playback_timeout_title">Выкарыстоўваць тайм-аўт</string>
+    <string name="adaptive_playback_timeout_none">Бесперапынна</string>
+    <string name="adaptive_playback_timeout_none_summary">Укл. (без тайм-аўта)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Укл. (30 секунд)</string>
+    <string name="adaptive_playback_timeout_1_min">1 хвіліна</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Укл. (1 хвіліна)</string>
+    <string name="adaptive_playback_timeout_2_min">2 хвіліны</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Укл. (2 хвіліны)</string>
+    <string name="adaptive_playback_timeout_5_min">5 хвілін</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Укл. (5 хвілін)</string>
+    <string name="adaptive_playback_timeout_10_min">10 хвілін</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Укл. (10 хвілін)</string>
+    <string name="adaptive_playback_explainer">Адаптыўнае прайграванне аўтаматычна прыпыняе медыя калі гук выключаны, і адновіцца аўтаматычна пры аднаўленні гучнасці на працягу зададзенага часу.</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Дазволіць кліентам выкарыстоўваць VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Дазволіць кліентам пункта доступу выкарыстоўваць VPN-злучэнні гэтай прылады для падлучэння да сеткі</string>
+    <!-- Running services toggle -->
+    <string name="background_processes_settings_title">Фонавыя працэсы</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Аптымізацыя вашага экрана ў залежнасці ад часу сутак і ўмоў навакольнага асяроддзя для паляпшэння чытальнасці тэксту і зніжэння стамляльнасці вачэй</string>
+    <string name="live_display_mode">Рэжым экрана</string>
+    <string name="live_display_color_temperature_title">Температура колераў</string>
+    <string name="live_display_color_temperature_summary">Дзень: <xliff:g id="day_temperature">%1$d</xliff:g>K  Ноч: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Дзень</string>
+    <string name="live_display_night">Ноч</string>
+    <string name="live_display_outdoor_mode_title">Аўтаматычны рэжым для вуліцы</string>
+    <string name="live_display_outdoor_mode_summary">Павялічыць яркасць і насычанасць аўтаматычна пры яркім сонечным святле</string>
+    <string name="live_display_low_power_title">Знізіць энергаспажыванне</string>
+    <string name="live_display_low_power_summary">Падладжваць экран для нізкага энергаспажывання без пагаршэння якасці</string>
+    <string name="live_display_enhance_color_title">Паляпшэнне колераперадачы</string>
+    <string name="live_display_enhance_color_summary">Палепшыць сакавітасць адценняў скуры, краявідаў і іншых выяў</string>
+    <string name="live_display_color_profile_title">Профіль колераў</string>
+    <string name="live_display_color_profile_standard_title">Стандартны</string>
+    <string name="live_display_color_profile_standard_summary">Дакладная колераперадача і яркія белыя тоны</string>
+    <string name="live_display_color_profile_natural_title">Натуральны</string>
+    <string name="live_display_color_profile_natural_summary">Натуральныя колеры і адценні скуры</string>
+    <string name="live_display_color_profile_dynamic_title">Дынамічны</string>
+    <string name="live_display_color_profile_dynamic_summary">Насычаныя колеры і падвышаная кантраснасць</string>
+    <string name="live_display_color_profile_cinema_title">Кіно</string>
+    <string name="live_display_color_profile_cinema_summary">Ідэальная колераперадача для відэа</string>
+    <string name="live_display_color_profile_astronomy_title">Астраномія</string>
+    <string name="live_display_color_profile_astronomy_summary">Глыбокі чырвоны для захаваньня бачнасьці ноччу</string>
+    <string name="live_display_color_profile_photography_title">Фотаздымак</string>
+    <string name="live_display_color_profile_photography_summary">Ідэальная колераперадача для фота</string>
+    <string name="live_display_color_profile_basic_title">Асноўны</string>
+    <string name="live_display_color_profile_basic_summary">Выкарыстоўваць неадкалібраваны дысплэй</string>
+    <string name="live_display_color_profile_adaptive_title">Адаптыўны</string>
+    <string name="live_display_color_profile_adaptive_summary">Колеры адаптуюцца да ўмоў навакольнага асяроддзя</string>
+    <string name="live_display_color_profile_reading_title">Чытанне</string>
+    <string name="live_display_color_profile_reading_summary">Цёплыя колеры для меншага напружання вачэй</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Колеры, адпаведныя каляровай прасторы sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Колеры, адпаведныя каляровай прасторы DCI-P3</string>
+    <string name="live_display_reading_mode_title">Рэжым чытання</string>
+    <string name="live_display_reading_mode_summary">Рэжым адценняў шэрага для доўгачасовага чытання</string>
+    <string name="color_calibration_title">Каліброўка колера</string>
+    <string name="color_calibration_summary">Налада колераперадачы экрана</string>
+    <string name="color_red_title">Чырвоны</string>
+    <string name="color_green_title">Зялёны</string>
+    <string name="color_blue_title">Сіні</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Рэгуляванне выявы</string>
+    <string name="picture_adjustment_summary">Адрэгуляваць адценне, насычанасць, глыбіню і кантраснасць</string>
+    <string name="adj_hue_title">Адценне</string>
+    <string name="adj_saturation_title">Насычанасць</string>
+    <string name="adj_intensity_title">Насычанасць</string>
+    <string name="adj_contrast_title">Кантраснасць</string>
+</resources>
