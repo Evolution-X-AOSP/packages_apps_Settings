@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2020 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">ᱟᱢᱟᱜᱽ ᱴᱟᱵᱞᱮᱴ ᱨᱮᱭᱟᱜᱽ <xliff:g id="sensor_location">%1$s</xliff:g> ᱨᱮ ᱛᱤᱠᱟᱹᱴᱩᱵᱽ ᱥᱮᱱᱥᱚᱨ ᱫᱮᱠᱷᱟᱣ ᱢᱮᱸ ᱾</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">ᱟᱢᱟᱜᱽ ᱥᱟᱫᱷᱚᱱ ᱨᱮᱭᱟᱜᱽ <xliff:g id="sensor_location">%1$s</xliff:g> ᱨᱮ ᱛᱤᱠᱟᱹᱴᱩᱵᱽ ᱥᱮᱱᱥᱚᱨ ᱫᱮᱠᱷᱟᱣ ᱢᱮᱸ ᱾</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">ᱟᱢᱟᱜᱽ ᱯᱷᱚᱱ ᱨᱮᱭᱟᱜᱽ <xliff:g id="sensor_location">%1$s</xliff:g> ᱨᱮ ᱛᱤᱠᱟᱹᱴᱩᱵᱽ ᱥᱮᱱᱥᱚᱨ ᱫᱮᱠᱷᱟᱣ ᱢᱮᱸ ᱾</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">ᱟᱭᱚᱢ</string>
+    <string name="security_settings_fingerprint_sensor_location_front">ᱢᱟᱲᱟᱝ</string>
+    <string name="security_settings_fingerprint_sensor_location_left">ᱞᱮᱸᱜᱟ ᱯᱟᱦᱴᱟ</string>
+    <string name="security_settings_fingerprint_sensor_location_right">ᱡᱚᱡᱚᱢ ᱯᱟᱦᱴᱟ</string>
+    <!-- ROM version -->
+    <string name="about_device_name">ᱥᱟᱫᱷᱚᱱ</string>
+    <string name="build_date">ᱛᱮᱭᱟᱨ ᱢᱟᱹᱦᱩᱛ</string>
+    <string name="rom_version">Evolution X ᱵᱷᱟᱹᱨᱥᱚᱱ</string>
+    <string name="rom_version_default">ᱵᱟᱝ ᱵᱟᱲᱟᱭ</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">ᱯᱞᱟᱴᱯᱷᱚᱨᱢ</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">ᱢᱩᱴ RAM</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">ᱯᱮᱴᱟᱹᱨᱱ ᱢᱟᱯ ᱪᱚᱭᱚᱱ ᱢᱮᱸ</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">ᱯᱟᱴᱮᱨᱱ ᱵᱷᱩᱞ ᱫᱮᱠᱷᱟᱣ ᱢᱮᱸ</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">ᱯᱟᱴᱮᱨᱱ ᱰᱚᱴ ᱠᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮᱸ</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">ᱥᱠᱨᱤᱻᱱᱥᱚᱨᱴ ᱥᱟᱲᱮ</string>
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">ᱫᱟᱹ ᱤᱣᱟᱹᱞᱣᱟᱹᱨ</string>
+    <string name="evolver_dashboard_summary">ᱟᱞᱮᱭᱟᱜᱽ ᱯᱷᱤᱪᱚᱨ ᱠᱚ ᱥᱟᱞᱟᱜᱽ ᱟᱢᱟᱜᱽ ᱥᱟᱫᱷᱚᱱ ᱩᱱᱼᱱᱚᱛ ᱢᱮᱸ</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">ᱡᱟᱹᱥᱛᱤ ᱵᱤᱵᱨᱚᱬ ᱞᱟᱹᱜᱤᱫᱽ ᱚᱛᱟᱭ ᱢᱮᱸ</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">ᱞᱤᱸᱠ ᱜᱩᱠᱟᱹᱭ &amp; ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱣᱚᱞᱭᱩᱢ ᱠᱚ</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">ᱨᱚᱴ ᱟᱠᱟᱱᱟ ᱰᱮᱵᱟᱹᱜᱤᱝ</string>
+    <string name="adb_enable_summary_root">ᱮᱸᱰᱨᱚᱭᱮᱰ ᱰᱮᱵᱟᱹᱜᱤᱝ ᱨᱩᱴ ᱞᱮᱠᱷᱟ ᱫᱟᱹᱲ ᱪᱷᱚᱭ ᱢᱮᱸ</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">ᱟᱨᱥᱟᱞ ᱨᱚᱝ</string>
+    <string name="custom_light_on_time_title">ᱮᱞ ᱤ ᱰᱤ ᱯᱟᱹᱞᱥ (ms) ᱡᱷᱚᱜᱽ ᱟᱨᱥᱟᱞ ᱚᱱ ᱚᱠᱛᱚ</string>
+    <string name="custom_light_off_time_title">ᱮᱞ ᱤ ᱰᱤ ᱯᱟᱹᱞᱥ (ms) ᱡᱷᱚᱜᱽ ᱟᱨᱥᱟᱞ ᱵᱚᱸᱫᱽ ᱚᱠᱛᱚ</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">ᱥᱟᱺᱪᱟᱣ ᱟᱠᱟᱱᱟ ᱤᱭᱟᱹᱨᱵᱟᱹᱰᱠᱚ</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">ᱵᱮᱴᱨᱭ ᱛᱟᱯ</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">ᱥᱠᱨᱤᱻᱱᱥᱚᱨᱴ ᱞᱟᱹᱜᱤᱫᱽ ᱢᱷᱮᱞᱟᱣ ᱢᱮᱸ</string>
+    <string name="three_finger_gesture_summary">ᱯᱮᱭᱟ ᱠᱟᱹᱴᱩᱵᱽ ᱛᱮ ᱞᱟᱛᱟᱨ ᱛᱮ ᱠᱷᱚᱥᱨᱚᱫᱽ ᱠᱚᱛᱮ ᱥᱠᱨᱤᱻᱱᱥᱚᱨᱴ ᱤᱫᱤ ᱢᱮᱸ</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">ᱞᱮᱸᱜᱟ ᱛᱤ ᱯᱟᱦᱴᱟ ᱨᱮ ᱣᱚᱞᱭᱩᱢ ᱫᱮᱠᱷᱟᱣ ᱢᱮᱸ</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">ᱞᱚᱜᱚᱱ ᱟᱹᱱᱞᱚᱠ</string>
+    <string name="unlock_quick_unlock_control_summary">ᱴᱷᱤᱠ ᱯᱤᱱ/ᱯᱟᱥᱥᱣᱟᱨᱰ ᱟᱫᱮᱨ ᱞᱮᱠᱷᱟᱱ ᱟᱡ ᱛᱮ ᱠᱷᱩᱞᱟᱹᱜ ᱟ</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">ᱥᱠᱨᱟᱢᱵᱟᱹᱞ ᱞᱮᱟᱩᱴ</string>
+    <string name="unlock_scramble_pin_layout_summary">ᱥᱟᱫᱷᱚᱱ ᱠᱷᱩᱞᱟᱹ ᱡᱷᱚᱜᱽ ᱯᱤᱱ ᱞᱮᱭᱟᱩᱴ ᱥᱠᱨᱟᱹᱢᱵᱟᱹᱞ ᱢᱮᱸ</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">ᱛᱤᱠᱟᱹᱴᱩᱵᱽᱪᱷᱟᱯᱟ ᱥᱠᱨᱤᱻᱱ ᱵᱚᱸᱫᱽ</string>
+    <string name="fod_gesture_summary">ᱵᱤᱱᱟᱹ ᱥᱠᱨᱤᱻᱱ ᱵᱮᱨᱮᱫᱽ ᱠᱟᱛᱮ ᱥᱟᱫᱷᱚᱱ ᱠᱚ ᱠᱷᱩᱞᱟᱹ ᱪᱷᱚ ᱮᱢᱟᱭ ᱟᱢ</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱᱠᱚ ᱵᱚᱸᱫᱽ ᱞᱟᱹᱜᱤᱫᱽ ᱛᱤᱠᱟᱹᱴᱩᱵᱽᱪᱷᱟᱯᱟ ᱞᱮᱸᱜᱟ ᱟᱨ ᱵᱟᱝ ᱡᱚᱡᱚᱢ ᱛᱤ ᱛᱮ ᱠᱷᱚᱥᱨᱚᱫᱽ ᱢᱮᱸ</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">ᱟᱢᱟᱜᱽ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱵᱚᱸᱫᱽ ᱞᱟᱹᱜᱤᱫᱽ, ᱥᱟᱫᱷᱚᱱ ᱨᱮᱭᱟᱜᱽ ᱛᱟᱭᱚᱢ ᱥᱮᱫᱽ ᱢᱮᱱᱟᱜᱽ ᱛᱤᱠᱟᱹᱴᱩᱵᱽᱪᱷᱟᱯᱟ ᱥᱮᱱᱥᱚᱨ ᱨᱮ ᱞᱮᱸᱜᱟ ᱟᱨ ᱵᱟᱝ ᱡᱚᱡᱚᱢ ᱠᱟᱹᱴᱩᱵᱽ ᱛᱮ ᱠᱷᱚᱥᱨᱚᱫᱽ ᱢᱮᱸ ᱾</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">ᱵᱮᱠᱟᱹᱯ ᱮᱢᱚᱜᱽᱤᱡᱽ ᱵᱚᱫᱚᱞᱮᱢ</string>
+    <string name="backup_transport_title">ᱵᱮᱠᱟᱹᱯ ᱮᱢᱚᱜᱽᱤᱡᱽ ᱪᱚᱭᱚᱱᱮᱢ</string>
+    <!-- Clock style -->
+    <string name="clock_style_title">ᱜᱷᱚᱲᱤ ᱥᱴᱟᱭᱤᱞ</string>
+    <string name="clock_style_summary">ᱠᱩᱞᱩᱯᱥᱠᱨᱤᱻᱱ ᱜᱷᱚᱲᱤ ᱠᱟᱹᱥᱴᱚᱢᱟᱭᱤᱡᱽ</string>
+    <string name="lockscreen_display_title">ᱞᱚᱠᱥᱠᱨᱤᱻᱱ ᱫᱮᱠᱷᱟᱣ</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">ᱟᱹᱪᱩᱨ</string>
+    <string name="display_rotation_summary">ᱟᱹᱪᱩᱨ ᱠᱩᱬ ᱠᱚ ᱪᱚᱭᱚᱱᱢᱮᱸ</string>
+    <string name="display_rotation_disabled">ᱵᱚᱸᱫᱽ</string>
+    <string name="display_rotation_unit">ᱰᱤᱜᱨᱤᱻᱠᱚ</string>
+    <string name="display_rotation_category_title">ᱟᱹᱪᱩᱨ ᱢᱳᱰᱠᱚ</string>
+    <string name="display_rotation_0_title">᱐ ᱰᱤᱜᱨᱤᱻᱠᱚ</string>
+    <string name="display_rotation_90_title">᱙᱐ ᱰᱤᱜᱨᱤᱻᱠᱚ</string>
+    <string name="display_rotation_180_title">᱑᱘᱐ ᱰᱤᱜᱨᱤᱻ</string>
+    <string name="display_rotation_270_title">᱒᱗᱐ ᱰᱤᱜᱨᱤᱻᱠᱚ</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">ᱨᱤᱝᱴᱚᱱ ᱵᱷᱟᱭᱵᱨᱮᱥᱚᱱ ᱯᱮᱴᱚᱨᱱ</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">ᱠᱟᱹᱥᱴᱚᱢ</string>
+    <string name="custom_vibration_pattern_title">ᱠᱟᱹᱥᱴᱚᱢ ᱯᱮᱴᱟᱹᱨᱱ</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">ᱥᱮᱨᱮᱧ ᱴᱨᱟᱠᱼᱠᱚ ᱥᱠᱤᱯ ᱢᱮᱸ</string>
+    <string name="volume_skiptrack_title">ᱣᱚᱞᱭᱩᱢ ᱨᱚᱠᱟᱹᱨ ᱴᱨᱟᱠ ᱟᱲᱟᱜᱽ ᱢᱮᱸ</string>
+    <string name="volume_skiptrack_summary">ᱥᱮᱨᱮᱧ ᱟᱸᱡᱚᱢ ᱡᱷᱚᱜᱽ ᱣᱚᱞᱭᱩᱢ ᱨᱚᱠᱟᱹᱨ ᱡᱩᱨ ᱛᱮ ᱚᱛᱟ ᱞᱮᱠᱷᱟᱱ ᱴᱨᱟᱠᱼᱠᱚ ᱚᱲᱟᱜᱽᱚᱜᱼᱟ, tv ᱟᱨ ᱵᱟᱝ PC ᱠᱚ ᱨᱮ ᱦᱚᱸ ᱨᱤᱢᱚᱴᱞᱭ ᱜᱟᱱᱚᱜᱼᱟ ᱡᱮᱢᱚᱱ ᱥᱯᱚᱴᱤᱯᱷᱭ (ᱮᱯᱯ ᱫᱚ ᱯᱷᱚᱱ ᱠᱚᱨᱮ ᱫᱟᱹᱲ ᱢᱟᱭ ᱟᱨ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱮᱚᱱ ᱫᱮᱠᱷᱟᱣ ᱢᱟᱭ) ᱾</string>
+    <string name="pulse_on_new_tracks_title">ᱮᱢᱵᱤᱭᱮᱸᱴ ᱥᱮᱨᱮᱧ ᱴᱤᱠᱟᱹᱨ</string>
+    <string name="pulse_on_new_tracks_summary">ᱱᱟᱶᱟ ᱥᱮᱨᱮᱧ ᱴᱨᱟᱠ ᱯᱞᱮ ᱡᱷᱚᱜᱽ ᱮᱢᱵᱤᱭᱮᱸᱴ ᱰᱤᱥᱯᱞᱮ ᱫᱮᱠᱷᱟᱣ ᱢᱮᱸ ᱾ ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ ᱴᱨᱟᱠ ᱛᱮ ᱥᱠᱤᱯ ᱞᱟᱹᱜᱤᱫᱽ ᱴᱨᱟᱠ ᱵᱤᱵᱨᱚᱬ ᱨᱮ ᱵᱟᱨ ᱡᱮᱠᱷᱟ ᱚᱛᱟᱭ ᱢᱮᱸ ᱾</string>
+    <string name="pulse_on_new_tracks_soli_summary">ᱱᱟᱶᱟ ᱥᱮᱨᱮᱧ ᱴᱨᱟᱠ ᱯᱞᱮ ᱡᱷᱚᱜᱽ ᱮᱢᱵᱤᱭᱮᱸᱴ ᱰᱤᱥᱯᱞᱮ ᱫᱮᱠᱷᱟᱣ ᱢᱮᱸ</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">ᱨᱤᱥᱮᱴ ᱥᱴᱟᱴᱥ</string>
+    <string name="battery_stats_message">ᱵᱮᱴᱨᱭ ᱱᱟᱜᱟᱢ ᱥᱴᱟᱴᱥ ᱞᱚ ᱨᱤᱥᱮᱴᱚᱜᱽ ᱞᱟᱹᱜᱤᱫᱽ</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">ᱵᱮᱴᱨᱭ ᱱᱤᱯᱷᱩᱴ</string>
+    <string name="battery_health_summary">ᱟᱢᱟᱜᱽ ᱥᱟᱫᱷᱚᱱ ᱨᱮᱭᱟᱜᱽ ᱵᱮᱴᱨᱭ ᱱᱤᱯᱷᱩᱴ ᱧᱮᱞ ᱢᱮᱸ</string>
+    <string name="current_battery_capacity">ᱱᱤᱛᱜᱟᱜᱽ ᱵᱮᱴᱨᱭ ᱠᱟᱯᱟᱥᱤᱴᱭ</string>
+    <string name="current_battery_capacity_summary">ᱱᱤᱴᱚᱜᱟᱜᱽ ᱵᱮᱴᱨᱭ ᱠᱟᱯᱟᱥᱤᱴᱭ ᱫᱚ ᱠᱟᱹᱨᱱᱟᱹᱞ ᱛᱮ ᱢᱟᱯ ᱟᱠᱟᱱᱟ</string>
+    <string name="designed_battery_capacity">ᱵᱮᱴᱨᱭ ᱠᱟᱯᱟᱥᱤᱴᱭ ᱰᱤᱡᱟᱭᱤᱱ ᱠᱟᱱᱟ</string>
+    <string name="designed_battery_capacity_summary">ᱵᱮᱴᱨᱭ ᱠᱟᱯᱟᱥᱤᱴᱭ ᱫᱚ ᱢᱮᱱᱭᱩᱯᱷᱤᱠᱪᱚᱨᱚᱨ ᱰᱤᱡᱟᱭᱤᱱ ᱟᱠᱟᱫᱟᱭ</string>
+    <string name="battery_charge_cycles">ᱪᱟᱨᱡᱽ ᱥᱟᱭᱠᱚᱞ ᱪᱟᱵᱟ ᱮᱱᱟ</string>
+    <!-- Themes customization -->
+    <string name="theme_customization_systemui_title">ᱨᱚᱝ ᱵᱟᱹᱞᱴᱭ</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">ᱜᱮᱥᱪᱚᱨ ᱵᱟᱨ ᱢᱟᱯ</string>
+    <string name="hidden_label">ᱩᱠᱩ</string>
+    <string name="long_label">ᱡᱤᱞᱤᱧ</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">ᱥᱮᱞᱭᱩᱞᱟᱨ ᱰᱟᱴᱟ</string>
+    <string name="data_usage_app_restrict_data_summary">ᱥᱮᱞᱭᱩᱞᱟᱨ ᱰᱟᱴᱟ ᱨᱮᱭᱟᱜ ᱭᱩᱥᱮᱡᱽ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="data_usage_app_restrict_vpn">VPN ᱰᱟᱴᱟ</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN ᱰᱟᱴᱟ ᱨᱮᱭᱟᱜᱽ ᱭᱩᱥᱮᱡ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi ᱰᱟᱴᱟ</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi ᱰᱟᱴᱟ ᱭᱩᱥᱮᱡᱽ ᱮᱢ ᱪᱷᱚ</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">ᱢᱳᱰ ᱛᱮ ᱥᱟᱭᱠᱟᱹᱞ</string>
+    <string name="prevent_ringing_option_cycle_summary">ᱮᱢ ᱪᱷᱚ (ᱢᱳᱰ ᱛᱮ ᱥᱟᱭᱠᱟᱹᱞ)</string>
+    <!-- Double tap-to-sleep -->
+    <string name="doubletap_lockscreen_screen_title">ᱥᱠᱨᱤᱻᱱ ᱥᱣᱤᱪ ᱵᱚᱸᱫᱽ ᱢᱮᱸ</string>
+    <string name="doubletap_lockscreen_title">ᱠᱩᱞᱩᱯᱥᱠᱨᱤᱻᱱ ᱨᱮ ᱡᱟᱹᱯᱤᱫᱽ ᱞᱟᱹᱜᱤᱫᱽ ᱵᱟᱨ ᱡᱮᱠᱷᱟ ᱚᱛᱟᱭ ᱢᱮᱸ/ᱥᱴᱟᱴᱟᱹᱥᱵᱟᱨ</string>
+    <string name="doubletap_lockscreen_summary">ᱠᱩᱞᱩᱯᱥᱠᱨᱤᱻᱱ ᱨᱮ ᱡᱮᱠᱷᱟ ᱚᱛᱟᱭ ᱢᱮᱸ/ᱥᱴᱟᱴᱟᱹᱥᱵᱟᱨ ᱥᱠᱨᱤᱻᱱ ᱥᱣᱤᱪ ᱵᱚᱸᱫᱽ ᱞᱟᱹᱤᱫᱽ ᱠᱷᱟᱹᱞᱤ ᱡᱟᱭᱜᱟ</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">ᱜᱩᱞᱟᱹᱭ ᱵᱷᱩᱞᱭᱩᱢ ᱰᱷᱮᱨᱚᱜᱽ ᱠᱟᱱᱟ</string>
+    <string name="increasing_ring_min_volume_title">ᱣᱚᱞᱭᱩᱢ ᱮᱦᱚᱵᱽ ᱢᱮᱸ</string>
+    <string name="increasing_ring_ramp_up_time_title">ᱨᱮᱸᱯᱟᱹᱯ ᱚᱠᱛᱚ</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ, ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱞᱚᱜᱽ</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">ᱯᱚᱠᱮᱴ ᱪᱤᱱᱦᱟᱹᱣ</string>
+    <string name="pocket_judge_summary">ᱥᱠᱨᱤᱻᱱ ᱵᱞᱚᱠ ᱟᱨ ᱥᱟᱫᱷᱚᱱ ᱯᱚᱠᱮᱴ ᱨᱮ ᱛᱟᱦᱮᱸᱱ ᱡᱷᱚᱜᱽ ᱵᱩᱛᱟᱹᱢ ᱤᱱᱯᱩᱴ</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">ᱮᱰᱟᱯᱴᱤᱵᱷ ᱯᱞᱮᱵᱮᱠᱽ</string>
+    <string name="adaptive_playback_disabled_summary">ᱵᱚᱸᱫᱽ</string>
+    <string name="adaptive_playback_timeout_title">ᱨᱮᱭᱟᱜ ᱴᱟᱭᱤᱢᱟᱩᱴ ᱵᱮᱵᱷᱟᱨ ᱢᱮᱸ</string>
+    <string name="adaptive_playback_timeout_none">ᱴᱟᱭᱤᱢᱚᱩᱴ ᱵᱟᱹᱱᱩᱜᱼᱟ</string>
+    <string name="adaptive_playback_timeout_none_summary">ᱮᱢ ᱪᱷᱚ (ᱴᱟᱭᱤᱢᱟᱩᱴ ᱵᱟᱹᱱᱩᱜᱼᱟ)</string>
+    <string name="adaptive_playback_timeout_30_secs">᱓᱐ ᱴᱤᱡᱽ ᱠᱚ</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">ᱮᱢ ᱪᱷᱚ (᱓᱐ ᱴᱤᱡᱽ ᱠᱚ)</string>
+    <string name="adaptive_playback_timeout_1_min">᱑ ᱴᱤᱯᱤᱡᱽ</string>
+    <string name="adaptive_playback_timeout_1_min_summary">ᱮᱢ ᱪᱷᱚ (᱑ ᱴᱤᱯᱤᱡᱽ)</string>
+    <string name="adaptive_playback_timeout_2_min">᱒ ᱴᱤᱯᱤᱡᱽ ᱠᱚ</string>
+    <string name="adaptive_playback_timeout_2_min_summary">ᱮᱢ ᱪᱷᱚ (᱒ ᱴᱤᱯᱤᱡᱽᱠᱚ)</string>
+    <string name="adaptive_playback_timeout_5_min">᱕ ᱴᱤᱯᱤᱡᱽ ᱠᱚ</string>
+    <string name="adaptive_playback_timeout_5_min_summary">ᱮᱢ ᱪᱷᱚ (᱕ ᱴᱤᱯᱤᱡᱽᱠᱚ)</string>
+    <string name="adaptive_playback_timeout_10_min">᱑ ᱴᱤᱯᱤᱡᱽ ᱠᱚ</string>
+    <string name="adaptive_playback_timeout_10_min_summary">ᱮᱢ ᱪᱷᱚ (᱑᱐ ᱴᱤᱯᱤᱡᱽᱠᱚ)</string>
+    <string name="adaptive_playback_explainer">ᱣᱚᱞᱭᱩᱢ ᱢᱭᱩᱴ ᱡᱷᱚᱜᱽ ᱮᱰᱟᱯᱴᱤᱵᱷ ᱯᱞᱮᱵᱮᱠ ᱫᱚ ᱟᱡᱽ ᱛᱮ ᱢᱮᱰᱤᱭᱟ ᱯᱚᱡᱽ ᱟᱭ ᱟᱨ ᱚᱱᱟ ᱥᱮᱴ ᱴᱟᱭᱤᱢ ᱨᱮ ᱚᱠᱟ ᱡᱷᱚᱜᱽ ᱣᱚᱞᱭᱩᱢ ᱴᱷᱤᱠᱚᱜᱼᱟ ᱟᱡᱽ ᱛᱮ ᱞᱟᱦᱟᱜᱼᱟ ᱾</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">ᱠᱞᱭᱮᱸᱴ ᱠᱚ VPNs ᱵᱮᱵᱷᱟᱨ ᱪᱷᱚ</string>
+    <string name="tethering_allow_vpn_upstreams_summary">ᱟᱹᱯᱥᱴᱨᱤᱢ ᱡᱩᱟᱹᱣ ᱞᱟᱹᱜᱤᱫᱽ VPN ᱡᱩᱲᱟᱹᱶᱠᱚ ᱞᱟᱹᱜᱤᱫᱽ ᱱᱚᱶᱟ ᱥᱟᱫᱷᱚᱱ \u2019 ᱨᱮᱭᱟᱜ ᱦᱚᱴᱥᱯᱚᱴ ᱠᱞᱟᱭᱮᱸᱴ ᱠᱚ ᱪᱷᱟᱲ ᱮᱢ ᱪᱷᱚᱭ ᱢᱮᱸ</string>
+    <!-- Running services toggle -->
+    <string name="background_processes_settings_title">ᱵᱮᱠᱜᱨᱟᱩᱸᱰ ᱠᱟᱹᱢᱤ</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">ᱫᱤᱱ ᱨᱮᱭᱟᱜ ᱥᱚᱢᱟᱭ ᱟᱨ ᱮᱢᱵᱤᱭᱸᱴ ᱥᱛᱤᱛᱷᱤ ᱦᱤᱥᱟᱹᱵ ᱛᱮ ᱟᱢᱟᱜᱽ ᱥᱠᱨᱤᱻᱱ ᱚᱯᱴᱤᱢᱟᱭᱤᱡᱽ ᱞᱮᱠᱷᱟᱱ ᱟᱢᱟᱜ ᱢᱮᱫᱽ ᱦᱟᱹᱥᱩ ᱟᱨ ᱯᱟᱲᱦᱟᱣ ᱠᱚ ᱨᱮᱭᱟᱜ ᱠᱟᱹᱢᱤ ᱠᱚ ᱴᱷᱤᱠ ᱜᱟᱱᱚᱜᱼᱟ</string>
+    <string name="live_display_mode">ᱰᱤᱥᱯᱞᱮ ᱢᱳᱰ</string>
+    <string name="live_display_color_temperature_title">ᱨᱚᱝ ᱨᱮᱭᱟᱜᱽ ᱛᱟᱯ</string>
+    <string name="live_display_color_temperature_summary">ᱫᱤᱱ:<xliff:g id="day_temperature">%1$d</xliff:g>ᱠ ᱟᱹᱭᱩᱵ:<xliff:g id="night_temperature">%2$d</xliff:g>ᱠ</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>ᱠ</string>
+    <string name="live_display_day">ᱫᱤᱱ</string>
+    <string name="live_display_night">ᱟᱹᱭᱩᱵᱽ</string>
+    <string name="live_display_outdoor_mode_title">ᱟᱡᱽ ᱛᱮ ᱵᱟᱷᱨᱮ ᱢᱳᱰ</string>
+    <string name="live_display_outdoor_mode_summary">ᱪᱚᱠᱢᱚᱠ ᱵᱚᱰᱷᱟᱣ ᱢᱮ ᱟᱨ ᱪᱚᱠᱢᱚᱠ ᱥᱤᱧ ᱪᱟᱸᱫᱚ ᱞᱟᱛᱟᱨ ᱨᱮ ᱟᱡᱽ ᱛᱮ ᱥᱮᱪᱩᱨᱮᱴᱟᱜᱽ ᱢᱮᱸ</string>
+    <string name="live_display_low_power_title">ᱯᱟᱹᱣᱟᱨ ᱠᱷᱚᱯᱚᱛ ᱠᱚᱢᱼᱢᱮᱸ</string>
+    <string name="live_display_low_power_summary">ᱵᱤᱱᱟᱹ ᱰᱤᱜᱨᱮᱰᱮᱥᱚᱱ ᱛᱮ ᱠᱚᱢ ᱯᱟᱹᱣᱟᱹᱨ ᱠᱷᱚᱯᱚᱛ ᱞᱟᱹᱜᱤᱫᱽ ᱰᱤᱥᱯᱞᱮ ᱮᱰᱡᱟᱥᱼᱴ‌ ᱢᱮᱸ</string>
+    <string name="live_display_enhance_color_title">ᱨᱚᱝ ᱠᱚ ᱮᱱᱦᱟᱱᱥ</string>
+    <string name="live_display_enhance_color_summary">ᱪᱚᱢᱰᱟ ᱴᱚᱱ ᱠᱚ, ᱥᱤᱱᱮᱨᱭ, ᱟᱨ ᱚᱞᱜᱟ ᱪᱤᱛᱟᱹᱨ ᱠᱚ ᱨᱮᱭᱟᱜ ᱵᱷᱟᱭᱵᱨᱮᱱᱥ ᱥᱩᱫᱷᱟᱹᱨ ᱢᱮᱸ</string>
+    <string name="live_display_color_profile_title">ᱨᱚᱝ ᱯᱨᱚᱯᱷᱟᱭᱤᱞ</string>
+    <string name="live_display_color_profile_standard_title">ᱥᱴᱟᱱᱰᱟᱨᱰ</string>
+    <string name="live_display_color_profile_standard_summary">ᱥᱚᱴᱷᱤᱠ ᱨᱚᱝ ᱟᱨ ᱪᱚᱠᱢᱚᱠ ᱯᱩᱸᱰ</string>
+    <string name="live_display_color_profile_natural_title">ᱱᱟᱪᱩᱨᱟᱞ</string>
+    <string name="live_display_color_profile_natural_summary">ᱯᱨᱚᱠᱨᱩᱛ ᱨᱚᱝ ᱟᱨ ᱪᱚᱢᱲᱟ ᱴᱚᱱ ᱠᱚ</string>
+    <string name="live_display_color_profile_dynamic_title">ᱰᱭᱱᱟᱢᱤᱠ</string>
+    <string name="live_display_color_profile_dynamic_summary">ᱮᱱᱦᱟᱸᱥᱼᱰ ᱨᱚᱝ ᱟᱨ ᱪᱚᱠᱢᱚᱠ ᱯᱩᱸᱰ</string>
+    <string name="live_display_color_profile_cinema_title">ᱥᱤᱱᱮᱢᱟ</string>
+    <string name="live_display_color_profile_cinema_summary">ᱣᱤᱰᱤᱭᱚ ᱞᱟᱹᱜᱤᱫᱽ ᱵᱮᱥ ᱨᱚᱸᱝ ᱴᱷᱤᱠ ᱠᱟᱱᱟ</string>
+    <string name="live_display_color_profile_astronomy_title">ᱮᱥᱴᱨᱚᱱᱚᱢᱭ</string>
+    <string name="live_display_color_profile_astronomy_summary">ᱧᱩᱛ ᱢᱳᱰ ᱫᱚᱦᱚ ᱞᱟᱹᱜᱤᱫᱽ ᱡᱟᱹᱥᱛᱤ ᱞᱤᱞ ᱟᱨᱟᱜᱽ</string>
+    <string name="live_display_color_profile_photography_title">ᱯᱷᱚᱴᱚᱜᱨᱟᱯᱷᱭ</string>
+    <string name="live_display_color_profile_photography_summary">ᱯᱷᱚᱴᱚ ᱠᱚ ᱞᱟᱹᱜᱤᱫᱽ ᱴᱷᱤᱠ ᱨᱤᱼᱯᱨᱚᱰᱚᱠᱥᱚᱱ</string>
+    <string name="live_display_color_profile_basic_title">ᱵᱮᱥᱤᱠ</string>
+    <string name="live_display_color_profile_basic_summary">ᱰᱤᱥᱯᱞᱮ ᱟᱹᱱᱠᱟᱹᱞᱤᱵᱨᱮᱴᱮᱰ ᱵᱮᱵᱷᱟᱨ ᱢᱮᱸ</string>
+    <string name="live_display_color_profile_adaptive_title">ᱟᱰᱟᱯᱴᱤᱵᱷ</string>
+    <string name="live_display_color_profile_adaptive_summary">ᱮᱢᱵᱤᱭᱮᱸᱴ ᱥᱛᱤᱛᱷᱤ ᱦᱤᱥᱟᱹᱵ ᱛᱮ ᱨᱚᱝ ᱢᱮᱸ</string>
+    <string name="live_display_color_profile_reading_title">ᱯᱟᱲᱦᱟᱣ ᱟᱧ</string>
+    <string name="live_display_color_profile_reading_summary">ᱠᱚᱢ ᱢᱮᱫᱽ ᱦᱟᱹᱥᱩ ᱞᱟᱹᱜᱤᱫᱽ ᱩᱨᱜᱩᱢ ᱨᱚᱝ</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">ᱨᱚᱝ ᱠᱚ sRGB ᱨᱚᱝ ᱡᱟᱭᱜᱟ ᱛᱮ ᱮᱠᱭᱩᱨᱮᱴ ᱢᱮᱸ</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">ᱨᱚᱝ ᱠᱚ DCI-P3 ᱨᱚᱝ ᱡᱟᱭᱜᱟ ᱛᱮ ᱮᱠᱭᱩᱨᱮᱴ ᱢᱮᱸ</string>
+    <string name="live_display_reading_mode_title">ᱯᱟᱲᱦᱟᱣ ᱢᱳᱰ</string>
+    <string name="live_display_reading_mode_summary">ᱡᱟᱹᱥᱛᱤ ᱯᱟᱲᱦᱟᱣᱼᱜ ᱞᱟᱹᱜᱤᱫᱛ ᱜᱨᱮᱥᱠᱮᱞ ᱢᱳᱰ</string>
+    <string name="color_calibration_title">ᱨᱚᱝ ᱠᱟᱹᱞᱤᱵᱨᱮᱥᱚᱱ</string>
+    <string name="color_calibration_summary">ᱚᱱ ᱥᱠᱨᱤᱻᱱ ᱨᱚᱝ ᱠᱟᱹᱞᱤᱵᱨᱮᱴ</string>
+    <string name="color_red_title">ᱟᱨᱟᱜᱽ</string>
+    <string name="color_green_title">ᱥᱟᱹᱵᱡᱟ</string>
+    <string name="color_blue_title">ᱞᱤᱞ</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">ᱪᱤᱛᱟᱫᱨ ᱮᱰᱡᱟᱹᱥᱴᱢᱮᱸᱴ</string>
+    <string name="picture_adjustment_summary">ᱦᱭᱩ, ᱥᱟᱹᱪᱩᱨᱮᱥᱚᱱ, ᱤᱱᱴᱮᱱᱥᱤᱴᱭ ᱟᱨ ᱠᱚᱱᱴᱨᱟᱥᱼᱴ ᱮᱰᱡᱟᱹᱥᱴ ᱢᱮᱸ</string>
+    <string name="adj_hue_title">ᱦᱭᱩ</string>
+    <string name="adj_saturation_title">ᱥᱮᱪᱩᱨᱮᱥᱚᱱ</string>
+    <string name="adj_intensity_title">ᱤᱱᱴᱮᱱᱥᱤᱴᱭ</string>
+    <string name="adj_contrast_title">ᱠᱳᱱᱴᱨᱟᱥᱼᱴ</string>
+    <!-- AoD on charge -->
+    <string name="doze_on_charge_title">ᱪᱟᱨᱡᱤᱝ ᱡᱷᱚᱜ ᱮᱢ ᱪᱷᱚ ᱨᱮᱜᱮ</string>
+    <string name="doze_on_charge_summary">ᱪᱟᱨᱡᱤᱝ ᱡᱷᱚᱜᱽ ᱮᱢᱵᱤᱭᱮᱸᱴ ᱰᱤᱥᱯᱞᱮ ᱫᱮᱠᱷᱟᱣ ᱠᱟᱜᱽ ᱢᱮᱸ</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱥᱟᱲᱮ ᱠᱚ ᱛᱟᱞᱟ ᱨᱮᱭᱟᱜᱽ ᱚᱠᱛᱚ</string>
+    <string name="app_notification_sound_timeout_summary_template">ᱡᱷᱚᱛᱚ <xliff:g id="duration">%1$s</xliff:g> ᱨᱮ ᱢᱤᱫᱽ ᱠᱷᱚᱱ ᱡᱟᱹᱥᱛᱤ ᱛᱷᱚᱨ ᱥᱟᱲᱮ ᱟᱨ ᱵᱟᱝ ᱵᱷᱟᱭᱵᱨᱮᱥᱚᱱ ᱠᱚ ᱟᱞᱚ ᱮᱢ ᱪᱷᱚᱭᱟ</string>
+    <string name="app_notification_sound_timeout_value_none">ᱚᱠᱟ ᱵᱟᱫᱷᱟ ᱵᱟᱝ</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">᱑᱐ ᱴᱤᱡᱽᱠᱚ</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">᱓᱐ ᱴᱤᱡᱽ ᱠᱚ</string>
+    <string name="app_notification_sound_timeout_value_1_minute">᱑ ᱴᱤᱯᱤᱡᱽ</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">᱕ ᱴᱤᱯᱤᱡᱽ ᱠᱚ</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">᱑ ᱴᱤᱯᱤᱡᱽ ᱠᱚ</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">᱓᱐ ᱴᱤᱯᱤᱡᱽ ᱠᱚ</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">ᱦᱟᱯᱴᱤᱠ ᱯᱷᱤᱰᱵᱮᱠ</string>
+    <string name="back_gesture_haptic_summary">ᱯᱟᱹᱞᱟᱹ ᱜᱮᱥᱪᱚᱨ ᱨᱮ ᱦᱮᱯᱴᱤᱪ ᱮᱯᱷᱮᱠᱼᱴ ᱮᱢ ᱪᱷᱚ</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">ᱯᱭᱨᱟᱹ</string>
+    <string name="back_height_high_label">ᱞᱟᱛᱟᱨ</string>
+    <string name="back_options_dialog_title">ᱚᱯᱥᱚᱱ</string>
+    <string name="back_height_message">ᱦᱮᱸᱫᱮ ᱜᱮᱥᱪᱚᱨ ᱞᱟᱹᱜᱤᱫᱽ ᱚᱛᱟ ᱞᱟᱹᱜᱤᱫᱽ ᱡᱟᱭᱜᱟ ᱠᱚ ᱨᱟᱭᱟᱜᱽ ᱥᱠᱨᱤᱻᱱ ᱨᱮᱭᱟᱜ ᱩᱪᱚ ᱾</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">ᱠᱚᱢ ᱥᱮ ᱠᱚᱢ ᱨᱤᱯᱷᱨᱮᱥ ᱨᱮᱴ</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">ᱚᱛᱟᱥᱠᱨᱤᱻᱱ ᱜᱮᱥᱪᱚᱨᱠᱚ</string>
+    <string name="touchscreen_gesture_settings_summary">ᱞᱚᱜᱚᱱ ᱠᱟᱹᱢᱤ ᱠᱚ ᱞᱟᱫᱜᱫᱽ ᱛᱮ ᱟᱭᱢᱟ ᱴᱚᱫᱥᱠᱨᱤ</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞ</string>
+    <string name="volume_steps_summary">ᱣᱚᱞᱭᱩᱢ ᱞᱟᱹᱜᱤᱫᱽ ᱪᱟᱞ ᱮᱞ</string>
+    <string name="volume_steps_alarm_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱺ ᱟᱞᱟᱨᱢ</string>
+    <string name="volume_steps_dtmf_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ DTMF</string>
+    <string name="volume_steps_music_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ ᱥᱮᱨᱮᱧ</string>
+    <string name="volume_steps_notification_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ</string>
+    <string name="volume_steps_ring_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ ᱴᱤᱸᱜᱚᱨ</string>
+    <string name="volume_steps_system_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ ᱥᱭᱥᱴᱟᱹᱢ</string>
+    <string name="volume_steps_voice_call_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ ᱥᱟᱲᱮ ᱠᱚᱞ</string>
+    <string name="volume_steps_reset">ᱨᱤᱥᱮᱴ</string>
+</resources>
