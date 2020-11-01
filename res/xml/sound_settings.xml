@@ -149,6 +149,17 @@
         settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
         settings:keywords="@string/keywords_media_controls"/>
 
+    <!-- Volume dialog timeout -->
+    <com.evolution.settings.preference.CustomSeekBarPreference
+        android:key="volume_dialog_timeout"
+        android:title="@string/volume_dialog_timeout_title"
+        android:summary="@string/volume_dialog_timeout_summary"
+        android:order="-95"
+        android:max="7"
+        android:min="1"
+        settings:defaultValue="3"
+        settings:units="@string/unit_seconds" />
+
     <!-- Also vibrate for calls -->
     <com.google.android.settings.accessibility.HapticsDialogPreference
         android:key="vibration_preference_screen"
