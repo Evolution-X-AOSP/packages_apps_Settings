@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2020 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Suchen Sie den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> Ihres Tablets.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Suchen Sie den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> Ihres Geräts.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Finde den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> des Geräts.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">Rückseite</string>
+    <string name="security_settings_fingerprint_sensor_location_front">Vorderseite</string>
+    <string name="security_settings_fingerprint_sensor_location_left">linke Seite</string>
+    <string name="security_settings_fingerprint_sensor_location_right">rechte Seite</string>
+    <!-- ROM version -->
+    <string name="about_device_name">Gerät</string>
+    <string name="build_date">Build-Datum</string>
+    <string name="rom_version">Evolution X Version</string>
+    <string name="rom_version_default">Unbekannt</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plattform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Gesamter RAM</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Wählen Sie die Größe des Entsperrmusters aus</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Fehlerhaftes Entsperrmuster anzeigen</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Entsperrmuster-Punkte anzeigen</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Bildschirmfoto-Auslöseton</string>
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">The Evolver</string>
+    <string name="evolver_dashboard_summary">Beginne dein Gerät mit unseren Funktionen weiterzuentwickeln</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Antippen, um Info anzuzeigen</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Klingelton- &amp; Benachrichtigungslautstärke verknüpfen</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Root-Debugging</string>
+    <string name="adb_enable_summary_root">Android-Debugging als Root erlauben</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">LED Farbe</string>
+    <string name="custom_light_on_time_title">Anschaltdauer der pulsierenden LED (in ms)</string>
+    <string name="custom_light_off_time_title">Ausschaltdauer der pulsierenden LED (in ms)</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Akku-Temperatur</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Wischen für Bildschirmfoto</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen für ein Bildschirmfoto</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Lautstärkeregler auf der linken Seite</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisches Entsperren bei korrekter PIN/Passwort Eingabe</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
+    <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch das PIN-Layout zufällig neu wählen</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Fingerabdruck bei ausgeschaltetem Display</string>
+    <string name="fod_gesture_summary">Ermöglicht das Entsperren des Geräts, ohne zuerst den Bildschirm einschalten zu müssen</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Über Fingerabdrucksensor nach rechts oder links streichen, um Benachrichtigungen zu schließen</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Um Benachrichtigungen zu schließen, nach links oder rechts über den rückwärtigen Fingerabdrucksensor wischen.</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Backup-Anbieter ändern</string>
+    <string name="backup_transport_title">Backup-Anbieter auswählen</string>
+    <!-- Clock style -->
+    <string name="clock_style_title">Uhrenstil</string>
+    <string name="clock_style_summary">Sperrbildschirm-Uhr anpassen</string>
+    <string name="lockscreen_display_title">Sperrbildschirmanzeige</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_summary">Rotationswinkel auswählen</string>
+    <string name="display_rotation_disabled">Deaktiviert</string>
+    <string name="display_rotation_unit">Grad</string>
+    <string name="display_rotation_category_title">Rotationsmodus</string>
+    <string name="display_rotation_0_title">0 Grad</string>
+    <string name="display_rotation_90_title">90 Grad</string>
+    <string name="display_rotation_180_title">180 Grad</string>
+    <string name="display_rotation_270_title">270 Grad</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Vibrationsmuster des Klingeltons</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Benutzerdefiniert</string>
+    <string name="custom_vibration_pattern_title">Benutzerdefiniertes Muster</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Überspringen von Musiktiteln</string>
+    <string name="volume_skiptrack_title">Lautstärketasten zum Überspringen von Titeln</string>
+    <string name="volume_skiptrack_summary">Lieder durch langes Drücken der Lautstärketaste überspringen; funktioniert auch als Fernsteuerung für den Fernseher oder PC, mit zum Beispiel Spotify (die App muss auf dem Handy laufen und in den Benachrichtigungen angezeigt werden).</string>
+    <string name="pulse_on_new_tracks_title">Pulse-Benachrichtigung anzeigen, wenn ein neuer Titel abgespielt wird</string>
+    <string name="pulse_on_new_tracks_summary">Zeige Ambient Display, wenn ein neuer Titel abgespielt wird. Doppeltes Tippen auf die Titel Info, um zum nächsten Titel zu springen.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Zeige Ambient Display, wenn ein Titel abgespielt wird</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Statistik zurücksetzen</string>
+    <string name="battery_stats_message">Akkuverbrauch-Statistiken werden zurückgesetzt</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Batteriezustand</string>
+    <string name="battery_health_summary">Akkuzustand des Gerätes</string>
+    <string name="current_battery_capacity">Batteriekapazität</string>
+    <string name="current_battery_capacity_summary">Batteriekapazität bestimmt durch Kernel</string>
+    <string name="designed_battery_capacity">Ursprüngliche Akkukapazität</string>
+    <string name="designed_battery_capacity_summary">Die vom Hersteller angegebene Batteriekapazität</string>
+    <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
+    <!-- Themes customization -->
+    <string name="theme_customization_systemui_title">Farbauswahl</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Länge des seitlichen Gestenbereichs</string>
+    <string name="hidden_label">Ausgeblendet</string>
+    <string name="long_label">Lang</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobile Daten</string>
+    <string name="data_usage_app_restrict_data_summary">Nutzung mobiler Daten erlauben</string>
+    <string name="data_usage_app_restrict_vpn">VPN-Daten</string>
+    <string name="data_usage_app_restrict_vpn_summary">Nutzung von VPN-Daten erlauben</string>
+    <string name="data_usage_app_restrict_wifi">Wlan-Datenbeschränkung</string>
+    <string name="data_usage_app_restrict_wifi_summary">WLAN-Datenzugriff erlauben</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Zwischen den Modi wechseln</string>
+    <string name="prevent_ringing_option_cycle_summary">An (Zwischen den Modi wechseln)</string>
+    <!-- Double tap-to-sleep -->
+    <string name="doubletap_lockscreen_screen_title">Bildschirm ausschalten</string>
+    <string name="doubletap_lockscreen_title">Doppelt auf die Statusleiste tippen, um den Bildschirm auszuschalten</string>
+    <string name="doubletap_lockscreen_summary">Doppelt auf die leeren Bereiche des Sperrbildschirms/der Statusleiste tippen, um den Bildschirm auszuschalten</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Ansteigende Ruftonlautstärke</string>
+    <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
+    <string name="increasing_ring_ramp_up_time_title">Steigerung nach</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">Benachrichtigungen, Benarchtigungsprotokoll</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Taschenmodus</string>
+    <string name="pocket_judge_summary">Verhindert Bildschirm und Tasteneingaben, wenn sich das Gerät in einer Tasche befindet</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive Medienwiedergabe</string>
+    <string name="adaptive_playback_disabled_summary">Aus</string>
+    <string name="adaptive_playback_timeout_title">Pausieren für</string>
+    <string name="adaptive_playback_timeout_none">Nicht pausieren</string>
+    <string name="adaptive_playback_timeout_none_summary">An (ohne Pausieren)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 Sekunden</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">An (30 Sekunden)</string>
+    <string name="adaptive_playback_timeout_1_min">1 Minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">An (1 Minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 Minuten</string>
+    <string name="adaptive_playback_timeout_2_min_summary">An (2 Minuten)</string>
+    <string name="adaptive_playback_timeout_5_min">5 Minuten</string>
+    <string name="adaptive_playback_timeout_5_min_summary">An (5 Minuten)</string>
+    <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
+    <string name="adaptive_playback_timeout_10_min_summary">An (10 Minuten)</string>
+    <string name="adaptive_playback_explainer">\"Adaptive Medienwiedergabe\" pausiert automatisch die Wiedergabe gerade laufender Medien, wenn die Lautstärke stumm geschaltet wird und wird automatisch fortgesetzt, wenn die Lautstärke innerhalb der festgelegten Zeit wiederhergestellt wird.</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Erlaube Clients VPNs zu verwenden</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Erlaube über Hotspot verbundenen Geräten die VPN Verbindung für ausgehende Daten zu nutzen</string>
+    <!-- Running services toggle -->
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimiert den Bildschirm basierend auf der Tageszeit und den Umgebungsbedingungen, um die Lesbarkeit zu verbessern und die Ermüdung der Augen zu mildern</string>
+    <string name="live_display_mode">Bildschirmmodus</string>
+    <string name="live_display_color_temperature_title">Farbtemperatur</string>
+    <string name="live_display_color_temperature_summary">Tag: <xliff:g id="day_temperature">%1$d</xliff:g>K Nacht: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="grad">%1$d</xliff:g> K</string>
+    <string name="live_display_day">Tag</string>
+    <string name="live_display_night">Nacht</string>
+    <string name="live_display_outdoor_mode_title">Automatischer Outdoormodus</string>
+    <string name="live_display_outdoor_mode_summary">Bei grellem Sonnenlicht Helligkeit und Sättigung automatisch erhöhen</string>
+    <string name="live_display_low_power_title">Akkuverbrauch reduzieren</string>
+    <string name="live_display_low_power_summary">Nutze niedrigst-möglichen Stromverbrauch ohne Beeinträchtigung der Anzeige</string>
+    <string name="live_display_enhance_color_title">Verbesserte Farbwiedergabe</string>
+    <string name="live_display_enhance_color_summary">Farbdynamik von Hauttönen, Landschaftsaufnahmen und anderen Bildelementen verbessern</string>
+    <string name="live_display_color_profile_title">Farbprofil</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Genaue Farbdarstellung und helle Weißtöne</string>
+    <string name="live_display_color_profile_natural_title">Natürlich</string>
+    <string name="live_display_color_profile_natural_summary">Realistische Farben und Hauttöne</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamisch</string>
+    <string name="live_display_color_profile_dynamic_summary">Genaue Farbdarstellung und helle Weißtöne</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Perfekte Farbwiedergabe für Videos</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Tiefes Rot für den Erhalt der Nachtsicht</string>
+    <string name="live_display_color_profile_photography_title">Fotografie</string>
+    <string name="live_display_color_profile_photography_summary">Perfekte Farbwiedergabe für Fotos</string>
+    <string name="live_display_color_profile_basic_title">Einfach</string>
+    <string name="live_display_color_profile_basic_summary">Display unkalibriert verwenden</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
+    <string name="live_display_color_profile_adaptive_summary">Farben passen sich an Umgebungsbedingungen an</string>
+    <string name="live_display_color_profile_reading_title">Lesen</string>
+    <string name="live_display_color_profile_reading_summary">Wärmere Farben für geringere Augenbelastung</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Farben passend zum sRGB-Farbraum</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Farben passend zum DCI-P3-Farbraum</string>
+    <string name="live_display_reading_mode_title">Lesemodus</string>
+    <string name="live_display_reading_mode_summary">Graustufen-Modus für längeres Lesen</string>
+    <string name="color_calibration_title">Farbkalibrierung</string>
+    <string name="color_calibration_summary">Bildschirmfarben kalibrieren</string>
+    <string name="color_red_title">Rot</string>
+    <string name="color_green_title">Grün</string>
+    <string name="color_blue_title">Blau</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Bildanpassung</string>
+    <string name="picture_adjustment_summary">Anpassen von Farbton, Sättigung, Intensität und Kontrast</string>
+    <string name="adj_hue_title">Farbton</string>
+    <string name="adj_saturation_title">Sättigung</string>
+    <string name="adj_intensity_title">Intensität</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- AoD on charge -->
+    <string name="doze_on_charge_title">Bildschirm beim Laden nicht abschalten</string>
+    <string name="doze_on_charge_summary">Ambient-Bildschirm beim Laden anzeigen</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimale Zeit zwischen Benachrichtigungstönen</string>
+    <string name="app_notification_sound_timeout_summary_template">Töne und Vibrationen nur alle <xliff:g id="duration">%1$s</xliff:g> zulassen</string>
+    <string name="app_notification_sound_timeout_value_none">Keine Beschränkung</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 Sekunden</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 Sekunden</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 Minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 Minuten</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 Minuten</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 Minuten</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptische Rückmeldung</string>
+    <string name="back_gesture_haptic_summary">Vibrieren beim Ausführen der Zurück-Geste</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Vollständig</string>
+    <string name="back_height_high_label">Unten</string>
+    <string name="back_options_dialog_title">Optionen</string>
+    <string name="back_height_message">Länge des Bildschirmseitenbereichs, der für die Zurück-Geste verwendet werden kann.</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
+    <string name="touchscreen_gesture_settings_summary">Schnellaktionen durch verschiedene Bildschirmgesten ausführen</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Lautstärkestufen</string>
+    <string name="volume_steps_summary">Anzahl der verfügbaren Lautstärke-Stufen</string>
+    <string name="volume_steps_alarm_title">Lautstärkestufen: Wecker</string>
+    <string name="volume_steps_dtmf_title">Lautstärkestufen: DTMF</string>
+    <string name="volume_steps_music_title">Lautstärkestufen: Musik</string>
+    <string name="volume_steps_notification_title">Lautstärkestufen: Benachrichtigungen</string>
+    <string name="volume_steps_ring_title">Lautstärkestufen: Klingelton</string>
+    <string name="volume_steps_system_title">Lautstärkestufen: System</string>
+    <string name="volume_steps_voice_call_title">Lautstärkestufen: Sprachanruf</string>
+    <string name="volume_steps_reset">Zurücksetzen</string>
+</resources>
