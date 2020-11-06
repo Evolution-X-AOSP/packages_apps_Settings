@@ -67,4 +67,15 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">スワイプでスクリーンショット</string>
     <string name="three_finger_gesture_summary">3本指で下スワイプしてスクリーンショットを取得する</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">音量パネルの左側表示</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
+    <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
+    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">画面消灯時の指紋認証</string>
+    <string name="fod_gesture_summary">画面の点灯なしでの端末の復帰を許可する</string>
 </resources>
