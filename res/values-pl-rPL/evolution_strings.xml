@@ -67,4 +67,15 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Gest zrzutu ekranu</string>
     <string name="three_finger_gesture_summary">Przeciągnij w dół trzema palcami aby zrobić zrzut ekranu</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Panel głośności po lewej</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie kiedy zostanie podany prawidłowy PIN/hasło</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Pomieszany układ</string>
+    <string name="unlock_scramble_pin_layout_summary">Pomieszaj układ cyfr przy wpisywaniu kodu PIN</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Odcisk palca na wyłączonym ekranie</string>
+    <string name="fod_gesture_summary">Pozwala na odblokowanie urządzenia bez konieczności wybudzenia ekranu</string>
 </resources>
