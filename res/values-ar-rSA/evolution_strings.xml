@@ -67,4 +67,15 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">اسحب لأخذ لقطة شاشة</string>
     <string name="three_finger_gesture_summary">السحب لأسفل بثلاث أصابع لأخذ لقطة شاشة</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">لوحة الصوت على اليسار</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">الفتح السريع</string>
+    <string name="unlock_quick_unlock_control_summary">الفتح تلقائياً عندما يتم إدخال PIN/كلمة السر صحيحة</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">ترتيب عشوائي</string>
+    <string name="unlock_scramble_pin_layout_summary">ترتيب أزرار الأرقام لرمز PIN بصورة عشوائية عند فك قفل الجهاز</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">بصمة الشاشة المشغّلة</string>
+    <string name="fod_gesture_summary">السماح بفتح الجهاز دون الحاجة إلى إيقاظ الشاشة أولاً</string>
 </resources>
