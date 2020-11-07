@@ -93,8 +93,7 @@
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
-        android:order="-138"
-        settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
+        android:order="-138" />
 
     <!-- Increasing ring -->
     <com.evolution.settings.preference.SystemSettingSwitchPreference
