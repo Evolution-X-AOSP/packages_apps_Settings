@@ -8408,6 +8408,9 @@
     <!-- Sound: Title for the option managing ring volume. [CHAR LIMIT=30] -->
     <string name="ring_volume_option_title">Ring &amp; notification volume</string>
 
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <string name="ring_volume_unlinked_option_title">Ring volume</string>
+
     <!-- Sound: Title for the option managing notification volume. [CHAR LIMIT=30] -->
     <string name="notification_volume_option_title">Notification volume</string>
 

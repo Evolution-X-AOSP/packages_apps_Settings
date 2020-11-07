@@ -18,7 +18,10 @@ package com.android.settings.notification;
 
 import android.content.Context;
 import android.media.AudioManager;
+import android.provider.Settings;
 import android.text.TextUtils;
+
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
@@ -27,6 +30,7 @@ public class NotificationVolumePreferenceController extends
     RingVolumePreferenceController {
 
     private static final String KEY_NOTIFICATION_VOLUME = "notification_volume";
+    private static final String KEY_VOLUME_LINK_NOTIFICATION = "volume_link_notification";
 
     public NotificationVolumePreferenceController(Context context) {
         super(context, KEY_NOTIFICATION_VOLUME);
@@ -36,6 +40,19 @@ public class NotificationVolumePreferenceController extends
     public int getAvailabilityStatus() {
         return mContext.getResources().getBoolean(R.bool.config_show_notification_volume)
                 && !mHelper.isSingleVolume() ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+        if (getAvailabilityStatus() == UNSUPPORTED_ON_DEVICE) {
+            return;
+        }
+        VolumeSeekBarPreference notificationVolume =
+                (VolumeSeekBarPreference) screen.findPreference(KEY_NOTIFICATION_VOLUME);
+        boolean linked = Settings.Secure.getInt(mContext.getContentResolver(),
+                KEY_VOLUME_LINK_NOTIFICATION, 1) == 1;
+        notificationVolume.setVisible(linked ? false : true);
     }
 
     @Override
