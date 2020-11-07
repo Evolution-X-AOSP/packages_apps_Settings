@@ -33,4 +33,11 @@
     <PreferenceCategory
         android:key="gesture_adaptive_playback_category"
         android:title="@string/adaptive_playback_timeout_title" />
+
+    <Preference
+        android:icon="@drawable/ic_adaptive_playback_explainer"
+        android:selectable="false"        
+        android:persistent="false"
+        android:summary="@string/adaptive_playback_explainer" />
+
 </PreferenceScreen>
