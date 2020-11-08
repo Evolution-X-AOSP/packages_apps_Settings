@@ -37,14 +37,12 @@ import com.android.settings.widget.VideoPreference;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
-import com.android.settingslib.core.lifecycle.events.OnCreate;
 import com.android.settingslib.core.lifecycle.events.OnPause;
 import com.android.settingslib.core.lifecycle.events.OnResume;
-import com.android.settingslib.core.lifecycle.events.OnSaveInstanceState;
 
 public class AdaptivePlaybackGesturePreferenceController extends AbstractPreferenceController
-        implements RadioButtonPreference.OnClickListener, LifecycleObserver, OnSaveInstanceState,
-        OnResume, OnPause, OnCreate, PreferenceControllerMixin {
+        implements RadioButtonPreference.OnClickListener, LifecycleObserver,
+        OnResume, OnPause, PreferenceControllerMixin {
 
     @VisibleForTesting
     static final String KEY_NO_TIMEOUT = "adaptive_playback_timeout_none";
@@ -59,7 +57,6 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
     @VisibleForTesting
     static final String KEY_10_MIN = "adaptive_playback_timeout_10_min";
 
-    private final String KEY_VIDEO_PAUSED = "key_video_paused";
     private final String PREF_KEY_VIDEO = "gesture_adaptive_playback_video";
     private final String KEY = "gesture_adaptive_playback_category";
     private final Context mContext;
@@ -135,10 +132,6 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
     }
 
     @Override
-    public void onSaveInstanceState(Bundle outState) {
-    }
-
-    @Override
     public void onRadioButtonClicked(RadioButtonPreference preference) {
         int adaptivePlaybackTimeout = keyToSetting(preference.getKey());
         if (adaptivePlaybackTimeout != Settings.System.getIntForUser(mContext.getContentResolver(),
@@ -200,10 +193,6 @@ public class AdaptivePlaybackGesturePreferenceController extends AbstractPrefere
             mTimeout5MinPref.setEnabled(true);
             mTimeout10MinPref.setEnabled(true);
         }
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
     }
 
     @Override
