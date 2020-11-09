@@ -88,4 +88,10 @@
         android:title="@string/back_gesture_arrow_message"
         android:summary="@string/back_gesture_arrow_summary"
         android:defaultValue="true" />
+
+    <SwitchPreference
+        android:key="immersive_navigation"
+        android:title="@string/immersive_navigation_title"
+        settings:allowDividerAbove="true" />
+
 </PreferenceScreen>

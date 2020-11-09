@@ -572,4 +572,7 @@
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">Only apply when screen is turned on</string>
     <string name="auto_brightness_one_shot_summary">Adjustment will occur one time</string>
+
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Immersive navigation</string>
 </resources>
