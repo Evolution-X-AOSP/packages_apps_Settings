@@ -21,6 +21,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 
 import com.android.internal.annotations.VisibleForTesting;
+import com.android.internal.util.evolution.EvolutionUtils;
 
 public class GlobalActionsPanelPreferenceController extends GesturePreferenceController {
     private static final String PREF_KEY_VIDEO = "global_actions_panel_video";
@@ -40,8 +41,7 @@ public class GlobalActionsPanelPreferenceController extends GesturePreferenceCon
 
     @Override
     public int getAvailabilityStatus() {
-        int enabled = Settings.Secure.getInt(mContext.getContentResolver(), AVAILABLE_SETTING, 0);
-        return enabled == 1 ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
+        return EvolutionUtils.hasNFC(mContext) == true ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
     }
 
     @Override
