@@ -171,4 +171,60 @@
     <string name="adaptive_playback_timeout_10_min">10 分钟</string>
     <string name="adaptive_playback_timeout_10_min_summary">开启(10分钟)</string>
     <string name="adaptive_playback_explainer">当音量被静音时，自适应播放会自动暂停媒体，当音量在设定时间内恢复时会自动恢复。</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接</string>
+    <!-- Running services toggle -->
+    <string name="background_processes_settings_title">后台进程</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">根据时间和环境条件优化你的屏幕，以提高可读性和减少眼睛疲劳</string>
+    <string name="live_display_mode">显示模式</string>
+    <string name="live_display_color_temperature_title">色温</string>
+    <string name="live_display_color_temperature_summary">白天：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d </xliff:g>K</string>
+    <string name="live_display_day">白天</string>
+    <string name="live_display_night">夜间</string>
+    <string name="live_display_outdoor_mode_title">自动户外模式</string>
+    <string name="live_display_outdoor_mode_summary">强光下自动增加屏幕亮度和饱和度</string>
+    <string name="live_display_low_power_title">降低耗电</string>
+    <string name="live_display_low_power_summary">调整屏幕获得最低功耗，但不削弱显示效果</string>
+    <string name="live_display_enhance_color_title">色彩增强</string>
+    <string name="live_display_enhance_color_summary">为肤色、风景和其他图像提升色彩饱和度</string>
+    <string name="live_display_color_profile_title">颜色配置</string>
+    <string name="live_display_color_profile_standard_title">标准</string>
+    <string name="live_display_color_profile_standard_summary">准确的颜色和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">真实色彩还原</string>
+    <string name="live_display_color_profile_dynamic_title">动态</string>
+    <string name="live_display_color_profile_dynamic_summary">鲜艳模式</string>
+    <string name="live_display_color_profile_cinema_title">影院</string>
+    <string name="live_display_color_profile_cinema_summary">原画</string>
+    <string name="live_display_color_profile_astronomy_title">天文</string>
+    <string name="live_display_color_profile_astronomy_summary">深红色以保护夜间视力</string>
+    <string name="live_display_color_profile_photography_title">摄影</string>
+    <string name="live_display_color_profile_photography_summary">针对照片的完美色彩重现</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">使用未加校准的显示</string>
+    <string name="live_display_color_profile_adaptive_title">自动亮度调节</string>
+    <string name="live_display_color_profile_adaptive_summary">环境颜色</string>
+    <string name="live_display_color_profile_reading_title">阅读模式</string>
+    <string name="live_display_color_profile_reading_summary">使用暖色调以减少视疲劳</string>
+    <string name="live_display_color_profile_srgb_title">sRGB色彩标准</string>
+    <string name="live_display_color_profile_srgb_summary">Srgb颜色较准</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3色彩标准</string>
+    <string name="live_display_color_profile_dci_p3_summary">精准DCI-P3广色域</string>
+    <string name="live_display_reading_mode_title">阅读模式</string>
+    <string name="live_display_reading_mode_summary">适合长时间阅读的灰度模式</string>
+    <string name="color_calibration_title">色彩校准</string>
+    <string name="color_calibration_summary">校准屏幕颜色</string>
+    <string name="color_red_title">强调色-红色</string>
+    <string name="color_green_title">强调色-绿色</string>
+    <string name="color_blue_title">蓝色</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">图片调整</string>
+    <string name="picture_adjustment_summary">调整色相、饱和度、亮度和对比度</string>
+    <string name="adj_hue_title">色调</string>
+    <string name="adj_saturation_title">饱和度</string>
+    <string name="adj_intensity_title">强度</string>
+    <string name="adj_contrast_title">对比度</string>
 </resources>
