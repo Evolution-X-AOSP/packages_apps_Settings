@@ -78,4 +78,153 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">画面消灯時の指紋認証</string>
     <string name="fod_gesture_summary">画面の点灯なしでの端末の復帰を許可する</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">バックアッププロバイダの変更</string>
+    <string name="backup_transport_title">バックアッププロバイダの選択</string>
+    <!-- Clock style -->
+    <string name="clock_style_title">時計のスタイル</string>
+    <string name="clock_style_summary">ロック画面の時計を編集する</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">アンビエント復帰ジェスチャー</string>
+    <string name="ambient_wake_gestures_summary">復帰ジェスチャーで通常のロック画面の代わりにアンビエント画面を表示する</string>
+    <string name="lockscreen_display_title">ロック画面の表示</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">回転</string>
+    <string name="display_rotation_summary">回転角度を選択</string>
+    <string name="display_rotation_disabled">無効</string>
+    <string name="display_rotation_unit">角度</string>
+    <string name="display_rotation_category_title">回転モード</string>
+    <string name="display_rotation_0_title">0度</string>
+    <string name="display_rotation_90_title">90度</string>
+    <string name="display_rotation_180_title">180度</string>
+    <string name="display_rotation_270_title">270度</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">着信音の振動のパターン</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">カスタム</string>
+    <string name="custom_vibration_pattern_title">カスタムパターン</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">音楽トラックをスキップ</string>
+    <string name="volume_skiptrack_title">音量ボタンで音楽スキップ</string>
+    <string name="volume_skiptrack_summary">音量ボタンを長押しすると、テレビや PC でリモート操作を行っても、音楽再生時にトラックをスキップできます。例: Spotify (アプリは端末で実行し通知を表示する必要があります)</string>
+    <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">新しい音楽トラックの再生時にアンビエント表示をします。トラック情報をダブルタップして次のトラックにスキップします。</string>
+    <string name="pulse_on_new_tracks_soli_summary">新規楽曲再生時にアンビエント表示をする</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">統計のリセット</string>
+    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">バッテリーの健康度</string>
+    <string name="battery_health_summary">端末のバッテリーの状態を監視する</string>
+    <string name="current_battery_capacity">現在バッテリー容量</string>
+    <string name="current_battery_capacity_summary">カーネルによって測定された現在のバッテリー容量</string>
+    <string name="designed_battery_capacity">設計バッテリー容量</string>
+    <string name="designed_battery_capacity_summary">メーカーによって設計されたバッテリー容量</string>
+    <string name="battery_charge_cycles">充電サイクルが完了しました</string>
+    <!-- Themes customization -->
+    <string name="theme_customization_systemui_title">色のバケツ</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">ジェスチャーバーの長さ</string>
+    <string name="hidden_label">非表示</string>
+    <string name="long_label">長い</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">モバイルデータ</string>
+    <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_vpn">VPN データ</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN データ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_wifi">Wi-Fi データ</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi-Fi データ使用量を有効化する</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">サイクルスルーモード</string>
+    <string name="prevent_ringing_option_cycle_summary">ON (サイクルスルーモード)</string>
+    <!-- Double tap-to-sleep -->
+    <string name="doubletap_lockscreen_screen_title">画面消灯の切替え</string>
+    <string name="doubletap_lockscreen_title">ダブルタップでスリープ</string>
+    <string name="doubletap_lockscreen_summary">ロック画面の空き領域をダブルタップして画面を消灯する</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
+    <string name="increasing_ring_min_volume_title">開始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">通知、通知ログ</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">ポケット検出</string>
+    <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">アダプティブ再生</string>
+    <string name="adaptive_playback_disabled_summary">OFF</string>
+    <string name="adaptive_playback_timeout_title">使用する点灯時間</string>
+    <string name="adaptive_playback_timeout_none">制限なし</string>
+    <string name="adaptive_playback_timeout_none_summary">ON (制限なし)</string>
+    <string name="adaptive_playback_timeout_30_secs">30秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">ON (30秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1分</string>
+    <string name="adaptive_playback_timeout_1_min_summary">ON (1分)</string>
+    <string name="adaptive_playback_timeout_2_min">2分</string>
+    <string name="adaptive_playback_timeout_2_min_summary">ON (2分)</string>
+    <string name="adaptive_playback_timeout_5_min">5分</string>
+    <string name="adaptive_playback_timeout_5_min_summary">ON (5分)</string>
+    <string name="adaptive_playback_timeout_10_min">10分</string>
+    <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
+    <string name="adaptive_playback_explainer">音量をミュートにした時はアダプティブ再生はメディアを自動的に一時停止し、設定時間内に音量が元に戻ったら自動的に再開されます。</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用を許可</string>
+    <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
+    <!-- Running services toggle -->
+    <string name="background_processes_settings_title">バックグラウンドプロセス</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">画面を見やすく目の疲れを軽減するために時間と周囲の環境に合わせて画面を最適化する</string>
+    <string name="live_display_mode">表示モード</string>
+    <string name="live_display_color_temperature_title">色温度</string>
+    <string name="live_display_color_temperature_summary">昼: <xliff:g id="day_temperature">%1$d</xliff:g>K  夜: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">昼</string>
+    <string name="live_display_night">夜</string>
+    <string name="live_display_outdoor_mode_title">自動屋外モード</string>
+    <string name="live_display_outdoor_mode_summary">明るい日差しが照射する環境下で明るさと彩度を自動的に向上させる</string>
+    <string name="live_display_low_power_title">消費電力を削減</string>
+    <string name="live_display_low_power_summary">性能を低下させずに画面を最低の消費電力に調整する</string>
+    <string name="live_display_enhance_color_title">色を補正</string>
+    <string name="live_display_enhance_color_summary">肌の色・風景・他の画像の色の鮮やかさを補正する</string>
+    <string name="live_display_color_profile_title">カラープロファイル</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">正確な色と明るい白</string>
+    <string name="live_display_color_profile_natural_title">ナチュラル</string>
+    <string name="live_display_color_profile_natural_summary">写実的な色と肌色</string>
+    <string name="live_display_color_profile_dynamic_title">ダイナミック</string>
+    <string name="live_display_color_profile_dynamic_summary">補正した色と明るい白</string>
+    <string name="live_display_color_profile_cinema_title">シネマ</string>
+    <string name="live_display_color_profile_cinema_summary">ビデオの完全な色再現</string>
+    <string name="live_display_color_profile_astronomy_title">夜空</string>
+    <string name="live_display_color_profile_astronomy_summary">夜間視力に優しい深い赤</string>
+    <string name="live_display_color_profile_photography_title">写真</string>
+    <string name="live_display_color_profile_photography_summary">写真の完全な色再現</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">無調整のディスプレイを使用する</string>
+    <string name="live_display_color_profile_adaptive_title">自動</string>
+    <string name="live_display_color_profile_adaptive_summary">色を周囲の状況に適応する</string>
+    <string name="live_display_color_profile_reading_title">読書</string>
+    <string name="live_display_color_profile_reading_summary">目の負担を軽減するため暖かい色にする</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">正確な sRGB 色空間に補正する</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">正確な DCI-P3 色空間に補正する</string>
+    <string name="live_display_reading_mode_title">読書モード</string>
+    <string name="live_display_reading_mode_summary">長期間読書するのに適したグレースケールモードに変更する</string>
+    <string name="color_calibration_title">色の補正</string>
+    <string name="color_calibration_summary">画面の色を調整する</string>
+    <string name="color_red_title">赤</string>
+    <string name="color_green_title">緑</string>
+    <string name="color_blue_title">青</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">画像調整</string>
+    <string name="picture_adjustment_summary">色彩・彩度・輝度・コントラストを調整する</string>
+    <string name="adj_hue_title">色相</string>
+    <string name="adj_saturation_title">彩度</string>
+    <string name="adj_intensity_title">輝度</string>
+    <string name="adj_contrast_title">コントラスト</string>
 </resources>
