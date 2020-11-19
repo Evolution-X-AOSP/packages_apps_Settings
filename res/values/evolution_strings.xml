@@ -610,4 +610,9 @@
 
     <!-- Battery saver -->
     <string name="battery_saver_is_enabled">Battery saver is enabled</string>
+
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behavior</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>
