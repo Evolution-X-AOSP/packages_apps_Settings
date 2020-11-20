@@ -355,4 +355,10 @@
     <string name="smart_charging_category_title">Smart Charging</string>
     <string name="battery_info_category_title">Battery Health</string>
     <string name="battery_usage_category_title">Battery Info</string>
+
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
 </resources>

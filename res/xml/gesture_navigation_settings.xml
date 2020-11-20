@@ -54,6 +54,14 @@
     </PreferenceCategory>
 
     <com.android.settings.widget.LabeledSeekBarPreference
+        android:key="gesture_back_deadzone"
+        android:title="@string/gesture_back_deadzone_label"
+        android:max="3"
+        android:selectable="true"
+        settings:textStart="@string/smallest_tick_label"
+        settings:textEnd="@string/greatest_tick_label"/>
+
+    <com.android.settings.widget.LabeledSeekBarPreference
         android:key="gesture_navbar_length"
         android:title="@string/navbar_length"
         android:max="3"
