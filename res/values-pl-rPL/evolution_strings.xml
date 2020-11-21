@@ -227,4 +227,25 @@
     <string name="adj_saturation_title">Nasycenie</string>
     <string name="adj_intensity_title">Intensywność</string>
     <string name="adj_contrast_title">Kontrast</string>
+    <!-- AoD on charge -->
+    <string name="doze_on_charge_title">AOD podczas ładowania</string>
+    <string name="doze_on_charge_summary">Pokazuj ekran ambient AOD podczas ładowania</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimalny czas między dźwiękami powiadomień</string>
+    <string name="app_notification_sound_timeout_summary_template">Zezwól na dźwięki i wibracje nie częściej niż raz na <xliff:g id="duration">%1$s </xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Brak ograniczeń</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Wibracje haptyczne</string>
+    <string name="back_gesture_haptic_summary">Włącz efekt stuknięcia przy geście stuknięcia w tył telefonu</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Pełny</string>
+    <string name="back_height_high_label">Dół</string>
+    <string name="back_options_dialog_title">Opcje</string>
+    <string name="back_height_message">Wysokości ekranu użyta jako obszar dotykowy dla gestu tyłu.</string>
 </resources>
