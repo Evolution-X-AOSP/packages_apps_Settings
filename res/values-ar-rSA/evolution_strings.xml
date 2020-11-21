@@ -227,4 +227,25 @@
     <string name="adj_saturation_title">التشبع</string>
     <string name="adj_intensity_title">الكثافة</string>
     <string name="adj_contrast_title">التباين</string>
+    <!-- AoD on charge -->
+    <string name="doze_on_charge_title">التشغيل دائماً عند الشحن</string>
+    <string name="doze_on_charge_summary">إظهار دائماً على الشاشة المحيطية عند الشحن</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">الحد الأدنى من الوقت بين أصوات الإشعار</string>
+    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">بدون قيود</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 ثوانٍ</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 ثانية</string>
+    <string name="app_notification_sound_timeout_value_1_minute">دقيقة</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">٥ دقائق</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">١٠ دقائق</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">٣٠ دقيقة</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">اهتزاز عند النقر</string>
+    <string name="back_gesture_haptic_summary">تمكين تأثير علامة اللمس على إيماءة العودة</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">كامل</string>
+    <string name="back_height_high_label">الأسفل</string>
+    <string name="back_options_dialog_title">خيارات</string>
+    <string name="back_height_message">مقدار ارتفاع الشاشة المستخدم كمنطقة ملموسة لإيماءة الرجوع.</string>
 </resources>
