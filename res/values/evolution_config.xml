@@ -29,4 +29,7 @@
 
     <!-- Whether the given language capitalizes nouns -->
     <bool name="language_capitalizes_nouns">false</bool>
+
+    <!-- Whether to show min refresh rate in display settings -->
+    <bool name="config_show_min_refresh_rate_switch">false</bool>
 </resources>
