@@ -44,4 +44,7 @@
     <string name="build_status_summary" translatable="false">Custom</string>
 
     <string name="radio_info_title">Radio info</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
