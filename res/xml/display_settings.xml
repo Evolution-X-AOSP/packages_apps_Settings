@@ -192,6 +192,12 @@
         -->
 
         <ListPreference
+            android:key="min_refresh_rate"
+            android:title="@string/min_refresh_rate_title"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.android.settings.display.MinRefreshRatePreferenceController" />
+
+        <ListPreference
             android:key="low_power_refresh_rate"
             android:title="@string/low_power_refresh_rate_title_custom"
             android:summary="@string/summary_placeholder"
