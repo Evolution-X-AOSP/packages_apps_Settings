@@ -103,6 +103,10 @@
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Change backup provider</string>
     <string name="backup_transport_title">Select backup provider</string>
@@ -110,10 +114,6 @@
     <!-- Clock style -->
     <string name="clock_style_title">Clock style</string>
     <string name="clock_style_summary">Customize lockscreen clock</string>
-
-    <!-- Ambient Wake gestures -->
-    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
 
     <string name="lockscreen_display_title">Lockscreen display</string>
 
