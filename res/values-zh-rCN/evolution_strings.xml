@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">熄屏指纹</string>
     <string name="fod_gesture_summary">无需先唤醒屏幕即可解锁设备</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">左右滑动指纹传感器以清除通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要清除通知，请在手机背面的指纹传感器上向左或向右滑动</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">更改备份提供商</string>
     <string name="backup_transport_title">选择备份文件夹</string>
     <!-- Clock style -->
     <string name="clock_style_title">时钟样式</string>
     <string name="clock_style_summary">自定义锁屏时钟</string>
-    <!-- Ambient Wake gestures -->
-    <string name="ambient_wake_gestures_title">息屏唤醒手势</string>
-    <string name="ambient_wake_gestures_summary">唤醒手势后显示息屏显示，而不是平常的锁定屏幕</string>
     <string name="lockscreen_display_title">锁屏显示</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">旋转</string>
@@ -227,4 +227,41 @@
     <string name="adj_saturation_title">饱和度</string>
     <string name="adj_intensity_title">强度</string>
     <string name="adj_contrast_title">对比度</string>
+    <!-- AoD on charge -->
+    <string name="doze_on_charge_title">充电时始终开启</string>
+    <string name="doze_on_charge_summary">充电时环境显示常亮</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">最短通知铃声间隔</string>
+    <string name="app_notification_sound_timeout_summary_template">每 <xliff:g id="duration">%1$s</xliff:g> 允许一次响铃或振动</string>
+    <string name="app_notification_sound_timeout_value_none">无限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分钟</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分钟</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 分钟</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分钟</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">振动反馈</string>
+    <string name="back_gesture_haptic_summary">启用返回手势的振动效果</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">全屏</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">选项</string>
+    <string name="back_height_message">侧滑手势可触发范围</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">最低刷新率</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">触屏手势</string>
+    <string name="touchscreen_gesture_settings_summary">执行各种触摸屏手势以进行快速操作</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">音量调整级别</string>
+    <string name="volume_steps_summary">音阶数量</string>
+    <string name="volume_steps_alarm_title">音量调整级别: 闹钟</string>
+    <string name="volume_steps_dtmf_title">音量调整级别: 双音多频</string>
+    <string name="volume_steps_music_title">音量调整级别: 媒体音量</string>
+    <string name="volume_steps_notification_title">音量调整级别: 通知音量</string>
+    <string name="volume_steps_ring_title">音量调整级别: 铃声</string>
+    <string name="volume_steps_system_title">音量调整级别: 系统</string>
+    <string name="volume_steps_voice_call_title">音量调整级别: 通话</string>
+    <string name="volume_steps_reset">重置</string>
 </resources>
