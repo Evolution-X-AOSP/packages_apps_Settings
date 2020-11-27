@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Desligar tela impressão digital</string>
     <string name="fod_gesture_summary">Permite desbloquear o dispositivo sem ter que ligar a tela primeiro</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Deslize a digital para a esquerda ou direita para dispensar as notificações</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Para descartar suas notificações, deslize para esquerda ou direita no sensor de impressões digitais na parte de trás do seu telefone.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Alterar provedor de backup</string>
     <string name="backup_transport_title">Selecione o provedor de backup</string>
     <!-- Clock style -->
     <string name="clock_style_title">Estilo do relógio</string>
     <string name="clock_style_summary">Personalizar o relógio da tela de bloqueio</string>
-    <!-- Ambient Wake gestures -->
-    <string name="ambient_wake_gestures_title">Gestos da tela ambiente</string>
-    <string name="ambient_wake_gestures_summary">Mostrar a tela ambiente ao invés da tela de bloqueio quando usar gestos de despertar</string>
     <string name="lockscreen_display_title">Exibição da tela de bloqueio</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotação</string>
@@ -248,4 +248,20 @@
     <string name="back_height_high_label">Inferior</string>
     <string name="back_options_dialog_title">Opções</string>
     <string name="back_height_message">Quantidade de altura da tela usada como região tocável para gesto de voltar.</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Gestos na tela</string>
+    <string name="touchscreen_gesture_settings_summary">Faça vários gestos na tela para ações rápidas</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Níveis de volume</string>
+    <string name="volume_steps_summary">Número de etapas para volumes</string>
+    <string name="volume_steps_alarm_title">Níveis de volume: Alarme</string>
+    <string name="volume_steps_dtmf_title">Níveis de volume: DTMF</string>
+    <string name="volume_steps_music_title">Níveis de volume: Música</string>
+    <string name="volume_steps_notification_title">Níveis de volume: Notificação</string>
+    <string name="volume_steps_ring_title">Níveis de volume: Toque</string>
+    <string name="volume_steps_system_title">Níveis de volume: Sistema</string>
+    <string name="volume_steps_voice_call_title">Níveis de volume: Chamada de voz</string>
+    <string name="volume_steps_reset">Redefinir</string>
 </resources>
