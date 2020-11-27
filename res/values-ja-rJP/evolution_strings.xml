@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">画面消灯時の指紋認証</string>
     <string name="fod_gesture_summary">画面の点灯なしでの端末の復帰を許可する</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">指紋センサーで左右にスワイプして通知を削除</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">通知を削除するには端末裏側の指紋センサー上で左右にスワイプして下さい</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">バックアッププロバイダの変更</string>
     <string name="backup_transport_title">バックアッププロバイダの選択</string>
     <!-- Clock style -->
     <string name="clock_style_title">時計のスタイル</string>
     <string name="clock_style_summary">ロック画面の時計を編集する</string>
-    <!-- Ambient Wake gestures -->
-    <string name="ambient_wake_gestures_title">アンビエント復帰ジェスチャー</string>
-    <string name="ambient_wake_gestures_summary">復帰ジェスチャーで通常のロック画面の代わりにアンビエント画面を表示する</string>
     <string name="lockscreen_display_title">ロック画面の表示</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">回転</string>
@@ -227,4 +227,41 @@
     <string name="adj_saturation_title">彩度</string>
     <string name="adj_intensity_title">輝度</string>
     <string name="adj_contrast_title">コントラスト</string>
+    <!-- AoD on charge -->
+    <string name="doze_on_charge_title">充電時の Always On Display</string>
+    <string name="doze_on_charge_summary">充電時は Always On アンビエント表示を表示する</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">通知音の最小間隔</string>
+    <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g>間に1回以上の通知音または振動を許可しない</string>
+    <string name="app_notification_sound_timeout_value_none">無制限</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1分</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5分</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10分</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30分</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">振動フィードバック</string>
+    <string name="back_gesture_haptic_summary">戻るジェスチャー時に振動を有効化する</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">全画面</string>
+    <string name="back_height_high_label">下部</string>
+    <string name="back_options_dialog_title">オプション</string>
+    <string name="back_height_message">戻るジェスチャーに使用される操作可能な画面領域の高さ</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">最小リフレッシュレート</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">タッチスクリーンジェスチャー</string>
+    <string name="touchscreen_gesture_settings_summary">様々なタッチスクリーンジェスチャーで素早くアクションを実行する</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">ボリュームステップ</string>
+    <string name="volume_steps_summary">音量の目盛りの細かさを選択する</string>
+    <string name="volume_steps_alarm_title">音量レベル: アラーム</string>
+    <string name="volume_steps_dtmf_title">音量レベル: ダイアル入力</string>
+    <string name="volume_steps_music_title">音量レベル: 音楽</string>
+    <string name="volume_steps_notification_title">音量レベル: 通知</string>
+    <string name="volume_steps_ring_title">音量レベル: 着信</string>
+    <string name="volume_steps_system_title">音量レベル: システム</string>
+    <string name="volume_steps_voice_call_title">音量レベル: 音声通話</string>
+    <string name="volume_steps_reset">リセット</string>
 </resources>
