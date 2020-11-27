@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Адбітак пальца на выключаны экране</string>
     <string name="fod_gesture_summary">Дазваляе разблакаваць прыладу без неабходнасці прачынацца з экрана</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Правядзіце пальцам па сканару адбітка пальца налева або направа, каб прыбраць апавяшчэнні</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Каб ачысціць вашыя апавяшчэнні, правядзіце пальцам налева або права па сканару адбітка пальца.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Змяніць пастаўшчыка рэзервовага капіявання</string>
     <string name="backup_transport_title">Выберыце пастаўшчыка рэзервовага капіявання</string>
     <!-- Clock style -->
     <string name="clock_style_title">Стыль гадзінніка</string>
     <string name="clock_style_summary">Наладзіць гадзіннік на экране блакавання</string>
-    <!-- Ambient Wake gestures -->
-    <string name="ambient_wake_gestures_title">Жэсты Ambient Display</string>
-    <string name="ambient_wake_gestures_summary">Паказваць Ambient Display замест звычайнага экрана блакавання з жэстамі абуджэння</string>
     <string name="lockscreen_display_title">На заблакаваным экране</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Паварот экрана</string>
@@ -227,4 +227,41 @@
     <string name="adj_saturation_title">Насычанасць</string>
     <string name="adj_intensity_title">Насычанасць</string>
     <string name="adj_contrast_title">Кантраснасць</string>
+    <!-- AoD on charge -->
+    <string name="doze_on_charge_title">Заўсёды ўключана пры зарадцы</string>
+    <string name="doze_on_charge_summary">Заўжды паказваць Актыўны дысплэй падчас зарадкі</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Частата гукавых апавяшчэнняў</string>
+    <string name="app_notification_sound_timeout_summary_template">Дазволіць гукі ці вібрацыю не больш чым адзін раз у <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Без абмежаванняў</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 хвіліна</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 хвілін</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 хвілін</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 хвілін</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Вібраводгук</string>
+    <string name="back_gesture_haptic_summary">Уключыць тактычны эфект на жэст назад</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Поўны</string>
+    <string name="back_height_high_label">Унізе</string>
+    <string name="back_options_dialog_title">Параметры</string>
+    <string name="back_height_message">Аб\'ём вышыні экрана, які выкарыстоўваецца як кранальная вобласць для жэсту \"Назад\".</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Мінімальная частата абнаўлення экрана</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Жэсты сэнсарнага экрана</string>
+    <string name="touchscreen_gesture_settings_summary">Выкананне розных сэнсарных жэстаў на экране для хуткіх дзеянняў</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Узроўні гучнасці</string>
+    <string name="volume_steps_summary">Колькасць узроўняў гучнасці</string>
+    <string name="volume_steps_alarm_title">Узроўні гучнасці: Будзільнік</string>
+    <string name="volume_steps_dtmf_title">Узровень гучнасці: Набор нумара</string>
+    <string name="volume_steps_music_title">Узроўні гучнасці: Музыка</string>
+    <string name="volume_steps_notification_title">Узровень гучнасці: Апавяшчэнні</string>
+    <string name="volume_steps_ring_title">Узроўні гучнасці: Званок</string>
+    <string name="volume_steps_system_title">Узроўні гучнасці: Сістэма</string>
+    <string name="volume_steps_voice_call_title">Узровень гучнасці: Галасавы выклік</string>
+    <string name="volume_steps_reset">Скінуць</string>
 </resources>
