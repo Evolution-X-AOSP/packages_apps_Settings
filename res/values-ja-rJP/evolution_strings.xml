@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">画面消灯時の指紋認証</string>
     <string name="fod_gesture_summary">画面の点灯なしでの端末の復帰を許可する</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">指紋センサーで左右にスワイプして通知を削除</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">通知を削除するには端末裏側の指紋センサー上で左右にスワイプして下さい</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">バックアッププロバイダの変更</string>
     <string name="backup_transport_title">バックアッププロバイダの選択</string>
     <!-- Clock style -->
     <string name="clock_style_title">時計のスタイル</string>
     <string name="clock_style_summary">ロック画面の時計を編集する</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">アンビエント復帰ジェスチャー</string>
+    <string name="ambient_wake_gestures_summary">復帰ジェスチャーで通常のロック画面の代わりにアンビエント画面を表示する</string>
     <string name="lockscreen_display_title">ロック画面の表示</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">回転</string>
