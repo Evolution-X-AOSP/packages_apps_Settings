@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Desligar tela impressão digital</string>
     <string name="fod_gesture_summary">Permite desbloquear o dispositivo sem ter que ligar a tela primeiro</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Deslize a digital para a esquerda ou direita para dispensar as notificações</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Para descartar suas notificações, deslize para esquerda ou direita no sensor de impressões digitais na parte de trás do seu telefone.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Alterar provedor de backup</string>
     <string name="backup_transport_title">Selecione o provedor de backup</string>
     <!-- Clock style -->
     <string name="clock_style_title">Estilo do relógio</string>
     <string name="clock_style_summary">Personalizar o relógio da tela de bloqueio</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Gestos da tela ambiente</string>
+    <string name="ambient_wake_gestures_summary">Mostrar a tela de ambiente em vez da tela normal na tela de bloqueio em gestos de despertar</string>
     <string name="lockscreen_display_title">Exibição da tela de bloqueio</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotação</string>
