@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">ᱛᱤᱠᱟᱹᱴᱩᱵᱽᱪᱷᱟᱯᱟ ᱥᱠᱨᱤᱻᱱ ᱵᱚᱸᱫᱽ</string>
     <string name="fod_gesture_summary">ᱵᱤᱱᱟᱹ ᱥᱠᱨᱤᱻᱱ ᱵᱮᱨᱮᱫᱽ ᱠᱟᱛᱮ ᱥᱟᱫᱷᱚᱱ ᱠᱚ ᱠᱷᱩᱞᱟᱹ ᱪᱷᱚ ᱮᱢᱟᱭ ᱟᱢ</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱᱠᱚ ᱵᱚᱸᱫᱽ ᱞᱟᱹᱜᱤᱫᱽ ᱛᱤᱠᱟᱹᱴᱩᱵᱽᱪᱷᱟᱯᱟ ᱞᱮᱸᱜᱟ ᱟᱨ ᱵᱟᱝ ᱡᱚᱡᱚᱢ ᱛᱤ ᱛᱮ ᱠᱷᱚᱥᱨᱚᱫᱽ ᱢᱮᱸ</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">ᱟᱢᱟᱜᱽ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱵᱚᱸᱫᱽ ᱞᱟᱹᱜᱤᱫᱽ, ᱥᱟᱫᱷᱚᱱ ᱨᱮᱭᱟᱜᱽ ᱛᱟᱭᱚᱢ ᱥᱮᱫᱽ ᱢᱮᱱᱟᱜᱽ ᱛᱤᱠᱟᱹᱴᱩᱵᱽᱪᱷᱟᱯᱟ ᱥᱮᱱᱥᱚᱨ ᱨᱮ ᱞᱮᱸᱜᱟ ᱟᱨ ᱵᱟᱝ ᱡᱚᱡᱚᱢ ᱠᱟᱹᱴᱩᱵᱽ ᱛᱮ ᱠᱷᱚᱥᱨᱚᱫᱽ ᱢᱮᱸ ᱾</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">ᱵᱮᱠᱟᱹᱯ ᱮᱢᱚᱜᱽᱤᱡᱽ ᱵᱚᱫᱚᱞᱮᱢ</string>
     <string name="backup_transport_title">ᱵᱮᱠᱟᱹᱯ ᱮᱢᱚᱜᱽᱤᱡᱽ ᱪᱚᱭᱚᱱᱮᱢ</string>
     <!-- Clock style -->
     <string name="clock_style_title">ᱜᱷᱚᱲᱤ ᱥᱴᱟᱭᱤᱞ</string>
     <string name="clock_style_summary">ᱠᱩᱞᱩᱯᱥᱠᱨᱤᱻᱱ ᱜᱷᱚᱲᱤ ᱠᱟᱹᱥᱴᱚᱢᱟᱭᱤᱡᱽ</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">ᱮᱢᱵᱤᱮᱸᱴ ᱵᱮᱨᱮᱫᱽ ᱜᱮᱥᱪᱚᱨᱠᱚ</string>
+    <string name="ambient_wake_gestures_summary">ᱵᱮᱨᱮᱫᱽ ᱜᱮᱥᱪᱟᱨᱠᱚ ᱡᱷᱚᱜ ᱱᱚᱨᱢᱥᱞ ᱠᱩᱞᱩᱯᱥᱠᱨᱤᱱ ᱵᱟᱝ ᱫᱮᱠᱷᱟᱣ ᱠᱟᱛᱮ ᱮᱢᱵᱤᱮᱸᱴ ᱰᱤᱥᱯᱞᱮ ᱫᱮᱠᱷᱟᱣᱢᱮᱸ</string>
     <string name="lockscreen_display_title">ᱞᱚᱠᱥᱠᱨᱤᱻᱱ ᱫᱮᱠᱷᱟᱣ</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">ᱟᱹᱪᱩᱨ</string>
