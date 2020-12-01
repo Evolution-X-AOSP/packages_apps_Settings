@@ -246,6 +246,23 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada tombol gestur kembali</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Penuh</string>
+    <string name="back_height_high_label">Bawah</string>
     <string name="back_options_dialog_title">Opsi</string>
     <string name="back_height_message">Jumlah ketinggian layar digunakan sebagai daerah yang dapat disentuh untuk gerakan kembali.</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Gerakan layar sentuh</string>
+    <string name="touchscreen_gesture_settings_summary">Lakukan berbagai gerakan layar sentuh untuk tindakan cepat</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Tingkat volume</string>
+    <string name="volume_steps_summary">Nomor tingkatan untuk volume</string>
+    <string name="volume_steps_alarm_title">Tingkat volume: Alarm</string>
+    <string name="volume_steps_dtmf_title">Tingkat Volume: DTMF</string>
+    <string name="volume_steps_music_title">Tingkat volume: Musik</string>
+    <string name="volume_steps_notification_title">Tingkat volume: Notifikasi</string>
+    <string name="volume_steps_ring_title">Tingkat volume: Dering</string>
+    <string name="volume_steps_system_title">Tingkat volume: Sistem</string>
+    <string name="volume_steps_voice_call_title">Tingkat volume: Panggilan Suara</string>
+    <string name="volume_steps_reset">Atur ulang</string>
 </resources>
