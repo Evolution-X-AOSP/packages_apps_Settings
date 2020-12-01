@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Відбиток пальця на виключеному дисплеї</string>
     <string name="fod_gesture_summary">Дозволяє розблокувати пристрій відбитком без попереднього пробудження екрану</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Проведіть пальцем по сканеру відбитка пальця вліво або вправо, щоб прибрати повідомлення</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Для того, щоб прибрати ваші повідомлення, проведіть пальцем вліво або право по сканеру відбитку пальця.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Змінити провайдера резервного копіювання</string>
     <string name="backup_transport_title">Виберіть провайдера резервного копіювання</string>
     <!-- Clock style -->
     <string name="clock_style_title">Стиль годинника</string>
     <string name="clock_style_summary">Налаштування годинника на екрані блокування</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Жести на Активному дисплеї</string>
+    <string name="ambient_wake_gestures_summary">Показувати Активний дисплей замість звичайного блокування екрана під час жестів</string>
     <string name="lockscreen_display_title">Заблокований екран</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Поворот екрану</string>
