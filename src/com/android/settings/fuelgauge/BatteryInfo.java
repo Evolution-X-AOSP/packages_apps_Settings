@@ -284,6 +284,8 @@ public class BatteryInfo {
                 BatteryManager.EXTRA_DASH_CHARGER, false);
         final boolean warpChargeStatus = batteryBroadcast.getBooleanExtra(
                 BatteryManager.EXTRA_WARP_CHARGER, false);
+        final boolean voocChargeStatus = batteryBroadcast.getBooleanExtra(
+                BatteryManager.EXTRA_VOOC_CHARGER, false);
         info.discharging = false;
         info.suggestionLabel = null;
         int dockDefenderMode = BatteryUtils.getCurrentDockDefenderMode(context, info);
@@ -309,6 +311,9 @@ public class BatteryInfo {
             } else if (warpChargeStatus) {
                 info.remainingLabel = context.getString(
                         R.string.power_remaining_warp_charging_duration_only, timeString);
+            } else if (voocChargeStatus) {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_vooc_charging_duration_only, timeString);
             } else {
                 info.remainingLabel = context.getString(
                         R.string.power_remaining_charging_duration_only, timeString);
