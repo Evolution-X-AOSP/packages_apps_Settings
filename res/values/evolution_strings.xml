@@ -130,11 +130,11 @@
 
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Ringtone vibration pattern</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
+    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
     <string name="pattern_custom">Custom</string>
     <string name="custom_vibration_pattern_title">Custom pattern</string>
 
