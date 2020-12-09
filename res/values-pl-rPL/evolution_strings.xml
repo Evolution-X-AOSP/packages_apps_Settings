@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Odcisk palca na wyłączonym ekranie</string>
     <string name="fod_gesture_summary">Pozwala na odblokowanie urządzenia bez konieczności wybudzenia ekranu</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Przesuń w prawo lub lewo po czytniku linii papilarnych, aby usunąć powiadomienia</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">W celu usunięcia powiadomień przesuń palcem w lewo lub w prawo po czytniku linii papilarnych.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Zmień dostawcę kopii zapasowej</string>
     <string name="backup_transport_title">Wybierz dostawcę kopii zapasowej</string>
     <!-- Clock style -->
     <string name="clock_style_title">Styl zegara</string>
     <string name="clock_style_summary">Dostosuj zegar na ekranie blokady</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Gesty wybudzania ekranu ambient</string>
+    <string name="ambient_wake_gestures_summary">Pokaż ekran Ambient zamiast zwykłego ekranu blokady po przebudzeniu</string>
     <string name="lockscreen_display_title">Ekran blokady</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Obrót</string>
@@ -100,11 +100,6 @@
     <string name="display_rotation_270_title">270 stopni</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Wzorzec wibracji dzwonka</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Własny</string>
     <string name="custom_vibration_pattern_title">Własny wzór</string>
     <!-- Volume rocker gestures -->
@@ -127,11 +122,15 @@
     <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Próbnik kolorów</string>
+    <string name="show_gestures_navbar_switch_title">Pokaż pigułkę</string>
+    <string name="show_gestures_navbar_switch_summary">Pokaż pasek gestów</string>
     <!-- Navbar length -->
     <string name="navbar_length">Długość paska gestów</string>
     <string name="hidden_label">Ukryty</string>
     <string name="long_label">Długi</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Zezwól na dostęp do sieci</string>
+    <string name="data_usage_app_restrict_all_summary">Włącz użycie sieci</string>
     <string name="data_usage_app_restrict_data">Transmisja danych komórkowych</string>
     <string name="data_usage_app_restrict_data_summary">Włącz użycie danych komórkowych</string>
     <string name="data_usage_app_restrict_vpn">Dane VPN</string>
@@ -264,4 +263,106 @@
     <string name="volume_steps_system_title">Poziom głośności: System</string>
     <string name="volume_steps_voice_call_title">Poziom głośności: Rozmowa</string>
     <string name="volume_steps_reset">Resetuj</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Podwójne dotknięcie</string>
+    <string name="doze_double_tap_title">Dotknij dwukrotnie, aby sprawdzić telefon</string>
+    <string name="doze_double_tap_summary">Pulsujące powiadomienia po dwukrotnym dotknięciu</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animacja gestu wstecz</string>
+    <string name="back_gesture_arrow_summary">Pokaż animowaną strzałkę dla gestu wstecz.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Nieznany - dotknij, aby zaktualizować </string>
+    <string name="night_display_location_text">\n\nHarmonogram od zachodu do wschodu słońca wymaga włączenia usług lokalizacyjnych, aby uzyskać odpowiedni czas dla Twojej lokalizacji.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Inteligentne ładowanie</string>
+    <string name="smart_charging_summary">Ustaw maksymalny poziom naładowania</string>
+    <string name="smart_charging_switch_title">Użyj inteligentnego ładowania</string>
+    <string name="smart_charging_level_title">Poziom zatrzymania</string>
+    <string name="smart_charging_resume_level_title">Poziom rozpoczęcia</string>
+    <string name="smart_charging_reset_stats_title">Resetuj statystyki baterii</string>
+    <string name="smart_charging_reset_stats_summary">Zresetuj statystyki baterii po osiągnięciu określonego przez użytkownika poziomu ładowania</string>
+    <string name="smart_charging_footer">Inteligentne ładowanie pozwala na ustawienie maksymalnego poziomu ładowania, aby wydłużyć żywotność baterii</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Oszczędzanie baterii</string>
+    <string name="smart_charging_category_title">Inteligentne ładowanie</string>
+    <string name="battery_info_category_title">Żywotność baterii</string>
+    <string name="battery_usage_category_title">Informacje o baterii</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Wyłącz</string>
+    <string name="greatest_tick_label">Połowa ekranu</string>
+    <string name="gesture_back_deadzone_label">Strefa martwa</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUżyj pierwszego i drugiego paska wyszukiwania, aby skonfigurować czułość przesuwania wstecznego, ostatniego paska wyszukiwania, aby ustawić martwy obszar u góry ekranu, w którym nie można uruchomić przesunięcia, aby uniknąć konfliktów z gestami w aplikacji.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Brak działań</string>
+    <string name="action_search">Asystent</string>
+    <string name="action_voice_search">Wyszukiwanie głosowe</string>
+    <string name="action_launch_camera">Aparat</string>
+    <string name="action_flashlight">Latarka</string>
+    <string name="action_volume_panel">Panel głośności</string>
+    <string name="action_screen_off">Wyłączony ekran</string>
+    <string name="action_screenshot">Zrzut ekranu</string>
+    <string name="action_app_action">Aplikacja</string>
+    <string name="active_edge_ss_app_select_title">Wybierz aplikacje dla krótszego naciśnięcia</string>
+    <string name="active_edge_ls_app_select_title">Wybierz aplikację dla długiego ściśnięcia</string>
+    <string name="active_edge_app_select_summary">Wybierz aplikacje do uruchomienia przy krótszym naciśnięciu</string>
+    <string name="action_qs_panel">Panel szybkich ustawień</string>
+    <string name="action_notifications">Powiadomienia</string>
+    <string name="action_clear_notifications">Wyczyść powiadomienia</string>
+    <string name="action_ringer_modes">Tryby dzwonka</string>
+    <string name="kill_app">Zabij aplikację pierwszoplanową</string>
+    <string name="skip_song">Następny utwór</string>
+    <string name="prev_song">Poprzedni utwór</string>
+    <string name="show_powermenu">Pokaż menu zasilania</string>
+    <string name="partial_screenshot">Częściowy zrzut ekranu</string>
+    <string name="hush_mute">Wycisz powiadomienia</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Zaawansowane gesty</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Dostosuj gesty i ustaw własne akcje</string>
+    <string name="navbar_gesture_tweaks_cat_title">Zaawansowany</string>
+    <string name="long_back_swipe_timeout_title">Limit czasu akcji długiego przesunięcia</string>
+    <string name="left_swipe_actions_title">Akcja długiego przesunięcia w lewo</string>
+    <string name="left_swipe_app_action_title">Wybierz aplikację przeciągnięcia w lewo</string>
+    <string name="right_swipe_actions_title">Akcja długiego przesunięcia w prawo</string>
+    <string name="right_swipe_app_action_title">Wybierz aplikację długiego przeciągnięcia w prawo</string>
+    <string name="left_vertical_swipe_actions_title">Akcja przesunięcia w lewo w pionie</string>
+    <string name="left_vertical_swipe_app_action_title">Wybierz aplikację przesunięcia w lewo w pionie</string>
+    <string name="right_vertical_swipe_actions_title">Akcja przesunięcia w prawo w pionie</string>
+    <string name="right_vertical_swipe_app_action_title">Wybierz aplikację pionowego przesunięcia z prawej strony</string>
+    <string name="gesture_nav_tweaks_footer_info">Aby wybrać konkretną aktywność aplikacji dla akcji, przytrzymaj dłużej dowolną aplikację w menu aplikacji.\n\nJeśli wyświetlany jest launcher, wykonaj przesunięcie od dolnej części ekranu, aby uruchomić akcję.</string>
+    <string name="back_swipe_extended_title">Rozszerzona akcja przesunięcia</string>
+    <string name="back_swipe_extended_summary">Rozpocznij akcję na przesunięciu szerszym (większym niż połowa ekranu), lub o kształcie litery L (pionowo wystarczająco dłuższym)</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse nie działa z niektórymi źródłami dźwięku podczas słuchania głośnika urządzenia</string>
+    <string name="pulse_cat_title">Korektor pulsacyjny</string>
+    <string name="pulse_settings">Puls</string>
+    <string name="pulse_settings_summary">Korektor graficzny dźwięku</string>
+    <string name="show_navbar_pulse_title">Puls paska nawigacji</string>
+    <string name="show_navbar_pulse_summary">Korektor graficzny dźwięku na obszarze paska nawigacji, również jeśli pasek jest ukryty</string>
+    <string name="show_lockscreen_pulse_title">Pulse na ekranie blokady</string>
+    <string name="show_lockscreen_pulse_summary">Korektor graficzny dźwięku na ekranie blokady</string>
+    <string name="show_ambient_pulse_title">Pulse na ekranie ambient</string>
+    <string name="show_ambient_pulse_summary">Korektor graficzny dźwięku na ekranie ambient</string>
+    <string name="pulse_render_mode_title">Tryb renderowania</string>
+    <string name="pulse_render_mode_fading_bars">Zanikanie bloków</string>
+    <string name="pulse_render_mode_solid_lines">Linie ciągłe</string>
+    <string name="pulse_color">Kolor</string>
+    <string name="pulse_color_mode">Tryb kolorów</string>
+    <string name="pulse_color_accent">Akcent</string>
+    <string name="pulse_color_custom">Niestandardowy</string>
+    <string name="pulse_color_lava_lamp">Lampa lawowa</string>
+    <string name="pulse_color_auto">Okładka albumu</string>
+    <string name="pulse_color_chooser">Wybierz kolor</string>
+    <string name="smoothing_enabled_title">Włącz wygładzanie</string>
+    <string name="smoothing_enabled_summary">Każdy pasek jest animowany bardziej płynnie</string>
+    <string name="pulse_advanced_category">Zaawansowane</string>
+    <string name="pulse_legacy_mode_advanced_category">Ustawienia trybu zanikania bloków</string>
+    <string name="pulse_custom_fudge_factor">Poziom czułości</string>
+    <string name="lavamp_speed_title">Prędkość lampy lawowej</string>
+    <string name="pulse_solid_units_count">Liczba ciągłych linii</string>
+    <string name="pulse_solid_units_opacity">Przezroczystość ciągłych linii</string>
+    <string name="pulse_solid_dimen_category">Ustawienia trybu linii ciągłych</string>
+    <string name="pulse_custom_dimen">Szerokość paska</string>
+    <string name="pulse_custom_div">Odstęp paska</string>
+    <string name="pulse_filled_block_size">Rozmiar bloku</string>
+    <string name="pulse_empty_block_size">Odstępy bloków</string>
 </resources>

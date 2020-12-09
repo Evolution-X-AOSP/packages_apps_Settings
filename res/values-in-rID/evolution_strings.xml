@@ -100,11 +100,6 @@
     <string name="display_rotation_270_title">270 derajat</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Pola getaran nada dering</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Kustom</string>
     <string name="custom_vibration_pattern_title">Pola kustom</string>
     <!-- Volume rocker gestures -->
@@ -127,11 +122,15 @@
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Macam-macam warna</string>
+    <string name="show_gestures_navbar_switch_title">Tampilkan pill</string>
+    <string name="show_gestures_navbar_switch_summary">Tampilkan isyarat bilah navigasi</string>
     <!-- Navbar length -->
     <string name="navbar_length">Panjang bilah gerakan</string>
     <string name="hidden_label">Tersembunyi</string>
     <string name="long_label">Panjang</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Izinkan akses jaringan</string>
+    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
     <string name="data_usage_app_restrict_data">Data seluler</string>
     <string name="data_usage_app_restrict_data_summary">Aktifkan penggunaan data seluler</string>
     <string name="data_usage_app_restrict_vpn">Data VPN</string>
@@ -265,4 +264,106 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="volume_steps_system_title">Tingkat volume: Sistem</string>
     <string name="volume_steps_voice_call_title">Tingkat volume: Panggilan Suara</string>
     <string name="volume_steps_reset">Atur ulang</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Ketuk dua kali</string>
+    <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
+    <string name="doze_double_tap_summary">Tampilkan pemberitahuan dengan ketukan ganda</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animasi gestur kembali</string>
+    <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gerakan kembali.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Tidak diketahui - tekan untuk pembaruan</string>
+    <string name="night_display_location_text">\n\nJadwal dari matahari terbenam hingga matahari terbit membutuhkan layanan lokasi yang diaktifkan untuk mendapatkan waktu yang tepat untuk lokasi Anda.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Pengisian Pintar</string>
+    <string name="smart_charging_summary">Tentukan level pengisian maksimum</string>
+    <string name="smart_charging_switch_title">Gunakan Pengisian Pintar</string>
+    <string name="smart_charging_level_title">Hentikan level pemicu</string>
+    <string name="smart_charging_resume_level_title">Mulai level pemicu</string>
+    <string name="smart_charging_reset_stats_title">Atur ulang statistik baterai</string>
+    <string name="smart_charging_reset_stats_summary">Setel ulang statistik baterai setelah mencapai tingkat pengisian yang ditentukan pengguna</string>
+    <string name="smart_charging_footer">Pengisian Pintar memungkinkan Anda mengatur tingkat pengisian ke maksimal untuk memperpanjang umum baterai Anda</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Penghemat Baterai</string>
+    <string name="smart_charging_category_title">Pengisian Pintar</string>
+    <string name="battery_info_category_title">Kesehatan Baterai</string>
+    <string name="battery_usage_category_title">Info Baterai</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Mati</string>
+    <string name="greatest_tick_label">Setengah layar</string>
+    <string name="gesture_back_deadzone_label">Zona mati</string>
+    <string name="back_sensitivity_dialog_message_cust">\nGunakan seekbar pertama dan kedua untuk mengonfigurasi sensitivitas geser ke belakang, seekbar terakhir untuk mengatur area mati di atas layar di mana gesekan tidak dapat dipicu, untuk menghindari konflik dengan isyarat dalam aplikasi.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Tidak ada tindakan</string>
+    <string name="action_search">Asisten</string>
+    <string name="action_voice_search">Pencarian suara</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_flashlight">Senter</string>
+    <string name="action_volume_panel">Panel Volume</string>
+    <string name="action_screen_off">Layar mati</string>
+    <string name="action_screenshot">Tangkapan Layar</string>
+    <string name="action_app_action">Aplikasi</string>
+    <string name="active_edge_ss_app_select_title">Pilih aplikasi tekan pendek</string>
+    <string name="active_edge_ls_app_select_title">Pilih aplikasi tekan panjang</string>
+    <string name="active_edge_app_select_summary">Pilih aplikasi untuk memulai dengan tindakan tekan</string>
+    <string name="action_qs_panel">Panel Setelan Cepat</string>
+    <string name="action_notifications">Notifikasi</string>
+    <string name="action_clear_notifications">Bersihkan notifikasi</string>
+    <string name="action_ringer_modes">Mode dering</string>
+    <string name="kill_app">Tutup paksa aplikasi saat ini</string>
+    <string name="skip_song">Lewati lagu</string>
+    <string name="prev_song">Lagu sebelumnya</string>
+    <string name="show_powermenu">Tampilkan Menu Daya</string>
+    <string name="partial_screenshot">Tangkapan Layar sebagian</string>
+    <string name="hush_mute">Pemberitahuan senyap</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Gestur tingkat lanjut</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Kustomisasi gerakan dan atur tindakan khusus</string>
+    <string name="navbar_gesture_tweaks_cat_title">Lanjutan</string>
+    <string name="long_back_swipe_timeout_title">Batas waktu usap panjang</string>
+    <string name="left_swipe_actions_title">Tindakan usap panjang ke kiri</string>
+    <string name="left_swipe_app_action_title">Pilih aplikasi usap panjang ke kiri</string>
+    <string name="right_swipe_actions_title">Tindakan usap panjang ke kanan</string>
+    <string name="right_swipe_app_action_title">Pilih aplikasi usap panjang ke kanan</string>
+    <string name="left_vertical_swipe_actions_title">Ubah tindakan menggesek kiri</string>
+    <string name="left_vertical_swipe_app_action_title">Pilih aplikasi usap panjang ke kiri</string>
+    <string name="right_vertical_swipe_actions_title">Ubah tindakan menggesek kanan</string>
+    <string name="right_vertical_swipe_app_action_title">Pilih aplikasi usap panjang ke kanan</string>
+    <string name="gesture_nav_tweaks_footer_info">Untuk memilih aktivitas aplikasi tertentu untuk tindakan, tekan lama pada aplikasi apa pun di pemilih aplikasi.\n\nJika peluncur ditampilkan, lakukan gesek di bagian paling bawah layar untuk memicu tindakan.</string>
+    <string name="back_swipe_extended_title">Tindakan menggesek yang diperpanjang</string>
+    <string name="back_swipe_extended_summary">Tindakan pemicu pada gesekan yang lebih luas (lebih dari setengah ukuran tampilan), atau gesekan L (cukup panjang secara vertikal)</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Visual Audio tidak bekerja dengan beberapa sumber audio saat mendengarkan di speaker perangkat</string>
+    <string name="pulse_cat_title">Equalizer Pulse</string>
+    <string name="pulse_settings">Visual Audio</string>
+    <string name="pulse_settings_summary">Equalizer Grafis Audio</string>
+    <string name="show_navbar_pulse_title">Pulse Navbar</string>
+    <string name="show_navbar_pulse_summary">Equalizer Grafis Audio di area bilah navigasi, juga jika bilah disembunyikan</string>
+    <string name="show_lockscreen_pulse_title">Grafis Audio Layar Kunci</string>
+    <string name="show_lockscreen_pulse_summary">Grafis Equalizer Audio pada Layar Kunci</string>
+    <string name="show_ambient_pulse_title">Grafis Audio Layar Ambien</string>
+    <string name="show_ambient_pulse_summary">Grafis Equalizer Audio pada Layar Ambien</string>
+    <string name="pulse_render_mode_title">Mode Render</string>
+    <string name="pulse_render_mode_fading_bars">Blok memudar</string>
+    <string name="pulse_render_mode_solid_lines">Garis-garis padat</string>
+    <string name="pulse_color">Warna</string>
+    <string name="pulse_color_mode">Mode warna</string>
+    <string name="pulse_color_accent">Aksen</string>
+    <string name="pulse_color_custom">Kustom</string>
+    <string name="pulse_color_lava_lamp">Lampu lava</string>
+    <string name="pulse_color_auto">Sampul Album</string>
+    <string name="pulse_color_chooser">Pilih warna</string>
+    <string name="smoothing_enabled_title">Menghidupkan smoothing</string>
+    <string name="smoothing_enabled_summary">Setiap bilah dianimasikan dengan lebih lancar</string>
+    <string name="pulse_advanced_category">Lanjutan</string>
+    <string name="pulse_legacy_mode_advanced_category">Setelan mode blok memudar</string>
+    <string name="pulse_custom_fudge_factor">Tingkat kewajaran</string>
+    <string name="lavamp_speed_title">Kecepatan lampu lava</string>
+    <string name="pulse_solid_units_count">Jumlah garis-garis solid</string>
+    <string name="pulse_solid_units_opacity">Keburaman garis-garis solid</string>
+    <string name="pulse_solid_dimen_category">Pengaturan mode garis-garis solid</string>
+    <string name="pulse_custom_dimen">Lebar bilah</string>
+    <string name="pulse_custom_div">Jarak bar</string>
+    <string name="pulse_filled_block_size">Ukuran blok</string>
+    <string name="pulse_empty_block_size">Jarak blok</string>
 </resources>
