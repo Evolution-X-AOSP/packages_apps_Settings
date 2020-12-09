@@ -35,7 +35,7 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Загалом ОЗУ</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Google Ігри</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Lock screen pattern size -->
@@ -100,11 +100,6 @@
     <string name="display_rotation_270_title">270 градусів</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Шаблон вібрації під час виклику</string>
-    <string name="pattern_dzzz_dzzz">дззз-дззз</string>
-    <string name="pattern_dzzz_da">дззз-да</string>
-    <string name="pattern_mm_mm_mm">мм-мм-мм</string>
-    <string name="pattern_da_da_dzzz">да-да-дззз</string>
-    <string name="pattern_da_dzzz_da">да-дззз-да</string>
     <string name="pattern_custom">Персоналізація</string>
     <string name="custom_vibration_pattern_title">Користувальницький шаблон</string>
     <!-- Volume rocker gestures -->
@@ -127,11 +122,15 @@
     <string name="battery_charge_cycles">Цикли зарядки завершені</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Палітра кольорів</string>
+    <string name="show_gestures_navbar_switch_title">Показувати \"таблетку\"</string>
+    <string name="show_gestures_navbar_switch_summary">Показувати панель навігації жестів</string>
     <!-- Navbar length -->
     <string name="navbar_length">Довжина жесту</string>
     <string name="hidden_label">Приховано</string>
     <string name="long_label">Довго</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Дозволити доступ до мережі</string>
+    <string name="data_usage_app_restrict_all_summary">Увімкнути використання мережі</string>
     <string name="data_usage_app_restrict_data">Мобільні дані</string>
     <string name="data_usage_app_restrict_data_summary">Увімкнути використання мобільних даних</string>
     <string name="data_usage_app_restrict_vpn">Дані VPN</string>
@@ -187,7 +186,7 @@
     <string name="live_display_outdoor_mode_title">Автоматичний режим «На вулиці»</string>
     <string name="live_display_outdoor_mode_summary">Збільшити яскравість та насиченість автоматично при яскравому сонячному світлі</string>
     <string name="live_display_low_power_title">Зменшення споживання енергії</string>
-    <string name="live_display_low_power_summary">Налаштування дисплея для найнижчого енергоспоживання без псування зображення</string>
+    <string name="live_display_low_power_summary">Налаштування екрану для найнижчого енергоспоживання без погіршення зображення</string>
     <string name="live_display_enhance_color_title">Покращені кольори</string>
     <string name="live_display_enhance_color_summary">Поліпшити насиченість відтінків пейзажів та інших зображень</string>
     <string name="live_display_color_profile_title">Профіль кольорів</string>
@@ -264,4 +263,106 @@
     <string name="volume_steps_system_title">Рівень гучності: Системи</string>
     <string name="volume_steps_voice_call_title">Рівень гучності: Голосових викликів</string>
     <string name="volume_steps_reset">Скинути</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Подвійне натискання</string>
+    <string name="doze_double_tap_title">Двічі торкнутися, щоб перевірити сповіщення</string>
+    <string name="doze_double_tap_summary">Перегляд сповіщення подвійним натисканням</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Анімація жесту \"Назад\"</string>
+    <string name="back_gesture_arrow_summary">Показати анімаційну стрічку для зворотного жесту.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Невідомо - натисніть щоб оновити</string>
+    <string name="night_display_location_text">\n\nРозклад від заходу до сходу вимагає ввімкнених служб, щоб отримати необхідні часи для вашого розташування.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">«Розумне» заряджання</string>
+    <string name="smart_charging_summary">Встановіть максимальний рівень зарядки</string>
+    <string name="smart_charging_switch_title">Використовуйте «Розумне» заряджання</string>
+    <string name="smart_charging_level_title">Рівень зупинки «Розумного» заряджання</string>
+    <string name="smart_charging_resume_level_title">Рівень початку «Розумного» заряджання</string>
+    <string name="smart_charging_reset_stats_title">Скинути статистику акумулятора</string>
+    <string name="smart_charging_reset_stats_summary">Скиньте статистику акумулятора після досягнення визначеного користувачем рівня зарядки</string>
+    <string name="smart_charging_footer">«Розумне» заряджання дозволяє встановити максимальний рівень зарядки для продовження терміну служби батареї</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Заощадження заряду акумулятора</string>
+    <string name="smart_charging_category_title">«Розумне» заряджання</string>
+    <string name="battery_info_category_title">Стан акумулятора</string>
+    <string name="battery_usage_category_title">Інформація про акумулятор</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Вимкнути</string>
+    <string name="greatest_tick_label">Половина екрану</string>
+    <string name="gesture_back_deadzone_label">Межа нечутливості</string>
+    <string name="back_sensitivity_dialog_message_cust">\nВикористовувати перший і другий пошуковий рядок для налаштування чутливості назад, остання пошукова панель, яка має замертвілу області поверх екрану, де не можна використовувати свайп, щоб уникнути конфліктів з жестами у програмах.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Жодної дії</string>
+    <string name="action_search">Асистент</string>
+    <string name="action_voice_search">Голосовий пошук</string>
+    <string name="action_launch_camera">Камера</string>
+    <string name="action_flashlight">Ліхтарик</string>
+    <string name="action_volume_panel">Панель гучності</string>
+    <string name="action_screen_off">Екран вимкнено</string>
+    <string name="action_screenshot">Знімок екрану</string>
+    <string name="action_app_action">Програма</string>
+    <string name="active_edge_ss_app_select_title">Виберіть додаток для короткого стискання</string>
+    <string name="active_edge_ls_app_select_title">Виберіть додаток із довгим стисканням</string>
+    <string name="active_edge_app_select_summary">Виберіть додаток для запуску за стисненням</string>
+    <string name="action_qs_panel">Панель швидких налаштувань</string>
+    <string name="action_notifications">Сповіщення</string>
+    <string name="action_clear_notifications">Очистити сповіщення</string>
+    <string name="action_ringer_modes">Режими дзвінка</string>
+    <string name="kill_app">Закрити фоновий додаток</string>
+    <string name="skip_song">Пропустити пісню</string>
+    <string name="prev_song">Попередня пісня</string>
+    <string name="show_powermenu">Показати меню живлення</string>
+    <string name="partial_screenshot">Знімок частини екрана</string>
+    <string name="hush_mute">Заглушені сповіщення</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Додаткові жести</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Налаштування жестів і настроювання спеціальних дій</string>
+    <string name="navbar_gesture_tweaks_cat_title">Додатково</string>
+    <string name="long_back_swipe_timeout_title">Час очікування дії тривалого свайпу</string>
+    <string name="left_swipe_actions_title">Дія для довгого лівого свайпу</string>
+    <string name="left_swipe_app_action_title">Вибрати додаток для довгого лівого свайпу</string>
+    <string name="right_swipe_actions_title">Дія для довгого правого свайпу</string>
+    <string name="right_swipe_app_action_title">Вибрати додаток для довгого правого свайпу</string>
+    <string name="left_vertical_swipe_actions_title">Вертикальна дія свайпом вліво</string>
+    <string name="left_vertical_swipe_app_action_title">Вибрати додаток для довгого лівого свайпу</string>
+    <string name="right_vertical_swipe_actions_title">Вертикальна дія свайпу вправо</string>
+    <string name="right_vertical_swipe_app_action_title">Вибрати додаток для довгого правого свайпу</string>
+    <string name="gesture_nav_tweaks_footer_info">Щоб вибрати певні дії додатку, довго натисніть на будь-який додаток у розділі вибору програм.\n\nЯкщо відображається лаунчер, зробіть свайп в самій нижній області екрана, щоб запустити дію.</string>
+    <string name="back_swipe_extended_title">Розширена дія свайпу</string>
+    <string name="back_swipe_extended_summary">Запуск дії при широкому свайпі (більше половини розміру екрану), або свайп з L (вертикально довше достатньо)</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse не працює з деякими джерелами аудіо під час прослуховування через динамік</string>
+    <string name="pulse_cat_title">Еквалайзер Pulse</string>
+    <string name="pulse_settings">Пульс</string>
+    <string name="pulse_settings_summary">Графічний еквалайзер аудіо</string>
+    <string name="show_navbar_pulse_title">Pulse на панелі навігації</string>
+    <string name="show_navbar_pulse_summary">Графічний еквалайзер аудіо на панелі навігації, також якщо панель приховано</string>
+    <string name="show_lockscreen_pulse_title">Pulse на екрані блокування</string>
+    <string name="show_lockscreen_pulse_summary">Графічний еквалайзер аудіо на екрані блокування</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Графічний еквалайзер аудіо на екрані Ambient</string>
+    <string name="pulse_render_mode_title">Режим візуалізації</string>
+    <string name="pulse_render_mode_fading_bars">Згасаючі блоки</string>
+    <string name="pulse_render_mode_solid_lines">Суцільні лінії</string>
+    <string name="pulse_color">Колір</string>
+    <string name="pulse_color_mode">Колірний режим</string>
+    <string name="pulse_color_accent">Відтінок</string>
+    <string name="pulse_color_custom">Власний</string>
+    <string name="pulse_color_lava_lamp">Лавова лампа</string>
+    <string name="pulse_color_auto">Обкладинка альбому</string>
+    <string name="pulse_color_chooser">Обрати колір</string>
+    <string name="smoothing_enabled_title">Увімкнути згладжування</string>
+    <string name="smoothing_enabled_summary">Кожна панель анімована плавніше</string>
+    <string name="pulse_advanced_category">Додатково</string>
+    <string name="pulse_legacy_mode_advanced_category">Налаштування згасаючих блоків</string>
+    <string name="pulse_custom_fudge_factor">Рівень чутливості</string>
+    <string name="lavamp_speed_title">Швидкість лавової лампи</string>
+    <string name="pulse_solid_units_count">Кількість суцільних ліній</string>
+    <string name="pulse_solid_units_opacity">Прозорість суцільних ліній</string>
+    <string name="pulse_solid_dimen_category">Налаштування вигляду суцільних ліній</string>
+    <string name="pulse_custom_dimen">Ширина панелі</string>
+    <string name="pulse_custom_div">Відстань між панелями</string>
+    <string name="pulse_filled_block_size">Розмір блоку</string>
+    <string name="pulse_empty_block_size">Відстань між блоками</string>
 </resources>

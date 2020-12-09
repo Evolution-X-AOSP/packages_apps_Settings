@@ -17,8 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">タブレットの<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">電話の<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">端末の<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">端末の<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">スマートフォンの<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
     <!-- Fingerprint sensor locations -->
     <string name="security_settings_fingerprint_sensor_location_back">背面</string>
     <string name="security_settings_fingerprint_sensor_location_front">前面</string>
@@ -100,11 +100,6 @@
     <string name="display_rotation_270_title">270度</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">着信音の振動のパターン</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">カスタム</string>
     <string name="custom_vibration_pattern_title">カスタムパターン</string>
     <!-- Volume rocker gestures -->
@@ -127,11 +122,15 @@
     <string name="battery_charge_cycles">充電サイクルが完了しました</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">色のバケツ</string>
+    <string name="show_gestures_navbar_switch_title">ピルを表示</string>
+    <string name="show_gestures_navbar_switch_summary">ジェスチャーナビゲーションバーを表示する</string>
     <!-- Navbar length -->
     <string name="navbar_length">ジェスチャーバーの長さ</string>
     <string name="hidden_label">非表示</string>
     <string name="long_label">長い</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">ネットワークアクセスを許可</string>
+    <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効化する</string>
     <string name="data_usage_app_restrict_data">モバイルデータ</string>
     <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
     <string name="data_usage_app_restrict_vpn">VPN データ</string>
@@ -264,4 +263,106 @@
     <string name="volume_steps_system_title">音量レベル: システム</string>
     <string name="volume_steps_voice_call_title">音量レベル: 音声通話</string>
     <string name="volume_steps_reset">リセット</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">ダブルタップ</string>
+    <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
+    <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">戻るジェスチャーアニメーション</string>
+    <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">不明 - タップして更新</string>
+    <string name="night_display_location_text">\n\n日の出から日の入りからのスケジュールにはあなたの正確な時刻を取得するために位置情報の有効化が必要です。</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">スマート充電</string>
+    <string name="smart_charging_summary">最大充電レベルを設定する</string>
+    <string name="smart_charging_switch_title">スマート充電の使用</string>
+    <string name="smart_charging_level_title">充電停止レベル</string>
+    <string name="smart_charging_resume_level_title">充電開始レベル</string>
+    <string name="smart_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
+    <string name="smart_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後バッテリーの統計情報をリセットする</string>
+    <string name="smart_charging_footer">スマート充電を使用すると最大充電レベルを設定することでバッテリー寿命を延ばすことができます</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">バッテリー セーバー</string>
+    <string name="smart_charging_category_title">スマート充電</string>
+    <string name="battery_info_category_title">バッテリー健康度</string>
+    <string name="battery_usage_category_title">バッテリー情報</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">OFF</string>
+    <string name="greatest_tick_label">半画面</string>
+    <string name="gesture_back_deadzone_label">非認識範囲</string>
+    <string name="back_sensitivity_dialog_message_cust">\n最初と2番目のシークバーで戻るジェスチャースワイプ感度を編集し、最後のシークバーでスワイプを認識しない画面領域を設定し、アプリ内ジェスチャーとの競合を回避します。</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">なし</string>
+    <string name="action_search">アシスタント</string>
+    <string name="action_voice_search">音声検索</string>
+    <string name="action_launch_camera">カメラ</string>
+    <string name="action_flashlight">フラッシュライト</string>
+    <string name="action_volume_panel">音量パネル</string>
+    <string name="action_screen_off">画面を消灯</string>
+    <string name="action_screenshot">スクリーンショット</string>
+    <string name="action_app_action">アプリ</string>
+    <string name="active_edge_ss_app_select_title">短い握りのアクションのアプリを選択</string>
+    <string name="active_edge_ls_app_select_title">長い握りのアクションのアプリを選択</string>
+    <string name="active_edge_app_select_summary">握りアクションで起動するアプリを選択する</string>
+    <string name="action_qs_panel">クイック設定パネル</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_clear_notifications">通知を消去</string>
+    <string name="action_ringer_modes">着信モード</string>
+    <string name="kill_app">フォアグラウンドアプリを終了</string>
+    <string name="skip_song">曲をスキップ</string>
+    <string name="prev_song">前の曲</string>
+    <string name="show_powermenu">電源メニューを表示</string>
+    <string name="partial_screenshot">部分スクリーンショット</string>
+    <string name="hush_mute">通知をミュート</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャー</string>
+    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャー編集とカスタムアクション設定</string>
+    <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
+    <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
+    <string name="left_swipe_actions_title">長い左スワイプアクション</string>
+    <string name="left_swipe_app_action_title">長い左スワイプアクションのアプリ選択</string>
+    <string name="right_swipe_actions_title">長い右スワイプアクション</string>
+    <string name="right_swipe_app_action_title">長い右スワイプアクションのアプリ選択</string>
+    <string name="left_vertical_swipe_actions_title">垂直左スワイプのアクション</string>
+    <string name="left_vertical_swipe_app_action_title">垂直左スワイプアプリを選択</string>
+    <string name="right_vertical_swipe_actions_title">垂直右スワイプのアクション</string>
+    <string name="right_vertical_swipe_app_action_title">垂直右スワイプアプリを選択</string>
+    <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリピッカーでアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
+    <string name="back_swipe_extended_title">拡張スワイプアクション</string>
+    <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">端末のスピーカーで聴く時に一部のオーディオソースで Pulse が機能しません</string>
+    <string name="pulse_cat_title">Pulse イコライザー</string>
+    <string name="pulse_settings">パルス</string>
+    <string name="pulse_settings_summary">オーディオグラフィックイコライザー</string>
+    <string name="show_navbar_pulse_title">ナビゲーションバーの Pulse</string>
+    <string name="show_navbar_pulse_summary">ナビゲーションバーが隠されていても、バー上にオーディオグラフィックイコライザーを表示します。</string>
+    <string name="show_lockscreen_pulse_title">ロック画面の Pulse</string>
+    <string name="show_lockscreen_pulse_summary">ロック画面のグラフィックイコライザー</string>
+    <string name="show_ambient_pulse_title">アンビエント Pulse</string>
+    <string name="show_ambient_pulse_summary">アンビエント画面のグラフィックイコライザー</string>
+    <string name="pulse_render_mode_title">レンダリングモード</string>
+    <string name="pulse_render_mode_fading_bars">フェーディングブロック</string>
+    <string name="pulse_render_mode_solid_lines">ソリッドライン</string>
+    <string name="pulse_color">色</string>
+    <string name="pulse_color_mode">カラーモード</string>
+    <string name="pulse_color_accent">アクセント</string>
+    <string name="pulse_color_custom">カスタム</string>
+    <string name="pulse_color_lava_lamp">ラーヴァランプ</string>
+    <string name="pulse_color_auto">アルバムアート</string>
+    <string name="pulse_color_chooser">色の選択</string>
+    <string name="smoothing_enabled_title">スムージングの有効化</string>
+    <string name="smoothing_enabled_summary">どちらのバーもよりスムーズに表示されます</string>
+    <string name="pulse_advanced_category">高度な設定</string>
+    <string name="pulse_legacy_mode_advanced_category">フェーディングブロックの設定</string>
+    <string name="pulse_custom_fudge_factor">感度レベル</string>
+    <string name="lavamp_speed_title">ラーヴァランプ速度</string>
+    <string name="pulse_solid_units_count">ソリッドラインの数</string>
+    <string name="pulse_solid_units_opacity">ソリッドラインの透明度</string>
+    <string name="pulse_solid_dimen_category">ソリッドラインの設定</string>
+    <string name="pulse_custom_dimen">バーの幅</string>
+    <string name="pulse_custom_div">バーの間隔</string>
+    <string name="pulse_filled_block_size">ブロックの大きさ</string>
+    <string name="pulse_empty_block_size">ブロックの間隔</string>
 </resources>

@@ -132,6 +132,8 @@
     <string name="hidden_label">숨김</string>
     <string name="long_label">긴</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">네트워크 액세스 허용</string>
+    <string name="data_usage_app_restrict_all_summary">네트워크 사용량 활성화</string>
     <string name="data_usage_app_restrict_data">모바일 데이터</string>
     <string name="data_usage_app_restrict_data_summary">모바일 데이터 사용을 허용합니다.</string>
     <string name="data_usage_app_restrict_vpn">VPN 데이터</string>
@@ -264,4 +266,72 @@
     <string name="volume_steps_system_title">음량 단계: 시스템</string>
     <string name="volume_steps_voice_call_title">음량 단계: 통화</string>
     <string name="volume_steps_reset">초기화</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">두 번 누르기</string>
+    <string name="doze_double_tap_title">두 번 눌러 스마트폰 확인</string>
+    <string name="doze_double_tap_summary">두 번 눌러 조명 알림</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">뒤로가기 제스처 애니메이션</string>
+    <string name="back_gesture_arrow_summary">뒤로가기 제스쳐 사용 시 애니메이션 화살표를 표시합니다.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">알 수 없음 - 눌러서 업데이트</string>
+    <string name="night_display_location_text">\n\n현재 위치의 정확한 일몰 일출 시각을 알기 위해서는 위치 서비스가 사용 중이어야 합니다.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">스마트 충전</string>
+    <string name="smart_charging_summary">최대 충전 수준을 설정합니다</string>
+    <string name="smart_charging_switch_title">스마트 충전 사용</string>
+    <string name="smart_charging_level_title">충전 제한 멈춤</string>
+    <string name="smart_charging_resume_level_title">충전 제한 시작</string>
+    <string name="smart_charging_reset_stats_title">배터리 통계 재설정</string>
+    <string name="smart_charging_reset_stats_summary">설정된 충전 수준에 도달하면 배터리 통계를 재설정합니다</string>
+    <string name="smart_charging_footer">스마트 충전은 배터리 수명을 늘리기 위해 최대 충전 수준을 설정합니다</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">절전 모드</string>
+    <string name="smart_charging_category_title">스마트 충전</string>
+    <string name="battery_info_category_title">배터리 상태</string>
+    <string name="battery_usage_category_title">배터리 정보</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">끄기</string>
+    <string name="greatest_tick_label">화면 절반</string>
+    <string name="gesture_back_deadzone_label">무시 구간</string>
+    <string name="back_sensitivity_dialog_message_cust">\n첫 번째 또는 두 번째 조절 바를 사용해 뒤로 가기 제스처 민감도를 설정하고, 마지막 조절 바를 사용해 뒤로 가기 제스처 높이를 설정하여, 앱 내부 제스처와의 충돌을 방지하세요.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">동작 없음</string>
+    <string name="action_search">어시스턴트</string>
+    <string name="action_voice_search">음성 검색</string>
+    <string name="action_launch_camera">카메라</string>
+    <string name="action_flashlight">손전등</string>
+    <string name="action_volume_panel">볼륨 조절 창</string>
+    <string name="action_screen_off">화면 끄기</string>
+    <string name="action_screenshot">스크린샷</string>
+    <string name="action_app_action">앱</string>
+    <string name="active_edge_ss_app_select_title">짧게 쥐었을 때 실행할 앱 선택</string>
+    <string name="active_edge_ls_app_select_title">길게 쥐었을 때 실행할 앱 선택</string>
+    <string name="active_edge_app_select_summary">휴대전화를 손으로 쥐어 실행할 앱을 선택하세요</string>
+    <string name="action_qs_panel">빠른 설정 패널</string>
+    <string name="action_notifications">알림</string>
+    <string name="action_clear_notifications">알림 지우기</string>
+    <string name="action_ringer_modes">벨소리 모드</string>
+    <string name="kill_app">앱 강제종료</string>
+    <string name="skip_song">곡 건너뛰기</string>
+    <string name="prev_song">이전 곡</string>
+    <string name="show_powermenu">전원 메뉴 표시</string>
+    <string name="partial_screenshot">부분 스크린샷</string>
+    <string name="hush_mute">조용한 알림</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">고급 제스처</string>
+    <string name="navbar_gesture_tweaks_pref_summary">제스처 사용자 정의 및 사용자 정의 동작 설정</string>
+    <string name="navbar_gesture_tweaks_cat_title">고급 설정</string>
+    <string name="long_back_swipe_timeout_title">길게 스와이프 시간</string>
+    <string name="left_swipe_actions_title">왼쪽으로 길게 스와이프 동작</string>
+    <string name="left_swipe_app_action_title">왼쪽으로 길게 스와이프시 앱 선택</string>
+    <string name="right_swipe_actions_title">오른쪽으로 길게 스와이프 동작</string>
+    <string name="right_swipe_app_action_title">오른쪽으로 길게 스와이프시 앱 선택</string>
+    <string name="left_vertical_swipe_actions_title">왼쪽 세로로 스와이프 동작</string>
+    <string name="left_vertical_swipe_app_action_title">왼쪽 세로로 스와이프시 앱 선택</string>
+    <string name="right_vertical_swipe_actions_title">오른쪽 세로로 스와이프 동작</string>
+    <string name="right_vertical_swipe_app_action_title">오른쪽 세로로 스와이프시 앱 선택</string>
+    <string name="gesture_nav_tweaks_footer_info">동작을 설정할 앱 액티비티를 선택하려면 앱 선택기에서 앱을 길게 누르세요.\n\n실행기가 표시되면 화면 맨 아래에서 스와이프하여 작업을 실행합니다.</string>
+    <string name="back_swipe_extended_title">확장 스와이프 동작</string>
+    <string name="back_swipe_extended_summary">넓게 스와이프(화면 절반 이상) 또는 L자 스와이프(수직으로 충분히 길게)시 동작</string>
 </resources>

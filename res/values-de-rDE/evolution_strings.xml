@@ -18,7 +18,7 @@
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Suchen Sie den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> Ihres Tablets.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Suchen Sie den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> Ihres Geräts.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Finde den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> des Geräts.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Finde den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> des Telefons.</string>
     <!-- Fingerprint sensor locations -->
     <string name="security_settings_fingerprint_sensor_location_back">Rückseite</string>
     <string name="security_settings_fingerprint_sensor_location_front">Vorderseite</string>
@@ -33,7 +33,7 @@
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plattform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Gesamter RAM</string>
+    <string name="total_ram">Gesamter Arbeitsspeicher</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
@@ -78,18 +78,18 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Fingerabdruck bei ausgeschaltetem Display</string>
     <string name="fod_gesture_summary">Ermöglicht das Entsperren des Geräts, ohne zuerst den Bildschirm einschalten zu müssen</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Über Fingerabdrucksensor nach rechts oder links streichen, um Benachrichtigungen zu schließen</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Um Benachrichtigungen zu schließen, nach links oder rechts über den rückwärtigen Fingerabdrucksensor wischen.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Backup-Anbieter ändern</string>
     <string name="backup_transport_title">Backup-Anbieter auswählen</string>
     <!-- Clock style -->
     <string name="clock_style_title">Uhrenstil</string>
     <string name="clock_style_summary">Sperrbildschirm-Uhr anpassen</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Inaktivitätsdisplay-Gesten</string>
+    <string name="ambient_wake_gestures_summary">Inaktivitätsdisplay statt normalen Sperrbildschirm bei Weckgesten anzeigen</string>
     <string name="lockscreen_display_title">Sperrbildschirmanzeige</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_title">Drehung</string>
     <string name="display_rotation_summary">Rotationswinkel auswählen</string>
     <string name="display_rotation_disabled">Deaktiviert</string>
     <string name="display_rotation_unit">Grad</string>
@@ -100,11 +100,6 @@
     <string name="display_rotation_270_title">270 Grad</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Vibrationsmuster des Klingeltons</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Benutzerdefiniert</string>
     <string name="custom_vibration_pattern_title">Benutzerdefiniertes Muster</string>
     <!-- Volume rocker gestures -->
@@ -127,11 +122,15 @@
     <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Farbauswahl</string>
+    <string name="show_gestures_navbar_switch_title">Pille anzeigen</string>
+    <string name="show_gestures_navbar_switch_summary">Gesten Navigationsleiste anzeigen</string>
     <!-- Navbar length -->
     <string name="navbar_length">Länge des seitlichen Gestenbereichs</string>
     <string name="hidden_label">Ausgeblendet</string>
     <string name="long_label">Lang</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Netzwerkzugriff erlauben</string>
+    <string name="data_usage_app_restrict_all_summary">Netzwerknutzung aktivieren</string>
     <string name="data_usage_app_restrict_data">Mobile Daten</string>
     <string name="data_usage_app_restrict_data_summary">Nutzung mobiler Daten erlauben</string>
     <string name="data_usage_app_restrict_vpn">VPN-Daten</string>
@@ -264,4 +263,106 @@
     <string name="volume_steps_system_title">Lautstärkestufen: System</string>
     <string name="volume_steps_voice_call_title">Lautstärkestufen: Sprachanruf</string>
     <string name="volume_steps_reset">Zurücksetzen</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppelt Tippen</string>
+    <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
+    <string name="doze_double_tap_summary">Benachrichtigungen durch doppeltes Tippen anzeigen</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Zeige einen animierten Pfeil für die Zurück-Geste.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Unbekannt - zum Aktualisieren drücken</string>
+    <string name="night_display_location_text">\n\nDer Zeitplan von Sonnenuntergang bis -aufgang erfordert aktivierte Standortdienste, um die richtige Zeit für den Standort zu erhalten.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Intelligentes Laden</string>
+    <string name="smart_charging_summary">Maximales Ladeniveau festlegen</string>
+    <string name="smart_charging_switch_title">Intelligentes Laden verwenden</string>
+    <string name="smart_charging_level_title">Intelligentes Laden stoppen bei</string>
+    <string name="smart_charging_resume_level_title">Intelligentes Laden starten bei</string>
+    <string name="smart_charging_reset_stats_title">Akku-Statistik zurücksetzen</string>
+    <string name="smart_charging_reset_stats_summary">Akku-Statistik nach Erreichen des benutzerdefinierten Ladeniveaus zurücksetzen</string>
+    <string name="smart_charging_footer">Intelligentes Aufladen ermöglicht es, den maximalen Ladestand festzulegen, um die Lebensdauer des Akkus zu verlängern</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Energiesparmodus</string>
+    <string name="smart_charging_category_title">Intelligentes Laden</string>
+    <string name="battery_info_category_title">Akku-Zustand</string>
+    <string name="battery_usage_category_title">Akku-Info</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Aus</string>
+    <string name="greatest_tick_label">Halber Bildschirm</string>
+    <string name="gesture_back_deadzone_label">Tote Zone</string>
+    <string name="back_sensitivity_dialog_message_cust">\Den oberen Regler verwenden, um die Zurück-Wischempfindlichkeit zu konfigurieren, und den unteren Regler, um den Bereich des Bildschirms festzulegen, in dem das Wischen ausgelöst werden kann, um Konflikte mit In-App-Gesten zu vermeiden.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Keine Aktion</string>
+    <string name="action_search">Assistent</string>
+    <string name="action_voice_search">Sprachsuche</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_flashlight">Taschenlampe</string>
+    <string name="action_volume_panel">Lautstärkeregler</string>
+    <string name="action_screen_off">Bildschirm ausschalten</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_app_action">Anwendung</string>
+    <string name="active_edge_ss_app_select_title">App für kurzes Drücken</string>
+    <string name="active_edge_ls_app_select_title">App für langes Drücken</string>
+    <string name="active_edge_app_select_summary">App auswählen, die mit der Druck-Aktion gestartet werden soll</string>
+    <string name="action_qs_panel">Schnelleinstellungen</string>
+    <string name="action_notifications">Benachrichtigungen</string>
+    <string name="action_clear_notifications">Benachrichtigungen löschen</string>
+    <string name="action_ringer_modes">Klingelton-Modus</string>
+    <string name="kill_app">App im Vordergrund beenden</string>
+    <string name="skip_song">Titel überspringen</string>
+    <string name="prev_song">Vorheriger Titel</string>
+    <string name="show_powermenu">Power-Menü anzeigen</string>
+    <string name="partial_screenshot">Bildschirmbereich aufnehmen</string>
+    <string name="hush_mute">Alle Benachrichtigungen stummschalten</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Erweiterte Gestensteuerung</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Gesten anpassen und benutzerdefinierte Aktionen festlegen</string>
+    <string name="navbar_gesture_tweaks_cat_title">Erweitert</string>
+    <string name="long_back_swipe_timeout_title">Timeout für lange Zurück-Geste</string>
+    <string name="left_swipe_actions_title">Lange Wischaktion nach links</string>
+    <string name="left_swipe_app_action_title">App für lange Wischaktion nach links wählen</string>
+    <string name="right_swipe_actions_title">Lange Wischaktion nach rechts</string>
+    <string name="right_swipe_app_action_title">App für lange Wischaktion nach rechts wählen</string>
+    <string name="left_vertical_swipe_actions_title">Aktion für vertikales Wischen von links</string>
+    <string name="left_vertical_swipe_app_action_title">App für vertikales Wischen von links wählen</string>
+    <string name="right_vertical_swipe_actions_title">Aktion für vertikales Wischen von rechts</string>
+    <string name="right_vertical_swipe_app_action_title">App für vertikales Wischen von rechts wählen</string>
+    <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine App in der Apps-Auswahl. Wenn der Launcher angezeigt wird, streichen Sie ganz unten auf dem Bildschirm, um die Aktion auszulösen.</string>
+    <string name="back_swipe_extended_title">Erweiterte Wischaktion</string>
+    <string name="back_swipe_extended_summary">Aktion für breiteres Wischen (mehr als die Hälfte des Bildschirms), oder Wischen in Form eines L (vertikal lang genug)</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse funktioniert mit einigen Audioquellen nicht, wenn die Ausgabe über die Gerätelautsprecher erfolgt</string>
+    <string name="pulse_cat_title">Pulse Equalizer</string>
+    <string name="pulse_settings">MIUI (Pulse)</string>
+    <string name="pulse_settings_summary">Audio Graphic Equalizer</string>
+    <string name="show_navbar_pulse_title">Navigationsleiste Pulse</string>
+    <string name="show_navbar_pulse_summary">Audio Grafik Equalizer im Bereich der Navigationsleiste, auch wenn die Navigationsleiste ausgeblendet ist</string>
+    <string name="show_lockscreen_pulse_title">Sperrbildschirm Pulse</string>
+    <string name="show_lockscreen_pulse_summary">Grafischer Audio-Equalizer in der Navigationsleiste</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Grafischer Audio-Equalizer in der Navigationsleiste</string>
+    <string name="pulse_render_mode_title">Render-Modus</string>
+    <string name="pulse_render_mode_fading_bars">Verblassende Blöcke</string>
+    <string name="pulse_render_mode_solid_lines">Durchgezogene Linien</string>
+    <string name="pulse_color">Farbe</string>
+    <string name="pulse_color_mode">Farbmodus</string>
+    <string name="pulse_color_accent">Akzent</string>
+    <string name="pulse_color_custom">Benutzerdefiniert</string>
+    <string name="pulse_color_lava_lamp">Lavalampe</string>
+    <string name="pulse_color_auto">Album-Cover</string>
+    <string name="pulse_color_chooser">Farbe wählen</string>
+    <string name="smoothing_enabled_title">Glättung einschalten</string>
+    <string name="smoothing_enabled_summary">Jeder Balken wird flüssiger animiert</string>
+    <string name="pulse_advanced_category">Erweitert</string>
+    <string name="pulse_legacy_mode_advanced_category">Einstellungen für verblassende Blöcke</string>
+    <string name="pulse_custom_fudge_factor">Vernüftiger Lautstärkepegel</string>
+    <string name="lavamp_speed_title">Lava-Lampen Geschwindigkeit</string>
+    <string name="pulse_solid_units_count">Anzahl durchgezogener Balken</string>
+    <string name="pulse_solid_units_opacity">Deckkraft der durchgezogenen Linien</string>
+    <string name="pulse_solid_dimen_category">Einstellungen für durchgezogene Balken</string>
+    <string name="pulse_custom_dimen">Balkenbreite</string>
+    <string name="pulse_custom_div">Abstand der Balken</string>
+    <string name="pulse_filled_block_size">Größe der Blöcke</string>
+    <string name="pulse_empty_block_size">Abstand der Blöcke</string>
 </resources>
