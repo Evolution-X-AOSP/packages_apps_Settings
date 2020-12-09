@@ -57,6 +57,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 
 import com.android.settings.connecteddevice.DevicePreferenceCallback;
+import com.android.settings.connecteddevice.PreviouslyConnectedDeviceDashboardFragment;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settingslib.bluetooth.CachedBluetoothDevice;
 import com.android.settingslib.bluetooth.CachedBluetoothDeviceManager;
@@ -75,13 +76,15 @@ public class SavedBluetoothDeviceUpdater extends BluetoothDeviceUpdater
 
     private static final String PREF_KEY = "saved_bt";
 
+    private final boolean mDisplayConnected;
+
     @VisibleForTesting
     BluetoothAdapter mBluetoothAdapter;
 
     public SavedBluetoothDeviceUpdater(Context context, DashboardFragment fragment,
             DevicePreferenceCallback devicePreferenceCallback) {
         super(context, fragment, devicePreferenceCallback);
-
+        mDisplayConnected = (fragment instanceof PreviouslyConnectedDeviceDashboardFragment);
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
     }
 
@@ -135,7 +138,8 @@ public class SavedBluetoothDeviceUpdater extends BluetoothDeviceUpdater
                     + cachedDevice.isConnected() +
                     ", is twsplusdevice : " + device.isTwsPlusDevice());
         }
-        return device.getBondState() == BluetoothDevice.BOND_BONDED && !device.isConnected() && !device.isTwsPlusDevice();
+        return device.getBondState() == BluetoothDevice.BOND_BONDED
+                && (mDisplayConnected || !device.isConnected()) && !device.isTwsPlusDevice();
     }
 
     @Override
@@ -143,6 +147,9 @@ public class SavedBluetoothDeviceUpdater extends BluetoothDeviceUpdater
         mMetricsFeatureProvider.logClickedPreference(preference, mFragment.getMetricsCategory());
         final CachedBluetoothDevice device = ((BluetoothDevicePreference) preference)
                 .getBluetoothDevice();
+        if (device.isConnected()) {
+            return device.setActive();
+        }
         device.connect();
         return true;
     }
