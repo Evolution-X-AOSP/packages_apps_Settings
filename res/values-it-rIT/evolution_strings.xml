@@ -132,6 +132,8 @@
     <string name="hidden_label">Nascosto</string>
     <string name="long_label">Lunga</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Consenti l\'accesso alla rete</string>
+    <string name="data_usage_app_restrict_all_summary">Abilita l\'utilizzo della rete</string>
     <string name="data_usage_app_restrict_data">Dati mobili</string>
     <string name="data_usage_app_restrict_data_summary">Abilita l\'uso dei dati mobili</string>
     <string name="data_usage_app_restrict_vpn">Dati VPN</string>
@@ -264,4 +266,72 @@
     <string name="volume_steps_system_title">Livello volume: Sistema</string>
     <string name="volume_steps_voice_call_title">Livello volume: Chiamata</string>
     <string name="volume_steps_reset">Reimposta</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppio tocco</string>
+    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
+    <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animazione gesto indietro</string>
+    <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto indietro.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Sconosciuto - tocca per aggiornare</string>
+    <string name="night_display_location_text">\n\nLa pianificazione dal tramonto all\'alba richiede che i servizi di geolocalizzazione siano abilitati per ottenere gli orari corretti per la tua posizione.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Ricarica intelligente</string>
+    <string name="smart_charging_summary">Imposta un livello massimo di ricarica</string>
+    <string name="smart_charging_switch_title">Usa ricarica intelligente</string>
+    <string name="smart_charging_level_title">Livello di fine ricarica</string>
+    <string name="smart_charging_resume_level_title">Livello inizio ricarica</string>
+    <string name="smart_charging_reset_stats_title">Ripristina statistiche batteria</string>
+    <string name="smart_charging_reset_stats_summary">Ripristina le statistiche della batteria dopo aver raggiunto il livello di ricarica definito dall\'utente</string>
+    <string name="smart_charging_footer">La ricarica intelligente consente di impostare il livello massimo di ricarica per prolungare la durata della batteria</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Risparmio batteria</string>
+    <string name="smart_charging_category_title">Ricarica intelligente</string>
+    <string name="battery_info_category_title">Salute della batteria</string>
+    <string name="battery_usage_category_title">Informazioni batteria</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Metà schermo</string>
+    <string name="gesture_back_deadzone_label">Zona morta</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima e la seconda barra di scorrimento per riconfigurare la sensibilità del gesto, l\'ultima per impostare una zona morta in cima allo schermo dove non sarà possibile innescabile il gesto, per evitare i conflitti con i gesti in-app.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nessuna azione</string>
+    <string name="action_search">Assistente</string>
+    <string name="action_voice_search">Ricerca vocale</string>
+    <string name="action_launch_camera">Fotocamera</string>
+    <string name="action_flashlight">Torcia</string>
+    <string name="action_volume_panel">Pannelo del volume</string>
+    <string name="action_screen_off">Spegni schermo</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_app_action">Applicazione</string>
+    <string name="active_edge_ss_app_select_title">Seleziona l\'app con pressione breve</string>
+    <string name="active_edge_ls_app_select_title">Seleziona l\'app con pressione lunga</string>
+    <string name="active_edge_app_select_summary">Seleziona un\'app da lanciare con l\'azione di pressione</string>
+    <string name="action_qs_panel">Pannello impostazioni rapide</string>
+    <string name="action_notifications">Notifiche</string>
+    <string name="action_clear_notifications">Cancella le notifiche</string>
+    <string name="action_ringer_modes">Modalità suoneria</string>
+    <string name="kill_app">Termina app in primo piano</string>
+    <string name="skip_song">Salta brano</string>
+    <string name="prev_song">Brano precedente</string>
+    <string name="show_powermenu">Mostra menù alimentazione</string>
+    <string name="partial_screenshot">Screenshot parziale</string>
+    <string name="hush_mute">Silenzia le notifiche</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Gesti avanzati</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizza i gesti e imposta azioni personalizzate</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzate</string>
+    <string name="long_back_swipe_timeout_title">Durata azione di scorrimento prolungato</string>
+    <string name="left_swipe_actions_title">Azione di scorrimento prolungato a sinistra</string>
+    <string name="left_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a sinistra</string>
+    <string name="right_swipe_actions_title">Azione di scorrimento prolungato a destra</string>
+    <string name="right_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a destra</string>
+    <string name="left_vertical_swipe_actions_title">Azione di scorrimento verticale a sinistra</string>
+    <string name="left_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento a sinistra verticale</string>
+    <string name="right_vertical_swipe_actions_title">Azione di scorrimento verticale destro</string>
+    <string name="right_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento destro verticale</string>
+    <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'app per l\'azione, premi a lungo su ogni app nel selettore delle app.\n\nSe il launcher è mostrato, scorri nell\'area in fondo alla schermata per innescare l\'azione.</string>
+    <string name="back_swipe_extended_title">Azione di scorrimento ampia</string>
+    <string name="back_swipe_extended_summary">Innesca l\'azione su scorrimento più ampio (più di metà della dimensione dello schermo) o uno scorrimento a L (abbastanza lungo in verticale)</string>
 </resources>

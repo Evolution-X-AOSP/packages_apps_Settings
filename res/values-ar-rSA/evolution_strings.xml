@@ -132,6 +132,8 @@
     <string name="hidden_label">مخفي</string>
     <string name="long_label">طويل</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">السماح بالوصول للشبكة</string>
+    <string name="data_usage_app_restrict_all_summary">متابعة استخدام الشبكة</string>
     <string name="data_usage_app_restrict_data">بيانات الجوّال</string>
     <string name="data_usage_app_restrict_data_summary">تمكين استخدام البيانات</string>
     <string name="data_usage_app_restrict_vpn">بيانات VPN</string>
@@ -168,7 +170,7 @@
     <string name="adaptive_playback_timeout_2_min_summary">تشغيل (2 دقيقه)</string>
     <string name="adaptive_playback_timeout_5_min">٥ دقائق</string>
     <string name="adaptive_playback_timeout_5_min_summary">تشغيل (5 دقيقه)</string>
-    <string name="adaptive_playback_timeout_10_min">١٠ دقائق</string>
+    <string name="adaptive_playback_timeout_10_min">٥ دقائق</string>
     <string name="adaptive_playback_timeout_10_min_summary">تشغيل (10 دقيقه)</string>
     <string name="adaptive_playback_explainer">التشغيل التكيفي يتوقف تلقائياً عن تشغيل الوسائط عندما يتم كتم الصوت وسوف يستأنف تلقائياً عندما يتم استعادة الصوت خلال الوقت المحدد.</string>
     <!-- Hotspot extras -->
@@ -238,7 +240,7 @@
     <string name="app_notification_sound_timeout_value_30_seconds">30 ثانية</string>
     <string name="app_notification_sound_timeout_value_1_minute">دقيقة</string>
     <string name="app_notification_sound_timeout_value_5_minutes">٥ دقائق</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">١٠ دقائق</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">٥ دقائق</string>
     <string name="app_notification_sound_timeout_value_30_minutes">٣٠ دقيقة</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">اهتزاز عند النقر</string>
@@ -264,4 +266,72 @@
     <string name="volume_steps_system_title">درجات الصوت: النظام</string>
     <string name="volume_steps_voice_call_title">درجات صوت: المكالمة</string>
     <string name="volume_steps_reset">إعادة ضبط</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">نقر مزدوج</string>
+    <string name="doze_double_tap_title">النقر مرّتين للاطّلاع على الهاتف</string>
+    <string name="doze_double_tap_summary">التنبيهات النبضية بنقرة مزدوجة</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">تأثير حركة إيماءة الرجوع</string>
+    <string name="back_gesture_arrow_summary">إظهار سهم متحرك للإيماءة الخلفية.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">غير معروف - اضغط للتحديث</string>
+    <string name="night_display_location_text">\n\n الجدول الزمني من غروب الشمس إلى شروق الشمس يتطلب تمكين خدمات الموقع للحصول على الأوقات الصحيحة لموقعك.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">الشحن الذًكي</string>
+    <string name="smart_charging_summary">ضبط الحد الأقصى لمستوى الشحن</string>
+    <string name="smart_charging_switch_title">استخدم الشحن الذكي</string>
+    <string name="smart_charging_level_title">إيقاف مستوى المشغل</string>
+    <string name="smart_charging_resume_level_title">بدء مستوى المشغل</string>
+    <string name="smart_charging_reset_stats_title">إعادة تعيين إحصائيات البطارية</string>
+    <string name="smart_charging_reset_stats_summary">إعادة تعيين إحصائيات البطارية بعد الوصول إلى مستوى الشحن المحدد من قبل المستخدم</string>
+    <string name="smart_charging_footer">الشحن الذكي يسمح لك بتعيين الحد الأقصى لمستوى الشحن لتمديد عمر البطارية</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">موفِّر طاقة البطارية</string>
+    <string name="smart_charging_category_title">الشحن الذًكي</string>
+    <string name="battery_info_category_title">صحة البطارية</string>
+    <string name="battery_usage_category_title">بيانات البطارية</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">متوقف</string>
+    <string name="greatest_tick_label">تقسيم الشاشة</string>
+    <string name="gesture_back_deadzone_label">المنطقة الميتة</string>
+    <string name="back_sensitivity_dialog_message_cust">\nاستخدم شريط البحث الأول والثاني لتكوين حساسية السحب مرة أخرى، شريط البحث الأخير لتعيين منطقة ميتة على أعلى الشاشة حيث لا يمكن تشغيل السحب لتجنب التعارض مع الإيماءات داخل التطبيق.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">بلا إجراء</string>
+    <string name="action_search">مساعد</string>
+    <string name="action_voice_search">البحث الصوتي</string>
+    <string name="action_launch_camera">الكاميرا</string>
+    <string name="action_flashlight">تسجيل الخروج</string>
+    <string name="action_volume_panel">لوحة التحكم بالصوت</string>
+    <string name="action_screen_off">قفل الشاشة</string>
+    <string name="action_screenshot">لقطة الشاشة</string>
+    <string name="action_app_action">التطبيقات</string>
+    <string name="active_edge_ss_app_select_title">حدد تطبيق الضغط القصير</string>
+    <string name="active_edge_ls_app_select_title">حدد تطبيق الضغط الطويل</string>
+    <string name="active_edge_app_select_summary">حدد تطبيقًا لتشغيله باستخدام إجراء الضغط</string>
+    <string name="action_qs_panel">لوحة الإعدادات السريعة</string>
+    <string name="action_notifications">الإشعارات</string>
+    <string name="action_clear_notifications">مسح الإشعارات</string>
+    <string name="action_ringer_modes">اوضاع الرنين</string>
+    <string name="kill_app">قتل التطبيق الموجود في المقدمة</string>
+    <string name="skip_song">تخطي الأغنية</string>
+    <string name="prev_song">الأغنية السابقة</string>
+    <string name="show_powermenu">إظهار قائمة التشغيل</string>
+    <string name="partial_screenshot">صورة جزئية للشاشة</string>
+    <string name="hush_mute">كل الإشعارات صامتة</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">إعادة التشغيل</string>
+    <string name="navbar_gesture_tweaks_pref_summary">تخصيص الإيماءات وتعيين إجراءات مخصصة</string>
+    <string name="navbar_gesture_tweaks_cat_title">خيارات متقدمة</string>
+    <string name="long_back_swipe_timeout_title">مهلة إجراء السحب الطويل</string>
+    <string name="left_swipe_actions_title">إجراء السحب الطويل لليسار</string>
+    <string name="left_swipe_app_action_title">حدد تطبيق السحب لليسار الطويل</string>
+    <string name="right_swipe_actions_title">إجراء السحب الطويل لليمين</string>
+    <string name="right_swipe_app_action_title">حدد تطبيق السحب لليسار الطويل</string>
+    <string name="left_vertical_swipe_actions_title">إجراء السحب الرأسي لليسار</string>
+    <string name="left_vertical_swipe_app_action_title">حدد تطبيق السحب لليسار الطويل</string>
+    <string name="right_vertical_swipe_actions_title">إجراء السحب الرأسي لليسار</string>
+    <string name="right_vertical_swipe_app_action_title">حدد تطبيق السحب لليسار الطويل</string>
+    <string name="gesture_nav_tweaks_footer_info">لاختيار نشاط تطبيق محدد للعمل، اضغط مطولاً على أي تطبيق في منتقي التطبيقات.\n\nإذا كان المشغل يظهر، قم بالسحب في الجزء السفلي من الشاشة لتفعيل الإجراء.</string>
+    <string name="back_swipe_extended_title">إجراء السحب الموسع</string>
+    <string name="back_swipe_extended_summary">إجراء التفعيل على التمرير الأوسع (أكثر من نصف حجم العرض)، أو التمرير L (أطول رأسياً بما فيه الكفاية)</string>
 </resources>
