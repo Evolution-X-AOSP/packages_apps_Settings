@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Fingerabdruck bei ausgeschaltetem Display</string>
     <string name="fod_gesture_summary">Ermöglicht das Entsperren des Geräts, ohne zuerst den Bildschirm einschalten zu müssen</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Über Fingerabdrucksensor nach rechts oder links streichen, um Benachrichtigungen zu schließen</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Um Benachrichtigungen zu schließen, nach links oder rechts über den rückwärtigen Fingerabdrucksensor wischen.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Backup-Anbieter ändern</string>
     <string name="backup_transport_title">Backup-Anbieter auswählen</string>
     <!-- Clock style -->
     <string name="clock_style_title">Uhrenstil</string>
     <string name="clock_style_summary">Sperrbildschirm-Uhr anpassen</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Inaktivitätsdisplay-Gesten</string>
+    <string name="ambient_wake_gestures_summary">Inaktivitätsdisplay statt normalen Sperrbildschirm bei Weckgesten anzeigen</string>
     <string name="lockscreen_display_title">Sperrbildschirmanzeige</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
@@ -132,8 +132,10 @@
     <string name="hidden_label">Ausgeblendet</string>
     <string name="long_label">Lang</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Mobile Daten</string>
-    <string name="data_usage_app_restrict_data_summary">Nutzung mobiler Daten erlauben</string>
+    <string name="data_usage_app_restrict_all">Netzwerkzugriff erlauben</string>
+    <string name="data_usage_app_restrict_all_summary">Netzwerknutzung aktivieren</string>
+    <string name="data_usage_app_restrict_mobile">Mobile Daten</string>
+    <string name="data_usage_app_restrict_mobile_summary">Nutzung mobiler Daten aktivieren</string>
     <string name="data_usage_app_restrict_vpn">VPN-Daten</string>
     <string name="data_usage_app_restrict_vpn_summary">Nutzung von VPN-Daten erlauben</string>
     <string name="data_usage_app_restrict_wifi">Wlan-Datenbeschränkung</string>
@@ -264,4 +266,14 @@
     <string name="volume_steps_system_title">Lautstärkestufen: System</string>
     <string name="volume_steps_voice_call_title">Lautstärkestufen: Sprachanruf</string>
     <string name="volume_steps_reset">Zurücksetzen</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppelt Tippen</string>
+    <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
+    <string name="doze_double_tap_summary">Benachrichtigungen durch doppeltes Tippen anzeigen</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Zeige einen animierten Pfeil für die Zurück-Geste.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Unbekannt - zum Aktualisieren drücken</string>
+    <string name="night_display_location_text">\n\nDer Zeitplan von Sonnenuntergang bis -aufgang erfordert aktivierte Standortdienste, um die richtige Zeit für den Standort zu erhalten.</string>
 </resources>
