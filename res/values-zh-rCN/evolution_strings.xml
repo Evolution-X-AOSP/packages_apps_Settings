@@ -54,11 +54,11 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">连接铃声和通知音量</string>
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Root用户调试</string>
+    <string name="adb_enable_root">Root 用户调试</string>
     <string name="adb_enable_summary_root">允许以 root 身份运行 Android 调试</string>
     <!-- Custom light color -->
     <string name="custom_light_title">呼吸灯颜色</string>
-    <string name="custom_light_on_time_title">屏幕开启下LED闪烁间隔时间(毫秒)</string>
+    <string name="custom_light_on_time_title">屏幕开启下 LED 闪烁间隔时间 (毫秒)</string>
     <string name="custom_light_off_time_title">屏幕关闭时指示灯闪烁间隔时间 (毫秒)</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">熄屏指纹</string>
     <string name="fod_gesture_summary">无需先唤醒屏幕即可解锁设备</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">左右滑动指纹传感器以清除通知</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">要清除通知，请在手机背面的指纹传感器上向左或向右滑动</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">更改备份提供商</string>
     <string name="backup_transport_title">选择备份文件夹</string>
     <!-- Clock style -->
     <string name="clock_style_title">时钟样式</string>
     <string name="clock_style_summary">自定义锁屏时钟</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">环境唤醒手势</string>
+    <string name="ambient_wake_gestures_summary">唤醒手势后显示环境显示，而不是平常的锁定屏幕</string>
     <string name="lockscreen_display_title">锁屏显示</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">旋转</string>
@@ -100,11 +100,6 @@
     <string name="display_rotation_270_title">270 度</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">来电振动样式</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">自定义</string>
     <string name="custom_vibration_pattern_title">自定义模式</string>
     <!-- Volume rocker gestures -->
@@ -127,11 +122,15 @@
     <string name="battery_charge_cycles">充电周期已完成</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">拾色器</string>
+    <string name="show_gestures_navbar_switch_title">秀丸</string>
+    <string name="show_gestures_navbar_switch_summary">显示手势导航栏</string>
     <!-- Navbar length -->
     <string name="navbar_length">手势栏长度</string>
     <string name="hidden_label">隐藏</string>
     <string name="long_label">长</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">允许联网</string>
+    <string name="data_usage_app_restrict_all_summary">启用网络</string>
     <string name="data_usage_app_restrict_data">移动数据</string>
     <string name="data_usage_app_restrict_data_summary">启用移动数据流量使用统计</string>
     <string name="data_usage_app_restrict_vpn">VPN 数据</string>
@@ -171,9 +170,6 @@
     <string name="adaptive_playback_timeout_10_min">10 分钟</string>
     <string name="adaptive_playback_timeout_10_min_summary">开启(10分钟)</string>
     <string name="adaptive_playback_explainer">当音量被静音时，自适应播放会自动暂停媒体，当音量在设定时间内恢复时会自动恢复。</string>
-    <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">后台进程</string>
     <!-- LiveDisplay -->
@@ -264,4 +260,116 @@
     <string name="volume_steps_system_title">音量调整级别: 系统</string>
     <string name="volume_steps_voice_call_title">音量调整级别: 通话</string>
     <string name="volume_steps_reset">重置</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">双击</string>
+    <string name="doze_double_tap_title">双击检查通知</string>
+    <string name="doze_double_tap_summary">双击快速显示通知</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">返回手势动画</string>
+    <string name="back_gesture_arrow_summary">显示返回手势的动画箭头</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">未知-按下升级</string>
+    <string name="night_display_location_text">\n\n从日落到日出的时间表需要启用的位置服务才能获取您所在位置的正确时间。</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">智能充电</string>
+    <string name="smart_charging_summary">设置充电最高电量</string>
+    <string name="smart_charging_switch_title">启用智能充电</string>
+    <string name="smart_charging_level_title">停止触发级别</string>
+    <string name="smart_charging_resume_level_title">开始触发级别</string>
+    <string name="smart_charging_reset_stats_title">重置电池统计信息</string>
+    <string name="smart_charging_reset_stats_summary">在达到用户定义充电量之后重置电池统计</string>
+    <string name="smart_charging_footer">智能充电允许您设置最大充电电量，以延长电池的使用寿命</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">省电模式</string>
+    <string name="smart_charging_category_title">智能充电</string>
+    <string name="battery_info_category_title">电池健康状态:</string>
+    <string name="battery_usage_category_title">电池信息</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">关闭</string>
+    <string name="greatest_tick_label">半屏</string>
+    <string name="gesture_back_deadzone_label">禁止区域</string>
+    <string name="back_sensitivity_dialog_message_cust">使用第一个和第二个滑块来配置返回滑动手势的灵敏度。使用第二个滑块配置屏幕上半部分禁止触发滑动手势的区域，以避免与应用内手势发生冲突。</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">无动作</string>
+    <string name="action_search">助理</string>
+    <string name="action_voice_search">语音搜索</string>
+    <string name="action_launch_camera">相机</string>
+    <string name="action_flashlight">手电筒</string>
+    <string name="action_volume_panel">声音面板</string>
+    <string name="action_screen_off">息屏</string>
+    <string name="action_screenshot">屏幕截图</string>
+    <string name="action_app_action">应用程序</string>
+    <string name="active_edge_ss_app_select_title">选择短按应用</string>
+    <string name="active_edge_ls_app_select_title">选择长按应用</string>
+    <string name="active_edge_app_select_summary">选择按压时启动的应用</string>
+    <string name="action_qs_panel">快速设置面板</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_clear_notifications">清除通知</string>
+    <string name="action_ringer_modes">响铃模式</string>
+    <string name="kill_app">终止前台应用</string>
+    <string name="skip_song">下一曲</string>
+    <string name="prev_song">上一曲</string>
+    <string name="show_powermenu">显示电源菜单</string>
+    <string name="partial_screenshot">截取部分屏幕</string>
+    <string name="hush_mute">通知静音</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">高级手势</string>
+    <string name="navbar_gesture_tweaks_pref_summary">自定义手势与动作</string>
+    <string name="navbar_gesture_tweaks_cat_title">高级选项</string>
+    <string name="long_back_swipe_timeout_title">长划超时</string>
+    <string name="left_swipe_actions_title">左长划动作</string>
+    <string name="left_swipe_app_action_title">选择左长划应用</string>
+    <string name="right_swipe_actions_title">右长划动作</string>
+    <string name="right_swipe_app_action_title">选择右长划应用</string>
+    <string name="left_vertical_swipe_actions_title">左侧垂直手势</string>
+    <string name="left_vertical_swipe_app_action_title">选择左侧垂直手势应用</string>
+    <string name="right_vertical_swipe_actions_title">右侧垂直手势</string>
+    <string name="right_vertical_swipe_app_action_title">选择右侧垂直手势应用</string>
+    <string name="gesture_nav_tweaks_footer_info">在应用选择器中长按选择可以为手势指定应用的特定活动。\n\n在使用启动器时，在屏幕底部滑动可以触发手势。</string>
+    <string name="back_swipe_extended_title">额外滑动手势</string>
+    <string name="back_swipe_extended_summary">较长的滑动距离 (超过屏幕的一半) 或做 L 形滑动 (垂直距离足够长) 可以触发手势</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">使用设备扬声器播放某些音频源时，脉冲效果可能无法正常显示</string>
+    <string name="pulse_cat_title">脉冲均衡器</string>
+    <string name="pulse_settings">脉冲</string>
+    <string name="pulse_settings_summary">音频可视化效果</string>
+    <string name="show_navbar_pulse_title">导航栏脉冲</string>
+    <string name="show_navbar_pulse_summary">在隐藏导航栏时依旧在该区域显示音频可视化效果</string>
+    <string name="show_lockscreen_pulse_title">锁屏界面脉冲</string>
+    <string name="show_lockscreen_pulse_summary">在锁屏界面显示音频可视化效果</string>
+    <string name="show_ambient_pulse_title">息屏脉冲</string>
+    <string name="show_ambient_pulse_summary">在息屏显示界面显示音频可视化效果</string>
+    <string name="pulse_render_mode_title">渲染模式</string>
+    <string name="pulse_render_mode_fading_bars">渐变块</string>
+    <string name="pulse_render_mode_solid_lines">实线</string>
+    <string name="pulse_color">颜色</string>
+    <string name="pulse_color_mode">颜色模式</string>
+    <string name="pulse_color_accent">主题色</string>
+    <string name="pulse_color_custom">自定义</string>
+    <string name="pulse_color_lava_lamp">熔岩灯</string>
+    <string name="pulse_color_auto">专辑封面</string>
+    <string name="pulse_color_chooser">选择颜色</string>
+    <string name="smoothing_enabled_title">平滑动画</string>
+    <string name="smoothing_enabled_summary">使每条脉冲条的动画更加平滑</string>
+    <string name="pulse_advanced_category">高级设置</string>
+    <string name="pulse_legacy_mode_advanced_category">渐变块模式设置</string>
+    <string name="pulse_custom_fudge_factor">清晰等级</string>
+    <string name="lavamp_speed_title">熔岩灯速度</string>
+    <string name="pulse_solid_units_count">实线数量</string>
+    <string name="pulse_solid_units_opacity">实线不透明度</string>
+    <string name="pulse_solid_dimen_category">实线模式设置</string>
+    <string name="pulse_custom_dimen">脉冲条宽度</string>
+    <string name="pulse_custom_div">脉冲条间距</string>
+    <string name="pulse_filled_block_size">色块大小</string>
+    <string name="pulse_empty_block_size">色块间距</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">底部电池百分比</string>
+    <string name="ambient_battery_percent_summary">息屏时显示电池百分比</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">屏幕截图类型</string>
+    <string name="screenshot_type_fullscreen">全屏截图</string>
+    <string name="screenshot_type_partial">拖动选择想要截取的区域</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">充电提示音</string>
+    <string name="charging_vibro_title">充电时振动</string>
 </resources>

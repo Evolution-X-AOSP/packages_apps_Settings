@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Адбітак пальца на выключаны экране</string>
     <string name="fod_gesture_summary">Дазваляе разблакаваць прыладу без неабходнасці прачынацца з экрана</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Правядзіце пальцам па сканару адбітка пальца налева або направа, каб прыбраць апавяшчэнні</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Каб ачысціць вашыя апавяшчэнні, правядзіце пальцам налева або права па сканару адбітка пальца.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Змяніць пастаўшчыка рэзервовага капіявання</string>
     <string name="backup_transport_title">Выберыце пастаўшчыка рэзервовага капіявання</string>
     <!-- Clock style -->
     <string name="clock_style_title">Стыль гадзінніка</string>
     <string name="clock_style_summary">Наладзіць гадзіннік на экране блакавання</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Жэсты на Актыўным дысплеі</string>
+    <string name="ambient_wake_gestures_summary">Паказваць Актыўны дысплей замест звычайнага экрана блакавання падчас жэстаў</string>
     <string name="lockscreen_display_title">На заблакаваным экране</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Паварот экрана</string>
@@ -100,11 +100,6 @@
     <string name="display_rotation_270_title">270 градусаў</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Шаблон вібрацыі пры тэлефанаванні</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Карыстацкая</string>
     <string name="custom_vibration_pattern_title">Карыстацкі шаблон</string>
     <!-- Volume rocker gestures -->
@@ -127,12 +122,16 @@
     <string name="battery_charge_cycles">Цыклы зарадкі завершаныя</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Палітра колераў</string>
+    <string name="show_gestures_navbar_switch_title">Паказаць таблетку</string>
+    <string name="show_gestures_navbar_switch_summary">Паказваць панэль навігацыі жэстаў</string>
     <!-- Navbar length -->
     <string name="navbar_length">Даўжыня паласы жэстаў</string>
     <string name="hidden_label">Схавана</string>
     <string name="long_label">Доўгі</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Перадача дадзеных</string>
+    <string name="data_usage_app_restrict_all">Дазволіць доступ да сеткі</string>
+    <string name="data_usage_app_restrict_all_summary">Адсочванне выкарыстанне сеткі</string>
+    <string name="data_usage_app_restrict_data">Даныя мабільнай сувязі</string>
     <string name="data_usage_app_restrict_data_summary">Уключыць выкарыстанне мабільных дадзеных</string>
     <string name="data_usage_app_restrict_vpn">Дадзеныя VPN</string>
     <string name="data_usage_app_restrict_vpn_summary">Уключыць выкарыстанне дадзеных VPN</string>
@@ -171,9 +170,6 @@
     <string name="adaptive_playback_timeout_10_min">10 хвілін</string>
     <string name="adaptive_playback_timeout_10_min_summary">Укл. (10 хвілін)</string>
     <string name="adaptive_playback_explainer">Адаптыўнае прайграванне аўтаматычна прыпыняе медыя калі гук выключаны, і адновіцца аўтаматычна пры аднаўленні гучнасці на працягу зададзенага часу.</string>
-    <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Дазволіць кліентам выкарыстоўваць VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Дазволіць кліентам пункта доступу выкарыстоўваць VPN-злучэнні гэтай прылады для падлучэння да сеткі</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">Фонавыя працэсы</string>
     <!-- LiveDisplay -->
@@ -264,4 +260,116 @@
     <string name="volume_steps_system_title">Узроўні гучнасці: Сістэма</string>
     <string name="volume_steps_voice_call_title">Узровень гучнасці: Галасавы выклік</string>
     <string name="volume_steps_reset">Скінуць</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Падвойны націск</string>
+    <string name="doze_double_tap_title">Прагляд часу і апавяшчэнняў падвойным націскам</string>
+    <string name="doze_double_tap_summary">Прагляд апавяшчэнняў падвойным націскам</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Анімацыя жэста назад</string>
+    <string name="back_gesture_arrow_summary">Паказаць аніміраваную стрэлку для жэсту \"Назад\".</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Невядома - націсніце для абнаўлення</string>
+    <string name="night_display_location_text">\n\nДля раскладу ад заходу да світання патрабуюцца ўключыць службы вызначэння месцазнаходжання для атрымання вашага мясцовага часу.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Разумная зарадка</string>
+    <string name="smart_charging_summary">Усталяваць максімальны ўзровень зарадкі</string>
+    <string name="smart_charging_switch_title">Выкарыстоўваць разумную зарадку</string>
+    <string name="smart_charging_level_title">Узровень адключэння Разумнай зарадкі</string>
+    <string name="smart_charging_resume_level_title">Узровень пачатку работы Разумнай зарадкі</string>
+    <string name="smart_charging_reset_stats_title">Скінуць статыстыку батарэі</string>
+    <string name="smart_charging_reset_stats_summary">Скідаць статыстыку батарэі пасля дасягнення зададзенага ўзроўню зарада</string>
+    <string name="smart_charging_footer">Разумная зарадка дазваляе ўсталяваць максімальны ўзровень зарадкі для падаўжэння тэрміну службы батарэі</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Эканомія зараду</string>
+    <string name="smart_charging_category_title">Разумная зарадка</string>
+    <string name="battery_info_category_title">Здароўе акумулятара</string>
+    <string name="battery_usage_category_title">Інфармацыя аб батарэі</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Адкл</string>
+    <string name="greatest_tick_label">Палова экрана</string>
+    <string name="gesture_back_deadzone_label">Мяжа неадчувальнасці</string>
+    <string name="back_sensitivity_dialog_message_cust">\nВыкарыстоўвайце першую і другую панэлі пошуку для наладжвання адчувальнасці жэста назад, апошняя панэль пошуку ўсталёўвае мёртвую вобласць у верхняй частцы экрана, дзе нельга праводзіць жэст, каб пазбегнуць канфліктаў з жэстамі ў праграмах.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Няма дзеяння</string>
+    <string name="action_search">Асістэнт</string>
+    <string name="action_voice_search">Галасавы пошук</string>
+    <string name="action_launch_camera">Камера</string>
+    <string name="action_flashlight">Ліхтарык</string>
+    <string name="action_volume_panel">Панэль гучнасці</string>
+    <string name="action_screen_off">Выключыць экран</string>
+    <string name="action_screenshot">Здымак экрана</string>
+    <string name="action_app_action">Праграма</string>
+    <string name="active_edge_ss_app_select_title">Выбраць праграму па кароткім сціску</string>
+    <string name="active_edge_ls_app_select_title">Выбраць праграму па доўгім сціску</string>
+    <string name="active_edge_app_select_summary">Выбраць праграму для запуску дзеянні па сціску</string>
+    <string name="action_qs_panel">Панэль хуткіх налад</string>
+    <string name="action_notifications">Апавяшчэнні</string>
+    <string name="action_clear_notifications">Ачысціць апавяшчэнні</string>
+    <string name="action_ringer_modes">Рэжымы званка</string>
+    <string name="kill_app">Закрыць актыўныя праграмы</string>
+    <string name="skip_song">Прапусціце песню</string>
+    <string name="prev_song">Папярэдні трэк</string>
+    <string name="show_powermenu">Паказаць меню сілкавання</string>
+    <string name="partial_screenshot">Здымак выбранай вобласці экрана</string>
+    <string name="hush_mute">Адключыць гук апавяшчэнняў</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Пашыраныя жэсты</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Наладзьце жэсты і ўсталёўвайце ўласныя дзеянні</string>
+    <string name="navbar_gesture_tweaks_cat_title">Пашыраныя налады</string>
+    <string name="long_back_swipe_timeout_title">Працягласць доўгага свайпа</string>
+    <string name="left_swipe_actions_title">Дзеянне для доўгага свайпа налева</string>
+    <string name="left_swipe_app_action_title">Выбраць праграму для доўгага свайпа злева</string>
+    <string name="right_swipe_actions_title">Дзеянне для доўгага свайпа справа</string>
+    <string name="right_swipe_app_action_title">Выбраць праграму для доўгага свайпа справа</string>
+    <string name="left_vertical_swipe_actions_title">Дзеянне на вертыкальны свайп злева</string>
+    <string name="left_vertical_swipe_app_action_title">Выберыце праграму на вертыкальны свайп злева</string>
+    <string name="right_vertical_swipe_actions_title">Дзеянне на вертыкальны свайп справа</string>
+    <string name="right_vertical_swipe_app_action_title">Выберыце праграму на вертыкальны свайп справа</string>
+    <string name="gesture_nav_tweaks_footer_info">Каб выбраць пэўныя дзеянні праграмы, націсніце любую праграму ў раздзеле выбару.\n\nКалі адлюстроўваецца панэль запуску, правядзіце пальцам у ніжняй частцы экрана, каб пачаць дзеянне.</string>
+    <string name="back_swipe_extended_title">Дзеянне на пашыраны свайп</string>
+    <string name="back_swipe_extended_summary">Запуск дзеянні на шырокі свайп (больш чым на палову экрана), або L-свайп (істотна даўжэй па вертыкалі)</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse не працуе з некаторымі крыніцамі аўдыё падчас праслухоўвання праз дынамік</string>
+    <string name="pulse_cat_title">Эквалайзер Pulse</string>
+    <string name="pulse_settings">Пульс</string>
+    <string name="pulse_settings_summary">Графічны эквалайзер гуку</string>
+    <string name="show_navbar_pulse_title">Пульсацыя на навігацыйнай панэлі</string>
+    <string name="show_navbar_pulse_summary">Аўдыё эквалайзер на панэлі навігацыі, таксама калі панэль схаваная</string>
+    <string name="show_lockscreen_pulse_title">Pulse на заблакаваным экране</string>
+    <string name="show_lockscreen_pulse_summary">Графічны гукавы эквалайзер на заблакаваным экране</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Аўдыя графічны эквалайзер на актыўным экране</string>
+    <string name="pulse_render_mode_title">Рэжым візуалізацыі</string>
+    <string name="pulse_render_mode_fading_bars">Згасаючыя блокі</string>
+    <string name="pulse_render_mode_solid_lines">Суцэльныя лініі</string>
+    <string name="pulse_color">Колер</string>
+    <string name="pulse_color_mode">Каляровая мадэль</string>
+    <string name="pulse_color_accent">Адценне</string>
+    <string name="pulse_color_custom">Карыстацкая</string>
+    <string name="pulse_color_lava_lamp">Lava лямпа</string>
+    <string name="pulse_color_auto">Вокладка альбому</string>
+    <string name="pulse_color_chooser">Выбраць колер</string>
+    <string name="smoothing_enabled_title">Уключыць згладжванне</string>
+    <string name="smoothing_enabled_summary">Больш гладкая анімацыя слупкоў</string>
+    <string name="pulse_advanced_category">Пашыраныя налады</string>
+    <string name="pulse_legacy_mode_advanced_category">Налады рэжыму загасальных блокаў</string>
+    <string name="pulse_custom_fudge_factor">Узровень адчувальнасці</string>
+    <string name="lavamp_speed_title">Хуткасць Lava лямпы</string>
+    <string name="pulse_solid_units_count">Колькасць суцэльных ліній</string>
+    <string name="pulse_solid_units_opacity">Празрыстасць суцэльных ліній</string>
+    <string name="pulse_solid_dimen_category">Налады рэжыму суцэльных ліній</string>
+    <string name="pulse_custom_dimen">Шырыня панэлі</string>
+    <string name="pulse_custom_div">Адлегласць паміж панэлямі</string>
+    <string name="pulse_filled_block_size">Памер блокаў</string>
+    <string name="pulse_empty_block_size">Адлегласць паміж блокамі</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Узровень зарада батарэі унізе</string>
+    <string name="ambient_battery_percent_summary">Уключыць адлюстраванне працэнтаў зарада ў рэжыме Doze</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Тып скрыншота</string>
+    <string name="screenshot_type_fullscreen">Поўнаэкранны скрыншот экрана</string>
+    <string name="screenshot_type_partial">Вылучыце вобласць якую вы хочаце захаваць як скрыншот</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Гукі зарадкі</string>
+    <string name="charging_vibro_title">Вібрацыя падчас зарадкі</string>
 </resources>
