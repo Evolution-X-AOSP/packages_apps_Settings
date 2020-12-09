@@ -132,8 +132,10 @@
     <string name="hidden_label">非表示</string>
     <string name="long_label">長い</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">モバイルデータ</string>
-    <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_all">ネットワークアクセスを許可</string>
+    <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効化する</string>
+    <string name="data_usage_app_restrict_mobile">モバイルデータ</string>
+    <string name="data_usage_app_restrict_mobile_summary">モバイルデータ使用量を有効化する</string>
     <string name="data_usage_app_restrict_vpn">VPN データ</string>
     <string name="data_usage_app_restrict_vpn_summary">VPN データ使用量を有効化する</string>
     <string name="data_usage_app_restrict_wifi">Wi-Fi データ</string>
@@ -264,4 +266,14 @@
     <string name="volume_steps_system_title">音量レベル: システム</string>
     <string name="volume_steps_voice_call_title">音量レベル: 音声通話</string>
     <string name="volume_steps_reset">リセット</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">ダブルタップ</string>
+    <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
+    <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">戻るジェスチャーアニメーション</string>
+    <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">不明 - タップして更新</string>
+    <string name="night_display_location_text">\n\n日の出から日の入りからのスケジュールにはあなたの正確な時刻を取得するために位置情報の有効化が必要です。</string>
 </resources>
