@@ -132,8 +132,10 @@
     <string name="hidden_label">Приховано</string>
     <string name="long_label">Довго</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Мобільні дані</string>
-    <string name="data_usage_app_restrict_data_summary">Увімкнути використання мобільних даних</string>
+    <string name="data_usage_app_restrict_all">Дозволити доступ до мережі</string>
+    <string name="data_usage_app_restrict_all_summary">Увімкнути використання мережі</string>
+    <string name="data_usage_app_restrict_mobile">Мобільне передавання даних</string>
+    <string name="data_usage_app_restrict_mobile_summary">Увімкнути використання мобільних даних</string>
     <string name="data_usage_app_restrict_vpn">Дані VPN</string>
     <string name="data_usage_app_restrict_vpn_summary">Увімкнути використання даних VPN</string>
     <string name="data_usage_app_restrict_wifi">Дані Wi-Fi</string>
@@ -264,4 +266,14 @@
     <string name="volume_steps_system_title">Рівень гучності: Системи</string>
     <string name="volume_steps_voice_call_title">Рівень гучності: Голосових викликів</string>
     <string name="volume_steps_reset">Скинути</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Подвійне натискання</string>
+    <string name="doze_double_tap_title">Двічі торкнутися, щоб перевірити сповіщення</string>
+    <string name="doze_double_tap_summary">Перегляд сповіщення подвійним натисканням</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Анімація жесту \"Назад\"</string>
+    <string name="back_gesture_arrow_summary">Показати анімаційну стрічку для зворотного жесту.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Невідомо - натисніть щоб оновити</string>
+    <string name="night_display_location_text">\n\nРозклад від заходу до сходу вимагає ввімкнених служб, щоб отримати необхідні часи для вашого розташування.</string>
 </resources>
