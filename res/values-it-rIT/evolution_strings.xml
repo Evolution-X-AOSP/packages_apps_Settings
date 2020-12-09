@@ -100,11 +100,6 @@
     <string name="display_rotation_270_title">270 gradi</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Pattern vibrazione suoneria</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Personalizzata</string>
     <string name="custom_vibration_pattern_title">Modello personalizzato</string>
     <!-- Volume rocker gestures -->
@@ -127,11 +122,15 @@
     <string name="battery_charge_cycles">Cicli di carica completati</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Selettore dei colori</string>
+    <string name="show_gestures_navbar_switch_title">Mostra pill</string>
+    <string name="show_gestures_navbar_switch_summary">Mostra i gesti barra di navigazione</string>
     <!-- Navbar length -->
     <string name="navbar_length">Lunghezza barra gesti</string>
     <string name="hidden_label">Nascosto</string>
     <string name="long_label">Lunga</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Consenti l\'accesso alla rete</string>
+    <string name="data_usage_app_restrict_all_summary">Abilita l\'utilizzo della rete</string>
     <string name="data_usage_app_restrict_data">Dati mobili</string>
     <string name="data_usage_app_restrict_data_summary">Abilita l\'uso dei dati mobili</string>
     <string name="data_usage_app_restrict_vpn">Dati VPN</string>
@@ -171,9 +170,6 @@
     <string name="adaptive_playback_timeout_10_min">10 minuti</string>
     <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
     <string name="adaptive_playback_explainer">La riproduzione adattiva interrompe automaticamente la riproduzione quando il volume è abbassato e riprenderà automaticamente quando il volume viene ripristinato entro il tempo impostato.</string>
-    <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Consenti ai dispositivi connessi di utilizzare le VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Consenti ai dispositivi collegati all\'hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">Processi in background</string>
     <!-- LiveDisplay -->
@@ -264,4 +260,106 @@
     <string name="volume_steps_system_title">Livello volume: Sistema</string>
     <string name="volume_steps_voice_call_title">Livello volume: Chiamata</string>
     <string name="volume_steps_reset">Reimposta</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppio tocco</string>
+    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
+    <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animazione gesto indietro</string>
+    <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto indietro.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Sconosciuto - tocca per aggiornare</string>
+    <string name="night_display_location_text">\n\nLa pianificazione dal tramonto all\'alba richiede che i servizi di geolocalizzazione siano abilitati per ottenere gli orari corretti per la tua posizione.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Ricarica intelligente</string>
+    <string name="smart_charging_summary">Imposta un livello massimo di ricarica</string>
+    <string name="smart_charging_switch_title">Usa ricarica intelligente</string>
+    <string name="smart_charging_level_title">Livello di fine ricarica</string>
+    <string name="smart_charging_resume_level_title">Livello inizio ricarica</string>
+    <string name="smart_charging_reset_stats_title">Ripristina statistiche batteria</string>
+    <string name="smart_charging_reset_stats_summary">Ripristina le statistiche della batteria dopo aver raggiunto il livello di ricarica definito dall\'utente</string>
+    <string name="smart_charging_footer">La ricarica intelligente consente di impostare il livello massimo di ricarica per prolungare la durata della batteria</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Risparmio batteria</string>
+    <string name="smart_charging_category_title">Ricarica intelligente</string>
+    <string name="battery_info_category_title">Salute della batteria</string>
+    <string name="battery_usage_category_title">Informazioni batteria</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Metà schermo</string>
+    <string name="gesture_back_deadzone_label">Zona morta</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima e la seconda barra di scorrimento per riconfigurare la sensibilità del gesto, l\'ultima per impostare una zona morta in cima allo schermo dove non sarà possibile innescabile il gesto, per evitare i conflitti con i gesti in-app.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nessuna azione</string>
+    <string name="action_search">Assistente</string>
+    <string name="action_voice_search">Ricerca vocale</string>
+    <string name="action_launch_camera">Fotocamera</string>
+    <string name="action_flashlight">Torcia</string>
+    <string name="action_volume_panel">Pannelo del volume</string>
+    <string name="action_screen_off">Spegni schermo</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_app_action">Applicazione</string>
+    <string name="active_edge_ss_app_select_title">Seleziona l\'app con pressione breve</string>
+    <string name="active_edge_ls_app_select_title">Seleziona l\'app con pressione lunga</string>
+    <string name="active_edge_app_select_summary">Seleziona un\'app da lanciare con l\'azione di pressione</string>
+    <string name="action_qs_panel">Pannello impostazioni rapide</string>
+    <string name="action_notifications">Notifiche</string>
+    <string name="action_clear_notifications">Cancella le notifiche</string>
+    <string name="action_ringer_modes">Modalità suoneria</string>
+    <string name="kill_app">Termina app in primo piano</string>
+    <string name="skip_song">Salta brano</string>
+    <string name="prev_song">Brano precedente</string>
+    <string name="show_powermenu">Mostra menù alimentazione</string>
+    <string name="partial_screenshot">Screenshot parziale</string>
+    <string name="hush_mute">Silenzia le notifiche</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Gesti avanzati</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizza i gesti e imposta azioni personalizzate</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzate</string>
+    <string name="long_back_swipe_timeout_title">Durata azione di scorrimento prolungato</string>
+    <string name="left_swipe_actions_title">Azione di scorrimento prolungato a sinistra</string>
+    <string name="left_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a sinistra</string>
+    <string name="right_swipe_actions_title">Azione di scorrimento prolungato a destra</string>
+    <string name="right_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a destra</string>
+    <string name="left_vertical_swipe_actions_title">Azione di scorrimento verticale a sinistra</string>
+    <string name="left_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento a sinistra verticale</string>
+    <string name="right_vertical_swipe_actions_title">Azione di scorrimento verticale destro</string>
+    <string name="right_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento destro verticale</string>
+    <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'app per l\'azione, premi a lungo su ogni app nel selettore delle app.\n\nSe il launcher è mostrato, scorri nell\'area in fondo alla schermata per innescare l\'azione.</string>
+    <string name="back_swipe_extended_title">Azione di scorrimento ampia</string>
+    <string name="back_swipe_extended_summary">Innesca l\'azione su scorrimento più ampio (più di metà della dimensione dello schermo) o uno scorrimento a L (abbastanza lungo in verticale)</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse non funziona con alcune sorgenti audio durante l\'ascolto sull\'altoparlante del dispositivo</string>
+    <string name="pulse_cat_title">Equalizzatore a impulsi</string>
+    <string name="pulse_settings">Impulso</string>
+    <string name="pulse_settings_summary">Equalizzatore grafico audio</string>
+    <string name="show_navbar_pulse_title">Impulso sulla barra di navigazione</string>
+    <string name="show_navbar_pulse_summary">Equalizzatore grafico audio nell\'area della barra di navigazione, anche se la barra è nascosta</string>
+    <string name="show_lockscreen_pulse_title">Impulso su blocco schermo</string>
+    <string name="show_lockscreen_pulse_summary">Equalizzatore grafico sulla schermata di blocco</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Equalizzatore grafico audio sulla schermata ambientale</string>
+    <string name="pulse_render_mode_title">Modalità esecuzione</string>
+    <string name="pulse_render_mode_fading_bars">Dissolvenza blocchi</string>
+    <string name="pulse_render_mode_solid_lines">Linee continue</string>
+    <string name="pulse_color">Colore</string>
+    <string name="pulse_color_mode">Modalità colore</string>
+    <string name="pulse_color_accent">Colore secondario</string>
+    <string name="pulse_color_custom">Personalizzata</string>
+    <string name="pulse_color_lava_lamp">Lampada di lava</string>
+    <string name="pulse_color_auto">Copertina album</string>
+    <string name="pulse_color_chooser">Scegli colore</string>
+    <string name="smoothing_enabled_title">Attiva lo scorrimento</string>
+    <string name="smoothing_enabled_summary">Ogni barra è animata in modo più fluido</string>
+    <string name="pulse_advanced_category">Avanzato</string>
+    <string name="pulse_legacy_mode_advanced_category">Impostazioni della modalità dissolvenza blocchi</string>
+    <string name="pulse_custom_fudge_factor">Livello di sicurezza</string>
+    <string name="lavamp_speed_title">Velocità lampada di lava</string>
+    <string name="pulse_solid_units_count">Conteggio delle linee</string>
+    <string name="pulse_solid_units_opacity">Linee continue opache</string>
+    <string name="pulse_solid_dimen_category">Impostazioni delle linee continue</string>
+    <string name="pulse_custom_dimen">Larghezza barra</string>
+    <string name="pulse_custom_div">Spaziatura della barra</string>
+    <string name="pulse_filled_block_size">Dimensione del blocco</string>
+    <string name="pulse_empty_block_size">Spaziatura blocchi</string>
 </resources>
