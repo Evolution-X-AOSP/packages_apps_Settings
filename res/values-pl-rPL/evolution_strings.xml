@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Odcisk palca na wyłączonym ekranie</string>
     <string name="fod_gesture_summary">Pozwala na odblokowanie urządzenia bez konieczności wybudzenia ekranu</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Przesuń w prawo lub lewo po czytniku linii papilarnych, aby usunąć powiadomienia</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">W celu usunięcia powiadomień przesuń palcem w lewo lub w prawo po czytniku linii papilarnych.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Zmień dostawcę kopii zapasowej</string>
     <string name="backup_transport_title">Wybierz dostawcę kopii zapasowej</string>
     <!-- Clock style -->
     <string name="clock_style_title">Styl zegara</string>
     <string name="clock_style_summary">Dostosuj zegar na ekranie blokady</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Gesty wybudzania ekranu ambient</string>
+    <string name="ambient_wake_gestures_summary">Pokaż ekran Ambient zamiast zwykłego ekranu blokady po przebudzeniu</string>
     <string name="lockscreen_display_title">Ekran blokady</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Obrót</string>
@@ -132,6 +132,8 @@
     <string name="hidden_label">Ukryty</string>
     <string name="long_label">Długi</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Zezwól na dostęp do sieci</string>
+    <string name="data_usage_app_restrict_all_summary">Włącz użycie sieci</string>
     <string name="data_usage_app_restrict_data">Transmisja danych komórkowych</string>
     <string name="data_usage_app_restrict_data_summary">Włącz użycie danych komórkowych</string>
     <string name="data_usage_app_restrict_vpn">Dane VPN</string>
@@ -264,4 +266,28 @@
     <string name="volume_steps_system_title">Poziom głośności: System</string>
     <string name="volume_steps_voice_call_title">Poziom głośności: Rozmowa</string>
     <string name="volume_steps_reset">Resetuj</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Podwójne dotknięcie</string>
+    <string name="doze_double_tap_title">Dotknij dwukrotnie, aby sprawdzić telefon</string>
+    <string name="doze_double_tap_summary">Pulsujące powiadomienia po dwukrotnym dotknięciu</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animacja gestu wstecz</string>
+    <string name="back_gesture_arrow_summary">Pokaż animowaną strzałkę dla gestu wstecz.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Nieznany - dotknij, aby zaktualizować </string>
+    <string name="night_display_location_text">\n\nHarmonogram od zachodu do wschodu słońca wymaga włączenia usług lokalizacyjnych, aby uzyskać odpowiedni czas dla Twojej lokalizacji.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Inteligentne ładowanie</string>
+    <string name="smart_charging_summary">Ustaw maksymalny poziom naładowania</string>
+    <string name="smart_charging_switch_title">Użyj inteligentnego ładowania</string>
+    <string name="smart_charging_level_title">Poziom zatrzymania</string>
+    <string name="smart_charging_resume_level_title">Poziom rozpoczęcia</string>
+    <string name="smart_charging_reset_stats_title">Resetuj statystyki baterii</string>
+    <string name="smart_charging_reset_stats_summary">Zresetuj statystyki baterii po osiągnięciu określonego przez użytkownika poziomu ładowania</string>
+    <string name="smart_charging_footer">Inteligentne ładowanie pozwala na ustawienie maksymalnego poziomu ładowania, aby wydłużyć żywotność baterii</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Oszczędzanie baterii</string>
+    <string name="smart_charging_category_title">Inteligentne ładowanie</string>
+    <string name="battery_info_category_title">Żywotność baterii</string>
+    <string name="battery_usage_category_title">Informacje o baterii</string>
 </resources>

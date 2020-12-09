@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Адбітак пальца на выключаны экране</string>
     <string name="fod_gesture_summary">Дазваляе разблакаваць прыладу без неабходнасці прачынацца з экрана</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Правядзіце пальцам па сканару адбітка пальца налева або направа, каб прыбраць апавяшчэнні</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Каб ачысціць вашыя апавяшчэнні, правядзіце пальцам налева або права па сканару адбітка пальца.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Змяніць пастаўшчыка рэзервовага капіявання</string>
     <string name="backup_transport_title">Выберыце пастаўшчыка рэзервовага капіявання</string>
     <!-- Clock style -->
     <string name="clock_style_title">Стыль гадзінніка</string>
     <string name="clock_style_summary">Наладзіць гадзіннік на экране блакавання</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Жэсты на Актыўным дысплеі</string>
+    <string name="ambient_wake_gestures_summary">Паказваць Актыўны дысплей замест звычайнага экрана блакавання падчас жэстаў</string>
     <string name="lockscreen_display_title">На заблакаваным экране</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Паварот экрана</string>
@@ -132,8 +132,10 @@
     <string name="hidden_label">Схавана</string>
     <string name="long_label">Доўгі</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Перадача дадзеных</string>
-    <string name="data_usage_app_restrict_data_summary">Уключыць выкарыстанне мабільных дадзеных</string>
+    <string name="data_usage_app_restrict_all">Дазволіць доступ да сеткі</string>
+    <string name="data_usage_app_restrict_all_summary">Адсочванне выкарыстанне сеткі</string>
+    <string name="data_usage_app_restrict_mobile">Мабільная перадача дадзеных</string>
+    <string name="data_usage_app_restrict_mobile_summary">Уключыць выкарыстанне мабільнай перадачы дадзеных</string>
     <string name="data_usage_app_restrict_vpn">Дадзеныя VPN</string>
     <string name="data_usage_app_restrict_vpn_summary">Уключыць выкарыстанне дадзеных VPN</string>
     <string name="data_usage_app_restrict_wifi">Дадзеныя Wi\u2011Fi</string>
@@ -264,4 +266,14 @@
     <string name="volume_steps_system_title">Узроўні гучнасці: Сістэма</string>
     <string name="volume_steps_voice_call_title">Узровень гучнасці: Галасавы выклік</string>
     <string name="volume_steps_reset">Скінуць</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Падвойны націск</string>
+    <string name="doze_double_tap_title">Прагляд часу і апавяшчэнняў падвойным націскам</string>
+    <string name="doze_double_tap_summary">Прагляд апавяшчэнняў падвойным націскам</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Анімацыя жэста назад</string>
+    <string name="back_gesture_arrow_summary">Паказаць аніміраваную стрэлку для жэсту \"Назад\".</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Невядома - націсніце для абнаўлення</string>
+    <string name="night_display_location_text">\n\nДля раскладу ад заходу да світання патрабуюцца ўключыць службы вызначэння месцазнаходжання для атрымання вашага мясцовага часу.</string>
 </resources>
