@@ -132,8 +132,10 @@
     <string name="hidden_label">مخفي</string>
     <string name="long_label">طويل</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">بيانات الجوّال</string>
-    <string name="data_usage_app_restrict_data_summary">تمكين استخدام البيانات</string>
+    <string name="data_usage_app_restrict_all">السماح بالوصول للشبكة</string>
+    <string name="data_usage_app_restrict_all_summary">متابعة استخدام الشبكة</string>
+    <string name="data_usage_app_restrict_mobile">بيانات المحمول</string>
+    <string name="data_usage_app_restrict_mobile_summary">تمكين استخدام بيانات VPN</string>
     <string name="data_usage_app_restrict_vpn">بيانات VPN</string>
     <string name="data_usage_app_restrict_vpn_summary">تمكين استخدام بيانات VPN</string>
     <string name="data_usage_app_restrict_wifi">بيانات WiFi</string>
@@ -264,4 +266,14 @@
     <string name="volume_steps_system_title">درجات الصوت: النظام</string>
     <string name="volume_steps_voice_call_title">درجات صوت: المكالمة</string>
     <string name="volume_steps_reset">إعادة ضبط</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">نقر مزدوج</string>
+    <string name="doze_double_tap_title">النقر مرّتين للاطّلاع على الهاتف</string>
+    <string name="doze_double_tap_summary">التنبيهات النبضية بنقرة مزدوجة</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">تأثير حركة إيماءة الرجوع</string>
+    <string name="back_gesture_arrow_summary">إظهار سهم متحرك للإيماءة الخلفية.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">غير معروف - اضغط للتحديث</string>
+    <string name="night_display_location_text">\n\n الجدول الزمني من غروب الشمس إلى شروق الشمس يتطلب تمكين خدمات الموقع للحصول على الأوقات الصحيحة لموقعك.</string>
 </resources>
