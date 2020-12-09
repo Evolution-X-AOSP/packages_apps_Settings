@@ -78,15 +78,15 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Адбітак пальца на выключаны экране</string>
     <string name="fod_gesture_summary">Дазваляе разблакаваць прыладу без неабходнасці прачынацца з экрана</string>
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Правядзіце пальцам па сканару адбітка пальца налева або направа, каб прыбраць апавяшчэнні</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Каб ачысціць вашыя апавяшчэнні, правядзіце пальцам налева або права па сканару адбітка пальца.</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Змяніць пастаўшчыка рэзервовага капіявання</string>
     <string name="backup_transport_title">Выберыце пастаўшчыка рэзервовага капіявання</string>
     <!-- Clock style -->
     <string name="clock_style_title">Стыль гадзінніка</string>
     <string name="clock_style_summary">Наладзіць гадзіннік на экране блакавання</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Жэсты на Актыўным дысплеі</string>
+    <string name="ambient_wake_gestures_summary">Паказваць Актыўны дысплей замест звычайнага экрана блакавання падчас жэстаў</string>
     <string name="lockscreen_display_title">На заблакаваным экране</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Паварот экрана</string>
@@ -132,7 +132,9 @@
     <string name="hidden_label">Схавана</string>
     <string name="long_label">Доўгі</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Перадача дадзеных</string>
+    <string name="data_usage_app_restrict_all">Дазволіць доступ да сеткі</string>
+    <string name="data_usage_app_restrict_all_summary">Адсочванне выкарыстанне сеткі</string>
+    <string name="data_usage_app_restrict_data">Даныя мабільнай сувязі</string>
     <string name="data_usage_app_restrict_data_summary">Уключыць выкарыстанне мабільных дадзеных</string>
     <string name="data_usage_app_restrict_vpn">Дадзеныя VPN</string>
     <string name="data_usage_app_restrict_vpn_summary">Уключыць выкарыстанне дадзеных VPN</string>
@@ -264,4 +266,72 @@
     <string name="volume_steps_system_title">Узроўні гучнасці: Сістэма</string>
     <string name="volume_steps_voice_call_title">Узровень гучнасці: Галасавы выклік</string>
     <string name="volume_steps_reset">Скінуць</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Падвойны націск</string>
+    <string name="doze_double_tap_title">Прагляд часу і апавяшчэнняў падвойным націскам</string>
+    <string name="doze_double_tap_summary">Прагляд апавяшчэнняў падвойным націскам</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Анімацыя жэста назад</string>
+    <string name="back_gesture_arrow_summary">Паказаць аніміраваную стрэлку для жэсту \"Назад\".</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Невядома - націсніце для абнаўлення</string>
+    <string name="night_display_location_text">\n\nДля раскладу ад заходу да світання патрабуюцца ўключыць службы вызначэння месцазнаходжання для атрымання вашага мясцовага часу.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Разумная зарадка</string>
+    <string name="smart_charging_summary">Усталяваць максімальны ўзровень зарадкі</string>
+    <string name="smart_charging_switch_title">Выкарыстоўваць разумную зарадку</string>
+    <string name="smart_charging_level_title">Узровень адключэння Разумнай зарадкі</string>
+    <string name="smart_charging_resume_level_title">Узровень пачатку работы Разумнай зарадкі</string>
+    <string name="smart_charging_reset_stats_title">Скінуць статыстыку батарэі</string>
+    <string name="smart_charging_reset_stats_summary">Скідаць статыстыку батарэі пасля дасягнення зададзенага ўзроўню зарада</string>
+    <string name="smart_charging_footer">Разумная зарадка дазваляе ўсталяваць максімальны ўзровень зарадкі для падаўжэння тэрміну службы батарэі</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Эканомія зараду</string>
+    <string name="smart_charging_category_title">Разумная зарадка</string>
+    <string name="battery_info_category_title">Здароўе акумулятара</string>
+    <string name="battery_usage_category_title">Інфармацыя аб батарэі</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Адкл</string>
+    <string name="greatest_tick_label">Палова экрана</string>
+    <string name="gesture_back_deadzone_label">Мяжа неадчувальнасці</string>
+    <string name="back_sensitivity_dialog_message_cust">\nВыкарыстоўвайце першую і другую панэлі пошуку для наладжвання адчувальнасці жэста назад, апошняя панэль пошуку ўсталёўвае мёртвую вобласць у верхняй частцы экрана, дзе нельга праводзіць жэст, каб пазбегнуць канфліктаў з жэстамі ў праграмах.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Няма дзеяння</string>
+    <string name="action_search">Асістэнт</string>
+    <string name="action_voice_search">Галасавы пошук</string>
+    <string name="action_launch_camera">Камера</string>
+    <string name="action_flashlight">Ліхтарык</string>
+    <string name="action_volume_panel">Панэль гучнасці</string>
+    <string name="action_screen_off">Выключыць экран</string>
+    <string name="action_screenshot">Здымак экрана</string>
+    <string name="action_app_action">Праграма</string>
+    <string name="active_edge_ss_app_select_title">Выбраць праграму па кароткім сціску</string>
+    <string name="active_edge_ls_app_select_title">Выбраць праграму па доўгім сціску</string>
+    <string name="active_edge_app_select_summary">Выбраць праграму для запуску дзеянні па сціску</string>
+    <string name="action_qs_panel">Панэль хуткіх налад</string>
+    <string name="action_notifications">Апавяшчэнні</string>
+    <string name="action_clear_notifications">Ачысціць апавяшчэнні</string>
+    <string name="action_ringer_modes">Рэжымы званка</string>
+    <string name="kill_app">Закрыць актыўныя праграмы</string>
+    <string name="skip_song">Прапусціце песню</string>
+    <string name="prev_song">Папярэдні трэк</string>
+    <string name="show_powermenu">Паказаць меню сілкавання</string>
+    <string name="partial_screenshot">Здымак выбранай вобласці экрана</string>
+    <string name="hush_mute">Адключыць гук апавяшчэнняў</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Пашыраныя жэсты</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Наладзьце жэсты і ўсталёўвайце ўласныя дзеянні</string>
+    <string name="navbar_gesture_tweaks_cat_title">Пашыраныя налады</string>
+    <string name="long_back_swipe_timeout_title">Працягласць доўгага свайпа</string>
+    <string name="left_swipe_actions_title">Дзеянне для доўгага свайпа налева</string>
+    <string name="left_swipe_app_action_title">Выбраць праграму для доўгага свайпа злева</string>
+    <string name="right_swipe_actions_title">Дзеянне для доўгага свайпа справа</string>
+    <string name="right_swipe_app_action_title">Выбраць праграму для доўгага свайпа справа</string>
+    <string name="left_vertical_swipe_actions_title">Дзеянне на вертыкальны свайп злева</string>
+    <string name="left_vertical_swipe_app_action_title">Выберыце праграму на вертыкальны свайп злева</string>
+    <string name="right_vertical_swipe_actions_title">Дзеянне на вертыкальны свайп справа</string>
+    <string name="right_vertical_swipe_app_action_title">Выберыце праграму на вертыкальны свайп справа</string>
+    <string name="gesture_nav_tweaks_footer_info">Каб выбраць пэўныя дзеянні праграмы, націсніце любую праграму ў раздзеле выбару.\n\nКалі адлюстроўваецца панэль запуску, правядзіце пальцам у ніжняй частцы экрана, каб пачаць дзеянне.</string>
+    <string name="back_swipe_extended_title">Дзеянне на пашыраны свайп</string>
+    <string name="back_swipe_extended_summary">Запуск дзеянні на шырокі свайп (больш чым на палову экрана), або L-свайп (істотна даўжэй па вертыкалі)</string>
 </resources>
