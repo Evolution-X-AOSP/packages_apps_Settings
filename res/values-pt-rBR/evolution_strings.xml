@@ -76,7 +76,7 @@
     <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Desligar tela impressão digital</string>
+    <string name="fod_gesture_title">Desbloquear com impressão digital quando a tela estiver desligada</string>
     <string name="fod_gesture_summary">Permite desbloquear o dispositivo sem ter que ligar a tela primeiro</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Alterar provedor de backup</string>
@@ -132,6 +132,8 @@
     <string name="hidden_label">Oculto</string>
     <string name="long_label">Longo</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Permitir o acesso a rede</string>
+    <string name="data_usage_app_restrict_all_summary">Ativar uso de rede</string>
     <string name="data_usage_app_restrict_data">Dados móveis</string>
     <string name="data_usage_app_restrict_data_summary">Ativar o uso de dados móveis</string>
     <string name="data_usage_app_restrict_vpn">Dados VPN</string>
@@ -264,4 +266,72 @@
     <string name="volume_steps_system_title">Níveis de volume: Sistema</string>
     <string name="volume_steps_voice_call_title">Níveis de volume: Chamada de voz</string>
     <string name="volume_steps_reset">Redefinir</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Duplo toque</string>
+    <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
+    <string name="doze_double_tap_summary">Pulsar notificações com um toque duplo</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animações no gesto de voltar</string>
+    <string name="back_gesture_arrow_summary">Mostrar uma seta animada para o gesto de voltar.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Desconhecido - pressione para atualizar</string>
+    <string name="night_display_location_text">\n\nA programação para anoitecer e amanhecer requerem que os serviços de localização estejam ativos e obtenham os horários corretos da sua localização.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carregamento inteligente</string>
+    <string name="smart_charging_summary">Definir o nível máximo de carregamento</string>
+    <string name="smart_charging_switch_title">Usar carregamento inteligente</string>
+    <string name="smart_charging_level_title">Nível para interromper o carregamento</string>
+    <string name="smart_charging_resume_level_title">Nível para começar o carregamento</string>
+    <string name="smart_charging_reset_stats_title">Redefinir estatísticas da bateria</string>
+    <string name="smart_charging_reset_stats_summary">Redefinir as estatísticas da bateria depois de atingir o nível de carga definido pelo usuário</string>
+    <string name="smart_charging_footer">O carregamento inteligente permite que você defina o nível máximo de carga para prolongar a vida útil da sua bateria</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Economia da bateria</string>
+    <string name="smart_charging_category_title">Carregamento inteligente</string>
+    <string name="battery_info_category_title">Estado da bateria</string>
+    <string name="battery_usage_category_title">Informações da bateria</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Desativado</string>
+    <string name="greatest_tick_label">Tela dividida</string>
+    <string name="gesture_back_deadzone_label">Área inativa</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse a primeira e segunda barra de pesquisa para configurar a sensibilidade de deslizar para trás, a última barra de busca para definir uma área morta no topo da tela, onde o deslize não pode ser acionado, para evitar conflitos com gestos no aplicativo.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nenhuma ação</string>
+    <string name="action_search">Assistente</string>
+    <string name="action_voice_search">Pesquisa por voz</string>
+    <string name="action_launch_camera">Câmera</string>
+    <string name="action_flashlight">Lanterna</string>
+    <string name="action_volume_panel">Painel de volume</string>
+    <string name="action_screen_off">Desligar tela</string>
+    <string name="action_screenshot">Captura de tela</string>
+    <string name="action_app_action">Aplicativo</string>
+    <string name="active_edge_ss_app_select_title">Selecione o aplicativo de toque rápido</string>
+    <string name="active_edge_ls_app_select_title">Selecione o aplicativo de toque longo</string>
+    <string name="active_edge_app_select_summary">Selecione um aplicativo para iniciar com a ação de squeeze</string>
+    <string name="action_qs_panel">Painel de Configurações Rápidas</string>
+    <string name="action_notifications">Notificações</string>
+    <string name="action_clear_notifications">Limpar notificações</string>
+    <string name="action_ringer_modes">Modos de toque</string>
+    <string name="kill_app">Fechar aplicativo em primeiro plano</string>
+    <string name="skip_song">Pular música</string>
+    <string name="prev_song">Música anterior</string>
+    <string name="show_powermenu">Mostrar menu de energia</string>
+    <string name="partial_screenshot">Captura de tela parcial</string>
+    <string name="hush_mute">Silenciar notificações</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Gestos avançados</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalize gestos e defina ações personalizadas</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avançado</string>
+    <string name="long_back_swipe_timeout_title">Tempo limite do deslize longo</string>
+    <string name="left_swipe_actions_title">Ação do deslize longo à esquerda</string>
+    <string name="left_swipe_app_action_title">Selecionar aplicativo de deslize longo para a esquerda</string>
+    <string name="right_swipe_actions_title">Ação do deslize longo à direita</string>
+    <string name="right_swipe_app_action_title">Selecionar aplicativo de deslize longo para a direita</string>
+    <string name="left_vertical_swipe_actions_title">Ação ao deslizar para a esquerda verticalmente</string>
+    <string name="left_vertical_swipe_app_action_title">Selecionar aplicativo ao deslizar verticalmente para a esquerda</string>
+    <string name="right_vertical_swipe_actions_title">Ação ao deslizar verticalmente para a direita</string>
+    <string name="right_vertical_swipe_app_action_title">Selecione o aplicativo ao deslizar verticalmente para a direita</string>
+    <string name="gesture_nav_tweaks_footer_info">Para escolher uma atividade específica do aplicativo para a ação, toque e segure em qualquer aplicativo no selecionador de aplicativos.\n\nSe o launcher estiver sendo exibido, deslize para a área inferior da tela para acionar a ação.</string>
+    <string name="back_swipe_extended_title">Ação de deslizar prolongada</string>
+    <string name="back_swipe_extended_summary">Acione a ação com um deslize mais amplo (mais da metade do tamanho da tela) ou com um deslize em L (verticalmente suficiente)</string>
 </resources>
