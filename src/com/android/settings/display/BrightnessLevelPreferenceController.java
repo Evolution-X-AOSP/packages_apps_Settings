@@ -55,6 +55,7 @@ public class BrightnessLevelPreferenceController extends AbstractPreferenceContr
 
     private final float mMinBrightness;
     private final float mMaxBrightness;
+    private final float mDefaultBrightness;
     private final float mMinVrBrightness;
     private final float mMaxVrBrightness;
     private final ContentResolver mContentResolver;
@@ -85,6 +86,8 @@ public class BrightnessLevelPreferenceController extends AbstractPreferenceContr
                 PowerManager.BRIGHTNESS_CONSTRAINT_TYPE_MINIMUM);
         mMaxBrightness = powerManager.getBrightnessConstraint(
                 PowerManager.BRIGHTNESS_CONSTRAINT_TYPE_MAXIMUM);
+        mDefaultBrightness = powerManager.getBrightnessConstraint(
+                PowerManager.BRIGHTNESS_CONSTRAINT_TYPE_DEFAULT);
         mMinVrBrightness = powerManager.getBrightnessConstraint(
                 PowerManager.BRIGHTNESS_CONSTRAINT_TYPE_MINIMUM_VR);
         mMaxVrBrightness = powerManager.getBrightnessConstraint(
@@ -139,7 +142,7 @@ public class BrightnessLevelPreferenceController extends AbstractPreferenceContr
                     mMinVrBrightness, mMaxVrBrightness);
         } else {
             value = convertLinearToGammaFloat(Settings.System.getFloat(mContentResolver,
-                    System.SCREEN_BRIGHTNESS_FLOAT, mMinBrightness),
+                    System.SCREEN_BRIGHTNESS_FLOAT, mDefaultBrightness),
                     mMinBrightness, mMaxBrightness);
         }
         return getPercentage(value, GAMMA_SPACE_MIN, GAMMA_SPACE_MAX);
