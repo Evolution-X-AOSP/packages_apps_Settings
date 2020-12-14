@@ -148,8 +148,9 @@
     <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
 
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Clear usage data?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_clear" translatable="false">@string/proxy_clear_text</string>
 
     <!-- Battery health -->
     <string name="battery_health_title">Battery health</string>
