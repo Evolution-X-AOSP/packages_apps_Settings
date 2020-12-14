@@ -78,7 +78,7 @@ public class SearchMenuController implements LifecycleObserver, OnCreateOptionsM
             return;
         }
         final Bundle arguments = mHost.getArguments();
-        if (arguments != null && !arguments.getBoolean(NEED_SEARCH_ICON_IN_ACTION_BAR, true)) {
+        if (arguments != null && !arguments.getBoolean(NEED_SEARCH_ICON_IN_ACTION_BAR, false)) {
             return;
         }
         // menu contains search item, skip it
