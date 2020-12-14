@@ -18,7 +18,7 @@
     <item
         android:id="@+id/search_app_list_menu"
         android:title="@string/search_settings"
-        android:icon="@drawable/ic_find_in_page_24px"
+        android:icon="@drawable/ic_search_24dp"
         android:showAsAction="always|collapseActionView"
         android:actionViewClass="android.widget.SearchView" />
 
