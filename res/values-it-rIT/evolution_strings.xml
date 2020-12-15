@@ -132,6 +132,8 @@
     <string name="hidden_label">Nascosto</string>
     <string name="long_label">Lunga</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Consenti l\'accesso alla rete</string>
+    <string name="data_usage_app_restrict_all_summary">Abilita l\'utilizzo della rete</string>
     <string name="data_usage_app_restrict_data">Dati mobili</string>
     <string name="data_usage_app_restrict_data_summary">Abilita l\'uso dei dati mobili</string>
     <string name="data_usage_app_restrict_vpn">Dati VPN</string>
@@ -264,4 +266,28 @@
     <string name="volume_steps_system_title">Livello volume: Sistema</string>
     <string name="volume_steps_voice_call_title">Livello volume: Chiamata</string>
     <string name="volume_steps_reset">Reimposta</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppio tocco</string>
+    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
+    <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animazione gesto indietro</string>
+    <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto indietro.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Sconosciuto - tocca per aggiornare</string>
+    <string name="night_display_location_text">\n\nLa pianificazione dal tramonto all\'alba richiede che i servizi di geolocalizzazione siano abilitati per ottenere gli orari corretti per la tua posizione.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Ricarica intelligente</string>
+    <string name="smart_charging_summary">Imposta un livello massimo di ricarica</string>
+    <string name="smart_charging_switch_title">Usa ricarica intelligente</string>
+    <string name="smart_charging_level_title">Livello di fine ricarica</string>
+    <string name="smart_charging_resume_level_title">Livello inizio ricarica</string>
+    <string name="smart_charging_reset_stats_title">Ripristina statistiche batteria</string>
+    <string name="smart_charging_reset_stats_summary">Ripristina le statistiche della batteria dopo aver raggiunto il livello di ricarica definito dall\'utente</string>
+    <string name="smart_charging_footer">La ricarica intelligente consente di impostare il livello massimo di ricarica per prolungare la durata della batteria</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Risparmio batteria</string>
+    <string name="smart_charging_category_title">Ricarica intelligente</string>
+    <string name="battery_info_category_title">Salute della batteria</string>
+    <string name="battery_usage_category_title">Informazioni batteria</string>
 </resources>
