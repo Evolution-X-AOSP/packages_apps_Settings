@@ -132,6 +132,8 @@
     <string name="hidden_label">Tersembunyi</string>
     <string name="long_label">Panjang</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Izinkan akses jaringan</string>
+    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
     <string name="data_usage_app_restrict_data">Data seluler</string>
     <string name="data_usage_app_restrict_data_summary">Aktifkan penggunaan data seluler</string>
     <string name="data_usage_app_restrict_vpn">Data VPN</string>
@@ -265,4 +267,28 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="volume_steps_system_title">Tingkat volume: Sistem</string>
     <string name="volume_steps_voice_call_title">Tingkat volume: Panggilan Suara</string>
     <string name="volume_steps_reset">Atur ulang</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Ketuk dua kali</string>
+    <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
+    <string name="doze_double_tap_summary">Tampilkan pemberitahuan dengan ketukan ganda</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animasi gestur kembali</string>
+    <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gerakan kembali.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Tidak diketahui - tekan untuk pembaruan</string>
+    <string name="night_display_location_text">\n\nJadwal dari matahari terbenam hingga matahari terbit membutuhkan layanan lokasi yang diaktifkan untuk mendapatkan waktu yang tepat untuk lokasi Anda.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Pengisian Pintar</string>
+    <string name="smart_charging_summary">Tentukan level pengisian maksimum</string>
+    <string name="smart_charging_switch_title">Gunakan Pengisian Pintar</string>
+    <string name="smart_charging_level_title">Hentikan level pemicu</string>
+    <string name="smart_charging_resume_level_title">Mulai level pemicu</string>
+    <string name="smart_charging_reset_stats_title">Atur ulang statistik baterai</string>
+    <string name="smart_charging_reset_stats_summary">Setel ulang statistik baterai setelah mencapai tingkat pengisian yang ditentukan pengguna</string>
+    <string name="smart_charging_footer">Pengisian Pintar memungkinkan Anda mengatur tingkat pengisian ke maksimal untuk memperpanjang umum baterai Anda</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Penghemat Baterai</string>
+    <string name="smart_charging_category_title">Pengisian Pintar</string>
+    <string name="battery_info_category_title">Kesehatan Baterai</string>
+    <string name="battery_usage_category_title">Info Baterai</string>
 </resources>
