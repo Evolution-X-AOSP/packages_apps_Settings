@@ -117,7 +117,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">기록 초기화</string>
     <string name="battery_stats_message">배터리 사용 기록이 초기화됩니다.</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Battery health -->
     <string name="battery_health_title">배터리 상태</string>
     <string name="battery_health_summary">기기의 배터리 상태를 모니터링합니다.</string>
