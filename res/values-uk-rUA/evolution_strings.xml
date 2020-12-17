@@ -117,7 +117,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Очистити статистику</string>
     <string name="battery_stats_message">Історія використання батареї буде скинута</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Battery health -->
     <string name="battery_health_title">Стан акумулятора</string>
     <string name="battery_health_summary">Відстежуйте стан заряду акумулятора вашого пристрою</string>
