@@ -117,6 +117,7 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Сбросить статистику</string>
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
+    <string name="battery_stats_clear">@string/прокси_очистка_текста</string>
     <!-- Battery health -->
     <string name="battery_health_title">Здоровье батареи</string>
     <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
@@ -183,7 +184,7 @@
     <string name="live_display_mode">Режим отображения</string>
     <string name="live_display_color_temperature_title">Цветовая температура</string>
     <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d</xliff:g>K Ночь: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$д</xliff:g>K</string>
     <string name="live_display_day">День</string>
     <string name="live_display_night">Ночь</string>
     <string name="live_display_outdoor_mode_title">Автоматический режим улицы</string>
@@ -290,4 +291,48 @@
     <string name="smart_charging_category_title">Умная зарядка</string>
     <string name="battery_info_category_title">Здоровье батареи</string>
     <string name="battery_usage_category_title">Информация о батареи</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Выкл.</string>
+    <string name="greatest_tick_label">В пол-экрана</string>
+    <string name="gesture_back_deadzone_label">Мертвая зона</string>
+    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую и вторую панель, чтобы настроить чувствительность жеста назад, последнюю панель, чтобы установить мертвую зону в верхней части экрана, где свайп не может быть запущен, чтобы избежать конфликтов с жестами в приложении.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Не задано</string>
+    <string name="action_search">Ассистент</string>
+    <string name="action_voice_search">Голосовой поиск</string>
+    <string name="action_launch_camera">Камера</string>
+    <string name="action_flashlight">Фонарик</string>
+    <string name="action_volume_panel">Панель регулировки громкости</string>
+    <string name="action_screen_off">Экран выкл</string>
+    <string name="action_screenshot">Снимок экрана</string>
+    <string name="action_app_action">Приложение</string>
+    <string name="active_edge_ss_app_select_title">Выберать приложение по короткому сжатию</string>
+    <string name="active_edge_ls_app_select_title">Выберите приложение по долгому сжатию</string>
+    <string name="active_edge_app_select_summary">Выберите приложение, которое хотите запустить при сжатии</string>
+    <string name="action_qs_panel">Панель быстрых настроек</string>
+    <string name="action_notifications">Уведомления</string>
+    <string name="action_clear_notifications">Очистить уведомления</string>
+    <string name="action_ringer_modes">Режимы звонка</string>
+    <string name="kill_app">Закрыть активное приложение</string>
+    <string name="skip_song">Пропустить трек</string>
+    <string name="prev_song">Предыдущий трек</string>
+    <string name="show_powermenu">Показать меню питания</string>
+    <string name="partial_screenshot">Частичный снимок экрана</string>
+    <string name="hush_mute">Отключить звук уведомлений</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Расширенная настройка жестов</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и пользовательских действий</string>
+    <string name="navbar_gesture_tweaks_cat_title">Дополнительно</string>
+    <string name="long_back_swipe_timeout_title">Длительность долгого свайпа</string>
+    <string name="left_swipe_actions_title">Действие при длинном свайпе влево</string>
+    <string name="left_swipe_app_action_title">Выберать приложение на длинный свайп влево</string>
+    <string name="right_swipe_actions_title">Действие при длинном свайпе справа</string>
+    <string name="right_swipe_app_action_title">Выбрать приложение для запуска при длинном свайпе вправо</string>
+    <string name="left_vertical_swipe_actions_title">Действие на вертикальный свайп слева</string>
+    <string name="left_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп слева</string>
+    <string name="right_vertical_swipe_actions_title">Действие на вертикальный свайп справа</string>
+    <string name="right_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп справа</string>
+    <string name="gesture_nav_tweaks_footer_info">Для выбора конкретного действия приложения долго нажимайте на любое приложение в меню выбора приложений.\n\nЕсли лаунчер показывается, выполните свайп в самой нижней части экрана, чтобы запустить действие.</string>
+    <string name="back_swipe_extended_title">Действие на расширенный свайп</string>
+    <string name="back_swipe_extended_summary">Запуск действия на широкий свайп (более чем на половину экрана), или L-свайп (существенно длиннее по вертикали)</string>
 </resources>
