@@ -117,7 +117,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Atur ulang statistik baterai</string>
     <string name="battery_stats_message">Statistik riwayat baterai akan diatur ulang</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Battery health -->
     <string name="battery_health_title">Kesehatan Baterai</string>
     <string name="battery_health_summary">Monitor kesehatan baterai perangkat Anda</string>
