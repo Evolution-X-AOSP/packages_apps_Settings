@@ -290,4 +290,48 @@
     <string name="smart_charging_category_title">Ricarica intelligente</string>
     <string name="battery_info_category_title">Salute della batteria</string>
     <string name="battery_usage_category_title">Informazioni batteria</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Metà schermo</string>
+    <string name="gesture_back_deadzone_label">Zona morta</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima e la seconda barra di scorrimento per riconfigurare la sensibilità del gesto, l\'ultima per impostare una zona morta in cima allo schermo dove non sarà possibile innescabile il gesto, per evitare i conflitti con i gesti in-app.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nessuna azione</string>
+    <string name="action_search">Assistente</string>
+    <string name="action_voice_search">Ricerca vocale</string>
+    <string name="action_launch_camera">Fotocamera</string>
+    <string name="action_flashlight">Torcia</string>
+    <string name="action_volume_panel">Pannelo del volume</string>
+    <string name="action_screen_off">Spegni schermo</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_app_action">Applicazione</string>
+    <string name="active_edge_ss_app_select_title">Seleziona l\'app con pressione breve</string>
+    <string name="active_edge_ls_app_select_title">Seleziona l\'app con pressione lunga</string>
+    <string name="active_edge_app_select_summary">Seleziona un\'app da lanciare con l\'azione di pressione</string>
+    <string name="action_qs_panel">Pannello impostazioni rapide</string>
+    <string name="action_notifications">Notifiche</string>
+    <string name="action_clear_notifications">Cancella le notifiche</string>
+    <string name="action_ringer_modes">Modalità suoneria</string>
+    <string name="kill_app">Termina app in primo piano</string>
+    <string name="skip_song">Salta brano</string>
+    <string name="prev_song">Brano precedente</string>
+    <string name="show_powermenu">Mostra menù alimentazione</string>
+    <string name="partial_screenshot">Screenshot parziale</string>
+    <string name="hush_mute">Silenzia le notifiche</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Gesti avanzati</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizza i gesti e imposta azioni personalizzate</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzate</string>
+    <string name="long_back_swipe_timeout_title">Durata azione di scorrimento prolungato</string>
+    <string name="left_swipe_actions_title">Azione di scorrimento prolungato a sinistra</string>
+    <string name="left_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a sinistra</string>
+    <string name="right_swipe_actions_title">Azione di scorrimento prolungato a destra</string>
+    <string name="right_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a destra</string>
+    <string name="left_vertical_swipe_actions_title">Azione di scorrimento verticale a sinistra</string>
+    <string name="left_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento a sinistra verticale</string>
+    <string name="right_vertical_swipe_actions_title">Azione di scorrimento verticale destro</string>
+    <string name="right_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento destro verticale</string>
+    <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'app per l\'azione, premi a lungo su ogni app nel selettore delle app.\n\nSe il launcher è mostrato, scorri nell\'area in fondo alla schermata per innescare l\'azione.</string>
+    <string name="back_swipe_extended_title">Azione di scorrimento ampia</string>
+    <string name="back_swipe_extended_summary">Innesca l\'azione su scorrimento più ampio (più di metà della dimensione dello schermo) o uno scorrimento a L (abbastanza lungo in verticale)</string>
 </resources>
