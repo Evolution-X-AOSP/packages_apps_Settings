@@ -61,6 +61,13 @@
         settings:textStart="@string/smallest_tick_label"
         settings:textEnd="@string/greatest_tick_label"/>
 
+    <com.android.settingslib.widget.FooterPreference
+        android:key="gesture_navigation_settings_footer"
+        android:title="@string/back_sensitivity_dialog_message_cust"
+        android:selectable="false"
+        settings:searchable="false"
+        settings:allowDividerAbove="true"/>
+
     <Preference
         android:key="gesture_nav_custom_options"
         android:title="@string/navbar_gesture_tweaks_pref_title"
