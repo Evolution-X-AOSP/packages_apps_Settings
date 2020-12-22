@@ -118,6 +118,15 @@
         android:order="-120"
         settings:keywords="@string/sound_settings"/>
 
+    <!-- Phone ringtone for SIM2 -->
+    <com.android.settings.DefaultRingtonePreference
+        android:key="phone_ringtone2"
+        android:title="@string/ringtone_title"
+        android:dialogTitle="@string/ringtone_title"
+        android:summary="@string/summary_placeholder"
+        android:ringtoneType="ringtone"
+        android:order="-115"/>
+
     <!-- Adaptive Playback -->
     <Preference
         android:key="sound_adaptive_playback_summary"
@@ -246,5 +255,4 @@
         android:fragment="com.android.settings.notification.SoundWorkSettings"
         android:order="100"
         settings:controller="com.android.settings.notification.WorkSoundsPreferenceController"/>
-
 </PreferenceScreen>
