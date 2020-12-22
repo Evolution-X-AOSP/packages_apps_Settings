@@ -72,7 +72,6 @@
         android:order="-160"
         settings:controller="com.android.settings.notification.RingVolumePreferenceController"/>
 
-
     <!-- Alarm volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
         android:key="alarm_volume"
@@ -109,6 +108,15 @@
         android:ringtoneType="ringtone"
         android:order="-120"
         settings:keywords="@string/sound_settings"/>
+
+    <!-- Phone ringtone for SIM2 -->
+    <com.android.settings.DefaultRingtonePreference
+        android:key="phone_ringtone2"
+        android:title="@string/ringtone_title"
+        android:dialogTitle="@string/ringtone_title"
+        android:summary="@string/summary_placeholder"
+        android:ringtoneType="ringtone"
+        android:order="-119"/>
 
     <!-- Adaptive Playback -->
     <Preference
