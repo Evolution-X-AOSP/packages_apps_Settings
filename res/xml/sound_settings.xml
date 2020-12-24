@@ -240,6 +240,17 @@
         android:ringtoneType="alarm"
         android:order="-70"/>
 
+    <PreferenceCategory
+          android:key="pulse_cat"
+          android:title="@string/pulse_cat_title"
+          android:order="-55">
+        <Preference
+            android:key="pulse"
+            android:title="@string/pulse_settings"
+            android:summary="@string/pulse_settings_summary"
+            android:fragment="com.android.settings.sound.PulseSettings"/>
+    </PreferenceCategory>
+
     <!-- Other sounds -->
     <PreferenceCategory
           android:key="other_sounds_and_vibrations_category"
