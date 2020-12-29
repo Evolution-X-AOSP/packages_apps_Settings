@@ -18,7 +18,7 @@
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Suchen Sie den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> Ihres Tablets.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Suchen Sie den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> Ihres Geräts.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Finde den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> des Geräts.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Finde den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> des Telefons.</string>
     <!-- Fingerprint sensor locations -->
     <string name="security_settings_fingerprint_sensor_location_back">Rückseite</string>
     <string name="security_settings_fingerprint_sensor_location_front">Vorderseite</string>
@@ -33,7 +33,7 @@
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plattform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Gesamter RAM</string>
+    <string name="total_ram">Gesamter Arbeitsspeicher</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
@@ -127,6 +127,8 @@
     <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Farbauswahl</string>
+    <string name="show_gestures_navbar_switch_title">Pille anzeigen</string>
+    <string name="show_gestures_navbar_switch_summary">Gesten Navigationsleiste anzeigen</string>
     <!-- Navbar length -->
     <string name="navbar_length">Länge des seitlichen Gestenbereichs</string>
     <string name="hidden_label">Ausgeblendet</string>
@@ -334,4 +336,38 @@
     <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine App in der Apps-Auswahl. Wenn der Launcher angezeigt wird, streichen Sie ganz unten auf dem Bildschirm, um die Aktion auszulösen.</string>
     <string name="back_swipe_extended_title">Erweiterte Wischaktion</string>
     <string name="back_swipe_extended_summary">Aktion für breiteres Wischen (mehr als die Hälfte des Bildschirms), oder Wischen in Form eines L (vertikal lang genug)</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse funktioniert mit einigen Audioquellen nicht, wenn die Ausgabe über die Gerätelautsprecher erfolgt</string>
+    <string name="pulse_cat_title">Pulse Equalizer</string>
+    <string name="pulse_settings">MIUI (Pulse)</string>
+    <string name="pulse_settings_summary">Audio Graphic Equalizer</string>
+    <string name="show_navbar_pulse_title">Navigationsleiste Pulse</string>
+    <string name="show_navbar_pulse_summary">Audio Grafik Equalizer im Bereich der Navigationsleiste, auch wenn die Navigationsleiste ausgeblendet ist</string>
+    <string name="show_lockscreen_pulse_title">Sperrbildschirm Pulse</string>
+    <string name="show_lockscreen_pulse_summary">Grafischer Audio-Equalizer in der Navigationsleiste</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Grafischer Audio-Equalizer in der Navigationsleiste</string>
+    <string name="pulse_render_mode_title">Render-Modus</string>
+    <string name="pulse_render_mode_fading_bars">Verblassende Blöcke</string>
+    <string name="pulse_render_mode_solid_lines">Durchgezogene Linien</string>
+    <string name="pulse_color">Farbe</string>
+    <string name="pulse_color_mode">Farbmodus</string>
+    <string name="pulse_color_accent">Akzent</string>
+    <string name="pulse_color_custom">Benutzerdefiniert</string>
+    <string name="pulse_color_lava_lamp">Lavalampe</string>
+    <string name="pulse_color_auto">Album-Cover</string>
+    <string name="pulse_color_chooser">Farbe wählen</string>
+    <string name="smoothing_enabled_title">Glättung einschalten</string>
+    <string name="smoothing_enabled_summary">Jeder Balken wird flüssiger animiert</string>
+    <string name="pulse_advanced_category">Erweitert</string>
+    <string name="pulse_legacy_mode_advanced_category">Einstellungen für verblassende Blöcke</string>
+    <string name="pulse_custom_fudge_factor">Vernüftiger Lautstärkepegel</string>
+    <string name="lavamp_speed_title">Lava-Lampen Geschwindigkeit</string>
+    <string name="pulse_solid_units_count">Anzahl durchgezogener Balken</string>
+    <string name="pulse_solid_units_opacity">Deckkraft der durchgezogenen Linien</string>
+    <string name="pulse_solid_dimen_category">Einstellungen für durchgezogene Balken</string>
+    <string name="pulse_custom_dimen">Balkenbreite</string>
+    <string name="pulse_custom_div">Abstand der Balken</string>
+    <string name="pulse_filled_block_size">Größe der Blöcke</string>
+    <string name="pulse_empty_block_size">Abstand der Blöcke</string>
 </resources>
