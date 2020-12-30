@@ -30,6 +30,15 @@
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
     </com.android.settingslib.RestrictedPreference>
 
+    <com.android.settings.display.darkmode.DarkModePreference
+        android:key="dark_ui_mode"
+        android:title="@string/dark_ui_mode"
+        android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
+        android:widgetLayout="@null"
+        settings:widgetLayout="@null"
+        settings:controller="com.android.settings.display.DarkUIPreferenceController"
+        settings:keywords="@string/keywords_dark_ui_mode"/>
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
@@ -161,41 +170,6 @@
         android:key="theme"
         android:title="@string/device_theme"
         android:summary="@string/summary_placeholder" />
-
-    <PreferenceCategory
-        android:key="theme_customization_category"
-        android:title="@string/theme_customization_category"
-        android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
-
-        <com.android.settings.display.darkmode.DarkModePreference
-            android:key="dark_ui_mode"
-            android:title="@string/dark_ui_mode"
-            android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
-            android:widgetLayout="@null"
-            settings:widgetLayout="@null"
-            settings:controller="com.android.settings.display.DarkUIPreferenceController"
-            settings:keywords="@string/keywords_dark_ui_mode"/>
-
-        <Preference
-            android:key="clock_style"
-            android:title="@string/clock_style_title"
-            android:summary="@string/clock_style_summary">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:targetPackage="com.android.wallpaper"
-                android:targetClass="com.android.customization.picker.LockClockPickerActivity" />
-        </Preference>
-
-        <ListPreference
-            android:key="android.theme.customization.accent_color"
-            android:title="@string/theme_customization_accent_color_title"/>
-        <ListPreference
-            android:key="android.theme.customization.font"
-            android:title="@string/theme_customization_font_title"/>
-       <ListPreference
-            android:key="android.theme.customization.adaptive_icon_shape"
-            android:title="@string/theme_customization_icon_shape_title"/>
-    </PreferenceCategory>
 
     <Preference
         android:key="vr_display_pref"
