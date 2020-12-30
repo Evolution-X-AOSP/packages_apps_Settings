@@ -127,6 +127,8 @@
     <string name="battery_charge_cycles">充電サイクルが完了しました</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">色のバケツ</string>
+    <string name="show_gestures_navbar_switch_title">ピルを表示</string>
+    <string name="show_gestures_navbar_switch_summary">ジェスチャーナビゲーションバーを表示する</string>
     <!-- Navbar length -->
     <string name="navbar_length">ジェスチャーバーの長さ</string>
     <string name="hidden_label">非表示</string>
@@ -334,4 +336,38 @@
     <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリピッカーでアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
     <string name="back_swipe_extended_title">拡張スワイプアクション</string>
     <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">端末のスピーカーで聴く時に一部のオーディオソースで Pulse が機能しません</string>
+    <string name="pulse_cat_title">Pulse イコライザー</string>
+    <string name="pulse_settings">パルス</string>
+    <string name="pulse_settings_summary">オーディオグラフィックイコライザー</string>
+    <string name="show_navbar_pulse_title">ナビゲーションバーの Pulse</string>
+    <string name="show_navbar_pulse_summary">ナビゲーションバーが隠されていても、バー上にオーディオグラフィックイコライザーを表示します。</string>
+    <string name="show_lockscreen_pulse_title">ロック画面の Pulse</string>
+    <string name="show_lockscreen_pulse_summary">ロック画面のグラフィックイコライザー</string>
+    <string name="show_ambient_pulse_title">アンビエント Pulse</string>
+    <string name="show_ambient_pulse_summary">アンビエント画面のグラフィックイコライザー</string>
+    <string name="pulse_render_mode_title">レンダリングモード</string>
+    <string name="pulse_render_mode_fading_bars">フェーディングブロック</string>
+    <string name="pulse_render_mode_solid_lines">ソリッドライン</string>
+    <string name="pulse_color">色</string>
+    <string name="pulse_color_mode">カラーモード</string>
+    <string name="pulse_color_accent">アクセント</string>
+    <string name="pulse_color_custom">カスタム</string>
+    <string name="pulse_color_lava_lamp">ラーヴァランプ</string>
+    <string name="pulse_color_auto">アルバムアート</string>
+    <string name="pulse_color_chooser">色の選択</string>
+    <string name="smoothing_enabled_title">スムージングの有効化</string>
+    <string name="smoothing_enabled_summary">どちらのバーもよりスムーズに表示されます</string>
+    <string name="pulse_advanced_category">高度な設定</string>
+    <string name="pulse_legacy_mode_advanced_category">フェーディングブロックの設定</string>
+    <string name="pulse_custom_fudge_factor">感度レベル</string>
+    <string name="lavamp_speed_title">ラーヴァランプ速度</string>
+    <string name="pulse_solid_units_count">ソリッドラインの数</string>
+    <string name="pulse_solid_units_opacity">ソリッドラインの透明度</string>
+    <string name="pulse_solid_dimen_category">ソリッドラインの設定</string>
+    <string name="pulse_custom_dimen">バーの幅</string>
+    <string name="pulse_custom_div">バーの間隔</string>
+    <string name="pulse_filled_block_size">ブロックの大きさ</string>
+    <string name="pulse_empty_block_size">ブロックの間隔</string>
 </resources>
