@@ -16,7 +16,6 @@
 
 package com.android.settings.gestures;
 
-import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
 import static android.os.UserHandle.USER_CURRENT;
 
 import android.app.settings.SettingsEnums;
@@ -55,7 +54,6 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     private static final String LONG_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.long";
     private static final String MEDIUM_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.medium";
-    private static final String HIDDEN_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.hidden";
 
     private IOverlayManager mOverlayService;
 
@@ -234,7 +232,6 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
                 switch((int) v) {
                     case 0:
                         try {
-                            mOverlayService.setEnabledExclusiveInCategory(HIDDEN_OVERLAY_PKG, USER_CURRENT);
                             mOverlayService.setEnabled(LONG_OVERLAY_PKG, false, USER_CURRENT);
                             mOverlayService.setEnabled(MEDIUM_OVERLAY_PKG, false, USER_CURRENT);
                         } catch (RemoteException re) {
@@ -243,24 +240,13 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
                         break;
                     case 1:
                         try {
-                            mOverlayService.setEnabledExclusiveInCategory(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
-                            mOverlayService.setEnabled(LONG_OVERLAY_PKG, false, USER_CURRENT);
-                            mOverlayService.setEnabled(MEDIUM_OVERLAY_PKG, false, USER_CURRENT);
+                            mOverlayService.setEnabledExclusiveInCategory(MEDIUM_OVERLAY_PKG, USER_CURRENT);
                         } catch (RemoteException re) {
                             throw re.rethrowFromSystemServer();
                         }
                         break;
                     case 2:
                         try {
-                            mOverlayService.setEnabledExclusiveInCategory(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
-                            mOverlayService.setEnabledExclusiveInCategory(MEDIUM_OVERLAY_PKG, USER_CURRENT);
-                        } catch (RemoteException re) {
-                            throw re.rethrowFromSystemServer();
-                        }
-                        break;
-                    case 3:
-                        try {
-                            mOverlayService.setEnabledExclusiveInCategory(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
                             mOverlayService.setEnabledExclusiveInCategory(LONG_OVERLAY_PKG, USER_CURRENT);
                         } catch (RemoteException re) {
                             throw re.rethrowFromSystemServer();
