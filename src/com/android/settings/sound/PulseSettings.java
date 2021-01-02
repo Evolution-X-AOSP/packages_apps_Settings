@@ -83,12 +83,18 @@ public class PulseSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.pulse_settings);
 
         ContentResolver resolver = getContentResolver();
+        PreferenceScreen prefScreen = getPreferenceScreen();
 
         mNavbarPulse = (SwitchPreference) findPreference(NAVBAR_PULSE_ENABLED_KEY);
+        boolean mHasNavigationBar = EvolutionUtils.deviceSupportNavigationBar(getContext());
         boolean navbarPulse = Settings.Secure.getIntForUser(resolver,
                 Settings.Secure.NAVBAR_PULSE_ENABLED, 0, UserHandle.USER_CURRENT) != 0;
-        mNavbarPulse.setChecked(navbarPulse);
-        mNavbarPulse.setOnPreferenceChangeListener(this);
+        if (!mHasNavigationBar) {
+            prefScreen.removePreference(mNavbarPulse);
+        } else {
+            mNavbarPulse.setChecked(navbarPulse);
+            mNavbarPulse.setOnPreferenceChangeListener(this);
+        }
 
         mLockscreenPulse = (SwitchPreference) findPreference(LOCKSCREEN_PULSE_ENABLED_KEY);
         boolean lockscreenPulse = Settings.Secure.getIntForUser(resolver,
