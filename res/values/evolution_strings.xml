@@ -297,7 +297,7 @@
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
 
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="min_refresh_rate_title">Refresh rate</string>
 
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
