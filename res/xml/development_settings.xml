@@ -294,6 +294,12 @@
             android:summary="@string/wifi_non_persistent_mac_randomization_summary" />
 
         <SwitchPreference
+            android:key="cleartext_network_policy"
+            android:title="@string/cleartext_network_policy_title"
+            android:summary="@string/cleartext_network_policy_summary"
+            settings:controller="com.android.settings.development.CleartextNetworkPolicyPreferenceController" />
+
+        <SwitchPreference
             android:key="mobile_data_always_on"
             android:title="@string/mobile_data_always_on"
             android:summary="@string/mobile_data_always_on_summary" />
