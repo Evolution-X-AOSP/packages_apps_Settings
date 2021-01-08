@@ -57,9 +57,6 @@ public class PreventRingingGesturePreferenceControllerTest {
         when(mResources.getBoolean(com.android.internal.R.bool.config_volumeHushGestureEnabled))
                 .thenReturn(true);
         mController = new PreventRingingGesturePreferenceController(mContext, null);
-        mController.mPreferenceCategory = new PreferenceCategory(mContext);
-        mController.mVibratePref = new SelectorWithWidgetPreference(mContext);
-        mController.mMutePref = new SelectorWithWidgetPreference(mContext);
     }
 
     @Test
@@ -76,75 +73,5 @@ public class PreventRingingGesturePreferenceControllerTest {
                 com.android.internal.R.bool.config_volumeHushGestureEnabled)).thenReturn(false);
 
         assertThat(mController.isAvailable()).isFalse();
-    }
-
-    @Test
-    public void testUpdateState_mute() {
-        Settings.Secure.putInt(mContext.getContentResolver(), Settings.Secure.VOLUME_HUSH_GESTURE,
-                Settings.Secure.VOLUME_HUSH_MUTE);
-        mController.updateState(mPreference);
-        assertThat(mController.mVibratePref.isEnabled()).isTrue();
-        assertThat(mController.mMutePref.isEnabled()).isTrue();
-        assertThat(mController.mVibratePref.isChecked()).isFalse();
-        assertThat(mController.mMutePref.isChecked()).isTrue();
-    }
-
-    @Test
-    public void testUpdateState_vibrate() {
-        Settings.Secure.putInt(mContext.getContentResolver(), Settings.Secure.VOLUME_HUSH_GESTURE,
-                Settings.Secure.VOLUME_HUSH_VIBRATE);
-        mController.updateState(mPreference);
-        assertThat(mController.mVibratePref.isEnabled()).isTrue();
-        assertThat(mController.mMutePref.isEnabled()).isTrue();
-        assertThat(mController.mVibratePref.isChecked()).isTrue();
-        assertThat(mController.mMutePref.isChecked()).isFalse();
-    }
-
-    @Test
-    public void testUpdateState_off() {
-        Settings.Secure.putInt(mContext.getContentResolver(), Settings.Secure.VOLUME_HUSH_GESTURE,
-                Settings.Secure.VOLUME_HUSH_OFF);
-        mController.updateState(mPreference);
-        assertThat(mController.mVibratePref.isEnabled()).isFalse();
-        assertThat(mController.mMutePref.isEnabled()).isFalse();
-        assertThat(mController.mVibratePref.isChecked()).isFalse();
-        assertThat(mController.mMutePref.isChecked()).isFalse();
-    }
-
-    @Test
-    public void testUpdateState_other() {
-        Settings.Secure.putInt(mContext.getContentResolver(), Settings.Secure.VOLUME_HUSH_GESTURE,
-                7);
-        mController.updateState(mPreference);
-        assertThat(mController.mVibratePref.isChecked()).isFalse();
-        assertThat(mController.mMutePref.isChecked()).isFalse();
-    }
-
-    @Test
-    public void testRadioButtonClicked_mute() {
-        SelectorWithWidgetPreference rbPref = new SelectorWithWidgetPreference(mContext);
-        rbPref.setKey(PreventRingingGesturePreferenceController.KEY_MUTE);
-
-        Settings.Secure.putInt(mContext.getContentResolver(), Settings.Secure.VOLUME_HUSH_GESTURE,
-                Settings.Secure.VOLUME_HUSH_OFF);
-        mController.onRadioButtonClicked(rbPref);
-
-        assertThat(Settings.Secure.VOLUME_HUSH_MUTE).isEqualTo(
-                Settings.Secure.getInt(mContext.getContentResolver(),
-                        Settings.Secure.VOLUME_HUSH_GESTURE, Settings.Secure.VOLUME_HUSH_OFF));
-    }
-
-    @Test
-    public void testRadioButtonClicked_vibrate() {
-        SelectorWithWidgetPreference rbPref = new SelectorWithWidgetPreference(mContext);
-        rbPref.setKey(PreventRingingGesturePreferenceController.KEY_VIBRATE);
-
-        Settings.Secure.putInt(mContext.getContentResolver(), Settings.Secure.VOLUME_HUSH_GESTURE,
-                Settings.Secure.VOLUME_HUSH_OFF);
-        mController.onRadioButtonClicked(rbPref);
-
-        assertThat(Settings.Secure.VOLUME_HUSH_VIBRATE).isEqualTo(
-                Settings.Secure.getInt(mContext.getContentResolver(),
-                        Settings.Secure.VOLUME_HUSH_GESTURE, Settings.Secure.VOLUME_HUSH_OFF));
     }
 }

@@ -16,6 +16,11 @@
 
 package com.android.settings.gestures;
 
+import static android.provider.Settings.Secure.EVO_VOLUME_HUSH_OFF;
+import static android.provider.Settings.Secure.EVO_VOLUME_HUSH_MUTE;
+import static android.provider.Settings.Secure.EVO_VOLUME_HUSH_NORMAL;
+import static android.provider.Settings.Secure.EVO_VOLUME_HUSH_VIBRATE;
+
 import android.content.ContentResolver;
 import android.content.Context;
 import android.database.ContentObserver;
@@ -26,8 +31,8 @@ import android.provider.Settings;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.SwitchPreference;
 
-import com.android.internal.annotations.VisibleForTesting;
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -36,16 +41,20 @@ import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnPause;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 import com.android.settingslib.widget.SelectorWithWidgetPreference;
+import com.android.settingslib.widget.LayoutPreference;
+import com.android.settingslib.widget.MainSwitchPreference;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class PreventRingingGesturePreferenceController extends AbstractPreferenceController
-        implements SelectorWithWidgetPreference.OnClickListener, LifecycleObserver,
+        implements Preference.OnPreferenceChangeListener, LifecycleObserver,
         OnResume, OnPause, PreferenceControllerMixin {
 
-    @VisibleForTesting
+    static final String KEY_MASTER = "gesture_prevent_ringing_switch";
     static final String KEY_VIBRATE = "prevent_ringing_option_vibrate";
-
-    @VisibleForTesting
     static final String KEY_MUTE = "prevent_ringing_option_mute";
+    static final String KEY_NORMAL = "prevent_ringing_option_normal";
 
     static final String KEY_CYCLE = "prevent_ringing_option_cycle";
 
@@ -53,13 +62,11 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
     private final String KEY = "gesture_prevent_ringing_category";
     private final Context mContext;
 
-    @VisibleForTesting
     PreferenceCategory mPreferenceCategory;
-    @VisibleForTesting
-    SelectorWithWidgetPreference mVibratePref;
-    @VisibleForTesting
-    SelectorWithWidgetPreference mMutePref;
-    SelectorWithWidgetPreference mCyclePref;
+    MainSwitchPreference mMasterSwitch;
+    SwitchPreference mNormalPref;
+    SwitchPreference mVibratePref;
+    SwitchPreference mMutePref;
 
     private SettingObserver mSettingObserver;
 
@@ -79,13 +86,10 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
             return;
         }
         mPreferenceCategory = screen.findPreference(getPreferenceKey());
-        mVibratePref = makeRadioPreference(KEY_VIBRATE, R.string.prevent_ringing_option_vibrate);
-        mMutePref = makeRadioPreference(KEY_MUTE, R.string.prevent_ringing_option_mute);
-        // We don't have AlertSlider support yet
-        //if (!mContext.getResources().getBoolean(
-        //        com.android.internal.R.bool.config_hasAlertSlider)) {
-            mCyclePref = makeRadioPreference(KEY_CYCLE, R.string.prevent_ringing_option_cycle);
-        //}
+        mMasterSwitch = screen.findPreference(KEY_MASTER);
+        mNormalPref = makeSwitchPreference(KEY_NORMAL, R.string.prevent_ringing_option_normal);
+        mVibratePref = makeSwitchPreference(KEY_VIBRATE, R.string.prevent_ringing_option_vibrate);
+        mMutePref = makeSwitchPreference(KEY_MUTE, R.string.prevent_ringing_option_mute);
 
         if (mPreferenceCategory != null) {
             mSettingObserver = new SettingObserver(mPreferenceCategory);
@@ -108,45 +112,66 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
     }
 
     @Override
-    public void onRadioButtonClicked(SelectorWithWidgetPreference preference) {
-        int preventRingingSetting = keyToSetting(preference.getKey());
-        if (preventRingingSetting != Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.VOLUME_HUSH_GESTURE, Settings.Secure.VOLUME_HUSH_VIBRATE)) {
-            Settings.Secure.putInt(mContext.getContentResolver(),
-                    Settings.Secure.VOLUME_HUSH_GESTURE, preventRingingSetting);
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        final boolean isAdd = (Boolean) newValue;
+        final String preventRingingSetting = keyToSetting(preference.getKey());
+        String settingsValue = Settings.Secure.getString(
+                mContext.getContentResolver(), Settings.Secure.VOLUME_HUSH_GESTURE);
+        if (settingsValue == null) settingsValue = EVO_VOLUME_HUSH_OFF;
+        ArrayList<String> currentValue = new ArrayList<String>();
+        currentValue.addAll(Arrays.asList(settingsValue.split(",", 0)));
+
+        if (isAdd) {
+            if (currentValue.get(0).equals(EVO_VOLUME_HUSH_OFF))
+                currentValue.clear();
+            if (!currentValue.contains(preventRingingSetting))
+                currentValue.add(preventRingingSetting);
+        } else {
+            if (currentValue.size() == 1 ||
+                    preventRingingSetting.equals(EVO_VOLUME_HUSH_OFF)) {
+                currentValue.clear();
+                currentValue.add(EVO_VOLUME_HUSH_OFF);
+                if (mMasterSwitch != null) mMasterSwitch.setChecked(false);
+            } else {
+                currentValue.remove(preventRingingSetting);
+            }
         }
+
+        String value = "";
+        boolean first = true;
+        for (String str : currentValue) {
+            if (first) {
+                value += str;
+                first = false;
+                continue;
+            }
+            value += "," + str;
+        }
+        Settings.Secure.putString(mContext.getContentResolver(),
+                Settings.Secure.VOLUME_HUSH_GESTURE, value);
+        return true;
     }
 
     @Override
     public void updateState(Preference preference) {
-        int preventRingingSetting = Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.VOLUME_HUSH_GESTURE, Settings.Secure.VOLUME_HUSH_VIBRATE);
-        final boolean isVibrate = preventRingingSetting == Settings.Secure.VOLUME_HUSH_VIBRATE;
-        final boolean isMute = preventRingingSetting == Settings.Secure.VOLUME_HUSH_MUTE;
-        final boolean isCycle = preventRingingSetting == Settings.Secure.VOLUME_HUSH_CYCLE;
-        if (mVibratePref != null && mVibratePref.isChecked() != isVibrate) {
-            mVibratePref.setChecked(isVibrate);
-        }
-        if (mMutePref != null && mMutePref.isChecked() != isMute) {
-            mMutePref.setChecked(isMute);
-        }
-        if (mCyclePref != null && mCyclePref.isChecked() != isCycle) {
-            mCyclePref.setChecked(isCycle);
-        }
+        final String preventRingingSetting = Settings.Secure.getString(
+                mContext.getContentResolver(), Settings.Secure.VOLUME_HUSH_GESTURE);
 
-        if (preventRingingSetting == Settings.Secure.VOLUME_HUSH_OFF) {
-            mVibratePref.setEnabled(false);
-            mMutePref.setEnabled(false);
-            if (mCyclePref != null) {
-                mCyclePref.setEnabled(false);
-            }
-        } else {
-            mVibratePref.setEnabled(true);
-            mMutePref.setEnabled(true);
-            if (mCyclePref != null) {
-                mCyclePref.setEnabled(true);
-            }
-        }
+        final boolean enabled = preventRingingSetting != null &&
+                !preventRingingSetting.equals(EVO_VOLUME_HUSH_OFF);
+        if (mVibratePref != null) mVibratePref.setEnabled(enabled);
+        if (mMutePref != null) mMutePref.setEnabled(enabled);
+        if (mNormalPref != null) mNormalPref.setEnabled(enabled);
+
+        final boolean isVibrate = enabled && preventRingingSetting.contains(EVO_VOLUME_HUSH_VIBRATE);
+        final boolean isMute = enabled && preventRingingSetting.contains(EVO_VOLUME_HUSH_MUTE);
+        final boolean isNormal = enabled && preventRingingSetting.contains(EVO_VOLUME_HUSH_NORMAL);
+        if (mVibratePref != null && mVibratePref.isChecked() != isVibrate)
+            mVibratePref.setChecked(isVibrate);
+        if (mMutePref != null && mMutePref.isChecked() != isMute)
+            mMutePref.setChecked(isMute);
+        if (mNormalPref != null && mNormalPref.isChecked() != isNormal)
+            mNormalPref.setChecked(isNormal);
     }
 
     @Override
@@ -164,25 +189,24 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
         }
     }
 
-    private int keyToSetting(String key) {
+    private String keyToSetting(String key) {
         switch (key) {
             case KEY_MUTE:
-                return Settings.Secure.VOLUME_HUSH_MUTE;
+                return EVO_VOLUME_HUSH_MUTE;
             case KEY_VIBRATE:
-                return Settings.Secure.VOLUME_HUSH_VIBRATE;
-            case KEY_CYCLE:
-                return Settings.Secure.VOLUME_HUSH_CYCLE;
+                return EVO_VOLUME_HUSH_VIBRATE;
+            case KEY_NORMAL:
+                return EVO_VOLUME_HUSH_NORMAL;
             default:
-                return Settings.Secure.VOLUME_HUSH_OFF;
+                return EVO_VOLUME_HUSH_OFF;
         }
     }
 
-    private SelectorWithWidgetPreference makeRadioPreference(String key, int titleId) {
-        SelectorWithWidgetPreference pref = new SelectorWithWidgetPreference(
-                mPreferenceCategory.getContext());
+    private SwitchPreference makeSwitchPreference(String key, int titleId) {
+        SwitchPreference pref = new SwitchPreference(mPreferenceCategory.getContext());
         pref.setKey(key);
         pref.setTitle(titleId);
-        pref.setOnClickListener(this);
+        pref.setOnPreferenceChangeListener(this);
         mPreferenceCategory.addPreference(pref);
         return pref;
     }
