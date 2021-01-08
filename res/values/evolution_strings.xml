@@ -615,4 +615,8 @@
     <string name="fp_wake_unlock_title">Fingerprint behavior</string>
     <string name="fp_wake_unlock_touch">Touch</string>
     <string name="fp_wake_unlock_press">Press</string>
+
+    <!-- global cleartext network traffic -->
+    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
+    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
 </resources>
