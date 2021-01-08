@@ -24,6 +24,7 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -34,10 +35,11 @@ public class PreventRingingSwitchPreferenceController extends AbstractPreference
         implements PreferenceControllerMixin, OnCheckedChangeListener {
 
     private static final String KEY = "gesture_prevent_ringing_switch";
+    private static final String KEY_VIBRATE = "prevent_ringing_option_vibrate";
     private final Context mContext;
 
-    @VisibleForTesting
     MainSwitchPreference mSwitch;
+    SwitchPreference mVibratePref;
 
     public PreventRingingSwitchPreferenceController(Context context) {
         super(context);
@@ -53,17 +55,18 @@ public class PreventRingingSwitchPreferenceController extends AbstractPreference
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         if (isAvailable()) {
+            mVibratePref = screen.findPreference(KEY_VIBRATE);
             Preference pref = screen.findPreference(getPreferenceKey());
             if (pref != null) {
                 pref.setOnPreferenceClickListener(preference -> {
-                    int preventRinging = Settings.Secure.getInt(mContext.getContentResolver(),
-                            Settings.Secure.VOLUME_HUSH_GESTURE,
-                            Settings.Secure.VOLUME_HUSH_VIBRATE);
-                    boolean isChecked = preventRinging != Settings.Secure.VOLUME_HUSH_OFF;
-                    Settings.Secure.putInt(mContext.getContentResolver(),
+                    String preventRinging = Settings.Secure.getString(mContext.getContentResolver(),
+                            Settings.Secure.VOLUME_HUSH_GESTURE);
+                    boolean isChecked = preventRinging != null &&
+                            !preventRinging.equals(Settings.Secure.EVO_VOLUME_HUSH_OFF);
+                    Settings.Secure.putString(mContext.getContentResolver(),
                             Settings.Secure.VOLUME_HUSH_GESTURE, isChecked
-                                    ? Settings.Secure.VOLUME_HUSH_OFF
-                                    : Settings.Secure.VOLUME_HUSH_VIBRATE);
+                                    ? Settings.Secure.EVO_VOLUME_HUSH_OFF
+                                    : Settings.Secure.EVO_VOLUME_HUSH_VIBRATE);
                     return true;
                 });
                 mSwitch = (MainSwitchPreference) pref;
@@ -82,9 +85,10 @@ public class PreventRingingSwitchPreferenceController extends AbstractPreference
 
     @Override
     public void updateState(Preference preference) {
-        int preventRingingSetting = Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.VOLUME_HUSH_GESTURE, Settings.Secure.VOLUME_HUSH_VIBRATE);
-        setChecked(preventRingingSetting != Settings.Secure.VOLUME_HUSH_OFF);
+        String preventRingingSetting = Settings.Secure.getString(mContext.getContentResolver(),
+                Settings.Secure.VOLUME_HUSH_GESTURE);
+        setChecked(preventRingingSetting != null &&
+                !preventRingingSetting.equals(Settings.Secure.EVO_VOLUME_HUSH_OFF));
     }
 
     @Override
@@ -95,15 +99,23 @@ public class PreventRingingSwitchPreferenceController extends AbstractPreference
 
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        final int preventRingingSetting = Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.VOLUME_HUSH_GESTURE, Settings.Secure.VOLUME_HUSH_VIBRATE);
-        final int newRingingSetting = preventRingingSetting == Settings.Secure.VOLUME_HUSH_OFF
-                ? Settings.Secure.VOLUME_HUSH_VIBRATE
+        final String preventRingingSetting = Settings.Secure.getString(mContext.getContentResolver(),
+                Settings.Secure.VOLUME_HUSH_GESTURE);
+        final String newRingingSetting =
+                preventRingingSetting == null ||
+                preventRingingSetting.equals(Settings.Secure.EVO_VOLUME_HUSH_OFF)
+                ? Settings.Secure.EVO_VOLUME_HUSH_VIBRATE
                 : preventRingingSetting;
 
-        Settings.Secure.putInt(mContext.getContentResolver(),
+        if ((preventRingingSetting == null
+                || preventRingingSetting.equals(Settings.Secure.EVO_VOLUME_HUSH_OFF))
+                && mVibratePref != null) {
+            mVibratePref.setChecked(true);
+        }
+
+        Settings.Secure.putString(mContext.getContentResolver(),
                 Settings.Secure.VOLUME_HUSH_GESTURE, isChecked
                         ? newRingingSetting
-                        : Settings.Secure.VOLUME_HUSH_OFF);
+                        : Settings.Secure.EVO_VOLUME_HUSH_OFF);
     }
 }
