@@ -170,9 +170,6 @@
     <string name="adaptive_playback_timeout_10_min">10 хвилин</string>
     <string name="adaptive_playback_timeout_10_min_summary">Увімкнено (10 хвилин)</string>
     <string name="adaptive_playback_explainer">Адаптивне відтворення автоматично зупиняє медіа, коли гучність відключено і відновиться автоматично при відновленні гучності протягом вказаного часу.</string>
-    <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати цей пристрій\u2019з VPN-з\'єднання для підключення до потоку</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">Фонові процеси</string>
     <!-- LiveDisplay -->
