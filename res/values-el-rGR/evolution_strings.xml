@@ -126,7 +126,7 @@
     <string name="show_gestures_navbar_switch_summary">Εμφάνιση γραμμής πλοήγησης χειρονομιών</string>
     <!-- Navbar length -->
     <string name="navbar_length">Μέγεθος μπάρας χειρονομίας</string>
-    <string name="short_label">Μικρός</string>
+    <string name="hidden_label">Κρυφό</string>
     <string name="long_label">Μακρύς</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Να επιτρέπεται η πρόσβαση στο δίκτυο</string>
