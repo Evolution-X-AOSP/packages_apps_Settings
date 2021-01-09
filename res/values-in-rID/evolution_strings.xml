@@ -170,9 +170,6 @@
     <string name="adaptive_playback_timeout_10_min">10 menit</string>
     <string name="adaptive_playback_timeout_10_min_summary">Hidup (10 menit)</string>
     <string name="adaptive_playback_explainer">Pemutaran Adaptif secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dipulihkan dalam waktu yang ditentukan.</string>
-    <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN\u2019s perangkat ini untuk upstream konektivitas</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">Proses latar belakang</string>
     <!-- LiveDisplay -->
