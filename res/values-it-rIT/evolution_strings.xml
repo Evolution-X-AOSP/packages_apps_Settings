@@ -100,11 +100,6 @@
     <string name="display_rotation_270_title">270 gradi</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Pattern vibrazione suoneria</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Personalizzata</string>
     <string name="custom_vibration_pattern_title">Modello personalizzato</string>
     <!-- Volume rocker gestures -->
@@ -127,6 +122,8 @@
     <string name="battery_charge_cycles">Cicli di carica completati</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Selettore dei colori</string>
+    <string name="show_gestures_navbar_switch_title">Mostra pill</string>
+    <string name="show_gestures_navbar_switch_summary">Mostra i gesti barra di navigazione</string>
     <!-- Navbar length -->
     <string name="navbar_length">Lunghezza barra gesti</string>
     <string name="hidden_label">Nascosto</string>
@@ -173,9 +170,6 @@
     <string name="adaptive_playback_timeout_10_min">10 minuti</string>
     <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
     <string name="adaptive_playback_explainer">La riproduzione adattiva interrompe automaticamente la riproduzione quando il volume è abbassato e riprenderà automaticamente quando il volume viene ripristinato entro il tempo impostato.</string>
-    <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Consenti ai dispositivi connessi di utilizzare le VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Consenti ai dispositivi collegati all\'hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">Processi in background</string>
     <!-- LiveDisplay -->
@@ -334,4 +328,38 @@
     <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'app per l\'azione, premi a lungo su ogni app nel selettore delle app.\n\nSe il launcher è mostrato, scorri nell\'area in fondo alla schermata per innescare l\'azione.</string>
     <string name="back_swipe_extended_title">Azione di scorrimento ampia</string>
     <string name="back_swipe_extended_summary">Innesca l\'azione su scorrimento più ampio (più di metà della dimensione dello schermo) o uno scorrimento a L (abbastanza lungo in verticale)</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse non funziona con alcune sorgenti audio durante l\'ascolto sull\'altoparlante del dispositivo</string>
+    <string name="pulse_cat_title">Equalizzatore a impulsi</string>
+    <string name="pulse_settings">Impulso</string>
+    <string name="pulse_settings_summary">Equalizzatore grafico audio</string>
+    <string name="show_navbar_pulse_title">Impulso sulla barra di navigazione</string>
+    <string name="show_navbar_pulse_summary">Equalizzatore grafico audio nell\'area della barra di navigazione, anche se la barra è nascosta</string>
+    <string name="show_lockscreen_pulse_title">Impulso su blocco schermo</string>
+    <string name="show_lockscreen_pulse_summary">Equalizzatore grafico sulla schermata di blocco</string>
+    <string name="show_ambient_pulse_title">Ambient Pulse</string>
+    <string name="show_ambient_pulse_summary">Equalizzatore grafico audio sulla schermata ambientale</string>
+    <string name="pulse_render_mode_title">Modalità esecuzione</string>
+    <string name="pulse_render_mode_fading_bars">Dissolvenza blocchi</string>
+    <string name="pulse_render_mode_solid_lines">Linee continue</string>
+    <string name="pulse_color">Colore</string>
+    <string name="pulse_color_mode">Modalità colore</string>
+    <string name="pulse_color_accent">Colore secondario</string>
+    <string name="pulse_color_custom">Personalizzata</string>
+    <string name="pulse_color_lava_lamp">Lampada di lava</string>
+    <string name="pulse_color_auto">Copertina album</string>
+    <string name="pulse_color_chooser">Scegli colore</string>
+    <string name="smoothing_enabled_title">Attiva lo scorrimento</string>
+    <string name="smoothing_enabled_summary">Ogni barra è animata in modo più fluido</string>
+    <string name="pulse_advanced_category">Avanzato</string>
+    <string name="pulse_legacy_mode_advanced_category">Impostazioni della modalità dissolvenza blocchi</string>
+    <string name="pulse_custom_fudge_factor">Livello di sicurezza</string>
+    <string name="lavamp_speed_title">Velocità lampada di lava</string>
+    <string name="pulse_solid_units_count">Conteggio delle linee</string>
+    <string name="pulse_solid_units_opacity">Linee continue opache</string>
+    <string name="pulse_solid_dimen_category">Impostazioni delle linee continue</string>
+    <string name="pulse_custom_dimen">Larghezza barra</string>
+    <string name="pulse_custom_div">Spaziatura della barra</string>
+    <string name="pulse_filled_block_size">Dimensione del blocco</string>
+    <string name="pulse_empty_block_size">Spaziatura blocchi</string>
 </resources>
