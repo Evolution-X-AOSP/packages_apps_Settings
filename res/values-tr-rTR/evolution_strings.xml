@@ -170,9 +170,6 @@
     <string name="adaptive_playback_timeout_10_min">10 dakika</string>
     <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
     <string name="adaptive_playback_explainer">Uyarlanabilir oynatma, ses tamamen kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses tekrar açıldığında otomatik olarak devam eder.</string>
-    <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın VPN bağlantısını kullanmasına izin ver</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">Arkaplan işlemleri</string>
     <!-- LiveDisplay -->
