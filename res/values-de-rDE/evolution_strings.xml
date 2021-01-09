@@ -170,9 +170,6 @@
     <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
     <string name="adaptive_playback_timeout_10_min_summary">An (10 Minuten)</string>
     <string name="adaptive_playback_explainer">\"Adaptive Medienwiedergabe\" pausiert automatisch die Wiedergabe gerade laufender Medien, wenn die Lautstärke stumm geschaltet wird und wird automatisch fortgesetzt, wenn die Lautstärke innerhalb der festgelegten Zeit wiederhergestellt wird.</string>
-    <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Erlaube Clients VPNs zu verwenden</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Erlaube über Hotspot verbundenen Geräten die VPN Verbindung für ausgehende Daten zu nutzen</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">Hintergrundprozesse</string>
     <!-- LiveDisplay -->
