@@ -170,9 +170,6 @@
     <string name="adaptive_playback_timeout_10_min">10分</string>
     <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
     <string name="adaptive_playback_explainer">音量をミュートにした時はアダプティブ再生はメディアを自動的に一時停止し、設定時間内に音量が元に戻ったら自動的に再開されます。</string>
-    <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用を許可</string>
-    <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">バックグラウンドプロセス</string>
     <!-- LiveDisplay -->
