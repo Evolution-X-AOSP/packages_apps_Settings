@@ -93,41 +93,41 @@
     <string name="display_rotation_summary">Выбрать углы вращения</string>
     <string name="display_rotation_disabled">Отключено</string>
     <string name="display_rotation_unit">градусов</string>
-    <string name="display_rotation_category_title">Режимы поворота</string>
+    <string name="display_rotation_category_title">Режимы поворота экрана</string>
     <string name="display_rotation_0_title">0 градусов</string>
     <string name="display_rotation_90_title">90 градусов</string>
     <string name="display_rotation_180_title">180 градусов</string>
     <string name="display_rotation_270_title">270 градусов</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Шаблон вибрации звонка</string>
-    <string name="pattern_custom">Пользовательский</string>
-    <string name="custom_vibration_pattern_title">Пользовательский шаблон</string>
+    <string name="vibration_pattern_title">Режим вибрации звонка</string>
+    <string name="pattern_custom">Свое</string>
+    <string name="custom_vibration_pattern_title">Свой шаблон</string>
     <!-- Volume rocker gestures -->
     <string name="volume_skiptrack_screen_title">Пропускать музыкальные треки</string>
     <string name="volume_skiptrack_title">Пропускать треки кнопками громкости</string>
-    <string name="volume_skiptrack_summary">Длительное нажатие кнопки громкости для пропуска треков при воспроизведении музыки, даже удаленно на TV или ПК с, например, Spotify (приложение должно работать на телефоне и показывать уведомления).</string>
-    <string name="pulse_on_new_tracks_title">Ambient Music Ticker</string>
-    <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении новой музыки. Дважды нажмите на информацию о треке, чтобы перейти к следующему треку.</string>
-    <string name="pulse_on_new_tracks_soli_summary">Показывать Ambient Display при воспроизведении новой музыки</string>
+    <string name="volume_skiptrack_summary">Удерживайте кнопку громкости для пропуска треков при воспроизведении музыки, даже удаленно на ТВ или ПК, например, в Spotify (приложение должно работать на телефоне и показывать уведомление).</string>
+    <string name="pulse_on_new_tracks_title">Функция «Сейчас играет»</string>
+    <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении нового музыкального трека. Дважды нажмите на информацию о треке, чтобы перейти к следующему треку.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Показывать Ambient Display при воспроизведении нового трека</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_reset">Очистить данные об использовании?</string>
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
     <!-- Battery health -->
     <string name="battery_health_title">Здоровье батареи</string>
     <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
-    <string name="current_battery_capacity">Текущая вместимость батареи</string>
-    <string name="current_battery_capacity_summary">Текущая мощность батареи, измеренная ядром</string>
-    <string name="designed_battery_capacity">Пропускная способность батареи</string>
-    <string name="designed_battery_capacity_summary">Объем аккумулятора, спроектированный заводом-изготовителем</string>
-    <string name="battery_charge_cycles">Количество исполненных циклов заряда-разряда</string>
+    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
+    <string name="current_battery_capacity_summary">Текущая ёмкость батареи, измеренная ядром</string>
+    <string name="designed_battery_capacity">Заявленная ёмкость батареи</string>
+    <string name="designed_battery_capacity_summary">Ёмкость батареи, заявленная производителем</string>
+    <string name="battery_charge_cycles">Количество полных циклов заряда</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Палитра цветов</string>
-    <string name="show_gestures_navbar_switch_title">Показать таблетку жестов</string>
+    <string name="show_gestures_navbar_switch_title">Показать полоску жестов</string>
     <string name="show_gestures_navbar_switch_summary">Показывать панель навигации жестов</string>
     <!-- Navbar length -->
     <string name="navbar_length">Длина полоски жестов</string>
     <string name="hidden_label">Скрыто</string>
-    <string name="long_label">Длинный</string>
+    <string name="long_label">Длинная</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Разрешить доступ к сети</string>
     <string name="data_usage_app_restrict_all_summary">Включить использование сети</string>
@@ -139,7 +139,7 @@
     <string name="data_usage_app_restrict_wifi_summary">Отображать статистику использования Wi\u2011Fi</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Зацикленный переход между режимами</string>
-    <string name="prevent_ringing_option_cycle_summary">Вкл. (переключение между режимами)</string>
+    <string name="prevent_ringing_option_cycle_summary">Вкл. (циклическое переключение режимов)</string>
     <!-- Double tap-to-sleep -->
     <string name="doubletap_lockscreen_screen_title">Выключение экрана</string>
     <string name="doubletap_lockscreen_title">Двойное нажатие на экране блокировки/по строке состояния для перевода устройства в спящий режим</string>
@@ -151,7 +151,7 @@
     <!-- Search keywords -->
     <string name="keywords_notification_log">уведомления, журнал уведомлений</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Обнаружение в кармане</string>
+    <string name="pocket_judge_title">Обнаружение кармана</string>
     <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
@@ -170,9 +170,6 @@
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
     <string name="adaptive_playback_timeout_10_min_summary">Вкл. (10 минут)</string>
     <string name="adaptive_playback_explainer">Адаптивное воспроизведение автоматически приостанавливает медиа когда звук выключен и возобновляет автоматически при восстановлении громкости в течение заданного времени.</string>
-    <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Разрешать клиентам точки доступа этого устройства использовать VPN для исходящих подключений</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">Фоновые процессы</string>
     <!-- LiveDisplay -->
@@ -220,7 +217,7 @@
     <string name="color_green_title">Зелёный</string>
     <string name="color_blue_title">Синий</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Корректировка изображения</string>
+    <string name="picture_adjustment_title">Настройка изображения</string>
     <string name="picture_adjustment_summary">Настроить оттенок, насыщенность, интенсивность и контрастность</string>
     <string name="adj_hue_title">Оттенок</string>
     <string name="adj_saturation_title">Насыщенность</string>
@@ -241,31 +238,31 @@
     <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Виброотклик</string>
-    <string name="back_gesture_haptic_summary">Включить виброотклик при исполнении жеста «Назад»</string>
+    <string name="back_gesture_haptic_summary">Включить вибрацию для жеста \"Назад\"</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Полный</string>
     <string name="back_height_high_label">Внизу</string>
     <string name="back_options_dialog_title">Настройки</string>
-    <string name="back_height_message">Высота экрана, используемая в качестве сенсорной области для жеста «Назад».</string>
+    <string name="back_height_message">Область экрана, используемая для жеста \"Назад\".</string>
     <!-- Min refresh rate -->
     <string name="min_refresh_rate_title">Минимальная частота обновления</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Экранные жесты</string>
     <string name="touchscreen_gesture_settings_summary">Настройка жестов экрана для быстрых действий</string>
     <!-- Volume Steps -->
-    <string name="volume_steps_title">Уровни громкости</string>
-    <string name="volume_steps_summary">Количество уровней громкости</string>
-    <string name="volume_steps_alarm_title">Уровни громкости: Будильник</string>
-    <string name="volume_steps_dtmf_title">Уровни громкости: Набор номера</string>
-    <string name="volume_steps_music_title">Уровни громкости: Мультимедиа</string>
-    <string name="volume_steps_notification_title">Уровни громкости: Уведомления</string>
-    <string name="volume_steps_ring_title">Уровни громкости: Рингтон</string>
-    <string name="volume_steps_system_title">Уровни громкости: Система</string>
-    <string name="volume_steps_voice_call_title">Уровни громкости: Голосовой вызов</string>
+    <string name="volume_steps_title">Шаги громкости</string>
+    <string name="volume_steps_summary">Количество шагов громкости</string>
+    <string name="volume_steps_alarm_title">Шаги громкости: Будильник</string>
+    <string name="volume_steps_dtmf_title">Шаги громкости: Набор номера</string>
+    <string name="volume_steps_music_title">Шаги громкости: Мультимедиа</string>
+    <string name="volume_steps_notification_title">Шаги громкости: Уведомления</string>
+    <string name="volume_steps_ring_title">Шаги громкости: Рингтон</string>
+    <string name="volume_steps_system_title">Шаги громкости: Система</string>
+    <string name="volume_steps_voice_call_title">Шаги громкости: Голосовой вызов</string>
     <string name="volume_steps_reset">Сбросить</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Двойное нажатие</string>
-    <string name="doze_double_tap_title">Двойное нажатие для проверки телефона</string>
+    <string name="doze_double_tap_title">Просмотр времени и уведомлений двойным тапом</string>
     <string name="doze_double_tap_summary">Пульсирующие уведомления двойным нажатием</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Анимация жеста \"Назад\"</string>
