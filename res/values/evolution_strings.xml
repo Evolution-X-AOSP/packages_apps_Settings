@@ -550,4 +550,9 @@
 
     <!-- Android Beam -->
     <string name="android_beam_main_switch_title">Use Android Beam</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 </resources>
