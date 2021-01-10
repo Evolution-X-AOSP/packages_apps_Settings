@@ -99,6 +99,14 @@
         android:fragment="com.android.settings.gestures.VolumeButtonMusicControlGestureSettings"
         settings:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />
 
+    <Preference
+        android:key="double_tap"
+        android:fragment="com.android.settings.gestures.DoubleTapAmbientSettings"
+        android:title="@string/double_tap_title"
+        android:summary="@string/doze_double_tap_summary"
+        settings:userRestriction="no_ambient_display"
+        settings:controller="com.android.settings.gestures.DoubleTapAmbientPreferenceController" />
+
     <com.android.settings.widget.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"
