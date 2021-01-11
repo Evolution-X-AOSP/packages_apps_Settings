@@ -61,12 +61,12 @@
     <string name="custom_light_on_time_title">Durasi lampu aktif selama led berkedip (ms)</string>
     <string name="custom_light_off_time_title">Durasi lampu mati selama led berkedip (ms)\"</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Earbud yang Disimpan</string>
+    <string name="connected_tws_device_saved_title">Earbud tersimpan</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Suhu baterai</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Gesek untuk menangkap layar</string>
-    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Gesek tiga jari ke bawah untuk menangkap layar</string>
     <!-- Volume panel on left switch -->
     <string name="volume_panel_on_left_title">Tampilkan panel volume di kiri</string>
     <!-- Quick unlock -->
@@ -85,8 +85,8 @@
     <string name="clock_style_title">Gaya jam</string>
     <string name="clock_style_summary">Sesuaikan jam layar kunci</string>
     <!-- Ambient Wake gestures -->
-    <string name="ambient_wake_gestures_title">Gerakan bangun ambient</string>
-    <string name="ambient_wake_gestures_summary">Tampilkan tampilan ambient sebagai ganti dari layar kunci normal pada gesture bangun</string>
+    <string name="ambient_wake_gestures_title">Gerakan bangun ambien</string>
+    <string name="ambient_wake_gestures_summary">Tampilkan Tampilan Ambien sebagai ganti dari layar kunci normal pada gestur bangun</string>
     <string name="lockscreen_display_title">Tampilan layar kunci</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotasi</string>
@@ -107,8 +107,8 @@
     <string name="volume_skiptrack_title">Tombol volume untuk lewati trek</string>
     <string name="volume_skiptrack_summary">Tekan lama tombol volume untuk melewati trek saat memutar musik, bahkan dari jarak jauh di TV atau PC dengan mis. Spotify (aplikasi harus dijalankan di telepon dan menunjukkan pemberitahuan).</string>
     <string name="pulse_on_new_tracks_title">Musik ticker ambient</string>
-    <string name="pulse_on_new_tracks_summary">Tampilkan Ambient Display saat trek musik baru diputar. Ketuk dua kali pada info trek untuk melompat ke trek berikutnya.</string>
-    <string name="pulse_on_new_tracks_soli_summary">Perlihatkan tampilan ambient ketika trek musik baru dimainkan</string>
+    <string name="pulse_on_new_tracks_summary">Tampilkan Tampilan Ambien saat trek musik baru diputar. Ketuk dua kali pada info trek untuk melompat ke trek berikutnya.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Perlihatkan Tampilan Ambien ketika trek musik baru dimainkan</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Atur ulang statistik baterai</string>
     <string name="battery_stats_message">Statistik riwayat baterai akan diatur ulang</string>
@@ -189,7 +189,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_enhance_color_summary">Meningkatkan vibran warna dari corak terang, pemandangan dan gambar lain</string>
     <string name="live_display_color_profile_title">Profil warna</string>
     <string name="live_display_color_profile_standard_title">Standar</string>
-    <string name="live_display_color_profile_standard_summary">Warna yang tepat dan putih terang</string>
+    <string name="live_display_color_profile_standard_summary">Warna yang akurat dan putih terang</string>
     <string name="live_display_color_profile_natural_title">Alami</string>
     <string name="live_display_color_profile_natural_summary">Warna realistis dan warna kulit</string>
     <string name="live_display_color_profile_dynamic_title">Dinamis</string>
@@ -351,7 +351,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="pulse_color_auto">Sampul Album</string>
     <string name="pulse_color_chooser">Pilih warna</string>
     <string name="smoothing_enabled_title">Menghidupkan smoothing</string>
-    <string name="smoothing_enabled_summary">Setiap bilah dianimasikan dengan lebih lancar</string>
+    <string name="smoothing_enabled_summary">Setiap bilah dianimasikan dengan lebih halus</string>
     <string name="pulse_advanced_category">Lanjutan</string>
     <string name="pulse_legacy_mode_advanced_category">Setelan mode blok memudar</string>
     <string name="pulse_custom_fudge_factor">Tingkat kewajaran</string>
