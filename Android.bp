@@ -103,6 +103,7 @@ android_library {
         "SettingsLibActivityEmbedding",
         "SettingsLibMainSwitchPreference",
         "Settings-change-ids",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
 
     libs: [
