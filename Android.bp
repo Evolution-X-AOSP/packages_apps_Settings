@@ -104,6 +104,7 @@ android_library {
         "SettingsLibMainSwitchPreference",
         "Settings-change-ids",
         "SystemUIUnfoldLib",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
 
     libs: [
