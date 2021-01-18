@@ -84,6 +84,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
         "windowExtLib",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
 
     libs: [
