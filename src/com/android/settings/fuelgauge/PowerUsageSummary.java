@@ -250,7 +250,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         } else {
             mNeedUpdateBatteryTip = true;
         }
-        mBatteryTempPref.setSubtitle(BatteryInfo.batteryTemp+" "+Character.toString ((char) 176) + "C");
+        mBatteryTempPref.setSummary(BatteryInfo.batteryTemp + " \u2103");
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
     }
