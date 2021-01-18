@@ -449,4 +449,8 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_nos_title">Charging sound</string>
     <string name="charging_vibro_title">Charging vibration</string>
+
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
 </resources>
