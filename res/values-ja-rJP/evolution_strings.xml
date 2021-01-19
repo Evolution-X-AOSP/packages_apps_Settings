@@ -362,4 +362,14 @@
     <string name="pulse_custom_div">バーの間隔</string>
     <string name="pulse_filled_block_size">ブロックの大きさ</string>
     <string name="pulse_empty_block_size">ブロックの間隔</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">下部のバッテリー残量</string>
+    <string name="ambient_battery_percent_summary">Doze モード時にバッテリー残量の表示を有効にする</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">スクリーンショットの種類</string>
+    <string name="screenshot_type_fullscreen">全画面を取得</string>
+    <string name="screenshot_type_partial">スクリーンショットを撮りたい範囲をドラッグで選択する</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">充電時の音</string>
+    <string name="charging_vibro_title">充電時の振動</string>
 </resources>
