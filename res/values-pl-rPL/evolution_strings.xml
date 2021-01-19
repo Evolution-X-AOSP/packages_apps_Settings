@@ -362,4 +362,14 @@
     <string name="pulse_custom_div">Odstęp paska</string>
     <string name="pulse_filled_block_size">Rozmiar bloku</string>
     <string name="pulse_empty_block_size">Odstępy bloków</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Poziom baterii na dole</string>
+    <string name="ambient_battery_percent_summary">Włącz żeby pokazać procent baterii gdy urządzenie jest zablokowane</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Typ zrzutu ekranu</string>
+    <string name="screenshot_type_fullscreen">Zrzut pełnego ekranu</string>
+    <string name="screenshot_type_partial">Zaznacz przeciągnięciem obszar na którym chcesz zrobić zrzut ekranu</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Dźwięki ładowania</string>
+    <string name="charging_vibro_title">Wibracja przy podłączeniu ładowarki</string>
 </resources>
