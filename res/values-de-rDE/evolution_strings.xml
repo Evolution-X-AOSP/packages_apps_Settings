@@ -288,7 +288,7 @@
     <string name="smallest_tick_label">Aus</string>
     <string name="greatest_tick_label">Halber Bildschirm</string>
     <string name="gesture_back_deadzone_label">Tote Zone</string>
-    <string name="back_sensitivity_dialog_message_cust">\Den oberen Regler verwenden, um die Zurück-Wischempfindlichkeit zu konfigurieren, und den unteren Regler, um den Bereich des Bildschirms festzulegen, in dem das Wischen ausgelöst werden kann, um Konflikte mit In-App-Gesten zu vermeiden.</string>
+    <string name="back_sensitivity_dialog_message_cust">Den oberen Regler verwenden, um die Zurück-Wischempfindlichkeit zu konfigurieren, und den unteren Regler, um den Bereich des Bildschirms festzulegen, in dem das Wischen ausgelöst werden kann, um Konflikte mit In-App-Gesten zu vermeiden.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Keine Aktion</string>
     <string name="action_search">Assistent</string>
@@ -362,4 +362,14 @@
     <string name="pulse_custom_div">Abstand der Balken</string>
     <string name="pulse_filled_block_size">Größe der Blöcke</string>
     <string name="pulse_empty_block_size">Abstand der Blöcke</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Akkustand unten</string>
+    <string name="ambient_battery_percent_summary">Aktivieren, um den Akkustand in Prozent im Doze-Modus anzuzeigen</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Screenshot-Typ</string>
+    <string name="screenshot_type_fullscreen">Vollbild Screenshot</string>
+    <string name="screenshot_type_partial">Einen Bereich des Bildschirms als Screenshot auswählen</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Ton beim Aufladen</string>
+    <string name="charging_vibro_title">Vibration beim Laden</string>
 </resources>
