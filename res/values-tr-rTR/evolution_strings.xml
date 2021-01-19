@@ -288,7 +288,7 @@
     <string name="smallest_tick_label">Kapalı</string>
     <string name="greatest_tick_label">Yarım ekran</string>
     <string name="gesture_back_deadzone_label">Ölü alan</string>
-    <string name="back_sensitivity_dialog_message_cust">\nGeri kaydırma hassasiyetini yapılandırmak için ilk arama çubuğunu, uygulama içi hareketlerle çakışmaları önlemek üzere ekranın kaydırmanın tetiklenebileceği alanını ayarlamak için ikinci arama çubuğunu kullanın.</string>
+    <string name="back_sensitivity_dialog_message_cust">Geri kaydırma hassasiyetini yapılandırmak için ilk arama çubuğunu, uygulama içi hareketlerle çakışmaları önlemek üzere ekranın kaydırmanın tetiklenebileceği alanını ayarlamak için ikinci arama çubuğunu kullanın.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Eylem yok</string>
     <string name="action_search">Asistan</string>
@@ -362,4 +362,14 @@
     <string name="pulse_custom_div">Çubuk aralığı</string>
     <string name="pulse_filled_block_size">Blok boyutu</string>
     <string name="pulse_empty_block_size">Blok aralığı</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">En altta pil seviyesi</string>
+    <string name="ambient_battery_percent_summary">Ortam ekranında pil yüzdesini göstermeyi etkinleştirin</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Ekran görüntüsü tipi</string>
+    <string name="screenshot_type_fullscreen">Tam ekran görüntüsü al</string>
+    <string name="screenshot_type_partial">Ekran görüntüsü almak istediğiniz alana doğru sürükleyin</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Şarj sesleri</string>
+    <string name="charging_vibro_title">Şarj titreşimi</string>
 </resources>
