@@ -362,4 +362,14 @@
     <string name="pulse_custom_div">Khoảng cách thanh</string>
     <string name="pulse_filled_block_size">Kích thước khối</string>
     <string name="pulse_empty_block_size">Khoảng cách khối</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Mức pin ở dưới cùng</string>
+    <string name="ambient_battery_percent_summary">Cho phép hiển thị pin trong chế độ ngủ</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Kiểu chụp màn hình</string>
+    <string name="screenshot_type_fullscreen">Chụp ảnh toàn màn hình</string>
+    <string name="screenshot_type_partial">Kéo lựa chọn khu vực bạn muốn để chụp màn hình</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Âm thanh sạc</string>
+    <string name="charging_vibro_title">Rung khi cắm sạc</string>
 </resources>
