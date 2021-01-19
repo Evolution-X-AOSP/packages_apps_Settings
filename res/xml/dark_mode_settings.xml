@@ -49,7 +49,7 @@
 
     <ListPreference
         android:key="android.theme.customization.custom_overlays"
-        android:title="@string/theme_customization_systemui_title"
+        android:title="@string/theme_customization_dark_theme_title"
         settings:keywords="@string/keywords_dark_ui_mode"/>
 
     <com.android.settingslib.widget.LayoutPreference

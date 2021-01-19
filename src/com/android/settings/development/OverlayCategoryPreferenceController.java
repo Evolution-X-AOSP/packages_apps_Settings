@@ -71,12 +71,31 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         mPackageManager = packageManager;
         mCategory = category;
         mAvailable = overlayManager != null && !getOverlayInfos().isEmpty();
-        mDeviceDefaultLabel = mContext.getString(R.string.overlay_option_device_default);
+        mDeviceDefaultLabel = getDefaultLabel(category);
     }
 
     public OverlayCategoryPreferenceController(Context context, String category) {
         this(context, context.getPackageManager(), IOverlayManager.Stub
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE)), category);
+    }
+
+    private String getDefaultLabel(String category) {
+        String label = mContext.getString(R.string.overlay_option_device_default);
+        switch (category) {
+            case "android.theme.customization.accent_color":
+                label = mContext.getString(R.string.default_accent_color);
+                break;
+            case "android.theme.customization.font":
+                label = mContext.getString(R.string.default_font);
+                break;
+            case "android.theme.customization.adaptive_icon_shape":
+                label = mContext.getString(R.string.default_icon_shape);
+                break;
+            case "android.theme.customization.icon_pack":
+                label = mContext.getString(R.string.default_icon_pack);
+                break;
+         }
+         return label;
     }
 
     @Override

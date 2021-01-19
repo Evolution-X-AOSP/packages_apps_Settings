@@ -157,12 +157,9 @@
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
     <string name="battery_charge_cycles">Charge Cycles Completed</string>
 
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Color bucket</string>
+    <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">Show pill</string>
     <string name="show_gestures_navbar_switch_summary">Show gestures navbar</string>
-
-    <!-- Navbar length -->
     <string name="navbar_length">Gesture bar length</string>
     <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
