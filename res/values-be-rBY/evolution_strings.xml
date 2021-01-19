@@ -362,4 +362,14 @@
     <string name="pulse_custom_div">Адлегласць паміж панэлямі</string>
     <string name="pulse_filled_block_size">Памер блокаў</string>
     <string name="pulse_empty_block_size">Адлегласць паміж блокамі</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Узровень зарада батарэі унізе</string>
+    <string name="ambient_battery_percent_summary">Уключыць адлюстраванне працэнтаў зарада ў рэжыме Doze</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Тып скрыншота</string>
+    <string name="screenshot_type_fullscreen">Поўнаэкранны скрыншот экрана</string>
+    <string name="screenshot_type_partial">Вылучыце вобласць якую вы хочаце захаваць як скрыншот</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Гукі зарадкі</string>
+    <string name="charging_vibro_title">Вібрацыя падчас зарадкі</string>
 </resources>
