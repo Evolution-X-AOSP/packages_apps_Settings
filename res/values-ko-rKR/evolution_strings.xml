@@ -362,4 +362,14 @@
     <string name="pulse_custom_div">바 간격</string>
     <string name="pulse_filled_block_size">블럭 사이즈</string>
     <string name="pulse_empty_block_size">블럭 간격</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">하단 배터리 잔량 비율 표시</string>
+    <string name="ambient_battery_percent_summary">대기 동안 배터리 퍼센트를 표시 할 수 있습니다</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">스크린샷 유형</string>
+    <string name="screenshot_type_fullscreen">전체 화면 스크린샷</string>
+    <string name="screenshot_type_partial">스크린샷으로 포함될 구역을 드래그하여 선택</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">충전음</string>
+    <string name="charging_vibro_title">충전 시 진동</string>
 </resources>
