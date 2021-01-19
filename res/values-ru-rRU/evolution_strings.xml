@@ -362,4 +362,14 @@
     <string name="pulse_custom_div">Расстояние между линиями</string>
     <string name="pulse_filled_block_size">Размер блока</string>
     <string name="pulse_empty_block_size">Расстояние между блоками</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Уровень заряда батареи внизу</string>
+    <string name="ambient_battery_percent_summary">Включить отображение процентов заряда в режиме Doze</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Тип скриншота</string>
+    <string name="screenshot_type_fullscreen">Скриншот всего экрана</string>
+    <string name="screenshot_type_partial">Скриншот выделеной области экрана</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Звук при зарядке</string>
+    <string name="charging_vibro_title">Вибрация при зарядке</string>
 </resources>
