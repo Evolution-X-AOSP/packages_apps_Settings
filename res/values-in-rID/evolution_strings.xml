@@ -363,4 +363,14 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="pulse_custom_div">Jarak bar</string>
     <string name="pulse_filled_block_size">Ukuran blok</string>
     <string name="pulse_empty_block_size">Jarak blok</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Level baterai di bawah</string>
+    <string name="ambient_battery_percent_summary">Aktifkan untuk menunjukkan persen baterai saat tidur</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Jenis tangkapan layar</string>
+    <string name="screenshot_type_fullscreen">Ambil tangkapan layar penuh</string>
+    <string name="screenshot_type_partial">Tarik pilihan di area yang ingin Anda ambil sebagai tangkapan layar</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Suara pengisian</string>
+    <string name="charging_vibro_title">Getaran pengisian</string>
 </resources>
