@@ -52,10 +52,10 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toca para mostrar información</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Vincular volumen de llamada &amp; notificaciones</string>
+    <string name="volume_link_notification_title">Vincular volumen de llamada y notificaciones</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuración como root</string>
-    <string name="adb_enable_summary_root">Permitir ejecutar la depuración de Android como root</string>
+    <string name="adb_enable_summary_root">Permite ejecutar la depuración de Android como root</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Color del LED</string>
     <string name="custom_light_on_time_title">Duración del parpadeo del LED encendido (ms)</string>
@@ -65,16 +65,16 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura de la batería</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Deslice para hacer captura de pantalla</string>
+    <string name="three_finger_gesture">Desliza para hacer captura de pantalla</string>
     <string name="three_finger_gesture_summary">Desliza hacia abajo con 3 dedos para hacer una captura de pantalla</string>
     <!-- Volume panel on left switch -->
     <string name="volume_panel_on_left_title">Mostrar panel de volumen en el lado izquierdo</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
-    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente al introducir el PIN/contraseña correcto</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquea automáticamente al introducir el PIN/contraseña correcto</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
-    <string name="unlock_scramble_pin_layout_summary">Aleatorizar la disposición de los números del PIN para desbloquear el dispositivo</string>
+    <string name="unlock_scramble_pin_layout_summary">Aleatoriza la disposición de los números del PIN para desbloquear el dispositivo</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Huella dactilar con la pantalla apagada</string>
     <string name="fod_gesture_summary">Permite desbloquear el dispositivo sin tener que encender la pantalla primero</string>
@@ -83,14 +83,14 @@
     <string name="backup_transport_title">Seleccionar proveedor de la copia de seguridad</string>
     <!-- Clock style -->
     <string name="clock_style_title">Estilo del reloj</string>
-    <string name="clock_style_summary">Personalizar el reloj de la pantalla de bloqueo</string>
+    <string name="clock_style_summary">Personaliza el reloj de la pantalla de bloqueo</string>
     <!-- Ambient Wake gestures -->
     <string name="ambient_wake_gestures_title">Gestos de la pantalla ambiente</string>
-    <string name="ambient_wake_gestures_summary">Mostrar pantalla ambiente en lugar de pantalla de bloqueo al despertar con gestos</string>
+    <string name="ambient_wake_gestures_summary">Muestra la pantalla ambiente en lugar de pantalla de bloqueo al despertar con gestos</string>
     <string name="lockscreen_display_title">Pantalla de bloqueo</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotación</string>
-    <string name="display_rotation_summary">Elegir ángulo de rotación</string>
+    <string name="display_rotation_summary">Elige el ángulo de rotación</string>
     <string name="display_rotation_disabled">Deshabilitado</string>
     <string name="display_rotation_unit">grados</string>
     <string name="display_rotation_category_title">Modos de rotación</string>
@@ -107,14 +107,14 @@
     <string name="volume_skiptrack_title">Teclas de volumen cambian de canción</string>
     <string name="volume_skiptrack_summary">Pulsación larga de las teclas de volumen para pasar canciones al reproducir música, incluso a distancia en TV o PC (la aplicación debe ejecutarse en el teléfono y mostrar la notificación).</string>
     <string name="pulse_on_new_tracks_title">Indicador de música de ambiente</string>
-    <string name="pulse_on_new_tracks_summary">Mostrar pantalla ambiente cuando se reproduce una nueva pista de música. Doble toque en la información de la pista para pasar a la siguiente.</string>
-    <string name="pulse_on_new_tracks_soli_summary">Mostrar pantalla ambiente cuando suene una nueva canción</string>
+    <string name="pulse_on_new_tracks_summary">Muestra la pantalla ambiente cuando se reproduce una nueva pista de música. Haz doble toque en la información de la pista para pasar a la siguiente.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Muestra la pantalla ambiente cuando suena una nueva canción</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">¿Borrar datos de uso?</string>
     <string name="battery_stats_message">Se perderán los datos de uso de la batería</string>
     <!-- Battery health -->
     <string name="battery_health_title">Estado de la batería</string>
-    <string name="battery_health_summary">Controlar el estado de la batería</string>
+    <string name="battery_health_summary">Controla el estado de la batería</string>
     <string name="current_battery_capacity">Capacidad actual de la batería</string>
     <string name="current_battery_capacity_summary">Capacidad actual de la batería medida por el kernel</string>
     <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
@@ -173,7 +173,7 @@
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">Procesos en segundo plano</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimizar su pantalla basada en la hora del día y las condiciones ambientales para mejorar la lectura y reducir la fatiga visual</string>
+    <string name="live_display_summary">Optimiza su pantalla basada en la hora del día y las condiciones ambientales para mejorar la lectura y reducir la fatiga visual</string>
     <string name="live_display_mode">Modo de visualización</string>
     <string name="live_display_color_temperature_title">Temperatura del color</string>
     <string name="live_display_color_temperature_summary">Día: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
@@ -181,11 +181,11 @@
     <string name="live_display_day">Día</string>
     <string name="live_display_night">Noche</string>
     <string name="live_display_outdoor_mode_title">Modo exterior automático</string>
-    <string name="live_display_outdoor_mode_summary">Aumentar automáticamente el brillo y la saturación bajo la luz del sol</string>
+    <string name="live_display_outdoor_mode_summary">Aumenta automáticamente el brillo y la saturación bajo la luz del sol</string>
     <string name="live_display_low_power_title">Reducir el consumo de energía</string>
-    <string name="live_display_low_power_summary">Ajustar la pantalla al mínimo consumo de energía sin deterioro</string>
+    <string name="live_display_low_power_summary">Ajusta la pantalla para un menor consumo de energía sin deterioro</string>
     <string name="live_display_enhance_color_title">Mejorar colores</string>
-    <string name="live_display_enhance_color_summary">Mejorar la viveza del color de tonos de piel, paisajes y otras imágenes</string>
+    <string name="live_display_enhance_color_summary">Mejora la viveza del color de tonos de piel, paisajes y otras imágenes</string>
     <string name="live_display_color_profile_title">Perfil de color</string>
     <string name="live_display_color_profile_standard_title">Estándar</string>
     <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
@@ -200,7 +200,7 @@
     <string name="live_display_color_profile_photography_title">Fotografía</string>
     <string name="live_display_color_profile_photography_summary">Reproducción perfecta del color para las fotos</string>
     <string name="live_display_color_profile_basic_title">Básico</string>
-    <string name="live_display_color_profile_basic_summary">Usar pantalla sin calibrar</string>
+    <string name="live_display_color_profile_basic_summary">Usar la pantalla sin calibrar</string>
     <string name="live_display_color_profile_adaptive_title">Adaptativo</string>
     <string name="live_display_color_profile_adaptive_summary">Los colores se adaptan a las condiciones ambientales</string>
     <string name="live_display_color_profile_reading_title">Lectura</string>
@@ -225,7 +225,7 @@
     <string name="adj_contrast_title">Contraste</string>
     <!-- AoD on charge -->
     <string name="doze_on_charge_title">Siempre encendido al cargar</string>
-    <string name="doze_on_charge_summary">Mostrar pantalla ambiente al cargar</string>
+    <string name="doze_on_charge_summary">Muestra la pantalla ambiente al cargar</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Tiempo mínimo entre sonidos de notificaciones</string>
     <string name="app_notification_sound_timeout_summary_template">Permite sonidos o vibraciones no más de una vez cada <xliff:g id="duration">%1$s </xliff:g></string>
@@ -238,7 +238,7 @@
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Respuesta táctil</string>
-    <string name="back_gesture_haptic_summary">Activar efecto vibración en el gesto de atrás</string>
+    <string name="back_gesture_haptic_summary">Activa el efecto de vibración en el gesto de atrás</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Completa</string>
     <string name="back_height_high_label">Abajo</string>
@@ -263,7 +263,7 @@
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doble toque</string>
     <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
-    <string name="doze_double_tap_summary">Notificaciones emergentes por doble toque</string>
+    <string name="doze_double_tap_summary">Notificaciones de pulso por doble toque</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Animación del gesto atrás</string>
     <string name="back_gesture_arrow_summary">Mostrar una flecha animada para el gesto de atrás.</string>
@@ -362,4 +362,14 @@
     <string name="pulse_custom_div">Espaciado de la barra</string>
     <string name="pulse_filled_block_size">Tamaño del bloque</string>
     <string name="pulse_empty_block_size">Espaciado del bloque</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Nivel de batería en la zona baja</string>
+    <string name="ambient_battery_percent_summary">Mostrar el porcentaje de batería mientras el teléfono está en reposo</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Tipo de captura de pantalla</string>
+    <string name="screenshot_type_fullscreen">Realizar capturas de pantalla a pantalla completa</string>
+    <string name="screenshot_type_partial">Arrastre la selección en el área que quieres tomar una captura de pantalla</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Sonido de carga</string>
+    <string name="charging_vibro_title">Vibración de carga</string>
 </resources>
