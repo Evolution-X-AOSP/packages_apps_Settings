@@ -19,10 +19,10 @@ package com.android.settings;
 import android.app.settings.SettingsEnums;
 
 import com.android.settings.dashboard.DashboardFragment;
-import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settingslib.search.SearchIndexable;
+//import com.android.settings.search.BaseSearchIndexProvider;
+//import com.android.settingslib.search.SearchIndexable;
 
-@SearchIndexable
+//@SearchIndexable
 public class LegalSettings extends DashboardFragment {
 
     private static final String TAG = "LegalSettings";
@@ -42,6 +42,6 @@ public class LegalSettings extends DashboardFragment {
         return R.xml.about_legal;
     }
 
-    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.about_legal);
+    //public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    //        new BaseSearchIndexProvider(R.xml.about_legal);
 }
