@@ -362,4 +362,22 @@
     <string name="pulse_custom_div">Διάστημα ράβδων</string>
     <string name="pulse_filled_block_size">Μέγεθος μπλοκ</string>
     <string name="pulse_empty_block_size">Αποκλεισμός αποστάσεων</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Επίπεδο μπαταρίας στο κάτω μέρος</string>
+    <string name="ambient_battery_percent_summary">Ενεργοποίηση εμφάνισης ποσοστού μπαταρίας κατά την αναστολή</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Τύπος στιγμιότυπου οθόνης</string>
+    <string name="screenshot_type_fullscreen">Τραβήξτε στιγμιότυπα οθόνης πλήρους οθόνης</string>
+    <string name="screenshot_type_partial">Σύρετε την επιλογή στην περιοχή που θέλετε να τραβήξετε ως στιγμιότυπο οθόνης</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Ήχος φόρτισης</string>
+    <string name="charging_vibro_title">Φόρτιση δόνησης</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Γρήγορη φόρτιση</string>
+    <string name="fast_charging_summary">Απενεργοποιήστε για να μειώσετε τη θερμότητα που παράγεται από τη συσκευή κατά τη φόρτιση ή για να επεκτείνετε τη διάρκεια ζωής της μπαταρίας</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">Εμφάνιση επιλογέα μουσικής οθόνης περιβάλλοντος</string>
+    <string name="ambient_music_disabled">Απενεργοποιημένο</string>
+    <string name="ambient_music_bottom">Στο κάτω μέρος (προεπιλογή)</string>
+    <string name="ambient_music_center">Κεντραρισμένο (κάτω από το ρολόι)</string>
 </resources>
