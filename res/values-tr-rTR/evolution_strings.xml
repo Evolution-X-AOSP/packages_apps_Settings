@@ -372,4 +372,12 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_nos_title">Şarj sesleri</string>
     <string name="charging_vibro_title">Şarj titreşimi</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Hızlı şarj</string>
+    <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">Ortam ekranında müzik bilgisi göster</string>
+    <string name="ambient_music_disabled">Devre dışı</string>
+    <string name="ambient_music_bottom">Altta (varsayılan)</string>
+    <string name="ambient_music_center">Ortalanmış (saatin altında)</string>
 </resources>
