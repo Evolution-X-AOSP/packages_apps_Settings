@@ -362,4 +362,22 @@
     <string name="pulse_custom_div">Відстань між панелями</string>
     <string name="pulse_filled_block_size">Розмір блоку</string>
     <string name="pulse_empty_block_size">Відстань між блоками</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Рівень заряду батареї знизу</string>
+    <string name="ambient_battery_percent_summary">Включити відображення відсотків заряду в режимі Doze</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Тип знімка екрана</string>
+    <string name="screenshot_type_fullscreen">Знімок усього екрану</string>
+    <string name="screenshot_type_partial">Перетягніть виділення на область, знімок екрана якої треба зробити</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Звук при зарядці</string>
+    <string name="charging_vibro_title">Вібрація при зарядці</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Швидке заряджання</string>
+    <string name="fast_charging_summary">Вимкніть, щоб зменшити нагрів пристрою під час зарядки або для продовження терміну служби акумулятора</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">Показувати сповіщення «Зараз грає»</string>
+    <string name="ambient_music_disabled">Вимкнено</string>
+    <string name="ambient_music_bottom">Внизу (за замовчуванням)</string>
+    <string name="ambient_music_center">По центру (під годинником)</string>
 </resources>
