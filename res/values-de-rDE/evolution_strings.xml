@@ -372,4 +372,12 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_nos_title">Ton beim Aufladen</string>
     <string name="charging_vibro_title">Vibration beim Laden</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Schnelles Laden</string>
+    <string name="fast_charging_summary">Deaktivieren, um die vom Gerät erzeugte Hitze während des Ladevorgangs zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">Musiktitelanzeige im Inaktivitätsdisplay</string>
+    <string name="ambient_music_disabled">Deaktiviert</string>
+    <string name="ambient_music_bottom">Unten (Standard)</string>
+    <string name="ambient_music_center">Zentriert (unter der Uhr)</string>
 </resources>
