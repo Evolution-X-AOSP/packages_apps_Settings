@@ -372,4 +372,12 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_nos_title">充電時の音</string>
     <string name="charging_vibro_title">充電時の振動</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">急速充電</string>
+    <string name="fast_charging_summary">充電中の端末の発熱を減らすためやバッテリー寿命を伸ばすために無効にする</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">アンビエント音楽ティッカーを表示</string>
+    <string name="ambient_music_disabled">無効</string>
+    <string name="ambient_music_bottom">下部に表示 (既定)</string>
+    <string name="ambient_music_center">中央に表示 (cLockの下)</string>
 </resources>
