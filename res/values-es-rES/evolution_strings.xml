@@ -372,4 +372,12 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_nos_title">Sonido de carga</string>
     <string name="charging_vibro_title">Vibración de carga</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Carga rápida</string>
+    <string name="fast_charging_summary">Desactivar para reducir el calor producido por el dispositivo mientras se carga o para extender la duración de la batería</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">Mostrar indicador de música de ambiente</string>
+    <string name="ambient_music_disabled">Deshabilitado</string>
+    <string name="ambient_music_bottom">En la parte inferior (por defecto)</string>
+    <string name="ambient_music_center">Centrado (bajo el reloj)</string>
 </resources>
