@@ -373,4 +373,12 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_nos_title">Suara pengisian</string>
     <string name="charging_vibro_title">Getaran pengisian</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Pengisian cepat</string>
+    <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">Tampilkan ticker musik ambien</string>
+    <string name="ambient_music_disabled">Dinonaktifkan</string>
+    <string name="ambient_music_bottom">Di bagian bawah (default)</string>
+    <string name="ambient_music_center">Tengah (di bawah jam)</string>
 </resources>
