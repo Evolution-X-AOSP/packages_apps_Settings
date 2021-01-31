@@ -459,4 +459,8 @@
     <string name="ambient_music_disabled">Disabled</string>
     <string name="ambient_music_bottom">At the bottom (default)</string>
     <string name="ambient_music_center">Centered (under the cLock)</string>
+
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Show clipboard access alerts</string>
+    <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
 </resources>
