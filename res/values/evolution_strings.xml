@@ -583,4 +583,9 @@
     <string name="user_disallow_install_apps">Disallow installing apps</string>
     <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
     <string name="user_disallow_install_apps_unknown_sources">Disallow installing apps from third party sources</string>
+
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Background network access</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Enable network usage in the background</string>
 </resources>
