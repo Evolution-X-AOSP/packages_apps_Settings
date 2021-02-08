@@ -63,6 +63,7 @@ android_library {
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
         "vendor.lineage.fastcharge-V1.0-java",
+        "faceunlock_framework",
     ],
 
     libs: [
