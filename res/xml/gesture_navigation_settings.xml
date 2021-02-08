@@ -90,6 +90,15 @@
         settings:textStart="@string/hidden_label"
         settings:textEnd="@string/long_label"/>
 
+    <com.android.settings.widget.LabeledSeekBarPreference
+        android:key="gesture_navbar_radius"
+        android:title="@string/navbar_radius"
+        android:max="3"
+        android:defaultValue="1"
+        android:selectable="true"
+        settings:textStart="@string/small_label"
+        settings:textEnd="@string/big_label"/>
+
     <com.evolution.settings.preference.SystemSettingSwitchPreference
         android:key="back_gesture_haptic"
         android:title="@string/back_gesture_haptic_title"
