@@ -34,7 +34,6 @@ public class RomBuildMaintainerPreferenceController extends BasePreferenceContro
     private static final String TAG = "RomMaintainerCtrl";
     private static final String KEY_BUILD_MAINTAINER_URL =
         "org.evolution.build_donate_url";
-    private static final String OTA_BUILD_TYPE_PROP = "org.evolution.build_type";
 
     private final PackageManager mPackageManager;
 
@@ -48,11 +47,8 @@ public class RomBuildMaintainerPreferenceController extends BasePreferenceContro
 
     @Override
     public int getAvailabilityStatus() {
-        String buildtype = SystemProperties.get(OTA_BUILD_TYPE_PROP,"unofficial");
-        if (TextUtils.isEmpty(mDeviceMaintainer) || !buildtype.equalsIgnoreCase("official")) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
-        return AVAILABLE;
+        return !TextUtils.isEmpty(mDeviceMaintainer)
+                ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
     }
 
     @Override
