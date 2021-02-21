@@ -53,9 +53,6 @@
     <string name="device_info_protected_single_press">Натисніть, щоб відобразити інформацію</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Гучність рінгтону і повідомлень разом</string>
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Налагодження суперкористувачем</string>
-    <string name="adb_enable_summary_root">Дозволити запуск налагодження Android з правами суперкористувача</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Колір світла</string>
     <string name="custom_light_on_time_title">Час увімкненого LED під час пульсації (мс)</string>
@@ -128,15 +125,6 @@
     <string name="navbar_length">Довжина жесту</string>
     <string name="hidden_label">Приховано</string>
     <string name="long_label">Довго</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Дозволити доступ до мережі</string>
-    <string name="data_usage_app_restrict_all_summary">Увімкнути використання мережі</string>
-    <string name="data_usage_app_restrict_data">Мобільні дані</string>
-    <string name="data_usage_app_restrict_data_summary">Увімкнути використання мобільних даних</string>
-    <string name="data_usage_app_restrict_vpn">Дані VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Увімкнути використання даних VPN</string>
-    <string name="data_usage_app_restrict_wifi">Дані Wi-Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Увімкнути використання даних Wi-Fi</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Перемикання між режимами</string>
     <string name="prevent_ringing_option_cycle_summary">Увімкнути (переключання між режимами)</string>
@@ -380,4 +368,23 @@
     <string name="ambient_music_disabled">Вимкнено</string>
     <string name="ambient_music_bottom">Внизу (за замовчуванням)</string>
     <string name="ambient_music_center">По центру (під годинником)</string>
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Показувати сповіщення про доступ до буфера обміну</string>
+    <string name="show_clipboard_toast_summary">Відображати спливаюче повідомлення, коли додаток намагається отримати доступ до буфера обміну</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Дозволити доступ до мережі</string>
+    <string name="data_usage_app_restrict_all_summary">Увімкнути використання мережі</string>
+    <string name="data_usage_app_restrict_mobile">Передача даних</string>
+    <string name="data_usage_app_restrict_mobile_summary">Увімкнути використання мобільних даних</string>
+    <string name="data_usage_app_restrict_vpn">Дані VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Увімкнути використання даних VPN</string>
+    <string name="data_usage_app_restrict_wifi">Дані Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Увімкнути використання даних Wi-Fi</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Повноекранні застосунки</string>
+    <string name="display_cutout_force_fullscreen_summary">Змусити застосунки ігнорувати виріз</string>
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Радіус панелі жестів</string>
+    <string name="small_label">1 дп</string>
+    <string name="big_label">4 дп</string>
 </resources>
