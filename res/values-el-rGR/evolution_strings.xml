@@ -53,9 +53,6 @@
     <string name="device_info_protected_single_press">Πατήστε για να εμφανίσετε πληροφορίες</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Σύνδεση εντάσεων ήχου κλήσης &amp; ειδοποίησης</string>
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Εντοπισμός σφαλμάτων ρίζας</string>
-    <string name="adb_enable_summary_root">Να επιτρέπεται η εκτέλεση εντοπισμού σφαλμάτων Android ως root</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Ανοιχτό χρώμα</string>
     <string name="custom_light_on_time_title">Χρόνος ενεργοποίησης φωτισμού κατά την διάρκεια παλμού led (ms)</string>
@@ -128,15 +125,6 @@
     <string name="navbar_length">Μέγεθος μπάρας χειρονομίας</string>
     <string name="hidden_label">Κρυφό</string>
     <string name="long_label">Μακρύς</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Να επιτρέπεται η πρόσβαση στο δίκτυο</string>
-    <string name="data_usage_app_restrict_all_summary">Ενεργοποίηση χρήσης δικτύου</string>
-    <string name="data_usage_app_restrict_data">Δεδομένα κινητής τηλεφωνίας</string>
-    <string name="data_usage_app_restrict_data_summary">Ενεργοποίηση χρήσης δεδομένων κινητής τηλεφωνίας</string>
-    <string name="data_usage_app_restrict_vpn">Δεδομένα VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Ενεργοποίηση χρήσης δεδομένων VPN</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi δεδομενα</string>
-    <string name="data_usage_app_restrict_wifi_summary">Ενεργοποίηση χρήσης δεδομένων Wi\u2011Fi</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Κάντε κύλιση στις λειτουργίες</string>
     <string name="prevent_ringing_option_cycle_summary">Ενεργό (κύκλος μέσω λειτουργιών)</string>
@@ -380,4 +368,23 @@
     <string name="ambient_music_disabled">Απενεργοποιημένο</string>
     <string name="ambient_music_bottom">Στο κάτω μέρος (προεπιλογή)</string>
     <string name="ambient_music_center">Κεντραρισμένο (κάτω από το ρολόι)</string>
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Εμφάνιση ειδοποιήσεων πρόσβασης στο πρόχειρο</string>
+    <string name="show_clipboard_toast_summary">Εμφανίστε τοστ όταν μια εφαρμογή προσπαθεί να αποκτήσει πρόσβαση στο πρόχειρο</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Να επιτρέπεται η πρόσβαση στο δίκτυο</string>
+    <string name="data_usage_app_restrict_all_summary">Ενεργοποίηση χρήσης δικτύου</string>
+    <string name="data_usage_app_restrict_mobile">Δεδομένα κινητού</string>
+    <string name="data_usage_app_restrict_mobile_summary">Ενεργοποίηση χρήσης δεδομένων κινητής τηλεφωνίας</string>
+    <string name="data_usage_app_restrict_vpn">Δεδομένα VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Ενεργοποίηση χρήσης δεδομένων VPN</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi δεδομενα</string>
+    <string name="data_usage_app_restrict_wifi_summary">Ενεργοποίηση χρήσης δεδομένων Wi\u2011Fi</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Εφαρμογές πλήρους οθόνης</string>
+    <string name="display_cutout_force_fullscreen_summary">Αναγκάστε τις εφαρμογές να αγνοήσουν το χώρο εγκοπης</string>
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Γραμμή χειρονομίας ακτίνα κυκλου</string>
+    <string name="small_label">1 dp</string>
+    <string name="big_label">4 dp</string>
 </resources>
