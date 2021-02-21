@@ -53,9 +53,6 @@
     <string name="device_info_protected_single_press">Toca para mostrar información</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Vincular volumen de llamada y notificaciones</string>
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Depuración como root</string>
-    <string name="adb_enable_summary_root">Permite ejecutar la depuración de Android como root</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Color del LED</string>
     <string name="custom_light_on_time_title">Duración del parpadeo del LED encendido (ms)</string>
@@ -128,15 +125,6 @@
     <string name="navbar_length">Tamaño de la barra de gestos</string>
     <string name="hidden_label">Oculto</string>
     <string name="long_label">Largo</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Permitir acceso a la red</string>
-    <string name="data_usage_app_restrict_all_summary">Activar uso de red</string>
-    <string name="data_usage_app_restrict_data">Datos móviles</string>
-    <string name="data_usage_app_restrict_data_summary">Habilitar el uso de datos móviles</string>
-    <string name="data_usage_app_restrict_vpn">Datos VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Habilitar uso de datos con VPN</string>
-    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Activar uso de datos con Wi\u2011Fi</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Alternar modos</string>
     <string name="prevent_ringing_option_cycle_summary">Encendido (Alternar)</string>
@@ -332,13 +320,13 @@
     <string name="pulse_help_policy_notice_summary">El pulso no funciona con algunas fuentes de audio cuando se escucha en el altavoz del dispositivo</string>
     <string name="pulse_cat_title">Ecualizador de pulso</string>
     <string name="pulse_settings">Pulso</string>
-    <string name="pulse_settings_summary">Ecualizador gráfico de audio</string>
+    <string name="pulse_settings_summary">Ecualizador gráfico de audio para la barra de navegación y pantalla bloqueada</string>
     <string name="show_navbar_pulse_title">Pulso de la barra de navegación</string>
-    <string name="show_navbar_pulse_summary">Ecualizador audio gráfico en el área de la barra de navegación, incluso si la barra está oculta</string>
+    <string name="show_navbar_pulse_summary">Muestra el ecualizador audio gráfico en el área de la barra de navegación, incluso si la barra está oculta</string>
     <string name="show_lockscreen_pulse_title">Pulso en la pantalla de bloqueo</string>
-    <string name="show_lockscreen_pulse_summary">El ecualizador gráfico de audio en la pantalla de bloqueo</string>
+    <string name="show_lockscreen_pulse_summary">Muestra el ecualizador gráfico de audio en la pantalla de bloqueo</string>
     <string name="show_ambient_pulse_title">Pulso ambiental</string>
-    <string name="show_ambient_pulse_summary">El ecualizador gráfico de audio en la pantalla ambiental</string>
+    <string name="show_ambient_pulse_summary">Muestra el ecualizador gráfico de audio en la pantalla ambiente</string>
     <string name="pulse_render_mode_title">Modo de renderizado</string>
     <string name="pulse_render_mode_fading_bars">Bloques desvaneciéndose</string>
     <string name="pulse_render_mode_solid_lines">Líneas sólidas</string>
@@ -380,4 +368,23 @@
     <string name="ambient_music_disabled">Deshabilitado</string>
     <string name="ambient_music_bottom">En la parte inferior (por defecto)</string>
     <string name="ambient_music_center">Centrado (bajo el reloj)</string>
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Mostrar alertas de acceso al portapapeles</string>
+    <string name="show_clipboard_toast_summary">Muestra un aviso cuando una aplicación intente acceder al portapapeles</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Permitir acceso a la red</string>
+    <string name="data_usage_app_restrict_all_summary">Activar uso de red</string>
+    <string name="data_usage_app_restrict_mobile">Datos Móviles</string>
+    <string name="data_usage_app_restrict_mobile_summary">Habilitar el uso de datos móviles</string>
+    <string name="data_usage_app_restrict_vpn">Datos VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Habilitar uso de datos con VPN</string>
+    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Activar uso de datos con Wi\u2011Fi</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones en pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Forzar aplicaciones a ignorar espacio de notch</string>
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Tamaño de la barra de gestos</string>
+    <string name="small_label">1 dp</string>
+    <string name="big_label">4 dp</string>
 </resources>
