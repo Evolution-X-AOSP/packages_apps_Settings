@@ -53,9 +53,6 @@
     <string name="device_info_protected_single_press">Sentuh untuk melihat info</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Hubungkan volume dering &amp; pemberitahuan</string>
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Debugging Root</string>
-    <string name="adb_enable_summary_root">Izinkan menjalankan debugging Android sebagai root</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Warna terang</string>
     <string name="custom_light_on_time_title">Durasi lampu aktif selama led berkedip (ms)</string>
@@ -128,15 +125,6 @@
     <string name="navbar_length">Panjang bilah gerakan</string>
     <string name="hidden_label">Tersembunyi</string>
     <string name="long_label">Panjang</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Izinkan akses jaringan</string>
-    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
-    <string name="data_usage_app_restrict_data">Data seluler</string>
-    <string name="data_usage_app_restrict_data_summary">Aktifkan penggunaan data seluler</string>
-    <string name="data_usage_app_restrict_vpn">Data VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Hidupkan penggunaan data VPN</string>
-    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Melalui mode siklus</string>
     <string name="prevent_ringing_option_cycle_summary">Aktif (Melalui mode siklus)</string>
@@ -254,7 +242,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="volume_steps_title">Tingkat volume</string>
     <string name="volume_steps_summary">Nomor tingkatan untuk volume</string>
     <string name="volume_steps_alarm_title">Tingkat volume: Alarm</string>
-    <string name="volume_steps_dtmf_title">Tingkat Volume: DTMF</string>
+    <string name="volume_steps_dtmf_title">Tingkat volume: DTMF</string>
     <string name="volume_steps_music_title">Tingkat volume: Musik</string>
     <string name="volume_steps_notification_title">Tingkat volume: Notifikasi</string>
     <string name="volume_steps_ring_title">Tingkat volume: Dering</string>
@@ -331,15 +319,15 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="back_swipe_extended_summary">Tindakan pemicu pada gesekan yang lebih luas (lebih dari setengah ukuran tampilan), atau gesekan L (cukup panjang secara vertikal)</string>
     <!-- Pulse -->
     <string name="pulse_help_policy_notice_summary">Visual Audio tidak bekerja dengan beberapa sumber audio saat mendengarkan di speaker perangkat</string>
-    <string name="pulse_cat_title">Equalizer Pulse</string>
+    <string name="pulse_cat_title">Equalizer Visual Audio</string>
     <string name="pulse_settings">Visual Audio</string>
-    <string name="pulse_settings_summary">Equalizer Grafis Audio</string>
-    <string name="show_navbar_pulse_title">Pulse Navbar</string>
-    <string name="show_navbar_pulse_summary">Equalizer Grafis Audio di area bilah navigasi, juga jika bilah disembunyikan</string>
+    <string name="pulse_settings_summary">Equalizer Visual Audio untuk bilah navigasi dan layar kunci</string>
+    <string name="show_navbar_pulse_title">Grafis Audio Navbar</string>
+    <string name="show_navbar_pulse_summary">Equalizer Visual Audio di area bilah navigasi, juga jika bilah disembunyikan</string>
     <string name="show_lockscreen_pulse_title">Grafis Audio Layar Kunci</string>
-    <string name="show_lockscreen_pulse_summary">Grafis Equalizer Audio pada Layar Kunci</string>
+    <string name="show_lockscreen_pulse_summary">Equalizer Visual Audio pada Layar Kunci</string>
     <string name="show_ambient_pulse_title">Grafis Audio Layar Ambien</string>
-    <string name="show_ambient_pulse_summary">Grafis Equalizer Audio pada Layar Ambien</string>
+    <string name="show_ambient_pulse_summary">Equalizer Visual Audio pada Layar Ambien</string>
     <string name="pulse_render_mode_title">Mode Render</string>
     <string name="pulse_render_mode_fading_bars">Blok memudar</string>
     <string name="pulse_render_mode_solid_lines">Garis-garis padat</string>
@@ -381,4 +369,23 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="ambient_music_disabled">Dinonaktifkan</string>
     <string name="ambient_music_bottom">Di bagian bawah (default)</string>
     <string name="ambient_music_center">Tengah (di bawah jam)</string>
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Tampilkan toast akses clipboard</string>
+    <string name="show_clipboard_toast_summary">Tampilkan toast ketika aplikasi mencoba mengakses clipboard</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Izinkan akses jaringan</string>
+    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
+    <string name="data_usage_app_restrict_mobile">Data Seluler</string>
+    <string name="data_usage_app_restrict_mobile_summary">Aktifkan penggunaan data seluler</string>
+    <string name="data_usage_app_restrict_vpn">Data VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Hidupkan penggunaan data VPN</string>
+    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
+    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Radius bilah gestur</string>
+    <string name="small_label">1 dp</string>
+    <string name="big_label">4 dp</string>
 </resources>
