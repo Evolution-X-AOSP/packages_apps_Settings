@@ -53,9 +53,6 @@
     <string name="device_info_protected_single_press">Tocca per mostrare le info</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Debug con accesso di root</string>
-    <string name="adb_enable_summary_root">Consenti l\'esecuzione del debug di Android come root</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Colore LED</string>
     <string name="custom_light_on_time_title">Durata impulso del LED acceso (ms)</string>
@@ -128,15 +125,6 @@
     <string name="navbar_length">Lunghezza barra gesti</string>
     <string name="hidden_label">Nascosto</string>
     <string name="long_label">Lunga</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Consenti l\'accesso alla rete</string>
-    <string name="data_usage_app_restrict_all_summary">Abilita l\'utilizzo della rete</string>
-    <string name="data_usage_app_restrict_data">Dati mobili</string>
-    <string name="data_usage_app_restrict_data_summary">Abilita l\'uso dei dati mobili</string>
-    <string name="data_usage_app_restrict_vpn">Dati VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Abilita l\'uso dei dati VPN</string>
-    <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati Wi\u2011Fi</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Passa da una modalità all\'altra</string>
     <string name="prevent_ringing_option_cycle_summary">Acceso (passa da una modalità all\'altra)</string>
@@ -362,4 +350,41 @@
     <string name="pulse_custom_div">Spaziatura della barra</string>
     <string name="pulse_filled_block_size">Dimensione del blocco</string>
     <string name="pulse_empty_block_size">Spaziatura blocchi</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Livello batteria basso</string>
+    <string name="ambient_battery_percent_summary">Attiva per mostrare la percentuale della batteria quando il dispositivo è bloccato</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Tipo di screenshot</string>
+    <string name="screenshot_type_fullscreen">Cattura uno screenshot dell\'intero schermo</string>
+    <string name="screenshot_type_partial">Trascinare la selezione sulla zona che si vuole catturare</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Suono di ricarica</string>
+    <string name="charging_vibro_title">Vibrazione alla ricarica</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Ricarica veloce</string>
+    <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per prolungare la durata della batteria</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">Mostra ticker ambient musicale</string>
+    <string name="ambient_music_disabled">Disabilitato</string>
+    <string name="ambient_music_bottom">In basso (predefinito)</string>
+    <string name="ambient_music_center">Centrato (sotto il cLock)</string>
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Mostra gli avvisi di accesso agli appunti</string>
+    <string name="show_clipboard_toast_summary">Mostra un avviso quando un\'app prova ad accedere agli appunti</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Consenti l\'accesso alla rete</string>
+    <string name="data_usage_app_restrict_all_summary">Abilita l\'utilizzo della rete</string>
+    <string name="data_usage_app_restrict_mobile">Dati mobili</string>
+    <string name="data_usage_app_restrict_mobile_summary">Abilita l\'utilizzo dei dati mobili</string>
+    <string name="data_usage_app_restrict_vpn">Dati VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Abilita l\'uso dei dati VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati Wi\u2011Fi</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">App a schermo intero</string>
+    <string name="display_cutout_force_fullscreen_summary">Forza le applicazioni ad ignorare lo spazio del notch</string>
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Raggio barra dei gesti</string>
+    <string name="small_label">1 dp</string>
+    <string name="big_label">4 dp</string>
 </resources>

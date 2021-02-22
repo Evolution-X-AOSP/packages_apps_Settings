@@ -53,9 +53,6 @@
     <string name="device_info_protected_single_press">点击以显示信息</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">连接铃声和通知音量</string>
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Root 用户调试</string>
-    <string name="adb_enable_summary_root">允许以 root 身份运行 Android 调试</string>
     <!-- Custom light color -->
     <string name="custom_light_title">呼吸灯颜色</string>
     <string name="custom_light_on_time_title">屏幕开启下 LED 闪烁间隔时间 (毫秒)</string>
@@ -105,7 +102,7 @@
     <!-- Volume rocker gestures -->
     <string name="volume_skiptrack_screen_title">跳过音乐曲目</string>
     <string name="volume_skiptrack_title">音量键切换曲目</string>
-    <string name="volume_skiptrack_summary">长按音量键在播放音乐时跳过曲目，甚至在 TV 或 PC 上使用 ，例如Spotify (应用程序必须在手机上运行并显示通知)。</string>
+    <string name="volume_skiptrack_summary">长按音量键在播放音乐时跳过曲目，甚至在 TV 或 PC 上使用 ，例如Spotify (应用程序必须在手机上运行并显示通知)</string>
     <string name="pulse_on_new_tracks_title">音乐息屏显示</string>
     <string name="pulse_on_new_tracks_summary">播放新音乐时显示歌曲信息。双击曲目信息跳至下一曲目。</string>
     <string name="pulse_on_new_tracks_soli_summary">当切歌时显示息屏显示</string>
@@ -121,25 +118,16 @@
     <string name="designed_battery_capacity_summary">电池容量由制造商设计</string>
     <string name="battery_charge_cycles">充电周期已完成</string>
     <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">拾色器</string>
+    <string name="theme_customization_systemui_title">色桶</string>
     <string name="show_gestures_navbar_switch_title">秀丸</string>
     <string name="show_gestures_navbar_switch_summary">显示手势导航栏</string>
     <!-- Navbar length -->
     <string name="navbar_length">手势栏长度</string>
     <string name="hidden_label">隐藏</string>
     <string name="long_label">长</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">允许联网</string>
-    <string name="data_usage_app_restrict_all_summary">启用网络</string>
-    <string name="data_usage_app_restrict_data">移动数据</string>
-    <string name="data_usage_app_restrict_data_summary">启用移动数据流量使用统计</string>
-    <string name="data_usage_app_restrict_vpn">VPN 数据</string>
-    <string name="data_usage_app_restrict_vpn_summary">启用 VPN 的数据使用统计</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 数据</string>
-    <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 的数据使用统计</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">循环通过模式</string>
-    <string name="prevent_ringing_option_cycle_summary">开启(循环通过模式)</string>
+    <string name="prevent_ringing_option_cycle_summary">开启 (循环通过模式)</string>
     <!-- Double tap-to-sleep -->
     <string name="doubletap_lockscreen_screen_title">切换屏幕</string>
     <string name="doubletap_lockscreen_title">锁屏界面双击屏幕休眠</string>
@@ -158,17 +146,17 @@
     <string name="adaptive_playback_disabled_summary">关闭</string>
     <string name="adaptive_playback_timeout_title">超时</string>
     <string name="adaptive_playback_timeout_none">不限时</string>
-    <string name="adaptive_playback_timeout_none_summary">开启(无超时)</string>
+    <string name="adaptive_playback_timeout_none_summary">开启 (无超时)</string>
     <string name="adaptive_playback_timeout_30_secs">30 秒</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">开启(30秒)</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">开启 (30秒)</string>
     <string name="adaptive_playback_timeout_1_min">1 分钟</string>
-    <string name="adaptive_playback_timeout_1_min_summary">开启(1分钟)</string>
+    <string name="adaptive_playback_timeout_1_min_summary">开启 (1分钟)</string>
     <string name="adaptive_playback_timeout_2_min">2 分钟</string>
-    <string name="adaptive_playback_timeout_2_min_summary">开启(2分钟)</string>
+    <string name="adaptive_playback_timeout_2_min_summary">开启 (2分钟)</string>
     <string name="adaptive_playback_timeout_5_min">5 分钟</string>
-    <string name="adaptive_playback_timeout_5_min_summary">开启(5分钟)</string>
+    <string name="adaptive_playback_timeout_5_min_summary">开启 (5分钟)</string>
     <string name="adaptive_playback_timeout_10_min">10 分钟</string>
-    <string name="adaptive_playback_timeout_10_min_summary">开启(10分钟)</string>
+    <string name="adaptive_playback_timeout_10_min_summary">开启 (10分钟)</string>
     <string name="adaptive_playback_explainer">当音量被静音时，自适应播放会自动暂停媒体，当音量在设定时间内恢复时会自动恢复。</string>
     <!-- Running services toggle -->
     <string name="background_processes_settings_title">后台进程</string>
@@ -205,10 +193,10 @@
     <string name="live_display_color_profile_adaptive_summary">环境颜色</string>
     <string name="live_display_color_profile_reading_title">阅读模式</string>
     <string name="live_display_color_profile_reading_summary">使用暖色调以减少视疲劳</string>
-    <string name="live_display_color_profile_srgb_title">sRGB色彩标准</string>
-    <string name="live_display_color_profile_srgb_summary">Srgb颜色较准</string>
-    <string name="live_display_color_profile_dci_p3_title">DCI-P3色彩标准</string>
-    <string name="live_display_color_profile_dci_p3_summary">精准DCI-P3广色域</string>
+    <string name="live_display_color_profile_srgb_title">sRGB 色彩标准</string>
+    <string name="live_display_color_profile_srgb_summary">色彩精确到 sRGB 色彩空间</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3 色彩标准</string>
+    <string name="live_display_color_profile_dci_p3_summary">色彩精确到 DCI-P3 色彩空间</string>
     <string name="live_display_reading_mode_title">阅读模式</string>
     <string name="live_display_reading_mode_summary">适合长时间阅读的灰度模式</string>
     <string name="color_calibration_title">色彩校准</string>
@@ -282,7 +270,7 @@
     <!-- Battery categorization -->
     <string name="battery_saver_category_title">省电模式</string>
     <string name="smart_charging_category_title">智能充电</string>
-    <string name="battery_info_category_title">电池健康状态:</string>
+    <string name="battery_info_category_title">电池健康状态</string>
     <string name="battery_usage_category_title">电池信息</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">关闭</string>
@@ -372,4 +360,31 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_nos_title">充电提示音</string>
     <string name="charging_vibro_title">充电时振动</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">快速充电中</string>
+    <string name="fast_charging_summary">禁用以降低设备在充电时产生的热量或延长电池寿命</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">显示环境音乐信息</string>
+    <string name="ambient_music_disabled">已禁用</string>
+    <string name="ambient_music_bottom">在底部 (默认)</string>
+    <string name="ambient_music_center">居中 (在锁定下)</string>
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">显示剪贴板访问提醒</string>
+    <string name="show_clipboard_toast_summary">当应用程序试图访问剪贴板时显示提示</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">允许联网</string>
+    <string name="data_usage_app_restrict_all_summary">启用网络</string>
+    <string name="data_usage_app_restrict_mobile">移动数据</string>
+    <string name="data_usage_app_restrict_mobile_summary">启用移动数据使用统计</string>
+    <string name="data_usage_app_restrict_vpn">VPN 数据</string>
+    <string name="data_usage_app_restrict_vpn_summary">启用 VPN 的数据使用统计</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 数据</string>
+    <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 的数据使用统计</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">全屏应用</string>
+    <string name="display_cutout_force_fullscreen_summary">强制应用忽略全面屏上缘</string>
+    <!-- Navbar radius -->
+    <string name="navbar_radius">手势栏半径</string>
+    <string name="small_label">1 dp</string>
+    <string name="big_label">4 dp</string>
 </resources>

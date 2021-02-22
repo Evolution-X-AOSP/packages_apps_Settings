@@ -53,9 +53,6 @@
     <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Debugowanie jako root</string>
-    <string name="adb_enable_summary_root">Zezwól na debugowanie Androida jako root</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Kolor LED</string>
     <string name="custom_light_on_time_title">Czas świecenia diody LED podczas pulsowania (ms)</string>
@@ -128,15 +125,6 @@
     <string name="navbar_length">Długość paska gestów</string>
     <string name="hidden_label">Ukryty</string>
     <string name="long_label">Długi</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Zezwól na dostęp do sieci</string>
-    <string name="data_usage_app_restrict_all_summary">Włącz użycie sieci</string>
-    <string name="data_usage_app_restrict_data">Transmisja danych komórkowych</string>
-    <string name="data_usage_app_restrict_data_summary">Włącz użycie danych komórkowych</string>
-    <string name="data_usage_app_restrict_vpn">Dane VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Włącz użycie danych VPN</string>
-    <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Przełączaj między trybami</string>
     <string name="prevent_ringing_option_cycle_summary">Włączony (przechodzenie między trybami)</string>
@@ -380,4 +368,23 @@
     <string name="ambient_music_disabled">Wyłączony</string>
     <string name="ambient_music_bottom">Na dole (domyślnie)</string>
     <string name="ambient_music_center">Wyśrodkowane (pod zegarem)</string>
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Pokaż powiadomienie dostępu do schowka</string>
+    <string name="show_clipboard_toast_summary">Wyświetlaj toast gdy aplikacja próbuje uzyskać dostęp do schowka</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Zezwól na dostęp do sieci</string>
+    <string name="data_usage_app_restrict_all_summary">Włącz użycie sieci</string>
+    <string name="data_usage_app_restrict_mobile">Dane mobilne</string>
+    <string name="data_usage_app_restrict_mobile_summary">Włącz użycie danych mobilnych</string>
+    <string name="data_usage_app_restrict_vpn">Dane VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Włącz użycie danych VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikacje pełnoekranowe</string>
+    <string name="display_cutout_force_fullscreen_summary">Wymuś na aplikacjach ignorowanie przestrzeni wcięcia</string>
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Promień paska gestów</string>
+    <string name="small_label">1 dp</string>
+    <string name="big_label">4 dp</string>
 </resources>
