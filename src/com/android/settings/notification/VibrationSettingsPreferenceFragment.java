@@ -30,9 +30,11 @@ import android.os.Vibrator;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.sound.CustomVibrationPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.widget.RadioButtonPreference;
 
@@ -53,10 +55,11 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
     private static final String INCALL_FEEDBACK_VIBRATE = "incall_feeedback_vibrate";
 
     private static final String[] mKeys = {"pattern_dzzz_dzzz", "pattern_dzzz_da", "pattern_mm_mm_mm",
-        "pattern_da_da_dzzz", "pattern_da_dzzz_da"};
+        "pattern_da_da_dzzz", "pattern_da_dzzz_da", "pattern_custom"};
 
     private static final String RING_VIBRATION_INTENSITY = "ring_vibration_intensity";
     private static final String NOTIFICATION_VIBRATION_INTENSITY = "notification_vibration_intensity";
+    private static final String CUSTOM_VIBRATION = "custom_vibration_pattern";
 
     private static final long[] DZZZ_DZZZ_VIBRATION_PATTERN = {
         0, // No delay before starting
@@ -150,10 +153,11 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
 
     private final Map<String, RadioButtonPreference> mStringToPreferenceMap = new HashMap<>();
 
-    private RadioButtonPreference[] mRadioPreferences = new RadioButtonPreference[5];
+    private RadioButtonPreference[] mRadioPreferences = new RadioButtonPreference[6];
 
     private Preference mRingerVibrationIntensity;
     private Preference mNotifVibrationIntensity;
+    private PreferenceCategory mCustomVibCategory;
     private SystemSettingSwitchPreference mIncallFeedback;
 
     private SettingsObserver mSettingObserver;
@@ -180,8 +184,9 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
         mRingerVibrationIntensity = (Preference) findPreference(RING_VIBRATION_INTENSITY);
         mNotifVibrationIntensity = (Preference) findPreference(NOTIFICATION_VIBRATION_INTENSITY);
         mIncallFeedback = (SystemSettingSwitchPreference) findPreference(INCALL_FEEDBACK_VIBRATE);
+        mCustomVibCategory = (PreferenceCategory) findPreference(CUSTOM_VIBRATION);
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 6; i++) {
             mRadioPreferences[i] = (RadioButtonPreference) findPreference(mKeys[i]);
             mStringToPreferenceMap.put(mKeys[i], mRadioPreferences[i]);
             mRadioPreferences[i].setOnPreferenceClickListener(this);
@@ -235,6 +240,7 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
         final VibrateOnTouchPreferenceController vibrateOnTouchPreferenceController =
                 new VibrateOnTouchPreferenceController(context, this, getSettingsLifecycle());
         controllers.add(vibrateOnTouchPreferenceController);
+        controllers.add(new CustomVibrationPreferenceController(context));
         return controllers;
     }
 
@@ -272,11 +278,12 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
     }
 
     private void updateVibrationPattern(int val) {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 6; i++) {
             ((RadioButtonPreference) mStringToPreferenceMap.get(mKeys[i])).setChecked((val == i) ? true:false);
         }
         Settings.System.putIntForUser(mContentResolver, RINGTONE_VIBRATION_PATTERN,
                 val, UserHandle.USER_CURRENT);
+        mCustomVibCategory.setVisible(val == 5);
     }
 
     private void updateIntensityText() {
@@ -323,6 +330,29 @@ public class VibrationSettingsPreferenceFragment extends DashboardFragment
                 break;
             case 4:
                 mDefaultVibrationEffect = VibrationEffect.createWaveform(DA_DZZZ_DA_VIBRATION_PATTERN,
+                    SEVEN_ELEMENTS_VIBRATION_AMPLITUDE, -1);
+                break;
+            case 5:
+                String customVibValue = Settings.System.getStringForUser(mContext.getContentResolver(),
+                        Settings.System.CUSTOM_RINGTONE_VIBRATION_PATTERN, UserHandle.USER_CURRENT);
+                String[] customVib = new String[3];
+                if (customVibValue != null && !customVibValue.equals("")) {
+                    customVib = customVibValue.split(",", 3);
+                } else { // If no value - use default
+                    customVib[0] = "0";
+                    customVib[1] = "800";
+                    customVib[2] = "800";
+                }
+                long[] customVibPattern = {
+                    0, // No delay before starting
+                    Long.parseLong(customVib[0]), // How long to vibrate
+                    400, // Delay
+                    Long.parseLong(customVib[1]), // How long to vibrate
+                    400, // Delay
+                    Long.parseLong(customVib[2]), // How long to vibrate
+                    400, // How long to wait before vibrating again
+                };
+                mDefaultVibrationEffect = VibrationEffect.createWaveform(customVibPattern,
                     SEVEN_ELEMENTS_VIBRATION_AMPLITUDE, -1);
                 break;
             default:

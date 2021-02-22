@@ -16,7 +16,7 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:key="vibration_preferences"
     android:title="@string/vibration_preferences"
     settings:keywords="@string/keywords_vibration_preferences">
@@ -75,5 +75,44 @@
         <com.android.settingslib.widget.RadioButtonPreference
             android:key="pattern_da_dzzz_da"
             android:title="@string/pattern_da_dzzz_da" />
+
+        <com.android.settingslib.widget.RadioButtonPreference
+            android:key="pattern_custom"
+            android:title="@string/pattern_custom" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="custom_vibration_pattern"
+        android:title="@string/custom_vibration_pattern_title">
+
+        <!-- Custom ringtone vibration pattern 1 -->
+        <com.evolution.settings.preference.CustomSeekBarPreference
+            android:key="custom_vibration_pattern1"
+            android:order="-123"
+            android:max="1000"
+            android:defaultValue="0"
+            settings:min="0"
+            settings:interval="10"
+            settings:units="ms"/>
+
+        <!-- Custom ringtone vibration pattern 2 -->
+        <com.evolution.settings.preference.CustomSeekBarPreference
+            android:key="custom_vibration_pattern2"
+            android:order="-122"
+            android:max="1000"
+            android:defaultValue="800"
+            settings:min="0"
+            settings:interval="10"
+            settings:units="ms"/>
+
+        <!-- Custom ringtone vibration pattern 3 -->
+        <com.evolution.settings.preference.CustomSeekBarPreference
+            android:key="custom_vibration_pattern3"
+            android:order="-121"
+            android:max="1000"
+            android:defaultValue="800"
+            settings:min="0"
+            settings:interval="10"
+            settings:units="ms"/>
     </PreferenceCategory>
 </PreferenceScreen>
