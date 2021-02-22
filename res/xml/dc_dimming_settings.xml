@@ -21,7 +21,7 @@
         android:key="dc_dimming_title"
         settings:keywords="@string/keywords_display_dc_dimming">
 
-    <DropDownPreference
+    <ListPreference
         android:key="dc_dimming_auto_mode"
         android:title="@string/dc_dimming_auto_mode_title"
         android:summary="%s" />
