@@ -126,9 +126,9 @@
     <dimen name="switchbar_subsettings_margin_start">72dp</dimen>
     <dimen name="switchbar_subsettings_margin_end">16dp</dimen>
 
-    <dimen name="search_bar_margin">16dp</dimen>
+    <dimen name="search_bar_margin">26dp</dimen>
 
-    <dimen name="search_bar_height">48dp</dimen>
+    <dimen name="search_bar_height">50dp</dimen>
     <dimen name="search_bar_corner_radius">24.0dp</dimen>
     <dimen name="search_bar_text_size">16dp</dimen>
     <dimen name="search_bar_card_elevation">2dp</dimen>
