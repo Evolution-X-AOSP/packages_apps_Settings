@@ -49,6 +49,7 @@
 
     <com.android.settingslib.RestrictedPreference
         android:key="manage_mobile_plan"
+        android:icon="@drawable/ic_settings_mobile_plan"
         android:order="19"
         android:persistent="false"
         android:title="@string/manage_mobile_plan_title"
@@ -98,7 +99,7 @@
     <com.android.settings.network.PrivateDnsModeDialogPreference
         android:dialogLayout="@layout/private_dns_mode_dialog"
         android:dialogTitle="@string/select_private_dns_configuration_dialog_title"
-        android:icon="@drawable/ic_dns"
+        android:icon="@drawable/ic_settings_private_dns"
         android:key="private_dns_settings"
         android:negativeButtonText="@android:string/cancel"
         android:order="20"
