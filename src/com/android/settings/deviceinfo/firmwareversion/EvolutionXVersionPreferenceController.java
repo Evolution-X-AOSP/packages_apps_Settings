@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2020 The Evolution X Project
+ * Copyright (C) 2019-2021 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,50 +23,50 @@ import android.net.Uri;
 import android.os.SystemProperties;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.View;
 
 import androidx.preference.Preference;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class RomBuildMaintainerPreferenceController extends BasePreferenceController {
+public class EvolutionXVersionPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "RomMaintainerCtrl";
-    private static final String KEY_BUILD_MAINTAINER_URL =
-        "org.evolution.build_donate_url";
+    private static final Uri INTENT_URI_DATA = Uri.parse("https://paypal.me/joeyhuab/");
+    private static final String TAG = "EvolutionXVersionPreferenceCtrl";
+    private static final String KEY_ROM_VERSION_PROP = "org.evolution.build_version";
+    private static final String KEY_ROM_CODENAME_PROP = "org.evolution.build_codename";
 
     private final PackageManager mPackageManager;
 
-    private String mDeviceMaintainer;
-
-    public RomBuildMaintainerPreferenceController(Context context, String key) {
+    public EvolutionXVersionPreferenceController(Context context, String key) {
         super(context, key);
-        mDeviceMaintainer = SystemProperties.get("org.evolution.build_maintainer");
         mPackageManager = mContext.getPackageManager();
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return !TextUtils.isEmpty(mDeviceMaintainer)
-                ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
+        return AVAILABLE;
     }
 
     @Override
     public CharSequence getSummary() {
-        return mDeviceMaintainer;
+        String romVersion = SystemProperties.get(KEY_ROM_VERSION_PROP,
+                mContext.getString(R.string.device_info_default));
+        String romCodename = SystemProperties.get(KEY_ROM_CODENAME_PROP,
+                mContext.getString(R.string.device_info_default));
+        return romVersion + " " + romCodename;
     }
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
-        String maintainerUrl = SystemProperties.get(KEY_BUILD_MAINTAINER_URL,
-                mContext.getString(R.string.unknown));
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return false;
         }
 
         final Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(maintainerUrl));
+        intent.setData(INTENT_URI_DATA);
         if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
             // Don't send out the intent to stop crash
             Log.w(TAG, "queryIntentActivities() returns empty");

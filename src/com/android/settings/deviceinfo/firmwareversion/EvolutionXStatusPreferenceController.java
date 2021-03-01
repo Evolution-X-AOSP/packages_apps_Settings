@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2019-2021 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,13 +22,13 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class RomBuildDatePreferenceController extends BasePreferenceController {
+public class EvolutionXStatusPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "RomBuildDateCtrl";
+    private static final String TAG = "EvolutionXStatusPreferenceCtrl";
 
-    private static final String KEY_BUILD_DATE_PROP = "ro.build.date";
+    private static final String KEY_ROM_BUILD_TYPE_PROP = "org.evolution.build_type";
 
-    public RomBuildDatePreferenceController(Context context, String key) {
+    public EvolutionXStatusPreferenceController(Context context, String key) {
         super(context, key);
     }
 
@@ -39,7 +39,7 @@ public class RomBuildDatePreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_BUILD_DATE_PROP,
-                mContext.getString(R.string.unknown));
+        return SystemProperties.get(KEY_ROM_BUILD_TYPE_PROP,
+                mContext.getString(R.string.device_info_default));
     }
 }

@@ -26,12 +26,18 @@
     <string name="security_settings_fingerprint_sensor_location_left">left side</string>
     <string name="security_settings_fingerprint_sensor_location_right">right side</string>
 
-    <!-- ROM version -->
-    <string name="about_device_name">Device</string>
+    <!-- About device screen, build date -->
     <string name="build_date">Build date</string>
-    <string name="build_maintainer" translatable="false">Build maintainer</string>
-    <string name="rom_version">Evolution X version</string>
-    <string name="rom_version_default">Unknown</string>
+
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Build maintainer</string>
+
+    <!-- About device screen, device codename -->
+    <string name="device_codename">Device codename</string>
+
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Evolution X status</string>
+    <string name="evolution_x_version">Evolution X version</string>
 
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->

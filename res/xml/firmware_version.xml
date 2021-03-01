@@ -26,7 +26,7 @@
         android:key="evolution_logo"
         android:clickable="true"
         android:layout="@layout/evolution_logo"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomLogoPreferenceController"/>
+        android:fragment="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionSettings"/>
 
     <!-- Android version -->
     <Preference
@@ -36,22 +36,6 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
-
-    <!-- Device name -->
-    <Preference
-        android:key="about_device_name"
-        android:title="@string/about_device_name"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
-
-    <!-- ROM version -->
-    <Preference
-        android:key="os_rom_version"
-        android:title="@string/rom_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomVersionDetailPreferenceController" />
 
     <!-- Security patch -->
     <Preference
@@ -86,14 +70,6 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
-    <!-- Build maintainer -->
-    <Preference
-        android:key="os_build_maintainer"
-        android:title="@string/build_maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomBuildMaintainerPreferenceController"/>
-
     <!-- Build date -->
     <Preference
         android:key="os_build_date"
@@ -101,7 +77,7 @@
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomBuildDatePreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildDatePreferenceController"/>
 
     <!-- Build number -->
     <!--Preference

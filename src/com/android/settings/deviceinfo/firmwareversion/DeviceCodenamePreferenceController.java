@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The Android Open Source Project
+ * Copyright (C) 2019-2021 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,27 +20,26 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.SystemProperties;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.View;
 
 import androidx.preference.Preference;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class RomVersionDetailPreferenceController extends BasePreferenceController {
+public class DeviceCodenamePreferenceController extends BasePreferenceController {
 
-    private static final Uri INTENT_URI_DATA = Uri.parse("https://paypal.me/joeyhuab/");
-    private static final String TAG = "romDialogCtrl";
-    private static final String KEY_ROM_VERSION_PROP = "org.evolution.build_version";
-    private static final String KEY_ROM_RELEASETYPE_PROP = "org.evolution.build_type";
-    private static final String KEY_ROM_CODENAME_PROP = "org.evolution.build_codename";
+    private static final String TAG = "DeviceCodenameCtrl";
+
+    private static final String KEY_DEVICE_CODENAME_PROP = "org.evolution.device";
+    private static final String KEY_SUPPORT_URL = "org.evolution.build_support_url";
 
     private final PackageManager mPackageManager;
 
-    public RomVersionDetailPreferenceController(Context context, String key) {
+    public DeviceCodenamePreferenceController(Context context, String key) {
         super(context, key);
         mPackageManager = mContext.getPackageManager();
     }
@@ -52,27 +51,21 @@ public class RomVersionDetailPreferenceController extends BasePreferenceControll
 
     @Override
     public CharSequence getSummary() {
-        String romVersion = SystemProperties.get(KEY_ROM_VERSION_PROP,
-                this.mContext.getString(R.string.device_info_default));
-        String romReleasetype = SystemProperties.get(KEY_ROM_RELEASETYPE_PROP,
-                this.mContext.getString(R.string.device_info_default));
-        String romCodename = SystemProperties.get(KEY_ROM_CODENAME_PROP,
-                this.mContext.getString(R.string.device_info_default));
-        if (!romVersion.isEmpty() && !romReleasetype.isEmpty())
-            return romVersion + " | " + romCodename + " | " + romReleasetype;
-        else
-            return mContext.getString(R.string.rom_version_default);
+        return SystemProperties.get(KEY_DEVICE_CODENAME_PROP,
+                mContext.getString(R.string.device_info_default));
     }
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
+        String Url = SystemProperties.get(KEY_SUPPORT_URL,
+                mContext.getString(R.string.device_info_default));
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return false;
         }
 
         final Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(INTENT_URI_DATA);
+        intent.setData(Uri.parse(Url));
         if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
             // Don't send out the intent to stop crash
             Log.w(TAG, "queryIntentActivities() returns empty");
