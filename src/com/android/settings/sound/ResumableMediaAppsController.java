@@ -58,8 +58,9 @@ public class ResumableMediaAppsController extends BasePreferenceController {
     public int getAvailabilityStatus() {
         // Update list, since this will be called when the app goes to onStart / onPause
         Intent serviceIntent = new Intent(MediaBrowserService.SERVICE_INTERFACE);
+        boolean enableQsMedia = Settings.Secure.getInt(mContext.getContentResolver(), Settings.Secure.MEDIA_CONTROLS_RESUME, 1) == 1;
         mResumeInfo = mPackageManager.queryIntentServices(serviceIntent, 0);
-        return (mResumeInfo.size() > 0) ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
+        return (mResumeInfo.size() > 0) ? (enableQsMedia ? AVAILABLE : DISABLED_DEPENDENT_SETTING) : CONDITIONALLY_UNAVAILABLE;
     }
 
     @Override
