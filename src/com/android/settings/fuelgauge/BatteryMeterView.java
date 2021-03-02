@@ -19,8 +19,6 @@ package com.android.settings.fuelgauge;
 import android.annotation.Nullable;
 import android.content.Context;
 import android.graphics.ColorFilter;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffColorFilter;
 import android.provider.Settings;
 import android.util.AttributeSet;
 import android.widget.ImageView;
@@ -59,14 +57,12 @@ public class BatteryMeterView extends ImageView {
         super(context, attrs, defStyleAttr);
 
         final int frameColor = context.getColor(R.color.meter_background_color);
-        mAccentColorFilter = new PorterDuffColorFilter(
-                Utils.getColorAttrDefaultColor(context, android.R.attr.colorAccent),
-                PorterDuff.Mode.SRC_IN);
-        mErrorColorFilter = new PorterDuffColorFilter(
-                context.getColor(R.color.battery_icon_color_error), PorterDuff.Mode.SRC_IN);
-        mForegroundColorFilter =new PorterDuffColorFilter(
-                Utils.getColorAttrDefaultColor(context, android.R.attr.colorForeground),
-                PorterDuff.Mode.SRC_IN);
+        mAccentColorFilter = Utils.getAlphaInvariantColorFilterForColor(
+                Utils.getColorAttrDefaultColor(context, android.R.attr.colorAccent));
+        mErrorColorFilter = Utils.getAlphaInvariantColorFilterForColor(
+                context.getColor(R.color.battery_icon_color_error));
+        mForegroundColorFilter = Utils.getAlphaInvariantColorFilterForColor(
+                Utils.getColorAttrDefaultColor(context, android.R.attr.colorForeground));
         mThemedDrawable = new BatteryMeterDrawable(context, frameColor);
         mCircleDrawable = new CircleBatteryDrawable(context, frameColor);
         mFullCircleDrawable = new FullCircleBatteryDrawable(context, frameColor);
