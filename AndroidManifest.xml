@@ -3472,7 +3472,7 @@
             android:permission="android.permission.BLUETOOTH_ADMIN">
             <intent-filter>
                 <action android:name="com.android.settings.action.LAUNCH_BLUETOOTH_PAIRING"/>
-            </intent-filter>/>
+            </intent-filter>
         </receiver>
 
         <!-- The Evolver -->
