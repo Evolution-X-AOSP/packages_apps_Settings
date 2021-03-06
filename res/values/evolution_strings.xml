@@ -335,7 +335,7 @@
     <string name="night_display_location_text">\n\nThe schedule from sunset to sunrise requires enabled location services to get the correct times for your location.</string>
 
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_title">Smart charging</string>
     <string name="smart_charging_summary">Set maximum charging level</string>
     <string name="smart_charging_switch_title">Use Smart charging</string>
     <string name="smart_charging_level_title">Stop trigger level</string>
@@ -345,10 +345,10 @@
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
 
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">Battery Saver</string>
-    <string name="smart_charging_category_title">Smart Charging</string>
-    <string name="battery_info_category_title">Battery Health</string>
-    <string name="battery_usage_category_title">Battery Info</string>
+    <string name="battery_saver_category_title">Battery saver</string>
+    <string name="smart_features_category_title">Smart features</string>
+    <string name="battery_info_category_title">Battery health</string>
+    <string name="battery_usage_category_title">Battery info</string>
 
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Off</string>
@@ -535,4 +535,11 @@
     <string name="category_name_visibility">Visibility</string>
     <string name="category_personal">Personal</string>
     <string name="category_work">Work</string>
+
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Stop trigger level</string>
+    <string name="smart_cutoff_resume_level_title">Start trigger level</string>
 </resources>

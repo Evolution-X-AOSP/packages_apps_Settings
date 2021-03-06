@@ -70,14 +70,20 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="smart_charging_category"
-        android:title="@string/smart_charging_category_title">
+        android:key="smart_features_category"
+        android:title="@string/smart_features_category_title">
 
         <Preference
             android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
             android:key="smart_charging_key"
             android:title="@string/smart_charging_title"
             android:summary="@string/smart_charging_summary" />
+
+        <Preference
+            android:fragment="com.android.settings.fuelgauge.smartcutoff.SmartCutoffSettings"
+            android:key="smart_cutoff_key"
+            android:title="@string/smart_cutoff_title"
+            android:summary="@string/smart_cutoff_summary" />
 
     </PreferenceCategory>
 
