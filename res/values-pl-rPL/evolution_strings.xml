@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The Evolution X Project
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,11 +24,14 @@
     <string name="security_settings_fingerprint_sensor_location_front">przodzie</string>
     <string name="security_settings_fingerprint_sensor_location_left">lewa krawędź</string>
     <string name="security_settings_fingerprint_sensor_location_right">prawa krawędź</string>
-    <!-- ROM version -->
-    <string name="about_device_name">Urządzenie</string>
+    <!-- About device screen, build date -->
     <string name="build_date">Data kompilacji</string>
-    <string name="rom_version">Wersja Evolution X</string>
-    <string name="rom_version_default">Nieznana</string>
+    <!-- About device screen, build maintainer -->
+    <!-- About device screen, device codename -->
+    <string name="device_codename">Nazwa kodowa urządzenia</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Nowości w Evolution X</string>
+    <string name="evolution_x_version">Wersja Evolution X</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platforma</string>
@@ -117,11 +120,9 @@
     <string name="designed_battery_capacity">Zaprojektowana pojemność baterii</string>
     <string name="designed_battery_capacity_summary">Pojemność akumulatora zaprojektowana przez producenta</string>
     <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Próbnik kolorów</string>
+    <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">Pokaż pigułkę</string>
     <string name="show_gestures_navbar_switch_summary">Pokaż pasek gestów</string>
-    <!-- Navbar length -->
     <string name="navbar_length">Długość paska gestów</string>
     <string name="hidden_label">Ukryty</string>
     <string name="long_label">Długi</string>
@@ -387,4 +388,15 @@
     <string name="navbar_radius">Promień paska gestów</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Wyłączony</string>
+    <string name="selinux_status_permissive">Pobłażliwy</string>
+    <string name="selinux_status_enforcing">Restrykcyjny</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Usuń istniejący skan twarzy i utwórz nowy</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Zeskanuj twarz ponownie</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Blokada ekranu, odcisk palca, odblokowanie twarzą</string>
+    <string name="face_redo_confirm_btn">Powtórz</string>
+    <string name="face_redo_warning_msg">Czy chcesz usunąć istniejący skan twarzy i utworzyć nowy?</string>
 </resources>
