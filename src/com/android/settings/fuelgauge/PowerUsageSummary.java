@@ -247,8 +247,8 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         MenuItem reset = menu.add(0, MENU_STATS_RESET, 0, R.string.battery_stats_reset)
-                .setIcon(R.drawable.ic_delete)
-                .setAlphabeticShortcut('d');
+                .setIcon(R.drawable.ic_reset)
+                .setAlphabeticShortcut('r');
         reset.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
         super.onCreateOptionsMenu(menu, inflater);
