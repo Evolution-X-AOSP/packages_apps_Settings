@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The Evolution X Project
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,11 +24,14 @@
     <string name="security_settings_fingerprint_sensor_location_front">εμπρός</string>
     <string name="security_settings_fingerprint_sensor_location_left">αριστερή πλευρά</string>
     <string name="security_settings_fingerprint_sensor_location_right">δεξιά πλευρά</string>
-    <!-- ROM version -->
-    <string name="about_device_name">Συσκευή</string>
+    <!-- About device screen, build date -->
     <string name="build_date">Ημερομηνία έκδοσης</string>
-    <string name="rom_version">Έκδοση Evolution X</string>
-    <string name="rom_version_default">Άγνωστη</string>
+    <!-- About device screen, build maintainer -->
+    <!-- About device screen, device codename -->
+    <string name="device_codename">Κωδικό όνομα συσκευής</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Κατάσταση Evolution X</string>
+    <string name="evolution_x_version">Έκδοση Evolution X</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Πλατφόρμα</string>
@@ -117,11 +120,9 @@
     <string name="designed_battery_capacity">Σχεδιασμένη χωρητικότητα μπαταρίας</string>
     <string name="designed_battery_capacity_summary">Η χωρητικότητα της μπαταρίας που σχεδιάστηκε από τον κατασκευαστή</string>
     <string name="battery_charge_cycles">Οι κύκλοι φόρτισης ολοκληρώθηκαν</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Κουβάς επιλογής χρώματος</string>
+    <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">Εμφάνιση χαπιού</string>
     <string name="show_gestures_navbar_switch_summary">Εμφάνιση γραμμής πλοήγησης χειρονομιών</string>
-    <!-- Navbar length -->
     <string name="navbar_length">Μέγεθος μπάρας χειρονομίας</string>
     <string name="hidden_label">Κρυφό</string>
     <string name="long_label">Μακρύς</string>
@@ -387,4 +388,15 @@
     <string name="navbar_radius">Γραμμή χειρονομίας ακτίνα κυκλου</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Κατάσταση SELinux</string>
+    <string name="selinux_status_disabled">Απενεργοποιημένο</string>
+    <string name="selinux_status_permissive">Επιτρεπτικο</string>
+    <string name="selinux_status_enforcing">Επιβεβλημένο</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Καταργήστε την υπάρχουσα σάρωση προσώπου και δημιουργήστε μια νέα σάρωση</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Επανάληψη σάρωσης προσώπου</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Κλείδωμα οθόνης, δακτυλικό αποτύπωμα, ξεκλείδωμα προσώπου</string>
+    <string name="face_redo_confirm_btn">Επανάληψη</string>
+    <string name="face_redo_warning_msg">Θέλετε να καταργήσετε την υπάρχουσα σάρωση προσώπου και να δημιουργήσετε μια νέα;</string>
 </resources>
