@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The Evolution X Project
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,11 +24,14 @@
     <string name="security_settings_fingerprint_sensor_location_front">前端</string>
     <string name="security_settings_fingerprint_sensor_location_left">左侧</string>
     <string name="security_settings_fingerprint_sensor_location_right">右侧</string>
-    <!-- ROM version -->
-    <string name="about_device_name">设备</string>
+    <!-- About device screen, build date -->
     <string name="build_date">编译日期</string>
-    <string name="rom_version">Evolution X 版本</string>
-    <string name="rom_version_default">未知</string>
+    <!-- About device screen, build maintainer -->
+    <!-- About device screen, device codename -->
+    <string name="device_codename">设备代号</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Evolution X 状态</string>
+    <string name="evolution_x_version">Evolution X 版本</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">平台</string>
@@ -117,11 +120,9 @@
     <string name="designed_battery_capacity">设计电池容量</string>
     <string name="designed_battery_capacity_summary">电池容量由制造商设计</string>
     <string name="battery_charge_cycles">充电周期已完成</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">色桶</string>
+    <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">秀丸</string>
     <string name="show_gestures_navbar_switch_summary">显示手势导航栏</string>
-    <!-- Navbar length -->
     <string name="navbar_length">手势栏长度</string>
     <string name="hidden_label">隐藏</string>
     <string name="long_label">长</string>
@@ -387,4 +388,15 @@
     <string name="navbar_radius">手势栏半径</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux 状态</string>
+    <string name="selinux_status_disabled">已禁用</string>
+    <string name="selinux_status_permissive">许可</string>
+    <string name="selinux_status_enforcing">执行中</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有面部扫描并创建新的扫描</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重做面部扫描</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">屏幕锁定，指纹，脸部解锁</string>
+    <string name="face_redo_confirm_btn">重做</string>
+    <string name="face_redo_warning_msg">是否要移除现有的面部扫描并创建新的扫描？</string>
 </resources>

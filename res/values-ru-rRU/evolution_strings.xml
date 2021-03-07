@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The Evolution X Project
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,11 +24,14 @@
     <string name="security_settings_fingerprint_sensor_location_front">передней части</string>
     <string name="security_settings_fingerprint_sensor_location_left">левой стороне</string>
     <string name="security_settings_fingerprint_sensor_location_right">правой стороне</string>
-    <!-- ROM version -->
-    <string name="about_device_name">Устройство</string>
+    <!-- About device screen, build date -->
     <string name="build_date">Дата сборки</string>
-    <string name="rom_version">Версия Evolution X</string>
-    <string name="rom_version_default">Неизвестно</string>
+    <!-- About device screen, build maintainer -->
+    <!-- About device screen, device codename -->
+    <string name="device_codename">Название устройства</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Статус Evolution X</string>
+    <string name="evolution_x_version">Версия Evolution X</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Платформа</string>
@@ -117,11 +120,9 @@
     <string name="designed_battery_capacity">Заявленная ёмкость батареи</string>
     <string name="designed_battery_capacity_summary">Ёмкость батареи, заявленная производителем</string>
     <string name="battery_charge_cycles">Количество полных циклов заряда</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Палитра цветов</string>
+    <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">Показать полоску жестов</string>
     <string name="show_gestures_navbar_switch_summary">Показывать панель навигации жестов</string>
-    <!-- Navbar length -->
     <string name="navbar_length">Длина полоски жестов</string>
     <string name="hidden_label">Скрыто</string>
     <string name="long_label">Длинная</string>
@@ -387,4 +388,15 @@
     <string name="navbar_radius">Радиус панели жестов</string>
     <string name="small_label">1 дп</string>
     <string name="big_label">4 дп</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Отключено</string>
+    <string name="selinux_status_permissive">Разрешающий</string>
+    <string name="selinux_status_enforcing">Запрещающий</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить использующийся снимок лица и создать новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Блокировка экрана, отпечаток пальца, разблокировка по лицу</string>
+    <string name="face_redo_confirm_btn">Отмена</string>
+    <string name="face_redo_warning_msg">Удалить использующийся снимок лица и создать новый?</string>
 </resources>

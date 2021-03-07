@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The Evolution X Project
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,11 +24,14 @@
     <string name="security_settings_fingerprint_sensor_location_front">передній план</string>
     <string name="security_settings_fingerprint_sensor_location_left">ліва сторона</string>
     <string name="security_settings_fingerprint_sensor_location_right">права сторона</string>
-    <!-- ROM version -->
-    <string name="about_device_name">Пристрій</string>
+    <!-- About device screen, build date -->
     <string name="build_date">Дата збірки</string>
-    <string name="rom_version">Версія Evolution X</string>
-    <string name="rom_version_default">Невідомо</string>
+    <!-- About device screen, build maintainer -->
+    <!-- About device screen, device codename -->
+    <string name="device_codename">Кодова назва пристрою</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Статус Evolution X</string>
+    <string name="evolution_x_version">Версія Evolution X</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Платформа</string>
@@ -117,11 +120,9 @@
     <string name="designed_battery_capacity">Загальна ємність акумулятора</string>
     <string name="designed_battery_capacity_summary">Ємність батареї зроблена виробником</string>
     <string name="battery_charge_cycles">Цикли зарядки завершені</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Палітра кольорів</string>
+    <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">Показувати \"таблетку\"</string>
     <string name="show_gestures_navbar_switch_summary">Показувати панель навігації жестів</string>
-    <!-- Navbar length -->
     <string name="navbar_length">Довжина жесту</string>
     <string name="hidden_label">Приховано</string>
     <string name="long_label">Довго</string>
@@ -387,4 +388,15 @@
     <string name="navbar_radius">Радіус панелі жестів</string>
     <string name="small_label">1 дп</string>
     <string name="big_label">4 дп</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Вимкнено</string>
+    <string name="selinux_status_permissive">Дозволено</string>
+    <string name="selinux_status_enforcing">Блокування</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Видаліть наявне сканування обличчя та створіть нове сканування</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторне сканування особи</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Блокування екрана, відбиток пальця, розблокування обличчя</string>
+    <string name="face_redo_confirm_btn">Відміна</string>
+    <string name="face_redo_warning_msg">Ви хочете видалити існуюче сканування обличчя та створити нове?</string>
 </resources>

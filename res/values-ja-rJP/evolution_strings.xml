@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The Evolution X Project
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,11 +24,14 @@
     <string name="security_settings_fingerprint_sensor_location_front">前面</string>
     <string name="security_settings_fingerprint_sensor_location_left">左側</string>
     <string name="security_settings_fingerprint_sensor_location_right">右側</string>
-    <!-- ROM version -->
-    <string name="about_device_name">端末</string>
+    <!-- About device screen, build date -->
     <string name="build_date">ビルド日時</string>
-    <string name="rom_version">Evolution X バージョン</string>
-    <string name="rom_version_default">不明</string>
+    <!-- About device screen, build maintainer -->
+    <!-- About device screen, device codename -->
+    <string name="device_codename">端末のコードネーム</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Evolution X ステータス</string>
+    <string name="evolution_x_version">Evolution X バージョン</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">プラットフォーム</string>
@@ -117,11 +120,9 @@
     <string name="designed_battery_capacity">設計バッテリー容量</string>
     <string name="designed_battery_capacity_summary">メーカーによって設計されたバッテリー容量</string>
     <string name="battery_charge_cycles">充電サイクルが完了しました</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">色のバケツ</string>
+    <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">ピルを表示</string>
     <string name="show_gestures_navbar_switch_summary">ジェスチャーナビゲーションバーを表示する</string>
-    <!-- Navbar length -->
     <string name="navbar_length">ジェスチャーバーの長さ</string>
     <string name="hidden_label">非表示</string>
     <string name="long_label">長い</string>
@@ -387,4 +388,15 @@
     <string name="navbar_radius">ジェスチャーバーの丸みの半径</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux ステータス</string>
+    <string name="selinux_status_disabled">無効</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">画面ロック、指紋認証、顔認証ロック解除</string>
+    <string name="face_redo_confirm_btn">やり直し</string>
+    <string name="face_redo_warning_msg">既存の顔スキャンを削除して新しいスキャンを作成しますか?</string>
 </resources>
