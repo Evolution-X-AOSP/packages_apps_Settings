@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The Evolution X Project
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,11 +24,15 @@
     <string name="security_settings_fingerprint_sensor_location_front">depan</string>
     <string name="security_settings_fingerprint_sensor_location_left">sisi kiri</string>
     <string name="security_settings_fingerprint_sensor_location_right">sisi kanan</string>
-    <!-- ROM version -->
-    <string name="about_device_name">Nama Perangkat</string>
+    <!-- About device screen, build date -->
     <string name="build_date">Tanggal Pembuatan</string>
-    <string name="rom_version">Versi Evolution X</string>
-    <string name="rom_version_default">Tidak diketahui</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Pengelola</string>
+    <!-- About device screen, device codename -->
+    <string name="device_codename">Nama Kode Perangkat</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Status Evolution X</string>
+    <string name="evolution_x_version">Versi Evolution X</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -52,7 +56,7 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Sentuh untuk melihat info</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Hubungkan volume dering &amp; pemberitahuan</string>
+    <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Warna terang</string>
     <string name="custom_light_on_time_title">Durasi lampu aktif selama led berkedip (ms)</string>
@@ -103,7 +107,7 @@
     <string name="volume_skiptrack_screen_title">Lewati trek lagu</string>
     <string name="volume_skiptrack_title">Tombol volume untuk lewati trek</string>
     <string name="volume_skiptrack_summary">Tekan lama tombol volume untuk melewati trek saat memutar musik, bahkan dari jarak jauh di TV atau PC dengan mis. Spotify (aplikasi harus dijalankan di telepon dan menunjukkan pemberitahuan).</string>
-    <string name="pulse_on_new_tracks_title">Musik ticker ambient</string>
+    <string name="pulse_on_new_tracks_title">Ticker musik ambien</string>
     <string name="pulse_on_new_tracks_summary">Tampilkan Tampilan Ambien saat trek musik baru diputar. Ketuk dua kali pada info trek untuk melompat ke trek berikutnya.</string>
     <string name="pulse_on_new_tracks_soli_summary">Perlihatkan Tampilan Ambien ketika trek musik baru dimainkan</string>
     <!-- Battery stats reset -->
@@ -117,11 +121,9 @@
     <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
     <string name="designed_battery_capacity_summary">Kapasitas baterai dirancang oleh pabrikan</string>
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Macam-macam warna</string>
+    <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">Tampilkan pill</string>
     <string name="show_gestures_navbar_switch_summary">Tampilkan isyarat bilah navigasi</string>
-    <!-- Navbar length -->
     <string name="navbar_length">Panjang bilah gerakan</string>
     <string name="hidden_label">Tersembunyi</string>
     <string name="long_label">Panjang</string>
@@ -388,4 +390,15 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="navbar_radius">Radius bilah gestur</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Dinonaktifkan</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Kunci layar, sidik jari, buka kunci wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
 </resources>
