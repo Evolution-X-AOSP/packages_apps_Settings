@@ -46,7 +46,7 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
     public MinRefreshRatePreferenceController(Context context) {
         super(context, KEY_MIN_REFRESH_RATE);
 
-        if (mContext.getResources().getBoolean(R.bool.config_show_min_refresh_rate_switch)) {
+        if (mContext.getResources().getBoolean(R.bool.config_show_refresh_rate_controls)) {
             Display.Mode mode = mContext.getDisplay().getMode();
             Display.Mode[] modes = mContext.getDisplay().getSupportedModes();
             for (Display.Mode m : modes) {
@@ -62,7 +62,9 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        return mEntries.size() > 1 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return mContext.getResources().getBoolean(R.bool.config_show_refresh_rate_controls) &&
+                mListPreference != null && mListPreference.getEntries().length > 1
+                        ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
