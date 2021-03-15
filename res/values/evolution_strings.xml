@@ -106,6 +106,7 @@
     <string name="long_label">Long</string>
 
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Screen refresh rate</string>
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
 
 </resources>
