@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The Evolution X Project
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -32,10 +32,6 @@
     <!-- Screen off FOD -->
     <bool name="config_supportScreenOffFod">false</bool>
 
-    <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
-
     <!-- Battery Health -->
     <string name="config_batCurCap"></string>
     <string name="config_batDesCap"></string>
@@ -53,5 +49,5 @@
     <bool name="config_supportSmartCharging">false</bool>
 
     <!-- Whether SELinux status should be shown or not. -->
-    <bool name="config_show_selinux_status">false</bool>
+    <bool name="config_show_selinux_status">true</bool>
 </resources>
