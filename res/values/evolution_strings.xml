@@ -179,9 +179,9 @@
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
 
     <!-- Double tap-to-sleep -->
-    <string name="doubletap_lockscreen_screen_title">Switch screen off</string>
-    <string name="doubletap_lockscreen_title">Double tap to sleep on lockscreen/statusbar</string>
-    <string name="doubletap_lockscreen_summary">Double tap on lockscreen/statusbar empty areas to switch the screen off</string>
+    <string name="doubletap_lockscreen_screen_title">Double tap</string>
+    <string name="doubletap_lockscreen_title">Double tap to sleep on lockscreen and status bar</string>
+    <string name="doubletap_lockscreen_summary">Double tap on the lockscreen and status bar empty areas to switch the screen off</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
@@ -524,4 +524,15 @@
         <item quantity="other">%d apps locked</item>
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+
+    <!-- Android 12 DP2 additions -->
+    <string name="advanced_battery_preference_title">View battery usage</string>
+    <string name="category_name_brightness">Brightness</string>
+    <string name="category_name_color">Color</string>
+    <string name="category_name_general">General</string>
+    <string name="category_name_lock_display">Lock Display</string>
+    <string name="category_name_others">Others</string>
+    <string name="category_name_visibility">Visibility</string>
+    <string name="category_personal">Personal</string>
+    <string name="category_work">Work</string>
 </resources>

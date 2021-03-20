@@ -27,6 +27,12 @@
         settings:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController" />
 
     <Preference
+        android:key="gesture_doubletap_lockscreen_summary"
+        android:title="@string/doubletap_lockscreen_screen_title"
+        android:fragment="com.android.settings.gestures.DoubleTapLockscreenSettings"
+        settings:controller="com.android.settings.gestures.DoubleTapLockscreenPreferenceController" />
+
+    <Preference
         android:key="gesture_swipe_down_fingerprint_input_summary"
         android:title="@string/fingerprint_swipe_for_notifications_title"
         android:fragment="com.android.settings.gestures.SwipeToNotificationSettings"
@@ -92,12 +98,6 @@
         android:title="@string/power_menu_setting_name"
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
-
-    <Preference
-        android:key="gesture_doubletap_lockscreen_summary"
-        android:title="@string/doubletap_lockscreen_screen_title"
-        android:fragment="com.android.settings.gestures.DoubleTapLockscreenSettings"
-        settings:controller="com.android.settings.gestures.DoubleTapLockscreenPreferenceController" />
 
     <Preference
         android:key="gesture_volume_skiptrack_summary"

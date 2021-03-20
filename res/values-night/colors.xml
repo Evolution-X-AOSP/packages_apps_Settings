@@ -20,11 +20,11 @@
     <color name="homepage_accessibility_background">#783BE5</color>
     <color name="homepage_support_background">#3F5FBD</color>
     <color name="homepage_card_dismissal_background">@*android:color/material_grey_900</color>
-    <color name="contextual_card_dismissal_background">@*android:color/material_grey_900</color>
-    <color name="contextual_card_background">@*android:color/material_grey_900</color>
-    <color name="search_bar_background">@*android:color/material_grey_800</color>
+    <color name="contextual_card_dismissal_background">#3C4043</color>
+    <color name="contextual_card_background">#202124</color>
+    <color name="search_bar_background">#303134</color>
     <!-- Dialog background color. -->
-    <color name="dialog_background">@*android:color/material_grey_800</color>
+    <color name="dialog_background">#3C4043</color>
     <color name="notification_importance_selection_bg">@*android:color/material_grey_800</color>
     <color name="notification_importance_button_selected">#AECBFA</color> <!-- material blue 200 -->
     <color name="notification_importance_button_unselected">#5F6368</color>

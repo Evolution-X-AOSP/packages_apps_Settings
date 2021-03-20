@@ -126,18 +126,15 @@
     <dimen name="switchbar_subsettings_margin_start">72dp</dimen>
     <dimen name="switchbar_subsettings_margin_end">16dp</dimen>
 
-    <dimen name="search_bar_margin">26dp</dimen>
+    <dimen name="search_bar_margin">24dp</dimen>
+    <dimen name="search_bar_margin_bottom">16dp</dimen>
 
-    <dimen name="search_bar_height">50dp</dimen>
+    <dimen name="search_bar_height">48dp</dimen>
     <dimen name="search_bar_corner_radius">24.0dp</dimen>
     <dimen name="search_bar_text_size">16dp</dimen>
-    <dimen name="search_bar_card_elevation">2dp</dimen>
+    <dimen name="search_bar_card_elevation">1dp</dimen>
     <dimen name="search_bar_content_inset">64dp</dimen>
-    <dimen name="search_bar_avatar_end_padding">16dp</dimen>
-    <!-- 32dp (avatar size) + 16 dp (search_bar_avatar_end_padding) -->
-    <dimen name="search_bar_avatar_width">48dp</dimen>
-    <!-- (search_bar_height 48dp - avatar size 32dp) / 2  -->
-    <dimen name="search_bar_avatar_top_bottom_padding">8dp</dimen>
+    <dimen name="avatar_length">@dimen/search_bar_height</dimen>
 
     <!-- Dimensions for Wifi Assistant Card -->
     <dimen name="wifi_assistant_padding_top_bottom">16dp</dimen>
@@ -148,7 +145,7 @@
     <dimen name="wifi_assistant_image_top">32dp</dimen>
     <dimen name="wifi_assistant_image_start">24dp</dimen>
     <!-- appbar height is equal search bar height (48dp) plus search bar top and bottom margin  -->
-    <dimen name="app_bar_height">80dp</dimen>
+    <dimen name="app_bar_height">64dp</dimen>
 
     <!-- CryptKeeper top margin for password/pin screen -->
     <dimen name="crypt_keeper_password_top_margin">88dip</dimen>

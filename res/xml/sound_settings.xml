@@ -133,7 +133,7 @@
         android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"
         android:key="vibrate_for_calls"
         android:title="@string/vibrate_when_ringing_title"
-        android:order="-120"
+        android:order="-127"
         settings:controller="com.android.settings.sound.VibrateForCallsPreferenceController"
         settings:keywords="@string/keywords_vibrate_for_calls"/>
 
@@ -183,6 +183,17 @@
             settings:units="ms"
             android:dependency="vibrate_for_calls"/>
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+          android:key="pulse_cat"
+          android:title="@string/pulse_cat_title"
+          android:order="-120">
+        <Preference
+            android:key="pulse"
+            android:title="@string/pulse_settings"
+            android:summary="@string/pulse_settings_summary"
+            android:fragment="com.android.settings.sound.PulseSettings"/>
     </PreferenceCategory>
 
     <!-- Interruptions -->
@@ -249,81 +260,74 @@
         android:ringtoneType="alarm"
         android:order="-70"/>
 
-    <PreferenceCategory
-          android:key="pulse_cat"
-          android:title="@string/pulse_cat_title"
-          android:order="-55">
-        <Preference
-            android:key="pulse"
-            android:title="@string/pulse_settings"
-            android:summary="@string/pulse_settings_summary"
-            android:fragment="com.android.settings.sound.PulseSettings"/>
-    </PreferenceCategory>
+    <!-- Dial pad tones -->
+    <SwitchPreference
+        android:key="dial_pad_tones"
+        android:title="@string/dial_pad_tones_title"
+        android:order="-50"/>
 
-    <!-- Other sounds -->
-    <PreferenceCategory
-          android:key="other_sounds_and_vibrations_category"
-          android:title="@string/other_sound_category_preference_title"
-          android:order="-50">
+    <!-- Screen locking sounds -->
+    <SwitchPreference
+        android:key="screen_locking_sounds"
+        android:title="@string/screen_locking_sounds_title"
+        android:order="-45"/>
 
-        <!-- Dial pad tones -->
-        <SwitchPreference
-          android:key="dial_pad_tones"
-          android:title="@string/dial_pad_tones_title"/>
+    <!-- Charging sounds -->
+    <SwitchPreference
+        android:key="charging_sounds"
+        android:title="@string/charging_sounds_nos_title"
+        android:order="-40"/>
 
-        <!-- Screen locking sounds -->
-        <SwitchPreference
-          android:key="screen_locking_sounds"
-          android:title="@string/screen_locking_sounds_title"/>
+    <!-- Charging vibro -->
+    <SwitchPreference
+        android:key="charging_vibro"
+        android:title="@string/charging_vibro_title"
+        android:order="-37" />
 
-        <!-- Charging sounds -->
-        <SwitchPreference
-          android:key="charging_sounds"
-          android:title="@string/charging_sounds_nos_title"/>
+    <!-- Docking sounds -->
+    <SwitchPreference
+        android:key="docking_sounds"
+        android:title="@string/docking_sounds_title"
+        android:order="-35"/>
 
-        <!-- Charging vibro -->
-        <SwitchPreference
-          android:key="charging_vibro"
-          android:title="@string/charging_vibro_title" />
+    <!-- Touch sounds -->
+    <SwitchPreference
+        android:key="touch_sounds"
+        android:title="@string/touch_sounds_title"
+        android:order="-30"/>
 
-        <!-- Docking sounds -->
-        <SwitchPreference
-          android:key="docking_sounds"
-          android:title="@string/docking_sounds_title"/>
+    <!-- Vibrate on touch -->
+    <SwitchPreference
+        android:key="vibrate_on_touch"
+        android:title="@string/vibrate_on_touch_title"
+        settings:keywords="@string/keywords_vibrate_on_touch"
+        android:order="-27"/>
 
-        <!-- Touch sounds -->
-        <SwitchPreference
-          android:key="touch_sounds"
-          android:title="@string/touch_sounds_title"/>
+    <!-- Dock speaker plays -->
+    <DropDownPreference
+        android:key="dock_audio_media"
+        android:title="@string/dock_audio_media_title"
+        android:summary="%s"
+        android:order="-25"/>
 
-        <!-- Vibrate on touch -->
-        <SwitchPreference
-          android:key="vibrate_on_touch"
-          android:title="@string/vibrate_on_touch_title"
-          settings:keywords="@string/keywords_vibrate_on_touch"/>
+    <!-- Boot sounds -->
+    <SwitchPreference
+        android:key="boot_sounds"
+        android:title="@string/boot_sounds_title"
+        android:order="-20"/>
 
-        <!-- Dock speaker plays -->
-        <DropDownPreference
-          android:key="dock_audio_media"
-          android:title="@string/dock_audio_media_title"
-          android:summary="%s"/>
+    <!-- Screenshot sounds -->
+    <SwitchPreference
+        android:key="screenshot_sounds"
+        android:title="@string/screenshot_sound_title"
+        android:order="-17" />
 
-        <!-- Boot sounds -->
-        <SwitchPreference
-          android:key="boot_sounds"
-          android:title="@string/boot_sounds_title"/>
-
-        <!-- Screenshot sounds -->
-        <SwitchPreference
-          android:key="screenshot_sounds"
-          android:title="@string/screenshot_sound_title" />
-
-        <!-- Emergency tone -->
-        <DropDownPreference
-          android:key="emergency_tone"
-          android:title="@string/emergency_tone_title"
-          android:summary="%s"/>
-    </PreferenceCategory>
+    <!-- Emergency tone -->
+    <DropDownPreference
+        android:key="emergency_tone"
+        android:title="@string/emergency_tone_title"
+        android:summary="%s"
+        android:order="-15"/>
 
     <com.android.settings.widget.WorkOnlyCategory
         android:key="sound_work_settings_section"

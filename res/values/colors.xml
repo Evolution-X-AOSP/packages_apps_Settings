@@ -101,7 +101,7 @@
     <color name="homepage_evolution_background">#0060FF</color>
 
     <color name="contextual_card_stroke_color">#1f000000</color>
-    <color name="contextual_card_dismissal_background">@*android:color/material_grey_100</color>
+    <color name="contextual_card_dismissal_background">#f1f3f4</color>
     <color name="contextual_card_background">@*android:color/background_device_default_light</color>
     <!-- End of dashboard/homepage icon background colors -->
 
@@ -109,9 +109,9 @@
     <color name="switchbar_switch_track_tint">#BFFFFFFF</color>
     <color name="switchbar_switch_thumb_tint">@android:color/white</color>
 
-    <color name="battery_good_color_light">#43a047</color> <!-- Material Green 600 -->
-    <color name="battery_maybe_color_light">#ef6c00</color> <!-- Material Orange 800 -->
-    <color name="battery_bad_color_light">#f44336</color> <!-- Material Red 500 -->
+    <color name="battery_good_color_light">#1e8e3e</color>
+    <color name="battery_maybe_color_light">#e37400</color>
+    <color name="battery_bad_color_light">#d93025</color>
     <color name="battery_good_color_dark">#4caf50</color> <!-- Material Green 500 -->
     <color name="battery_maybe_color_dark">#fdd835</color> <!-- Material Yellow 600 -->
     <color name="battery_bad_color_dark">#f44336</color> <!-- Material Red 500 -->
@@ -142,12 +142,12 @@
     <!-- End of QR code scanner colors -->
 
     <!-- Search bar background color -->
-    <color name="search_bar_background">@*android:color/primary_device_default_settings_light</color>
+    <color name="search_bar_background">@*android:color/white</color>
 
     <!-- Dialog background color -->
     <color name="dialog_background">@*android:color/background_device_default_light</color>
 
-    <color name="face_intro_outline">#ffdadce0</color>
+    <color name="face_intro_outline">?android:attr/colorAccent</color>
 
     <color name="back_gesture_indicator">#4182ef</color>
 
