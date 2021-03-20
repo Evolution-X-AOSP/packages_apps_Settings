@@ -437,6 +437,7 @@
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
+    <string name="cutout_force_fullscreen_no_apps">No apps</string>
 
     <!-- Navbar radius -->
     <string name="navbar_radius">Gesture bar radius</string>
