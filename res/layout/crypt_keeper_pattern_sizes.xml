@@ -24,7 +24,7 @@
             android:textSize="14sp"
             android:fontFamily="sans-serif"
             android:text="@string/lock_pattern_size_3"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:layout_weight="1"
             style="?android:attr/borderlessButtonStyle"/>
 
@@ -36,7 +36,7 @@
             android:textSize="14sp"
             android:fontFamily="sans-serif"
             android:text="@string/lock_pattern_size_4"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:layout_weight="1"
             style="?android:attr/borderlessButtonStyle"/>
 
@@ -48,7 +48,7 @@
             android:textSize="14sp"
             android:fontFamily="sans-serif"
             android:text="@string/lock_pattern_size_5"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:layout_weight="1"
             style="?android:attr/borderlessButtonStyle"/>
 
@@ -60,7 +60,7 @@
             android:textSize="14sp"
             android:fontFamily="sans-serif"
             android:text="@string/lock_pattern_size_6"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:layout_weight="1"
             style="?android:attr/borderlessButtonStyle"/>
 
