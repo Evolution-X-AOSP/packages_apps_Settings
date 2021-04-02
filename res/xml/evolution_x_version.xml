@@ -19,6 +19,13 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/evolution_x_version">
 
+    <!-- Evolution X logo -->
+    <PreferenceScreen
+        android:key="evolution_logo"
+        android:clickable="true"
+        android:layout="@layout/evolution_logo"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXLogoPreferenceController"/>
+
     <!-- Device codename -->
     <Preference
         android:key="device_codename"
@@ -32,6 +39,7 @@
         android:key="evolution_x_version"
         android:title="@string/evolution_x_version"
         android:summary="@string/summary_placeholder"
+        android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionPreferenceController"/>
 
@@ -49,8 +57,8 @@
         android:key="selinux_status"
         android:title="@string/selinux_status"
         android:summary="@string/summary_placeholder"
-        settings:enableCopying="false"
         android:selectable="false"
+        settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
 
     <!-- Build maintainer -->
