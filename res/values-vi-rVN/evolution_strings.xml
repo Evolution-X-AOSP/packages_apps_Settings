@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The Evolution X Project
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,11 +24,17 @@
     <string name="security_settings_fingerprint_sensor_location_front">mặt trước</string>
     <string name="security_settings_fingerprint_sensor_location_left">cạnh trái</string>
     <string name="security_settings_fingerprint_sensor_location_right">cạnh phải</string>
-    <!-- ROM version -->
-    <string name="about_device_name">Thiết bị</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Vuốt cảm biến vân tay sang trái hoặc phải để loại bỏ thông báo</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Để loại bỏ thông báo của bạn, hãy vuốt sang trái hoặc phải trên bộ cảm biến dấu vân tay ở mặt sau của điện thoại.</string>
+    <!-- About device screen, build date -->
     <string name="build_date">Ngày dựng</string>
-    <string name="rom_version">Phiên bản Evolution X</string>
-    <string name="rom_version_default">Không xác định</string>
+    <!-- About device screen, build maintainer -->
+    <!-- About device screen, device codename -->
+    <string name="device_codename">Tên thiết bị</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Tin tức</string>
+    <string name="evolution_x_version">Phiên bản Evolution X</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Nền tảng</string>
@@ -117,11 +123,9 @@
     <string name="designed_battery_capacity">Dung lượng pin gốc</string>
     <string name="designed_battery_capacity_summary">Dung lượng pin gốc từ khi mới đập hộp</string>
     <string name="battery_charge_cycles">Chu kỳ sạc đầy pin</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Bảng chọn màu</string>
+    <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">Hiển thị thanh điều hướng</string>
     <string name="show_gestures_navbar_switch_summary">Hiển thị cử chỉ thanh điều hướng</string>
-    <!-- Navbar length -->
     <string name="navbar_length">Độ dài thanh cử chỉ</string>
     <string name="hidden_label">Ẩn</string>
     <string name="long_label">Dài</string>
@@ -170,6 +174,8 @@
     <string name="live_display_night">Đêm</string>
     <string name="live_display_outdoor_mode_title">Tự động điều chỉnh khi ra ngoài trời</string>
     <string name="live_display_outdoor_mode_summary">Tự động tăng độ sáng và độ bão hòa dưới ánh sáng mặt trời</string>
+    <string name="live_display_anti_flicker_title">Chống nháy ánh sáng</string>
+    <string name="live_display_anti_flicker_summary">Ngăn chặn hiện tượng nhấp nháy trên diện rộng và giảm mỏi mắt trong điều kiện ánh sáng yếu. Nó có thể làm giảm độ chính xác của màu sắc và ảnh hưởng đến cách một số mục được hiển thị.</string>
     <string name="live_display_low_power_title">Giảm tiêu thụ pin</string>
     <string name="live_display_low_power_summary">Điều chỉnh hiển thị cho tiêu thụ điện năng thấp nhất mà không làm giảm chất lượng</string>
     <string name="live_display_enhance_color_title">Tăng cường màu sắc</string>
@@ -269,7 +275,7 @@
     <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
     <!-- Battery categorization -->
     <string name="battery_saver_category_title">Trình tiết kiệm pin</string>
-    <string name="smart_charging_category_title">Sạc Thông minh</string>
+    <string name="smart_features_category_title">Các tính năng thông minh</string>
     <string name="battery_info_category_title">Tình trạng pin</string>
     <string name="battery_usage_category_title">Thông tin pin</string>
     <!-- Back Gestures -->
@@ -387,4 +393,62 @@
     <string name="navbar_radius">Bán kính thanh cử chỉ</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Tắt</string>
+    <string name="selinux_status_permissive">Quyền</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Khóa màn hình, vân tay, mở khóa bằng khuôn mặt</string>
+    <string name="face_redo_confirm_btn">Đi tới</string>
+    <string name="face_redo_warning_msg">Bạn có muốn xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới không?</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Giảm độ sáng</string>
+    <string name="dc_dimming_info">Giảm mỏi mắt trong điều kiện ánh sáng yếu nhưng có thể làm giảm chất lượng hình ảnh và tái tạo màu sắc.</string>
+    <string name="dc_dimming_auto_mode_title">Lên lịch</string>
+    <string name="dc_dimming_mode_brightness">Bật khi độ sáng xuống dưới ngưỡng</string>
+    <string name="dc_dimming_mode_full">Tuỳ theo thời gian và độ sáng</string>
+    <string name="dc_dimming_brightness_title">Ngưỡng độ sáng</string>
+    <string name="dc_dimming_brightness_disabled">Tắt</string>
+    <string name="dc_dimming_restore_auto_mode">Phục hồi chế độ tự động</string>
+    <string name="dc_dimming_brightness_info">Chỉ kích hoạt giảm độ sáng khi độ sáng trung bình xuống dưới ngưỡng</string>
+    <string name="dc_dimming_off_auto_mode_auto">Sẽ tự động bật</string>
+    <string name="dc_dimming_on_auto_mode_auto">Sẽ tự động tắt</string>
+    <string name="keywords_display_dc_dimming">dc dimming, độ sáng, giảm độ sáng, giam do sang, do sang</string>
+    <!-- App Lock -->
+    <string name="applock_title">Khóa ứng dụng</string>
+    <string name="applock_locked">Đã khóa</string>
+    <string name="applock_unlocked">Mở khóa</string>
+    <string name="applock_locked_apps">Đã khóa ứng dụng</string>
+    <string name="applock_unlocked_apps">Mở khóa ứng dụng</string>
+    <string name="applock_show_only_on_wake">Chỉ xác thực một lần</string>
+    <string name="applock_show_only_on_wake_on_summary">Sau khi xác thực, ứng dụng vẫn mở khóa cho đến khi màn hình tắt</string>
+    <string name="applock_show_only_on_wake_off_summary">Sau khi được xác thực, ứng dụng vẫn mở khóa trong 15 giây sau khi thoát</string>
+    <string name="applock_notification_info">Bạn có thể hiện/ẩn nội dung thông báo từng ứng dụng bằng cách chạm vào biểu tượng thông báo hiện trên từng tuỳ chọn của ứng dụng được khoá</string>
+    <string name="applock_show_notif">Hiển thị nội dung thông báo</string>
+    <string name="applock_hide_notif">Ẩn nội dung thông báo</string>
+    <string name="applock_setup">Cài đặt khóa ứng dụng</string>
+    <string name="applock_overlay_summary">Tính năng này không khả dụng vì ứng dụng này đã bị khóa</string>
+    <plurals name="applock_summary">
+        <item quantity="other">%d ứng dụng đã khóa</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <!-- Android 12 DP2 additions -->
+    <string name="advanced_battery_preference_title">Xem mức sử dụng pin</string>
+    <string name="category_name_brightness">Độ sáng</string>
+    <string name="category_name_color">Màu sắc</string>
+    <string name="category_name_general">Chung</string>
+    <string name="category_name_lock_display">Khóa Màn hình</string>
+    <string name="category_name_others">Khác</string>
+    <string name="category_name_visibility">Hiển thị</string>
+    <string name="category_personal">Cá nhân</string>
+    <string name="category_work">Công việc</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Cắt thông minh</string>
+    <string name="smart_cutoff_summary">Đặt nhiệt độ tối đa</string>
+    <string name="smart_cutoff_switch_title">Dùng Cắt thông minh</string>
+    <string name="smart_cutoff_level_title">Dừng mức kích hoạt</string>
+    <string name="smart_cutoff_resume_level_title">Bắt đầu mức kích hoạt</string>
 </resources>

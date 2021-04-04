@@ -24,6 +24,9 @@
     <string name="security_settings_fingerprint_sensor_location_front">depan</string>
     <string name="security_settings_fingerprint_sensor_location_left">sisi kiri</string>
     <string name="security_settings_fingerprint_sensor_location_right">sisi kanan</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Usap sidik jari ke kiri atau ke kanan untuk menghapus notifikasi</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Untuk menghapus notifikasi Anda, usap ke kiri atau ke kanan di sensor sidik jari di belakang telepon Anda.</string>
     <!-- About device screen, build date -->
     <string name="build_date">Tanggal Pembuatan</string>
     <!-- About device screen, build maintainer -->
@@ -173,6 +176,8 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_night">Malam</string>
     <string name="live_display_outdoor_mode_title">Mode luar ruangan otomatis</string>
     <string name="live_display_outdoor_mode_summary">Meningkatkan kecerahan dan saturasi secara otomatis saat di bawah sinar matahari</string>
+    <string name="live_display_anti_flicker_title">Anti kerlip</string>
+    <string name="live_display_anti_flicker_summary">Cegah kerlipan yang luas dan kurangi ketegangan mata dalam kondisi cahaya redup. Ini dapat menurunkan akurasi warna dan mempengaruhi cara beberapa item ditampilkan.</string>
     <string name="live_display_low_power_title">Mengurangi konsumsi daya</string>
     <string name="live_display_low_power_summary">Menyesuaikan tampilan untuk konsumsi daya terendah tanpa degradasi</string>
     <string name="live_display_enhance_color_title">Meningkatkan warna</string>
@@ -236,7 +241,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="back_options_dialog_title">Opsi</string>
     <string name="back_height_message">Jumlah ketinggian layar digunakan sebagai daerah yang dapat disentuh untuk gerakan kembali.</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
+    <string name="min_refresh_rate_title">Kecepatan refresh</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Gerakan layar sentuh</string>
     <string name="touchscreen_gesture_settings_summary">Lakukan berbagai gerakan layar sentuh untuk tindakan cepat</string>
@@ -272,7 +277,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="smart_charging_footer">Pengisian Pintar memungkinkan Anda mengatur tingkat pengisian ke maksimal untuk memperpanjang umum baterai Anda</string>
     <!-- Battery categorization -->
     <string name="battery_saver_category_title">Penghemat Baterai</string>
-    <string name="smart_charging_category_title">Pengisian Pintar</string>
+    <string name="smart_features_category_title">Fitur Pintar</string>
     <string name="battery_info_category_title">Kesehatan Baterai</string>
     <string name="battery_usage_category_title">Info Baterai</string>
     <!-- Back Gestures -->
@@ -401,4 +406,51 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Kunci layar, sidik jari, buka kunci wajah</string>
     <string name="face_redo_confirm_btn">Ulangi</string>
     <string name="face_redo_warning_msg">Ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Peredupan DC</string>
+    <string name="dc_dimming_info">Mengurangi ketegangan mata dalam kondisi cahaya redup tetapi dapat menyebabkan kualitas gambar berkurang dan produksi warna buruk.</string>
+    <string name="dc_dimming_auto_mode_title">Jadwal</string>
+    <string name="dc_dimming_mode_brightness">Nyalakan saat kecerahan di bawah ambang batas</string>
+    <string name="dc_dimming_mode_full">Bergantung pada waktu dan kecerahan</string>
+    <string name="dc_dimming_brightness_title">Ambang kecerahan</string>
+    <string name="dc_dimming_brightness_disabled">Dinonaktifkan</string>
+    <string name="dc_dimming_restore_auto_mode">Pulihkan mode otomatis</string>
+    <string name="dc_dimming_brightness_info">Aktifkan Peredupan DC hanya jika kecerahan rata-rata di bawah ambang batas</string>
+    <string name="dc_dimming_off_auto_mode_auto">Akan aktif secara otomatis</string>
+    <string name="dc_dimming_on_auto_mode_auto">Akan mati secara otomatis</string>
+    <string name="keywords_display_dc_dimming">peredupan dc, kedipan, mata, regangan</string>
+    <!-- App Lock -->
+    <string name="applock_title">Pengunci Aplikasi</string>
+    <string name="applock_locked">Terkunci</string>
+    <string name="applock_unlocked">Tidak terkunci</string>
+    <string name="applock_locked_apps">Aplikasi terkunci</string>
+    <string name="applock_unlocked_apps">Aplikasi tidak terkunci</string>
+    <string name="applock_show_only_on_wake">Lakukan autentikasi hanya sekali</string>
+    <string name="applock_show_only_on_wake_on_summary">Setelah diautentikasi, aplikasi tetap tidak terkunci hingga layarnya mati</string>
+    <string name="applock_show_only_on_wake_off_summary">Setelah diautentikasi, aplikasi tetap tidak terkunci selama 15 detik setelah keluar</string>
+    <string name="applock_notification_info">Anda dapat menampilkan/menyembunyikan konten notifikasi per aplikasi dengan mengklik ikon notifikasi yang ditampilkan di preferensi setiap aplikasi yang terkunci</string>
+    <string name="applock_show_notif">Menampilkan konten notifikasi</string>
+    <string name="applock_hide_notif">Menyembunyikan konten notifikasi</string>
+    <string name="applock_setup">Siapkan pengunci aplikasi</string>
+    <string name="applock_overlay_summary">Fitur ini tidak tersedia karena aplikasi ini terkunci</string>
+    <plurals name="applock_summary">
+        <item quantity="other">%d aplikasi terkunci</item>
+    </plurals>
+    <string name="keywords_applock_settings">kunci aplikasi, pengunci aplikasi, loker aplikasi</string>
+    <!-- Android 12 DP2 additions -->
+    <string name="advanced_battery_preference_title">Lihat penggunaan baterai</string>
+    <string name="category_name_brightness">Kecerahan</string>
+    <string name="category_name_color">Warna</string>
+    <string name="category_name_general">Umum</string>
+    <string name="category_name_lock_display">Kunci Tampilan</string>
+    <string name="category_name_others">Lain-lain</string>
+    <string name="category_name_visibility">Visibilitas</string>
+    <string name="category_personal">Pribadi</string>
+    <string name="category_work">Kerja</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Pemotong Cerdas</string>
+    <string name="smart_cutoff_summary">Atur suhu maksimum</string>
+    <string name="smart_cutoff_switch_title">Gunakan Pemotong Cerdas</string>
+    <string name="smart_cutoff_level_title">Hentikan level pemicu</string>
+    <string name="smart_cutoff_resume_level_title">Mulai level pemicu</string>
 </resources>
