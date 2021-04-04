@@ -24,6 +24,9 @@
     <string name="security_settings_fingerprint_sensor_location_front">przodzie</string>
     <string name="security_settings_fingerprint_sensor_location_left">lewa krawędź</string>
     <string name="security_settings_fingerprint_sensor_location_right">prawa krawędź</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Przesuń w prawo lub lewo po czytniku linii papilarnych, aby usunąć powiadomienia</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">W celu usunięcia powiadomień przesuń palcem w lewo lub w prawo po czytniku linii papilarnych.</string>
     <!-- About device screen, build date -->
     <string name="build_date">Data kompilacji</string>
     <!-- About device screen, build maintainer -->
@@ -171,6 +174,8 @@
     <string name="live_display_night">Noc</string>
     <string name="live_display_outdoor_mode_title">Automatyczny tryb \"na zewnątrz\"</string>
     <string name="live_display_outdoor_mode_summary">Zwiększa jasność i nasycenie w jasnym słoncu</string>
+    <string name="live_display_anti_flicker_title">Anty-migotanie</string>
+    <string name="live_display_anti_flicker_summary">Zapobiegaj ekstensywnemu migotaniu i zmniejszaj zmęczenie oczu w warunkach słabego oświetlenia. Może to pogarszać odwzorowanie kolorów i wpływać na sposób wyświetlania niektórych elementów.</string>
     <string name="live_display_low_power_title">Zmniejsza zużycie energii</string>
     <string name="live_display_low_power_summary">Dostosuj ekran do najmniejszego zużycia energii bez utraty jakości wyświetlanego obrazu</string>
     <string name="live_display_enhance_color_title">Wzmocnienie barw</string>
@@ -270,7 +275,7 @@
     <string name="smart_charging_footer">Inteligentne ładowanie pozwala na ustawienie maksymalnego poziomu ładowania, aby wydłużyć żywotność baterii</string>
     <!-- Battery categorization -->
     <string name="battery_saver_category_title">Oszczędzanie baterii</string>
-    <string name="smart_charging_category_title">Inteligentne ładowanie</string>
+    <string name="smart_features_category_title">Inteligentne funkcje</string>
     <string name="battery_info_category_title">Żywotność baterii</string>
     <string name="battery_usage_category_title">Informacje o baterii</string>
     <!-- Back Gestures -->
@@ -399,4 +404,54 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Blokada ekranu, odcisk palca, odblokowanie twarzą</string>
     <string name="face_redo_confirm_btn">Powtórz</string>
     <string name="face_redo_warning_msg">Czy chcesz usunąć istniejący skan twarzy i utworzyć nowy?</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Redukcja migotania</string>
+    <string name="dc_dimming_info">Redukuje zmęczenie oczu w słabych warunkach oświetleniowych, ale może spowodować zmniejszenie jakości obrazu i słabą reprodukcję kolorów.</string>
+    <string name="dc_dimming_auto_mode_title">Harmonogram</string>
+    <string name="dc_dimming_mode_brightness">Włącz, gdy jasność jest poniżej wyznaczonego progu</string>
+    <string name="dc_dimming_mode_full">Zależnie od czasu i jasności</string>
+    <string name="dc_dimming_brightness_title">Próg jasności</string>
+    <string name="dc_dimming_brightness_disabled">Wyłączony</string>
+    <string name="dc_dimming_restore_auto_mode">Przywróć tryb automatyczny</string>
+    <string name="dc_dimming_brightness_info">Aktywuj Przyciemnianie DC tylko wtedy, gdy średnia jasność jest poniżej wyznaczonego progu</string>
+    <string name="dc_dimming_off_auto_mode_auto">Włączy się automatycznie</string>
+    <string name="dc_dimming_on_auto_mode_auto">Wyłączy się automatycznie</string>
+    <string name="keywords_display_dc_dimming">ściemnianie dc, migotanie, oko, zmęczenie</string>
+    <!-- App Lock -->
+    <string name="applock_title">Blokada aplikacji</string>
+    <string name="applock_locked">Zablokowany</string>
+    <string name="applock_unlocked">Odblokowany</string>
+    <string name="applock_locked_apps">Zablokowane aplikacje</string>
+    <string name="applock_unlocked_apps">Odblokowane aplikacje</string>
+    <string name="applock_show_only_on_wake">Uwierzytelnij tylko raz</string>
+    <string name="applock_show_only_on_wake_on_summary">Po uwierzytelnieniu aplikacja pozostaje odblokowana, dopóki ekran nie zostanie wyłączony</string>
+    <string name="applock_show_only_on_wake_off_summary">Po uwierzytelnieniu aplikacja pozostaje odblokowana przez 15 sekund po zakończeniu</string>
+    <string name="applock_notification_info">Możesz pokazać/ukryć zawartość powiadomień dla każdej aplikacji klikając ikonę powiadomień wyświetlaną na każdej zablokowanej aplikacji</string>
+    <string name="applock_show_notif">Pokazuj całą treść powiadomień</string>
+    <string name="applock_hide_notif">Ukryj treść powiadomień</string>
+    <string name="applock_setup">Ustaw blokadę aplikacji</string>
+    <string name="applock_overlay_summary">Ta funkcja nie jest dostępna, ponieważ ta aplikacja jest zablokowana</string>
+    <plurals name="applock_summary">
+        <item quantity="one">Aplikacja zablokowana</item>
+        <item quantity="few">Zablokowano %d aplikacji</item>
+        <item quantity="many">Zablokowano %d aplikacji</item>
+        <item quantity="other">Zablokowano %d aplikacji</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, blokada aplikacji, blokader aplikacji</string>
+    <!-- Android 12 DP2 additions -->
+    <string name="advanced_battery_preference_title">Pokaż użycie baterii</string>
+    <string name="category_name_brightness">Jasność</string>
+    <string name="category_name_color">Kolor</string>
+    <string name="category_name_general">Ogólne</string>
+    <string name="category_name_lock_display">Zablokuj wyświetlanie</string>
+    <string name="category_name_others">Inne</string>
+    <string name="category_name_visibility">Widoczność</string>
+    <string name="category_personal">Osobiste</string>
+    <string name="category_work">Praca</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Inteligentne wcięcie</string>
+    <string name="smart_cutoff_summary">Ustaw maksymalną temperaturę</string>
+    <string name="smart_cutoff_switch_title">Użyj inteligentnego wcięcia</string>
+    <string name="smart_cutoff_level_title">Poziom zatrzymania</string>
+    <string name="smart_cutoff_resume_level_title">Poziom rozpoczęcia</string>
 </resources>
