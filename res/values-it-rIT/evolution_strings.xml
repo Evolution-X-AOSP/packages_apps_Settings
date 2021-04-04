@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The Evolution X Project
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,11 +24,17 @@
     <string name="security_settings_fingerprint_sensor_location_front">davanti</string>
     <string name="security_settings_fingerprint_sensor_location_left">lato sinistro</string>
     <string name="security_settings_fingerprint_sensor_location_right">lato destro</string>
-    <!-- ROM version -->
-    <string name="about_device_name">Dispositivo</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Scorri il dito a sinistra o destra per scartare le notifiche</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Per scartare le tue notifiche, scorri a sinistra o destra sul sensore digitale sul retro del tuo telefono.</string>
+    <!-- About device screen, build date -->
     <string name="build_date">Data di compilazione</string>
-    <string name="rom_version">Versione Evolution X</string>
-    <string name="rom_version_default">Sconosciuto</string>
+    <!-- About device screen, build maintainer -->
+    <!-- About device screen, device codename -->
+    <string name="device_codename">Nome codice del dispositivo</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Stato Evolution X</string>
+    <string name="evolution_x_version">Versione Evolution X</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Piattaforma</string>
@@ -117,11 +123,9 @@
     <string name="designed_battery_capacity">Capacità originale della batteria</string>
     <string name="designed_battery_capacity_summary">La capacità della batteria progettata dal produttore</string>
     <string name="battery_charge_cycles">Cicli di carica completati</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Selettore dei colori</string>
+    <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">Mostra pill</string>
     <string name="show_gestures_navbar_switch_summary">Mostra i gesti barra di navigazione</string>
-    <!-- Navbar length -->
     <string name="navbar_length">Lunghezza barra gesti</string>
     <string name="hidden_label">Nascosto</string>
     <string name="long_label">Lunga</string>
@@ -170,6 +174,8 @@
     <string name="live_display_night">Notte</string>
     <string name="live_display_outdoor_mode_title">Modalità all\'aperto automatica</string>
     <string name="live_display_outdoor_mode_summary">Aumenta automaticamente la luminosità e la saturazione alla luce del sole</string>
+    <string name="live_display_anti_flicker_title">Anti-sfarfallio</string>
+    <string name="live_display_anti_flicker_summary">Previeni sfarfallio estensivo e riduci tensione oculare a condizioni di luce scarsa. Potrebbe degradare l\'accuratezza del colore e influenzare come sono mostrati alcuni oggetti.</string>
     <string name="live_display_low_power_title">Riduci consumo energetico</string>
     <string name="live_display_low_power_summary">Regola il display per il minor consumo energetico senza degradare la qualità dell\'immagine</string>
     <string name="live_display_enhance_color_title">Migliora colori</string>
@@ -269,7 +275,7 @@
     <string name="smart_charging_footer">La ricarica intelligente consente di impostare il livello massimo di ricarica per prolungare la durata della batteria</string>
     <!-- Battery categorization -->
     <string name="battery_saver_category_title">Risparmio batteria</string>
-    <string name="smart_charging_category_title">Ricarica intelligente</string>
+    <string name="smart_features_category_title">Funzioni smart</string>
     <string name="battery_info_category_title">Salute della batteria</string>
     <string name="battery_usage_category_title">Informazioni batteria</string>
     <!-- Back Gestures -->
@@ -387,4 +393,63 @@
     <string name="navbar_radius">Raggio barra dei gesti</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Stato SELinux</string>
+    <string name="selinux_status_disabled">Disabilitato</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Forzato</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi la scansione del viso esistente e creane una nuova</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti la scansione del viso</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Blocco schermo, impronta, sblocco con viso</string>
+    <string name="face_redo_confirm_btn">Ripeti</string>
+    <string name="face_redo_warning_msg">Rimuovere la scansione del viso esistente e crearne una nuova?</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Attenuazione DC</string>
+    <string name="dc_dimming_info">Riduce la tensione oculare in condizioni di luce scarsa ma potrebbe risultare in qualità ridotta dell\'immagine e la produzione di colori scarsi.</string>
+    <string name="dc_dimming_auto_mode_title">Pianifica</string>
+    <string name="dc_dimming_mode_brightness">Accendi quando la luminosità è sotto la soglia</string>
+    <string name="dc_dimming_mode_full">In base all\'ora e la luminosità</string>
+    <string name="dc_dimming_brightness_title">Soglia di luminosità</string>
+    <string name="dc_dimming_brightness_disabled">Disabilitato</string>
+    <string name="dc_dimming_restore_auto_mode">Ripristina la modalità automatica</string>
+    <string name="dc_dimming_brightness_info">Attiva solo l\'Attenuazione DC quando la luminosità media è sotto la soglia</string>
+    <string name="dc_dimming_off_auto_mode_auto">Si attiverà automaticamente</string>
+    <string name="dc_dimming_on_auto_mode_auto">Si disattiverà automaticamente</string>
+    <string name="keywords_display_dc_dimming">attenuazione dc, sfarfallio, occhio, tensione</string>
+    <!-- App Lock -->
+    <string name="applock_title">Blocca app</string>
+    <string name="applock_locked">Bloccato</string>
+    <string name="applock_unlocked">Sbloccato</string>
+    <string name="applock_locked_apps">App bloccate</string>
+    <string name="applock_unlocked_apps">App scaricate</string>
+    <string name="applock_show_only_on_wake">Autentica solo una volta</string>
+    <string name="applock_show_only_on_wake_on_summary">Una volta autenticata, un\'app rimane sbloccata fino allo spegnimento dello schermo</string>
+    <string name="applock_show_only_on_wake_off_summary">Una volta autenticata, un\'app rimane sbloccata per 15 secondi dalla disconnessione</string>
+    <string name="applock_notification_info">Puoi mostrare/nascondere il contenuto di notifica su base dell\'app cliccando sull\'icona di notifica mostrata su ogni preferenza delle app bloccate</string>
+    <string name="applock_show_notif">Mostrando il contenuto di notifica</string>
+    <string name="applock_hide_notif">Nascondi contenuto di notifica</string>
+    <string name="applock_setup">Configura blocco app</string>
+    <string name="applock_overlay_summary">Questa funzionalità non è disponibile per quest\'app è bloccata</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 app bloccata</item>
+        <item quantity="other">%d app bloccate</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, blocco app, blocca app</string>
+    <!-- Android 12 DP2 additions -->
+    <string name="advanced_battery_preference_title">Vedi uso della batteria</string>
+    <string name="category_name_brightness">Luminosità</string>
+    <string name="category_name_color">Colore</string>
+    <string name="category_name_general">Generale</string>
+    <string name="category_name_lock_display">Blocca Schermo</string>
+    <string name="category_name_others">Altri</string>
+    <string name="category_name_visibility">Visibilità</string>
+    <string name="category_personal">Personale</string>
+    <string name="category_work">Lavoro</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Taglio intelligente</string>
+    <string name="smart_cutoff_summary">Imposta temperatura massima</string>
+    <string name="smart_cutoff_switch_title">Usa taglio Smart</string>
+    <string name="smart_cutoff_level_title">Interrompi livello di innesco</string>
+    <string name="smart_cutoff_resume_level_title">Avvia livello di innesco</string>
 </resources>
