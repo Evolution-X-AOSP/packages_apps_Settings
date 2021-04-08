@@ -35,7 +35,6 @@ public class DeviceCodenamePreferenceController extends BasePreferenceController
     private static final String TAG = "DeviceCodenameCtrl";
 
     private static final String KEY_DEVICE_CODENAME_PROP = "org.evolution.device";
-    private static final String KEY_SUPPORT_URL = "org.evolution.build_support_url";
 
     private final PackageManager mPackageManager;
 
@@ -53,26 +52,5 @@ public class DeviceCodenamePreferenceController extends BasePreferenceController
     public CharSequence getSummary() {
         return SystemProperties.get(KEY_DEVICE_CODENAME_PROP,
                 mContext.getString(R.string.device_info_default));
-    }
-
-    @Override
-    public boolean handlePreferenceTreeClick(Preference preference) {
-        String Url = SystemProperties.get(KEY_SUPPORT_URL,
-                mContext.getString(R.string.device_info_default));
-        if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
-            return false;
-        }
-
-        final Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(Url));
-        if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
-            // Don't send out the intent to stop crash
-            Log.w(TAG, "queryIntentActivities() returns empty");
-            return true;
-        }
-
-        mContext.startActivity(intent);
-        return true;
     }
 }
