@@ -35,6 +35,7 @@
 
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Build maintainer</string>
+    <string name="build_maintainer_summary">Unknown</string>
 
     <!-- About device screen, device codename -->
     <string name="device_codename">Device codename</string>

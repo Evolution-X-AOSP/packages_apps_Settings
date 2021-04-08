@@ -18,9 +18,8 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.net.Uri;
-import android.os.SystemProperties;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -32,17 +31,12 @@ import com.android.settings.core.BasePreferenceController;
 public class EvolutionXBuildMaintainerPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "EvolutionXBuildMaintainerCtrl";
-    private static final String KEY_BUILD_MAINTAINER_URL =
-        "org.evolution.build_donate_url";
-
-    private final PackageManager mPackageManager;
 
     private String mDeviceMaintainer;
 
     public EvolutionXBuildMaintainerPreferenceController(Context context, String key) {
         super(context, key);
-        mDeviceMaintainer = SystemProperties.get("org.evolution.build_maintainer");
-        mPackageManager = mContext.getPackageManager();
+        mDeviceMaintainer = mContext.getResources().getString(R.string.build_maintainer_summary);
     }
 
     @Override
@@ -54,26 +48,5 @@ public class EvolutionXBuildMaintainerPreferenceController extends BasePreferenc
     @Override
     public CharSequence getSummary() {
         return mDeviceMaintainer;
-    }
-
-    @Override
-    public boolean handlePreferenceTreeClick(Preference preference) {
-        String maintainerUrl = SystemProperties.get(KEY_BUILD_MAINTAINER_URL,
-                mContext.getString(R.string.unknown));
-        if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
-            return false;
-        }
-
-        final Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(maintainerUrl));
-        if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
-            // Don't send out the intent to stop crash
-            Log.w(TAG, "queryIntentActivities() returns empty");
-            return true;
-        }
-
-        mContext.startActivity(intent);
-        return true;
     }
 }
