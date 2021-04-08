@@ -346,7 +346,8 @@
 
     <!-- Battery categorization -->
     <string name="battery_saver_category_title">Battery saver</string>
-    <string name="smart_features_category_title">Smart features</string>
+    <string name="smart_charging_category_title">Smart charging</string>
+    <string name="smart_cutoff_category_title">Smart cutoff</string>
     <string name="battery_info_category_title">Battery health</string>
     <string name="battery_usage_category_title">Battery info</string>
 
