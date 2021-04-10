@@ -185,17 +185,6 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
-          android:key="pulse_cat"
-          android:title="@string/pulse_cat_title"
-          android:order="-120">
-        <Preference
-            android:key="pulse"
-            android:title="@string/pulse_settings"
-            android:summary="@string/pulse_settings_summary"
-            android:fragment="com.android.settings.sound.PulseSettings"/>
-    </PreferenceCategory>
-
     <!-- Interruptions -->
     <com.android.settingslib.RestrictedPreference
         android:key="zen_mode"
