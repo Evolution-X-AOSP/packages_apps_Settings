@@ -38,7 +38,7 @@ import android.widget.SearchView;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.ListPreference;
+import androidx.preference.DropDownPreference;
 
 import com.android.settings.biometrics.BiometricEnrollBase;
 import com.android.settings.R;
@@ -101,7 +101,7 @@ public class AppLockSettings extends SubSettings {
         private SearchView mSearchView;
         private SearchFilter mSearchFilter;
         private PreferenceScreen mPreferenceScreen;
-        private ListPreference lockTimeoutPref;
+        private DropDownPreference lockTimeoutPref;
         private Preference mLocked;
         private Preference mUnlocked;
         private Preference mNotifInfo;
@@ -446,11 +446,11 @@ public class AppLockSettings extends SubSettings {
         }
 
         private void setLockTimeoutSummary() {
-                lockTimeoutPref.setSummaryProvider(new Preference.SummaryProvider<ListPreference>() {
+                lockTimeoutPref.setSummaryProvider(new Preference.SummaryProvider<DropDownPreference>() {
                 private String summaryText = "";
 
                 @Override
-                public CharSequence provideSummary(ListPreference preference) {
+                public CharSequence provideSummary(DropDownPreference preference) {
                     final int selectedLockTimeout = Integer.parseInt(preference.getValue());
                     switch (selectedLockTimeout) {
                         case 0:

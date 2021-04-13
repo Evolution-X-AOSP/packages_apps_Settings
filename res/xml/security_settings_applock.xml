@@ -21,7 +21,7 @@
     android:title="@string/applock_title"
     settings:keywords="@string/keywords_applock_settings">
 
-    <ListPreference
+    <DropDownPreference
         android:key="applock_lock_after"
         android:defaultValue="0"
         android:entries="@array/applock_lock_after_entries"
