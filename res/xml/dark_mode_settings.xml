@@ -20,8 +20,11 @@
     android:title="@string/dark_ui_mode"
     settings:keywords="@string/keywords_dark_ui_mode">
 
-    <ListPreference
+    <com.android.settingslib.widget.LayoutPreference
        android:layout="@layout/dark_mode_preview"
+       android:title="@string/dark_ui_title"
+       android:key="dark_ui_activated"
+       settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"
        android:selectable="false" />
 
     <com.android.settingslib.widget.LayoutPreference

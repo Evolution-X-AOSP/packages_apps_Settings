@@ -20,7 +20,7 @@
   </path>
   <path
       android:pathData="M379.5,184L379.5,184A4.5,4.5 0,0 1,384 188.5L384,213.5A4.5,4.5 0,0 1,379.5 218L379.5,218A4.5,4.5 0,0 1,375 213.5L375,188.5A4.5,4.5 0,0 1,379.5 184z"
-      android:fillColor="#FFC700"/>
+      android:fillColor="@color/settingsHeaderColor"/>
   <path
       android:pathData="M78.986,68.993C78.994,55.738 89.745,44.999 103,45.007L355.341,45.153C368.596,45.161 379.335,55.912 379.327,69.167L379.221,252.088L78.88,251.913L78.986,68.993Z"
       android:fillColor="#DCDCDE"/>

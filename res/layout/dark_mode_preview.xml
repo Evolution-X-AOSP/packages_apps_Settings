@@ -43,13 +43,13 @@
             </ImageButton>
 
             <TextView
+                android:id="@+id/button_x_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
                 android:textColor="?android:textColorPrimary"
                 android:layout_gravity="center"
-                android:clickable="false"
-                android:text="Switch To Dark Mode" >
+                android:clickable="false" >
             </TextView>
 
         </FrameLayout>
