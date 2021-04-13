@@ -514,4 +514,12 @@
     <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
     <string name="smart_cutoff_level_title">Stop trigger level</string>
     <string name="smart_cutoff_resume_level_title">Start trigger level</string>
+
+    <!-- Screenshot settings -->
+    <string name="screenshot_settings_title">Screenshot settings</string>
+    <string name="screenshot_settings_summary">Modify options related to screenshots</string>
+
+    <!-- Screenshot compression  -->
+    <string name="screenshot_compression_title">Screenshot quality</string>
+    <string name="screenshot_compression_summary">Compress screenshot size with loss in image quality</string>
 </resources>

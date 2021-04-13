@@ -18,8 +18,9 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:key="swipe_to_screenshot_screen"
-    android:title="@string/three_finger_gesture">
+    android:title="@string/screenshot_settings_title">
 
     <com.android.settings.widget.VideoPreference 
         android:key="swipe_to_screenshot_video" 
@@ -40,5 +41,15 @@
         android:entryValues="@array/screenshot_type_values"
         android:title="@string/screenshot_type_title"
         android:defaultValue="0" />
+
+    <!-- Screenshot compression -->
+    <com.evolution.settings.preference.SystemSettingSeekBarPreference
+        android:key="screenshot_compression"
+        android:title="@string/screenshot_compression_title"
+        android:summary="@string/screenshot_compression_summary"
+        android:defaultValue="100"
+        android:max="100"
+        android:min="10"
+        settings:units="%" />
 
 </PreferenceScreen>
