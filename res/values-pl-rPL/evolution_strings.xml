@@ -30,6 +30,7 @@
     <!-- About device screen, build date -->
     <string name="build_date">Data kompilacji</string>
     <!-- About device screen, build maintainer -->
+    <string name="build_maintainer_summary">Nieznany</string>
     <!-- About device screen, device codename -->
     <string name="device_codename">Nazwa kodowa urządzenia</string>
     <!-- About device screen, Evolution X -->
@@ -275,7 +276,8 @@
     <string name="smart_charging_footer">Inteligentne ładowanie pozwala na ustawienie maksymalnego poziomu ładowania, aby wydłużyć żywotność baterii</string>
     <!-- Battery categorization -->
     <string name="battery_saver_category_title">Oszczędzanie baterii</string>
-    <string name="smart_features_category_title">Inteligentne funkcje</string>
+    <string name="smart_charging_category_title">Inteligentne ładowanie</string>
+    <string name="smart_cutoff_category_title">Inteligentne odcięcie</string>
     <string name="battery_info_category_title">Żywotność baterii</string>
     <string name="battery_usage_category_title">Informacje o baterii</string>
     <!-- Back Gestures -->
@@ -322,40 +324,6 @@
     <string name="gesture_nav_tweaks_footer_info">Aby wybrać konkretną aktywność aplikacji dla akcji, przytrzymaj dłużej dowolną aplikację w menu aplikacji.\n\nJeśli wyświetlany jest launcher, wykonaj przesunięcie od dolnej części ekranu, aby uruchomić akcję.</string>
     <string name="back_swipe_extended_title">Rozszerzona akcja przesunięcia</string>
     <string name="back_swipe_extended_summary">Rozpocznij akcję na przesunięciu szerszym (większym niż połowa ekranu), lub o kształcie litery L (pionowo wystarczająco dłuższym)</string>
-    <!-- Pulse -->
-    <string name="pulse_help_policy_notice_summary">Pulse nie działa z niektórymi źródłami dźwięku podczas słuchania głośnika urządzenia</string>
-    <string name="pulse_cat_title">Korektor pulsacyjny</string>
-    <string name="pulse_settings">Puls</string>
-    <string name="pulse_settings_summary">Korektor graficzny dźwięku</string>
-    <string name="show_navbar_pulse_title">Puls paska nawigacji</string>
-    <string name="show_navbar_pulse_summary">Korektor graficzny dźwięku na obszarze paska nawigacji, również jeśli pasek jest ukryty</string>
-    <string name="show_lockscreen_pulse_title">Pulse na ekranie blokady</string>
-    <string name="show_lockscreen_pulse_summary">Korektor graficzny dźwięku na ekranie blokady</string>
-    <string name="show_ambient_pulse_title">Pulse na ekranie ambient</string>
-    <string name="show_ambient_pulse_summary">Korektor graficzny dźwięku na ekranie ambient</string>
-    <string name="pulse_render_mode_title">Tryb renderowania</string>
-    <string name="pulse_render_mode_fading_bars">Zanikanie bloków</string>
-    <string name="pulse_render_mode_solid_lines">Linie ciągłe</string>
-    <string name="pulse_color">Kolor</string>
-    <string name="pulse_color_mode">Tryb kolorów</string>
-    <string name="pulse_color_accent">Akcent</string>
-    <string name="pulse_color_custom">Niestandardowy</string>
-    <string name="pulse_color_lava_lamp">Lampa lawowa</string>
-    <string name="pulse_color_auto">Okładka albumu</string>
-    <string name="pulse_color_chooser">Wybierz kolor</string>
-    <string name="smoothing_enabled_title">Włącz wygładzanie</string>
-    <string name="smoothing_enabled_summary">Każdy pasek jest animowany bardziej płynnie</string>
-    <string name="pulse_advanced_category">Zaawansowane</string>
-    <string name="pulse_legacy_mode_advanced_category">Ustawienia trybu zanikania bloków</string>
-    <string name="pulse_custom_fudge_factor">Poziom czułości</string>
-    <string name="lavamp_speed_title">Prędkość lampy lawowej</string>
-    <string name="pulse_solid_units_count">Liczba ciągłych linii</string>
-    <string name="pulse_solid_units_opacity">Przezroczystość ciągłych linii</string>
-    <string name="pulse_solid_dimen_category">Ustawienia trybu linii ciągłych</string>
-    <string name="pulse_custom_dimen">Szerokość paska</string>
-    <string name="pulse_custom_div">Odstęp paska</string>
-    <string name="pulse_filled_block_size">Rozmiar bloku</string>
-    <string name="pulse_empty_block_size">Odstępy bloków</string>
     <!-- Ambient display battery percentage -->
     <string name="ambient_battery_percent_title">Poziom baterii na dole</string>
     <string name="ambient_battery_percent_summary">Włącz żeby pokazać procent baterii gdy urządzenie jest zablokowane</string>
@@ -423,9 +391,14 @@
     <string name="applock_unlocked">Odblokowany</string>
     <string name="applock_locked_apps">Zablokowane aplikacje</string>
     <string name="applock_unlocked_apps">Odblokowane aplikacje</string>
-    <string name="applock_show_only_on_wake">Uwierzytelnij tylko raz</string>
-    <string name="applock_show_only_on_wake_on_summary">Po uwierzytelnieniu aplikacja pozostaje odblokowana, dopóki ekran nie zostanie wyłączony</string>
-    <string name="applock_show_only_on_wake_off_summary">Po uwierzytelnieniu aplikacja pozostaje odblokowana przez 15 sekund po zakończeniu</string>
+    <string name="applock_lock_after_title">Zablokuj aplikację po</string>
+    <string name="applock_lock_after_instantly">Natychmiast</string>
+    <string name="applock_lock_after_15_seconds">15 Sekund</string>
+    <string name="applock_lock_after_screen_off">Wyłączony ekran</string>
+    <string name="applock_lock_after_summary">Aplikacja zostanie zablokowana po wybranym przekroczeniu czasu</string>
+    <string name="applock_lock_after_instantly_summary">Aplikacja zostanie zablokowana natychmiast po zamknięciu</string>
+    <string name="applock_lock_after_15_seconds_summary">Aplikacja zostanie zablokowana 15 sekund po zamknięciu</string>
+    <string name="applock_lock_after_screen_off_summary">Aplikacja zostanie zablokowana po wyłączeniu ekranu</string>
     <string name="applock_notification_info">Możesz pokazać/ukryć zawartość powiadomień dla każdej aplikacji klikając ikonę powiadomień wyświetlaną na każdej zablokowanej aplikacji</string>
     <string name="applock_show_notif">Pokazuj całą treść powiadomień</string>
     <string name="applock_hide_notif">Ukryj treść powiadomień</string>
