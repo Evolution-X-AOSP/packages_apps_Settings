@@ -64,7 +64,7 @@
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
 
     <!-- Screenshot sound -->
@@ -114,17 +114,13 @@
     <string name="backup_transport_setting_label">Change backup provider</string>
     <string name="backup_transport_title">Select backup provider</string>
 
-    <!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
-    <string name="clock_style_summary">Customize lockscreen clock</string>
-
     <!-- Ambient Wake gestures -->
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lock screen on wake gestures</string>
 
-    <string name="lockscreen_display_title">Lockscreen display</string>
+    <string name="lockscreen_display_title">Lock screen display</string>
 
-    <!-- Display : Rotation -->
+    <!-- Display - Rotation -->
     <string name="display_rotation_title">Rotation</string>
     <string name="display_rotation_summary">Select rotation angles</string>
     <string name="display_rotation_disabled">Disabled</string>
@@ -144,15 +140,6 @@
     <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
     <string name="pattern_custom">Custom</string>
     <string name="custom_vibration_pattern_title">Custom pattern</string>
-
-    <!-- Volume rocker gestures -->
-    <string name="volume_skiptrack_screen_title">Skip music tracks</string>
-    <string name="volume_skiptrack_title">Volume rocker skip tracks</string>
-    <string name="volume_skiptrack_summary">Long press the volume rocker to skip tracks when playing music, even remotely on tv or PC with e.g. Spotify (app must run on the phone and show the notification).</string>
-
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
-    <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Clear usage data?</string>
@@ -180,9 +167,13 @@
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
 
     <!-- Double tap-to-sleep -->
-    <string name="doubletap_lockscreen_screen_title">Double tap</string>
-    <string name="doubletap_lockscreen_title">Double tap to sleep on lockscreen and status bar</string>
-    <string name="doubletap_lockscreen_summary">Double tap on the lockscreen and status bar empty areas to switch the screen off</string>
+    <string name="double_tap_title">Double tap</string>
+    <string name="double_tap_lock_screen_title">Double tap to sleep</string>
+    <string name="double_tap_lock_screen_summary">Double tap on the lock screen and status bar empty areas to turn the screen off</string>
+
+    <!-- Doze on double tap -->
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
@@ -264,7 +255,7 @@
     <string name="color_green_title">Green</string>
     <string name="color_blue_title">Blue</string>
 
-    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Picture Adjustment -->
     <string name="picture_adjustment_title">Picture adjustment</string>
     <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
     <string name="adj_hue_title">Hue</string>
@@ -325,11 +316,6 @@
     <string name="volume_steps_7" translatable="false">7</string>
     <string name="volume_steps_5" translatable="false">5</string>
 
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
-
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
@@ -346,7 +332,7 @@
     <string name="smart_charging_resume_level_title">Start trigger level</string>
     <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
     <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery.</string>
 
     <!-- Battery categorization -->
     <string name="battery_saver_category_title">Battery saver</string>
@@ -419,8 +405,11 @@
     <string name="fast_charging_title">Fast charging</string>
     <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
 
-    <!-- Ambient music ticker location -->
-    <string name="ambient_music_location">Show ambient music ticker</string>
+    <!-- Ambient music ticker -->
+    <string name="pulse_on_new_tracks_title">Ambient pulse on new track</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
+    <string name="ambient_music_location">Ambient music ticker location</string>
     <string name="ambient_music_disabled">Disabled</string>
     <string name="ambient_music_bottom">At the bottom (default)</string>
     <string name="ambient_music_center">Centered (under the cLock)</string>
@@ -444,7 +433,7 @@
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 
     <!-- Navbar radius -->
-    <string name="navbar_radius">Gesture bar Radius</string>
+    <string name="navbar_radius">Gesture bar radius</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
 

@@ -51,4 +51,9 @@
         android:defaultValue="false"
         android:dependency="smart_charging" />
 
+    <com.android.settingslib.widget.FooterPreference
+        android:key="smart_charging_footer"
+        android:selectable="false"
+        settings:searchable="false" />
+
 </PreferenceScreen>

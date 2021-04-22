@@ -29,10 +29,13 @@ import androidx.preference.SwitchPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.internal.view.RotationPolicy;
 
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class DisplayRotation extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
     private static final String TAG = "DisplayRotation";
 
@@ -145,4 +148,11 @@ public class DisplayRotation extends SettingsPreferenceFragment implements OnPre
         }
         return super.onPreferenceTreeClick(preference);
     }
+
+    /**
+     * For Search.
+     */
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.display_rotation);
 }

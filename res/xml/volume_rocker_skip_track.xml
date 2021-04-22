@@ -28,8 +28,8 @@
 
     <SwitchPreference
         android:key="volume_rocker_skip_track"
-        android:title="@string/volume_skiptrack_title"
-        android:summary="@string/volume_skiptrack_summary"
+        android:title="@string/volbtn_music_controls_title"
+        android:summary="@string/volbtn_music_controls_summary"
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.VolumeSkipTrackPreferenceController"
         app:allowDividerAbove="true" />

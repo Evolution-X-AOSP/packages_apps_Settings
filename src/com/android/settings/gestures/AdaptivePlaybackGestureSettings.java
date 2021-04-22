@@ -31,7 +31,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@SearchIndexable
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class AdaptivePlaybackGestureSettings extends DashboardFragment {
 
     private static final String TAG = "AdaptivePlaybackGestureSettings";

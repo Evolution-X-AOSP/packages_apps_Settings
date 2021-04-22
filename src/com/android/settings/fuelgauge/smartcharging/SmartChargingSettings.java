@@ -31,6 +31,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settingslib.search.SearchIndexable;
 
 import com.evolution.settings.preference.CustomSeekBarPreference;
 
@@ -40,19 +41,26 @@ import java.util.List;
 /**
  * Settings screen for Smart charging
  */
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class SmartChargingSettings extends DashboardFragment implements OnPreferenceChangeListener {
 
     private static final String TAG = "SmartChargingSettings";
     private static final String KEY_SMART_CHARGING_LEVEL = "smart_charging_level";
     private static final String KEY_SMART_CHARGING_RESUME_LEVEL = "smart_charging_resume_level";
+    private static final String SMART_CHARGING_FOOTER = "smart_charging_footer";
+
     private CustomSeekBarPreference mSmartChargingLevel;
     private CustomSeekBarPreference mSmartChargingResumeLevel;
 
     private int mSmartChargingLevelDefaultConfig;
     private int mSmartChargingResumeLevelDefaultConfig;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+
+        findPreference(SMART_CHARGING_FOOTER).setTitle(R.string.smart_charging_footer);
+
         mSmartChargingLevelDefaultConfig = getResources().getInteger(
                 com.android.internal.R.integer.config_smartChargingBatteryLevel);
 
@@ -115,4 +123,11 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
             return false;
         }
     }
+
+    /**
+     * For Search.
+     */
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.smart_charging);
 }

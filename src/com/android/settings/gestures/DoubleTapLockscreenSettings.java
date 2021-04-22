@@ -28,7 +28,7 @@ import com.android.settingslib.search.SearchIndexable;
 import java.util.Arrays;
 import java.util.List;
 
-@SearchIndexable
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class DoubleTapLockscreenSettings extends DashboardFragment {
 
     private static final String TAG = "DoubletapLockscreen";

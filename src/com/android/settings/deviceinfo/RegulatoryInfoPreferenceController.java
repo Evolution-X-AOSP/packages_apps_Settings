@@ -34,8 +34,7 @@ public class RegulatoryInfoPreferenceController extends AbstractPreferenceContro
 
     @Override
     public boolean isAvailable() {
-        //return !mContext.getPackageManager().queryIntentActivities(INTENT_PROBE, 0).isEmpty();
-        return false;
+        return !mContext.getPackageManager().queryIntentActivities(INTENT_PROBE, 0).isEmpty();
     }
 
     @Override

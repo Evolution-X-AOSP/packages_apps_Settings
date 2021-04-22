@@ -126,14 +126,13 @@
     <dimen name="switchbar_subsettings_margin_start">72dp</dimen>
     <dimen name="switchbar_subsettings_margin_end">16dp</dimen>
 
-    <dimen name="search_bar_margin">24dp</dimen>
-    <dimen name="search_bar_margin_bottom">16dp</dimen>
+    <dimen name="search_bar_margin">16dp</dimen>
 
-    <dimen name="search_bar_height">48dp</dimen>
-    <dimen name="search_bar_corner_radius">24.0dp</dimen>
-    <dimen name="search_bar_text_size">16dp</dimen>
-    <dimen name="search_bar_card_elevation">1dp</dimen>
-    <dimen name="search_bar_content_inset">64dp</dimen>
+    <dimen name="search_bar_height">52dp</dimen>
+    <dimen name="search_bar_corner_radius">28.0dp</dimen>
+    <dimen name="search_bar_text_size">20sp</dimen>
+    <dimen name="search_bar_card_elevation">0dp</dimen>
+    <dimen name="search_bar_content_inset">56dp</dimen>
     <dimen name="avatar_length">@dimen/search_bar_height</dimen>
 
     <!-- Dimensions for Wifi Assistant Card -->

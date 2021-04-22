@@ -38,7 +38,10 @@ import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class VolumeSteps extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "VolumeSteps";
@@ -192,4 +195,11 @@ public class VolumeSteps extends SettingsPreferenceFragment implements
         updateVolumeStepPrefs(pref, steps);
         Log.i(TAG, "Volume steps:" + pref.getKey() + "" + String.valueOf(steps));
     }
+
+    /**
+     * For Search.
+     */
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.volume_steps_settings);
 }

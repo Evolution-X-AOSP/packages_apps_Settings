@@ -19,12 +19,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:key="doubletap_lockscreen_screen"
-    android:title="@string/doubletap_lockscreen_screen_title">
+    android:title="@string/double_tap_title">
 
     <SwitchPreference
         android:key="doubletap_lockscreen"
-        android:title="@string/doubletap_lockscreen_title"
-        android:summary="@string/doubletap_lockscreen_summary"
+        android:title="@string/double_tap_lock_screen_title"
+        android:summary="@string/double_tap_lock_screen_summary"
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.DoubleTapLockscreenPreferenceController"
         app:allowDividerAbove="true" />

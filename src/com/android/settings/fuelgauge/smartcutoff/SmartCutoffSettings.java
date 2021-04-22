@@ -31,6 +31,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settingslib.search.SearchIndexable;
 
 import com.evolution.settings.preference.CustomSeekBarPreference;
 
@@ -40,6 +41,7 @@ import java.util.List;
 /**
  * Settings screen for Smart Cutoff
  */
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class SmartCutoffSettings extends DashboardFragment implements OnPreferenceChangeListener {
 
     private static final String TAG = "SmartCutoffSettings";
@@ -118,4 +120,11 @@ public class SmartCutoffSettings extends DashboardFragment implements OnPreferen
             return false;
         }
     }
+
+    /**
+     * For Search.
+     */
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.smart_cutoff);
 }

@@ -307,9 +307,9 @@
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
-    <style name="TextAppearance.SearchBar"
-           parent="@*android:style/TextAppearance.DeviceDefault.Widget.Toolbar.Subtitle">
+    <style name="TextAppearance.SearchBar" parent="@style/TextAppearance">
         <item name="android:textSize">@dimen/search_bar_text_size</item>
+        <item name="android:textColor">?android:textColorTertiary</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:singleLine">true</item>
         <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
@@ -483,10 +483,9 @@
     </style>
 
     <style name="SearchBarStyle">
-        <item name="android:layout_marginEnd">@dimen/search_bar_margin</item>
         <item name="cardCornerRadius">34dp</item>
         <item name="enforceMaterialTheme">true</item>
-        <item name="cardElevation">3dp</item>
+        <item name="cardElevation">0dp</item>
         <item name="shapeAppearance">@null</item>
     </style>
 
@@ -607,7 +606,7 @@
 
     <style name="SetupWizardPartnerResource">
         <!-- Disable to use partner overlay theme for outside setupwizard flow. -->
-        <item name="sucUsePartnerResource">true</item>
+        <item name="sucUsePartnerResource">false</item>
         <!-- Enable heavy theme style inside setupwizard flow. -->
         <item name="sudUsePartnerHeavyTheme">true</item>
     </style>
