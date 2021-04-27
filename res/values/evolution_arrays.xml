@@ -173,4 +173,8 @@
         <item>15</item>
         <item>-1</item>
     </string-array>
+
+    <!-- Override supported color mode labels.
+         NOTE: This list must have the exact same items count as config_availableColorModes -->
+    <string-array name="available_vendor_color_modes" translatable="false" />
 </resources>
