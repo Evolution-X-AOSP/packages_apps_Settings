@@ -177,4 +177,17 @@
     <!-- Override supported color mode labels.
          NOTE: This list must have the exact same items count as config_availableColorModes -->
     <string-array name="available_vendor_color_modes" translatable="false" />
+
+    <!-- Clipboard toast info -->
+    <string-array name="clipboard_toast_info_entries">
+        <item>@string/disabled</item>
+        <item>@string/clipboard_toast_info_show_important</item>
+        <item>@string/clipboard_toast_info_show_all</item>
+    </string-array>
+
+    <string-array name="clipboard_toast_info_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

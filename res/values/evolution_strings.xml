@@ -414,9 +414,10 @@
     <string name="ambient_music_bottom">At the bottom (default)</string>
     <string name="ambient_music_center">Centered (under the cLock)</string>
 
-    <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Show clipboard access alerts</string>
-    <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
+    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
+    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
 
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
