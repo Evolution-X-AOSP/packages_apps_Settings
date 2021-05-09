@@ -24,9 +24,13 @@
     <string name="security_settings_fingerprint_sensor_location_front">前面</string>
     <string name="security_settings_fingerprint_sensor_location_left">左側</string>
     <string name="security_settings_fingerprint_sensor_location_right">右側</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">指紋センサーで左右にスワイプして通知を削除</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">通知を削除するには端末裏側の指紋センサー上で左右にスワイプして下さい</string>
     <!-- About device screen, build date -->
     <string name="build_date">ビルド日時</string>
     <!-- About device screen, build maintainer -->
+    <string name="build_maintainer_summary">不明</string>
     <!-- About device screen, device codename -->
     <string name="device_codename">端末のコードネーム</string>
     <!-- About device screen, Evolution X -->
@@ -45,7 +49,7 @@
     <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択して下さい</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">間違えたパターンを表示</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
     <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">スクリーンショットの音</string>
@@ -81,14 +85,11 @@
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">バックアッププロバイダの変更</string>
     <string name="backup_transport_title">バックアッププロバイダの選択</string>
-    <!-- Clock style -->
-    <string name="clock_style_title">時計のスタイル</string>
-    <string name="clock_style_summary">ロック画面の時計を編集する</string>
     <!-- Ambient Wake gestures -->
     <string name="ambient_wake_gestures_title">アンビエント復帰ジェスチャー</string>
     <string name="ambient_wake_gestures_summary">復帰ジェスチャーで通常のロック画面の代わりにアンビエント画面を表示する</string>
     <string name="lockscreen_display_title">ロック画面の表示</string>
-    <!-- Display : Rotation -->
+    <!-- Display - Rotation -->
     <string name="display_rotation_title">回転</string>
     <string name="display_rotation_summary">回転角度を選択</string>
     <string name="display_rotation_disabled">無効</string>
@@ -102,13 +103,6 @@
     <string name="vibration_pattern_title">着信音の振動のパターン</string>
     <string name="pattern_custom">カスタム</string>
     <string name="custom_vibration_pattern_title">カスタムパターン</string>
-    <!-- Volume rocker gestures -->
-    <string name="volume_skiptrack_screen_title">音楽トラックをスキップ</string>
-    <string name="volume_skiptrack_title">音量ボタンで音楽スキップ</string>
-    <string name="volume_skiptrack_summary">音量ボタンを長押しすると、テレビや PC でリモート操作を行っても、音楽再生時にトラックをスキップできます。例: Spotify (アプリは端末で実行し通知を表示する必要があります)</string>
-    <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
-    <string name="pulse_on_new_tracks_summary">新しい音楽トラックの再生時にアンビエント表示をします。トラック情報をダブルタップして次のトラックにスキップします。</string>
-    <string name="pulse_on_new_tracks_soli_summary">新規楽曲再生時にアンビエント表示をする</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">統計のリセット</string>
     <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
@@ -130,9 +124,12 @@
     <string name="prevent_ringing_option_cycle">サイクルスルーモード</string>
     <string name="prevent_ringing_option_cycle_summary">ON (サイクルスルーモード)</string>
     <!-- Double tap-to-sleep -->
-    <string name="doubletap_lockscreen_screen_title">画面消灯の切替え</string>
-    <string name="doubletap_lockscreen_title">ダブルタップでスリープ</string>
-    <string name="doubletap_lockscreen_summary">ロック画面の空き領域をダブルタップして画面を消灯する</string>
+    <string name="double_tap_title">ダブルタップ</string>
+    <string name="double_tap_lock_screen_title">ダブルタップでスリープ</string>
+    <string name="double_tap_lock_screen_summary">ロック画面とステータスバーの空き領域をダブルタップして画面を消灯する</string>
+    <!-- Doze on double tap -->
+    <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
+    <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
     <string name="increasing_ring_min_volume_title">開始音量</string>
@@ -171,6 +168,8 @@
     <string name="live_display_night">夜</string>
     <string name="live_display_outdoor_mode_title">自動屋外モード</string>
     <string name="live_display_outdoor_mode_summary">明るい日差しが照射する環境下で明るさと彩度を自動的に向上させる</string>
+    <string name="live_display_anti_flicker_title">アンチフリッカー</string>
+    <string name="live_display_anti_flicker_summary">幅広いちらつきを防ぎ、暗い環境での目への負担を軽減します。色の再現度が低下したり、いくつかの項目の表示に影響する可能性があります。</string>
     <string name="live_display_low_power_title">消費電力を削減</string>
     <string name="live_display_low_power_summary">性能を低下させずに画面を最低の消費電力に調整する</string>
     <string name="live_display_enhance_color_title">色を補正</string>
@@ -205,7 +204,7 @@
     <string name="color_red_title">赤</string>
     <string name="color_green_title">緑</string>
     <string name="color_blue_title">青</string>
-    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Picture Adjustment -->
     <string name="picture_adjustment_title">画像調整</string>
     <string name="picture_adjustment_summary">色彩・彩度・輝度・コントラストを調整する</string>
     <string name="adj_hue_title">色相</string>
@@ -233,8 +232,11 @@
     <string name="back_height_high_label">下部</string>
     <string name="back_options_dialog_title">オプション</string>
     <string name="back_height_message">戻るジェスチャーに使用される操作可能な画面領域の高さ</string>
-    <!-- Min refresh rate -->
+    <!-- Refresh rate -->
     <string name="min_refresh_rate_title">最小リフレッシュレート</string>
+    <string name="max_refresh_rate_title">最大リフレッシュレート</string>
+    <string name="battery_saver_refresh_rate_title">リフレッシュレートを減らす</string>
+    <string name="battery_saver_refresh_rate_summary">バッテリーセーバーがオンになっているときに60Hzの画面リフレッシュレートを使用して電力を節約する</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">タッチスクリーンジェスチャー</string>
     <string name="touchscreen_gesture_settings_summary">様々なタッチスクリーンジェスチャーで素早くアクションを実行する</string>
@@ -249,10 +251,6 @@
     <string name="volume_steps_system_title">音量レベル: システム</string>
     <string name="volume_steps_voice_call_title">音量レベル: 音声通話</string>
     <string name="volume_steps_reset">リセット</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">ダブルタップ</string>
-    <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
-    <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">戻るジェスチャーアニメーション</string>
     <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
@@ -269,8 +267,9 @@
     <string name="smart_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後バッテリーの統計情報をリセットする</string>
     <string name="smart_charging_footer">スマート充電を使用すると最大充電レベルを設定することでバッテリー寿命を延ばすことができます</string>
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">バッテリー セーバー</string>
+    <string name="battery_saver_category_title">バッテリーセーバー</string>
     <string name="smart_charging_category_title">スマート充電</string>
+    <string name="smart_cutoff_category_title">スマートカットオフ</string>
     <string name="battery_info_category_title">バッテリー健康度</string>
     <string name="battery_usage_category_title">バッテリー情報</string>
     <!-- Back Gestures -->
@@ -317,40 +316,6 @@
     <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリピッカーでアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
     <string name="back_swipe_extended_title">拡張スワイプアクション</string>
     <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
-    <!-- Pulse -->
-    <string name="pulse_help_policy_notice_summary">端末のスピーカーで聴く時に一部のオーディオソースで Pulse が機能しません</string>
-    <string name="pulse_cat_title">Pulse イコライザー</string>
-    <string name="pulse_settings">パルス</string>
-    <string name="pulse_settings_summary">オーディオグラフィックイコライザー</string>
-    <string name="show_navbar_pulse_title">ナビゲーションバーの Pulse</string>
-    <string name="show_navbar_pulse_summary">ナビゲーションバーが隠されていても、バー上にオーディオグラフィックイコライザーを表示します。</string>
-    <string name="show_lockscreen_pulse_title">ロック画面の Pulse</string>
-    <string name="show_lockscreen_pulse_summary">ロック画面のグラフィックイコライザー</string>
-    <string name="show_ambient_pulse_title">アンビエント Pulse</string>
-    <string name="show_ambient_pulse_summary">アンビエント画面のグラフィックイコライザー</string>
-    <string name="pulse_render_mode_title">レンダリングモード</string>
-    <string name="pulse_render_mode_fading_bars">フェーディングブロック</string>
-    <string name="pulse_render_mode_solid_lines">ソリッドライン</string>
-    <string name="pulse_color">色</string>
-    <string name="pulse_color_mode">カラーモード</string>
-    <string name="pulse_color_accent">アクセント</string>
-    <string name="pulse_color_custom">カスタム</string>
-    <string name="pulse_color_lava_lamp">ラーヴァランプ</string>
-    <string name="pulse_color_auto">アルバムアート</string>
-    <string name="pulse_color_chooser">色の選択</string>
-    <string name="smoothing_enabled_title">スムージングの有効化</string>
-    <string name="smoothing_enabled_summary">どちらのバーもよりスムーズに表示されます</string>
-    <string name="pulse_advanced_category">高度な設定</string>
-    <string name="pulse_legacy_mode_advanced_category">フェーディングブロックの設定</string>
-    <string name="pulse_custom_fudge_factor">感度レベル</string>
-    <string name="lavamp_speed_title">ラーヴァランプ速度</string>
-    <string name="pulse_solid_units_count">ソリッドラインの数</string>
-    <string name="pulse_solid_units_opacity">ソリッドラインの透明度</string>
-    <string name="pulse_solid_dimen_category">ソリッドラインの設定</string>
-    <string name="pulse_custom_dimen">バーの幅</string>
-    <string name="pulse_custom_div">バーの間隔</string>
-    <string name="pulse_filled_block_size">ブロックの大きさ</string>
-    <string name="pulse_empty_block_size">ブロックの間隔</string>
     <!-- Ambient display battery percentage -->
     <string name="ambient_battery_percent_title">下部のバッテリー残量</string>
     <string name="ambient_battery_percent_summary">Doze モード時にバッテリー残量の表示を有効にする</string>
@@ -364,14 +329,18 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">急速充電</string>
     <string name="fast_charging_summary">充電中の端末の発熱を減らすためやバッテリー寿命を伸ばすために無効にする</string>
-    <!-- Ambient music ticker location -->
+    <!-- Ambient music ticker -->
+    <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">新しい音楽トラックの再生時にアンビエント表示をします。トラック情報をダブルタップして次のトラックにスキップします。</string>
+    <string name="pulse_on_new_tracks_soli_summary">新規楽曲再生時にアンビエント表示をする</string>
     <string name="ambient_music_location">アンビエント音楽ティッカーを表示</string>
     <string name="ambient_music_disabled">無効</string>
     <string name="ambient_music_bottom">下部に表示 (既定)</string>
     <string name="ambient_music_center">中央に表示 (cLockの下)</string>
-    <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">クリップボードのアクセスアラートを表示</string>
-    <string name="show_clipboard_toast_summary">アプリがクリップボードにアクセスしようとした時にトーストを表示する</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">クリップボードのアクセスアラート</string>
+    <string name="clipboard_toast_info_show_important">重要なアラートのみを表示</string>
+    <string name="clipboard_toast_info_show_all">全てのアクセスアラートを表示</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">ネットワークアクセスを許可</string>
     <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効化する</string>
@@ -399,4 +368,75 @@
     <string name="security_dashboard_summary_face_and_fingerprint">画面ロック、指紋認証、顔認証ロック解除</string>
     <string name="face_redo_confirm_btn">やり直し</string>
     <string name="face_redo_warning_msg">既存の顔スキャンを削除して新しいスキャンを作成しますか?</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC 調光</string>
+    <string name="dc_dimming_info">暗い環境での眼への疲労を軽減させます。しかし、画像の画質や色の再現度が低下する可能性があります。</string>
+    <string name="dc_dimming_auto_mode_title">スケジュール</string>
+    <string name="dc_dimming_mode_brightness">輝度がしきい値以下になると有効になります</string>
+    <string name="dc_dimming_mode_full">時刻と明るさに依存</string>
+    <string name="dc_dimming_brightness_title">明るさのしきい値</string>
+    <string name="dc_dimming_brightness_disabled">無効</string>
+    <string name="dc_dimming_restore_auto_mode">自動モードに戻す</string>
+    <string name="dc_dimming_brightness_info">平均の明るさがしきい値を下回った時にのみ DC 調光を有効にします</string>
+    <string name="dc_dimming_off_auto_mode_auto">自動で有効化</string>
+    <string name="dc_dimming_on_auto_mode_auto">自動で無効化</string>
+    <string name="keywords_display_dc_dimming">DC 調光、フリッカー、目、疲労</string>
+    <!-- App Lock -->
+    <string name="applock_title">アプリロッカー</string>
+    <string name="applock_locked">ロック中</string>
+    <string name="applock_unlocked">ロック解除済み</string>
+    <string name="applock_locked_apps">ロックしたアプリ</string>
+    <string name="applock_unlocked_apps">未ロックのアプリ</string>
+    <string name="applock_lock_after_title">以下の後にアプリをロック</string>
+    <string name="applock_lock_after_instantly">すぐに</string>
+    <string name="applock_lock_after_15_seconds">15秒</string>
+    <string name="applock_lock_after_screen_off">画面を消灯</string>
+    <string name="applock_lock_after_summary">選択した制限時間後にアプリはロックされます</string>
+    <string name="applock_lock_after_instantly_summary">アプリを閉じると即座にロックされます</string>
+    <string name="applock_lock_after_15_seconds_summary">アプリは終了から15秒後にロックされます</string>
+    <string name="applock_lock_after_screen_off_summary">アプリは画面消灯時にロックされます</string>
+    <string name="applock_notification_info">それぞれのロック済みのアプリの設定に表示される通知アイコンをクリックすることで、アプリごとの通知の内容の表示/非表示を切り替えることができます。</string>
+    <string name="applock_show_notif">通知の内容を表示中です</string>
+    <string name="applock_hide_notif">通知の内容を非表示中です</string>
+    <string name="applock_setup">アプリのロックを設定</string>
+    <string name="applock_overlay_summary">このアプリはロックされているためこの機能は利用できません</string>
+    <plurals name="applock_summary">
+        <item quantity="other">%d個のアプリがロックされました</item>
+    </plurals>
+    <string name="keywords_applock_settings">アプリロック、アプリブロッカー、アプリ ロック、アプリ ロッカー</string>
+    <!-- Android 12 DP2 additions -->
+    <string name="advanced_battery_preference_title">バッテリー使用量の表示</string>
+    <string name="category_name_brightness">明るさ</string>
+    <string name="category_name_color">色</string>
+    <string name="category_name_general">一般</string>
+    <string name="category_name_lock_display">画面をロック</string>
+    <string name="category_name_others">その他</string>
+    <string name="category_name_visibility">視認性</string>
+    <string name="category_personal">個人用</string>
+    <string name="category_work">仕事用</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">スマートカットオフ</string>
+    <string name="smart_cutoff_summary">最高温度を設定する</string>
+    <string name="smart_cutoff_switch_title">スマートカットオフを使用</string>
+    <string name="smart_cutoff_level_title">適用停止レベル</string>
+    <string name="smart_cutoff_resume_level_title">適用開始レベル</string>
+    <!-- Screenshot settings -->
+    <string name="screenshot_settings_title">スクリーンショットの設定</string>
+    <string name="screenshot_settings_summary">スクリーンショットに関連するオプションを変更する</string>
+    <!-- Screenshot compression  -->
+    <string name="screenshot_compression_title">スクリーンショットの品質</string>
+    <string name="screenshot_compression_summary">スクリーンショットの品質を落としてファイルサイズを圧縮する</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">高感度タッチ</string>
+    <string name="high_touch_sensitivity_summary">手袋を着けたまま使用できるようにタッチ画面の感度を向上させる</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">タッチ画面のホバリング</string>
+    <string name="touchscreen_hovering_summary">ウェブブラウザやリモードデスクトップなどでマウスのようにホバリングできるようにする</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD オーディオ</string>
+    <string name="sbc_hd_priority_summary">SBC コーデックにデュアルチャンネルモードを既定で使用するかどうかを設定する</string>
+    <!-- Power Button Fingerprint -->
+    <string name="fingerprint_power_button_press_title">押してロック解除</string>
+    <string name="fingerprint_power_button_press_off_summary">画面消灯時に指紋センサーの電源ボタンを押してロック解除する</string>
+    <string name="fingerprint_power_button_press_on_summary">画面消灯時に指紋認証でロック解除するには電源ボタンをしっかりと押して下さい</string>
 </resources>
