@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2021 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Пронађите сензор за отиске прстију <xliff:g id="sensor_location">%1$s</xliff:g> вашег таблета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Пронађите сензор за отиске прстију <xliff:g id="sensor_location">%1$s</xliff:g> вашег уређаја.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Пронађите сензор за отиске прстију <xliff:g id="sensor_location">%1$s</xliff:g> вашег телефона.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">назад</string>
+    <string name="security_settings_fingerprint_sensor_location_front">napred</string>
+    <string name="security_settings_fingerprint_sensor_location_left">с леве стране</string>
+    <string name="security_settings_fingerprint_sensor_location_right">с десне стране</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Превуците отисак прста лево или надесно да бисте одбацили обавештења</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Да бисте одбацили обавештења, превуците налево или надесно на сензору отиска прста на задњој страни телефона.</string>
+    <!-- About device screen, build date -->
+    <string name="build_date">Датум израде</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer_summary">Непознато</string>
+    <!-- About device screen, device codename -->
+    <string name="device_codename">Кодно име уређаја</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_status">Evolution X статус</string>
+    <string name="evolution_x_version">Evolution X верзија</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Укупно RAM-а</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google продавница</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s </xliff:g></string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Изаберите величину шаблона</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Прикажи грешку шаблона</string>
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Прикажи тачкице шаблона</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук сликања екрана</string>
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">Програмер</string>
+    <string name="evolver_dashboard_summary">Почните да развијате ваш уређај уз помоћ наших функција</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Додирните за приказ информација</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Повежи јачину звука звона &amp; обавештења</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Боја светла</string>
+    <string name="custom_light_on_time_title">Време укљученог светла током LED пулсирања (милисекунде)</string>
+    <string name="custom_light_off_time_title">Време искљученог светла током LED пулсирања (милисекунде)</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Сачуване бежичне слушалице</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Температура батерије</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Превуците прстом за снимак екрана</string>
+    <string name="three_finger_gesture_summary">Превуците надоле са три прста да бисте направили снимак екрана</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Прикажи панел јачине звука на левој страни</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Брзо откључавање</string>
+    <string name="unlock_quick_unlock_control_summary">Откључај аутоматски када се унесе исправан PIN/лозинка</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Насумичан распоред</string>
+    <string name="unlock_scramble_pin_layout_summary">Насумичан PIN распоред при откључавању уређаја</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Отисак прста на закључаном екрану</string>
+    <string name="fod_gesture_summary">Омогућава откључавање уређаја без претходног буђења екрана</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Промените добављача резервних копија</string>
+    <string name="backup_transport_title">Изаберите добављача резервних копија</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Амбијентални гестови за буђење</string>
+    <string name="ambient_wake_gestures_summary">Прикажите амбијентални приказ уместо уобичајеног закључаног екрана на гестама за буђење</string>
+    <string name="lockscreen_display_title">Приказ на закључаном екрану</string>
+    <!-- Display - Rotation -->
+    <string name="display_rotation_title">Ротација</string>
+    <string name="display_rotation_summary">Изаберите углове ротације</string>
+    <string name="display_rotation_disabled">Онемогућено</string>
+    <string name="display_rotation_unit">степени</string>
+    <string name="display_rotation_category_title">Режими ротације</string>
+    <string name="display_rotation_0_title">0 степени</string>
+    <string name="display_rotation_90_title">90 степени</string>
+    <string name="display_rotation_180_title">180 степени</string>
+    <string name="display_rotation_270_title">270 степени</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Узорак вибрације звона</string>
+    <string name="pattern_custom">Прилагођено</string>
+    <string name="custom_vibration_pattern_title">Прилагођени образац</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Обриши кориштене податке?</string>
+    <string name="battery_stats_message">Статистика кориштења батерије ће бити изгубљена</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Здравље батерије</string>
+    <string name="battery_health_summary">Надгледајте стање батерије вашег уређаја</string>
+    <string name="current_battery_capacity">Тренутни капацитет батерије</string>
+    <string name="current_battery_capacity_summary">Тренутни капацитет батерије измерен у кернелу</string>
+    <string name="designed_battery_capacity">Дизајнирани капацитет батерије</string>
+    <string name="designed_battery_capacity_summary">Капацитет батерије који је дизајнирао произвођач</string>
+    <string name="battery_charge_cycles">Циклуси пуњења су завршени</string>
+    <!-- Navbar options -->
+    <string name="show_gestures_navbar_switch_title">Прикажи цртицу</string>
+    <string name="show_gestures_navbar_switch_summary">Прикажи нави бар за гесте</string>
+    <string name="navbar_length">Дужина траке покрета</string>
+    <string name="hidden_label">Сакривено</string>
+    <string name="long_label">Дуго</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Кружите кроз режиме</string>
+    <string name="prevent_ringing_option_cycle_summary">Укључено (кружите кроз режиме)</string>
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_title">Двоструки додир</string>
+    <string name="double_tap_lock_screen_title">Дупли додир за спавање</string>
+    <string name="double_tap_lock_screen_summary">Двапут додирните закључани екран и празна подручја траке стања да бисте окренули екран</string>
+    <!-- Doze on double tap -->
+    <string name="doze_double_tap_title">Двапут додирните телефон за проверу</string>
+    <string name="doze_double_tap_summary">Пулсна нотификација са двоструким додиром</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Појачај звук звона</string>
+    <string name="increasing_ring_min_volume_title">Почетна јачина звука</string>
+    <string name="increasing_ring_ramp_up_time_title">Време појачавања</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">обавештења, белешке обавештења</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Детекција када је уређај у џепу</string>
+    <string name="pocket_judge_summary">Блокирање екрана и улаза са дугмета када је уређај у џепу</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Адаптивна репродукција</string>
+    <string name="adaptive_playback_disabled_summary">Искључено</string>
+    <string name="adaptive_playback_timeout_title">Користи временско ограничење од</string>
+    <string name="adaptive_playback_timeout_none">Без временског ограничења</string>
+    <string name="adaptive_playback_timeout_none_summary">Укључено (без временског ограничења)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунди</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Укључено (30 секунди)</string>
+    <string name="adaptive_playback_timeout_1_min">1 минут</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Укључено (1 минут)</string>
+    <string name="adaptive_playback_timeout_2_min">2 минута</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Укључено (2 минута)</string>
+    <string name="adaptive_playback_timeout_5_min">5 минута</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Укључено (5 минута)</string>
+    <string name="adaptive_playback_timeout_10_min">10 минута</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Укључено (10 минута)</string>
+    <string name="adaptive_playback_explainer">Прилагодљива репродукција аутоматски зауставља медиј када се јачина звука искључи и аутоматски ће се наставити када се јачина звука врати у задато време.</string>
+    <!-- Running services toggle -->
+    <string name="background_processes_settings_title">Позадински процеси</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Прилагодите екран на основу доба дана и осветљености, како би се повећала читљивост и смањило напрезање очију</string>
+    <string name="live_display_mode">Режим приказа</string>
+    <string name="live_display_color_temperature_title">Температура боје</string>
+    <string name="live_display_color_temperature_summary">Дан: <xliff:g id="day_temperature">%1$d</xliff:g> K, ноћ: <xliff:g id="night_temperature">%2$d</xliff:g> K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g> K</string>
+    <string name="live_display_day">Дан</string>
+    <string name="live_display_night">Ноћ</string>
+    <string name="live_display_outdoor_mode_title">Аутоматски режим „на отвореном“</string>
+    <string name="live_display_outdoor_mode_summary">Аутоматски повећајте осветљеност и засићеност под јаким светлом</string>
+    <string name="live_display_anti_flicker_title">Анти фликер</string>
+    <string name="live_display_anti_flicker_summary">Спречите опсежно треперење и смањите напрезање очију у условима слабог осветљења што може погоршати боју.</string>
+    <string name="live_display_low_power_title">Смањи потрошњу енергије</string>
+    <string name="live_display_low_power_summary">Прилагодите екран за најнижу потрошњу енергије без погоршања квалитета</string>
+    <string name="live_display_enhance_color_title">Побољшање боја</string>
+    <string name="live_display_enhance_color_summary">Побољшајте живост боја за нијансе коже, пејзаже и друге слике</string>
+    <string name="live_display_color_profile_title">Профил боја</string>
+    <string name="live_display_color_profile_standard_title">Стандардни</string>
+    <string name="live_display_color_profile_standard_summary">Тачност боја и високи контраст</string>
+    <string name="live_display_color_profile_natural_title">Природно</string>
+    <string name="live_display_color_profile_natural_summary">Реалистичне боје и нијансе коже</string>
+    <string name="live_display_color_profile_dynamic_title">Динамично</string>
+    <string name="live_display_color_profile_dynamic_summary">Засићеност боја и високи контраст</string>
+    <string name="live_display_color_profile_cinema_title">Биоскоп</string>
+    <string name="live_display_color_profile_cinema_summary">Идеална репродукција боја за видео-снимке</string>
+    <string name="live_display_color_profile_astronomy_title">Астрономија</string>
+    <string name="live_display_color_profile_astronomy_summary">Тамноцрвена за очување видљивости ноћу</string>
+    <string name="live_display_color_profile_photography_title">Фотографија</string>
+    <string name="live_display_color_profile_photography_summary">Идеална репродукција боја за фотографије</string>
+    <string name="live_display_color_profile_basic_title">Основни</string>
+    <string name="live_display_color_profile_basic_summary">Користите некалибрисани екран</string>
+    <string name="live_display_color_profile_adaptive_title">Прилагодљив</string>
+    <string name="live_display_color_profile_adaptive_summary">Боје се прилагођавају амбијенталним условима</string>
+    <string name="live_display_color_profile_reading_title">Читање</string>
+    <string name="live_display_color_profile_reading_summary">Топлије боје за мање напрезање очију</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Боје које одговарају простору боја sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Боје које одговарају простору боја DCI-P3</string>
+    <string name="live_display_reading_mode_title">Режим читања</string>
+    <string name="live_display_reading_mode_summary">Режим сивих тонова за дуготрајно читање</string>
+    <string name="color_calibration_title">Калибрација боје</string>
+    <string name="color_calibration_summary">Калибрација боја екрана</string>
+    <string name="color_red_title">Црвена</string>
+    <string name="color_green_title">Зелена</string>
+    <string name="color_blue_title">Плава</string>
+    <!-- LiveDisplay - Picture Adjustment -->
+    <string name="picture_adjustment_title">Подешавање слике</string>
+    <string name="picture_adjustment_summary">Подесите нијансу, засићеност, интензитет и контраст</string>
+    <string name="adj_hue_title">Нијанса</string>
+    <string name="adj_saturation_title">Засићеност</string>
+    <string name="adj_intensity_title">Интензитет</string>
+    <string name="adj_contrast_title">Контраст</string>
+    <!-- AoD on charge -->
+    <string name="doze_on_charge_title">Увек укључено током пуњења</string>
+    <string name="doze_on_charge_summary">Прикажи Always On Ambient екран током пуњења</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Учесталост звучних обавештења</string>
+    <string name="app_notification_sound_timeout_summary_template">Звуци и вибрација не чешће од једном сваких <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Без ограничења</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 секунди</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 секунди</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 минут</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 минута</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 минута</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 минута</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Повратне информације</string>
+    <string name="back_gesture_haptic_summary">Омогућите ефекат хаптичног крпеља на покрету назад</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Пуна</string>
+    <string name="back_height_high_label">Дно</string>
+    <string name="back_options_dialog_title">Опције</string>
+    <string name="back_height_message">Вредност висине екрана која се користи као додирна површина за гесте уназад.</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимална вредност освежавања</string>
+    <string name="max_refresh_rate_title">Максимална вредност освежавања</string>
+    <string name="battery_saver_refresh_rate_title">Редукујте вредност освежавања</string>
+    <string name="battery_saver_refresh_rate_summary">Користите брзину освежавања екрана од 60Hz да бисте уштедели енергију када је укључена штедња батерије</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Гестови по екрану</string>
+    <string name="touchscreen_gesture_settings_summary">Изводите разне покрете додирним екраном за брзе акције</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Кораци гласноће</string>
+    <string name="volume_steps_summary">Број корака за гласноћу</string>
+    <string name="volume_steps_alarm_title">Кораци гласноће: аларм</string>
+    <string name="volume_steps_dtmf_title">Кораци гласноће: DTMF</string>
+    <string name="volume_steps_music_title">Кораци гласноће: Музика</string>
+    <string name="volume_steps_notification_title">Кораци гласноће: Обавештења</string>
+    <string name="volume_steps_ring_title">Кораци гласноће: Звоно</string>
+    <string name="volume_steps_system_title">Кораци гласноће: Систем</string>
+    <string name="volume_steps_voice_call_title">Кораци гласноће: Гласовни Позиви</string>
+    <string name="volume_steps_reset">Ресетуј</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Анимација повратне гесте</string>
+    <string name="back_gesture_arrow_summary">Прикажи анимирану стрелицу за повратну гесту.</string>
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Непознато - притисните за ажурирање</string>
+    <string name="night_display_location_text">\n\nРаспоред од заласка до изласка сунца захтева омогућене услуге локације да бисте добили тачна времена за вашу локацију.</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Паметно пуњење</string>
+    <string name="smart_charging_summary">Подесите максимални ниво пуњења</string>
+    <string name="smart_charging_switch_title">Користите паметно пуњење</string>
+    <string name="smart_charging_level_title">Зауставите ниво окидача</string>
+    <string name="smart_charging_resume_level_title">Покрените ниво окидача</string>
+    <string name="smart_charging_reset_stats_title">Ресетујте статистику батерије</string>
+    <string name="smart_charging_reset_stats_summary">Ресетујте статистику батерије након достизања корисничког нивоа пуњења</string>
+    <string name="smart_charging_footer">Паметно пуњење вам омогућава да подесите максимални ниво пуњења како бисте продужили век трајања батерије.</string>
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Уштеда батерије</string>
+    <string name="smart_charging_category_title">Паметно пуњење</string>
+    <string name="smart_cutoff_category_title">Паметан пресек</string>
+    <string name="battery_info_category_title">Здравље батерије</string>
+    <string name="battery_usage_category_title">Информације о Батерији</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Искључено</string>
+    <string name="greatest_tick_label">Пола екрана</string>
+    <string name="gesture_back_deadzone_label">Мртва зона</string>
+    <string name="back_sensitivity_dialog_message_cust">Користите прву и другу траку за тражење да бисте конфигурисали осетљивост превлачења уназад, последња трака за тражење за постављање мртве области на врх екрана на којој превлачење не може бити, да бисте избегли сукобе са покретима у апликацији.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Без радње</string>
+    <string name="action_search">Асистент</string>
+    <string name="action_voice_search">Гласовна претрага</string>
+    <string name="action_launch_camera">Камера</string>
+    <string name="action_flashlight">Батеријска лампа</string>
+    <string name="action_volume_panel">Панел јачине звука</string>
+    <string name="action_screen_off">Искључи екран</string>
+    <string name="action_screenshot">Снимак екрана</string>
+    <string name="action_app_action">Апликација</string>
+    <string name="active_edge_ss_app_select_title">Изабери апликацију за кратко превлачење</string>
+    <string name="active_edge_ls_app_select_title">Изабери апликацију за дуго превлачење</string>
+    <string name="active_edge_app_select_summary">Изабери апликацију за опције превлачења</string>
+    <string name="action_qs_panel">Панел поставки</string>
+    <string name="action_notifications">Обавештења</string>
+    <string name="action_clear_notifications">Избриши обавештења</string>
+    <string name="action_ringer_modes">Режими звона</string>
+    <string name="kill_app">Затворите апликацију у првом плану</string>
+    <string name="skip_song">Прескочи песму</string>
+    <string name="prev_song">Претходна песма</string>
+    <string name="show_powermenu">Прикажи Мени за укључење</string>
+    <string name="partial_screenshot">Делимичан снимак екрана</string>
+    <string name="hush_mute">Утишај обавештења</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Напредне гесте</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Прилагоди гесте и намести произвољне акције</string>
+    <string name="navbar_gesture_tweaks_cat_title">Напредно</string>
+    <string name="long_back_swipe_timeout_title">Време за акцију дугог превлачења прстом</string>
+    <string name="left_swipe_actions_title">Дугачка акција превлачења улево</string>
+    <string name="left_swipe_app_action_title">Изаберите дуго превлачење улево</string>
+    <string name="right_swipe_actions_title">Дугачка акција превлачења удесно</string>
+    <string name="right_swipe_app_action_title">Изаберите апликацију за дуго превлачење удесно</string>
+    <string name="left_vertical_swipe_actions_title">Акција превлачења на левој страни</string>
+    <string name="left_vertical_swipe_app_action_title">Изабери апликацију за превлачење на левој страни</string>
+    <string name="right_vertical_swipe_actions_title">Акција превлачења на десној страни</string>
+    <string name="right_vertical_swipe_app_action_title">Изабери апликацију за превлачење на десној страни</string>
+    <string name="gesture_nav_tweaks_footer_info">Да бисте изабрали одређену активност у апликацији за радњу, дуго притисните било коју апликацију у бирачу апликација.\n\nАко се покретач приказује, превуците прстом у самом дну екрана да бисте активирали.</string>
+    <string name="back_swipe_extended_title">Проширена акција превлачења</string>
+    <string name="back_swipe_extended_summary">Покренути акцију на ширем превлачењу (више од половине величине екрана), или превлачењем л (довољно вертикално)</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Ниво батерије при дну</string>
+    <string name="ambient_battery_percent_summary">Омогући приказ нивоа батерије приликом дозирања</string>
+    <!-- Screenshot type -->
+    <string name="screenshot_type_title">Врста снимка екрана</string>
+    <string name="screenshot_type_fullscreen">Уради снимак целог екрана</string>
+    <string name="screenshot_type_partial">Изабери део екрана за узимање снимка екрана</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Звук пуњења</string>
+    <string name="charging_vibro_title">Вибрација пуњења</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Брзо пуњење</string>
+    <string name="fast_charging_summary">Онемогућите да бисте смањили топлоту коју уређај производи током пуњења или продужили век трајања батерије</string>
+    <!-- Ambient music ticker -->
+    <string name="pulse_on_new_tracks_title">Амбијентални пулс на новој стази</string>
+    <string name="pulse_on_new_tracks_summary">Прикажите амбијентални приказ када се репродукује нова музичка нумера. Двапут додирните информације о нумери да бисте прешли на следећу нумеру.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Прикажите амбијентални приказ када се репродукује нова музичка нумера</string>
+    <string name="ambient_music_location">Локација амбијенталне музике</string>
+    <string name="ambient_music_disabled">Онемогућено</string>
+    <string name="ambient_music_bottom">На дну ( подразумевано)</string>
+    <string name="ambient_music_center">У средини ( под cLock-ом )</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Обавештења о приступу у привремену меморију</string>
+    <string name="clipboard_toast_info_show_important">Прикажи само важна упозорења</string>
+    <string name="clipboard_toast_info_show_all">Прикажи сва упозорења о приступу</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Дозволи мрежни приступ</string>
+    <string name="data_usage_app_restrict_all_summary">Омогућите употребу мреже</string>
+    <string name="data_usage_app_restrict_mobile">Мобилни подаци</string>
+    <string name="data_usage_app_restrict_mobile_summary">Омогући употребу података мобилне мреже</string>
+    <string name="data_usage_app_restrict_vpn">VPN подаци</string>
+    <string name="data_usage_app_restrict_vpn_summary">Дозволи употребу података преко VPN-а</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi подаци</string>
+    <string name="data_usage_app_restrict_wifi_summary">Укључи употребу Wi\u2011Fi података</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Апликације преко целог екрана</string>
+    <string name="display_cutout_force_fullscreen_summary">Форсирај апликације да игноришу простор ноча</string>
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Полупречник траке покрета</string>
+    <string name="small_label">1 dp</string>
+    <string name="big_label">4 dp</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Онемогућено</string>
+    <string name="selinux_status_permissive">Дозвољено</string>
+    <string name="selinux_status_enforcing">Наметнут</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Уклоните постојећи скен лица и креирајте нови скен</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Уради поново скен лица</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Закључани екран , отисак прста , откључавање са лицем</string>
+    <string name="face_redo_confirm_btn">Вратити</string>
+    <string name="face_redo_warning_msg">Желите ли да уклоните постојећи скен лица и креирате нови ?</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC затамњење</string>
+    <string name="dc_dimming_info">Смањује напрезање очију у условима слабог осветљења, али може довести до смањеног квалитета слике и лошег стварања боја.</string>
+    <string name="dc_dimming_auto_mode_title">Распоред</string>
+    <string name="dc_dimming_mode_brightness">Укључите када је осветљеност испод прага</string>
+    <string name="dc_dimming_mode_full">Зависно од времена и осветљености</string>
+    <string name="dc_dimming_brightness_title">Праг осветљености</string>
+    <string name="dc_dimming_brightness_disabled">Онемогућено</string>
+    <string name="dc_dimming_restore_auto_mode">Вратите аутоматски режим</string>
+    <string name="dc_dimming_brightness_info">ДЦ затамњење активирајте само када је просечна осветљеност испод прага</string>
+    <string name="dc_dimming_off_auto_mode_auto">Укључиће се аутоматски</string>
+    <string name="dc_dimming_on_auto_mode_auto">Искључиће се аутоматски</string>
+    <string name="keywords_display_dc_dimming">једносмерно светло затамњење, треперење, око, напрезање</string>
+    <!-- App Lock -->
+    <string name="applock_title">Закључавање апликац.</string>
+    <string name="applock_locked">Закључано</string>
+    <string name="applock_unlocked">Откључано</string>
+    <string name="applock_locked_apps">Закључане апликације</string>
+    <string name="applock_unlocked_apps">Откључане апликације</string>
+    <string name="applock_lock_after_title">Закључај апликацију након</string>
+    <string name="applock_lock_after_instantly">Одмах</string>
+    <string name="applock_lock_after_15_seconds">15 Секунди</string>
+    <string name="applock_lock_after_screen_off">Екран искључен</string>
+    <string name="applock_lock_after_summary">Апликација ће бити закључана након одабраног временског ограничења</string>
+    <string name="applock_lock_after_instantly_summary">Апликација ће се закључати тренутно када се затвори</string>
+    <string name="applock_lock_after_15_seconds_summary">Апликација ће бити закључана 15 секунди након затварања</string>
+    <string name="applock_lock_after_screen_off_summary">Апликација ће бити закључана када се екран искључи</string>
+    <string name="applock_notification_info">Можете приказати / сакрити садржај обавештења по апликацији кликом на икону обавештења</string>
+    <string name="applock_show_notif">Приказује се садржај обавештења</string>
+    <string name="applock_hide_notif">Сакривање садржаја обавештења</string>
+    <string name="applock_setup">Подешавање закључавања апликације</string>
+    <string name="applock_overlay_summary">Ова функција није доступна јер је ова апликација закључана</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 апликација закључана</item>
+        <item quantity="few">%d апликација закључана</item>
+        <item quantity="other">%d апликација закључана</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, закључавање апликације, закључавање апликације</string>
+    <!-- Android 12 DP2 additions -->
+    <string name="advanced_battery_preference_title">Погледајте употребу батерије</string>
+    <string name="category_name_brightness">Осветљеност</string>
+    <string name="category_name_color">Боја</string>
+    <string name="category_name_general">Опште</string>
+    <string name="category_name_lock_display">Закључавање екрана</string>
+    <string name="category_name_others">Остало</string>
+    <string name="category_name_visibility">Видљивост</string>
+    <string name="category_personal">Лично</string>
+    <string name="category_work">Посао</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Паметан пресек</string>
+    <string name="smart_cutoff_summary">Подеси максималну температуру</string>
+    <string name="smart_cutoff_switch_title">Користи Паметан пресек</string>
+    <string name="smart_cutoff_level_title">Зауставите ниво окидача</string>
+    <string name="smart_cutoff_resume_level_title">Покрените ниво окидача</string>
+    <!-- Screenshot settings -->
+    <string name="screenshot_settings_title">Подешавања слике екрана</string>
+    <string name="screenshot_settings_summary">Изменити опције повезане са снимцима екрана</string>
+    <!-- Screenshot compression  -->
+    <string name="screenshot_compression_title">Квалитет снимка екрана</string>
+    <string name="screenshot_compression_summary">Компримовати величину екрана уз губитак у квалитету слике</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Висока осетљивост на додир</string>
+    <string name="high_touch_sensitivity_summary">Повећава осетљивост екрана ради коришћења уређаја у рукавицама</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Задржавање прста</string>
+    <string name="touchscreen_hovering_summary">Омогућава радње при задржавању прста изнад елемената интерфејса у веб-прегледачима или другим апликацијама</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD аудио</string>
+    <string name="sbc_hd_priority_summary">Да ли се подразумевано користи двоканални режим за SBC кодек</string>
+    <!-- Power Button Fingerprint -->
+    <string name="fingerprint_power_button_press_title">Притисните за откључавање</string>
+    <string name="fingerprint_power_button_press_off_summary">Додирните дугме за напајање да бисте откључали отиском прста када је екран искључен</string>
+    <string name="fingerprint_power_button_press_on_summary">Чврсто притисните дугме за напајање да бисте откључали отиском прста када је екран искључен</string>
+</resources>
