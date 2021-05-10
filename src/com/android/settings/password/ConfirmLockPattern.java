@@ -110,6 +110,7 @@ public class ConfirmLockPattern extends ConfirmDeviceCredentialBaseActivity {
         private DisappearAnimationUtils mDisappearAnimationUtils;
 
         private boolean mIsManagedProfile;
+        private byte mPatternSize;
 
         // required constructor for fragments
         public ConfirmLockPatternFragment() {
@@ -135,6 +136,7 @@ public class ConfirmLockPattern extends ConfirmDeviceCredentialBaseActivity {
             mSudContent.setPadding(mSudContent.getPaddingLeft(), 0, mSudContent.getPaddingRight(),
                     0);
             mIsManagedProfile = UserManager.get(getActivity()).isManagedProfile(mEffectiveUserId);
+            mPatternSize = mLockPatternUtils.getLockPatternSize(mEffectiveUserId);
 
             // make it so unhandled touch events within the unlock screen go to the
             // lock pattern view.
@@ -148,6 +150,7 @@ public class ConfirmLockPattern extends ConfirmDeviceCredentialBaseActivity {
                         ConfirmDeviceCredentialBaseFragment.HEADER_TEXT);
                 mDetailsText = intent.getCharSequenceExtra(
                         ConfirmDeviceCredentialBaseFragment.DETAILS_TEXT);
+                mPatternSize = intent.getByteExtra("pattern_size", mPatternSize);
             }
             if (TextUtils.isEmpty(mHeaderText) && mIsManagedProfile) {
                 mHeaderText = mDevicePolicyManager.getOrganizationNameForUser(mUserId);
@@ -155,8 +158,7 @@ public class ConfirmLockPattern extends ConfirmDeviceCredentialBaseActivity {
 
             mLockPatternView.setInStealthMode(!mLockPatternUtils.isVisiblePatternEnabled(
                     mEffectiveUserId));
-            mLockPatternView.setLockPatternSize(
-                    mLockPatternUtils.getLockPatternSize(mEffectiveUserId));
+            mLockPatternView.setLockPatternSize(mPatternSize);
             mLockPatternView.setOnPatternListener(mConfirmExistingLockPatternListener);
             mLockPatternView.setOnTouchListener((v, event) -> {
                 if (event.getAction() == MotionEvent.ACTION_DOWN) {
@@ -455,7 +457,7 @@ public class ConfirmLockPattern extends ConfirmDeviceCredentialBaseActivity {
                 mLockPatternView.setEnabled(false);
 
                 final LockscreenCredential credential = LockscreenCredential.createPattern(pattern,
-                        mLockPatternUtils.getLockPatternSize(mEffectiveUserId));
+                        mPatternSize);
                 // TODO(b/161956762): Sanitize this
                 Intent intent = new Intent();
                 if (mReturnGatekeeperPassword) {
