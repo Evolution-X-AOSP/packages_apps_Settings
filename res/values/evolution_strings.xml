@@ -268,4 +268,8 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
 </resources>
