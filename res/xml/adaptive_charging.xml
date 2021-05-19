@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2020 The PixelDust Project
+  ~ Copyright (C) 2021 Havoc-OS
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -18,42 +18,36 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:key="smart_charging_screen"
-    android:title="@string/smart_charging_title">
-
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
-        android:key="smart_charging"
-        android:title="@string/smart_charging_switch_title"
-        android:defaultValue="false" />
+    android:key="adaptive_charging_preference"
+    android:title="@string/adaptive_charging_title">
 
     <com.evolution.settings.preference.CustomSeekBarPreference
-        android:key="smart_charging_level"
-        android:title="@string/smart_charging_level_title"
+        android:key="adaptive_charging_cutoff_level"
+        android:title="@string/adaptive_charging_cutoff_title"
         android:max="100"
         settings:min="65"
         settings:units="%"
-        android:defaultValue="80"
-        android:dependency="smart_charging" />
+        android:defaultValue="80" />
 
     <com.evolution.settings.preference.CustomSeekBarPreference
-        android:key="smart_charging_resume_level"
-        android:title="@string/smart_charging_resume_level_title"
+        android:key="adaptive_charging_resume_level"
+        android:title="@string/adaptive_charging_resume_title"
         android:max="99"
         settings:min="1"
         settings:units="%"
-        android:defaultValue="60"
-        android:dependency="smart_charging" />
+        android:defaultValue="60" />
 
     <com.evolution.settings.preference.SystemSettingSwitchPreference
-        android:key="smart_charging_reset_stats"
-        android:title="@string/smart_charging_reset_stats_title"
-        android:summary="@string/smart_charging_reset_stats_summary"
-        android:defaultValue="false"
-        android:dependency="smart_charging" />
+        android:key="adaptive_charging_reset_stats"
+        android:title="@string/adaptive_charging_reset_stats_title"
+        android:summary="@string/adaptive_charging_reset_stats_summary"
+        android:defaultValue="false" />
 
     <com.android.settingslib.widget.FooterPreference
-        android:key="smart_charging_footer"
-        android:selectable="false"
-        settings:searchable="false" />
+        android:key="adaptive_charging_footer_preference"
+        android:selectable="true"
+        android:title="@string/adaptive_charging_description"
+        settings:allowDividerAbove="true"
+        settings:searchable="false"/>
 
 </PreferenceScreen>

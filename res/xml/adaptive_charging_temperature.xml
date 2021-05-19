@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2021 Palladium-OS
+  ~ Copyright (C) 2021 Havoc-OS
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -18,30 +18,30 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:key="smart_cutoff_screen"
-    android:title="@string/smart_cutoff_title">
-
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
-        android:key="smart_cutoff"
-        android:title="@string/smart_cutoff_switch_title"
-        android:defaultValue="false" />
+    android:key="adaptive_charging_temperature_preference"
+    android:title="@string/adaptive_charging_temperature_title">
 
     <com.evolution.settings.preference.CustomSeekBarPreference
-        android:key="smart_cutoff_level"
-        android:title="@string/smart_cutoff_level_title"
+        android:key="adaptive_charging_cutoff_temperature"
+        android:title="@string/adaptive_charging_cutoff_title"
         android:max="45"
         settings:min="25"
         settings:units="°C"
-        android:defaultValue="30"
-        android:dependency="smart_cutoff" />
+        android:defaultValue="30" />
 
     <com.evolution.settings.preference.CustomSeekBarPreference
-        android:key="smart_cutoff_resume_level"
-        android:title="@string/smart_cutoff_resume_level_title"
+        android:key="adaptive_charging_resume_temperature"
+        android:title="@string/adaptive_charging_resume_title"
         android:max="35"
         settings:min="20"
         settings:units="°C"
-        android:defaultValue="25"
-        android:dependency="smart_cutoff" />
+        android:defaultValue="25" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="adaptive_charging_footer_preference"
+        android:selectable="true"
+        android:title="@string/adaptive_charging_description"
+        settings:allowDividerAbove="true"
+        settings:searchable="false"/>
 
 </PreferenceScreen>
