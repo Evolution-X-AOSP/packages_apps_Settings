@@ -54,6 +54,8 @@ import com.android.settings.fuelgauge.batterytip.BatteryTipPreferenceController;
 import com.android.settings.fuelgauge.batterytip.tips.BatteryTip;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.fuelgauge.EstimateKt;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.utils.PowerUtil;
@@ -273,12 +275,19 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         if (!getResources().getBoolean(R.bool.config_supportBatteryHealth)) {
             getPreferenceScreen().removePreference(mBatteryInfoCat);
         }
+    }
 
-        // Check availability of Smart Charging
-        mSmartChargingCat = (PreferenceCategory) findPreference(KEY_SMART_CHARGING_CATEGORY);
-        if (!getResources().getBoolean(R.bool.config_supportSmartCharging)) {
-            getPreferenceScreen().removePreference(mSmartChargingCat);
-        }
+    @Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return buildPreferenceControllers(context, getSettingsLifecycle());
+    }
+
+    private static List<AbstractPreferenceController> buildPreferenceControllers(
+            Context context, Lifecycle lifecycle) {
+        final List<AbstractPreferenceController> controllers = new ArrayList<>();
+        controllers.add(new AdaptiveChargingPreferenceController(context));
+        controllers.add(new AdaptiveChargingTemperaturePreferenceController(context));
+        return controllers;
     }
 
     @Override

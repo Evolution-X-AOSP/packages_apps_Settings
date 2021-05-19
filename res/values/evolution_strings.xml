@@ -153,7 +153,7 @@
     <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
 
     <!-- Navbar options -->
     <string name="show_gestures_navbar_switch_title">Show pill</string>
@@ -324,21 +324,20 @@
     <string name="unknown_night_light_time">Unknown - press to update</string>
     <string name="night_display_location_text">\n\nThe schedule from sunset to sunrise requires enabled location services to get the correct times for your location.</string>
 
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Smart charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery.</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Adaptive Charging</string>
+    <string name="adaptive_charging_temperature_title">Adaptive Temperature</string>
+    <string name="adaptive_charging_summary">On / Conditionally restricting charging</string>
+    <string name="adaptive_charging_cutoff_title">Stop charging at</string>
+    <string name="adaptive_charging_resume_title">Resume charging at</string>
+    <string name="adaptive_charging_reset_stats_title">Reset battery stats</string>
+    <string name="adaptive_charging_reset_stats_summary">Reset statistics after reaching user defined charging level</string>
+    <string name="adaptive_charging_description">Adaptive charging helps extend the lifespan of your battery by restricting charging under certain conditions.</string>
 
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">Battery saver</string>
-    <string name="smart_charging_category_title">Smart charging</string>
-    <string name="smart_cutoff_category_title">Smart cutoff</string>
+    <string name="adaptive_charging_category_title">Adaptive charging</string>
     <string name="battery_info_category_title">Battery health</string>
+    <string name="battery_saver_category_title">Battery saver</string>
     <string name="battery_usage_category_title">Battery info</string>
 
     <!-- Back Gestures -->
@@ -500,13 +499,6 @@
     <string name="category_name_visibility">Visibility</string>
     <string name="category_personal">Personal</string>
     <string name="category_work">Work</string>
-
-    <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
-    <string name="smart_cutoff_level_title">Stop trigger level</string>
-    <string name="smart_cutoff_resume_level_title">Start trigger level</string>
 
     <!-- Screenshot settings -->
     <string name="screenshot_settings_title">Screenshot settings</string>

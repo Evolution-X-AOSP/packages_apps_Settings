@@ -70,26 +70,20 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="smart_charging_category"
-        android:title="@string/smart_charging_category_title">
+        android:key="adaptive_charging_category"
+        android:title="@string/adaptive_charging_category_title">
 
-        <Preference
-            android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
-            android:key="smart_charging_key"
-            android:title="@string/smart_charging_title"
-            android:summary="@string/smart_charging_summary" />
+        <com.evolution.settings.preference.SystemSettingMasterSwitchPreference
+            android:fragment="com.android.settings.fuelgauge.AdaptiveChargingSettings"
+            android:key="adaptive_charging"
+            android:defaultValue="false"
+            android:title="@string/adaptive_charging_title" />
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="smart_cutoff_category"
-        android:title="@string/smart_cutoff_category_title">
-
-        <Preference
-            android:fragment="com.android.settings.fuelgauge.smartcutoff.SmartCutoffSettings"
-            android:key="smart_cutoff_key"
-            android:title="@string/smart_cutoff_title"
-            android:summary="@string/smart_cutoff_summary" />
+        <com.evolution.settings.preference.SystemSettingMasterSwitchPreference
+            android:fragment="com.android.settings.fuelgauge.AdaptiveChargingTemperatureSettings"
+            android:key="adaptive_charging_temperature"
+            android:defaultValue="false"
+            android:title="@string/adaptive_charging_temperature_title" />
 
     </PreferenceCategory>
 
