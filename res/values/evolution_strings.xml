@@ -166,14 +166,14 @@
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
 
-    <!-- Double tap-to-sleep -->
+    <!-- Double-tap to sleep -->
     <string name="double_tap_title">Double tap</string>
-    <string name="double_tap_lock_screen_title">Double tap to sleep</string>
-    <string name="double_tap_lock_screen_summary">Double tap on the lock screen and status bar empty areas to turn the screen off</string>
+    <string name="double_tap_lock_screen_title">Tap to sleep</string>
+    <string name="double_tap_lock_screen_summary">Double-tap on the lock screen and status bar empty areas to turn the screen off</string>
 
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <!-- Doze on double-tap -->
+    <string name="doze_double_tap_title">Tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double-tap</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
@@ -407,7 +407,7 @@
 
     <!-- Ambient music ticker -->
     <string name="pulse_on_new_tracks_title">Ambient pulse on new track</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double-tap on track info to skip to next track.</string>
     <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
     <string name="ambient_music_location">Ambient music ticker location</string>
     <string name="ambient_music_disabled">Disabled</string>
