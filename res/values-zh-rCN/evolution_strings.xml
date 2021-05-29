@@ -123,11 +123,11 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">循环通过模式</string>
     <string name="prevent_ringing_option_cycle_summary">开启 (循环通过模式)</string>
-    <!-- Double tap-to-sleep -->
+    <!-- Double-tap to sleep -->
     <string name="double_tap_title">双击</string>
     <string name="double_tap_lock_screen_title">双击睡眠</string>
     <string name="double_tap_lock_screen_summary">双击锁屏界面和状态栏区域以关闭屏幕</string>
-    <!-- Doze on double tap -->
+    <!-- Doze on double-tap -->
     <string name="doze_double_tap_title">双击检查通知</string>
     <string name="doze_double_tap_summary">双击快速显示通知</string>
     <!-- Increasing ring tone volume -->
@@ -257,20 +257,19 @@
     <!-- Night Display API strings -->
     <string name="unknown_night_light_time">未知-按下升级</string>
     <string name="night_display_location_text">\n\n从日落到日出的时间表需要启用的位置服务才能获取您所在位置的正确时间。</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">智能充电</string>
-    <string name="smart_charging_summary">设置充电最高电量</string>
-    <string name="smart_charging_switch_title">启用智能充电</string>
-    <string name="smart_charging_level_title">停止触发级别</string>
-    <string name="smart_charging_resume_level_title">开始触发级别</string>
-    <string name="smart_charging_reset_stats_title">重置电池统计信息</string>
-    <string name="smart_charging_reset_stats_summary">在达到用户定义充电量之后重置电池统计</string>
-    <string name="smart_charging_footer">智能充电允许您设置最大充电电量，以延长电池的使用寿命</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">自适应充电</string>
+    <string name="adaptive_charging_temperature_title">自适应温度</string>
+    <string name="adaptive_charging_summary">开/有条件限制充电</string>
+    <string name="adaptive_charging_cutoff_title">停止充电阀值</string>
+    <string name="adaptive_charging_resume_title">恢复充电阀值</string>
+    <string name="adaptive_charging_reset_stats_title">重置电池状态</string>
+    <string name="adaptive_charging_reset_stats_summary">达到用户定义的充电级别后重置统计</string>
+    <string name="adaptive_charging_description">自适应充电有助于通过在某些条件下限制充电来延长电池寿命。</string>
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">省电模式</string>
-    <string name="smart_charging_category_title">智能充电</string>
-    <string name="smart_cutoff_category_title">智能关机</string>
+    <string name="adaptive_charging_category_title">自适应充电</string>
     <string name="battery_info_category_title">电池健康状态</string>
+    <string name="battery_saver_category_title">省电模式</string>
     <string name="battery_usage_category_title">电池信息</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">关闭</string>
@@ -414,12 +413,6 @@
     <string name="category_name_visibility">可见度</string>
     <string name="category_personal">个人</string>
     <string name="category_work">工作</string>
-    <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">智能关机</string>
-    <string name="smart_cutoff_summary">设定最高温度</string>
-    <string name="smart_cutoff_switch_title">使用智能截止</string>
-    <string name="smart_cutoff_level_title">停止触发级别</string>
-    <string name="smart_cutoff_resume_level_title">开始触发级别</string>
     <!-- Screenshot settings -->
     <string name="screenshot_settings_title">屏幕截图选项</string>
     <string name="screenshot_settings_summary">修改与屏幕截图相关的选项</string>
@@ -432,11 +425,42 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">悬浮操作</string>
     <string name="touchscreen_hovering_summary">允许您将手指悬停在屏幕上作为浏览器、远程桌面等处的鼠标指针</string>
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">SBC 高清音频</string>
-    <string name="sbc_hd_priority_summary">默认情况下是否对 SBC 编解码器使用双通道模式</string>
     <!-- Power Button Fingerprint -->
     <string name="fingerprint_power_button_press_title">按下解锁</string>
     <string name="fingerprint_power_button_press_off_summary">当屏幕关闭时，触摸电源按钮可以使用指纹解锁</string>
     <string name="fingerprint_power_button_press_on_summary">按下电源按钮在屏幕关闭时使用指纹解锁</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">自动关闭 Wi-Fi</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
+    <string name="wifi_timeout_summary2">已禁用</string>
+    <string name="wifi_timeout_summary_never">永不</string>
+    <string name="wifi_timeout_summary_15secs">15 秒</string>
+    <string name="wifi_timeout_summary_30secs">30 秒</string>
+    <string name="wifi_timeout_summary_1min">1 分钟</string>
+    <string name="wifi_timeout_summary_2mins">2 分钟</string>
+    <string name="wifi_timeout_summary_5mins">5 分钟</string>
+    <string name="wifi_timeout_summary_10mins">10 分钟</string>
+    <string name="wifi_timeout_summary_30mins">30 分钟</string>
+    <string name="wifi_timeout_summary_1hour">1 小时</string>
+    <string name="wifi_timeout_summary_2hours">2 小时</string>
+    <string name="wifi_timeout_summary_4hours">4 小时</string>
+    <string name="wifi_timeout_summary_8hours">8 小时</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">蓝牙连接超时</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">如果没有设备连接，蓝牙将在<xliff:g id="timeout_description">%1$s</xliff:g>后关闭</string>
+    <string name="bluetooth_timeout_summary2">不要自动关闭蓝牙</string>
+    <string name="bluetooth_timeout_summary_never">永不</string>
+    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30 秒</string>
+    <string name="bluetooth_timeout_summary_1min">1 分钟</string>
+    <string name="bluetooth_timeout_summary_2mins">2 分钟</string>
+    <string name="bluetooth_timeout_summary_5mins">5 分钟</string>
+    <string name="bluetooth_timeout_summary_10mins">10 分钟</string>
+    <string name="bluetooth_timeout_summary_30mins">30 分钟</string>
+    <string name="bluetooth_timeout_summary_1hour">1 小时</string>
+    <string name="bluetooth_timeout_summary_2hours">2 小时</string>
+    <string name="bluetooth_timeout_summary_4hours">4 小时</string>
+    <string name="bluetooth_timeout_summary_8hours">8 小时</string>
 </resources>
