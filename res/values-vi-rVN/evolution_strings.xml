@@ -123,11 +123,11 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Bật (chuyển đổi qua các chế độ)</string>
     <string name="prevent_ringing_option_cycle_summary">Bật (chuyển đổi qua các chế độ)</string>
-    <!-- Double tap-to-sleep -->
+    <!-- Double-tap to sleep -->
     <string name="double_tap_title">Chạm 2 lần</string>
     <string name="double_tap_lock_screen_title">Chạm hai lần để tắt màn hình</string>
     <string name="double_tap_lock_screen_summary">Chạm hai lần vào các vào màn hình khóa và thanh trạng thái để tắt màn hình</string>
-    <!-- Doze on double tap -->
+    <!-- Doze on double-tap -->
     <string name="doze_double_tap_title">Chạm hai lần để kiểm tra điện thoại</string>
     <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
     <!-- Increasing ring tone volume -->
@@ -257,20 +257,19 @@
     <!-- Night Display API strings -->
     <string name="unknown_night_light_time">Không xác định - chạm để cập nhật</string>
     <string name="night_display_location_text">\n\nLịch trình từ hoàng hôn đến bình minh yêu cầu các dịch vụ vị trí được kích hoạt để có được thời gian chính xác cho vị trí của bạn.</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Sạc Thông minh</string>
-    <string name="smart_charging_summary">Đặt mức sạc tối đa</string>
-    <string name="smart_charging_switch_title">Sử dụng Sạc Thông minh</string>
-    <string name="smart_charging_level_title">Mức dừng kích hoạt</string>
-    <string name="smart_charging_resume_level_title">Bắt đầu mức kích hoạt</string>
-    <string name="smart_charging_reset_stats_title">Đặt lại thống kê pin</string>
-    <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt mức sạc do người dùng xác định</string>
-    <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Sạc thích ứng</string>
+    <string name="adaptive_charging_temperature_title">Nhiệt độ thích nghi</string>
+    <string name="adaptive_charging_summary">Bật / Hạn chế sạc có điều kiện</string>
+    <string name="adaptive_charging_cutoff_title">Ngừng sạc ở</string>
+    <string name="adaptive_charging_resume_title">Tiếp tục sạc ở</string>
+    <string name="adaptive_charging_reset_stats_title">Đặt lại thống kê pin</string>
+    <string name="adaptive_charging_reset_stats_summary">Đặt lại thống kê sau khi đạt đến mức sạc do người dùng xác định</string>
+    <string name="adaptive_charging_description">Sạc thích ứng giúp kéo dài tuổi thọ của pin bằng cách hạn chế sạc trong một số điều kiện nhất định.</string>
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">Trình tiết kiệm pin</string>
-    <string name="smart_charging_category_title">Sạc Thông minh</string>
-    <string name="smart_cutoff_category_title">Cắt thông minh</string>
+    <string name="adaptive_charging_category_title">Sạc thích ứng</string>
     <string name="battery_info_category_title">Tình trạng pin</string>
+    <string name="battery_saver_category_title">Trình tiết kiệm pin</string>
     <string name="battery_usage_category_title">Thông tin pin</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Tắt</string>
@@ -414,12 +413,6 @@
     <string name="category_name_visibility">Hiển thị</string>
     <string name="category_personal">Cá nhân</string>
     <string name="category_work">Công việc</string>
-    <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Cắt thông minh</string>
-    <string name="smart_cutoff_summary">Đặt nhiệt độ tối đa</string>
-    <string name="smart_cutoff_switch_title">Dùng Cắt thông minh</string>
-    <string name="smart_cutoff_level_title">Dừng mức kích hoạt</string>
-    <string name="smart_cutoff_resume_level_title">Bắt đầu mức kích hoạt</string>
     <!-- Screenshot settings -->
     <string name="screenshot_settings_title">Cài đặt ảnh chụp màn hình</string>
     <string name="screenshot_settings_summary">Sửa đổi các tùy chọn liên quan đến ảnh chụp màn hình</string>
@@ -432,11 +425,42 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Cảm ứng màn hình không chạm</string>
     <string name="touchscreen_hovering_summary">Cho phép bạn di trên màn hình như chuột trong trình duyệt web, điều khiển máy tính từ xa, vv</string>
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">Âm thanh SBC HD</string>
-    <string name="sbc_hd_priority_summary">Có sử dụng chế độ Kênh kép cho mã SBC theo mặc định</string>
     <!-- Power Button Fingerprint -->
     <string name="fingerprint_power_button_press_title">Nhấn để mở khoá</string>
     <string name="fingerprint_power_button_press_off_summary">Chạm vào nút nguồn để mở khóa bằng vân tay khi màn hình tắt</string>
     <string name="fingerprint_power_button_press_on_summary">Nhấn nút nguồn để mở khóa bằng vân tay khi màn hình tắt</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Tự động tắt Wi-Fi</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có kết nối mạng</string>
+    <string name="wifi_timeout_summary2">Tắt</string>
+    <string name="wifi_timeout_summary_never">Không bao giờ</string>
+    <string name="wifi_timeout_summary_15secs">15 giây</string>
+    <string name="wifi_timeout_summary_30secs">30 giây</string>
+    <string name="wifi_timeout_summary_1min">1 phút</string>
+    <string name="wifi_timeout_summary_2mins">2 phút</string>
+    <string name="wifi_timeout_summary_5mins">5 phút</string>
+    <string name="wifi_timeout_summary_10mins">10 phút</string>
+    <string name="wifi_timeout_summary_30mins">30 phút</string>
+    <string name="wifi_timeout_summary_1hour">1 giờ</string>
+    <string name="wifi_timeout_summary_2hours">2 giờ</string>
+    <string name="wifi_timeout_summary_4hours">4 giờ</string>
+    <string name="wifi_timeout_summary_8hours">8 giờ</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Thời gian chờ Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có thiết bị nào được kết nối</string>
+    <string name="bluetooth_timeout_summary2">Không tự động tắt Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Không bao giờ</string>
+    <string name="bluetooth_timeout_summary_15secs">15 giây</string>
+    <string name="bluetooth_timeout_summary_30secs">30 giây</string>
+    <string name="bluetooth_timeout_summary_1min">1 phút</string>
+    <string name="bluetooth_timeout_summary_2mins">2 phút</string>
+    <string name="bluetooth_timeout_summary_5mins">5 phút</string>
+    <string name="bluetooth_timeout_summary_10mins">10 phút</string>
+    <string name="bluetooth_timeout_summary_30mins">30 phút</string>
+    <string name="bluetooth_timeout_summary_1hour">1 giờ</string>
+    <string name="bluetooth_timeout_summary_2hours">2 giờ</string>
+    <string name="bluetooth_timeout_summary_4hours">4 giờ</string>
+    <string name="bluetooth_timeout_summary_8hours">8 giờ</string>
 </resources>
