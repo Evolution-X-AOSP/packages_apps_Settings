@@ -25,14 +25,14 @@
     <string name="security_settings_fingerprint_sensor_location_left">lado esquerdo</string>
     <string name="security_settings_fingerprint_sensor_location_right">no lado direito</string>
     <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Deslize a digital para a esquerda ou direita para dispensar as notificações</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Para descartar suas notificações, deslize para esquerda ou direita no sensor de impressões digitais na parte de trás do seu telefone.</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Deslize sobre o sensor biométrico para a esquerda ou para a direita para descartar notificações</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Para descartar suas notificações, deslize para esquerda ou direita sobre o sensor de impressões digitais do seu dispositivo.</string>
     <!-- About device screen, build date -->
     <string name="build_date">Data da compilação</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer_summary">Desconhecido</string>
     <!-- About device screen, device codename -->
-    <string name="device_codename">Codinome do dispositivo</string>
+    <string name="device_codename">Nome do dispositivo</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_status">Notícias da Evolution X</string>
     <string name="evolution_x_version">Versão da Evolution X</string>
@@ -59,7 +59,7 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toque para mostrar informações</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Unir volumes de toque e notificações</string>
+    <string name="volume_link_notification_title">Unir volumes de toque &amp; e notificações</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Cor do LED</string>
     <string name="custom_light_on_time_title">Tempo de luz ativa durante o pulso do LED (ms)</string>
@@ -107,8 +107,8 @@
     <string name="battery_stats_reset">Zerar as estatísticas</string>
     <string name="battery_stats_message">As estatísticas do histórico de bateria serão redefinidas</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Estado da bateria</string>
-    <string name="battery_health_summary">Monitore o estado da bateria do seu dispositivo</string>
+    <string name="battery_health_title">Saúde da bateria</string>
+    <string name="battery_health_summary">Monitore a saúde da bateria do seu dispositivo</string>
     <string name="current_battery_capacity">Capacidade atual da bateria</string>
     <string name="current_battery_capacity_summary">A capacidade atual da bateria medida pelo kernel</string>
     <string name="designed_battery_capacity">Capacidade projetada da bateria</string>
@@ -123,11 +123,11 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Ciclo entre modos</string>
     <string name="prevent_ringing_option_cycle_summary">Ligado (ciclo através dos modos)</string>
-    <!-- Double tap-to-sleep -->
-    <string name="double_tap_title">Duplo toque</string>
-    <string name="double_tap_lock_screen_title">Toque duplo para dormir</string>
-    <string name="double_tap_lock_screen_summary">Toque duas vezes na tela de bloqueio e em áreas vazias da status bar para desligar a tela</string>
-    <!-- Doze on double tap -->
+    <!-- Double-tap to sleep -->
+    <string name="double_tap_title">Toque duplo</string>
+    <string name="double_tap_lock_screen_title">Toque duplo para suspender</string>
+    <string name="double_tap_lock_screen_summary">Toque duas vezes na tela de bloqueio ou em áreas vazias da status bar para desligar a tela</string>
+    <!-- Doze on double-tap -->
     <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
     <string name="doze_double_tap_summary">Pulsar notificações com um toque duplo</string>
     <!-- Increasing ring tone volume -->
@@ -168,8 +168,8 @@
     <string name="live_display_night">Noite</string>
     <string name="live_display_outdoor_mode_title">Modo externo automático</string>
     <string name="live_display_outdoor_mode_summary">Aumentar o brilho e a saturação automaticamente sob luz solar intensa</string>
-    <string name="live_display_anti_flicker_title">Anti-tremulação</string>
-    <string name="live_display_anti_flicker_summary">Previne extensas oscilações e reduza o cansaço visual em condições de baixa luminosidade. Isso pode degradar a precisão da cor e afetar a forma como alguns itens são exibidos.</string>
+    <string name="live_display_anti_flicker_title">Anti cintilação</string>
+    <string name="live_display_anti_flicker_summary">Reduzir a fadiga ocular em condições de pouca luz. Isso pode degradar a precisão das cores e afetar a forma como certos elementos da tela são exibidos.</string>
     <string name="live_display_low_power_title">Reduzir o consumo de energia</string>
     <string name="live_display_low_power_summary">Ajustar a tela para menor consumo de energia sem degradação de qualidade</string>
     <string name="live_display_enhance_color_title">Realçar cores</string>
@@ -212,8 +212,8 @@
     <string name="adj_intensity_title">Intensidade</string>
     <string name="adj_contrast_title">Contraste</string>
     <!-- AoD on charge -->
-    <string name="doze_on_charge_title">Tela sempre ligada durante o carregamento</string>
-    <string name="doze_on_charge_summary">Mostrar sempre na tela ambiente durante o carregamento</string>
+    <string name="doze_on_charge_title">Tela ambiente sempre ligada durante o carregamento</string>
+    <string name="doze_on_charge_summary">Mostrar sempre tela ambiente durante o carregamento</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Tempo minimo entre sons de notificação</string>
     <string name="app_notification_sound_timeout_summary_template">Permitir sons ou vibrações não mais do que uma vez a cada <xliff:g id="duration">%1$s</xliff:g></string>
@@ -226,17 +226,17 @@
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Resposta tátil</string>
-    <string name="back_gesture_haptic_summary">Ativar efeito de tique tátil no gesto para trás</string>
+    <string name="back_gesture_haptic_summary">Ativar o efeito da vibração no gesto de voltar</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Cheio</string>
     <string name="back_height_high_label">Inferior</string>
     <string name="back_options_dialog_title">Opções</string>
-    <string name="back_height_message">Quantidade de altura da tela usada como região tocável para gesto de voltar.</string>
+    <string name="back_height_message">Altura da área da tela usada como região tocável para gesto de voltar.</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
     <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
     <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
-    <string name="battery_saver_refresh_rate_summary">Usar a taxa de atualização da tela de 60 Hz para economizar energia quando a Economia de bateria estiver ativada</string>
+    <string name="battery_saver_refresh_rate_summary">Usar taxa de atualização da tela de 60 Hz para economizar energia quando a Economia de bateria estiver ativada</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Gestos na tela</string>
     <string name="touchscreen_gesture_settings_summary">Faça vários gestos na tela para ações rápidas</string>
@@ -257,20 +257,19 @@
     <!-- Night Display API strings -->
     <string name="unknown_night_light_time">Desconhecido - pressione para atualizar</string>
     <string name="night_display_location_text">\n\nA programação para anoitecer e amanhecer requerem que os serviços de localização estejam ativos e obtenham os horários corretos da sua localização.</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Carregamento inteligente</string>
-    <string name="smart_charging_summary">Definir o nível máximo de carregamento</string>
-    <string name="smart_charging_switch_title">Usar carregamento inteligente</string>
-    <string name="smart_charging_level_title">Nível para interromper o carregamento</string>
-    <string name="smart_charging_resume_level_title">Nível para começar o carregamento</string>
-    <string name="smart_charging_reset_stats_title">Redefinir estatísticas da bateria</string>
-    <string name="smart_charging_reset_stats_summary">Redefinir as estatísticas da bateria depois de atingir o nível de carga definido pelo usuário</string>
-    <string name="smart_charging_footer">O carregamento inteligente permite que você defina o nível máximo de carga para prolongar a vida útil da sua bateria</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Carregamento adaptável</string>
+    <string name="adaptive_charging_temperature_title">Temperatura adaptável</string>
+    <string name="adaptive_charging_summary">Ligado / Definido para restringir carregamento</string>
+    <string name="adaptive_charging_cutoff_title">Parar de carregar em</string>
+    <string name="adaptive_charging_resume_title">Retomar carregamento em</string>
+    <string name="adaptive_charging_reset_stats_title">Zerar estatísticas da bateria</string>
+    <string name="adaptive_charging_reset_stats_summary">Redefinir as estatísticas da bateria depois de atingir o nível de carga definido pelo usuário</string>
+    <string name="adaptive_charging_description">O carregamento adaptável ajuda a aumentar o tempo de vida útil da sua bateria, restringindo o carregamento em certas condições.</string>
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">Economia da bateria</string>
-    <string name="smart_charging_category_title">Carregamento inteligente</string>
-    <string name="smart_cutoff_category_title">Corte inteligente</string>
+    <string name="adaptive_charging_category_title">Carregamento adaptável</string>
     <string name="battery_info_category_title">Estado da bateria</string>
+    <string name="battery_saver_category_title">Economia de bateria</string>
     <string name="battery_usage_category_title">Informações da bateria</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Desativado</string>
@@ -289,7 +288,7 @@
     <string name="action_app_action">Aplicativo</string>
     <string name="active_edge_ss_app_select_title">Selecione o aplicativo de toque rápido</string>
     <string name="active_edge_ls_app_select_title">Selecione o aplicativo de toque longo</string>
-    <string name="active_edge_app_select_summary">Selecione um aplicativo para iniciar com a ação de squeeze</string>
+    <string name="active_edge_app_select_summary">Selecione um aplicativo para iniciar com a ação de apertar</string>
     <string name="action_qs_panel">Painel de Configurações Rápidas</string>
     <string name="action_notifications">Notificações</string>
     <string name="action_clear_notifications">Limpar notificações</string>
@@ -314,17 +313,17 @@
     <string name="right_vertical_swipe_actions_title">Ação ao deslizar verticalmente para a direita</string>
     <string name="right_vertical_swipe_app_action_title">Selecione o aplicativo ao deslizar verticalmente para a direita</string>
     <string name="gesture_nav_tweaks_footer_info">Para escolher uma atividade específica do aplicativo para a ação, toque e segure em qualquer aplicativo no selecionador de aplicativos.\n\nSe o launcher estiver sendo exibido, deslize para a área inferior da tela para acionar a ação.</string>
-    <string name="back_swipe_extended_title">Ação de deslizar prolongada</string>
+    <string name="back_swipe_extended_title">Ação de deslize estendido</string>
     <string name="back_swipe_extended_summary">Acione a ação com um deslize mais amplo (mais da metade do tamanho da tela) ou com um deslize em L (verticalmente suficiente)</string>
     <!-- Ambient display battery percentage -->
     <string name="ambient_battery_percent_title">Nível de bateria na parte inferior</string>
-    <string name="ambient_battery_percent_summary">Mostrar a porcentagem da bateria no modo doze</string>
+    <string name="ambient_battery_percent_summary">Mostrar a porcentagem da bateria na tela ambiente</string>
     <!-- Screenshot type -->
     <string name="screenshot_type_title">Tipo de captura de tela</string>
     <string name="screenshot_type_fullscreen">Captura em tela cheia</string>
     <string name="screenshot_type_partial">Selecionar a área que deseja capturar</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Som ao carregar</string>
+    <string name="charging_sounds_nos_title">Sons de carregamento</string>
     <string name="charging_vibro_title">Vibrar ao carregar</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Carregamento rápido</string>
@@ -338,7 +337,7 @@
     <string name="ambient_music_bottom">Em baixo (padrão)</string>
     <string name="ambient_music_center">Centralizado (no relógio)</string>
     <!-- Clipboard toast info -->
-    <string name="clipboard_toast_info_title">Alertas de acesso da área de transferência</string>
+    <string name="clipboard_toast_info_title">Mostrar alertas de acesso à área de transferência</string>
     <string name="clipboard_toast_info_show_important">Mostrar apenas alertas importantes</string>
     <string name="clipboard_toast_info_show_all">Mostrar todos os alertas de acesso</string>
     <!-- Per-app data restrictions -->
@@ -354,7 +353,7 @@
     <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
     <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do entalhe</string>
     <!-- Navbar radius -->
-    <string name="navbar_radius">Raio da barra de gestos</string>
+    <string name="navbar_radius">Tamanho da barra de gestos</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
     <!-- SELinux Status -->
@@ -377,10 +376,10 @@
     <string name="dc_dimming_brightness_title">Limite de brilho</string>
     <string name="dc_dimming_brightness_disabled">Desativado</string>
     <string name="dc_dimming_restore_auto_mode">Restaurar modo automático</string>
-    <string name="dc_dimming_brightness_info">Ativar DC Dimming apenas quando o brilho médio estiver abaixo do limite</string>
+    <string name="dc_dimming_brightness_info">Ativar modo anti cintilação apenas quando o brilho médio estiver abaixo do limite</string>
     <string name="dc_dimming_off_auto_mode_auto">Será ativado automaticamente</string>
     <string name="dc_dimming_on_auto_mode_auto">Será desativado automaticamente</string>
-    <string name="keywords_display_dc_dimming">escurecimento dc, piscar, olho, cansaço</string>
+    <string name="keywords_display_dc_dimming">escurecimento dc, cintilação, olho, cansaço</string>
     <!-- App Lock -->
     <string name="applock_title">Bloqueio de aplicativos</string>
     <string name="applock_locked">Bloqueado</string>
@@ -392,17 +391,17 @@
     <string name="applock_lock_after_15_seconds">15 Segundos</string>
     <string name="applock_lock_after_screen_off">Desligar a tela</string>
     <string name="applock_lock_after_summary">O aplicativo será bloqueado após tempo limite selecionado</string>
-    <string name="applock_lock_after_instantly_summary">O app será bloqueado instantaneamente quando fechado</string>
-    <string name="applock_lock_after_15_seconds_summary">O app será bloqueado por 15 segundos após fechar</string>
-    <string name="applock_lock_after_screen_off_summary">O app será bloqueado quando a tela estiver desligada</string>
+    <string name="applock_lock_after_instantly_summary">O aplicativo será bloqueado instantaneamente quando fechado</string>
+    <string name="applock_lock_after_15_seconds_summary">O aplicativo será bloqueado 15 segundos após fechar</string>
+    <string name="applock_lock_after_screen_off_summary">O aplicativo será bloqueado quando a tela for desligada</string>
     <string name="applock_notification_info">Você pode mostrar/ocultar o conteúdo da notificação por aplicativo, clicando no ícone de notificação mostrado na preferência de cada aplicativo bloqueado</string>
     <string name="applock_show_notif">Mostrar o conteúdo das notificações</string>
     <string name="applock_hide_notif">Ocultar o conteúdo das notificações</string>
-    <string name="applock_setup">Configurar bloqueio de app</string>
+    <string name="applock_setup">Configurar bloqueio de aplicativos</string>
     <string name="applock_overlay_summary">Esse recurso não está disponível porque este aplicativo está bloqueado</string>
     <plurals name="applock_summary">
         <item quantity="one">1 aplicativo bloqueado</item>
-        <item quantity="other">%d apps bloqueados</item>
+        <item quantity="other">%d aplicativos bloqueados</item>
     </plurals>
     <string name="keywords_applock_settings">bloqueio de app, segurança de apps, bloqueio de apps, bloqueador de apps</string>
     <!-- Android 12 DP2 additions -->
@@ -410,34 +409,59 @@
     <string name="category_name_brightness">Brilho</string>
     <string name="category_name_color">Cor</string>
     <string name="category_name_general">Geral</string>
-    <string name="category_name_lock_display">Bloquear Tela</string>
+    <string name="category_name_lock_display">Bloqueio de tela</string>
     <string name="category_name_others">Outros</string>
     <string name="category_name_visibility">Visibilidade</string>
     <string name="category_personal">Pessoal</string>
     <string name="category_work">Trabalho</string>
-    <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Corte inteligente</string>
-    <string name="smart_cutoff_summary">Definir temperatura máxima</string>
-    <string name="smart_cutoff_switch_title">Usar corte inteligente</string>
-    <string name="smart_cutoff_level_title">Nível para interromper o carregamento</string>
-    <string name="smart_cutoff_resume_level_title">Nível para começar a carregar</string>
     <!-- Screenshot settings -->
     <string name="screenshot_settings_title">Opções de captura de tela</string>
     <string name="screenshot_settings_summary">Modificar as opções relacionadas às capturas de tela</string>
     <!-- Screenshot compression  -->
     <string name="screenshot_compression_title">Qualidade da captura de tela</string>
-    <string name="screenshot_compression_summary">Comprimir tamanho de captura de tela com perda na qualidade de imagem</string>
+    <string name="screenshot_compression_summary">Comprimir tamanho de captura (causará perdas na qualidade da imagem)</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Alta sensibilidade ao toque</string>
     <string name="high_touch_sensitivity_summary">Aumenta a sensitividade da tela para poder ser usada enquanto estiver usando luvas</string>
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Flutuar o dedo na tela</string>
     <string name="touchscreen_hovering_summary">Permite que você flutue o dedo na tela como um mouse em navegadores web, desktops remotos, etc</string>
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">Áudio SBC HD</string>
-    <string name="sbc_hd_priority_summary">Se ativo o modo Dual Channel deve ser usado para o codec SBC por padrão</string>
     <!-- Power Button Fingerprint -->
     <string name="fingerprint_power_button_press_title">Pressione para desbloquear</string>
     <string name="fingerprint_power_button_press_off_summary">Toque o botão liga/desliga para desbloquear com impressão digital quando a tela estiver desligada</string>
     <string name="fingerprint_power_button_press_on_summary">Pressione o botão liga/desliga para desbloquear com impressão digital quando a tela estiver desligada</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Desligar Wi-Fi automaticamente</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
+    <string name="wifi_timeout_summary2">Desativado</string>
+    <string name="wifi_timeout_summary_never">Nunca</string>
+    <string name="wifi_timeout_summary_15secs">15 segundos</string>
+    <string name="wifi_timeout_summary_30secs">30 segundos</string>
+    <string name="wifi_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_timeout_summary_2mins">2 minutos</string>
+    <string name="wifi_timeout_summary_5mins">5 minutos</string>
+    <string name="wifi_timeout_summary_10mins">10 minutos</string>
+    <string name="wifi_timeout_summary_30mins">30 minutos</string>
+    <string name="wifi_timeout_summary_1hour">1 hora</string>
+    <string name="wifi_timeout_summary_2hours">2 horas</string>
+    <string name="wifi_timeout_summary_4hours">4 horas</string>
+    <string name="wifi_timeout_summary_8hours">8 horas</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">O Bluetooth será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum dispositivo estiver conectado</string>
+    <string name="bluetooth_timeout_summary2">Não desativar o Bluetooth automaticamente</string>
+    <string name="bluetooth_timeout_summary_never">Nunca</string>
+    <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
+    <string name="bluetooth_timeout_summary_30secs">30 segundos</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hora</string>
+    <string name="bluetooth_timeout_summary_2hours">2 horas</string>
+    <string name="bluetooth_timeout_summary_4hours">4 horas</string>
+    <string name="bluetooth_timeout_summary_8hours">8 horas</string>
 </resources>
