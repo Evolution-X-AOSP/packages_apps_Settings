@@ -123,11 +123,11 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">サイクルスルーモード</string>
     <string name="prevent_ringing_option_cycle_summary">ON (サイクルスルーモード)</string>
-    <!-- Double tap-to-sleep -->
+    <!-- Double-tap to sleep -->
     <string name="double_tap_title">ダブルタップ</string>
     <string name="double_tap_lock_screen_title">ダブルタップでスリープ</string>
     <string name="double_tap_lock_screen_summary">ロック画面とステータスバーの空き領域をダブルタップして画面を消灯する</string>
-    <!-- Doze on double tap -->
+    <!-- Doze on double-tap -->
     <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
     <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
     <!-- Increasing ring tone volume -->
@@ -257,20 +257,19 @@
     <!-- Night Display API strings -->
     <string name="unknown_night_light_time">不明 - タップして更新</string>
     <string name="night_display_location_text">\n\n日の出から日の入りからのスケジュールにはあなたの正確な時刻を取得するために位置情報の有効化が必要です。</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">スマート充電</string>
-    <string name="smart_charging_summary">最大充電レベルを設定する</string>
-    <string name="smart_charging_switch_title">スマート充電の使用</string>
-    <string name="smart_charging_level_title">充電停止レベル</string>
-    <string name="smart_charging_resume_level_title">充電開始レベル</string>
-    <string name="smart_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
-    <string name="smart_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後バッテリーの統計情報をリセットする</string>
-    <string name="smart_charging_footer">スマート充電を使用すると最大充電レベルを設定することでバッテリー寿命を延ばすことができます</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">充電制御</string>
+    <string name="adaptive_charging_temperature_title">温度制御</string>
+    <string name="adaptive_charging_summary">ON / 充電制限の条件を適用中です</string>
+    <string name="adaptive_charging_cutoff_title">充電停止</string>
+    <string name="adaptive_charging_resume_title">充電再開</string>
+    <string name="adaptive_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
+    <string name="adaptive_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後統計情報をリセットする</string>
+    <string name="adaptive_charging_description">充電制御は特定の条件下での充電を制限し、バッテリーの寿命を延ばすのに役立ちます。</string>
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">バッテリーセーバー</string>
-    <string name="smart_charging_category_title">スマート充電</string>
-    <string name="smart_cutoff_category_title">スマートカットオフ</string>
+    <string name="adaptive_charging_category_title">充電制御</string>
     <string name="battery_info_category_title">バッテリー健康度</string>
+    <string name="battery_saver_category_title">バッテリーセーバー</string>
     <string name="battery_usage_category_title">バッテリー情報</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">OFF</string>
@@ -414,12 +413,6 @@
     <string name="category_name_visibility">視認性</string>
     <string name="category_personal">個人用</string>
     <string name="category_work">仕事用</string>
-    <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">スマートカットオフ</string>
-    <string name="smart_cutoff_summary">最高温度を設定する</string>
-    <string name="smart_cutoff_switch_title">スマートカットオフを使用</string>
-    <string name="smart_cutoff_level_title">適用停止レベル</string>
-    <string name="smart_cutoff_resume_level_title">適用開始レベル</string>
     <!-- Screenshot settings -->
     <string name="screenshot_settings_title">スクリーンショットの設定</string>
     <string name="screenshot_settings_summary">スクリーンショットに関連するオプションを変更する</string>
@@ -432,11 +425,42 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">タッチ画面のホバリング</string>
     <string name="touchscreen_hovering_summary">ウェブブラウザやリモードデスクトップなどでマウスのようにホバリングできるようにする</string>
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">SBC HD オーディオ</string>
-    <string name="sbc_hd_priority_summary">SBC コーデックにデュアルチャンネルモードを既定で使用するかどうかを設定する</string>
     <!-- Power Button Fingerprint -->
     <string name="fingerprint_power_button_press_title">押してロック解除</string>
     <string name="fingerprint_power_button_press_off_summary">画面消灯時に指紋センサーの電源ボタンを押してロック解除する</string>
     <string name="fingerprint_power_button_press_on_summary">画面消灯時に指紋認証でロック解除するには電源ボタンをしっかりと押して下さい</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
+    <string name="wifi_timeout_summary2">無効</string>
+    <string name="wifi_timeout_summary_never">なし</string>
+    <string name="wifi_timeout_summary_15secs">15秒</string>
+    <string name="wifi_timeout_summary_30secs">30秒</string>
+    <string name="wifi_timeout_summary_1min">1分</string>
+    <string name="wifi_timeout_summary_2mins">2分</string>
+    <string name="wifi_timeout_summary_5mins">5分</string>
+    <string name="wifi_timeout_summary_10mins">10分</string>
+    <string name="wifi_timeout_summary_30mins">30分</string>
+    <string name="wifi_timeout_summary_1hour">1時間</string>
+    <string name="wifi_timeout_summary_2hours">2時間</string>
+    <string name="wifi_timeout_summary_4hours">4時間</string>
+    <string name="wifi_timeout_summary_8hours">8時間</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth の制限時間</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth は オフになります</string>
+    <string name="bluetooth_timeout_summary2">自動的に Bluetooth をオフにしない</string>
+    <string name="bluetooth_timeout_summary_never">なし</string>
+    <string name="bluetooth_timeout_summary_15secs">15秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30秒</string>
+    <string name="bluetooth_timeout_summary_1min">1分</string>
+    <string name="bluetooth_timeout_summary_2mins">2分</string>
+    <string name="bluetooth_timeout_summary_5mins">5分</string>
+    <string name="bluetooth_timeout_summary_10mins">10分</string>
+    <string name="bluetooth_timeout_summary_30mins">30分</string>
+    <string name="bluetooth_timeout_summary_1hour">1時間</string>
+    <string name="bluetooth_timeout_summary_2hours">2時間</string>
+    <string name="bluetooth_timeout_summary_4hours">4時間</string>
+    <string name="bluetooth_timeout_summary_8hours">8時間</string>
 </resources>
