@@ -524,10 +524,6 @@
     <string name="touchscreen_hovering_title">Touchscreen hovering</string>
     <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
 
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">SBC HD audio</string>
-    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
-
     <!-- Power Button Fingerprint -->
     <string name="fingerprint_power_button_press_title">Press to unlock</string>
     <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
