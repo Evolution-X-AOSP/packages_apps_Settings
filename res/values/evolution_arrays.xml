@@ -96,6 +96,7 @@
         <item>@string/show_powermenu</item>
         <item>@string/partial_screenshot</item>
         <item>@string/hush_mute</item>
+        <item>@string/recent_app_toggle</item>
     </string-array>
 
     <string-array name="active_edge_actions_values" translatable="false">
@@ -118,6 +119,7 @@
         <item>16</item>
         <item>17</item>
         <item>18</item>
+        <item>19</item>
     </string-array>
 
     <string-array name="long_back_swipe_timeout_entries">
