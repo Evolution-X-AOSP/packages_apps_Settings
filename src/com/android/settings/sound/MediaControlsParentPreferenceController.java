@@ -41,7 +41,7 @@ public class MediaControlsParentPreferenceController extends BasePreferenceContr
     @Override
     public CharSequence getSummary() {
         int summary;
-        if (Settings.Secure.getInt(mContext.getContentResolver(), MEDIA_CONTROLS_RESUME, 1) == 0) {
+        if (Settings.Secure.getInt(mContext.getContentResolver(), MEDIA_CONTROLS_RESUME, 0) == 0) {
             summary = R.string.media_controls_hide_player;
         } else {
             summary = R.string.media_controls_show_player;

@@ -51,7 +51,7 @@ public class MediaControlsPreferenceControllerTest {
         mOriginalQs = Settings.Global.getInt(mContentResolver,
                 Settings.Global.SHOW_MEDIA_ON_QUICK_SETTINGS, 1);
         mOriginalResume = Settings.Secure.getInt(mContentResolver,
-                Settings.Secure.MEDIA_CONTROLS_RESUME, 1);
+                Settings.Secure.MEDIA_CONTROLS_RESUME, 0);
         mController = new MediaControlsPreferenceController(mContext, KEY);
     }
 
