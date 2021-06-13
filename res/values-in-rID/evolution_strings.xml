@@ -15,6 +15,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <string name="touch_sensitivity_title">Tingatkan sensitivitas sentuhan</string>
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <string name="touch_sensitivity_summary">Tingkatkan sentuhan saat menggunakan pelindung layar</string>
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <string name="keywords_touch_sensitivity">sentuhan, sensitivitas, sensitif, pelindung layar, film, responsif, responsivitas</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Kurang dari 1 menit</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hari ini</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Tempatkan sensor sidik jari pada <xliff:g id="sensor_location">%1$s</xliff:g> tablet Anda.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Tempatkan sensor sidik jari pada <xliff:g id="sensor_location">%1$s</xliff:g> perangkat Anda.</string>
@@ -301,6 +311,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="show_powermenu">Tampilkan Menu Daya</string>
     <string name="partial_screenshot">Tangkapan Layar sebagian</string>
     <string name="hush_mute">Pemberitahuan senyap</string>
+    <string name="recent_app_toggle">Beralih aplikasi baru-baru ini</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Gestur tingkat lanjut</string>
     <string name="navbar_gesture_tweaks_pref_summary">Kustomisasi gerakan dan atur tindakan khusus</string>
@@ -465,4 +476,11 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="bluetooth_timeout_summary_2hours">2 jam</string>
     <string name="bluetooth_timeout_summary_4hours">4 jam</string>
     <string name="bluetooth_timeout_summary_8hours">8 jam</string>
+    <!-- Font Engine -->
+    <string name="font_picker_title">Font</string>
+    <string name="disable_fonts_installed_title">Pemilih font tidak tersedia untuk menghindari konflik dengan Substratum. Copot pemasangannya jika Anda ingin menggunakan pemilih font.</string>
+    <string name="font_picker_progress">Menerapkan font baru\u2026</string>
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Hanya berlaku saat layar dihidupkan</string>
+    <string name="auto_brightness_one_shot_summary">Penyesuaian akan terjadi satu kali</string>
 </resources>

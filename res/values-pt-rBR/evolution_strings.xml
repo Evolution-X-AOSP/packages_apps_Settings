@@ -15,6 +15,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <string name="touch_sensitivity_title">Aumentar sensibilidade do toque</string>
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <string name="touch_sensitivity_summary">Melhora o toque ao usar protetores de tela</string>
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <string name="keywords_touch_sensitivity">toque, sensibilidade, sensibilidade, protetor de tela, filme, responsivos, capacidade de resposta</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hoje</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localize o sensor de impressão digital no <xliff:g id="sensor_location">%1$s</xliff:g> do seu tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localize o sensor de impressão digital no <xliff:g id="sensor_location">%1$s</xliff:g> do seu dispositivo.</string>
@@ -59,7 +69,7 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toque para mostrar informações</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Unir volumes de toque &amp; e notificações</string>
+    <string name="volume_link_notification_title">Unir volumes de toque e notificações</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Cor do LED</string>
     <string name="custom_light_on_time_title">Tempo de luz ativa durante o pulso do LED (ms)</string>
@@ -87,7 +97,7 @@
     <string name="backup_transport_title">Selecione o provedor de backup</string>
     <!-- Ambient Wake gestures -->
     <string name="ambient_wake_gestures_title">Gestos da tela ambiente</string>
-    <string name="ambient_wake_gestures_summary">Mostrar a tela de ambiente em vez da tela normal na tela de bloqueio em gestos de despertar</string>
+    <string name="ambient_wake_gestures_summary">Mostrar tela ambiente em vez da tela normal de bloqueio em gestos de despertar</string>
     <string name="lockscreen_display_title">Exibição da tela de bloqueio</string>
     <!-- Display - Rotation -->
     <string name="display_rotation_title">Rotação</string>
@@ -213,7 +223,7 @@
     <string name="adj_contrast_title">Contraste</string>
     <!-- AoD on charge -->
     <string name="doze_on_charge_title">Tela ambiente sempre ligada durante o carregamento</string>
-    <string name="doze_on_charge_summary">Mostrar sempre tela ambiente durante o carregamento</string>
+    <string name="doze_on_charge_summary">Sempre mostrar tela ambiente durante o carregamento</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Tempo minimo entre sons de notificação</string>
     <string name="app_notification_sound_timeout_summary_template">Permitir sons ou vibrações não mais do que uma vez a cada <xliff:g id="duration">%1$s</xliff:g></string>
@@ -299,6 +309,7 @@
     <string name="show_powermenu">Mostrar menu de energia</string>
     <string name="partial_screenshot">Captura de tela parcial</string>
     <string name="hush_mute">Silenciar notificações</string>
+    <string name="recent_app_toggle">Alternar aplicativo recente</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Gestos avançados</string>
     <string name="navbar_gesture_tweaks_pref_summary">Personalize gestos e defina ações personalizadas</string>
@@ -397,7 +408,7 @@
     <string name="applock_notification_info">Você pode mostrar/ocultar o conteúdo da notificação por aplicativo, clicando no ícone de notificação mostrado na preferência de cada aplicativo bloqueado</string>
     <string name="applock_show_notif">Mostrar o conteúdo das notificações</string>
     <string name="applock_hide_notif">Ocultar o conteúdo das notificações</string>
-    <string name="applock_setup">Configurar bloqueio de aplicativos</string>
+    <string name="applock_setup">Configurar bloqueio de app</string>
     <string name="applock_overlay_summary">Esse recurso não está disponível porque este aplicativo está bloqueado</string>
     <plurals name="applock_summary">
         <item quantity="one">1 aplicativo bloqueado</item>
@@ -409,7 +420,7 @@
     <string name="category_name_brightness">Brilho</string>
     <string name="category_name_color">Cor</string>
     <string name="category_name_general">Geral</string>
-    <string name="category_name_lock_display">Bloqueio de tela</string>
+    <string name="category_name_lock_display">Tela de bloqueio</string>
     <string name="category_name_others">Outros</string>
     <string name="category_name_visibility">Visibilidade</string>
     <string name="category_personal">Pessoal</string>
@@ -464,4 +475,11 @@
     <string name="bluetooth_timeout_summary_2hours">2 horas</string>
     <string name="bluetooth_timeout_summary_4hours">4 horas</string>
     <string name="bluetooth_timeout_summary_8hours">8 horas</string>
+    <!-- Font Engine -->
+    <string name="font_picker_title">Fonte</string>
+    <string name="disable_fonts_installed_title">O seletor de fontes não está disponível para evitar conflitos com o Substratum. Desinstale-o se você quiser usar o seletor de fontes.</string>
+    <string name="font_picker_progress">Aplicando nova fonte\u2026</string>
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Aplicar somente quando a tela estiver ligada</string>
+    <string name="auto_brightness_one_shot_summary">A ajuste ocorrerá uma vez</string>
 </resources>

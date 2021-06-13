@@ -15,6 +15,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <string name="touch_sensitivity_title">Aumentar la sensibilidad táctil</string>
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <string name="touch_sensitivity_summary">Aumenta la sensibilidad de la pantalla al usar protectores de pantalla</string>
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <string name="keywords_touch_sensitivity">táctil, sensibilidad, sensible, protector de pantalla, película, responsivo, responsividad</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menos de un minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hoy</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localiza el sensor de huella digital en el <xliff:g id="sensor_location">%1$s </xliff:g> de tu tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localiza el sensor de huella digital en el <xliff:g id="sensor_location">%1$s </xliff:g> de tu dispositivo.</string>
@@ -124,11 +134,11 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Alternar modos</string>
     <string name="prevent_ringing_option_cycle_summary">Encendido (Alternar)</string>
-    <!-- Double tap-to-sleep -->
+    <!-- Double-tap to sleep -->
     <string name="double_tap_title">Doble toque</string>
-    <string name="double_tap_lock_screen_title">Doble toque para apagar la pantalla</string>
+    <string name="double_tap_lock_screen_title">Pulsar para suspender</string>
     <string name="double_tap_lock_screen_summary">Doble toque en la pantalla de bloqueo y en las áreas vacías de la barra de estado para apagar la pantalla</string>
-    <!-- Doze on double tap -->
+    <!-- Doze on double-tap -->
     <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
     <string name="doze_double_tap_summary">Notificaciones de pulso por doble toque</string>
     <!-- Increasing ring tone volume -->
@@ -258,20 +268,19 @@
     <!-- Night Display API strings -->
     <string name="unknown_night_light_time">Desconocido - toque para actualizar</string>
     <string name="night_display_location_text">\n\nLa programación de puesta del sol y amanecer necesita que los servicios de ubicación estén habilitados y así poder obtener los horarios correctos.</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Carga inteligente</string>
-    <string name="smart_charging_summary">Establecer nivel máximo de carga</string>
-    <string name="smart_charging_switch_title">Usar Carga inteligente</string>
-    <string name="smart_charging_level_title">Detener al nivel</string>
-    <string name="smart_charging_resume_level_title">Iniciar al nivel</string>
-    <string name="smart_charging_reset_stats_title">Reiniciar las estadísticas de la batería</string>
-    <string name="smart_charging_reset_stats_summary">Restablecer estadísticas de batería después de alcanzar el nivel de carga definido por el usuario</string>
-    <string name="smart_charging_footer">La Carga inteligente permite establecer el nivel máximo de carga para ampliar la duración de la batería</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Carga Adaptable</string>
+    <string name="adaptive_charging_temperature_title">Temperatura Adaptable</string>
+    <string name="adaptive_charging_summary">Encendido/Restricción condicional de la carga</string>
+    <string name="adaptive_charging_cutoff_title">Detener la carga al</string>
+    <string name="adaptive_charging_resume_title">Reanudar la carga al</string>
+    <string name="adaptive_charging_reset_stats_title">Reiniciar las estadísticas de la batería</string>
+    <string name="adaptive_charging_reset_stats_summary">Restablecer estadísticas tras alcanzar el nivel de carga definido por el usuario</string>
+    <string name="adaptive_charging_description">La carga adaptable ayuda a extender la duración de vida de la batería restringiendo la carga bajo ciertas condiciones.</string>
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">Ahorro de batería</string>
-    <string name="smart_charging_category_title">Carga inteligente</string>
-    <string name="smart_cutoff_category_title">Pausa inteligente</string>
+    <string name="adaptive_charging_category_title">Carga adaptable</string>
     <string name="battery_info_category_title">Estado de la batería</string>
+    <string name="battery_saver_category_title">Ahorro de batería</string>
     <string name="battery_usage_category_title">Información de la batería</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Desactivado</string>
@@ -301,6 +310,7 @@
     <string name="show_powermenu">Mostrar menú de apagado</string>
     <string name="partial_screenshot">Captura de pantalla parcial</string>
     <string name="hush_mute">Silenciar todas las notificaciones</string>
+    <string name="recent_app_toggle">Cambiar aplicación reciente</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Gestos avanzados</string>
     <string name="navbar_gesture_tweaks_pref_summary">Personaliza los gestos y añade acciones personalizadas</string>
@@ -416,12 +426,6 @@
     <string name="category_name_visibility">Visibilidad</string>
     <string name="category_personal">Personal</string>
     <string name="category_work">Trabajo</string>
-    <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Pausa inteligente</string>
-    <string name="smart_cutoff_summary">Fijar temperatura máxima</string>
-    <string name="smart_cutoff_switch_title">Usar pausa inteligente</string>
-    <string name="smart_cutoff_level_title">Nivel de pausa automático</string>
-    <string name="smart_cutoff_resume_level_title">Nivel de inicio automático</string>
     <!-- Screenshot settings -->
     <string name="screenshot_settings_title">Ajustes de captura de pantalla</string>
     <string name="screenshot_settings_summary">Modificar opciones relacionadas con las capturas de pantalla</string>
@@ -434,11 +438,49 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
     <string name="touchscreen_hovering_summary">Permite deslizarse por la pantalla como un ratón en navegadores, escritorios remotos, etc</string>
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">Audio SBC HD</string>
-    <string name="sbc_hd_priority_summary">Usar el modo de canal dual para el códec SBC por defecto</string>
     <!-- Power Button Fingerprint -->
     <string name="fingerprint_power_button_press_title">Presione para desbloquear</string>
     <string name="fingerprint_power_button_press_off_summary">Toque el botón de encendido para desbloquear con huella dactilar cuando la pantalla esté apagada</string>
     <string name="fingerprint_power_button_press_on_summary">Pulse firmemente el botón de encendido para desbloquear con huella dactilar cuando la pantalla esté apagada</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Desactivar Wi-Fi automáticamente</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">El Wi-Fi se apagará tras <xliff:g id="timeout_description">%1$s</xliff:g> si no se conectó a ninguna red</string>
+    <string name="wifi_timeout_summary2">Desactivado</string>
+    <string name="wifi_timeout_summary_never">Nunca</string>
+    <string name="wifi_timeout_summary_15secs">15 segundos</string>
+    <string name="wifi_timeout_summary_30secs">30 segundos</string>
+    <string name="wifi_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_timeout_summary_2mins">2 minutos</string>
+    <string name="wifi_timeout_summary_5mins">5 minutos</string>
+    <string name="wifi_timeout_summary_10mins">10 minutos</string>
+    <string name="wifi_timeout_summary_30mins">30 minutos</string>
+    <string name="wifi_timeout_summary_1hour">1 hora</string>
+    <string name="wifi_timeout_summary_2hours">2 horas</string>
+    <string name="wifi_timeout_summary_4hours">4 horas</string>
+    <string name="wifi_timeout_summary_8hours">8 horas</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Tiempo de espera de Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">El Bluetooth se apagará tras <xliff:g id="timeout_description">%1$s</xliff:g> si no hay dispositivos conectados</string>
+    <string name="bluetooth_timeout_summary2">No desactivar el Bluetooth automáticamente</string>
+    <string name="bluetooth_timeout_summary_never">Nunca</string>
+    <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
+    <string name="bluetooth_timeout_summary_30secs">30 segundos</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hora</string>
+    <string name="bluetooth_timeout_summary_2hours">2 horas</string>
+    <string name="bluetooth_timeout_summary_4hours">4 horas</string>
+    <string name="bluetooth_timeout_summary_8hours">8 horas</string>
+    <!-- Font Engine -->
+    <string name="font_picker_title">Fuente</string>
+    <string name="disable_fonts_installed_title">El selector de fuentes no está disponible para evitar conflictos con Substratum. Desinstálalo si deseas utilizar el selector de fuentes del sistema.</string>
+    <string name="font_picker_progress">Aplicando nueva fuente\u2026</string>
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Aplicar sólo cuando la pantalla está encendida</string>
+    <string name="auto_brightness_one_shot_summary">El ajuste ocurrirá una vez</string>
 </resources>
