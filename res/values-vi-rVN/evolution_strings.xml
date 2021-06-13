@@ -15,6 +15,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <string name="touch_sensitivity_title">Tăng độ nhạy cảm ứng</string>
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <string name="touch_sensitivity_summary">Cải thiện độ nhạy cảm ứng khi sử dụng tấm bảo vệ màn hình</string>
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <string name="keywords_touch_sensitivity">cảm ứng, độ nhạy, độ nhạy, bảo vệ màn hình, phim, phản ứng nhanh, phản ứng nhanh</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Dưới 1 phút</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hôm nay</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Xác định vị trí cảm biến vân tay ở bên <xliff:g id="sensor_location">%1$s</xliff:g> của máy tính bảng.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Xác định vị trí của cảm biến vân tay ở bên <xliff:g id="sensor_location">%1$s</xliff:g> của thiết bị.</string>
@@ -299,6 +309,7 @@
     <string name="show_powermenu">Hiển thị Menu nguồn</string>
     <string name="partial_screenshot">Chụp một phần màn hình</string>
     <string name="hush_mute">Xóa thông báo</string>
+    <string name="recent_app_toggle">Chuyển đổi ứng dụng</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Cử chỉ nâng cao</string>
     <string name="navbar_gesture_tweaks_pref_summary">Tùy chỉnh cử chỉ và đặt hành động tùy chỉnh</string>
@@ -463,4 +474,11 @@
     <string name="bluetooth_timeout_summary_2hours">2 giờ</string>
     <string name="bluetooth_timeout_summary_4hours">4 giờ</string>
     <string name="bluetooth_timeout_summary_8hours">8 giờ</string>
+    <!-- Font Engine -->
+    <string name="font_picker_title">Phông chữ</string>
+    <string name="disable_fonts_installed_title">Trình chọn font chữ hiện không hoạt động để tránh xung đột với substratum. Gỡ cài đặt substratum nếu bạn muốn sử dụng trình chọn font chữ.</string>
+    <string name="font_picker_progress">Đang áp dụng phông chữ mới\u2026</string>
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Ứng dụng sẽ tự khóa sau khi màn hình tắt</string>
+    <string name="auto_brightness_one_shot_summary">Điều chỉnh sẽ xảy ra một lần</string>
 </resources>
