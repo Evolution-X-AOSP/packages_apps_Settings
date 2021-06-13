@@ -15,6 +15,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <string name="touch_sensitivity_title">タッチ感度の改善</string>
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <string name="touch_sensitivity_summary">画面フィルム装着時にタッチ感度を改善する</string>
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <string name="keywords_touch_sensitivity">タッチ感度、画面フィルム、応答性</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">1分未満</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今日: %1$s</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">タブレットの<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">端末の<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
@@ -299,6 +309,7 @@
     <string name="show_powermenu">電源メニューを表示</string>
     <string name="partial_screenshot">部分スクリーンショット</string>
     <string name="hush_mute">通知をミュート</string>
+    <string name="recent_app_toggle">直前のアプリの切り替え</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャー</string>
     <string name="navbar_gesture_tweaks_pref_summary">ジェスチャー編集とカスタムアクション設定</string>
@@ -463,4 +474,11 @@
     <string name="bluetooth_timeout_summary_2hours">2時間</string>
     <string name="bluetooth_timeout_summary_4hours">4時間</string>
     <string name="bluetooth_timeout_summary_8hours">8時間</string>
+    <!-- Font Engine -->
+    <string name="font_picker_title">フォント</string>
+    <string name="disable_fonts_installed_title">フォントピッカーは Substratum との競合のため使用できません。フォントピッカーを使用したい場合は Substratum をアンインストールして下さい。</string>
+    <string name="font_picker_progress">新しいフォントの適用中\u2026</string>
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">画面点灯時にのみ適用されます</string>
+    <string name="auto_brightness_one_shot_summary">調整は一度だけ行われます</string>
 </resources>
