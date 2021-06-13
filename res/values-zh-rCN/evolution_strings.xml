@@ -15,6 +15,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <string name="touch_sensitivity_title">增加触摸灵敏度</string>
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <string name="touch_sensitivity_summary">使用屏幕保护时提高触摸灵敏度</string>
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <string name="keywords_touch_sensitivity">触摸、 敏感、 屏幕保护、 影片、 响应</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">不到 1 分钟</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今天%1$s</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">在您的平板电脑的 <xliff:g id="sensor_location">%1$s</xliff:g> 上找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">将指纹传感器定位在您设备的 <xliff:g id="sensor_location">%1$s</xliff:g> 上。</string>
@@ -299,6 +309,7 @@
     <string name="show_powermenu">显示电源菜单</string>
     <string name="partial_screenshot">截取部分屏幕</string>
     <string name="hush_mute">通知静音</string>
+    <string name="recent_app_toggle">切换最近的应用</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">高级手势</string>
     <string name="navbar_gesture_tweaks_pref_summary">自定义手势与动作</string>
@@ -463,4 +474,11 @@
     <string name="bluetooth_timeout_summary_2hours">2 小时</string>
     <string name="bluetooth_timeout_summary_4hours">4 小时</string>
     <string name="bluetooth_timeout_summary_8hours">8 小时</string>
+    <!-- Font Engine -->
+    <string name="font_picker_title">字体</string>
+    <string name="disable_fonts_installed_title">字体选择器不可用，以避免和 Substratum 发生冲突。如果您希望使用字体选择器，请卸载 Substratum。</string>
+    <string name="font_picker_progress">正在应用新字体\u2026</string>
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">仅在屏幕开启时应用</string>
+    <string name="auto_brightness_one_shot_summary">调整将发生一次</string>
 </resources>
