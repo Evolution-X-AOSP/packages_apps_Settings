@@ -35,6 +35,7 @@
     <string name="radio_info_title">Radio info</string>
 
     <!-- Refresh rate -->
+    <string name="max_refresh_rate_title">Peak refresh rate</string>
     <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
 
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
