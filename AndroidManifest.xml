@@ -147,7 +147,8 @@
             android:directBootAware="true"
             android:appComponentFactory="androidx.core.app.CoreComponentFactory"
             android:gwpAsanMode="always"
-            android:enableOnBackInvokedCallback="true">
+            android:enableOnBackInvokedCallback="true"
+            tools:replace="android:appComponentFactory">
 
         <uses-library android:name="org.apache.http.legacy" />
 
