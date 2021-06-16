@@ -40,7 +40,7 @@ class SelectDSUPreferenceController extends DeveloperOptionsPreferenceController
 
     @Override
     public boolean isAvailable() {
-        return false;
+        return SystemProperties.getBoolean("ro.boot.dynamic_partitions", false);
     }
 
     private boolean isDSURunning() {
