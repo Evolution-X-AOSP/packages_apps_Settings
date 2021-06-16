@@ -40,6 +40,11 @@ class SelectDSUPreferenceController extends DeveloperOptionsPreferenceController
         return DSU_LOADER_KEY;
     }
 
+    @Override
+    public boolean isAvailable() {
+        return SystemProperties.getBoolean("ro.boot.dynamic_partitions", false);
+    }
+
     private boolean isDSURunning() {
         return SystemProperties.getBoolean("ro.gsid.image_running", false);
     }
