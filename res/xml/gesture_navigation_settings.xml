@@ -53,27 +53,6 @@
             settings:textEnd="@string/back_height_high_label"/>
     </PreferenceCategory>
 
-    <com.android.settings.widget.LabeledSeekBarPreference
-        android:key="gesture_back_deadzone"
-        android:title="@string/gesture_back_deadzone_label"
-        android:max="3"
-        android:selectable="true"
-        settings:textStart="@string/smallest_tick_label"
-        settings:textEnd="@string/greatest_tick_label"/>
-
-    <com.evolution.settings.preference.SecureSettingSwitchPreference
-        android:key="navigation_bar_hint"
-        android:title="@string/show_gestures_navbar_switch_title"
-        android:summary="@string/show_gestures_navbar_switch_summary"
-        android:defaultValue="true" />
-
-    <com.android.settingslib.widget.FooterPreference
-        android:key="gesture_navigation_settings_footer"
-        android:title="@string/back_sensitivity_dialog_message_cust"
-        android:selectable="false"
-        settings:searchable="false"
-        settings:allowDividerAbove="true"/>
-
     <Preference
         android:key="gesture_nav_custom_options"
         android:title="@string/navbar_gesture_tweaks_pref_title"
@@ -84,10 +63,9 @@
     <com.android.settings.widget.LabeledSeekBarPreference
         android:key="gesture_navbar_length"
         android:title="@string/navbar_length"
-        android:max="3"
-        android:defaultValue="1"
+        android:max="2"
         android:selectable="true"
-        settings:textStart="@string/hidden_label"
+        settings:textStart="@string/short_label"
         settings:textEnd="@string/long_label"/>
 
     <com.android.settings.widget.LabeledSeekBarPreference
