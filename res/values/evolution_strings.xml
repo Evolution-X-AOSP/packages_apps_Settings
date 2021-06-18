@@ -511,4 +511,9 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rooted debugging</string>
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 </resources>
