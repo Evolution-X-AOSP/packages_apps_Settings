@@ -20,26 +20,31 @@
         android:key="lock_settings_picker">
 
     <com.android.settingslib.RestrictedPreference
+            android:icon="@drawable/ic_lock_none"
             android:key="unlock_set_off"
             android:title="@string/unlock_set_unlock_off_title"
             android:persistent="false"/>
 
     <com.android.settingslib.RestrictedPreference
+            android:icon="@drawable/ic_lock_swipe"
             android:key="unlock_set_none"
             android:title="@string/unlock_set_unlock_none_title"
             android:persistent="false"/>
 
     <com.android.settingslib.RestrictedPreference
+            android:icon="@drawable/ic_pattern"
             android:key="unlock_set_pattern"
             android:title="@string/unlock_set_unlock_pattern_title"
             android:persistent="false"/>
 
     <com.android.settingslib.RestrictedPreference
+	    android:icon="@drawable/ic_lock_pin"
             android:key="unlock_set_pin"
             android:title="@string/unlock_set_unlock_pin_title"
             android:persistent="false"/>
 
     <com.android.settingslib.RestrictedPreference
+	    android:icon="@drawable/ic_password"
             android:key="unlock_set_password"
             android:title="@string/unlock_set_unlock_password_title"
             android:persistent="false"/>
