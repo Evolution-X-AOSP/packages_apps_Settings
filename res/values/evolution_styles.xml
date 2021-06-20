@@ -28,4 +28,9 @@
     <style name="CustomPreference" parent="Preference.Material">
         <item name="allowDividerAbove">false</item>
     </style>
+
+    <!-- Fingerprint -->
+    <style name="FingerprintGravity">
+        <item name="android:gravity">center</item>
+    </style>
 </resources>
