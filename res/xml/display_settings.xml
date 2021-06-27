@@ -75,6 +75,12 @@
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
             settings:keywords="@string/keywords_dark_ui_mode"/>
 
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="use_new_searchbar"
+            android:title="@string/search_bar_style_title"
+            android:summary="@string/search_bar_style_summary"
+            android:defaultValue="false" />
+
         <Preference
             android:key="font_size"
             android:title="@string/title_font_size"

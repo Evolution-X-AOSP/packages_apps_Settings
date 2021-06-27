@@ -581,4 +581,8 @@
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+
+    <!-- Search bar style -->
+    <string name="search_bar_style_title">Use Android 12 search bar</string>
+    <string name="search_bar_style_summary">Enable to use Android 12 style search bar in Settings app. Settings app needs a manual restart after enabling</string>
 </resources>

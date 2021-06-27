@@ -19,7 +19,10 @@ package com.android.settings.homepage;
 import android.animation.LayoutTransition;
 import android.app.ActivityManager;
 import android.app.settings.SettingsEnums;
+import android.content.Context;
 import android.os.Bundle;
+import android.os.UserHandle;
+import android.provider.Settings;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
@@ -43,7 +46,13 @@ public class SettingsHomepageActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.settings_homepage_container);
+        Context context = getApplicationContext();
+
+        final boolean useNewSearchBar = Settings.System.getIntForUser(context.getContentResolver(),
+                Settings.System.USE_NEW_SEARCHBAR, 0, UserHandle.USER_CURRENT) != 0;
+
+        setContentView(useNewSearchBar  ? R.layout.settings_homepage_container_a12
+                                        : R.layout.settings_homepage_container);
         final View root = findViewById(R.id.settings_homepage_container);
         root.setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
