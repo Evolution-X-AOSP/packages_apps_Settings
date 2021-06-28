@@ -34,7 +34,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.android.internal.evolution.hardware.LineageHardwareManager;
+import com.android.internal.custom.hardware.LineageHardwareManager;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -20,6 +20,8 @@ import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.os.Bundle;
 
+import com.android.internal.custom.hardware.LineageHardwareManager;
+
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
@@ -39,8 +41,6 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
-
-import com.android.internal.evolution.hardware.LineageHardwareManager;
 
 import java.util.ArrayList;
 import java.util.List;
