@@ -125,11 +125,9 @@
     <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
     <string name="designed_battery_capacity_summary">Kapasitas baterai dirancang oleh pabrikan</string>
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
-    <!-- Navbar options -->
-    <string name="show_gestures_navbar_switch_title">Tampilkan pill</string>
-    <string name="show_gestures_navbar_switch_summary">Tampilkan isyarat bilah navigasi</string>
+    <!-- Navbar length -->
     <string name="navbar_length">Panjang bilah gerakan</string>
-    <string name="hidden_label">Tersembunyi</string>
+    <string name="short_label">Singkat</string>
     <string name="long_label">Panjang</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Melalui mode siklus</string>
@@ -283,11 +281,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="battery_info_category_title">Kesehatan Baterai</string>
     <string name="battery_saver_category_title">Penghemat Baterai</string>
     <string name="battery_usage_category_title">Info Baterai</string>
-    <!-- Back Gestures -->
-    <string name="smallest_tick_label">Mati</string>
-    <string name="greatest_tick_label">Setengah layar</string>
-    <string name="gesture_back_deadzone_label">Zona mati</string>
-    <string name="back_sensitivity_dialog_message_cust">\nGunakan seekbar pertama dan kedua untuk mengonfigurasi sensitivitas geser ke belakang, seekbar terakhir untuk mengatur area mati di atas layar di mana gesekan tidak dapat dipicu, untuk menghindari konflik dengan isyarat dalam aplikasi.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Tidak ada tindakan</string>
     <string name="action_search">Asisten</string>
@@ -407,7 +400,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="applock_lock_after_instantly_summary">Aplikasi akan langsung dikunci saat ditutup</string>
     <string name="applock_lock_after_15_seconds_summary">Aplikasi akan dikunci 15 detik setelah ditutup</string>
     <string name="applock_lock_after_screen_off_summary">Aplikasi akan dikunci saat layar dimatikan</string>
-    <string name="applock_notification_info">Anda dapat menampilkan/menyembunyikan konten notifikasi per aplikasi dengan mengklik ikon notifikasi yang ditampilkan di preferensi setiap aplikasi yang terkunci</string>
+    <string name="applock_notification_info">Visibilitas konten notifikasi dapat diubah jika Anda mengklik di samping ikon kunci.</string>
     <string name="applock_show_notif">Menampilkan konten notifikasi</string>
     <string name="applock_hide_notif">Menyembunyikan konten notifikasi</string>
     <string name="applock_setup">Siapkan pengunci aplikasi</string>
@@ -483,4 +476,10 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">Hanya berlaku saat layar dihidupkan</string>
     <string name="auto_brightness_one_shot_summary">Penyesuaian akan terjadi satu kali</string>
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Navigasi Immersive</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
 </resources>

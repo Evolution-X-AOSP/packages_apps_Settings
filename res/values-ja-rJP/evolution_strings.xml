@@ -65,7 +65,7 @@
     <string name="screenshot_sound_title">スクリーンショットの音</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">私達の未来と共にあなたの端末を進化させましょう</string>
+    <string name="evolver_dashboard_summary">私達の機能でお使いの端末を進化させましょう</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">タップして情報を表示</string>
     <!-- Volume link notification -->
@@ -124,11 +124,9 @@
     <string name="designed_battery_capacity">設計バッテリー容量</string>
     <string name="designed_battery_capacity_summary">メーカーによって設計されたバッテリー容量</string>
     <string name="battery_charge_cycles">充電サイクルが完了しました</string>
-    <!-- Navbar options -->
-    <string name="show_gestures_navbar_switch_title">ピルを表示</string>
-    <string name="show_gestures_navbar_switch_summary">ジェスチャーナビゲーションバーを表示する</string>
+    <!-- Navbar length -->
     <string name="navbar_length">ジェスチャーバーの長さ</string>
-    <string name="hidden_label">非表示</string>
+    <string name="short_label">短</string>
     <string name="long_label">長い</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">サイクルスルーモード</string>
@@ -281,11 +279,6 @@
     <string name="battery_info_category_title">バッテリー健康度</string>
     <string name="battery_saver_category_title">バッテリーセーバー</string>
     <string name="battery_usage_category_title">バッテリー情報</string>
-    <!-- Back Gestures -->
-    <string name="smallest_tick_label">OFF</string>
-    <string name="greatest_tick_label">半画面</string>
-    <string name="gesture_back_deadzone_label">非認識範囲</string>
-    <string name="back_sensitivity_dialog_message_cust">\n最初と2番目のシークバーで戻るジェスチャースワイプ感度を編集し、最後のシークバーでスワイプを認識しない画面領域を設定し、アプリ内ジェスチャーとの競合を回避します。</string>
     <!-- Custom actions -->
     <string name="action_nothing">なし</string>
     <string name="action_search">アシスタント</string>
@@ -481,4 +474,10 @@
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">画面点灯時にのみ適用されます</string>
     <string name="auto_brightness_one_shot_summary">調整は一度だけ行われます</string>
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">没入ナビゲーション</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
+    <string name="face_unlock_method_default">画面が点灯した時</string>
+    <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
 </resources>

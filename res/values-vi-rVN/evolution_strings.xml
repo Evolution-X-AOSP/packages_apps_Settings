@@ -124,11 +124,9 @@
     <string name="designed_battery_capacity">Dung lượng pin gốc</string>
     <string name="designed_battery_capacity_summary">Dung lượng pin gốc từ khi mới đập hộp</string>
     <string name="battery_charge_cycles">Chu kỳ sạc đầy pin</string>
-    <!-- Navbar options -->
-    <string name="show_gestures_navbar_switch_title">Hiển thị thanh điều hướng</string>
-    <string name="show_gestures_navbar_switch_summary">Hiển thị cử chỉ thanh điều hướng</string>
+    <!-- Navbar length -->
     <string name="navbar_length">Độ dài thanh cử chỉ</string>
-    <string name="hidden_label">Ẩn</string>
+    <string name="short_label">Ngắn</string>
     <string name="long_label">Dài</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Bật (chuyển đổi qua các chế độ)</string>
@@ -281,11 +279,6 @@
     <string name="battery_info_category_title">Tình trạng pin</string>
     <string name="battery_saver_category_title">Trình tiết kiệm pin</string>
     <string name="battery_usage_category_title">Thông tin pin</string>
-    <!-- Back Gestures -->
-    <string name="smallest_tick_label">Tắt</string>
-    <string name="greatest_tick_label">Một nửa màn hình</string>
-    <string name="gesture_back_deadzone_label">Vùng chết</string>
-    <string name="back_sensitivity_dialog_message_cust">\nSử dụng thanh tìm kiếm thứ nhất và thứ hai để định cấu hình độ nhạy của thao tác vuốt ngược, thanh tìm kiếm cuối cùng để đặt vùng chết trên đầu màn hình nơi không thể kích hoạt thao tác vuốt, để tránh xung đột với cử chỉ trong ứng dụng.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Không hành động</string>
     <string name="action_search">Trợ lý</string>
@@ -481,4 +474,10 @@
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">Ứng dụng sẽ tự khóa sau khi màn hình tắt</string>
     <string name="auto_brightness_one_shot_summary">Điều chỉnh sẽ xảy ra một lần</string>
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Kích hoạt điều hướng thực tại ảo</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Cho phép từ màn hình khóa</string>
+    <string name="face_unlock_method_default">Khi màn hình bật</string>
+    <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
 </resources>
