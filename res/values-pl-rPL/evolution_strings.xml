@@ -124,11 +124,9 @@
     <string name="designed_battery_capacity">Zaprojektowana pojemność baterii</string>
     <string name="designed_battery_capacity_summary">Pojemność akumulatora zaprojektowana przez producenta</string>
     <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
-    <!-- Navbar options -->
-    <string name="show_gestures_navbar_switch_title">Pokaż pigułkę</string>
-    <string name="show_gestures_navbar_switch_summary">Pokaż pasek gestów</string>
+    <!-- Navbar length -->
     <string name="navbar_length">Długość paska gestów</string>
-    <string name="hidden_label">Ukryty</string>
+    <string name="short_label">Krótki</string>
     <string name="long_label">Długi</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Przełączaj między trybami</string>
@@ -281,11 +279,6 @@
     <string name="battery_info_category_title">Żywotność baterii</string>
     <string name="battery_saver_category_title">Oszczędzanie baterii</string>
     <string name="battery_usage_category_title">Informacje o baterii</string>
-    <!-- Back Gestures -->
-    <string name="smallest_tick_label">Wyłącz</string>
-    <string name="greatest_tick_label">Połowa ekranu</string>
-    <string name="gesture_back_deadzone_label">Strefa martwa</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUżyj pierwszego i drugiego paska wyszukiwania, aby skonfigurować czułość przesuwania wstecznego, ostatniego paska wyszukiwania, aby ustawić martwy obszar u góry ekranu, w którym nie można uruchomić przesunięcia, aby uniknąć konfliktów z gestami w aplikacji.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Brak działań</string>
     <string name="action_search">Asystent</string>
@@ -484,4 +477,10 @@
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">Zastosuj tylko, gdy ekran jest włączony</string>
     <string name="auto_brightness_one_shot_summary">Regulacja nastąpi jednorazowo</string>
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Włącz nawigację pełnoekranową</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Zezwól na odblokawanie twarzą na ekranie blokady</string>
+    <string name="face_unlock_method_default">Gdy ekran jest włączony</string>
+    <string name="face_unlock_method_swipe">Kiedy przesuwasz na ekranie blokady</string>
 </resources>
