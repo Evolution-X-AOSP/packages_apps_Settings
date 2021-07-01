@@ -36,6 +36,7 @@ public class EvolutionXVersionPreferenceController extends BasePreferenceControl
     private static final String TAG = "EvolutionXVersionPreferenceCtrl";
     private static final String KEY_ROM_VERSION_PROP = "org.evolution.build_version";
     private static final String KEY_ROM_CODENAME_PROP = "org.evolution.build_codename";
+    private static final String KEY_ROM_BUILD_TYPE_PROP = "org.evolution.build_type";
 
     private final PackageManager mPackageManager;
 
@@ -55,7 +56,9 @@ public class EvolutionXVersionPreferenceController extends BasePreferenceControl
                 mContext.getString(R.string.device_info_default));
         String romCodename = SystemProperties.get(KEY_ROM_CODENAME_PROP,
                 mContext.getString(R.string.device_info_default));
-        return romVersion + " " + romCodename;
+        String romBuildtype = SystemProperties.get(KEY_ROM_BUILD_TYPE_PROP,
+                mContext.getString(R.string.device_info_default));
+        return romVersion + " " + romCodename + " | " + romBuildtype;
     }
 
     @Override
