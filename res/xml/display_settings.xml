@@ -214,6 +214,13 @@
             android:defaultValue="true" />
 
         <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="high_touch_polling_rate_enable"
+            android:title="@string/high_touch_polling_rate_title"
+            android:summary="@string/high_touch_polling_rate_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.touch.HighTouchPollingRateSettingsPreferenceController" />
+
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="high_touch_sensitivity_enable"
             android:title="@string/high_touch_sensitivity_title"
             android:summary="@string/high_touch_sensitivity_summary"
