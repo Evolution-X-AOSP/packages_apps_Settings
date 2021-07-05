@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 PixelExperience
+ * Copyright (C) 2022 PixelExperience
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,25 +20,25 @@ import android.content.Context;
 import com.android.internal.lineage.hardware.LineageHardwareManager;
 import com.android.settings.core.BasePreferenceController;
 
-public class HighTouchSensitivitySettingsPreferenceController extends BasePreferenceController {
+public class HighTouchPollingRateSettingsPreferenceController extends BasePreferenceController {
 
-    public static final String KEY = "high_touch_sensitivity_enable";
+    public static final String KEY = "high_touch_polling_rate_enable";
 
     private final LineageHardwareManager mHardware;
 
-    public HighTouchSensitivitySettingsPreferenceController(Context context, String preferenceKey) {
+    public HighTouchPollingRateSettingsPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
 
         mHardware = LineageHardwareManager.getInstance(context);
     }
 
-    public HighTouchSensitivitySettingsPreferenceController(Context context) {
+    public HighTouchPollingRateSettingsPreferenceController(Context context) {
         this(context, KEY);
     }
 
     @Override
     public int getAvailabilityStatus() {
-        if (!mHardware.isSupported(LineageHardwareManager.FEATURE_HIGH_TOUCH_SENSITIVITY)){
+        if (!mHardware.isSupported(LineageHardwareManager.FEATURE_HIGH_TOUCH_POLLING_RATE)){
             return UNSUPPORTED_ON_DEVICE;
         }
         return AVAILABLE;
