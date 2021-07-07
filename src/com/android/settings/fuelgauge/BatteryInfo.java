@@ -261,6 +261,8 @@ public class BatteryInfo {
                 BatteryManager.EXTRA_VOOC_CHARGER, false);
         final boolean turboPowerStatus = batteryBroadcast.getBooleanExtra(
                 BatteryManager.EXTRA_TURBO_POWER, false);
+        final boolean superdartChargeStatus = batteryBroadcast.getBooleanExtra(
+                BatteryManager.EXTRA_SUPERDART_CHARGER, false);
         info.discharging = false;
         info.suggestionLabel = null;
         if (info.isOverheated && status != BatteryManager.BATTERY_STATUS_FULL) {
@@ -285,6 +287,9 @@ public class BatteryInfo {
             } else if (turboPowerStatus) {
                 info.remainingLabel = context.getString(
                         R.string.power_remaining_turbo_charging_duration_only, timeString);
+            } else if (superdartChargeStatus) {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_superdart_charging_duration_only, timeString);
             } else {
                 info.remainingLabel = context.getString(
                         R.string.power_remaining_charging_duration_only, timeString);
