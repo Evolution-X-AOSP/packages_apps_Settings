@@ -2991,6 +2991,14 @@
     <string name="color_mode_summary_natural">Use accurate colors only</string>
     <!-- Display settings screen, "Adaptive color" setting option summary [CHAR LIMIT=NONE] -->
     <string name="color_mode_summary_automatic">Adjust between vivid and accurate colors</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Color balance</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Red strength</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Green strength</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Blue strength</string>
 
     <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
     <string name="accelerometer_summary_on" product="tablet">Switch orientation automatically when rotating tablet</string>
@@ -8267,6 +8275,7 @@
     <string name="keywords_ignore_optimizations">ignore optimizations, doze, app standby</string>
     <string name="keywords_color_mode">vibrant, RGB, sRGB, color, natural, standard</string>
     <string name="keywords_color_temperature">color, temperature, D65, D73, white, yellow, blue, warm, cool</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
     <string name="keywords_lockscreen">slide to unlock, password, pattern, PIN</string>
     <!-- Search keyword for App pinning Settings [CHAR LIMIT=NONE] -->
     <string name="keywords_app_pinning">screen pinning</string>
