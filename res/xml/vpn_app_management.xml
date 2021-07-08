@@ -31,6 +31,12 @@
                 android:selectable="false"/>
         -->
 
+        <SwitchPreference
+                android:key="global_vpn"
+                android:title="@string/global_vpn_title"
+                android:defaultValue="false"
+                android:summary="@string/global_vpn_summary" />
+
         <com.android.settingslib.RestrictedSwitchPreference
                 android:order="10"
                 android:key="always_on_vpn"
