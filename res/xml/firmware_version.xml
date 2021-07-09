@@ -26,7 +26,16 @@
         android:key="evolution_logo"
         android:clickable="true"
         android:layout="@layout/evolution_logo"
-        android:fragment="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionSettings"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXLogoPreferenceController"/>
+
+    <!-- Device codename -->
+    <Preference
+        android:key="device_codename"
+        android:title="@string/device_codename"
+        android:summary="@string/summary_placeholder"
+        android:fragment="com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DeviceCodenamePreferenceController"/>
 
     <!-- Android version -->
     <Preference
@@ -96,5 +105,23 @@
         android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/> -->
+
+    <!-- Build maintainer -->
+    <Preference
+        android:key="os_build_maintainer"
+        android:title="@string/build_maintainer"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildMaintainerPreferenceController"/>
+
+    <!-- SELinux -->
+    <Preference
+        android:key="selinux_status"
+        android:title="@string/selinux_status"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
 
 </PreferenceScreen>
