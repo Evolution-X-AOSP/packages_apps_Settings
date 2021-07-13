@@ -53,6 +53,12 @@
             settings:keywords="@string/keywords_lockscreen_bypass"
             settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenUnlockMethodPreferenceController" />
 
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="security_lockscreen_bypass"
+            android:title="@string/lockscreen_bypass_title"
+            android:summary="@string/lockscreen_bypass_summary"
+            settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenBypassPreferenceController" />
+
         <Preference
             android:title="@string/security_settings_face_unlock_redo_face_scan_title"
             android:key="security_settings_face_redo_face_scan"

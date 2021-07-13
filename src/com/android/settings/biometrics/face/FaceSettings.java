@@ -73,6 +73,7 @@ public class FaceSettings extends DashboardFragment {
     private FaceSettingsAttentionPreferenceController mAttentionController;
     private FaceSettingsRemoveButtonPreferenceController mRemoveController;
     private FaceSettingsEnrollButtonPreferenceController mEnrollController;
+    private FaceSettingsLockscreenBypassPreferenceController mLockscreenController;
     private FaceSettingsRedoPreferenceController mRedoController;
     private List<AbstractPreferenceController> mControllers;
 
@@ -169,8 +170,10 @@ public class FaceSettings extends DashboardFragment {
         Preference appPref = findPreference(FaceSettingsAppPreferenceController.KEY);
         Preference attentionPref = findPreference(FaceSettingsAttentionPreferenceController.KEY);
         Preference confirmPref = findPreference(FaceSettingsConfirmPreferenceController.KEY);
+        Preference bypassPref =
+                findPreference(mLockscreenController.getPreferenceKey());
         mTogglePreferences = new ArrayList<>(
-                Arrays.asList(keyguardPref, appPref, attentionPref, confirmPref));
+                Arrays.asList(keyguardPref, appPref, attentionPref, confirmPref, bypassPref));
 
         mRemoveButton = findPreference(FaceSettingsRemoveButtonPreferenceController.KEY);
         mEnrollButton = findPreference(FaceSettingsEnrollButtonPreferenceController.KEY);
@@ -192,6 +195,7 @@ public class FaceSettings extends DashboardFragment {
         // Don't show keyguard controller for work profile settings.
         if (mUserManager.isManagedProfile(mUserId)) {
             removePreference(FaceSettingsKeyguardPreferenceController.KEY);
+            removePreference(mLockscreenController.getPreferenceKey());
         }
 
         if (savedInstanceState != null) {
@@ -202,6 +206,9 @@ public class FaceSettings extends DashboardFragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
+
+        mLockscreenController = use(FaceSettingsLockscreenBypassPreferenceController.class);
+        mLockscreenController.setUserId(mUserId);
     }
 
     @Override
