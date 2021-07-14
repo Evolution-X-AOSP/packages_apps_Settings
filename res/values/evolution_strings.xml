@@ -416,7 +416,7 @@
     <string name="ambient_music_location">Ambient music ticker location</string>
     <string name="ambient_music_disabled">Disabled</string>
     <string name="ambient_music_bottom">At the bottom (default)</string>
-    <string name="ambient_music_center">Centered (under the cLock)</string>
+    <string name="ambient_music_center">Centered (under the clock)</string>
 
     <!-- Clipboard toast info -->
     <string name="clipboard_toast_info_title">Clipboard access alerts</string>
