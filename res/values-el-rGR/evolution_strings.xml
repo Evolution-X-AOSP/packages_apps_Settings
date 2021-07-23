@@ -356,6 +356,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Εφαρμογές πλήρους οθόνης</string>
     <string name="display_cutout_force_fullscreen_summary">Αναγκάστε τις εφαρμογές να αγνοήσουν το χώρο εγκοπης</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Παρακαλώ επανεκκινήστε την εφαρμογή για να εφαρμοστούν οι αλλαγές</string>
+    <string name="cutout_force_fullscreen_no_apps">Χωρίς εφαρμογές</string>
     <!-- Navbar radius -->
     <string name="navbar_radius">Γραμμή χειρονομίας ακτίνα κυκλου</string>
     <string name="small_label">1 dp</string>
@@ -469,7 +471,7 @@
     <string name="bluetooth_timeout_summary_4hours">4 ώρες</string>
     <string name="bluetooth_timeout_summary_8hours">8 ώρες</string>
     <!-- Font Engine -->
-    <string name="font_picker_title">Γραμματοσειρά</string>
+    <string name="font_picker_title">Στυλ γραμματοσειράς</string>
     <string name="disable_fonts_installed_title">Ο επιλογέας γραμματοσειράς δεν είναι διαθέσιμος για να αποφύγετε διενέξεις με το Substratum. Απεγκαταστήσετε αν επιθυμείτε να χρησιμοποιήσετε τον επιλογέα γραμματοσειράς.</string>
     <string name="font_picker_progress">Εφαρμογή νέας γραμματοσειράς\u2026</string>
     <!-- One shot automatic Brightness -->

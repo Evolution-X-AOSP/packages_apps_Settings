@@ -356,6 +356,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
     <string name="display_cutout_force_fullscreen_summary">Buộc các ứng dụng bỏ qua không gian khuyết</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Vui lòng khởi động lại ứng dụng để áp dụng các thay đổi</string>
+    <string name="cutout_force_fullscreen_no_apps">Không có ứng dụng</string>
     <!-- Navbar radius -->
     <string name="navbar_radius">Bán kính thanh cử chỉ</string>
     <string name="small_label">1 dp</string>

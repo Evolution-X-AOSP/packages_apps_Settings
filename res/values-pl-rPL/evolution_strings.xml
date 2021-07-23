@@ -356,6 +356,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikacje pełnoekranowe</string>
     <string name="display_cutout_force_fullscreen_summary">Wymuś na aplikacjach ignorowanie przestrzeni wcięcia</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Zrestartuj aplikację aby zastosować ustawienia</string>
+    <string name="cutout_force_fullscreen_no_apps">Brak aplikacji</string>
     <!-- Navbar radius -->
     <string name="navbar_radius">Promień paska gestów</string>
     <string name="small_label">1 dp</string>
