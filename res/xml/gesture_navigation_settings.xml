@@ -53,6 +53,12 @@
             settings:textEnd="@string/back_height_high_label"/>
     </PreferenceCategory>
 
+    <com.evolution.settings.preference.SecureSettingSwitchPreference
+        android:key="navigation_bar_hint"
+        android:title="@string/show_gestures_navbar_switch_title"
+        android:summary="@string/show_gestures_navbar_switch_summary"
+        android:defaultValue="true" />
+
     <Preference
         android:key="gesture_nav_custom_options"
         android:title="@string/navbar_gesture_tweaks_pref_title"
@@ -63,9 +69,10 @@
     <com.android.settings.widget.LabeledSeekBarPreference
         android:key="gesture_navbar_length"
         android:title="@string/navbar_length"
-        android:max="2"
+        android:max="3"
+        android:defaultValue="1"
         android:selectable="true"
-        settings:textStart="@string/short_label"
+        settings:textStart="@string/hidden_label"
         settings:textEnd="@string/long_label"/>
 
     <com.android.settings.widget.LabeledSeekBarPreference
@@ -88,10 +95,4 @@
         android:title="@string/back_gesture_arrow_message"
         android:summary="@string/back_gesture_arrow_summary"
         android:defaultValue="true" />
-
-    <SwitchPreference
-        android:key="immersive_navigation"
-        android:title="@string/immersive_navigation_title"
-        settings:allowDividerAbove="true" />
-
 </PreferenceScreen>

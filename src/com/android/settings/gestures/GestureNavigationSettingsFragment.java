@@ -16,6 +16,7 @@
 
 package com.android.settings.gestures;
 
+import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
 import static android.os.UserHandle.USER_CURRENT;
 
 import android.app.settings.SettingsEnums;
@@ -29,17 +30,11 @@ import android.os.ServiceManager;
 import android.provider.Settings;
 import android.view.WindowManager;
 
-import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
-
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.LabeledSeekBarPreference;
 import com.android.settingslib.search.SearchIndexable;
-
-import static android.os.UserHandle.USER_CURRENT;
-import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
 
 /**
  * A fragment to include all the settings related to Gesture Navigation mode.
@@ -51,8 +46,6 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     public static final String GESTURE_NAVIGATION_SETTINGS =
             "com.android.settings.GESTURE_NAVIGATION_SETTINGS";
-    public static final String IMMERSIVE_NAVIGATION_SETTINGS =
-            "immersive_navigation";
 
     private static final String LEFT_EDGE_SEEKBAR_KEY = "gesture_left_back_sensitivity";
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
@@ -62,14 +55,11 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     private static final String LONG_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.long";
     private static final String MEDIUM_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.medium";
+    private static final String HIDDEN_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.hidden";
 
     private static final String LOW_RADIUS_PKG = "com.custom.overlay.systemui.gestural.radius.low";
     private static final String VERY_LOW_RADIUS_PKG = "com.custom.overlay.systemui.gestural.radius.verylow";
     private static final String HIDDEN_RADIUS_PKG = "com.custom.overlay.systemui.gestural.radius.hidden";
-
-    private static final String IMMERSIVE_NAV_KEY = "immersive_navigation";
-
-    private static final String NAV_MODE_IMMERSIVE_OVERLAY = "co.aospa.overlay.systemui.immnav.gestural";
 
     private IOverlayManager mOverlayService;
 
@@ -111,7 +101,6 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         initSeekBarPreference(GESTURE_BAR_RADIUS_KEY);
         initSeekBarPreference(GESTURE_BAR_LENGTH_KEY);
         initSeekBarPreference(KEY_BACK_HEIGHT);
-        initImmersiveSwitchPreference();
     }
 
     @Override
@@ -297,6 +286,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
                 switch((int) v) {
                     case 0:
                         try {
+                            mOverlayService.setEnabledExclusiveInCategory(HIDDEN_OVERLAY_PKG, USER_CURRENT);
                             mOverlayService.setEnabled(LONG_OVERLAY_PKG, false, USER_CURRENT);
                             mOverlayService.setEnabled(MEDIUM_OVERLAY_PKG, false, USER_CURRENT);
                         } catch (RemoteException re) {
@@ -305,13 +295,24 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
                         break;
                     case 1:
                         try {
-                            mOverlayService.setEnabledExclusiveInCategory(MEDIUM_OVERLAY_PKG, USER_CURRENT);
+                            mOverlayService.setEnabledExclusiveInCategory(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
+                            mOverlayService.setEnabled(LONG_OVERLAY_PKG, false, USER_CURRENT);
+                            mOverlayService.setEnabled(MEDIUM_OVERLAY_PKG, false, USER_CURRENT);
                         } catch (RemoteException re) {
                             throw re.rethrowFromSystemServer();
                         }
                         break;
                     case 2:
                         try {
+                            mOverlayService.setEnabledExclusiveInCategory(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
+                            mOverlayService.setEnabledExclusiveInCategory(MEDIUM_OVERLAY_PKG, USER_CURRENT);
+                        } catch (RemoteException re) {
+                            throw re.rethrowFromSystemServer();
+                        }
+                        break;
+                    case 3:
+                        try {
+                            mOverlayService.setEnabledExclusiveInCategory(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
                             mOverlayService.setEnabledExclusiveInCategory(LONG_OVERLAY_PKG, USER_CURRENT);
                         } catch (RemoteException re) {
                             throw re.rethrowFromSystemServer();
@@ -323,34 +324,6 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             });
         }
     }
-
-     private void initImmersiveSwitchPreference() {
-         SwitchPreference prefImmersiveNav = getPreferenceScreen().findPreference(IMMERSIVE_NAV_KEY);
-
-         prefImmersiveNav.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
-             @Override
-             public boolean onPreferenceChange(Preference preference, Object o) {
-                     final boolean isEnabled = (Boolean) o;
-                     if (isEnabled) {
-                         try {
-                             mOverlayService.setEnabledExclusiveInCategory(NAV_MODE_IMMERSIVE_OVERLAY, USER_CURRENT);
-                         } catch (RemoteException re) {
-                             throw re.rethrowFromSystemServer();
-                         }
-                     } else {
-                         try {
-                             mOverlayService.setEnabledExclusiveInCategory(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
-                             mOverlayService.setEnabled(NAV_MODE_IMMERSIVE_OVERLAY, false, USER_CURRENT);
-                         } catch (RemoteException re) {
-                             throw re.rethrowFromSystemServer();
-                         }
-                     }
-                     Settings.Secure.putInt(getContext().getContentResolver(), IMMERSIVE_NAVIGATION_SETTINGS, isEnabled ? 1 : 0);
-                     return true;
-             }
-         });
-         prefImmersiveNav.setChecked(Settings.Secure.getInt(getContext().getContentResolver(), IMMERSIVE_NAVIGATION_SETTINGS, 0) != 0);
-     }
 
     private static float[] getFloatArray(TypedArray array) {
         int length = array.length();

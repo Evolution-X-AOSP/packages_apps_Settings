@@ -167,9 +167,11 @@
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
     <string name="battery_charge_cycles">Charge cycles completed</string>
 
-    <!-- Navbar length -->
+    <!-- Navbar options -->
+    <string name="show_gestures_navbar_switch_title">Show pill</string>
+    <string name="show_gestures_navbar_switch_summary">Show gestures navbar</string>
     <string name="navbar_length">Gesture bar length</string>
-    <string name="short_label">Short</string>
+    <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
 
     <!-- Cycle through ringer modes gesture -->
@@ -574,9 +576,6 @@
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">Only apply when screen is turned on</string>
     <string name="auto_brightness_one_shot_summary">Adjustment will occur one time</string>
-
-    <!-- Immersive Navigation -->
-    <string name="immersive_navigation_title">Immersive navigation</string>
 
     <!-- Face Unlock -->
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
