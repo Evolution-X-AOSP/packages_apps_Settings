@@ -90,12 +90,9 @@ public class PeakRefreshRatePreferenceController extends TogglePreferenceControl
 
         mPreference = screen.findPreference(getPreferenceKey());
 
-        if (!Float.toString(mPeakRefreshRate).contains("90")) {
-          String preferenceSummary = mContext.getResources().getString(
-                  R.string.peak_refresh_rate_summary);
-          mPreference.setSummary(preferenceSummary.replace("90",
-                  Integer.toString(Math.round(mPeakRefreshRate))));
-        }
+        final String summary = mContext.getString(R.string.peak_refresh_rate_summary_custom,
+                (int)mPeakRefreshRate);
+        mPreference.setSummary(summary);
     }
 
     @Override
