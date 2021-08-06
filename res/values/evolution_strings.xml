@@ -464,4 +464,7 @@
     <string name="ime_narrow">Narrow</string>
     <string name="ime_default">Default</string>
     <string name="ime_hidden">Hidden</string>
+
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>
