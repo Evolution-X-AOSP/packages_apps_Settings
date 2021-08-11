@@ -21,9 +21,6 @@ import static android.provider.Settings.Secure.MEDIA_CONTROLS_RESUME;
 import android.content.Context;
 import android.provider.Settings;
 
-import androidx.preference.PreferenceGroup;
-import androidx.preference.PreferenceScreen;
-
 import com.android.settings.core.TogglePreferenceController;
 
 /**
@@ -31,35 +28,24 @@ import com.android.settings.core.TogglePreferenceController;
  */
 public class MediaControlsPreferenceController extends TogglePreferenceController {
 
-    private static final String KEY_ALLOWED_APPS_PREF = "media_controls_resumable_apps";
-
-    private PreferenceGroup mAllowedAppsPref;
-
     public MediaControlsPreferenceController(Context context, String key) {
         super(context, key);
     }
 
     @Override
     public boolean isChecked() {
-        return Settings.Secure.getInt(mContext.getContentResolver(), MEDIA_CONTROLS_RESUME, 0) == 1;
+        int val = Settings.Secure.getInt(mContext.getContentResolver(), MEDIA_CONTROLS_RESUME, 1);
+        return val == 1;
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
         int val = isChecked ? 1 : 0;
-        Settings.Secure.putInt(mContext.getContentResolver(), MEDIA_CONTROLS_RESUME, val);
-        mAllowedAppsPref.setEnabled(isChecked);
-        return true;
+        return Settings.Secure.putInt(mContext.getContentResolver(), MEDIA_CONTROLS_RESUME, val);
     }
 
     @Override
     public int getAvailabilityStatus() {
         return AVAILABLE;
-    }
-
-    @Override
-    public void displayPreference(PreferenceScreen screen) {
-        super.displayPreference(screen);
-        mAllowedAppsPref = screen.findPreference(KEY_ALLOWED_APPS_PREF);
     }
 }
