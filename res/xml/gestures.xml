@@ -33,6 +33,13 @@
         settings:controller="com.android.settings.gestures.DoubleTapLockscreenPreferenceController" />
 
     <Preference
+        android:key="double_tap"
+        android:fragment="com.android.settings.gestures.DoubleTapAmbientSettings"
+        android:title="@string/doze_double_tap_title"
+        android:summary="@string/doze_double_tap_summary"
+        settings:userRestriction="no_ambient_display" />
+
+    <Preference
         android:key="gesture_swipe_down_fingerprint_input_summary"
         android:title="@string/fingerprint_swipe_for_notifications_title"
         android:fragment="com.android.settings.gestures.SwipeToNotificationSettings"
@@ -87,7 +94,7 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
-      <Preference
+    <Preference
         android:key="three_finger_gesture_summary"
         android:title="@string/three_finger_gesture"
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
