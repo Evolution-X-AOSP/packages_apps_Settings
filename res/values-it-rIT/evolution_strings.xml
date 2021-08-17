@@ -15,6 +15,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Individua il sensore delle impronte digitali sul <xliff:g id="sensor_location">%1$s</xliff:g> del tuo tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Individua il sensore delle impronte digitali sul <xliff:g id="sensor_location">%1$s</xliff:g> del tuo dispositivo.</string>
@@ -30,6 +35,7 @@
     <!-- About device screen, build date -->
     <string name="build_date">Data di compilazione</string>
     <!-- About device screen, build maintainer -->
+    <string name="build_maintainer_summary">Sconosciuto</string>
     <!-- About device screen, device codename -->
     <string name="device_codename">Nome codice del dispositivo</string>
     <!-- About device screen, Evolution X -->
@@ -48,7 +54,7 @@
     <string name="lock_settings_picker_pattern_size_message">Scegli la dimensione della sequenza</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Mostra sequenza errata</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Visualizza i punti della sequenza</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Suono istantanea</string>
@@ -84,14 +90,11 @@
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Cambia gestore di backup</string>
     <string name="backup_transport_title">Seleziona un gestore di backup</string>
-    <!-- Clock style -->
-    <string name="clock_style_title">Stile orologio</string>
-    <string name="clock_style_summary">Personalizza orologio schermata di sblocco</string>
     <!-- Ambient Wake gestures -->
     <string name="ambient_wake_gestures_title">Gesti Ambient display</string>
     <string name="ambient_wake_gestures_summary">Mostra l\'Ambient display invece della schermata di blocco con i gesti per riaccendere lo schermo</string>
     <string name="lockscreen_display_title">Visualizzazione schermata di blocco</string>
-    <!-- Display : Rotation -->
+    <!-- Display - Rotation -->
     <string name="display_rotation_title">Rotazione</string>
     <string name="display_rotation_summary">Selezionare l\'angolo di rotazione</string>
     <string name="display_rotation_disabled">Disabilitato</string>
@@ -101,17 +104,6 @@
     <string name="display_rotation_90_title">90 gradi</string>
     <string name="display_rotation_180_title">180 gradi</string>
     <string name="display_rotation_270_title">270 gradi</string>
-    <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Pattern vibrazione suoneria</string>
-    <string name="pattern_custom">Personalizzata</string>
-    <string name="custom_vibration_pattern_title">Modello personalizzato</string>
-    <!-- Volume rocker gestures -->
-    <string name="volume_skiptrack_screen_title">Salta le tracce</string>
-    <string name="volume_skiptrack_title">Salta tracce con il bilanciere volume</string>
-    <string name="volume_skiptrack_summary">Premi a lungo i tasti volume per saltare le tracce durante la riproduzione, anche da remoto su TV o PC con ad es. Spotify. (L\'app deve essere attiva con la relativa notifica).</string>
-    <string name="pulse_on_new_tracks_title">Ticker musicale Ambient</string>
-    <string name="pulse_on_new_tracks_summary">Mostra Ambient Display quando una nuova traccia viene riprodotta. Doppio tap sulla traccia per passare alla successiva.</string>
-    <string name="pulse_on_new_tracks_soli_summary">Mostra Ambient Display quando viene riprodotto un nuovo brano</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Ripristina le statistiche</string>
     <string name="battery_stats_message">Le statistiche della cronologia della batteria verranno ripristinate</string>
@@ -127,15 +119,16 @@
     <string name="show_gestures_navbar_switch_title">Mostra pill</string>
     <string name="show_gestures_navbar_switch_summary">Mostra i gesti barra di navigazione</string>
     <string name="navbar_length">Lunghezza barra gesti</string>
-    <string name="hidden_label">Nascosto</string>
     <string name="long_label">Lunga</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Passa da una modalità all\'altra</string>
     <string name="prevent_ringing_option_cycle_summary">Acceso (passa da una modalità all\'altra)</string>
-    <!-- Double tap-to-sleep -->
-    <string name="doubletap_lockscreen_screen_title">Spegni schermo</string>
-    <string name="doubletap_lockscreen_title">Doppio tocco per spegnere lo schermo di blocco/barra di stato</string>
-    <string name="doubletap_lockscreen_summary">Doppio tocco sulle aree vuote della schermata di blocco/barra di stato per spegnere lo schermo</string>
+    <!-- Double-tap to sleep -->
+    <string name="double_tap_title">Doppio tocco</string>
+    <string name="double_tap_lock_screen_title">Tocca per spegnere lo schermo</string>
+    <!-- Doze on double-tap -->
+    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
+    <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Volume suoneria incrementale</string>
     <string name="increasing_ring_min_volume_title">Volume iniziale</string>
@@ -210,7 +203,7 @@
     <string name="color_red_title">Rosso</string>
     <string name="color_green_title">Verde</string>
     <string name="color_blue_title">Blu</string>
-    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Picture Adjustment -->
     <string name="picture_adjustment_title">Regolazione immagine</string>
     <string name="picture_adjustment_summary">Regola tonalità, saturazione, intensità e contrasto</string>
     <string name="adj_hue_title">Tinta</string>
@@ -238,8 +231,10 @@
     <string name="back_height_high_label">Basso</string>
     <string name="back_options_dialog_title">Opzioni</string>
     <string name="back_height_message">Porzione di schermo utilizzabile per il gesto indietro.</string>
-    <!-- Min refresh rate -->
+    <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Frequenza di aggiornamento minima</string>
+    <string name="max_refresh_rate_title">Frequenza di aggiornamento massima</string>
+    <string name="battery_saver_refresh_rate_title">Riduci la frequenza di aggiornamento</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Gesti sullo schermo</string>
     <string name="touchscreen_gesture_settings_summary">Esegui vari gesti sullo schermo per svolgere azioni rapide</string>
@@ -254,35 +249,20 @@
     <string name="volume_steps_system_title">Livello volume: Sistema</string>
     <string name="volume_steps_voice_call_title">Livello volume: Chiamata</string>
     <string name="volume_steps_reset">Reimposta</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Doppio tocco</string>
-    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
-    <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Animazione gesto indietro</string>
     <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto indietro.</string>
     <!-- Night Display API strings -->
     <string name="unknown_night_light_time">Sconosciuto - tocca per aggiornare</string>
     <string name="night_display_location_text">\n\nLa pianificazione dal tramonto all\'alba richiede che i servizi di geolocalizzazione siano abilitati per ottenere gli orari corretti per la tua posizione.</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Ricarica intelligente</string>
-    <string name="smart_charging_summary">Imposta un livello massimo di ricarica</string>
-    <string name="smart_charging_switch_title">Usa ricarica intelligente</string>
-    <string name="smart_charging_level_title">Livello di fine ricarica</string>
-    <string name="smart_charging_resume_level_title">Livello inizio ricarica</string>
-    <string name="smart_charging_reset_stats_title">Ripristina statistiche batteria</string>
-    <string name="smart_charging_reset_stats_summary">Ripristina le statistiche della batteria dopo aver raggiunto il livello di ricarica definito dall\'utente</string>
-    <string name="smart_charging_footer">La ricarica intelligente consente di impostare il livello massimo di ricarica per prolungare la durata della batteria</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Ricarica Adattiva</string>
+    <string name="adaptive_charging_temperature_title">Temperatura Adattiva</string>
+    <string name="adaptive_charging_reset_stats_title">Ripristina statistiche batteria</string>
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">Risparmio batteria</string>
-    <string name="smart_features_category_title">Funzioni smart</string>
     <string name="battery_info_category_title">Salute della batteria</string>
+    <string name="battery_saver_category_title">Risparmio batteria</string>
     <string name="battery_usage_category_title">Informazioni batteria</string>
-    <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Metà schermo</string>
-    <string name="gesture_back_deadzone_label">Zona morta</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUsa la prima e la seconda barra di scorrimento per riconfigurare la sensibilità del gesto, l\'ultima per impostare una zona morta in cima allo schermo dove non sarà possibile innescabile il gesto, per evitare i conflitti con i gesti in-app.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Nessuna azione</string>
     <string name="action_search">Assistente</string>
@@ -322,40 +302,6 @@
     <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'app per l\'azione, premi a lungo su ogni app nel selettore delle app.\n\nSe il launcher è mostrato, scorri nell\'area in fondo alla schermata per innescare l\'azione.</string>
     <string name="back_swipe_extended_title">Azione di scorrimento ampia</string>
     <string name="back_swipe_extended_summary">Innesca l\'azione su scorrimento più ampio (più di metà della dimensione dello schermo) o uno scorrimento a L (abbastanza lungo in verticale)</string>
-    <!-- Pulse -->
-    <string name="pulse_help_policy_notice_summary">Pulse non funziona con alcune sorgenti audio durante l\'ascolto sull\'altoparlante del dispositivo</string>
-    <string name="pulse_cat_title">Equalizzatore a impulsi</string>
-    <string name="pulse_settings">Impulso</string>
-    <string name="pulse_settings_summary">Equalizzatore grafico audio</string>
-    <string name="show_navbar_pulse_title">Impulso sulla barra di navigazione</string>
-    <string name="show_navbar_pulse_summary">Equalizzatore grafico audio nell\'area della barra di navigazione, anche se la barra è nascosta</string>
-    <string name="show_lockscreen_pulse_title">Impulso su blocco schermo</string>
-    <string name="show_lockscreen_pulse_summary">Equalizzatore grafico sulla schermata di blocco</string>
-    <string name="show_ambient_pulse_title">Ambient Pulse</string>
-    <string name="show_ambient_pulse_summary">Equalizzatore grafico audio sulla schermata ambientale</string>
-    <string name="pulse_render_mode_title">Modalità esecuzione</string>
-    <string name="pulse_render_mode_fading_bars">Dissolvenza blocchi</string>
-    <string name="pulse_render_mode_solid_lines">Linee continue</string>
-    <string name="pulse_color">Colore</string>
-    <string name="pulse_color_mode">Modalità colore</string>
-    <string name="pulse_color_accent">Colore secondario</string>
-    <string name="pulse_color_custom">Personalizzata</string>
-    <string name="pulse_color_lava_lamp">Lampada di lava</string>
-    <string name="pulse_color_auto">Copertina album</string>
-    <string name="pulse_color_chooser">Scegli colore</string>
-    <string name="smoothing_enabled_title">Attiva lo scorrimento</string>
-    <string name="smoothing_enabled_summary">Ogni barra è animata in modo più fluido</string>
-    <string name="pulse_advanced_category">Avanzato</string>
-    <string name="pulse_legacy_mode_advanced_category">Impostazioni della modalità dissolvenza blocchi</string>
-    <string name="pulse_custom_fudge_factor">Livello di sicurezza</string>
-    <string name="lavamp_speed_title">Velocità lampada di lava</string>
-    <string name="pulse_solid_units_count">Conteggio delle linee</string>
-    <string name="pulse_solid_units_opacity">Linee continue opache</string>
-    <string name="pulse_solid_dimen_category">Impostazioni delle linee continue</string>
-    <string name="pulse_custom_dimen">Larghezza barra</string>
-    <string name="pulse_custom_div">Spaziatura della barra</string>
-    <string name="pulse_filled_block_size">Dimensione del blocco</string>
-    <string name="pulse_empty_block_size">Spaziatura blocchi</string>
     <!-- Ambient display battery percentage -->
     <string name="ambient_battery_percent_title">Livello batteria basso</string>
     <string name="ambient_battery_percent_summary">Attiva per mostrare la percentuale della batteria quando il dispositivo è bloccato</string>
@@ -369,14 +315,15 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Ricarica veloce</string>
     <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per prolungare la durata della batteria</string>
-    <!-- Ambient music ticker location -->
+    <!-- Ambient music ticker -->
+    <string name="pulse_on_new_tracks_title">Ticker musicale Ambient</string>
+    <string name="pulse_on_new_tracks_summary">Mostra Ambient Display quando una nuova traccia viene riprodotta. Doppio tap sulla traccia per passare alla successiva.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Mostra Ambient Display quando viene riprodotto un nuovo brano</string>
     <string name="ambient_music_location">Mostra ticker ambient musicale</string>
     <string name="ambient_music_disabled">Disabilitato</string>
     <string name="ambient_music_bottom">In basso (predefinito)</string>
     <string name="ambient_music_center">Centrato (sotto il cLock)</string>
-    <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Mostra gli avvisi di accesso agli appunti</string>
-    <string name="show_clipboard_toast_summary">Mostra un avviso quando un\'app prova ad accedere agli appunti</string>
+    <!-- Clipboard toast info -->
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Consenti l\'accesso alla rete</string>
     <string name="data_usage_app_restrict_all_summary">Abilita l\'utilizzo della rete</string>
@@ -423,9 +370,14 @@
     <string name="applock_unlocked">Sbloccato</string>
     <string name="applock_locked_apps">App bloccate</string>
     <string name="applock_unlocked_apps">App scaricate</string>
-    <string name="applock_show_only_on_wake">Autentica solo una volta</string>
-    <string name="applock_show_only_on_wake_on_summary">Una volta autenticata, un\'app rimane sbloccata fino allo spegnimento dello schermo</string>
-    <string name="applock_show_only_on_wake_off_summary">Una volta autenticata, un\'app rimane sbloccata per 15 secondi dalla disconnessione</string>
+    <string name="applock_lock_after_title">Blocca app dopo</string>
+    <string name="applock_lock_after_instantly">Istantaneamente</string>
+    <string name="applock_lock_after_15_seconds">15 Secondi</string>
+    <string name="applock_lock_after_screen_off">Schermo spento</string>
+    <string name="applock_lock_after_summary">L\'app sarà bloccata dopo il timeout selezionato</string>
+    <string name="applock_lock_after_instantly_summary">L\'app sarà bloccata istantaneamente quando chiusa</string>
+    <string name="applock_lock_after_15_seconds_summary">L\'app sarà bloccata 15 secondi dopo la chiusura</string>
+    <string name="applock_lock_after_screen_off_summary">L\'app sarà bloccata quando lo schermo è spento</string>
     <string name="applock_notification_info">Puoi mostrare/nascondere il contenuto di notifica su base dell\'app cliccando sull\'icona di notifica mostrata su ogni preferenza delle app bloccate</string>
     <string name="applock_show_notif">Mostrando il contenuto di notifica</string>
     <string name="applock_hide_notif">Nascondi contenuto di notifica</string>
@@ -446,10 +398,54 @@
     <string name="category_name_visibility">Visibilità</string>
     <string name="category_personal">Personale</string>
     <string name="category_work">Lavoro</string>
-    <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Taglio intelligente</string>
-    <string name="smart_cutoff_summary">Imposta temperatura massima</string>
-    <string name="smart_cutoff_switch_title">Usa taglio Smart</string>
-    <string name="smart_cutoff_level_title">Interrompi livello di innesco</string>
-    <string name="smart_cutoff_resume_level_title">Avvia livello di innesco</string>
+    <!-- Screenshot settings -->
+    <!-- Screenshot compression  -->
+    <string name="screenshot_compression_title">Qualità screenshot</string>
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- Power Button Fingerprint -->
+    <!-- screen, setting option name to change wifi timeout -->
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary2">Disabilitato</string>
+    <string name="wifi_timeout_summary_never">Mai</string>
+    <string name="wifi_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_timeout_summary_2mins">2 minuti</string>
+    <string name="wifi_timeout_summary_5mins">5 minuti</string>
+    <string name="wifi_timeout_summary_10mins">10 minuti</string>
+    <string name="wifi_timeout_summary_30mins">30 minuti</string>
+    <string name="wifi_timeout_summary_1hour">Un\'ora</string>
+    <string name="wifi_timeout_summary_2hours">2 ore</string>
+    <string name="wifi_timeout_summary_4hours">4 ore</string>
+    <string name="wifi_timeout_summary_8hours">8 ore</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Timeout Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary_never">Mai</string>
+    <string name="bluetooth_timeout_summary_15secs">15 secondi</string>
+    <string name="bluetooth_timeout_summary_30secs">30 secondi</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minuti</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minuti</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minuti</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minuti</string>
+    <string name="bluetooth_timeout_summary_1hour">Un\'ora</string>
+    <string name="bluetooth_timeout_summary_2hours">2 ore</string>
+    <string name="bluetooth_timeout_summary_4hours">4 ore</string>
+    <!-- Font Engine -->
+    <!-- One shot automatic Brightness -->
+    <!-- Face Unlock -->
+    <!-- Search bar style -->
+    <!-- In-call feedback -->
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_intensity_disabled">Disabilitato</string>
+    <string name="vibration_intensity_light">Luce</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizzata</string>
+    <string name="custom_vibration_pattern_title">Modello personalizzato</string>
+    <!-- Wake on plug -->
+    <!-- Battery saver -->
 </resources>
