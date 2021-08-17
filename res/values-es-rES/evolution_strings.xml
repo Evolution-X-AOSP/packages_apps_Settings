@@ -110,10 +110,6 @@
     <string name="display_rotation_90_title">90 grados</string>
     <string name="display_rotation_180_title">180 grados</string>
     <string name="display_rotation_270_title">270 grados</string>
-    <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Patrón de vibración de tono de llamada</string>
-    <string name="pattern_custom">Personalizado</string>
-    <string name="custom_vibration_pattern_title">Patrón personalizado</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">¿Borrar datos de uso?</string>
     <string name="battery_stats_message">Se perderán los datos de uso de la batería</string>
@@ -129,14 +125,13 @@
     <string name="show_gestures_navbar_switch_title">Mostrar píldora</string>
     <string name="show_gestures_navbar_switch_summary">Mostrar gestos de barra de navegación</string>
     <string name="navbar_length">Tamaño de la barra de gestos</string>
-    <string name="hidden_label">Oculto</string>
     <string name="long_label">Largo</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Alternar modos</string>
     <string name="prevent_ringing_option_cycle_summary">Encendido (Alternar)</string>
     <!-- Double-tap to sleep -->
     <string name="double_tap_title">Doble toque</string>
-    <string name="double_tap_lock_screen_title">Pulsar para suspender</string>
+    <string name="double_tap_lock_screen_title">Doble toque para suspender</string>
     <string name="double_tap_lock_screen_summary">Doble toque en la pantalla de bloqueo y en las áreas vacías de la barra de estado para apagar la pantalla</string>
     <!-- Doze on double-tap -->
     <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
@@ -282,11 +277,6 @@
     <string name="battery_info_category_title">Estado de la batería</string>
     <string name="battery_saver_category_title">Ahorro de batería</string>
     <string name="battery_usage_category_title">Información de la batería</string>
-    <!-- Back Gestures -->
-    <string name="smallest_tick_label">Desactivado</string>
-    <string name="greatest_tick_label">Mitad de la pantalla</string>
-    <string name="gesture_back_deadzone_label">Zona muerta</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUtilice los dos controles superiores para configurar la sensibilidad del gesto Atrás. La barra inferior sirve para establecer un área en la parte superior de la pantalla en la que el deslizamiento no se puede activar, para evitar conflictos con gestos en aplicaciones.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Sin acción</string>
     <string name="action_search">Asistente</string>
@@ -483,4 +473,22 @@
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">Aplicar sólo cuando la pantalla está encendida</string>
     <string name="auto_brightness_one_shot_summary">El ajuste ocurrirá una vez</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
+    <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
+    <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <!-- Search bar style -->
+    <!-- In-call feedback -->
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_intensity_disabled">Desactivado</string>
+    <string name="vibration_intensity_light">Luz</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizado</string>
+    <string name="custom_vibration_pattern_title">Patrón personalizado</string>
+    <!-- Wake on plug -->
+    <!-- Battery saver -->
 </resources>
