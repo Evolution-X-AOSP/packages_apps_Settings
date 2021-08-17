@@ -109,10 +109,6 @@
     <string name="display_rotation_90_title">90 graus</string>
     <string name="display_rotation_180_title">180 graus</string>
     <string name="display_rotation_270_title">270 graus</string>
-    <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Padrão de vibração do toque</string>
-    <string name="pattern_custom">Personalizado</string>
-    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Zerar as estatísticas</string>
     <string name="battery_stats_message">As estatísticas do histórico de bateria serão redefinidas</string>
@@ -243,8 +239,11 @@
     <string name="back_options_dialog_title">Opções</string>
     <string name="back_height_message">Altura da área da tela usada como região tocável para gesto de voltar.</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Taxa de atualização</string>
     <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
     <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="preferred_refresh_rate_title">Taxa de atualização preferida</string>
+    <string name="preferred_refresh_rate_info">A taxa de atualização preferida será usada como a taxa de atualização padrão para interações do usuário, desde que não seja inferior à taxa de atualização mínima e não seja superior à taxa de atualização máxima.</string>
     <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
     <string name="battery_saver_refresh_rate_summary">Usar taxa de atualização da tela de 60 Hz para economizar energia quando a Economia de bateria estiver ativada</string>
     <!-- Gestures: Touchscreen gestures -->
@@ -281,11 +280,6 @@
     <string name="battery_info_category_title">Estado da bateria</string>
     <string name="battery_saver_category_title">Economia de bateria</string>
     <string name="battery_usage_category_title">Informações da bateria</string>
-    <!-- Back Gestures -->
-    <string name="smallest_tick_label">Desativado</string>
-    <string name="greatest_tick_label">Tela dividida</string>
-    <string name="gesture_back_deadzone_label">Área inativa</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUse a primeira e segunda barra de pesquisa para configurar a sensibilidade de deslizar para trás, a última barra de busca para definir uma área morta no topo da tela, onde o deslize não pode ser acionado, para evitar conflitos com gestos no aplicativo.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Nenhuma ação</string>
     <string name="action_search">Assistente</string>
@@ -363,6 +357,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
     <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do entalhe</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Por favor reinicie o aplicativo para aplicar as alterações</string>
+    <string name="cutout_force_fullscreen_no_apps">Nenhum app</string>
     <!-- Navbar radius -->
     <string name="navbar_radius">Tamanho da barra de gestos</string>
     <string name="small_label">1 dp</string>
@@ -482,4 +478,39 @@
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">Aplicar somente quando a tela estiver ligada</string>
     <string name="auto_brightness_one_shot_summary">A ajuste ocorrerá uma vez</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Permitir desbloqueio facial na tela de bloqueio</string>
+    <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
+    <string name="face_unlock_method_swipe">Ao deslizar na tela de bloqueio</string>
+    <!-- Search bar style -->
+    <string name="search_bar_style_title">Usar a barra de pesquisa do Android 12</string>
+    <string name="search_bar_style_summary">Habilite para usar a barra de pesquisa estilo Android 12 nas configurações. O app de configurações precisa ser reiniciado para ter efeito</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Vibração durante chamadas</string>
+    <string name="incall_feeedback_summary">Vibrar para indicar o status das chamadas</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Vibração &amp; retorno tátil</string>
+    <string name="summary_vibration_preferences">Alterar intensidades, padrão e mais</string>
+    <string name="keywords_vibration_preferences">padrão de vibração, intensidade da vibração, durante chamadas, resposta tátil, força da vibração</string>
+    <string name="ringtone_vibration_pattern">Padrão de vibração do toque</string>
+    <string name="vibration_intensity_ringer">Intensidade da vibração do toque</string>
+    <string name="vibration_intensity_notification">Intensidade de vibração das notificações</string>
+    <string name="vibration_intensity_disabled">Desativado</string>
+    <string name="vibration_intensity_light">Luz</string>
+    <string name="vibration_intensity_medium">Médio</string>
+    <string name="vibration_intensity_strong">Forte</string>
+    <string name="vibration_intensity_custom">Personalizado</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizado</string>
+    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="haptic_feedback_intensity">Intensidade da resposta tátil</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Ligar tela ao plugar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ligar a tela ao plugar ou desplugar o carregador</string>
+    <!-- Battery saver -->
+    <string name="battery_saver_is_enabled">Economia de bateria está ligada</string>
 </resources>
