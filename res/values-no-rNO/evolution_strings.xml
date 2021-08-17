@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2021 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Mindre enn 1 minutt</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <!-- Format string for fingerprint location message -->
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_front">front</string>
+    <!-- Fingerprint swipe left and right -->
+    <!-- About device screen, build date -->
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer_summary">Ukjent</string>
+    <!-- About device screen, device codename -->
+    <!-- About device screen, Evolution X -->
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plattform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
+    <!-- Screenshot sound -->
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">Utvikleren</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <!-- Volume link notification -->
+    <!-- Custom light color -->
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <!-- Battery temp -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Volume panel on left switch -->
+    <!-- Quick unlock -->
+    <!-- Scramble pin -->
+    <!-- Screen off fod -->
+    <!-- Backup Transport selection settings menu and activity title -->
+    <!-- Ambient Wake gestures -->
+    <!-- Display - Rotation -->
+    <string name="display_rotation_title">Rotering</string>
+    <string name="display_rotation_disabled">Deaktivert</string>
+    <string name="display_rotation_0_title">0°</string>
+    <string name="display_rotation_90_title">90°</string>
+    <string name="display_rotation_180_title">180°</string>
+    <string name="display_rotation_270_title">270°</string>
+    <!-- Battery stats reset -->
+    <!-- Battery health -->
+    <!-- Navbar options -->
+    <string name="long_label">Lang</string>
+    <!-- Cycle through ringer modes gesture -->
+    <!-- Double-tap to sleep -->
+    <string name="double_tap_title">Dobbelttrykk</string>
+    <!-- Doze on double-tap -->
+    <!-- Increasing ring tone volume -->
+    <!-- Search keywords -->
+    <!-- Pocket judge -->
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_disabled_summary">Av</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekunder</string>
+    <string name="adaptive_playback_timeout_1_min">1 minutt</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutter</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutter</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutter</string>
+    <!-- Running services toggle -->
+    <!-- LiveDisplay -->
+    <string name="live_display_day">Dag</string>
+    <string name="live_display_night">Natt</string>
+    <string name="live_display_color_profile_title">Fargeprofil</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_natural_title">Naturelt</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamisk</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_photography_title">Fotografi</string>
+    <string name="live_display_color_profile_basic_title">Grunnleggende</string>
+    <string name="live_display_color_profile_reading_title">Lesing</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="color_calibration_title">Fargekalibrering</string>
+    <string name="color_red_title">Rød</string>
+    <string name="color_green_title">Grønn</string>
+    <string name="color_blue_title">Blå</string>
+    <!-- LiveDisplay - Picture Adjustment -->
+    <string name="adj_hue_title">Metning</string>
+    <string name="adj_saturation_title">Fargemetning</string>
+    <string name="adj_intensity_title">Intensitet</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- AoD on charge -->
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekunder</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekunder</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minutt</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutter</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutter</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutter</string>
+    <!-- Misc gesture settings -->
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bunn</string>
+    <string name="back_options_dialog_title">Alternativer</string>
+    <!-- Refresh rate -->
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Volume Steps -->
+    <string name="volume_steps_reset">Tilbakestill</string>
+    <!-- Back gesture animation -->
+    <!-- Night Display API strings -->
+    <!-- Adaptive charging -->
+    <!-- Battery categorization -->
+    <!-- Custom actions -->
+    <string name="action_search">Assistent</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_volume_panel">Volumpanel</string>
+    <string name="action_screenshot">Skjermklipp</string>
+    <string name="action_app_action">Applikasjon</string>
+    <string name="action_notifications">Varsler</string>
+    <string name="action_clear_notifications">Tøm varsler</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_cat_title">Avansert</string>
+    <!-- Ambient display battery percentage -->
+    <!-- Screenshot type -->
+    <!-- Charging vibration -->
+    <!-- FastCharge feature -->
+    <!-- Ambient music ticker -->
+    <string name="ambient_music_disabled">Deaktivert</string>
+    <!-- Clipboard toast info -->
+    <!-- Per-app data restrictions -->
+    <!-- Notch: Full screen apps -->
+    <!-- Navbar radius -->
+    <string name="small_label">1 dp</string>
+    <string name="big_label">4 dp</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status_disabled">Deaktivert</string>
+    <!-- Face Unlock -->
+    <string name="face_redo_confirm_btn">Gjør om</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_auto_mode_title">Planlegg</string>
+    <string name="dc_dimming_brightness_disabled">Deaktivert</string>
+    <!-- App Lock -->
+    <string name="applock_locked">Låst</string>
+    <string name="applock_unlocked">Låst opp</string>
+    <string name="applock_lock_after_instantly">straks</string>
+    <string name="applock_lock_after_15_seconds">15 sekunder</string>
+    <!-- Android 12 DP2 additions -->
+    <string name="advanced_battery_preference_title">Vis batteribruk</string>
+    <string name="category_name_brightness">Lysstyrke</string>
+    <string name="category_name_color">Farge</string>
+    <string name="category_name_general">Generelt</string>
+    <string name="category_name_others">Andre</string>
+    <string name="category_name_visibility">Synlighet</string>
+    <string name="category_personal">Personlig</string>
+    <!-- Screenshot settings -->
+    <!-- Screenshot compression  -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- Power Button Fingerprint -->
+    <!-- screen, setting option name to change wifi timeout -->
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary2">Deaktivert</string>
+    <string name="wifi_timeout_summary_never">Aldri</string>
+    <string name="wifi_timeout_summary_15secs">15 sekunder</string>
+    <string name="wifi_timeout_summary_30secs">30 sekunder</string>
+    <string name="wifi_timeout_summary_1min">1 minutt</string>
+    <string name="wifi_timeout_summary_2mins">2 minutter</string>
+    <string name="wifi_timeout_summary_5mins">5 minutter</string>
+    <string name="wifi_timeout_summary_10mins">10 minutter</string>
+    <string name="wifi_timeout_summary_30mins">30 minutter</string>
+    <string name="wifi_timeout_summary_1hour">1 time</string>
+    <string name="wifi_timeout_summary_2hours">2 timer</string>
+    <string name="wifi_timeout_summary_4hours">4 timer</string>
+    <string name="wifi_timeout_summary_8hours">8 timer</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary_never">Aldri</string>
+    <string name="bluetooth_timeout_summary_15secs">15 sekunder</string>
+    <string name="bluetooth_timeout_summary_30secs">30 sekunder</string>
+    <string name="bluetooth_timeout_summary_1min">1 minutt</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutter</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutter</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutter</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutter</string>
+    <string name="bluetooth_timeout_summary_1hour">1 time</string>
+    <string name="bluetooth_timeout_summary_2hours">2 timer</string>
+    <string name="bluetooth_timeout_summary_4hours">4 timer</string>
+    <string name="bluetooth_timeout_summary_8hours">8 timer</string>
+    <!-- Font Engine -->
+    <!-- One shot automatic Brightness -->
+    <!-- Face Unlock -->
+    <!-- Search bar style -->
+    <!-- In-call feedback -->
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_intensity_disabled">Deaktivert</string>
+    <string name="vibration_intensity_light">Lyst</string>
+    <string name="pattern_custom">Egendefinert</string>
+    <!-- Wake on plug -->
+    <!-- Battery saver -->
+</resources>
