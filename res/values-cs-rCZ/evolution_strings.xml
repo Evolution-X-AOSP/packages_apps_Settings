@@ -15,6 +15,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Vyhledejte snímač otisků prstů na <xliff:g id="sensor_location">%1$s</xliff:g> tabletu.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Vyhledejte snímač otisku prstů <xliff:g id="sensor_location">%1$s</xliff:g> na zařízení.</string>
@@ -99,10 +104,6 @@
     <string name="display_rotation_90_title">90°</string>
     <string name="display_rotation_180_title">180°</string>
     <string name="display_rotation_270_title">270°</string>
-    <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Vzor vibrací vyzvánění</string>
-    <string name="pattern_custom">Vlastní</string>
-    <string name="custom_vibration_pattern_title">Vlastní vzor</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Vynulovat statistiky</string>
     <string name="battery_stats_message">Chystáte se obnovit historii statistiky baterie</string>
@@ -118,16 +119,15 @@
     <string name="show_gestures_navbar_switch_title">Zobrazit pilulku</string>
     <string name="show_gestures_navbar_switch_summary">Zobrazit gesta navigačního panelu</string>
     <string name="navbar_length">Délka panelu gesta</string>
-    <string name="hidden_label">Nezobrazovat</string>
     <string name="long_label">Dlouhý</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Přepínání mezi režimy</string>
     <string name="prevent_ringing_option_cycle_summary">Zap. (přepínání mezi režimy)</string>
-    <!-- Double tap-to-sleep -->
+    <!-- Double-tap to sleep -->
     <string name="double_tap_title">Dvojí poklepání</string>
     <string name="double_tap_lock_screen_title">Dvojím poklepáním uspat</string>
     <string name="double_tap_lock_screen_summary">Dvojitím poklepáním na nevyužíté části zamykací obrazovky uspat telefon</string>
-    <!-- Doze on double tap -->
+    <!-- Doze on double-tap -->
     <string name="doze_double_tap_title">Dvojitým klepnutím zkontrolujte telefon</string>
     <string name="doze_double_tap_summary">Pulzující oznámení dvojitým poklepáním</string>
     <!-- Increasing ring tone volume -->
@@ -257,26 +257,11 @@
     <!-- Night Display API strings -->
     <string name="unknown_night_light_time">Není známo - stiskněte pro aktualizaci</string>
     <string name="night_display_location_text">\n\nPlán od západu do východu slunce vyžaduje povolené lokalizační služby k získání správného času pro vaší polohu.</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Chytré nabíjení</string>
-    <string name="smart_charging_summary">Nastavit maximální úroveň nabíjení</string>
-    <string name="smart_charging_switch_title">Použít Chytré nabíjení</string>
-    <string name="smart_charging_level_title">Konečná úroveň spuštění</string>
-    <string name="smart_charging_resume_level_title">Počáteční úroveň spuštění</string>
-    <string name="smart_charging_reset_stats_title">Obnovit statistiky baterie</string>
-    <string name="smart_charging_reset_stats_summary">Obnoví statistiku baterie po dosažení úrovně nabití definované uživatelem</string>
-    <string name="smart_charging_footer">Chytré nabíjení vám umožní nastavit maximální úroveň nabití pro prodloužení životnosti baterie</string>
+    <!-- Adaptive charging -->
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">Spořič baterie</string>
-    <string name="smart_charging_category_title">Chytré nabíjení</string>
-    <string name="smart_cutoff_category_title">Chytré přerušení</string>
     <string name="battery_info_category_title">Zdraví baterie</string>
+    <string name="battery_saver_category_title">Spořič baterie</string>
     <string name="battery_usage_category_title">Informace o baterii na zamykací obrazovce</string>
-    <!-- Back Gestures -->
-    <string name="smallest_tick_label">Vyp.</string>
-    <string name="greatest_tick_label">Polovina obrazovky</string>
-    <string name="gesture_back_deadzone_label">Mrtvá zóna</string>
-    <string name="back_sensitivity_dialog_message_cust">Pomocí prvního vyhledávacího panelu nakonfigurujte citlivost přejetí zpět, druhým vyhledávacím panelem nastavte oblast obrazovky, na které lze použít přejetím prstem, aby nedocházelo ke konfliktům s gesty v aplikacích.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Žádná akce</string>
     <string name="action_search">Asistent</string>
@@ -417,12 +402,6 @@
     <string name="category_name_visibility">Viditelnost</string>
     <string name="category_personal">Osobní</string>
     <string name="category_work">Pracovní</string>
-    <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Chytré přerušení</string>
-    <string name="smart_cutoff_summary">Nastavte maximální teplotu</string>
-    <string name="smart_cutoff_switch_title">Použít chytré přerušení</string>
-    <string name="smart_cutoff_level_title">Konečná úroveň spuštění</string>
-    <string name="smart_cutoff_resume_level_title">Počáteční úroveň spuštění</string>
     <!-- Screenshot settings -->
     <string name="screenshot_settings_title">Nastavení snímku obrazovky</string>
     <string name="screenshot_settings_summary">Upravit možnosti týkající se snímků obrazovky</string>
@@ -435,11 +414,37 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Detekce dotyku nad obrazovkou</string>
     <string name="touchscreen_hovering_summary">Umožňuje pohybovat se nad obsahem obrazovky podobně, jako myší ve webových prohlížečích, vzdálených plochách atd</string>
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">SBC HD audio</string>
-    <string name="sbc_hd_priority_summary">Zvolte, zda má být ve výchozím nastavení SBC kodeku použit režim Dual Channel</string>
     <!-- Power Button Fingerprint -->
     <string name="fingerprint_power_button_press_title">Stiskněte pro odemknutí</string>
     <string name="fingerprint_power_button_press_off_summary">Klepněte na tlačítko napájení pro odemknutí pomocí otisku prstu při vypnuté obrazovce</string>
     <string name="fingerprint_power_button_press_on_summary">Jemně klepněte na tlačítko napájení pro odemknutí pomocí otisku prstu při vypnuté obrazovce</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary2">Vypnuto</string>
+    <string name="wifi_timeout_summary_never">Nikdy</string>
+    <string name="wifi_timeout_summary_1min">1 minuta</string>
+    <string name="wifi_timeout_summary_2mins">2 minuty</string>
+    <string name="wifi_timeout_summary_5mins">5 minut</string>
+    <string name="wifi_timeout_summary_10mins">10 minut</string>
+    <string name="wifi_timeout_summary_30mins">30 minut</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary_never">Nikdy</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuta</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minuty</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minut</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minut</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minut</string>
+    <!-- Font Engine -->
+    <!-- One shot automatic Brightness -->
+    <!-- Face Unlock -->
+    <!-- Search bar style -->
+    <!-- In-call feedback -->
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_intensity_disabled">Vypnuto</string>
+    <string name="vibration_intensity_light">Light</string>
+    <string name="pattern_custom">Vlastní</string>
+    <string name="custom_vibration_pattern_title">Vlastní vzor</string>
+    <!-- Wake on plug -->
+    <!-- Battery saver -->
 </resources>
