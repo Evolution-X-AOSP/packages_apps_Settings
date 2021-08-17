@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2021 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <!-- Format string for fingerprint location message -->
+    <!-- Fingerprint sensor locations -->
+    <!-- Fingerprint swipe left and right -->
+    <!-- About device screen, build date -->
+    <!-- About device screen, build maintainer -->
+    <!-- About device screen, device codename -->
+    <!-- About device screen, Evolution X -->
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <!-- App details: open play store link if app is user installed -->
+    <!-- Manage applications, package string displayed in app snippet -->
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
+    <!-- Screenshot sound -->
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">Evolveris</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <!-- Volume link notification -->
+    <!-- Custom light color -->
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <!-- Battery temp -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Volume panel on left switch -->
+    <!-- Quick unlock -->
+    <!-- Scramble pin -->
+    <!-- Screen off fod -->
+    <!-- Backup Transport selection settings menu and activity title -->
+    <!-- Ambient Wake gestures -->
+    <!-- Display - Rotation -->
+    <!-- Battery stats reset -->
+    <!-- Battery health -->
+    <!-- Navbar options -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- Double-tap to sleep -->
+    <!-- Doze on double-tap -->
+    <!-- Increasing ring tone volume -->
+    <!-- Search keywords -->
+    <!-- Pocket judge -->
+    <!-- Adaptive Playback -->
+    <!-- Running services toggle -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay - Picture Adjustment -->
+    <!-- AoD on charge -->
+    <!-- Notification sound timeout -->
+    <!-- Misc gesture settings -->
+    <!-- Back gesture height -->
+    <!-- Refresh rate -->
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Volume Steps -->
+    <!-- Back gesture animation -->
+    <!-- Night Display API strings -->
+    <!-- Adaptive charging -->
+    <!-- Battery categorization -->
+    <!-- Custom actions -->
+    <!-- Long back swipe options -->
+    <!-- Ambient display battery percentage -->
+    <!-- Screenshot type -->
+    <!-- Charging vibration -->
+    <!-- FastCharge feature -->
+    <!-- Ambient music ticker -->
+    <!-- Clipboard toast info -->
+    <!-- Per-app data restrictions -->
+    <!-- Notch: Full screen apps -->
+    <!-- Navbar radius -->
+    <!-- SELinux Status -->
+    <!-- Face Unlock -->
+    <!-- DC Dimming -->
+    <!-- App Lock -->
+    <!-- Android 12 DP2 additions -->
+    <!-- Screenshot settings -->
+    <!-- Screenshot compression  -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- Power Button Fingerprint -->
+    <!-- screen, setting option name to change wifi timeout -->
+    <!-- screen, setting option summary to change wifi timeout -->
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- Font Engine -->
+    <!-- One shot automatic Brightness -->
+    <!-- Face Unlock -->
+    <!-- Search bar style -->
+    <!-- In-call feedback -->
+    <!-- Custom Vibration fragment -->
+    <!-- Wake on plug -->
+    <!-- Battery saver -->
+</resources>
