@@ -110,10 +110,6 @@
     <string name="display_rotation_90_title">90 derajat</string>
     <string name="display_rotation_180_title">180 derajat</string>
     <string name="display_rotation_270_title">270 derajat</string>
-    <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Pola getaran nada dering</string>
-    <string name="pattern_custom">Kustom</string>
-    <string name="custom_vibration_pattern_title">Pola kustom</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Atur ulang statistik baterai</string>
     <string name="battery_stats_message">Statistik riwayat baterai akan diatur ulang</string>
@@ -125,9 +121,11 @@
     <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
     <string name="designed_battery_capacity_summary">Kapasitas baterai dirancang oleh pabrikan</string>
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
-    <!-- Navbar length -->
+    <!-- Navbar options -->
+    <string name="show_gestures_navbar_switch_title">Tampilkan pill</string>
+    <string name="show_gestures_navbar_switch_summary">Tampilkan gestur bilah navigasi</string>
     <string name="navbar_length">Panjang bilah gerakan</string>
-    <string name="short_label">Singkat</string>
+    <string name="hidden_label">Sembunyikan</string>
     <string name="long_label">Panjang</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Melalui mode siklus</string>
@@ -243,8 +241,11 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="back_options_dialog_title">Opsi</string>
     <string name="back_height_message">Jumlah ketinggian layar digunakan sebagai daerah yang dapat disentuh untuk gerakan kembali.</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Kecepatan refresh</string>
     <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
     <string name="max_refresh_rate_title">Kecepatan refresh maksimal</string>
+    <string name="preferred_refresh_rate_title">Kecepatan refresh yang disukai</string>
+    <string name="preferred_refresh_rate_info">Kecepatan refresh pilihan akan digunakan sebagai kecepatan refresh default untuk interaksi pengguna, selama tidak lebih rendah dari kecepatan refresh minimum dan tidak lebih tinggi dari kecepatan refresh maksimum.</string>
     <string name="battery_saver_refresh_rate_title">Kurangi kecepatan refresh</string>
     <string name="battery_saver_refresh_rate_summary">Gunakan kecepatan refresh layar 60 Hz untuk menghemat daya saat Penghemat Baterai aktif</string>
     <!-- Gestures: Touchscreen gestures -->
@@ -358,6 +359,8 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
     <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Harap mulai ulang aplikasi untuk menerapkan perubahan</string>
+    <string name="cutout_force_fullscreen_no_apps">Tidak ada aplikasi</string>
     <!-- Navbar radius -->
     <string name="navbar_radius">Radius bilah gestur</string>
     <string name="small_label">1 dp</string>
@@ -476,10 +479,39 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">Hanya berlaku saat layar dihidupkan</string>
     <string name="auto_brightness_one_shot_summary">Penyesuaian akan terjadi satu kali</string>
-    <!-- Immersive Navigation -->
-    <string name="immersive_navigation_title">Navigasi Immersive</string>
     <!-- Face Unlock -->
     <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <!-- Search bar style -->
+    <string name="search_bar_style_title">Gunakan Bilah Pencarian Android 12</string>
+    <string name="search_bar_style_summary">Aktifkan untuk menggunakan bilah pencarian gaya Android 12 di aplikasi Setelan. Aplikasi Setelan membutuhkan restart manual setelah diaktifkan</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Getaran dalam panggilan</string>
+    <string name="incall_feeedback_summary">Getarkan untuk mengindikasikan status panggilan</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Getaran &amp; respon</string>
+    <string name="summary_vibration_preferences">Ubah intensitas, pola dan banyak lagi</string>
+    <string name="keywords_vibration_preferences">pola getaran, intensitas getaran, dalam panggilan, respon, ketukan, kekuatan getaran</string>
+    <string name="ringtone_vibration_pattern">Pola getaran nada dering</string>
+    <string name="vibration_intensity_ringer">Intensitas getaran nada dering</string>
+    <string name="vibration_intensity_notification">Intensitas getaran notifikasi</string>
+    <string name="vibration_intensity_disabled">Dinonaktifkan</string>
+    <string name="vibration_intensity_light">Tipis</string>
+    <string name="vibration_intensity_medium">Sedang</string>
+    <string name="vibration_intensity_strong">Kuat</string>
+    <string name="vibration_intensity_custom">Kustom</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Kustom</string>
+    <string name="custom_vibration_pattern_title">Setel pola getaran kustom</string>
+    <string name="haptic_feedback_intensity">Intensitas umpan balik respon</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Bangun saat pengisi daya terhubung</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Aktifkan layar ketika menghubungkan atau melepaskan pengisi daya</string>
+    <!-- Battery saver -->
+    <string name="battery_saver_is_enabled">Penghemat baterai diaktifkan</string>
 </resources>
