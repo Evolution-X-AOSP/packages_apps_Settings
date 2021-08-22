@@ -15,6 +15,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of Touch Sensitivity. TouchSensitivity is a feature which improves touch when using screen protectors. [CHAR LIMIT=60] -->
+    <string name="touch_sensitivity_title">Повећај осетљивост додира екрана</string>
+    <!-- Summary of Touch Sensitivity preference. [CHAR LIMIT=NONE] -->
+    <string name="touch_sensitivity_summary">Побољшај осетљивост додира када се користи заштита екрана</string>
+    <!-- Keywords for Touch Sensitivity feature [CHAR_LIMIT=none] -->
+    <string name="keywords_touch_sensitivity">додир, осетљивост, осетљив, заштита екрана, фолија, прилагодљив, прилагодљивост</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Мање од 1 минута</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s данас</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Пронађите сензор за отиске прстију <xliff:g id="sensor_location">%1$s</xliff:g> вашег таблета.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Пронађите сензор за отиске прстију <xliff:g id="sensor_location">%1$s</xliff:g> вашег уређаја.</string>
@@ -99,10 +109,6 @@
     <string name="display_rotation_90_title">90 степени</string>
     <string name="display_rotation_180_title">180 степени</string>
     <string name="display_rotation_270_title">270 степени</string>
-    <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Узорак вибрације звона</string>
-    <string name="pattern_custom">Прилагођено</string>
-    <string name="custom_vibration_pattern_title">Прилагођени образац</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Обриши кориштене податке?</string>
     <string name="battery_stats_message">Статистика кориштења батерије ће бити изгубљена</string>
@@ -123,11 +129,11 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Кружите кроз режиме</string>
     <string name="prevent_ringing_option_cycle_summary">Укључено (кружите кроз режиме)</string>
-    <!-- Double tap-to-sleep -->
+    <!-- Double-tap to sleep -->
     <string name="double_tap_title">Двоструки додир</string>
     <string name="double_tap_lock_screen_title">Дупли додир за спавање</string>
     <string name="double_tap_lock_screen_summary">Двапут додирните закључани екран и празна подручја траке стања да бисте окренули екран</string>
-    <!-- Doze on double tap -->
+    <!-- Doze on double-tap -->
     <string name="doze_double_tap_title">Двапут додирните телефон за проверу</string>
     <string name="doze_double_tap_summary">Пулсна нотификација са двоструким додиром</string>
     <!-- Increasing ring tone volume -->
@@ -233,8 +239,11 @@
     <string name="back_options_dialog_title">Опције</string>
     <string name="back_height_message">Вредност висине екрана која се користи као додирна површина за гесте уназад.</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Учесталост освежавања</string>
     <string name="min_refresh_rate_title">Минимална вредност освежавања</string>
     <string name="max_refresh_rate_title">Максимална вредност освежавања</string>
+    <string name="preferred_refresh_rate_title">Препоручена учесталост освежавања</string>
+    <string name="preferred_refresh_rate_info">Препоручена учесталост освежавања се користи као подразумевена, њена вредност је између минималне и максималне вредности.</string>
     <string name="battery_saver_refresh_rate_title">Редукујте вредност освежавања</string>
     <string name="battery_saver_refresh_rate_summary">Користите брзину освежавања екрана од 60Hz да бисте уштедели енергију када је укључена штедња батерије</string>
     <!-- Gestures: Touchscreen gestures -->
@@ -257,26 +266,20 @@
     <!-- Night Display API strings -->
     <string name="unknown_night_light_time">Непознато - притисните за ажурирање</string>
     <string name="night_display_location_text">\n\nРаспоред од заласка до изласка сунца захтева омогућене услуге локације да бисте добили тачна времена за вашу локацију.</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Паметно пуњење</string>
-    <string name="smart_charging_summary">Подесите максимални ниво пуњења</string>
-    <string name="smart_charging_switch_title">Користите паметно пуњење</string>
-    <string name="smart_charging_level_title">Зауставите ниво окидача</string>
-    <string name="smart_charging_resume_level_title">Покрените ниво окидача</string>
-    <string name="smart_charging_reset_stats_title">Ресетујте статистику батерије</string>
-    <string name="smart_charging_reset_stats_summary">Ресетујте статистику батерије након достизања корисничког нивоа пуњења</string>
-    <string name="smart_charging_footer">Паметно пуњење вам омогућава да подесите максимални ниво пуњења како бисте продужили век трајања батерије.</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Прилагођено пуњење</string>
+    <string name="adaptive_charging_temperature_title">Прилагођена температура</string>
+    <string name="adaptive_charging_summary">Укључено / Условљено ограничено пуњење</string>
+    <string name="adaptive_charging_cutoff_title">Престани пунити у</string>
+    <string name="adaptive_charging_resume_title">Настави пунити у</string>
+    <string name="adaptive_charging_reset_stats_title">Ресетујте статистику батерије</string>
+    <string name="adaptive_charging_reset_stats_summary">Ресетујте статистику батерије након достизања намештеног нивоа пуњења</string>
+    <string name="adaptive_charging_description">Прилагођено ограничено пуњење служи за продужење живота батерије.</string>
     <!-- Battery categorization -->
-    <string name="battery_saver_category_title">Уштеда батерије</string>
-    <string name="smart_charging_category_title">Паметно пуњење</string>
-    <string name="smart_cutoff_category_title">Паметан пресек</string>
+    <string name="adaptive_charging_category_title">Прилагођено пуњење</string>
     <string name="battery_info_category_title">Здравље батерије</string>
+    <string name="battery_saver_category_title">Уштеда батерије</string>
     <string name="battery_usage_category_title">Информације о Батерији</string>
-    <!-- Back Gestures -->
-    <string name="smallest_tick_label">Искључено</string>
-    <string name="greatest_tick_label">Пола екрана</string>
-    <string name="gesture_back_deadzone_label">Мртва зона</string>
-    <string name="back_sensitivity_dialog_message_cust">Користите прву и другу траку за тражење да бисте конфигурисали осетљивост превлачења уназад, последња трака за тражење за постављање мртве области на врх екрана на којој превлачење не може бити, да бисте избегли сукобе са покретима у апликацији.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Без радње</string>
     <string name="action_search">Асистент</string>
@@ -300,6 +303,7 @@
     <string name="show_powermenu">Прикажи Мени за укључење</string>
     <string name="partial_screenshot">Делимичан снимак екрана</string>
     <string name="hush_mute">Утишај обавештења</string>
+    <string name="recent_app_toggle">Промени подразумевану апликацију</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Напредне гесте</string>
     <string name="navbar_gesture_tweaks_pref_summary">Прилагоди гесте и намести произвољне акције</string>
@@ -353,6 +357,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Апликације преко целог екрана</string>
     <string name="display_cutout_force_fullscreen_summary">Форсирај апликације да игноришу простор ноча</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Рестартујте апликацију за примену измена</string>
+    <string name="cutout_force_fullscreen_no_apps">Нема апликација</string>
     <!-- Navbar radius -->
     <string name="navbar_radius">Полупречник траке покрета</string>
     <string name="small_label">1 dp</string>
@@ -416,12 +422,6 @@
     <string name="category_name_visibility">Видљивост</string>
     <string name="category_personal">Лично</string>
     <string name="category_work">Посао</string>
-    <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Паметан пресек</string>
-    <string name="smart_cutoff_summary">Подеси максималну температуру</string>
-    <string name="smart_cutoff_switch_title">Користи Паметан пресек</string>
-    <string name="smart_cutoff_level_title">Зауставите ниво окидача</string>
-    <string name="smart_cutoff_resume_level_title">Покрените ниво окидача</string>
     <!-- Screenshot settings -->
     <string name="screenshot_settings_title">Подешавања слике екрана</string>
     <string name="screenshot_settings_summary">Изменити опције повезане са снимцима екрана</string>
@@ -434,11 +434,79 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Задржавање прста</string>
     <string name="touchscreen_hovering_summary">Омогућава радње при задржавању прста изнад елемената интерфејса у веб-прегледачима или другим апликацијама</string>
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">SBC HD аудио</string>
-    <string name="sbc_hd_priority_summary">Да ли се подразумевано користи двоканални режим за SBC кодек</string>
     <!-- Power Button Fingerprint -->
     <string name="fingerprint_power_button_press_title">Притисните за откључавање</string>
     <string name="fingerprint_power_button_press_off_summary">Додирните дугме за напајање да бисте откључали отиском прста када је екран искључен</string>
     <string name="fingerprint_power_button_press_on_summary">Чврсто притисните дугме за напајање да бисте откључали отиском прста када је екран искључен</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Искључи Wi-Fi аутоматски</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi ће се искључити после <xliff:g id="timeout_description">%1$s</xliff:g> ако се не повеже на мрежу</string>
+    <string name="wifi_timeout_summary2">Онемогућено</string>
+    <string name="wifi_timeout_summary_never">Никад</string>
+    <string name="wifi_timeout_summary_15secs">15 секунди</string>
+    <string name="wifi_timeout_summary_30secs">30 секунди</string>
+    <string name="wifi_timeout_summary_1min">1 минут</string>
+    <string name="wifi_timeout_summary_2mins">2 минута</string>
+    <string name="wifi_timeout_summary_5mins">5 минута</string>
+    <string name="wifi_timeout_summary_10mins">10 минута</string>
+    <string name="wifi_timeout_summary_30mins">30 минута</string>
+    <string name="wifi_timeout_summary_1hour">1 сат</string>
+    <string name="wifi_timeout_summary_2hours">2 сата</string>
+    <string name="wifi_timeout_summary_4hours">4 сата</string>
+    <string name="wifi_timeout_summary_8hours">8 сати</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Трајање Bluetooth-а</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth ће се искључити после <xliff:g id="timeout_description">%1$s</xliff:g> ако се уређаји не повежу</string>
+    <string name="bluetooth_timeout_summary2">Немој аутоматски искључити Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Никад</string>
+    <string name="bluetooth_timeout_summary_15secs">15 секунди</string>
+    <string name="bluetooth_timeout_summary_30secs">30 секунди</string>
+    <string name="bluetooth_timeout_summary_1min">1 минут</string>
+    <string name="bluetooth_timeout_summary_2mins">2 минута</string>
+    <string name="bluetooth_timeout_summary_5mins">5 минута</string>
+    <string name="bluetooth_timeout_summary_10mins">10 минута</string>
+    <string name="bluetooth_timeout_summary_30mins">30 минута</string>
+    <string name="bluetooth_timeout_summary_1hour">1 сат</string>
+    <string name="bluetooth_timeout_summary_2hours">2 сата</string>
+    <string name="bluetooth_timeout_summary_4hours">4 сата</string>
+    <string name="bluetooth_timeout_summary_8hours">8 сати</string>
+    <!-- Font Engine -->
+    <string name="font_picker_title">Стил Фонта</string>
+    <string name="disable_fonts_installed_title">Одабир фонта није могућ услед конфликта са Substratum-ом. Избришите ову апликацију ако желите да променете фонт.</string>
+    <string name="font_picker_progress">Примени нови фонт\u2026</string>
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Примени само када је укључен екран</string>
+    <string name="auto_brightness_one_shot_summary">Подешавања ће само једном бити примењена</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Омогући откључавање лицем</string>
+    <string name="face_unlock_method_default">Када је екран укључен</string>
+    <string name="face_unlock_method_swipe">Код превлачења преко закључаног екрана</string>
+    <!-- Search bar style -->
+    <string name="search_bar_style_title">Користи бар претраге као у Андроид 12</string>
+    <string name="search_bar_style_summary">Омогући коришћење бара претраге Андроид 12 у подешавањима. После овога потребан је мануелни рестарт</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Коришћење хептике у позиву</string>
+    <string name="incall_feeedback_summary">Вибрација за индикацију статуса позива</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Вибрације &amp; додири</string>
+    <string name="summary_vibration_preferences">Промена интензитета, патерна и више</string>
+    <string name="keywords_vibration_preferences">образац вибрација, интензитет вибрација, пад, додири, тапнути, јачина вибрације</string>
+    <string name="ringtone_vibration_pattern">Узорак вибрације звона</string>
+    <string name="vibration_intensity_ringer">Интензитет вибрације приликом звона</string>
+    <string name="vibration_intensity_notification">Интензитет вибрација обавештења</string>
+    <string name="vibration_intensity_disabled">Онемогућено</string>
+    <string name="vibration_intensity_light">Светло</string>
+    <string name="vibration_intensity_medium">Средње</string>
+    <string name="vibration_intensity_strong">Јако</string>
+    <string name="vibration_intensity_custom">Прилагођено</string>
+    <string name="pattern_custom">Прилагођено</string>
+    <string name="custom_vibration_pattern_title">Прилагођени образац</string>
+    <string name="haptic_feedback_intensity">Интензитет вибрације</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Буђење при пуњењу</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Укључи екран код повезивања или искључивања са извора напајања</string>
+    <!-- Battery saver -->
+    <string name="battery_saver_is_enabled">Уштеда батерије је укључена</string>
 </resources>
