@@ -3554,25 +3554,6 @@
                 android:value="com.android.settings.security.LockscreenDashboardFragment" />
         </activity>
 
-        <receiver android:name="com.evolution.settings.fragments.GamingModeReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.GAMING_MODE_TURN_OFF" />
-                <action android:name="android.intent.action.GAMING_MODE_TURN_ON" />
-            </intent-filter>
-        </receiver>
-
-        <activity android:name=".Settings$GamingModeActivity"
-            android:label="@string/gaming_mode_title"
-            android:taskAffinity="com.android.settings"
-            android:parentActivityName="Settings">
-            <intent-filter android:priority="1">
-                <action android:name="android.settings.GAMING_MODE_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.evolution.settings.fragments.GamingMode" />
-        </activity>
-
         <!-- Face unlock -->
         <activity android:name="com.android.settings.custom.biometrics.face.FaceEnrollActivity"
             android:permission="com.android.settings.FACE_UNLOCK"
