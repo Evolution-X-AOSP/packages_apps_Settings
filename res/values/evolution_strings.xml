@@ -562,8 +562,8 @@
     <string name="font_picker_progress">Applying new font\u2026</string>
 
     <!-- One shot automatic Brightness -->
-    <string name="auto_brightness_one_shot_title">Only apply when screen is turned on</string>
-    <string name="auto_brightness_one_shot_summary">Adjustment will occur one time</string>
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
 
     <!-- Face Unlock -->
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
