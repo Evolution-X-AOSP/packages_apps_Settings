@@ -22,6 +22,7 @@ import android.net.wifi.SoftApConfiguration;
 import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.provider.Settings;
 import android.text.SpannedString;
 
@@ -76,7 +77,7 @@ public class DeviceNamePreferenceController extends BasePreferenceController
         mDeviceName = Settings.Global.getString(mContext.getContentResolver(),
                 Settings.Global.DEVICE_NAME);
         if (mDeviceName == null) {
-            mDeviceName = Build.MODEL;
+            mDeviceName = SystemProperties.get("ro.product.marketname", Build.MODEL);
         }
     }
 
