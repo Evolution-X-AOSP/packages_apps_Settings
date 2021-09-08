@@ -433,10 +433,6 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Flutuar o dedo na tela</string>
     <string name="touchscreen_hovering_summary">Permite que você flutue o dedo na tela como um mouse em navegadores web, desktops remotos, etc</string>
-    <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">Pressione para desbloquear</string>
-    <string name="fingerprint_power_button_press_off_summary">Toque o botão liga/desliga para desbloquear com impressão digital quando a tela estiver desligada</string>
-    <string name="fingerprint_power_button_press_on_summary">Pressione o botão liga/desliga para desbloquear com impressão digital quando a tela estiver desligada</string>
     <!-- screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Desligar Wi-Fi automaticamente</string>
     <!-- screen, setting option summary to change wifi timeout -->
@@ -484,9 +480,9 @@
     <string name="face_unlock_method_swipe">Ao deslizar na tela de bloqueio</string>
     <!-- Search bar style -->
     <string name="search_bar_style_title">Usar a barra de pesquisa do Android 12</string>
-    <string name="search_bar_style_summary">Habilite para usar a barra de pesquisa estilo Android 12 nas configurações. O app de configurações precisa ser reiniciado para ter efeito</string>
+    <string name="search_bar_style_summary">Habilite para usar a barra de pesquisa no estilo do Android 12 nas configurações. O app de configurações precisa ser reiniciado para que você perceba a mudança</string>
     <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Vibração durante chamadas</string>
+    <string name="incall_feeedback_vibrate_title">Vibrar para chamadas</string>
     <string name="incall_feeedback_summary">Vibrar para indicar o status das chamadas</string>
     <!-- Custom Vibration fragment -->
     <string name="vibration_preferences">Vibração &amp; retorno tátil</string>
@@ -506,11 +502,25 @@
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Personalizado</string>
-    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="custom_vibration_pattern_title">Definir um padrão de vibração personalizado</string>
     <string name="haptic_feedback_intensity">Intensidade da resposta tátil</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Ligar tela ao plugar</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Ligar a tela ao plugar ou desplugar o carregador</string>
+    <string name="wake_when_plugged_or_unplugged_title">Acordar ao conectar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ativar a tela quando conectar ou desconectar o carregador</string>
     <!-- Battery saver -->
     <string name="battery_saver_is_enabled">Economia de bateria está ligada</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Comportamento da impressão digital</string>
+    <string name="fp_wake_unlock_touch">Toque</string>
+    <string name="fp_wake_unlock_press">Pressione</string>
+    <!-- global cleartext network traffic -->
+    <string name="cleartext_network_policy_title">Restringir tráfego de rede não encriptado</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS privado. Nota: Sem isenções explícitas o Tor e a maioria das VPNs não funcionarão</string>
+    <!-- Cloudflare DNS -->
+    <!-- Adguard DNS -->
+    <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Mostrar Permissões</string>
+    <string name="show_permissions_hub_summary">Exibir indicadores de privacidade nas configurações rápidas</string>
+    <!-- Configure notifications: Title for advanced notification settings pane -->
+    <string name="advanced_notifications_title">Configurações avançadas de notificação</string>
 </resources>
