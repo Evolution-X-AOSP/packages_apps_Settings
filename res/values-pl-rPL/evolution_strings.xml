@@ -435,10 +435,6 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Wskazywanie ekranu dotykowego</string>
     <string name="touchscreen_hovering_summary">Pozwala na używanie gestu najechania myszką znanego z przeglądarek internetowych, pulpitów zdalnych itd</string>
-    <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">Naciśnij, aby odblokować</string>
-    <string name="fingerprint_power_button_press_off_summary">Dotknij przycisku zasilania, aby odblokować odciskiem palca, gdy ekran jest wyłączony</string>
-    <string name="fingerprint_power_button_press_on_summary">Naciśnij mocno przycisk zasilania, aby odblokować odciskiem palca, gdy ekran jest wyłączony</string>
     <!-- screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Wyłącz automatycznie Wi-Fi</string>
     <!-- screen, setting option summary to change wifi timeout -->
@@ -515,4 +511,18 @@
     <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran podczas podłączania lub odłączania źródła zasilania</string>
     <!-- Battery saver -->
     <string name="battery_saver_is_enabled">Oszczędzanie baterii jest włączone</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Zachowanie odcisku palca</string>
+    <string name="fp_wake_unlock_touch">Dotyk</string>
+    <string name="fp_wake_unlock_press">Naciśnięcie</string>
+    <!-- global cleartext network traffic -->
+    <string name="cleartext_network_policy_title">Ogranicz ruch w sieci</string>
+    <string name="cleartext_network_policy_summary">Blokuje cały ruch sieciowy bez TLS. Wymaga prywatnej konfiguracji DNS. Uwaga: bez wyraźnych wyłączeń, Tor i większość VPN nie będzie działać</string>
+    <!-- Cloudflare DNS -->
+    <!-- Adguard DNS -->
+    <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Pokaż uprawnienia</string>
+    <string name="show_permissions_hub_summary">Wyświetl wskaźniki prywatności w Szybkich Ustawieniach</string>
+    <!-- Configure notifications: Title for advanced notification settings pane -->
+    <string name="advanced_notifications_title">Zaawansowane ustawienia powiadomień</string>
 </resources>
