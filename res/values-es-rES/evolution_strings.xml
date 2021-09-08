@@ -110,10 +110,6 @@
     <string name="display_rotation_90_title">90 grados</string>
     <string name="display_rotation_180_title">180 grados</string>
     <string name="display_rotation_270_title">270 grados</string>
-    <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Patrón de vibración de tono de llamada</string>
-    <string name="pattern_custom">Personalizado</string>
-    <string name="custom_vibration_pattern_title">Patrón personalizado</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">¿Borrar datos de uso?</string>
     <string name="battery_stats_message">Se perderán los datos de uso de la batería</string>
@@ -136,7 +132,7 @@
     <string name="prevent_ringing_option_cycle_summary">Encendido (Alternar)</string>
     <!-- Double-tap to sleep -->
     <string name="double_tap_title">Doble toque</string>
-    <string name="double_tap_lock_screen_title">Pulsar para suspender</string>
+    <string name="double_tap_lock_screen_title">Doble toque para suspender</string>
     <string name="double_tap_lock_screen_summary">Doble toque en la pantalla de bloqueo y en las áreas vacías de la barra de estado para apagar la pantalla</string>
     <!-- Doze on double-tap -->
     <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
@@ -244,8 +240,11 @@
     <string name="back_options_dialog_title">Opciones</string>
     <string name="back_height_message">Altura de la pantalla usada como zona para el gesto atrás.</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Tasa de refresco</string>
     <string name="min_refresh_rate_title">Tasa de refresco mínima</string>
     <string name="max_refresh_rate_title">Tasa de refresco máxima</string>
+    <string name="preferred_refresh_rate_title">Tasa de refresco preferida</string>
+    <string name="preferred_refresh_rate_info">La tasa de refresco preferida se utilizará como la tasa de actualización predeterminada para las interacciones del usuario, siempre y cuando no sea inferior a la tasa de refresco mínima y no superior a la tasa de refresco máxima.</string>
     <string name="battery_saver_refresh_rate_title">Reducir la tasa de refresco</string>
     <string name="battery_saver_refresh_rate_summary">Usar velocidad de refresco de la pantalla de 60 Hz para ahorrar energía cuando el Ahorro de batería está encendido</string>
     <!-- Gestures: Touchscreen gestures -->
@@ -282,11 +281,6 @@
     <string name="battery_info_category_title">Estado de la batería</string>
     <string name="battery_saver_category_title">Ahorro de batería</string>
     <string name="battery_usage_category_title">Información de la batería</string>
-    <!-- Back Gestures -->
-    <string name="smallest_tick_label">Desactivado</string>
-    <string name="greatest_tick_label">Mitad de la pantalla</string>
-    <string name="gesture_back_deadzone_label">Zona muerta</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUtilice los dos controles superiores para configurar la sensibilidad del gesto Atrás. La barra inferior sirve para establecer un área en la parte superior de la pantalla en la que el deslizamiento no se puede activar, para evitar conflictos con gestos en aplicaciones.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Sin acción</string>
     <string name="action_search">Asistente</string>
@@ -364,6 +358,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicaciones en pantalla completa</string>
     <string name="display_cutout_force_fullscreen_summary">Forzar aplicaciones a ignorar espacio de notch</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Por favor, reinicie la aplicación para aplicar los cambios</string>
+    <string name="cutout_force_fullscreen_no_apps">Sin aplicaciones</string>
     <!-- Navbar radius -->
     <string name="navbar_radius">Tamaño de la barra de gestos</string>
     <string name="small_label">1 dp</string>
@@ -438,10 +434,6 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
     <string name="touchscreen_hovering_summary">Permite deslizarse por la pantalla como un ratón en navegadores, escritorios remotos, etc</string>
-    <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">Presione para desbloquear</string>
-    <string name="fingerprint_power_button_press_off_summary">Toque el botón de encendido para desbloquear con huella dactilar cuando la pantalla esté apagada</string>
-    <string name="fingerprint_power_button_press_on_summary">Pulse firmemente el botón de encendido para desbloquear con huella dactilar cuando la pantalla esté apagada</string>
     <!-- screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Desactivar Wi-Fi automáticamente</string>
     <!-- screen, setting option summary to change wifi timeout -->
@@ -483,4 +475,53 @@
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">Aplicar sólo cuando la pantalla está encendida</string>
     <string name="auto_brightness_one_shot_summary">El ajuste ocurrirá una vez</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
+    <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
+    <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <!-- Search bar style -->
+    <string name="search_bar_style_title">Usar barra de búsqueda de Android 12</string>
+    <string name="search_bar_style_summary">Activar para usar la barra de búsqueda estilo Android 12. La aplicación de ajustes necesita un reinicio manual después de activarla</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Vibración en llamadas</string>
+    <string name="incall_feeedback_summary">Vibrar para indicar el estado de la llamada</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Intensidad de la respuesta táctil y vibración</string>
+    <string name="summary_vibration_preferences">Cambiar intensidades, patrones y más</string>
+    <string name="keywords_vibration_preferences">patrón de vibración, intensidad de vibración, llamada, háptica, toque, fuerza de vibración</string>
+    <string name="ringtone_vibration_pattern">Patrón de vibración de tono de llamada</string>
+    <string name="vibration_intensity_ringer">Intensidad de vibración de tono de llamada</string>
+    <string name="vibration_intensity_notification">Intensidad de vibración de notificación</string>
+    <string name="vibration_intensity_disabled">Desactivado</string>
+    <string name="vibration_intensity_light">Luz</string>
+    <string name="vibration_intensity_medium">Media</string>
+    <string name="vibration_intensity_strong">Fuerte</string>
+    <string name="vibration_intensity_custom">Personalizado</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizado</string>
+    <string name="custom_vibration_pattern_title">Patrón personalizado</string>
+    <string name="haptic_feedback_intensity">Intensidad de la respuesta háptica</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Despertar al conectar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla al conectar o desconectar el cargador</string>
+    <!-- Battery saver -->
+    <string name="battery_saver_is_enabled">Ahorro de batería habilitado</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Animación de huella dactilar</string>
+    <string name="fp_wake_unlock_touch">Tocar</string>
+    <string name="fp_wake_unlock_press">Pulsar</string>
+    <!-- global cleartext network traffic -->
+    <string name="cleartext_network_policy_title">Restringir tráfico de red no cifrado</string>
+    <string name="cleartext_network_policy_summary">Bloquea todo el tráfico de red que no sea TLS. Requiere la configuración de un DNS privado. Nota: Sin exenciones explícitas, Tor y la mayoría de VPN no funcionarán</string>
+    <!-- Cloudflare DNS -->
+    <!-- Adguard DNS -->
+    <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Mostrar permisos</string>
+    <string name="show_permissions_hub_summary">Mostrar indicadores de privacidad en QS</string>
+    <!-- Configure notifications: Title for advanced notification settings pane -->
+    <string name="advanced_notifications_title">Ajustes avanzados de notificaciones</string>
 </resources>
