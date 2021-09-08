@@ -432,10 +432,6 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">懸浮操作</string>
     <string name="touchscreen_hovering_summary">允許您將手指懸停在屏幕上作為瀏覽器、遠端桌面等處的滑鼠指針</string>
-    <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">按下解鎖</string>
-    <string name="fingerprint_power_button_press_off_summary">屏幕關閉時觸摸電源按鈕使用指紋解鎖</string>
-    <string name="fingerprint_power_button_press_on_summary">屏幕關閉時按下電源按鈕使用指紋解鎖</string>
     <!-- screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">自動關閉 Wi-Fi</string>
     <!-- screen, setting option summary to change wifi timeout -->
@@ -475,8 +471,8 @@
     <string name="disable_fonts_installed_title">為了避免與Substratum衝突，字型管理器已經停用。如果想要使用字型管理器，請解除安裝Substratum。</string>
     <string name="font_picker_progress">正在套用新字型\u2026</string>
     <!-- One shot automatic Brightness -->
-    <string name="auto_brightness_one_shot_title">只有在螢幕開啟時應用</string>
-    <string name="auto_brightness_one_shot_summary">調整將發生一次</string>
+    <string name="auto_brightness_one_shot_title">使用自動調整亮度一次</string>
+    <string name="auto_brightness_one_shot_summary">將在開啟螢幕時自動調整螢幕亮度一次</string>
     <!-- Face Unlock -->
     <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
     <string name="face_unlock_method_default">當螢幕開啟時</string>
@@ -507,4 +503,18 @@
     <string name="wake_when_plugged_or_unplugged_summary">在接上或拔除電源時喚醒裝置</string>
     <!-- Battery saver -->
     <string name="battery_saver_is_enabled">已啟用節約耗電量模式</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">指紋快捷操作</string>
+    <string name="fp_wake_unlock_touch">輕觸解鎖</string>
+    <string name="fp_wake_unlock_press">按壓解鎖</string>
+    <!-- global cleartext network traffic -->
+    <string name="cleartext_network_policy_title">限制未加密網路流量</string>
+    <string name="cleartext_network_policy_summary">阻止所有未經過傳輸層安全性協定TLS的網路流量。需要先設定私人DNS。注意：如果沒有設定在允許名單內，Tor與多數的VPN無法正常運作。</string>
+    <!-- Cloudflare DNS -->
+    <!-- Adguard DNS -->
+    <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">顯示權限管理員</string>
+    <string name="show_permissions_hub_summary">在快速設定面板的磁貼中顯示隱私指標</string>
+    <!-- Configure notifications: Title for advanced notification settings pane -->
+    <string name="advanced_notifications_title">進階通知設定</string>
 </resources>
