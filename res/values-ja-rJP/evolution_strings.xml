@@ -432,10 +432,6 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">タッチ画面のホバリング</string>
     <string name="touchscreen_hovering_summary">ウェブブラウザやリモードデスクトップなどでマウスのようにホバリングできるようにする</string>
-    <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">押してロック解除</string>
-    <string name="fingerprint_power_button_press_off_summary">画面消灯時に指紋センサーの電源ボタンを押してロック解除する</string>
-    <string name="fingerprint_power_button_press_on_summary">画面消灯時に指紋認証でロック解除するには電源ボタンをしっかりと押して下さい</string>
     <!-- screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
     <!-- screen, setting option summary to change wifi timeout -->
@@ -512,4 +508,18 @@
     <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断したときに画面を点灯させる</string>
     <!-- Battery saver -->
     <string name="battery_saver_is_enabled">バッテリーセーバーは有効です</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">指紋の動作</string>
+    <string name="fp_wake_unlock_touch">タッチ</string>
+    <string name="fp_wake_unlock_press">プレス</string>
+    <!-- global cleartext network traffic -->
+    <string name="cleartext_network_policy_title">未暗号化のネットワーク通信を制限</string>
+    <string name="cleartext_network_policy_summary">TLS 以外の全ての通信をブロックします。プライベート DNS 設定が必要です。注意: 除外を明示化しないと Tor やほとんどの VPN は動作しません。</string>
+    <!-- Cloudflare DNS -->
+    <!-- Adguard DNS -->
+    <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">アクセス許可を表示</string>
+    <string name="show_permissions_hub_summary">プライバシー表示をクイック設定に表示する</string>
+    <!-- Configure notifications: Title for advanced notification settings pane -->
+    <string name="advanced_notifications_title">高度な通知の設定</string>
 </resources>
