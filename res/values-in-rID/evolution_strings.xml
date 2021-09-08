@@ -434,10 +434,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Layar sentuh melayang</string>
     <string name="touchscreen_hovering_summary">Mengizinkan Anda mengambangkan jari di atas layar seperti menggunakan mouse dalam penjelajah browser, desktop jarak jauh, dll</string>
-    <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">Tekan untuk membuka</string>
-    <string name="fingerprint_power_button_press_off_summary">Sentuh tombol daya untuk membuka kunci dengan sidik jari saat layar mati</string>
-    <string name="fingerprint_power_button_press_on_summary">Tekan tombol daya dengan kuat untuk membuka kunci dengan sidik jari saat layar mati</string>
     <!-- screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
     <!-- screen, setting option summary to change wifi timeout -->
@@ -477,8 +473,8 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="disable_fonts_installed_title">Pemilih font tidak tersedia untuk menghindari konflik dengan Substratum. Copot pemasangannya jika Anda ingin menggunakan pemilih font.</string>
     <string name="font_picker_progress">Menerapkan font baru\u2026</string>
     <!-- One shot automatic Brightness -->
-    <string name="auto_brightness_one_shot_title">Hanya berlaku saat layar dihidupkan</string>
-    <string name="auto_brightness_one_shot_summary">Penyesuaian akan terjadi satu kali</string>
+    <string name="auto_brightness_one_shot_title">Kecerahan otomatis satu bidikan</string>
+    <string name="auto_brightness_one_shot_summary">Penyesuaian kecerahan hanya akan terjadi pada saat layar dihidupkan</string>
     <!-- Face Unlock -->
     <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
@@ -514,4 +510,18 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="wake_when_plugged_or_unplugged_summary">Aktifkan layar ketika menghubungkan atau melepaskan pengisi daya</string>
     <!-- Battery saver -->
     <string name="battery_saver_is_enabled">Penghemat baterai diaktifkan</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Perilaku sidik jari</string>
+    <string name="fp_wake_unlock_touch">Sentuh</string>
+    <string name="fp_wake_unlock_press">Tekan</string>
+    <!-- global cleartext network traffic -->
+    <string name="cleartext_network_policy_title">Batasi lalu lintas jaringan teks yang jelas</string>
+    <string name="cleartext_network_policy_summary">Memblokir semua lalu lintas jaringan non-TLS. Memerlukan konfigurasi DNS Pribadi. Catatan: Tanpa pengecualian eksplisit, Tor dan sebagian besar VPN tidak akan berfungsi</string>
+    <!-- Cloudflare DNS -->
+    <!-- Adguard DNS -->
+    <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Tampilkan hub perizinan</string>
+    <string name="show_permissions_hub_summary">Tampilkan indikator privasi di QS</string>
+    <!-- Configure notifications: Title for advanced notification settings pane -->
+    <string name="advanced_notifications_title">Setelan notifikasi lanjutan</string>
 </resources>
