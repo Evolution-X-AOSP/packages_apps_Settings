@@ -433,10 +433,6 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Αιώρηση οθόνης αφής</string>
     <string name="touchscreen_hovering_summary">Σας επιτρέπει να αιωρείτε πάνω από την οθόνη, όπως ένα ποντίκι σε προγράμματα περιήγησης ιστού, απομακρυσμένες επιφάνειες εργασίας, κλπ</string>
-    <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">Πατήστε για ξεκλείδωμα</string>
-    <string name="fingerprint_power_button_press_off_summary">Αγγίξτε το κουμπί τροφοδοσίας για ξεκλείδωμα με δακτυλικό αποτύπωμα όταν η οθόνη είναι απενεργοποιημένη</string>
-    <string name="fingerprint_power_button_press_on_summary">Πιέστε σταθερά το κουμπί ενεργοποίησης για ξεκλείδωμα με δακτυλικό αποτύπωμα όταν η οθόνη είναι απενεργοποιημένη</string>
     <!-- screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Απενεργοποιήστε αυτόματα το Wi-Fi</string>
     <!-- screen, setting option summary to change wifi timeout -->
@@ -476,8 +472,8 @@
     <string name="disable_fonts_installed_title">Ο επιλογέας γραμματοσειράς δεν είναι διαθέσιμος για να αποφύγετε διενέξεις με το Substratum. Απεγκαταστήσετε αν επιθυμείτε να χρησιμοποιήσετε τον επιλογέα γραμματοσειράς.</string>
     <string name="font_picker_progress">Εφαρμογή νέας γραμματοσειράς\u2026</string>
     <!-- One shot automatic Brightness -->
-    <string name="auto_brightness_one_shot_title">Εφαρμογή μόνο όταν η οθόνη είναι ενεργοποιημένη</string>
-    <string name="auto_brightness_one_shot_summary">Η προσαρμογή θα συμβεί μία φορά</string>
+    <string name="auto_brightness_one_shot_title">Αυτόματη φωτεινότητα με μία λήψη</string>
+    <string name="auto_brightness_one_shot_summary">Η ρύθμιση φωτεινότητας θα πραγματοποιηθεί μόνο τη στιγμή που είναι ενεργοποιημένη η οθόνη</string>
     <!-- Face Unlock -->
     <string name="face_unlock_method_title">Να επιτρέπεται το ξεκλείδωμα προσώπου στην οθόνη κλειδώματος</string>
     <string name="face_unlock_method_default">Όταν η οθόνη είναι ενεργοποιημένη</string>
@@ -513,4 +509,18 @@
     <string name="wake_when_plugged_or_unplugged_summary">Ενεργοποίηση της οθόνης κατά την σύνδεση ή αποσύνδεση μιας πηγής ισχύος</string>
     <!-- Battery saver -->
     <string name="battery_saver_is_enabled">Η εξοικονόμηση μπαταρίας είναι ενεργοποιημένη</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Συμπεριφορά δακτυλικών αποτυπωμάτων</string>
+    <string name="fp_wake_unlock_touch">Άγγιγμα</string>
+    <string name="fp_wake_unlock_press">Τύπος</string>
+    <!-- global cleartext network traffic -->
+    <string name="cleartext_network_policy_title">Περιορισμός κίνησης δικτύου με εκκαθάριση κειμένου</string>
+    <string name="cleartext_network_policy_summary">Αποκλείει όλη την κίνηση δικτύου εκτός TLS. Απαιτεί ιδιωτική διαμόρφωση DNS. Σημείωση: Χωρίς ρητές εξαιρέσεις, το Tor και τα περισσότερα VPN δεν θα λειτουργήσουν</string>
+    <!-- Cloudflare DNS -->
+    <!-- Adguard DNS -->
+    <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Εμφάνιση κόμβου δικαιωμάτων</string>
+    <string name="show_permissions_hub_summary">Εμφάνιση δεικτών απορρήτου στις γρήγορες ρυθμίσεις</string>
+    <!-- Configure notifications: Title for advanced notification settings pane -->
+    <string name="advanced_notifications_title">Προηγμένες ρυθμίσεις ειδοποιήσεων</string>
 </resources>
