@@ -17,6 +17,7 @@
 package com.android.settings.display;
 
 import static android.provider.Settings.System.PEAK_REFRESH_RATE;
+import static android.provider.Settings.System.MIN_REFRESH_RATE;
 
 import android.content.Context;
 import android.provider.Settings;
@@ -98,6 +99,10 @@ public class PeakRefreshRatePreferenceController extends BasePreferenceControlle
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         Settings.System.putFloat(mContext.getContentResolver(), PEAK_REFRESH_RATE,
                 Float.valueOf((String) newValue));
+        if (!mContext.getResources().getBoolean(R.bool.config_supports_dynamic_refresh_rate_controls)){
+            Settings.System.putFloat(mContext.getContentResolver(), MIN_REFRESH_RATE,
+                    Float.valueOf((String) newValue));
+        }
         updateState(preference);
         return true;
     }
