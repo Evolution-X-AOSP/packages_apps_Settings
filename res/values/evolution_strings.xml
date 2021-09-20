@@ -174,4 +174,7 @@
 
     <!-- Battery Temperature -->
     <string name="battery_temp">Battery temperature</string>
+
+    <!-- Battery health -->
+    <string name="battery_health_title">Battery health</string>
 </resources>
