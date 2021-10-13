@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/ambient_display_tap_screen_title">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="gesture_tap_screen_video"
+        app:lottie_rawRes="@raw/lottie_tap_to_check_phone"
+        app:searchable="false" />
+
+    <SwitchPreference
+        android:key="gesture_tap"
+        android:summary="@string/ambient_display_tap_screen_summary"
+        android:title="@string/ambient_display_tap_screen_title"
+        app:controller="com.android.settings.gestures.TapScreenGesturePreferenceController"
+        app:keywords="@string/keywords_gesture" />
+
+</PreferenceScreen>

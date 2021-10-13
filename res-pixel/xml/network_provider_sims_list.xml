@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/provider_network_settings_title">
+
+    <PreferenceCategory
+        android:key="provider_model_sim_category"
+        android:order="20"
+        android:title="@string/sim_category_title"
+        settings:controller="com.android.settings.network.NetworkProviderSimsCategoryController" />
+
+    <PreferenceCategory
+        android:key="provider_model_downloaded_sim_category"
+        android:order="25"
+        android:title="@string/downloaded_sim_category_title"
+        settings:allowDividerAbove="true"
+        settings:controller="com.android.settings.network.NetworkProviderDownloadedSimsCategoryController" />
+
+    <com.android.settingslib.RestrictedPreference
+        android:icon="@drawable/ic_menu_add_activated_tint"
+        android:key="add_more"
+        android:order="100"
+        android:title="@string/mobile_network_list_add_more"
+        settings:isPreferenceVisible="false"
+        settings:searchable="false"
+        settings:useAdminDisabledSummary="true"
+        settings:userRestriction="no_config_mobile_networks">
+
+        <intent
+            android:action="android.telephony.euicc.action.PROVISION_EMBEDDED_SUBSCRIPTION">
+
+            <extra
+                android:name="android.telephony.euicc.extra.FORCE_PROVISION"
+                android:value="true" />
+
+        </intent>
+
+    </com.android.settingslib.RestrictedPreference>
+
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/network_settings_title">
+
+    <com.android.settingslib.RestrictedPreference
+        android:icon="@drawable/ic_menu_add_activated_tint"
+        android:key="add_more"
+        android:order="100"
+        android:title="@string/mobile_network_list_add_more"
+        settings:isPreferenceVisible="false"
+        settings:searchable="false"
+        settings:useAdminDisabledSummary="true"
+        settings:userRestriction="no_config_mobile_networks">
+
+        <intent
+            android:action="android.telephony.euicc.action.PROVISION_EMBEDDED_SUBSCRIPTION">
+
+            <extra
+                android:name="android.telephony.euicc.extra.FORCE_PROVISION"
+                android:value="true" />
+
+        </intent>
+
+    </com.android.settingslib.RestrictedPreference>
+
+</PreferenceScreen>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="user_and_account_settings_screen"
+    android:title="@string/account_dashboard_title"
+    settings:keywords="@string/keywords_accounts">
+
+    <PreferenceCategory
+        android:key="passwords_category"
+        android:order="10"
+        android:persistent="false"
+        android:title="@string/autofill_passwords"
+        settings:controller="com.android.settings.applications.autofill.PasswordsPreferenceController"
+        settings:forWork="true"
+        settings:keywords="@string/autofill_keywords" />
+
+    <com.android.settings.widget.WorkOnlyCategory
+        android:key="autofill_work_app_defaults"
+        android:order="30"
+        android:title="@string/autofill_app">
+
+        <com.android.settings.widget.GearPreference
+            android:fragment="com.android.settings.applications.defaultapps.DefaultAutofillPicker"
+            android:key="default_autofill_work"
+            android:title="@string/autofill_app"
+            settings:searchable="false">
+
+            <extra
+                android:name="for_work"
+                android:value="true" />
+
+        </com.android.settings.widget.GearPreference>
+
+    </com.android.settings.widget.WorkOnlyCategory>
+
+    <PreferenceCategory
+        android:key="dashboard_tile_placeholder"
+        android:order="130" />
+
+    <SwitchPreference
+        android:key="auto_sync_account_data"
+        android:order="200"
+        android:summary="@string/auto_sync_account_summary"
+        android:title="@string/auto_sync_account_title"
+        settings:allowDividerAbove="true" />
+
+    <SwitchPreference
+        android:key="auto_sync_work_account_data"
+        android:order="210"
+        android:summary="@string/auto_sync_account_summary"
+        android:title="@string/account_settings_menu_auto_sync_work" />
+
+</PreferenceScreen>

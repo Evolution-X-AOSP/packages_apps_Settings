@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="mobile_network_pref_screen">
+
+    <com.android.settings.widget.SettingsMainSwitchPreference
+        android:key="use_sim_switch"
+        settings:controller="com.android.settings.network.telephony.MobileNetworkSwitchController" />
+
+    <PreferenceCategory
+        android:key="enabled_state_container"
+        android:layout="@layout/preference_category_no_label"
+        android:title="@string/summary_placeholder"
+        settings:controller="com.android.settings.network.telephony.DisabledSubscriptionController">
+
+        <com.android.settings.datausage.DataUsageSummaryPreference
+            android:key="status_header"
+            android:selectable="false"
+            android:visibility="gone" />
+
+        <ListPreference
+            android:key="calls_preference"
+            android:title="@string/calls_preference"
+            settings:allowDividerAbove="true"
+            settings:controller="com.android.settings.network.telephony.CallsDefaultSubscriptionController" />
+
+        <ListPreference
+            android:key="sms_preference"
+            android:title="@string/sms_preference"
+            settings:controller="com.android.settings.network.telephony.SmsDefaultSubscriptionController" />
+
+        <Preference
+            android:key="cdma_lte_data_service_key"
+            android:title="@string/cdma_lte_data_service"
+            settings:allowDividerAbove="true"
+            settings:allowDividerBelow="false"
+            settings:controller="com.android.settings.network.telephony.DataServiceSetupPreferenceController" />
+
+        <SwitchPreference
+            android:key="mobile_data_enable"
+            android:summary="@string/mobile_data_settings_summary"
+            android:title="@string/mobile_data_settings_title"
+            settings:allowDividerAbove="true"
+            settings:controller="com.android.settings.network.telephony.MobileDataPreferenceController" />
+
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="button_roaming_key"
+            android:persistent="false"
+            android:summaryOff="@string/roaming_disable"
+            android:summaryOn="@string/roaming_enable"
+            android:title="@string/roaming"
+            settings:controller="com.android.settings.network.telephony.RoamingPreferenceController"
+            settings:userRestriction="no_data_roaming" />
+
+        <Preference
+            android:key="data_usage_summary"
+            android:title="@string/mobile_data_usage_title"
+            settings:controller="com.android.settings.network.telephony.DataUsagePreferenceController" />
+
+        <com.android.settings.datausage.BillingCyclePreference
+            android:key="billing_preference"
+            android:title="@string/billing_cycle"
+            settings:controller="com.android.settings.datausage.BillingCyclePreferenceController" />
+
+        <SwitchPreference
+            android:key="carrier_wifi_toggle"
+            android:summary="@string/carrier_wifi_offload_summary"
+            android:title="@string/carrier_wifi_offload_title"
+            settings:controller="com.android.settings.network.CarrierWifiTogglePreferenceController" />
+
+        <Preference
+            android:key="carrier_wifi_network"
+            android:selectable="false"
+            android:title="@string/carrier_wifi_network_title"
+            settings:searchable="false" />
+
+        <SwitchPreference
+            android:key="mms_message"
+            android:summary="@string/mms_message_summary"
+            android:title="@string/mms_message_title"
+            settings:controller="com.android.settings.network.telephony.MmsMessagePreferenceController" />
+
+        <SwitchPreference
+            android:key="data_during_calls"
+            android:summary="@string/data_during_calls_summary"
+            android:title="@string/data_during_calls_title"
+            settings:controller="com.android.settings.network.telephony.DataDuringCallsPreferenceController" />
+
+        <SwitchPreference
+            android:key="enhanced_4g_lte"
+            android:persistent="false"
+            android:summary="@string/enhanced_4g_lte_mode_summary"
+            android:title="@string/enhanced_4g_lte_mode_title"
+            settings:controller="com.android.settings.network.telephony.Enhanced4gLtePreferenceController"
+            settings:keywords="@string/keywords_enhance_4g_lte" />
+
+        <SwitchPreference
+            android:key="4g_calling"
+            android:persistent="false"
+            android:summary="@string/enhanced_4g_lte_mode_summary_4g_calling"
+            android:title="@string/enhanced_4g_lte_mode_title_4g_calling"
+            settings:controller="com.android.settings.network.telephony.Enhanced4gCallingPreferenceController"
+            settings:keywords="@string/keywords_enhance_4g_lte" />
+
+        <SwitchPreference
+            android:key="advance_call"
+            android:persistent="false"
+            android:summary="@string/enhanced_4g_lte_mode_summary"
+            android:title="@string/enhanced_4g_lte_mode_title_advanced_calling"
+            settings:controller="com.android.settings.network.telephony.Enhanced4gAdvancedCallingPreferenceController"
+            settings:keywords="@string/keywords_enhance_4g_lte" />
+
+        <SwitchPreference
+            android:key="contact_discovery_opt_in"
+            android:persistent="false"
+            android:summary="@string/contact_discovery_opt_in_summary"
+            android:title="@string/contact_discovery_opt_in_title"
+            settings:controller="com.android.settings.network.telephony.ContactDiscoveryPreferenceController" />
+
+        <ListPreference
+            android:dialogTitle="@string/preferred_network_mode_dialogtitle"
+            android:entries="@array/preferred_network_mode_choices"
+            android:entryValues="@array/preferred_network_mode_values"
+            android:key="preferred_network_mode_key"
+            android:summary="@string/preferred_network_mode_summary"
+            android:title="@string/preferred_network_mode_title"
+            settings:controller="com.android.settings.network.telephony.PreferredNetworkModePreferenceController" />
+
+        <ListPreference
+            android:dialogTitle="@string/preferred_network_mode_dialogtitle"
+            android:entries="@array/enabled_networks_choices"
+            android:entryValues="@array/enabled_networks_values"
+            android:key="enabled_networks_key"
+            android:summary="@string/preferred_network_mode_summary"
+            android:title="@string/preferred_network_mode_title"
+            settings:controller="com.android.settings.network.telephony.EnabledNetworkModePreferenceController" />
+
+        <Preference
+            android:enabled="false"
+            android:key="carrier_settings_version_key"
+            android:selectable="false"
+            android:shouldDisableView="false"
+            android:title="@string/carrier_settings_version"
+            settings:controller="com.android.settings.network.telephony.CarrierSettingsVersionPreferenceController"
+            settings:enableCopying="true" />
+
+        <PreferenceCategory
+            android:key="calling_category"
+            android:title="@string/call_category"
+            settings:controller="com.android.settings.network.telephony.CallingPreferenceCategoryController">
+
+            <Preference
+                android:key="wifi_calling"
+                android:summary="@string/wifi_calling_summary"
+                android:title="@string/wifi_calling_settings_title"
+                settings:controller="com.android.settings.network.telephony.WifiCallingPreferenceController">
+
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.android.settings.Settings$WifiCallingSettingsActivity"
+                    android:targetPackage="com.android.settings">
+
+                    <extra
+                        android:name="show_drawer_menu"
+                        android:value="true" />
+
+                </intent>
+
+            </Preference>
+
+            <SwitchPreference
+                android:key="video_calling_key"
+                android:persistent="true"
+                android:title="@string/video_calling_settings_title"
+                settings:controller="com.android.settings.network.telephony.VideoCallingPreferenceController" />
+
+            <SwitchPreference
+                android:key="backup_calling_key"
+                android:persistent="false"
+                android:summary="@string/backup_calling_setting_summary"
+                android:title="@string/backup_calling_settings_title"
+                settings:controller="com.android.settings.network.telephony.BackupCallingPreferenceController"
+                settings:keywords="@string/keywords_backup_calling" />
+
+        </PreferenceCategory>
+
+        <com.android.settings.network.telephony.cdma.CdmaListPreference
+            android:dialogTitle="@string/cdma_system_select_dialogtitle"
+            android:entries="@array/cdma_system_select_choices"
+            android:entryValues="@array/cdma_system_select_values"
+            android:key="cdma_system_select_key"
+            android:summary="@string/cdma_system_select_summary"
+            android:title="@string/cdma_system_select_title"
+            settings:controller="com.android.settings.network.telephony.cdma.CdmaSystemSelectPreferenceController" />
+
+        <com.android.settings.network.telephony.cdma.CdmaListPreference
+            android:dialogTitle="@string/cdma_subscription_dialogtitle"
+            android:entries="@array/cdma_subscription_choices"
+            android:entryValues="@array/cdma_subscription_values"
+            android:key="cdma_subscription_key"
+            android:summary="@string/cdma_subscription_summary"
+            android:title="@string/cdma_subscription_title"
+            settings:controller="com.android.settings.network.telephony.cdma.CdmaSubscriptionPreferenceController" />
+
+        <PreferenceCategory
+            android:key="network_operators_category_key"
+            android:title="@string/network_operator_category"
+            settings:controller="com.android.settings.network.telephony.NetworkPreferenceCategoryController">
+
+            <SwitchPreference
+                android:key="auto_select_key"
+                android:title="@string/select_automatically"
+                settings:controller="com.android.settings.network.telephony.gsm.AutoSelectPreferenceController" />
+
+            <Preference
+                android:fragment="com.android.phone.NetworkSelectSetting"
+                android:key="choose_network_key"
+                android:title="@string/choose_network_title"
+                settings:controller="com.android.settings.network.telephony.gsm.OpenNetworkSelectPagePreferenceController" />
+
+        </PreferenceCategory>
+
+        <com.android.settingslib.RestrictedPreference
+            android:key="telephony_apn_key"
+            android:persistent="false"
+            android:title="@string/mobile_network_apn_title"
+            settings:allowDividerAbove="true"
+            settings:controller="com.android.settings.network.telephony.ApnPreferenceController" />
+
+        <Preference
+            android:key="carrier_settings_key"
+            android:title="@string/carrier_settings_title"
+            settings:controller="com.android.settings.network.telephony.CarrierPreferenceController" />
+
+        <SwitchPreference
+            android:key="enable_2g"
+            android:summary="@string/enable_2g_summary"
+            android:title="@string/enable_2g_title"
+            settings:controller="com.android.settings.network.telephony.Enable2gPreferenceController" />
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="erase_sim"
+        android:persistent="false"
+        android:title="@string/mobile_network_erase_sim"
+        settings:allowDividerBelow="true"
+        settings:controller="com.android.settings.network.telephony.DeleteSimProfilePreferenceController" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="disable_sim_explanation"
+        android:selectable="false"
+        android:title="@string/mobile_network_disable_sim_explanation"
+        settings:allowDividerAbove="true"
+        settings:controller="com.android.settings.network.telephony.DisableSimFooterPreferenceController"
+        settings:searchable="false" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="no_5g_in_dsds_explanation"
+        android:selectable="false"
+        android:title="@string/no_5g_in_dsds_text"
+        settings:allowDividerAbove="true"
+        settings:controller="com.android.settings.network.telephony.NrDisabledInDsdsFooterPreferenceController"
+        settings:searchable="false" />
+
+</PreferenceScreen>

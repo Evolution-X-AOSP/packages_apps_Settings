@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/firmware_version"
+    settings:keywords="@string/keywords_android_version">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:clickable="true"
+        android:key="evolution_logo"
+        android:layout="@layout/evolution_logo"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXLogoPreferenceController"/>
+
+    <Preference
+        android:key="os_firmware_version"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/firmware_version"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"
+        settings:enableCopying="true" />
+
+    <Preference
+        android:key="evolution_x_version"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/evolution_x_version"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionDetailPreferenceController"
+        settings:enableCopying="true" />
+
+    <Preference
+        android:key="security_key"
+        android:title="@string/security_patch"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"
+        settings:enableCopying="true" />
+
+    <Preference
+        android:key="module_version"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/module_version"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"
+        settings:enableCopying="true" />
+
+    <Preference
+        android:key="base_band"
+        android:selectable="false"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/baseband_version"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"
+        settings:enableCopying="true" />
+
+    <Preference
+        android:key="kernel_version"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/kernel_version"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"
+        settings:enableCopying="true" />
+
+    <Preference
+        android:key="os_build_date"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/build_date"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildDatePreferenceController"
+        settings:enableCopying="true" />
+
+    <Preference
+        android:key="os_build_maintainer"
+        android:selectable="false"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/build_maintainer"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildMaintainerPreferenceController"
+        settings:enableCopying="true" />
+
+    <Preference
+        android:key="os_build_number"
+        android:selectable="false"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/build_number"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"
+        settings:enableCopying="true" />
+
+    <Preference
+        android:key="selinux_status"
+        android:selectable="false"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/selinux_status"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"
+        settings:enableCopying="true" />
+
+</PreferenceScreen>

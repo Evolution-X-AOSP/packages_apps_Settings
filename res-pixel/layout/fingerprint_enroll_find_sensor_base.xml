@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/setup_wizard_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="?fingerprint_layout_theme">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        style="@style/SudContentFrame">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@id/illustration_lottie"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            app:lottie_autoPlay="true"
+            app:lottie_imageAssetsFolder="images"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/fingerprint_edu_lottie" />
+
+    </LinearLayout>
+
+</com.google.android.setupdesign.GlifLayout>

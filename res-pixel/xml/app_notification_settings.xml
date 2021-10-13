@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="app_notifications"
+    android:title="@string/notifications_title">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="pref_app_header"
+        android:layout="@layout/settings_entity_header" />
+
+    <com.android.settings.widget.SettingsMainSwitchPreference
+        android:key="block" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="block_desc" />
+
+    <PreferenceCategory
+        android:key="conversations"
+        android:title="@string/conversations_category_title"
+        android:visibility="gone"
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="invalid_conversation_switch"
+        android:title="@string/conversation_section_switch_title" />
+
+    <Preference
+        android:key="invalid_conversation_info" />
+
+    <Preference
+        android:icon="@drawable/ic_create_bubble"
+        android:key="bubble_pref_link"
+        android:title="@string/notification_bubbles_title"
+        settings:allowDividerAbove="false"
+        settings:controller="com.android.settings.notification.app.BubbleSummaryPreferenceController" />
+
+    <PreferenceCategory
+        android:key="channels"
+        android:layout="@layout/empty_view"
+        settings:allowDividerAbove="true"
+        settings:allowDividerBelow="true" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="badge"
+        android:order="1001"
+        android:title="@string/notification_badge_title"
+        settings:allowDividerAbove="true"
+        settings:restrictedSwitchSummary="@string/enabled_by_admin"
+        settings:useAdditionalSummary="true" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="allow_sound"
+        android:summary="@string/allow_interruption_summary"
+        android:title="@string/allow_interruption" />
+
+    <com.android.settings.RestrictedListPreference
+        android:key="visibility_override"
+        android:title="@string/app_notification_visibility_override_title" />
+
+    <!-- Lights -->
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="lights"
+        android:title="@string/notification_show_lights_title"
+        settings:useAdditionalSummary="true"/>
+
+    <!-- Custom led color -->
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="custom_light"
+        android:dependency="lights"
+        android:title="@string/custom_light_title"
+        android:defaultValue="0xFFFFFFFF"/>
+
+    <com.evolution.settings.preference.CustomSeekBarPreference
+        android:key="custom_light_on_time"
+        android:dependency="lights"
+        android:title="@string/custom_light_on_time_title"
+        settings:defaultText="@string/value_equals_default"
+        settings:min="0"
+        android:max="10000"
+        settings:interval="100"
+        settings:units="" />
+
+    <com.evolution.settings.preference.CustomSeekBarPreference
+        android:key="custom_light_off_time"
+        android:dependency="lights"
+        android:title="@string/custom_light_off_time_title"
+        settings:defaultText="@string/value_equals_default"
+        settings:min="0"
+        android:max="10000"
+        settings:interval="100"
+        settings:units="" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="bypass_dnd"
+        android:summary="@string/app_notification_override_dnd_summary"
+        android:title="@string/app_notification_override_dnd_title" />
+
+    <Preference
+        android:icon="@drawable/ic_settings_24dp"
+        android:key="app_link"
+        android:order="1003"
+        android:title="@string/app_settings_link" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="desc"
+        android:order="5000" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="deleted"
+        android:order="8000" />
+
+</PreferenceScreen>

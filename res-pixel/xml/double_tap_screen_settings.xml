@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/ambient_display_title">
+
+    <com.android.settings.widget.VideoPreference
+        android:key="gesture_double_tap_screen_video"
+        app:animation="@raw/gesture_ambient_tap"
+        app:controller="com.android.settings.widget.VideoPreferenceController"
+        app:preview="@drawable/gesture_ambient_tap" />
+
+    <SwitchPreference
+        android:key="gesture_double_tap_screen"
+        android:summary="@string/ambient_display_summary"
+        android:title="@string/ambient_display_title"
+        app:allowDividerAbove="true"
+        app:controller="com.android.settings.gestures.DoubleTapScreenPreferenceController"
+        app:keywords="@string/keywords_gesture" />
+
+</PreferenceScreen>

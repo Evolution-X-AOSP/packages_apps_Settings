@@ -66,3 +66,15 @@
 -keepclasseswithmembers class * extends com.android.settings.slices.SliceBackgroundWorker {
     public <init>(android.content.Context, android.net.Uri);
 }
+
+# Custom rules
+-keep class com.google.** { *; }
+-keep class vendor.** { *; }
+-keep class com.android.wsuinterface.** { *; }
+
+# For reflection
+-keepattributes InnerClasses
+-keep class **.R
+-keep class **.R$* {
+    <fields>;
+}

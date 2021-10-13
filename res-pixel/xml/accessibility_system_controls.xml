@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="accessibility_system_controls"
+    android:persistent="false"
+    android:title="@string/accessibility_system_controls_title">
+
+    <Preference
+        android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
+        android:key="gesture_system_navigation_input_summary_accessibility"
+        android:persistent="false"
+        android:title="@string/system_navigation_title"
+        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
+        settings:searchable="false" />
+
+    <Preference
+        android:fragment="com.android.settings.gestures.OneHandedSettings"
+        android:key="gesture_system_navigation_one_handed_accessibility"
+        android:persistent="false"
+        android:title="@string/one_handed_title"
+        settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController"
+        settings:searchable="false" />
+
+    <SwitchPreference
+        android:key="toggle_power_button_ends_call_preference"
+        android:persistent="false"
+        android:title="@string/accessibility_power_button_ends_call_prerefence_title"
+        settings:controller="com.android.settings.accessibility.PowerButtonEndsCallPreferenceController" />
+
+    <Preference
+        android:fragment="com.android.settings.display.SmartAutoRotatePreferenceFragment"
+        android:key="toggle_lock_screen_rotation_preference"
+        android:persistent="false"
+        android:title="@string/accelerometer_title"
+        settings:controller="com.android.settings.display.SmartAutoRotatePreferenceController"
+        settings:keywords="@string/keywords_auto_rotate" />
+
+</PreferenceScreen>

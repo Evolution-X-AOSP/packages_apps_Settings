@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <com.android.settingslib.RestrictedPreference
+        android:icon="@drawable/ic_swap"
+        android:key="switch_user" />
+
+    <SwitchPreference
+        android:icon="@drawable/ic_phone"
+        android:key="enable_calling"
+        android:title="@string/user_enable_calling_sms" />
+
+    <com.android.settingslib.RestrictedPreference
+        android:icon="@drawable/ic_lock_closed"
+        android:key="app_and_content_access"
+        android:title="@string/user_restrictions_title" />
+
+    <com.android.settingslib.RestrictedPreference
+        android:icon="@drawable/ic_delete"
+        android:key="remove_user"
+        settings:useAdminDisabledSummary="true"
+        settings:userRestriction="no_remove_user" />
+
+</PreferenceScreen>

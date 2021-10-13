@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/auto_brightness_title">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="auto_brightness_video"
+        settings:lottie_rawRes="@raw/lottie_adaptive_brightness"
+        settings:searchable="false" />
+
+    <com.android.settings.widget.SettingsMainSwitchPreference
+        android:key="auto_brightness"
+        android:title="@string/adaptive_brightness_main_switch_title"
+        settings:controller="com.android.settings.display.AutoBrightnessDetailPreferenceController"
+        settings:keywords="@string/keywords_display_auto_brightness"
+        settings:userRestriction="no_config_brightness" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="auto_brightness_footer"
+        android:selectable="false"
+        android:title="@string/auto_brightness_description"
+        settings:searchable="false" />
+
+</PreferenceScreen>

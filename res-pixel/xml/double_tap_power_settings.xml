@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/double_tap_power_for_camera_title">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="gesture_double_tap_power_video"
+        app:lottie_rawRes="@drawable/quickly_open_camera"
+        app:searchable="false" />
+
+    <SwitchPreference
+        android:key="gesture_double_tap_power"
+        android:summary="@string/double_tap_power_for_camera_summary"
+        android:title="@string/double_tap_power_for_camera_title"
+        app:controller="com.android.settings.gestures.DoubleTapPowerPreferenceController"
+        app:keywords="@string/keywords_gesture" />
+
+</PreferenceScreen>

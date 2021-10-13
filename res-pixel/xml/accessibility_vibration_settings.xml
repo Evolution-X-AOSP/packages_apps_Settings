@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/accessibility_vibration_settings_title">
+
+    <com.android.settings.widget.SettingsMainSwitchPreference
+        android:key="vibration_haptics_switch"
+        settings:controller="com.google.android.settings.accessibility.HapticsSwitchPreferenceController" />
+
+    <PreferenceCategory
+        android:key="vibrate_for_calls_category"
+        android:title="@string/vibrate_for_calls_category_title"
+        settings:controller="com.google.android.settings.sound.VibrateForCallsCategoryPreferenceController">
+
+        <Preference
+            android:fragment="com.google.android.settings.sound.VibrateForCallsPreferenceFragment"
+            android:key="vibrate_for_calls"
+            android:title="@string/vibrate_when_ringing_title"
+            settings:controller="com.google.android.settings.sound.VibrateForCallsPreferenceController" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="vibration_haptics_strength_category"
+        android:title="@string/vibration_haptics_strength_category_title"
+        settings:controller="com.google.android.settings.accessibility.HapticsStrengthCategoryPreferenceController">
+
+        <SwitchPreference
+            android:key="ring_vibration_switch_preference"
+            android:title="@string/accessibility_ring_vibration_title"
+            settings:controller="com.google.android.settings.accessibility.RingVibrationTogglePreferenceController"
+            settings:keywords="@string/keywords_ring_vibration" />
+
+        <SwitchPreference
+            android:key="notification_vibration_switch_preference"
+            android:title="@string/accessibility_notification_vibration_title"
+            settings:controller="com.google.android.settings.accessibility.NotificationVibrationTogglePreferenceController"
+            settings:keywords="@string/keywords_notification_vibration" />
+
+        <SwitchPreference
+            android:key="touch_vibration_switch_preference"
+            android:title="@string/accessibility_touch_vibration_title"
+            settings:controller="com.google.android.settings.accessibility.HapticFeedbackTogglePreferenceController"
+            settings:keywords="@string/keywords_touch_vibration" />
+
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="haptics_disabled_explanation"
+        android:selectable="false"
+        android:title="@string/vibration_haptics_settings_not_available_summary"
+        settings:controller="com.google.android.settings.accessibility.HapticsErrorInfoPreferenceController"
+        settings:searchable="false" />
+
+</PreferenceScreen>
