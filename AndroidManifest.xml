@@ -4327,8 +4327,6 @@
         <activity
             android:name="Settings$LiveDisplaySettingsActivity"
             android:label="@*android:string/live_display_title"
-            android:parentActivityName="Settings"
-            android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.LIVEDISPLAY_SETTINGS" />
