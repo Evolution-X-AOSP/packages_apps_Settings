@@ -4643,6 +4643,19 @@
             android:taskAffinity="com.android.settings.applock"
             android:launchMode="singleTask" />
 
+        <activity android:name="com.evolution.settings.about.ChangelogActivity"
+                android:label="@string/changelog_evolution_title"
+                android:theme="@style/Theme.SubSettingsBase"
+                android:enabled="true"
+                android:exported="true"
+                android:taskAffinity="com.android.settings"
+                android:parentActivityName="Settings">
+            <intent-filter android:priority="70">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
