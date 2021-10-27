@@ -25,21 +25,24 @@
         android:title="@string/color_mode_balance_category"
         android:order="100">
 
-        <com.android.settings.widget.SeekBarPreference
+        <SeekBarPreference
             android:key="color_balance_red"
             android:title="@string/color_mode_balance_red"
+            style="@style/SettingsSeekbarPreference.SettingsLib"
             settings:keywords="@string/keywords_color_balance"
             settings:controller="com.android.settings.display.ColorBalancePreferenceController" />
 
-        <com.android.settings.widget.SeekBarPreference
+        <SeekBarPreference
             android:key="color_balance_green"
             android:title="@string/color_mode_balance_green"
+            style="@style/SettingsSeekbarPreference.SettingsLib"
             settings:keywords="@string/keywords_color_balance"
             settings:controller="com.android.settings.display.ColorBalancePreferenceController" />
 
-        <com.android.settings.widget.SeekBarPreference
+        <SeekBarPreference
             android:key="color_balance_blue"
             android:title="@string/color_mode_balance_blue"
+            style="@style/SettingsSeekbarPreference.SettingsLib"
             settings:keywords="@string/keywords_color_balance"
             settings:controller="com.android.settings.display.ColorBalancePreferenceController" />
 
