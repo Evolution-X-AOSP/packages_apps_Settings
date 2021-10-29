@@ -80,6 +80,39 @@
         android:key="visibility_override"
         android:title="@string/app_notification_visibility_override_title"/>
 
+    <!-- Lights -->
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="lights"
+        android:title="@string/notification_show_lights_title"
+        settings:useAdditionalSummary="true"/>
+
+    <!-- Custom led color -->
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="custom_light"
+        android:dependency="lights"
+        android:title="@string/custom_light_title"
+        settings:defaultColorValue="0xFFFFFFFF"/>
+
+    <com.evolution.settings.preference.CustomSeekBarPreference
+        android:key="custom_light_on_time"
+        android:dependency="lights"
+        android:title="@string/custom_light_on_time_title"
+        settings:defaultValueText="@string/value_equals_default"
+        settings:min="0"
+        android:max="10000"
+        settings:interval="100"
+        settings:units="" />
+
+    <com.evolution.settings.preference.CustomSeekBarPreference
+        android:key="custom_light_off_time"
+        android:dependency="lights"
+        android:title="@string/custom_light_off_time_title"
+        settings:defaultValueText="@string/value_equals_default"
+        settings:min="0"
+        android:max="10000"
+        settings:interval="100"
+        settings:units="" />
+
     <!-- Bypass DND -->
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="bypass_dnd"
