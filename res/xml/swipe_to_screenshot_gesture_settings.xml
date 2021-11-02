@@ -18,20 +18,20 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="swipe_to_screenshot_screen"
     android:title="@string/three_finger_gesture">
 
-    <com.android.settings.widget.VideoPreference
+    <com.android.settingslib.widget.IllustrationPreference
         android:key="swipe_to_screenshot_video"
-        app:animation="@raw/swipe_to_screenshot"
-        app:preview="@drawable/swipe_to_screenshot" />
+        settings:searchable="false"
+        app:lottie_rawRes="@raw/lottie_swipe_to_screenshot" />
 
     <SwitchPreference
         android:key="swipe_to_screenshot"
         android:title="@string/three_finger_gesture"
         android:summary="@string/three_finger_gesture_summary"
         app:keywords="@string/keywords_gesture"
-        app:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController"
-        app:allowDividerAbove="true" />
+        app:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
 </PreferenceScreen>
