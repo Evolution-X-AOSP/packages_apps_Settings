@@ -36,7 +36,9 @@ import com.android.settings.fuelgauge.BatteryHistEntry;
 import com.android.settingslib.fuelgauge.Estimate;
 import com.android.settingslib.utils.PowerUtil;
 
+import java.util.ArrayList;
 import java.time.Duration;
+import java.util.List;
 import java.util.Map;
 
 public class PowerUsageFeatureProviderImpl implements PowerUsageFeatureProvider {
@@ -320,5 +322,10 @@ public class PowerUsageFeatureProviderImpl implements PowerUsageFeatureProvider 
     @Override
     public Map<Long, Map<String, BatteryHistEntry>> getBatteryHistory(Context context) {
         return null;
+    }
+
+    @Override
+    public List<CharSequence> getHideBackgroundUsageTimeList(Context context) {
+        return new ArrayList<>();
     }
 }
