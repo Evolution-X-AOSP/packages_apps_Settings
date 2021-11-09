@@ -43,7 +43,7 @@ public class SupportPreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
-        return mSupportFeatureProvider == null ? UNSUPPORTED_ON_DEVICE : AVAILABLE;
+        return UNSUPPORTED_ON_DEVICE/*mSupportFeatureProvider == null ? UNSUPPORTED_ON_DEVICE : AVAILABLE*/;
     }
 
     @Override
