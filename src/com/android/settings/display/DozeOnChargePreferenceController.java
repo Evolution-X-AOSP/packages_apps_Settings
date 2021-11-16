@@ -21,12 +21,19 @@ import android.hardware.display.AmbientDisplayConfiguration;
 import android.os.UserHandle;
 import android.provider.Settings;
 
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.SwitchPreference;
+
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
 
 public class DozeOnChargePreferenceController extends TogglePreferenceController {
 
+    private static final String AOD_PREF_KEY = "ambient_display_always_on";
+
     private AmbientDisplayConfiguration mConfig;
+    private Preference mPreference;
 
     public DozeOnChargePreferenceController(Context context, String key) {
         super(context, key);
@@ -34,7 +41,26 @@ public class DozeOnChargePreferenceController extends TogglePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        return isAvailable(getConfig()) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        if (isAvailable(getConfig())) {
+            return getConfig().alwaysOnEnabledSetting(UserHandle.myUserId()) ? DISABLED_DEPENDENT_SETTING : AVAILABLE;
+        }
+        return UNSUPPORTED_ON_DEVICE;
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+        mPreference = screen.findPreference(getPreferenceKey());
+    }
+
+    @Override
+    public boolean handlePreferenceTreeClick(Preference preference) {
+        final String key = preference.getKey();
+        if (key != null && key.equals(AOD_PREF_KEY)) {
+            mPreference.setEnabled(!((SwitchPreference) preference).isChecked());
+            return true;
+        }
+        return super.handlePreferenceTreeClick(preference);
     }
 
     @Override
