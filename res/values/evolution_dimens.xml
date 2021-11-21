@@ -6,4 +6,7 @@
 <resources>
     <!-- Fingerprint -->
     <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
+
+    <!-- Rounded corner theme radius -->
+    <dimen name="rounded_corner_theme_overlay_radius">24dp</dimen>
 </resources>
