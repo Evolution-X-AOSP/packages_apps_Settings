@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar informações</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">Total de RAM</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Versão da Evolution X</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">Data da compilação</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Mantenedor</string>
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">Evolução</string>
+    <string name="evolver_dashboard_summary">Hora de continuar a Evolução do seu dispositivo</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Impondo</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Som de captura de tela</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostrar histórico de notificações</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Aumentar o volume do toque</string>
+    <string name="increasing_ring_min_volume_title">Volume inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Tempo de aceleração</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Unir volumes de toque e notificações</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Zerar as estatísticas</string>
+    <string name="battery_stats_message">As estatísticas do histórico de bateria serão redefinidas</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente ao inserir o PIN ou senha corretamente</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Processos em segundo plano</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Acordar ao conectar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ativar a tela quando conectar ou desconectar o carregador</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Acordar com o botão home</string>
+    <string name="home_wake_button_summary">Ativar botão home para acender a tela</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Cor do LED</string>
+    <string name="custom_light_on_time_title">Tempo de luz ativa durante o pulso do LED (ms)</string>
+    <string name="custom_light_off_time_title">Tempo de luz desligada durante o pulso de LED (ms)</string>
+    <string name="value_equals_default">padrão</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho para o padrão</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Mostrar erro do padrão</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Mostrar pontos do padrão</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_refresh_rate_summary">Usar taxa de atualização da tela de 60hz para economizar energia quando o modo Economia de Bateria estiver ativado</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Tela ambiente durante o carregamento</string>
+    <string name="doze_on_charge_summary">Sempre mostrar a tela ambiente durante o carregamento</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Impedir que a tela seja ligada acidentalmente</string>
+    <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Mudo, sem mídia</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Ligado (mudo, sem mídia)</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Resposta tátil</string>
+    <string name="back_gesture_haptic_summary">Ativar o efeito da vibração no gesto de voltar</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Cheio</string>
+    <string name="back_height_high_label">Inferior</string>
+    <string name="back_options_dialog_title">Opções</string>
+    <string name="back_height_message">Altura da área da tela usada como região tocável para gesto de voltar.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hoje</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Padrão de vibração do toque</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizado</string>
+    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Ciclo entre modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ligado (ciclo através dos modos)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Alternar faixas de músicas ao manter pressionadas as teclas de volume enquanto a tela estiver desligada</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Outros controles</string>
+    <string name="fullscreen_gestures_title">Gestos em tela cheia</string>
+    <string name="fullscreen_gestures_summary">Ocultar barra de gestos e espaço do teclado</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Comprimento da barra gestos</string>
+    <string name="short_label">Curto</string>
+    <string name="long_label">Longo</string>
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Segundo(s)</string>
+    <string name="volume_dialog_timeout_title">Tempo limite do painel de volume</string>
+    <string name="volume_dialog_timeout_summary">O tempo que leva para o painel de volume desaparecer</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Toque duplo</string>
+    <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
+    <string name="doze_double_tap_summary">Pulsar notificações ao tocar duas vezes na tela</string>
+    <!-- Custom vibration intensity -->
+    <string name="vibration_intensity_title">Intensidade da vibração</string>
+    <string name="vibration_intensity_summary">Controle a intensidade da vibração para diferentes setores</string>
+    <string name="notification_vibration_intensity_title">Notificações</string>
+    <string name="ring_vibration_intensity_title">Toque</string>
+    <string name="haptic_feedback_intensity_title">Retorno tátil</string>
+    <string name="vibration_intensity_off">Desativado</string>
+    <string name="vibration_intensity_low">Baixo</string>
+    <string name="vibration_intensity_medium">Médio</string>
+    <string name="vibration_intensity_high">Muito</string>
+</resources>
