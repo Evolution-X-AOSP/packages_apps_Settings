@@ -172,11 +172,6 @@ Kai telefonas bus nustatytas iš naujo, atlikite sąrankos proceso veiksmus ir p
     <string name="fallback_menu_item_copy_link">Kopijuoti nuorodą</string>
     <string name="fallback_menu_item_open_in_browser">Atidaryti naršyklėje</string>
     <string name="fallback_menu_item_share_link">Bendrinti nuorodą</string>
-    <string name="fingerprint_unlock_set_unlock_password">„Nexus Imprint“ + slaptažodis</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">„Nexus Imprint“ + atrakinimo piešinys</string>
-    <string name="fingerprint_unlock_set_unlock_pin">„Nexus Imprint“ + PIN kodas</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Tęsti nenaudojant „Nexus Imprint“</string>
-    <string name="fingerprint_unlock_title">Naudodami „Nexus Imprint“ telefoną galite atrakinti piršto antspaudu. Saugos sumetimais, įgalinus šią parinktį, reikia naudoti atsarginį ekrano užraktą.</string>
     <string name="fullbackup_data_summary">"Automatiškai kurkite atsargines įrenginio duomenų (pvz., „Wi-Fi“ slaptažodžių ir skambučių istorijos) ir programos duomenų (pvz., nustatymų ir programų saugomų failų) kopijas „Google“ diske.
 
 Kai įjungiate automatinio atsarginės kopijos kūrimo funkciją, įrenginio ir programos duomenys periodiškai išsaugomi privačiame „Google“ disko aplanke. Programų duomenys gali būti bet kurie programos išsaugoti duomenys (atsižvelgiant į kūrėjo nustatymus), įskaitant potencialiai neskelbtinus duomenis, pvz., kontaktus, pranešimus ir nuotraukas.
@@ -228,7 +223,6 @@ Atsarginių kopijų duomenys nebus įtraukti skaičiuojant Disko saugyklos kvot�
     <string name="language_input_gesture_summary_off">„Active Edge“ išjungtas</string>
     <string name="language_input_gesture_summary_on_non_assist">„Active Edge“ įjungtas</string>
     <string name="language_input_gesture_summary_on_with_assist">„Active Edge“ įjungtas, suspauskite ir įjunkite Padėjėją</string>
-    <string name="lock_settings_picker_fingerprint_message">Pasirinkite atsarginį „Nexus Imprint“ naudotiną ekrano užraktą</string>
     <string name="me_card_title">Mano „Pixel“ įrenginys</string>
     <string name="my_device_info_account_preference_title">„Google“ paskyra</string>
     <string name="owner_info_settings_edit_text_hint">Pvz., Jurgio „Pixel“ įrenginys.</string>
@@ -315,25 +309,8 @@ Norėdami patobulinti našumą, atrakinimą pagal veidą galite vėl nustatyti a
     <string name="security_settings_face_enroll_too_hot_message">Nepavyko užbaigti atrakinimo pagal veidą nustatymo, nes telefonas per daug įkaitęs. Vėliau bandykite dar kartą, kai telefonas atvės.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Praleisti atrakinimą pagal veidą</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefonas per daug įkaitęs</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Naudodami „Nexus Imprint“ galite ne tik atrakinti telefoną, bet ir autorizuoti pirkimo operacijas bei prieigą prie programų. <annotation id="url">Sužinokite daugiau</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">„Nexus Imprint“ įrašyti duomenys saugomi saugiai ir visada lieka tik jūsų telefone. Savo duomenis galite bet kada ištrinti skiltyje „Nustatymai“.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"„Nexus Imprint“ naudoja jūsų kontrolinį kodą telefonui pažadinti ir atrakinti, pirkimo operacijoms įgalioti ar prisijungti prie programų.
-
-Atidžiai rinkitės, kieno kontrolinius kodus pridedate. Bet kuriuo pridėtu kontroliniu kodu galima atlikti visus šiuos veiksmus. "<annotation link="url">Sužinokite daugiau</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Naudodami „Nexus Imprint“ galite įgalioti pirkimo veiksmus arba prisijungti prie programų piršto antspaudu.
-
-Atidžiai rinkitės, kieno kontrolinius kodus pridedate. Bet kuriuo pridėtu piršto antspaudu galima atlikti visus šiuos veiksmus.
-
-Pastaba: naudodami piršto antspaudą šio įrenginio atrakinti negalite. Daugiau informacijos galite gauti susisiekę su organizacijos administratoriumi."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">„Nexus Imprint“ atrak.</string>
     <string name="security_settings_fingerprint_preference_summary_none">Palieskite, kad nustatytumėte piršto atspaudą</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Naudojant „Pixel Imprint“ kuriamas unikalus jūsų kontrolinio kodo modelis, kad būtų galima patvirtinti jūsų tapatybę. Kad sukurtumėte šį kontrolinio kodo modelį nustatydami, turite sukurti kontrolinio kodo vaizdų iš skirtingų pozicijų.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Galite bet kada ištrinti kontrolinio kodo modelį arba išjungti „Pixel Imprint“ „Nustatymų“ skiltyje. Kontrolinio kodo modeliai saugomi telefone, kol juos ištrinate.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Naudojant „Pixel Imprint“ kuriamas unikalus jūsų vaiko kontrolinio kodo modelis, kad būtų galima patvirtinti vaiko tapatybę. Norint sukurti šį kontrolinio kodo modelį nustatant, reikia sukurti kontrolinio kodo vaizdų iš skirtingų pozicijų.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Jūs ir jūsų vaikas galite bet kada ištrinti kontrolinio kodo modelį arba išjungti „Pixel Imprint“ „Nustatymų“ skiltyje. Kontrolinio kodo modeliai saugomi telefone, kol ištrinami.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Sužinokite daugiau adresu g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Tiesiog palieskite „Nexus Imprint“ jutiklį, kad pažadintumėte ir atrakintumėte telefoną.</string>
     <string name="setup_suggestion_summary">Kopijuokite duomenis, mokėkite telefonu ir kt.</string>
     <string name="setup_suggestion_title">Nustatymų užbaigimas</string>
     <string name="smart_battery_footer">Kad akumuliatorius veiktų ilgiau, prisitaikančio akumuliatoriaus funkcija gali sumažinti našumą ir apriboti veiklą fone. Kai kurie pranešimai gali vėluoti.</string>
@@ -342,7 +319,6 @@ Pastaba: naudodami piršto antspaudą šio įrenginio atrakinti negalite. Daugia
     <string name="sound_dashboard_summary">Garsumas, lietimo technologija, netrukdymo režimas</string>
     <string name="sound_settings">Garsas ir vibravimas</string>
     <string name="storage_manager_indicator">Išmanioji saugykla: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">„Pixel Imprint“ naudojimas</string>
     <string name="time_remaining_warning_subtext">Remiantis tuo, kaip įrenginys buvo naudojamas anksčiau, liko maždaug %1$s</string>
     <string name="time_remaining_warning_text">Akumuliatoriaus energija gali netrukus išsekti</string>
     <string name="tips_suggestion_summary">Sužinokite, ką galite atlikti telefonu</string>

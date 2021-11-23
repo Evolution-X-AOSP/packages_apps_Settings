@@ -171,11 +171,6 @@ Setelah peranti anda ditetapkan semula, jalankan proses persediaan dan pilih unt
     <string name="fallback_menu_item_copy_link">Salin pautan</string>
     <string name="fallback_menu_item_open_in_browser">Buka dalam penyemak imbas</string>
     <string name="fallback_menu_item_share_link">Kongsi pautan</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Kata Laluan</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Corak</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Teruskan tanpa Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Dengan Nexus Imprint, anda boleh membuka kunci telefon menggunakan cap jari. Untuk keselamatan, pilihan ini memerlukan kunci skrin sandaran.</string>
     <string name="fullbackup_data_summary">"Sandarkan data peranti secara automatik (seperti kata laluan Wi-Fi dan sejarah panggilan) dan data apl (seperti tetapan dan fail yang disimpan oleh apl) pada Google Drive.
 
 Apabila anda menghidupkan sandaran automatik, data peranti dan apl disimpan secara berkala pada folder peribadi di Google Drive. Data apl boleh merangkumi sebarang data yang telah disimpan oleh apl (berdasarkan tetapan pembangun), termasuk data yang berkemungkinan sensitif, seperti kenalan, mesej dan foto.
@@ -227,7 +222,6 @@ Data sandaran tidak dikira dalam kuota storan Drive anda. Fail yang besar atau f
     <string name="language_input_gesture_summary_off">Sisi Aktif dimatikan</string>
     <string name="language_input_gesture_summary_on_non_assist">Sisi Aktif dihidupkan</string>
     <string name="language_input_gesture_summary_on_with_assist">Sisi Aktif dihidupkan, picit untuk mendapatkan Assistant</string>
-    <string name="lock_settings_picker_fingerprint_message">Pilih kunci skrin sandaran untuk digunakan dengan Nexus Imprint</string>
     <string name="me_card_title">My Pixel</string>
     <string name="my_device_info_account_preference_title">Akaun Google</string>
     <string name="owner_info_settings_edit_text_hint">Mis., Pixel Johari.</string>
@@ -316,25 +310,8 @@ Untuk meningkatkan prestasi, anda boleh menyediakan semula Buka Kunci Wajah dala
     <string name="security_settings_face_enroll_too_hot_message">Persediaan Buka Kunci Wajah tidak dapat dilengkapkan kerana telefon terlalu panas. Cuba sebentar lagi apabila telefon menyejuk.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Langkau Buka Kunci Wajah</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefon terlalu panas</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Selain membuka kunci telefon, anda turut boleh menggunakan Nexus Imprint untuk mengizinkan pembelian dan akses apl. <annotation id="url">Ketahui lebih lanjut</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Data yang dirakam oleh Nexus Imprint disimpan dengan selamat dan tidak sekali-kali dihantar keluar daripada telefon anda. Anda boleh memadamkan data anda pada bila-bila masa dalam Tetapan.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint menggunakan cap jari anda untuk membangunkan dan membuka kunci telefon anda, mengizinkan pembelian atau melog masuk ke apl.
-
-Berhati-hati apabila menambahkan cap jari. Mana-mana cap jari yang ditambahkan akan dapat melakukan perkara ini. "<annotation link="url">Ketahui lebih lanjut</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Dengan Nexus Imprint, anda boleh menggunakan cap jari untuk membenarkan pembelian atau log masuk ke apl.
-
-Berhati-hati tentang cap jari yang anda tambahkan. Sebarang cap jari yang ditambahkan akan dapat melakukan perkara ini.
-
-Perhatian: Anda tidak boleh menggunakan cap jari untuk membuka kunci peranti ini. Untuk mengetahui maklumat lanjut, hubungi pentadbir organisasi anda."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Buka dgn Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Ketik untuk menyediakan cap jari</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint menghasilkan model unik cap jari anda untuk mengesahkan sama ada itulah anda atau tidak. Untuk menghasilkan model cap jari ini semasa persediaan, anda akan mengambil imej cap jari anda daripada kedudukan yang berbeza.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Anda boleh memadamkan model cap jari anda atau mematikan Pixel Imprint pada bila-bila masa dalam Tetapan. Model cap jari disimpan pada telefon sehingga anda memadamkan model itu.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint menghasilkan model unik cap jari anak anda untuk mengesahkan sama ada itulah mereka atau tidak. Untuk menghasilkan model cap jari ini semasa persediaan, mereka akan mengambil imej cap jari mereka daripada kedudukan yang berbeza.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Anda dan anak anda boleh memadamkan model cap jari mereka atau mematikan Pixel Imprint pada bila-bila masa dalam Tetapan. Model cap jari disimpan pada telefon sehingga ia dipadamkan.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Ketahui lebih lanjut melalui g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Hanya sentuh penderia Nexus Imprint untuk membangunkan dan membuka kunci telefon anda.</string>
     <string name="setup_suggestion_summary">Salin data, bayar guna telefon anda dan banyak lagi</string>
     <string name="setup_suggestion_title">Selesaikan persediaan</string>
     <string name="smart_battery_footer">Untuk melanjutkan hayat bateri, Bateri Mudah Suai mungkin mengurangkan prestasi dan aktiviti latar belakang. Sesetengah pemberitahuan mungkin tertangguh.</string>
@@ -343,7 +320,6 @@ Perhatian: Anda tidak boleh menggunakan cap jari untuk membuka kunci peranti ini
     <string name="sound_dashboard_summary">Kelantangan, haptik, Jangan Ganggu</string>
     <string name="sound_settings">Bunyi &amp; getaran</string>
     <string name="storage_manager_indicator">Storan Pintar: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Gunakan Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Tinggal kira-kira %1$s berdasarkan penggunaan lepas</string>
     <string name="time_remaining_warning_text">Bateri akan kehabisan tidak lama lagi</string>
     <string name="tips_suggestion_summary">Teroka yang boleh dibuat dengan telefon</string>

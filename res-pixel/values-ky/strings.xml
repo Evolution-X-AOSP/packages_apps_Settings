@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">Шилтемени көчүрүү</string>
     <string name="fallback_menu_item_open_in_browser">Серепчиден ачуу</string>
     <string name="fallback_menu_item_share_link">Шилтемени бөлүшүү</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Сырсөз</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Графикалык ачкыч</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN код</string>
-    <string name="fingerprint_unlock_skip_fingerprint">"Nexus Imprint'сиз улантуу"</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint менен телефонуңуздун кулпусун манжаңыздын изи менен ачсаңыз болот. Коопсуздук максатында кулпуну ачуунун дагы бир ыкмасын тандап коюңуз.</string>
     <string name="fullbackup_data_summary">"Түзмөктөгү дайындары (мисалы, Wi-Fi тармагынын сырсөздөрү жана чалуулар таржымалы) менен колдонмонун дайындарынын (мисалы жөндөөлөр жана файлдар) камдалган көчүрмөлөрүн Google Drive'га автоматтык түрдө сактап коюңуз.
 
 Автоматтык түрдө көчүрмөнү сактоо мүмкүнчүлүгү иштетилгенде,түзмөк менен колдонмонун дайындары Google Drive'дагы жеке куржунга маал-маалы менен сакталып турат. Иштеп чыгуучунун жөндөөлөрүнө ылайык колдонмодо сакталган дайындарда байланыштар, билдирүүлөр, сүрөттөр сыяктуу купуя маалыматтар камтылышы мүмкүн.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge өчүрүлгөн</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge күйгүзүлгөн</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge күйүк, Жардамчыңызга кайрылуу үчүн телефонду кысыңыз</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus Imprint менен кошо колдонула турган экранды кулпулоо ыкмасын тандаңыз</string>
     <string name="me_card_title">Pixel түзмөгүм</string>
     <string name="my_device_info_account_preference_title">Google аккаунту</string>
     <string name="owner_info_settings_edit_text_hint">Мисалы, Асандын Pixel түзмөгү.</string>
@@ -315,26 +309,8 @@
     <string name="security_settings_face_enroll_too_hot_message">Жүзүнөн таануу функциясын жөндөп бүтүрүү мүмкүн эмес, себеби телефон ысып кетти. Телефон муздагандан кийин кайра аракет кылыңыз.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Жүзүнөн таанууну өткөрүп жиберүү</string>
     <string name="security_settings_face_enroll_too_hot_title">Телефон ысып кетти</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Nexus Imprint аркылуу телефонуңуздун экранын гана ачпастан, ар кандай нерселерди сатып алып, колдонмолорго уруксат бере аласыз. <annotation id="url">Көбүрөөк билүү</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint жаздырган нерселер телефонуңузда коопсуз сакталат. Аларды каалаган убакта өчүрүп салсаңыз болот.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint аркылуу телефонуңузду ойготуп, кулпусун ачып, кандайдыр бир нерселерди сатып алып жатканыңызды ырастап же колдонмолорго кирүү үчүн жөн гана манжаңызды сенсорго тийгизип койсоңуз болот.
-
-Кимдир-бирөөнүн манжа изин кошуп жатканыңызда этият болуңуз. Манжа издери кошулган адамдардын баары бул нерселерди аткара алышат. "<annotation link="url">Кеңири маалымат</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint менен манжа изиңизди кандайдыр бир нерсени сатып алып жатканыңызды ырастап же колдонмолорго кирүү үчүн пайдалана аласыз.
-
-Кимдир бирөөнүн манжа изин кошуп жатканыңызда этият болуңуз. Манжа издери кошулган адамдардын баары бул нерселерди аткара алышат.
-
-Эскертүү: Манжа изиңизди бул түзмөктүн кулпусун ачууга колдоно албайсыз. Көбүрөөк маалымат үчүн ишканаңыздын администраторуна кайрылыңыз."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint менен кулпуну ачуу</string>
     <string name="security_settings_fingerprint_preference_summary_none">Манжа изин кошуу үчүн таптап коюуңуз</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint функциясы сизди таануу үчүн манжаңыздын изинин уникалдуу үлгүсүн түзөт. Үлгүнү түзүү үчүн манжаңызды ар кайсы абалдан скандашыңыз керек.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Манжаңыздын изинин үлгүсүн же Pixel Imprint функциясын каалаган убакта Жөндөөлөргө өтүп, өчүрсөңүз болот. Манжа изинин үлгүлөрү өчүрүлмөйүнчө телефонуңузда сакталат.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint функциясы балаңызды таануу үчүн манжа изинин кайталанбас үлгүсүн түзөт. Манжа изинин үлгүсүн түзүү үчүн ал манжасынын изин ар кайсы абалдан сүрөткө тартышы керек.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Үлгүнү жаңыртуу үчүн Pixel Imprint функциясында алынган сүрөттөр колдонулат. Сүрөттөр менен үлгү түзмөктө гана иштелет. Сүрөттөр сакталбайт, ал эми манжа изинин үлгүсү түзмөгүңүздө гана сакталып, эч жакка жөнөтүлбөйт</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Манжа изинин үлгүсүн же Pixel Imprint функциясын Жөндөөлөрдөн каалаган убакта өчүрүп койсо болот. Манжа изинин үлгүлөрү өчүрүлмөйүнчө телефондо сакталат.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Кеңири маалымат: g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Телефонуңузду ойготуп жана кулпусун ачуу үчүн жөн гана Nexus Imprint сенсорун басып коюңуз.</string>
     <string name="setup_suggestion_summary">Маалыматты көчүрүп, телефонуңуз менен төлөп жана башка аракеттерди аткарыңыз</string>
     <string name="setup_suggestion_title">Жөндөп бүтүрүңүз</string>
     <string name="smart_battery_footer">Батареяны көбүрөөк убакытка жеткирүү үчүн Adaptive Battery функциясы түзмөктүн майнаптуулугун жана фондогу аракеттерди чектеп коёт. Айрым колдонмолордун билдирмелери кечигүү менен келиши мүмкүн.</string>
@@ -343,7 +319,6 @@
     <string name="sound_dashboard_summary">Үндүн катуулугу, сенсорлор, Тынчымды алба</string>
     <string name="sound_settings">Үн жана дирилдөө</string>
     <string name="storage_manager_indicator">Акылдуу сактагыч: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">"Pixel Imprint'ти колдонуу"</string>
     <string name="time_remaining_warning_subtext">Мурда колдонгонуңузга караганда, болжол менен %1$s калды</string>
     <string name="time_remaining_warning_text">Батарея жакында отуруп калышы мүмкүн</string>
     <string name="tips_suggestion_summary">Телефонуңуздун мүмкүнчүлүктөрүн карап чыгыңыз</string>

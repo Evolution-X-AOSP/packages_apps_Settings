@@ -171,11 +171,6 @@ Nach dem Zurücksetzen muss das Gerät erneut eingerichtet werden. Dabei legst d
     <string name="fallback_menu_item_copy_link">Link kopieren</string>
     <string name="fallback_menu_item_open_in_browser">Im Browser öffnen</string>
     <string name="fallback_menu_item_share_link">Link teilen</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Passwort</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Muster</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Ohne Nexus Imprint fortfahren</string>
-    <string name="fingerprint_unlock_title">Mit Nexus Imprint kannst du dein Smartphone mit deinem Fingerabdruck entsperren. Aus Sicherheitsgründen benötigst du bei dieser Option eine alternative Displaysperre.</string>
     <string name="fullbackup_data_summary">"Sichere Gerätedaten, wie z. B. WLAN-Passwörter und die Anrufliste, sowie App-Daten, wie z. B. Einstellungen und von Apps gespeicherte Dateien, automatisch bei Google Drive.
 
 Wenn du die automatische Sicherung aktivierst, werden Geräte- und App-Daten in regelmäßigen Abständen in einem privaten Ordner bei Google Drive gespeichert. App-Daten sind solche Daten, die von Apps gemäß den Entwicklereinstellungen gespeichert werden, einschließlich möglicherweise vertraulicher Daten wie Kontakten, Nachrichten und Fotos.
@@ -227,7 +222,6 @@ Sicherungsdaten werden nicht auf dein Speicherkontingent bei Google Drive angere
     <string name="language_input_gesture_summary_off">Active Edge deaktiviert</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge aktiviert</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ist aktiviert: gleichzeitiges Drücken der Seiten öffnet Google Assistant</string>
-    <string name="lock_settings_picker_fingerprint_message">Alternative Methode für die Displaysperre mit Nexus Imprint auswählen</string>
     <string name="me_card_title">Mein Pixel</string>
     <string name="my_device_info_account_preference_title">Google-Konto</string>
     <string name="owner_info_settings_edit_text_hint">Zum Beispiel „Peters Pixel“.</string>
@@ -318,25 +312,8 @@ Damit die Entsperrung per Gesichtserkennung optimal funktioniert, kannst du sie 
     <string name="security_settings_face_enroll_too_hot_message">Die Entsperrung per Gesichtserkennung kann nicht fertig eingerichtet werden, weil das Smartphone zu heiß ist. Versuch es später noch einmal, wenn es abgekühlt ist.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Gesichtsentsperrung überspringen</string>
     <string name="security_settings_face_enroll_too_hot_title">Smartphone ist zu heiß</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Mit Nexus Imprint kannst du nicht nur dein Smartphone entsperren, sondern auch Käufe und App-Zugriffe autorisieren. <annotation id="url">Weitere Informationen</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Die von Nexus Imprint erfassten Daten werden sicher und ausschließlich auf deinem Smartphone gespeichert. Du kannst deine Daten jederzeit in den Einstellungen löschen.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Mit Nexus Imprint kannst du deinen Fingerabdruck verwenden, um den Ruhemodus deines Smartphones zu beenden und es zu entsperren, Käufe zu autorisieren oder dich in Apps anzumelden.
-
-Überlege genau, wessen Fingerabdrücke du hinzufügen möchtest, da diese Aktionen mit allen Fingerabdrücken ausgeführt werden können, die du deinem Smartphone hinzufügst. "<annotation link="url">Weitere Informationen</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint ermöglicht dir, mithilfe deines Fingerabdrucks Käufe zu autorisieren oder dich in Apps anzumelden.
-
-Überlege dir gut, wessen Fingerabdrücke du hinzufügst. Mit jedem hinzugefügten Fingerabdruck können alle diese Aktionen durchgeführt werden.
-
-Hinweis: Dieses Gerät kann nicht mit deinem Fingerabdruck entsperrt werden. Weitere Informationen erhältst du vom Administrator deiner Organisation."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Mit Nexus Imprint entsperren</string>
     <string name="security_settings_fingerprint_preference_summary_none">Zum Einrichten des Fingerabdrucks tippen</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">„Pixel Imprint“ erstellt ein eindeutiges Modell deines Fingerabdrucks, mit dem deine Identität bestätigt werden kann. Bei der Einrichtung legst du deinen Finger dazu immer wieder anders auf. Mit diesen Aufnahmen wird dann das Fingerabdruckmodell erstellt.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Du kannst jederzeit dein Fingerabdruckmodell löschen oder „Pixel Imprint“ in den Einstellungen deaktivieren. Fingerabdruckmodelle bleiben auf deinem Smartphone gespeichert, bis du sie löschst.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">„Pixel Imprint“ erstellt ein eindeutiges Modell des Fingerabdrucks deines Kindes, mit dem seine Identität bestätigt werden kann. Bei der Einrichtung legt es seinen Finger dazu immer wieder anders auf. Mit diesen Aufnahmen wird dann das Fingerabdruckmodell erstellt.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Du und dein Kind könnt das Fingerabdruckmodell jederzeit löschen oder „Pixel Imprint“ in den Einstellungen deaktivieren. Fingerabdruckmodelle bleiben auf dem Smartphone gespeichert, bis sie gelöscht werden.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Weitere Informationen findest du unter g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Berühre einfach den Nexus Imprint-Sensor, um dein Smartphone zu aktivieren und zu entsperren.</string>
     <string name="setup_suggestion_summary">Daten kopieren, mit dem Smartphone bezahlen und mehr</string>
     <string name="setup_suggestion_title">Einrichtung abschließen</string>
     <string name="smart_battery_footer">Zur Verlängerung der Akkulaufzeit kann die Funktion „Intelligenter Akku“ die Leistung und Hintergrundaktivitäten reduzieren. Einige Benachrichtigungen können sich verzögern.</string>
@@ -345,7 +322,6 @@ Hinweis: Dieses Gerät kann nicht mit deinem Fingerabdruck entsperrt werden. Wei
     <string name="sound_dashboard_summary">Lautstärke, haptisches Feedback, Bitte nicht stören</string>
     <string name="sound_settings">Ton &amp; Vibration</string>
     <string name="storage_manager_indicator">Intelligenter Speicher: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint verwenden</string>
     <string name="time_remaining_warning_subtext">Noch ca. %1$s, basierend auf der bisherigen Nutzung</string>
     <string name="time_remaining_warning_text">Der Akku ist fast leer</string>
     <string name="tips_suggestion_summary">Was du mit dem Smartphone alles tun kannst</string>

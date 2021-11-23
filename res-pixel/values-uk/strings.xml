@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">Копіювати посилання</string>
     <string name="fallback_menu_item_open_in_browser">Відкрити у веб-переглядачі</string>
     <string name="fallback_menu_item_share_link">Надіслати посилання</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + пароль</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + ключ</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN-код</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Продовжити без Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">За допомогою Nexus Imprint ви можете розблоковувати свій телефон відбитком пальця. З міркувань безпеки для цього методу потрібно налаштувати резервний спосіб блокування екрана.</string>
     <string name="fullbackup_data_summary">"Автоматично створюйте резервні копії даних пристроїв (як-от паролів Wi-Fi та історії викликів) і додатків (як-от налаштувань і збережених файлів) на Google Диску.
 
 Якщо ввімкнути резервне копіювання, дані пристроїв і додатків періодично зберігаються в приватній папці на Google Диску. Дані додатків – це будь-яка інформація, яку вони зберігають (залежно від налаштувань розробника), зокрема такі конфіденційні дані, як контакти, повідомлення та фотографії.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge вимкнено</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge увімкнено</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge увімкнено. Стисніть, щоб відкрити Асистент</string>
-    <string name="lock_settings_picker_fingerprint_message">Виберіть резервний спосіб розблокування екрана на додачу до Nexus Imprint</string>
     <string name="me_card_title">Мій Pixel</string>
     <string name="my_device_info_account_preference_title">Обліковий запис Google</string>
     <string name="owner_info_settings_edit_text_hint">Приклад: Pixel Олега.</string>
@@ -316,26 +310,8 @@
     <string name="security_settings_face_enroll_too_hot_message">Не вдається завершити налаштування фейсконтролю, оскільки телефон перегрівся. Повторіть спробу, коли він охолоне.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Пропустити фейсконтроль</string>
     <string name="security_settings_face_enroll_too_hot_title">Телефон загарячий</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">За допомогою Nexus Imprint можна не лише розблоковувати телефон, а й підтверджувати покупки та входити в додатки. <annotation id="url">Докладніше</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Дані, записані функцією Nexus Imprint, надійно зберігаються на телефоні й нікуди не надсилаються. Ви можете будь-коли видалити їх у налаштуваннях.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Pixel Imprint сканує ваш відбиток пальця, щоб активувати й розблоковувати телефон, дозволяти покупки або входити в додатки.
-
-Додавайте відбитки лише тих, кому довіряєте. Будь-якого доданого відбитка пальця досить, щоб авторизувати перелічені дії. "<annotation link="url">Докладніше</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"За допомогою Nexus Imprint можна підтверджувати покупки та входити в додатки за допомогою відбитка пальця.
-
-Це можна зробити за допомогою будь-якого відбитка, доданого на телефон. Тож будьте обачні.
-
-Примітка. Відбитком пальця не можна розблоковувати пристрій. Щоб отримати докладнішу інформацію, зв’яжіться з адміністратором своєї організації."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Розблокувати за допомогою Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Торкніться, щоб додати відбиток пальця</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Функція Pixel Imprint створює унікальну модель вашого відбитка пальця, щоб підтверджувати вашу особу. Для цього збережіть зображення свого відбитка пальця в різних положеннях.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Коли ви користуєтеся Pixel Imprint, отримані зображення використовуються для оновлення вашої моделі відбитка пальця. Ці зображення ніколи не залишаються на телефоні, але сама модель надійно зберігається та нікуди не передається. Усі процедури обробки безпечно відбуваються на телефоні.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Ви будь-коли можете видалити модель свого відбитка пальця або вимкнути функцію Pixel Imprint у налаштуваннях. Моделі відбитків пальців зберігаються на телефоні, доки ви їх не видалите.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Функція Pixel Imprint створює унікальну модель відбитка вашої дитини, щоб підтверджувати її особу. Для цього дитині потрібно зберегти зображення свого відбитка пальця в різних положеннях.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Ви та дитина будь-коли можете видалити модель відбитка пальця або вимкнути Pixel Imprint у налаштуваннях. Моделі відбитків пальців зберігаються на телефоні, доки ви їх не видалите.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Докладніше: g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Щоб активувати або розблокувати телефон, просто торкніться сканера Nexus Imprint.</string>
     <string name="setup_suggestion_summary">Копіюйте дані, сплачуйте з телефона тощо</string>
     <string name="setup_suggestion_title">Завершіть налаштування</string>
     <string name="smart_battery_footer">Щоб заощадити заряд, функція \"Адаптивний акумулятор\" може обмежувати швидкодію пристрою та роботу додатків у фоновому режимі. Деякі сповіщення можуть з’являтись із затримкою.</string>
@@ -344,7 +320,6 @@
     <string name="sound_dashboard_summary">Гучність, вібровідгук, режим \"Не турбувати\"</string>
     <string name="sound_settings">Звук і вібрація</string>
     <string name="storage_manager_indicator">Інтелектуальне сховище: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Використовуйте Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Залишилося приблизно %1$s (на основі попереднього використання)</string>
     <string name="time_remaining_warning_text">Акумулятор невдовзі розрядиться</string>
     <string name="tips_suggestion_summary">Дізнайтеся про можливості телефона</string>

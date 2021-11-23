@@ -171,11 +171,6 @@ Nakon vraćanja na zadano pokrenite postupak postavljanja i odaberite prijenos p
     <string name="fallback_menu_item_copy_link">Kopiraj vezu</string>
     <string name="fallback_menu_item_open_in_browser">Otvori u pregledniku</string>
     <string name="fallback_menu_item_share_link">Podijeli vezu</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint i zaporka</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint i uzorak</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint i PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nastavi bez Nexus Imprinta</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint omogućuje vam da otključate telefon otiskom prsta. Iz sigurnosnih razloga ta opcija zahtijeva dodatno zaključavanje zaslona.</string>
     <string name="fullbackup_data_summary">"Automatski sigurnosno kopirajte podatke s uređaja (kao što su zaporke za Wi-Fi i povijest poziva) i podatke aplikacija (kao što su postavke i datoteke koje aplikacije pohranjuju) na Google disk.
 
 Kada uključite automatsku izradu sigurnosnih kopija, podaci s uređaja i aplikacija periodički se spremaju u privatnu mapu na Google disku. Podaci aplikacija mogu biti bilo koji podaci koje je aplikacija spremila (na temelju postavki razvojnog programera), uključujući potencijalno osjetljive podatke kao što su kontakti, poruke i fotografije.
@@ -227,7 +222,6 @@ Podaci sigurnosnih kopija ne uračunavaju se u kvotu pohrane na Disku. Velike da
     <string name="language_input_gesture_summary_off">Isključena je značajka Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">Uključena je značajka Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Uključena je značajka Active Edge, stisnite za Asistent</string>
-    <string name="lock_settings_picker_fingerprint_message">Odaberite pričuvno zaključavanje zaslona koje ćete koristiti uz Nexus Imprint</string>
     <string name="me_card_title">Moj Pixel</string>
     <string name="my_device_info_account_preference_title">Google račun</string>
     <string name="owner_info_settings_edit_text_hint">Na primjer, Markov Pixel.</string>
@@ -317,25 +311,8 @@ Da biste poboljšali izvedbu, možete ponovo postaviti otključavanje licem u po
     <string name="security_settings_face_enroll_too_hot_message">Postavljanje otključavanja licem ne može se dovršiti jer se telefon previše zagrijao. Pokušajte ponovo kad se telefon ohladi.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Preskoči otključavanje licem</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefon je prevruć</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Osim otključavanja telefona, Nexus Imprint možete upotrebljavati i za autorizaciju kupnji i pristup aplikacijama. <annotation id="url">Saznajte više</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Podaci koje snimi Nexus Imprint pohranjuju se sigurno i nikamo se ne šalju s telefona. Svoje podatke možete izbrisati kad god želite u postavkama.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint upotrebljava vaš otisak prsta za aktiviranje i otključavanje telefona, autoriziranje kupnji ili prijavu u aplikacije.
-
-To će moći činiti svi otisci prstiju koje dodate, pa pazite čije otiske dodajete. "<annotation link="url">Saznajte više</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint omogućuje vam da otiskom prsta autorizirate kupnje ili se prijavljujete u aplikacije.
-
-Pazite čije otiske dodajete. Svaki otisak koji dodate može se upotrijebiti za sve te radnje.
-
-Napomena: ovaj uređaj ne možete otključati otiskom prsta. Više informacija možete dobiti od administratora u svojoj organizaciji."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Otključaj Nexus Imprintom</string>
     <string name="security_settings_fingerprint_preference_summary_none">Dodirnite da biste postavili otisak prsta</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint izrađuje jedinstveni model vašeg otiska prsta radi potvrde vašeg identiteta. Da biste izradili model otiska prsta tijekom postavljanja, snimit ćete slike svojeg otiska prsta iz različitih položaja.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">U postavkama možete izbrisati model otiska prsta ili isključiti Pixel Imprint kad god želite. Modeli otiska prsta pohranjuju se na telefonu dok ih ne izbrišete.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint izrađuje jedinstveni model djetetovog otiska prsta radi potvrde njegovog identiteta. Da bi izradilo model otiska prsta tijekom postavljanja, dijete će snimiti slike svojeg otiska prsta iz različitih položaja.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Dijete i vi uvijek možete izbrisati model njegovog otiska prsta ili isključiti Pixel Imprint u postavkama. Modeli otiska prsta pohranjuju se na telefonu dok se ne izbrišu.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Saznajte više na stranici g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Jednostavno dodirnite senzor Nexus Imprinta za aktiviranje i otključavanje telefona.</string>
     <string name="setup_suggestion_summary">Kopirajte podatke, plaćajte pomoću telefona…</string>
     <string name="setup_suggestion_title">Dovršetak postavljanja</string>
     <string name="smart_battery_footer">Da bi se produljilo trajanje baterije, Adaptivna baterija može smanjiti izvedbu i aktivnost u pozadini. Neke će se obavijesti možda odgoditi.</string>
@@ -344,7 +321,6 @@ Napomena: ovaj uređaj ne možete otključati otiskom prsta. Više informacija m
     <string name="sound_dashboard_summary">Glasnoća, dodirne povratne informacije, Ne uznemiravaj</string>
     <string name="sound_settings">Zvuk i vibracija</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Upotrebljavajte Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Još otprilike %1$s na temelju prošle upotrebe</string>
     <string name="time_remaining_warning_text">Baterija bi se uskoro mogla isprazniti</string>
     <string name="tips_suggestion_summary">Istražite što sve može vaš telefon</string>

@@ -170,11 +170,6 @@ Pasi të rivendoset, kryej procesin e konfigurimit dhe zgjidh t'i kopjosh të dh
     <string name="fallback_menu_item_copy_link">Kopjo lidhjen</string>
     <string name="fallback_menu_item_open_in_browser">Hape në shfletues</string>
     <string name="fallback_menu_item_share_link">Ndaj lidhjen</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Fjalëkalimi</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Motivi</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + Kodi PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Vazhdo pa Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Me Nexus Imprint, mund ta shkyçësh telefonin duke përdorur gjurmën e gishtit. Për siguri, ky opsion kërkon një kyçje rezervë të ekranit.</string>
     <string name="fullbackup_data_summary">"Rezervo automatikisht te \"Disku i Google\" të dhënat e pajisjes (si p.sh. fjalëkalimet e Wi-Fi dhe historikun e telefonatave) dhe të dhënat e aplikacioneve (si p.sh. cilësimet dhe skedarët e ruajtur nga aplikacionet).
 
 Kur aktivizon rezervimin automatik, të dhënat e pajisjes dhe të aplikacioneve ruhen periodikisht te një dosje private në \"Diskun e Google\". Të dhënat e aplikacioneve mund të jenë çdo e dhënë që ka ruajtur një aplikacion (bazuar në cilësimet e zhvilluesit), duke përfshirë të dhëna ndoshta delikate, si p.sh. kontaktet, mesazhet dhe fotografitë.
@@ -226,7 +221,6 @@ Të dhënat e rezervimit nuk do të ndikojnë në kuotat e hapësirës ruajtëse
     <string name="language_input_gesture_summary_off">Active Edge i çaktivizuar</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge i aktivizuar</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge i aktivizuar, shtrydh për \"Asistentin\"</string>
-    <string name="lock_settings_picker_fingerprint_message">Zgjidh një kyçje rezervë të ekranit për ta përdorur me Nexus Imprint</string>
     <string name="me_card_title">Pixel-i im</string>
     <string name="my_device_info_account_preference_title">Llogaria e Google</string>
     <string name="owner_info_settings_edit_text_hint">P.sh. pajisja Pixel e Admirit</string>
@@ -317,25 +311,8 @@ Për të përmirësuar cilësinë e funksionimit, mund ta konfigurosh \"Shkyçje
     <string name="security_settings_face_enroll_too_hot_message">Konfigurimi i \"Shkyçjes me fytyrë\" nuk mund të kryhet për shkak se telefoni është tepër i nxehtë. Provo përsëri më vonë kur telefoni të ftohet.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Kapërce \"Shkyçjen me fytyrë\"</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefoni është tepër i nxehtë</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Përveç shkyçjes së telefonit, Nexus Imprint mund ta përdorësh edhe për të autorizuar blerjet dhe qasjen në aplikacione. <annotation id="url">Mëso më shumë</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">"Të dhënat e regjistruara nga Nexus Imprint ruhen në mënyrë të sigurt dhe nuk largohen asnjëherë nga telefoni yt. Të dhënat e tua mund t'i fshish në çdo moment te \"Cilësimet\"."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint përdor gjurmën e gishtit për të shkyçur telefonin, për të autorizuar blerjet ose për t'u identifikuar tek aplikacionet.
-
-Ki kujdes se gjurmët e kujt shton. Çdo gjurmë gishti e shtuar do të mund t'i kryejë këto gjëra. "<annotation link="url">Mëso më shumë</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Me Nexus Imprint, mund ta përdorësh gjurmën e gishtit për të autorizuar blerjet ose për t'u identifikuar tek aplikacionet.
-
-Ki kujdes se gjurmët e kujt shton. Çdo gjurmë gishti e shtuar do të mund t'i kryejë këto gjëra.
-
-Shënim. Nuk mund ta përdorësh gjurmën tënde të gishtit për ta shkyçur këtë pajisje. Për më shumë informacione, kontakto me administratorin e organizatës tënde."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Shkyçe me Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Trokit për të konfiguruar gjurmën e gishtit</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"Pixel Imprint krijon një model unik të gjurmës sate të gishtit për të verifikuar që je ti. Për ta krijuar këtë model të gjurmës së gishtit gjatë konfigurimit, do t'i marrësh imazhet e gjurmës sate të gishtit nga pozicione të ndryshme."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">"Mund ta fshish modelin e gjurmës sate të gishtit ose ta çaktivizosh Pixel Imprint në çdo kohë te \"Cilësimet\". Modelet e gjurmëve të gishtave ruhen në telefon derisa t'i fshish."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint krijon një model unik të gjurmës së gishtit të fëmijës tënd për të verifikuar që është ai. Për ta krijuar këtë model gjurme gishti gjatë konfigurimit, ai do të marrë imazhe të gjurmës së gishtit nga pozicione të ndryshme.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Ti dhe fëmija mund ta fshini modelin e gjurmës së tij të gishtit, ose ta çaktivizoni Pixel Imprint në çfarëdo kohe te \"Cilësimet\". Modelet e gjurmës së gishtit ruhen në telefon derisa të fshihen.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Mëso më shumë te g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Mjafton të prekësh sensorin e Nexus Imprint për të zgjuar dhe shkyçur telefonin.</string>
     <string name="setup_suggestion_summary">Kopjo të dhënat, paguaj me telefonin tënd etj.</string>
     <string name="setup_suggestion_title">Përfundo konfigurimin</string>
     <string name="smart_battery_footer">Për të rritur kohëzgjatjen e baterisë, \"Bateria me përshtatje\" mund të reduktojë cilësinë e funksionimit dhe aktivitetin në sfond. Disa njoftime mund të vonohen.</string>
@@ -344,7 +321,6 @@ Shënim. Nuk mund ta përdorësh gjurmën tënde të gishtit për ta shkyçur k�
     <string name="sound_dashboard_summary">Volumi, prekja, \"Mos shqetëso\"</string>
     <string name="sound_settings">Tingulli dhe dridhja</string>
     <string name="storage_manager_indicator">Hapësira ruajtëse inteligjente: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Përdor Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Rreth %1$s të mbetura bazuar në përdorimin tënd</string>
     <string name="time_remaining_warning_text">Bateria mund të mbarojë së shpejti</string>
     <string name="tips_suggestion_summary">Eksploro se çfarë mund të bësh me telefonin tënd</string>

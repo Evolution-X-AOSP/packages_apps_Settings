@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">Холбоосыг хуулах</string>
     <string name="fallback_menu_item_open_in_browser">Хөтчид нээх</string>
     <string name="fallback_menu_item_share_link">Холбоосыг хуваалцах</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus дардас + Нууц үг</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus дардас + Загвар</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus дардас + ПИН</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus дардасгүйгээр үргэлжлүүлэх</string>
-    <string name="fingerprint_unlock_title">Nexus дардсаар та хурууны хээгээ ашиглаж утасныхаа түгжээг тайлах боломжтой. Аюулгүй байдлын үүднээс энэ сонголтод нөөц дэлгэцийн түгжээ шаардлагатай.</string>
     <string name="fullbackup_data_summary">"Төхөөрөмжийн өгөгдөл (Wi-Fi-ийн нууц үг, дуудлагын түүх зэрэг) болон апп-н өгөгдлийг (тохиргоо болон апп-н хадгалсан файл зэрэг) Google Драйвт автоматаар нөөцөлнө үү.
 
 Автомат нөөцлөлтийг асаах үед таны төхөөрөмжийн болон апп-н өгөгдөл Google Драйвын хувийн хавтас хадгалагдсан байх болно. Апп-ын өгөгдөл нь апп-ын хадгалсан (хөгжүүлэгчийн тохиргоон дээр үндэслэн) дурын өгөгдөл байж болох бөгөөд үүнд таны харилцагчийн хаяг, мессеж, зураг гэх мэт хувийн чанартай өгөгдөл байж болно.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge-г унтраасан</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge-г асаасан</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge-г асаасан, Туслахаа ашиглахын тулд базна уу</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus дардастай ашиглах нөөц дэлгэцийн түгжээ сонгох</string>
     <string name="me_card_title">Миний Pixel</string>
     <string name="my_device_info_account_preference_title">Google Бүртгэл</string>
     <string name="owner_info_settings_edit_text_hint">Жишээ нь Joe-н Pixel.</string>
@@ -317,25 +311,8 @@ Tа g.co/pixel/faceunlock дээрээс нэмэлт мэдээлэл авна 
     <string name="security_settings_face_enroll_too_hot_message">Утас хэт халсан тул Царайгаар түгжээ тайлахын тохируулгыг дуусгах боломжгүй байна. Утас хөрөх үед дараа дахин оролдоно уу.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Царайгаар түгжээ тайлахыг алгасах</string>
     <string name="security_settings_face_enroll_too_hot_title">Утас хэт халсан байна</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Ta Nexus Imprint-г ашиглан утасны түгжээг тайлахаас гадна, худалдан авах, апп-д нэвтрэх боломжтой. <annotation id="url">Дэлгэрэнгүй үзэх</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint-р бүртгэсэн өгөгдлийг таны утсанд аюулгүйгээр бүрмөсөн хадгална. Та өгөгдлөө хүссэн үедээ Тохиргоо хэсэгт устгах боломжтой.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus дардас таны утсыг сэрээх болон түгжээг нь тайлах, худалдан авалтыг зөвшөөрөх эсвэл аппуудад нэвтрэхийн тулд хурууны хээг тань ашигладаг.
-
-Хурууных нь хээг нэмэх хүнээ болгоомжтой сонгоно уу. Хурууных нь хээг нэмсэн бүх хүн эдгээр зүйлийг хийх боломжтой болно. "<annotation link="url">Нэмэлт мэдээлэл авах</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus дардасны тусламжтайгаар хурууны хээгээр худалдан авалт баталгаажуулах, эсвэл апп-д нэвтрэх боломжтой.
-
-Хурууных нь хээг нэмсэн дурын хүн дээрх үйлдлийг хийх боломжтой тул нэмэх хүнээ хянамгай сонгоно уу.
-
-Санамж: Та энэ төхөөрөмжийн түгжээг хурууны хээгээр тайлах боломжгүй. Дэлгэрэнгүй мэдээлэл авахын тулд байгууллагынхаа админтай холбогдоно уу."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus дардсаар түгжээ тайлах</string>
     <string name="security_settings_fingerprint_preference_summary_none">Хурууны хээ тохируулахын тулд товшино уу</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint нь таныг мөн болохыг баталгаажуулахын тулд таны хурууны хээний өвөрмөц загварыг үүсгэнэ. Тохируулгын үеэр энэ хурууны хээний загварыг үүсгэхийн тулд та хурууныхаа хээний зургийг өөр өөр байрлалаас авна.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Та хүссэн үедээ Тохиргоо хэсэгт хурууны хээний загварыг устгах эсвэл Pixel Imprint-г унтраах боломжтой. Таныг хурууны хээний загварыг устгах хүртэл үүнийг утсан дээр хадгална.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint нь таны хүүхдийг мөн болохыг баталгаажуулахын тулд түүний хурууны хээний өвөрмөц загварыг үүсгэнэ. Тохируулгын үеэр энэ хурууны хээний загварыг үүсгэхийн тулд таны хүүхэд хурууныхаа хээний зургийг өөр өөр байрлалаас авна.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Та болон таны хүүхэд хүссэн үедээ Тохиргоо хэсэгт түүний хурууны хээг устгах эсвэл Pixel Imprint-г унтраах боломжтой. Хурууны хээний загваруудыг устгах хүртэл утсанд хадгална.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Та g.co/pixel/fingerprintunlock дээрээс нэмэлт мэдээлэл авна уу.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Утсаа сэрээх, түгжээг нь тайлахын тулд Nexus Дардас мэдрэгчид хүрэхэд л хангалттай.</string>
     <string name="setup_suggestion_summary">Өгөгдөл хуулах, утсаараа төлөх ба бусад</string>
     <string name="setup_suggestion_title">Тохируулж дуусгах</string>
     <string name="smart_battery_footer">Батарейн ажиллах хугацааг уртасгахын тулд Дасан зохицох батарей нь гүйцэтгэл болон дэвсгэрийн үйл ажиллагааг багасгаж болно. Зарим мэдэгдэл саатаж болзошгүй.</string>
@@ -344,7 +321,6 @@ Tа g.co/pixel/faceunlock дээрээс нэмэлт мэдээлэл авна 
     <string name="sound_dashboard_summary">Дууны түвшин, хүртэхүй, Бүү саад бол</string>
     <string name="sound_settings">Дуу болон чичиргээ</string>
     <string name="storage_manager_indicator">Ухаалаг сан: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint-г ашиглах</string>
     <string name="time_remaining_warning_subtext">Таны өнгөрсөн хэрэглээнд тулгуурлан %1$s орчмын хугацаа үлдсэн байна</string>
     <string name="time_remaining_warning_text">Батерей удахгүй дуусна</string>
     <string name="tips_suggestion_summary">Утсаараа юу хийж болохоо судлаарай</string>

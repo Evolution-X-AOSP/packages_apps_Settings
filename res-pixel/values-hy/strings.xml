@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">Պատճենել հղումը</string>
     <string name="fallback_menu_item_open_in_browser">Բացել դիտարկիչում</string>
     <string name="fallback_menu_item_share_link">Կիսվել հղումով</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + գաղտնաբառ</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + նախշ</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN կոդ</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Շարունակել առանց Nexus Imprint-ի</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint-ը ձեզ թույլ է տալիս ապակողպել հեռախոսը մատնահետքի օգնությամբ: Անվտանգության նկատառումներից ելնելով այս ընտրանքը պահանջում է կարգավորել էկրանի կողպման լրացուցիչ տարբերակ:</string>
     <string name="fullbackup_data_summary">"Ավտոմատ կերպով պահուստավորել սարքի տվյալները (օրինակ՝ Wi-Fi-ի գաղտնաբառերը և զանգերի պատմությունը) և հավելվածների տվյալները (օրինակ՝ կարգավորումները և հավելվածների պահած ֆայլերը) Google Drive-ում:
 
 Ավտոմատ պահուստավորումը միացնելու դեպքում սարքի ու հավելվածների տվյալները պարբերաբար պահվում են Google Drive-ի առանձին պանակի մեջ: Հավելվածների տվյալները հավելվածների կողմից պահված տվյալներն են (կախված մշակողի կարգավորումներից), ներառյալ հնարավոր գաղտնի տվյալները, օրինակ՝ կոնտակտները, հաղորդագրությունները և լուսանկարները:
@@ -229,7 +224,6 @@
     <string name="language_input_gesture_summary_off">Active Edge-ն անջատված է</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge-ը միացված է</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge-ը միացված է, սեղմեք՝ Օգնականը գործարկելու համար</string>
-    <string name="lock_settings_picker_fingerprint_message">Ընտրեք էկրանի կողպման լրացուցիչ տարբերակ՝ Nexus Imprint-ի հետ օգտագործելու համար</string>
     <string name="me_card_title">Իմ Pixel սարքը</string>
     <string name="my_device_info_account_preference_title">Google հաշիվ</string>
     <string name="owner_info_settings_edit_text_hint">Օրինակ՝ Վարդանի Pixel-ը</string>
@@ -316,25 +310,8 @@
     <string name="security_settings_face_enroll_too_hot_message">Հնարավոր չէ կարգավորել դեմքով ապակողպումը, քանի որ հեռախոսը գերտաքացել է։ Փորձեք ավելի ուշ, երբ այն հովանա։</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Բաց թողնել դեմքով ապակողպումը</string>
     <string name="security_settings_face_enroll_too_hot_title">Հեռախոսը շատ է տաքացել</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Բացի հեռախոսը ապակողպելուց՝ Nexus Imprint-ը կարող եք նաև օգտագործել գնումները հաստատելու և հավելվածներին թույլտվություններ տալու համար: <annotation id="url">Մանրամասն</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint գործառույթի գրանցած տվյալները պահվում են միայն ձեր հեռախոսում։ Ձեր տվյալները կարող եք ցանկացած պահի ջնջել կարգավորումներում։</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint-ը ձեր մատնահետքի միջոցով հանում է հեռախոսը քնի ռեժիմից և ապակողպում այն, հաստատում է գնումները և մուտք գործում հավելվածներ։
-
-Զգույշ եղեք մատնահետքեր ավելացնելիս։ Ցանկացած ավելացված մատնահետք կարող է կատարել այս բոլոր գործողությունները։ "<annotation link="url">Իմանալ ավելին</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint-ը թույլ է տալիս օգտագործել ձեր մատնահետքը՝ գնումները թույլատրելու և հավելվածներ մուտք գործելու համար:
-
-Զգույշ եղեք մատնահետքեր ավելացնելիս, քանի որ այս գործողությունները հնարավոր է կատարել ցանկացած ավելացված մատնահետքի միջոցով:
-
-Նշում. այս սարքն ապակողպելու համար չեք կարող օգտագործել ձեր մատնահետքը: Լրացուցիչ տեղեկություններ ստանալու համար դիմեք ձեր կազմակերպության ադմինիստրատորին:"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Ապակողպել Nexus Imprint-ով</string>
     <string name="security_settings_fingerprint_preference_summary_none">Հպեք` մատնահետքը կարգավորելու համար</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint-ը ստեղծում է ձեր մատնահետքի եզակի նմուշը՝ նույնականացման ժամանակ ձեզ ճանաչելու համար։ Կարգավորման ժամանակ նմուշը ստեղծելու համար պետք է սկանավորեք ձեր մատնահետքը տարբեր դիրքերից։</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Դուք ցանկացած ժամանակ կարող եք ջնջել ձեր մատնահետքի նմուշը կամ անջատել Pixel Imprint-ը Կարգավորումներում։ Մատնահետքի նմուշները կպահվեն հեռախոսում, մինչև որ ջնջեք դրանք։</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint-ը ստեղծում է ձեր երեխայի մատնահետքի եզակի նմուշը՝ նույնականացման ժամանակ նրան ճանաչելու համար։ Կարգավորման ժամանակ նմուշը ստեղծելու համար նա պետք է լուսանկարի իր մատնահետքը տարբեր դիրքերից։</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Դուք և ձեր երեխան ցանկացած ժամանակ կարող եք ջնջել նրա մատնահետքի նմուշը կամ անջատել Pixel Imprint-ը կարգավորումներում։ Մատնահետքի նմուշները պահվում են հեռախոսում, մինչև որ ջնջեք դրանք։</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Իմացեք ավելին g.co/pixel/fingerprintunlock էջում։</string>
-    <string name="setup_fingerprint_enroll_finish_message">Պարզապես հպեք Nexus Imprint-ի սենսորին և ապակողպեք հեռախոսը կամ հանեք այն քնի ռեժիմից:</string>
     <string name="setup_suggestion_summary">Պատճենեք տվյալներ, վճարեք հեռախոսով և այլն</string>
     <string name="setup_suggestion_title">Ավարտեք կարգավորումը</string>
     <string name="smart_battery_footer">Մարտկոցի աշխատաժամանակը երկարացնելու համար «Հարմարվող մարտկոց» գործառույթը կարող է նվազեցնել արդյունավետությունը և ֆոնային գործողությունները։ Որոշ ծանուցումներ կարող են հետաձգվել։</string>
@@ -343,7 +320,6 @@
     <string name="sound_dashboard_summary">Ձայնի ուժգնություն, հպման արձագանք, Չանհանգստացնել</string>
     <string name="sound_settings">Ձայն և թրթռոց</string>
     <string name="storage_manager_indicator">Խելացի պահեստ՝ ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Օգտագործել Pixel Imprint-ը</string>
     <string name="time_remaining_warning_subtext">Մնացել է մոտ %1$s՝ նախկինում օգտագործման տվյալների հիման վրա</string>
     <string name="time_remaining_warning_text">Մարտկոցի լիցքը շուտով կարող է սպառվել</string>
     <string name="tips_suggestion_summary">Իմացեք՝ ինչ կարող եք անել ձեր հեռախոսով</string>

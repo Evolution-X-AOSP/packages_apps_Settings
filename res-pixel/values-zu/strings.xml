@@ -172,11 +172,6 @@ Uma isetha kabusha, dlula kunqubo yokusetha uphinde ukhethe ukuletha idatha yakh
     <string name="fallback_menu_item_copy_link">Kopisha isixhumanisi</string>
     <string name="fallback_menu_item_open_in_browser">Vula kusiphequluli</string>
     <string name="fallback_menu_item_share_link">Yabelana ngesixhumanisi</string>
-    <string name="fingerprint_unlock_set_unlock_password">I-Nexus Imprint + Iphasiwedi</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">I-Nexus Imprint + Iphethini</string>
-    <string name="fingerprint_unlock_set_unlock_pin">I-Nexus Imprint + Iphinikhodi</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Qhubeka ngaphandle kwe-Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Nge-Nexus Imprint, ungavula ifoni yakho usebenzisa izigxivizo zeminwe. Ngokuphepha, le nketho idinga ukukhiya kwesikrini okuyisipele.</string>
     <string name="fullbackup_data_summary">"Yenza isipele ngokuzenzakalela idatha yedivayisi (efana namaphasiwedi we-Wi-Fi nomlando wokushaya) nedatha yohlelo lokusebenza (efana nezilungiselelo namafayela agcinwe yizinhlelo zokusebenza) ku-Google Drayivu.
 
 Uma uvula isipele ngokuzenzakalela, idatha yedivayisi neyohlelo lokusebenza ilondolozwa ngezikhathi ezithile kufolda yobumfihlo ku-Google Drayivu. Idatha yohlelo lokusebenza kungaba yinoma iyiphi idatha uhlelo lokusebenza oluyilondolozile (kususelwa kuzilungiselelo zonjiniyela), okufaka idatha enamandla wokuzwela efana noxhumana nabo, imilayezo, nesithombe.
@@ -228,7 +223,6 @@ Idatha eyenziwe isipele ngeke ibalwe ngokubhekiswe ku-quota yesitoreji sakho seD
     <string name="language_input_gesture_summary_off">I-Active Edge ivaliwe</string>
     <string name="language_input_gesture_summary_on_non_assist">I-Active Edge ivuliwe</string>
     <string name="language_input_gesture_summary_on_with_assist">I-Active Edge ivuliwe, minyanisa umsizi wakho</string>
-    <string name="lock_settings_picker_fingerprint_message">Khetha ukukhiya isikrini kwesipele ukuze usebenzise ne-Nexus Imprint</string>
     <string name="me_card_title">I-Pixel yami</string>
     <string name="my_device_info_account_preference_title">I-akhawunti ye-Google</string>
     <string name="owner_info_settings_edit_text_hint">Isb., i-Pixel ka-Sipho.</string>
@@ -317,25 +311,8 @@ Ukuze uthuthukise ukusebenza, ungasetha futhi Ukuvula ngobuso kokuthi Amasething
     <string name="security_settings_face_enroll_too_hot_message">Ukusetha Ukuvula ngobuso akukwazi ukuqedelwa ngoba ifoni ishisa kakhulu. Zama futhi kamuva uma ifoni isipholile.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Yeqa Ukuvula ngobuso</string>
     <string name="security_settings_face_enroll_too_hot_title">Ifoni ishisa kakhulu</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Ngokwengeziwe ekuvuleni ifoni yakho, futhi ungasebenzisa i-Nexus Imprint ukugunyaza ukuthenga nokufinyelela kohlelo lokusebenza. <annotation id="url">Funda kabanzi</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Idatha erekhodwe yi-Nexus Imprint igcinwa ngokuphepha futhi ayilokothi ishiye ifoni yakho. Ungasusa idatha yakho noma nini Kumasethingi.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"I-Nexus Imprint isebenzisa izigxivizo zakho zeminwe ukuvula nokuvala ifoni yakho, ukugunyaza ukuthenga, noma ukungena ngemvume kwizinhlelo zokusebenza.
-
-Qaphela ukuthi wengeza izigxivizo zeminwe zikabani. Noma yiziphi izigxivizo zeminwe ezengeziwe zizokwazi ukwenza lezi zinto. "<annotation link="url">Funda kabanzi</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nge-Nexus Imprint, ungasebenzisa izigxivizo zeminwe zakho ukuze ugunyaze ukuthenga noma ungene ngemvume kuzinhlelo zokusebenza.
-
-Qaphela ukuthi ungeza izigxivizo zeminwe zikabani. Noma iziphi izigxivizo zeminwe ezingeziwe zizokwazi ukwenza lezi zinto.
-
-Yazi: Awukwazi ukusebenzisa izigxivizo zakho zeminwe ukuze uvule le divayisi. Ukuze uthole olunye ulwazi, xhumana nomqondisi wenhlangano yakho."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Vula nge-Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Thepha ukuze usethe izigxivizo zeminwe</string>
-    <string name="security_settings_fingerprint_preference_title">I-Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">I-Pixel Imprint idala imodeli ehlukile yesigxivizo sakho seminwe ukuqinisekisa ukuthi nguwe. Ukuze kudalwe le modeli yesigxivizo seminwe ngesikhathi sokusethwa, uzothatha izithombe zesigxivizo sakho seminwe kusukela kuzimo ezihlukile.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Ungasula amamodeli akho wezigxivizo zeminwe, noma uvale Ukuvula i-Pixel Imprint noma kunini Kumasethingi. Amamodeli wezigxivizo zeminwe namamodeli kugcinwa kwifoni kuze kube yilapho uzisula.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">I-Pixel Imprint idala imodeli ehlukile yeminwe yengane yakho ukuqinisekisa ukuthi yiyo. Ukudala le modeli yesigxivizo seminwe ngesikhathi sokusetha, bazothatha izithombe zesigxivizo sabo seminwe kusukela kuzimo ezihlukile.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Wena nengane yakho ningasusa imodeli yayo yesigxivizo seminwe, noma nivale i-Pixel Imprint noma kunini Kumasethingi. Amamodeli esigxivizo seminwe agcinwa efonini aze asulwe.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Funda kabanzi ku-g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Vele uthinte inzwa ye-Nexus Imprint ukuze uvuse uphinde uvule ifoni yakho.</string>
     <string name="setup_suggestion_summary">Kopisha idatha, khokhela ngefoni, noma okwengeziwe</string>
     <string name="setup_suggestion_title">Qedela ukusetha</string>
     <string name="smart_battery_footer">Ukuze unweebe impilo yebhethri, i-Adaptive Battery inganciphisa ukusebenza kanye nomsebenzi wangemuva. Ezinye izaziso zingabambezeleka.</string>
@@ -344,7 +321,6 @@ Yazi: Awukwazi ukusebenzisa izigxivizo zakho zeminwe ukuze uvule le divayisi. Uk
     <string name="sound_dashboard_summary">Ivolumu, ama-haptic, Ungaphazamisi</string>
     <string name="sound_settings">Umsindo nokudlidliza</string>
     <string name="storage_manager_indicator">Isitoreji esihlakaniphile: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Sebenzisa i-Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Cishe kusele okungu-%1$s kusukela ekusetshenzisweni kwakho</string>
     <string name="time_remaining_warning_text">Ibhethri lingaphela maduze</string>
     <string name="tips_suggestion_summary">Hlola lokho ongakwenza ngefoni yakho</string>

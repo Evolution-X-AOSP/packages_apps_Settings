@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">คัดลอกลิงก์</string>
     <string name="fallback_menu_item_open_in_browser">เปิดในเบราว์เซอร์</string>
     <string name="fallback_menu_item_share_link">แชร์ลิงก์</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + รหัสผ่าน</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + รูปแบบ</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">ดำเนินการต่อโดยไม่ใช้ Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">คุณสามารถปลดล็อคโทรศัพท์ได้ด้วยลายนิ้วมือโดยใช้ Nexus Imprint ตัวเลือกนี้ต้องใช้การล็อกหน้าจอสำรองเพื่อความปลอดภัย</string>
     <string name="fullbackup_data_summary">"สำรองข้อมูลในอุปกรณ์ (เช่น รหัสผ่าน Wi-Fi และประวัติการโทร) และข้อมูลแอป (เช่น การตั้งค่าและไฟล์ที่แอปจัดเก็บไว้) ลงใน Google ไดรฟ์โดยอัตโนมัติ
 
 เมื่อคุณเปิดการสำรองข้อมูลอัตโนมัติ ระบบจะบันทึกข้อมูลอุปกรณ์และข้อมูลแอปไปยังโฟลเดอร์ส่วนตัวใน Google ไดรฟ์เป็นระยะๆ ข้อมูลแอปอาจเป็นข้อมูลใดๆ ก็ตามที่แอปบันทึกไว้ (ตามการตั้งค่าของนักพัฒนาซอฟต์แวร์) ซึ่งรวมถึงข้อมูลที่อาจมีความละเอียดอ่อน เช่น รายชื่อติดต่อ ข้อความ และรูปภาพ
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge ปิดอยู่</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge เปิดอยู่</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge เปิดอยู่ บีบเพื่อเรียกใช้ Assistant</string>
-    <string name="lock_settings_picker_fingerprint_message">เลือกล็อกหน้าจอสำรองเพื่อใช้กับ Nexus Imprint</string>
     <string name="me_card_title">Pixel ของฉัน</string>
     <string name="my_device_info_account_preference_title">บัญชี Google</string>
     <string name="owner_info_settings_edit_text_hint">เช่น Pixel ของสมชาย</string>
@@ -315,26 +309,9 @@
     <string name="security_settings_face_enroll_too_hot_message">ตั้งค่าการปลดล็อกด้วยใบหน้าให้เสร็จสมบูรณ์ไม่ได้เนื่องจากโทรศัพท์ร้อนเกินไป โปรดลองอีกครั้งในภายหลังเมื่อโทรศัพท์เย็นลง</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ข้ามการปลดล็อกด้วยใบหน้า</string>
     <string name="security_settings_face_enroll_too_hot_title">โทรศัพท์ร้อนเกินไป</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">นอกเหนือจากการปลดล็อกโทรศัพท์ คุณยังสามารถใช้ Nexus Imprint เพื่อให้สิทธิ์การซื้อและการเข้าถึงแอปอีกด้วย <annotation id="url">ดูข้อมูลเพิ่มเติม</annotation></string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">เซ็นเซอร์อยู่ที่ด้านหลังโทรศัพท์ โปรดใช้นิ้วชี้</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">ระบบจะจัดเก็บข้อมูลที่บันทึกโดย Nexus Imprint ไว้อย่างปลอดภัยและจะไม่มีการส่งออกไปจากโทรศัพท์ คุณลบข้อมูลได้ทุกเมื่อในการตั้งค่า</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint ใช้ลายนิ้วมือของคุณเพื่อปลุกระบบและปลดล็อกโทรศัพท์ ให้สิทธิ์การซื้อ หรือลงชื่อเข้าใช้แอป
-
-โปรดระมัดระวังหากจะเพิ่มลายนิ้วมือของใคร เพราะทุกลายนิ้วมือที่เพิ่มจะทำสิ่งเหล่านี้ได้ "<annotation link="url">ดูข้อมูลเพิ่มเติม</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint ช่วยให้คุณสามารถใช้ลายนิ้วมือเพื่ออนุมัติการซื้อหรือลงชื่อเข้าใช้แอป
-
-โปรดตรวจสอบลายนิ้วมือที่เพิ่มให้ดี เพราะทุกลายนิ้วมือที่เพิ่มจะสามารถทำสิ่งเหล่านี้ได้
-
-หมายเหตุ: คุณไม่สามารถใช้ลายนิ้วมือเพื่อปลดล็อกอุปกรณ์นี้ โปรดติดต่อผู้ดูแลระบบขององค์กรสำหรับข้อมูลเพิ่มเติม"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">ปลดล็อกด้วย Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">แตะเพื่อตั้งค่าลายนิ้วมือ</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint จะสร้างรูปแบบลายนิ้วมือที่เป็นเอกลักษณ์เพื่อยืนยันว่าเป็นคุณ ในการสร้างรูปแบบลายนิ้วมือนี้ระหว่างการตั้งค่า คุณจะถ่ายภาพลายนิ้วมือจากมุมต่างๆ ที่ไม่ซ้ำกัน</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">คุณลบรูปแบบลายนิ้วมือหรือปิด Pixel Imprint ได้ทุกเมื่อในการตั้งค่า ระบบจะเก็บรูปแบบลายนิ้วมือไว้ในโทรศัพท์จนกว่าคุณจะลบออก</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint จะสร้างรูปแบบลายนิ้วมือที่เป็นเอกลักษณ์ของบุตรหลานเพื่อยืนยันว่าเป็นตนเอง ในการสร้างรูปแบบลายนิ้วมือนี้ระหว่างการตั้งค่า บุตรหลานจะถ่ายภาพลายนิ้วมือจากมุมต่างๆ ที่ไม่ซ้ำกัน</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">คุณและบุตรหลานลบรูปแบบลายนิ้วมือ หรือปิด Pixel Imprint ได้ทุกเมื่อในการตั้งค่า ระบบจะเก็บรูปแบบลายนิ้วมือไว้ในโทรศัพท์จนกว่าจะมีการลบออก</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">ดูข้อมูลเพิ่มเติมที่ g.co/pixel/fingerprintunlock</string>
-    <string name="setup_fingerprint_enroll_finish_message">เพียงแตะเซ็นเซอร์ Nexus Imprint เพื่อปลุกและปลดล็อกโทรศัพท์</string>
     <string name="setup_suggestion_summary">คัดลอกข้อมูล ชำระเงินด้วยโทรศัพท์ และอื่นๆ</string>
     <string name="setup_suggestion_title">ตั้งค่าให้เสร็จ</string>
     <string name="smart_battery_footer">แบตเตอรี่แบบปรับอัตโนมัติอาจลดประสิทธิภาพหรือกิจกรรมในเบื้องหลังเพื่อยืดอายุการใช้งานแบตเตอรี่ การแจ้งเตือนบางอย่างอาจล่าช้า</string>
@@ -343,7 +320,6 @@
     <string name="sound_dashboard_summary">ระดับเสียง การโต้ตอบการสัมผัส ห้ามรบกวน</string>
     <string name="sound_settings">เสียงและการสั่น</string>
     <string name="storage_manager_indicator">พื้นที่เก็บข้อมูลอัจฉริยะ: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">ใช้ Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">เหลืออีกราว %1$s โดยอิงจากการใช้งานที่ผ่านมาของคุณ</string>
     <string name="time_remaining_warning_text">แบตเตอรี่อาจหมดเร็วๆ นี้</string>
     <string name="tips_suggestion_summary">ดูสิ่งที่คุณทําได้ด้วยโทรศัพท์</string>

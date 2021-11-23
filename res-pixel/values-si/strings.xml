@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">සබැඳිය පිටපත් කරන්න</string>
     <string name="fallback_menu_item_open_in_browser">බ්‍රව්සරයේ විවෘත කරන්න</string>
     <string name="fallback_menu_item_share_link">සබැඳිය බෙදා ගන්න</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + මුරපදය</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + රටාව</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN අංකය</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint නොමැතිව ඉදිරියට යන්න</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint සමගින්, ඔබට ඔබගේ ඇඟිලි සලකුණ භාවිතයෙන් ඔබගේ දුරකථනය අගුලු හැරීමට හැකිය. ආරක්ෂාව සඳහා, මෙම විකල්පයට උපස්ථ තිර අගුලක් අවශ්‍යය.</string>
     <string name="fullbackup_data_summary">"Google Drive වෙත උපාංග දත්ත (Wi-Fi මුරපද සහ ඇමතුම් ඉතිහාසය යනාදී) සහ යෙදුම් දත්ත (සැකසීම් සහ යෙදුම් විසින් ගබඩා කළ ගොනු යනාදී) ස්වයංක්‍රියව උපස්ථ කරයි.
 
 ඔබ ස්වයංක්‍රිය උපස්ථ කිරීම ක්‍රියාත්මක කළ විට, උපාංග සහ යෙදුම් දත්ත වරින් වර Google Drive හි පුද්ගලික ෆෝල්ඩරයක් වෙත සුරැකෙනු ඇත. යෙදුම් දත්ත යනු විභව්‍ය වශයෙන් සංවේදී සම්බන්ධතා, පණිවිඩ, සහ ඡායාරූප ඇතුළුව, යම් යෙදුමක් විසින් සුරැක ඇති (සංවර්ධක සැකසීම් මත පදනම්ව), කිනම් හෝ දත්ත විය හැකිය.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">සක්‍රිය දාරය ක්‍රියාවිරහිතයි</string>
     <string name="language_input_gesture_summary_on_non_assist">සක්‍රිය දාරය ක්‍රියාත්මකයි</string>
     <string name="language_input_gesture_summary_on_with_assist">සක්‍රිය දාරය ක්‍රියාත්මකයි, ඔබේ සහායක සඳහා මිරිකන්න</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus Imprint සමග භාවිත කිරීමට උපස්ථ තිර අගුලක් තෝරන්න</string>
     <string name="me_card_title">මගේ Pixel</string>
     <string name="my_device_info_account_preference_title">Google ගිණුම</string>
     <string name="owner_info_settings_edit_text_hint">උදාහරණයක් ලෙස, ජෝගේ Pixel.</string>
@@ -319,25 +313,8 @@ g.co/pixel/faceunlock හිදී තව දැන ගන්න"</string>
     <string name="security_settings_face_enroll_too_hot_message">දුරකථනය උණුසුම් වැඩි නිසා මුහුණෙන් අගුළු හැරීම පිහිටුවීම සම්පූර්ණ කළ නොහැකිය. දුරකථනය සිසිල් වූ විට පසුව නැවත උත්සාහ කරන්න.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">මුහුණෙන් අගුළු හැරීම මග හරින්න</string>
     <string name="security_settings_face_enroll_too_hot_title">දුරකථනය උණුසුම් වැඩිය</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">ඔබේ දුරකථනය අගුලු හැරීමට අමතරව, ඔබට Nexus Imprint මිලදී ගැනීම් සහ යෙදුම් ප්‍රවේශ සත්‍යාපනය සඳහාද භාවිත කළ හැකිය. <annotation id="url">තව දැන ගන්න</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint මගින් පටිගත කරන ලද දත්ත ආරක්ෂිතව ගබඩා කර ඇති අතර කිසි විටක ඔබගේ දුරකථනයෙන් ඉවත් නොවේ. සැකසීම් තුළ ඔබට ඕනෑම වේලාවක ඔබගේ දත්ත මැකිය හැකිය.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"ඔබගේ දුරකථනය අවදි කිරීමට සහ අගුලු හැරීමට, මිල දී ගැනීම් අනුමත කිරීමට, හෝ යෙදුම් වෙත පිරීමට Nexus Imprint ඔබගේ ඇඟිලි සලකුණ භාවිත කරයි.
-
-ඔබ එක් කරන ඇඟිලි සලකුණු පිළිබඳ සැලකිලිමත් වන්න. එක් කළ කිනම් හෝ ඇඟිලි සලකුණුවලට මේ දෙවල් සිදු කළ හැකි වනු ඇත. "<annotation link="url">තව දැන ගන්න</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint සමග, ඔබට ඔබේ ඇඟිලි සලකුණ මිලදී ගැනීම් අනුමත කිරීමට හෝ යෙදුම් වෙත පිරීමට භාවිත කළ හැකිය.
-
-ඔබ එක් කරන ඇඟිලි සලකුණු පිළිබඳ සැලකිලිමත් වන්න. එක් කරන ඕනෑම ඇඟිලි සලකුණකට මේ දේවල්වලින් ඕනෑම එකක් කිරීමට හැකිය.
-
-සටහන: ඔබට ඔබේ ඇඟිලි සලකුණු මෙම උපාංගය අගුලු හැරීමට භාවිත කළ නොහැකිය. තව තොරතුරු සඳහා, ඔබේ සංවිධානයෙහි පරිපාලක අමතන්න."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint සමග අගු. හ.</string>
     <string name="security_settings_fingerprint_preference_summary_none">ඇඟිලි සලකුණ පිහිටුවීමට තට්ටු කරන්න</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">ඒ ඔබ බව තහවුරු කිරීමට Pixel Imprint ඔබගේ ඇඟිලි සලකුණෙහි අනන්‍ය ආකෘතියක් තනයි. පිහිටුවීම අතරතුර මෙම ඇඟිලි සලකුණු ආකෘතිය තැනීම සඳහා, ඔබ විවිධ පිහිටීම්වලින් ඔබගේ ඇඟිලි සලකුණේ රූප ගනු ඇත.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">ඔබට සැකසීම් තුළ ඕනෑම වේලාවක ඔබගේ ඇඟිලි සලකුණු ආකෘතිය මැකීමට හෝ Pixel Imprint ක්‍රියාවිරහිත කිරීමට හැකිය. ඇඟිලි සලකුණු ආකෘති ඔබ මකන තෙක් දුරකථනයේ ගබඩා කර ඇත.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">ඒ ඔවුන් බව තහවුරු කිරීමට Pixel Imprint ඔබගේ දරුවාගේ ඇඟිලි සලකුණෙහි අනන්‍ය ආකෘතියක් තනයි. පිහිටුවීම අතරතුර මෙම ඇඟිලි සලකුණු ආකෘතිය තැනීම සඳහා, ඔවුන් විවිධ පිහිටීම්වලින් ඔවුන්ගේ ඇඟිලි සලකුණේ රූප ගනු ඇත.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">ඔබට සහ ඔබෙග් දරුවාට සැකසීම් තුළ ඕනෑම වේලාවක සිය ඇඟිලි සලකුණු ආකෘතිය මැකීමට හෝ Pixel Imprint ක්‍රියාවිරහිත කිරීමට හැකිය. ඇඟිලි සලකුණු ආකෘති ඒ්වා මකන තෙක් දුරකථනයේ ගබඩා කර ඇත.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">g.co/pixel/fingerprintunlock හිදී තව දැන ගන්න.</string>
-    <string name="setup_fingerprint_enroll_finish_message">ඔබේ දුරකථනය අවදි කර අගුලු හැරීමට Nexus Imprint සංවේදකය ස්පර්ශ කරන්න.</string>
     <string name="setup_suggestion_summary">දත්ත පිටපත් කර., දුරකථනය සමඟ ගෙව. සහ තව</string>
     <string name="setup_suggestion_title">පිහිටුවීම අවසන් කරන්න</string>
     <string name="smart_battery_footer">බැටරි ආයු කාලය දිගු කිරීමට, අනුවර්තනීය බැටරිය කාර්ය සාධනය සහ පසුබිම් ක්‍රියාකාරිත්වය අඩු කළ හැකිය. සමහර දැනුම්දීම් ප්‍රමාද විය හැකිය.</string>
@@ -346,7 +323,6 @@ g.co/pixel/faceunlock හිදී තව දැන ගන්න"</string>
     <string name="sound_dashboard_summary">හඬ පරිමාව, ස්පර්ශ, බාධා නොකරන්න</string>
     <string name="sound_settings">ශබ්දය &amp; කම්පනය</string>
     <string name="storage_manager_indicator">ස්මාර්ට් ගබඞාව: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint භාවිත කරන්න</string>
     <string name="time_remaining_warning_subtext">ඔබගේ භාවිතය මත පදනම්ව %1$s පමණ ඉතිරිව ඇත</string>
     <string name="time_remaining_warning_text">බැටරිය ඉක්මනින් අවසන් විය හැකිය</string>
     <string name="tips_suggestion_summary">ඔබගේ දුරකථනයෙන් ඔබට කළ හැකි දේ ගවේෂණය ක.</string>

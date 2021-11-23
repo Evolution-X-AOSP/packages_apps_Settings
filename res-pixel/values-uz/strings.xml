@@ -172,11 +172,6 @@ Asl holatiga qaytgach, ma’lumotlarni ko‘chirish uchun boshlang‘ich jarayon
     <string name="fallback_menu_item_copy_link">Havoladan nusxa olish</string>
     <string name="fallback_menu_item_open_in_browser">Brauzerda ochish</string>
     <string name="fallback_menu_item_share_link">Havolani ulashish</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + parol</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + grafik kalit</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN kod</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint sensorisiz davom ettirish</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint sensori yordamida telefonni barmoq izi orqali qulfdan chiqarish mumkin. Xavfsizlik maqsadida bu parametr uchun zaxiraviy usul sifatida ekran qulfini sozlash kerak.</string>
     <string name="fullbackup_data_summary">"Qurilmadagi ma’lumotlar (m-n, Wi-Fi parollari va qo‘ng‘iroqlar tarixi) va ilovalarga oid ma’lumotlar (m-n, sozlamalar va ilovalar tomonidan saqlangan fayllar) zaxira nusxasini Google Drive xizmatiga avtomatik saqlang.
 
 Agar avtomatik zaxiralash funksiyasi yoqilsa, qurilma va ilova ma’lumotlarining zaxira nusxasi vaqti-vaqti bilan Google Drive xizmatidagi shaxsiy jildga saqlab turiladi. Ilova ma’lumotlariga ilova tomonidan saqlangan har qanday ma’lumot (dasturchi sozlamalari asosida), jumladan, kontaktlar, xabar va rasmlar kabi maxfiy ma’lumotlar ham kiradi.
@@ -228,7 +223,6 @@ Zaxiralangan ma’lumotlar egallagan joy Google Drive xizmatidagi sizga ajratilg
     <string name="language_input_gesture_summary_off">Active Edge yoqilmagan</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge yoniq</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge yoniq, Assistentni chaqirish uchun qurilmani qising</string>
-    <string name="lock_settings_picker_fingerprint_message">Ekran qulfini ochish uchun Nexus Imprintdan tashqari yana biror usulni tanlang</string>
     <string name="me_card_title">Pixel qurilmam</string>
     <string name="my_device_info_account_preference_title">Google hisobi</string>
     <string name="owner_info_settings_edit_text_hint">M-n: Abrorning Pixel telefoni.</string>
@@ -316,25 +310,8 @@ Unumdorlikni yaxshilash uchun Yuz bilan ochish funksiyasini Sozlamalar orqali qa
     <string name="security_settings_face_enroll_too_hot_message">Telefon qizib ketdi va ekran qulfi hozir yuz bilan ochilmaydi. Telefon sovigandan keyin qayta urining.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Yuz bilan ochishni keyin sozlash</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefon qizib ketdi</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Nexus Imprint yordamida nafaqat telefonni qulfdan chiqarish, balki xaridlarni tasdiqlash va ilovalarga kirish ham mumkin. <annotation id="url">Batafsil</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint tomonidan yozib olingan axborot xavfsiz va faqat telefonda saqlanadi. Axborotni istalgan vaqtda Sozlamalar orqali oʻchirib tashlash mumkin.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint yordamida barmoq izi bilan telefon ekranini yoqish va qulfdan chiqarish, ilovalarga kirish yoki xaridlarni tasdiqlash mumkin.
-
-Qaysi barmoq izlari qayd qilinishiga diqqat qiling. Qayd qilingan barmoq izlari ushbu amallarni bajara oladi "<annotation link="url">Batafsil</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint yordamida xaridlarni amalga oshirish yoki ilovalarga kirish uchun barmoq izidan foydalanish mumkin.
-
-Telefoningizga qo‘shilgan har qanday barmoq izi yordamida bularni bajarish mumkin, shuning uchun ehtiyot undan bo‘lib foydalaning.
-
-Eslatma: barmoq izi orqali qurilmani qulfdan chiqara olmaysiz. Batafsil axborot olish uchun tashkilot administratori bilan bog‘laning."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint orqali oching</string>
     <string name="security_settings_fingerprint_preference_summary_none">Barmoq izi kiritish uchun bosing</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint autentifikatsiya paytida sizni tanish uchun barmoq izingiz unikal modelini yaratadi. Sozlash davomida barmoq izi modelini yaratish uchun barmoq izingiz turli joylashuvlardan rasmga olinadi.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Istalgan vaqt Sozlamalar orqali barmoq izi modelini oʻchirib tashlashingiz yoki Pixel Imprint funksiyasini faolsizlantirishingiz mumkin. Barmoq izi modellari telefonda oʻchirilmaguncha saqlanadi.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint ishlatilganda farzandingiz barmoq izi modeli rasmlar yordamida yaratiladi. Sozlash davomida barmoq izi modelini yaratish uchun barmoq izi turli joylashuvlardan rasmga olinadi.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Siz va farzandingiz istalgan vaqt Sozlamalar orqali barmoq izi modelini oʻchirib tashlashingiz yoki Pixel Imprintni faolsizlantirishingiz mumkin. Barmoq izi modellari telefonda oʻchirilmaguncha saqlanadi.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Batafsil: g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Telefon qulfini ochish uchun Nexus Imprint skaneriga tegining.</string>
     <string name="setup_suggestion_summary">Maʼlumotlardan nusxa olish, telefon bilan toʻlash va boshqalar</string>
     <string name="setup_suggestion_title">Sozlashni tugallang</string>
     <string name="smart_battery_footer">Batareya quvvatini uzaytirish uchun Adaptive Battery rejimida unumdorlik va fondagi amallar cheklanishi mumkin. Ayrim bildirishnomalar kechikishi mumkin.</string>
@@ -343,7 +320,6 @@ Eslatma: barmoq izi orqali qurilmani qulfdan chiqara olmaysiz. Batafsil axborot 
     <string name="sound_dashboard_summary">Tovush balandligi, sezuvchanlik, Bezovta qilinmasin</string>
     <string name="sound_settings">Tovush va tebranish</string>
     <string name="storage_manager_indicator">Smart xotira: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint sensoridan foydalaning</string>
     <string name="time_remaining_warning_subtext">Oldingi foydalanishga nisbatan taxminan %1$s qoldi</string>
     <string name="time_remaining_warning_text">Batareya tez orada tugaydi</string>
     <string name="tips_suggestion_summary">Telefoningiz bilan nimalar qila olasiz</string>

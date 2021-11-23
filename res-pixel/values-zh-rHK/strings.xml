@@ -171,11 +171,6 @@
     <string name="fallback_menu_item_copy_link">複製連結</string>
     <string name="fallback_menu_item_open_in_browser">在瀏覽器中開啟</string>
     <string name="fallback_menu_item_share_link">分享連結</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + 密碼</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + 上鎖圖形</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">不使用 Nexus Imprint 並繼續</string>
-    <string name="fingerprint_unlock_title">您可以透過 Nexus Imprint 使用指紋解鎖手機。為安全起見，此選項需要設定後備螢幕鎖定方式。</string>
     <string name="fullbackup_data_summary">"自動備份裝置資料 (例如 Wi-Fi 密碼和通話記錄) 和應用程式資料 (例如由應用程式儲存的設定和檔案) 至「Google 雲端硬碟」。
 
 啟用自動備份功能後，裝置和應用程式資料會定時儲存至「Google 雲端硬碟」的私人資料夾。應用程式資料可以是由應用程式儲存的任何資料 (視乎開發設定而定)，包括可能視為敏感的資料，如聯絡人、訊息及相片。
@@ -227,7 +222,6 @@
     <string name="language_input_gesture_summary_off">已關閉 Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">已開啟 Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge 已開啟。握緊裝置即可開啟「助理」</string>
-    <string name="lock_settings_picker_fingerprint_message">選擇配合 Nexus Imprint 使用的後備螢幕鎖定方式</string>
     <string name="me_card_title">我的 Pixel</string>
     <string name="my_device_info_account_preference_title">Google 帳戶</string>
     <string name="owner_info_settings_edit_text_hint">例如：Joe 的 Pixel。</string>
@@ -316,25 +310,8 @@
     <string name="security_settings_face_enroll_too_hot_message">手機過熱，因此無法完成「面孔解鎖」設定。請待手機降溫後再試一次。</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">略過「面孔解鎖」設定</string>
     <string name="security_settings_face_enroll_too_hot_title">手機過熱</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">除解鎖手機外，您亦可以使用 Nexus Imprint 授權購物和存取應用程式。<annotation id="url">瞭解詳情</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint 記錄的資料會安全地儲存在您的手機上，絕不會外洩。您隨時可在「設定」刪除此資料。</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint 使用您的指紋喚醒和解鎖手機、授權購物或登入應用程式。
-
-請審慎選擇要加入的指紋，所有已加入的指紋都可執行這些操作。"<annotation link="url">瞭解詳情</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint 讓您使用指紋核准購物，或登入應用程式。
-
-所有已加入裝置的指紋均可執行這些操作，因此請審慎決定讓哪些人加入指紋。
-
-請注意，您不可使用指紋解鎖此裝置。如需瞭解詳情，請聯絡您機構的管理員。"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">使用 Nexus Imprint 解鎖</string>
     <string name="security_settings_fingerprint_preference_summary_none">輕按即可設定指紋</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint 會為您建立獨一無二的指紋模型，以便系統驗證您的身分。在設定期間，您必須拍攝指紋的各個部位，才能建立這個指紋模型。</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">您隨時可以前往「設定」刪除指紋模型或停用 Pixel Imprint。指紋模型會儲存在手機上，直到您刪除為止。</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint 會為您的子女建立獨一無二的指紋模型，以便系統驗證其身分。在設定期間，他們必須拍攝指紋的各個部位，才能建立這個指紋模型。</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">您和子女可隨時前往「設定」刪除指紋模型或停用 Pixel Imprint。指紋模型會儲存在手機上，直到其刪除為止。</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">詳情請參閱 g.co/pixel/fingerprintunlock。</string>
-    <string name="setup_fingerprint_enroll_finish_message">只需輕觸 Nexus Imprint 感應器，即可喚醒和解鎖手機。</string>
     <string name="setup_suggestion_summary">複製資料、使用手機付款等等</string>
     <string name="setup_suggestion_title">完成設定</string>
     <string name="smart_battery_footer">為延長電池壽命，「自動調節電池用量」功能可能會降低效能及減少背景活動。部分通知可能會延遲。</string>
@@ -343,7 +320,6 @@
     <string name="sound_dashboard_summary">音量、觸感反應、「請勿騷擾」</string>
     <string name="sound_settings">音效和震動</string>
     <string name="storage_manager_indicator">智能儲存空間：^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">使用 Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">根據過去的使用情況，剩餘約 %1$s</string>
     <string name="time_remaining_warning_text">電池電量可能即將耗盡</string>
     <string name="tips_suggestion_summary">探索手機的功能</string>

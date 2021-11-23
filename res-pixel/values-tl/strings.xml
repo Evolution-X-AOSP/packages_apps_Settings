@@ -171,11 +171,6 @@ Kapag na-reset na ito, sundan ang proseso ng pag-setup at pumili upang mailipat 
     <string name="fallback_menu_item_copy_link">Kopyahin ang link</string>
     <string name="fallback_menu_item_open_in_browser">Buksan sa browser</string>
     <string name="fallback_menu_item_share_link">Ibahagi ang link</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Password</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Pattern</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Magpatuloy nang walang Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Gamit ang Nexus Imprint, maa-unlock mo ang telepono mo gamit ang iyong fingerprint. Para sa seguridad, nangangailangan ang opsyong ito ng backup na lock ng screen.</string>
     <string name="fullbackup_data_summary">"Awtomatikong mag-back up ng data ng device (gaya ng mga password ng Wi-Fi at history ng tawag) at data ng app (gaya ng mga setting at file na naimbak ng mga app) sa Google Drive.
 
 Kapag na-on mo ang awtomatikong pag-backup, pana-panahong ise-save ang data ng device at app sa isang pribadong folder sa Google Drive. Ang data ng app ay maaaring anumang data na na-save ng app (batay sa mga setting ng developer), kasama na ang potensyal na sensitibong data gaya ng mga contact, mensahe at larawan.
@@ -227,7 +222,6 @@ Ang data sa pag-backup ay hindi ibibilang sa iyong quota sa storage ng Drive. Hi
     <string name="language_input_gesture_summary_off">Naka-off ang Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">Naka-on ang Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Naka-on ang Active Edge, pag-squeeze para sa iyong Assistant</string>
-    <string name="lock_settings_picker_fingerprint_message">Pumili ng backup na screen lock na gagamitin sa Nexus Imprint</string>
     <string name="me_card_title">Aking Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="owner_info_settings_edit_text_hint">Hal., Pixel ni Joe.</string>
@@ -316,25 +310,8 @@ Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit a
     <string name="security_settings_face_enroll_too_hot_message">Hindi matapos ang pag-set up ng Pag-unlock Gamit ang Mukha dahil masyadong mainit ang telepono. Subukan ulit sa ibang pagkakataon kapag lumamig na ang telepono.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Laktawan ang Pag-unlock Gamit ang Mukha</string>
     <string name="security_settings_face_enroll_too_hot_title">Masyadong mainit ang telepono</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Bukod pa sa pag-unlock ng iyong telepono, magagamit mo rin ang Nexus Imprint upang pahintulutan ang mga pagbili at access sa app. <annotation id="url">Matuto pa</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Secure na naka-store ang data na na-record ng Nexus Imprint at hindi stored securely at hindi ito kailanman lalabas sa iyong telepono. Puwede mong i-delete ang iyong data anumang oras sa Mga Setting.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Ginagamit ng Nexus Imprint ang iyong fingerprint para i-wake at i-unlock ang telepono mo, pahintulutan ang mga pagbili, o mag-sign in sa mga app.
-
-Maging maingat kung kaninong mga fingerprint ang idaragdag mo. Magagawa ng anumang idinagdag na fingerprint ang mga bagay na ito. "<annotation link="url">Matuto pa</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Sa Nexus Imprint, magagamit mo ang iyong fingerprint upang pahintulutan ang mga pagbili at pag-sign in sa mga app.
-
-Mag-ingat sa pagdaragdag ng mga fingerprint. Magagawa ng idaragdag na fingerprint ng sinuman ang mga bagay na ito.
-
-Tandaan: Hindi mo magagamit ang iyong fingerprint upang ma-unlock ang device na ito. Para sa higit pang impormasyon, makipag-ugnayan sa admin ng iyong organisasyon."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">I-unlock gamit ang Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">I-tap upang mag-set up ng fingerprint</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"Gumagawa ang Pixel Imprint ng natatanging modelo ng iyong fingerprint para i-verify na ikaw ito. Para magawa ang modelo ng fingerprint na ito habang nagse-set up, kukuha ka ng mga larawan ng iyong fingerprint mula sa iba't ibang posisyon."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Puwede mong i-delete ang modelo ng iyong fingerprint, o i-off ang Pixel Imprint anumang oras sa Mga Setting. Naka-store sa telepono ang mga modelo ng fingerprint hanggang sa i-delete mo ang mga ito.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"Gumagawa ang Pixel Imprint ng natatanging modelo ng fingerprint ng iyong anak para i-verify na siya ito. Para magawa ang modelo ng fingerprint na ito habang nagse-set up, kukuha siya ng mga larawan ng kanyang fingerprint mula sa iba't ibang posisyon."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Magawa mo at ng iyong anak na i-delete ang modelo ng kanyang fingerprint, o i-off ang Pixel Imprint anumang oras sa Mga Setting. Naka-store sa telepono ang mga modelo ng fingerprint hanggang sa i-delete ang mga ito.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Matuto pa sa g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Pindutin lang ang sensor ng Nexus Imprint upang mapagana at ma-unlock ang iyong telepono.</string>
     <string name="setup_suggestion_summary">Kumopya ng data, magbayad gamit ang telepono, at higit pa</string>
     <string name="setup_suggestion_title">Tapusin ang pag-set up</string>
     <string name="smart_battery_footer">Para patagalin ang baterya, posibleng bawasan ng Adaptive Battery ang performance at aktibidad sa background. Baka maantala ang ilang notification.</string>
@@ -343,7 +320,6 @@ Tandaan: Hindi mo magagamit ang iyong fingerprint upang ma-unlock ang device na 
     <string name="sound_dashboard_summary">Volume, haptics, Huwag Istorbohin</string>
     <string name="sound_settings">Tunog at pag-vibrate</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Gamitin ang Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Humigit-kumulang %1$s ang natitira batay sa nakaraang paggamit</string>
     <string name="time_remaining_warning_text">Malapit nang maubos ang baterya</string>
     <string name="tips_suggestion_summary">I-explore ang magagawa gamit ang phone</string>

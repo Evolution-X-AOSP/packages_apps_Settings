@@ -237,7 +237,6 @@
     <string name="keywords_gesture_tap">[]</string>
     <string name="keywords_global_actions_panel">[çåŕðš, þåššéš one two]</string>
     <string name="keywords_reverse_charging_stop_threshold">[Šţöþ šĥåŕîñĝ ɓåţţéŕý ŵĥéñ þĥöñé ŕéåçĥéš: one two three four five]</string>
-    <string name="lock_settings_picker_fingerprint_message">[Çĥööšé å ɓåçķûþ šçŕééñ ļöçķ ţö ûšé ŵîţĥ Ñéхûš Îḿþŕîñţ one two three four five six]</string>
     <string name="me_card_title">[Ḿý Þîхéļ one two]</string>
     <string name="reverse_charging_charging_wirelessly_message">[ÛñåVåîļåɓļé ɓéçåûšé þĥöñé çĥåŕĝîñĝ ŵîŕéļéššļý one two three four five]</string>
     <string name="reverse_charging_detail_charging_overheat_message">[βåţţéŕý Šĥåŕé îš ûñåVåîļåɓļé ɓéçåûšé Þîхéļ îš ţöö ĥöţ. Ŵåîţ ƒöŕ þĥöñé ţö çööļ ðöŵñ åñð ţŕý åĝåîñ. one two three four five six seven eight nine ten eleven]</string>
@@ -287,7 +286,6 @@ Fļîþ ýöûŕ þĥöñé öVéŕ ţö ţŕý. one two three four five six sev
     <string name="security_settings_face_enroll_too_hot_message">[Fåçé Ûñļöçķ šéţûþ çåñ’ţ ɓé çöḿþļéţéð ɓéçåûšé ţĥé þĥöñé îš ţöö ĥöţ. Ţŕý åĝåîñ ļåţéŕ ŵĥéñ ţĥé þĥöñé çööļš ðöŵñ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen]</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">[Šķîþ Fåçé Ûñļöçķ one two three]</string>
     <string name="security_settings_face_enroll_too_hot_title">[Þĥöñé îš ţöö ĥöţ one two three]</string>
-    <string name="setup_fingerprint_enroll_finish_message">[Ĵûšţ ţöûçĥ ţĥé Ñéхûš Îḿþŕîñţ šéñšöŕ ţö ŵåķé åñð ûñļöçķ ýöûŕ þĥöñé. one two three four five six seven eight]</string>
     <string name="setup_suggestion_summary">[Çöþý ðåţå, þåý ŵîţĥ ýöûŕ þĥöñé, åñð ḿöŕé one two three four five]</string>
     <string name="setup_suggestion_title">[Fîñîšĥ šéţţîñĝ ûþ one two three]</string>
     <string name="time_remaining_warning_subtext">[Åɓöûţ %1$s ļéƒţ ɓåšéð öñ þåšţ ûšåĝé one two three four]</string>

@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">লিংক প্ৰতিলিপি কৰক</string>
     <string name="fallback_menu_item_open_in_browser">ব্ৰাউজাৰত খোলক</string>
     <string name="fallback_menu_item_share_link">লিংক শ্বেয়াৰ কৰক</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + পাছৱৰ্ড</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + আৰ্হি</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + পিন</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprintৰ অবিহনে অব্যাহত ৰাখক</string>
-    <string name="fingerprint_unlock_title">"আপুনি Nexus Imprintৰ জৰিয়তে আপোনাৰ ফিংগাৰপ্ৰিণ্ট ব্যৱহাৰ কৰি আপোনাৰ ফ'ন আনলক কৰিব পাৰে৷ সুৰক্ষাৰ বাবে, এই বিকল্পটোক এটা বেক আপ স্ক্ৰীণ লকৰ প্ৰয়োজন।"</string>
     <string name="fullbackup_data_summary">"Google ড্ৰাইভত ডিভাইচৰ ডেটা (যেনে ৱাই-ফাই পাছৱৰ্ড আৰু কলৰ ইতিহাস) আৰু এপ্ ডেটাৰ (যেনে ছেটিংসমূহ আৰু এপসমূহৰ দ্বাৰা সঞ্চিত ফাইলসমূহ) স্বয়ংক্ৰিয়ভাৱে বেক আপ লয়৷
 
 আপুনি স্বয়ংক্ৰিয় বেক আপ অন কৰাৰ সময়ত, ডিভাইচ আৰু এপ্ ডেটাক নিৰ্দিষ্ট সময়ৰ মূৰে-মূৰে Google ড্ৰাইভৰ এটা ব্যক্তিগত ফ'ল্ডাৰত ছেভ কৰা হয়৷ সম্পৰ্কসমূহ, বাৰ্তাসমূহ আৰু ফট'সমূহৰ দৰে সাম্ভাৱ্য সংবেদনশীল ডেটাক অন্তৰ্ভুক্ত কৰি, এপ্ ডেটা যিকোনো ডেটা হ'ব পাৰে যিবোৰক কোনো এপে ছেভ কৰে (বিকাশকৰ্তাৰ ছেটিংসমূহৰ ওপৰত ভিত্তি কৰি)৷
@@ -229,7 +224,6 @@
     <string name="language_input_gesture_summary_off">Active Edge অফ কৰা হ’ল</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge অন কৰা হ’ল</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge অন হৈ আছে, আপোনাৰ সহায়কৰ বাবে দুয়োকাষত হেঁচা দিয়ক</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus Imprintৰ জৰিয়তে ব্যৱহাৰ কৰিবলৈ এটা বেক আপ স্ক্ৰীণ লক বাছনি কৰক</string>
     <string name="me_card_title">মোৰ Pixel</string>
     <string name="my_device_info_account_preference_title">Google একাউণ্ট</string>
     <string name="owner_info_settings_edit_text_hint">যেনে, মনোজৰ Pixel ফ’ন</string>
@@ -320,26 +314,9 @@ g.co/pixel/faceunlockত অধিক জানক।"</string>
     <string name="security_settings_face_enroll_too_hot_message">ফ’নটো বহুত গৰম হোৱাৰ বাবে ফেচ আনলকৰ ছেটআপ সম্পূৰ্ণ কৰিব নোৱাৰি। ফ’নটো ঠাণ্ডা হ’লে পাছত পুনৰ চেষ্টা কৰক।</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ফেচ আনলক এৰি যাওক</string>
     <string name="security_settings_face_enroll_too_hot_title">ফ’নটো বহুত গৰম</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">"আপোনাৰ ফ'নৰ আনলক কৰাৰ উপৰিও আপুনি Nexus Imprintক ক্ৰয়ৰ অনুমোদন জনাবলৈ আৰু এপ্ চাবলৈও ব্যৱহাৰ কৰিব পাৰে৷ "<annotation id="url">অধিক জানক</annotation></string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">ফিংগাৰপ্ৰিণ্ট ছেন্সৰটো আপোনাৰ ফ’নটোৰ পিছফালে আছে। আপোনাৰ তৰ্জনী আঙুলি ব্যৱহাৰ কৰক।</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprintএ ৰেকৰ্ড কৰা ডেটা সুৰক্ষিতভাৱে ষ্ট’ৰ কৰা হয় আৰু সেয়া আপোনাৰ ফ’নৰ পৰা কেতিয়াও আঁতৰি নাযায়। আপুনি যিকোনো সময়তে ছেটিঙত নিজৰ ডেটা মচিব পাৰে।</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"আপোনাৰ ফ’নটো সক্ৰিয় কৰিবলৈ আৰু আনলক কৰিবলৈ, ক্ৰয়ৰ অনুমোদন জনাবলৈ অথবা এপত ছাইন ইন কৰিবলৈ Nexus Imprintৰ সুবিধাটোৱে আপোনাৰ ফিংগাৰপ্ৰিণ্ট ব্যৱহাৰ কৰে।
-
-আপুনি কাৰ ফিংগাৰপ্ৰিণ্ট যোগ কৰে তাকলৈ সাৱধান হওক। যোগ কৰা যিকোনো ফিংগাৰপ্ৰিণ্টে এই কামবোৰ কৰিব পাৰিব। "<annotation link="url">অধিক জানক</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"আপুনি Nexus Imprint জৰিয়তে ক্ৰয়ৰ অনুমোদন জনাবলৈ বা এপসমূহত ছাইন ইন কৰিবলৈ আপোনাৰ ফিংগাৰপ্ৰিণ্ট ব্যৱহাৰ কৰিব পাৰে৷
-
-আপুনি কাৰ ফিংগাৰপ্ৰিণ্ট যোগ কৰে তাকলৈ সাৱধান হওক৷ যোগ যিকোনো ফিংগাৰপ্ৰিণ্টয়েই এই কামবোৰ কৰিব পাৰি৷
-
-টোকা: আপুনি এই ডিভাইচটোৰ লক খুলিবলৈ আপোনাৰ ফিংগাৰপ্ৰিণ্ট ব্যৱহাৰ কৰিব নোৱাৰে৷ অধিক তথ্যৰ বাবে, আপোনাৰ প্ৰতিষ্ঠানৰ প্ৰশাসকৰ সৈতে যোগাযোগ কৰক৷"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint জৰিয়তে আনলক কৰক</string>
     <string name="security_settings_fingerprint_preference_summary_none">ফিংগাৰপ্ৰিণ্ট ছেট আপ কৰিবলৈ টিপক</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprintএ এইয়া আপুনিয়েই বুলি সত্যাপন কৰিবলৈ আপোনাৰ ফিংগাৰপ্ৰিণ্টৰ এটা অদ্বিতীয় মডেল সৃষ্টি কৰে। ছেটআপৰ সময়ত এই ফিংগাৰপ্ৰিণ্টৰ মডেলটো সৃষ্টি কৰিবলৈ, আপুনি ভিন্ন দিশৰ পৰা নিজৰ ফিংগাৰপ্ৰিণ্টটোৰ প্ৰতিচ্ছবি ল’ব লাগিব।</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">আপুনি যিকোনো সময়তে ছেটিঙত আপোনাৰ ফিংগাৰপ্ৰিণ্ট মডেল মচিব অথবা Pixel Imprint অফ কৰিব পাৰে। আপুনি নমচা পৰ্যন্ত ফিংগাৰপ্ৰিণ্টৰ মডেলসমূহ ফ’নটোত ষ্ট’ৰ কৰি ৰখা হয়।</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprintএ সেইয়া তেৱেঁই বুলি সত্যাপন কৰিবলৈ আপোনাৰ শিশুৰ ফিংগাৰপ্ৰিণ্টৰ এটা অদ্বিতীয় মডেল সৃষ্টি কৰে। ছেটআপৰ সময়ত এই ফিংগাৰপ্ৰিণ্টৰ মডেলটো সৃষ্টি কৰিবলৈ, তেওঁ ভিন্ন দিশৰ পৰা নিজৰ ফিংগাৰপ্ৰিণ্টটোৰ প্ৰতিচ্ছবি ল’ব লাগিব।</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">আপুনি আৰু আপোনাৰ শিশুৱে যিকোনো সময়তে ছেটিঙলৈ গৈ তেওঁৰ ফিংগাৰপ্ৰিণ্টৰ মডেলটো মচিব পাৰে অথবা Pixel Imprint অফ কৰিব পাৰে। ফিংগাৰপ্ৰিণ্টৰ মডেলসমূহ মচি নেপেলোৱালৈকে ফ’নটোত ষ্ট’ৰ হৈ থাকে।</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">g.co/pixel/fingerprintunlockত অধিক জানক।</string>
-    <string name="setup_fingerprint_enroll_finish_message">"আপোনাৰ ফ'ন সক্ৰিয় আৰু আনলক কৰিবলৈ মাত্ৰ Nexus Imprint ছেন্সৰটোত স্পৰ্শ কৰক৷"</string>
     <string name="setup_suggestion_summary">ডেটাৰ প্ৰতিলিপি, ফ’নেৰে পৰিশোধ আৰু অন্য বহুতো</string>
     <string name="setup_suggestion_title">ছেট আপ সমাপ্ত কৰক</string>
     <string name="smart_battery_footer">বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰিবলৈ অভিযোজিত বেটাৰীয়ে কাৰ্যদক্ষতা অথবা পটভূমিৰ কাৰ্যকলাপ হ্ৰাস কৰিব পাৰে। কিছুমান জাননী লাভ কৰাত পলম হ’ব পাৰে।</string>
@@ -348,7 +325,6 @@ g.co/pixel/faceunlockত অধিক জানক।"</string>
     <string name="sound_dashboard_summary">ভলিউম, হেপ্‌টিকসমূহ, অসুবিধা নিদিব</string>
     <string name="sound_settings">ধ্বনি আৰু কম্পন</string>
     <string name="storage_manager_indicator">স্মাৰ্ট সঞ্চয়াগাৰ: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint ব্যৱহাৰ কৰক</string>
     <string name="time_remaining_warning_subtext">পূৰ্বৰ ব্যৱহাৰক ভিত্তি কৰি প্ৰায় %1$s সময় বাকী আছে</string>
     <string name="time_remaining_warning_text">"বেটাৰি অতি সোনকালে শেষ হ'ব পাৰে"</string>
     <string name="tips_suggestion_summary">নিজৰ ফ’নটোৰে কি কৰিব পাৰে অন্বেষণ কৰক</string>

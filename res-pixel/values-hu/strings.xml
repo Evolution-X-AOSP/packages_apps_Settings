@@ -172,11 +172,6 @@ Ha elkészült a visszaállítással, végezze el a beállítási folyamatot, é
     <string name="fallback_menu_item_copy_link">Link másolása</string>
     <string name="fallback_menu_item_open_in_browser">Megnyitás böngészőben</string>
     <string name="fallback_menu_item_share_link">Link megosztása</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + jelszó</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + minta</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN-kód</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Folytatás a Nexus Imprint beállítása nélkül</string>
-    <string name="fingerprint_unlock_title">A Nexus Imprint használatával telefonját az ujjlenyomatával oldhatja fel. Biztonsági okokból ezen beállítás esetében szükség van másodlagos képernyőzárra is.</string>
     <string name="fullbackup_data_summary">"Eszközadatok (például Wi-Fi-jelszavak és híváslista) és alkalmazásadatok (például az alkalmazások által tárolt beállítások és fájlok) automatikus biztonsági mentése a Google Drive-ra.
 
 Ha engedélyezi az automatikus biztonsági mentést, a rendszer adott időközönként menti az eszköz- és alkalmazásadatokat egy személyes mappába a Google Drive-on. Alkalmazásadat bármilyen adat lehet, amelyet az alkalmazás mentett (a fejlesztői beállításoktól függően), beleértve az esetlegesen bizalmas adatokat is (például névjegyek, üzenetek és fotók).
@@ -228,7 +223,6 @@ A biztonsági mentés adatmennyisége nem számít bele a Drive-tárhelykvótáb
     <string name="language_input_gesture_summary_off">Az Active Edge ki van kapcsolva</string>
     <string name="language_input_gesture_summary_on_non_assist">Az Active Edge be van kapcsolva</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge bekapcsolva, összenyomással elérheti a Segédet</string>
-    <string name="lock_settings_picker_fingerprint_message">Válasszon másodlagos képernyőzárat Nexus Imprint eszközéhez</string>
     <string name="me_card_title">Saját Pixel telefon</string>
     <string name="my_device_info_account_preference_title">Google-fiók</string>
     <string name="owner_info_settings_edit_text_hint">Pl. Péter Pixele.</string>
@@ -315,25 +309,8 @@ A teljesítmény javításához újból beállíthatja az Arcalapú feloldást a
     <string name="security_settings_face_enroll_too_hot_message">Az Arcalapú feloldás beállítását nem lehet elvégezni, mert a telefon túlmelegedett. Próbálkozzon újra később, amikor a telefon már lehűlt.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Arcalapú feloldás kihagyása</string>
     <string name="security_settings_face_enroll_too_hot_title">A telefon túlmelegedett</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">A telefon feloldásán kívül vásárlások és alkalmazás-hozzáférések jóváhagyásához is használhatja a Nexus Imprint érzékelőt. <annotation id="url">További információ</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">A Nexus Imprint által rögzített adatokat biztonságosan, mindig csak az Ön telefonján tárolja a rendszer. Az adatait bármikor törölheti a Beállításokban.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"A Nexus Imprint az Ön ujjlenyomatát használja a telefon felébresztéséhez és feloldásához, a vásárlások jóváhagyásához és az alkalmazásokba való bejelentkezéshez.
-
-Ügyeljen arra, hogy kinek az ujjlenyomatát adja hozzá. Bármelyik hozzáadott ujjlenyomattal lehetséges ezen műveletek elvégzése. "<annotation link="url">További információ</annotation>.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"A Nexus Imprint használata esetén ujjlenyomatával vásárlásokat engedélyezhet, illetve bejelentkezhet alkalmazásokba.
-
-Bármely hozzáadott ujjlenyomat képes mindezek végrehajtására, ezért fontolja meg, hogy kinek az ujjlenyomatát adja hozzá.
-
-Megjegyzés: Az ujjlenyomat az eszköz feloldására nem használható. Ha további információt szeretne kapni, forduljon szervezete rendszergazdájához."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Felold: Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Koppintson az ujjlenyomat-olvasás beállításához</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">A Pixel Imprint egyéni modellt hoz létre az Ön ujjlenyomatáról a személyazonossága ellenőrzéséhez. Az ujjlenyomatmodellnek a beállítás során való létrehozásához képeket kell készítenie az ujjlenyomatáról különböző szögekből.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">A Beállítások menüben bármikor törölheti az ujjlenyomatmodellt, továbbá kikapcsolhatja a Pixel Imprint funkciót. A telefon addig tárolja az ujjlenyomatmodelleket, amíg Ön nem törli őket.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">A Pixel Imprint egyéni modellt hoz létre a gyermeke ujjlenyomatáról a személyazonossága ellenőrzéséhez. Az ujjlenyomatmodellnek a beállítás során való létrehozásához gyermekének képeket kell készítenie az ujjlenyomatáról különböző szögekből.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">A Beállításokban Ön és gyermeke bármikor törölheti gyermeke ujjlenyomatmodelljét, illetve kikapcsolhatja a Pixel Imprint funkciót. A telefon addig tárolja az ujjlenyomatmodelleket, amíg Ön vagy gyermeke nem törli őket.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">További információ: g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Érintse meg a Nexus Imprint érzékelőt a telefon felébresztéséhez és feloldásához.</string>
     <string name="setup_suggestion_summary">Adatok másolása, fizetés és egyebek</string>
     <string name="setup_suggestion_title">A beállítás befejezése</string>
     <string name="smart_battery_footer">Az akkumulátor üzemidejének növelése érdekében az Alkalmazkodó akkumulátor funkció csökkentheti a teljesítményt és a háttérbeli tevékenységet. Bizonyos értesítések késve érkezhetnek meg.</string>
@@ -342,7 +319,6 @@ Megjegyzés: Az ujjlenyomat az eszköz feloldására nem használható. Ha tová
     <string name="sound_dashboard_summary">Hangerő, haptikus visszajelzés, Ne zavarjanak</string>
     <string name="sound_settings">Hang és rezgés</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">A Pixel Imprint használata</string>
     <string name="time_remaining_warning_subtext">Körülbelül %1$s van hátra az eddigi igénybevétel alapján</string>
     <string name="time_remaining_warning_text">Az akkumulátor hamarosan lemerül</string>
     <string name="tips_suggestion_summary">Nézze meg, mire használhatja telefonját</string>

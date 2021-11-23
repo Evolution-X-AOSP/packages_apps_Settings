@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">Копиране на връзката</string>
     <string name="fallback_menu_item_open_in_browser">Отваряне в браузър</string>
     <string name="fallback_menu_item_share_link">Споделяне на връзката</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + парола</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + фигура</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + ПИН код</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Продължаване без Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">С Nexus Imprint можете да отключвате телефона си посредством отпечатъка си. От съображения за сигурност трябва да зададете резервна опция за заключване на екрана.</string>
     <string name="fullbackup_data_summary">"В Google Диск автоматично се създава резервно копие на данните на устройството (например пароли за Wi-Fi и история на обажданията) и тези на приложенията (например настройки и съхранявани от приложенията файлове).
 
 Когато включите автоматичното създаване на резервно копие, данните на устройството и на приложенията периодично се запазват в частна папка в Google Диск. Данните на приложенията могат да бъдат всяка запазвана от тях информация (въз основа на настройките на програмиста), включително потенциално поверителната, като например контакти, съобщения и снимки.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Функцията Active Edge е изключена</string>
     <string name="language_input_gesture_summary_on_non_assist">Функцията Active Edge е включена</string>
     <string name="language_input_gesture_summary_on_with_assist">Функцията Active Edge е вкл., стиснете за достъп до Асистент</string>
-    <string name="lock_settings_picker_fingerprint_message">Избиране на резервно заключване на екрана, което да се използва с Nexus Imprint</string>
     <string name="me_card_title">Моят Pixel</string>
     <string name="my_device_info_account_preference_title">Профил в Google</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството Pixel на Иван“.</string>
@@ -316,25 +310,8 @@
     <string name="security_settings_face_enroll_too_hot_message">Настройването на функцията „Отключване с лице“ не може да бъде завършено, защото телефонът е твърде горещ. Опитайте отново по-късно, когато се охлади.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Без отключване с лице</string>
     <string name="security_settings_face_enroll_too_hot_title">Телефонът е твърде горещ</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Освен за отключване на телефона си можете да използвате Nexus Imprint и за оторизиране на покупки и за достъп до приложения. <annotation id="url">Научете повече</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Данните, записани от Nexus Imprint, се съхраняват надеждно и остават на телефона ви. Можете да ги изтриете по всяко време от настройките.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint използва отпечатъка ви за активиране и отключване на телефона ви, за оторизиране на покупки или за влизане в приложения.
-
-Внимавайте чии отпечатъци добавяте – с всеки един от тях ще могат да се извършват изброените действия. "<annotation link="url">Научете повече</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"С Nexus Imprint можете да използвате отпечатъка си, за да оторизирате покупки или да влизате в приложения.
-
-Внимавайте чии отпечатъци добавяте, тъй като с тях ще могат да се извършват изброените неща.
-
-Забележка: Не можете да отключвате това устройство с отпечатъка си. За повече информация се свържете с администратора на организацията си."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Отключване с Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Докоснете, за да настроите отпечатък</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint изгражда уникален модел на отпечатъка ви с цел потвърждаване на самоличността ви. За да създадете такъв модел по време на настройването, ще трябва да заснемете отпечатъка си от различни позиции.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">По всяко време можете да изтриете модела на отпечатъка си или да изключите Pixel Imprint от настройките. Моделите се съхраняват на телефона, докато не ги изтриете.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint изгражда уникален модел на отпечатъка на детето ви с цел потвърждаване на самоличността му. За да създаде такъв модел по време на настройването, то ще трябва да заснеме отпечатъка си от различни позиции.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Вие и детето ви можете по всяко време да изтриете модела на отпечатъка му или да изключите Pixel Imprint от настройките. Моделите на отпечатъците се съхраняват на телефона, докато не бъдат изтрити.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Научете повече на адрес g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">За да активирате и отключите телефона си, трябва само да докоснете сензора на Nexus Imprint.</string>
     <string name="setup_suggestion_summary">Копирайте данни, плащайте с телефона си и др.</string>
     <string name="setup_suggestion_title">Завършете настройването</string>
     <string name="smart_battery_footer">За да удължи живота на батерията, режимът за адаптивна батерия може да намали ефективността и активността на заден план. Може да има забавяне на някои известия.</string>
@@ -343,7 +320,6 @@
     <string name="sound_dashboard_summary">Сила на звука, осезателна обратна връзка, режим „Не безпокойте“</string>
     <string name="sound_settings">Звук и вибриране</string>
     <string name="storage_manager_indicator">Интелигентно хранилище: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Използване на Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Още около %1$s въз основа на историята на използване</string>
     <string name="time_remaining_warning_text">Батерията може скоро да се изтощи</string>
     <string name="tips_suggestion_summary">Разгледайте възможностите на телефона си</string>

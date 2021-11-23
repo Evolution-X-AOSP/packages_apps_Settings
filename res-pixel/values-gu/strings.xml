@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">લિંક કૉપિ કરો</string>
     <string name="fallback_menu_item_open_in_browser">બ્રાઉઝરમાં ખોલો</string>
     <string name="fallback_menu_item_share_link">લિંક શેર કરો</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + પાસવર્ડ</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + પૅટર્ન</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + પિન</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint વગર ચાલુ રાખો</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint સાથે, તમે તમારા ફોનને તમારી ફિંગરપ્રિન્ટનો ઉપયોગ કરીને અનલૉક કરી શકો છો. સુરક્ષા માટે, આ વિકલ્પ હેતુ એક બૅકઅપ સ્ક્રીન લૉક આવશ્યક છે.</string>
     <string name="fullbackup_data_summary">"ડિવાઇસ ડેટા (જેમ કે વાઇ-ફાઇ પાસવર્ડ અને કૉલ ઇતિહાસ) અને ઍપ ડેટા (જેમ કે સેટિંગ અને ઍપ દ્વારા સંગ્રહિત ફાઇલો)નું Google ડ્રાઇવમાં ઑટોમૅટિક રીતે બૅકઅપ લો.
 
 જ્યારે તમે ઑટોમૅટિક બૅકઅપ ચાલુ કરો છો, ત્યારે ડિવાઇસ અને ઍપ ડેટા સમયાંતરે Google ડ્રાઇવમાં એક ખાનગી ફોલ્ડરમાં સચવાય છે. ઍપ ડેટા એવો ડેટા હોઈ શકે જે કોઈ ઍપએ સાચવેલો હોય (ડેવલપર સેટિંગના આધારે), જેમાં સંપર્કો, સંદેશા અને ફોટો જેવા સંભવિત સંવેદનશીલ ડેટાનો સમાવેશ થાય છે.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge બંધ કર્યું</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge ચાલુ કર્યું</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ચાલુ છે, તમારા સહાયક માટે દબાવો</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus Imprint સાથે ઉપયોગમાં લેવા માટે બૅકઅપ સ્ક્રીન લૉક પસંદ કરો</string>
     <string name="me_card_title">મારા Pixel વિશે</string>
     <string name="my_device_info_account_preference_title">Google એકાઉન્ટ</string>
     <string name="owner_info_settings_edit_text_hint">દા.ત., Joeનો Pixel.</string>
@@ -316,25 +310,8 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="security_settings_face_enroll_too_hot_message">ફોન ખૂબ ગરમ હોવાને કારણે ફેસ અનલૉક સુવિધાનું સેટઅપ પૂર્ણ કરી શકાતું નથી. ફોન ઠંડો પડે ત્યાર પછી ફરીથી પ્રયાસ કરો.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ફેસ અનલૉકનું સેટઅપ છોડી દો</string>
     <string name="security_settings_face_enroll_too_hot_title">ફોન ખૂબ ગરમ છે</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">તમારા ફોનને અનલૉક કરવા ઉપરાંત, તમે ખરીદીઓ અને ઍપ્લિકેશન ઍક્સેસને અધિકૃત કરવા માટે પણ Nexus Imprint નો ઉપયોગ કરી શકો છો. <annotation id="url">વધુ જાણો</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint વડે રેકોર્ડ થયેલો ડેટા સુરક્ષિત રીતે સ્ટોર કરવામાં આવે છે અને તે ક્યારેય પણ તમારા ફોનમાંથી બહાર જતો નથી. તમે સેટિંગમાં જઈને તમારા ડેટાને કોઈપણ સમયે ડિલીટ કરી શકો છો.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint, તમારા ફોનને સક્રિય અને અનલૉક કરવા માટે, ખરીદીઓ અધિકૃત કરવા માટે અથવા ઍપમાં સાઇન ઇન કરવા માટે તમારી ફિંગરપ્રિન્ટનો ઉપયોગ કરે છે.
-
-તમે કોની ફિંગરપ્રિન્ટ ઉમેરો છો તે બાબતે સાવચેત રહો. ઉમેરવામાં આવેલી કોઈપણ ફિંગરપ્રિન્ટથી આ કાર્યો કરી શકાય છે. "<annotation link="url">વધુ જાણો</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint સાથે, તમે ખરીદીઓ અધિકૃત કરવા અથવા ઍપમાં સાઇન ઇન કરવા માટે તમારી ફિંગરપ્રિન્ટનો ઉપયોગ કરી શકો છો.
-
-તમે કોની ફિંગરપ્રિન્ટ ઉમેરી છે તે બાબતે સાવચેત રહો. ઉમેરેલ કોઈપણ ફિંગરપ્રિન્ટ આ વસ્તુઓને કરવામાં સમર્થ હશે.
-
-નોંધ: તમે આ ડિવાઇસને અનલૉક કરવા માટે તમારી ફિંગરપ્રિન્ટનો ઉપયોગ કરી શકતાં નથી. વધુ માહિતી માટે, તમારી સંસ્થાના વ્યવસ્થાપકનો સંપર્ક કરો."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint વડે અનલૉક કરો</string>
     <string name="security_settings_fingerprint_preference_summary_none">ફિંગરપ્રિન્ટ સેટ કરવા માટે ટૅપ કરો</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">એ તમે જ છો તેની ચકાસણી કરવા માટે, Pixel Imprint સુવિધા તમારી ફિંગરપ્રિન્ટનું વિશેષ મૉડલ બનાવે છે. સેટઅપ દરમિયાન ફિંગરપ્રિન્ટનું આ મૉડલ બનાવવા માટે, તમે જુદી-જુદી સ્થિતિમાં તમારી ફિંગરપ્રિન્ટની છબીઓ લેશો.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">તમે તમારી ફિંગરપ્રિન્ટનું મૉડલ ડિલીટ કરી શકો છો અથવા કોઈપણ સમયે સેટિંગમાં Pixel Imprintને બંધ કરી શકો છો. જ્યાં સુધી તમે ફિંગરપ્રિન્ટના મૉડલ ડિલીટ ન કરો, ત્યાં સુધી તેમને તમારા ફોન પર સ્ટોર કરવામાં આવે છે.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">એ તમારું બાળક જ છે તેની ચકાસણી કરવા માટે, Pixel Imprint સુવિધા તેમની ફિંગરપ્રિન્ટનું વિશેષ મૉડલ બનાવે છે. સેટઅપ દરમિયાન ફિંગરપ્રિન્ટનું આ મૉડલ બનાવવા માટે, તેઓ જુદી-જુદી સ્થિતિમાં તેમની ફિંગરપ્રિન્ટની છબીઓ લેશે.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">સેટિંગમાં જઈને તમે અને તમારું બાળક કોઈપણ સમયે તેમના ફિંગરપ્રિન્ટનું મૉડલ ડિલીટ કરી શકો છો અથવા Pixel Imprint સુવિધા બંધ કરી શકો છો. જ્યાં સુધી ફિંગરપ્રિન્ટના મૉડલને ડિલીટ ન કરવામાં આવે, ત્યાં સુધી તેને ફોન પર સ્ટોર કરવામાં આવે છે.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">g.co/pixel/fingerprintunlock પર વધુ જાણો.</string>
-    <string name="setup_fingerprint_enroll_finish_message">તમારા ફોનને સક્રિય અને અનલૉક કરવા માટે બસ Nexus Imprint સેન્સરને સ્પર્શ કરો.</string>
     <string name="setup_suggestion_summary">ડેટા કૉપિ કરો, તમારા ફોનથી ચૂકવો અને બીજું ઘણું</string>
     <string name="setup_suggestion_title">સેટઅપ કરવાનું પૂર્ણ કરો</string>
     <string name="smart_battery_footer">બૅટરીની આવરદા વધારવા માટે, સુવિધાજનક બૅટરી કાર્યપ્રદર્શન અને બૅકગ્રાઉન્ડ પ્રવૃત્તિમાં ઘટાડો કરી શકે છે. કેટલાક નોટિફિકેશનમાં વિલંબ થઈ શકે છે.</string>
@@ -343,7 +320,6 @@ g.co/pixel/faceunlock પર વધુ જાણો."</string>
     <string name="sound_dashboard_summary">વૉલ્યૂમ, સંવેદક, ખલેલ પાડશો નહીં</string>
     <string name="sound_settings">સાઉન્ડ અને વાઇબ્રેશન</string>
     <string name="storage_manager_indicator">સ્માર્ટ સ્ટોરેજ: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprintનો ઉપયોગ કરો</string>
     <string name="time_remaining_warning_subtext">તમારા પહેલાંના વપરાશના આધારે લગભગ %1$s બાકી છે</string>
     <string name="time_remaining_warning_text">બૅટરી ટૂંક સમયમાં ખલાસ થઈ શકે છે</string>
     <string name="tips_suggestion_summary">તમે તમારા ફોન વડે શું કરી શકો છો તે જાણો</string>

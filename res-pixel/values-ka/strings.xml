@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">ბმულის კოპირება</string>
     <string name="fallback_menu_item_open_in_browser">ბრაუზერში გახსნა</string>
     <string name="fallback_menu_item_share_link">ბმულის გაზიარება</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + პაროლი</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + ნიმუში</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN-კოდი</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint-ის გარეშე გაგრძელება</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint-ის მეშვეობით, თქვენი ტელეფონის განბლოკვა თითის ანაბეჭდით შეგეძლებათ. უსაფრთხოების მოსაზრებებიდან გამომდინარე, ეს ვარიანტი ეკრანის დაბლოკვის სარეზერვო მეთოდსაც საჭიროებს.</string>
     <string name="fullbackup_data_summary">"Google Drive-ში მოწყობილობის მონაცემებისა (მათ შორის, Wi-Fi-ს პაროლებისა და საუბრის ისტორიის) და აპების მონაცემების (მათ შორის, აპების მიერ შენახული პარამეტრებისა და ფაილების) სარეზერვო ასლების ავტომატურად შექმნა.
 
 სარეზერვო ასლების ავტომატურად შექმნის ჩართვის შემთხვევაში, მოწყობილობისა და აპების მონაცემები პერიოდულად შეინახება Google Drive-ზე არსებულ პირად საქაღალდეში. აპების მონაცემები გულისხმობს ამა თუ იმ აპის მიერ შენახულ ნებისმიერ მონაცემს (დამოკიდებულია დეველოპერის პარამეტრებზე). ეს შეიძლება იყოს ისეთი კონფიდენციალური მონაცემებიც, როგორიცაა კონტაქტები, შეტყობინებები და ფოტოები.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge გამორთულია</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge ჩართულია</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ჩართულია, მოუჭირეთ ასისტენტთან სასაუბროდ</string>
-    <string name="lock_settings_picker_fingerprint_message">აირჩიეთ სარეზერვო ეკრანის დაბლოკვა Nexus Imprint-ისთვის</string>
     <string name="me_card_title">ჩემი Pixel</string>
     <string name="my_device_info_account_preference_title">Google ანგარიში</string>
     <string name="owner_info_settings_edit_text_hint">მაგ., ნიკას Pixel.</string>
@@ -315,25 +309,8 @@
     <string name="security_settings_face_enroll_too_hot_message">სახით განბლოკვის დაყენება ვერ სრულდება, რადგან ტელეფონი გადახურებულია. ცადეთ მოგვიანებით, როდესაც ტელეფონი გაგრილდება.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">სახით განბლოკვის გამოტოვება</string>
     <string name="security_settings_face_enroll_too_hot_title">ტელეფონი გადახურებულია</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">ტელეფონის განბლოკვასთან ერთად, Nexus Imprint-ის გამოყენება შენაძენებისა თუ აპების წვდომის ავტორიზაციისთვის შეგიძლიათ. <annotation id="url">შეიტყვეთ მეტი</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint-ის მიერ ჩაწერილი მონაცემები უსაფრთხოდ ინახება და არასოდეს ტოვებს თქვენს ტელეფონს. თქვენი მონაცემების წაშლა ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint იყენებს თქვენს თითის ანაბეჭდს ტელეფონის გამოსაღვიძებლად და განსაბლოკად, შენაძენების ავტორიზაციისთვის თუ აპებში შესასვლელად.
-
-ყურადღება მიაქციეთ, ვის თითის ანაბეჭდებს დაამატებთ. ამ მოქმედებების შესრულება ნებისმიერ დამატებულ ანაბეჭდს შეუძლია. "<annotation link="url">შეიტყვეთ მეტი</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint-ის მეშვებით, შენაძენების ავტორიზაციას ან აპებში შესვლას თითის ანაბეჭდით შეძლებთ.
-
-ყურადღება მიაქციეთ იმას, თუ ვის თითის ანაბეჭდებს დაამატებთ, რადგან ამ მოქმედებების შესრულება ნებისმიერ დამატებულ თითის ანაბეჭდს შეეძლება.
-
-გაითვალისწინეთ: ამ მოწყობილობის განსაბლოკად თითის ანაბეჭდს ვერ გამოიყენებთ. დამატებითი ინფორმაციისთვის, დაუკავშირდით თქვენი ორგანიზაციის ადმინისტრატორს."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint-ით განბლოკვა</string>
     <string name="security_settings_fingerprint_preference_summary_none">შეეხეთ თითის ანაბეჭდის დასაყენებლად</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint ქმნის თქვენი თითის ანაბეჭდის უნიკალურ მოდელს, თქვენი ვინაობის დასადასტურებლად. დაყენებისას ამ თითის ანაბეჭდის მოდელის შესაქმნელად თითის ანაბეჭდი სხვადასხვა რაკურსიდან უნდა გადაიღოთ.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">თქვენი თითის ანაბეჭდის მოდელის წაშლა ან Pixel Imprint-ის გამორთვა ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან. თითის ანაბეჭდის მოდელები ტელეფონში შეინახება, სანამ მათ არ წაშლით.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint ქმნის თქვენი ბავშვის თითის ანაბეჭდის უნიკალურ მოდელს, მისი ვინაობის დასადასტურებლად. დაყენების პროცესში თითის ანაბეჭდის ამ მოდელის შესაქმნელად საჭირო იქნება თითის ანაბეჭდის სურათების გადაღება სხვადასხვა რაკურსიდან.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">თქვენ ან თქვენ ბავშვს შეგიძლიათ თითის ანაბეჭდის მოდელის წაშლა ან Pixel Imprint-ის ნებისმიერ დროს გამორთვა პარამეტრებიდან. თითის ანაბეჭდის მოდელები მანამ ინახება ტელეფონში, სანამ მათ არ წაშლიან.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">შეიტყვეთ მეტი ბმულზე g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">თქვენი ტელეფონის გამოსაღვიძებლად და განსაბლოკად, უბრალოდ შეეხეთ Nexus Imprint-ის სენსორს.</string>
     <string name="setup_suggestion_summary">მონაცემთა კოპირება, ტელეფონით გადახდა და სხვა</string>
     <string name="setup_suggestion_title">დაასრულეთ დაყენება</string>
     <string name="smart_battery_footer">ბატარეის მუშაობის გასახანგრძლივებლად ადაპტაციურმა ბატარეამ, შესაძლოა, შეამციროს ეფექტურობა და ფონური აქტივობა. გარკვეული შეტყობინებები, შესაძლოა, დაგვიანდეს.</string>
@@ -342,7 +319,6 @@
     <string name="sound_dashboard_summary">ხმის სიმძლავრე, შეხებისადმი მგრძნობელობა, არ შემაწუხოთ</string>
     <string name="sound_settings">ხმა და ვიბრაცია</string>
     <string name="storage_manager_indicator">გონიერი მეხსიერება: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint-ის გამოყენება</string>
     <string name="time_remaining_warning_subtext">დარჩა დაახლოებით %1$s, ბატარეის წარსული მოხმარების გათვალისწინებით</string>
     <string name="time_remaining_warning_text">ბატარეა შესაძლოა მალე ამოიწუროს</string>
     <string name="tips_suggestion_summary">გაეცანით, რის საშუალებას გაძლევთ ტელეფონი</string>

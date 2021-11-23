@@ -172,11 +172,6 @@ Kun palautus on valmis, määritä laite uudelleen ja valitse tietojen tuominen 
     <string name="fallback_menu_item_copy_link">Kopioi linkki</string>
     <string name="fallback_menu_item_open_in_browser">Avaa selaimessa</string>
     <string name="fallback_menu_item_share_link">Jaa linkki</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint ja salasana</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint ja kuvio</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint ja PIN-koodi</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Jatka ilman Nexus Imprintiä</string>
-    <string name="fingerprint_unlock_title">Nexus Imprintin avulla voit käyttää sormenjälkeäsi puhelimen lukituksen avaamiseen. Turvallisuussyistä tämä edellyttää, että määrität näytön varalukitustavan.</string>
     <string name="fullbackup_data_summary">"Varmuuskopioi automaattisesti laitteen tiedot (kuten Wi-Fi-salasanat ja soittohistoria) sekä sovellusten tiedot (kuten asetukset ja sovellusten tallentamat tiedostot) Google Driveen.
 
 Kun otat automaattiset varmuuskopiot käyttöön, laitteen ja sovellusten tiedot tallennetaan säännöllisesti yksityiseen kansioon Google Drivessa. Sovelluksen tiedot voivat olla mitä tahansa sovelluksen tallentamia tietoja (kehittäjän asetusten perustella), myös mahdollisesti yksityisiä tietoja, kuten yhteystietoja, viestejä ja kuvia.
@@ -228,7 +223,6 @@ Varmuuskopioita ei vähennetä Drive-tallennustilan kiintiöstäsi. Suuria ja ke
     <string name="language_input_gesture_summary_off">Active Edge pois käytöstä</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge käytössä</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge käytössä, aktivoi Assistant puristamalla</string>
-    <string name="lock_settings_picker_fingerprint_message">Valitse Nexus Imprintin kanssa käytettävä näytön varalukitustapa.</string>
     <string name="me_card_title">Oma Pixel</string>
     <string name="my_device_info_account_preference_title">Google-tili</string>
     <string name="owner_info_settings_edit_text_hint">Esim. Rikun Pixel</string>
@@ -317,25 +311,8 @@ Voit parantaa kasvojentunnistusavauksen toimintaa ottamalla sen käyttöön uude
     <string name="security_settings_face_enroll_too_hot_message">Kasvojentunnistusavauksen käyttöönottoa ei voi suorittaa loppuun, koska puhelin on liian kuuma. Yritä uudelleen, kun puhelin on jäähtynyt.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Ohita kasvojentunnistusavaus</string>
     <string name="security_settings_face_enroll_too_hot_title">Puhelin on liian kuuma</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Voit käyttää Nexus Imprintiä puhelimen lukituksen avaamisen lisäksi ostosten valtuutukseen ja sovellusten käyttöoikeuksien myöntämiseen. <annotation id="url">Lisätietoja</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprintin tallentama data tallennetaan turvallisesti eikä se koskaan poistu puhelimeltasi. Voit poistaa datan milloin tahansa asetuksista.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprintin avulla voit käyttää sormenjälkeäsi puhelimen näytön käynnistämiseen, lukituksen avaamiseen, ostoksien hyväksymiseen ja sovelluksiin kirjautumiseen.
-
-Harkitse tarkkaan, kenen sormenjäljet lisäät. Näitä asioita voi tehdä kaikilla lisätyillä sormenjäljillä. "<annotation link="url">Lue lisää</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Voit hyväksyä ostoksia tai kirjautua sovelluksiin Nexus Imprintillä.
-
-Ole varovainen lisätessäsi sormenjälkiä – edellä mainitut toiminnot onnistuvat kaikilla laitteeseen lisätyillä sormenjäljillä.
-
-Huom. Tämän laitteen lukitusta ei voi avata sormenjäljellä. Saat lisätietoja organisaatiosi järjestelmänvalvojalta."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Avaa Nexus Imprintillä</string>
     <string name="security_settings_fingerprint_preference_summary_none">Määritä sormenjälki koskettamalla</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint luo sormenjäljestäsi yksilöllisen mallin, jonka avulla henkilöllisyytesi voidaan todentaa. Käyttöönoton aikana otat sormenjäljestäsi kuvia eri asennoissa sormenjälkimallin luomiseksi.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Voit poistaa sormenjälkimallin tai laittaa Pixel Imprintin pois päältä milloin tahansa asetuksista. Sormenjälkimallit säilytetään puhelimellasi, kunnes poistat ne.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint luo lapsesi sormenjäljestä yksilöllisen mallin, jonka avulla hänen henkilöllisyytensä voidaan todentaa. Käyttöönoton aikana lapsi ottaa sormenjäljestään kuvia eri asennoissa sormenjälkimallin luomiseksi.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Sinä ja lapsesi voitte poistaa sormenjälkimallin tai laittaa Pixel Imprintin pois päältä milloin tahansa asetuksista. Sormenjälkimallit säilytetään puhelimellasi, kunnes ne poistetaan.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Lue lisää: g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Käynnistä puhelimesi näyttö ja avaa sen lukitus yksinkertaisesti koskettamalla Nexus Imprint -anturia.</string>
     <string name="setup_suggestion_summary">Kopioi dataa, maksa puhelimella ja muuta</string>
     <string name="setup_suggestion_title">Viimeistele käyttöönotto</string>
     <string name="smart_battery_footer">Mukautuva virta voi pidentää akun kestoa rajoittamalla suorituskykyä ja taustatoimintaa. Osa ilmoituksista voi näkyä viiveellä.</string>
@@ -344,7 +321,6 @@ Huom. Tämän laitteen lukitusta ei voi avata sormenjäljellä. Saat lisätietoj
     <string name="sound_dashboard_summary">Äänenvoimakkuus, haptinen palaute, Älä häiritse</string>
     <string name="sound_settings">Ääni ja värinä</string>
     <string name="storage_manager_indicator">Älykäs tallennustila: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprintin käyttö</string>
     <string name="time_remaining_warning_subtext">Noin %1$s jäljellä aiemman käytön perusteella</string>
     <string name="time_remaining_warning_text">Akku voi loppua pian.</string>
     <string name="tips_suggestion_summary">Tutki, mitä voit tehdä puhelimellasi</string>

@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">リンクをコピー</string>
     <string name="fallback_menu_item_open_in_browser">ブラウザで開く</string>
     <string name="fallback_menu_item_share_link">リンクの共有</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + パスワード</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + パターン</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint を設定せずに続行</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint では、指紋を使ってスマートフォンのロックを解除できます。セキュリティ上の理由により、Nexus Imprint を使用する際は予備の画面ロックを選択する必要があります。</string>
     <string name="fullbackup_data_summary">"デバイスのデータ（Wi-Fi のパスワードや通話履歴など）とアプリのデータ（アプリで保存された設定やファイルなど）を自動的に Google ドライブにバックアップします。
 
 自動バックアップを ON にすると、デバイスのデータとアプリのデータは定期的に Google ドライブの非公開フォルダに保存されます。アプリのデータとしては、連絡先、メッセージ、写真など、機密と見なされるデータを含め、（デベロッパーの設定に基づいて）アプリで保存されたすべてのデータがバックアップされる可能性があります。
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge は OFF です</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge は ON です</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge: ON。スクイーズしてアシスタントに話しかけます</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus Imprint で使用する予備の画面ロックを選択してください</string>
     <string name="me_card_title">自分の Pixel</string>
     <string name="my_device_info_account_preference_title">Google アカウント</string>
     <string name="owner_info_settings_edit_text_hint">例: 佐藤の Pixel</string>
@@ -315,25 +309,8 @@
     <string name="security_settings_face_enroll_too_hot_message">スマートフォンが過熱しているため、顔認証の設定を完了できません。スマートフォンの温度が下がってから、もう一度お試しください。</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">顔認証をスキップ</string>
     <string name="security_settings_face_enroll_too_hot_title">スマートフォンが過熱しています</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Nexus Imprintを使用すると、スマートフォンのロックを解除できるだけでなく、購入やアプリのアクセスを許可することもできます。<annotation id="url">詳細</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint によって記録されたデータはスマートフォンにのみ、安全に保存されます。データは [設定] でいつでも削除できます。</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint は、指紋認証でスマートフォンの復帰とロック解除、購入の承認、アプリへのログインを行います。
-
-こうした操作は、登録したどの指紋でも行えるため、誰の指紋を登録するかについては十分にご注意ください。"<annotation link="url">詳細</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint では、購入の承認やアプリへのログインに指紋を使えます。
-
-こうした操作は、登録したどの指紋でも行えるため、誰の指紋を登録するかについては十分にご注意ください。
-
-注: 指紋を使ってこのデバイスのロックを解除することはできません。詳しくは、組織の管理者にお問い合わせください。"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint でロック解除</string>
     <string name="security_settings_fingerprint_preference_summary_none">指紋をセットアップするにはタップします</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint を設定する際に、本人確認に使う指紋の一意のモデルを作成します。この指紋モデルを作成するため、さまざまな角度から指紋の画像を撮影します。</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">いつでも [設定] で指紋モデルを削除したり、Pixel Imprint を OFF にしたりできます。指紋モデルは、削除するまでスマートフォンに保存されたままになります。</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint を設定する際に、本人確認に使うお子様の指紋の一意のモデルを作成します。この指紋モデルを作成するため、さまざまな角度から指紋の画像を撮影します。</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">あなたとお子様はいつでも [設定] で指紋モデルを削除したり Pixel Imprint を OFF にしたりできます。指紋モデルは、削除するまでスマートフォンに保存されたままになります。</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">詳しくは、g.co/pixel/fingerprintunlock をご覧ください。</string>
-    <string name="setup_fingerprint_enroll_finish_message">Nexus Imprint センサーに触れるだけでスマートフォンを復帰させてロックを解除できます。</string>
     <string name="setup_suggestion_summary">データのコピー、スマートフォンでのお支払いなど</string>
     <string name="setup_suggestion_title">設定を完了してください</string>
     <string name="smart_battery_footer">自動調整バッテリーは、バッテリーを長持ちさせるために、パフォーマンスやバックグラウンド アクティビティを制限することがあります。一部の通知が遅れる場合があります。</string>
@@ -342,7 +319,6 @@
     <string name="sound_dashboard_summary">音量、ハプティクス、サイレント モード</string>
     <string name="sound_settings">着信音とバイブレーション</string>
     <string name="storage_manager_indicator">スマート ストレージ: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint の使用</string>
     <string name="time_remaining_warning_subtext">過去の使用状況によると、あと約 %1$s使用できます</string>
     <string name="time_remaining_warning_text">もうすぐ電池がなくなります</string>
     <string name="tips_suggestion_summary">スマートフォンでできること</string>

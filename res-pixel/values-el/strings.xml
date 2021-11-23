@@ -171,11 +171,6 @@
     <string name="fallback_menu_item_copy_link">Αντιγραφή συνδέσμου</string>
     <string name="fallback_menu_item_open_in_browser">Άνοιγμα σε πρόγραμμα περιήγησης</string>
     <string name="fallback_menu_item_share_link">Κοινοποίηση συνδέσμου</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Κωδικός πρόσβασης</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Μοτίβο</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Συνέχεια χωρίς το Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Με το Nexus Imprint, μπορείτε να ξεκλειδώνετε το τηλέφωνό σας χρησιμοποιώντας το δακτυλικό σας αποτύπωμα. Για λόγους ασφάλειας, αυτή η επιλογή απαιτεί εφεδρικό κλείδωμα οθόνης.</string>
     <string name="fullbackup_data_summary">"Αυτόματη δημιουργία αντιγράφων ασφαλείας για τα δεδομένα συσκευών (όπως είναι οι κωδικοί πρόσβασης Wi-Fi και το ιστορικό κλήσεων) και τα δεδομένα εφαρμογών (όπως είναι οι ρυθμίσεις και τα αρχεία που αποθηκεύουν οι εφαρμογές) στο Google Drive.
 
 Μόλις ενεργοποιήσετε την αυτόματη δημιουργία αντιγράφων ασφαλείας, τα δεδομένα συσκευών και εφαρμογών αποθηκεύονται ανά τακτά χρονικά διαστήματα σε έναν ιδιωτικό φάκελο στο Google Drive. Τα δεδομένα εφαρμογών μπορεί να περιέχουν δεδομένα που αποθηκεύει μια εφαρμογή (με βάση τις ρυθμίσεις του προγραμματιστή), συμπεριλαμβανομένων δυνητικά ευαίσθητων δεδομένων, όπως είναι οι επαφές, τα μηνύματα και οι φωτογραφίες.
@@ -227,7 +222,6 @@
     <string name="language_input_gesture_summary_off">Το Active Edge είναι απενεργοποιημένο</string>
     <string name="language_input_gesture_summary_on_non_assist">Το Active Edge είναι ενεργοποιημένο</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ενεργό, πιέστε για ενεργοποίηση του Βοηθού</string>
-    <string name="lock_settings_picker_fingerprint_message">Επιλέξτε ένα εφεδρικό κλείδωμα οθόνης για χρήση με το Nexus Imprint</string>
     <string name="me_card_title">Το Pixel μου</string>
     <string name="my_device_info_account_preference_title">Λογαριασμός Google</string>
     <string name="owner_info_settings_edit_text_hint">Π.χ. Το Pixel του Joe.</string>
@@ -317,25 +311,8 @@
     <string name="security_settings_face_enroll_too_hot_message">Δεν είναι δυνατή η ολοκλήρωση της ρύθμισης του Ξεκλειδώματος με το πρόσωπο, επειδή η θερμοκρασία του τηλεφώνου είναι πολύ υψηλή. Δοκιμάστε ξανά όταν η θερμοκρασία του τηλεφώνου μειωθεί.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Παράβλεψη Ξεκλειδ. με το πρόσωπο</string>
     <string name="security_settings_face_enroll_too_hot_title">Υψηλή θερμοκρασία τηλεφώνου</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Εκτός από το ξεκλείδωμα του τηλεφώνου σας, μπορείτε επίσης να χρησιμοποιείτε το Nexus Imprint για την εξουσιοδότηση αγορών και την πρόσβαση σε εφαρμογές. <annotation id="url">Μάθετε περισσότερα</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Τα δεδομένα που εγγράφονται από το Nexus Imprint αποθηκεύονται με ασφάλεια και δεν αποστέλλονται ποτέ εκτός του τηλεφώνου σας. Μπορείτε να διαγράψετε τα δεδομένα σας ανά πάσα στιγμή στις Ρυθμίσεις.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Το Nexus Imprint χρησιμοποιεί το δακτυλικό σας αποτύπωμα για αφύπνιση και ξεκλείδωμα του τηλεφώνου σας, εξουσιοδότηση αγορών ή σύνδεση σε εφαρμογές.
-
-Να είστε προσεκτικοί με τα δακτυλικά αποτυπώματα που προσθέτετε. Αυτές οι ενέργειες θα μπορούν να γίνουν με οποιαδήποτε δακτυλικά αποτυπώματα προσθέσετε στο τηλέφωνό σας. "<annotation link="url">Μάθετε περισσότερα</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Με το Nexus Imprint, μπορείτε να χρησιμοποιήσετε το δακτυλικό σας αποτύπωμα για την εξουσιοδότηση αγορών ή τη σύνδεση σε εφαρμογές.
-
-Να είστε προσεκτικοί με τα δακτυλικά αποτυπώματα που προσθέτετε. Αυτές οι ενέργειες θα μπορούν να γίνουν με κάθε δακτυλικό αποτύπωμα που έχετε προσθέσει.
-
-Σημείωση: Δεν μπορείτε να χρησιμοποιήσετε το δακτυλικό σας αποτύπωμα για να ξεκλειδώσετε αυτήν τη συσκευή. Για περισσότερες πληροφορίες, επικοινωνήστε με τον διαχειριστή του οργανισμού σας."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Ξεκλείδ. Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Πατήστε για ρύθμιση δακτυλικού αποτυπώματος</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Το Pixel Imprint δημιουργεί ένα μοναδικό μοντέλο του δακτυλικού σας αποτυπώματος για να επαληθεύει την ταυτότητά σας. Για τη δημιουργία αυτού του μοντέλου δακτυλικού αποτυπώματος κατά τη ρύθμιση, θα ληφθούν εικόνες του δακτυλικού σας αποτυπώματος από διάφορες θέσεις.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Μπορείτε να διαγράψετε το μοντέλο του δακτυλικού σας αποτυπώματος ή να απενεργοποιήσετε το Pixel Imprint ανά πάσα στιγμή από τις Ρυθμίσεις. Τα μοντέλα δακτυλικών αποτυπωμάτων αποθηκεύονται στο τηλέφωνο μέχρι να τα διαγράψετε.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Το Pixel Imprint δημιουργεί ένα μοναδικό μοντέλο του δακτυλικού αποτυπώματος του παιδιού σας για να επαληθεύει την ταυτότητά του. Για τη δημιουργία αυτού του μοντέλου δακτυλικού αποτυπώματος κατά τη ρύθμιση, θα ληφθούν εικόνες του δακτυλικού του αποτυπώματος από διάφορες θέσεις.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Εσείς και το παιδί σας μπορείτε να διαγράψετε το δακτυλικό του αποτύπωμα ή να απενεργοποιήσετε το Pixel Imprint ανά πάσα στιγμή στις Ρυθμίσεις. Τα μοντέλα δακτυλικού αποτυπώματος αποθηκεύονται στο τηλέφωνο μέχρι να διαγραφούν.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Μάθετε περισσότερα στο g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Απλώς αγγίξτε τον αισθητήρα του Nexus Imprint για να αφυπνίσετε και να ξεκλειδώσετε το τηλέφωνό σας.</string>
     <string name="setup_suggestion_summary">Αντιγραφή δεδομένων, πληρωμή με τηλέφωνο κ.ά.</string>
     <string name="setup_suggestion_title">Ολοκλήρωση ρύθμισης</string>
     <string name="smart_battery_footer">Για να επεκτείνετε τη διάρκεια ζωής της μπαταρίας, η Προσαρμοστική μπαταρία ενδέχεται να μειώσει την απόδοση και τη δραστηριότητα στο παρασκήνιο. Ορισμένες ειδοποιήσεις ενδέχεται να εμφανίζονται με καθυστέρηση.</string>
@@ -344,7 +321,6 @@
     <string name="sound_dashboard_summary">Ένταση ήχου, απτική λειτουργία, Μην ενοχλείτε</string>
     <string name="sound_settings">Ήχος και δόνηση</string>
     <string name="storage_manager_indicator">Έξυπνος αποθηκευτικός χώρος: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Χρήση Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Απομένουν περίπου %1$s με βάση την προηγούμενη χρήση</string>
     <string name="time_remaining_warning_text">Η μπαταρία μπορεί να εξαντληθεί σύντομα</string>
     <string name="tips_suggestion_summary">Ανακαλύψτε τις δυνατότητες του τηλεφώνου</string>

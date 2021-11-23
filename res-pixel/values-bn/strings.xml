@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">লিঙ্ক কপি করুন</string>
     <string name="fallback_menu_item_open_in_browser">ব্রাউজারে খুলুন</string>
     <string name="fallback_menu_item_share_link">লিঙ্ক শেয়ার করুন</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + পাসওয়ার্ড</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + প্যাটার্ন</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + পিন</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint ছাড়াই চালিয়ে যান</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint এর দ্বারা আপনি আপনার আঙ্গুলের ছাপ ব্যবহার করে আপনার ফোনটিকে আনলক করতে পারবেন৷ সুরক্ষার জন্য, এই বিকল্পটির কোনও ব্যাকআপ স্ক্রিন লক প্রয়োজন৷</string>
     <string name="fullbackup_data_summary">"Google ড্রাইভে অটোমেটিক ডিভাইস ডেটা (যেমন ওয়াই-ফাই এর পাসওয়ার্ড এবং কলের ইতিহাস) এবং অ্যাপ্লিকেশন ডেটা (যেমন অ্যাপ্লিকেশনগুলির দ্বারা সংরক্ষিত সেটিংস এবং ফাইলগুলির) ব্যাকআপ নিন৷
 
 যখন আপনি অটোমেটিক ব্যাকআপ চালু করেন তখন ডিভাইস এবং অ্যাপ্লিকেশন ডেটা Google ড্রাইভের মধ্যে থাকা একটি ব্যক্তিগত ফোল্ডারে পর্যায়ক্রমে সংরক্ষণ করা হয়৷ অ্যাপ্লিকেশন ডেটা সম্ভাব্য সংবেদনশীল ডেটা যেমন পরিচিতি, মেসেজ, এবং ফটোগুলি সহ যেকোনও ডেটা হতে পারে যা একটি অ্যাপ্লিকেশন সংরক্ষণ করে (বিকাশকারীদের সেটিংসের উপর ভিত্তি করে),
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge বন্ধ আছে</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge চালু আছে</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge চালু আছে, আপনার সহায়কের জন্য স্কুইজ করুন</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus Imprint এর সাথে ব্যবহারের জন্য একটি ব্যাকআপ স্ক্রিন লক বাছুন</string>
     <string name="me_card_title">আমার Pixel</string>
     <string name="my_device_info_account_preference_title">Google অ্যাকাউন্ট</string>
     <string name="owner_info_settings_edit_text_hint">উদাহরণ, সুমনের Pixel</string>
@@ -318,25 +312,8 @@ g.co/pixel/faceunlock লিঙ্ক থেকে আরও জানুন।"
     <string name="security_settings_face_enroll_too_hot_message">"ফোনটি খুব গরম থাকার জন্য 'ফেস আনলক' সেট আপ সম্পূর্ণ করা যায়নি। ফোনটি ঠান্ডা হয়ে গেলে পরে আবার চেষ্টা করুন।"</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">"'ফেস আনলক' এড়িয়ে যান"</string>
     <string name="security_settings_face_enroll_too_hot_title">ফোনটি খুব গরম</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">এছাড়াও কেনাকাটা এবং অ্যাপ্লিকেশানের অ্যাক্সেস অনুমোদন করার কাজে আপনার ফোন আনলক করতে আপনি Nexus Imprint ব্যবহার করতে পারেন৷ <annotation id="url">আরো জানুন</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">"Nexus Imprint-এর সহায়তার রেকর্ড করা ডেটা নিরাপদে সেভ করা থাকে এবং আপনার ফোন থেকে কখনও তা মুছে যায় না। 'সেটিংস' থেকে যেকোনও সময় আপনার ডেটা মুছে ফেলতে পারেন।"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"আপনার ফোনটি জাগাতে ও আনলক করতে, কেনাকাটার অনুমোদন দিতে বা অ্যাপে সাইন-ইন করতে Nexus Imprint আপনার আঙ্গুলের ছাপ ব্যবহার করে।
-
-তাই কার আঙুলের ছাপ যোগ করছেন সেই ব্যাপারে সতর্ক থাকুন। যারই আঙ্গুলের ছাপ যোগ করবেন, তিনি এই কাজগুলি করতে পারবেন। "<annotation link="url">আরও জানুন</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint এর মাধ্যমে, কেনাকাটায় অনুমোদন দিতে বা অ্যাপ্সে সাইন ইন করতে আপনি আপনার আঙ্গুলের ছাপ ব্যবহার করতে পারবেন৷
-
-আপনি কাদের আঙ্গুলের ছাপ যোগ করছেন সেই বিষয়ে সতর্ক থাকুন৷ এমনকি যাদের আঙ্গুলের ছাপ যোগ করা হবে তারা এই জিনিসগুলি করতে পারবেন।
-
-দ্রষ্টব্য: এই ডিভাইসটিকে আনলক করতে আপনি আপনার আঙ্গুলের ছাপ ব্যবহার করতে পারবেন না৷ আরো তথ্যের জন্য আপনার প্রতিষ্ঠানের প্রশাসকের সাথে যোগাযোগ করুন৷"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint দিয়ে আনলক করুন</string>
     <string name="security_settings_fingerprint_preference_summary_none">আঙ্গুলের ছাপ সেট-আপ করার জন্য আলতো চাপুন</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">আপনার পরিচয় যাচাই করার জন্য Pixel Imprint আপনার ফিঙ্গারপ্রিন্টের একটি অনন্য মডেল তৈরি করে। সেটআপ করার সময় ফিঙ্গারপ্রিন্ট মডেলটি তৈরি করার জন্য, বিভিন্ন দিক থেকে আপনাকে ফিঙ্গারপ্রিন্টের ছবি নিতে হবে।</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">সেটিংস থেকে যেকোনও সময়ে আপনি নিজের ফিঙ্গারপ্রিন্ট মডেল মুছে ফেলতে বা Pixel Imprint-এর সুবিধা বন্ধ করতে পারবেন। আপনি মুছে না ফেলা পর্যন্ত ফিঙ্গারপ্রিন্ট মডেল সেভ করা থাকে।</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">আপনার সন্তানের পরিচয় যাচাই করার জন্য Pixel Imprint তার ফিঙ্গারপ্রিন্টের একটি অনন্য মডেল তৈরি করে। সেটআপ করার সময় এই ফিঙ্গারপ্রিন্ট মডেল তৈরি করার জন্য, বিভিন্ন দিক থেকে তার ফিঙ্গারপ্রিন্টের ছবি নিতে হবে।</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">আপনি এবং আপনার সন্তান যেকোনও সময়ে ফিঙ্গারপ্রিন্ট মডেল মুছে ফেলতে পারেন বা সেটিংস থেকে Pixel Imprint বন্ধ করতে পারেন। মুছে না ফেলা পর্যন্ত ফিঙ্গারপ্রিন্ট মডেল ফোনে সেভ করা থাকে।</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">g.co/pixel/fingerprintunlock লিঙ্ক থেকে আরও জানুন।</string>
-    <string name="setup_fingerprint_enroll_finish_message">আপনার ফোনকে জাগাতে এবং আনলক করতে শুধু Nexus Imprint সেন্সরে স্পর্শ করুন৷</string>
     <string name="setup_suggestion_summary">ডেটা কপি, ফোনের সাহায্য পেমেন্ট এবং আরও অনেক কিছু করুন</string>
     <string name="setup_suggestion_title">সেট আপ সম্পূর্ণ করুন</string>
     <string name="smart_battery_footer">ব্যাটারির আয়ু বাড়ানোর জন্য, পারফর্ম্যান্স এবং ব্যাকগ্রাউন্ডের অ্যাক্টিভিটি কমাতে পারে অ্যাডাপটিভ ব্যাটারি কয়েকটি বিজ্ঞপ্তি পেতে দেরি হতে পারে।</string>
@@ -345,7 +322,6 @@ g.co/pixel/faceunlock লিঙ্ক থেকে আরও জানুন।"
     <string name="sound_dashboard_summary">ভলিউম, হ্যাপটিক, বিরক্ত করবে না</string>
     <string name="sound_settings">সাউন্ড ও ভাইব্রেশন</string>
     <string name="storage_manager_indicator">স্মার্ট স্টোরেজ: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint ব্যবহার করুন</string>
     <string name="time_remaining_warning_subtext">ব্যাটারির ব্যবহার অনুযায়ী আর %1$s বাকি</string>
     <string name="time_remaining_warning_text">ব্যাটারি দ্রুত শেষ হয়ে যেতে পারে</string>
     <string name="tips_suggestion_summary">আপনার ফোন দিয়ে কী কী করতে পারবেন দেখুন</string>

@@ -172,11 +172,6 @@ Once it resets, go through the setup process and choose to bring your data from 
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Password</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Pattern</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Continue without Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">With Nexus Imprint, you can unlock your phone using your fingerprint. For security, this option requires a backup screen lock.</string>
     <string name="fullbackup_data_summary">"Automatically back up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps) to Google Drive.
 
 When you turn on automatic backup, device and app data is periodically saved to a private folder in Google Drive. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages and photos.
@@ -228,7 +223,6 @@ Backup data will not count towards your Drive storage quota. Large files or file
     <string name="language_input_gesture_summary_off">Active Edge turned off</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge turned on</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge on, squeeze for your Assistant</string>
-    <string name="lock_settings_picker_fingerprint_message">Choose a backup screen lock to use with Nexus Imprint</string>
     <string name="me_card_title">My Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="owner_info_settings_edit_text_hint">E.g. Joe’s Pixel.</string>
@@ -316,25 +310,8 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="security_settings_face_enroll_too_hot_message">Face Unlock setup can’t be completed because the phone is too hot. Try again later when the phone cools down.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Skip Face Unlock</string>
     <string name="security_settings_face_enroll_too_hot_title">Phone is too hot</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">In addition to unlocking your phone, you can also use Nexus Imprint to authorise purchases and app access. <annotation id="url">Find out more</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">The data recorded by Nexus Imprint is stored securely and never leaves your phone. You can delete your data at any time in Settings.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint uses your fingerprint to wake and unlock your phone, authorise purchases or sign in to apps.
-
-Be careful whose fingerprints you add. Any fingerprints added will be able to do these things. "<annotation link="url">Learn more</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"With Nexus Imprint, you can use your fingerprint to authorise purchases or sign in to apps.
-
-Be careful whose fingerprints you add. Any fingerprints added will be able to do these things.
-
-Note: You can’t use your fingerprint to unlock this device. For more information, contact your organisation’s admin."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Unlock with Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Tap to set up fingerprint</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint creates a unique model of your fingerprint to verify that it’s you. To create this fingerprint model during setup, you will take images of your fingerprint from different positions.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">You can delete your fingerprint model or turn off Pixel Imprint at any time in settings. Fingerprint models are stored on the phone until you delete them.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint creates a unique model of your child’s fingerprint to verify that it’s them. To create this fingerprint model during setup, they will take images of their fingerprint from different positions.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">You and your child can delete their fingerprint model, or turn off Pixel Imprint at any time in Settings. Fingerprint models are stored on the phone until they’re deleted.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Learn more at g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Just touch the Nexus Imprint sensor to wake and unlock your phone.</string>
     <string name="setup_suggestion_summary">Copy data, pay with your phone and more</string>
     <string name="setup_suggestion_title">Finish setting up</string>
     <string name="smart_battery_footer">To extend battery life, Adaptive Battery may reduce performance and background activity. Some notifications may be delayed.</string>
@@ -343,7 +320,6 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="sound_dashboard_summary">Volume, haptics, Do Not Disturb</string>
     <string name="sound_settings">Sound and vibration</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Use Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">About %1$s left based on past usage</string>
     <string name="time_remaining_warning_text">Battery may run out soon</string>
     <string name="tips_suggestion_summary">Explore what you can do with your phone</string>

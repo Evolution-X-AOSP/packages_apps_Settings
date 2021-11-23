@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">လင့်ခ်ကို ကူးယူရန်</string>
     <string name="fallback_menu_item_open_in_browser">ဘရောင်ဇာတွင် ဖွင့်ရန်</string>
     <string name="fallback_menu_item_share_link">လင့်ခ်ကို မျှဝေရန်</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + စကားဝှက်</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + ပုံစံ</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + ပင်နံပါတ်</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint မလုပ်ဘဲ ရှေ့ဆက်ရန်</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint စနစ်ဖြင့် သင့်လက်ဗွေကိုသုံးပြီး သင့်ဖုန်းကို လော့ခ်ဖွင့်နိုင်ပါသည်။ လုံခြုံရေးအရ ဤနည်းလမ်းက အရန်မျက်နှာပြင်လော့ခ်တစ်ခု လိုအပ်ပါသည်။</string>
     <string name="fullbackup_data_summary">"Google Drive သို့ စက်ပစ္စည်းဒေတာများ (Wi-Fi စကားဝှက်နှင့် ခေါ်ဆိုမှုမှတ်တမ်းကဲ့သို့) နှင့် အက်ပ်ဒေတာများ (အက်ပ်များမှ သိမ်းဆည်းထားသည့် ဆက်တင်များနှင့် ဖိုင်များ) ကိုအလိုအလျောက် အရန်ကူးယူပါ။
 
 အလိုအလျောက် အရန်ကူးယူခြင်းကို ဖွင့်ထားလျှင်၊ စက်ပစ္စည်းနှင့် အက်ပ်ဒေတာများကို အချိန်နှင့်အမျှ Google Drive ရှိ သီးသန့်ဖိုင်တွဲသို့ သိမ်းဆည်းသွားပါမည်။ အက်ပ်ဒေတာဟု ဆိုရာတွင် အဆက်အသွယ်များ၊ မက်ဆေ့ဂျ်များနှင့် ဓာတ်ပုံများကဲ့သို့ အရေးကြီးသည့် ဒေတာများအပါအဝင် အက်ပ်မှ သိမ်းဆည်းထားသည့် ဒေတာများ (ဆော့ဖ်ဝဲအင်ဂျင်နီယာ ဆက်တင်များအပေါ်မူတည်၍) အက်ပ်မှ သိမ်းဆည်းလိုက်သည့်ဒေတာများအားလုံး ပါဝင်ပါသည်။
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge ကို ပိတ်ထားပါသည်</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge ကို ဖွင့်ထားပါသည်</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ဖွင့်ထားသည်၊ Assistant ကိုသုံးရန် ဖျစ်ညှစ်ပါ</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus Imprint နှင့်အသုံးပြုရန် အရန်ဖန်သားပြင် လော့ခ်ချခြင်းကို ရွေးပါ</string>
     <string name="me_card_title">ကျွန်ုပ်၏ Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
     <string name="owner_info_settings_edit_text_hint">ဥပမာ- Joe ၏ Pixel</string>
@@ -317,25 +311,8 @@ g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</
     <string name="security_settings_face_enroll_too_hot_message">ဖုန်းအလွန်ပူနေသောကြောင့် မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ထည့်သွင်း၍မရပါ။ ဖုန်းအေးသွားသည့်အခါ ထပ်စမ်းကြည့်ပါ။</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ကျော်ရန်</string>
     <string name="security_settings_face_enroll_too_hot_title">ဖုန်းအလွန်ပူနေသည်</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">ဖုန်းသော့ဖွင့်ခြင်းအပြင် ဈေးဝယ်ရန်နှင့် အက်ပ်အသုံးပြုမှုများအတွက် Nexus Imprint ကို သုံးနိုင်သည်။ <annotation id="url"> ပိုမိုလေ့လာရန် </annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint ဖြင့် မှတ်တမ်းတင်ထားသည့် ဒေတာကို သင့်ဖုန်းတွင်သာ လုံခြုံစွာ သိမ်းထားသည်။ သင့်ဒေတာကို ‘ဆက်တင်များ’ တွင် အချိန်မရွေး ဖျက်နိုင်သည်။</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint သည် သင့်လက်ဗွေကို အသုံးပြုပြီး သင့်ဖုန်းကို ဖွင့်ခြင်း၊ ဝယ်ယူမှုများကို ခွင့်ပြုခြင်း သို့မဟုတ် အက်ပ်များသို့ လက်မှတ်ထိုးဝင်ခြင်းတို့ ပြုလုပ်ပါသည်။
-
-မည်သူ၏ လက်ဗွေ ထည့်သွင်းမည်ကို သေချာစဉ်းစားပါ။ ထည့်သွင်းထားသည့် လက်ဗွေပိုင်ရှင်တိုင်းသည် ဤအရာများကို လုပ်ဆောင်နိုင်ပါမည်။ "<annotation link="url">ပိုမိုလေ့လာရန်</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint ဖြင့် ဝယ်ယူမှုများကို အတည်ပြုရန် သို့မဟုတ် အက်ပ်များသို့ လက်မှတ်ထိုးဝင်ရန် သင့်လက်ဗွေကို အသုံးပြုနိုင်ပါသည်။
-
-မည်သူ၏ လက်ဗွေအားထည့်သွင်းထားမည်ဆိုသည်ကို သတိပြုပါ။ ထည့်ထားသောလက်ဗွေတိုင်းသည် ဤအရာများအားလုံးကို လုပ်ဆောင်နိုင်မည် ဖြစ်သည်။
-
-မှတ်ချက်- ဤစက်ပစ္စည်းကို လော့ခ်ဖွင့်ရန် သင့်လက်ဗွေကို အသုံးမပြုနိုင်ပါ။ အသေးစိတ်အချက်များအတွက် သင့်အဖွဲ့အစည်း၏ စီမံသူကို ဆက်သွယ်ပါ။"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint ဖြင့် ဖွင့်ပါ</string>
     <string name="security_settings_fingerprint_preference_summary_none">လက်ဗွေ စနစ်ထည့်သွင်းသတ်မှတ်ရန် တို့ပါ</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint က သင်ဖြစ်ကြောင်း အတည်ပြုရန် သင့်လက်ဗွေ၏ သီးခြားနမူနာတစ်ခုကို ပြုလုပ်သည်။ စနစ်ထည့်သွင်းနေစဉ် ဤလက်ဗွေနမူနာကို ပြုလုပ်ရန်အတွက် သင့်လက်ဗွေကို ရှုထောင့်အမျိုးမျိုးမှ ပုံများရိုက်ကူးမည်။</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">‘ဆက်တင်များ’ တွင် သင့်လက်ဗွေနမူနာကို ဖျက်ခြင်း (သို့) Pixel Imprint ကို ပိတ်ခြင်းတို့ အချိန်မရွေး လုပ်နိုင်သည်။ လက်ဗွေနမူနာများကို သင်မဖျက်မချင်း ဖုန်းတွင်သိမ်းထားသည်။</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint က သင့်ကလေးကို သူဖြစ်ကြောင်း အတည်ပြုရန်အတွက် သူ့လက်ဗွေ၏ သီးခြားနမူနာတစ်ခုကို ပြုလုပ်သည်။ စနစ်ထည့်သွင်းနေစဉ် ဤလက်ဗွေနမူနာကို ပြုလုပ်ရန်အတွက် သူ့လက်ဗွေကို ရှုထောင့်အမျိုးမျိုးမှ ပုံများရိုက်ကူးမည်။</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">သင်နှင့် သင့်ကလေးက ဆက်တင်များတွင် လက်ဗွေနမူနာကို ဖျက်ခြင်း (သို့) Pixel Imprint ကို ပိတ်ခြင်းတို့ အချိန်မရွေး လုပ်နိုင်သည်။ လက်ဗွေနမူနာများကို မဖျက်မချင်း ဖုန်းတွင် သိမ်းထားသည်။</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">g.co/pixel/fingerprintunlock တွင် ပိုမိုလေ့လာပါ။</string>
-    <string name="setup_fingerprint_enroll_finish_message">သင့်ဖုန်းကို နှိုးရန်နှင့် လော့ခ်ဖြုတ်ရန် Nexus Imprint အာရုံခံစနစ်ကိုသာ ထိလိုက်ပါ။</string>
     <string name="setup_suggestion_summary">ဒေတာမိတ္တူကူးခြင်း၊ သင့်ဖုန်းဖြင့်ငွေပေးချေခြင်း စသည်</string>
     <string name="setup_suggestion_title">စနစ်ထည့်သွင်းမှု အပြီးသတ်ပါ</string>
     <string name="smart_battery_footer">ဘက်ထရီသက်တမ်း ပိုရှည်စေရန် ‘အလိုက်အထိုက် ဘက်ထရီအားထိန်း’ က စွမ်းဆောင်ရည်နှင့် နောက်ခံလုပ်ဆောင်ချက်ကို လျှော့ချနိုင်သည်။ အချို့အကြောင်းကြားချက်များ ကြန့်ကြာနိုင်ပါသည်။</string>
@@ -344,7 +321,6 @@ g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</
     <string name="sound_dashboard_summary">"အသံ၊ တုန်ခါ၍တုံ့ပြန်မှု၊ 'မနှောင့်ယှက်ရ'"</string>
     <string name="sound_settings">အသံနှင့် တုန်ခါမှု</string>
     <string name="storage_manager_indicator">စမတ်သိုလှောင်ခန်း− ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint ကို သုံးပါ</string>
     <string name="time_remaining_warning_subtext">ယခင်က အသုံးပြုသည့်အနေအထားအရ %1$s ခန့် ကျန်ပါသည်</string>
     <string name="time_remaining_warning_text">မကြာမီ ဓာတ်ခဲကုန်သွားပါလိမ့်မည်</string>
     <string name="tips_suggestion_summary">သင့်ဖုန်းဖြင့်လုပ်နိုင်သည်ကို ရှာပါ</string>

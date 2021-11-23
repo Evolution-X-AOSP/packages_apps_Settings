@@ -171,11 +171,6 @@ Cihazınız sıfırlandıktan sonra kurulum işlemini gerçekleştirin ve verile
     <string name="fallback_menu_item_copy_link">Bağlantıyı kopyala</string>
     <string name="fallback_menu_item_open_in_browser">Tarayıcıda aç</string>
     <string name="fallback_menu_item_share_link">Bağlantıyı paylaş</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Şifre</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Desen</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint olmadan devam et</string>
-    <string name="fingerprint_unlock_title">"Nexus Imprint'i kullanarak telefonunuzun kilidini parmak izinizle açabilirsiniz. Güvenlik amacıyla, bu seçenek için yedek bir ekran kilidi gerekir."</string>
     <string name="fullbackup_data_summary">"Cihaz verilerini (kablosuz ağ şifreleri ve çağrı geçmişi gibi) ve uygulama verilerini (uygulamalar tarafından depolanan ayarlar ve dosyalar gibi) Google Drive'a otomatik olarak yedekleyin.
 
 Otomatik yedeklemeyi etkinleştirdiğinizde, cihaz ve uygulama verileri belirli aralıklarla Google Drive'daki özel bir klasöre kaydedilir. Uygulama verileri, bir uygulamanın (geliştirici ayarlarına göre) kaydettiği herhangi bir veri olabilir. Buna kişiler, iletiler ve fotoğraflar gibi potansiyel olarak hassas veriler dahildir.
@@ -227,7 +222,6 @@ Yedek veriler Drive depolama kotanıza dahil edilmez. Büyük dosyalar veya geli
     <string name="language_input_gesture_summary_off">Active Edge kapalı</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge açık</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge açık, Asistanınız için sıkın</string>
-    <string name="lock_settings_picker_fingerprint_message">"Nexus Imprint'le kullanmak üzere yedek ekran kilidi seçin"</string>
     <string name="me_card_title">"Pixel'im"</string>
     <string name="my_device_info_account_preference_title">Google Hesabı</string>
     <string name="owner_info_settings_edit_text_hint">"Ör. Can'ın Pixel'i"</string>
@@ -317,25 +311,8 @@ Performansı artırmak için Yüz Tanıma Kilidi'ni Ayarlar'dan tekrar seçebili
     <string name="security_settings_face_enroll_too_hot_message">Telefon çok fazla ısındığından Yüz Tanıma Kilidi kurulumu tamamlanamadı. Telefon soğuduktan sonra tekrar deneyin.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">"Yüz Tanıma Kilidi'ni atla"</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefon çok ısındı</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">"Nexus Imprint'inizi, telefonunuzun kilidini açmanın yanı sıra satın alma işlemlerini ve uygulama erişimini yetkilendirmek için de kullanabilirsiniz. "<annotation id="url">Daha fazla bilgi edinin</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">"Nexus Imprint tarafından kaydedilen veriler güvenli şekilde depolanır ve her zaman telefonunuzda tutulur. Verilerinizi istediğiniz zaman Ayarlar'a girerek silebilirsiniz."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint, telefonunuzu uyandırmak ve kilidini açmak, satın alma işlemlerini yetkilendirmek veya uygulamalarda oturum açmak için parmak izinizi kullanır.
-
-Kimin parmak izini eklediğinize dikkat edin. Telefonunuza eklenen tüm parmak izleri bu işlemleri yapabilir. "<annotation link="url">Daha fazla bilgi</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint ile, satın alma işlemlerini yetkilendirmek veya uygulamalarda oturum açmak için parmak izinizi kullanabilirsiniz.
-
-Kimlerin parmak izini eklediğinize dikkat edin. Eklenen herhangi bir parmak izi bunların tümünü yapabilir.
-
-Not: Bu cihazın kilidini açmak için parmak izinizi kullanamazsınız. Daha fazla bilgi için kuruluşunuzun yöneticisiyle iletişim kurun."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Kilidi Nexus Imprint ile açma</string>
     <string name="security_settings_fingerprint_preference_summary_none">Parmak izini ayarlamak için dokunun</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint, kimliğinizi doğrulamak için parmak izinizin benzersiz bir modelini oluşturur. Kurulum sırasında bu parmak izi modelini oluşturmak için parmak izinizin farklı pozisyonlardan resmini çekersiniz.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">"İstediğiniz zaman parmak izi modelinizi silebilir veya Ayarlar'da Pixel Imprint'i devre dışı bırakabilirsiniz. Parmak izi modelleri, siz silene kadar telefonda saklanır."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint, çocuğunuzun kimliğini doğrulamak için parmak izinin benzersiz bir modelini oluşturur. Çocuğunuz, kurulum sırasında bu parmak izi modelini oluşturmak için parmak izinin farklı konumlardan resimlerini çeker.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">"Siz ve çocuğunuz, istediğiniz zaman Ayarlar'dan Pixel Imprint'i devre dışı bırakabilir veya çocuğunuzun parmak izi modelini silebilirsiniz. Parmak izi modelleri, silinene kadar telefonda saklanır."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Daha fazla bilgiyi g.co/pixel/fingerprintunlock adresinde bulabilirsiniz.</string>
-    <string name="setup_fingerprint_enroll_finish_message">"Telefonunuzu uyandırmak ve kilidini açmak için Nexus Imprint'in sensörüne dokunmanız yeterlidir."</string>
     <string name="setup_suggestion_summary">Veri kopyalama, telefonunuzla ödeme ve fazlasını yapın</string>
     <string name="setup_suggestion_title">Kurulumu tamamlayın</string>
     <string name="smart_battery_footer">Uyarlamalı Pil özelliği, pil ömrünü uzatmak için performansı düşürebilir ve arka plan etkinliğini azaltabilir. Bazı bildirimler gecikebilir.</string>
@@ -344,7 +321,6 @@ Not: Bu cihazın kilidini açmak için parmak izinizi kullanamazsınız. Daha fa
     <string name="sound_dashboard_summary">Ses seviyesi, dokunma teknolojisi, Rahatsız Etmeyin</string>
     <string name="sound_settings">Ses ve titreşim</string>
     <string name="storage_manager_indicator">Akıllı Depolama: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">"Pixel Imprint'i kullanın"</string>
     <string name="time_remaining_warning_subtext">Geçmiş kullanıma göre yaklaşık %1$s kaldı</string>
     <string name="time_remaining_warning_text">Pil kısa süre sonra bitebilir</string>
     <string name="tips_suggestion_summary">Telefonunuzla yapabileceklerinizi keşfedin</string>

@@ -172,11 +172,6 @@ Po zresetowaniu przejdź proces konfiguracji i wybierz opcję przeniesienia dany
     <string name="fallback_menu_item_copy_link">Kopiuj link</string>
     <string name="fallback_menu_item_open_in_browser">Otwórz w przeglądarce</string>
     <string name="fallback_menu_item_share_link">Udostępnij link</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + hasło</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + wzór</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + kod PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Kontynuuj bez Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint pozwala odblokować telefon odciskiem palca. Ze względów bezpieczeństwa opcja wymaga dodatkowej blokady ekranu.</string>
     <string name="fullbackup_data_summary">"Automatycznie zapisuj kopie zapasowe danych urządzenia (np. haseł Wi-Fi i historii połączeń) oraz danych aplikacji (np. ustawień i plików zapisanych przez aplikacje) na Dysku Google.
 
 Kiedy włączysz automatyczną kopię zapasową, dane urządzenia i aplikacji będą regularnie zapisywane w prywatnym folderze na Dysku Google. Dane aplikacji mogą obejmować dowolne informacje zapisane przez aplikację (w zależności od ustawień określonych przez programistę), w tym potencjalnie poufne dane takie jak kontakty, wiadomości i zdjęcia.
@@ -228,7 +223,6 @@ Kopia zapasowa nie wlicza się do limitu miejsca na Dysku Google. Nie zostanie t
     <string name="language_input_gesture_summary_off">Funkcja Active Edge wyłączona</string>
     <string name="language_input_gesture_summary_on_non_assist">Funkcja Active Edge włączona</string>
     <string name="language_input_gesture_summary_on_with_assist">Funkcja Active Edge włączona – ściśnij, by włączyć Asystenta</string>
-    <string name="lock_settings_picker_fingerprint_message">Wybierz zapasową blokadę ekranu używaną z czujnikiem Nexus Imprint</string>
     <string name="me_card_title">Mój Pixel</string>
     <string name="my_device_info_account_preference_title">Konto Google</string>
     <string name="owner_info_settings_edit_text_hint">Np. Pixel Jurka</string>
@@ -316,25 +310,8 @@ Aby poprawić szybkość działania, możesz skonfigurować rozpoznawanie twarzy
     <string name="security_settings_face_enroll_too_hot_message">Nie można dokończyć konfiguracji rozpoznawania twarzy, ponieważ telefon jest zbyt gorący. Spróbuj ponownie później, gdy telefon ostygnie.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Pomiń rozpoznawanie twarzy</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefon jest zbyt gorący</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Oprócz odblokowywania telefonu możesz też używać Nexus Imprint, by autoryzować zakupy i otwierać aplikacje. <annotation id="url">Więcej informacji</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Dane zarejestrowane przez Nexus Imprint są przechowywane w bezpieczny sposób i dostępne tylko na Twoim telefonie. W dowolnym momencie możesz je usunąć w Ustawieniach.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint pozwala wybudzać i odblokowywać telefon, autoryzować zakupy oraz logować się w aplikacjach za pomocą odcisku palca.
-
-Z rozwagą dodawaj odciski palców innych osób, bo każda z nich będzie mogła wykonywać wszystkie te czynności. "<annotation link="url">Więcej informacji</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint pozwala autoryzować zakupy lub logować się w aplikacjach za pomocą odcisku palca.
-
-Z rozwagą dodawaj odciski palców innych osób – każda dodana osoba będzie mogła wykonywać wszystkie powyższe działania.
-
-Uwaga: nie możesz odblokowywać tego urządzenia odciskiem palca. Więcej informacji uzyskasz u administratora swojej organizacji."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Odblokuj za pomocą Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Kliknij, by zarejestrować odcisk palca</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint tworzy unikalny model odcisku palca, który pozwala zweryfikować Twoją tożsamość. Aby taki model mógł powstać, musisz odcisnąć palec kilka razy pod różnymi kątami.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">W dowolnej chwili możesz usunąć model odcisku palca lub wyłączyć funkcję Pixel Imprint w Ustawieniach. Modele odcisków palców są zapisane na telefonie, dopóki ich nie usuniesz.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint tworzy unikalny model odcisku palca Twojego dziecka, który pozwala zweryfikować jego tożsamość. Aby utworzyć taki model odcisku palca podczas konfiguracji, trzeba odcisnąć palec kilka razy pod różnymi kątami.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Ty i Twoje dziecko w dowolnej chwili możecie usunąć model odcisku palca i wyłączyć Pixel Imprint w Ustawieniach. Modele odcisku palca są przechowywane na telefonie, dopóki nie zostaną usunięte.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Więcej informacji znajdziesz na stronie g.co/pixel/fingerprintunlock</string>
-    <string name="setup_fingerprint_enroll_finish_message">Aby wybudzić lub odblokować telefon, dotknij czytnika Nexus Imprint.</string>
     <string name="setup_suggestion_summary">Kopiuj dane, płać telefonem i wykonuj inne działania</string>
     <string name="setup_suggestion_title">Dokończ konfigurację</string>
     <string name="smart_battery_footer">Aby wydłużyć czas pracy na baterii, Bateria adaptacyjna może ograniczyć wydajność i aktywność w tle. Niektóre powiadomienia mogą być opóźnione.</string>
@@ -343,7 +320,6 @@ Uwaga: nie możesz odblokowywać tego urządzenia odciskiem palca. Więcej infor
     <string name="sound_dashboard_summary">Głośność, reakcja na dotyk, Nie przeszkadzać</string>
     <string name="sound_settings">Dźwięk i wibracje</string>
     <string name="storage_manager_indicator">Inteligentne przechowywanie danych: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Użyj funkcji Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Jeszcze około %1$s (na podstawie dotychczasowego sposobu korzystania)</string>
     <string name="time_remaining_warning_text">Bateria może się wkrótce wyczerpać</string>
     <string name="tips_suggestion_summary">Zobacz, do czego możesz użyć telefonu</string>

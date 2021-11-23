@@ -171,11 +171,6 @@
     <string name="fallback_menu_item_copy_link">ଲିଙ୍କ୍ କପି କରନ୍ତୁ</string>
     <string name="fallback_menu_item_open_in_browser">ବ୍ରାଉଜର୍‌ରେ ଖୋଲନ୍ତୁ</string>
     <string name="fallback_menu_item_share_link">ଲିଙ୍କ୍ ସେୟାର୍ କରନ୍ତୁ</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus ଇମପ୍ରିଣ୍ଟ + ପାସୱର୍ଡ</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus ଇମପ୍ରିଣ୍ଟ + ପାଟର୍ନ</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus ଇମପ୍ରିଣ୍ଟ + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus ଇମପ୍ରିଣ୍ଟରେ ଜାରିରଖନ୍ତୁ</string>
-    <string name="fingerprint_unlock_title">Nexus ଇମପ୍ରିଣ୍ଟରେ, ଆପଣ ନିଜ ଟିପଚିହ୍ନ ବ୍ୟବହାର କରି ନିଜର ଫୋନ୍‌ ଅନଲକ‌ କରିପାରିବେ। ସୁରକ୍ଷା କାରଣ ହେତୁ, ଏହି ବିକଳ୍ପର ଏକ ବ୍ୟାକଅପ୍‌ ସ୍କ୍ରିନ୍‌ ଲକ୍‌ ଆବଶ୍ୟକ ଅଟେ।</string>
     <string name="fullbackup_data_summary">"ଡିଭାଇସ୍ ଡାଟା (ଯେପରିକି ୱାଇ-ଫାଇ ପାସୱାର୍ଡ ଏବଂ କଲ୍‌ ହିଷ୍ଟୋରୀ) ଏବଂ ଆପ୍‌ ଡାଟା (ଯେପରିକି ଆପ୍‌ ଦ୍ୱାରା ଷ୍ଟୋର୍‌ କରାଯାଇଥିବା ସେଟିଙ୍ଗ ଏବଂ ଫାଇଲ୍‌) ସ୍ୱଚାଳିତ ଭାବେ Google ଡ୍ରାଇଭରେ ବ୍ୟାକଅପ୍‌ ନିଅନ୍ତୁ।
 
 ଆପଣ ସ୍ୱଚାଳିତ ବ୍ୟାକଅପ୍‌ ଅନ୍‌ କରିବାପରେ, ଡିଭାଇସ୍‌ ଏବଂ ଆପ୍‌ ଡାଟା ସମୟ ଅନୁଯାୟୀ Google ଡ୍ରାଇଭରେ ଥିବା ଏକ ବ୍ୟକ୍ତିଗତ ଫୋଲ୍ଡରରେ ସେଭ୍‌ ହୋଇଥାଏ। ଆପ୍‌ ଡାଟା ଯେକୌଣସି ଡାଟା ହୋଇପାରେ ଯାହା ଏକ ଆପ୍‌ ସେଭ୍‌ କରିଥାଏ (ଡେଭଲପରଙ୍କ ସେଟିଙ୍ଗକୁ ଆଧାର କରି), ଯେଉଁଥିରେ ଗୁରୁତ୍ତ୍ୱପୂର୍ଣ୍ଣ ସମ୍ବଦନଶୀଳ ଡାଟା ଯେପରିକି ଯୋଗାଯୋଗ, ମେସେଜ୍‌, ଏବଂ ଫଟୋ ଅନ୍ତର୍ଭୂକ୍ତ ରହିଥାଏ।
@@ -227,7 +222,6 @@
     <string name="language_input_gesture_summary_off">ଆକ୍ଟିଭ୍‌ ଏଡଜ୍‌ ଅଫ୍‌ କରାଯାଇଛି</string>
     <string name="language_input_gesture_summary_on_non_assist">ଆକ୍ଟିଭ୍‌ ଏଜ୍‌ ଚାଲୁ କରାଯାଇଛି</string>
     <string name="language_input_gesture_summary_on_with_assist">ଆକ୍ଟିଭ୍‌ ଏଜ୍ ଚାଲୁ‌ ଅଛି,ଆପଣଙ୍କ Assistant ପାଇଁ ସ୍କୁଇଜ୍ କରନ୍ତୁ</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus ଇମପ୍ରିଣ୍ଟରେ ବ୍ୟବହାର କରିବାକୁ ଏକ ବ୍ୟାକଅପ୍‌ ସ୍କ୍ରୀନ୍ ଲକ୍‌ ବାଛନ୍ତୁ</string>
     <string name="me_card_title">ମୋ Pixel</string>
     <string name="my_device_info_account_preference_title">Google ଆକାଉଣ୍ଟ</string>
     <string name="owner_info_settings_edit_text_hint">ଯେପରି ରାଜୁର Pixel।</string>
@@ -317,26 +311,9 @@ g.co/pixel/faceunlockରେ ଅଧିକ ଜାଣନ୍ତୁ।"</string>
     <string name="security_settings_face_enroll_too_hot_message">ଫୋନ୍ ଅଧିକ ଗରମ ହୋଇଥିବା ଯୋଗୁଁ ଫେସ୍ ଅନଲକ୍ ସେଟଅପ୍ ସମ୍ପୂର୍ଣ୍ଣ କରାଯାଇପାରିବ ନାହିଁ। ଫୋନ୍ ଥଣ୍ଡା ହେବା ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ଫେସ୍ ଅନଲକ୍ ବାଦ୍ ଦିଅନ୍ତୁ</string>
     <string name="security_settings_face_enroll_too_hot_title">ଫୋନ୍ ଅଧିକ ଗରମ ହୋଇଛି</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">ଆପଣଙ୍କ ଫୋନ୍‌ ଅନଲକ୍‌ କରିବା ସହିତ, କିଣାକିଣିକୁ ସୀକୃତି ଦେବାକୁ ଏବଂ ଆପ ଆକ୍ସେସ୍‌ କରିବାକୁ ମଧ୍ୟ ଆପଣ Nexus ଇମପ୍ରିଣ୍ଟ ବ୍ୟବହାର କରିପାରିବେ। <annotation id="url">ଅଧିକ ଜାଣନ୍ତୁ</annotation></string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">ଏହା ଆପଣଙ୍କ ଫୋନ୍‌ ପଛରେ ଅଛି। ନିଜ ତର୍ଜନୀର ବ୍ୟବହାର କରନ୍ତୁ।</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint ମାଧ୍ୟମରେ ରେକର୍ଡ କରାଯାଇଥିବା ଡାଟା ସୁରକ୍ଷିତ ଭାବେ ଷ୍ଟୋର୍ କରାଯାଇଥାଏ ଏବଂ ଏହାକୁ କେବେ ବି ଆପଣଙ୍କ ଫୋନରୁ କାଢ଼ି ଦିଆଯାଏ ନାହିଁ। ଆପଣ ସେଟିଂସରେ ଯେ କୌଣସି ସମୟରେ ଆପଣଙ୍କ ଡାଟା ଡିଲିଟ୍ କରିପାରିବେ।</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"ଆପଣଙ୍କ ଫୋନକୁ ସକ୍ରିୟ କରି ଅନଲକ୍ କରିବାକୁ, କ୍ରୟଗୁଡ଼ିକୁ ଅଧିକାର ଦେବାକୁ କିମ୍ବା ଆପଗୁଡ଼ିକରେ ସାଇନ୍ ଇନ୍ କରିବାକୁ Nexus Imprint ଆପଣଙ୍କ ଟିପଚିହ୍ନ ବ୍ୟବହାର କରେ।
-
-ଆପଣ କାହାର ଟିପଚିହ୍ନ ଯୋଗ କରୁଛନ୍ତି, ସେ ବିଷୟରେ ସତର୍କ ରୁହନ୍ତୁ। ଯୋଗ କରାଯାଇଥିବା ଯେ କୌଣସି ଟିପଚିହ୍ନ ଏହି କାର୍ଯ୍ୟଗୁଡ଼ିକ କରିବାକୁ ସକ୍ଷମ ହେବ। "<annotation link="url">ଅଧିକ ଜାଣନ୍ତୁ</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"କିଣାକିଣିକୁ ସ୍ୱୀକୃତି ଦେବାକୁ, କିମ୍ବା ଆପରେ ସାଇନ୍ ଇନ୍‌ କରିବାକୁ Nexus ଇମପ୍ରିଣ୍ଟରେ ଆପଣଙ୍କ ଟିପଚିହ୍ନ ବ୍ୟବହାର କରିପାରିବେ।
-
-କାହାର ଟିପଚିହ୍ନ ଯୋଡ଼ୁଛନ୍ତି ସେଥିପ୍ରତି ଧ୍ୟାନ ଦିଅନ୍ତୁ। ଯୋଡ଼ାଯାଇଥିବା ଯେ କୌଣସି ଟିପଚିହ୍ନ ଏହିସବୁ ଜିନିଷଗୁଡ଼ିକ କରିପାରିବ।
-
-ଧ୍ୟାନଦିଅନ୍ତୁ: ଏହି ଡିଭାଇସ୍‌ ଅନଲକ୍‌ କରିବାକୁ ଆପଣ ଟିପଚିହ୍ନ ବ୍ୟବହାର କରିପାରିବେ ନାହିଁ। ଅଧିକ ସୂଚନା ପାଇଁ, ଆପଣଙ୍କ ସଂସ୍ଥାର ଆଡମିନଙ୍କ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus ଇମପ୍ରିଣ୍ଟ ଦ୍ୱାରା ଅନଲକ୍‌ କରନ୍ତୁ</string>
     <string name="security_settings_fingerprint_preference_summary_none">ଟିପଚିହ୍ନ ସେଟଅପ୍‌ କରିବା ପାଇଁ ଟାପ୍‌ କରନ୍ତୁ</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus ଇମପ୍ରିଣ୍ଟ</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">ଏହା ଆପଣ ବୋଲି ଯାଞ୍ଚ କରିବା ପାଇଁ Pixel Imprint ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଏକ ସ୍ୱତନ୍ତ୍ର ମଡେଲ୍ ତିଆରି କରିଥାଏ। ସେଟଅପ୍ ସମୟରେ ଏହି ଟିପଚିହ୍ନ ମଡେଲ୍ ତିଆରି କରିବାକୁ, ଆପଣ ବିଭିନ୍ନ ଅବସ୍ଥିତିରୁ ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଛବି ନେବେ।</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">ଆପଣ ଆପଣଙ୍କ ଟିପଚିହ୍ନ ମଡେଲକୁ ଡିଲିଟ୍ କରିପାରିବେ କିମ୍ବା ଯେ କୌଣସି ସମୟରେ ସେଟିଂସରେ Pixel Imprintକୁ ବନ୍ଦ କରିପାରିବେ। ଟିପଚିହ୍ନ ମଡେଲଗୁଡ଼ିକୁ ଆପଣ ଡିଲିଟ୍ ନକରିବା ପର୍ଯ୍ୟନ୍ତ ସେଗୁଡ଼ିକ ଫୋନରେ ଷ୍ଟୋର୍ ହୋଇ ରହିଥାଏ।</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"ଏହା ଆପଣଙ୍କ ପିଲା ବୋଲି ଯାଞ୍ଚ କରିବା ପାଇଁ Pixel Imprint ତା’ର ଟିପଚିହ୍ନର ଏକ ସ୍ୱତନ୍ତ୍ର ମଡେଲ୍ ତିଆରି କରିଥାଏ। ସେଟଅପ୍ ସମୟରେ ଏହି ଟିପଚିହ୍ନ ମଡେଲ୍ ତିଆରି କରିବାକୁ, ସେ ବିଭିନ୍ନ ଅବସ୍ଥିତିରୁ ତା'ର ଟିପଚିହ୍ନର ଛବି ନେବ।"</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">ଟିପଚିହ୍ନର ମଡେଲକୁ ଆପଣ ଏବଂ ଆପଣଙ୍କ ପିଲା ଡିଲିଟ୍ କରିପାରିବେ କିମ୍ବା ଯେ କୌଣସି ସମୟରେ ସେଟିଂସରେ Pixel Imprint ବନ୍ଦ କରିପାରିବେ। ଟିପଚିହ୍ନ ମଡେଲଗୁଡ଼ିକୁ ଡିଲିଟ୍ କରାନଯିବା ପର୍ଯ୍ୟନ୍ତ ସେଗୁଡ଼ିକ ଫୋନରେ ଷ୍ଟୋର୍ ହୋଇ ରହିଥାଏ।</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">g.co/pixel/fingerprintunlockରେ ଅଧିକ ଜାଣନ୍ତୁ।</string>
-    <string name="setup_fingerprint_enroll_finish_message">ଆପଣଙ୍କ ଫୋନ୍‌ ଉଠାଇବାକୁ ଏବଂ ଅନଲକ୍‌ କରିବାକୁ Nexus ଇମପ୍ରିଣ୍ଟକୁ କେବଳ ସ୍ପର୍ଶ କରନ୍ତୁ।</string>
     <string name="setup_suggestion_summary">ଡାଟା କପି କରନ୍ତୁ, ଆପଣଙ୍କ ଫୋନରେ ପେମେଣ୍ଟ କରନ୍ତୁ ଓ ଆହୁରି ଅନେକ କିଛି କରନ୍ତୁ</string>
     <string name="setup_suggestion_title">ସେଟ୍ ଅପ୍ ସମ୍ପୂର୍ଣ୍ଣ କରନ୍ତୁ</string>
     <string name="smart_battery_footer">ବ୍ୟାଟେରୀ ଲାଇଫ୍ ବଢ଼ାଇବାକୁ, ପରଫରମାନ୍ସ ଏବଂ ପୃଷ୍ଠପଟର କାର୍ଯ୍ୟକଳାପକୁ ଆଡେପ୍ଟିଭ୍ ବ୍ୟାଟେରୀ କମ୍ କରିପାରେ। କିଛି ବିଜ୍ଞପ୍ତି ପାଇଁ ବିଳମ୍ବ ହୋଇପାରେ।</string>
@@ -345,7 +322,6 @@ g.co/pixel/faceunlockରେ ଅଧିକ ଜାଣନ୍ତୁ।"</string>
     <string name="sound_dashboard_summary">ଭଲ୍ୟୁମ୍, ହାପଟିକ୍ସ, ବିରକ୍ତ କରନ୍ତୁ ନାହିଁ</string>
     <string name="sound_settings">ସାଉଣ୍ଡ ଓ ଭାଇବ୍ରେସନ୍</string>
     <string name="storage_manager_indicator">ସ୍ମାର୍ଟ ଷ୍ଟୋରେଜ୍‌: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint ବ୍ୟବହାର କରନ୍ତୁ</string>
     <string name="time_remaining_warning_subtext">ବିଗତ ବ୍ୟବହାରକୁ ଆଧାର କରି %1$s ବାକି ରହିଛି</string>
     <string name="time_remaining_warning_text">ଖୁବ୍ ଶୀଘ୍ର ବ୍ୟାଟେରୀ ଶେଷ ହୋଇଯାଇପାରେ</string>
     <string name="tips_suggestion_summary">ଫୋନରେ ଆପଣ କଣ କରିପାରିବେ ତାହା ଏକ୍ସପ୍ଲୋର କର</string>

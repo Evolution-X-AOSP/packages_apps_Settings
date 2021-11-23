@@ -172,11 +172,6 @@ Kui see on lähtestatud, läbige seadistusprotsess ning hankige oma eelmisest te
     <string name="fallback_menu_item_copy_link">Kopeeri link</string>
     <string name="fallback_menu_item_open_in_browser">Ava brauseris</string>
     <string name="fallback_menu_item_share_link">Jaga linki</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + parool</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + muster</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN-kood</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Jätka ilma Nexus Imprintita</string>
-    <string name="fingerprint_unlock_title">Nexus Imprintiga saate telefoni avada oma sõrmejäljega. Turvalisuse tagamiseks nõuab see valik varuekraanilukku.</string>
     <string name="fullbackup_data_summary">"Varundage seadme andmed (nt WiFi-paroolid ja kõneajalugu) ning rakenduse andmed (nt seaded ja rakenduste salvestatud failid) automaatselt Google Drive'i.
 
 Kui lülitate automaatse varundamise sisse, salvestatakse seadme ja rakenduse andmed regulaarselt Google Drive'is privaatsesse kausta. Rakenduse andmed võivad olla mis tahes andmed, mille rakendus on salvestanud (arendaja seadete põhjal), sh potentsiaalselt tundlikud andmed, nagu kontaktid, sõnumid ja fotod.
@@ -228,7 +223,6 @@ Varundatud andmeid ei loeta teie Drive'i salvestuskvoodi hulka. Suuri faile ja f
     <string name="language_input_gesture_summary_off">Active Edge on välja lülitatud</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge on sisse lülitatud</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge on sees, pigistage assistendi kasutamiseks</string>
-    <string name="lock_settings_picker_fingerprint_message">Valige varuekraanilukk, mida funktsiooniga Nexus Imprint kasutada</string>
     <string name="me_card_title">Minu Pixel</string>
     <string name="my_device_info_account_preference_title">"Google'i konto"</string>
     <string name="owner_info_settings_edit_text_hint">Nt Karli Pixel.</string>
@@ -316,25 +310,8 @@ Toimivuse parandamiseks saate näoga avamise seadetes uuesti seadistada."</strin
     <string name="security_settings_face_enroll_too_hot_message">Näoga avamise seadistust ei saa lõpule viia, kuna telefon on liiga kuum. Proovige uuesti, kui telefon on jahtunud.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Jäta näoga avamine vahele</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefon on liiga kuum</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Lisaks telefoni avamisele saate funktsiooni Nexus Imprint kasutada ka ostude volitamiseks ja rakendustele juurdepääsu andmiseks. <annotation id="url">Lisateave</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprinti salvestatud andmed talletatakse turvaliselt ja neid ei edastata telefonist väljapoole. Seadetes võite oma andmed alati kustutada.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint kasutab telefoni äratamiseks ja avamiseks, ostude volitamiseks ning rakendustesse sisselogimiseks teie sõrmejälge.
-
-Olge sõrmejälgede lisamisel ettevaatlik. Neid toiminguid saab teha kõigi lisatud sõrmejälgedega. "<annotation link="url">Lisateave</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Seadmega Nexus Imprint saate ostude volitamiseks või rakendustesse sisselogimiseks kasutada oma sõrmejälge.
-
-Olge sõrmejälgede lisamisel ettevaatlik – neid toiminguid saab teha kõigi lisatud sõrmejälgedega.
-
-Märkus. Te ei saa sõrmejälge kasutada selle seadme avamiseks. Lisateabe saamiseks võtke ühendust organisatsiooni administraatoriga."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Ava Nexus Imprintiga</string>
     <string name="security_settings_fingerprint_preference_summary_none">Puudutage sõrmejälje seadistamiseks</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint loob teie sõrmejäljest kordumatu mudeli, mille abil teie isik kinnitada. Sõrmejäljemudeli loomiseks jäädvustate seadistamise ajal kujutised oma sõrmejäljest eri asendites.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Seadetes saate oma sõrmejäljemudeli alati kustutada või Pixel Imprinti välja lülitada. Sõrmejäljemudelid salvestatakse telefoni, kuni need kustutate.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint loob teie lapse sõrmejäljest kordumatu mudeli, mille abil tema isik kinnitada. Sõrmejäljemudeli loomiseks jäädvustatakse seadistamise ajal kujutised tema sõrmejäljest eri asendites.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Seadetes saate (või saab laps) sõrmejäljemudeli alati kustutada või Pixel Imprinti välja lülitada. Sõrmejäljemudelid salvestatakse telefoni, kuni need kustutatakse.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Lisateave: g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Telefoni äratamiseks ja avamiseks puudutage lihtsalt Nexus Imprinti andurit.</string>
     <string name="setup_suggestion_summary">Kopeerige andmeid, makske telefoniga jm</string>
     <string name="setup_suggestion_title">Lõpetage seadistamine</string>
     <string name="smart_battery_footer">Aku tööea pikendamiseks võib kohanduv akuhaldur vähendada jõudlust ja taustategevusi. Mõni märguanne võib viibida.</string>
@@ -343,7 +320,6 @@ Märkus. Te ei saa sõrmejälge kasutada selle seadme avamiseks. Lisateabe saami
     <string name="sound_dashboard_summary">Helitugevus, värintagasiside, Mitte segada</string>
     <string name="sound_settings">Heli ja vibreerimine</string>
     <string name="storage_manager_indicator">Nutikas salvestusruum: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Kasutage Pixel Imprinti</string>
     <string name="time_remaining_warning_subtext">Teie kasutuse alusel on jäänud ligikaudu %1$s</string>
     <string name="time_remaining_warning_text">Aku võib peagi tühjaks saada</string>
     <string name="tips_suggestion_summary">Uurige, mida saate oma telefoniga teha</string>

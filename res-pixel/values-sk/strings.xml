@@ -171,11 +171,6 @@ Po obnovení zopakujte proces nastavenia a zvoľte možnosť skopírovania dát
     <string name="fallback_menu_item_copy_link">Kopírovať odkaz</string>
     <string name="fallback_menu_item_open_in_browser">Otvoriť v prehliadači</string>
     <string name="fallback_menu_item_share_link">Zdieľať odkaz</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + heslo</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + bezpečnostný vzor</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Pokračovať bez senzora Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Pomocou senzora Nexus Imprint môžete odomknúť zariadenie odtlačkom prsta. Táto možnosť vyžaduje z bezpečnostných dôvodov dodatočnú zámku obrazovky.</string>
     <string name="fullbackup_data_summary">"Automaticky zálohujte údaje zariadenia (ako sú heslá sietí Wi‑Fi a história hovorov) a údaje aplikácií (ako sú nastavenia a súbory uložené aplikáciami) na Disk Google.
 
 Keď zapnete automatické zálohovanie, budú údaje zariadenia a aplikácií pravidelne ukladané do súkromného priečinka na Disku Google. Údaje aplikácií môžu zahŕňať údaje, ktoré uložila aplikácia (v závislosti od nastavení vývojára) vrátane potenciálne citlivých údajov, ako sú kontakty, správy a fotky.
@@ -227,7 +222,6 @@ Zálohované údaje sa nezapočítavajú do kvóty úložiska. Veľké súbory a
     <string name="language_input_gesture_summary_off">Funkcia Active Edge je vypnutá</string>
     <string name="language_input_gesture_summary_on_non_assist">Funkcia Active Edge je zapnutá</string>
     <string name="language_input_gesture_summary_on_with_assist">Funkcia Active Edge je zap., stlačením aktivujete Asistenta</string>
-    <string name="lock_settings_picker_fingerprint_message">Vyberte dodatočnú zámku obrazovky, ktorá sa použije s technológiou Nexus Imprint</string>
     <string name="me_card_title">Môj Pixel</string>
     <string name="my_device_info_account_preference_title">Účet Google</string>
     <string name="owner_info_settings_edit_text_hint">Napr. Petrov Pixel</string>
@@ -315,25 +309,8 @@ Ak chcete zlepšiť výkonnosť, môžete znova nastaviť odomknutie tvárou v 
     <string name="security_settings_face_enroll_too_hot_message">Nastavenie odomknutia tvárou sa nedá dokončiť, pretože telefón je príliš horúci. Skúste to neskôr, keď sa ochladí.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Preskočiť odomknutie tvárou</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefón je príliš horúci</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Okrem odomknutia telefónu môžete pomocou senzora Nexus Imprint schvaľovať nákupy a prístup do aplikácií. <annotation id="url">Ďalšie informácie</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Údaje zaznamenané funkciou Nexus Imprint sú bezpečne uložené a nikdy neopustia váš telefón. Môžete ich kedykoľvek odstrániť v Nastaveniach.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint vám umožňuje zobúdzať a odomkýnať telefón, schvaľovať nákupy a prihlasovať sa do aplikácií odtlačkom prsta.
-
-Dávajte pozor, čie odtlačky prstov pridáte. Tieto operácie budú môcť vykonávať všetky pridané odtlačky. "<annotation link="url">Ďalšie informácie</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Vďaka senzoru Nexus Imprint môžete schvaľovať nákupy a prihlasovať sa do aplikácií pomocou odtlačku prsta.
-
-Dávajte pozor, čie odtlačky prstov pridáte. Tieto operácie budú môcť vykonávať všetky pridané odtlačky prstov.
-
-Poznámka: Odtlačok prsta nie je možné použiť na odomknutie tohto zariadenia. Ďalšie informácie vám poskytne správca vašej organizácie."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Odomykanie cez Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Klepnutím nastavíte odtlačok prsta</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint vytvorí jedinečný model odtlačku vášho prsta, ktorým overíte svoju totožnosť. Počas nastavovania nasnímajte svoj prst z rôznych pozícií, aby bolo možné tento model odtlačku prsta vytvoriť.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">V Nastaveniach môžete kedykoľvek odstrániť model odtlačku prsta alebo vypnúť Pixel Imprint. Modely odtlačkov prstov sú uložené v telefóne, dokým ich neodstránite.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint vytvorí jedinečný model odtlačku prsta vášho dieťaťa, ktorým overí svoju totožnosť. Počas nastavovania nasnímajte jeho prst z rôznych pozícií, aby bolo možné tento model odtlačku prsta vytvoriť.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Vy a vaše dieťa môžete v Nastaveniach kedykoľvek model odtlačku prsta odstrániť alebo Pixel Imprint vypnúť. Modely odtlačku prsta sú uložené v telefóne, kým ich neodstránite.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Viac sa dozviete na g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Telefón zobudíte a odomknete jednoducho tak, že sa dotknete senzora Nexus Imprint.</string>
     <string name="setup_suggestion_summary">Kopírovanie údajov, platby telefónom a pod.</string>
     <string name="setup_suggestion_title">Dokončenie nastavenia</string>
     <string name="smart_battery_footer">Adaptácia batérie predĺži výdrž batérie obmedzením výkonnosti a aktivity na pozadí. Niektoré upozornenia môžu byť oneskorené.</string>
@@ -342,7 +319,6 @@ Poznámka: Odtlačok prsta nie je možné použiť na odomknutie tohto zariadeni
     <string name="sound_dashboard_summary">Hlasitosť, hmatová odozva, režim bez vyrušení</string>
     <string name="sound_settings">Zvuk a vibrácie</string>
     <string name="storage_manager_indicator">Inteligentné úložisko: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Používanie senzora Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Zostáva približne %1$s (odhad na základe predchádzajúceho využitia)</string>
     <string name="time_remaining_warning_text">Batéria sa môže čoskoro minúť</string>
     <string name="tips_suggestion_summary">Zistite, čo vám telefón umožňuje</string>

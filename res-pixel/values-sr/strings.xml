@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">Копирај линк</string>
     <string name="fallback_menu_item_open_in_browser">Отвори у прегледачу</string>
     <string name="fallback_menu_item_share_link">Дели линк</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + лозинка</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + шаблон</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Настави без Nexus Imprint-а</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint вам омогућава да откључавате телефон помоћу отиска прста. Ова опција захтева резервни метод закључавања екрана из безбедносних разлога.</string>
     <string name="fullbackup_data_summary">"Аутоматски правите резервне копије података уређаја (попут WiFi лозинки и историје позива) и података апликација (попут подешавања и датотека сачуваних у апликацијама) на Google диску.
 
 Када укључите аутоматско прављење резервних копија, подаци уређаја и апликација се повремено чувају у приватном фолдеру на Google диску. Подаци апликације могу да буду било који подаци које је апликација сачувала (на основу подешавања програмера), укључујући потенцијално осетљиве податке као што су контакти, поруке и слике.
@@ -227,7 +222,6 @@
     <string name="language_input_gesture_summary_off">Active Edge је искључен</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge је укључен</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge је укључен, стисните за покретање Помоћника</string>
-    <string name="lock_settings_picker_fingerprint_message">Изаберите резервну опцију закључавања екрана за коришћење са Pixel Imprint-ом</string>
     <string name="me_card_title">Мој Pixel</string>
     <string name="my_device_info_account_preference_title">Google налог</string>
     <string name="owner_info_settings_edit_text_hint">Нпр. Јованов Pixel.</string>
@@ -317,26 +311,9 @@
     <string name="security_settings_face_enroll_too_hot_message">Подешавање откључавања лицем не може да се доврши јер је телефон превише загрејан. Пробајте поново касније када се телефон охлади.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Прескочи откључавање лицем</string>
     <string name="security_settings_face_enroll_too_hot_title">Телефон је превише загрејан</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Осим за откључавање телефона, Nexus Imprint можете да користите и за давање овлашћења за куповине и приступ апликација. <annotation id="url">Сазнајте више</annotation></string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">Налази се на задњој страни телефона. Користите кажипрст.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Подаци које забележи Nexus Imprint безбедно се чувају и остају само на телефону. Можете да избришете податке у било ком тренутку у Подешавањима.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint користи отисак прста за буђење и откључавање телефона, давање овлашћења за куповине или пријављивање у апликације.
-
-Водите рачуна о томе чије отиске прстију додајете. Сви додати отисци прстију могу да обављају ове радње. "<annotation link="url">Сазнајте више</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Уз Nexus Imprint можете да користите отисак прста за одобравање куповине или пријављивање на апликације.
-
-Пажљиво бирајте чије отиске прста ћете додати. Сви отисци прста које додате моћи ће да изврше горенаведене радње.
-
-Напомена: Не можете да користите отисак прста за откључавање овог уређаја. За више информација обратите се администратору организације."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Откључајте Nexus Imprint-ом</string>
     <string name="security_settings_fingerprint_preference_summary_none">Додирните да бисте подесили отисак прста</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint прави јединствен модел отиска прста ради верификовања идентитета. Да бисте направили тај модел отиска прста током подешавања, морате да сликате отисак прста из различитих положаја.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Можете да избришете модел отиска прста или да искључите Pixel Imprint у било ком тренутку у Подешавањима. Модели отисака прстију се чувају на телефону док их не избришете.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint прави јединствени модел дететовог отиска прста ради верификовања идентитета. Да би направило тај модел отиска прста током подешавања, дете треба да слика отисак прста из различитих положаја.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Ви и дете можете да избришете модел отиска прста детета или да у било ком тренутку искључите Pixel Imprint у подешавањима. Модели отисака прстију се чувају на телефону док се не избришу.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Сазнајте више на g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Једноставно додирните Nexus Imprint сензор да бисте пробудили и откључали телефон.</string>
     <string name="setup_suggestion_summary">Копирајте податке, плаћајте телефоном итд.</string>
     <string name="setup_suggestion_title">Завршите подешавање</string>
     <string name="smart_battery_footer">Да би продужила трајање батерије, прилагодљива батерија може да смањи учинак и активности у позадини. Нека обавештења могу да касне.</string>
@@ -345,7 +322,6 @@
     <string name="sound_dashboard_summary">Јачина звука, додирне повратне информације, Не узнемиравај</string>
     <string name="sound_settings">Звук и вибрирање</string>
     <string name="storage_manager_indicator">Паметна меморија: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Користите Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">На основу претходног коришћења имате још отприлике %1$s</string>
     <string name="time_remaining_warning_text">Батерија ће се можда ускоро испразнити</string>
     <string name="tips_suggestion_summary">Истражите шта можете да радите телефоном</string>

@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">ສຳເນົາລິ້ງ</string>
     <string name="fallback_menu_item_open_in_browser">ເປີດໃນໂປຣແກຣມທ່ອງເວັບ</string>
     <string name="fallback_menu_item_share_link">ແບ່ງປັນລິ້ງ</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + ລະຫັດຜ່ານ</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + ຮູບແບບ</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">ສືບຕໍ່ໂດຍບໍ່ມີ Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">ດ້ວຍ Nexus Imprint, ທ່ານສາມາດປົດລັອກໂທລະສັບຂອງທ່ານໂດຍໃຊ້ລາຍນິ້ວມືຂອງທ່ານໄດ້. ເພື່ອຄວາມປອດໄພ, ຕົວເລືອກນີ້ຈຳເປັນຕ້ອງມີການລັອກໜ້າຈໍສຳຮອງໄວ້.</string>
     <string name="fullbackup_data_summary">"ສຳຮອງຂໍ້ມູນອຸປະກອນໂດຍອັດຕະໂນມັດໄປໃສ່ Google Drive (ເຊັ່ນ: ລະຫັດຜ່ານ Wi-Fi ແລະ ປະຫວັດການໂທ) ແລະ ຂໍ້ມູນແອັບ (ເຊັ່ນ: ການຕັ້ງຄ່າ ແລະ ໄຟລ໌ທີ່ເກັບໄວ້ໂດຍແອັບ).
 
 ເມື່ອທ່ານເປີດການສຳຮອງໂດຍອັດຕະໂນມັດແລ້ວ, ຂໍ້ມູນແອັບ ແລະ ອຸປະກອນຖືກບັນທຶກໄປໃສ່ໂຟນເດີສ່ວນຕົວຢູ່ໃນ Google Drive ເປັນໄລຍະໆ. ຂໍ້ມູນແອັບສາມາດເປັນຂໍ້ມູນໃດໜຶ່ງທີ່ແອັບໄດ້ບັນທຶກ (ອີງຕາມການຕັ້ງຄ່າຜູ້ພັດທະນາ) ຮວມທັງຂໍ້ມູນລະອຽດອ່ອນທີ່ອາດເປັນໄປໄດ້ເຊັ່ນ: ລາຍຊື່, ຂໍ້ຄວາມ ແລະ ຮູບພາບ.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">ປິດ Active Edge ແລ້ວ</string>
     <string name="language_input_gesture_summary_on_non_assist">ເປີດ Active Edge ແລ້ວ</string>
     <string name="language_input_gesture_summary_on_with_assist">ເປີດ Active Edge ແລ້ວ, ບີບເພື່ອເອີ້ນຜູ້ຊ່ວຍຂອງທ່ານ</string>
-    <string name="lock_settings_picker_fingerprint_message">ເລືອກການລັອກໜ້າຈໍສຳຮອງເພື່ອໃຊ້ກັບ Nexus Imprint</string>
     <string name="me_card_title">Pixel ຂອງຂ້ອຍ</string>
     <string name="my_device_info_account_preference_title">ບັນຊີ Google</string>
     <string name="owner_info_settings_edit_text_hint">ຕົວຢ່າງ: Pixel ຂອງ Joe.</string>
@@ -317,26 +311,8 @@
     <string name="security_settings_face_enroll_too_hot_message">ບໍ່ສາມາດຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າໃຫ້ສຳເລັດໄດ້ເນື່ອງຈາກໂທລະສັບຮ້ອນເກີນໄປ. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງເມື່ອໂທລະສັບເຢັນລົງແລ້ວ.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ຂ້າມການປົດລັອກດ້ວຍໜ້າ</string>
     <string name="security_settings_face_enroll_too_hot_title">ໂທລະສັບຮ້ອນເກີນໄປ</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">ນອກ​ຈາກ​ການ​ປົດ​ລັອກ​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ແລ້ວ, ທ່ານ​ສາ​ມາດ​ໃຊ້​ Nexus Imprint ​ເພື່ອ​ອະນຸຍາດ​ການ​ຊື້ ແລະ​ການ​ເຂົ້າ​ຫາ​ແອັບ​ໄດ້ນຳ​ອີກ. <annotation id="url">ສຶກສາ​ເພີ່ມ​ເຕີມ</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">ຂໍ້ມູນທີ່ບັນທຶກໄວ້ໂດຍ Nexus Imprint ແມ່ນຖືກບັນທຶກໄວ້ຢ່າງປອດໄພ ແລະ ຈະບໍ່ຖືກສົ່ງອອກຈາກໂທລະສັບຂອງທ່ານເດັດຂາດ. ທ່ານສາມາດລຶບຂໍ້ມູນຂອງທ່ານອອກຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint ຈະໃຊ້ລາຍນິ້ວມືຂອງທ່ານເພື່ອປຸກ ແລະ ປົດລັອກໂທລະສັບຂອງທ່ານ, ອະນຸມັດການສັ່ງຊື້ ຫຼື ເຂົ້າສູ່ລະບົບຫາແອັບຕ່າງໆ.
-
-ໃຫ້ລະວັງລາຍນິ້ວມືຂອງຄົນທີ່ທ່ານເພີ່ມໃສ່. ລາຍມືໃດກໍຕາມທີ່ເພີ່ມໃສ່ຈະສາມາດເຮັດສິ່ງຕ່າງໆເຫຼົ່ານີ້ໄດ້. "<annotation link="url">ສຶກສາເພີ່ມເຕີມ</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"ດ້ວຍ Nexus Imprint, ທ່ານສາມາດໃຊ້ລາຍນິ້ວຂອງທ່ານເພື່ອອະນຸມັດການສັ່ງຊື້ ຫຼື ເຂົ້າສູ່ລະບົບແອັບ.
-
-ກະລຸນາລະມັດລະວັງການເພີ່ມລາຍນິ້ວມື. ເຖິງແມ່ນວ່າຈະເພີ່ມລາຍນິ້ວມືດຽວແຕ່ກໍຈະສາມາດເຮັດໄດ້ທຸກຢ່າງທີ່ວ່າມານີ້.
-
-ໝາຍເຫດ: ທ່ານບໍ່ສາມາດໃຊ້ລາຍນິ້ວມືຂອງທ່ານໃນການປົດລັອກອຸປະກອນນີ້ໄດ້. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບອົງກອນຂອງທ່ານ."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">ປົດລັອກດ້ວຍ Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">ແຕະເພື່ອຕັ້ງຄ່າລາຍນິ້ວມື</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint ຈະສ້າງຮູບແບບທີ່ບໍ່ຊ້ຳກັນຂອງລາຍນິ້ວມືຂອງທ່ານເພື່ອຢັ້ງຢືນວ່າແມ່ນທ່ານແທ້. ເພື່ອສ້າງຮູບແບບລາຍນິ້ວມືນີ້ໃນລະຫວ່າງການຕັ້ງຄ່າ, ທ່ານຈະຖ່າຍຮູບຂອງລາຍນິ້ວມືຂອງທ່ານຈາກຫຼາຍໆມຸມ.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">ເມື່ອທ່ານໃຊ້ Pixel Imprint, ຮູບຈະຖືກໃຊ້ເພື່ອອັບເດດຮູບແບບລາຍນິ້ວມືຂອງທ່ານ. ຮູບທີ່ຖືກໃຊ້ເພື່ອສ້າງຮູບແບບລາຍນິ້ວມືຈະບໍ່ຖືກຈັດເກັບໄວ້, ແຕ່ຮູບແບບລາຍນິ້ວມືແມ່ນຖືກຈັດເກັບໄວ້ຢ່າງປອດໄພຢູ່ໂທລະສັບຂອງທ່ານ ແລະ ຈະບໍ່ຖືກສົ່ງອອກຈາກໂທລະສັບເດັດຂາດ. ການປະມວນຜົນທັງໝົດຈະເກີດຂຶ້ນຢ່າງປອດໄພຢູ່ໂທລະສັບຂອງທ່ານ.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">ທ່ານສາມາດລຶບຮູບແບບລາຍນິ້ວມືຂອງທ່ານ ຫຼື ປິດ Pixel Imprint ຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ. ຮູບແບບລາຍນິ້ວມືແມ່ນຈັດເກັບໄວ້ຢູ່ໂທລະສັບຈົນກວ່າທ່ານຈະລຶບພວກມັນອອກ.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint ຈະສ້າງຮູບແບບທີ່ບໍ່ຊ້ຳກັນຂອງລາຍນິ້ວມືຂອງລູກທ່ານເພື່ອຢັ້ງຢືນວ່າແມ່ນເຂົາເຈົ້າແທ້. ເພື່ອສ້າງຮູບແບບລາຍນິ້ວມືນີ້ໃນລະຫວ່າງການຕັ້ງຄ່າ, ເຂົາເຈົ້າຈະຖ່າຍຮູບລາຍນິ້ວມືຂອງເຂົາເຈົ້າຈາກມຸມຕ່າງໆ.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">ທ່ານ ແລະ ລູກຂອງທ່ານສາມາດລຶບຮູບແບບລາຍນິ້ວມືຂອງເຂົາເຈົ້າອອກ ຫຼື ປິດ Pixel Imprint ຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ. ຮູບແບບລາຍນິ້ວມືແມ່ນຖືກຈັດເກັບໄວ້ຢູ່ໂທລະສັບຈົນກວ່າພວກມັນຈະຖືກລຶບອອກ.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">ສຶກສາເພີ່ມເຕີມໄດ້ຢູ່ g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">ພຽງແຕ່ແຕະໃສ່ທີ່ເຊັນເຊີລາຍນິ້ວມືຂອງ Nexus ເພື່ອປຸກ ແລະ ປົດລັອກໂທລະສັບຂອງທ່ານ.</string>
     <string name="setup_suggestion_summary">ສຳເນົາຂໍ້ມູນ, ຈ່າຍດ້ວຍໂທລະສັບ ແລະ ອື່ນໆ</string>
     <string name="setup_suggestion_title">ສຳເລັດການຕັ້ງຄ່າ</string>
     <string name="smart_battery_footer">ເພື່ອຍືດອາຍຸແບັດເຕີຣີ, ຄຸນສົມບັດແບັດເຕີຣີແບບປັບຕົວໄດ້ອາດຫຼຸດປະສິດທິພາບ ແລະ ການເຄື່ອນໄຫວໃນພື້ນຫຼັງ. ການແຈ້ງເຕືອນບາງຢ່າງອາດຫຼ້າຊ້າ.</string>
@@ -345,7 +321,6 @@
     <string name="sound_dashboard_summary">ລະດັບສຽງ, ການຕອບສະໜອງ, ຫ້າມລົບກວນ</string>
     <string name="sound_settings">ສຽງ ແລະ ການສັ່ນເຕືອນ</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">ໃຊ້ Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">ເຫຼືອອີກປະມານ %1$s ໂດຍອ້າງອີງຈາກການນຳໃຊ້ຂອງທ່ານ</string>
     <string name="time_remaining_warning_text">ແບັດເຕີຣີຈະໝົດໃນໄວໆນີ້</string>
     <string name="tips_suggestion_summary">ສຳຫຼວດສິ່ງທີ່ທ່ານເຮັດໄດ້ດ້ວຍໂທລະສັບທ່ານ</string>

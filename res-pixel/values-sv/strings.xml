@@ -171,11 +171,6 @@ När mobilen har återställts konfigurerar du den och väljer att hämta data f
     <string name="fallback_menu_item_copy_link">Kopiera länk</string>
     <string name="fallback_menu_item_open_in_browser">Öppna i webbläsaren</string>
     <string name="fallback_menu_item_share_link">Dela länk</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + lösenord</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + mönster</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + pinkod</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Fortsätt utan Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Med Nexus Imprint kan du låsa upp mobilen med hjälp av ditt fingeravtryck. Av säkerhetsskäl krävs ett alternativt skärmlås.</string>
     <string name="fullbackup_data_summary">"Säkerhetskopiera data på enheten (t.ex. wifi-lösenord och samtalshistorik) och appdata (t.ex. inställningar och filer som har sparats i appar) automatiskt på Google Drive.
 
 När du aktiverar automatisk säkerhetskopiering sparas enhets- och appdata då och då i en privat mapp i Google Drive. Appdata kan vara alla typer av data som en app har sparat (beroende på utvecklarinställningarna), inklusive data som kan vara känslig, till exempel kontakter, meddelanden och foton.
@@ -227,7 +222,6 @@ Säkerhetskopierad data räknas inte in i ditt lagringsutrymme på Drive. Stora 
     <string name="language_input_gesture_summary_off">Active Edge har inaktiverats</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge har aktiverats</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge är på. Kläm för att öppna Assistent.</string>
-    <string name="lock_settings_picker_fingerprint_message">Välj ett alternativt skärmlås som ska användas med Nexus Imprint</string>
     <string name="me_card_title">Min Pixel</string>
     <string name="my_device_info_account_preference_title">Google-konto</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jonas Pixel.</string>
@@ -315,25 +309,8 @@ Du kan konfigurera ansiktslås igen i inställningarna och få bättre prestanda
     <string name="security_settings_face_enroll_too_hot_message">Det går inte att slutföra konfigureringen av ansiktslås eftersom telefonen är för varm. Försök igen senare när telefonen har svalnat.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Hoppa över ansiktslås</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefonen är för varm</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Med Nexus Imprint kan du både låsa upp din mobil och godkänna köp och åtkomst för appar. <annotation id="url">Läs mer</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Den data som registreras med Nexus Imprint sparas säkert och lämnar aldrig din telefon. Du kan när som helst radera din data i inställningarna.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Med Nexus Imprint kan du använda ditt fingeravtryck för att aktivera och låsa upp telefonen, auktorisera köp eller logga in i appar.
-
-Var försiktig med vems fingeravtryck du lägger till eftersom alla som du lägger till kan göra de här sakerna. "<annotation link="url">Läs mer</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Via Nexus Imprint kan du godkänna köp och logga in i appar med ditt fingeravtryck.
-
-Var försiktig med vems fingeravtryck du lägger till eftersom även den personen kan göra detta.
-
-Obs! Det går inte att låsa upp den här enheten med ett fingeravtryck. Kontakta administratören för din organisation om du vill veta mer."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Låsa upp m. Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Tryck här om du vill konfigurera fingeravtryck</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"Med Pixel Imprint skapas en unik bildmodell av ditt fingeravtryck så att din  identitet kan verifieras. Fingeravtrycksmodellen skapas genom att flera bilder tas av fingeravtrycket i olika positioner."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Du kan radera fingeravtrycksmodellen eller inaktivera Pixel Imprint när du vill i inställningarna. Fingeravtrycksmodeller lagras på telefonen tills du raderar dem.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Med Pixel Imprint skapas en unik modell av ditt barns fingeravtryck så att barnet kan verifiera din identitet. Fingeravtrycksmodellen skapas under konfigureringen genom att bilder tas av fingeravtrycket i olika positioner.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Du och ditt barn kan radera fingeravtrycksmodellen eller inaktivera Pixel Imprint när som helst i inställningarna. Fingeravtrycksmodeller lagras på telefonen tills du raderar dem.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Läs mer på g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Tryck bara på Nexus Imprint-sensorn om du vill aktivera och låsa upp mobilen.</string>
     <string name="setup_suggestion_summary">Kopiera data, betala med telefonen m.m.</string>
     <string name="setup_suggestion_title">Slutför konfigureringen</string>
     <string name="smart_battery_footer">Med funktionen Smart batteri kan prestandan och bakgrundsaktiviteten begränsas i syfte att förlänga batteritiden. Vissa aviseringar kan fördröjas.</string>
@@ -342,7 +319,6 @@ Obs! Det går inte att låsa upp den här enheten med ett fingeravtryck. Kontakt
     <string name="sound_dashboard_summary">Volym, haptik, Stör ej</string>
     <string name="sound_settings">Ljud och vibration</string>
     <string name="storage_manager_indicator">Smart lagring: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Använd Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Omkring %1$s kvar, baserat på tidigare användning</string>
     <string name="time_remaining_warning_text">Batteriet kan ta slut snart</string>
     <string name="tips_suggestion_summary">Ta reda på vad du kan göra med telefonen</string>

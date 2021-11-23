@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">ចម្លង​តំណ</string>
     <string name="fallback_menu_item_open_in_browser">បើក​នៅក្នុង​កម្មវិធី​រុករកតាម​អ៊ីនធឺណិត</string>
     <string name="fallback_menu_item_share_link">តំណចែករំលែក</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + ពាក្យសម្ងាត់</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + លំនាំ</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + កូដ PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">បន្តដោយគ្មាន Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">ជាមួយ Nexus Imprint អ្នកអាចដោះសោទូរសព្ទរបស់អ្នកដោយប្រើស្នាមម្រាមដៃរបស់អ្នក។ ដើម្បីសុវត្ថិភាព ជម្រើសនេះតម្រូវឲ្យមានការចាក់សោអេក្រង់បម្រុងទុក។</string>
     <string name="fullbackup_data_summary">"បម្រុងទុកទិន្នន័យដោយស្វ័យប្រវត្តិ (ដូចជាពាក្យសម្ងាត់ Wi-Fi និងប្រវត្តិហៅទូរស័ព្ទ) និងទិន្នន័យកម្មវិធី (ដូចជាការកំណត់ និងឯកសារដែលបានផ្ទុកដោយកម្មវិធី) ទៅក្នុង Google ថាស។
 
 នៅពេលអ្នកបើកការបម្រុងទុកដោយស្វ័យប្រវត្តិ នោះទិន្នន័យឧបករណ៍ និងកម្មវិធីត្រូវបានរក្សាទុកជាទៀងទាត់ទៅក្នុងថតឯកសារឯកជននៅក្នុង Google ថាស។ ទិន្នន័យកម្មវិធីអាចជាទិន្នន័យដែលកម្មវិធីបានរក្សាទុក (ផ្អែកលើការកំណត់អ្នកអភិវឌ្ឍន៍) ដោយរាប់បញ្ចូលទាំងទិន្នន័យរសើប ដូចជាទំនាក់ទំនង សារ និងរូបថត។
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">បិទ Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">បើក Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge បើក សូម​ច្របាច់​ដើម្បី​បើក​ជំនួយការរបស់អ្នក</string>
-    <string name="lock_settings_picker_fingerprint_message">ជ្រើសរើសការចាក់សោអេក្រង់បម្រុងទុកដើម្បីប្រើជាមួយ Nexus Imprint</string>
     <string name="me_card_title">Pixel របស់ខ្ញុំ</string>
     <string name="my_device_info_account_preference_title">គណនី Google</string>
     <string name="owner_info_settings_edit_text_hint">ឧ. ទូរសព្ទ Pixel របស់សុភាព។</string>
@@ -318,25 +312,8 @@
     <string name="security_settings_face_enroll_too_hot_message">មិនអាច​បញ្ចប់​ការរៀបចំ​ការដោះសោ​តាមទម្រង់មុខ​បានទេ ដោយសារ​ទូរសព្ទ​ក្ដៅពេក។ សូមព្យាយាម​ម្ដងទៀត នៅពេល​ទូរសព្ទ​ត្រជាក់វិញ។</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">រំលង​ការដោះសោ​តាមទម្រង់មុខ</string>
     <string name="security_settings_face_enroll_too_hot_title">ទូរសព្ទ​ក្ដៅ​ពេក</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">ក្រៅពីការដោះសោទូរសព្ទរបស់អ្នក អ្នកក៏អាចប្រើ Nexus Imprint ដើម្បីអនុញ្ញាតការទិញ និងការចូលដំណើរការកម្មវិធីផងដែរ។ <annotation id="url">ស្វែងយល់បន្ថែម</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">ទិន្នន័យដែលបានថតដោយ Nexus Imprint ត្រូវបានរក្សាទុក​ដោយសុវត្ថិភាព និងមិនចាកចេញពីទូរសព្ទ​របស់អ្នកឡើយ។ អ្នកអាច​លុបទិន្នន័យ​របស់អ្នក​បានគ្រប់ពេល​នៅក្នុង​ការកំណត់។</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint ប្រើ​ស្នាម​ម្រាមដៃ​របស់អ្នក​ដើម្បីដាស់ និងដោះសោទូរសព្ទ​ អនុញ្ញាតលើការ​ទិញ ឬ​ចូល​កម្មវិធី។
-
-សូមប្រុង​ប្រយ័ត្ន​ចំពោះ​ស្នាមម្រាមដៃ​ដែល​អ្នកបញ្ចូល។ ​រាល់ស្នាម​ម្រាមដៃ​ដែល​បានបញ្ចូល​នឹងអាចធ្វើ​សកម្មភាព​ទាំងនេះបាន។ "<annotation link="url">ស្វែងយល់​បន្ថែម</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"ជាមួយ Nexus Imprint អ្នកអាចប្រើស្នាមម្រាមដៃរបស់អ្នកដើម្បីអនុញ្ញាតការទិញ ឬការចូលប្រើកម្មវិធី។
-
-សូមប្រុងប្រយ័ត្នចំពោះស្នាមម្រាមដៃរបស់បុគ្គលដែលអ្នកបន្ថែម។ ស្នាមម្រាមដៃទាំងឡាយដែលបានបន្ថែមនឹងអាចធ្វើសកម្មភាពទាំងអស់នេះបាន។
-
-ចំណាំ៖ អ្នកមិនអាចប្រើស្នាមម្រាមដៃរបស់អ្នកដើម្បីដោះសោឧបករណ៍នេះឡើយ។ សម្រាប់ព័ត៌មានបន្ថែម សូមទាក់ទងរដ្ឋបាល​អង្គភាពរបស់អ្នក។"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">ដោះសោ​ដោយប្រើ Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">ចុចដើម្បីកំណត់ស្នាមម្រាមដៃ</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint បង្កើតគំរូស្នាមម្រាមដៃ​របស់អ្នក​ខុសប្លែកពីគេ ដើម្បីផ្ទៀងផ្ទាត់ថាជាអ្នក។ ដើម្បីបង្កើត​គំរូស្នាមម្រាមដៃនេះ​ក្នុងអំឡុងពេល​រៀបចំ អ្នកនឹងត្រូវ​ថតរូបស្នាមម្រាមដៃ​របស់អ្នក​ពីផ្នែកខុសៗគ្នា។</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">អ្នកអាចលុប​គំរូស្នាមម្រាមដៃ​របស់អ្នក ឬបិទ Pixel Imprint បានគ្រប់ពេល​នៅក្នុង​ការកំណត់។ គំរូស្នាមម្រាមដៃ​ត្រូវបានរក្សាទុក​នៅលើទូរសព្ទ រហូតទាល់តែ​អ្នកលុបវា។</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint បង្កើតគំរូស្នាមម្រាមដៃ​របស់កូនអ្នក​ខុសប្លែកពីគេ ដើម្បីផ្ទៀងផ្ទាត់​ថាជាគាត់។ ដើម្បីបង្កើត​គំរូស្នាមម្រាមដៃនេះ​ក្នុងអំឡុងពេល​រៀបចំ គាត់នឹងត្រូវ​ថតរូបស្នាមម្រាមដៃ​របស់គាត់​ពីផ្នែក​ខុសៗគ្នា។</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">អ្នក និងកូនរបស់អ្នក​អាចលុប​គំរូស្នាមម្រាមដៃ​របស់គាត់ ឬបិទ Pixel Imprint បានគ្រប់ពេល​នៅក្នុង​ការកំណត់។ គំរូស្នាមម្រាមដៃ​ត្រូវបានរក្សាទុក​នៅលើទូរសព្ទ រហូតទាល់តែ​គំរូស្នាមម្រាមដៃ​ទាំងនោះត្រូវបានលុប។</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">ស្វែងយល់បន្ថែម​តាមរយៈ g.co/pixel/fingerprintunlock។</string>
-    <string name="setup_fingerprint_enroll_finish_message">គ្រាន់តែប៉ះឧបករណ៍ចាប់សញ្ញា Nexus Imprint តែប៉ុណ្ណោះ ដើម្បីដាស់ ឬដោះសោទូរស័ព្ទរបស់អ្នក។</string>
     <string name="setup_suggestion_summary">ចម្លងទិន្នន័យ បង់ប្រាក់តាមទូរសព្ទរបស់អ្នក និងច្រើនទៀត</string>
     <string name="setup_suggestion_title">បញ្ចប់​ការរៀបចំ</string>
     <string name="smart_battery_footer">ដើម្បីបង្កើនកម្រិតថាមពលថ្ម កម្មវិធីថ្ម​មាន​ភាព​បត់បែនអាចកាត់បន្ថយប្រតិបត្តិការ និងសកម្មភាពនៅផ្ទៃខាងក្រោយ។ ការជូនដំណឹងមួយចំនួនអាចត្រូវបានពន្យារពេល។</string>
@@ -345,7 +322,6 @@
     <string name="sound_dashboard_summary">កម្រិតសំឡេង ការប៉ះ កុំ​រំខាន</string>
     <string name="sound_settings">សំឡេង និងការញ័រ</string>
     <string name="storage_manager_indicator">ទំហំផ្ទុក​ឆ្លាតវៃ៖ ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">ប្រើ Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">សល់ប្រហែល %1$s ទៀតផ្អែកលើការប្រើប្រាស់ពីមុន</string>
     <string name="time_remaining_warning_text">អាចនឹងអស់ថ្មក្នុងពេលបន្តិចទៀត</string>
     <string name="tips_suggestion_summary">ស្វែងយល់ថាអ្នកអាចប្រើទូរសព្ទធ្វើអ្វីខ្លះ</string>

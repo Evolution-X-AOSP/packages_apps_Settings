@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">Сілтемені көшіру</string>
     <string name="fallback_menu_item_open_in_browser">Браузерден ашу</string>
     <string name="fallback_menu_item_share_link">Сілтемені бөлісу</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + құпия сөз</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + өрнек</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint пайдаланбау</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint көмегімен телефон құлпын саусақпен ашуға болады. Бұл опция қауіпсіздік мақсатында қосымша экран құлпын қажет етеді.</string>
     <string name="fullbackup_data_summary">"Google Drive дискісіне құрылғы деректерінің (мысалы, Wi-Fi құпия сөздері мен қоңыраулар журналы) және қолданба деректерінің (мысалы, қолданбалар арқылы сақталған параметрлер мен файлдар) сақтық көшірмесін автоматты түрде жасау.
 
 Автоматты түрде сақтық көшірмесін жасау функциясы қосылған кезде, құрылғы мен қолданба деректері Google Drive дискісіндегі жеке қалтаға сақталып отырады. Қолданба деректеріне контактілер, хабарлар жəне фотосуреттер сияқты ықтимал құпия деректерді қамтитын (әзірлеушінің параметрлеріне байланысты) қолданба сақтаған кез келген деректер жатуы мүмкін.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge өшірулі</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge қосулы</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge қосулы, Көмекші үшін қысыңыз</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus Imprint мүмкіндігімен бірге пайдаланатын қосымша экран құлпын таңдаңыз</string>
     <string name="me_card_title">Pixel құрылғым</string>
     <string name="my_device_info_account_preference_title">Google есептік жазбасы</string>
     <string name="owner_info_settings_edit_text_hint">Мысалы, Жандостың Pixel құрылғысы</string>
@@ -315,25 +309,8 @@
     <string name="security_settings_face_enroll_too_hot_message">Телефон қатты қызып кеткендіктен, реттеуді аяқтау мүмкін емес. Cуығаннан кейін қайталап көріңіз.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Бет тану функциясын өткізіп жіберу</string>
     <string name="security_settings_face_enroll_too_hot_title">Телефон тым ыстық.</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Телефон құлпын ашуға қоса, Nexus Imprint сенсорын сатып алу әрекеттерін және қолданбаны пайдалану рұқсатын авторизациялау үшін пайдалануға болады. <annotation id="url">Толығырақ</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint арқылы жазылған деректер қорғалады және ешкімге жіберілмейді. Деректерді кез келген уақытта \"Параметрлер\" бөлімінен жоя аласыз.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint сканері саусақ ізінің көмегімен телефонды ұйқы режимінен шығарады және оның құлпын ашады, сатып алу транзакцияларына рұқсат береді немесе қолданбаларға кіреді.
-
-Басқалардың саусақ іздерін енгізгенде, сақ болыңыз. Саусағының ізі енгізілген кез келген адам бұл әрекеттерді орындай алады. "<annotation link="url">Толығырақ</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint көмегімен сатып алу әрекеттерін авторизациялау немесе қолданбаларға кіру үшін саусақ ізін пайдалана аласыз.
-
-Басқалардың саусақ іздерін қосқанда сақ болыңыз. Саусақ іздері қосылған кез келген адам бұл әрекеттерді орындай алады.
-
-Ескертпе: бұл құрылғының құлпын ашу үшін саусақ ізін пайдалана алмайсыз. Қосымша ақпарат алу үшін ұйым әкімшісіне хабарласыңыз."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint арқылы құлпын ашу</string>
     <string name="security_settings_fingerprint_preference_summary_none">Саусақ ізін орнату үшін түртіңіз.</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Жеке басыңызды растау үшін Pixel Imprint функциясы саусақ ізінің қайталанбас үлгісін жасайды. Реттеу кезінде саусақ ізінің үлгісін жасау үшін оны жан-жағынан суретке түсіресіз.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Кез келген уақытта \"Параметрлер\" бөлімінен саусақ ізінің үлгісін жоюға немесе Pixel Imprint функциясын өшіріп қоюға болады. Үлгілер өзіңіз жойғанша телефонда сақталады.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Жеке басын растау үшін Pixel Imprint функциясы балаңыздың саусақ ізінің қайталанбас үлгісін жасайды. Реттеу кезінде саусақ ізінің үлгісін жасау үшін балаңыз саусағын жан-жағынан суретке түсіреді.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Балаңыз екеуіңіз кез келген уақытта \"Параметрлер\" бөлімінен оның саусақ ізінің үлгісін жоя аласыздар. Pixel Imprint функциясын өшіріп қоюға да болады. Үлгілер өзіңіз жойғанша сақталып тұрады.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Толығырақ: g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Телефонды ояту және құлпын ашу үшін Nexus Imprint сенсорын түртіңіз.</string>
     <string name="setup_suggestion_summary">Деректі көшіру, телефонмен төлеу, т.б.</string>
     <string name="setup_suggestion_title">Реттеуді аяқтау</string>
     <string name="smart_battery_footer">Батарея жұмысын ұзарту үшін Батарея шығынын бейімдеу функциясы жұмыс өнімділігі мен фондық белсенділікті төмендетеді. Кейбір хабарландырулар кідіруі мүмкін.</string>
@@ -342,7 +319,6 @@
     <string name="sound_dashboard_summary">Дыбыс деңгейі, хептика, Мазаламау режимі</string>
     <string name="sound_settings">Дыбыс және діріл</string>
     <string name="storage_manager_indicator">Ақылды жад: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint пайдалану</string>
     <string name="time_remaining_warning_subtext">Соңғы пайдалану негізінде шамамен %1$s қалды</string>
     <string name="time_remaining_warning_text">Батареяның заряды көп ұзамай бітуі мүмкін</string>
     <string name="tips_suggestion_summary">Телефонмен не істеуге болатынын біліңіз.</string>

@@ -172,11 +172,6 @@ Une fois votre téléphone réinitialisé, effectuez le processus de configurati
     <string name="fallback_menu_item_copy_link">Copier le lien</string>
     <string name="fallback_menu_item_open_in_browser">Ouvrir dans un navigateur</string>
     <string name="fallback_menu_item_share_link">Partager le lien</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + mot de passe</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + schéma</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + code</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Continuer sans Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">"Avec Nexus Imprint, vous pouvez déverrouiller votre téléphone à l'aide de votre empreinte digitale. Pour plus de sécurité, cette option doit être associée à un autre mode de verrouillage de l'écran."</string>
     <string name="fullbackup_data_summary">"Sauvegardez automatiquement les données de l'appareil (telles que les mots de passe Wi-Fi et l'historique des appels) et celles des applications (telles que les paramètres et les fichiers enregistrés par ces applications) sur Google Drive.
 
 Lorsque vous activez la sauvegarde automatique, les données de l'appareil et des applications sont enregistrées régulièrement dans un dossier privé sur Google Drive. Les données d'applications correspondent à toutes les données enregistrées par une application (en fonction des paramètres que le développeur définit), y compris les données potentiellement confidentielles comme les contacts, les messages et les photos.
@@ -229,7 +224,6 @@ Les données de sauvegarde ne sont pas prises en compte dans le quota de stockag
     <string name="language_input_gesture_summary_off">Active Edge désactivé</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge activé</string>
     <string name="language_input_gesture_summary_on_with_assist">"Active Edge activé, presser pour lancer l'Assistant"</string>
-    <string name="lock_settings_picker_fingerprint_message">"Choisissez une méthode de verrouillage d'écran en complément de Nexus Imprint."</string>
     <string name="me_card_title">Mon Pixel</string>
     <string name="my_device_info_account_preference_title">Compte Google</string>
     <string name="owner_info_settings_edit_text_hint">Par exemple \"Pixel de Jean\".</string>
@@ -316,26 +310,9 @@ Pour de meilleures performances, vous pouvez reconfigurer ce mode de déverrouil
     <string name="security_settings_face_enroll_too_hot_message">"Impossible de terminer la configuration du déverrouillage par reconnaissance faciale, car le téléphone est trop chaud. Réessayez lorsqu'il aura refroidi."</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Passer déverrouillage facial</string>
     <string name="security_settings_face_enroll_too_hot_title">Le téléphone est trop chaud</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">"Nexus Imprint vous permet non seulement de déverrouiller votre téléphone, mais également d'autoriser des achats et d'accéder à des applications. "<annotation id="url">En savoir plus</annotation></string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">"Il se trouve au dos du téléphone. Utilisez l'index."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Les données enregistrées par Nexus Imprint sont stockées de façon sécurisée et ne quittent jamais votre téléphone. Vous pouvez les supprimer à tout moment dans les paramètres.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint utilise votre empreinte digitale pour activer et déverrouiller votre téléphone, autoriser des achats ou vous connecter à des applications.
-
-Toutes les personnes dont les empreintes digitales sont ajoutées sur votre téléphone peuvent effectuer ces opérations. Choisissez donc ces personnes avec soin. "<annotation link="url">En savoir plus</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint vous permet d'utiliser votre empreinte digitale pour autoriser des achats ou vous connecter à des applications.
-
-Toutes les personnes dont les empreintes digitales sont ajoutées peuvent effectuer ces opérations. Choisissez donc ces personnes avec soin.
-
-Remarque : vous ne pouvez pas utiliser votre empreinte digitale pour déverrouiller cet appareil. Pour plus d'informations, contactez l'administrateur de votre organisation."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Dév. avec Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Appuyer pour configurer une empreinte digitale</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint crée un modèle unique de votre empreinte digitale pour confirmer votre identité. Celui-ci est généré lors de la configuration en scannant votre doigt dans différentes positions.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">"À tout moment dans les paramètres, vous pouvez supprimer le modèle de votre empreinte ou désactiver Pixel Imprint. Les modèles sont stockés sur le téléphone jusqu'à ce que vous les supprimiez."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"Pixel Imprint crée un modèle unique de l'empreinte digitale de votre enfant pour confirmer son identité. Celui-ci est généré lors de la configuration en scannant son doigt dans différentes positions."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">"À tout moment dans les paramètres, vous et votre enfant pouvez supprimer le modèle de votre empreinte digitale ou désactiver Pixel Imprint. Les modèles d'empreintes digitales sont stockés sur le téléphone jusqu'à ce que vous les supprimiez."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">En savoir plus : g.co/pixel/fingerprintunlock</string>
-    <string name="setup_fingerprint_enroll_finish_message">"Il vous suffit d'appuyer sur le lecteur Nexus Imprint pour activer et déverrouiller votre téléphone."</string>
     <string name="setup_suggestion_summary">Copier des données, payer avec le téléphone…</string>
     <string name="setup_suggestion_title">Terminer la configuration</string>
     <string name="smart_battery_footer">"La fonctionnalité de batterie adaptative peut réduire les performances et l'activité en arrière-plan pour prolonger l'autonomie de la batterie. Certaines notifications peuvent être retardées."</string>
@@ -344,7 +321,6 @@ Remarque : vous ne pouvez pas utiliser votre empreinte digitale pour déverrouil
     <string name="sound_dashboard_summary">Volume, retour haptique, Ne pas déranger</string>
     <string name="sound_settings">Son et vibreur</string>
     <string name="storage_manager_indicator">Stockage intelligent : ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Utiliser Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">"Temps restant en fonction de l'utilisation : environ %1$s"</string>
     <string name="time_remaining_warning_text">La batterie est bientôt épuisée</string>
     <string name="tips_suggestion_summary">Explorez votre téléphone</string>

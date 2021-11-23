@@ -172,11 +172,6 @@ Zodra de Pixel is gereset, doorloop je het instelproces en kies je de optie om g
     <string name="fallback_menu_item_copy_link">Link kopiëren</string>
     <string name="fallback_menu_item_open_in_browser">Openen in browser</string>
     <string name="fallback_menu_item_share_link">Link delen</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + wachtwoord</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + patroon</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + pincode</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Doorgaan zonder Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Met Nexus Imprint kun je je telefoon ontgrendelen met je vingerafdruk. Uit beveiligingsoverwegingen is voor deze optie een extra schermvergrendeling vereist.</string>
     <string name="fullbackup_data_summary">"Maak automatisch een back-up van apparaatgegevens (zoals wifi-wachtwoorden en gespreksgeschiedenis) en app-gegevens (zoals instellingen en bestanden die zijn opgeslagen door apps) op Google Drive.
 
 Als je de functie voor automatische back-ups aanzet, worden apparaat- en app-gegevens periodiek opgeslagen in een privémap in Google Drive. App-gegevens kunnen gegevens zijn die een app heeft opgeslagen (op basis van ontwikkelaarsinstellingen), waaronder potentieel gevoelige gegevens zoals contacten, berichten en foto's.
@@ -228,7 +223,6 @@ Back-upgegevens tellen niet mee voor je Drive-opslagquotum. Er wordt geen back-u
     <string name="language_input_gesture_summary_off">Active Edge staat uit</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge staat aan</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge staat aan, knijp voor je Assistent</string>
-    <string name="lock_settings_picker_fingerprint_message">Kies een extra schermvergrendeling voor gebruik met Nexus Imprint</string>
     <string name="me_card_title">Mijn Pixel</string>
     <string name="my_device_info_account_preference_title">Google-account</string>
     <string name="owner_info_settings_edit_text_hint">Bijvoorbeeld Pixel van Jan.</string>
@@ -316,25 +310,8 @@ Als je de prestaties wilt verbeteren, kun je Ontgrendelen via gezichtsherkenning
     <string name="security_settings_face_enroll_too_hot_message">Configuratie van Ontgrendelen via gezichtsherkenning kan niet worden voltooid omdat de telefoon te heet is. Probeer het later opnieuw wanneer de telefoon is afgekoeld.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Ontgrendelen via gezicht overslaan</string>
     <string name="security_settings_face_enroll_too_hot_title">De telefoon is te heet</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Je kunt Nexus Imprint niet alleen gebruiken om je telefoon te ontgrendelen, maar ook om aankopen en app-toegang goed te keuren. <annotation id="url">Meer informatie</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">De gegevens die door Nexus Imprint worden opgenomen, worden beveiligd opgeslagen en nooit doorgestuurd vanaf je telefoon. Je kunt je gegevens altijd verwijderen via Instellingen.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint gebruikt je vingerafdruk om je telefoon te activeren en te ontgrendelen, aankopen te autoriseren of in te loggen bij apps.
-
-Dit kan met alle vingerafdrukken die zijn toegevoegd aan je telefoon, dus wees voorzichtig met wie je toevoegt. "<annotation link="url">Meer informatie</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Met Nexus Imprint kun je je vingerafdruk gebruiken om aankopen te autoriseren of in te loggen bij apps.
-
-Deze dingen kunnen worden gedaan met alle vingerafdrukken die zijn toegevoegd aan je apparaat, dus wees voorzichtig met wie je toevoegt.
-
-Opmerking: Je kunt je vingerafdruk niet gebruiken om dit apparaat te ontgrendelen. Neem contact op met de beheerder van je organisatie voor meer informatie."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Ontgrend. met Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Tik om vingerafdruk in te stellen</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"Pixel Imprint maakt een uniek model van je vingerafdruk om je te herkennen tijdens verificatie. Tijdens het instelproces maak je foto's van je vingerafdruk in verschillende posities om een vingerafdrukmodel te maken."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Je kunt je vingerafdrukmodel op elk moment verwijderen of Pixel Imprint uitzetten via Instellingen. Vingerafdrukmodellen worden opgeslagen op de telefoon totdat je ze verwijdert.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"Pixel Imprint maakt een uniek model van de vingerafdruk van je kind voor verificatie. Tijdens het instelproces maakt je kind foto's van de vingerafdruk in verschillende posities om een vingerafdrukmodel te maken."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Jij en je kind kunnen op elk moment het vingerafdrukmodel van je kind verwijderen of Pixel Imprint uitzetten in Instellingen. Vingerafdrukmodellen worden opgeslagen op de telefoon totdat ze worden verwijderd.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Ga naar g.co/pixel/fingerprintunlock voor meer informatie.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Raak de Nexus Imprint-sensor aan om je apparaat te activeren en te ontgrendelen.</string>
     <string name="setup_suggestion_summary">Kopieer gegevens, betaal met je telefoon en meer</string>
     <string name="setup_suggestion_title">Instellen afronden</string>
     <string name="smart_battery_footer">Aangepast batterijgebruik kan achtergrondactiviteit uitzetten of beperken om de batterijduur te verlengen. Sommige meldingen kunnen vertraagd zijn.</string>
@@ -343,7 +320,6 @@ Opmerking: Je kunt je vingerafdruk niet gebruiken om dit apparaat te ontgrendele
     <string name="sound_dashboard_summary">Volume, haptische feedback, Niet storen</string>
     <string name="sound_settings">Geluid en trillen</string>
     <string name="storage_manager_indicator">Slimme opslag: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint gebruiken</string>
     <string name="time_remaining_warning_subtext">Nog ongeveer %1$s op basis van eerder gebruik</string>
     <string name="time_remaining_warning_text">De batterij is bijna leeg</string>
     <string name="tips_suggestion_summary">Ontdek wat je kunt doen met je telefoon</string>

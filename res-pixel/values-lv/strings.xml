@@ -172,11 +172,6 @@ Pēc atiestatīšanas veiciet iestatīšanu un izvēlieties datu importēšanu n
     <string name="fallback_menu_item_copy_link">Kopēt saiti</string>
     <string name="fallback_menu_item_open_in_browser">Atvērt pārlūkprogrammā</string>
     <string name="fallback_menu_item_share_link">Kopīgot saiti</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint un parole</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint un kombinācija</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint un PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Turpināt bez Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Ar Nexus Imprint varat atbloķēt savu tālruni, izmantojot pirksta nospiedumu. Drošības nolūkos šai opcijai nepieciešama rezerves ekrāna bloķēšanas funkcija.</string>
     <string name="fullbackup_data_summary">"Automātiski dublējiet ierīces datus (piemēram, Wi-Fi paroles un zvanu vēsturi) un lietotņu datus (piemēram, lietotņu iestatījumus un saglabātos failus) Google diskā.
 
 Ieslēdzot automātisko dublēšanu, ierīces un lietotņu dati tiek periodiski saglabāti privātā Google diska mapē. Lietotņu dati var būt jebkādi dati, ko lietotne ir saglabājusi (atbilstoši izstrādātāja iestatījumiem), tostarp iespējami sensitīvi dati, piemēram, kontaktpersonas, ziņojumi un fotoattēli.
@@ -228,7 +223,6 @@ Dublētie dati netiks ieskaitīti Google diska krātuves kvotā. Netiks dublēt
     <string name="language_input_gesture_summary_off">Funkcija Active Edge ir izslēgta</string>
     <string name="language_input_gesture_summary_on_non_assist">Funkcija Active Edge ir ieslēgta</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge iesl., saspiediet, lai aktivizētu Asistentu</string>
-    <string name="lock_settings_picker_fingerprint_message">Izvēlieties rezerves ekrāna bloķēšanas metodi izmantošanai ar Nexus Imprint</string>
     <string name="me_card_title">Mana Pixel ierīce</string>
     <string name="my_device_info_account_preference_title">Google konts</string>
     <string name="owner_info_settings_edit_text_hint">Piemērs: Jāņa Pixel ierīce.</string>
@@ -317,25 +311,8 @@ Lai uzlabotu darbību, iestatījumos varat atkal iestatīt autorizāciju pēc se
     <string name="security_settings_face_enroll_too_hot_message">Autorizācijas pēc sejas iestatīšanu nevar pabeigt, jo tālrunis ir pārāk karsts. Kad tālrunis atdzisīs, mēģiniet vēlreiz.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Izlaist autorizāciju pēc sejas</string>
     <string name="security_settings_face_enroll_too_hot_title">Tālrunis ir pārāk karsts</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Varat ne tikai atbloķēt tālruni, bet arī izmantot Nexus Imprint sensoru, lai autorizētu pirkumus un piekļuvi lietotnēm. <annotation id="url">Uzziniet vairāk</annotation>.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Skenera Nexus Imprint ierakstītie dati tiek droši glabāti un vienmēr atrodas jūsu tālrunī. Iestatījumos varat jebkurā laikā dzēst šos datus.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Funkcijā Nexus Imprint tiek izmantots pirksta nospiedums, lai aktivizētu un atbloķētu tālruni, autorizētu pirkumus vai pierakstītos lietotnēs.
-
-Pievienojiet tikai uzticamu personu pirkstu nospiedumus. Jebkurš pievienotais pirksta nospiedums ļauj veikt šīs darbības. "<annotation link="url">Uzziniet vairāk</annotation>.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Izmantojot Nexus Imprint, ar pirksta nospiedumu varat autorizēt pirkumus vai pierakstīties lietotnēs.
-
-Rūpīgi apsveriet, kuru personu pirkstu nospiedumus pievienojat. Jebkurš pievienotais pirksta nospiedums ļauj paveikt šīs darbības.
-
-Piezīme. Pirksta nospiedumu nevar izmantot šīs ierīces atbloķēšanai. Lai iegūtu plašāku informāciju, sazinieties ar savas organizācijas administratoru."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Atbl. ar Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Pieskarieties, lai iestatītu pirksta nospiedumu</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Izmantojot funkciju Pixel Imprint, tiek izveidots unikāls jūsu pirksta nospieduma modelis jūsu identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo pirksta nospieduma modeli, jūs uzņemsiet pirksta nospieduma attēlus no dažādām pozīcijām.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Iestatījumos varat jebkurā laikā izdzēst pirksta nospieduma modeli vai izslēgt funkciju Pixel Imprint. Pirkstu nospiedumu modeļi tiek glabāti tālrunī, līdz jūs tos izdzēšat.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Izmantojot funkciju Pixel Imprint, tiek izveidots unikāls jūsu bērna pirksta nospieduma modelis viņa identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo pirksta nospieduma modeli, jūsu bērns uzņems pirksta nospieduma attēlus no dažādām pozīcijām.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Iestatījumos jūs un jūsu bērns varat jebkurā laikā dzēst pirksta nospieduma modeli vai izslēgt funkciju Pixel Imprint. Pirkstu nospiedumu modeļi tiek glabāti tālrunī, līdz tie tiek izdzēsti.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Uzziniet vairāk vietnē g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Pieskarieties Nexus Imprint sensoram, lai aktivizētu un atbloķētu tālruni.</string>
     <string name="setup_suggestion_summary">Kopējiet datus, maksājiet tālrunī u.c.</string>
     <string name="setup_suggestion_title">Iestatīšanas pabeigšana</string>
     <string name="smart_battery_footer">Lai paildzinātu akumulatora darbību, adaptīvā akumulatora funkcija var ierobežot veiktspēju un fonā veiktās darbības. Daži paziņojumi var darboties ar aizkavi.</string>
@@ -344,7 +321,6 @@ Piezīme. Pirksta nospiedumu nevar izmantot šīs ierīces atbloķēšanai. Lai 
     <string name="sound_dashboard_summary">Skaļums, vibrācija pieskaroties, Netraucēt</string>
     <string name="sound_settings">Skaņa un vibrācija</string>
     <string name="storage_manager_indicator">Viedā krātuve: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint izmantošana</string>
     <string name="time_remaining_warning_subtext">Atlikušais laiks: aptuveni %1$s (ņemot vērā iepriekšējo lietojumu)</string>
     <string name="time_remaining_warning_text">Iespējams, akumulators drīz izlādēsies</string>
     <string name="tips_suggestion_summary">Uzziniet vairāk par tālruņa iespējām</string>

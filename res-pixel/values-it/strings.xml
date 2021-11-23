@@ -172,11 +172,6 @@ Una volta reimpostato, segui la procedura di configurazione e scegli di importar
     <string name="fallback_menu_item_copy_link">Copia link</string>
     <string name="fallback_menu_item_open_in_browser">Apri nel browser</string>
     <string name="fallback_menu_item_share_link">Condividi link</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + password</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + sequenza</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Continua senza Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Con Nexus Imprint puoi sbloccare il telefono tramite la tua impronta. Per motivi di sicurezza questa opzione richiede un blocco schermo alternativo.</string>
     <string name="fullbackup_data_summary">"Effettua il backup automatico dei dati del dispositivo (come password Wi-Fi e cronologia chiamate) e dei dati delle app (quali impostazioni e file memorizzati nelle app) su Google Drive.
 
 Se attivi il backup automatico, i dati del dispositivo e delle app vengono salvati periodicamente in una cartella privata di Google Drive. I dati delle app possono essere qualsiasi tipo di dati memorizzato da un'app (in base alle impostazioni sviluppatore), inclusi i dati che potrebbero essere riservati come contatti, messaggi e foto.
@@ -228,7 +223,6 @@ I dati di backup non vengono considerati per la quota di spazio di archiviazione
     <string name="language_input_gesture_summary_off">Active Edge disattivato</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge attivato</string>
     <string name="language_input_gesture_summary_on_with_assist">"Active Edge attivo, stringi per parlare con l'assistente"</string>
-    <string name="lock_settings_picker_fingerprint_message">Scegli un blocco schermo alternativo da utilizzare con Nexus Imprint</string>
     <string name="me_card_title">Il mio telefono Pixel</string>
     <string name="my_device_info_account_preference_title">Account Google</string>
     <string name="owner_info_settings_edit_text_hint">Esempio: telefono di Anna</string>
@@ -318,25 +312,8 @@ Per migliorare le prestazioni, puoi riconfigurare lo sblocco con il volto nelle 
     <string name="security_settings_face_enroll_too_hot_message">Impossibile completare la configurazione dello sblocco con il volto perché il telefono è troppo caldo. Riprova più tardi quando il telefono si sarà raffreddato.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Salta sblocco con il volto</string>
     <string name="security_settings_face_enroll_too_hot_title">Il telefono è troppo caldo</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Oltre che per sbloccare il telefono, puoi usare Nexus Imprint anche per autorizzare gli acquisti e accedere alle app. <annotation id="url">Scopri di più</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">I dati registrati da Nexus Imprint vengono memorizzati in modo sicuro sul tuo telefono e non possono essere trasferiti. Puoi eliminare i dati in qualsiasi momento in Impostazioni.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint ti consente di utilizzare la tua impronta per riattivare e sbloccare il telefono, autorizzare gli acquisti o accedere alle app.
-
-Scegli con attenzione le impronte che aggiungi: le operazioni sopra elencate possono essere svolte con qualsiasi impronta aggiunta. "<annotation link="url">Scopri di più</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Con Nexus Imprint puoi utilizzare la tua impronta per autorizzare gli acquisti o accedere alle app.
-
-Scegli con attenzione chi aggiungere: le operazioni sopra elencate possono essere svolte con qualsiasi impronta aggiunta.
-
-Nota. Non puoi utilizzare la tua impronta per sbloccare il dispositivo. Per ulteriori informazioni, contatta l'amministratore dell'organizzazione."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Sblocca con Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">"Tocca per configurare l'impronta"</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"Pixel Imprint crea un modello univoco della tua impronta per poter verificare la tua identità. Per creare il modello dell'impronta durante la configurazione, dovrai acquisire immagini della tua impronta da diverse posizioni."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">"Puoi eliminare il modello dell'impronta o disattivare Pixel Imprint in qualsiasi momento nelle Impostazioni. I modelli delle impronte rimangono memorizzati sul telefono finché non li elimini."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"Pixel Imprint crea un modello univoco dell'impronta di tuo figlio per verificare la sua identità. Per creare il modello dell'impronta durante la configurazione, dovrà acquisire immagini della sua impronta da diverse posizioni."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">"Tu e tuo figlio potete eliminare il modello dell'impronta o disattivare Pixel Imprint in qualsiasi momento nelle Impostazioni. I modelli delle impronte rimangono memorizzati sul telefono finché non vengono eliminati."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Scopri di più all'indirizzo g.co/pixel/fingerprintunlock."</string>
-    <string name="setup_fingerprint_enroll_finish_message">Tocca il sensore Nexus Imprint per riattivare e sbloccare il telefono.</string>
     <string name="setup_suggestion_summary">Copia dati, paga con il telefono e altro</string>
     <string name="setup_suggestion_title">Completa la configurazione</string>
     <string name="smart_battery_footer">"Per prolungare la durata della batteria, la funzionalità Batteria adattiva potrebbe ridurre le prestazioni e l'attività in background. Alcune notifiche potrebbero subire dei ritardi."</string>
@@ -345,7 +322,6 @@ Nota. Non puoi utilizzare la tua impronta per sbloccare il dispositivo. Per ulte
     <string name="sound_dashboard_summary">Volume, feedback aptico, Non disturbare</string>
     <string name="sound_settings">Suoni e vibrazione</string>
     <string name="storage_manager_indicator">Archiviazione intelligente: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Utilizza Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Tempo rimanente in base al tuo utilizzo precedente: %1$s</string>
     <string name="time_remaining_warning_text">La batteria potrebbe esaurirsi a breve</string>
     <string name="tips_suggestion_summary">Scopri cosa puoi fare con il telefono</string>

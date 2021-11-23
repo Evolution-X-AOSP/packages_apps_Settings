@@ -171,11 +171,6 @@
     <string name="fallback_menu_item_copy_link">Копировать ссылку</string>
     <string name="fallback_menu_item_open_in_browser">Открыть в браузере</string>
     <string name="fallback_menu_item_share_link">Отправить ссылку</string>
-    <string name="fingerprint_unlock_set_unlock_password">Пароль</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Графический ключ</string>
-    <string name="fingerprint_unlock_set_unlock_pin">PIN-код</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Продолжить без Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Используя Nexus Imprint вы можете разблокировать телефон с помощью отпечатка пальца. В целях безопасности вам понадобится установить дополнительный способ разблокировки.</string>
     <string name="fullbackup_data_summary">"Автоматически копируйте данные устройства (например, пароли сетей Wi-Fi и журнал звонков), а также данные приложений (например, настройки и файлы) на Google Диск.
 
 После того как вы включите резервное копирование, данные будут периодически сохраняться на Google Диске в папке, доступной только вам. Учтите, что данные приложений могут включать конфиденциальную информацию: контакты, сообщения, фотографии и другие файлы, сохраненные приложением на устройстве согласно настройкам разработчика.
@@ -227,7 +222,6 @@
     <string name="language_input_gesture_summary_off">Функция Active Edge отключена</string>
     <string name="language_input_gesture_summary_on_non_assist">Функция Active Edge включена</string>
     <string name="language_input_gesture_summary_on_with_assist">Функция Active Edge включена, вызов Ассистента сжатием</string>
-    <string name="lock_settings_picker_fingerprint_message">Выберите способ блокировки экрана в дополнение к Nexus Imprint</string>
     <string name="me_card_title">Мое устройство Pixel</string>
     <string name="my_device_info_account_preference_title">Аккаунт Google</string>
     <string name="owner_info_settings_edit_text_hint">Например, Pixel Саши</string>
@@ -315,26 +309,8 @@
     <string name="security_settings_face_enroll_too_hot_message">Невозможно завершить настройку фейсконтроля. Повторите попытку, когда устройство остынет.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Пропустить фейсконтроль</string>
     <string name="security_settings_face_enroll_too_hot_title">Телефон слишком горячий</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Nexus Imprint позволяет не только разблокировать экран, но и совершать покупки, а также входить в приложения. <annotation id="url">Подробнее…</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Данные, записанные Nexus Imprint, защищены и хранятся только на вашем телефоне. Удалить их всегда можно в настройках.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint позволяет снимать блокировку телефона и выводить его из спящего режима, подтверждать покупки и входить в приложения с помощью отпечатка пальца.
-
-Обратите внимание, что эти возможности будут доступны всем пользователям, чьи отпечатки вы сохраните на устройстве. "<annotation link="url">Подробнее…</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint позволяет подтверждать покупки и входить в приложения с помощью отпечатка пальца.
-
-Сохраните на устройстве отпечатки пользователей, которым доверяете, и они тоже смогут это делать.
-
-Помните, что отпечаток пальца нельзя использовать для разблокировки этого устройства. За подробной информацией обратитесь к системному администратору."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Разблокировка с помощью Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Нажмите, чтобы добавить отпечаток пальца</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Функция Pixel Imprint использует уникальную модель вашего отпечатка, чтобы узнавать вас во время аутентификации. Для создания модели необходимо отсканировать ваш палец в разных положениях.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Вы можете в любой момент удалить модель отпечатка или отключить функцию Pixel Imprint в настройках. Модели отпечатка хранятся на телефоне, пока вы не удалите их.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Функция Pixel Imprint использует уникальную модель вашего отпечатка, чтобы узнавать вас во время аутентификации. Для создания модели необходимо отсканировать палец в разных положениях.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Для обновления модели будут использоваться изображения, получаемые во время работы с функцией Pixel Imprint. Обработка снимков и модели происходит только на устройстве. Сами изображения не сохраняются, а модель отпечатка хранится только на вашем устройстве и никуда не отправляется.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Вы и ваш ребенок можете в любой момент удалить изображения и модель отпечатка или отключить функцию Pixel Imprint в настройках. Модели хранятся на телефоне, пока вы не удалите их.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Подробнее: g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Чтобы разблокировать телефон, коснитесь датчика Nexus Imprint.</string>
     <string name="setup_suggestion_summary">Скопируйте данные, настройте оплату с телефона и другие функции</string>
     <string name="setup_suggestion_title">Завершите настройку</string>
     <string name="smart_battery_footer">Чтобы продлить время работы от батареи, функция \"Адаптивное энергопотребление\" может снизить производительность и ограничить фоновые процессы. Некоторые уведомления могут приходить с задержкой.</string>
@@ -343,7 +319,6 @@
     <string name="sound_dashboard_summary">Громкость, тактильный отклик, режим \"Не беспокоить\"</string>
     <string name="sound_settings">Звук и вибрация</string>
     <string name="storage_manager_indicator">Умное хранилище: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Использование Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Примерное оставшееся время работы с прежней интенсивностью использования: %1$s</string>
     <string name="time_remaining_warning_text">Батарея скоро разрядится</string>
     <string name="tips_suggestion_summary">Исследуйте возможности своего телефона.</string>

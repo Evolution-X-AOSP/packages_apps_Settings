@@ -170,11 +170,6 @@ Sau khi thiết bị đặt lại, hãy chuyển tới quy trình thiết lập 
     <string name="fallback_menu_item_copy_link">Sao chép đường liên kết</string>
     <string name="fallback_menu_item_open_in_browser">Mở trong trình duyệt</string>
     <string name="fallback_menu_item_share_link">Chia sẻ liên kết</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Mật khẩu</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Hình mở khóa</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + Mã PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Tiếp tục mà không có Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Với Nexus Imprint, bạn có thể mở khóa điện thoại bằng vân tay của mình. Để đảm bảo an toàn, tùy chọn này yêu cầu một khóa màn hình dự phòng.</string>
     <string name="fullbackup_data_summary">"Tự động sao lưu dữ liệu thiết bị (chẳng hạn như mật khẩu Wi-Fi và lịch sử cuộc gọi) và dữ liệu ứng dụng (chẳng hạn như cài đặt và tệp được ứng dụng lưu trữ) vào Google Drive.
 
 Khi bạn bật sao lưu tự động, dữ liệu thiết bị và dữ liệu ứng dụng được lưu vào một thư mục riêng trong Google Drive theo định kỳ. Dữ liệu ứng dụng có thể là bất kỳ dữ liệu nào mà ứng dụng đã lưu (dựa trên cài đặt của nhà phát triển), bao gồm dữ liệu có thể nhạy cảm chẳng hạn như danh bạ, tin nhắn và ảnh.
@@ -226,7 +221,6 @@ Dữ liệu sao lưu sẽ không tính vào phần bộ nhớ trên Drive của 
     <string name="language_input_gesture_summary_off">Đã tắt Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">Đã bật Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge đang bật, hãy bóp vào hai cạnh để mở Trợ lý</string>
-    <string name="lock_settings_picker_fingerprint_message">Chọn một phương thức khóa màn hình dự phòng để sử dụng với Nexus Imprint</string>
     <string name="me_card_title">Pixel của tôi</string>
     <string name="my_device_info_account_preference_title">Tài khoản Google</string>
     <string name="owner_info_settings_edit_text_hint">Ví dụ: Pixel của Tuấn</string>
@@ -313,26 +307,9 @@ Khi bạn dùng tính năng Mở khóa bằng khuôn mặt, các hình ảnh s�
     <string name="security_settings_face_enroll_too_hot_message">Không thể hoàn tất việc thiết lập tính năng Mở khóa bằng khuôn mặt do điện thoại quá nóng. Hãy chờ điện thoại nguội bớt rồi thử lại sau.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Bỏ qua tính năng Mở khóa bằng khuôn mặt</string>
     <string name="security_settings_face_enroll_too_hot_title">Điện thoại quá nóng</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Ngoài mở khóa điện thoại, bạn cũng có thể sử dụng Nexus Imprint để ủy quyền truy cập ứng dụng và mua hàng. <annotation id="url">Tìm hiểu thêm</annotation></string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">Dùng ngón tay trỏ chạm vào cảm biến nằm ở mặt sau của điện thoại.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Dữ liệu do tính năng Nexus Imprint ghi lại được lưu trữ an toàn và chỉ có trên chiếc điện thoại của bạn. Bạn có thể xóa dữ liệu của mình bất cứ lúc nào trong phần Cài đặt.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint dùng vân tay của bạn để đánh thức và mở khóa điện thoại, ủy quyền mua hàng hoặc đăng nhập vào ứng dụng.
-
-Hãy cẩn trọng khi thêm vân tay. Mọi vân tay bạn thêm đều có thể dùng để thực hiện những việc này. "<annotation link="url">Tìm hiểu thêm</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Với Nexus Imprint, bạn có thể sử dụng vân tay của mình để ủy quyền mua hàng hoặc đăng nhập vào ứng dụng.
-
-Hãy cẩn trọng với vân tay mà bạn thêm. Mọi vân tay được thêm đều có thể làm những việc này.
-
-Lưu ý: Bạn không thể sử dụng vân tay của mình để mở khóa thiết bị này. Để biết thêm thông tin, hãy liên hệ với quản trị viên của tổ chức."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Mở khóa bằng Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Nhấn để thiết lập vân tay</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint sẽ tạo một mẫu vân tay duy nhất để xác minh danh tính của bạn. Để tạo mẫu vân tay này trong khi thiết lập, bạn cần chụp ảnh vân tay của mình ở nhiều vị trí.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Bạn có thể xóa mẫu vân tay của mình hoặc tắt Pixel Imprint bất cứ lúc nào trong phần Cài đặt. Các mẫu vân tay sẽ được lưu trữ trên điện thoại này cho đến khi bạn xóa đi.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint sẽ tạo một mẫu vân tay duy nhất để xác minh danh tính của con bạn. Để tạo mẫu vân tay này trong khi thiết lập, con bạn cần chụp ảnh vân tay của mình ở nhiều vị trí.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Bạn và con bạn có thể xóa mẫu vân tay của con hoặc tắt Pixel Imprint bất cứ lúc nào trong phần Cài đặt. Các mẫu vân tay sẽ được lưu trữ trên điện thoại này cho đến khi bạn hoặc con bạn xóa đi.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Tìm hiểu thêm tại g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Chỉ cần chạm vào cảm biến Nexus Imprint để đánh thức và mở khóa điện thoại của bạn.</string>
     <string name="setup_suggestion_summary">Sao chép dữ liệu, thanh toán bằng điện thoại, v.v.</string>
     <string name="setup_suggestion_title">Hoàn tất việc thiết lập</string>
     <string name="smart_battery_footer">Để kéo dài thời lượng pin, tính năng Pin thích ứng có thể làm giảm hiệu suất thiết bị và hoạt động ở chế độ nền. Một số thông báo có thể đến chậm.</string>
@@ -341,7 +318,6 @@ Lưu ý: Bạn không thể sử dụng vân tay của mình để mở khóa th
     <string name="sound_dashboard_summary">Âm lượng, xúc giác, Không làm phiền</string>
     <string name="sound_settings">Âm thanh và rung</string>
     <string name="storage_manager_indicator">Bộ nhớ thông minh: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Sử dụng Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Còn khoảng %1$s dựa trên mức sử dụng trước đây</string>
     <string name="time_remaining_warning_text">Có thể sẽ sớm hết pin</string>
     <string name="tips_suggestion_summary">Khám phá những việc bạn có thể làm bằng điện thoại</string>

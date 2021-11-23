@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">አገናኝ ቅዳ</string>
     <string name="fallback_menu_item_open_in_browser">በአሳሽ ውስጥ ክፈት</string>
     <string name="fallback_menu_item_share_link">አገናኝ አጋራ</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + የይለፍ ቃል</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + ሥርዓተ ጥለት</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + ፒን</string>
-    <string name="fingerprint_unlock_skip_fingerprint">ያለ Nexus Imprint ቀጥል</string>
-    <string name="fingerprint_unlock_title">ከNexus Imprint ጋር የእርስዎን የጣት አሻራ በመጠቀም የእርስዎን ስልክ መክፈት ይችላሉ። ለደህንነት ሲባል ይህ አማራጭ የምትኬ የማያ ገጽ መቆለፊያ ያስፈልገዋል።</string>
     <string name="fullbackup_data_summary">"የመሣሪያ ውሂብ (እንደ የWi-Fi ይለፍ ቃላት እና የጥሪ ታሪክ ያሉ) እና የመተግበሪያ ውሂብ (እንደ በመተግበሪያዎች የተከማቹ ቅንብሮች እና ፋይሎች ያለ) ምትኬ በራስ-ሰር Google Drive ላይ ያስቀምጡ።
 
 ራስ-ሰር ምትኬን ሲያበሩ የመሣሪያ እና የመተግበሪያ ውሂብ በየጊዜው Google Drive ላይ ወዳለ የግል አቃፊ ይቀመጣል። የመተግበሪያ ውሂብ እንደ እውቂያዎች፣ መልዕክቶች እና ፎቶዎች ያሉ ሚስጥራዊነት ሊኖራቸው የሚችል ውሂብ ጨምሮ አንድ መተግበሪያ የሚያስቀምጠው ማንኛውም ውሂብ (በገንቢ ቅንብሮች ላይ የተመሠረተ) ሊሆን ይችላል።
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge ጠፍቷል</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge በርቷል</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge በርቷል፣ የእርስዎን ረዳት ለማግኘት ጨመቅ ያድርጉ</string>
-    <string name="lock_settings_picker_fingerprint_message">ከNexus Imprint ጋር የሚጠቀሙበትን ምትኬ የማያ ገጽ መቆለፊያ ይምረጡ</string>
     <string name="me_card_title">የእኔ Pixel</string>
     <string name="my_device_info_account_preference_title">የGoogle መለያ</string>
     <string name="owner_info_settings_edit_text_hint">ለምሳሌ፦ የአበበ Pixel</string>
@@ -316,25 +310,8 @@ g.co/pixel/faceunlock ላይ የበለጠ ይወቁ።"</string>
     <string name="security_settings_face_enroll_too_hot_message">ስልኩ ስለጋለ በመልክ መክፈትን ማዋቀር ሊጠናቀቅ አይችልም። በኋላ ስልኩ ሲቀዘቅዝ እንደገና ይሞክሩ።</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">በመልክ መክፈትን ዝለል</string>
     <string name="security_settings_face_enroll_too_hot_title">ስልኩ ግሏል</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">የእርስዎን ስልክ ከመክፈቱም በተጨማሪ፣ ግዢዎችን ለመፍቀድ እና መተግበሪያ ላይ ለመድረስ Nexus Imprint መጠቀምም ይችላሉ። <annotation id="url">ተጨማሪ ይረዱ</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">በNexus Imprint የተመዘገበው ውሂብ ደህንነቱ በተጠበቀ ሁኔታ የሚከማች ሲሆን በጭራሽ ከስልክዎ አይወጣም። የእርስዎን ውሂብ በማናቸውም ጊዜ በቅንብሮች ውስጥ መሰረዝ ይችላሉ።</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint ስልክዎን ለመቀስቀስ እና ለመክፈት፣ ግዢዎችን ለመፍቀድ ወይም በመለያ ወደ መተግበሪያዎች ለመግባት የጣት አሻራዎን ይጠቀማል።
-
-የማን የጣት አሻራዎችን እንደሚያክሉ ላይ ይጠንቀቁ። ማንኛቸውም የታከሉ ጣት አሻራዎች እነዚህን ማድረግ ይችላሉ። "<annotation link="url">የበለጠ ለመረዳት</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"በNexus Imprint አማካኝነት ግዢዎችን ለማጽደቅ ወይም ወደ መተግበሪያዎች ለመግባት የጣት አሻራዎን መጠቀም ይችላሉ።
-
-የማን የጣት አሻራዎች እንደሚያክሉ ላይ ይጠንቀቁ። ማንኛቸውም የታከሉ የጣት አሻራዎች እነዚህን ማድረግ ይችላሉ።
-
-ማስታወሻ፦ ይህን መሣሪያ ለመክፈት የጣት አሻራዎን መጠቀም አይችሉም። ተጨማሪ መረጃ ለማግኘት የድርጅትዎን አስተዳዳሪ ያነጋግሩ።"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">በNexus Imprint ይክፈቱ</string>
     <string name="security_settings_fingerprint_preference_summary_none">የጣት አሻራን ለማቀናበር መታ ያድርጉ</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint እርስዎ መሆንዎን ለማረጋገጥ የጣት አሻራዎን ልዩ ሞዴል ይፈጥራል። በሚቀናበርበት ጊዜ ይህን የጣት አሻራ ሞዴል ለመፍጠር የጣት አሻራዎ ምስሎችን ከተለያዩ ቦታዎች ያነሳሉ።</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">የጣት አሻራዎን ሞዴል መሰረዝ ወይም በቅንብሮች ውስጥ በማንኛውም ጊዜ Pixel Imprintን ማጥፋት ይችላሉ። የጣት አሻራ ሞዴሎች እስኪሰርዟቸው ድረስ በስልኩ ላይ ይከማቻሉ።</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint እነሱ መሆናቸውን ለማረጋገጥ የልጅዎን የጣት አሻራ ልዩ ሞዴል ይፈጥራል። በሚቀናበቀርበት ጊዜ ይህን የጣት አሻራ ሞዴል ለመፍጠር የጣት አሻራቸው ምስሎችን ከተለያዩ ቦታዎች ያነሳሉ።</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">እርስዎ እና ልጅዎ በማንኛውም ጊዜ በቅንብሮች ውስጥ የጣት አሻራ ሞዴላቸውን መሰረዝ ወይም Pixel Imprintን ማጥፋት ትችላላችሁ። የጣት አሻራ ሞዴሎች እስኪሰረዙ ድረስ በስልኩ ላይ ይከማቻሉ።</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">g.co/pixel/fingerprintunlock ላይ የበለጠ ይወቁ።</string>
-    <string name="setup_fingerprint_enroll_finish_message">ስልክዎን ለመቀስቀስ እና ለመክፈት በቀላሉ የNexus Imprint መዳሰሻውን መታ ያድርጉ።</string>
     <string name="setup_suggestion_summary">ውሂብን ይቅዱ፣ በስልክዎ ይክፈሉ እና ሌሎችንም ያድርጉ</string>
     <string name="setup_suggestion_title">ማዋቀር ይጨርሱ</string>
     <string name="smart_battery_footer">የባትሪ ዕድሜን ለማራዘም የተስማሚ ባትሪ የአፈፃፀምን እና የጀርባ እንቅስቃሴን ሊቀንስ ይችላል። አንዳንድ ማሳወቂያዎች ሊዘገዩ ይችላሉ</string>
@@ -343,7 +320,6 @@ g.co/pixel/faceunlock ላይ የበለጠ ይወቁ።"</string>
     <string name="sound_dashboard_summary">የድምጽ መጠን፣ ረቂቅ ንዝረት፣ አትረብሽ</string>
     <string name="sound_settings">ድምጽ እና ንዝረት</string>
     <string name="storage_manager_indicator">ዘመናዊ ማከማቻ፦ ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprintን ይጠቀሙ</string>
     <string name="time_remaining_warning_subtext">ባለፈ አጠቃቀም ላይ በመመርኮዝ ወደ %1$s ገደማ ቀርቷል</string>
     <string name="time_remaining_warning_text">ባትሪ በጣም በቅርቡ ሊያልቅ ይችል ይሆናል</string>
     <string name="tips_suggestion_summary">በስልክዎ ምን ማድረግ እንደሚችሉ ያስሱ</string>

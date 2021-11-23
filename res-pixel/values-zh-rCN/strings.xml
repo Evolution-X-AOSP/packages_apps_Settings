@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">复制链接</string>
     <string name="fallback_menu_item_open_in_browser">在浏览器中打开</string>
     <string name="fallback_menu_item_share_link">分享链接</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + 密码</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + 图案</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN 码</string>
-    <string name="fingerprint_unlock_skip_fingerprint">不使用 Nexus Imprint 并继续</string>
-    <string name="fingerprint_unlock_title">借助 Nexus Imprint，您可以使用自己的指纹将手机解锁。为了安全起见，此选项要求您使用备用屏幕锁定方式。</string>
     <string name="fullbackup_data_summary">"将设备数据（例如 WLAN 密码和通话记录）和应用数据（例如应用存储的设置和文件）自动备份到 Google 云端硬盘。
 
 启用自动备份功能后，系统会定期将设备和应用数据保存到您在 Google 云端硬盘上的私人文件夹中。应用数据可以是应用根据开发者设置保存的任何数据，包括通讯录、邮件、消息、照片等可能具有敏感性的数据。
@@ -227,7 +222,6 @@
     <string name="language_input_gesture_summary_off">已关闭 Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">已开启 Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge 已开启。握压手机即可启动 Google 助理</string>
-    <string name="lock_settings_picker_fingerprint_message">请选择要与 Nexus Imprint 搭配使用的备用屏幕锁定方式</string>
     <string name="me_card_title">我的 Pixel</string>
     <string name="my_device_info_account_preference_title">Google 帐号</string>
     <string name="owner_info_settings_edit_text_hint">例如，小明的 Pixel。</string>
@@ -315,25 +309,8 @@
     <string name="security_settings_face_enroll_too_hot_message">手机过热，无法完成人脸解锁设置。请先让手机降温，然后再重试。</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">跳过人脸解锁</string>
     <string name="security_settings_face_enroll_too_hot_title">手机过热</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">除了解锁手机外，您还可以使用 Nexus Imprint 对购买交易进行授权以及登录应用。<annotation id="url">了解详情</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint 功能所记录的数据会安全地存储在您的手机上，绝不会外泄。您可以随时在“设置”中删除您的数据。</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint 会使用您的指纹来唤醒和解锁手机、对购买交易进行授权或登录应用。
-
-请务必谨慎添加指纹，因为添加的任何指纹都能够用来执行这些操作。"<annotation link="url">了解详情</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"借助 Nexus Imprint，您可以使用自己的指纹对购买交易进行授权或登录应用。
-
-请务必谨慎添加指纹，因为添加的任何指纹都能够用来执行上述操作。
-
-注意：您无法使用指纹来解锁此设备。要了解详情，请与贵单位的管理员联系。"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">使用 Nexus Imprint 解锁</string>
     <string name="security_settings_fingerprint_preference_summary_none">点按即可设置指纹</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint 会为您创建一个具有唯一性的指纹模型，用于验证您的身份。为了在设置过程中创建指纹模型，您需要截取指纹不同部位的图像。</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">您可以随时在“设置”部分删除您的指纹模型或关闭 Pixel Imprint 功能。指纹模型会存储在手机上，直到您将其删除为止。</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint 会为您的孩子创建一个具有唯一性的指纹模型，用于验证其身份。为了在设置过程中创建指纹模型，孩子需要截取指纹不同部位的图像。</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">您和您的孩子可以随时在“设置”部分删除其指纹模型或关闭 Pixel Imprint。指纹模型会存储在手机上，直到被删除为止。</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">如需了解详情，请访问 g.co/pixel/fingerprintunlock。</string>
-    <string name="setup_fingerprint_enroll_finish_message">只需触摸 Nexus Imprint 传感器即可唤醒和解锁手机。</string>
     <string name="setup_suggestion_summary">复制数据，使用手机付款等等</string>
     <string name="setup_suggestion_title">完成设置</string>
     <string name="smart_battery_footer">为延长电池续航时间，“自适应电池”功能可能会降低性能并减少后台活动。部分通知可能会延迟。</string>
@@ -342,7 +319,6 @@
     <string name="sound_dashboard_summary">音量、触感反馈、勿扰</string>
     <string name="sound_settings">提示音和振动</string>
     <string name="storage_manager_indicator">智能存储：^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">使用 Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">根据过往使用情况，大约还可使用%1$s</string>
     <string name="time_remaining_warning_text">电池电量即将耗尽</string>
     <string name="tips_suggestion_summary">探索手机的各项功能</string>

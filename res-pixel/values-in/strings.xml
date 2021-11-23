@@ -172,11 +172,6 @@ Setelah reset, selesaikan proses dan pilih untuk memindahkan data dari ponsel se
     <string name="fallback_menu_item_copy_link">Salin link</string>
     <string name="fallback_menu_item_open_in_browser">Buka di browser</string>
     <string name="fallback_menu_item_share_link">Bagikan link</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Sandi</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Pola</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Lanjutkan tanpa Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Dengan Nexus Imprint, Anda dapat membuka kunci ponsel menggunakan sidik jari. Demi keamanan, opsi ini memerlukan kunci layar cadangan.</string>
     <string name="fullbackup_data_summary">"Otomatis cadangkan data perangkat (seperti sandi Wi-Fi dan histori panggilan) dan data aplikasi (seperti setelan dan file yang disimpan oleh aplikasi) ke Google Drive.
 
 Jika Anda mengaktifkan cadangan otomatis, data perangkat dan aplikasi secara berkala disimpan ke folder pribadi di Google Drive. Data aplikasi dapat berupa data apa saja yang telah disimpan oleh aplikasi (menurut setelan developer), termasuk data yang berpotensi sensitif seperti kontak, pesan, dan foto.
@@ -228,7 +223,6 @@ Data cadangan tidak dihitung dari kuota penyimpanan Drive. File besar, atau file
     <string name="language_input_gesture_summary_off">Active Edge dinonaktifkan</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge diaktifkan</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge aktif, squeeze untuk terhubung dengan Asisten</string>
-    <string name="lock_settings_picker_fingerprint_message">Pilih kunci layar cadangan untuk digunakan dengan Nexus Imprint</string>
     <string name="me_card_title">Pixel Saya</string>
     <string name="my_device_info_account_preference_title">Akun Google</string>
     <string name="owner_info_settings_edit_text_hint">Misalnya, Pixel Joko.</string>
@@ -317,25 +311,8 @@ Untuk meningkatkan performa, Anda dapat menyiapkan Face Unlock lagi di Setelan."
     <string name="security_settings_face_enroll_too_hot_message">Penyiapan Face Unlock tidak dapat diselesaikan karena ponsel terlalu panas. Coba lagi nanti saat ponsel sudah dingin.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Lewati Face Unlock</string>
     <string name="security_settings_face_enroll_too_hot_title">Ponsel terlalu panas</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Selain membuka kunci ponsel, Anda juga dapat menggunakan Nexus Imprint untuk mengotorisasi pembelian dan akses aplikasi. <annotation id="url">Pelajari lebih lanjut</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Data yang direkam oleh Nexus Imprint disimpan dengan aman dan hanya ada di ponsel Anda. Anda dapat menghapus data kapan saja di Setelan.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint menggunakan sidik jari Anda untuk mengaktifkan layar dan membuka kunci ponsel, memberi otorisasi untuk pembelian, atau login ke aplikasi.
-
-Berhati-hatilah dengan sidik jari yang Anda tambahkan. Sidik jari yang ditambahkan dapat melakukan hal-hal ini. "<annotation link="url">Pelajari lebih lanjut</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Dengan Nexus Imprint, Anda dapat menggunakan sidik jari untuk mengotorisasi pembelian atau login ke aplikasi.
-
-Berhati-hatilah dengan sidik jari yang ditambahkan. Sidik jari yang ditambahkan dapat melakukan semua ini.
-
-Catatan: Anda tidak dapat menggunakan sidik jari untuk membuka kunci perangkat. Untuk informasi selengkapnya, hubungi admin organisasi Anda."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Buka dengan Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Ketuk untuk menyiapkan sidik jari</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint membuat model unik dari sidik jari untuk memverifikasi diri Anda. Untuk membuat model sidik jari ini selama penyiapan, Anda akan mengambil gambar sidik jari dari berbagai posisi.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Anda dapat menghapus model sidik jari atau menonaktifkan Pixel Imprint kapan pun di Setelan. Model sidik jari disimpan di ponsel hingga Anda menghapusnya.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint membuat model unik dari sidik jari anak Anda untuk memverifikasi dirinya. Untuk membuat model sidik jari ini selama penyiapan, dia akan mengambil gambar sidik jari dari berbagai posisi.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Anda dan anak Anda dapat menghapus model sidik jarinya atau menonaktifkan Pixel Imprint kapan pun di Setelan. Model sidik jari akan disimpan di ponsel hingga dihapus.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Pelajari lebih lanjut di g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Cukup sentuh sensor Nexus Imprint untuk membangunkan dan membuka kunci ponsel Anda.</string>
     <string name="setup_suggestion_summary">Salin data, bayar dengan ponsel, dan lainnya</string>
     <string name="setup_suggestion_title">Selesaikan penyiapan</string>
     <string name="smart_battery_footer">Untuk memperpanjang masa pakai baterai, Baterai Adaptif dapat mengurangi performa dan aktivitas latar belakang. Beberapa notifikasi mungkin tertunda.</string>
@@ -344,7 +321,6 @@ Catatan: Anda tidak dapat menggunakan sidik jari untuk membuka kunci perangkat. 
     <string name="sound_dashboard_summary">Volume, sentuhan, Jangan Ganggu</string>
     <string name="sound_settings">Suara &amp; getaran</string>
     <string name="storage_manager_indicator">Smart Storage: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Gunakan Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Tentang %1$s yang tersisa berdasarkan penggunaan sebelumnya</string>
     <string name="time_remaining_warning_text">Baterai mungkin akan segera habis</string>
     <string name="tips_suggestion_summary">Jelajahi hal-hal yang dapat Anda lakukan dengan ponsel</string>

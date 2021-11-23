@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">להעתקת הקישור</string>
     <string name="fallback_menu_item_open_in_browser">פתיחה בדפדפן</string>
     <string name="fallback_menu_item_share_link">לשיתוף הקישור</string>
-    <string name="fingerprint_unlock_set_unlock_password">‏Nexus Imprint וסיסמה</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">‏Nexus Imprint וקו ביטול נעילה</string>
-    <string name="fingerprint_unlock_set_unlock_pin">‏Nexus Imprint וקוד אימות</string>
-    <string name="fingerprint_unlock_skip_fingerprint">‏המשך ללא Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">‏עם Nexus Imprint ניתן לנעול את הטלפון באמצעות טביעת אצבע. מטעמי אבטחה, אפשרות זו מחייבת נעילת מסך לגיבוי.</string>
     <string name="fullbackup_data_summary">"‏שימוש ב-Google Drive כדי לגבות אוטומטית את נתוני המכשיר (כמו ססמאות לרשתות Wi-Fi והיסטוריית שיחות) ונתוני אפליקציות (כמו הגדרות וקבצים המאוחסנים על ידי אפליקציות).
 
 כשהגיבוי האוטומטי פועל, נתוני המכשיר והאפליקציות נשמרים מדי פעם בתיקייה פרטית ב-Google Drive. נתוני אפליקציות יכולים להיות כל מה שהאפליקציה שמרה (בהתבסס על הגדרות המפתח), כולל נתונים שעשויים להיות רגישים, כמו אנשי קשר, הודעות ותמונות.
@@ -229,7 +224,6 @@
     <string name="language_input_gesture_summary_off">‏Active Edge כבוי</string>
     <string name="language_input_gesture_summary_on_non_assist">‏Active Edge מופעל</string>
     <string name="language_input_gesture_summary_on_with_assist">‏Active Edge מופעל. לחיצה משני צדי המכשיר תפעיל את Assistant</string>
-    <string name="lock_settings_picker_fingerprint_message">‏באיזו שיטה נוספת של נעילת המסך ברצונך להשתמש, כגיבוי ל-Nexus Imprint?</string>
     <string name="me_card_title">‏ה-Pixel שלי</string>
     <string name="my_device_info_account_preference_title">‏חשבון Google</string>
     <string name="owner_info_settings_edit_text_hint">‏לדוגמה, ה-Pixel של יוסי.</string>
@@ -319,25 +313,8 @@
     <string name="security_settings_face_enroll_too_hot_message">לא ניתן להשלים את ההגדרה של פתיחה ע\"י זיהוי הפנים מפני שהטלפון חם מדי. יש לנסות שוב מאוחר יותר לאחר שהטלפון יתקרר.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">דילוג על פתיחה ע\"י זיהוי הפנים</string>
     <string name="security_settings_face_enroll_too_hot_title">הטלפון חם מדי</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">‏בנוסף לביטול נעילת הטלפון, אפשר להשתמש ב-Nexus Imprint גם כדי לאשר רכישות ולגשת לאפליקציות. <annotation id="url">למידע נוסף</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">‏הנתונים שמתועדים באמצעות Nexus Imprint מאוחסנים באופן מאובטח ואף פעם לא יוצאים מהטלפון. אפשר למחוק את הנתונים בכל שלב בהגדרות.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"‏התכונה Nexus Imprint עושה שימוש בטביעת האצבע שלך כדי להוציא את הטלפון ממצב שינה ולבטל את הנעילה שלו, לאשר רכישות ולהיכנס לאפליקציות.
-
-יש לפעול בזהירות בהוספת טביעות אצבע. שימוש בטביעת אצבע כלשהי שמוסיפים יאפשר ביצוע של הפעולות האלה. "<annotation link="url">מידע נוסף</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"‏עם Nexus Imprint ניתן להשתמש בטביעת האצבע שלך כדי לאשר רכישות או להיכנס לאפליקציות.
-
-יש לשים לב כשמוסיפים טביעות אצבע של אנשים. כל מי שהוספת טביעת אצבע שלו יוכל לבצע את הפעולות האלה.
-
-הערה: אי אפשר להשתמש בטביעת האצבע שלך כדי לבטל את הנעילה של המכשיר הזה. לקבלת מידע נוסף, יש לפנות למנהל המערכת בארגון שלך."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">‏ביטול נעילה באמצעות Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">יש להקיש כדי להגדיר טביעת אצבע</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"‏הפיצ'ר Pixel Imprint יוצר תבנית ייחודית של טביעת האצבע שלך כדי לאמת את זהותך. כדי ליצור את התבנית הזו לטביעת האצבע במהלך ההגדרה, עליך לצלם תמונות של טביעת האצבע מזוויות שונות."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">"‏בכל שלב אפשר למחוק את תבנית טביעת האצבע או להשבית את Pixel Imprint, דרך 'הגדרות'. התבניות של טביעת האצבע נשמרות בטלפון עד שהן נמחקות."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"‏הפיצ'ר Pixel Imprint יוצר תבנית ייחודית של טביעת האצבע של הילד או הילדה כדי לאמת את זהותם. כדי ליצור את התבנית הזו לטביעת האצבע במהלך ההגדרה, יהיה עליהם לצלם תמונות של טביעת האצבע מזוויות שונות."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">"‏האפשרות למחוק את התבנית של טביעת האצבע, או להשבית את הפיצ'ר Pixel Imprint, זמינה לך ולילד או לילדה שלך בכל שלב בהגדרות. התבניות של טביעת האצבע נשמרות בטלפון עד שהן נמחקות."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">‏מידע נוסף זמין בכתובת g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">‏צריך פשוט לגעת בחיישן של Nexus Imprint כדי להוציא את הטלפון ממצב שינה ולבטל את הנעילה שלו.</string>
     <string name="setup_suggestion_summary">העתקת נתונים, תשלום באמצעות הטלפון ועוד</string>
     <string name="setup_suggestion_title">סיום תהליך ההגדרה</string>
     <string name="smart_battery_footer">"כדי להאריך את חיי הסוללה, התכונה 'סוללה שניתנת להתאמה' עשויה להפחית את רמת הביצועים ואת הפעילות ברקע. ייתכן שיהיה עיכוב בקבלת התראות מסוימות."</string>
@@ -346,7 +323,6 @@
     <string name="sound_dashboard_summary">עוצמת קול, משוב פיזי, נא לא להפריע</string>
     <string name="sound_settings">צליל ורטט</string>
     <string name="storage_manager_indicator">ניהול אחסון חכם: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">‏שימוש ב-Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">על סמך נתוני שימוש קודמים, נשארו בערך %1$s</string>
     <string name="time_remaining_warning_text">ייתכן שהסוללה תתרוקן בקרוב</string>
     <string name="tips_suggestion_summary">כדאי לגלות מה אפשר לעשות בעזרת הטלפון</string>

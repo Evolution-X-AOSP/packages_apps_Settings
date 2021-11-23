@@ -172,11 +172,6 @@ Quan s'hagi restablert, completa el procés de configuració i tria copiar les d
     <string name="fallback_menu_item_copy_link">"Copia l'enllaç"</string>
     <string name="fallback_menu_item_open_in_browser">Obre al navegador</string>
     <string name="fallback_menu_item_share_link">"Comparteix l'enllaç"</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + contrasenya</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + patró</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Continua sense Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Amb Nexus Imprint, pots desbloquejar el telèfon amb la teva empremta digital. Per motius de seguretat, per utilitzar aquesta opció cal tenir configurat un bloqueig de pantalla alternatiu.</string>
     <string name="fullbackup_data_summary">"Crea una còpia de seguretat automàtica a Google Drive de les dades del dispositiu (com ara les contrasenyes de les xarxes Wi-Fi i l'historial de trucades) i de les aplicacions (com ara les configuracions i els fitxers que desen).
 
 Quan s'activa la còpia de seguretat automàtica, les dades del dispositiu i de les aplicacions es desen de manera periòdica en una carpeta privada de Google Drive. S'entén per dades d'una aplicació qualsevol dada que hagi desat una aplicació (segons la configuració del desenvolupador), incloses dades potencialment confidencials, com ara els contactes, els missatges i les fotos.
@@ -228,7 +223,6 @@ Les dades de la còpia de seguretat no ocupen espai de la teva quota d'emmagatze
     <string name="language_input_gesture_summary_off">Active Edge està desactivat</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge està activat</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge està activat. Estreny per iniciar el teu Assistent.</string>
-    <string name="lock_settings_picker_fingerprint_message">Tria un bloqueig de pantalla de seguretat per utilitzar-lo amb Nexus Imprint</string>
     <string name="me_card_title">El meu Pixel</string>
     <string name="my_device_info_account_preference_title">Compte de Google</string>
     <string name="owner_info_settings_edit_text_hint">"P. ex.: el Pixel de l'Anna."</string>
@@ -319,25 +313,8 @@ Per millorar-ne el rendiment, pots tornar a configurar Desbloqueig facial a Conf
     <string name="security_settings_face_enroll_too_hot_message">No es pot completar la configuració de Desbloqueig facial perquè el telèfon està massa calent. Torna-ho a provar quan el telèfon es refredi.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Omet Desbloqueig facial</string>
     <string name="security_settings_face_enroll_too_hot_title">El telèfon està massa calent</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">"A més de fer servir Nexus Imprint per desbloquejar el telèfon, també el pots fer servir per autoritzar compres i permetre l'accés a determinades aplicacions. "<annotation id="url">Més informació</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">"Les dades gravades per Nexus Imprint s'emmagatzemen de manera segura i no surten mai del telèfon. Pots suprimir-les en qualsevol moment a Configuració."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint utilitza la teva empremta digital per activar i desbloquejar el telèfon, autoritzar compres o iniciar la sessió en aplicacions.
-
-Ves amb compte amb les empremtes digitals d'altres persones que hi afegeixis, perquè totes podran dur a terme aquestes accions. "<annotation link="url">Més informació</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Amb Nexus Imprint, pots fer servir la teva empremta digital per autoritzar una compra o iniciar la sessió en una aplicació.
-
-Ves amb compte a l'hora d'afegir-hi empremtes dactilars; tingues present que totes les que hi afegeixis podran dur a terme totes aquestes accions.
-
-Nota: no pots fer servir l'empremta digital per desbloquejar el dispositiu. Per obtenir més informació, contacta amb l'administrador de l'organització."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Desbloqueja amb Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">"Toca per configurar l'empremta digital"</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"Pixel Imprint crea un model únic de la teva empremta digital per verificar la teva identitat. Per crear-lo durant la configuració, et faràs fotos de l'empremta digital des de diverses posicions."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">"Pots suprimir el model d'empremta digital o desactivar Pixel Imprint en qualsevol moment a Configuració. Els models d'empremta digital s'emmagatzemen al telèfon fins que els suprimeixes."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"Pixel Imprint crea un model únic de l'empremta digital del teu fill per verificar la seva identitat. Per crear-lo durant la configuració, es farà fotos de l'empremta digital des de diverses posicions."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">"Tu i el teu fill podeu suprimir el seu model d'empremta digital o desactivar Pixel Imprint en qualsevol moment a Configuració. Els models d'empremta digital s'emmagatzemen al telèfon fins que se suprimeixin."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Obtén més informació a g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Només cal que toquis el sensor de Nexus Imprint per activar i desbloquejar el telèfon.</string>
     <string name="setup_suggestion_summary">Copia dades, paga amb el telèfon i més</string>
     <string name="setup_suggestion_title">Finalitza la configuració</string>
     <string name="smart_battery_footer">"Per allargar la durada de la bateria, la funció Bateria adaptativa pot reduir el rendiment i l'activitat en segon pla. És possible que algunes notificacions arribin amb retard."</string>
@@ -346,7 +323,6 @@ Nota: no pots fer servir l'empremta digital per desbloquejar el dispositiu. Per 
     <string name="sound_dashboard_summary">Volum, tecnologia hàptica, No molestis</string>
     <string name="sound_settings">So i vibració</string>
     <string name="storage_manager_indicator">Emmagatzematge intel·ligent: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Utilitza Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">"Temps restant aproximat segons l'ús fet anteriorment: %1$s"</string>
     <string name="time_remaining_warning_text">"És possible que la bateria s'esgoti aviat"</string>
     <string name="tips_suggestion_summary">Explora què pots fer amb el teu telèfon</string>

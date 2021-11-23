@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">लिंक कॉपी करें</string>
     <string name="fallback_menu_item_open_in_browser">ब्राउज़र में खोलें</string>
     <string name="fallback_menu_item_share_link">लिंक शेयर करें</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + पासवर्ड</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + पैटर्न</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + पिन</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint के बिना जारी रखें</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint से, आप अपने फ़िंगरप्रिंट का उपयोग करके अपना फ़ोन अनलॉक कर सकते हैं. सुरक्षा के लिए, इस विकल्प के लिए बैकअप स्क्रीन लॉक आवश्यक है.</string>
     <string name="fullbackup_data_summary">"डिवाइस डेटा (जैसे वाई-फ़ाई पासवर्ड और कॉल इतिहास) और ऐप्लिकेशन डेटा (जैसे ऐप्लिकेशन द्वारा संग्रहित की गईं सेटिंग और फ़ाइलों) का Google डिस्क में अपने आप बैक अप लें.
 
 जब आप स्वचालित बैकअप चालू करते हैं, तो डिवाइस और ऐप्लिकेशन डेटा को समय-समय पर Google डिस्क में निजी फ़ोल्डर में सहेजा जाता है. ऐप्लिकेशन डेटा कोई भी ऐसा डेटा हो सकता है जिसे किसी ऐप्लिकेशन द्वारा सहेजा गया है (डेवलपर सेटिंग के आधार पर), जिसमें संभावित रूप से संवेदनशील डेटा जैसे संपर्क, संदेश और फ़ोटो शामिल किए जा सकते हैं.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">Active Edge बंद है</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge चालू है</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge चालू है, अपनी Assistant सेवा के लिए किनारे दबाएं</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus Imprint के साथ उपयोग करने के लिए एक बैकअप स्‍क्रीन लॉक चुनें</string>
     <string name="me_card_title">मेरा Pixel</string>
     <string name="my_device_info_account_preference_title">Google खाता</string>
     <string name="owner_info_settings_edit_text_hint">जैसे, सुधीर का Pixel फ़ोन.</string>
@@ -316,26 +310,9 @@
     <string name="security_settings_face_enroll_too_hot_message">फ़ोन के बहुत गर्म होने की वजह से, फ़ेस अनलॉक की सुविधा सेटअप नहीं की जा सकती. फ़ोन ठंडा होने के बाद, फिर से कोशिश करें.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">फ़ेस अनलॉक की सुविधा का सेट अप स्किप करें</string>
     <string name="security_settings_face_enroll_too_hot_title">फ़ोन बहुत गर्म है</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">अपने फ़ोन को अनलॉक करने के साथ ही, आप Nexus Imprint का उपयोग खरीदारी और ऐप ऐक्‍सेस को ज़्यादाृत करने के लिए भी कर सकते हैं. <annotation id="url">ज़्यादा जानें</annotation></string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">यह आपके फ़ोन के पीछे दिया गया है. अपने अंगूठे के पास की उंगली इस्तेमाल करें.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint से रिकॉर्ड किया गया डेटा, सुरक्षित तरीके से आपके फ़ोन में सेव किया जाता है. यह कभी भी आपके फ़ोन से बाहर नहीं जाता. आप सेटिंग में जाकर, कभी भी अपना डेटा मिटा सकते हैं.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint आपके फ़िंगरप्रिंट का इस्तेमाल करके, आपका फ़ोन चालू और अनलॉक करता है. साथ ही, फ़िंगरप्रिंट की मदद से खरीदारी की मंज़ूरी देने या ऐप्लिकेशन में साइन इन करने का काम भी करता है.
-
-इस बारे में सावधानी बरतें कि आप किसका फ़िंगरप्रिंट जोड़ रहे हैं. जोड़े गए किसी भी फ़िंगरप्रिंट से ये सभी काम किए जा सकते हैं. "<annotation link="url">ज़्यादा जानें</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Pixel Imprint से, आप खरीदारियों की अनुमति देने या ऐप्लिकेशन में साइन इन करने के लिए अपने फ़िंगरप्रिंट का इस्तेमाल कर सकते हैं.
-
-इस बारे में सावधानी रखें कि आप किसके फ़िंगरप्रिंट जोड़ रहे हैं. जोड़े गए किसी भी फ़िंगरप्रिंट से ये कार्रवाइयां की जा सकेंगी.
-
-नोट: आप इस डिवाइस का लॉक खोलने के लिए अपने फ़िंगरप्रिंट का इस्तेमाल नहीं कर सकते हैं. ज़्यादा जानकारी के लिए, अपने संगठन के एडमिन से संपर्क करें."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Nexus Imprint से अनलॉक करें</string>
     <string name="security_settings_fingerprint_preference_summary_none">फ़िंगरप्रिंट सेट करने के लिए टैप करें</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint की मदद से, आपके फ़िंगरप्रिंट का एक खास मॉडल बनाया जाता है. इससे आपकी पहचान की पुष्टि की जाती है. फ़िंगरप्रिंट से अनलॉक करने की सुविधा सेट अप करते समय, फ़िंगरप्रिंट का यह मॉडल बनाने के लिए, आपको अलग-अलग तरीकों से अपने फ़िंगरप्रिंट की इमेज कैप्चर करनी होंगी.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">आप जब चाहें, सेटिंग में जाकर अपने फ़िंगरप्रिंट का मॉडल मिटा सकते हैं या Pixel Imprint की सुविधा को बंद कर सकते हैं. फ़िंगरप्रिंट के मॉडल, फ़ोन में तब तक सेव रहते हैं, जब तक आप उन्हें नहीं मिटाते.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint की मदद से, आपके बच्चे के फ़िंगरप्रिंट का एक खास मॉडल बनाया जाता है. इससे, पुष्टि करते समय उसके फ़िंगरप्रिंट की पहचान करने में मदद मिलती है. फ़िंगरप्रिंट से अनलॉक करने की सुविधा सेट अप करते समय, फ़िंगरप्रिंट का यह मॉडल बनाने के लिए आपके बच्चे को अलग-अलग ऐंगल से अपने फ़िंगरप्रिंट कैप्चर करने होंगे.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">आपका बच्चा और आप किसी भी समय, सेटिंग में जाकर फ़िंगरप्रिंट का मॉडल मिटा सकते हैं या Pixel Imprint की सुविधा को बंद कर सकते हैं. फ़िंगरप्रिंट के मॉडल, फ़ोन में तब तक सेव रहते हैं, जब तक उन्हें नहीं मिटाया जाता है.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">ज़्यादा जानने के लिए, g.co/pixel/fingerprintunlock पर जाएं.</string>
-    <string name="setup_fingerprint_enroll_finish_message">अपने फ़ोन को सक्रिय करने और अनलॉक करने के लिए बस अपने Nexus Imprint सेंसर को छुएं.</string>
     <string name="setup_suggestion_summary">डेटा कॉपी करें, फ़ोन से पैसे चुकाएं, और भी बहुत कुछ करें</string>
     <string name="setup_suggestion_title">सेट अप पूरा करें</string>
     <string name="smart_battery_footer">बैटरी लाइफ़ बढ़ाने के लिए, ज़रूरत के हिसाब से बैटरी का इस्तेमाल करने की सुविधा, परफ़ॉर्मेंस और बैकग्राउंड में होने वाली गतिविधि को कम कर सकती है. इसलिए, कुछ सूचनाएं देरी से मिल सकती हैं.</string>
@@ -344,7 +321,6 @@
     <string name="sound_dashboard_summary">वॉल्यूम, हैप्टिक, परेशान न करें</string>
     <string name="sound_settings">आवाज़ और वाइब्रेशन</string>
     <string name="storage_manager_indicator">स्मार्ट जगह: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint इस्तेमाल करें</string>
     <string name="time_remaining_warning_subtext">पिछले उपयोग के आधार पर करीब %1$s बचा है/बचे हैं</string>
     <string name="time_remaining_warning_text">बैटरी जल्द ही खत्म हो जाएगी</string>
     <string name="tips_suggestion_summary">जानें कि आप फ़ोन से क्या कर सकते हैं</string>

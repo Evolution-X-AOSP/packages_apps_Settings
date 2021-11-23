@@ -171,11 +171,6 @@ Sıfırlandıqdan sonra quraşdırma prosesindən keçin və əvvəlki telefonun
     <string name="fallback_menu_item_copy_link">Linki kopyalayın</string>
     <string name="fallback_menu_item_open_in_browser">Brauzerdə açın</string>
     <string name="fallback_menu_item_share_link">Linki paylaşın</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Parol</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint Qrafik Açar</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN kod</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Nexus Imprint olmadan davam edin</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint ilə, barmaq izinizi istifadə edərək telefonun kilidini aça bilərsiniz. Təhlükəsizlik üçün, bu seçim yedək ekran kilidi tələb edir.</string>
     <string name="fullbackup_data_summary">"Cihaz datası (Wi-Fi parollar və zəng tarixçəsi kimi) və tətbiq datasını (tətbiqlər tərəfindən saxlanılan ayar və fayllar kimi) Google Diskə avtomatik yedəkləyin.
 
 Avtomatik yedəkləməni aktiv etdikdə, cihaz və tətbiq datası dövri olaraq Google Diskdə şəxsi qovluqda saxlanılır. Tətbiq datası tətbiqin saxladığı istənilən data ola bilər (developer ayarlarından asılı olaraq), bura kontakt, mesaj və foto kimi potensial həssas data daxildir.
@@ -227,7 +222,6 @@ Yedəkləmə datası Disk yaddaşının kvotasını azaltmayacaq. Xidmətdən ç
     <string name="language_input_gesture_summary_off">Aktiv Kənar deaktiv edildi</string>
     <string name="language_input_gesture_summary_on_non_assist">Aktiv Kənar aktiv edildi</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge funksiyası aktivdir, Assistent sıxmaqla çağrılır</string>
-    <string name="lock_settings_picker_fingerprint_message">Nexus Imprint ilə istifadə etmək üçün arxa fon ekran kilidini seçin</string>
     <string name="me_card_title">Pikselim</string>
     <string name="my_device_info_account_preference_title">Google Hesabı</string>
     <string name="owner_info_settings_edit_text_hint">"Məs, Joe'nin Pixel'i."</string>
@@ -315,24 +309,8 @@ Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə kiliddən çıxarman�
     <string name="security_settings_face_enroll_too_hot_message">Telefon çox qızdığına görə Üz ilə kiliddən çıxarmanı ayarlamaq tamamlanmadı. Telefon soyuduqdan sonra yenidən cəhd edin.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Üz ilə kiliddən çıxarmanı ötürün</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefon çox qızıb</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint ilə yazılmış data təhlükəsiz saxlanılır və heç vaxt telefondan silinmir. Datanı istənilən vaxt ayarlarda silə bilərsiniz.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Imprint telefonu kiliddən çıxarmaq, alışları təsdiq etmək və ya tətbiqlərə daxil olmaq üçün barmaq izini istifadə edir.
-
-Kimin barmaq izini əlavə etdiyinizə diqqət edin. Əlavə edilmiş barmaq izi bunlardan hər hansı birini edə bilər. "<annotation link="url">Ətraflı məlumat</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint ilə, alışları təsdiqləmək və ya tətbiqlərə daxil olmaq üçün barmaq izinizi istifadə edə bilərsiniz.
-
-Kimi əlavə etdiyinizə diqqət edin. Əlavə edilmiş hər hansı barmaq izi ilə bunları etmək mümkün olacaq.
-
-Qeyd: barmaq izinizi bu cihazın kildiini açmaq üçün istifadə edə bilməzsiniz. Ətraflı məlumat üçün, təşkilatın admini ilə əlaqə saxlayın."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">"Nexus Imprint'lə açın"</string>
     <string name="security_settings_fingerprint_preference_summary_none">Barmaq izi əlavə etmək üçün toxunun</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint kimliyinizi doğrulamaq üçün barmaq izinizin unikal modelini yaradır. Ayarlama zamanı bu barmaq izi modelini yaratmaq üçün müxtəlif bucaqlardan barmaq izinizin şəkillərini çəkəcəksiniz.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">"Ayarlarda istənilən vaxt barmaq izi modelinizi silə, yaxud Pixel Imprint'i deaktiv edə bilərsiniz. Barmaq izi modelləri siz onları silənə qədər telefonunuzda saxlanılır."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint övladınızın kimliyini doğrulamaq üçün onun barmaq izinin unikal modelini yaradır. Ayarlama zamanı bu barmaq izi modelini yaratmaq üçün , müxtəlif bucaqlardan barmaq izinin şəkillərini çəkəcək.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">"Siz və övladınız ayarlarda istənilən vaxt barmaq izi modelinizi silə, yaxud Pixel Imprint'i deaktiv edə bilərsiniz. Barmaq izi modelləri silinənə qədər telefonda saxlanılır."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Ətraflı məlumat: g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Telefonunuzu oyatmaq və kilidini açmaq üçün sadəcə Nexus Imprint sensoruna toxunun.</string>
     <string name="setup_suggestion_summary">Məlumatı kopyalayın, telefonla ödəyin və sair.</string>
     <string name="setup_suggestion_title">Ayarlamanı tamamlayın</string>
     <string name="smart_battery_footer">Enerjiyə qənaət etmək üçün enerjinin adaptiv istifadəsi performansı azalda və fondakı tətbiqlərin fəaliyyətini zəiflədə bilər. Bəzi bildirişlər gecikə bilər.</string>
@@ -341,7 +319,6 @@ Qeyd: barmaq izinizi bu cihazın kildiini açmaq üçün istifadə edə bilməzs
     <string name="sound_dashboard_summary">Səs, taktil əks-əlaqə, Narahat Etməyin</string>
     <string name="sound_settings">Səs və vibrasiya</string>
     <string name="storage_manager_indicator">Smart yaddaş: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Piksel Imprint istifadə edin</string>
     <string name="time_remaining_warning_subtext">İstifadəyə əsasən təxminən %1$s qalıb</string>
     <string name="time_remaining_warning_text">Batareya tezliklə bitə bilər</string>
     <string name="tips_suggestion_summary">Telefon ilə edə biləcəklərinizi öyrənin</string>

@@ -172,11 +172,6 @@ Berrezarri ondoren, gauzatu konfiguratze-prozesua eta adierazi telefono zaharrek
     <string name="fallback_menu_item_copy_link">Kopiatu esteka</string>
     <string name="fallback_menu_item_open_in_browser">Ireki arakatzailean</string>
     <string name="fallback_menu_item_share_link">Partekatu esteka</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + pasahitza</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + eredua</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PINa</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Jarraitu Nexus Imprint erabili gabe</string>
-    <string name="fingerprint_unlock_title">Nexus Imprint-ekin, hatz-marka erabilita desblokea dezakezu telefonoa. Segurtasuna bermatzeko, pantaila blokeatzeko ordezko metodo bat konfiguratu behar da.</string>
     <string name="fullbackup_data_summary">"Egin babeskopiak automatikoki Google Drive-n, bai gailuetako datuenak (esaterako, Wi-Fi pasahitzak eta deien historia), bai aplikazioetako datuenak (esaterako, ezarpenak eta aplikazioek gordetako fitxategiak).
 
 Babeskopiak automatikoki egiteko aukera aktibatzean, gailuko eta aplikazioetako datuak Google Drive-ko karpeta pribatu batean gordetzen dira aldizka. Aplikazioetako datuak aplikazioek gordetako edozein datu izan daitezke (garatzaileen ezarpenen arabera), eta kontuzkoak izan litezkeen datuak ere sar daitezke (adibidez, kontaktuak, mezuak eta argazkiak).
@@ -228,7 +223,6 @@ Babeskopiek ez dute eraginik Drive-ko biltegiratze-kuotan. Fitxategiak handiak b
     <string name="language_input_gesture_summary_off">Active Edge desaktibatuta</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge aktibatuta</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge aktibatuta. Estutu gailua Laguntzailea atzitzeko.</string>
-    <string name="lock_settings_picker_fingerprint_message">Aukeratu Nexus Imprint-ekin pantaila blokeatzeko metodoa</string>
     <string name="me_card_title">Nire Pixel gailua</string>
     <string name="my_device_info_account_preference_title">Google-ko kontua</string>
     <string name="owner_info_settings_edit_text_hint">Adibidez, Jonen Pixel gailua.</string>
@@ -315,25 +309,8 @@ Errendimendua hobetu nahi baduzu, konfiguratu aurpegi bidez desblokeatzeko eginb
     <string name="security_settings_face_enroll_too_hot_message">Ezin da amaitu aurpegi bidez desblokeatzeko eginbidea konfiguratzen telefonoa gehiegi berotu delako. Saiatu berriro telefonoa hozten denean.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Saltatu konfigurazio-prozesua</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefonoa gehiegi berotu da</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Telefonoa desblokeatzeko erabiltzeaz gain, erosketak egiteko eta aplikazioetan sartzeko baimena emateko erabil dezakezu Nexus Imprint. <annotation id="url">Lortu informazio gehiago</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Nexus Imprint-ek erregistratutako datuak modu seguruan gordetzen dira telefonoan, ez dira ateratzen bertatik eta nahi duzunean ezaba ditzakezu ezarpenetan.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint-ek hatz-marka erabiltzen du telefonoa aktibatu eta desblokeatzeko, erosketak baimentzeko edo aplikazioetan saioa hasteko.
-
-Kontuz aukeratu noren hatz-markak gehitzen dituzun; izan ere, gehitutako hatz-marka guztiekin egin ahal izango dira aipatutako ekintzak. "<annotation link="url">Lortu informazio gehiago</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Nexus Imprint erabilita, erosketak baimentzeko edo aplikazioetan saioa hasteko erabil dezakezu hatz-marka.
-
-Erne noren hatz-markak gehitzen dituzun; gehitzen duzun edozein hatz-markarekin egin ahal izango baitituzu ekintza horiek.
-
-Oharra: ezin duzu erabili hatz-marka gailua desblokeatzeko. Informazio gehiago lortzeko, jarri erakundearen administratzailearekin harremanetan."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Desblokeatu Nexus Imprint erabilita</string>
     <string name="security_settings_fingerprint_preference_summary_none">Hatz-marka konfiguratzeko, sakatu hau</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint-ek zure hatz-markaren eredu esklusibo bat sortzen du zeu zarela egiaztatzeko. Konfiguratzean hatz-markaren eredu hori sortzeko, hatz-markaren irudiak aterako dituzu, hainbat posiziotan.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Hatz-markaren eredua ezabatzeko edo Pixel Imprint desaktibatzeko, joan Ezarpenak atalera. Ezabatzen dituzun arte, telefonoan gordeko dira hatz-markaren ereduak.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint-ek haurraren hatz-markaren eredu esklusibo bat sortzen du hura dela egiaztatzeko. Konfiguratzean hatz-markaren eredu hori sortzeko, hatz-markaren argazkiak aterako ditu haurrak, hainbat posiziotan.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Haurrak eta zuk haren hatz-markaren eredua edo Pixel Imprint desaktibatu nahi baduzue, joan Ezarpenak atalera. Ezabatzen dituzuen arte, telefonoan gordeko dira hatz-markaren ereduak.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Lortu informazio gehiago g.co/pixel/fingerprintunlock helbidean.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Ukitu Nexus Imprint telefonoa esnarazteko eta desblokeatzeko.</string>
     <string name="setup_suggestion_summary">Kopiatu datuak, ordaindu telefonoarekin, eta abar</string>
     <string name="setup_suggestion_title">Amaitu konfiguratzen</string>
     <string name="smart_battery_footer">Bateriaren iraupena luzatzeko, baliteke Bateria egokitua eginbideak errendimendua eta atzeko planoko jarduerak mugatzea. Beharbada, jakinarazpen batzuk atzeratu egingo dira.</string>
@@ -342,7 +319,6 @@ Oharra: ezin duzu erabili hatz-marka gailua desblokeatzeko. Informazio gehiago l
     <string name="sound_dashboard_summary">Bolumena, ukipen bidezko interakzioa, Ez molestatu</string>
     <string name="sound_settings">Soinua eta dardara</string>
     <string name="storage_manager_indicator">Biltegi adimenduna: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Erabili Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">%1$s inguru gelditzen dira, erabileraren arabera</string>
     <string name="time_remaining_warning_text">Laster agortuko da bateria</string>
     <string name="tips_suggestion_summary">Ikusi zer egin dezakezun telefonoarekin</string>

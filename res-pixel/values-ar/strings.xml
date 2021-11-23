@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">نسخ الرابط</string>
     <string name="fallback_menu_item_open_in_browser">فتح في المتصفح</string>
     <string name="fallback_menu_item_share_link">مشاركة الرابط</string>
-    <string name="fingerprint_unlock_set_unlock_password">‏Nexus Imprint وكلمة مرور</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">‏Nexus Imprint ونقش</string>
-    <string name="fingerprint_unlock_set_unlock_pin">‏Nexus Imprint ورقم تعريف شخصي</string>
-    <string name="fingerprint_unlock_skip_fingerprint">‏المتابعة بدون Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">‏باستخدام Nexus Imprint، يمكنك فتح قفل هاتفك باستخدام بصمة إصبعك. ولأغراض تتعلق بالأمان، يتطلب هذا الخيار قفل شاشة احتياطيًا.</string>
     <string name="fullbackup_data_summary">"‏بإمكانك الاحتفاظ تلقائيًا بنسخة احتياطية من بيانات الجهاز (مثل كلمات مرور Wi-Fi وسجل المكالمات) وبيانات التطبيقات (مثل الإعدادات والملفات التي تخزنها التطبيقات) في Google Drive.
 
 عند تفعيل الاحتفاظ التلقائي بنسخة احتياطية، يتم حفظ بيانات الجهاز وبيانات التطبيقات بشكل دوري في مجلد خاص في Google Drive. ويمكن أن تكون بيانات التطبيقات أي بيانات تم حفظها في التطبيق (استنادًا إلى إعدادات مطوّر البرامج) بما في ذلك البيانات المحتمل أن تكون حساسة مثل جهات الاتصال والرسائل والصور.
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">‏تم إيقاف Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">‏تم تفعيل Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">‏تم تفعيل Active Edge، ويمكنك الضغط لتشغيل المساعد</string>
-    <string name="lock_settings_picker_fingerprint_message">‏اختر قفل شاشة احتياطيًا لاستخدامه مع Nexus Imprint</string>
     <string name="me_card_title">‏هاتف Pixel</string>
     <string name="my_device_info_account_preference_title">‏حساب Google</string>
     <string name="owner_info_settings_edit_text_hint">‏جهاز Pixel الخاص بهاني مثلاً.</string>
@@ -318,25 +312,8 @@
     <string name="security_settings_face_enroll_too_hot_message">يتعذّر إكمال إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\" لأن درجة حرارة الهاتف مرتفعة جدًا. يُرجى إعادة المحاولة بعد انخفاض درجة حرارة الهاتف.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">تخطّي إعداد \"فتح الجهاز بالتعرف على الوجه\"</string>
     <string name="security_settings_face_enroll_too_hot_title">درجة حرارة الهاتف مرتفعة جدًا</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">‏بالإضافة إلى فتح قفل هاتفك، يمكنك أيضًا استخدام Nexus Imprint لمنح إذن بعمليات الشراء والوصول إلى التطبيق. <annotation id="url">مزيد من المعلومات</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">‏يتم تخزين البيانات التي تسجِّلها ميزة Nexus Imprint بشكل آمن وتظل على هاتفك. يمكنك حذف بياناتك في أي وقت في \"الإعدادات\".</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"‏يستخدم Nexus Imprint بصمة إصبعك لتنشيط هاتفك وفتح قفله أو السماح بعمليات الشراء أو تسجيل الدخول إلى التطبيقات.
-
-عليك توخي الحذر بخصوص بصمات الإصبع التي تضيفها، فأي بصمات إصبع تتم إضافتها ستتيح لصاحبها تنفيذ هذه الإجراءات. "<annotation link="url">مزيد من المعلومات</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"‏تتيح لك ميزة Nexus Imprint استخدام بصمة إصبعك للسماح بعمليات الشراء أو تسجيل الدخول إلى التطبيقات.
-
-وعليك توخي الحذر عند اختيار الأشخاص الذين تضيف بصمة أصابعهم؛ لأن أي بصمة منها تتيح لصاحبها تنفيذ أي إجراء من الإجراءات التالية.
-
-ملاحظة: لا يمكنك استخدام بصمة إصبعك لإلغاء تأمين هذا الجهاز. للمزيد من المعلومات، اتصل بمشرف المؤسسة."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">‏فتح القفل مع Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">النقر لإعداد بصمة الإصبع</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">‏تنشئ ميزة Pixel Imprint نموذجًا فريدًا لبصمة إصبعك لإثبات هويتك. لإنشاء نموذج بصمة الإصبع هذا أثناء عملية الإعداد، عليك التقاط صور لبصمة إصبعك من مواضع مختلفة.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">‏يمكنك حذف نموذج بصمة الإصبع أو إيقاف ميزة Pixel Imprint في أي وقت في \"الإعدادات\". يتم تخزين نماذج بصمات الأصابع على هاتفك حتى تحذفها.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">‏تنشئ ميزة Pixel Imprint نموذجًا فريدًا لبصمة إصبع طفلك لإثبات هويته. لإنشاء نموذج بصمة الإصبع هذا أثناء الإعداد، على طفلك التقاط صور لبصمة إصعبه من مواضع مختلفة.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">‏يمكنك أنت وطفلك حذف نموذج بصمة إصبعه أو إيقاف ميزة Pixel Imprint في أي وقت في \"الإعدادات\". يتم تخزين نماذج بصمة الإصبع على الهاتف حتى يتم حذفها.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">‏تعرّف على المزيد من المعلومات على الرابط g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">‏ما عليك سوى لمس زر استشعار Nexus Imprint لتنشيط هاتفك وفتح قفله.</string>
     <string name="setup_suggestion_summary">نسخ البيانات والدفع عبر الهاتف والمزيد</string>
     <string name="setup_suggestion_title">إنهاء الإعداد</string>
     <string name="smart_battery_footer">لإطالة عمر البطارية، قد تعمل ميزة \"البطارية التكيُّفية\" على تقليل مستوى الأداء والنشاط في الخلفية، وبالتالي قد يتأخّر ظهور بعض الإشعارات.</string>
@@ -345,7 +322,6 @@
     <string name="sound_dashboard_summary">مستوى الصوت والميزات التي تعمل باللمس وعدم الإزعاج</string>
     <string name="sound_settings">الصوت والاهتزاز</string>
     <string name="storage_manager_indicator">التخزين الذكي: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">‏استخدام Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">يتبقى %1$s تقريبًا بناءً على الاستخدام الماضي</string>
     <string name="time_remaining_warning_text">قد ينفد شحن البطارية قريبًا</string>
     <string name="tips_suggestion_summary">استكشاف ما يمكنك فعله باستخدام هاتفك</string>

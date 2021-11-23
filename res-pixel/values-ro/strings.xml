@@ -172,11 +172,6 @@ După resetarea dispozitivului, parcurgeți procesul de configurare și optați 
     <string name="fallback_menu_item_copy_link">Copiați linkul</string>
     <string name="fallback_menu_item_open_in_browser">Deschideți în browser</string>
     <string name="fallback_menu_item_share_link">Trimiteți linkul</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + parolă</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + model</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + cod PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Continuați fără Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Cu Nexus Imprint, puteți debloca telefonul folosind amprenta. Din motive de securitate, această opțiune necesită o blocare a ecranului de rezervă.</string>
     <string name="fullbackup_data_summary">"Faceți backup automat pentru datele dispozitivului (de exemplu, parolele Wi-Fi și istoricul apelurilor) și pentru datele aplicațiilor (de exemplu, setările și fișierele stocate de aplicații) în Google Drive.
 
 Dacă activați backupul automat, datele de pe dispozitiv și din aplicații sunt salvate periodic într-un dosar privat în Google Drive. Datele unei aplicații pot fi orice date pe care le-a salvat aplicația (în funcție de setările dezvoltatorului), inclusiv date posibil sensibile, cum a fi persoanele de contact, mesajele și fotografiile.
@@ -229,7 +224,6 @@ Backupul datelor nu se ia în considerare la calcularea cotei de stocare Drive. 
     <string name="language_input_gesture_summary_off">Active Edge dezactivat</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge activat</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge activat, strângeți pentru Asistent</string>
-    <string name="lock_settings_picker_fingerprint_message">Alegeți o blocare de rezervă a ecranului pentru a o folosi cu Nexus Imprint</string>
     <string name="me_card_title">Dispozitvul meu Pixel</string>
     <string name="my_device_info_account_preference_title">Cont Google</string>
     <string name="owner_info_settings_edit_text_hint">De ex., telefonul Pixel al lui Andrei.</string>
@@ -320,25 +314,8 @@ Pentru a îmbunătăți performanța, puteți să configurați din nou Deblocare
     <string name="security_settings_face_enroll_too_hot_message">Nu se poate finaliza configurarea Deblocării faciale, deoarece telefonul este prea fierbinte. Încercați din nou când se mai răcește.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Omiteți Deblocarea facială</string>
     <string name="security_settings_face_enroll_too_hot_title">Telefonul este prea fierbinte</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Pe lângă deblocarea telefonului, puteți să folosiți Nexus Imprint pentru a autoriza achizițiile și accesul aplicațiilor. <annotation id="url">Aflați mai multe</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Datele înregistrate de Nexus Imprint sunt stocate în siguranță și nu părăsesc niciodată telefonul dvs. Puteți să ștergeți aceste date oricând din Setări.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint vă folosește amprenta pentru activarea și deblocarea telefonului, autorizarea achizițiilor sau conectarea la aplicații.
-
-Aveți grijă ce amprente adăugați. Aceste acțiuni sunt posibile folosind orice amprentă adăugată. "<annotation link="url">Aflați mai multe</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Cu Nexus Imprint, vă puteți folosi amprenta ca să autorizați achiziții sau să vă conectați la aplicații.
-
-Aveți grijă ce amprente adăugați. Aceste acțiuni sunt posibile folosind orice amprentă adăugată.
-
-Notă: nu vă puteți folosi amprenta ca să deblocați acest dispozitiv. Pentru informații suplimentare, contactați administratorul organizației."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Deblocați cu Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Atingeți pentru a configura amprenta</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint creează un model unic al amprentei dvs. pentru a vă confirma identitatea. Pentru a crea acest model de amprentă, în timpul configurării veți captura imagini ale amprentei dvs. din diferite poziții.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Puteți să ștergeți modelul de amprentă sau să dezactivați Pixel Imprint oricând din Setări. Modelele de amprentă sunt stocate pe telefon până când le ștergeți.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint creează un model unic al amprentei copilului dvs. pentru a-i confirma identitatea. Pentru a crea acest model de amprentă în timpul configurării, va captura imagini ale amprentei sale din diferite poziții.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Dvs. și copilul dvs. puteți să ștergeți modelul său de amprentă sau să dezactivați Pixel Imprint oricând din Setări. Modelele de amprentă sunt stocate pe telefon până când le ștergeți.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Aflați mai multe la g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Atingeți senzorul Nexus Imprint ca să activați și să deblocați telefonul.</string>
     <string name="setup_suggestion_summary">Copiați date, plătiți cu telefonul și altele</string>
     <string name="setup_suggestion_title">Finalizați configurarea</string>
     <string name="smart_battery_footer">Pentru a prelungi autonomia bateriei, Bateria adaptabilă poate să scadă performanța și activitatea din fundal. Unele notificări pot avea întârzieri.</string>
@@ -347,7 +324,6 @@ Notă: nu vă puteți folosi amprenta ca să deblocați acest dispozitiv. Pentru
     <string name="sound_dashboard_summary">Volum, feedback tactil, Nu deranja</string>
     <string name="sound_settings">Sunete și vibrații</string>
     <string name="storage_manager_indicator">Spațiu de stocare inteligent: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Folosiți Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Pe baza utilizării anterioare, timpul aproximativ rămas este %1$s</string>
     <string name="time_remaining_warning_text">Este posibil ca bateria să se descarce în curând</string>
     <string name="tips_suggestion_summary">Explorați ce puteți face cu telefonul</string>

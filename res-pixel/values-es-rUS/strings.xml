@@ -172,11 +172,6 @@ Después de restablecerla, sigue el proceso de configuración y elige la opción
     <string name="fallback_menu_item_copy_link">Copiar vínculo</string>
     <string name="fallback_menu_item_open_in_browser">Abrir en el navegador</string>
     <string name="fallback_menu_item_share_link">Compartir vínculo</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint y contraseña</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint y patrón</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint y PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Continuar sin Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Con Nexus Imprint, puedes desbloquear el teléfono con tus huellas dactilares. Para mayor seguridad, esta opción requiere un método secundario de bloqueo de la pantalla.</string>
     <string name="fullbackup_data_summary">"Crea una copia de seguridad de los datos del dispositivo (como las contraseñas de Wi-Fi y el historial de llamadas) y los datos de las apps (como las opciones de configuración y los archivos que estas almacenan) de forma automática en Google Drive.
 
 Al activar la copia de seguridad automática, los datos del dispositivo y de las apps se guardan de forma periódica en una carpeta privada en Google Drive. Los datos de las apps incluyen cualquier información que estas guarden (según la configuración del programador), incluso datos potencialmente confidenciales, como contactos, mensajes y fotos.
@@ -228,7 +223,6 @@ La copia de seguridad de los datos no incide en la cuota de almacenamiento de Dr
     <string name="language_input_gesture_summary_off">Active Edge desactivado</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge activado</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge activado, aprieta para usar tu Asistente</string>
-    <string name="lock_settings_picker_fingerprint_message">Elige un método de bloqueo de pantalla secundario para usar con Nexus Imprint</string>
     <string name="me_card_title">Mi Pixel</string>
     <string name="my_device_info_account_preference_title">Cuenta de Google</string>
     <string name="owner_info_settings_edit_text_hint">P. ej., Pixel de Juan</string>
@@ -317,27 +311,9 @@ Para mejorar el reconocimiento, vuelve a configurar Desbloqueo facial en Configu
     <string name="security_settings_face_enroll_too_hot_message">No se puede completar la configuración de Desbloqueo facial porque se sobrecalentó el teléfono. Vuelve a intentarlo más tarde cuando el teléfono se enfríe.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Omitir desbloqueo facial</string>
     <string name="security_settings_face_enroll_too_hot_title">Se sobrecalentó el teléfono</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Además de desbloquear el teléfono, también puedes utilizar Nexus Imprint para autorizar compras y el acceso a apps. <annotation id="url">Más información</annotation></string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">Está en la parte posterior del teléfono. Usa el dedo índice.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Los datos que registra Nexus Imprint se almacenan en un lugar seguro de tu teléfono. Puedes borrarlos cuando quieras en la Configuración.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint usa tu huella dactilar para activar y desbloquear el teléfono, autorizar compras o acceder a las apps.
-
-Ten cuidado con las huellas dactilares que agregas, ya que todas podrán realizar cualquiera de esas acciones. "<annotation link="url">Más información</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Con Nexus Imprint, puedes usar tu huella dactilar para autorizar compras y acceder a las apps.
-
-Ten cuidado con las personas que agregas, ya que todas las huellas dactilares que agregues podrán realizar estas acciones.
-
-Nota: No puedes utilizar tu huella dactilar para desbloquear este dispositivo. Para obtener más información, ponte en contacto con el administrador de tu organización."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Desbloquear con Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Presionar para configurar una huella dactilar</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint crea un modelo único de tu huella dactilar que permite verificar tu identidad. Para crear este modelo durante la configuración, deberás tomar fotos de tu huella desde diferentes posiciones.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Cuando usas Pixel Imprint, las imágenes se utilizan para actualizar el modelo de huella dactilar. Las imágenes que se usan para crear tu modelo no se guardan, pero el modelo en sí se almacena de manera segura en tu teléfono y nunca sale de él. Todo el proceso se lleva a cabo en el teléfono de forma segura.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Puedes borrar el modelo de tu huella dactilar o desactivar Pixel Imprint cuando quieras en Configuración. Los modelos de huellas dactilares se almacenarán en el teléfono hasta que los borres.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint crea un modelo único de la huella dactilar de tu hijo que permite verificar su identidad. Para crear este modelo durante la configuración, deberá tomar fotos de su huella desde diferentes posiciones.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Tu hijo y tú pueden borrar su modelo de huella dactilar o desactivar Pixel Imprint en cualquier momento desde Configuración. Los modelos de la huella dactilar se almacenan en el teléfono hasta que se borran.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Obtén más información en g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Solo tienes que tocar el sensor de Nexus Imprint para activar y desbloquear el teléfono.</string>
     <string name="setup_suggestion_summary">Copia datos, paga con tu teléfono y más</string>
     <string name="setup_suggestion_title">Finaliza la configuración</string>
     <string name="smart_battery_footer">Para extender la duración de la batería, la función Batería adaptable puede reducir el rendimiento y la actividad en segundo plano. Es posible que algunas notificaciones funcionen con retraso.</string>
@@ -346,7 +322,6 @@ Nota: No puedes utilizar tu huella dactilar para desbloquear este dispositivo. P
     <string name="sound_dashboard_summary">Volumen, tecnología háptica, No interrumpir</string>
     <string name="sound_settings">Sonido y vibración</string>
     <string name="storage_manager_indicator">Almacenamiento inteligente: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Usa Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Aproximadamente %1$s restantes según el uso anterior</string>
     <string name="time_remaining_warning_text">Es posible que pronto se agote la batería</string>
     <string name="tips_suggestion_summary">Mira lo que puedes hacer con tu teléfono</string>

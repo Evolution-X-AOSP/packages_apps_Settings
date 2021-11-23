@@ -171,11 +171,6 @@ Baada ya kubadilisha mipangilio, kagua mchakato wa kuweka mipangilio na uchague 
     <string name="fallback_menu_item_copy_link">Nakili kiungo</string>
     <string name="fallback_menu_item_open_in_browser">Fungua katika kivinjari</string>
     <string name="fallback_menu_item_share_link">Shiriki kiungo</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + Nenosiri</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + Mchoro</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Endelea bila Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Ukitumia Nexus Imprint, unaweza kufungua simu yako kwa kutumia alama ya kidole chako. Kwa ajili ya usalama, chaguo hili linahitaji mbinu mbadala ya kufunga skrini.</string>
     <string name="fullbackup_data_summary">"Hifadhi kiotomatiki nakala ya data ya kifaa (kama vile manenosiri ya Wi-Fi na rekodi ya simu zilizopigwa) na data ya programu (kama vile mipangilio na faili zilizohifadhiwa na programu), kwenye Hifadhi ya Google.
 
 1Unapowasha kipengele cha kuhifadhi nakala kiotomatiki, hali hii itasababisha data ya kifaa na programu kuhifadhiwa mara kwa mara katika folda ya faragha kwenye Hifadhi ya Google. Data ya programu inaweza kuwa data yoyote ambayo programu imehifadhi (kulingana na mipangilio ya msanidi programu), ikiwa ni pamoja na data ambayo inaweza kuwa nyeti kama vile anwani, ujumbe na picha.
@@ -227,7 +222,6 @@ Data ya nakala haitajumuishwa katika kiwango cha nafasi yako kwenye Hifadhi ya G
     <string name="language_input_gesture_summary_off">Active Edge imezimwa</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge imewashwa</string>
     <string name="language_input_gesture_summary_on_with_assist">Umewasha Active Edge, bana ili ufungue Mratibu</string>
-    <string name="lock_settings_picker_fingerprint_message">Chagua njia nyingine ya kufunga skrini utakayotumia pamoja na Nexus Imprint</string>
     <string name="me_card_title">Pixel Yangu</string>
     <string name="my_device_info_account_preference_title">Akaunti ya Google</string>
     <string name="owner_info_settings_edit_text_hint">Kwa mfano, Pixel ya Juma.</string>
@@ -316,25 +310,8 @@ Ili uboreshe utendaji, unaweza kuweka tena mipangilio ya Kufungua kwa uso katika
     <string name="security_settings_face_enroll_too_hot_message">Mipangilio ya Kufungua kwa uso haiwezi kukamilishwa kwa sababu simu ina joto sana. Jaribu tena baadaye joto la simu litakapopungua.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Ruka kuweka mipangilio ya Kufungua kwa uso</string>
     <string name="security_settings_face_enroll_too_hot_title">Simu ina joto sana</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Mbali na kufungua simu yako, unaweza pia kutumia Nexus Imprint kuidhinisha ununuzi na ufikiaji wa programu. <annotation id="url">Pata maelezo zaidi</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Data inayorekodiwa na kipengele cha Nexus Imprint huhifadhiwa kwa usalama na husalia kwenye simu yako. Unaweza kufuta data yako wakati wowote katika Mipangilio.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint hutumia alama yako ya kidole kuwasha au kufungua skrini ya simu yako, kuidhinisha ununuzi au kuingia katika akaunti za programu.
-
-Kuwa makini unapoongeza alama za vidole. Alama yoyote ya kidole unayoongeza inaweza kufanya shughuli hizi. "<annotation link="url">Pata maelezo zaidi</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Ukiwa na Nexus Imprint, unaweza kutumia alama ya kidole chako kuidhinisha ununuzi au kuingia katika akaunti ya programu.
-
-Kuwa mwangalifu unapoongeza alama za vidole. Alama moja ya kidole unayoongeza inaweza kufanya mambo haya.
-
-Kumbuka: Huwezi kutumia alama ya kidole chako kufungua kifaa hiki. Wasiliana na msimamizi wa shirika lako kwa maelezo zaidi."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Tumia Nexus Imprint Kufungua</string>
     <string name="security_settings_fingerprint_preference_summary_none">Gusa ili uweke mipangilio ya alama ya kidole</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint huunda muundo wa kipekee wa alama ya kidole chako ili kuthibitisha kuwa ni wewe. Ili uunde muundo wa alama ya kidole wakati wa kuweka mipangilio, utanasa picha za alama ya kidole chako kutoka pembe tofauti.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Unaweza kufuta muundo wa alama ya kidole chako au uzime kipengele cha Pixel Imprint wakati wowote katika Mipangilio. Miundo ya alama ya kidole inahifadhiwa kwenye simu hadi utakapoifuta.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint huunda muundo wa kipekee wa alama ya kidole cha mtoto wako ili kuthibitisha kuwa ni yeye. Ili kuunda muundo huu wa alama ya kidole wakati wa kuweka mipangilio, atapiga picha za alama ya kidole chake kutoka pembe tofauti.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Wewe na mtoto wako mnaweza kufuta muundo wa alama ya kidole chake, au kuzima kipengele cha Pixel Imprint wakati wowote katika Mipangilio. Miundo ya alama ya kidole inahifadhiwa kwenye simu hadi utakapoifuta.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Pata maelezo zaidi kwenye g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Gusa tu kitambuzi cha alama cha Nexus Imprint ili uanzishe au ufungue simu yako.</string>
     <string name="setup_suggestion_summary">Nakili data, lipa kwa simu yako na zaidi</string>
     <string name="setup_suggestion_title">Maliza kuweka mipangilio</string>
     <string name="smart_battery_footer">Ili uboreshe muda wa matumizi ya betri, kipengele cha Betri Inayojirekebisha kinaweza kupunguza utendaji na shughuli za chinichini. Huenda baadhi ya arifa zikachelewa.</string>
@@ -343,7 +320,6 @@ Kumbuka: Huwezi kutumia alama ya kidole chako kufungua kifaa hiki. Wasiliana na 
     <string name="sound_dashboard_summary">Sauti, kuhisi, Usinisumbue</string>
     <string name="sound_settings">Milio na mitetemo</string>
     <string name="storage_manager_indicator">Hifadhi Mahiri: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Tumia Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Takriban %1$s zimesalia kulingana na matumizi yako</string>
     <string name="time_remaining_warning_text">Huenda chaji ya betri ikaisha baada ya muda mfupi</string>
     <string name="tips_suggestion_summary">Gundua unachoweza kufanya kwenye simu yako</string>

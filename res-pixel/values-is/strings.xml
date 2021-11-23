@@ -171,11 +171,6 @@ Eftir að endurstillingu er lokið skaltu fara í gegnum uppsetningarferlið til
     <string name="fallback_menu_item_copy_link">Afrita tengil</string>
     <string name="fallback_menu_item_open_in_browser">Opna í vafra</string>
     <string name="fallback_menu_item_share_link">Deila tengli</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + aðgangsorð</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + mynstur</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN-númer</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Halda áfram án Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Með Nexus Imprint geturðu tekið símann úr lás með því að nota fingrafarið. Af öryggisástæðum krefst þessi valkostur að varaskjálás sé til staðar.</string>
     <string name="fullbackup_data_summary">"Taktu sjálfkrafa afrit af gögnum tækisins (s.s. Wi-Fi aðgangsorðum og símtalaferli) og forritagögnum (s.s. stillingum og skrám sem forrit vista) og vistaðu á Google Drive.
 
 Þegar þú kveikir á sjálfvirkri afritun eru gögn tækisins og forrita reglulega vistuð í lokaðri möppu á Google Drive. Forritagögn geta verið öll gögn sem forrit hefur vistað (fer eftir stillingum þróunaraðilans), þ.m.t. hugsanlega viðkvæm gögn á borð við tengiliði þína, skilaboð og myndir.
@@ -227,7 +222,6 @@ Afritunargögn nota ekki geymslukvótann þinn á Drive. Stórar skrár eða skr
     <string name="language_input_gesture_summary_off">Slökkt á Active Edge</string>
     <string name="language_input_gesture_summary_on_non_assist">Kveikt á Active Edge</string>
     <string name="language_input_gesture_summary_on_with_assist">Kveikt á Active Edge, kreistu til að opna aðstoðarmanninn</string>
-    <string name="lock_settings_picker_fingerprint_message">Veldu varaskjálás að nota með Nexus Imprint</string>
     <string name="me_card_title">Pixel síminn minn</string>
     <string name="my_device_info_account_preference_title">Google reikningur</string>
     <string name="owner_info_settings_edit_text_hint">Til dæmis „Pixel sími Jóa“.</string>
@@ -316,25 +310,8 @@ Til að bæta eiginleikann geturðu sett andlitskenni upp aftur í stillingum."<
     <string name="security_settings_face_enroll_too_hot_message">Ekki er hægt að ljúka við uppsetningu andlitsopnunar vegna þess að síminn er of heitur. Reyndu aftur síðar þegar síminn hefur kólnað.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Sleppa andlitskenni</string>
     <string name="security_settings_face_enroll_too_hot_title">Síminn er of heitur</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Auk þess að taka símann úr lás geturðu notað Nexus Imprint til að heimila kaup og veita aðgang að forritum. <annotation id="url">Frekari upplýsingar</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Gögnin sem Nexus Imprint skráir eru geymd á öruggan hátt og fara aldrei úr símanum þínum. Þú getur eytt gögnunum þínum hvenær sem er í stillingunum.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Nexus Imprint notar fingrafarið þitt til að vekja og opna símann, heimila kaup eða skrá þig inn í forrit.
-
-Farðu varlega þegar þú leyfir öðrum að bæta við fingraförum. Öll fingraför sem er bætt við geta gert allt þetta. "<annotation link="url">Frekari upplýsingar</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Með Nexus Imprint geturðu notað fingrafarið til að heimila kaup eða skrá þig inn á forrit.
-
-Gættu vel að því hvaða fingraförum þú bætir við. Öll fingraför sem er bætt við geta gert allt þetta.
-
-Athugaðu: Þú getur ekki notað fingrafarið til að taka lásinn af þessu tæki. Hafðu samband við kerfisstjóra fyrirtækisins þíns til að fá frekari upplýsingar."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Úr lás með Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Ýttu til að setja upp fingrafar</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint býr til einkvæmt líkan af fingrafarinu þínu til að staðfesta hver þú ert. Til að búa líkanið til við uppsetningu þarf að taka myndir af fingrafarinu þínu frá nokkrum sjónarhornum.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Þú getur eytt fingrafarslíkaninu, eða slökkt á Pixel Imprint, hvenær sem er í stillingunum. Fingrafarslíkön eru geymd í símanum þar til þú eyðir þeim.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint býr til einkvæmt líkan af fingrafari barnsins þíns til að staðfesta hver það er. Til að búa líkanið til við uppsetningu tekur barnið myndir af fingrafarinu sínu frá mismunandi sjónarhornum.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Þú og barnið þitt getið eytt fingrafarslíkani barnsins, eða slökkt á Pixel Imprint, hvenær sem er í stillingunum. Fingrafarslíkön eru geymd í símanum þar til þeim er eytt.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Frekari upplýsingar má finna á g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Snertu skynjara Nexus Imprint til að vekja og opna símann þinn.</string>
     <string name="setup_suggestion_summary">Afritaðu gögn, borgaðu með símanum o.fl.</string>
     <string name="setup_suggestion_title">Ljúka uppsetningu</string>
     <string name="smart_battery_footer">Til að auka endingu rafhlöðunnar kann breytileg rafhlöðustjórnun að draga úr afköstum og bakgrunnsvirkni. Einhverjum tilkynningum kann að vera seinkað.</string>
@@ -343,7 +320,6 @@ Athugaðu: Þú getur ekki notað fingrafarið til að taka lásinn af þessu t�
     <string name="sound_dashboard_summary">Hljóðstyrkur, snertisvörun, ónáðið ekki</string>
     <string name="sound_settings">Hljóð og titringur</string>
     <string name="storage_manager_indicator">Snjallgeymsla: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Nota Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Um það bil %1$s eftir miðað við fyrri notkun þína</string>
     <string name="time_remaining_warning_text">Rafhlaðan gæti tæmst bráðlega</string>
     <string name="tips_suggestion_summary">Skoðaðu hvað þú getur gert með símanum</string>

@@ -172,11 +172,6 @@ Após a redefinição, realize o processo de configuração e escolha trazer seu
     <string name="fallback_menu_item_copy_link">Copiar link</string>
     <string name="fallback_menu_item_open_in_browser">Abrir no navegador</string>
     <string name="fallback_menu_item_share_link">Compartilhar link</string>
-    <string name="fingerprint_unlock_set_unlock_password">Nexus Imprint + senha</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">Nexus Imprint + padrão</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">Continuar sem Nexus Imprint</string>
-    <string name="fingerprint_unlock_title">Com o Nexus Imprint, é possível desbloquear o smartphone usando sua impressão digital. Por razões de segurança, essa opção requer um bloqueio de tela alternativo.</string>
     <string name="fullbackup_data_summary">"Backup automático dos dados do dispositivo (como senhas de Wi-Fi e histórico de chamadas) e dos dados de apps (como configurações e arquivos armazenados por apps) para o Google Drive.
 
 Quando você ativa o backup automático, os dados do dispositivo e de apps são salvos periodicamente em uma pasta particular no Google Drive. Dados de apps podem ser quaisquer dados que um app salva (com base nas configurações do desenvolvedor), incluindo dados possivelmente confidenciais como contatos, mensagens e fotos.
@@ -228,7 +223,6 @@ Dados de backup não afetam sua cota de armazenamento do Google Drive. Arquivos 
     <string name="language_input_gesture_summary_off">Active Edge desativado</string>
     <string name="language_input_gesture_summary_on_non_assist">Active Edge ativado</string>
     <string name="language_input_gesture_summary_on_with_assist">Active Edge ativado, apertar para abrir o Assistente</string>
-    <string name="lock_settings_picker_fingerprint_message">Escolha um bloqueio de tela secundário para usar com o Nexus Imprint</string>
     <string name="me_card_title">Meu Pixel</string>
     <string name="my_device_info_account_preference_title">Conta do Google</string>
     <string name="owner_info_settings_edit_text_hint">Por exemplo, Pixel do João.</string>
@@ -318,26 +312,9 @@ Para melhorar o desempenho, você pode configurar o Desbloqueio facial novamente
     <string name="security_settings_face_enroll_too_hot_message">Não é possível concluir a configuração do Desbloqueio facial porque o smartphone está muito quente. Tente de novo quando ele tiver esfriado.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Pular Desbloqueio facial</string>
     <string name="security_settings_face_enroll_too_hot_title">O smartphone está muito quente</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">Além de desbloquear seu smartphone, você também pode usar o Nexus Imprint para autorizar compras e acesso a apps. <annotation id="url">Saiba mais</annotation></string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">Ele fica na parte de trás do seu smartphone. Use seu dedo indicador.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Os dados gravados pelo Nexus Imprint são armazenados em segurança e nunca saem do smartphone. Você pode excluí-los a qualquer momento nas configurações.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"Com o Nexus Imprint, você usa sua impressão digital para ativar e desbloquear o smartphone, autorizar compras ou fazer login em apps.
-
-Tome cuidado com as impressões digitais que você adicionar. Todas elas poderão realizar essas ações. "<annotation link="url">Saiba mais</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Com o Nexus Imprint, é possível usar sua impressão digital para autorizar compras ou fazer login em apps.
-
-Tome cuidado com as impressões digitais que adicionar, pois todas elas poderão realizar essas ações.
-
-Observação: Não é possível usar sua impressão digital para desbloquear este dispositivo. Para ver mais informações, entre em contato com o administrador da sua organização."</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Desbloquear com Nexus Imprint</string>
     <string name="security_settings_fingerprint_preference_summary_none">Toque para definir uma impressão digital</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">O Pixel Imprint cria um modelo exclusivo da sua impressão digital para confirmar sua identidade. Para criar esse modelo durante a configuração, é necessário capturar imagens da sua impressão em várias posições.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Você pode excluir o modelo da impressão digital ou desativar o Pixel Imprint a qualquer momento nas configurações. Os modelos são armazenados no smartphone até serem excluídos.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">O Pixel Imprint cria um modelo único da impressão digital da criança para confirmar a identidade dela. Para criar esse modelo durante a configuração, é necessário que ela capture imagens da própria impressão em várias posições.</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Você e a criança podem excluir o modelo de impressão digital dela ou desativar o Pixel Imprint a qualquer momento nas Configurações. Os modelos de impressão digital são armazenados no smartphone até serem excluídos.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">Saiba mais em g.co/pixel/fingerprintunlock.</string>
-    <string name="setup_fingerprint_enroll_finish_message">Basta tocar no sensor do Nexus Imprint para ativar e desbloquear o smartphone.</string>
     <string name="setup_suggestion_summary">Copie dados, pague com o smartphone e muito mais</string>
     <string name="setup_suggestion_title">Conclua a configuração</string>
     <string name="smart_battery_footer">Para prolongar a duração da carga, o recurso Bateria adaptável pode diminuir o desempenho e as atividades em segundo plano. Algumas notificações podem chegar atrasadas.</string>
@@ -346,7 +323,6 @@ Observação: Não é possível usar sua impressão digital para desbloquear est
     <string name="sound_dashboard_summary">Volume, retorno tátil, Não perturbe</string>
     <string name="sound_settings">Som e vibração</string>
     <string name="storage_manager_indicator">Armazenamento inteligente: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">Usar o Pixel Imprint</string>
     <string name="time_remaining_warning_subtext">Aproximadamente %1$s restantes com base no histórico de uso</string>
     <string name="time_remaining_warning_text">A bateria pode acabar em breve</string>
     <string name="tips_suggestion_summary">Veja o que fazer com o smartphone</string>

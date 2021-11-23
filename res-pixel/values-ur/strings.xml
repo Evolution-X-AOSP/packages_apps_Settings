@@ -172,11 +172,6 @@
     <string name="fallback_menu_item_copy_link">لنک کاپی کریں</string>
     <string name="fallback_menu_item_open_in_browser">براؤزر میں کھولیں</string>
     <string name="fallback_menu_item_share_link">لنک کا اشتراک کریں</string>
-    <string name="fingerprint_unlock_set_unlock_password">‏Nexus Imprint + پاس ورڈ</string>
-    <string name="fingerprint_unlock_set_unlock_pattern">‏Nexus Imprint + پیٹرن</string>
-    <string name="fingerprint_unlock_set_unlock_pin">Nexus Imprint + PIN</string>
-    <string name="fingerprint_unlock_skip_fingerprint">‏Nexus Imprint کے بغیر جاری رکھیں</string>
-    <string name="fingerprint_unlock_title">‏Nexus Imprint کے ساتھ آپ اپنا فنگر پرنٹ استعمال کر کے اپنا فون غیر مقفل کر سکتے ہیں۔ سیکیورٹی کیلئے، اس اختیار کو ایک بیک اپ اسکرین قفل درکار ہے۔</string>
     <string name="fullbackup_data_summary">"‏Google Drive میں خود کار طریقے سے آلہ کے ڈیٹا (جیسے کہ Wi-Fi پاس ورڈز اور کال کی سرگزشت) اور ایپ ڈیٹا (جیسے کہ ایپس کی جانب سے اسٹور کردہ ترتیبات اور فائلز) کا بیک اپ لیں۔
 
 جب آپ خود کار بیک اپ آن کرتے ہیں تو آلہ اور ایپ کا ڈیٹا مخصوص وقفوں کے بعد آپ کے Google Drive کے ایک نجی فولڈر میں محفوظ ہو جاتا ہے۔ ایپ ڈیٹا کوئی بھی ایسا ڈیٹا ہو سکتا ہے جسے کسی ایپ نے (ڈویلپر ترتیبات کی بنیاد پر) محفوظ کیا ہو بشمول ممکنہ طور پر حساس ڈیٹا مثلاً رابطے، پیغامات اور تصاویر۔
@@ -228,7 +223,6 @@
     <string name="language_input_gesture_summary_off">‏Active Edge آف ہے</string>
     <string name="language_input_gesture_summary_on_non_assist">‏Active Edge آن ہے</string>
     <string name="language_input_gesture_summary_on_with_assist">‏Active Edge آن ہے، اسسٹنٹ کیلئے دبائیں</string>
-    <string name="lock_settings_picker_fingerprint_message">‏Nexus Imprint کے ساتھ استعمال کرنے کیلئے ایک بیک اپ اسکرین قفل منتخب کریں</string>
     <string name="me_card_title">میرا پکسل</string>
     <string name="my_device_info_account_preference_title">‏Google اکاؤنٹ</string>
     <string name="owner_info_settings_edit_text_hint">‏جیسے، شمائلہ کا Pixel۔</string>
@@ -316,25 +310,8 @@ g.co/pixel/faceunlock پر مزید جانیں۔"</string>
     <string name="security_settings_face_enroll_too_hot_message">فیس اَنلاک کا سیٹ اپ مکمل نہیں کیا جا سکتا کیونکہ فون بہت گرم ہے۔ فون کے ٹھنڈے ہونے پر بعد میں دوبارہ کوشش کریں۔</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">فیس اَنلاک کو نظر انداز کریں</string>
     <string name="security_settings_face_enroll_too_hot_title">فون بہت گرم ہے</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer">‏اپنے فون کو غیر مقفل کرنے کے علاوہ آپ Nexus Imprint کو خریداریوں اور ایپ رسائی کی اجازت دینے کیلئے بھی استعمال کر سکتے ہیں۔ <annotation id="url">مزید جانیں</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">‏Nexus Imprint کے ذریعے ریکارڈ کردہ ڈیٹا محفوظ طریقے سے اسٹور کیا جاتا ہے اور کسی بھی وقت آپ کے فون سے باہر نہیں جاتا۔ آپ کسی بھی وقت ترتیبات میں اپنا ڈیٹا حذف کر سکتے ہیں۔</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">"‏Nexus Imprint آپ کے فون کو جگانے اور غیر مقفل کرنے، خریداریوں کی اجازت دینے یا ایپس میں سائن ان کرنے کیلئے آپ کا فنگر پرنٹ استعمال کرتا ہے۔
-
-کسی کے فنگر پرنٹس شامل کرتے وقت محتاط رہیں۔ شامل کردہ کسی بھی فنگر پرنٹ سے یہ کام کئے جا سکتے ہیں۔ "<annotation link="url">مزید جانیں</annotation></string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"‏Nexus Imprint کے ساتھ آپ اپنے فنگر پرنٹ کو خریداریوں کی اجازت دینے یا ایپس میں سائن ان کرنے کیلئے استعمال کر سکتے ہیں۔
-
-کسی کے فنگر پرنٹس شامل کرتے وقت احتیاط برتیں۔ کسی بھی شامل کردہ فنگر پرنٹ سے یہ کام کیے جا سکتے ہیں۔
-
-نوٹ: آپ اس آلہ کو غیر مقفل کرنے کیلئے اپنا فنگر پرنٹ استعمال نہیں کر سکتے۔ مزید معلومات کیلئے اپنی تنظیم کے منتظم سے رابطہ کریں۔"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">‏Nexus Imprint کے ساتھ غیر مقفل کریں</string>
     <string name="security_settings_fingerprint_preference_summary_none">فنگر پرنٹ سیٹ اپ کرنے کیلئے تھپتھپائیں</string>
-    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">‏Pixel Imprint آپ کے فنگر پرنٹ کا ایک منفرد ماڈل تخلیق کرتا ہے تاکہ یہ توثیق کی جا سکے کہ یہ آپ ہی ہیں۔ سیٹ اپ کے دوران اس فنگر پرنٹ کا ماڈل تخلیق کرنے کے لیے آپ اپنے فنگر پرنٹ کی تصاویر مختلف پوزیشنز سے لیں گے۔</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">‏آپ اپنے فنگر پرنٹ کے ماڈل کو حذف کر سکتے ہیں یا ترتیبات میں کسی بھی وقت Pixel Imprint کو آف کر سکتے ہیں۔ فنگر پرنٹ کے ماڈلز فون پر تب تک اسٹور ہوتے ہیں جب تک آپ انہیں حذف نہیں کرتے ہیں۔</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">‏Pixel Imprint آپ کے بچے کے فنگر پرنٹ کا ایک منفرد ماڈل تخلیق کرتا ہے تاکہ یہ توثیق کی جا سکے کہ یہ وہی بچہ ہے۔ سیٹ اپ کے دوران اس فنگر پرنٹ کا ماڈل تخلیق کرنے کے لیے وہ اپنے فنگر پرنٹ کی تصاویر مختلف پوزیشنز سے لے گا۔</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">‏آپ اور آپ کا بچہ اپنے فنگر پرنٹ ماڈل کو حذف کر سکتے ہیں یا ترتیبات میں کسی بھی وقت Pixel Imprint کو آف کر سکتے ہیں۔ فنگر پرنٹ کے ماڈلز کو فون پر تب تک اسٹور کیا جاتا ہے جب تک انہیں حذف نہیں کیا جاتا ہے۔</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">‏g.co/pixel/fingerprintunlock پر مزید جانیں۔</string>
-    <string name="setup_fingerprint_enroll_finish_message">‏اپنے فون کو جگانے اور غیر مقفل کرنے کیلئے Nexus Imprint سینسر کو چھوئیں۔</string>
     <string name="setup_suggestion_summary">ڈیٹا کاپی، فون سے ادائیگی اور بہت کچھ کریں</string>
     <string name="setup_suggestion_title">سیٹ اپ مکمل کریں</string>
     <string name="smart_battery_footer">بیٹری لائف کو بڑھانے کے لیے تغیر پذیر بیٹری کارکردگی اور پس منظر کی سرگرمی کو کم کر سکتی ہے۔ ممکن ہے کچھ اطلاعات میں تاخیر ہو جائے۔</string>
@@ -343,7 +320,6 @@ g.co/pixel/faceunlock پر مزید جانیں۔"</string>
     <string name="sound_dashboard_summary">والیوم، ہیپٹکس، ڈسٹرب نہ کریں</string>
     <string name="sound_settings">آواز اور وائبریشن</string>
     <string name="storage_manager_indicator">اسمارٹ اسٹوریج: ^1</string>
-    <string name="suggested_fingerprint_lock_settings_title">‏Pixel Imprint استعمال کریں</string>
     <string name="time_remaining_warning_subtext">گزشتہ استعمال کی بنیاد پر تقریباً %1$s باقی ہے</string>
     <string name="time_remaining_warning_text">بیٹری جلد ہی ختم ہو سکتی ہے</string>
     <string name="tips_suggestion_summary">دریافت کریں کہ اپنے فون سے کیا کر سکتے ہیں</string>
