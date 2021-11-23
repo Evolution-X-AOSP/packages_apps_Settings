@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2021 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Hardware info -->
+    <string name="platform_revision">Plateforme</string>
+    <string name="total_ram">Mémoire RAM totale</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Version de Evolution X</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">Date de compilation</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Mainteneur de l\'appareil</string>
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">Evolver</string>
+    <string name="evolver_dashboard_summary">Il est temps de continuer à faire Évoluer votre appareil</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">État de SELinux</string>
+    <string name="selinux_status_disabled">Désactivé</string>
+    <string name="selinux_status_permissive">Permissif</string>
+    <string name="selinux_status_enforcing">Strict</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Son lors d\'une capture d\'écran</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Afficher l\'historique des notifications</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Augmenter le volume de la sonnerie</string>
+    <string name="increasing_ring_min_volume_title">Volume de départ</string>
+    <string name="increasing_ring_ramp_up_time_title">Durée de progression</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Lier le volume de la sonnerie et des notifications</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Disposition aléatoire</string>
+    <string name="unlock_scramble_pin_layout_summary">Disposer aléatoirement les touches lors du déverrouillage</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Déverouiller automatiquement l\'appareil lorsque le PIN/mot de passe correct est entré</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Processus d’arrière-plan</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Réveiller lors du branchement</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Allumez l\'écran lors du branchement ou du débranchement de la source d\'alimentation</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Réveil de l\'appareil par le bouton d\'accueil</string>
+    <string name="home_wake_button_summary">Activez le bouton d\'accueil pour réveiller l’écran</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Couleur de la LED</string>
+    <string name="custom_light_on_time_title">Durée de la LED de notification (ms)</string>
+    <string name="custom_light_off_time_title">Durée d\'extinction de la LED de notification (ms)\"</string>
+    <string name="value_equals_default">par défaut</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choisir une taille de schéma</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Afficher l\'erreur de schéma</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Afficher les points du schéma</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
+    <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
+    <string name="low_power_refresh_rate_title_custom">Taux de rafraîchissement à faible puissance</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Écran toujours allumé pendant la charge</string>
+    <string name="doze_on_charge_summary">Afficher l\'écran de veille pendant la charge</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Détection de poche</string>
+    <string name="pocket_judge_summary">Bloquer l\'utilisation des boutons ou de l\'écran lorsque l\'appareil est dans une poche</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
+    <string name="proximity_wake_summary">Utiliser le capteur de proximité pour prévenir les réveils accidentels de l\'écran</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Muet, aucun média</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Activé (muet, aucun média)</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Retour haptique</string>
+    <string name="back_gesture_haptic_summary">Activer le retour haptique sur le geste retour</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Plein</string>
+    <string name="back_height_high_label">Bas</string>
+    <string name="back_options_dialog_title">Paramètres</string>
+    <string name="back_height_message">Zone d\'écran utilisée pour le geste retour.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Moins d\'une minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s aujourd\'hui</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Modèle de vibration de la sonnerie</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personnalisé</string>
+    <string name="custom_vibration_pattern_title">Modèle personnalisé</string>
+    <string name="custom_vibration_pattern_summary">Définir un modèle de vibration personnalisé</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Alterner entre les modes</string>
+    <string name="prevent_ringing_option_cycle_summary">Activé (alterner entre les modes)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Contrôle de la lecture</string>
+    <string name="volume_button_music_control_summary">Quand l\'écran est éteint, presser longtemps les touches de volume changera la musique</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Autres contrôles</string>
+    <string name="fullscreen_gestures_title">Navigation en plein écran</string>
+    <string name="fullscreen_gestures_summary">Masquer la barre de navigation et l\'espace du clavier</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Longueur de la barre de navigation</string>
+    <string name="short_label">Court</string>
+    <string name="long_label">Long</string>
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Seconde(s)</string>
+    <string name="volume_dialog_timeout_title">Délai d\'affichage de la fenêtre du volume</string>
+    <string name="volume_dialog_timeout_summary">Le temps qu\'il faut pour que le panneau de volume disparaisse</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Appui double</string>
+    <string name="doze_double_tap_title">Appui double pour consulter le téléphone</string>
+    <string name="doze_double_tap_summary">Lumière de notification lors d\'un appui double</string>
+    <!-- Custom vibration intensity -->
+    <string name="vibration_intensity_title">Intensité des vibrations</string>
+    <string name="vibration_intensity_summary">Contrôler l\'intensité des vibrations pour différents flux</string>
+    <string name="notification_vibration_intensity_title">Notifications</string>
+    <string name="ring_vibration_intensity_title">Sonnerie</string>
+    <string name="haptic_feedback_intensity_title">Retour haptique</string>
+    <string name="vibration_intensity_off">Désactivé</string>
+    <string name="vibration_intensity_low">Faible</string>
+    <string name="vibration_intensity_medium">Moyenne</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Balayer pour prendre une capture d\'écran</string>
+    <string name="three_finger_gesture_summary">Balayez vers le bas avec trois doigts pour prendre une capture d’écran</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Désactiver le Wi-Fi automatiquement</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Le Wi-Fi sera désactivé après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun réseau n\'est disponible</string>
+    <string name="wifi_timeout_summary2">Désactivé</string>
+    <string name="wifi_timeout_summary_never">Jamais</string>
+    <string name="wifi_timeout_summary_15secs">15 secondes</string>
+    <string name="wifi_timeout_summary_30secs">30 secondes</string>
+    <string name="wifi_timeout_summary_1min">1 minute</string>
+    <string name="wifi_timeout_summary_2mins">2 minutes</string>
+    <string name="wifi_timeout_summary_5mins">5 minutes</string>
+    <string name="wifi_timeout_summary_10mins">10 minutes</string>
+    <string name="wifi_timeout_summary_30mins">30 minutes</string>
+    <string name="wifi_timeout_summary_1hour">1 heure</string>
+    <string name="wifi_timeout_summary_2hours">2 heures</string>
+    <string name="wifi_timeout_summary_4hours">4 heures</string>
+    <string name="wifi_timeout_summary_8hours">8 heures</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Délai de désactivation du Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Le Bluetooth sera désactivé après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
+    <string name="bluetooth_timeout_summary2">Ne pas désactiver le Bluetooth automatiquement</string>
+    <string name="bluetooth_timeout_summary_never">Jamais</string>
+    <string name="bluetooth_timeout_summary_15secs">15 secondes</string>
+    <string name="bluetooth_timeout_summary_30secs">30 secondes</string>
+    <string name="bluetooth_timeout_summary_1min">1 minute</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
+    <string name="bluetooth_timeout_summary_1hour">1 heure</string>
+    <string name="bluetooth_timeout_summary_2hours">2 heures</string>
+    <string name="bluetooth_timeout_summary_4hours">4 heures</string>
+    <string name="bluetooth_timeout_summary_8hours">8 heures</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Informations sur la musique en mode ambient</string>
+    <string name="pulse_on_new_tracks_summary">Montrer l\'affichage ambiant lorsque la lecture d\'un média est en cours</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Aucune action</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Récents</string>
+    <string name="action_voice_search">Recherche vocale</string>
+    <string name="action_launch_camera">Appareil photo</string>
+    <string name="action_last_app">Dernière application</string>
+    <string name="action_flashlight">Lampe torche</string>
+    <string name="action_clear_notifications">Effacer les notifications</string>
+    <string name="action_volume_panel">Panneau de volume</string>
+    <string name="action_screen_off">Écran éteint</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_power_menu">Menu marche/arrêt</string>
+    <string name="action_screenshot">Capture d\'écran</string>
+    <string name="action_qs_panel">Volet des réglages rapides</string>
+    <string name="action_app_action">Application</string>
+    <string name="action_ringer_modes">Modes de sonnerie</string>
+    <string name="kill_app">Tuer l\'application en premier plan</string>
+    <string name="recent_app_toggle">Changer d\'application récente</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Options de gestes avancées</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personnaliser les gestes et définir des actions personnalisées</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avancé</string>
+    <string name="swipe_app_select_summary">Sélectionner l\'application à lancer en secouant l\'appareil</string>
+    <string name="long_back_swipe_timeout_title">Délai d\'attente de l\'action de balayage long</string>
+    <string name="left_swipe_actions_title">Action de balayage long à gauche</string>
+    <string name="left_swipe_app_action_title">Sélectionner un application pour balayage long à gauche</string>
+    <string name="right_swipe_actions_title">Action de balayage long à droite</string>
+    <string name="right_swipe_app_action_title">Sélectionner un application pour balayage long à droite</string>
+    <string name="left_vertical_swipe_actions_title">Action de glissement verticale vers la gauche</string>
+    <string name="left_vertical_swipe_app_action_title">Sélectionner une application pour le balayage vertical gauche</string>
+    <string name="right_vertical_swipe_actions_title">Action de glissement verticale vers la droite</string>
+    <string name="right_vertical_swipe_app_action_title">Sélectionner une application pour le balayage vertical droit</string>
+    <string name="gesture_nav_tweaks_footer_info">Pour choisir une activité d\'application spécifique pour l\'action, appuyez longuement sur n\'importe quelle application dans le sélecteur d\'applications. \n\nSi le lanceur s\'affiche, faites glisser votre doigt tout en bas de l\'écran pour déclencher l\'action.</string>
+    <string name="back_swipe_extended_title">Action de balayage étendu</string>
+    <string name="back_swipe_extended_summary">Déclencher l\'action sur un balayage plus large (plus de la moitié de la taille de l\'écran), ou un balayage en L (suffisamment long verticalement)</string>
+    <!-- Themes customization -->
+    <string name="theme_customization_systemui_title">Couleur du thème</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Lecture adaptative</string>
+    <string name="adaptive_playback_enabled">Utiliser la lecture adaptative</string>
+    <string name="adaptive_playback_disabled_summary">Désactivé</string>
+    <string name="adaptive_playback_timeout_title">Utiliser un délai de</string>
+    <string name="adaptive_playback_timeout_none">Aucun délai</string>
+    <string name="adaptive_playback_timeout_none_summary">Activé (sans délai)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 secondes</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activé (30 secondes)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activé (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activé (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activé (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activé (10 minutes)</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Utiliser un bouton de rotation flottant</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Écouteurs enregistrés</string>
+</resources>

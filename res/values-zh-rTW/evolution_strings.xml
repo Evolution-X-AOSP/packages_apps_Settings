@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019-2021 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Hardware info -->
+    <string name="platform_revision">平台</string>
+    <string name="total_ram">總記憶體</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Evolution X 版本</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">編譯日期</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">維護者</string>
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">Evolution X 自定義</string>
+    <string name="evolver_dashboard_summary">是時候要繼續Evolution你的設備了</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux 狀態</string>
+    <string name="selinux_status_disabled">停用</string>
+    <string name="selinux_status_permissive">許可</string>
+    <string name="selinux_status_enforcing">執行中</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">螢幕擷取音效</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">顯示通知紀錄</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Play商店</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">漸漸提高鈴聲音量</string>
+    <string name="increasing_ring_min_volume_title">開始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">漸強時間</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">連結鈴聲與通知音量</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">重設統計資料</string>
+    <string name="battery_stats_message">將重設電池的用電紀錄</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">亂序佈局</string>
+    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 碼鍵盤</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+    <string name="unlock_quick_unlock_control_summary">當輸入正確 PIN 碼及密碼時自動解鎖</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">背景處理程序</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">在接上電源時喚醒</string>
+    <string name="wake_when_plugged_or_unplugged_summary">在接上或拔除電源時喚醒裝置</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">主畫面按鈕喚醒</string>
+    <string name="home_wake_button_summary">啟用主畫面按鈕醒螢幕功能</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">指示燈顏色</string>
+    <string name="custom_light_on_time_title">屏幕開啟下LED閃爍間隔時間(毫秒)</string>
+    <string name="custom_light_off_time_title">屏幕關閉時指示燈閃爍間隔時間 (毫秒)</string>
+    <string name="value_equals_default">預設</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">選擇解鎖圖案大小</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">顯示解鎖圖形錯誤</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">顯示解鎖圖形</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">最低螢幕刷新率</string>
+    <string name="max_refresh_rate_title">最高螢幕刷新率</string>
+    <string name="low_power_refresh_rate_title_custom">省電刷新率</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">在充電時開啟 AOD</string>
+    <string name="doze_on_charge_summary">充電時一律顯示時間和資訊</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">防止意外喚醒</string>
+    <string name="proximity_wake_summary">喚醒螢幕前檢查距離感應器</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">靜音，包含媒體音量</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">開啟（靜音，包含媒體音量)</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">震動回饋</string>
+    <string name="back_gesture_haptic_summary">啟用返回手勢的點震動效果</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">全螢幕</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">選項</string>
+    <string name="back_height_message">全螢幕手勢觸發範圍</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">少於一分鐘</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今天%1$s</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">來電震動模式</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">自訂</string>
+    <string name="custom_vibration_pattern_title">自訂模式</string>
+    <string name="custom_vibration_pattern_summary">設定自訂震動模式</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">循環通過模式</string>
+    <string name="prevent_ringing_option_cycle_summary">開啟循環模式</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">螢幕關閉時，長按音量鍵即可切換曲目</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">其他控制</string>
+    <string name="fullscreen_gestures_title">全螢幕手勢</string>
+    <string name="fullscreen_gestures_summary">隱藏主畫面按鈕和鍵盤底部區域</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">主畫面按鈕長度</string>
+    <string name="short_label">短</string>
+    <string name="long_label">長</string>
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">秒數</string>
+    <string name="volume_dialog_timeout_title">音量控制面板自動關閉時間</string>
+    <string name="volume_dialog_timeout_summary">音量控制介面在不操作時自動退出的時間</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">輕觸兩下</string>
+    <string name="doze_double_tap_title">輕觸兩下來查看手機</string>
+    <string name="doze_double_tap_summary">輕觸兩下時閃爍通知</string>
+    <!-- Custom vibration intensity -->
+    <string name="vibration_intensity_title">振動強度</string>
+    <string name="vibration_intensity_summary">控制不同情境下的震動強度</string>
+    <string name="notification_vibration_intensity_title">通知</string>
+    <string name="ring_vibration_intensity_title">鈴聲</string>
+    <string name="haptic_feedback_intensity_title">觸動回饋</string>
+    <string name="vibration_intensity_off">停用</string>
+    <string name="vibration_intensity_low">慢</string>
+    <string name="vibration_intensity_medium">預設</string>
+    <string name="vibration_intensity_high">高</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">滑動截圖</string>
+    <string name="three_finger_gesture_summary">用三根手指向下滑動即可擷取螢幕畫面</string>
+</resources>

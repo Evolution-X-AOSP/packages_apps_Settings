@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2022 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Hardware info -->
+    <string name="platform_revision">プラットフォーム</string>
+    <string name="total_ram">合計 RAM</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Evolution X バージョン</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">ビルド日時</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">ビルドメンテナ</string>
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">The Evolver</string>
+    <string name="evolver_dashboard_summary">デバイスの次の進化の時が来ました</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux ステータス</string>
+    <string name="selinux_status_disabled">無効</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">通知履歴ログを表示する</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
+    <string name="increasing_ring_min_volume_title">開始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
+    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
+    <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">バックグラウンドプロセス</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除</string>
+    <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断したときに画面を点灯させる</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">ホームボタンでスリープ解除</string>
+    <string name="home_wake_button_summary">ホームボタンでの画面のスリープ解除を有効にする</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">LED の色</string>
+    <string name="custom_light_on_time_title">LED 点滅時の光っている時間 (ms)</string>
+    <string name="custom_light_off_time_title">LED 点滅時の消えている時間 (ms)</string>
+    <string name="value_equals_default">既定</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択して下さい</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">間違えたパターンを表示</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">最小リフレッシュレート</string>
+    <string name="max_refresh_rate_title">最大リフレッシュレート</string>
+    <string name="low_power_refresh_rate_title_custom">省電力リフレッシュレート</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充電時の Always On Display</string>
+    <string name="doze_on_charge_summary">充電時は常時 Doze 画面を表示する</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">ポケット検出</string>
+    <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
+    <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">ミュート、メディアなし</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">ON (ミュート、メディアなし)</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">振動フィードバック</string>
+    <string name="back_gesture_haptic_summary">戻るジェスチャー時に振動を有効化する</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">全画面</string>
+    <string name="back_height_high_label">下部</string>
+    <string name="back_options_dialog_title">オプション</string>
+    <string name="back_height_message">戻るジェスチャーに使用される操作可能な画面領域の高さ</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">1分未満</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今日: %1$s</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">着信音の振動のパターン</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">カスタム</string>
+    <string name="custom_vibration_pattern_title">カスタムパターン</string>
+    <string name="custom_vibration_pattern_summary">カスタムの振動パターンを設定する</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">サイクルスルーモード</string>
+    <string name="prevent_ringing_option_cycle_summary">ON (サイクルスルーモード)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">再生コントロール</string>
+    <string name="volume_button_music_control_summary">画面消灯時に音量キーを長押しして曲をシークする</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">その他の操作</string>
+    <string name="fullscreen_gestures_title">フルスクリーンジェスチャー</string>
+    <string name="fullscreen_gestures_summary">ナビゲーションバーのピルとキーボードのスペースを隠す</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">ピルの長さ</string>
+    <string name="short_label">短</string>
+    <string name="long_label">長</string>
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">秒</string>
+    <string name="volume_dialog_timeout_title">音量パネルの表示時間</string>
+    <string name="volume_dialog_timeout_summary">音量パネルがフェードするまでの時間です</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">ダブルタップ</string>
+    <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
+    <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">スワイプでスクリーンショット</string>
+    <string name="three_finger_gesture_summary">3本指で下スワイプしてスクリーンショットを取得する</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
+    <string name="wifi_timeout_summary2">無効</string>
+    <string name="wifi_timeout_summary_never">なし</string>
+    <string name="wifi_timeout_summary_15secs">15秒</string>
+    <string name="wifi_timeout_summary_30secs">30秒</string>
+    <string name="wifi_timeout_summary_1min">1分</string>
+    <string name="wifi_timeout_summary_2mins">2分</string>
+    <string name="wifi_timeout_summary_5mins">5分</string>
+    <string name="wifi_timeout_summary_10mins">10分</string>
+    <string name="wifi_timeout_summary_30mins">30分</string>
+    <string name="wifi_timeout_summary_1hour">1時間</string>
+    <string name="wifi_timeout_summary_2hours">2時間</string>
+    <string name="wifi_timeout_summary_4hours">4時間</string>
+    <string name="wifi_timeout_summary_8hours">8時間</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth の制限時間</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth は オフになります</string>
+    <string name="bluetooth_timeout_summary2">自動的に Bluetooth をオフにしない</string>
+    <string name="bluetooth_timeout_summary_never">なし</string>
+    <string name="bluetooth_timeout_summary_15secs">15秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30秒</string>
+    <string name="bluetooth_timeout_summary_1min">1分</string>
+    <string name="bluetooth_timeout_summary_2mins">2分</string>
+    <string name="bluetooth_timeout_summary_5mins">5分</string>
+    <string name="bluetooth_timeout_summary_10mins">10分</string>
+    <string name="bluetooth_timeout_summary_30mins">30分</string>
+    <string name="bluetooth_timeout_summary_1hour">1時間</string>
+    <string name="bluetooth_timeout_summary_2hours">2時間</string>
+    <string name="bluetooth_timeout_summary_4hours">4時間</string>
+    <string name="bluetooth_timeout_summary_8hours">8時間</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">新規楽曲再生時にアンビエント表示をする</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">なし</string>
+    <string name="action_menu">メニュー</string>
+    <string name="action_app_switch">アプリ履歴</string>
+    <string name="action_voice_search">音声検索</string>
+    <string name="action_launch_camera">カメラ</string>
+    <string name="action_last_app">直前のアプリ</string>
+    <string name="action_splitscreen">画面分割</string>
+    <string name="action_flashlight">フラッシュライト</string>
+    <string name="action_clear_notifications">通知を消去</string>
+    <string name="action_volume_panel">音量パネル</string>
+    <string name="action_screen_off">画面を消灯</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_power_menu">電源メニュー</string>
+    <string name="action_screenshot">スクリーンショット</string>
+    <string name="action_qs_panel">クイック設定パネル</string>
+    <string name="action_app_action">アプリ</string>
+    <string name="action_ringer_modes">着信モード</string>
+    <string name="kill_app">表示中のアプリを終了</string>
+    <string name="recent_app_toggle">直前のアプリの切り替え</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャーオプション</string>
+    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャーの編集とカスタムアクションの設定をする</string>
+    <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
+    <string name="swipe_app_select_summary">握りアクションで起動するアプリを選択する</string>
+    <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
+    <string name="left_swipe_actions_title">長い左スワイプアクション</string>
+    <string name="left_swipe_app_action_title">長い左スワイプアクションのアプリ選択</string>
+    <string name="right_swipe_actions_title">長い右スワイプアクション</string>
+    <string name="right_swipe_app_action_title">長い右スワイプアクションのアプリ選択</string>
+    <string name="left_vertical_swipe_actions_title">垂直左 L スワイプのアクション</string>
+    <string name="left_vertical_swipe_app_action_title">垂直左スワイプアプリを選択</string>
+    <string name="right_vertical_swipe_actions_title">垂直右 L スワイプのアクション</string>
+    <string name="right_vertical_swipe_app_action_title">垂直右スワイプアプリを選択</string>
+    <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリの選択でアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
+    <string name="back_swipe_extended_title">拡張スワイプアクション</string>
+    <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">アダプティブ再生</string>
+    <string name="adaptive_playback_enabled">アダプティブ再生を使用</string>
+    <string name="adaptive_playback_disabled_summary">OFF</string>
+    <string name="adaptive_playback_intro_text">音量をミュートにした時はメディアを自動的に一時停止し、設定時間内に音量が元に戻ったら自動的に再開されます。</string>
+    <string name="adaptive_playback_timeout_title">使用時間</string>
+    <string name="adaptive_playback_timeout_none">制限なし</string>
+    <string name="adaptive_playback_timeout_none_summary">ON (制限なし)</string>
+    <string name="adaptive_playback_timeout_30_secs">30秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">ON (30秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1分</string>
+    <string name="adaptive_playback_timeout_1_min_summary">ON (1分)</string>
+    <string name="adaptive_playback_timeout_2_min">2分</string>
+    <string name="adaptive_playback_timeout_2_min_summary">ON (2分)</string>
+    <string name="adaptive_playback_timeout_5_min">5分</string>
+    <string name="adaptive_playback_timeout_5_min_summary">ON (5分)</string>
+    <string name="adaptive_playback_timeout_10_min">10分</string>
+    <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">フローティング回転ボタンを使用</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">保存されたイヤホン</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">復帰時の自動明るさを維持</string>
+    <string name="auto_brightness_one_shot_summary">画面が復帰した時に1度だけ自動で画面の明るさ調整を行う</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">アプリの音量</string>
+    <string name="app_volume_title">アプリごとの音量調節</string>
+    <string name="app_volume_summary">アプリごとに異なる音量を設定する</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">スマートフォン前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">スマートフォン背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">スマートフォン左側にある指紋認証センサーを探します</string>
+    <!-- App lock -->
+    <string name="app_lock_title">アプリロック</string>
+    <string name="app_lock_summary_singular">1個のアプリが保護されています</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g>個のアプリが保護されています</string>
+    <string name="app_lock_authentication_dialog_title">ロック解除</string>
+    <string name="enable_debugging">デバッグを有効化</string>
+    <string name="disable_debugging">デバッグを無効化</string>
+    <string name="app_lock_packages_title">アプリの保護</string>
+    <string name="app_lock_packages_summary">生体認証や端末認証で保護するアプリを選択する</string>
+    <string name="app_lock_timeout_title">自動ロックの時間</string>
+    <string name="app_lock_timeout_summary">バックグラウンドのアプリがロック解除されてからの時間の長さです</string>
+    <string name="app_lock_notifications_title">通知を消去</string>
+    <string name="app_lock_notifications_summary">         選択されたアプリがロックされると、通知の内容は非表示になり破棄されます。
+          Heads Up 通知は自動的に無効化されます。
+    </string>
+    <string name="app_lock_notifications_disabled_summary">アプリを最初に保護する</string>
+    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化</string>
+    <string name="app_lock_footer_text">制限時間後にバブルは自動的に解除されます</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">既存のロックオプション</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">アプリロックの設定、SIM カードのロック、認証情報ストレージのロック</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
+    <string name="face_redo_confirm_btn">やり直し</string>
+    <string name="face_redo_warning_msg">既存の顔スキャンを削除して新しいスキャンを作成しますか?</string>
+    <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
+    <string name="face_unlock_method_default">画面が点灯した時</string>
+    <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">充電時の音</string>
+    <string name="charging_vibro_title">充電時の振動</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">バッテリー温度</string>
+</resources>
