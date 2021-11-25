@@ -24,6 +24,17 @@
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
     <PreferenceCategory
+        android:key="other_controls_category"
+        android:title="@string/other_controls_title">
+
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="fullscreen_gestures"
+            android:title="@string/fullscreen_gestures_title"
+            android:summary="@string/fullscreen_gestures_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="assistant_gesture_category"
         android:persistent="false"
         android:title="@string/assistant_gesture_category_title">
@@ -63,4 +74,3 @@
         android:selectable="false"
         settings:searchable="false"/>
 </PreferenceScreen>
-
