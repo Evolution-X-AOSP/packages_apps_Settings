@@ -65,6 +65,12 @@
             android:selectable="true"
             settings:textStart="@string/back_height_low_label"
             settings:textEnd="@string/back_height_high_label"/>
+
+        <com.android.settingslib.widget.FooterPreference
+            android:key="gesture_navigation_settings_footer"
+            android:title="@string/back_sensitivity_dialog_message"
+            android:selectable="false"
+            settings:searchable="false"/>
     </PreferenceCategory>
 
     <com.evolution.settings.preference.SystemSettingSwitchPreference
@@ -73,10 +79,15 @@
         android:summary="@string/back_gesture_haptic_summary"
         android:defaultValue="false" />
 
-    <com.android.settingslib.widget.FooterPreference
-        android:key="gesture_navigation_settings_footer"
-        android:title="@string/back_sensitivity_dialog_message"
-        android:selectable="false"
-        settings:searchable="false"/>
+    <PreferenceCategory
+        android:key="other_controls_category"
+        android:title="@string/other_controls_title">
+
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="fullscreen_gestures"
+            android:title="@string/fullscreen_gestures_title"
+            android:summary="@string/fullscreen_gestures_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 </PreferenceScreen>
 
