@@ -65,6 +65,8 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
     public static final String PREF_KEY_SUGGESTION_COMPLETE =
             "pref_system_navigation_suggestion_complete";
 
+    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.krypton.overlay.systemui.navbar.gestural";
+
     private IOverlayManager mOverlayManager;
 
     private IllustrationPreference mVideoPreference;
@@ -171,7 +173,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
 
     @Override
     protected boolean setDefaultKey(String key) {
-        setCurrentSystemNavigationMode(mOverlayManager, key);
+        setCurrentSystemNavigationMode(getContext(), mOverlayManager, key);
         setIllustrationVideo(mVideoPreference, key);
 
         return true;
@@ -190,7 +192,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         if (info != null && !info.isEnabled()) {
             // Enable the default gesture nav overlay. Back sensitivity for left and right are
             // stored as separate settings values, and other gesture nav overlays are deprecated.
-            setCurrentSystemNavigationMode(overlayManager, KEY_SYSTEM_NAV_GESTURAL);
+            setCurrentSystemNavigationMode(context, overlayManager, KEY_SYSTEM_NAV_GESTURAL);
             Settings.Secure.putFloat(context.getContentResolver(),
                     Settings.Secure.BACK_GESTURE_INSET_SCALE_LEFT, 1.0f);
             Settings.Secure.putFloat(context.getContentResolver(),
@@ -209,12 +211,14 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         }
     }
 
-    @VisibleForTesting
-    static void setCurrentSystemNavigationMode(IOverlayManager overlayManager, String key) {
+    static void setCurrentSystemNavigationMode(Context context, IOverlayManager overlayManager, String key) {
         String overlayPackage = NAV_BAR_MODE_GESTURAL_OVERLAY;
         switch (key) {
             case KEY_SYSTEM_NAV_GESTURAL:
-                overlayPackage = NAV_BAR_MODE_GESTURAL_OVERLAY;
+                final boolean fullscreen = Settings.System.getIntForUser(context.getContentResolver(),
+                    Settings.System.FULLSCREEN_GESTURES, 0,
+                    USER_CURRENT) == 1;
+                overlayPackage = fullscreen ? FULLSCREEN_GESTURE_OVERLAY_PKG : NAV_BAR_MODE_GESTURAL_OVERLAY;
                 break;
             case KEY_SYSTEM_NAV_2BUTTONS:
                 overlayPackage = NAV_BAR_MODE_2BUTTON_OVERLAY;
