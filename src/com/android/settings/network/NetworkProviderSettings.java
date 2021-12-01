@@ -273,6 +273,7 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
         if (activity == null) {
             return;
         }
+        mWifiManager = activity.getSystemService(WifiManager.class);
 
         setPinnedHeaderView(R.layout.progress_header);
         setProgressBarVisible(false);
