@@ -91,6 +91,7 @@ android_library {
         "windowExtLib",
         "vendor.lineage.fastcharge-V1.0-java",
         "faceunlock_framework",
+        "powerusagefeaturegoogle",
     ],
 
     libs: [
@@ -141,6 +142,13 @@ android_library_import {
     name: "windowExtLib",
     aars: ["libs/window_ext_lib.aar"],
 }
+
+java_import {
+    name: "powerusagefeaturegoogle",
+    jars: ["libs/powerusagefeaturegoogle.jar"],
+    sdk_version: "current",
+}
+
 
 filegroup {
     name: "Settings_proguard_flags",

@@ -1560,6 +1560,10 @@
         <item>@string/enhanced_4g_lte_mode_summary_4g_calling</item>
     </string-array>
 
+    <string-array name="allowlist_hide_background_in_battery_usage">
+        <item>com.google.android.GoogleCamera</item>
+    </string-array>
+
     <!-- Array of titles palette list for accessibility. -->
     <string-array name="setting_palette_data" translatable="false" >
         <item>@string/color_red</item>

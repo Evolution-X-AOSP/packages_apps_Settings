@@ -125,6 +125,8 @@
     <uses-permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS"/>
     <permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS" android:protectionLevel="normal|signature|system"/>
 
+    <uses-permission android:name="com.google.android.settings.intelligence.BATTERY_DATA"/>
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -4375,6 +4377,13 @@
                 <action android:name="com.google.android.settings.routines.RoutinesActionBroadcastReceiver.RINGER_MODE_SILENCE_ACTION"/>
             </intent-filter>
         </receiver>
+
+        <receiver android:name="com.google.android.settings.fuelgauge.BatteryBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="settings.intelligence.battery.action.FETCH_BATTERY_USAGE_DATA"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.settings.fuelgauge.BatteryUsageLoaderService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:process=":usage_data_loader"/>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
