@@ -75,4 +75,15 @@
         android:defaultValue="0"
         android:dependency="dark_ui_activated" />
 
+    <com.evolution.settings.preference.SystemSettingSeekBarPreference
+        android:key="qs_transparency"
+        android:title="@string/qs_transparency_title"
+        android:summary="@string/qs_transparency_summary"
+        android:defaultValue="100"
+        settings:interval="1"
+        settings:units="%"
+        android:max="100"
+        android:min="1"
+        android:dependency="dark_ui_activated" />
+
 </PreferenceScreen>
