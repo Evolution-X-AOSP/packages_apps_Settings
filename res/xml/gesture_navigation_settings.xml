@@ -24,21 +24,14 @@
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
     <PreferenceCategory
-        android:key="other_controls_category"
-        android:title="@string/other_controls_title">
-
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
-            android:key="fullscreen_gestures"
-            android:title="@string/fullscreen_gestures_title"
-            android:summary="@string/fullscreen_gestures_summary"
-            android:defaultValue="false" />
+        android:title="@string/navbar_category">
 
         <com.android.settings.widget.LabeledSeekBarPreference
             android:key="gesture_navbar_length_preference"
             android:title="@string/gesture_navbar_length_title"
-            android:max="2"
+            android:max="3"
             android:selectable="true"
-            settings:textStart="@string/short_label"
+            settings:textStart="@string/hide_label"
             settings:textEnd="@string/long_label"/>
 
         <com.evolution.settings.preference.SecureSettingSwitchPreference
