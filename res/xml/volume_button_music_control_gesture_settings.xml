@@ -20,9 +20,9 @@
     android:key="volume_button_music_control_screen"
     android:title="@string/volume_button_music_control_title">
 
-    <com.android.settings.widget.VideoPreference
+    <com.android.settingslib.widget.IllustrationPreference
         android:key="volume_button_music_control_video"
-        app:animation="@raw/volume_button_music_control"
+        app:lottie_rawRes="@raw/volume_button_music_control"
         app:preview="@drawable/volume_button_music_control" />
 
     <SwitchPreference
@@ -30,7 +30,6 @@
         android:title="@string/volume_button_music_control_title"
         android:summary="@string/volume_button_music_control_summary"
         app:defaultValue="false"
-        app:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController"
-        app:allowDividerAbove="true" />
+        app:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />
 
 </PreferenceScreen>
