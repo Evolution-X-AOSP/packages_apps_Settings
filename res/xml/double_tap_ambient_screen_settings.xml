@@ -18,9 +18,9 @@
     android:key="double_tap"
     android:title="@string/double_tap_title">
 
-    <com.android.settings.widget.VideoPreference
+    <com.android.settingslib.widget.IllustrationPreference
         android:key="gesture_double_tap_screen_video"
-        app:animation="@raw/gesture_ambient_tap"
+        app:lottie_rawRes="@raw/gesture_ambient_tap_custom"
         app:preview="@drawable/gesture_ambient_tap" />
 
     <SwitchPreference
