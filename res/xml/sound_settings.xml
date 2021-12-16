@@ -44,7 +44,6 @@
         android:title="@string/media_output_title"
         android:dialogTitle="@string/media_output_title"
         android:order="-175"
-        settings:searchable="false"
         settings:controller="com.android.settings.sound.MediaOutputPreferenceController"/>
 
     <!-- Call volume -->
@@ -152,13 +151,11 @@
         settings:keywords="@string/keywords_media_controls"/>
 
     <!-- Also vibrate for calls -->
-    <Preference
-        android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"
-        android:key="vibrate_for_calls"
-        android:title="@string/vibrate_when_ringing_title"
+    <com.google.android.settings.accessibility.HapticsDialogPreference
+        android:key="vibration_preference_screen"
+        android:title="@string/accessibility_vibration_settings_title"
         android:order="-90"
-        settings:controller="com.android.settings.sound.VibrateForCallsPreferenceController"
-        settings:keywords="@string/keywords_vibrate_for_calls"/>
+        settings:controller="com.google.android.settings.accessibility.VibrationPreferenceController"/>
 
     <com.android.settings.widget.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_sound"
@@ -216,33 +213,25 @@
         android:title="@string/touch_sounds_title"
         android:order="-30"/>
 
-    <!-- Vibrate on touch -->
-    <SwitchPreference
-        android:key="vibrate_on_touch"
-        android:title="@string/vibrate_on_touch_title"
-        android:summary="@string/vibrate_on_touch_summary"
-        settings:keywords="@string/keywords_vibrate_on_touch"
-        android:order="-25"/>
-
     <!-- Dock speaker plays -->
     <DropDownPreference
         android:key="dock_audio_media"
         android:title="@string/dock_audio_media_title"
         android:summary="%s"
-        android:order="-20"/>
+        android:order="-25"/>
 
     <!-- Boot sounds -->
     <SwitchPreference
         android:key="boot_sounds"
         android:title="@string/boot_sounds_title"
-        android:order="-15"/>
+        android:order="-20"/>
 
     <!-- Emergency tone -->
     <DropDownPreference
         android:key="emergency_tone"
         android:title="@string/emergency_tone_title"
         android:summary="%s"
-        android:order="-10"/>
+        android:order="-15"/>
 
     <!-- Screenshot sound -->
     <SwitchPreference

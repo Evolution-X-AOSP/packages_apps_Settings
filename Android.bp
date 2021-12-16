@@ -53,6 +53,7 @@ android_library {
 
     resource_dirs: [
         "res",
+        "res-pixel",
         "Evolver/res",
     ],
 
@@ -83,7 +84,10 @@ android_library {
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
+        "SettingsGoogle-lib",
     ],
+    manifest: "AndroidManifest.xml",
+    additional_manifests: ["SettingsGoogle-Manifest.xml"],
 
     libs: [
         "telephony-common",
