@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2009 The Android Open Source Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
@@ -24,12 +9,12 @@
     <PreferenceCategory
         android:key="user_installed_services_category"
         android:persistent="false"
-        android:title="@string/user_installed_services_category_title"/>
+        android:title="@string/user_installed_services_category_title" />
 
     <PreferenceCategory
         android:key="screen_reader_category"
         android:persistent="false"
-        android:title="@string/screen_reader_category_title"/>
+        android:title="@string/screen_reader_category_title" />
 
     <PreferenceCategory
         android:key="display_category"
@@ -38,30 +23,30 @@
 
         <Preference
             android:fragment="com.android.settings.accessibility.TextAndDisplayFragment"
-            android:key="text_and_display_preference_screen"
             android:icon="@drawable/ic_text_and_display"
+            android:key="text_and_display_preference_screen"
             android:persistent="false"
             android:title="@string/accessibility_text_and_display_title"
-            settings:searchable="true"/>
+            settings:searchable="true" />
 
         <com.android.settings.display.darkmode.DarkModePreference
-            android:key="dark_ui_mode_accessibility"
-            android:icon="@drawable/ic_dark_ui"
-            android:title="@string/dark_ui_mode"
             android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
+            android:icon="@drawable/ic_dark_ui"
+            android:key="dark_ui_mode_accessibility"
+            android:title="@string/dark_ui_mode"
             android:widgetLayout="@null"
-            settings:widgetLayout="@null"
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
-            settings:searchable="false"/>
+            settings:searchable="false"
+            settings:widgetLayout="@null" />
 
         <Preference
             android:fragment="com.android.settings.accessibility.MagnificationPreferenceFragment"
-            android:key="magnification_preference_screen"
             android:icon="@drawable/ic_accessibility_magnification"
+            android:key="magnification_preference_screen"
             android:persistent="false"
             android:title="@string/accessibility_screen_magnification_title"
-            settings:keywords="@string/keywords_magnification"
-            settings:controller="com.android.settings.accessibility.MagnificationPreferenceController"/>
+            settings:controller="com.android.settings.accessibility.MagnificationPreferenceController"
+            settings:keywords="@string/keywords_magnification" />
 
     </PreferenceCategory>
 
@@ -72,26 +57,25 @@
 
         <Preference
             android:fragment="com.android.settings.accessibility.TapAssistanceFragment"
-            android:key="tap_assistance_preference_screen"
             android:icon="@drawable/ic_tap_assistance"
+            android:key="tap_assistance_preference_screen"
             android:persistent="false"
             android:title="@string/accessibility_tap_assistance_title"
-            settings:searchable="true"/>
+            settings:searchable="true" />
 
         <Preference
             android:fragment="com.android.settings.accessibility.SystemControlsFragment"
-            android:key="system_controls_preference_screen"
             android:icon="@drawable/ic_system_controls"
+            android:key="system_controls_preference_screen"
             android:title="@string/accessibility_system_controls_title"
-            settings:searchable="true"/>
+            settings:searchable="true" />
 
-        <Preference
-            android:fragment="com.android.settings.accessibility.VibrationSettings"
-            android:key="vibration_preference_screen"
+        <com.google.android.settings.accessibility.HapticsDialogPreference
             android:icon="@drawable/ic_vibration"
+            android:key="vibration_preference_screen"
             android:persistent="false"
             android:title="@string/accessibility_vibration_settings_title"
-            settings:controller="com.android.settings.accessibility.VibrationPreferenceController"/>
+            settings:controller="com.google.android.settings.accessibility.VibrationPreferenceController" />
 
     </PreferenceCategory>
 
@@ -101,29 +85,29 @@
         android:title="@string/captions_category_title">
 
         <Preference
-            android:key="live_caption"
             android:icon="@drawable/ic_live_caption"
+            android:key="live_caption"
             android:persistent="false"
             android:summary="@string/live_caption_summary"
             android:title="@string/live_caption_title"
-            settings:keywords="@string/keywords_live_caption"
-            settings:controller="com.android.settings.accessibility.LiveCaptionPreferenceController"/>
+            settings:controller="com.android.settings.accessibility.LiveCaptionPreferenceController"
+            settings:keywords="@string/keywords_live_caption" />
 
         <Preference
             android:fragment="com.android.settings.accessibility.CaptionPropertiesFragment"
-            android:key="captioning_preference_screen"
             android:icon="@drawable/ic_captioning"
+            android:key="captioning_preference_screen"
             android:persistent="false"
             android:title="@string/accessibility_captioning_title"
-            settings:controller="com.android.settings.accessibility.CaptioningPreferenceController"/>
+            settings:controller="com.android.settings.accessibility.CaptioningPreferenceController" />
 
         <Preference
-            android:key="rtt_setting"
             android:icon="@drawable/ic_rtt_settings"
+            android:key="rtt_setting"
             android:summary="@string/summary_placeholder"
             android:title="@string/rtt_settings_title"
-            settings:keywords="@string/keywords_rtt"
-            settings:controller="com.android.settings.accessibility.RTTSettingPreferenceController"/>
+            settings:controller="com.android.settings.accessibility.RTTSettingPreferenceController"
+            settings:keywords="@string/keywords_rtt" />
 
     </PreferenceCategory>
 
@@ -133,21 +117,21 @@
         android:title="@string/audio_category_title">
 
         <Preference
-            android:key="hearing_aid_preference"
             android:icon="@drawable/ic_hearing_aid"
+            android:key="hearing_aid_preference"
             android:persistent="false"
             android:summary="@string/accessibility_hearingaid_not_connected_summary"
             android:title="@string/accessibility_hearingaid_title"
-            settings:keywords="@string/keywords_hearing_aids"
-            settings:controller="com.android.settings.accessibility.AccessibilityHearingAidPreferenceController"/>
+            settings:controller="com.android.settings.accessibility.AccessibilityHearingAidPreferenceController"
+            settings:keywords="@string/keywords_hearing_aids" />
 
         <Preference
             android:fragment="com.android.settings.accessibility.AudioAdjustmentFragment"
-            android:key="audio_adjustment_preference_screen"
             android:icon="@drawable/ic_audio_adjustment"
+            android:key="audio_adjustment_preference_screen"
             android:persistent="false"
             android:title="@string/accessibility_audio_adjustment_title"
-            settings:searchable="true"/>
+            settings:searchable="true" />
 
     </PreferenceCategory>
 
@@ -160,14 +144,14 @@
             android:key="accessibility_shortcuts_preference_screen"
             android:persistent="false"
             android:title="@string/accessibility_shortcuts_settings_title"
-            settings:searchable="true"/>
+            settings:searchable="true" />
 
         <Preference
             android:fragment="com.android.settings.tts.TextToSpeechSettings"
             android:key="tts_settings_preference"
             android:persistent="false"
             android:title="@string/tts_settings_title"
-            settings:controller="com.android.settings.language.TtsPreferenceController"/>
+            settings:controller="com.android.settings.language.TtsPreferenceController" />
 
     </PreferenceCategory>
 
