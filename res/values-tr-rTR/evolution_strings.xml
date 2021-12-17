@@ -23,6 +23,8 @@
     <string name="evolution_x_version">Evolution X sürümü</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Sürüm tarihi</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Cihaz sorumlusu</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
     <string name="evolver_dashboard_summary">Evrime devam etme zamanı</string>
@@ -125,4 +127,18 @@
     <string name="unit_seconds">Saniye(ler)</string>
     <string name="volume_dialog_timeout_title">Ses paneli zaman aşımı</string>
     <string name="volume_dialog_timeout_summary">Ses panelinin kapanması için geçen süre</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Çift dokunma</string>
+    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
+    <string name="doze_double_tap_summary">Çift dokunuşla ortam ekranı bildirimleri</string>
+    <!-- Custom vibration intensity -->
+    <string name="vibration_intensity_title">Titreşim yoğunluğu</string>
+    <string name="vibration_intensity_summary">Titreşim yoğunluğunu kontrol edin</string>
+    <string name="notification_vibration_intensity_title">Bildirimler</string>
+    <string name="ring_vibration_intensity_title">Zil sesi</string>
+    <string name="haptic_feedback_intensity_title">Dokunsal Geribildirim</string>
+    <string name="vibration_intensity_off">Devre dışı</string>
+    <string name="vibration_intensity_low">Yavaş</string>
+    <string name="vibration_intensity_medium">Orta</string>
+    <string name="vibration_intensity_high">Yüksek</string>
 </resources>
