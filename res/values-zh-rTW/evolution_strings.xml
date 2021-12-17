@@ -23,6 +23,8 @@
     <string name="evolution_x_version">Evolution X 版本</string>
     <!-- About device screen, Build date -->
     <string name="build_date">編譯日期</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">維護者</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">Evolution X 自定義</string>
     <string name="evolver_dashboard_summary">是時候要繼續Evolution你的設備了</string>
@@ -99,6 +101,11 @@
     <string name="screen_time_summary_usage_today">今天%1$s</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">來電震動模式</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">自訂</string>
     <string name="custom_vibration_pattern_title">自訂模式</string>
     <string name="custom_vibration_pattern_summary">設定自訂震動模式</string>
@@ -120,4 +127,18 @@
     <string name="unit_seconds">秒數</string>
     <string name="volume_dialog_timeout_title">音量控制面板自動關閉時間</string>
     <string name="volume_dialog_timeout_summary">音量控制介面在不操作時自動退出的時間</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">輕觸兩下</string>
+    <string name="doze_double_tap_title">輕觸兩下來查看手機</string>
+    <string name="doze_double_tap_summary">輕觸兩下時閃爍通知</string>
+    <!-- Custom vibration intensity -->
+    <string name="vibration_intensity_title">振動強度</string>
+    <string name="vibration_intensity_summary">控制不同情境下的震動強度</string>
+    <string name="notification_vibration_intensity_title">通知</string>
+    <string name="ring_vibration_intensity_title">鈴聲</string>
+    <string name="haptic_feedback_intensity_title">觸動回饋</string>
+    <string name="vibration_intensity_off">停用</string>
+    <string name="vibration_intensity_low">慢</string>
+    <string name="vibration_intensity_medium">預設</string>
+    <string name="vibration_intensity_high">高</string>
 </resources>
