@@ -23,8 +23,6 @@
     <string name="evolution_x_version">Evolution X 版本</string>
     <!-- About device screen, Build date -->
     <string name="build_date">編譯日期</string>
-    <!-- About device screen, build maintainer -->
-    <string name="build_maintainer_summary">未知</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">Evolution X 自定義</string>
     <string name="evolver_dashboard_summary">是時候要繼續Evolution你的設備了</string>

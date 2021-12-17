@@ -23,8 +23,6 @@
     <string name="evolution_x_version">Evolution X sürümü</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Sürüm tarihi</string>
-    <!-- About device screen, build maintainer -->
-    <string name="build_maintainer_summary">Bilinmiyor</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
     <string name="evolver_dashboard_summary">Evrime devam etme zamanı</string>

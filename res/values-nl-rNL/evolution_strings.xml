@@ -23,8 +23,6 @@
     <string name="evolution_x_version">Evolution X versie</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Bouwdatum</string>
-    <!-- About device screen, build maintainer -->
-    <string name="build_maintainer_summary">Onbekend</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">De Evolver</string>
     <string name="evolver_dashboard_summary">Tijd om door te gaan met de Evolutie van je apparaat</string>

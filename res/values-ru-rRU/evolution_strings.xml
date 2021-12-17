@@ -25,7 +25,6 @@
     <string name="build_date">Дата сборки</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Сопровождающий</string>
-    <string name="build_maintainer_summary">Неизвестно</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
     <string name="evolver_dashboard_summary">Время продолжить эволюцию вашего устройства</string>
