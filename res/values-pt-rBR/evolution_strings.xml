@@ -23,6 +23,8 @@
     <string name="evolution_x_version">Versão da Evolution X</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Data da compilação</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Mantenedor</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">Evolução</string>
     <string name="evolver_dashboard_summary">Hora de continuar a Evolução do seu dispositivo</string>
@@ -125,4 +127,18 @@
     <string name="unit_seconds">Segundo(s)</string>
     <string name="volume_dialog_timeout_title">Tempo limite do painel de volume</string>
     <string name="volume_dialog_timeout_summary">O tempo que leva para o painel de volume desaparecer</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Toque duplo</string>
+    <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
+    <string name="doze_double_tap_summary">Pulsar notificações ao tocar duas vezes na tela</string>
+    <!-- Custom vibration intensity -->
+    <string name="vibration_intensity_title">Intensidade da vibração</string>
+    <string name="vibration_intensity_summary">Controle a intensidade da vibração para diferentes setores</string>
+    <string name="notification_vibration_intensity_title">Notificações</string>
+    <string name="ring_vibration_intensity_title">Toque</string>
+    <string name="haptic_feedback_intensity_title">Retorno tátil</string>
+    <string name="vibration_intensity_off">Desativado</string>
+    <string name="vibration_intensity_low">Baixo</string>
+    <string name="vibration_intensity_medium">Médio</string>
+    <string name="vibration_intensity_high">Muito</string>
 </resources>
