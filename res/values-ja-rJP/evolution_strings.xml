@@ -23,6 +23,8 @@
     <string name="evolution_x_version">Evolution X バージョン</string>
     <!-- About device screen, Build date -->
     <string name="build_date">ビルド日時</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">ビルドメンテナ</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
     <string name="evolver_dashboard_summary">デバイスの次の進化の時が来ました</string>
@@ -125,4 +127,18 @@
     <string name="unit_seconds">秒</string>
     <string name="volume_dialog_timeout_title">音量パネルの表示時間</string>
     <string name="volume_dialog_timeout_summary">音量パネルがフェードするまでの時間です</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">ダブルタップ</string>
+    <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
+    <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
+    <!-- Custom vibration intensity -->
+    <string name="vibration_intensity_title">振動の強さ</string>
+    <string name="vibration_intensity_summary">異なるストリームでの振動の強さを制御する</string>
+    <string name="notification_vibration_intensity_title">通知</string>
+    <string name="ring_vibration_intensity_title">着信</string>
+    <string name="haptic_feedback_intensity_title">タッチ操作バイブ</string>
+    <string name="vibration_intensity_off">無効</string>
+    <string name="vibration_intensity_low">低速</string>
+    <string name="vibration_intensity_medium">中</string>
+    <string name="vibration_intensity_high">高</string>
 </resources>
