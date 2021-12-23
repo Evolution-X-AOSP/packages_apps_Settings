@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019 The Evolution X Project
+<!-- Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,8 +14,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Toque para mostrar informações</string>
     <!-- Hardware info -->
     <string name="platform_revision">Plataforma</string>
     <string name="total_ram">Total de RAM</string>
@@ -138,7 +136,7 @@
     <string name="ring_vibration_intensity_title">Toque</string>
     <string name="haptic_feedback_intensity_title">Retorno tátil</string>
     <string name="vibration_intensity_off">Desativado</string>
-    <string name="vibration_intensity_low">Baixo</string>
+    <string name="vibration_intensity_low">Fraco</string>
     <string name="vibration_intensity_medium">Médio</string>
-    <string name="vibration_intensity_high">Muito</string>
+    <string name="vibration_intensity_high">Forte</string>
 </resources>
