@@ -10,6 +10,9 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 
+    <!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">false</bool>
+
     <!-- Fingerprint -->
     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 
