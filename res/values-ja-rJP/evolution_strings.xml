@@ -74,8 +74,7 @@
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">最小リフレッシュレート</string>
     <string name="max_refresh_rate_title">最大リフレッシュレート</string>
-    <string name="battery_saver_refresh_rate_title">リフレッシュレートを減らす</string>
-    <string name="battery_saver_refresh_rate_summary">バッテリーセーバー有効時に電池消費を抑えるために60Hzのリフレッシュレートを使用する</string>
+    <string name="low_power_refresh_rate_title_custom">省電力リフレッシュレート</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充電時は常に有効</string>
     <string name="doze_on_charge_summary">充電時は常時 Doze 画面を表示する</string>
@@ -139,4 +138,7 @@
     <string name="vibration_intensity_low">低速</string>
     <string name="vibration_intensity_medium">中</string>
     <string name="vibration_intensity_high">高</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">スワイプでスクリーンショット</string>
+    <string name="three_finger_gesture_summary">3本指で下スワイプしてスクリーンショットを取得する</string>
 </resources>
