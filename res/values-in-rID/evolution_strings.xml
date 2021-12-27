@@ -74,8 +74,7 @@
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
     <string name="max_refresh_rate_title">Kecepatan refresh maksimum</string>
-    <string name="battery_saver_refresh_rate_title">Kurangi kecepatan refresh</string>
-    <string name="battery_saver_refresh_rate_summary">Gunakan kecepatan refresh layar 60 Hz untuk menghemat daya saat Penghemat Baterai aktif</string>
+    <string name="low_power_refresh_rate_title_custom">Tingkat penyegaran daya rendah</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Tetap menyala saat mengisi daya</string>
     <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
@@ -139,4 +138,7 @@
     <string name="vibration_intensity_low">Rendah</string>
     <string name="vibration_intensity_medium">Sedang</string>
     <string name="vibration_intensity_high">Tinggi</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Usap untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
 </resources>
