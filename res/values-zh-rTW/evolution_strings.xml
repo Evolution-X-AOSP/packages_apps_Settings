@@ -74,8 +74,7 @@
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">最低螢幕刷新率</string>
     <string name="max_refresh_rate_title">最高螢幕刷新率</string>
-    <string name="battery_saver_refresh_rate_title">降低螢幕刷新率</string>
-    <string name="battery_saver_refresh_rate_summary">在省電模式開啟時，將螢幕刷新率限制為 60 Hz 以減少電量消耗</string>
+    <string name="low_power_refresh_rate_title_custom">省電刷新率</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">在充電時開啟 AOD</string>
     <string name="doze_on_charge_summary">充電時一律顯示時間和資訊</string>
@@ -139,4 +138,7 @@
     <string name="vibration_intensity_low">慢</string>
     <string name="vibration_intensity_medium">預設</string>
     <string name="vibration_intensity_high">高</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">滑動截圖</string>
+    <string name="three_finger_gesture_summary">用三根手指向下滑動即可擷取螢幕畫面</string>
 </resources>

@@ -74,8 +74,7 @@
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Ελάχιστος ρυθμός ανανέωσης</string>
     <string name="max_refresh_rate_title">Μέγιστος ρυθμός ανανέωσης</string>
-    <string name="battery_saver_refresh_rate_title">Μείωση ρυθμού ανανέωσης</string>
-    <string name="battery_saver_refresh_rate_summary">Χρήση ρυθμού ανανέωσης οθόνης 60 Hz για εξοικονόμηση ενέργειας όταν η Εξοικονόμηση Μπαταρίας είναι ενεργοποιημένη</string>
+    <string name="low_power_refresh_rate_title_custom">Χαμηλός ρυθμός ανανέωσης ισχύος</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Οθόνη πάντα ενεργή κατά την φόρτιση</string>
     <string name="doze_on_charge_summary">Εμφάνιση της οθόνης doze συνεχώς κατά τη φόρτιση</string>
@@ -139,4 +138,7 @@
     <string name="vibration_intensity_low">Χαμηλά</string>
     <string name="vibration_intensity_medium">Μέτρια</string>
     <string name="vibration_intensity_high">Υψηλό</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Σύρετε για στιγμιότυπο οθόνης</string>
+    <string name="three_finger_gesture_summary">Σύρετε προς τα κάτω με τρία δάχτυλα για να τραβήξετε ένα στιγμιότυπο οθόνης</string>
 </resources>
