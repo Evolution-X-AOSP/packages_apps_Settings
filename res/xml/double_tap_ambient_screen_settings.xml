@@ -20,7 +20,7 @@
 
     <com.android.settingslib.widget.IllustrationPreference
         android:key="gesture_double_tap_screen_video"
-        app:lottie_rawRes="@raw/gesture_ambient_tap"
+        app:lottie_rawRes="@raw/gesture_ambient_tap_custom"
         app:preview="@drawable/gesture_ambient_tap" />
 
     <com.evolution.settings.preference.SystemSettingSwitchPreference
