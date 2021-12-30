@@ -508,4 +508,9 @@
     <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
+
+    <!-- Device auto reboot -->
+    <string name="device_reboot_timeout_title">Auto reboot</string>
+    <string name="device_reboot_timeout_summary">The device will automatically reboot if it hasn\'t been unlocked within the last <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
 </resources>

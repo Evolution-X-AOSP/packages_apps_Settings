@@ -55,6 +55,14 @@
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_biometric_settings" />
 
+        <ListPreference
+            android:key="device_reboot_timeout"
+            android:entries="@array/custom_timeout_entries"
+            android:entryValues="@array/custom_timeout_values"
+            android:summary="@string/device_reboot_timeout_summary"
+            android:title="@string/device_reboot_timeout_title"
+            settings:controller="com.android.settings.security.DeviceRebootTimeoutPreferenceController" />
+
         <!-- App lock -->
         <com.android.settingslib.RestrictedPreference
             android:key="app_lock"
