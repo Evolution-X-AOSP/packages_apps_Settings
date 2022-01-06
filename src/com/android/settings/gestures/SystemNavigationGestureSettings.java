@@ -212,10 +212,13 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         }
 
         OverlayInfo info = null;
+        OverlayInfo fullscreenOverlayInfo = null;
         try {
             info = overlayManager.getOverlayInfo(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
+            fullscreenOverlayInfo = overlayManager.getOverlayInfo(FULLSCREEN_GESTURE_OVERLAY_PKG, USER_CURRENT);
         } catch (RemoteException e) { /* Do nothing */ }
-        if (info != null && !info.isEnabled()) {
+        if (info != null && !info.isEnabled() &&
+                (fullscreenOverlayInfo == null || !fullscreenOverlayInfo.isEnabled())) {
             // Enable the default gesture nav overlay. Back sensitivity for left and right are
             // stored as separate settings values, and other gesture nav overlays are deprecated.
             setCurrentSystemNavigationMode(context, overlayManager, KEY_SYSTEM_NAV_GESTURAL);
