@@ -92,12 +92,12 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
 
         mLeftSwipeAppSelection = (Preference) findPreference("left_swipe_app_action");
         boolean isAppSelection = Settings.System.getIntForUser(resolver,
-                Settings.System.LEFT_LONG_BACK_SWIPE_ACTION, 0, UserHandle.USER_CURRENT) == 5/*action_app_action*/;
+                Settings.System.LEFT_LONG_BACK_SWIPE_ACTION, 0, UserHandle.USER_CURRENT) == 4/*action_app_action*/;
         mLeftSwipeAppSelection.setVisible(isAppSelection);
 
         mRightSwipeAppSelection = (Preference) findPreference("right_swipe_app_action");
         isAppSelection = Settings.System.getIntForUser(resolver,
-                Settings.System.RIGHT_LONG_BACK_SWIPE_ACTION, 0, UserHandle.USER_CURRENT) == 5/*action_app_action*/;
+                Settings.System.RIGHT_LONG_BACK_SWIPE_ACTION, 0, UserHandle.USER_CURRENT) == 4/*action_app_action*/;
         mRightSwipeAppSelection.setVisible(isAppSelection);
 
         int leftVerticalSwipeActions = Settings.System.getIntForUser(resolver,
@@ -120,12 +120,12 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
 
         mLeftVerticalSwipeAppSelection = (Preference) findPreference("left_vertical_swipe_app_action");
         isAppSelection = Settings.System.getIntForUser(resolver,
-                Settings.System.LEFT_VERTICAL_BACK_SWIPE_ACTION, 0, UserHandle.USER_CURRENT) == 5/*action_app_action*/;
+                Settings.System.LEFT_VERTICAL_BACK_SWIPE_ACTION, 0, UserHandle.USER_CURRENT) == 4/*action_app_action*/;
         mLeftVerticalSwipeAppSelection.setVisible(extendedSwipe && isAppSelection);
 
         mRightVerticalSwipeAppSelection = (Preference) findPreference("right_vertical_swipe_app_action");
         isAppSelection = Settings.System.getIntForUser(resolver,
-                Settings.System.RIGHT_VERTICAL_BACK_SWIPE_ACTION, 0, UserHandle.USER_CURRENT) == 5/*action_app_action*/;
+                Settings.System.RIGHT_VERTICAL_BACK_SWIPE_ACTION, 0, UserHandle.USER_CURRENT) == 4/*action_app_action*/;
         mRightVerticalSwipeAppSelection.setVisible(extendedSwipe && isAppSelection);
 
         customAppCheck();
@@ -140,7 +140,7 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
             int index = mLeftSwipeActions.findIndexOfValue((String) newValue);
             mLeftSwipeActions.setSummary(
                     mLeftSwipeActions.getEntries()[index]);
-            mLeftSwipeAppSelection.setVisible(leftSwipeActions == 5);
+            mLeftSwipeAppSelection.setVisible(leftSwipeActions == 4);
             customAppCheck();
             return true;
         } else if (preference == mRightSwipeActions) {
@@ -151,7 +151,7 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
             int index = mRightSwipeActions.findIndexOfValue((String) newValue);
             mRightSwipeActions.setSummary(
                     mRightSwipeActions.getEntries()[index]);
-            mRightSwipeAppSelection.setVisible(rightSwipeActions == 5);
+            mRightSwipeAppSelection.setVisible(rightSwipeActions == 4);
             customAppCheck();
             return true;
         } else if (preference == mLeftVerticalSwipeActions) {
@@ -162,7 +162,7 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
             int index = mLeftVerticalSwipeActions.findIndexOfValue((String) newValue);
             mLeftVerticalSwipeActions.setSummary(
                     mLeftVerticalSwipeActions.getEntries()[index]);
-            mLeftVerticalSwipeAppSelection.setVisible(mExtendedSwipe.isChecked() && leftVerticalSwipeActions == 5);
+            mLeftVerticalSwipeAppSelection.setVisible(mExtendedSwipe.isChecked() && leftVerticalSwipeActions == 4);
             customAppCheck();
             return true;
         } else if (preference == mRightVerticalSwipeActions) {
@@ -173,18 +173,18 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
             int index = mRightVerticalSwipeActions.findIndexOfValue((String) newValue);
             mRightVerticalSwipeActions.setSummary(
                     mRightVerticalSwipeActions.getEntries()[index]);
-            mRightVerticalSwipeAppSelection.setVisible(mExtendedSwipe.isChecked() && rightVerticalSwipeActions == 5);
+            mRightVerticalSwipeAppSelection.setVisible(mExtendedSwipe.isChecked() && rightVerticalSwipeActions == 4);
             customAppCheck();
-            return true; 
+            return true;
         } else if (preference == mExtendedSwipe) {
             boolean enabled = ((Boolean) newValue).booleanValue();
             mExtendedSwipe.setChecked(enabled);
             mTimeout.setEnabled(!enabled);
             mLeftVerticalSwipeActions.setEnabled(enabled);
             mRightVerticalSwipeActions.setEnabled(enabled);
-            mLeftVerticalSwipeAppSelection.setVisible(enabled && mLeftVerticalSwipeActions.getValue().equals("5"));
-            mRightVerticalSwipeAppSelection.setVisible(enabled && mRightVerticalSwipeActions.getValue().equals("5"));
-            return true; 
+            mLeftVerticalSwipeAppSelection.setVisible(enabled && mLeftVerticalSwipeActions.getValue().equals("4"));
+            mRightVerticalSwipeAppSelection.setVisible(enabled && mRightVerticalSwipeActions.getValue().equals("4"));
+            return true;
         }
         return false;
     }
@@ -224,9 +224,9 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
         mRightSwipeActions.setSummary(mRightSwipeActions.getEntry());
 
         mLeftSwipeAppSelection.setVisible(mLeftSwipeActions.getEntryValues()
-                [leftSwipeActions].equals("5"));
+                [leftSwipeActions].equals("4"));
         mRightSwipeAppSelection.setVisible(mRightSwipeActions.getEntryValues()
-                [rightSwipeActions].equals("5"));
+                [rightSwipeActions].equals("4"));
 
         int leftVerticalSwipeActions = Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.LEFT_VERTICAL_BACK_SWIPE_ACTION, 0,
@@ -244,9 +244,9 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
         mRightVerticalSwipeActions.setSummary(mRightVerticalSwipeActions.getEntry());
 
         mLeftVerticalSwipeAppSelection.setVisible(mExtendedSwipe.isChecked() && mLeftVerticalSwipeActions.getEntryValues()
-                [leftVerticalSwipeActions].equals("5"));
+                [leftVerticalSwipeActions].equals("4"));
         mRightVerticalSwipeAppSelection.setVisible(mExtendedSwipe.isChecked() && mRightVerticalSwipeActions.getEntryValues()
-                [rightVerticalSwipeActions].equals("5"));
+                [rightVerticalSwipeActions].equals("4"));
     }
 
     private void customAppCheck() {
