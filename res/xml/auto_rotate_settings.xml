@@ -33,6 +33,11 @@
         android:title="@string/auto_rotate_settings_primary_switch_title"
         settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
 
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="enable_floating_rotation_button"
+        android:title="@string/enable_floating_rotation_button_title"
+        android:defaultValue="true" />
+
     <com.android.settingslib.widget.BannerMessagePreference
         android:key="face_rotate_permission"
         android:title="@string/adaptive_sleep_title_no_permission"
