@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019-2021 The Evolution X Project
+<!--
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -78,7 +79,10 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Tetap menyala saat mengisi daya</string>
     <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
-    <!-- Pocket mode -->
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Deteksi Saku</string>
+    <string name="pocket_judge_summary">Blokir sentuh tombol dan layar saat perangkat berada dalam saku</string>
+    <!-- Proximity wake -->
     <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
     <string name="proximity_wake_summary">Periksa sensor proximity sebelum membangunkan layar</string>
     <!-- Media gestures -->
@@ -141,4 +145,99 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Usap untuk menangkap layar</string>
     <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan terhubung</string>
+    <string name="wifi_timeout_summary2">Dinonaktifkan</string>
+    <string name="wifi_timeout_summary_never">Jangan pernah</string>
+    <string name="wifi_timeout_summary_15secs">15 detik</string>
+    <string name="wifi_timeout_summary_30secs">30 detik</string>
+    <string name="wifi_timeout_summary_1min">1 menit</string>
+    <string name="wifi_timeout_summary_2mins">2 menit</string>
+    <string name="wifi_timeout_summary_5mins">5 menit</string>
+    <string name="wifi_timeout_summary_10mins">10 menit</string>
+    <string name="wifi_timeout_summary_30mins">30 menit</string>
+    <string name="wifi_timeout_summary_1hour">1 jam</string>
+    <string name="wifi_timeout_summary_2hours">2 jam</string>
+    <string name="wifi_timeout_summary_4hours">4 jam</string>
+    <string name="wifi_timeout_summary_8hours">8 jam</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat terhubung</string>
+    <string name="bluetooth_timeout_summary2">Jangan matikan Bluetooth secara otomatis</string>
+    <string name="bluetooth_timeout_summary_never">Jangan pernah</string>
+    <string name="bluetooth_timeout_summary_15secs">15 detik</string>
+    <string name="bluetooth_timeout_summary_30secs">30 detik</string>
+    <string name="bluetooth_timeout_summary_1min">1 menit</string>
+    <string name="bluetooth_timeout_summary_2mins">2 menit</string>
+    <string name="bluetooth_timeout_summary_5mins">5 menit</string>
+    <string name="bluetooth_timeout_summary_10mins">10 menit</string>
+    <string name="bluetooth_timeout_summary_30mins">30 menit</string>
+    <string name="bluetooth_timeout_summary_1hour">1 jam</string>
+    <string name="bluetooth_timeout_summary_2hours">2 jam</string>
+    <string name="bluetooth_timeout_summary_4hours">4 jam</string>
+    <string name="bluetooth_timeout_summary_8hours">8 jam</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ticker musik ambien</string>
+    <string name="pulse_on_new_tracks_summary">Tampilkan Tampilan Ambien saat trek musik baru diputar</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Tidak ada tindakan</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Baru-baru ini</string>
+    <string name="action_voice_search">Pencarian suara</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_last_app">Aplikasi terakhir</string>
+    <string name="action_splitscreen">Layar terpisah</string>
+    <string name="action_flashlight">Senter</string>
+    <string name="action_clear_notifications">Bersihkan notifikasi</string>
+    <string name="action_volume_panel">Panel Volume</string>
+    <string name="action_screen_off">Layar mati</string>
+    <string name="action_notifications">Notifikasi</string>
+    <string name="action_power_menu">Menu daya</string>
+    <string name="action_screenshot">Tangkapan Layar</string>
+    <string name="action_qs_panel">Panel Setelan Cepat</string>
+    <string name="action_app_action">Aplikasi</string>
+    <string name="action_ringer_modes">Mode dering</string>
+    <string name="kill_app">Tutup paksa aplikasi saat ini</string>
+    <string name="recent_app_toggle">Beralih aplikasi baru-baru ini</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Opsi gestur lanjutan</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Kustomisasi gestur dan atur tindakan khusus</string>
+    <string name="navbar_gesture_tweaks_cat_title">Lanjutan</string>
+    <string name="swipe_app_select_summary">Pilih aplikasi untuk memulai dengan tindakan tekan</string>
+    <string name="long_back_swipe_timeout_title">Batas waktu usap panjang</string>
+    <string name="left_swipe_actions_title">Tindakan usap panjang ke kiri</string>
+    <string name="left_swipe_app_action_title">Pilih aplikasi usap panjang ke kiri</string>
+    <string name="right_swipe_actions_title">Tindakan usap panjang ke kanan</string>
+    <string name="right_swipe_app_action_title">Pilih aplikasi usap panjang ke kanan</string>
+    <string name="left_vertical_swipe_actions_title">Tindakan geser L ke kiri vertikal</string>
+    <string name="left_vertical_swipe_app_action_title">Pilih aplikasi usap panjang ke kiri</string>
+    <string name="right_vertical_swipe_actions_title">Tindakan geser L ke kanan vertikal</string>
+    <string name="right_vertical_swipe_app_action_title">Pilih aplikasi usap panjang ke kanan</string>
+    <string name="gesture_nav_tweaks_footer_info">Untuk memilih aktivitas aplikasi tertentu untuk tindakan, tekan lama pada aplikasi apa pun di pemilih aplikasi.\n\nJika peluncur ditampilkan, lakukan gesek di bagian paling bawah layar untuk memicu tindakan.</string>
+    <string name="back_swipe_extended_title">Tindakan menggesek yang diperpanjang</string>
+    <string name="back_swipe_extended_summary">Tindakan pemicu pada gesekan yang lebih luas (lebih dari setengah ukuran tampilan), atau gesekan L (cukup panjang secara vertikal)</string>
+    <!-- Themes customization -->
+    <string name="theme_customization_systemui_title">Warna tema</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pemutaran Adaptif</string>
+    <string name="adaptive_playback_enabled">Gunakan Pemutar Adaptif</string>
+    <string name="adaptive_playback_disabled_summary">Mati</string>
+    <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
+    <string name="adaptive_playback_timeout_none">Tanpa batas waktu</string>
+    <string name="adaptive_playback_timeout_none_summary">Aktif (tidak ada batas waktu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 detik</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Aktif (30 detik)</string>
+    <string name="adaptive_playback_timeout_1_min">1 menit</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Aktif (1 menit)</string>
+    <string name="adaptive_playback_timeout_2_min">2 menit</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Aktif (2 menit)</string>
+    <string name="adaptive_playback_timeout_5_min">5 menit</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Aktif (5 menit)</string>
+    <string name="adaptive_playback_timeout_10_min">10 menit</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
 </resources>
