@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2018 The LineageOS Project
-     Copyright (C) 2019 The PixelExperience Project
+     Copyright (C) 2021 AOSP-Krypton Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,45 +14,57 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:paddingStart="?android:attr/listPreferredItemPaddingStart"
     android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-    android:paddingTop="8dp"
-    android:paddingBottom="8dp">
+    android:background="?android:attr/selectableItemBackground"
+    android:clipChildren="false"
+    android:clipToPadding="false">
 
     <ImageView
-        android:id="@+id/app_icon"
-        android:layout_width="@android:dimen/app_icon_size"
-        android:layout_height="@android:dimen/app_icon_size"
-        android:layout_marginEnd="8dp"
+        android:id="@+id/icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
         android:scaleType="centerInside"
-        android:contentDescription="@null" />
+        settings:layout_constraintStart_toStartOf="parent"
+        settings:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/application_icon" />
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textColor="?android:attr/textColorPrimary"
+        settings:layout_constraintStart_toEndOf="@id/icon"
+        settings:layout_constraintEnd_toStartOf="@id/checkBox"
+        settings:layout_constraintTop_toTopOf="@id/icon" />
+
+    <TextView
+        android:id="@+id/packageName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?android:attr/textColorSecondary"
+        settings:layout_constraintStart_toStartOf="@id/label"
+        settings:layout_constraintEnd_toEndOf="@id/label"
+        settings:layout_constraintTop_toBottomOf="@id/label"
+        settings:layout_constraintBottom_toBottomOf="@id/icon" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:gravity="center_vertical"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/app_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:textColor="?android:attr/textColorPrimary"
-            android:textAppearance="@style/TextAppearance.Medium"
-            android:singleLine="true"
-            android:ellipsize="marquee" />
-
-    </LinearLayout>
-
-    <Switch
-        android:id="@+id/state"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="false"
+        settings:layout_constraintBottom_toBottomOf="@id/icon"
+        settings:layout_constraintEnd_toEndOf="parent"
+        settings:layout_constraintTop_toTopOf="@id/icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>
