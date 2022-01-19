@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019-2021 The Evolution X Project
+<!--
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -43,9 +44,6 @@
     <string name="increasing_ring_ramp_up_time_title">Steigerung nach</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Klingelton- &amp; Benachrichtigungslautstärke verknüpfen</string>
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Statistik zurücksetzen</string>
-    <string name="battery_stats_message">Akkuverbrauch-Statistiken werden zurückgesetzt</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
     <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch das PIN-Layout zufällig neu wählen</string>
@@ -74,12 +72,14 @@
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
     <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
-    <string name="battery_saver_refresh_rate_title">Reduziere Aktualisierungsrate</string>
-    <string name="battery_saver_refresh_rate_summary">60 Hz Bildschirmwiederholungsrate verwenden, um Energie zu sparen, wenn Energiesparmodus aktiviert ist</string>
+    <string name="low_power_refresh_rate_title_custom">Geringe Energie Aktualisierungsrate</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on Display beim Laden aktiv lassen</string>
     <string name="doze_on_charge_summary">Doze-Bildschirm während des Ladevorgangs anzeigen</string>
-    <!-- Pocket mode -->
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Taschenmodus</string>
+    <string name="pocket_judge_summary">Verhindert Bildschirm und Tasteneingaben, wenn sich das Gerät in einer Tasche befindet</string>
+    <!-- Proximity wake -->
     <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
     <string name="proximity_wake_summary">Vor dem Aufwecken des Bildschirms den Näherungssensor überprüfen</string>
     <!-- Media gestures -->
@@ -139,4 +139,104 @@
     <string name="vibration_intensity_low">Niedrig</string>
     <string name="vibration_intensity_medium">Normal</string>
     <string name="vibration_intensity_high">Hoch</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Wischen für Bildschirmfoto</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen für ein Bildschirmfoto</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">WLAN automatisch ausschalten</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">WLAN wird <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, wenn kein Netzwerk verbunden ist</string>
+    <string name="wifi_timeout_summary2">Deaktiviert</string>
+    <string name="wifi_timeout_summary_never">Niemals</string>
+    <string name="wifi_timeout_summary_15secs">15 Sekunden</string>
+    <string name="wifi_timeout_summary_30secs">30 Sekunden</string>
+    <string name="wifi_timeout_summary_1min">1 Minute</string>
+    <string name="wifi_timeout_summary_2mins">2 Minuten</string>
+    <string name="wifi_timeout_summary_5mins">5 Minuten</string>
+    <string name="wifi_timeout_summary_10mins">10 Minuten</string>
+    <string name="wifi_timeout_summary_30mins">30 Minuten</string>
+    <string name="wifi_timeout_summary_1hour">1 Stunde</string>
+    <string name="wifi_timeout_summary_2hours">2 Stunden</string>
+    <string name="wifi_timeout_summary_4hours">4 Stunden</string>
+    <string name="wifi_timeout_summary_8hours">8 Stunden</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth-Timeout</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth wird <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, wenn kein Gerät verbunden ist</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth nicht automatisch ausschalten</string>
+    <string name="bluetooth_timeout_summary_never">Niemals</string>
+    <string name="bluetooth_timeout_summary_15secs">15 Sekunden</string>
+    <string name="bluetooth_timeout_summary_30secs">30 Sekunden</string>
+    <string name="bluetooth_timeout_summary_1min">1 Minute</string>
+    <string name="bluetooth_timeout_summary_2mins">2 Minuten</string>
+    <string name="bluetooth_timeout_summary_5mins">5 Minuten</string>
+    <string name="bluetooth_timeout_summary_10mins">10 Minuten</string>
+    <string name="bluetooth_timeout_summary_30mins">30 Minuten</string>
+    <string name="bluetooth_timeout_summary_1hour">1 Stunde</string>
+    <string name="bluetooth_timeout_summary_2hours">2 Stunden</string>
+    <string name="bluetooth_timeout_summary_4hours">4 Stunden</string>
+    <string name="bluetooth_timeout_summary_8hours">8 Stunden</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Musiktitelanzeige im Inaktivitätsdisplay</string>
+    <string name="pulse_on_new_tracks_summary">Inaktivitätsdisplay aktivieren, wenn ein neuer Musiktitel abgespielt wird</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Keine Aktion</string>
+    <string name="action_menu">Menü</string>
+    <string name="action_app_switch">Verlauf</string>
+    <string name="action_voice_search">Sprachsuche</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_last_app">Letzte Anwendung</string>
+    <string name="action_splitscreen">Geteilter Bildschirm</string>
+    <string name="action_flashlight">Taschenlampe</string>
+    <string name="action_clear_notifications">Benachrichtigungen löschen</string>
+    <string name="action_volume_panel">Lautstärkeregler</string>
+    <string name="action_screen_off">Bildschirm aus</string>
+    <string name="action_notifications">Benachrichtigungen</string>
+    <string name="action_power_menu">Power-Menü</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_qs_panel">Schnelleinstellungen</string>
+    <string name="action_app_action">Anwendung</string>
+    <string name="action_ringer_modes">Klingelton-Modus</string>
+    <string name="kill_app">App im Vordergrund beenden</string>
+    <string name="recent_app_toggle">Letzte App wechseln</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Erweiterte Gesten-Einstellungen</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Gesten anpassen und benutzerdefinierte Aktionen festlegen</string>
+    <string name="navbar_gesture_tweaks_cat_title">Erweitert</string>
+    <string name="swipe_app_select_summary">App auswählen, die mit der Druck-Aktion gestartet werden soll</string>
+    <string name="long_back_swipe_timeout_title">Timeout für lange Zurück-Geste</string>
+    <string name="left_swipe_actions_title">Lange Wischaktion nach links</string>
+    <string name="left_swipe_app_action_title">App für lange Wischaktion nach links wählen</string>
+    <string name="right_swipe_actions_title">Lange Wischaktion nach rechts</string>
+    <string name="right_swipe_app_action_title">App für lange Wischaktion nach rechts wählen</string>
+    <string name="left_vertical_swipe_actions_title">Aktion für vertikales Wischen von links</string>
+    <string name="left_vertical_swipe_app_action_title">App für vertikales Wischen von links wählen</string>
+    <string name="right_vertical_swipe_actions_title">Aktion für vertikales Wischen von rechts</string>
+    <string name="right_vertical_swipe_app_action_title">App für vertikales Wischen von rechts wählen</string>
+    <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine App in der Apps-Auswahl. Wenn der Launcher angezeigt wird, streichen Sie ganz unten auf dem Bildschirm, um die Aktion auszulösen.</string>
+    <string name="back_swipe_extended_title">Erweiterte Wischaktion</string>
+    <string name="back_swipe_extended_summary">Aktion für breiteres Wischen (mehr als die Hälfte des Bildschirms), oder Wischen in Form eines L (vertikal lang genug)</string>
+    <!-- Themes customization -->
+    <string name="theme_customization_systemui_title">Themenfarbe</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive Medienwiedergabe</string>
+    <string name="adaptive_playback_enabled">Adaptive Medienwiedergabe</string>
+    <string name="adaptive_playback_disabled_summary">Aus</string>
+    <string name="adaptive_playback_timeout_title">Pausieren für</string>
+    <string name="adaptive_playback_timeout_none">Nicht pausieren</string>
+    <string name="adaptive_playback_timeout_none_summary">An (ohne Pausieren)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 Sekunden</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">An (30 Sekunden)</string>
+    <string name="adaptive_playback_timeout_1_min">1 Minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">An (1 Minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 Minuten</string>
+    <string name="adaptive_playback_timeout_2_min_summary">An (2 Minuten)</string>
+    <string name="adaptive_playback_timeout_5_min">5 Minuten</string>
+    <string name="adaptive_playback_timeout_5_min_summary">An (5 Minuten)</string>
+    <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
+    <string name="adaptive_playback_timeout_10_min_summary">An (10 Minuten)</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Schaltfläche zum Drehen verwenden</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
 </resources>

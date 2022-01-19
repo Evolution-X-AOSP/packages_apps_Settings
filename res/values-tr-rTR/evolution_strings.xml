@@ -44,9 +44,6 @@
     <string name="increasing_ring_ramp_up_time_title">Yükselme zamanı</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">İstatistikleri sıfırla</string>
-    <string name="battery_stats_message">Pil kullanım geçmişi istatistikleri sıfırlanacak</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
     <string name="unlock_scramble_pin_layout_summary">Cihazın kilidini açarken PIN düzenini karıştır</string>
@@ -64,7 +61,7 @@
     <!-- Custom light color -->
     <string name="custom_light_title">Işık rengi</string>
     <string name="custom_light_on_time_title">LED açıkken yanıp sönme hızı (ms)</string>
-    <string name="custom_light_off_time_title">LED kapalıyken yanıp sönme hızı (ms)</string>
+    <string name="custom_light_off_time_title">LED kapalıyken yanıp sönme hızı (ms)\"</string>
     <string name="value_equals_default">varsayılan</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Desen boyutu seçin</string>
@@ -240,4 +237,6 @@
     <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Hareketli yönlendirme tuşu kullan</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Kaydedilmiş Kulaklıklar</string>
 </resources>
