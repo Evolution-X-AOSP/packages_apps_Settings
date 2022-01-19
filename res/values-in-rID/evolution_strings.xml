@@ -44,9 +44,6 @@
     <string name="increasing_ring_ramp_up_time_title">Waktu penguatan</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Atur ulang statistik</string>
-    <string name="battery_stats_message">Statistik riwayat baterai akan diatur ulang</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
     <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
@@ -240,4 +237,6 @@
     <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Earbud tersimpan</string>
 </resources>
