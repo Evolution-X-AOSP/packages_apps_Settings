@@ -44,9 +44,6 @@
     <string name="increasing_ring_ramp_up_time_title">Tempo de aceleração</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Unir volumes de toque e notificações</string>
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Zerar as estatísticas</string>
-    <string name="battery_stats_message">As estatísticas do histórico de bateria serão redefinidas</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
@@ -240,4 +237,6 @@
     <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Habilitar botão de rotação flutuante</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
 </resources>
