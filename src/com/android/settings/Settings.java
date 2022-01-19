@@ -453,4 +453,5 @@ public class Settings extends SettingsActivity {
      * Activity for The Evolver
      */
     public static class EvolutionSettingsActivity extends SettingsActivity {}
+    public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
 }
