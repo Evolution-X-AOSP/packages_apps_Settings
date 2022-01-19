@@ -331,4 +331,5 @@ public class Settings extends SettingsActivity {
      */
     public static class EvolutionSettingsActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+    public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
 }

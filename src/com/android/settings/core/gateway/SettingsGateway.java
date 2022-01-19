@@ -167,6 +167,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.evolution.settings.EvolutionSettings;
+import com.evolution.settings.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -322,6 +323,7 @@ public class SettingsGateway {
             AlarmsAndRemindersDetails.class.getName(),
             MediaManagementAppsDetails.class.getName(),
             EvolutionSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
             RunningServices.class.getName()
     };
 
@@ -363,6 +365,7 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.EvolutionSettingsActivity.class.getName(),
+            Settings.HeadsUpSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName()
     };
 }
