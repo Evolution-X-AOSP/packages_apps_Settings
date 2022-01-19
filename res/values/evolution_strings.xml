@@ -281,6 +281,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
 
     <!-- Clang version -->
     <string name="clang_version">Clang version</string>
