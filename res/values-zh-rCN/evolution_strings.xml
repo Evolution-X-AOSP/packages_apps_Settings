@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019-2021 The Evolution X Project
+<!--
+     Copyright (C) 2019-2021 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -43,9 +44,6 @@
     <string name="increasing_ring_ramp_up_time_title">渐强时间</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">关联铃声和通知的音量</string>
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">重置统计信息</string>
-    <string name="battery_stats_message">电池的历史统计数据将被重置</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">乱序布局</string>
     <string name="unlock_scramble_pin_layout_summary">当解锁设备时使用数字密码</string>
@@ -74,12 +72,14 @@
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">最低刷新率</string>
     <string name="max_refresh_rate_title">最高刷新率</string>
-    <string name="battery_saver_refresh_rate_title">降低刷新率</string>
-    <string name="battery_saver_refresh_rate_summary">在省电模式开启时使用 60 Hz 屏幕刷新率以省电</string>
+    <string name="low_power_refresh_rate_title_custom">低功耗刷新率</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充电时始终开启</string>
     <string name="doze_on_charge_summary">充电时显示熄屏显示</string>
-    <!-- Pocket mode -->
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+    <!-- Proximity wake -->
     <string name="proximity_wake_title">防止意外唤醒</string>
     <string name="proximity_wake_summary">唤醒屏幕前检查距离传感器</string>
     <!-- Media gestures -->
@@ -139,4 +139,104 @@
     <string name="vibration_intensity_low">慢速</string>
     <string name="vibration_intensity_medium">中等</string>
     <string name="vibration_intensity_high">较高</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">滑动截屏</string>
+    <string name="three_finger_gesture_summary">三指向下滑动截屏</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">自动关闭 Wi-Fi</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
+    <string name="wifi_timeout_summary2">已禁用</string>
+    <string name="wifi_timeout_summary_never">永不</string>
+    <string name="wifi_timeout_summary_15secs">15 秒</string>
+    <string name="wifi_timeout_summary_30secs">30 秒</string>
+    <string name="wifi_timeout_summary_1min">1 分钟</string>
+    <string name="wifi_timeout_summary_2mins">2 分钟</string>
+    <string name="wifi_timeout_summary_5mins">5 分钟</string>
+    <string name="wifi_timeout_summary_10mins">10 分钟</string>
+    <string name="wifi_timeout_summary_30mins">30 分钟</string>
+    <string name="wifi_timeout_summary_1hour">1 小时</string>
+    <string name="wifi_timeout_summary_2hours">2 小时</string>
+    <string name="wifi_timeout_summary_4hours">4 小时</string>
+    <string name="wifi_timeout_summary_8hours">8 小时</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">蓝牙超时</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">如果没有设备连接，蓝牙将在<xliff:g id="timeout_description">%1$s</xliff:g>后关闭</string>
+    <string name="bluetooth_timeout_summary2">不要自动关闭蓝牙</string>
+    <string name="bluetooth_timeout_summary_never">永不</string>
+    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30 秒</string>
+    <string name="bluetooth_timeout_summary_1min">1 分钟</string>
+    <string name="bluetooth_timeout_summary_2mins">2 分钟</string>
+    <string name="bluetooth_timeout_summary_5mins">5 分钟</string>
+    <string name="bluetooth_timeout_summary_10mins">10 分钟</string>
+    <string name="bluetooth_timeout_summary_30mins">30 分钟</string>
+    <string name="bluetooth_timeout_summary_1hour">1 小时</string>
+    <string name="bluetooth_timeout_summary_2hours">2 小时</string>
+    <string name="bluetooth_timeout_summary_4hours">4 小时</string>
+    <string name="bluetooth_timeout_summary_8hours">8 小时</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">息屏音乐信息</string>
+    <string name="pulse_on_new_tracks_summary">在打开新的音乐曲目时显示环境显示</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">无动作</string>
+    <string name="action_menu">菜单</string>
+    <string name="action_app_switch">最近任务</string>
+    <string name="action_voice_search">语音搜索</string>
+    <string name="action_launch_camera">相机</string>
+    <string name="action_last_app">上一个应用</string>
+    <string name="action_splitscreen">分屏</string>
+    <string name="action_flashlight">手电筒</string>
+    <string name="action_clear_notifications">清除通知</string>
+    <string name="action_volume_panel">声音面板</string>
+    <string name="action_screen_off">息屏</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_power_menu">电源菜单</string>
+    <string name="action_screenshot">屏幕截图</string>
+    <string name="action_qs_panel">快速设置面板</string>
+    <string name="action_app_action">应用程序</string>
+    <string name="action_ringer_modes">响铃模式</string>
+    <string name="kill_app">终止前台应用</string>
+    <string name="recent_app_toggle">切换最近的应用</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">高级手势选项</string>
+    <string name="navbar_gesture_tweaks_pref_summary">自定义手势并设置自定义操作</string>
+    <string name="navbar_gesture_tweaks_cat_title">高级选项</string>
+    <string name="swipe_app_select_summary">选择一个应用程序在按压时启动</string>
+    <string name="long_back_swipe_timeout_title">长滑超时</string>
+    <string name="left_swipe_actions_title">左长滑动作</string>
+    <string name="left_swipe_app_action_title">选择左长滑应用</string>
+    <string name="right_swipe_actions_title">右长滑动作</string>
+    <string name="right_swipe_app_action_title">选择右长滑应用</string>
+    <string name="left_vertical_swipe_actions_title">垂直左 L 滑动操作</string>
+    <string name="left_vertical_swipe_app_action_title">选择垂直左滑动应用</string>
+    <string name="right_vertical_swipe_actions_title">垂直右 L 滑动动作</string>
+    <string name="right_vertical_swipe_app_action_title">选择垂直右滑动应用</string>
+    <string name="gesture_nav_tweaks_footer_info">在应用选择器中长按选择可以为手势指定应用的特定活动。\n\n在使用启动器时，在屏幕底部滑动可以触发手势。</string>
+    <string name="back_swipe_extended_title">额外滑动手势</string>
+    <string name="back_swipe_extended_summary">较长的滑动距离 (超过屏幕的一半) 或做 L 形滑动 (垂直距离足够长) 可以触发手势</string>
+    <!-- Themes customization -->
+    <string name="theme_customization_systemui_title">主题颜色</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">自适应播放</string>
+    <string name="adaptive_playback_enabled">使用自适应播放</string>
+    <string name="adaptive_playback_disabled_summary">关闭</string>
+    <string name="adaptive_playback_timeout_title">使用超时</string>
+    <string name="adaptive_playback_timeout_none">不限时</string>
+    <string name="adaptive_playback_timeout_none_summary">开启 (无超时)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">开启 (30 秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1 分钟</string>
+    <string name="adaptive_playback_timeout_1_min_summary">开启 (1 分钟)</string>
+    <string name="adaptive_playback_timeout_2_min">2 分钟</string>
+    <string name="adaptive_playback_timeout_2_min_summary">开启 (2 分钟)</string>
+    <string name="adaptive_playback_timeout_5_min">5 分钟</string>
+    <string name="adaptive_playback_timeout_5_min_summary">开启 (5 分钟)</string>
+    <string name="adaptive_playback_timeout_10_min">10 分钟</string>
+    <string name="adaptive_playback_timeout_10_min_summary">开启 (10 分钟)</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">使用浮动旋转按钮</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">已保存的耳机</string>
 </resources>
