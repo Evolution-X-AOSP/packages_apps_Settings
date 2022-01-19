@@ -196,6 +196,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.evolution.settings.EvolutionSettings;
+import com.evolution.settings.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -380,7 +381,8 @@ public class SettingsGateway {
             RegionalPreferencesEntriesFragment.class.getName(),
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
-            EvolutionSettings.class.getName()
+            EvolutionSettings.class.getName(),
+            HeadsUpSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -428,5 +430,6 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.EvolutionSettingsActivity.class.getName(),
+            Settings.HeadsUpSettingsActivity.class.getName(),
     };
 }
