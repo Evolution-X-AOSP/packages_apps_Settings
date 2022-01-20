@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2020 The Evolution X Project
+ * Copyright (C) 2019-2022 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,32 +16,55 @@
 
 package com.android.settings.gestures;
 
-import android.os.Bundle;
-
-import androidx.preference.Preference;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.provider.SearchIndexableResource;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+
 import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.dashboard.suggestions.SuggestionFeatureProvider;
+import com.android.settings.overlay.FeatureFactory;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
-public class DoubleTapAmbientSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
+import java.util.Arrays;
+import java.util.List;
+
+@SearchIndexable
+public class DoubleTapAmbientSettings extends DashboardFragment {
+
+    private static final String TAG = "DoubleTapAmbientSettings";
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.double_tap_ambient_screen_settings);
-
-        getActivity().getActionBar().setTitle(R.string.double_tap_title);
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        return false;
+    public void onAttach(Context context) {
+        super.onAttach(context);
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.EVO_SETTINGS;
     }
+
+    @Override
+    protected String getLogTag() {
+        return TAG;
+    }
+
+    @Override
+    protected int getPreferenceScreenResId() {
+        return R.xml.double_tap_ambient_screen_settings;
+    }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(
+                        Context context, boolean enabled) {
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.double_tap_ambient_screen_settings;
+                    return Arrays.asList(sir);
+                }
+            };
 }
