@@ -95,7 +95,6 @@ public class CustomOverlayPreferenceController extends AbstractPreferenceControl
             IOverlayManager overlayManager, String category) {
         super(context);
 	mHandler = startHandlerThread();
-	mCustomSettingsObserver.observe();
         mOverlayManager = overlayManager;
         mPackageManager = packageManager;
         mCategory = category;
@@ -262,29 +261,4 @@ public class CustomOverlayPreferenceController extends AbstractPreferenceControl
         return filteredInfos;
     }
 
-    private CustomSettingsObserver mCustomSettingsObserver = new CustomSettingsObserver(mHandler);
-    private class CustomSettingsObserver extends ContentObserver {
-        CustomSettingsObserver(Handler handler) {
-            super(handler);
-        }
-         void observe() {
-	    resolver.registerContentObserver(Settings.Secure.getUriFor(
-                    Settings.Secure.UI_NIGHT_MODE),
-                    false, this, UserHandle.USER_ALL);
-        }
-
-        @Override
-        public void onChange(boolean selfChange, Uri uri) {
-            if (uri.equals(Settings.Secure.getUriFor(
-                Settings.Secure.UI_NIGHT_MODE))) {
-                if (mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_NO) {
-		    Log.w(TAG, "Dark mode turned off, unloading all custom overlays");
-                    setOverlay(PACKAGE_DEVICE_DEFAULT);
-                } else {
-                    // Set back previously selected overlay on re-enabling dark mode
-                    setOverlay(Settings.System.getString(resolver, Settings.System.COLOR_BUCKET_OVERLAY));
-                }
-            }
-        }
-    }
 }
