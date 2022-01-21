@@ -18,6 +18,7 @@ package com.android.settings.security.screenlock;
 
 import android.app.admin.DevicePolicyManager;
 import android.content.Context;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.TextUtils;
 
@@ -66,16 +67,20 @@ public class ScramblePinPreferenceController extends AbstractPreferenceControlle
 
     @Override
     public void updateState(Preference preference) {
-        int value = Settings.System.getInt(
-                mContext.getContentResolver(), Settings.System.LOCKSCREEN_PIN_SCRAMBLE_LAYOUT, 0);
+        int value = Settings.System.getIntForUser(
+                mContext.getContentResolver(),
+                Settings.System.LOCKSCREEN_PIN_SCRAMBLE_LAYOUT,
+                0, UserHandle.USER_CURRENT);
         ((SwitchPreference) preference).setChecked(value != 0);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         boolean value = (Boolean) newValue;
-        Settings.System.putInt(
-                mContext.getContentResolver(), Settings.System.LOCKSCREEN_PIN_SCRAMBLE_LAYOUT, value ? 1 : 0);
+        Settings.System.putIntForUser(
+                mContext.getContentResolver(),
+                Settings.System.LOCKSCREEN_PIN_SCRAMBLE_LAYOUT,
+                value ? 1 : 0, UserHandle.USER_CURRENT);
         return true;
     }
 
