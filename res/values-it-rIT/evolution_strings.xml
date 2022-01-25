@@ -235,6 +235,7 @@
     <string name="adaptive_playback_timeout_5_min_summary">Attivo (5 minuti)</string>
     <string name="adaptive_playback_timeout_10_min">10 minuti</string>
     <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
+    <string name="adaptive_playback_explainer">La riproduzione adattiva interrompe automaticamente la riproduzione quando il volume è abbassato e riprenderà automaticamente quando il volume viene ripristinato entro il tempo impostato.</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Usa il pulsante di rotazione fluttuante</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
