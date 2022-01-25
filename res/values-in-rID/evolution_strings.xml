@@ -235,6 +235,7 @@
     <string name="adaptive_playback_timeout_5_min_summary">Aktif (5 menit)</string>
     <string name="adaptive_playback_timeout_10_min">10 menit</string>
     <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
+    <string name="adaptive_playback_explainer">Pemutaran Adaptif secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dipulihkan dalam waktu yang ditentukan.</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->

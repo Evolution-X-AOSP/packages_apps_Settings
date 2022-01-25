@@ -234,6 +234,7 @@
     <string name="adaptive_playback_timeout_5_min_summary">켜짐 (5분)</string>
     <string name="adaptive_playback_timeout_10_min">10분</string>
     <string name="adaptive_playback_timeout_10_min_summary">켜짐 (10분)</string>
+    <string name="adaptive_playback_explainer">적응형 재생은 볼륨이 음소거되면 자동으로 미디어 재생을 중지하고, 설정한 시간 내에 음소거 해제 시 자동으로 다시 미디어를 재생합니다.</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
