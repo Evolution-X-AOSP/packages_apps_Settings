@@ -4262,30 +4262,23 @@
         <!-- The Evolver -->
         <activity android:name="Settings$EvolutionSettingsActivity"
                   android:label="@string/evolver_dashboard_title"
-                  android:icon="@drawable/ic_homepage_evolution"
                   android:exported="true"
-                  android:taskAffinity="com.android.settings">
+                  android:icon="@drawable/ic_homepage_evolution">
             <intent-filter android:priority="1">
                 <action android:name="com.evolution.settings.EvolutionSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.VOICE_LAUNCH" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-            <intent-filter android:priority="10">
-                <action android:name="com.android.settings.action.SETTINGS" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.order"
-                       android:value="-1"/>
+            <meta-data android:name="com.android.settings.order" android:value="-1"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/evolver_dashboard_summary"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.evolution.settings.EvolutionSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                        android:value="true" />
-            <meta-data android:name="com.android.settings.summary"
-                       android:resource="@string/evolver_dashboard_summary"/>
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
