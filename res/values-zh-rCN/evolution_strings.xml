@@ -33,7 +33,7 @@
     <string name="selinux_status_permissive">许可</string>
     <string name="selinux_status_enforcing">执行中</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">屏幕截屏提示音</string>
+    <string name="screenshot_shutter_sound_title">屏幕截图提示音</string>
     <!-- Notification log -->
     <string name="notification_log_summary">显示历史通知记录</string>
     <!-- App details: open play store link if app is user installed -->
@@ -235,6 +235,7 @@
     <string name="adaptive_playback_timeout_5_min_summary">开启 (5 分钟)</string>
     <string name="adaptive_playback_timeout_10_min">10 分钟</string>
     <string name="adaptive_playback_timeout_10_min_summary">开启 (10 分钟)</string>
+    <string name="adaptive_playback_explainer">当音量静音时，自适应播放会自动暂停媒体；如果在设定的时间内恢复音量，则会自动恢复播放</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">使用浮动旋转按钮</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
