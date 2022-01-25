@@ -235,6 +235,7 @@
     <string name="adaptive_playback_timeout_5_min_summary">Ενεργό (5 λεπτά)</string>
     <string name="adaptive_playback_timeout_10_min">10 λεπτά</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ενεργό (10 λεπτά)</string>
+    <string name="adaptive_playback_explainer">Η προσαρμοστική αναπαραγωγή διακόπτει αυτόματα τα μέσα όταν η ένταση είναι σε σίγαση και θα συνεχιστεί αυτόματα όταν αποκατασταθεί η ένταση εντός του καθορισμένου χρόνου.</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Χρήση αιωρούμενου κουμπιού περιστροφής</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
