@@ -807,6 +807,7 @@ public class UserSettings extends SettingsPreferenceFragment
                             : getString(R.string.user_new_profile_name));
         }
 
+        final Context savedContext = requireContext();
         mUserCreatingDialog = new UserCreatingDialog(getActivity());
         mUserCreatingDialog.show();
         ThreadUtils.postOnBackgroundThread(new Runnable() {
@@ -837,7 +838,8 @@ public class UserSettings extends SettingsPreferenceFragment
 
                     Drawable newUserIcon = mPendingUserIcon;
                     if (newUserIcon == null) {
-                        newUserIcon = UserIcons.getDefaultUserIcon(getResources(), user.id, false);
+                        newUserIcon = UserIcons.getDefaultUserIcon(
+                                            savedContext.getResources(), user.id, false);
                     }
                     mUserManager.setUserIcon(user.id, UserIcons.convertToBitmap(newUserIcon));
 
