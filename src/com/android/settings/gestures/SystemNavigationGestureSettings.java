@@ -65,7 +65,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
     public static final String PREF_KEY_SUGGESTION_COMPLETE =
             "pref_system_navigation_suggestion_complete";
 
-    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.krypton.overlay.systemui.navbar.gestural";
+    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.evolution.overlay.systemui.navbar.gestural";
 
     private IOverlayManager mOverlayManager;
 

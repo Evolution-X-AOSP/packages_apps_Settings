@@ -52,20 +52,16 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     private static final String LEFT_EDGE_SEEKBAR_KEY = "gesture_left_back_sensitivity";
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
-    private static final String KEY_BACK_HEIGHT = "gesture_back_height";
     private static final String GESTURE_NAVBAR_LENGTH_KEY = "gesture_navbar_length_preference";
 
     private static final String FULLSCREEN_GESTURE_PREF_KEY = "fullscreen_gestures";
-    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.krypton.overlay.systemui.navbar.gestural";
+    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.evolution.overlay.systemui.navbar.gestural";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
 
     private float[] mBackGestureInsetScales;
     private float mDefaultBackGestureInset;
-    private float[] mBackGestureHeightScales = { 0f, 1f, 2f, 3f };
-    private int mCurrentRightWidth;
-    private int mCurrentLefttWidth;
 
     private IOverlayManager mOverlayManager;
 
@@ -97,7 +93,6 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         initSeekBarPreference(LEFT_EDGE_SEEKBAR_KEY);
         initSeekBarPreference(RIGHT_EDGE_SEEKBAR_KEY);
-        initSeekBarPreference(KEY_BACK_HEIGHT);
 
         initGestureNavbarLengthPreference();
         initFullscreenGesturePreference();
@@ -144,41 +139,11 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         pref.setContinuousUpdates(true);
         pref.setHapticFeedbackMode(SeekBarPreference.HAPTIC_FEEDBACK_MODE_ON_TICKS);
 
-        String settingsKey;
-
-        switch(key) {
-            case LEFT_EDGE_SEEKBAR_KEY:
-                settingsKey = Settings.Secure.BACK_GESTURE_INSET_SCALE_LEFT;
-                break;
-            case RIGHT_EDGE_SEEKBAR_KEY:
-                settingsKey = Settings.Secure.BACK_GESTURE_INSET_SCALE_RIGHT;
-                break;
-            case KEY_BACK_HEIGHT:
-                settingsKey = Settings.System.BACK_GESTURE_HEIGHT;
-                break;
-            default:
-                settingsKey = "";
-                break;
-        }
-        float initScale = 0;
-        if (settingsKey != "") {
-            initScale = Settings.Secure.getFloat(
-                  getContext().getContentResolver(), settingsKey, 1.0f);
-        }
-
-        // needed if we just change the height
-        float currentWidthScale = Settings.Secure.getFloat(
-                getContext().getContentResolver(), Settings.Secure.BACK_GESTURE_INSET_SCALE_RIGHT, 1.0f);
-        mCurrentRightWidth = (int) (mDefaultBackGestureInset * currentWidthScale);
-        currentWidthScale = Settings.Secure.getFloat(
-                getContext().getContentResolver(), Settings.Secure.BACK_GESTURE_INSET_SCALE_LEFT, 1.0f);
-        mCurrentLefttWidth = (int) (mDefaultBackGestureInset * currentWidthScale);
-
-        if (key == KEY_BACK_HEIGHT) {
-            mBackGestureInsetScales = mBackGestureHeightScales;
-            initScale = Settings.System.getInt(
-                    getContext().getContentResolver(), settingsKey, 0);
-        }
+        final String settingsKey = key == LEFT_EDGE_SEEKBAR_KEY
+                ? Settings.Secure.BACK_GESTURE_INSET_SCALE_LEFT
+                : Settings.Secure.BACK_GESTURE_INSET_SCALE_RIGHT;
+        final float initScale = Settings.Secure.getFloat(
+                getContext().getContentResolver(), settingsKey, 1.0f);
 
         // Find the closest value to initScale
         float minDistance = Float.MAX_VALUE;
@@ -193,38 +158,15 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         pref.setProgress(minDistanceIndex);
 
         pref.setOnPreferenceChangeListener((p, v) -> {
-            if (key != KEY_BACK_HEIGHT) {
-                final int width = (int) (mDefaultBackGestureInset * mBackGestureInsetScales[(int) v]);
-                mIndicatorView.setIndicatorWidth(width, key == LEFT_EDGE_SEEKBAR_KEY);
-                if (key == LEFT_EDGE_SEEKBAR_KEY) {
-                    mCurrentLefttWidth = width;
-                } else {
-                    mCurrentRightWidth = width;
-                }
-            } else {
-                final int heightScale = (int) (mBackGestureInsetScales[(int) v]);
-                mIndicatorView.setIndicatorHeightScale(heightScale);
-                // dont use updateViewLayout else it will animate
-                mWindowManager.removeView(mIndicatorView);
-                mWindowManager.addView(mIndicatorView, mIndicatorView.getLayoutParams(
-                        getActivity().getWindow().getAttributes()));
-                // peek the indicators
-                mIndicatorView.setIndicatorWidth(mCurrentRightWidth, false);
-                mIndicatorView.setIndicatorWidth(mCurrentLefttWidth, true);
-            }
+            final int width = (int) (mDefaultBackGestureInset * mBackGestureInsetScales[(int) v]);
+            mIndicatorView.setIndicatorWidth(width, key == LEFT_EDGE_SEEKBAR_KEY);
             return true;
         });
 
         pref.setOnPreferenceChangeStopListener((p, v) -> {
+            mIndicatorView.setIndicatorWidth(0, key == LEFT_EDGE_SEEKBAR_KEY);
             final float scale = mBackGestureInsetScales[(int) v];
-            if (key == KEY_BACK_HEIGHT) {
-                mIndicatorView.setIndicatorWidth(0, false);
-                mIndicatorView.setIndicatorWidth(0, true);
-                Settings.System.putInt(getContext().getContentResolver(), settingsKey, (int) scale);
-            } else {
-                mIndicatorView.setIndicatorWidth(0, key == LEFT_EDGE_SEEKBAR_KEY);
-                Settings.Secure.putFloat(getContext().getContentResolver(), settingsKey, scale);
-            }
+            Settings.Secure.putFloat(getContext().getContentResolver(), settingsKey, scale);
             return true;
         });
     }
