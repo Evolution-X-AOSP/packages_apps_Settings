@@ -30,8 +30,8 @@
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux-Status</string>
     <string name="selinux_status_disabled">Deaktiviert</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Moderat</string>
+    <string name="selinux_status_enforcing">Strikt</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Bildschirmfoto-Auslöseton</string>
     <!-- Notification log -->
@@ -88,11 +88,6 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Haptische Rückmeldung</string>
     <string name="back_gesture_haptic_summary">Vibrieren beim Ausführen der Zurück-Geste</string>
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">Vollständig</string>
-    <string name="back_height_high_label">Unten</string>
-    <string name="back_options_dialog_title">Optionen</string>
-    <string name="back_height_message">Länge des Bildschirmseitenbereichs, der für die Zurück-Geste verwendet werden kann.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Weniger als 1 Minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -136,7 +131,7 @@
     <string name="ring_vibration_intensity_title">Klingeln</string>
     <string name="haptic_feedback_intensity_title">Haptisches Feedback</string>
     <string name="vibration_intensity_off">Deaktiviert</string>
-    <string name="vibration_intensity_low">Niedrig</string>
+    <string name="vibration_intensity_low">Langsam</string>
     <string name="vibration_intensity_medium">Normal</string>
     <string name="vibration_intensity_high">Hoch</string>
     <!-- Three-fingers-swipe to screenshot -->
