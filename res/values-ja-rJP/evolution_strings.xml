@@ -74,7 +74,7 @@
     <string name="max_refresh_rate_title">最大リフレッシュレート</string>
     <string name="low_power_refresh_rate_title_custom">省電力リフレッシュレート</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">充電時は常に有効</string>
+    <string name="doze_on_charge_title">充電時の Always On Display</string>
     <string name="doze_on_charge_summary">充電時は常時 Doze 画面を表示する</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">ポケット検出</string>
@@ -88,11 +88,6 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">振動フィードバック</string>
     <string name="back_gesture_haptic_summary">戻るジェスチャー時に振動を有効化する</string>
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">全画面</string>
-    <string name="back_height_high_label">下部</string>
-    <string name="back_options_dialog_title">オプション</string>
-    <string name="back_height_message">戻るジェスチャーに使用される操作可能な画面領域の高さ</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">1分未満</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->

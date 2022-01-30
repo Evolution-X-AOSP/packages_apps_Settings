@@ -88,11 +88,6 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Umpan balik haptik</string>
     <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada tombol gestur kembali</string>
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">Penuh</string>
-    <string name="back_height_high_label">Bawah</string>
-    <string name="back_options_dialog_title">Opsi</string>
-    <string name="back_height_message">Jumlah ketinggian layar digunakan sebagai daerah yang dapat disentuh untuk gestur kembali.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Kurang dari 1 Menit</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->

@@ -88,11 +88,6 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">햅틱 피드백</string>
     <string name="back_gesture_haptic_summary">뒤로 가기 제스처 사용 시 햅틱 피드백 효과</string>
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">최대치도달</string>
-    <string name="back_height_high_label">하단</string>
-    <string name="back_options_dialog_title">옵션</string>
-    <string name="back_height_message">뒤로 제스처에 대한 터치 가능 영역으로 사용된 화면 높이의 양입니다.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">1분 미만</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->

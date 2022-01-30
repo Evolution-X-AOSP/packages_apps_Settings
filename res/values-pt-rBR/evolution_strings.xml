@@ -88,11 +88,6 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Resposta tátil</string>
     <string name="back_gesture_haptic_summary">Ativar o efeito da vibração no gesto de voltar</string>
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">Cheio</string>
-    <string name="back_height_high_label">Inferior</string>
-    <string name="back_options_dialog_title">Opções</string>
-    <string name="back_height_message">Altura da área da tela usada como região tocável para gesto de voltar.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -235,6 +230,7 @@
     <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
+    <string name="adaptive_playback_explainer">A reprodução adaptável pausa automaticamente a mídia quando o volume é silenciado e retorna automaticamente quando o volume for restaurado no tempo definido.</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Habilitar botão de rotação flutuante</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->

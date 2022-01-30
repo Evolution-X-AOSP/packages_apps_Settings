@@ -88,11 +88,6 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">振动反馈</string>
     <string name="back_gesture_haptic_summary">启用返回手势的振动效果</string>
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">全屏</string>
-    <string name="back_height_high_label">底部</string>
-    <string name="back_options_dialog_title">选项</string>
-    <string name="back_height_message">屏幕高度用作返回手势的可触摸区域</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">少于 1 分钟</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
