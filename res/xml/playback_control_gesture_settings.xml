@@ -40,5 +40,5 @@
         android:max="2000"
         settings:min="300"
         settings:interval="100"
-        settings:units="ms" />
+        settings:units="@string/unit_ms" />
 </PreferenceScreen>

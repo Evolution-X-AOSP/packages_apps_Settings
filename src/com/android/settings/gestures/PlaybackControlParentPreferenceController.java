@@ -81,7 +81,9 @@ public class PlaybackControlParentPreferenceController extends TogglePreferenceC
         String summary;
         if (enabled) {
             summary = mContext.getString(R.string.gesture_setting_on) + " ("
-                    + Settings.System.getInt(resolver, DELAY_SYSTEM_KEY, 0) + "ms)";
+                    + Settings.System.getInt(resolver, DELAY_SYSTEM_KEY, 500)
+                    + mContext.getString(R.string.unit_ms) + " "
+                    + mContext.getString(R.string.gesture_playback_control_delay) + ")";
         } else {
             summary = mContext.getString(R.string.gesture_setting_off);
         }
