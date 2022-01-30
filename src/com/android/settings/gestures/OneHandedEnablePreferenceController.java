@@ -18,16 +18,69 @@ package com.android.settings.gestures;
 
 import android.content.Context;
 
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+
 import com.android.settings.R;
-import com.android.settings.core.BasePreferenceController;
+import com.android.settings.core.TogglePreferenceController;
+import com.android.settings.widget.PrimarySwitchPreference;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnStart;
+import com.android.settingslib.core.lifecycle.events.OnStop;
 
 /**
  * Preference controller for One-handed mode shortcut settings
  */
-public class OneHandedEnablePreferenceController extends BasePreferenceController {
+public class OneHandedEnablePreferenceController extends TogglePreferenceController
+        implements LifecycleObserver, OnStart, OnStop {
+
+    private PrimarySwitchPreference mPreference;
+    private final OneHandedSettingsUtils mOneHandedUtils;
+    private final OneHandedSettingsUtils.TogglesCallback mCallback = uri -> {
+        if (OneHandedSettingsUtils.ONE_HANDED_MODE_ENABLED_URI.equals(uri)
+                || OneHandedSettingsUtils.SHOW_NOTIFICATION_ENABLED_URI.equals(uri)) {
+            if (mPreference != null) updateState(mPreference);
+        }
+    };
 
     public OneHandedEnablePreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
+        mOneHandedUtils = new OneHandedSettingsUtils(mContext);
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+        mPreference = screen.findPreference(getPreferenceKey());
+        updateState(mPreference);
+    }
+
+    @Override
+    public boolean isChecked() {
+        return OneHandedSettingsUtils.isOneHandedModeEnabled(mContext);
+    }
+
+    @Override
+    public boolean setChecked(boolean isChecked) {
+        OneHandedSettingsUtils.setOneHandedModeEnabled(mContext, isChecked);
+        return true;
+    }
+
+    @Override
+    public void updateState(Preference preference) {
+        super.updateState(preference);
+        final boolean enabled = OneHandedSettingsUtils.isOneHandedModeEnabled(mContext);
+        String summary;
+        if (enabled) {
+            final String enabledStr = OneHandedSettingsUtils.isSwipeDownNotificationEnabled(mContext)
+                    ? mContext.getString(R.string.one_handed_action_show_notification_title)
+                    : mContext.getString(R.string.one_handed_action_pull_down_screen_title);
+            summary = mContext.getString(R.string.gesture_setting_on)
+                    + " (" + enabledStr + ")";
+        } else {
+            summary = mContext.getString(R.string.gesture_setting_off);
+        }
+        preference.setSummary(summary);
     }
 
     @Override
@@ -36,9 +89,17 @@ public class OneHandedEnablePreferenceController extends BasePreferenceControlle
     }
 
     @Override
-    public CharSequence getSummary() {
-        return mContext.getText(
-                OneHandedSettingsUtils.isOneHandedModeEnabled(mContext)
-                        ? R.string.gesture_setting_on : R.string.gesture_setting_off);
+    public void onStart() {
+        mOneHandedUtils.registerToggleAwareObserver(mCallback);
+    }
+
+    @Override
+    public void onStop() {
+        mOneHandedUtils.unregisterToggleAwareObserver();
+    }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_system;
     }
 }

@@ -14,13 +14,11 @@
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
         settings:searchable="false" />
 
-    <Preference
-        android:fragment="com.android.settings.gestures.OneHandedSettings"
-        android:key="gesture_system_navigation_one_handed_accessibility"
-        android:persistent="false"
+    <com.android.settings.widget.PrimarySwitchPreference
+        android:key="gesture_one_handed"
         android:title="@string/one_handed_title"
-        settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController"
-        settings:searchable="false" />
+        android:fragment="com.android.settings.gestures.OneHandedSettings"
+        settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController" />
 
     <SwitchPreference
         android:key="toggle_power_button_ends_call_preference"
