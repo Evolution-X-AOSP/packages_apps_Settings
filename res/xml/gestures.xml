@@ -60,7 +60,7 @@
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
         settings:keywords="@string/keywords_system_navigation" />
 
-    <Preference
+    <com.android.settings.widget.PrimarySwitchPreference
         android:key="gesture_one_handed"
         android:title="@string/one_handed_title"
         android:fragment="com.android.settings.gestures.OneHandedSettings"
