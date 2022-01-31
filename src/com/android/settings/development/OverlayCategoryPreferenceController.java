@@ -59,6 +59,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
     private static final String FONT_KEY = "android.theme.customization.font";
     private static final String ADAPTIVE_ICON_SHAPE_KEY = "android.theme.customization.adaptive_icon_shape";
     private static final String ICON_PACK_KEY = "android.theme.customization.icon_pack";
+    private static final String THEME_STYLE_KEY = "android.theme.customization.theme_style";
     private static final String CUSTOM_OVERLAY_KEY = "android.theme.customization.custom_overlays";
     private static final String SIGNAL_ICON_KEY = "android.theme.customization.signal_icon";
     private static final String WIFI_ICON_KEY = "android.theme.customization.wifi_icon";
@@ -72,6 +73,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
     private final boolean mIsFonts;
     private final boolean mIsAdaptiveIconShape;
     private final boolean mIsIconPack;
+    private final boolean mIsThemeStyle;
     private final boolean mIsCustomOverlay;
     private final boolean mIsSignalIcon;
     private final boolean mIsWiFiIcon;
@@ -93,6 +95,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         mIsFonts = FONT_KEY.equals(category);
         mIsAdaptiveIconShape = ADAPTIVE_ICON_SHAPE_KEY.equals(category);
         mIsIconPack = ICON_PACK_KEY.equals(category);
+        mIsThemeStyle = THEME_STYLE_KEY.equals(category);
         mIsCustomOverlay = CUSTOM_OVERLAY_KEY.equals(category);
         mIsSignalIcon = SIGNAL_ICON_KEY.equals(category);
         mIsWiFiIcon = WIFI_ICON_KEY.equals(category);
@@ -152,7 +155,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         Log.w(TAG, "setOverlay packageNames=" + packageNames.toString());
         Log.w(TAG, "setOverlay label=" + label);
 
-        if (mIsFonts || mIsAdaptiveIconShape || mIsIconPack || mIsCustomOverlay || mIsSignalIcon || mIsWiFiIcon) {
+        if (mIsFonts || mIsAdaptiveIconShape || mIsIconPack || mIsThemeStyle || mIsCustomOverlay || mIsSignalIcon || mIsWiFiIcon) {
             // For overlays, we also need to set this setting
             String value = Settings.Secure.getStringForUser(mContext.getContentResolver(),
                     Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES, UserHandle.USER_CURRENT);
