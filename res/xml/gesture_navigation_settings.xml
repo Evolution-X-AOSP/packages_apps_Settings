@@ -34,6 +34,14 @@
             settings:textStart="@string/hide_label"
             settings:textEnd="@string/long_label"/>
 
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="gesture_navbar_radius_preference"
+            android:title="@string/gesture_navbar_radius_title"
+            android:max="3"
+            android:selectable="true"
+            settings:textStart="@string/thin_label"
+            settings:textEnd="@string/thick_label"/>
+
         <com.evolution.settings.preference.SystemSettingListPreference
             android:key="navigation_bar_ime_space"
             android:title="@string/navigation_bar_ime_space_title"
