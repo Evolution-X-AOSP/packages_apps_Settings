@@ -16,22 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Settings intelligence suggestions class -->
-    <string name="config_settingsintelligence_suggestions_class" translatable="false">
-        com.android.settings.intelligence.suggestions.SuggestionService
-    </string>
-
-    <!-- Whether SELinux status should be shown or not. -->
-    <bool name="config_show_selinux_status">true</bool>
-
-    <!-- Device specific doze package -->
-    <string name="config_customDozePackage" translatable="false"></string>
-
-    <!-- Whether to show min/max refresh rate in display settings -->
-    <bool name="config_show_refresh_rate_controls">false</bool>
-    <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
-
     <!-- Fingerprint -->
-    <bool name="config_is_front_facing_fps" translatable="false">false</bool>
+    <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
 
 </resources>
