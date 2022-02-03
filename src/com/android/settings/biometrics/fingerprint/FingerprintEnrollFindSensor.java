@@ -111,8 +111,19 @@ public class FingerprintEnrollFindSensor extends BiometricEnrollBase implements
             setHeaderText(R.string.security_settings_sfps_enroll_find_sensor_title);
             setDescriptionText(R.string.security_settings_sfps_enroll_find_sensor_message);
         } else {
+            final boolean isFrontFacingFps = getResources().getBoolean(
+                    R.bool.config_is_front_facing_fps);
+            final String fpsLocation = getString(mCanAssumeSidefps
+                    ? R.string.fingerprint_enroll_find_sensor_message_side : isFrontFacingFps
+                            ? R.string.fingerprint_enroll_find_sensor_message_front
+                            : R.string.fingerprint_enroll_find_sensor_message_rear);
+
             setHeaderText(R.string.security_settings_fingerprint_enroll_find_sensor_title);
-            setDescriptionText(R.string.security_settings_fingerprint_enroll_find_sensor_message);
+            setDescriptionText(fpsLocation);
+            if (isFrontFacingFps) {
+                findViewById(R.id.fingerprint_sensor_location_front_overlay)
+                        .setVisibility(View.VISIBLE);
+            }
         }
         if (savedInstanceState != null) {
             mNextClicked = savedInstanceState.getBoolean(SAVED_STATE_IS_NEXT_CLICKED, mNextClicked);
