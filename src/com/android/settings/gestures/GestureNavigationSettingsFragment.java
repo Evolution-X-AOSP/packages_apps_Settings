@@ -56,7 +56,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private static final String GESTURE_NAVBAR_LENGTH_KEY = "gesture_navbar_length_preference";
 
     private static final String FULLSCREEN_GESTURE_PREF_KEY = "fullscreen_gestures";
-    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.krypton.overlay.systemui.navbar.gestural";
+    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.evolution.overlay.systemui.navbar.gestural";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
