@@ -21,6 +21,9 @@ import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.Intent;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult;
+
 import com.android.settings.R;
 import com.android.settings.biometrics.combination.CombinedBiometricProfileStatusPreferenceController;
 import com.android.settings.biometrics.combination.CombinedBiometricStatusPreferenceController;
@@ -32,7 +35,9 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.enterprise.EnterprisePrivacyPreferenceController;
 import com.android.settings.enterprise.FinancedPrivacyPreferenceController;
 import com.android.settings.overlay.FeatureFactory;
+import com.android.settings.password.ConfirmDeviceCredentialActivity;
 import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.security.applock.AppLockSettingsPreferenceController;
 import com.android.settings.security.trustagent.ManageTrustAgentsPreferenceController;
 import com.android.settings.security.trustagent.TrustAgentListPreferenceController;
 import com.android.settings.widget.PreferenceCategoryController;
@@ -53,6 +58,14 @@ public class SecuritySettings extends DashboardFragment {
     public static final int CHANGE_TRUST_AGENT_SETTINGS = 126;
     public static final int UNIFY_LOCK_CONFIRM_PROFILE_REQUEST = 129;
     public static final int UNUNIFY_LOCK_CONFIRM_DEVICE_REQUEST = 130;
+
+    private final ActivityResultLauncher<Intent> mSecurityPromptLauncher;
+
+    public SecuritySettings() {
+        mSecurityPromptLauncher = registerForActivityResult(new StartActivityForResult(),
+            resultData -> use(AppLockSettingsPreferenceController.class)
+                .handleActivityResult(resultData));
+    }
 
     @Override
     public int getMetricsCategory() {
@@ -93,6 +106,15 @@ public class SecuritySettings extends DashboardFragment {
             return;
         }
         super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    public void showAppLockSecurityPrompt() {
+        mSecurityPromptLauncher.launch(
+            ConfirmDeviceCredentialActivity.createIntent(
+                getString(R.string.app_lock_authentication_dialog_title),
+                null /* details */
+            )
+        );
     }
 
     void startUnification() {
@@ -141,6 +163,7 @@ public class SecuritySettings extends DashboardFragment {
         controllers.add(new PreferenceCategoryController(context, WORK_PROFILE_SECURITY_CATEGORY)
                 .setChildren(profileSecurityControllers));
         controllers.addAll(profileSecurityControllers);
+        controllers.add(new AppLockSettingsPreferenceController(context, host, lifecycle));
 
         return controllers;
     }
