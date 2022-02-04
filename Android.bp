@@ -46,7 +46,9 @@ android_library {
 
     srcs: [
         "src/**/*.java",
+        "src/**/*.kt",
         "Evolver/src/**/*.java",
+        "Evolver/src/**/*.kt",
     ],
 
     aaptflags: ["--extra-packages com.evolution.settings"],
@@ -64,7 +66,9 @@ android_library {
         "androidx.core_core",
         "androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
+        "androidx.fragment_fragment-ktx",
         "androidx.preference_preference",
+        "androidx.preference_preference-ktx",
         "androidx.recyclerview_recyclerview",
         "com.google.android.material_material",
         "setupcompat",
