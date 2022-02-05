@@ -153,4 +153,9 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_nos_title">Charging sound</string>
     <string name="charging_vibro_title">Charging vibration</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
 </resources>
