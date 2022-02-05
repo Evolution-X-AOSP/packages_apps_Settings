@@ -304,6 +304,8 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
                 new VolumeDialogTimeoutPreferenceController(context);
         final ScreenshotSoundPreferenceController screenshotSoundPreferenceController =
                 new ScreenshotSoundPreferenceController(context, fragment, lifecycle);
+        final AppVolumePreferenceController appVolumePreferenceController =
+                new AppVolumePreferenceController(context, fragment, lifecycle);
 
         controllers.add(volumeDialogTimeoutPreferenceController);
         controllers.add(dialPadTonePreferenceController);
@@ -316,6 +318,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
         controllers.add(bootSoundPreferenceController);
         controllers.add(emergencyTonePreferenceController);
         controllers.add(screenshotSoundPreferenceController);
+        controllers.add(appVolumePreferenceController);
         controllers.add(new PreferenceCategoryController(context,
                 "other_sounds_and_vibrations_category").setChildren(
                 Arrays.asList(dialPadTonePreferenceController,

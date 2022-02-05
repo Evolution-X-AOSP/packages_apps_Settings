@@ -273,6 +273,12 @@
         android:key="screenshot_shutter_sound"
         android:title="@string/screenshot_shutter_sound_title" />
 
+    <SwitchPreference
+        android:key="app_volume"
+        android:title="@string/app_volume_title"
+        android:summary="@string/app_volume_summary"
+        android:order="-5"/>
+
     <Preference
         android:key="sound_work_settings"
         android:title="@string/sound_work_settings"
