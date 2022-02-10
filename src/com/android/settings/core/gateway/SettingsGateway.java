@@ -167,6 +167,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.evolution.settings.EvolutionSettings;
+import com.evolution.settings.fragments.DisplayCutoutForceFullscreenSettings;
 import com.evolution.settings.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
@@ -323,6 +324,7 @@ public class SettingsGateway {
             AlarmsAndRemindersDetails.class.getName(),
             MediaManagementAppsDetails.class.getName(),
             EvolutionSettings.class.getName(),
+            DisplayCutoutForceFullscreenSettings.class.getName(),
             HeadsUpSettings.class.getName(),
             RunningServices.class.getName()
     };
@@ -366,6 +368,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.EvolutionSettingsActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),
+            Settings.DisplayCutoutForceFullscreenSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName()
     };
 }
