@@ -88,6 +88,11 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Dokunsal geri bildirim</string>
     <string name="back_gesture_haptic_summary">Geri hareketinde dokunsal tıklama efektini etkinleştirir</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Tam</string>
+    <string name="back_height_high_label">Alt</string>
+    <string name="back_options_dialog_title">Seçenekler</string>
+    <string name="back_height_message">Geri hareketi için dokunulabilir bölge olarak kullanılan ekran yüksekliği miktarı.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">1 dakikadan az</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -174,43 +179,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
     <string name="pulse_on_new_tracks_summary">Yeni bir müzik parçası çalındığında Ortam Ekranını göster</string>
-    <!-- Custom actions -->
-    <string name="action_nothing">Eylem yok</string>
-    <string name="action_menu">Menü</string>
-    <string name="action_app_switch">Son uygulamalar</string>
-    <string name="action_voice_search">Sesli arama</string>
-    <string name="action_launch_camera">Kamera</string>
-    <string name="action_last_app">Son uygulama</string>
-    <string name="action_splitscreen">Bölünmüş ekran</string>
-    <string name="action_flashlight">El feneri</string>
-    <string name="action_clear_notifications">Bildirimleri temizle</string>
-    <string name="action_volume_panel">Ses paneli</string>
-    <string name="action_screen_off">Ekranı kapat</string>
-    <string name="action_notifications">Bildirimler</string>
-    <string name="action_power_menu">Güç menüsü</string>
-    <string name="action_screenshot">Ekran görüntüsü</string>
-    <string name="action_qs_panel">Hızlı ayarlar paneli</string>
-    <string name="action_app_action">Uygulama</string>
-    <string name="action_ringer_modes">Zil modları</string>
-    <string name="kill_app">Ön plan uygulamasını sonlandır</string>
-    <string name="recent_app_toggle">Son kullanılan uygulamaya geç</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Gelişmiş hareket seçenekleri</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Hareketleri özelleştirin ve özel eylemler ayarlayın</string>
-    <string name="navbar_gesture_tweaks_cat_title">Gelişmiş</string>
-    <string name="swipe_app_select_summary">Sıkma hareketiyle başlatılacak bir uygulama seçin</string>
-    <string name="long_back_swipe_timeout_title">Uzun kaydırma hareketi zaman aşımı</string>
-    <string name="left_swipe_actions_title">Uzun sola kaydırma hareketi</string>
-    <string name="left_swipe_app_action_title">Sola uzun kaydırma uygulaması seçin</string>
-    <string name="right_swipe_actions_title">Sağa uzun kaydırma hareketi</string>
-    <string name="right_swipe_app_action_title">Sağa uzun kaydırma uygulaması seçin</string>
-    <string name="left_vertical_swipe_actions_title">Dikey sola L kaydırma hareketi</string>
-    <string name="left_vertical_swipe_app_action_title">Dikey sola kaydırma uygulamasını seçin</string>
-    <string name="right_vertical_swipe_actions_title">Dikey sağa L kaydırma hareketi</string>
-    <string name="right_vertical_swipe_app_action_title">Dikey sağa kaydırma uygulamasını seçin</string>
-    <string name="gesture_nav_tweaks_footer_info">Eylem için belirli bir uygulama etkinliği seçmek için uygulama seçicideki herhangi bir uygulamaya uzun basın.\n\nBaşlatıcıda gösteriliyorsa, eylemi tetiklemek için ekranın en alt kısmındaki kaydırmayı yapın.</string>
-    <string name="back_swipe_extended_title">Genişletilmiş kaydırma hareketi</string>
-    <string name="back_swipe_extended_summary">Geniş kaydırmada (ekran boyutunun yarısından fazlası) veya L kaydırmada (dikey olarak yeterince uzun) tetikleme eylemi</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Tema rengi</string>
     <!-- Adaptive Playback -->
@@ -235,4 +203,11 @@
     <string name="enable_floating_rotation_button_title">Hareketli yönlendirme tuşu kullan</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Kaydedilmiş Kulaklıklar</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Tek seferlik otomatik parlaklık</string>
+    <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Uygulama ses düzeyi</string>
+    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
+    <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
 </resources>
