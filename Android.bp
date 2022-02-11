@@ -112,6 +112,7 @@ android_library {
         "SystemUIUnfoldLib",
         "vendor.lineage.fastcharge-V1.0-java",
         "SettingsGoogle-lib",
+        "faceunlock_framework",
     ],
 
     libs: [
