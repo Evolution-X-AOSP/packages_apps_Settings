@@ -89,6 +89,7 @@ android_library {
         "lottie",
         "windowExtLib",
         "vendor.lineage.fastcharge-V1.0-java",
+        "faceunlock_framework",
     ],
 
     libs: [
