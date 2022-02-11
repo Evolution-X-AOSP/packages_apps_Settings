@@ -109,6 +109,7 @@ android_library {
         "SettingsLibMainSwitchPreference",
         "Settings-change-ids",
         "vendor.lineage.fastcharge-V1.0-java",
+        "faceunlock_framework",
     ],
 
     libs: [
