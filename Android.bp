@@ -90,6 +90,7 @@ android_library {
         "glide",
         "lottie",
         "SettingsGoogle-lib",
+        "faceunlock_framework",
     ],
     manifest: "AndroidManifest.xml",
     additional_manifests: ["SettingsGoogle-Manifest.xml"],
