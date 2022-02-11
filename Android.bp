@@ -110,6 +110,7 @@ android_library {
         "Settings-change-ids",
         "vendor.lineage.fastcharge-V1.0-java",
         "google-securityhub",
+        "faceunlock_framework",
     ],
 
     libs: [
