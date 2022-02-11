@@ -88,6 +88,11 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Vibrazione al tocco</string>
     <string name="back_gesture_haptic_summary">Attiva la vibrazione su gesto indietro</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Schermo pieno</string>
+    <string name="back_height_high_label">Schermo inferiore</string>
+    <string name="back_options_dialog_title">Opzioni</string>
+    <string name="back_height_message">Porzione di schermo utilizzabile per il gesto indietro.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Meno di un minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -174,43 +179,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ticker musicale Ambient</string>
     <string name="pulse_on_new_tracks_summary">Mostra Ambient Display quando viene riprodotto un nuovo brano</string>
-    <!-- Custom actions -->
-    <string name="action_nothing">Nessuna azione</string>
-    <string name="action_menu">Menù</string>
-    <string name="action_app_switch">Recenti</string>
-    <string name="action_voice_search">Ricerca vocale</string>
-    <string name="action_launch_camera">Fotocamera</string>
-    <string name="action_last_app">Ultima app</string>
-    <string name="action_splitscreen">Schermo diviso</string>
-    <string name="action_flashlight">Torcia</string>
-    <string name="action_clear_notifications">Cancella le notifiche</string>
-    <string name="action_volume_panel">Pannelo del volume</string>
-    <string name="action_screen_off">Schermo spento</string>
-    <string name="action_notifications">Notifiche</string>
-    <string name="action_power_menu">Menù di spegnimento</string>
-    <string name="action_screenshot">Screenshot</string>
-    <string name="action_qs_panel">Pannello impostazioni rapide</string>
-    <string name="action_app_action">Applicazione</string>
-    <string name="action_ringer_modes">Modalità suoneria</string>
-    <string name="kill_app">Termina app in primo piano</string>
-    <string name="recent_app_toggle">Cambia app recenti</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Opzioni gesti avanzate</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Personalizza i gesti e imposta azioni personalizzate</string>
-    <string name="navbar_gesture_tweaks_cat_title">Avanzate</string>
-    <string name="swipe_app_select_summary">Seleziona un\'app da avviare con l\'azione di pressione</string>
-    <string name="long_back_swipe_timeout_title">Durata azione di scorrimento prolungato</string>
-    <string name="left_swipe_actions_title">Azione di scorrimento prolungato a sinistra</string>
-    <string name="left_swipe_app_action_title">Seleziona l\'app per lo scorrimento prolungato a sinistra</string>
-    <string name="right_swipe_actions_title">Azione di scorrimento prolungato a destra</string>
-    <string name="right_swipe_app_action_title">Seleziona l\'app per lo scorrimento prolungato a destra</string>
-    <string name="left_vertical_swipe_actions_title">Azione per lo scorrimento verticale a sinistra</string>
-    <string name="left_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento verticale a sinistra</string>
-    <string name="right_vertical_swipe_actions_title">Azione di scorrimento verticale a destra</string>
-    <string name="right_vertical_swipe_app_action_title">Seleziona l\'app per lo scorrimento verticale a destra</string>
-    <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'applicazione per l\'azione, premi a lungo su qualsiasi app nella selezione dell\'app.\n\nSe il launcher sta mostrando, fai uno scorrimento nell\'area inferiore dello schermo per attivare l\'azione.</string>
-    <string name="back_swipe_extended_title">Azione scorrimento esteso</string>
-    <string name="back_swipe_extended_summary">Innesca l\'azione su scorrimento più esteso (più di metà della dimensione dello schermo) o uno scorrimento a L (abbastanza lungo in verticale)</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Colore del tema</string>
     <!-- Adaptive Playback -->
@@ -235,4 +203,11 @@
     <string name="enable_floating_rotation_button_title">Usa il pulsante di rotazione fluttuante</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Auricolari associati</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Luminosità automatica singola </string>
+    <string name="auto_brightness_one_shot_summary">La regolazione della luminosità avverrà solo quando lo schermo viene acceso</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volume app</string>
+    <string name="app_volume_title">Controllo volume per app</string>
+    <string name="app_volume_summary">Consenti d\'impostare diversi livelli di volume per ogni app</string>
 </resources>

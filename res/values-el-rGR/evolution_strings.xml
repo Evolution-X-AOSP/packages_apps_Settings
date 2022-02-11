@@ -88,6 +88,11 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Απτική ανάδραση</string>
     <string name="back_gesture_haptic_summary">Ενεργοποίηση απτικού εφέ tick στην πίσω χειρονομία</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Πλήρης</string>
+    <string name="back_height_high_label">Κάτω</string>
+    <string name="back_options_dialog_title">Επιλογές</string>
+    <string name="back_height_message">Ποσότητα του ύψους οθόνης που χρησιμοποιείται ως περιοχή αφής για πίσω χειρονομία.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Λιγότερο από 1 λεπτό</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -174,43 +179,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Εικονίδιο μουσικής περιβάλλοντος</string>
     <string name="pulse_on_new_tracks_summary">Εμφάνιση οθόνης περιβάλλοντος όταν αναπαράγεται ένα νέο μουσικό κομμάτι</string>
-    <!-- Custom actions -->
-    <string name="action_nothing">Καμία ενέργεια</string>
-    <string name="action_menu">Μενού</string>
-    <string name="action_app_switch">Πρόσφατα</string>
-    <string name="action_voice_search">Φωνητική αναζήτηση</string>
-    <string name="action_launch_camera">Κάμερα</string>
-    <string name="action_last_app">Τελευταία εφαρμογή</string>
-    <string name="action_splitscreen">Διαίρεση οθόνης</string>
-    <string name="action_flashlight">Φακός</string>
-    <string name="action_clear_notifications">Εκκαθάριση ειδοποιήσεων</string>
-    <string name="action_volume_panel">Πίνακας έντασης</string>
-    <string name="action_screen_off">Απενεργοποίηση οθόνης</string>
-    <string name="action_notifications">Ειδοποιήσεις</string>
-    <string name="action_power_menu">Μενού Ενεργοποίησης</string>
-    <string name="action_screenshot">Στιγμιότυπο οθόνης</string>
-    <string name="action_qs_panel">Πίνακας γρήγορων ρυθμίσεων</string>
-    <string name="action_app_action">Εφαρμογή</string>
-    <string name="action_ringer_modes">Λειτουργίες κουδουνίσματος</string>
-    <string name="kill_app">Τερματισμός εφαρμογής στο προσκήνιο</string>
-    <string name="recent_app_toggle">Εναλλαγή πρόσφατης εφαρμογής</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Προηγμένες επιλογές χειρονομιών</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Προσαρμόστε τις χειρονομίες και ορίστε προσαρμοσμένες ενέργειες</string>
-    <string name="navbar_gesture_tweaks_cat_title">Για προχωρημένους</string>
-    <string name="swipe_app_select_summary">Επιλέξτε μια εφαρμογή για εκκίνηση με την ενέργεια συμπίεσης</string>
-    <string name="long_back_swipe_timeout_title">Χρονικό όριο ενέργειας παρατεταμένης σάρωσης</string>
-    <string name="left_swipe_actions_title">Ενέργεια παρατεταμένης αριστερής σάρωσης</string>
-    <string name="left_swipe_app_action_title">Επιλέξτε εφαρμογή για παρατεταμένη σάρωση αριστερά</string>
-    <string name="right_swipe_actions_title">Ενέργεια παρατεταμένης δεξιάς σάρωσης</string>
-    <string name="right_swipe_app_action_title">Επιλέξτε εφαρμογή για παρατεταμένη σάρωση δεξιά</string>
-    <string name="left_vertical_swipe_actions_title">Κατακόρυφη ενέργεια L-συρσίματος αριστερά</string>
-    <string name="left_vertical_swipe_app_action_title">Επιλέξτε εφαρμογή κάθετης σάρωσης προς τα αριστερά</string>
-    <string name="right_vertical_swipe_actions_title">Κατακόρυφη δεξιά ενέργεια L-συρσίματος</string>
-    <string name="right_vertical_swipe_app_action_title">Επιλέξτε εφαρμογή κάθετης σάρωσης προς τα δεξιά</string>
-    <string name="gesture_nav_tweaks_footer_info">Για να επιλέξετε μια συγκεκριμένη δραστηριότητα εφαρμογής για την ενέργεια, πατήστε παρατεταμένα οποιαδήποτε εφαρμογή στον επιλογέα εφαρμογών.\n\nΕάν ο εκκινητής εμφανίζεται, σύρετε στο κάτω μέρος της οθόνης για να ενεργοποιήσετε την ενέργεια.</string>
-    <string name="back_swipe_extended_title">Εκτεταμένη κίνηση σάρωσης</string>
-    <string name="back_swipe_extended_summary">Ενέργεια ενεργοποίησης στο ευρύτερο σύρσιμο (περισσότερο από το μισό μέγεθος της οθόνης), ή ένα σύρσιμο L (αρκετά κατακόρυφα)</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Χρώμα θέματος</string>
     <!-- Adaptive Playback -->
@@ -235,4 +203,11 @@
     <string name="enable_floating_rotation_button_title">Χρήση αιωρούμενου κουμπιού περιστροφής</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Αποθηκευμένα Ακουστικά</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Αυτόματη φωτεινότητα με τη μία</string>
+    <string name="auto_brightness_one_shot_summary">Η ρύθμιση φωτεινότητας θα πραγματοποιηθεί μόνο τη στιγμή που ενεργοποιείται η οθόνη</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Ένταση ήχου εφαρμογής</string>
+    <string name="app_volume_title">Έλεγχος έντασης ήχου ανά εφαρμογή</string>
+    <string name="app_volume_summary">Επιτρέπει να ορίσετε διαφορετικά επίπεδα έντασης για κάθε εφαρμογή</string>
 </resources>
