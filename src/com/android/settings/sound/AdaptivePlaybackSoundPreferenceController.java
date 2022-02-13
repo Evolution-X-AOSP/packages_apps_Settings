@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 The Android Open Source Project
+ * Copyright (C) 2020-2021 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.gestures;
+package com.android.settings.sound;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -36,7 +36,7 @@ import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
 import com.android.settingslib.widget.RadioButtonPreference;
 
-public class AdaptivePlaybackGesturePreferenceController extends BasePreferenceController
+public class AdaptivePlaybackSoundPreferenceController extends BasePreferenceController
         implements RadioButtonPreference.OnClickListener, LifecycleObserver, OnStart, OnStop {
 
     private static final String KEY_NO_TIMEOUT = "adaptive_playback_timeout_none";
@@ -66,7 +66,7 @@ public class AdaptivePlaybackGesturePreferenceController extends BasePreferenceC
 
     private final SettingObserver mSettingObserver;
 
-    public AdaptivePlaybackGesturePreferenceController(Context context, String preferenceKey) {
+    public AdaptivePlaybackSoundPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
 
         mSettingObserver = new SettingObserver(new Handler(Looper.getMainLooper()));
