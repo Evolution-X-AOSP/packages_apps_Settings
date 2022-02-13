@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright (C) 2018 The Android Open Source Project
+  Copyright (C) 2020-2022 Paranoid Android
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:key="gesture_adaptive_playback_screen"
+    android:key="sound_adaptive_playback_screen"
     android:title="@string/adaptive_playback_screen_title">
 
     <com.android.settingslib.widget.TopIntroPreference
@@ -32,12 +32,12 @@
         app:lottie_rawRes="@raw/lottie_adaptive_playback"/>
 
     <com.android.settingslib.widget.MainSwitchPreference
-        android:key="gesture_adaptive_playback_main_switch"
+        android:key="sound_adaptive_playback_main_switch"
         android:title="@string/adaptive_playback_enabled"
-        settings:controller="com.android.settings.gestures.AdaptivePlaybackSwitchPreferenceController" />
+        settings:controller="com.android.settings.sound.AdaptivePlaybackSwitchPreferenceController" />
 
     <PreferenceCategory
-        android:key="gesture_adaptive_playback_category"
+        android:key="sound_adaptive_playback_category"
         android:title="@string/adaptive_playback_timeout_title"
-        settings:controller="com.android.settings.gestures.AdaptivePlaybackGesturePreferenceController" />
-</PreferenceScreen>
+        settings:controller="com.android.settings.sound.AdaptivePlaybackSoundPreferenceController" />
+</PreferenceScreen> 

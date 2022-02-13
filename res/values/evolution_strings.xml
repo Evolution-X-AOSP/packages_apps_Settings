@@ -76,7 +76,7 @@
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
 
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
+    <string name="adaptive_playback_screen_title">Adaptive Playback</string>
     <string name="adaptive_playback_enabled">Use adaptive playback</string>
     <string name="adaptive_playback_disabled_summary">Off</string>
     <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
