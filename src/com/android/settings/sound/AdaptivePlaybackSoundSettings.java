@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 The Android Open Source Project
+ * Copyright (C) 2020-2021 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.settings.gestures;
+package com.android.settings.sound;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 
-public class AdaptivePlaybackGestureSettings extends DashboardFragment {
+public class AdaptivePlaybackSoundSettings extends DashboardFragment {
 
-    private static final String TAG = "AdaptivePlaybackGestureSettings";
+    private static final String TAG = "AdaptivePlaybackSoundSettings";
 
     @Override
     public int getMetricsCategory() {
@@ -36,9 +36,9 @@ public class AdaptivePlaybackGestureSettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.adaptive_playback_gesture_settings;
+        return R.xml.adaptive_playback_sound_settings;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.adaptive_playback_gesture_settings);
+            new BaseSearchIndexProvider(R.xml.adaptive_playback_sound_settings);
 }
