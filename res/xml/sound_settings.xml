@@ -118,6 +118,14 @@
         android:order="-120"
         settings:keywords="@string/sound_settings"/>
 
+    <!-- Adaptive Playback -->
+    <Preference
+        android:key="sound_adaptive_playback_summary"
+        android:title="@string/adaptive_playback_screen_title"
+        android:fragment="com.android.settings.sound.AdaptivePlaybackSoundSettings"
+        android:order="-114"
+        settings:controller="com.android.settings.sound.AdaptivePlaybackParentPreferenceController" />
+
     <!-- Live Caption -110 and Now Playing -105-->
 
     <!-- Spatial audio -->
