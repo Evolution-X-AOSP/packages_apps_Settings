@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The Android Open Source Project
+ * Copyright (C) 2020-2022 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.gestures;
+package com.android.settings.sound;
 
 import android.content.Context;
 import android.database.ContentObserver;
@@ -27,6 +27,7 @@ import android.widget.Switch;
 
 import androidx.preference.PreferenceScreen;
 
+import com.android.settings.R;
 import com.android.settings.widget.SettingsMainSwitchPreferenceController;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
@@ -88,8 +89,7 @@ public class AdaptivePlaybackSwitchPreferenceController extends
 
     @Override
     public int getSliceHighlightMenuRes() {
-        // not needed since it's not sliceable
-        return NO_RES;
+        return R.string.menu_key_sound;
     }
 
     private final class SettingsObserver extends ContentObserver {
