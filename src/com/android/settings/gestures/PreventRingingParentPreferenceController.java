@@ -41,6 +41,10 @@ import com.android.settingslib.core.lifecycle.events.OnStop;
 
 import com.google.common.annotations.VisibleForTesting;
 
+import java.lang.StringBuilder;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /** The controller manages the behaviour of the Prevent Ringing gesture setting. */
 public class PreventRingingParentPreferenceController extends TogglePreferenceController
         implements LifecycleObserver, OnStart, OnStop {
@@ -97,32 +101,31 @@ public class PreventRingingParentPreferenceController extends TogglePreferenceCo
         String value = Settings.Secure.getString(
                 mContext.getContentResolver(), SECURE_KEY);
         if (value == null) value = EVO_VOLUME_HUSH_OFF;
-        String summary = null;
+        StringBuilder summary = new StringBuilder(
+                mContext.getString(R.string.switch_off_text));
         if (isVolumePowerKeyChordSetToHush()) {
-            if (value.equals(EVO_VOLUME_HUSH_OFF)) {
-                summary = mContext.getText(R.string.switch_off_text).toString();
-            } else {
-                String[] values = value.split(",", 0);
-                for (String str : values) {
-                    if (summary == null) {
-                        summary = mContext.getText(R.string.switch_on_text).toString()
-                                + " (" + getStringForMode(str);
-                        continue;
-                    }
-                    summary += ", " + getStringForMode(str);
+            if (!value.equals(EVO_VOLUME_HUSH_OFF)) {
+                ArrayList<String> values =
+                        new ArrayList<>(Arrays.asList(value.split(",", 0)));
+                if (!values.isEmpty()) {
+                    summary = new StringBuilder(
+                            mContext.getString(R.string.switch_on_text)
+                            + " (" + getStringForMode(values.remove(0)));
+                    for (String str : values)
+                        summary.append(", ").append(getStringForMode(str));
+                    summary.append(")");
                 }
-                summary += ")";
             }
             preference.setEnabled(true);
             mPreference.setSwitchEnabled(true);
         } else {
-            summary = mContext.getText(
-                    R.string.prevent_ringing_option_unavailable_lpp_summary).toString();
+            summary = new StringBuilder(mContext.getString(
+                    R.string.prevent_ringing_option_unavailable_lpp_summary));
             preference.setEnabled(false);
             mPreference.setSwitchEnabled(false);
         }
 
-        preference.setSummary(summary);
+        preference.setSummary(summary.toString());
     }
 
     @Override
