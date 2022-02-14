@@ -88,6 +88,11 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Resposta tátil</string>
     <string name="back_gesture_haptic_summary">Ativar o efeito da vibração no gesto de voltar</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Completo</string>
+    <string name="back_height_high_label">Inferior</string>
+    <string name="back_options_dialog_title">Opções</string>
+    <string name="back_height_message">Altura da área da tela usada como região sensível para gesto de voltar.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -174,43 +179,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ticker de música na tela ambiente</string>
     <string name="pulse_on_new_tracks_summary">Mostrar a tela ambiente ao reproduzir uma nova música</string>
-    <!-- Custom actions -->
-    <string name="action_nothing">Nenhuma ação</string>
-    <string name="action_menu">Menu</string>
-    <string name="action_app_switch">Recentes</string>
-    <string name="action_voice_search">Pesquisa por voz</string>
-    <string name="action_launch_camera">Câmera</string>
-    <string name="action_last_app">Último aplicativo</string>
-    <string name="action_splitscreen">Dividir a tela</string>
-    <string name="action_flashlight">Lanterna</string>
-    <string name="action_clear_notifications">Limpar notificações</string>
-    <string name="action_volume_panel">Painel de volume</string>
-    <string name="action_screen_off">Desligar tela</string>
-    <string name="action_notifications">Notificações</string>
-    <string name="action_power_menu">Menu de energia</string>
-    <string name="action_screenshot">Captura de tela</string>
-    <string name="action_qs_panel">Painel de configurações rápidas</string>
-    <string name="action_app_action">Aplicativo</string>
-    <string name="action_ringer_modes">Modos de toque</string>
-    <string name="kill_app">Fechar aplicativo em primeiro plano</string>
-    <string name="recent_app_toggle">Alternar aplicativo recente</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Opções de gestos avançados</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Gestos e controles avançados para melhorar sua interação com o dispositivo</string>
-    <string name="navbar_gesture_tweaks_cat_title">Avançado</string>
-    <string name="swipe_app_select_summary">Selecione um aplicativo para iniciar com a ação de apertar</string>
-    <string name="long_back_swipe_timeout_title">Tempo limite do deslize longo</string>
-    <string name="left_swipe_actions_title">Ação do deslize longo à esquerda</string>
-    <string name="left_swipe_app_action_title">Selecionar aplicativo de deslize longo para a esquerda</string>
-    <string name="right_swipe_actions_title">Ação do deslize longo à direita</string>
-    <string name="right_swipe_app_action_title">Selecionar aplicativo de deslize longo para a direita</string>
-    <string name="left_vertical_swipe_actions_title">Ação ao fazer um L vertical para a esquerda</string>
-    <string name="left_vertical_swipe_app_action_title">Selecionar aplicativo ao deslizar verticalmente para a esquerda</string>
-    <string name="right_vertical_swipe_actions_title">Ação ao fazer um L vertical para a direita</string>
-    <string name="right_vertical_swipe_app_action_title">Selecione o aplicativo ao deslizar verticalmente para a direita</string>
-    <string name="gesture_nav_tweaks_footer_info">Para escolher uma atividade específica do aplicativo para a ação, toque e segure em qualquer aplicativo no selecionador de aplicativos.\n\nSe o launcher estiver sendo exibido, deslize para a área inferior da tela para acionar a ação.</string>
-    <string name="back_swipe_extended_title">Ação de deslize estendido</string>
-    <string name="back_swipe_extended_summary">Acione a ação com um deslize mais amplo (mais da metade do tamanho da tela) ou com um deslize em L (verticalmente suficiente)</string>
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Cor do Tema</string>
     <!-- Adaptive Playback -->
@@ -235,4 +203,11 @@
     <string name="enable_floating_rotation_button_title">Habilitar botão de rotação flutuante</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Ajustar somente ao ligar a tela</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste de brilho só ocorrerá no momento em que a tela for ligada</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volume de aplicativos</string>
+    <string name="app_volume_title">Controle de volume por aplicativo</string>
+    <string name="app_volume_summary">Permite definir diferentes níveis de volume para cada aplicativo</string>
 </resources>
