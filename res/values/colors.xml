@@ -222,7 +222,4 @@
 
     <!-- Battery error text color -->
     <color name="battery_info_error_color_black">@*android:color/primary_text_default_material_light</color>
-
-    <color name="settingsHeaderColor">@*android:color/accent_device_default_light</color>
-
 </resources>
