@@ -129,16 +129,6 @@
     <string name="double_tap_title">Toque duplo</string>
     <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
     <string name="doze_double_tap_summary">Pulsar notificações ao tocar duas vezes na tela</string>
-    <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">Intensidade da vibração</string>
-    <string name="vibration_intensity_summary">Controle a intensidade da vibração para diferentes setores</string>
-    <string name="notification_vibration_intensity_title">Notificações</string>
-    <string name="ring_vibration_intensity_title">Toque</string>
-    <string name="haptic_feedback_intensity_title">Resposta tátil</string>
-    <string name="vibration_intensity_off">Desativado</string>
-    <string name="vibration_intensity_low">Fraco</string>
-    <string name="vibration_intensity_medium">Médio</string>
-    <string name="vibration_intensity_high">Forte</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslize para capturar a tela</string>
     <string name="three_finger_gesture_summary">Deslizar para baixo com três dedos para tirar captura de tela</string>
@@ -179,8 +169,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ticker de música na tela ambiente</string>
     <string name="pulse_on_new_tracks_summary">Mostrar a tela ambiente ao reproduzir uma nova música</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Cor do Tema</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
     <string name="adaptive_playback_enabled">Usar reprodução adaptável</string>
