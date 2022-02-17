@@ -129,16 +129,6 @@
     <string name="double_tap_title">Çift dokunma</string>
     <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
     <string name="doze_double_tap_summary">Çift dokunuşla ortam ekranı bildirimleri</string>
-    <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">Titreşim yoğunluğu</string>
-    <string name="vibration_intensity_summary">Titreşim yoğunluğunu kontrol edin</string>
-    <string name="notification_vibration_intensity_title">Bildirimler</string>
-    <string name="ring_vibration_intensity_title">Zil sesi</string>
-    <string name="haptic_feedback_intensity_title">Dokunsal Geribildirim</string>
-    <string name="vibration_intensity_off">Devre dışı</string>
-    <string name="vibration_intensity_low">Yavaş</string>
-    <string name="vibration_intensity_medium">Orta</string>
-    <string name="vibration_intensity_high">Yüksek</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Ekran görüntüsü için kaydırın</string>
     <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızla aşağı kaydırın</string>
@@ -179,8 +169,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
     <string name="pulse_on_new_tracks_summary">Yeni bir müzik parçası çalındığında Ortam Ekranını göster</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Tema rengi</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Uyarlanabilir oynatma</string>
     <string name="adaptive_playback_enabled">Uyarlanabilir oynatma etkin</string>
