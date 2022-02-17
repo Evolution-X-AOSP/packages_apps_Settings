@@ -129,16 +129,6 @@
     <string name="double_tap_title">Doppeltes Tippen</string>
     <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
     <string name="doze_double_tap_summary">Benachrichtigungen durch doppeltes Tippen anzeigen</string>
-    <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">Vibrationsintensität</string>
-    <string name="vibration_intensity_summary">Steuerung der Vibrationsintensität für verschiedene Streams</string>
-    <string name="notification_vibration_intensity_title">Benachrichtigungen</string>
-    <string name="ring_vibration_intensity_title">Klingeln</string>
-    <string name="haptic_feedback_intensity_title">Haptisches Feedback</string>
-    <string name="vibration_intensity_off">Deaktiviert</string>
-    <string name="vibration_intensity_low">Langsam</string>
-    <string name="vibration_intensity_medium">Normal</string>
-    <string name="vibration_intensity_high">Hoch</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Wischen für Bildschirmfoto</string>
     <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen für ein Bildschirmfoto</string>
@@ -179,8 +169,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Musiktitelanzeige im Inaktivitätsdisplay</string>
     <string name="pulse_on_new_tracks_summary">Inaktivitätsdisplay aktivieren, wenn ein neuer Musiktitel abgespielt wird</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Themenfarbe</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive Medienwiedergabe</string>
     <string name="adaptive_playback_enabled">Adaptive Medienwiedergabe verwenden</string>

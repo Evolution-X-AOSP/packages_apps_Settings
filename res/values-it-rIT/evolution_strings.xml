@@ -129,16 +129,6 @@
     <string name="double_tap_title">Doppio tocco</string>
     <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
     <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
-    <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">Intensità della vibrazione</string>
-    <string name="vibration_intensity_summary">Controlla l\'intensità delle vibrazioni per diversi flussi</string>
-    <string name="notification_vibration_intensity_title">Notifiche</string>
-    <string name="ring_vibration_intensity_title">Suoneria</string>
-    <string name="haptic_feedback_intensity_title">Feedback tattile</string>
-    <string name="vibration_intensity_off">Disabilitato</string>
-    <string name="vibration_intensity_low">Basso</string>
-    <string name="vibration_intensity_medium">Medio</string>
-    <string name="vibration_intensity_high">Alta</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Scorri per fare uno screenshot</string>
     <string name="three_finger_gesture_summary">Scorri in basso con tre dita per fare uno screenshot</string>
@@ -179,8 +169,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ticker musicale Ambient</string>
     <string name="pulse_on_new_tracks_summary">Mostra Ambient Display quando viene riprodotto un nuovo brano</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Colore del tema</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Riproduzione adattiva</string>
     <string name="adaptive_playback_enabled">Usa riproduzione adattiva</string>

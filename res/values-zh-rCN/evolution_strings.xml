@@ -129,16 +129,6 @@
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">双击来查看手机</string>
     <string name="doze_double_tap_summary">双击快速显示通知</string>
-    <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">振动强度</string>
-    <string name="vibration_intensity_summary">控制不同流的振动强度</string>
-    <string name="notification_vibration_intensity_title">通知</string>
-    <string name="ring_vibration_intensity_title">铃声</string>
-    <string name="haptic_feedback_intensity_title">触觉反馈</string>
-    <string name="vibration_intensity_off">已禁用</string>
-    <string name="vibration_intensity_low">慢速</string>
-    <string name="vibration_intensity_medium">中等</string>
-    <string name="vibration_intensity_high">较高</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">滑动截屏</string>
     <string name="three_finger_gesture_summary">三指向下滑动截屏</string>
@@ -179,8 +169,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">息屏音乐信息</string>
     <string name="pulse_on_new_tracks_summary">在打开新的音乐曲目时显示环境显示</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">主题颜色</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">自适应播放</string>
     <string name="adaptive_playback_enabled">使用自适应播放</string>

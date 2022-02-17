@@ -129,16 +129,6 @@
     <string name="double_tap_title">ダブルタップ</string>
     <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
     <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
-    <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">振動の強さ</string>
-    <string name="vibration_intensity_summary">異なるストリームでの振動の強さを制御する</string>
-    <string name="notification_vibration_intensity_title">通知</string>
-    <string name="ring_vibration_intensity_title">着信</string>
-    <string name="haptic_feedback_intensity_title">タッチ操作バイブ</string>
-    <string name="vibration_intensity_off">無効</string>
-    <string name="vibration_intensity_low">低速</string>
-    <string name="vibration_intensity_medium">中</string>
-    <string name="vibration_intensity_high">高</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">スワイプでスクリーンショット</string>
     <string name="three_finger_gesture_summary">3本指で下スワイプしてスクリーンショットを取得する</string>
@@ -179,8 +169,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
     <string name="pulse_on_new_tracks_summary">新規楽曲再生時にアンビエント表示をする</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">テーマの色</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">アダプティブ再生</string>
     <string name="adaptive_playback_enabled">アダプティブ再生を使用</string>

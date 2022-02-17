@@ -129,16 +129,6 @@
     <string name="double_tap_title">Διπλό πάτημα</string>
     <string name="doze_double_tap_title">Πατήστε δύο φορές για να ελέγξετε το τηλέφωνο</string>
     <string name="doze_double_tap_summary">Ειδοποιήσεις παλμών με διπλό πάτημα</string>
-    <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">Ένταση Δόνησης</string>
-    <string name="vibration_intensity_summary">Έλεγχος έντασης δόνησης για διαφορετικές ροές</string>
-    <string name="notification_vibration_intensity_title">Ειδοποιήσεις</string>
-    <string name="ring_vibration_intensity_title">Κουδούνισμα</string>
-    <string name="haptic_feedback_intensity_title">Απτική Ανάδραση</string>
-    <string name="vibration_intensity_off">Απενεργοποιημένο</string>
-    <string name="vibration_intensity_low">Χαμηλά</string>
-    <string name="vibration_intensity_medium">Μέτρια</string>
-    <string name="vibration_intensity_high">Υψηλό</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Σύρετε για στιγμιότυπο οθόνης</string>
     <string name="three_finger_gesture_summary">Σύρετε προς τα κάτω με τρία δάχτυλα για να τραβήξετε ένα στιγμιότυπο οθόνης</string>
@@ -179,8 +169,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Εικονίδιο μουσικής περιβάλλοντος</string>
     <string name="pulse_on_new_tracks_summary">Εμφάνιση οθόνης περιβάλλοντος όταν αναπαράγεται ένα νέο μουσικό κομμάτι</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Χρώμα θέματος</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Προσαρμοστική αναπαραγωγή</string>
     <string name="adaptive_playback_enabled">Χρήση προσαρμοζόμενης αναπαραγωγής</string>

@@ -129,16 +129,6 @@
     <string name="double_tap_title">Ketuk dua kali</string>
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
     <string name="doze_double_tap_summary">Tampilkan notifikasi dengan ketukan ganda</string>
-    <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">Intensitas Getaran</string>
-    <string name="vibration_intensity_summary">Kontrol intensitas getaran untuk aliran yang berbeda</string>
-    <string name="notification_vibration_intensity_title">Notifikasi</string>
-    <string name="ring_vibration_intensity_title">Dering</string>
-    <string name="haptic_feedback_intensity_title">Umpan Balik Haptik</string>
-    <string name="vibration_intensity_off">Dinonaktifkan</string>
-    <string name="vibration_intensity_low">Rendah</string>
-    <string name="vibration_intensity_medium">Sedang</string>
-    <string name="vibration_intensity_high">Tinggi</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Usap untuk menangkap layar</string>
     <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
@@ -179,8 +169,6 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ticker musik ambien</string>
     <string name="pulse_on_new_tracks_summary">Tampilkan Tampilan Ambien saat trek musik baru diputar</string>
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Warna tema</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pemutaran Adaptif</string>
     <string name="adaptive_playback_enabled">Gunakan Pemutar Adaptif</string>
