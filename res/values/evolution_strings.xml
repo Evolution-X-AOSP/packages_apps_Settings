@@ -476,7 +476,6 @@
     <string name="action_nothing">No action</string>
     <string name="action_menu">Menu</string>
     <string name="action_app_switch">Recents</string>
-    <string name="action_search">Assistant</string>
     <string name="action_voice_search">Voice search</string>
     <string name="action_launch_camera">Camera</string>
     <string name="action_last_app">Last app</string>

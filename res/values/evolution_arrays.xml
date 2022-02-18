@@ -131,7 +131,6 @@
     <!-- Back swipe actions -->
     <string-array name="swipe_actions_entries" translatable="false">
         <item>@string/action_nothing</item>
-        <item>@string/action_search</item>
         <item>@string/action_voice_search</item>
         <item>@string/action_launch_camera</item>
         <item>@string/action_flashlight</item>
@@ -162,7 +161,6 @@
         <item>11</item>
         <item>12</item>
         <item>13</item>
-        <item>14</item>
     </string-array>
 
     <string-array name="long_back_swipe_timeout_entries">
