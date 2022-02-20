@@ -22,6 +22,10 @@
     android:key="gesture_adaptive_playback_screen"
     android:title="@string/adaptive_playback_screen_title">
 
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="gesture_adaptive_playback_intro_text"
+        android:title="@string/adaptive_playback_intro_text"/>
+
     <com.android.settingslib.widget.IllustrationPreference
         android:key="adaptive_playback_header"
         settings:searchable="false"
