@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 The Android Open Source Project
+ * Copyright (C) 2020-2021 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.settings.gestures;
+package com.android.settings.sound;
 
 import static android.provider.Settings.System.ADAPTIVE_PLAYBACK_ENABLED;
 import static android.provider.Settings.System.ADAPTIVE_PLAYBACK_TIMEOUT;
 
-import static com.android.settings.gestures.AdaptivePlaybackGesturePreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_10_MIN;
-import static com.android.settings.gestures.AdaptivePlaybackGesturePreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_1_MIN;
-import static com.android.settings.gestures.AdaptivePlaybackGesturePreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_2_MIN;
-import static com.android.settings.gestures.AdaptivePlaybackGesturePreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS;
-import static com.android.settings.gestures.AdaptivePlaybackGesturePreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_5_MIN;
-import static com.android.settings.gestures.AdaptivePlaybackGesturePreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_NONE;
+import static com.android.settings.sound.AdaptivePlaybackSoundPreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_10_MIN;
+import static com.android.settings.sound.AdaptivePlaybackSoundPreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_1_MIN;
+import static com.android.settings.sound.AdaptivePlaybackSoundPreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_2_MIN;
+import static com.android.settings.sound.AdaptivePlaybackSoundPreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS;
+import static com.android.settings.sound.AdaptivePlaybackSoundPreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_5_MIN;
+import static com.android.settings.sound.AdaptivePlaybackSoundPreferenceController.ADAPTIVE_PLAYBACK_TIMEOUT_NONE;
 
 import android.content.Context;
 import android.os.UserHandle;

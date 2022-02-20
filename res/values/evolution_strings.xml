@@ -217,9 +217,10 @@
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
 
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
+    <string name="adaptive_playback_screen_title">Adaptive Playback</string>
     <string name="adaptive_playback_enabled">Use adaptive playback</string>
     <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none">No timeout</string>
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
@@ -233,7 +234,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
-    <string name="adaptive_playback_explainer">Adaptive playback automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
 
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
