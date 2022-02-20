@@ -47,7 +47,7 @@ class AppLockNotificationPreferenceController(
     }
 
     override fun getAvailabilityStatus() =
-        if (appLockManager.getPackages().isNotEmpty()) AVAILABLE else DISABLED_DEPENDENT_SETTING
+        if (appLockManager.packages.isNotEmpty()) AVAILABLE else DISABLED_DEPENDENT_SETTING
 
     override fun onStateChanged(owner: LifecycleOwner, event: Event) {
         if (event == Event.ON_START) {

@@ -32,13 +32,13 @@ class AppLockNotificationListFragment : AppListFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         appLockManager = requireContext().getSystemService(AppLockManager::class.java)
-        lockedPackages.addAll(appLockManager.getPackages())
+        lockedPackages.addAll(appLockManager.packages)
     }
 
     override protected fun getTitle(): Int = R.string.app_lock_notifications_title
 
     override protected fun getInitialCheckedList(): List<String> =
-        appLockManager.getPackagesWithSecureNotifications()
+        appLockManager.packagesWithSecureNotifications
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         setDisplayCategory(CATEGORY_BOTH)
