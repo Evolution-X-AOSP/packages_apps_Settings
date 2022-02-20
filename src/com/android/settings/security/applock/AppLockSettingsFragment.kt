@@ -17,6 +17,10 @@
 package com.android.settings.security.applock
 
 import android.content.Context
+import android.os.SystemProperties
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
 
 import com.android.settings.R
 import com.android.settings.search.BaseSearchIndexProvider
@@ -26,7 +30,10 @@ import com.android.settingslib.search.SearchIndexable
 import com.evolution.settings.fragment.EvolutionDashboardFragment
 
 @SearchIndexable
-class AppLockSettingsFragment : EvolutionDashboardFragment() {
+class AppLockSettingsFragment : EvolutionDashboardFragment(),
+    MenuItem.OnMenuItemClickListener {
+
+    private var debugEnabled = SystemProperties.get(DEBUG_PROPERTY, null) == LEVEL_DEBUG
 
     override protected fun getPreferenceScreenResId() = R.xml.app_lock_settings
 
@@ -35,8 +42,39 @@ class AppLockSettingsFragment : EvolutionDashboardFragment() {
     override protected fun createPreferenceControllers(context: Context) =
         buildPreferenceControllers(context, settingsLifecycle)
 
+    override fun onCreateOptionsMenu(menu: Menu, menuInflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, menuInflater)
+        menu.add(
+            0 /* groupId */,
+            MENU_ITEM_DEBUG_ID,
+            0 /* order */,
+            getDebugMenuItemTitle(),
+        ).setOnMenuItemClickListener(this)
+    }
+
+    private fun getDebugMenuItemTitle(): Int =
+        if (debugEnabled)
+            R.string.disable_debugging
+        else
+            R.string.enable_debugging
+
+    override fun onMenuItemClick(item: MenuItem): Boolean {
+        if (item.itemId == MENU_ITEM_DEBUG_ID) {
+            debugEnabled = !debugEnabled
+            SystemProperties.set(DEBUG_PROPERTY,
+                if (debugEnabled) LEVEL_DEBUG else null)
+            item.setTitle(getDebugMenuItemTitle())
+            return true
+        }
+        return false
+    }
+
     companion object {
         private const val TAG = "AppLockSettingsFragment"
+
+        private const val DEBUG_PROPERTY = "log.tag.AppLockManagerService"
+        private const val LEVEL_DEBUG = "DEBUG"
+        private const val MENU_ITEM_DEBUG_ID = 101
 
         @JvmField
         val SEARCH_INDEX_DATA_PROVIDER = object : BaseSearchIndexProvider(
