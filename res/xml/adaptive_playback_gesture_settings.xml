@@ -32,6 +32,10 @@
         android:title="@string/adaptive_playback_enabled"
         settings:controller="com.android.settings.gestures.AdaptivePlaybackSwitchPreferenceController" />
 
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="gesture_adaptive_playback_intro_text"
+        android:title="@string/adaptive_playback_intro_text"/>
+
     <PreferenceCategory
         android:key="gesture_adaptive_playback_category"
         android:title="@string/adaptive_playback_timeout_title"
