@@ -35,12 +35,13 @@ class AppLockTimeoutPreferenceController(
     override fun getAvailabilityStatus() = AVAILABLE
 
     override fun updateState(preference: Preference) {
-        val timeout = appLockManager.getTimeout()
-        (preference as ListPreference).value = if (timeout == -1L) null else timeout.toString()
+        (preference as ListPreference).value = appLockManager.timeout.takeIf {
+            it != -1L
+        }?.toString()
     }
 
     override fun onPreferenceChange(preference: Preference, newValue: Any): Boolean {
-        appLockManager.setTimeout((newValue as String).toLong())
+        appLockManager.timeout = (newValue as String).toLong()
         return true
     }
 }
