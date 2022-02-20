@@ -27,18 +27,18 @@ import com.evolution.settings.fragment.AppListFragment
 class AppLockPackageListFragment : AppListFragment() {
 
     private lateinit var appLockManager: AppLockManager
-    private val whiteListedPackages = mutableListOf<String>()
+    private lateinit var whiteListedPackages: Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         appLockManager = requireContext().getSystemService(AppLockManager::class.java)
-        whiteListedPackages.addAll(requireContext().resources.getStringArray(
-            com.android.internal.R.array.config_appLockAllowedSystemApps).toList())
+        whiteListedPackages = requireContext().resources.getStringArray(
+            com.android.internal.R.array.config_appLockAllowedSystemApps)
     }
 
     override protected fun getTitle(): Int = R.string.app_lock_packages_title
 
-    override protected fun getInitialCheckedList(): List<String> = appLockManager.getPackages()
+    override protected fun getInitialCheckedList(): List<String> = appLockManager.packages
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         setDisplayCategory(CATEGORY_BOTH)
