@@ -19,6 +19,7 @@ package com.android.settings.security.applock
 import android.app.Activity
 import android.app.AppLockManager
 import android.content.Context
+import android.content.Intent
 import android.os.UserHandle
 
 import androidx.activity.result.ActivityResult
@@ -99,6 +100,7 @@ class AppLockSettingsPreferenceController(
                 .setDestination(AppLockSettingsFragment::class.qualifiedName)
                 .setSourceMetricsCategory(host.metricsCategory)
                 .setTransitionType(TransitionType.TRANSITION_SLIDE)
+                .addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS)
                 .launch()
         }
     }
