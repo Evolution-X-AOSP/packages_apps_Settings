@@ -272,6 +272,7 @@
           Heads up notifications will be automatically disabled.
     </string>
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
 
     <!-- Screen setting option title for the item to take you to the stock security screen -->
