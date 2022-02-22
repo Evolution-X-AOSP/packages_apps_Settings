@@ -21,7 +21,6 @@
         android:key="app_lock_packages"
         android:title="@string/app_lock_packages_title"
         android:summary="@string/app_lock_packages_summary"
-        android:persistent="false"
         android:fragment="com.android.settings.security.applock.AppLockPackageListFragment" />
 
     <ListPreference
@@ -37,9 +36,14 @@
     <Preference
         android:key="app_lock_notifications"
         android:title="@string/app_lock_notifications_title"
-        android:persistent="false"
         android:fragment="com.android.settings.security.applock.AppLockNotificationListFragment"
         settings:controller="com.android.settings.security.applock.AppLockNotificationPreferenceController" />
+
+    <SwitchPreference
+        android:key="app_lock_biometrics_allowed"
+        android:title="@string/app_lock_biometrics_allowed_title"
+        android:persistent="false"
+        settings:controller="com.android.settings.security.applock.AppLockBiometricPreferenceController" />
 
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/app_lock_footer_text"
