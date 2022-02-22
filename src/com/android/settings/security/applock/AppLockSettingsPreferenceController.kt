@@ -22,7 +22,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.UserHandle
 
-import androidx.activity.result.ActivityResult
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult
 import androidx.lifecycle.Lifecycle.Event
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
@@ -30,8 +31,9 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceScreen
 
 import com.android.internal.widget.LockPatternUtils
-import com.android.settings.core.SubSettingLauncher
 import com.android.settings.R
+import com.android.settings.core.SubSettingLauncher
+import com.android.settings.password.ConfirmDeviceCredentialActivity
 import com.android.settings.security.SecuritySettings
 import com.android.settingslib.core.lifecycle.Lifecycle
 import com.android.settingslib.transition.SettingsTransitionHelper.TransitionType
@@ -39,7 +41,7 @@ import com.android.settingslib.transition.SettingsTransitionHelper.TransitionTyp
 import com.evolution.settings.EvolutionBasePreferenceController
 
 class AppLockSettingsPreferenceController(
-    private val context: Context,
+    context: Context,
     private val host: SecuritySettings?,
     lifecycle: Lifecycle?,
 ) : EvolutionBasePreferenceController(context, KEY),
@@ -48,13 +50,29 @@ class AppLockSettingsPreferenceController(
     private val lockPatternUtils = LockPatternUtils(context)
     private val appLockManager = context.getSystemService(AppLockManager::class.java)
     private var preference: Preference? = null
+    private val securityPromptLauncher: ActivityResultLauncher<Intent>?
 
     init {
         lifecycle?.addObserver(this)
+        securityPromptLauncher = host?.registerForActivityResult(
+            StartActivityForResult()
+        ) {
+            if (it?.resultCode == Activity.RESULT_OK) {
+                SubSettingLauncher(mContext)
+                    .setDestination(AppLockSettingsFragment::class.qualifiedName)
+                    .setSourceMetricsCategory(host.metricsCategory)
+                    .setTransitionType(TransitionType.TRANSITION_SLIDE)
+                    .addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS)
+                    .launch()
+            }
+        }
     }
 
     override fun getAvailabilityStatus() =
-        if (lockPatternUtils.isSecure(UserHandle.myUserId())) AVAILABLE else DISABLED_DEPENDENT_SETTING
+        if (lockPatternUtils.isSecure(UserHandle.myUserId()))
+            AVAILABLE
+        else
+            DISABLED_DEPENDENT_SETTING
 
     override fun onStateChanged(owner: LifecycleOwner, event: Event) {
         if (event == Event.ON_START) {
@@ -75,34 +93,28 @@ class AppLockSettingsPreferenceController(
             preference.summary = getSummaryForListSize(appLockManager.getPackages().size)
         } else {
             preference.setEnabled(false)
-            preference.summary = context.getString(R.string.disabled_because_no_backup_security)
+            preference.summary = mContext.getString(R.string.disabled_because_no_backup_security)
         }
     }
 
     private fun getSummaryForListSize(size: Int): CharSequence? =
         when {
             size == 0 -> null
-            size == 1 -> context.getString(R.string.app_lock_summary_singular)
-            else -> context.getString(R.string.app_lock_summary_plural, size)
+            size == 1 -> mContext.getString(R.string.app_lock_summary_singular)
+            else -> mContext.getString(R.string.app_lock_summary_plural, size)
         }
 
     override fun handlePreferenceTreeClick(preference: Preference): Boolean {
-        if (this.preference == preference && host != null) {
-            host.showAppLockSecurityPrompt()
+        if (preference.key == KEY && securityPromptLauncher != null) {
+            securityPromptLauncher.launch(
+                ConfirmDeviceCredentialActivity.createIntent(
+                    mContext.getString(R.string.app_lock_authentication_dialog_title),
+                    null /* details */,
+                )
+            )
             return true
         }
         return false
-    }
-
-    fun handleActivityResult(activityResult: ActivityResult?) {
-        if (activityResult?.resultCode == Activity.RESULT_OK && host != null) {
-            SubSettingLauncher(context)
-                .setDestination(AppLockSettingsFragment::class.qualifiedName)
-                .setSourceMetricsCategory(host.metricsCategory)
-                .setTransitionType(TransitionType.TRANSITION_SLIDE)
-                .addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS)
-                .launch()
-        }
     }
 
     companion object {
