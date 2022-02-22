@@ -139,15 +139,11 @@ public class ApnEditor extends SettingsPreferenceFragment
     private String mMvnoTypeStr;
     private String mMvnoMatchDataStr;
     @VisibleForTesting
-    String[] mReadOnlyApnTypes;
-    @VisibleForTesting
     String[] mDefaultApnTypes;
     @VisibleForTesting
     String mDefaultApnProtocol;
     @VisibleForTesting
     String mDefaultApnRoamingProtocol;
-    private String[] mReadOnlyApnFields;
-    private boolean mReadOnlyApn;
     private Uri mCarrierUri;
     private boolean mIsCarrierIdApn;
 
@@ -323,19 +319,6 @@ public class ApnEditor extends SettingsPreferenceFragment
                 Telephony.Carriers.USER_EDITED) == Telephony.Carriers.USER_EDITED;
 
         Log.d(TAG, "onCreate: EDITED " + isUserEdited);
-        // if it's not a USER_EDITED apn, check if it's read-only
-        if (!isUserEdited && (mApnData.getInteger(USER_EDITABLE_INDEX, 1) == 0
-                || apnTypesMatch(mReadOnlyApnTypes, mApnData.getString(TYPE_INDEX)))) {
-            Log.d(TAG, "onCreate: apnTypesMatch; read-only APN");
-            mReadOnlyApn = true;
-            disableAllFields();
-        } else if (!ArrayUtils.isEmpty(mReadOnlyApnFields)) {
-            disableFields(mReadOnlyApnFields);
-        }
-        // Make sure that a user cannot break carrier id APN matching
-        if (mIsCarrierIdApn) {
-            disableFieldsForCarrieridApn();
-        }
 
         for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {
             getPreferenceScreen().getPreference(i).setOnPreferenceChangeListener(this);
@@ -716,10 +699,7 @@ public class ApnEditor extends SettingsPreferenceFragment
             return null;
         } else {
             final String[] values = getResources().getStringArray(R.array.mvno_type_entries);
-            final boolean mvnoMatchDataUneditable =
-                    mReadOnlyApn || (mReadOnlyApnFields != null
-                            && Arrays.asList(mReadOnlyApnFields)
-                            .contains(Telephony.Carriers.MVNO_MATCH_DATA));
+            final boolean mvnoMatchDataUneditable = false;
             mMvnoMatchData.setEnabled(!mvnoMatchDataUneditable && mvnoIndex != 0);
             if (newValue != null && !newValue.equals(oldValue)) {
                 if (values[mvnoIndex].equals("SPN")) {
@@ -826,14 +806,12 @@ public class ApnEditor extends SettingsPreferenceFragment
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
         // If it's a new APN, then cancel will delete the new entry in onPause
-        if (!mNewApn && !mReadOnlyApn) {
+        if (!mNewApn) {
             menu.add(0, MENU_DELETE, 0, R.string.menu_delete)
                 .setIcon(R.drawable.ic_delete);
         }
-        if (!mReadOnlyApn) {
-            menu.add(0, MENU_SAVE, 0, R.string.menu_save)
+        menu.add(0, MENU_SAVE, 0, R.string.menu_save)
                 .setIcon(android.R.drawable.ic_menu_save);
-        }
         menu.add(0, MENU_CANCEL, 0, R.string.menu_cancel)
             .setIcon(android.R.drawable.ic_menu_close_clear_cancel);
     }
@@ -951,10 +929,6 @@ public class ApnEditor extends SettingsPreferenceFragment
      */
     @VisibleForTesting
     boolean validateAndSaveApnData() {
-        // Nothing to do if it's a read only APN
-        if (mReadOnlyApn) {
-            return true;
-        }
 
         final String name = checkNotSet(mName.getText());
         final String apn = checkNotSet(mApn.getText());
@@ -1185,25 +1159,6 @@ public class ApnEditor extends SettingsPreferenceFragment
             errorMsg = getResources().getString(R.string.error_mnc_not23);
         }
 
-        if (errorMsg == null) {
-            // if carrier does not allow editing certain apn types, make sure type does not include
-            // those
-            if (!ArrayUtils.isEmpty(mReadOnlyApnTypes)
-                    && apnTypesMatch(mReadOnlyApnTypes, getUserEnteredApnType())) {
-                final StringBuilder stringBuilder = new StringBuilder();
-                for (String type : mReadOnlyApnTypes) {
-                    stringBuilder.append(type).append(", ");
-                    Log.d(TAG, "validateApnData: appending type: " + type);
-                }
-                // remove last ", "
-                if (stringBuilder.length() >= 2) {
-                    stringBuilder.delete(stringBuilder.length() - 2, stringBuilder.length());
-                }
-                errorMsg = String.format(getResources().getString(R.string.error_adding_apn_type),
-                        stringBuilder);
-            }
-        }
-
         return errorMsg;
     }
 
@@ -1273,12 +1228,10 @@ public class ApnEditor extends SettingsPreferenceFragment
 
     private String getEditableApnType(String[] apnTypeList) {
         final StringBuilder editableApnTypes = new StringBuilder();
-        final List<String> readOnlyApnTypes = Arrays.asList(mReadOnlyApnTypes);
         boolean first = true;
         for (String apnType : apnTypeList) {
             // add APN type if it is not read-only and is not wild-cardable
-            if (!readOnlyApnTypes.contains(apnType)
-                    && !apnType.equals(APN_TYPE_IA)
+            if (!apnType.equals(APN_TYPE_IA)
                     && !apnType.equals(APN_TYPE_EMERGENCY)
                     && !apnType.equals(APN_TYPE_MCX)
                     && !apnType.equals(APN_TYPE_IMS)) {
@@ -1320,26 +1273,12 @@ public class ApnEditor extends SettingsPreferenceFragment
     }
 
     private void getCarrierCustomizedConfig() {
-        mReadOnlyApn = false;
-        mReadOnlyApnTypes = null;
-        mReadOnlyApnFields = null;
 
         final CarrierConfigManager configManager = (CarrierConfigManager)
                 getSystemService(Context.CARRIER_CONFIG_SERVICE);
         if (configManager != null) {
             final PersistableBundle b = configManager.getConfigForSubId(mSubId);
             if (b != null) {
-                mReadOnlyApnTypes = b.getStringArray(
-                        CarrierConfigManager.KEY_READ_ONLY_APN_TYPES_STRING_ARRAY);
-                if (!ArrayUtils.isEmpty(mReadOnlyApnTypes)) {
-                    Log.d(TAG,
-                            "onCreate: read only APN type: " + Arrays.toString(mReadOnlyApnTypes));
-                }
-                mReadOnlyApnFields = b.getStringArray(
-                        CarrierConfigManager.KEY_READ_ONLY_APN_FIELDS_STRING_ARRAY);
-
-                mDefaultApnTypes = b.getStringArray(
-                        CarrierConfigManager.KEY_APN_SETTINGS_DEFAULT_APN_TYPES_STRING_ARRAY);
 
                 if (!ArrayUtils.isEmpty(mDefaultApnTypes)) {
                     Log.d(TAG, "onCreate: default apn types: " + Arrays.toString(mDefaultApnTypes));
