@@ -29,10 +29,10 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.applications.ProcessStatsSummary" />
 
-        <!--<com.android.settings.BugreportPreference
+        <com.android.settings.BugreportPreference
             android:key="bugreport"
             android:title="@*android:string/bugreport_title"
-            android:dialogTitle="@*android:string/bugreport_title" />-->
+            android:dialogTitle="@*android:string/bugreport_title" />
 
         <Preference
             android:key="bug_report_handler"
@@ -109,8 +109,19 @@
             android:title="@string/color_temperature"
             android:summary="@string/color_temperature_desc" />
 
+        <!--SwitchPreference
+            android:key="ota_disable_automatic_update"
+            android:title="@string/ota_disable_automatic_update"
+            android:summary="@string/ota_disable_automatic_update_summary" /-->
+
         <Preference android:key="dsu_loader"
                     android:title="@string/dsu_loader_title" />
+
+        <Preference
+            android:key="demo_mode"
+            android:title="@string/demo_mode">
+            <intent android:action="com.android.settings.action.DEMO_MODE" />
+        </Preference>
 
         <Preference
             android:key="quick_settings_tiles"
@@ -148,10 +159,10 @@
             android:title="@string/enable_terminal_title"
             android:summary="@string/enable_terminal_summary" />
 
-        <!--<SwitchPreference
+        <SwitchPreference
             android:key="bugreport_in_power"
             android:title="@string/bugreport_in_power"
-            android:summary="@string/bugreport_in_power_summary" />-->
+            android:summary="@string/bugreport_in_power_summary" />
 
         <SwitchPreference
             android:key="enable_verbose_vendor_logging"
