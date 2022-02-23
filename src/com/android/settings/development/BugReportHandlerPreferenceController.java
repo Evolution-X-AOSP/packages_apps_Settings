@@ -49,7 +49,8 @@ public class BugReportHandlerPreferenceController extends DeveloperOptionsPrefer
 
     @Override
     public boolean isAvailable() {
-        return false;
+        return !mUserManager.hasUserRestriction(UserManager.DISALLOW_DEBUGGING_FEATURES)
+                && mBugReportHandlerUtil.isBugReportHandlerEnabled(mContext);
     }
 
     @Override
