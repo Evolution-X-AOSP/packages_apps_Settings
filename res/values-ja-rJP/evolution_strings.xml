@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2021 The Evolution X Project
+     Copyright (C) 2019-2022 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -173,6 +173,7 @@
     <string name="adaptive_playback_screen_title">アダプティブ再生</string>
     <string name="adaptive_playback_enabled">アダプティブ再生を使用</string>
     <string name="adaptive_playback_disabled_summary">OFF</string>
+    <string name="adaptive_playback_intro_text">音量をミュートにした時はメディアを自動的に一時停止し、設定時間内に音量が元に戻ったら自動的に再開されます。</string>
     <string name="adaptive_playback_timeout_title">使用時間</string>
     <string name="adaptive_playback_timeout_none">制限なし</string>
     <string name="adaptive_playback_timeout_none_summary">ON (制限なし)</string>
@@ -186,7 +187,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">ON (5分)</string>
     <string name="adaptive_playback_timeout_10_min">10分</string>
     <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
-    <string name="adaptive_playback_explainer">音量をミュートにした時はアダプティブ再生はメディアを自動的に一時停止し、設定時間内に音量が元に戻ったら自動的に再開されます。</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">フローティング回転ボタンを使用</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
@@ -198,4 +198,38 @@
     <string name="app_volume">アプリの音量</string>
     <string name="app_volume_title">アプリごとの音量調節</string>
     <string name="app_volume_summary">アプリごとに異なる音量を設定する</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">スマートフォン前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">スマートフォン背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">スマートフォン左側にある指紋認証センサーを探します</string>
+    <!-- App lock -->
+    <string name="app_lock_title">アプリロック</string>
+    <string name="app_lock_summary_singular">1個のアプリが保護されています</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g>個のアプリが保護されています</string>
+    <string name="app_lock_authentication_dialog_title">ロック解除</string>
+    <string name="enable_debugging">デバッグを有効化</string>
+    <string name="disable_debugging">デバッグを無効化</string>
+    <string name="app_lock_packages_title">アプリの保護</string>
+    <string name="app_lock_packages_summary">生体認証や端末認証で保護するアプリを選択する</string>
+    <string name="app_lock_timeout_title">自動ロックの時間</string>
+    <string name="app_lock_timeout_summary">バックグラウンドのアプリがロック解除されてからの時間の長さです</string>
+    <string name="app_lock_notifications_title">通知を消去</string>
+    <string name="app_lock_notifications_summary">         選択されたアプリがロックされると、通知の内容は非表示になり破棄されます。
+          Heads Up 通知は自動的に無効化されます。
+    </string>
+    <string name="app_lock_notifications_disabled_summary">アプリを最初に保護する</string>
+    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化</string>
+    <string name="app_lock_footer_text">制限時間後にバブルは自動的に解除されます</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">既存のロックオプション</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">アプリロックの設定、SIM カードのロック、認証情報ストレージのロック</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
+    <string name="face_redo_confirm_btn">やり直し</string>
+    <string name="face_redo_warning_msg">既存の顔スキャンを削除して新しいスキャンを作成しますか?</string>
+    <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
+    <string name="face_unlock_method_default">画面が点灯した時</string>
+    <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
 </resources>
