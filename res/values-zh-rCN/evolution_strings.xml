@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2021 The Evolution X Project
+     Copyright (C) 2019-2022 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -170,9 +170,10 @@
     <string name="pulse_on_new_tracks_title">息屏音乐信息</string>
     <string name="pulse_on_new_tracks_summary">在打开新的音乐曲目时显示环境显示</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">自适应播放</string>
-    <string name="adaptive_playback_enabled">使用自适应播放</string>
+    <string name="adaptive_playback_screen_title">智能暂停</string>
+    <string name="adaptive_playback_enabled">使用智能暂停</string>
     <string name="adaptive_playback_disabled_summary">关闭</string>
+    <string name="adaptive_playback_intro_text">音量静音时自动暂停媒体，并在设定时间内恢复音量时自动恢复</string>
     <string name="adaptive_playback_timeout_title">使用超时</string>
     <string name="adaptive_playback_timeout_none">不限时</string>
     <string name="adaptive_playback_timeout_none_summary">开启 (无超时)</string>
@@ -186,7 +187,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">开启 (5 分钟)</string>
     <string name="adaptive_playback_timeout_10_min">10 分钟</string>
     <string name="adaptive_playback_timeout_10_min_summary">开启 (10 分钟)</string>
-    <string name="adaptive_playback_explainer">当音量静音时，自适应播放会自动暂停媒体；如果在设定的时间内恢复音量，则会自动恢复播放</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">使用浮动旋转按钮</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
@@ -198,4 +198,38 @@
     <string name="app_volume">应用音量</string>
     <string name="app_volume_title">每个应用的音量控制</string>
     <string name="app_volume_summary">允许为每个应用设置不同的音量级别</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">在您的手机正面找到指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">您可以在手机背面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">在手机一侧找到指纹传感器</string>
+    <!-- App lock -->
+    <string name="app_lock_title">应用锁</string>
+    <string name="app_lock_summary_singular">1 个应用程序受到保护</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> 应用程序受到保护</string>
+    <string name="app_lock_authentication_dialog_title">解锁</string>
+    <string name="enable_debugging">启用调试</string>
+    <string name="disable_debugging">禁用调试</string>
+    <string name="app_lock_packages_title">受保护的应用</string>
+    <string name="app_lock_packages_summary">选择要使用生物识别或设备凭据保护的应用</string>
+    <string name="app_lock_timeout_title">自动锁定超时</string>
+    <string name="app_lock_timeout_summary">后台解锁应用的持续时间</string>
+    <string name="app_lock_notifications_title">折叠通知</string>
+    <string name="app_lock_notifications_summary">          当锁定时，将为所选应用程序隐藏并折叠通知内容。
+          抬头通知将被自动禁用
+    </string>
+    <string name="app_lock_notifications_disabled_summary">首先保护应用程序</string>
+    <string name="app_lock_biometrics_allowed_title">启用生物识别解锁</string>
+    <string name="app_lock_footer_text">超时后气泡会自动消失</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">原生锁定选项</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">设置应用锁定、 SIM 卡锁定、 凭据存储锁</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">删除现有的面部扫描并创建新的扫描</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重做面部扫描</string>
+    <string name="face_redo_confirm_btn">重做</string>
+    <string name="face_redo_warning_msg">是否要移除现有的面部扫描并创建新的扫描？</string>
+    <string name="face_unlock_method_title">允许在锁定屏幕使用人脸识别解锁</string>
+    <string name="face_unlock_method_default">当屏幕开启时</string>
+    <string name="face_unlock_method_swipe">在锁屏界面上滑动时</string>
 </resources>
