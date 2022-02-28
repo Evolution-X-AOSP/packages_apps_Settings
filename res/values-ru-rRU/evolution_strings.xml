@@ -169,6 +169,43 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Функция «Сейчас играет»</string>
     <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении нового трека</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Не задано</string>
+    <string name="action_menu">Меню</string>
+    <string name="action_app_switch">Недавний</string>
+    <string name="action_voice_search">Голосовой поиск</string>
+    <string name="action_launch_camera">Камера</string>
+    <string name="action_last_app">Последнее приложение</string>
+    <string name="action_splitscreen">Разделить экран</string>
+    <string name="action_flashlight">Фонарик</string>
+    <string name="action_clear_notifications">Очистить уведомления</string>
+    <string name="action_volume_panel">Панель регулировки громкости</string>
+    <string name="action_screen_off">Экран выключить</string>
+    <string name="action_notifications">Уведомления</string>
+    <string name="action_power_menu">Меню питания</string>
+    <string name="action_screenshot">Снимок экрана</string>
+    <string name="action_qs_panel">Панель быстрых настроек</string>
+    <string name="action_app_action">Приложения</string>
+    <string name="action_ringer_modes">Режимы звонка</string>
+    <string name="kill_app">Закрыть активное приложение</string>
+    <string name="recent_app_toggle">Переключить недавнее приложение</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Дополнительные параметры жестов</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и настройка пользовательских действий</string>
+    <string name="navbar_gesture_tweaks_cat_title">Дополнительно</string>
+    <string name="swipe_app_select_summary">Выберите приложение, которое хотите запускать при сжатии</string>
+    <string name="long_back_swipe_timeout_title">Длительность долгого свайпа</string>
+    <string name="left_swipe_actions_title">Действие при длинном свайпе слева</string>
+    <string name="left_swipe_app_action_title">Выбрать приложение на длинный свайп слева</string>
+    <string name="right_swipe_actions_title">Действие при длинном свайпе справа</string>
+    <string name="right_swipe_app_action_title">Выбрать приложение на длинный свайп справа</string>
+    <string name="left_vertical_swipe_actions_title">Действие на вертикальный свайп слева</string>
+    <string name="left_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп слева</string>
+    <string name="right_vertical_swipe_actions_title">Действие на вертикальный L-свайп справа</string>
+    <string name="right_vertical_swipe_app_action_title">Выберите приложение на вертикальный L-свайп справа</string>
+    <string name="gesture_nav_tweaks_footer_info">Для выбора конкретного действия приложения нажмите и удерживайте палец на любом приложении в меню выбора приложений.\n\nНа рабочем столе выполните свайп в самой нижней части экрана, чтобы запустить действие.</string>
+    <string name="back_swipe_extended_title">Действие при длинном свайпе</string>
+    <string name="back_swipe_extended_summary">Запуск действия при длинном свайпе (более чем на половину экрана), или L-свайп (от края и вверх)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
     <string name="adaptive_playback_enabled">Использовать адаптивное воспроизведение</string>

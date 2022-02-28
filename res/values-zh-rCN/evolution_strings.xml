@@ -169,6 +169,43 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">息屏音乐信息</string>
     <string name="pulse_on_new_tracks_summary">在打开新的音乐曲目时显示环境显示</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">无动作</string>
+    <string name="action_menu">菜单</string>
+    <string name="action_app_switch">最近任务</string>
+    <string name="action_voice_search">语音搜索</string>
+    <string name="action_launch_camera">相机</string>
+    <string name="action_last_app">上一个应用</string>
+    <string name="action_splitscreen">分屏</string>
+    <string name="action_flashlight">手电筒</string>
+    <string name="action_clear_notifications">清除通知</string>
+    <string name="action_volume_panel">声音面板</string>
+    <string name="action_screen_off">息屏</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_power_menu">电源菜单</string>
+    <string name="action_screenshot">屏幕截图</string>
+    <string name="action_qs_panel">快速设置面板</string>
+    <string name="action_app_action">应用程序</string>
+    <string name="action_ringer_modes">响铃模式</string>
+    <string name="kill_app">终止前台应用</string>
+    <string name="recent_app_toggle">切换最近的应用</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">高级手势选项</string>
+    <string name="navbar_gesture_tweaks_pref_summary">自定义手势并设置自定义操作</string>
+    <string name="navbar_gesture_tweaks_cat_title">高级选项</string>
+    <string name="swipe_app_select_summary">选择一个应用程序在按压时启动</string>
+    <string name="long_back_swipe_timeout_title">长滑超时</string>
+    <string name="left_swipe_actions_title">左长滑动作</string>
+    <string name="left_swipe_app_action_title">选择左长滑应用</string>
+    <string name="right_swipe_actions_title">右长滑动作</string>
+    <string name="right_swipe_app_action_title">选择右长滑应用</string>
+    <string name="left_vertical_swipe_actions_title">垂直左 L 滑动操作</string>
+    <string name="left_vertical_swipe_app_action_title">选择垂直左滑动应用</string>
+    <string name="right_vertical_swipe_actions_title">垂直右 L 滑动动作</string>
+    <string name="right_vertical_swipe_app_action_title">选择垂直右滑动应用</string>
+    <string name="gesture_nav_tweaks_footer_info">在应用选择器中长按选择可以为手势指定应用的特定活动。\n\n在使用启动器时，在屏幕底部滑动可以触发手势。</string>
+    <string name="back_swipe_extended_title">额外滑动手势</string>
+    <string name="back_swipe_extended_summary">较长的滑动距离 (超过屏幕的一半) 或做 L 形滑动 (垂直距离足够长) 可以触发手势</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">智能暂停</string>
     <string name="adaptive_playback_enabled">使用智能暂停</string>

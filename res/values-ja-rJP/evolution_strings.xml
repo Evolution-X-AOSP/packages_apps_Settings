@@ -169,6 +169,43 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
     <string name="pulse_on_new_tracks_summary">新規楽曲再生時にアンビエント表示をする</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">なし</string>
+    <string name="action_menu">メニュー</string>
+    <string name="action_app_switch">アプリ履歴</string>
+    <string name="action_voice_search">音声検索</string>
+    <string name="action_launch_camera">カメラ</string>
+    <string name="action_last_app">直前のアプリ</string>
+    <string name="action_splitscreen">画面分割</string>
+    <string name="action_flashlight">フラッシュライト</string>
+    <string name="action_clear_notifications">通知を消去</string>
+    <string name="action_volume_panel">音量パネル</string>
+    <string name="action_screen_off">画面を消灯</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_power_menu">電源メニュー</string>
+    <string name="action_screenshot">スクリーンショット</string>
+    <string name="action_qs_panel">クイック設定パネル</string>
+    <string name="action_app_action">アプリ</string>
+    <string name="action_ringer_modes">着信モード</string>
+    <string name="kill_app">フォアグラウンドアプリを終了</string>
+    <string name="recent_app_toggle">直前のアプリの切り替え</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャーオプション</string>
+    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャーの編集とカスタムアクションの設定をする</string>
+    <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
+    <string name="swipe_app_select_summary">握りアクションで起動するアプリを選択する</string>
+    <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
+    <string name="left_swipe_actions_title">長い左スワイプアクション</string>
+    <string name="left_swipe_app_action_title">長い左スワイプアクションのアプリ選択</string>
+    <string name="right_swipe_actions_title">長い右スワイプアクション</string>
+    <string name="right_swipe_app_action_title">長い右スワイプアクションのアプリ選択</string>
+    <string name="left_vertical_swipe_actions_title">垂直左 L スワイプのアクション</string>
+    <string name="left_vertical_swipe_app_action_title">垂直左スワイプアプリを選択</string>
+    <string name="right_vertical_swipe_actions_title">垂直右 L スワイプのアクション</string>
+    <string name="right_vertical_swipe_app_action_title">垂直右スワイプアプリを選択</string>
+    <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリの選択でアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
+    <string name="back_swipe_extended_title">拡張スワイプアクション</string>
+    <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">アダプティブ再生</string>
     <string name="adaptive_playback_enabled">アダプティブ再生を使用</string>
