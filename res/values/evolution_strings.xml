@@ -388,6 +388,7 @@
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
 
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Playback control</string>
