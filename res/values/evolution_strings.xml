@@ -437,6 +437,7 @@
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
 
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Hide IME button space</string>
