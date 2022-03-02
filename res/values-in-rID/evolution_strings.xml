@@ -269,4 +269,9 @@
     <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Suara pengisian daya</string>
+    <string name="charging_vibro_title">Getaran pengisian daya</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Suhu Baterai</string>
 </resources>
