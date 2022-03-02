@@ -16,6 +16,7 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/accessibility_vibration_settings_title">
 
@@ -41,23 +42,26 @@
         android:title="@string/vibration_haptics_strength_category_title"
         settings:controller="com.google.android.settings.accessibility.HapticsStrengthCategoryPreferenceController">
 
-        <SwitchPreference
-            android:key="ring_vibration_switch_preference"
+        <Preference
+            android:fragment="com.android.settings.accessibility.RingVibrationPreferenceFragment"
+            android:key="ring_vibration_preference_screen"
             android:title="@string/accessibility_ring_vibration_title"
-            settings:controller="com.google.android.settings.accessibility.RingVibrationTogglePreferenceController"
-            settings:keywords="@string/keywords_ring_vibration" />
+            settings:keywords="@string/keywords_ring_vibration"
+            app:controller="com.android.settings.accessibility.RingVibrationIntensityPreferenceController" />
 
-        <SwitchPreference
-            android:key="notification_vibration_switch_preference"
+        <Preference
+            android:fragment="com.android.settings.accessibility.NotificationVibrationPreferenceFragment"
+            android:key="notification_vibration_preference_screen"
             android:title="@string/accessibility_notification_vibration_title"
-            settings:controller="com.google.android.settings.accessibility.NotificationVibrationTogglePreferenceController"
-            settings:keywords="@string/keywords_notification_vibration" />
+            settings:keywords="@string/keywords_notification_vibration"
+            app:controller="com.android.settings.accessibility.NotificationVibrationIntensityPreferenceController" />
 
-        <SwitchPreference
-            android:key="touch_vibration_switch_preference"
+        <Preference
+            android:fragment="com.android.settings.accessibility.TouchVibrationPreferenceFragment"
+            android:key="touch_vibration_preference_screen"
             android:title="@string/accessibility_touch_vibration_title"
-            settings:controller="com.google.android.settings.accessibility.HapticFeedbackTogglePreferenceController"
-            settings:keywords="@string/keywords_touch_vibration" />
+            settings:keywords="@string/keywords_touch_vibration"
+            app:controller="com.android.settings.accessibility.HapticFeedbackIntensityPreferenceController" />
 
     </PreferenceCategory>
 
