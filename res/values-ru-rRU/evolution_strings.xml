@@ -269,4 +269,9 @@
     <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
     <string name="face_unlock_method_default">При включении экрана</string>
     <string name="face_unlock_method_swipe">После свайпа на экране блокировки</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Сигнал при подключении зарядки</string>
+    <string name="charging_vibro_title">Вибрация при подключении зарядки</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Температура батареи</string>
 </resources>
