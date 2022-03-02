@@ -269,4 +269,9 @@
     <string name="face_unlock_method_title">Permitir desbloqueio facial na tela de bloqueio</string>
     <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
     <string name="face_unlock_method_swipe">Ao deslizar na tela de bloqueio</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Som de carregamento</string>
+    <string name="charging_vibro_title">Vibrar ao plugar</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura da bateria</string>
 </resources>
