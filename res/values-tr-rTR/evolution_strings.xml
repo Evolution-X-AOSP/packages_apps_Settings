@@ -268,4 +268,9 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Şarj sesi</string>
+    <string name="charging_vibro_title">Şarj titreşimi</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Pil sıcaklığı</string>
 </resources>
