@@ -144,14 +144,11 @@
         settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
         settings:keywords="@string/keywords_media_controls"/>
 
-    <!-- Also vibrate for calls -->
-    <Preference
-        android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"
-        android:key="vibrate_for_calls"
-        android:title="@string/vibrate_when_ringing_title"
+    <com.google.android.settings.accessibility.HapticsDialogPreference
+        android:key="vibration_preference_screen"
+        android:title="@string/accessibility_vibration_settings_title"
         android:order="-90"
-        settings:controller="com.android.settings.sound.VibrateForCallsPreferenceController"
-        settings:keywords="@string/keywords_vibrate_for_calls"/>
+        settings:controller="com.google.android.settings.accessibility.VibrationPreferenceController"/>
 
     <com.android.settings.widget.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_sound"
