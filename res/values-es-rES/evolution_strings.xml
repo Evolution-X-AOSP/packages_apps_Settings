@@ -169,6 +169,43 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Marca de música</string>
     <string name="pulse_on_new_tracks_summary">Mostrar marca de música en pantalla ambiente al cambiar la canción</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Sin acción</string>
+    <string name="action_menu">Menú</string>
+    <string name="action_app_switch">Recientes</string>
+    <string name="action_voice_search">Búsqueda por voz</string>
+    <string name="action_launch_camera">Cámara</string>
+    <string name="action_last_app">Última aplicación</string>
+    <string name="action_splitscreen">Pantalla dividida</string>
+    <string name="action_flashlight">Linterna</string>
+    <string name="action_clear_notifications">Limpiar notificaciones</string>
+    <string name="action_volume_panel">Panel de volumen</string>
+    <string name="action_screen_off">Apagar la pantalla</string>
+    <string name="action_notifications">Notificaciones</string>
+    <string name="action_power_menu">Menú de apagado</string>
+    <string name="action_screenshot">Captura de pantalla</string>
+    <string name="action_qs_panel">Panel de ajustes rápidos (QS)</string>
+    <string name="action_app_action">Aplicación</string>
+    <string name="action_ringer_modes">Modos de timbre</string>
+    <string name="kill_app">Cerrar aplicación en primer plano</string>
+    <string name="recent_app_toggle">Cambiar a aplicación reciente</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Opciones avanzadas de gestos</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizar gestos y establecer acciones personalizadas</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzado</string>
+    <string name="swipe_app_select_summary">Selecciona una aplicación para iniciar con la acción de deslizamiento</string>
+    <string name="long_back_swipe_timeout_title">Tiempo de espera de acción de deslizamiento</string>
+    <string name="left_swipe_actions_title">Acción con deslizamiento izquierdo largo</string>
+    <string name="left_swipe_app_action_title">Seleccionar aplicación de deslizamiento izquierdo largo</string>
+    <string name="right_swipe_actions_title">Acción de deslizamiento derecho largo</string>
+    <string name="right_swipe_app_action_title">Seleccionar aplicación de deslizamiento derecho largo</string>
+    <string name="left_vertical_swipe_actions_title">Acción de deslizamiento vertical en L en la izquierda</string>
+    <string name="left_vertical_swipe_app_action_title">Seleccionar aplicación de deslizamiento vertical en la izquierda</string>
+    <string name="right_vertical_swipe_actions_title">Acción de deslizamiento vertical en L en la derecha</string>
+    <string name="right_vertical_swipe_app_action_title">Seleccionar aplicación de deslizamiento vertical en la derecha</string>
+    <string name="gesture_nav_tweaks_footer_info">Para elegir una actividad de aplicación específica para la acción, mantenga presionada cualquier aplicación en el selector de aplicaciones.\n\nSi se muestra el lanzador, deslice el dedo en la parte inferior de la pantalla para activar la acción.</string>
+    <string name="back_swipe_extended_title">Acción de deslizamiento extendida</string>
+    <string name="back_swipe_extended_summary">La acción para activación requiere un deslizamiento más ancho (más de la mitad del tamaño de la pantalla) o un deslizamiento en L (verticalmente más largo)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pausa Inteligente</string>
     <string name="adaptive_playback_enabled">Usar Pausa Inteligente</string>
@@ -232,4 +269,9 @@
     <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
     <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
     <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Sonido de carga</string>
+    <string name="charging_vibro_title">Vibración al cargar</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura de la batería</string>
 </resources>
