@@ -269,4 +269,9 @@
     <string name="face_unlock_method_title">Να επιτρέπεται το ξεκλείδωμα προσώπου στην οθόνη κλειδώματος</string>
     <string name="face_unlock_method_default">Όταν η οθόνη είναι ενεργοποιημένη</string>
     <string name="face_unlock_method_swipe">Κατά την ολίσθηση στην οθόνη κλειδώματος</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Ήχος φόρτισης</string>
+    <string name="charging_vibro_title">Δόνηση φόρτισης</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Θερμοκρασία μπαταρίας</string>
 </resources>
