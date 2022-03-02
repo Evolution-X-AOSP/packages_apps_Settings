@@ -204,7 +204,7 @@
     <string name="right_vertical_swipe_actions_title">垂直右 L 滑动动作</string>
     <string name="right_vertical_swipe_app_action_title">选择垂直右滑动应用</string>
     <string name="gesture_nav_tweaks_footer_info">在应用选择器中长按选择可以为手势指定应用的特定活动。\n\n在使用启动器时，在屏幕底部滑动可以触发手势。</string>
-    <string name="back_swipe_extended_title">额外滑动手势</string>
+    <string name="back_swipe_extended_title">扩展滑动动作</string>
     <string name="back_swipe_extended_summary">较长的滑动距离 (超过屏幕的一半) 或做 L 形滑动 (垂直距离足够长) 可以触发手势</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">智能暂停</string>
@@ -269,4 +269,9 @@
     <string name="face_unlock_method_title">允许在锁定屏幕使用人脸识别解锁</string>
     <string name="face_unlock_method_default">当屏幕开启时</string>
     <string name="face_unlock_method_swipe">在锁屏界面上滑动时</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">充电提示音</string>
+    <string name="charging_vibro_title">充电时振动</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">电池温度</string>
 </resources>
