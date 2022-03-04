@@ -179,4 +179,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_band_24ghz_and_5ghz" translatable="false">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz" translatable="false">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz" translatable="false">60 GHz</string>
 </resources>
