@@ -150,8 +150,8 @@ public class WifiTetherSettingsTest {
         assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_SECURITY);
         assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_NETWORK_PASSWORD);
         assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_AUTO_OFF);
-        assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_MAXIMIZE_COMPATIBILITY);
-        assertThat(niks).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_HIDDEN_SSID);
+        assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_AP_BAND);
+        assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_HIDDEN_SSID);
     }
 
     @Test
@@ -168,7 +168,8 @@ public class WifiTetherSettingsTest {
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_NETWORK_PASSWORD);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_AUTO_OFF);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_MAXIMIZE_COMPATIBILITY);
-        assertThat(niks).contains(WifiTetherSettings.KEY_WIFI_TETHER_HIDDEN_SSID);
+        assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_AP_BAND);
+        assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_HIDDEN_SSID);
     }
 
     @Test
