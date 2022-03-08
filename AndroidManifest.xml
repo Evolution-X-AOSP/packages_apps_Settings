@@ -4568,6 +4568,8 @@
                        android:resource="@string/evolver_dashboard_summary"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.evolution.settings.EvolutionSettings" />
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                       android:value="@string/menu_key_evolver"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                        android:value="true" />
         </activity>
