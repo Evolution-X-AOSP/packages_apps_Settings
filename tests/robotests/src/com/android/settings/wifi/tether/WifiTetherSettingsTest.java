@@ -44,6 +44,7 @@ import com.android.settings.core.FeatureFlags;
 import com.android.settings.testutils.FakeFeatureFactory;
 import com.android.settings.testutils.shadow.ShadowFragment;
 import com.android.settings.testutils.shadow.ShadowWifiManager;
+import com.android.settings.wifi.tether.WifiTetherAutoOffPreferenceController;
 
 import org.junit.Before;
 import org.junit.Ignore;
