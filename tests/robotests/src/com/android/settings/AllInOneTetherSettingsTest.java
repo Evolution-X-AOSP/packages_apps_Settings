@@ -49,6 +49,8 @@ import com.android.settings.wifi.tether.WifiTetherAutoOffPreferenceController;
 import com.android.settings.wifi.tether.WifiTetherSecurityPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
+import ink.kscope.settings.wifi.tether.WifiTetherAutoOffPreferenceController;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
