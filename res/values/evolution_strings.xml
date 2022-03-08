@@ -182,4 +182,5 @@
     <string name="wifi_band_24ghz_and_5ghz" translatable="false">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz" translatable="false">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz" translatable="false">60 GHz</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
 </resources>
