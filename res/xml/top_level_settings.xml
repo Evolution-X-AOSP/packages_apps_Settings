@@ -28,6 +28,7 @@
         android:order="-160"
         android:title="@string/evolver_dashboard_title"
         android:summary="@string/evolver_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_evolver"
         settings:controller="com.evolution.settings.TopLevelEvolutionSettingsPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
