@@ -12,4 +12,6 @@
 
     <!-- Dimensions for Contextual Card -->
     <dimen name="contextual_card_content_padding">13dp</dimen>
+
+    <dimen name="package_list_padding_top">16dp</dimen>
 </resources>
