@@ -20,7 +20,7 @@
 
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Time to continue the Evolution of your device</string>
+    <string name="evolver_dashboard_summary">The Evolution of your device, now on 12.1</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
