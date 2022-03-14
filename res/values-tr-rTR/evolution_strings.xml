@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2022 The Evolution X Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
+     Copyright (C) 2019-2022 Evolution X
+     SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Hardware info -->
@@ -26,149 +15,37 @@
     <string name="build_maintainer">Cihaz sorumlusu</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Evrime devam etme zamanı</string>
+    <string name="evolver_dashboard_summary">Evrime devam etme zamanı, şimdi 12.1</string>
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux durumu</string>
     <string name="selinux_status_disabled">Devre dışı</string>
     <string name="selinux_status_permissive">Permissive (Serbest)</string>
     <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
-    <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
-    <string name="increasing_ring_min_volume_title">Başlangıç sesi</string>
-    <string name="increasing_ring_ramp_up_time_title">Yükselme zamanı</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
-    <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
-    <string name="unlock_scramble_pin_layout_summary">Cihazın kilidini açarken PIN düzenini karıştır</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
-    <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde kilidi otomatik olarak açar</string>
-    <!-- Running services -->
-    <string name="background_processes_settings_title">Arkaplan işlemleri</string>
-    <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Takıp çıkarmada uyan</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Şarj aleti takıldığında veya çıkarıldığında ekranı aç</string>
-    <!-- Home button wake -->
-    <string name="home_wake_button_title">Ana ekran tuşu ile uyan</string>
-    <string name="home_wake_button_summary">Ekranı uyandırmak için ana ekran tuşunu etkinleştir</string>
-    <!-- Custom light color -->
-    <string name="custom_light_title">Işık rengi</string>
-    <string name="custom_light_on_time_title">LED açıkken yanıp sönme hızı (ms)</string>
-    <string name="custom_light_off_time_title">LED kapalıyken yanıp sönme hızı (ms)\"</string>
-    <string name="value_equals_default">varsayılan</string>
-    <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Desen boyutu seçin</string>
-    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Desen hatalarını göster</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Desen noktalarını göster</string>
-    <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
-    <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
-    <string name="low_power_refresh_rate_title_custom">Düşük pil yenileme hızı</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
-    <string name="doze_on_charge_summary">Şarj olurken her zaman ortam ekranını göster</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Cep algılama</string>
-    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engeller</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
-    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
-    <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Sessiz, medya yok</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">Açık (sessiz, medya yok)</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Dokunsal geri bildirim</string>
-    <string name="back_gesture_haptic_summary">Geri hareketinde dokunsal tıklama efektini etkinleştirir</string>
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">Tam</string>
-    <string name="back_height_high_label">Alt</string>
-    <string name="back_options_dialog_title">Seçenekler</string>
-    <string name="back_height_message">Geri hareketi için dokunulabilir bölge olarak kullanılan ekran yüksekliği miktarı.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">1 dakikadan az</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">Bugün %1$s</string>
-    <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Zil sesi titreşim deseni</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Özel</string>
-    <string name="custom_vibration_pattern_title">Özel desen</string>
-    <string name="custom_vibration_pattern_summary">Özel bir titreşim modeli ayarlayın</string>
-    <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Modlar arasında geçiş yap</string>
-    <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
-    <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basmak şarkıyı değiştirir</string>
-    <!-- Fullscreen gestures -->
-    <string name="other_controls_title">Diğer kontroller</string>
-    <string name="fullscreen_gestures_title">Tam ekran hareketleri</string>
-    <string name="fullscreen_gestures_summary">Gezinme çubuğu tuşunu ve klavye boşluğunu gizle</string>
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Tuş uzunluğu</string>
-    <string name="short_label">Kısa</string>
-    <string name="long_label">Uzun</string>
-    <!-- Volume dialog timeout -->
-    <string name="unit_seconds">Saniye(ler)</string>
-    <string name="volume_dialog_timeout_title">Ses paneli zaman aşımı</string>
-    <string name="volume_dialog_timeout_summary">Ses panelinin kapanması için geçen süre</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Çift dokunma</string>
-    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
-    <string name="doze_double_tap_summary">Çift dokunuşla ortam ekranı bildirimleri</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Pil sıcaklığı</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
+    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
+    <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
+    <string name="low_power_refresh_rate_title_custom">Düşük pil yenileme hızı</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Sertifika belirtilmedi. Bağlantınız gizli olmayacak.</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Hızlı şarj</string>
+    <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Ekran görüntüsü için kaydırın</string>
     <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızla aşağı kaydırın</string>
-    <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Wi-Fi\'yi otomatik olarak kapat</string>
-    <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
-    <string name="wifi_timeout_summary2">Devre dışı</string>
-    <string name="wifi_timeout_summary_never">Asla</string>
-    <string name="wifi_timeout_summary_15secs">15 saniye</string>
-    <string name="wifi_timeout_summary_30secs">30 saniye</string>
-    <string name="wifi_timeout_summary_1min">1 dakika</string>
-    <string name="wifi_timeout_summary_2mins">2 dakika</string>
-    <string name="wifi_timeout_summary_5mins">5 dakika</string>
-    <string name="wifi_timeout_summary_10mins">10 dakika</string>
-    <string name="wifi_timeout_summary_30mins">30 dakikada</string>
-    <string name="wifi_timeout_summary_1hour">1 saat</string>
-    <string name="wifi_timeout_summary_2hours">2 saat</string>
-    <string name="wifi_timeout_summary_4hours">4 saat</string>
-    <string name="wifi_timeout_summary_8hours">8 saat</string>
-    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
-    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
-    <string name="bluetooth_timeout_summary2">Bluetooth\'u otomatik olarak kapatma</string>
-    <string name="bluetooth_timeout_summary_never">Asla</string>
-    <string name="bluetooth_timeout_summary_15secs">15 saniye</string>
-    <string name="bluetooth_timeout_summary_30secs">30 saniye</string>
-    <string name="bluetooth_timeout_summary_1min">1 dakika</string>
-    <string name="bluetooth_timeout_summary_2mins">2 dakika</string>
-    <string name="bluetooth_timeout_summary_5mins">5 dakika</string>
-    <string name="bluetooth_timeout_summary_10mins">10 dakika</string>
-    <string name="bluetooth_timeout_summary_30mins">30 dakika</string>
-    <string name="bluetooth_timeout_summary_1hour">1 saat</string>
-    <string name="bluetooth_timeout_summary_2hours">2 saat</string>
-    <string name="bluetooth_timeout_summary_4hours">4 saat</string>
-    <string name="bluetooth_timeout_summary_8hours">8 saat</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
-    <string name="pulse_on_new_tracks_summary">Yeni bir müzik parçası çalındığında Ortam Ekranını göster</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Uyarlanabilir oynatma</string>
     <string name="adaptive_playback_enabled">Uyarlanabilir oynatma etkin</string>
@@ -187,21 +64,18 @@
     <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
     <string name="adaptive_playback_timeout_10_min">10 dakika</string>
     <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
-    <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Hareketli yönlendirme tuşu kullan</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Modlar arasında geçiş yap</string>
+    <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basmak şarkıyı değiştirir</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Kaydedilmiş Kulaklıklar</string>
-    <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">Tek seferlik otomatik parlaklık</string>
-    <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
-    <!-- Per-app volume control -->
-    <string name="app_volume">Uygulama ses düzeyi</string>
-    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
-    <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Telefonunuzun arkasında bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Telefonunuzun yanında bulunan parmak izi sensörünü bulun.</string>
     <!-- App lock -->
     <string name="app_lock_title">Uygulama kilidi</string>
     <string name="app_lock_summary_singular">1 uygulama kilitlendi</string>
@@ -219,10 +93,33 @@
     <string name="app_lock_notifications_disabled_summary">Önce bir uygulama kilitleyin</string>
     <string name="app_lock_biometrics_allowed_title">Kilidi açmak için biyometri kullan</string>
     <string name="app_lock_footer_text">Baloncuklar zaman aşımından sonra otomatik olarak yok sayılacak</string>
-    <!-- Screen setting option title for the item to take you to the stock security screen -->
-    <string name="aosp_security_settings_title">Standart kilit seçenekleri</string>
-    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
-    <string name="aosp_security_settings_summary">Uygulama kilidi, SIM kart kilidi, kimlik bilgisi ile depolama kilidi ayarlayın</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
+    <string name="unlock_scramble_pin_layout_summary">Cihazın kilidini açarken PIN düzenini karıştır</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
+    <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde kilidi otomatik olarak açar</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Desen boyutu seçin</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Desen hatalarını göster</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Desen noktalarını göster</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Şarj sesi</string>
+    <string name="charging_vibro_title">Şarj titreşimi</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Uygulama ses düzeyi</string>
+    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
+    <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Diğer kontroller</string>
+    <string name="fullscreen_gestures_title">Tam ekran hareketleri</string>
+    <string name="fullscreen_gestures_summary">Gezinme çubuğu tuşunu ve klavye boşluğunu gizle</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Tuş uzunluğu</string>
+    <string name="short_label">Kısa</string>
+    <string name="long_label">Uzun</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
@@ -231,9 +128,36 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
-    <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Şarj sesi</string>
-    <string name="charging_vibro_title">Şarj titreşimi</string>
-    <!-- Battery temperature -->
-    <string name="battery_temp">Pil sıcaklığı</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Çift dokunma</string>
+    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
+    <string name="doze_double_tap_summary">Çift dokunuşla ortam ekranı bildirimleri</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
+    <string name="pulse_on_new_tracks_summary">Yeni bir müzik parçası çalındığında Ortam Ekranını göster</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Tam</string>
+    <string name="back_height_high_label">Alt</string>
+    <string name="back_options_dialog_title">Seçenekler</string>
+    <string name="back_height_message">Geri hareketi için dokunulabilir bölge olarak kullanılan ekran yüksekliği miktarı.</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Bekleme modu yöneticisi</string>
+    <string name="idle_manager_summary">Cihaz bekleme modundayken önemli olmayan tüm arka plan işlemlerini durdur</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamaları</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
+    <string name="search">Ara</string>
+    <string name="search_apps">Uygulamaları ara</string>
+    <string name="application_icon">Uygulama simgesi</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
+    <string name="doze_on_charge_summary">Şarj olurken her zaman ortam ekranını göster</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Takıp çıkarmada uyan</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Şarj aleti takıldığında veya çıkarıldığında ekranı aç</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Işık rengi</string>
+    <string name="custom_light_on_time_title">LED açıkken yanıp sönme hızı (ms)</string>
+    <string name="custom_light_off_time_title">LED kapalıyken yanıp sönme hızı (ms)\"</string>
+    <string name="value_equals_default">varsayılan</string>
 </resources>
