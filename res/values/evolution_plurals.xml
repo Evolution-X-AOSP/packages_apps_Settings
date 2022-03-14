@@ -8,4 +8,9 @@
         <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
         <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
     </plurals>
+
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
+        <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+    </plurals>
 </resources>
