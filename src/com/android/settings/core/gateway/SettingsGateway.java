@@ -185,6 +185,8 @@ import com.evolution.settings.fragments.HeadsUpSettings;
 
 import com.google.android.settings.security.SecurityHubDashboard;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -355,7 +357,8 @@ public class SettingsGateway {
             EvolutionSettings.class.getName(),
             HeadsUpSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
-            SecurityHubDashboard.class.getName()
+            SecurityHubDashboard.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
