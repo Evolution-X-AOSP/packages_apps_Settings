@@ -54,6 +54,7 @@ import com.android.settings.widget.SettingsMainSwitchBar;
 import com.android.settings.wifi.tether.WifiTetherApBandPreferenceController;
 import com.android.settings.wifi.tether.WifiTetherAutoOffPreferenceController;
 import com.android.settings.wifi.tether.WifiTetherBasePreferenceController;
+import com.android.settings.wifi.tether.WifiTetherClientManagerPreferenceController;
 import com.android.settings.wifi.tether.WifiTetherFooterPreferenceController;
 import com.android.settings.wifi.tether.WifiTetherHiddenSsidPreferenceController;
 import com.android.settings.wifi.tether.WifiTetherPasswordPreferenceController;
@@ -100,6 +101,9 @@ public class AllInOneTetherSettings extends RestrictedDashboardFragment
     public static final String BLUETOOTH_TETHER_KEY = "enable_bluetooth_tethering" + DEDUP_POSTFIX;
     public static final String ETHERNET_TETHER_KEY = "enable_ethernet_tethering" + DEDUP_POSTFIX;
 
+    static final String KEY_WIFI_TETHER_CLIENT_MANAGER =
+            WifiTetherClientManagerPreferenceController.PREF_KEY + DEDUP_POSTFIX;
+
     @VisibleForTesting
     static final int EXPANDED_CHILD_COUNT_DEFAULT = 4;
     @VisibleForTesting
@@ -124,6 +128,7 @@ public class AllInOneTetherSettings extends RestrictedDashboardFragment
     private WifiTetherSecurityPreferenceController mSecurityPreferenceController;
     private WifiTetherHiddenSsidPreferenceController mHiddenSsidPreferenceController;
     private WifiTetherAutoOffPreferenceController mAutoOffPreferenceController;
+    private WifiTetherClientManagerPreferenceController mClientPreferenceController;
     private PreferenceGroup mWifiTetherGroup;
     private boolean mShouldShowWifiConfig = true;
     private boolean mHasShownAdvance;
@@ -194,6 +199,7 @@ public class AllInOneTetherSettings extends RestrictedDashboardFragment
         mApBandPreferenceController = use(WifiTetherApBandPreferenceController.class);
         mHiddenSsidPreferenceController = use(WifiTetherHiddenSsidPreferenceController.class);
         mAutoOffPreferenceController = use(WifiTetherAutoOffPreferenceController.class);
+        mClientPreferenceController = use(WifiTetherClientManagerPreferenceController.class);
         getSettingsLifecycle().addObserver(use(UsbTetherPreferenceController.class));
         getSettingsLifecycle().addObserver(use(BluetoothTetherPreferenceController.class));
         getSettingsLifecycle().addObserver(use(EthernetTetherPreferenceController.class));
@@ -342,6 +348,8 @@ public class AllInOneTetherSettings extends RestrictedDashboardFragment
                 new WifiTetherHiddenSsidPreferenceController(context, listener));
         controllers.add(
                 new WifiTetherFooterPreferenceController(context));
+        controllers.add(
+                new WifiTetherClientManagerPreferenceController(context, listener));
 
         return controllers;
     }
@@ -387,6 +395,7 @@ public class AllInOneTetherSettings extends RestrictedDashboardFragment
         }
         mApBandPreferenceController.setupBands(configBuilder);
         mAutoOffPreferenceController.updateConfig(configBuilder);
+        mClientPreferenceController.updateConfig(configBuilder);
         configBuilder.setHiddenSsid(mHiddenSsidPreferenceController.isHiddenSsidEnabled());
         return configBuilder.build();
     }
@@ -435,6 +444,7 @@ public class AllInOneTetherSettings extends RestrictedDashboardFragment
                         keys.add(KEY_WIFI_TETHER_AUTO_OFF);
                         keys.add(KEY_WIFI_TETHER_NETWORK_AP_BAND);
                         keys.add(KEY_WIFI_TETHER_SECURITY);
+                        keys.add(KEY_WIFI_TETHER_CLIENT_MANAGER);
                     }
                     return keys;
                 }
