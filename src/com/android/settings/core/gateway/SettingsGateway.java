@@ -195,6 +195,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.evolution.settings.EvolutionSettings;
 import com.evolution.settings.fragments.notifications.HeadsUpSettings;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -377,6 +379,7 @@ public class SettingsGateway {
             ScreenTimeoutSettings.class.getName(),
             EvolutionSettings.class.getName(),
             HeadsUpSettings.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
