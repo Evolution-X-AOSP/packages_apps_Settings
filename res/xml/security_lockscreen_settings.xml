@@ -88,6 +88,12 @@
             settings:userRestriction="no_ambient_display" />
 
         <SwitchPreference
+            android:key="doze_on_charge"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary"
+            settings:controller="com.android.settings.display.DozeOnChargePreferenceController" />
+
+        <SwitchPreference
             android:key="pulse_on_new_tracks"
             android:title="@string/pulse_on_new_tracks_title"
             android:summary="@string/pulse_on_new_tracks_summary"
