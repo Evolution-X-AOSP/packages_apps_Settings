@@ -211,6 +211,11 @@
     <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
 
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
+
     <!-- Home button wake -->
     <string name="home_wake_button_title">Home button wake-up</string>
     <string name="home_wake_button_summary">Enable home button to waking up screen</string>
