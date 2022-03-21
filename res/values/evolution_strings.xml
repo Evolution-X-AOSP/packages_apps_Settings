@@ -148,11 +148,14 @@
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
 
-    <!-- Gesture navbar length -->
+    <!-- Gesture navbar control -->
     <string name="other_controls_title">Other controls</string>
     <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="gesture_navbar_radius_title">Pill radius</string>
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
+    <string name="small_label">Small</string>
+    <string name="large_label">Large</string>
 
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>

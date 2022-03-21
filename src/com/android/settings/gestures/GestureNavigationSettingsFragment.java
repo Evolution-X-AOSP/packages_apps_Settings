@@ -48,6 +48,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
     private static final String KEY_BACK_HEIGHT = "gesture_back_height";
     private static final String GESTURE_NAVBAR_LENGTH_KEY = "gesture_navbar_length_preference";
+    private static final String GESTURE_NAVBAR_RADIUS_KEY = "gesture_navbar_radius_preference";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
@@ -59,6 +60,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private int mCurrentLefttWidth;
 
     private LabeledSeekBarPreference mGestureNavbarLengthPreference;
+    private LabeledSeekBarPreference mGestureNavbarRadiusPreference;
 
     public GestureNavigationSettingsFragment() {
         super();
@@ -224,6 +226,15 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             0, UserHandle.USER_CURRENT));
         mGestureNavbarLengthPreference.setOnPreferenceChangeListener((p, v) ->
             Settings.Secure.putIntForUser(resolver, Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
+                (Integer) v, UserHandle.USER_CURRENT));
+
+        mGestureNavbarRadiusPreference = getPreferenceScreen().findPreference(GESTURE_NAVBAR_RADIUS_KEY);
+        mGestureNavbarRadiusPreference.setContinuousUpdates(true);
+        mGestureNavbarRadiusPreference.setProgress(Settings.System.getIntForUser(
+            resolver, Settings.System.GESTURE_NAVBAR_RADIUS,
+            0, UserHandle.USER_CURRENT));
+        mGestureNavbarRadiusPreference.setOnPreferenceChangeListener((p, v) ->
+            Settings.System.putIntForUser(resolver, Settings.System.GESTURE_NAVBAR_RADIUS,
                 (Integer) v, UserHandle.USER_CURRENT));
     }
 
