@@ -144,6 +144,11 @@
         <item>@string/action_ringer_modes</item>
         <item>@string/kill_app</item>
         <item>@string/recent_app_toggle</item>
+        <item>@string/skip_song</item>
+        <item>@string/prev_song</item>
+        <item>@string/show_powermenu</item>
+        <item>@string/partial_screenshot</item>
+        <item>@string/hush_mute</item>
     </string-array>
 
     <string-array name="swipe_actions_values" translatable="false">
@@ -161,6 +166,11 @@
         <item>11</item>
         <item>12</item>
         <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
     </string-array>
 
     <string-array name="long_back_swipe_timeout_entries">
