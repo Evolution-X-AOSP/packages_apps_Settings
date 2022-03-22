@@ -149,7 +149,6 @@ java_import {
     sdk_version: "current",
 }
 
-
 filegroup {
     name: "Settings_proguard_flags",
     srcs: ["proguard.flags"],
