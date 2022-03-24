@@ -124,6 +124,9 @@ android_library {
         "vendor.lineage.fastcharge-V1.0-java",
         "SettingsGoogle-lib",
         "SystemUISharedLib",
+        "kotlin-stdlib",
+        "kotlinx_coroutines_android",
+        "kotlinx_coroutines",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
