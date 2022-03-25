@@ -143,12 +143,6 @@
     <!-- Idle Manager -->
     <string name="idle_manager_title">Bekleme modu yöneticisi</string>
     <string name="idle_manager_summary">Cihaz bekleme modundayken önemli olmayan tüm arka plan işlemlerini durdur</string>
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamaları</string>
-    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
-    <string name="search">Ara</string>
-    <string name="search_apps">Uygulamaları ara</string>
-    <string name="application_icon">Uygulama simgesi</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
     <string name="doze_on_charge_summary">Şarj olurken her zaman ortam ekranını göster</string>
@@ -160,4 +154,113 @@
     <string name="custom_light_on_time_title">LED açıkken yanıp sönme hızı (ms)</string>
     <string name="custom_light_off_time_title">LED kapalıyken yanıp sönme hızı (ms)\"</string>
     <string name="value_equals_default">varsayılan</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Cihazınızın önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin önünde arkasında parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arkasında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yanında bulunan parmak izi sensörünü bulun.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Telefonunuzun önünde bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Telefonunuzun arkasında bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Ana ekran tuşu ile uyan</string>
+    <string name="home_wake_button_summary">Ekranı uyandırmak için ana ekran tuşunu etkinleştir</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Eylem yok</string>
+    <string name="action_menu">Menü</string>
+    <string name="action_app_switch">Son uygulamalar</string>
+    <string name="action_voice_search">Sesli arama</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_last_app">Son uygulama</string>
+    <string name="action_splitscreen">Bölünmüş ekran</string>
+    <string name="action_flashlight">El feneri</string>
+    <string name="action_clear_notifications">Bildirimleri temizle</string>
+    <string name="action_volume_panel">Ses paneli</string>
+    <string name="action_screen_off">Ekranı kapat</string>
+    <string name="action_notifications">Bildirimler</string>
+    <string name="action_power_menu">Güç menüsü</string>
+    <string name="action_screenshot">Ekran görüntüsü</string>
+    <string name="action_qs_panel">Hızlı ayarlar paneli</string>
+    <string name="action_app_action">Uygulama</string>
+    <string name="action_ringer_modes">Zil modları</string>
+    <string name="kill_app">Ön plan uygulamasını sonlandır</string>
+    <string name="recent_app_toggle">Son kullanılan uygulamaya geç</string>
+    <string name="skip_song">Şarkıyı atla</string>
+    <string name="prev_song">Önceki şarkı</string>
+    <string name="show_powermenu">Güç menüsünü göster</string>
+    <string name="partial_screenshot">Kısmi ekran görüntüsü</string>
+    <string name="hush_mute">Bildirimleri sessize al</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Gelişmiş hareket seçenekleri</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Hareketleri özelleştirin ve özel eylemler ayarlayın</string>
+    <string name="navbar_gesture_tweaks_cat_title">Gelişmiş</string>
+    <string name="swipe_app_select_summary">Sıkma hareketiyle başlatılacak bir uygulama seçin</string>
+    <string name="long_back_swipe_timeout_title">Uzun kaydırma hareketi zaman aşımı</string>
+    <string name="left_swipe_actions_title">Uzun sola kaydırma hareketi</string>
+    <string name="left_swipe_app_action_title">Sola uzun kaydırma uygulaması seçin</string>
+    <string name="right_swipe_actions_title">Sağa uzun kaydırma hareketi</string>
+    <string name="right_swipe_app_action_title">Sağa uzun kaydırma uygulaması seçin</string>
+    <string name="left_vertical_swipe_actions_title">Dikey sola L kaydırma hareketi</string>
+    <string name="left_vertical_swipe_app_action_title">Dikey sola kaydırma uygulamasını seçin</string>
+    <string name="right_vertical_swipe_actions_title">Dikey sağa L kaydırma hareketi</string>
+    <string name="right_vertical_swipe_app_action_title">Dikey sağa kaydırma uygulamasını seçin</string>
+    <string name="gesture_nav_tweaks_footer_info">Eylem için belirli bir uygulama etkinliği seçmek için uygulama seçicideki herhangi bir uygulamaya uzun basın.\n\nBaşlatıcıda gösteriliyorsa, eylemi tetiklemek için ekranın en alt kısmındaki kaydırmayı yapın.</string>
+    <string name="back_swipe_extended_title">Genişletilmiş kaydırma hareketi</string>
+    <string name="back_swipe_extended_summary">Geniş kaydırmada (ekran boyutunun yarısından fazlası) veya L kaydırmada (dikey olarak yeterince uzun) tetikleme eylemi</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamaları</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
+    <string name="search">Ara</string>
+    <string name="search_apps">Uygulamaları ara</string>
+    <string name="application_icon">Uygulama simgesi</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Arkaplan işlemleri</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Dokunsal geri bildirim</string>
+    <string name="back_gesture_haptic_summary">Geri hareketinde dokunsal tıklama efektini etkinleştirir</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Tek seferlik otomatik parlaklık</string>
+    <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Wi-Fi\'yi otomatik olarak kapat</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
+    <string name="wifi_timeout_summary2">Devre dışı</string>
+    <string name="wifi_timeout_summary_never">Asla</string>
+    <string name="wifi_timeout_summary_15secs">15 saniye</string>
+    <string name="wifi_timeout_summary_30secs">30 saniye</string>
+    <string name="wifi_timeout_summary_1min">1 dakika</string>
+    <string name="wifi_timeout_summary_2mins">2 dakika</string>
+    <string name="wifi_timeout_summary_5mins">5 dakika</string>
+    <string name="wifi_timeout_summary_10mins">10 dakika</string>
+    <string name="wifi_timeout_summary_30mins">30 dakikada</string>
+    <string name="wifi_timeout_summary_1hour">1 saat</string>
+    <string name="wifi_timeout_summary_2hours">2 saat</string>
+    <string name="wifi_timeout_summary_4hours">4 saat</string>
+    <string name="wifi_timeout_summary_8hours">8 saat</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth\'u otomatik olarak kapatma</string>
+    <string name="bluetooth_timeout_summary_never">Asla</string>
+    <string name="bluetooth_timeout_summary_15secs">15 saniye</string>
+    <string name="bluetooth_timeout_summary_30secs">30 saniye</string>
+    <string name="bluetooth_timeout_summary_1min">1 dakika</string>
+    <string name="bluetooth_timeout_summary_2mins">2 dakika</string>
+    <string name="bluetooth_timeout_summary_5mins">5 dakika</string>
+    <string name="bluetooth_timeout_summary_10mins">10 dakika</string>
+    <string name="bluetooth_timeout_summary_30mins">30 dakika</string>
+    <string name="bluetooth_timeout_summary_1hour">1 saat</string>
+    <string name="bluetooth_timeout_summary_2hours">2 saat</string>
+    <string name="bluetooth_timeout_summary_4hours">4 saat</string>
+    <string name="bluetooth_timeout_summary_8hours">8 saat</string>
+    <!-- Density category -->
+    <string name="density_category">Yoğunluk seçenekleri</string>
 </resources>

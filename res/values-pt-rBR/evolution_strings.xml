@@ -144,13 +144,124 @@
     <!-- Idle Manager -->
     <string name="idle_manager_title">Otimizar modo ocioso</string>
     <string name="idle_manager_summary">Parar todos os processos em segundo plano não essenciais quando o dispositivo entrar em modo ocioso</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Tela ambiente durante o carregamento</string>
+    <string name="doze_on_charge_summary">Sempre mostrar a tela ambiente durante o carregamento</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Acordar ao conectar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ativar a tela quando conectar ou desconectar o carregador</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Cor do led</string>
+    <string name="custom_light_on_time_title">Tempo de luz ativa durante o pulso de LED (ms)</string>
+    <string name="custom_light_off_time_title">Tempo de luz desligada durante o pulso de LED (ms)</string>
+    <string name="value_equals_default">padrão</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressão digital na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localize o sensor de impressão digital na parte de trás do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localize o sensor de impressão digital na parte de trás do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localize o sensor de impressão digital na parte de trás do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localize o sensor de impressão digital na lateral do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localize o sensor de impressão digital na lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localize o sensor de impressão digital na parte lateral do seu telefone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Toque no sensor na parte traseira do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Toque no sensor na parte lateral do seu telefone.</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Acordar com o botão home</string>
+    <string name="home_wake_button_summary">Ativar botão home para acender a tela</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nenhuma ação</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recentes</string>
+    <string name="action_voice_search">Pesquisa por voz</string>
+    <string name="action_launch_camera">Câmera</string>
+    <string name="action_last_app">Último app</string>
+    <string name="action_splitscreen">Dividir a tela</string>
+    <string name="action_flashlight">Lanterna</string>
+    <string name="action_clear_notifications">Limpar notificações</string>
+    <string name="action_volume_panel">Painel de volume</string>
+    <string name="action_screen_off">Desligar tela</string>
+    <string name="action_notifications">Notificações</string>
+    <string name="action_power_menu">Menu de energia</string>
+    <string name="action_screenshot">Captura de tela</string>
+    <string name="action_qs_panel">Painel de configurações rápidas</string>
+    <string name="action_app_action">Aplicativo</string>
+    <string name="action_ringer_modes">Modos de toque</string>
+    <string name="kill_app">Fechar aplicativo em primeiro plano</string>
+    <string name="recent_app_toggle">Alternar aplicativo recente</string>
+    <string name="skip_song">Pular música</string>
+    <string name="prev_song">Música anterior</string>
+    <string name="show_powermenu">Mostrar menu de energia</string>
+    <string name="partial_screenshot">Captura de tela parcial</string>
+    <string name="hush_mute">Silenciar notificações</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Opções de gestos avançados</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Controles e gestos avançados para melhorar sua interação com o dispositivo</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avançado</string>
+    <string name="swipe_app_select_summary">Selecione um aplicativo para iniciar com a ação de apertar</string>
+    <string name="long_back_swipe_timeout_title">Tempo limite do deslize longo</string>
+    <string name="left_swipe_actions_title">Ação do deslize longo à esquerda</string>
+    <string name="left_swipe_app_action_title">Selecionar aplicativo de deslize longo para a esquerda</string>
+    <string name="right_swipe_actions_title">Ação do deslize longo à direita</string>
+    <string name="right_swipe_app_action_title">Selecionar aplicativo de deslize longo para a direita</string>
+    <string name="left_vertical_swipe_actions_title">Ação ao fazer um L vertical para a esquerda</string>
+    <string name="left_vertical_swipe_app_action_title">Selecionar aplicativo ao deslizar verticalmente para a esquerda</string>
+    <string name="right_vertical_swipe_actions_title">Ação ao fazer um L vertical para a direita</string>
+    <string name="right_vertical_swipe_app_action_title">Selecione o aplicativo ao deslizar verticalmente para a direita</string>
+    <string name="gesture_nav_tweaks_footer_info">Para escolher uma atividade específica do aplicativo para a ação, toque e segure em qualquer aplicativo no selecionador de aplicativos.\n\nSe o launcher estiver sendo exibido, deslize para a área inferior da tela para acionar a ação.</string>
+    <string name="back_swipe_extended_title">Ação de deslize estendido</string>
+    <string name="back_swipe_extended_summary">Acione a ação com um deslize mais amplo (mais da metade do tamanho da tela) ou com um deslize em L (verticalmente suficiente)</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
     <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do notch</string>
     <string name="search">Pesquisar</string>
     <string name="search_apps">Pesquisar aplicativos</string>
     <string name="application_icon">Ícone de aplicativo</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Tela ambiente durante o carregamento</string>
-    <string name="doze_on_charge_summary">Sempre mostrar a tela ambiente durante o carregamento</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Processos em segundo plano</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Resposta tátil</string>
+    <string name="back_gesture_haptic_summary">Ativar o efeito tátil no gesto de voltar</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Ajustar ao ligar a tela</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste de brilho só ocorrerá no momento em que a tela for ligada</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Desligar Wi-Fi automaticamente</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
+    <string name="wifi_timeout_summary2">Desativado</string>
+    <string name="wifi_timeout_summary_never">Nunca</string>
+    <string name="wifi_timeout_summary_15secs">15 segundos</string>
+    <string name="wifi_timeout_summary_30secs">30 segundos</string>
+    <string name="wifi_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_timeout_summary_2mins">2 minutos</string>
+    <string name="wifi_timeout_summary_5mins">5 minutos</string>
+    <string name="wifi_timeout_summary_10mins">10 minutos</string>
+    <string name="wifi_timeout_summary_30mins">30 minutos</string>
+    <string name="wifi_timeout_summary_1hour">1 hora</string>
+    <string name="wifi_timeout_summary_2hours">2 horas</string>
+    <string name="wifi_timeout_summary_4hours">4 horas</string>
+    <string name="wifi_timeout_summary_8hours">8 horas</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">O Bluetooth será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum dispositivo estiver conectado</string>
+    <string name="bluetooth_timeout_summary2">Não desativar o Bluetooth automaticamente</string>
+    <string name="bluetooth_timeout_summary_never">Nunca</string>
+    <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
+    <string name="bluetooth_timeout_summary_30secs">30 segundos</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hora</string>
+    <string name="bluetooth_timeout_summary_2hours">2 horas</string>
+    <string name="bluetooth_timeout_summary_4hours">4 horas</string>
+    <string name="bluetooth_timeout_summary_8hours">8 horas</string>
+    <!-- Density category -->
+    <string name="density_category">Opções de densidade</string>
 </resources>

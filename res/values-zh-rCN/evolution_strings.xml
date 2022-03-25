@@ -89,14 +89,14 @@
     <string name="app_lock_timeout_summary">后台解锁应用的持续时间</string>
     <string name="app_lock_notifications_title">折叠通知</string>
     <string name="app_lock_notifications_summary">          当锁定时，将为所选应用程序隐藏并折叠通知内容。
-          抬头通知将被自动禁用
+          浮动通知将被自动禁用
     </string>
     <string name="app_lock_notifications_disabled_summary">首先保护应用程序</string>
     <string name="app_lock_biometrics_allowed_title">启用生物识别解锁</string>
     <string name="app_lock_footer_text">超时后气泡会自动消失</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">乱序布局</string>
-    <string name="unlock_scramble_pin_layout_summary">当解锁设备时使用数字密码</string>
+    <string name="unlock_scramble_pin_layout_summary">解锁设备时打乱 PIN 布局</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
     <string name="unlock_quick_unlock_control_summary">输入正确的 PIN 码或密码时自动解锁</string>
@@ -132,9 +132,9 @@
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">双击检查通知</string>
-    <string name="doze_double_tap_summary">双击快速显示通知</string>
+    <string name="doze_double_tap_summary">双击脉冲通知</string>
     <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">息屏音乐信息</string>
+    <string name="pulse_on_new_tracks_title">环境音乐</string>
     <string name="pulse_on_new_tracks_summary">在打开新的音乐曲目时显示环境显示</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">全屏</string>
@@ -144,13 +144,124 @@
     <!-- Idle Manager -->
     <string name="idle_manager_title">空闲管理器</string>
     <string name="idle_manager_summary">设备空闲时停止所有非必要的后台进程</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充电时始终开启</string>
+    <string name="doze_on_charge_summary">充电时显示熄屏显示</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">连接或移除电源时唤醒屏幕</string>
+    <string name="wake_when_plugged_or_unplugged_summary">连接/断开电源时唤醒屏幕</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">指示灯颜色</string>
+    <string name="custom_light_on_time_title">呼吸灯闪烁时亮灯时间 (毫秒)</string>
+    <string name="custom_light_off_time_title">屏幕关闭时指示灯闪烁间隔时间 (毫秒)\"</string>
+    <string name="value_equals_default">默认</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">您的平板是前置指纹解锁</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">您的设备是前置指纹解锁</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">找到手机正面的指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">找到平板电脑背面的指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">找到设备背面的指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">找到手机背面的指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">找到平板电脑侧面的指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">找到设备侧面的指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">找到手机侧面的指纹传感器</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">触摸手机正面的传感器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">触摸手机背面的传感器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">触摸手机侧面的传感器</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Home 键唤醒</string>
+    <string name="home_wake_button_summary">启用 Home 键唤醒屏幕</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">无动作</string>
+    <string name="action_menu">菜单</string>
+    <string name="action_app_switch">最近任务</string>
+    <string name="action_voice_search">语音搜索</string>
+    <string name="action_launch_camera">相机</string>
+    <string name="action_last_app">最后使用的应用</string>
+    <string name="action_splitscreen">分屏</string>
+    <string name="action_flashlight">手电筒</string>
+    <string name="action_clear_notifications">清除通知</string>
+    <string name="action_volume_panel">声音面板</string>
+    <string name="action_screen_off">屏幕关闭</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_power_menu">电源菜单</string>
+    <string name="action_screenshot">屏幕截图</string>
+    <string name="action_qs_panel">快速设置面板</string>
+    <string name="action_app_action">应用程序</string>
+    <string name="action_ringer_modes">响铃模式</string>
+    <string name="kill_app">终止前台应用</string>
+    <string name="recent_app_toggle">切换最近的应用</string>
+    <string name="skip_song">下一曲</string>
+    <string name="prev_song">上一曲</string>
+    <string name="show_powermenu">显示电源菜单</string>
+    <string name="partial_screenshot">截取部分屏幕</string>
+    <string name="hush_mute">通知静音</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">高级手势选项</string>
+    <string name="navbar_gesture_tweaks_pref_summary">自定义手势并设置自定义操作</string>
+    <string name="navbar_gesture_tweaks_cat_title">高级选项</string>
+    <string name="swipe_app_select_summary">选择在按下时启动的应用</string>
+    <string name="long_back_swipe_timeout_title">长滑超时</string>
+    <string name="left_swipe_actions_title">左长滑动作</string>
+    <string name="left_swipe_app_action_title">选择左长滑应用</string>
+    <string name="right_swipe_actions_title">右长滑动作</string>
+    <string name="right_swipe_app_action_title">选择右长滑应用</string>
+    <string name="left_vertical_swipe_actions_title">垂直左 L 滑动操作</string>
+    <string name="left_vertical_swipe_app_action_title">选择垂直左滑动应用</string>
+    <string name="right_vertical_swipe_actions_title">垂直右 L 滑动动作</string>
+    <string name="right_vertical_swipe_app_action_title">选择垂直右滑动应用</string>
+    <string name="gesture_nav_tweaks_footer_info">在应用选择器中长按选择可以为手势指定应用的特定活动。\n\n在使用启动器时，在屏幕底部滑动可以触发手势。</string>
+    <string name="back_swipe_extended_title">扩展滑动动作</string>
+    <string name="back_swipe_extended_summary">较长的滑动距离 (超过屏幕的一半) 或做 L 形滑动 (垂直距离足够长) 可以触发手势</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全屏应用</string>
     <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域</string>
     <string name="search">搜索</string>
     <string name="search_apps">搜索应用</string>
     <string name="application_icon">应用图标</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">充电时始终开启</string>
-    <string name="doze_on_charge_summary">充电时显示熄屏显示</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">后台进程</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">触觉反馈</string>
+    <string name="back_gesture_haptic_summary">在后退手势上启用触觉滴答效果</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">一键自动亮度</string>
+    <string name="auto_brightness_one_shot_summary">亮度调整仅在屏幕打开时进行</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">自动关闭 Wi-Fi</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
+    <string name="wifi_timeout_summary2">已禁用</string>
+    <string name="wifi_timeout_summary_never">永不</string>
+    <string name="wifi_timeout_summary_15secs">15 秒</string>
+    <string name="wifi_timeout_summary_30secs">30 秒</string>
+    <string name="wifi_timeout_summary_1min">1 分钟</string>
+    <string name="wifi_timeout_summary_2mins">2 分钟</string>
+    <string name="wifi_timeout_summary_5mins">5 分钟</string>
+    <string name="wifi_timeout_summary_10mins">10 分钟</string>
+    <string name="wifi_timeout_summary_30mins">30 分钟</string>
+    <string name="wifi_timeout_summary_1hour">1 小时</string>
+    <string name="wifi_timeout_summary_2hours">2 小时</string>
+    <string name="wifi_timeout_summary_4hours">4 小时</string>
+    <string name="wifi_timeout_summary_8hours">8 小时</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">蓝牙超时</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">如果没有设备连接，蓝牙将在<xliff:g id="timeout_description">%1$s</xliff:g>后关闭</string>
+    <string name="bluetooth_timeout_summary2">不要自动关闭蓝牙</string>
+    <string name="bluetooth_timeout_summary_never">永不</string>
+    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30 秒</string>
+    <string name="bluetooth_timeout_summary_1min">1 分钟</string>
+    <string name="bluetooth_timeout_summary_2mins">2 分钟</string>
+    <string name="bluetooth_timeout_summary_5mins">5 分钟</string>
+    <string name="bluetooth_timeout_summary_10mins">10 分钟</string>
+    <string name="bluetooth_timeout_summary_30mins">30 分钟</string>
+    <string name="bluetooth_timeout_summary_1hour">1 小时</string>
+    <string name="bluetooth_timeout_summary_2hours">2 小时</string>
+    <string name="bluetooth_timeout_summary_4hours">4 小时</string>
+    <string name="bluetooth_timeout_summary_8hours">8 小时</string>
+    <!-- Density category -->
+    <string name="density_category">分辨率选项</string>
 </resources>
