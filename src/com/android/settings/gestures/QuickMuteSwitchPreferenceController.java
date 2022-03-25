@@ -31,17 +31,17 @@ import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
 import com.evolution.settings.preference.CustomSeekBarPreference;
 
-public class PlaybackControlSwitchPreferenceController extends AbstractPreferenceController
+public class QuickMuteSwitchPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin, OnMainSwitchChangeListener {
 
-    private static final String KEY = "gesture_playback_control_switch";
-    private static final String DELAY_KEY = "volume_button_music_control_delay";
+    private static final String KEY = "volume_button_quick_mute";
+    private static final String DELAY_KEY = "volume_button_quick_mute_delay";
 
     private final Context mContext;
     private MainSwitchPreference mSwitch;
     private CustomSeekBarPreference mDelayPref;
 
-    public PlaybackControlSwitchPreferenceController(Context context) {
+    public QuickMuteSwitchPreferenceController(Context context) {
         super(context);
         mContext = context;
     }
@@ -57,15 +57,14 @@ public class PlaybackControlSwitchPreferenceController extends AbstractPreferenc
         mDelayPref = screen.findPreference(DELAY_KEY);
         mSwitch = screen.findPreference(getPreferenceKey());
         mSwitch.setOnPreferenceClickListener(preference -> {
-            final boolean enabled = Settings.System.getInt(mContext.getContentResolver(),
-                    Settings.System.VOLUME_BUTTON_MUSIC_CONTROL, 0) == 1;
+            final boolean enabled = Settings.System.getInt(
+                    mContext.getContentResolver(), KEY, 0) == 1;
             Settings.System.putInt(mContext.getContentResolver(),
-                    Settings.System.VOLUME_BUTTON_MUSIC_CONTROL,
-                    enabled ? 0 : 1);
+                    KEY, enabled ? 0 : 1);
             updateDelayEnablement(!enabled);
             return true;
         });
-        mSwitch.setTitle(mContext.getString(R.string.gesture_playback_control_primary_switch_title));
+        mSwitch.setTitle(mContext.getString(R.string.quick_mute_title));
         mSwitch.addOnSwitchChangeListener(this);
         updateState(mSwitch);
     }
@@ -79,8 +78,8 @@ public class PlaybackControlSwitchPreferenceController extends AbstractPreferenc
 
     @Override
     public void updateState(Preference preference) {
-        final boolean enabled = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.VOLUME_BUTTON_MUSIC_CONTROL, 0) == 1;
+        final boolean enabled = Settings.System.getInt(
+                mContext.getContentResolver(), KEY, 0) == 1;
         setChecked(enabled);
     }
 
@@ -92,7 +91,7 @@ public class PlaybackControlSwitchPreferenceController extends AbstractPreferenc
     @Override
     public void onSwitchChanged(Switch switchView, boolean isChecked) {
         Settings.System.putInt(mContext.getContentResolver(),
-                Settings.System.VOLUME_BUTTON_MUSIC_CONTROL, isChecked ? 1 : 0);
+                KEY, isChecked ? 1 : 0);
         updateDelayEnablement(isChecked);
     }
 

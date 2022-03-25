@@ -428,4 +428,9 @@
 
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
+
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Quick mute</string>
+    <string name="volume_button_quick_mute_category_title">Long-pressing volume down key will mute active volume stream</string>
+    <string name="volume_button_quick_mute_delay_title">Playback control activation delay</string>
 </resources>
