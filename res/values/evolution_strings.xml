@@ -172,10 +172,6 @@
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
-
     <!-- Back gesture height -->
     <string name="back_height_low_label">Full</string>
     <string name="back_height_high_label">Bottom</string>
