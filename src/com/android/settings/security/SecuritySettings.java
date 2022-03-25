@@ -33,6 +33,8 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.evolution.settings.security.applock.AppLockSettingsPreferenceController;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,6 +47,8 @@ public class SecuritySettings extends DashboardFragment {
     public static final int CHANGE_TRUST_AGENT_SETTINGS = 126;
     public static final int UNIFY_LOCK_CONFIRM_PROFILE_REQUEST = 129;
     public static final int UNUNIFY_LOCK_CONFIRM_DEVICE_REQUEST = 130;
+
+    private static final String APP_LOCK_PREF_KEY = "app_lock";
 
     @Override
     public int getMetricsCategory() {
@@ -108,7 +112,7 @@ public class SecuritySettings extends DashboardFragment {
         controllers.add(new PreferenceCategoryController(context, SECURITY_CATEGORY)
                 .setChildren(securityPreferenceControllers));
         controllers.addAll(securityPreferenceControllers);
-
+        controllers.add(new AppLockSettingsPreferenceController(context, APP_LOCK_PREF_KEY, host, lifecycle));
         return controllers;
     }
 
