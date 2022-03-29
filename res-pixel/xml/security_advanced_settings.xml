@@ -118,4 +118,12 @@
 
     </PreferenceCategory>
 
+    <Preference
+        android:fragment="com.android.settings.security.SecuritySettings"
+        android:key="security_alt"
+        android:order="10"
+        android:title="@string/aosp_security_settings_title"
+        android:summary="@string/aosp_security_settings_summary"
+        settings:controller="com.android.settings.security.SecurityAltEntryPreferenceController" />
+
 </PreferenceScreen>
