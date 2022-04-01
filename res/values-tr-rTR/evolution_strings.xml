@@ -263,4 +263,8 @@
     <string name="bluetooth_timeout_summary_8hours">8 saat</string>
     <!-- Density category -->
     <string name="density_category">Yoğunluk seçenekleri</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">Standart kilit seçenekleri</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">Uygulama kilidi, SIM kart kilidi, kimlik bilgisi ile depolama kilidi ayarlayın</string>
 </resources>
