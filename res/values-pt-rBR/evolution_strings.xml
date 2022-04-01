@@ -264,4 +264,8 @@
     <string name="bluetooth_timeout_summary_8hours">8 horas</string>
     <!-- Density category -->
     <string name="density_category">Opções de densidade</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">Opções de bloqueio e segurança</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">Definir bloqueio de aplicativo, bloqueio do chip, criptografia e credenciais</string>
 </resources>
