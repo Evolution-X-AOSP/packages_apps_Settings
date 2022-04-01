@@ -264,4 +264,8 @@
     <string name="bluetooth_timeout_summary_8hours">8 小时</string>
     <!-- Density category -->
     <string name="density_category">分辨率选项</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">原生锁定选项</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">设置应用锁定、 SIM 卡锁定、 凭据存储锁</string>
 </resources>

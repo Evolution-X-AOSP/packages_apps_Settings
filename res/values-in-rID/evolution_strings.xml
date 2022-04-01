@@ -37,15 +37,15 @@
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
     <string name="max_refresh_rate_title">Kecepatan refresh maksimum</string>
-    <string name="low_power_refresh_rate_title_custom">Tingkat penyegaran daya rendah</string>
+    <string name="low_power_refresh_rate_title_custom">Tingkat kecepatan refresh daya rendah</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Tidak ada sertifikat yang ditentukan. Koneksi Anda tidak akan bersifat pribadi.</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Pengisian Cepat</string>
     <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Usap untuk menangkap layar</string>
-    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
+    <string name="three_finger_gesture">Gesek untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Gesek tiga jari ke bawah untuk menangkap layar</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pemutaran Adaptif</string>
     <string name="adaptive_playback_enabled">Gunakan Pemutaran Adaptif</string>
@@ -144,13 +144,128 @@
     <!-- Idle Manager -->
     <string name="idle_manager_title">Manajer Menganggur</string>
     <string name="idle_manager_summary">Hentikan semua proses latar belakang yang tidak penting saat perangkat tidak digunakan</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Tetap menyala saat mengisi daya</string>
+    <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Bangun saat pengisi daya dipasang</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Aktifkan layar ketika menghubungkan atau melepaskan pengisi daya</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Warna lampu</string>
+    <string name="custom_light_on_time_title">Durasi lampu aktif saat led berkedip (milidetik)</string>
+    <string name="custom_light_off_time_title">Durasi lampu mati saat led berkedip (milidetik)\"</string>
+    <string name="value_equals_default">bawaan</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Temukan sensor sidik jari di bagian depan tablet Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Temukan sensor sidik jari di bagian depan perangkat Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Temukan sensor sidik jari di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Temukan sensor sidik jari di bagian belakang tablet Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Temukan sensor sidik jari di bagian belakang perangkat Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Temukan sensor sidik jari di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Temukan sensor sidik jari di bagian samping tablet Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Temukan sensor sidik jari di bagian samping perangkat Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Temukan sensor sidik jari di bagian samping ponsel Anda.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Sentuh sensor di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Sentuh sensor di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Sentuh sensor di bagian samping ponsel Anda.</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Tombol beranda untuk membangunkan layar</string>
+    <string name="home_wake_button_summary">Aktifkan tombol beranda untuk membangunkan layar</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Tidak ada tindakan</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Baru-baru ini</string>
+    <string name="action_voice_search">Pencarian suara</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_last_app">Aplikasi terakhir</string>
+    <string name="action_splitscreen">Layar terpisah</string>
+    <string name="action_flashlight">Senter</string>
+    <string name="action_clear_notifications">Bersihkan notifikasi</string>
+    <string name="action_volume_panel">Panel Volume</string>
+    <string name="action_screen_off">Layar mati</string>
+    <string name="action_notifications">Notifikasi</string>
+    <string name="action_power_menu">Menu daya</string>
+    <string name="action_screenshot">Tangkapan Layar</string>
+    <string name="action_qs_panel">Panel Setelan Cepat</string>
+    <string name="action_app_action">Aplikasi</string>
+    <string name="action_ringer_modes">Mode dering</string>
+    <string name="kill_app">Tutup paksa aplikasi saat ini</string>
+    <string name="recent_app_toggle">Beralih aplikasi baru-baru ini</string>
+    <string name="skip_song">Lewati lagu</string>
+    <string name="prev_song">Lagu sebelumnya</string>
+    <string name="show_powermenu">Tampilkan Menu Daya</string>
+    <string name="partial_screenshot">Tangkapan Layar sebagian</string>
+    <string name="hush_mute">Notifikasi senyap</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Opsi gestur lanjutan</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Kustomisasi gestur dan atur tindakan khusus</string>
+    <string name="navbar_gesture_tweaks_cat_title">Lanjutan</string>
+    <string name="swipe_app_select_summary">Pilih aplikasi untuk memulai dengan tindakan tekan</string>
+    <string name="long_back_swipe_timeout_title">Batas waktu usap panjang</string>
+    <string name="left_swipe_actions_title">Tindakan usap panjang ke kiri</string>
+    <string name="left_swipe_app_action_title">Pilih aplikasi usap panjang ke kiri</string>
+    <string name="right_swipe_actions_title">Tindakan usap panjang ke kanan</string>
+    <string name="right_swipe_app_action_title">Pilih aplikasi usap panjang ke kanan</string>
+    <string name="left_vertical_swipe_actions_title">Tindakan usap L ke kiri vertikal</string>
+    <string name="left_vertical_swipe_app_action_title">Pilih aplikasi usap panjang ke kiri</string>
+    <string name="right_vertical_swipe_actions_title">Tindakan usap L ke kanan vertikal</string>
+    <string name="right_vertical_swipe_app_action_title">Pilih aplikasi usap ke kanan vertikal</string>
+    <string name="gesture_nav_tweaks_footer_info">Untuk memilih aktivitas aplikasi tertentu untuk tindakan, tekan lama pada aplikasi apa pun di pemilih aplikasi.\n\nJika peluncur ditampilkan, lakukan usap di bagian paling bawah layar untuk memicu tindakan.</string>
+    <string name="back_swipe_extended_title">Tindakan mengusap yang diperpanjang</string>
+    <string name="back_swipe_extended_summary">Memicu tindakan pada mengusap yang lebih lebar (lebih dari setengah ukuran tampilan), atau mengusap L (cukup panjang secara vertikal)</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
     <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
     <string name="search">Cari</string>
     <string name="search_apps">Cari aplikasi</string>
     <string name="application_icon">Ikon aplikasi</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Tetap menyala saat mengisi daya</string>
-    <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Proses latar belakang</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Umpan balik haptik</string>
+    <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada tombol gestur kembali</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Kecerahan otomatis satu bidikan</string>
+    <string name="auto_brightness_one_shot_summary">Penyesuaian kecerahan hanya akan terjadi pada saat layar dihidupkan</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan terhubung</string>
+    <string name="wifi_timeout_summary2">Dinonaktifkan</string>
+    <string name="wifi_timeout_summary_never">Jangan pernah</string>
+    <string name="wifi_timeout_summary_15secs">15 detik</string>
+    <string name="wifi_timeout_summary_30secs">30 detik</string>
+    <string name="wifi_timeout_summary_1min">1 menit</string>
+    <string name="wifi_timeout_summary_2mins">2 menit</string>
+    <string name="wifi_timeout_summary_5mins">5 menit</string>
+    <string name="wifi_timeout_summary_10mins">10 menit</string>
+    <string name="wifi_timeout_summary_30mins">30 menit</string>
+    <string name="wifi_timeout_summary_1hour">1 jam</string>
+    <string name="wifi_timeout_summary_2hours">2 jam</string>
+    <string name="wifi_timeout_summary_4hours">4 jam</string>
+    <string name="wifi_timeout_summary_8hours">8 jam</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat terhubung</string>
+    <string name="bluetooth_timeout_summary2">Jangan matikan Bluetooth secara otomatis</string>
+    <string name="bluetooth_timeout_summary_never">Jangan pernah</string>
+    <string name="bluetooth_timeout_summary_15secs">15 detik</string>
+    <string name="bluetooth_timeout_summary_30secs">30 detik</string>
+    <string name="bluetooth_timeout_summary_1min">1 menit</string>
+    <string name="bluetooth_timeout_summary_2mins">2 menit</string>
+    <string name="bluetooth_timeout_summary_5mins">5 menit</string>
+    <string name="bluetooth_timeout_summary_10mins">10 menit</string>
+    <string name="bluetooth_timeout_summary_30mins">30 menit</string>
+    <string name="bluetooth_timeout_summary_1hour">1 jam</string>
+    <string name="bluetooth_timeout_summary_2hours">2 jam</string>
+    <string name="bluetooth_timeout_summary_4hours">4 jam</string>
+    <string name="bluetooth_timeout_summary_8hours">8 jam</string>
+    <!-- Density category -->
+    <string name="density_category">Opsi kepadatan</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">Opsi kunci bawaan</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">Setel kunci aplikasi, kunci kartu SIM, kunci penyimpanan kredensial</string>
 </resources>
