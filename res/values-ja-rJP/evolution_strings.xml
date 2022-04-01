@@ -144,13 +144,128 @@
     <!-- Idle Manager -->
     <string name="idle_manager_title">アイドルマネージャー</string>
     <string name="idle_manager_summary">端末が休止状態の時は不可欠でないバックグラウンドプロセスを全て停止させる</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充電時の Always On Display</string>
+    <string name="doze_on_charge_summary">充電時は常時 Doze 画面を表示する</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除</string>
+    <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断した時に画面を点灯させる</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">ライトの色</string>
+    <string name="custom_light_on_time_title">ライト点滅時の光っている時間 (ms)</string>
+    <string name="custom_light_off_time_title">ライト点滅時の消えている時間 (ms)</string>
+    <string name="value_equals_default">既定</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">タブレット前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">端末前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">スマートフォン前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">タブレット背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">端末背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">スマートフォン背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">タブレット側面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">端末側面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">スマートフォン側面にある指紋認証センサーを探します</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">スマートフォン前面にある指紋認証センサーをタッチします</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">スマートフォン背面にある指紋認証センサーをタッチします</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">スマートフォン側面にある指紋認証センサーをタッチします</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">ホームボタンでスリープ解除</string>
+    <string name="home_wake_button_summary">ホームボタンでの画面のスリープ解除を有効にする</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">なし</string>
+    <string name="action_menu">メニュー</string>
+    <string name="action_app_switch">アプリ履歴</string>
+    <string name="action_voice_search">音声検索</string>
+    <string name="action_launch_camera">カメラ</string>
+    <string name="action_last_app">直前のアプリ</string>
+    <string name="action_splitscreen">画面分割</string>
+    <string name="action_flashlight">フラッシュライト</string>
+    <string name="action_clear_notifications">通知を消去</string>
+    <string name="action_volume_panel">音量パネル</string>
+    <string name="action_screen_off">画面を消灯</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_power_menu">電源メニュー</string>
+    <string name="action_screenshot">スクリーンショット</string>
+    <string name="action_qs_panel">クイック設定パネル</string>
+    <string name="action_app_action">アプリ</string>
+    <string name="action_ringer_modes">着信モード</string>
+    <string name="kill_app">表示中のアプリを終了</string>
+    <string name="recent_app_toggle">直前のアプリの切り替え</string>
+    <string name="skip_song">曲をスキップ</string>
+    <string name="prev_song">前の曲</string>
+    <string name="show_powermenu">電源メニューを表示</string>
+    <string name="partial_screenshot">部分スクリーンショット</string>
+    <string name="hush_mute">通知をミュート</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャーオプション</string>
+    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャーの編集とカスタムアクションの設定をする</string>
+    <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
+    <string name="swipe_app_select_summary">握りアクションで起動するアプリを選択する</string>
+    <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
+    <string name="left_swipe_actions_title">長い左スワイプアクション</string>
+    <string name="left_swipe_app_action_title">長い左スワイプアクションのアプリ選択</string>
+    <string name="right_swipe_actions_title">長い右スワイプアクション</string>
+    <string name="right_swipe_app_action_title">長い右スワイプアクションのアプリ選択</string>
+    <string name="left_vertical_swipe_actions_title">垂直左Lスワイプのアクション</string>
+    <string name="left_vertical_swipe_app_action_title">垂直左スワイプアプリを選択</string>
+    <string name="right_vertical_swipe_actions_title">垂直右Lスワイプのアクション</string>
+    <string name="right_vertical_swipe_app_action_title">垂直右スワイプアプリを選択</string>
+    <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリの選択でアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
+    <string name="back_swipe_extended_title">拡張スワイプアクション</string>
+    <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全画面表示のアプリ</string>
     <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
     <string name="search">検索</string>
     <string name="search_apps">アプリを検索</string>
     <string name="application_icon">アプリのアイコン</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">充電時の Always On Display</string>
-    <string name="doze_on_charge_summary">充電時は常時 Doze 画面を表示する</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">バックグラウンドプロセス</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">振動フィードバック</string>
+    <string name="back_gesture_haptic_summary">戻るジェスチャー時に振動を有効化する</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">復帰時の自動明るさを維持</string>
+    <string name="auto_brightness_one_shot_summary">画面復帰時の周囲の明るさで1度のみ自動で明るさを変更し、以降は変更しない。</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
+    <string name="wifi_timeout_summary2">無効</string>
+    <string name="wifi_timeout_summary_never">なし</string>
+    <string name="wifi_timeout_summary_15secs">15秒</string>
+    <string name="wifi_timeout_summary_30secs">30秒</string>
+    <string name="wifi_timeout_summary_1min">1分</string>
+    <string name="wifi_timeout_summary_2mins">2分</string>
+    <string name="wifi_timeout_summary_5mins">5分</string>
+    <string name="wifi_timeout_summary_10mins">10分</string>
+    <string name="wifi_timeout_summary_30mins">30分</string>
+    <string name="wifi_timeout_summary_1hour">1時間</string>
+    <string name="wifi_timeout_summary_2hours">2時間</string>
+    <string name="wifi_timeout_summary_4hours">4時間</string>
+    <string name="wifi_timeout_summary_8hours">8時間</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth の制限時間</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth は オフになります</string>
+    <string name="bluetooth_timeout_summary2">自動的に Bluetooth をオフにしない</string>
+    <string name="bluetooth_timeout_summary_never">なし</string>
+    <string name="bluetooth_timeout_summary_15secs">15秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30秒</string>
+    <string name="bluetooth_timeout_summary_1min">1分</string>
+    <string name="bluetooth_timeout_summary_2mins">2分</string>
+    <string name="bluetooth_timeout_summary_5mins">5分</string>
+    <string name="bluetooth_timeout_summary_10mins">10分</string>
+    <string name="bluetooth_timeout_summary_30mins">30分</string>
+    <string name="bluetooth_timeout_summary_1hour">1時間</string>
+    <string name="bluetooth_timeout_summary_2hours">2時間</string>
+    <string name="bluetooth_timeout_summary_4hours">4時間</string>
+    <string name="bluetooth_timeout_summary_8hours">8時間</string>
+    <!-- Density category -->
+    <string name="density_category">解像度オプション</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">標準のロックオプション</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">アプリロックの設定、SIM カードのロック、認証情報ストレージのロック</string>
 </resources>
