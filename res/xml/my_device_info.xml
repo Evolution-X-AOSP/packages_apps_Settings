@@ -191,18 +191,14 @@
             android:key="wifi_mac_address"
             android:order="46"
             android:title="@string/status_device_wifi_mac_address"
-            android:summary="@string/summary_placeholder"
-            android:selectable="false"
-            settings:enableCopying="true"/>
+            android:summary="@string/summary_placeholder"/>
 
         <!-- Bluetooth address -->
         <Preference
             android:key="bt_address"
             android:order="47"
             android:title="@string/status_bt_address"
-            android:summary="@string/summary_placeholder"
-            android:selectable="false"
-            settings:enableCopying="true"/>
+            android:summary="@string/summary_placeholder"/>
 
         <!-- Device up time -->
         <Preference
