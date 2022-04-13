@@ -268,4 +268,28 @@
     <string name="aosp_security_settings_title">原生锁定选项</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
     <string name="aosp_security_settings_summary">设置应用锁定、 SIM 卡锁定、 凭据存储锁</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">铃声振动模式</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">自定义</string>
+    <string name="custom_vibration_pattern_title">自定义模式</string>
+    <string name="custom_vibration_pattern_summary">设置自定义振动模式</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">启用电池充电级别警告</string>
+    <string name="notification_battery_charge_level_title">电池充电警告</string>
+    <string name="notification_battery_charge_level_summary">充电时电池达到预定水平时播放声音</string>
+    <string name="notification_battery_charge_level_seek_bar">电池电量</string>
+    <string name="notification_battery_charge_level_ringtone">铃声</string>
+    <string name="notification_battery_charge_level_silent">静音</string>
+    <!-- IME button space -->
+    <string name="navbar_category">导航栏</string>
+    <string name="navigation_bar_ime_space_title">输入法按钮空间</string>
+    <string name="navigation_bar_ime_space_summary">在键盘下方显示输入法按钮空间</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">返回手势动画</string>
+    <string name="back_gesture_arrow_summary">侧滑返回时为箭头显示动画</string>
 </resources>

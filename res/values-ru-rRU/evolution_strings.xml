@@ -144,13 +144,152 @@
     <!-- Idle Manager -->
     <string name="idle_manager_title">Idle Manager</string>
     <string name="idle_manager_summary">Остановка всех второстепенных фоновых процессов, когда устройство простаивает</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Всегда включен во время зарядки</string>
+    <string name="doze_on_charge_summary">Показывать Doze-экран во время зарядки</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Пробуждение при зарядке</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Включение экрана при подключении или отключении зарядного устройства</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Цвет светодиода</string>
+    <string name="custom_light_on_time_title">Длительность включения светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)\"</string>
+    <string name="value_equals_default">по умолчанию</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на вашем устройстве.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на вашем устройстве.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на лицевой стороне телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите сканер отпечатков пальцев на задней поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите датчик отпечатков пальцев на задней поверхности устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите датчик отпечатков пальцев на задней поверхности телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Найдите сканер отпечатков пальцев на боковой грани вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Найдите сканер отпечатков пальцев на боковой грани вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Найдите сканер отпечатков пальцев на боковой грани вашего телефона.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Найдите сканер отпечатков пальцев на лицевой поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Найдите сканер отпечатков пальцев на задней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Найдите сканер отпечатков пальцев на боковой части вашего телефона.</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Пробуждение кнопкой \"Домой\"</string>
+    <string name="home_wake_button_summary">Использовать кнопку \"Домой\" для включения экрана</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Не задано</string>
+    <string name="action_menu">Меню</string>
+    <string name="action_app_switch">Недавние</string>
+    <string name="action_voice_search">Голосовой поиск</string>
+    <string name="action_launch_camera">Камера</string>
+    <string name="action_last_app">Последнее приложение</string>
+    <string name="action_splitscreen">Разделить экран</string>
+    <string name="action_flashlight">Фонарик</string>
+    <string name="action_clear_notifications">Очистить уведомления</string>
+    <string name="action_volume_panel">Панель регулировки громкости</string>
+    <string name="action_screen_off">Выключить экран</string>
+    <string name="action_notifications">Уведомления</string>
+    <string name="action_power_menu">Меню питания</string>
+    <string name="action_screenshot">Снимок экрана</string>
+    <string name="action_qs_panel">Панель QS</string>
+    <string name="action_app_action">Приложение</string>
+    <string name="action_ringer_modes">Режимы звонка</string>
+    <string name="kill_app">Закрыть активное приложение</string>
+    <string name="recent_app_toggle">Недавнее приложение</string>
+    <string name="skip_song">Пропустить трек</string>
+    <string name="prev_song">Предыдущий трек</string>
+    <string name="show_powermenu">Показать меню питания</string>
+    <string name="partial_screenshot">Частичный скриншот</string>
+    <string name="hush_mute">Отключить звук уведомлений</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Дополнительные параметры жестов</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и пользовательских действий</string>
+    <string name="navbar_gesture_tweaks_cat_title">Дополнительно</string>
+    <string name="swipe_app_select_summary">Выберите приложение, которое хотите запускать при сжатии</string>
+    <string name="long_back_swipe_timeout_title">Длительность долгого свайпа</string>
+    <string name="left_swipe_actions_title">Действие при длинном свайпе слева</string>
+    <string name="left_swipe_app_action_title">Выбрать приложение на длинный свайп слева</string>
+    <string name="right_swipe_actions_title">Действие при длинном свайпе справа</string>
+    <string name="right_swipe_app_action_title">Выбрать приложение на длинный свайп справа</string>
+    <string name="left_vertical_swipe_actions_title">Действие на вертикальный L-свайп слева</string>
+    <string name="left_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп слева</string>
+    <string name="right_vertical_swipe_actions_title">Действие на вертикальный L-свайп справа</string>
+    <string name="right_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп справа</string>
+    <string name="gesture_nav_tweaks_footer_info">Для выбора конкретного действия приложения, долго нажимайте на любое приложение в меню их выбора.\n\nЕсли лаунчер показывается, выполните свайп в самой нижней части экрана, чтобы запустить действие.</string>
+    <string name="back_swipe_extended_title">Расширенные действия свайпом</string>
+    <string name="back_swipe_extended_summary">Запуск действия при длинном свайпе (более чем на половину экрана), или L-свайп (от края и вверх)</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
     <string name="display_cutout_force_fullscreen_summary">Заставить приложения игнорировать вырез экрана</string>
     <string name="search">Поиск</string>
     <string name="search_apps">Поиск приложений</string>
     <string name="application_icon">Иконка приложения</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Всегда включен во время зарядки</string>
-    <string name="doze_on_charge_summary">Показывать Doze-экран во время зарядки</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Фоновые процессы</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Тактильный отклик</string>
+    <string name="back_gesture_haptic_summary">Включить вибрацию для жеста \"Назад\"</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Однократная автояркость</string>
+    <string name="auto_brightness_one_shot_summary">Регулировка яркости будет происходить только один раз в момент включения экрана</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Выключать Wi-Fi автоматически</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключения к сети</string>
+    <string name="wifi_timeout_summary2">Отключено</string>
+    <string name="wifi_timeout_summary_never">Никогда</string>
+    <string name="wifi_timeout_summary_15secs">15 секунд</string>
+    <string name="wifi_timeout_summary_30secs">30 секунд</string>
+    <string name="wifi_timeout_summary_1min">1 минута</string>
+    <string name="wifi_timeout_summary_2mins">2 минуты</string>
+    <string name="wifi_timeout_summary_5mins">5 минут</string>
+    <string name="wifi_timeout_summary_10mins">10 минут</string>
+    <string name="wifi_timeout_summary_30mins">30 минут</string>
+    <string name="wifi_timeout_summary_1hour">1 час</string>
+    <string name="wifi_timeout_summary_2hours">2 часа</string>
+    <string name="wifi_timeout_summary_4hours">4 часа</string>
+    <string name="wifi_timeout_summary_8hours">8 часов</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Тайм-аут Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключённых устройств</string>
+    <string name="bluetooth_timeout_summary2">Не выключать Bluetooth автоматически</string>
+    <string name="bluetooth_timeout_summary_never">Никогда</string>
+    <string name="bluetooth_timeout_summary_15secs">15 секунд</string>
+    <string name="bluetooth_timeout_summary_30secs">30 секунд</string>
+    <string name="bluetooth_timeout_summary_1min">1 минута</string>
+    <string name="bluetooth_timeout_summary_2mins">2 минуты</string>
+    <string name="bluetooth_timeout_summary_5mins">5 минут</string>
+    <string name="bluetooth_timeout_summary_10mins">10 минут</string>
+    <string name="bluetooth_timeout_summary_30mins">30 минут</string>
+    <string name="bluetooth_timeout_summary_1hour">1 час</string>
+    <string name="bluetooth_timeout_summary_2hours">2 часа</string>
+    <string name="bluetooth_timeout_summary_4hours">4 часа</string>
+    <string name="bluetooth_timeout_summary_8hours">8 часов</string>
+    <!-- Density category -->
+    <string name="density_category">Настройки плотности</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">Безопасность (устаревший стиль)</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">Настройка App Lock, блокировка SIM, блокировка хранилища</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Шаблон вибрации при звонке</string>
+    <string name="pattern_dzzz_dzzz">дззз-дззз</string>
+    <string name="pattern_dzzz_da">дззз-да</string>
+    <string name="pattern_mm_mm_mm">мм-мм-мм</string>
+    <string name="pattern_da_da_dzzz">да-да-дзз</string>
+    <string name="pattern_da_dzzz_da">да-дззз-да</string>
+    <string name="pattern_custom">Свое</string>
+    <string name="custom_vibration_pattern_title">Свой шаблон</string>
+    <string name="custom_vibration_pattern_summary">Установить пользовательский шаблон вибрации</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Включить предупреждение об уровне заряда</string>
+    <string name="notification_battery_charge_level_title">Предупреждение о заряде батареи</string>
+    <string name="notification_battery_charge_level_summary">Проиграть звук, когда батарея достигнет установленного уровня заряда батареи</string>
+    <string name="notification_battery_charge_level_seek_bar">Уровень заряда батареи</string>
+    <string name="notification_battery_charge_level_ringtone">Рингтон</string>
+    <string name="notification_battery_charge_level_silent">Без звука</string>
+    <!-- IME button space -->
+    <string name="navbar_category">Панель навигации</string>
+    <string name="navigation_bar_ime_space_title">Отступ кнопки IME</string>
+    <string name="navigation_bar_ime_space_summary">Отображать отступ под клавиатурой</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Анимация жеста \"Назад\"</string>
+    <string name="back_gesture_arrow_summary">Показать анимированную стрелку для жеста \"Назад\".</string>
 </resources>

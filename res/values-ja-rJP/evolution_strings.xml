@@ -268,4 +268,28 @@
     <string name="aosp_security_settings_title">標準のロックオプション</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
     <string name="aosp_security_settings_summary">アプリロックの設定、SIM カードのロック、認証情報ストレージのロック</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">着信音の振動のパターン</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">カスタム</string>
+    <string name="custom_vibration_pattern_title">カスタムパターン</string>
+    <string name="custom_vibration_pattern_summary">カスタムの振動パターンを設定する</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">バッテリー充電レベル警告の有効化</string>
+    <string name="notification_battery_charge_level_title">バッテリー充電の警告</string>
+    <string name="notification_battery_charge_level_summary">バッテリー充電時に指定したレベルに達した時に音を鳴らす</string>
+    <string name="notification_battery_charge_level_seek_bar">バッテリー残量</string>
+    <string name="notification_battery_charge_level_ringtone">着信音</string>
+    <string name="notification_battery_charge_level_silent">サイレント</string>
+    <!-- IME button space -->
+    <string name="navbar_category">ナビゲーションバー</string>
+    <string name="navigation_bar_ime_space_title">IME ボタンのスペース</string>
+    <string name="navigation_bar_ime_space_summary">キーボードの下に IME ボタンのスペースを表示する</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">戻るジェスチャーアニメーション</string>
+    <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
 </resources>
