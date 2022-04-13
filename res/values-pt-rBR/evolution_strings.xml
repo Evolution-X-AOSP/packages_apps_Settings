@@ -268,4 +268,28 @@
     <string name="aosp_security_settings_title">Opções de bloqueio e segurança</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
     <string name="aosp_security_settings_summary">Definir bloqueio de aplicativo, bloqueio do chip, criptografia e credenciais</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Padrão de vibração do toque</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizado</string>
+    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Ativar aviso de carga da bateria</string>
+    <string name="notification_battery_charge_level_title">Alerta de carga da bateria</string>
+    <string name="notification_battery_charge_level_summary">Reproduzir um som quando a bateria atingir o nível de carga definido</string>
+    <string name="notification_battery_charge_level_seek_bar">Nível da bateria</string>
+    <string name="notification_battery_charge_level_ringtone">Toque</string>
+    <string name="notification_battery_charge_level_silent">Silencioso</string>
+    <!-- IME button space -->
+    <string name="navbar_category">Barra de navegação</string>
+    <string name="navigation_bar_ime_space_title">Espaço do método de entrada</string>
+    <string name="navigation_bar_ime_space_summary">Mostrar espaço na parte inferior do teclado</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animação no gesto de voltar</string>
+    <string name="back_gesture_arrow_summary">Mostrar uma seta animada para o gesto de voltar</string>
 </resources>
