@@ -267,4 +267,28 @@
     <string name="aosp_security_settings_title">Standart kilit seçenekleri</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
     <string name="aosp_security_settings_summary">Uygulama kilidi, SIM kart kilidi, kimlik bilgisi ile depolama kilidi ayarlayın</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Zil sesi titreşim deseni</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Özel</string>
+    <string name="custom_vibration_pattern_title">Özel desen</string>
+    <string name="custom_vibration_pattern_summary">Özel bir titreşim modeli ayarlayın</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Pil şarj seviyesi uyarısını etkinleştir</string>
+    <string name="notification_battery_charge_level_title">Pil şarj uyarısı</string>
+    <string name="notification_battery_charge_level_summary">Pil şarj olurken belirtilen seviyeye ulaştığında ses çıkar</string>
+    <string name="notification_battery_charge_level_seek_bar">Pil seviyesi</string>
+    <string name="notification_battery_charge_level_ringtone">Zil sesi</string>
+    <string name="notification_battery_charge_level_silent">Sessiz</string>
+    <!-- IME button space -->
+    <string name="navbar_category">Gezinme çubuğu</string>
+    <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanı</string>
+    <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını göster</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Geri hareketi animasyonu</string>
+    <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
 </resources>
