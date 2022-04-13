@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2021 The Evolution X Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
+     Copyright (C) 2019-2022 Evolution X
+     SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Hardware info -->
@@ -32,87 +21,98 @@
     <string name="selinux_status_disabled">Deaktiviert</string>
     <string name="selinux_status_permissive">Moderat</string>
     <string name="selinux_status_enforcing">Strikt</string>
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Bildschirmfoto-Auslöseton</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Benachrichtigungsverlauf anzeigen</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
-    <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Ansteigende Ruftonlautstärke</string>
-    <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
-    <string name="increasing_ring_ramp_up_time_title">Steigerung nach</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Klingelton- &amp; Benachrichtigungslautstärke verknüpfen</string>
-    <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
-    <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch das PIN-Layout zufällig neu wählen</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
-    <string name="unlock_quick_unlock_control_summary">Automatisches Entsperren bei korrekter PIN/Passwort Eingabe</string>
-    <!-- Running services -->
-    <string name="background_processes_settings_title">Hintergrundprozesse</string>
-    <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Beim Einstecken aufwecken</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
-    <!-- Home button wake -->
-    <string name="home_wake_button_title">Aufwecken mit Home-Taste</string>
-    <string name="home_wake_button_summary">Aktivieren der Home-Taste zum Aufwecken des Bildschirms</string>
-    <!-- Custom light color -->
-    <string name="custom_light_title">Helle Farbe</string>
-    <string name="custom_light_on_time_title">Anschaltdauer der pulsierenden LED (Millisekunden)</string>
-    <string name="custom_light_off_time_title">Ausschaltdauer der pulsierenden LED (Millisekunden)</string>
-    <string name="value_equals_default">Standard</string>
-    <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Größe des Entsperrmusters auswählen</string>
-    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Fehlerhaftes Entsperrmuster anzeigen</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Entsperrmuster-Punkte anzeigen</string>
-    <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
-    <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
-    <string name="low_power_refresh_rate_title_custom">Energiesparmodus Aktualisierungsrate</string>
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on Display beim Laden aktiv lassen</string>
-    <string name="doze_on_charge_summary">Doze-Bildschirm während des Ladevorgangs anzeigen</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Taschenmodus</string>
-    <string name="pocket_judge_summary">Verhindert Bildschirm und Tasteneingaben, wenn sich das Gerät in einer Tasche befindet</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
-    <string name="proximity_wake_summary">Vor dem Aufwecken des Bildschirms den Näherungssensor überprüfen</string>
-    <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Stumm, keine Medienwiedergabe</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">An (Stumm, keine Medienwiedergabe)</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptische Rückmeldung</string>
-    <string name="back_gesture_haptic_summary">Vibrieren beim Ausführen der Zurück-Geste</string>
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">Vollständig</string>
-    <string name="back_height_high_label">Unten</string>
-    <string name="back_options_dialog_title">Optionen</string>
-    <string name="back_height_message">Länge des Bildschirmseitenbereichs, der für die Zurück-Geste verwendet werden kann.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Weniger als 1 Minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s heute</string>
-    <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Vibrationsmuster des Klingeltons</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Benutzerdefiniert</string>
-    <string name="custom_vibration_pattern_title">Benutzerdefiniertes Muster</string>
-    <string name="custom_vibration_pattern_summary">Benutzerdefiniertes Vibrationsmuster festlegen</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Akku-Temperatur</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Vor dem Aufwecken des Bildschirms den Näherungssensor überprüfen</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
+    <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
+    <string name="low_power_refresh_rate_title_custom">Energiesparmodus Aktualisierungsrate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Es wird keine private Verbindung hergestellt.</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Schnelles Laden</string>
+    <string name="fast_charging_summary">Deaktivieren, um die vom Gerät erzeugte Hitze während des Ladevorgangs zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Wischen für Bildschirmfoto</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen für ein Bildschirmfoto</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive Medienwiedergabe</string>
+    <string name="adaptive_playback_enabled">Adaptive Medienwiedergabe verwenden</string>
+    <string name="adaptive_playback_disabled_summary">Aus</string>
+    <string name="adaptive_playback_intro_text">Pausiert automatisch die Wiedergabe gerade laufender Medien, wenn die Lautstärke stumm geschaltet wird und wird automatisch fortgesetzt, wenn die Lautstärke innerhalb der festgelegten Zeit wiederhergestellt wird.</string>
+    <string name="adaptive_playback_timeout_title">Timeout verwenden für</string>
+    <string name="adaptive_playback_timeout_none">Kein Zeitlimit</string>
+    <string name="adaptive_playback_timeout_none_summary">An (ohne Pausieren)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 Sekunden</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">An (30 Sekunden)</string>
+    <string name="adaptive_playback_timeout_1_min">1 Minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">An (1 Minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 Minuten</string>
+    <string name="adaptive_playback_timeout_2_min_summary">An (2 Minuten)</string>
+    <string name="adaptive_playback_timeout_5_min">5 Minuten</string>
+    <string name="adaptive_playback_timeout_5_min_summary">An (5 Minuten)</string>
+    <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
+    <string name="adaptive_playback_timeout_10_min_summary">An (10 Minuten)</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Zwischen den Modi wechseln</string>
     <string name="prevent_ringing_option_cycle_summary">An (Zwischen den Modi wechseln)</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
     <string name="volume_button_music_control_summary">Bei ausgeschaltetem Bildschirm wird durch langes Drücken der Lautstärketaste der Musiktitel gewechselt</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Klingelton- &amp; Benachrichtigungslautstärke verknüpfen</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Bildschirmfoto-Auslöseton</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App-Sperre</string>
+    <string name="app_lock_summary_singular">1 Anwendung ist geschützt</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> Anwendungen sind geschützt</string>
+    <string name="app_lock_authentication_dialog_title">Entsperren</string>
+    <string name="enable_debugging">Debugging aktivieren</string>
+    <string name="disable_debugging">Debugging deaktivieren</string>
+    <string name="app_lock_packages_title">Geschützte Apps</string>
+    <string name="app_lock_packages_summary">Wählen Sie die Apps aus, die mit biometrischen Daten oder Gerätedaten geschützt werden sollen</string>
+    <string name="app_lock_timeout_title">Zeit bis zur automatischen Sperrung</string>
+    <string name="app_lock_timeout_summary">Dauer der Zeit, nach der eine freigeschaltete App im Hintergrund gesperrt werden soll</string>
+    <string name="app_lock_notifications_title">Benachrichtigungen Ausblenden</string>
+    <string name="app_lock_notifications_summary">          Benachrichtigungsinhalte werden ausgeblendet und einklappt für ausgewählte Apps, wenn sie gesperrt sind.
+          Heads-up-Benachrichtigungen werden automatisch deaktiviert.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Schütze zuerst eine Anwendung</string>
+    <string name="app_lock_biometrics_allowed_title">Biometrie zum Entsperren aktivieren</string>
+    <string name="app_lock_footer_text">Bubbles werden automatisch nach der Zeitüberschreitung verworfen</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
+    <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch das PIN-Layout zufällig neu wählen</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisches Entsperren bei korrekter PIN/Passwort Eingabe</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Größe des Entsperrmusters auswählen</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Fehlerhaftes Entsperrmuster anzeigen</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Entsperrmuster-Punkte anzeigen</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Ton beim Aufladen</string>
+    <string name="charging_vibro_title">Vibration beim Laden</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">App-Lautstärke</string>
+    <string name="app_volume_title">Lautstärkeregler für Anwendungen</string>
+    <string name="app_volume_summary">Unterschiedliche Lautstärken für jede Anwendung erlauben</string>
     <!-- Fullscreen gestures -->
     <string name="other_controls_title">Andere Steuerungen</string>
     <string name="fullscreen_gestures_title">Gesten im Vollbildmodus</string>
@@ -121,17 +121,113 @@
     <string name="gesture_navbar_length_title">Pillenlänge</string>
     <string name="short_label">Kurz</string>
     <string name="long_label">Lang</string>
-    <!-- Volume dialog timeout -->
-    <string name="unit_seconds">Sekunde(n)</string>
-    <string name="volume_dialog_timeout_title">Anzeigedauer des Lautstärkeregler</string>
-    <string name="volume_dialog_timeout_summary">Die Zeit bis der Lautstärkeregler ausgeblendet wird</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Vorhandenen Gesichts-Scan entfernen und einen neuen Scan erstellen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gesichts-Scan wiederholen</string>
+    <string name="face_redo_confirm_btn">Wiederholen</string>
+    <string name="face_redo_warning_msg">Möchten Sie den vorhandenen Gesichts-Scan löschen und einen neuen Scan erstellen?</string>
+    <string name="face_unlock_method_title">Gesichtsentsperrung auf Sperrbildschirm zulassen</string>
+    <string name="face_unlock_method_default">Wenn der Bildschirm aktiviert ist</string>
+    <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doppeltes Tippen</string>
     <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
     <string name="doze_double_tap_summary">Benachrichtigungen durch doppeltes Tippen anzeigen</string>
-    <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Wischen für Bildschirmfoto</string>
-    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen für ein Bildschirmfoto</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Musiktitelanzeige im Inaktivitätsdisplay</string>
+    <string name="pulse_on_new_tracks_summary">Inaktivitätsdisplay aktivieren, wenn ein neuer Musiktitel abgespielt wird</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Vollständig</string>
+    <string name="back_height_high_label">Unten</string>
+    <string name="back_options_dialog_title">Optionen</string>
+    <string name="back_height_message">Länge des Bildschirmseitenbereichs, der für die Zurück-Geste verwendet werden kann.</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Leerlauf-Manager</string>
+    <string name="idle_manager_summary">Stoppe alle nicht notwendigen Hintergrundprozesse, wenn das Gerät inaktiv ist</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on Display beim Laden aktiv lassen</string>
+    <string name="doze_on_charge_summary">Doze-Bildschirm während des Ladevorgangs anzeigen</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Beim Einstecken aufwecken</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Helle Farbe</string>
+    <string name="custom_light_on_time_title">Anschaltdauer der pulsierenden LED (Millisekunden)</string>
+    <string name="custom_light_off_time_title">Ausschaltdauer der pulsierenden LED (Millisekunden)</string>
+    <string name="value_equals_default">Standard</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Gerätes.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Suchen Sie den Fingerabdrucksensor an der Vorderseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Rückseite deines Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Suchen Sie den Fingerabdrucksensor auf der Rückseite deines Gerätes.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Suchen Sie den Fingerabdrucksensor auf der Rückseite deines Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Seite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Suchen Sie den Fingerabdrucksensor auf der Seite Ihres Gerätes.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Suchen Sie den Fingerabdrucksensor auf der Seite Ihres Telefons.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Berühren Sie den Sensor an der Vorderseite des Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Berühren Sie den Sensor an der Rückseite des Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Berühren Sie den Sensor an der Seite des Telefons.</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Aufwecken mit Home-Taste</string>
+    <string name="home_wake_button_summary">Aktivieren der Home-Taste zum Aufwecken des Bildschirms</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Keine Aktion</string>
+    <string name="action_menu">Menü</string>
+    <string name="action_app_switch">Verlauf</string>
+    <string name="action_voice_search">Sprachsuche</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_last_app">Letzte Anwendung</string>
+    <string name="action_splitscreen">Geteilter Bildschirm</string>
+    <string name="action_flashlight">Taschenlampe</string>
+    <string name="action_clear_notifications">Benachrichtigungen löschen</string>
+    <string name="action_volume_panel">Lautstärkeregler</string>
+    <string name="action_screen_off">Bildschirm aus</string>
+    <string name="action_notifications">Benachrichtigungen</string>
+    <string name="action_power_menu">Ein/Aus-Menü</string>
+    <string name="action_screenshot">Bildschirmfoto</string>
+    <string name="action_qs_panel">Schnelleinstellungen</string>
+    <string name="action_app_action">Anwendung</string>
+    <string name="action_ringer_modes">Klingelton-Modus</string>
+    <string name="kill_app">App im Vordergrund beenden</string>
+    <string name="recent_app_toggle">Letzte App wechseln</string>
+    <string name="skip_song">Titel überspringen</string>
+    <string name="prev_song">Vorheriger Titel</string>
+    <string name="show_powermenu">Power-Menü anzeigen</string>
+    <string name="partial_screenshot">Bildschirmbereich aufnehmen</string>
+    <string name="hush_mute">Alle Benachrichtigungen stummschalten</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Erweiterte Gesten-Einstellungen</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Gesten anpassen und benutzerdefinierte Aktionen festlegen</string>
+    <string name="navbar_gesture_tweaks_cat_title">Erweitert</string>
+    <string name="swipe_app_select_summary">App auswählen, die mit der Druck-Aktion gestartet werden soll</string>
+    <string name="long_back_swipe_timeout_title">Timeout für lange Zurück-Geste</string>
+    <string name="left_swipe_actions_title">Lange Wischaktion nach links</string>
+    <string name="left_swipe_app_action_title">Anwendung für lange Wischaktion nach links wählen</string>
+    <string name="right_swipe_actions_title">Lange Wischaktion nach rechts</string>
+    <string name="right_swipe_app_action_title">Anwendung für lange Wischaktion nach rechts wählen</string>
+    <string name="left_vertical_swipe_actions_title">Vertikales Streichen nach links (L-Swipe)</string>
+    <string name="left_vertical_swipe_app_action_title">Anwendung für vertikales Wischen von links wählen</string>
+    <string name="right_vertical_swipe_actions_title">Vertikales Streichen nach Rechts (L-Swipe)</string>
+    <string name="right_vertical_swipe_app_action_title">Anwendung für vertikales Wischen von rechts wählen</string>
+    <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine App in der Apps-Auswahl.\n\nWenn der Launcher angezeigt wird, streichen Sie ganz unten auf dem Bildschirm, um die Aktion auszulösen.</string>
+    <string name="back_swipe_extended_title">Erweiterte Wischaktion</string>
+    <string name="back_swipe_extended_summary">Aktion für breiteres Wischen (mehr als die Hälfte des Bildschirms), oder Wischen in Form eines L (vertikal lang genug)</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Zwinge die Applikationen die Einkerbung zu ignorieren</string>
+    <string name="search">Suche</string>
+    <string name="search_apps">Anwendungen suchen</string>
+    <string name="application_icon">App-Symbol</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptische Rückmeldung</string>
+    <string name="back_gesture_haptic_summary">Vibrieren beim Ausführen der Zurück-Geste</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Schnelle automatische Helligkeit</string>
+    <string name="auto_brightness_one_shot_summary">Helligkeitsanpassung erfolgt nur beim Einschalten des Bildschirms</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">WLAN automatisch ausschalten</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -166,36 +262,34 @@
     <string name="bluetooth_timeout_summary_2hours">2 Stunden</string>
     <string name="bluetooth_timeout_summary_4hours">4 Stunden</string>
     <string name="bluetooth_timeout_summary_8hours">8 Stunden</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Musiktitelanzeige im Inaktivitätsdisplay</string>
-    <string name="pulse_on_new_tracks_summary">Inaktivitätsdisplay aktivieren, wenn ein neuer Musiktitel abgespielt wird</string>
-    <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive Medienwiedergabe</string>
-    <string name="adaptive_playback_enabled">Adaptive Medienwiedergabe verwenden</string>
-    <string name="adaptive_playback_disabled_summary">Aus</string>
-    <string name="adaptive_playback_timeout_title">Timeout verwenden für</string>
-    <string name="adaptive_playback_timeout_none">Kein Zeitlimit</string>
-    <string name="adaptive_playback_timeout_none_summary">An (ohne Pausieren)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 Sekunden</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">An (30 Sekunden)</string>
-    <string name="adaptive_playback_timeout_1_min">1 Minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">An (1 Minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 Minuten</string>
-    <string name="adaptive_playback_timeout_2_min_summary">An (2 Minuten)</string>
-    <string name="adaptive_playback_timeout_5_min">5 Minuten</string>
-    <string name="adaptive_playback_timeout_5_min_summary">An (5 Minuten)</string>
-    <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
-    <string name="adaptive_playback_timeout_10_min_summary">An (10 Minuten)</string>
-    <string name="adaptive_playback_explainer">\"Adaptive Medienwiedergabe\" pausiert automatisch die Wiedergabe gerade laufender Medien, wenn die Lautstärke stumm geschaltet wird und wird automatisch fortgesetzt, wenn die Lautstärke innerhalb der festgelegten Zeit wiederhergestellt wird.</string>
-    <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Schaltfläche zum Drehen verwenden</string>
-    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
-    <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">Schnelle automatische Helligkeit</string>
-    <string name="auto_brightness_one_shot_summary">Helligkeitsanpassung erfolgt nur beim Einschalten des Bildschirms</string>
-    <!-- Per-app volume control -->
-    <string name="app_volume">App-Lautstärke</string>
-    <string name="app_volume_title">Lautstärkeregler für Anwendungen</string>
-    <string name="app_volume_summary">Unterschiedliche Lautstärken für jede Anwendung erlauben</string>
+    <!-- Density category -->
+    <string name="density_category">Bildschirmauflösung</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">Optionen für Displaysperre</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">App-Sperre, SIM-Karten-Sperre, Anmeldedaten-Sperre einstellen</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Vibrationsmuster des Klingeltons</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Benutzerdefiniert</string>
+    <string name="custom_vibration_pattern_title">Benutzerdefiniertes Muster</string>
+    <string name="custom_vibration_pattern_summary">Benutzerdefiniertes Vibrationsmuster festlegen</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Akkuladezustands-Warnung aktivieren</string>
+    <string name="notification_battery_charge_level_title">Akkulade-Warnung</string>
+    <string name="notification_battery_charge_level_summary">Spiele einen Sound ab, wenn der Akku während des Ladevorgangs den angegebenen Akkustand erreicht hat</string>
+    <string name="notification_battery_charge_level_seek_bar">Akkustand</string>
+    <string name="notification_battery_charge_level_ringtone">Klingelton</string>
+    <string name="notification_battery_charge_level_silent">Lautlos</string>
+    <!-- IME button space -->
+    <string name="navbar_category">Navigationsleiste</string>
+    <string name="navigation_bar_ime_space_title">IME-Schaltflächenbereich</string>
+    <string name="navigation_bar_ime_space_summary">IME-Schaltflächenbereich unter der Tastatur anzeigen</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Zeige einen animierten Pfeil für die Zurück-Geste</string>
 </resources>
