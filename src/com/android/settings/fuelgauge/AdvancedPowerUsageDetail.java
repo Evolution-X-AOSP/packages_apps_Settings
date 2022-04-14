@@ -26,6 +26,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.text.format.DateUtils;
 import android.util.Log;
@@ -537,8 +538,8 @@ public class AdvancedPowerUsageDetail extends DashboardFragment implements
         final String slotTime = bundle.getString(EXTRA_SLOT_TIME, null);
         final long totalTimeMs = foregroundTimeMs + backgroundTimeMs;
         final CharSequence usageTimeSummary;
-        final boolean isChartGraphEnabled = FeatureFactory.getFactory(getContext())
-                .getPowerUsageFeatureProvider(getContext()).isChartGraphEnabled(getContext());
+        boolean isChartGraphEnabled = Settings.System.getIntForUser(getContext().getContentResolver(),
+                "battery_24_hrs_stats", 0, UserHandle.USER_CURRENT) != 0;
 
         if (!isChartGraphEnabled && BatteryEntry.isSystemUid(uid)) {
             return null;
