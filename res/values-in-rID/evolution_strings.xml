@@ -283,7 +283,7 @@
     <string name="notification_battery_charge_level_title">Peringatan daya baterai</string>
     <string name="notification_battery_charge_level_summary">Putar suara saat baterai mencapai level saat mengisi daya</string>
     <string name="notification_battery_charge_level_seek_bar">Tingkat baterai</string>
-    <string name="notification_battery_charge_level_ringtone">Dering</string>
+    <string name="notification_battery_charge_level_ringtone">Nada dering</string>
     <string name="notification_battery_charge_level_silent">Senyap</string>
     <!-- IME button space -->
     <string name="navbar_category">Bilah navigasi</string>
