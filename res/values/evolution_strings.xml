@@ -274,9 +274,9 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
 
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Back gesture haptic</string>
+    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
 
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
