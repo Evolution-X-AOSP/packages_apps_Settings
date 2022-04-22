@@ -91,7 +91,7 @@
             android:summary="@string/navbar_gesture_tweaks_pref_summary"
             android:fragment="com.android.settings.gestures.GestureTweaksSettings" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.evolution.settings.preference.SecureSettingSwitchPreference
             android:key="back_gesture_haptic"
             android:title="@string/back_gesture_haptic_title"
             android:summary="@string/back_gesture_haptic_summary"
