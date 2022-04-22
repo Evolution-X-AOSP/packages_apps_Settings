@@ -222,7 +222,7 @@
     <string name="application_icon">アプリのアイコン</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">バックグラウンドプロセス</string>
-    <!-- Misc gesture settings -->
+    <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">振動フィードバック</string>
     <string name="back_gesture_haptic_summary">戻るジェスチャー時に振動を有効化する</string>
     <!-- One shot automatic brightness -->
