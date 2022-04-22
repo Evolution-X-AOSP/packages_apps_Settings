@@ -222,7 +222,7 @@
     <string name="application_icon">App-Symbol</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Hintergrundprozesse</string>
-    <!-- Misc gesture settings -->
+    <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Haptische Rückmeldung</string>
     <string name="back_gesture_haptic_summary">Vibrieren beim Ausführen der Zurück-Geste</string>
     <!-- One shot automatic brightness -->
