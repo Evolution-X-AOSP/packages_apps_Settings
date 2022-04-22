@@ -222,7 +222,7 @@
     <string name="application_icon">Ikon aplikasi</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Proses latar belakang</string>
-    <!-- Misc gesture settings -->
+    <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Umpan balik haptik</string>
     <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada tombol gestur kembali</string>
     <!-- One shot automatic brightness -->
