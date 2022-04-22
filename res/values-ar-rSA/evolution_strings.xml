@@ -221,7 +221,7 @@
     <string name="application_icon">أيقونة التطبيق</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">عمليات الخلفية</string>
-    <!-- Misc gesture settings -->
+    <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">رد فعل اللمس</string>
     <string name="back_gesture_haptic_summary">تفعيل الإهتزاز عند إيماء الرجوع</string>
     <!-- One shot automatic brightness -->
