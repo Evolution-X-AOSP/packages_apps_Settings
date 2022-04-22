@@ -222,7 +222,7 @@
     <string name="application_icon">Pictograma aplicației</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Procese de fundal</string>
-    <!-- Misc gesture settings -->
+    <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Vibraţii la atingere</string>
     <string name="back_gesture_haptic_summary">Activare vibtrație pentru gestul Înapoi</string>
     <!-- One shot automatic brightness -->
