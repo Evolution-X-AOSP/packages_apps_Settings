@@ -222,7 +222,7 @@
     <string name="application_icon">应用图标</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">后台进程</string>
-    <!-- Misc gesture settings -->
+    <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">触觉反馈</string>
     <string name="back_gesture_haptic_summary">在后退手势上启用触觉滴答效果</string>
     <!-- One shot automatic brightness -->

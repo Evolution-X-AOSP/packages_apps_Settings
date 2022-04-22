@@ -222,7 +222,7 @@
     <string name="application_icon">Ícone de aplicativo</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Processos em segundo plano</string>
-    <!-- Misc gesture settings -->
+    <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Resposta tátil</string>
     <string name="back_gesture_haptic_summary">Ativar o efeito tátil no gesto de voltar</string>
     <!-- One shot automatic brightness -->

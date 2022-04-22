@@ -222,7 +222,7 @@
     <string name="application_icon">Иконка приложения</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Фоновые процессы</string>
-    <!-- Misc gesture settings -->
+    <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Тактильный отклик</string>
     <string name="back_gesture_haptic_summary">Включить вибрацию для жеста \"Назад\"</string>
     <!-- One shot automatic brightness -->

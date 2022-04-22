@@ -222,7 +222,7 @@
     <string name="application_icon">Icono de aplicación</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Procesos en segundo plano</string>
-    <!-- Misc gesture settings -->
+    <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Respuesta háptica</string>
     <string name="back_gesture_haptic_summary">Activar efecto de tick háptico en el gesto de volver</string>
     <!-- One shot automatic brightness -->

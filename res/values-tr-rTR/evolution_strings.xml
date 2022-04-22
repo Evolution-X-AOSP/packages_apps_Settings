@@ -221,7 +221,7 @@
     <string name="application_icon">Uygulama simgesi</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Arkaplan işlemleri</string>
-    <!-- Misc gesture settings -->
+    <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Dokunsal geri bildirim</string>
     <string name="back_gesture_haptic_summary">Geri hareketinde dokunsal tıklama efektini etkinleştirir</string>
     <!-- One shot automatic brightness -->
