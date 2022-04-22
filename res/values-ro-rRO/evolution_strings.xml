@@ -173,16 +173,23 @@
     <string name="home_wake_button_title">Trezire prin butonul acasă</string>
     <string name="home_wake_button_summary">Activează butonul acasă pentru a trezi ecranul</string>
     <!-- Custom actions -->
+    <string name="action_nothing">Nicio acțiune</string>
     <string name="action_menu">Meniu</string>
     <string name="action_app_switch">Recente</string>
+    <string name="action_voice_search">Căutare vocală</string>
     <string name="action_launch_camera">Cameră</string>
     <string name="action_last_app">Ultima aplicație</string>
+    <string name="action_splitscreen">Ecran divizat</string>
+    <string name="action_flashlight">Lanternă</string>
     <string name="action_clear_notifications">Ștergeți notificările</string>
+    <string name="action_volume_panel">Panou de volum</string>
     <string name="action_screen_off">Închidere ecran</string>
     <string name="action_notifications">Notificări</string>
     <string name="action_power_menu">Meniu de alimentare</string>
+    <string name="action_screenshot">Captură de ecran</string>
     <string name="action_qs_panel">Panou setări rapide</string>
     <string name="action_app_action">Aplicație</string>
+    <string name="action_ringer_modes">Moduri sonerie</string>
     <string name="kill_app">Închide aplicația din prim-plan</string>
     <string name="recent_app_toggle">Schimbă aplicația recentă</string>
     <string name="skip_song">Omite melodia</string>
@@ -261,4 +268,28 @@
     <string name="aosp_security_settings_title">Opțiuni de blocare stoc</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
     <string name="aosp_security_settings_summary">Setați Blocarea aplicației, blocarea cartelei SIM, blocarea stocării acreditărilor</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Model vibrație sonerie</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizat</string>
+    <string name="custom_vibration_pattern_title">Model personalizat</string>
+    <string name="custom_vibration_pattern_summary">Setați un model personalizat de vibrații</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Activați avertismentul privind nivelul de încărcare a bateriei</string>
+    <string name="notification_battery_charge_level_title">Avertizare încărcare baterie</string>
+    <string name="notification_battery_charge_level_summary">Redă un sunet atunci când bateria atinge un nivel la încărcare</string>
+    <string name="notification_battery_charge_level_seek_bar">Nivelul bateriei</string>
+    <string name="notification_battery_charge_level_ringtone">Ton de apel</string>
+    <string name="notification_battery_charge_level_silent">Silențios</string>
+    <!-- IME button space -->
+    <string name="navbar_category">Bara de navigație</string>
+    <string name="navigation_bar_ime_space_title">Spațiu buton tastatură</string>
+    <string name="navigation_bar_ime_space_summary">Arată spațiul butonului IME sub tastatură</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animație gest înapoi</string>
+    <string name="back_gesture_arrow_summary">Arată o săgeată animată pentru gestul înapoi</string>
 </resources>
