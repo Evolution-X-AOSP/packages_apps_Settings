@@ -120,6 +120,7 @@ android_library {
         "SystemUIUnfoldLib",
         "vendor.lineage.fastcharge-V1.0-java",
         "SettingsGoogle-lib",
+        "SystemUISharedLib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
