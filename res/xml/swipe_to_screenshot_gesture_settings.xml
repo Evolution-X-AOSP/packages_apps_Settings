@@ -20,7 +20,7 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:key="swipe_to_screenshot_screen"
-    android:title="@string/three_finger_gesture">
+    android:title="@string/swipe_to_screenshot_gesture_title">
 
     <com.android.settingslib.widget.IllustrationPreference
         android:key="swipe_to_screenshot_video" 
@@ -29,8 +29,8 @@
 
     <SwitchPreference
         android:key="swipe_to_screenshot"
-        android:title="@string/three_finger_gesture"
-        android:summary="@string/three_finger_gesture_summary"
+        android:title="@string/swipe_to_screenshot_gesture_title"
+        android:summary="@string/swipe_to_screenshot_gesture_summary"
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 

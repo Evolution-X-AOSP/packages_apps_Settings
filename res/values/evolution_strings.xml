@@ -60,8 +60,8 @@
     <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
 
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
 
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Smart Pause</string>
