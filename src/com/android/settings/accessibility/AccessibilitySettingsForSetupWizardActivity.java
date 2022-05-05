@@ -23,7 +23,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
-import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 
 import androidx.annotation.VisibleForTesting;
@@ -107,9 +106,6 @@ public class AccessibilitySettingsForSetupWizardActivity extends SettingsActivit
         super.onCreate(savedState);
         applyTheme();
         tryLaunchFontSizeSettings();
-        if (mCollapsingToolbarLayout != null) {
-            mCollapsingToolbarLayout.setVisibility(View.GONE);
-        }
         findViewById(R.id.content_parent).setFitsSystemWindows(false);
     }
 
