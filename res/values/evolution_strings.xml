@@ -497,6 +497,7 @@
     <string name="show_powermenu">Show Power menu</string>
     <string name="partial_screenshot">Partial screenshot</string>
     <string name="hush_mute">Silence notifications</string>
+    <string name="action_open_recents">Open recents</string>
 
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
