@@ -44,8 +44,8 @@
     <string name="fast_charging_title">急速充電</string>
     <string name="fast_charging_summary">無効にすると充電中の端末の発熱を減らしバッテリー寿命を伸ばすことができます</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">スワイプでスクリーンショット</string>
-    <string name="three_finger_gesture_summary">3本指で下スワイプしてスクリーンショットを取得する</string>
+    <string name="swipe_to_screenshot_gesture_title">スワイプでスクリーンショット</string>
+    <string name="swipe_to_screenshot_gesture_summary">3本指でスワイプしてスクリーンショットを取得する</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">アダプティブ再生</string>
     <string name="adaptive_playback_enabled">アダプティブ再生を使用</string>
@@ -197,6 +197,7 @@
     <string name="show_powermenu">電源メニューを表示</string>
     <string name="partial_screenshot">部分スクリーンショット</string>
     <string name="hush_mute">通知をミュート</string>
+    <string name="action_open_recents">履歴を開く</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャーオプション</string>
     <string name="navbar_gesture_tweaks_pref_summary">ジェスチャーの編集とカスタムアクションの設定をする</string>
@@ -320,4 +321,69 @@
     <string name="wifi_hotspot_client_manager_footer_text">利用可能なクライアントは現在ありません。利用可能になった時に接続済みまたはブロック済みの端末はこのリストに表示されます。</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">高感度タッチ</string>
+    <string name="high_touch_sensitivity_summary">手袋を着けたまま使用できるようにタッチ画面の感度を向上させる</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">タッチ画面のホバリング</string>
+    <string name="touchscreen_hovering_summary">ウェブブラウザやリモードデスクトップなどでマウスのようにホバリングできるようにする</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">サンプリングレートの高速化</string>
+    <string name="high_touch_polling_rate_summary">タッチ画面のタッチサンプリングレートを向上させる</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">画面を見やすく目の疲れを軽減するために時間と周囲の環境に合わせて画面を最適化する</string>
+    <string name="live_display_mode">表示モード</string>
+    <string name="live_display_color_temperature_title">色温度</string>
+    <string name="live_display_color_temperature_summary">昼: <xliff:g id="day_temperature">%1$d</xliff:g>K  夜: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">昼</string>
+    <string name="live_display_night">夜</string>
+    <string name="live_display_outdoor_mode_title">自動屋外モード</string>
+    <string name="live_display_outdoor_mode_summary">明るい日差しが照射する環境下で明るさと彩度を自動的に向上させる</string>
+    <string name="live_display_anti_flicker_title">アンチフリッカー</string>
+    <string name="live_display_anti_flicker_summary">幅広いちらつきを防ぎ、暗い環境での目への負担を軽減します。色の再現度が低下したり、いくつかの項目の表示に影響する可能性があります。</string>
+    <string name="live_display_low_power_title">消費電力を削減</string>
+    <string name="live_display_low_power_summary">性能を低下させずに画面を最低の消費電力に調整する</string>
+    <string name="live_display_enhance_color_title">色を補正</string>
+    <string name="live_display_enhance_color_summary">肌の色/風景/他の画像の色の鮮やかさを補正する</string>
+    <string name="live_display_color_profile_title">色のプロファイル</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">正確な色と明るい白</string>
+    <string name="live_display_color_profile_natural_title">ナチュラル</string>
+    <string name="live_display_color_profile_natural_summary">写実的な色と肌色</string>
+    <string name="live_display_color_profile_dynamic_title">ダイナミック</string>
+    <string name="live_display_color_profile_dynamic_summary">補正した色と明るい白</string>
+    <string name="live_display_color_profile_cinema_title">シネマ</string>
+    <string name="live_display_color_profile_cinema_summary">動画の完璧な色再現</string>
+    <string name="live_display_color_profile_astronomy_title">夜空</string>
+    <string name="live_display_color_profile_astronomy_summary">夜間利用時に目に優しい深い赤</string>
+    <string name="live_display_color_profile_photography_title">写真</string>
+    <string name="live_display_color_profile_photography_summary">写真の完全な色再現</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">無調整のディスプレイを使用する</string>
+    <string name="live_display_color_profile_adaptive_title">自動</string>
+    <string name="live_display_color_profile_adaptive_summary">色を周囲の状況に適応させる</string>
+    <string name="live_display_color_profile_reading_title">読書</string>
+    <string name="live_display_color_profile_reading_summary">目の負担を軽減するため暖かい色にする</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">正確な sRGB 色空間に補正する</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">正確な DCI-P3 色空間に補正する</string>
+    <string name="live_display_reading_mode_title">読書モード</string>
+    <string name="live_display_reading_mode_summary">長期間読書するのに適したグレースケールモードに変更する</string>
+    <string name="color_calibration_title">色の補正</string>
+    <string name="color_calibration_summary">画面の色を調整する</string>
+    <string name="color_red_title">赤</string>
+    <string name="color_green_title">緑</string>
+    <string name="color_blue_title">青</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">画像調整</string>
+    <string name="picture_adjustment_summary">色相/彩度/明度/コントラストを調整する</string>
+    <string name="adj_hue_title">色相</string>
+    <string name="adj_saturation_title">彩度</string>
+    <string name="adj_intensity_title">明度</string>
+    <string name="adj_contrast_title">コントラスト</string>
+    <!-- Screenshot timestamp EXIF toggle -->
+    <string name="screenshot_timestamp_exif_title">スクリーンショットタイムスタンプを EXIF に保存</string>
+    <string name="screenshot_timestamp_exif_summary">スクリンショットの EXIF メタデータにタイムスタンプを追加することを許可する</string>
 </resources>
