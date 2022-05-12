@@ -44,8 +44,8 @@
     <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Deaktivieren, um die vom Gerät erzeugte Hitze während des Ladevorgangs zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Wischen für Bildschirmfoto</string>
-    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen für ein Bildschirmfoto</string>
+    <string name="swipe_to_screenshot_gesture_title">Wischen für Bildschirmfoto</string>
+    <string name="swipe_to_screenshot_gesture_summary">Wische mit drei Fingern für Bildschirmfoto</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive Medienwiedergabe</string>
     <string name="adaptive_playback_enabled">Adaptive Medienwiedergabe verwenden</string>
@@ -197,6 +197,7 @@
     <string name="show_powermenu">Power-Menü anzeigen</string>
     <string name="partial_screenshot">Bildschirmbereich aufnehmen</string>
     <string name="hush_mute">Alle Benachrichtigungen stummschalten</string>
+    <string name="action_open_recents">zuletzt geöffnet</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Erweiterte Gesten-Einstellungen</string>
     <string name="navbar_gesture_tweaks_pref_summary">Gesten anpassen und benutzerdefinierte Aktionen festlegen</string>
@@ -292,4 +293,97 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Zeige einen animierten Pfeil für die Zurück-Geste</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Aktuelle Akkukapazität</string>
+    <string name="designed_battery_capacity">Ursprüngliche Akkukapazität</string>
+    <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Paketinformationen</string>
+    <string name="package_name">Paketname</string>
+    <string name="package_version">Paketversion</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Clients erlauben VPN zu verwenden</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Erlaube Hotspot-Clients die VPN Verbindung dieses Gerätes\u2019 für ausgehende Verbindungen zu nutzen</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Verborgenes Netzwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Der Name Ihres mobilen Hotspots wird nicht in der Liste der verfügbaren WLAN-Netzwerke angezeigt.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Hotspot nie ausschalten</string>
+    <string name="wifi_hotspot_client_manager_title">Verbundene Geräte</string>
+    <string name="wifi_hotspot_client_manager_summary">Mit dem Hotspot verbundene Geräte auflisten und verwalten und das Limit für die Anzahl der Clients festlegen</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Mit dem Hotspot verbundene Geräte auflisten</string>
+    <string name="wifi_hotspot_client_limit_title">Grenze für verbundene Geräte</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blockierte Geräte</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Verbundene Geräte</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Gerät blockieren</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Diese Aktion wird \"<xliff:g id="device_name">%1$s</xliff:g>\" von diesem Gerät trennen und zur Sperrliste hinzufügen</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Gerät entsperren</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Dieses Gerät \"<xliff:g id="device_name">%1$s</xliff:g>\" kann sich mit diesem Hotspot verbinden</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Derzeit sind keine Clients verfügbar. Verbundene und blockierte Geräte werden hier aufgelistet, wenn sie verfügbar sind.</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Hohe Berührempfindlichkeit</string>
+    <string name="high_touch_sensitivity_summary">Erhöht die Berührungsempfindlichkeit, so dass es mit getragenem Handschuh bedienbar bleibt</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Touchscreen schwebend</string>
+    <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Touchscreen schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden.</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Hohe Touchscreen-Abtastrate</string>
+    <string name="high_touch_polling_rate_summary">Touchscreen-Abtastrate erhöhen</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimiert den Bildschirm basierend auf der Tageszeit und den Umgebungsbedingungen, um die Lesbarkeit zu verbessern und die Ermüdung der Augen zu mildern</string>
+    <string name="live_display_mode">Anzeigemodus</string>
+    <string name="live_display_color_temperature_title">Farbtemperatur</string>
+    <string name="live_display_color_temperature_summary">Tag: <xliff:g id="day_temperature">%1$d</xliff:g>K  Nacht: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Tag</string>
+    <string name="live_display_night">Nacht</string>
+    <string name="live_display_outdoor_mode_title">Automatikbetrieb im Freien</string>
+    <string name="live_display_outdoor_mode_summary">Bei grellem Sonnenlicht Helligkeit und Sättigung automatisch erhöhen</string>
+    <string name="live_display_anti_flicker_title">Anti-Flimmern</string>
+    <string name="live_display_anti_flicker_summary">Verhindert starkes Flackern und reduziert die Belastung der Augen bei schlechten Lichtverhältnissen. Dies kann die Farbgenauigkeit und die Anzeige einiger Elemente beeinträchtigen.</string>
+    <string name="live_display_low_power_title">Akkuverbrauch reduzieren</string>
+    <string name="live_display_low_power_summary">Nutze niedrigst-möglichen Stromverbrauch ohne Beeinträchtigung der Anzeige</string>
+    <string name="live_display_enhance_color_title">Verbesserte Farbwiedergabe</string>
+    <string name="live_display_enhance_color_summary">Farbdynamik von Hauttönen, Landschaftsaufnahmen und anderen Bildelementen verbessern</string>
+    <string name="live_display_color_profile_title">Farbprofil</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Genaue Farbdarstellung und helle Weißtöne</string>
+    <string name="live_display_color_profile_natural_title">Natürlich</string>
+    <string name="live_display_color_profile_natural_summary">Realistische Farben und Hauttöne</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamisch</string>
+    <string name="live_display_color_profile_dynamic_summary">Genaue Farbdarstellung und helle Weißtöne</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Perfekte Farbwiedergabe für Videos</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Tiefes Rot für den Erhalt der Nachtsicht</string>
+    <string name="live_display_color_profile_photography_title">Fotografie</string>
+    <string name="live_display_color_profile_photography_summary">Perfekte Farbwiedergabe für Fotos</string>
+    <string name="live_display_color_profile_basic_title">Einfach</string>
+    <string name="live_display_color_profile_basic_summary">Display unkalibriert verwenden</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
+    <string name="live_display_color_profile_adaptive_summary">Farben passen sich an Umgebungsbedingungen an</string>
+    <string name="live_display_color_profile_reading_title">Lesen</string>
+    <string name="live_display_color_profile_reading_summary">Wärmere Farben für geringere Augenbelastung</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Farben passend zum sRGB-Farbraum</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Farben passend zum DCI-P3-Farbraum</string>
+    <string name="live_display_reading_mode_title">Lesemodus</string>
+    <string name="live_display_reading_mode_summary">Graustufen-Modus für längeres Lesen</string>
+    <string name="color_calibration_title">Farbkalibrierung</string>
+    <string name="color_calibration_summary">Bildschirmfarben kalibrieren</string>
+    <string name="color_red_title">Rot</string>
+    <string name="color_green_title">Grün</string>
+    <string name="color_blue_title">Blau</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Bildanpassung</string>
+    <string name="picture_adjustment_summary">Anpassen von Farbton, Sättigung, Intensität und Kontrast</string>
+    <string name="adj_hue_title">Farbton</string>
+    <string name="adj_saturation_title">Sättigung</string>
+    <string name="adj_intensity_title">Intensität</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- Screenshot timestamp EXIF toggle -->
+    <string name="screenshot_timestamp_exif_title">Bildschirmfoto-Zeitstempel in EXIF speichern</string>
+    <string name="screenshot_timestamp_exif_summary">Ermöglicht das Hinzufügen eines Zeitstempels zu den EXIF-Metadaten von Screenshots</string>
 </resources>
