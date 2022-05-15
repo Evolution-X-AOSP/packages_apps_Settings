@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2019 The LineageOS Project
- * Copyright (C) 2019-2021 The Evolution X Project
+ *               2019-2022 Evolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -43,6 +43,10 @@ public class EvolutionXVersionDetailPreferenceController extends BasePreferenceC
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
+    private static final String KEY_EVOLUTION_BUILD_VERSION_PROP = "org.evolution.build_version";
+    private static final String KEY_EVOLUTION_CODENAME_PROP = "org.evolution.build_codename";
+    private static final String KEY_EVOLUTION_DEVICE_PROP = "org.evolution.device";
+    private static final String KEY_EVOLUTION_RELEASE_TYPE_PROP = "org.evolution.build_type";
     private static final String KEY_EVOLUTION_VERSION_PROP = "org.evolution.version.display";
 
     private static final String PLATLOGO_PACKAGE_NAME = "org.evolution.easteregg";
@@ -54,6 +58,7 @@ public class EvolutionXVersionDetailPreferenceController extends BasePreferenceC
 
     private RestrictedLockUtils.EnforcedAdmin mFunDisallowedAdmin;
     private boolean mFunDisallowedBySystem;
+    private boolean fullRomVersion = false;
 
     public EvolutionXVersionDetailPreferenceController(Context context, String key) {
         super(context, key);
@@ -78,14 +83,21 @@ public class EvolutionXVersionDetailPreferenceController extends BasePreferenceC
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_EVOLUTION_VERSION_PROP,
-                mContext.getString(R.string.unknown));
+        return shortRomVersion();
     }
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return false;
+        }
+        if (fullRomVersion) {
+            preference.setSummary(shortRomVersion());
+            fullRomVersion = false;
+        } else {
+            preference.setSummary(SystemProperties.get(KEY_EVOLUTION_VERSION_PROP,
+                mContext.getString(R.string.unknown)));
+            fullRomVersion = true;
         }
         if (Utils.isMonkeyRunning()) {
             return false;
@@ -111,6 +123,19 @@ public class EvolutionXVersionDetailPreferenceController extends BasePreferenceC
             }
         }
         return true;
+    }
+
+    private String shortRomVersion() {
+        String romVersion = SystemProperties.get(KEY_EVOLUTION_BUILD_VERSION_PROP,
+                this.mContext.getString(R.string.device_info_default));
+        String romCodename = SystemProperties.get(KEY_EVOLUTION_CODENAME_PROP,
+                this.mContext.getString(R.string.device_info_default));
+        String deviceCodename = SystemProperties.get(KEY_EVOLUTION_DEVICE_PROP,
+                this.mContext.getString(R.string.device_info_default));
+        String romReleasetype = SystemProperties.get(KEY_EVOLUTION_RELEASE_TYPE_PROP,
+                this.mContext.getString(R.string.device_info_default));
+        String shortVersion = romVersion + " | " + romCodename + " | " + deviceCodename + " | " + romReleasetype;
+        return shortVersion;
     }
 
     /**
