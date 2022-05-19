@@ -1537,18 +1537,18 @@
 
         <!-- Provide direct entry into Dev settings - Running Services -->
         <activity android:name="Settings$DevRunningServicesActivity"
-            android:label="@string/runningservices_settings_title"
-            android:exported="true"
-            android:taskAffinity="com.android.settings">
-            <intent-filter>
-                <action android:name="com.android.settings.applications.RunningServices" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+                android:label="@string/runningservices_settings_title"
+                android:theme="@style/Theme.SubSettingsBase"
+                android:enabled="true"
+                android:exported="true"
+                android:excludeFromRecents="true"
+                android:taskAffinity="com.android.settings"
+                android:parentActivityName="Settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
-                <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.applications.RunningServices" />
