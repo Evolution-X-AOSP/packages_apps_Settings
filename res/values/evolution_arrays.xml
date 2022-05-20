@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2022 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- WiFi Tethering -->
+    <string-array name="wifi_tether_auto_turn_off_entries" translatable="false">
+        <item>@string/custom_timeout_summary_never</item>
+        <item>@string/custom_timeout_summary_30secs</item>
+        <item>@string/custom_timeout_summary_1min</item>
+        <item>@string/custom_timeout_summary_5mins</item>
+        <item>@string/custom_timeout_summary_10mins</item>
+        <item>@string/custom_timeout_summary_30mins</item>
+        <item>@string/custom_timeout_summary_1hour</item>
+    </string-array>
+
+    <string-array name="wifi_tether_auto_turn_off_values" translatable="false">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1800</item>
+        <item>3600</item>
+    </string-array>
+</resources>
