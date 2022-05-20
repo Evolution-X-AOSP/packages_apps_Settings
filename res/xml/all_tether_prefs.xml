@@ -36,9 +36,12 @@
             android:persistent="false"
             android:title="@string/wifi_hotspot_password_title"/>
 
-        <ink.kscope.settings.wifi.tether.preference.WifiTetherAutoOffPreference
+        <ListPreference
             android:key="wifi_tether_auto_turn_off_2"
-            android:title="@string/wifi_hotspot_auto_off_title"/>
+            android:title="@string/wifi_hotspot_auto_off_title"
+            android:summary="%s"
+            android:entries="@array/wifi_tether_auto_turn_off_entries"
+            android:entryValues="@array/wifi_tether_auto_turn_off_values" />
 
         <SwitchPreference
             android:key="wifi_tether_hidden_ssid_2"
