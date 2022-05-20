@@ -113,14 +113,14 @@
     <string name="app_volume">アプリの音量</string>
     <string name="app_volume_title">アプリごとの音量調節</string>
     <string name="app_volume_summary">アプリごとに異なる音量を設定する</string>
-    <!-- Fullscreen gestures -->
+    <!-- Gesture navbar control -->
     <string name="other_controls_title">その他の操作</string>
-    <string name="fullscreen_gestures_title">フルスクリーンジェスチャー</string>
-    <string name="fullscreen_gestures_summary">ナビゲーションバーのピルとキーボードのスペースを隠す</string>
-    <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">ピルの長さ</string>
+    <string name="gesture_navbar_radius_title">ピルの丸みの半径</string>
     <string name="short_label">短</string>
     <string name="long_label">長</string>
+    <string name="small_label">小</string>
+    <string name="large_label">大</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
@@ -386,4 +386,31 @@
     <!-- Screenshot timestamp EXIF toggle -->
     <string name="screenshot_timestamp_exif_title">スクリーンショットタイムスタンプを EXIF に保存</string>
     <string name="screenshot_timestamp_exif_summary">スクリンショットの EXIF メタデータにタイムスタンプを追加することを許可する</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">ジェスチャーアイコン</string>
+    <string name="show_navbar_gesture_bar_summary">ジェスチャーのインジケーターを画面の下部に表示する</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">統計を消去しますか?</string>
+    <string name="battery_stats_message">バッテリー統計データは消去されます\n(OS の使用統計には影響ありません)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">回転の設定</string>
+    <string name="display_rotation_enabled">画面の自動回転は有効です</string>
+    <string name="display_rotation_disabled">画面の自動回転は無効です</string>
+    <string name="display_rotation_unit">角度</string>
+    <string name="display_rotation_category_title">回転モード</string>
+    <string name="display_rotation_0_title">0度</string>
+    <string name="display_rotation_90_title">90度</string>
+    <string name="display_rotation_180_title">180度</string>
+    <string name="display_rotation_270_title">270度</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">通知音の最小間隔</string>
+    <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g>間に1回以上の通知音または振動を許可しない</string>
+    <string name="app_notification_sound_timeout_value_none">無制限</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1分</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5分</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10分</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30分</string>
 </resources>
