@@ -343,7 +343,11 @@ public class PowerUsageSummary extends PowerUsageBase implements
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
 
-        mBatteryTempPref.setSummary(BatteryInfo.batteryTemp + " \u2103");
+        if (BatteryInfo.batteryTemp != 0f) {
+            mBatteryTempPref.setSummary(BatteryInfo.batteryTemp + " \u2103");
+        } else {
+            mBatteryTempPref.setSummary(getResources().getString(R.string.status_unavailable));
+        }
 
         if (mBatteryHealthSupported) {
             mCurrentBatteryCapacity.setSummary(parseBatterymAhText(getResources().getString(R.string.config_batteryCalculatedCapacity)));
