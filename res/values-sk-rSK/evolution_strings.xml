@@ -112,14 +112,14 @@ Upozornenia na  budú automaticky vypnuté.</string>
     <string name="app_volume">Hlasitosť aplikácie</string>
     <string name="app_volume_title">Ovládanie hlasitosti podľa aplikácie</string>
     <string name="app_volume_summary">Umožňuje nastaviť rôzne úrovne hlasitosti pre každú aplikáciu</string>
-    <!-- Fullscreen gestures -->
+    <!-- Gesture navbar control -->
     <string name="other_controls_title">Ostatné ovládacie prvky</string>
-    <string name="fullscreen_gestures_title">Celoobrazovkové gestá</string>
-    <string name="fullscreen_gestures_summary">Skryť dĺžku navigačnej lišty a priestor na klávesnici</string>
-    <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Dĺžka</string>
+    <string name="gesture_navbar_radius_title">Polomer pilulky</string>
     <string name="short_label">Krátka</string>
     <string name="long_label">Dlhé</string>
+    <string name="small_label">Malé</string>
+    <string name="large_label">Veľký</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Odstrániť existujúcu naskenovanú tvár a vytvoriť nový sken</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Znovu naskenovať tvár</string>
@@ -275,6 +275,7 @@ Upozornenia na  budú automaticky vypnuté.</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Vlastné</string>
     <string name="custom_vibration_pattern_title">Vlastný vzor</string>
     <string name="custom_vibration_pattern_summary">Nastavte si vlastný vzor vibrácií</string>
     <!-- Battery charge warning -->
@@ -384,4 +385,31 @@ Upozornenia na  budú automaticky vypnuté.</string>
     <!-- Screenshot timestamp EXIF toggle -->
     <string name="screenshot_timestamp_exif_title">Uložte časovú pečiatku snímky obrazovky do EXIF</string>
     <string name="screenshot_timestamp_exif_summary">Umožňuje pridanie časovej pečiatky k metadátam EXIF ​​snímky obrazovky</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Indikátor giest</string>
+    <string name="show_navbar_gesture_bar_summary">Zobraziť indikátor k navigácii naspodu obrazovky</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Vymazať údaje o používaní?</string>
+    <string name="battery_stats_message">Údaje o spotrebe batérie sa vymažú\n(Nemá to žiadny vplyv na štatistiku pixelov)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Nastavenia otáčania</string>
+    <string name="display_rotation_enabled">Automatické otáčanie je povolené</string>
+    <string name="display_rotation_disabled">Automatické otáčanie je zakázané</string>
+    <string name="display_rotation_unit">stupňov</string>
+    <string name="display_rotation_category_title">Režimy otáčania</string>
+    <string name="display_rotation_0_title">0 stupňov</string>
+    <string name="display_rotation_90_title">90 stupňov</string>
+    <string name="display_rotation_180_title">180 stupňov</string>
+    <string name="display_rotation_270_title">270 stupňov</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimálny čas medzi zvukmi upozornenia</string>
+    <string name="app_notification_sound_timeout_summary_template">Povoliť zvuky alebo vibrácie nie viac ako raz za <xliff:g id="duration">%1$s </xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Bez obmedzení</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekúnd</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekúnd</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minút</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minút</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minút</string>
 </resources>

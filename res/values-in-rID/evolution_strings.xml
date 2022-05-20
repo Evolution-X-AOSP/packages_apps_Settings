@@ -113,14 +113,14 @@
     <string name="app_volume">Volume aplikasi</string>
     <string name="app_volume_title">Kontrol volume per-aplikasi</string>
     <string name="app_volume_summary">Izinkan untuk mengatur tingkat volume yang berbeda untuk setiap aplikasi</string>
-    <!-- Fullscreen gestures -->
+    <!-- Gesture navbar control -->
     <string name="other_controls_title">Kontrol lainnya</string>
-    <string name="fullscreen_gestures_title">Gestur layar penuh</string>
-    <string name="fullscreen_gestures_summary">Sembunyikan pil bilah navigasi dan ruang keyboard</string>
-    <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Panjang pil</string>
+    <string name="gesture_navbar_radius_title">Radius gestur bilah navigasi</string>
     <string name="short_label">Pendek</string>
     <string name="long_label">Panjang</string>
+    <string name="small_label">Kecil</string>
+    <string name="large_label">Besar</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
@@ -386,4 +386,31 @@
     <!-- Screenshot timestamp EXIF toggle -->
     <string name="screenshot_timestamp_exif_title">Simpan stempel waktu tangkapan layar ke EXIF</string>
     <string name="screenshot_timestamp_exif_summary">Memungkinkan menambahkan stempel waktu ke tangkapan layar metadata EXIF</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Indikator gestur</string>
+    <string name="show_navbar_gesture_bar_summary">Tampilkan indikator gestur di bagian bawah layar</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Atur ulang statistik baterai?</string>
+    <string name="battery_stats_message">Data penggunaan baterai akan hilang\n(Ini tidak berpengaruh pada statistik Pixel)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Setelan rotasi</string>
+    <string name="display_rotation_enabled">Rotasi otomatis diaktifkan</string>
+    <string name="display_rotation_disabled">Rotasi otomatis dinonaktifkan</string>
+    <string name="display_rotation_unit">derajat</string>
+    <string name="display_rotation_category_title">Mode rotasi</string>
+    <string name="display_rotation_0_title">0 derajat</string>
+    <string name="display_rotation_90_title">90 derajat</string>
+    <string name="display_rotation_180_title">180 derajat</string>
+    <string name="display_rotation_270_title">270 derajat</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Waktu minimum antara suara notifikasi</string>
+    <string name="app_notification_sound_timeout_summary_template">Izinkan suara atau getaran tidak lebih dari sekali setiap <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Tidak ada pembatasan</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 detik</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 detik</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 menit</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 menit</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 menit</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 menit</string>
 </resources>
