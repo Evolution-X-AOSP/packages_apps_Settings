@@ -44,8 +44,8 @@
     <string name="fast_charging_title">快速充电中</string>
     <string name="fast_charging_summary">禁用以降低设备在充电时产生的热量或延长电池寿命</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">滑动截屏</string>
-    <string name="three_finger_gesture_summary">三指向下滑动截屏</string>
+    <string name="swipe_to_screenshot_gesture_title">滑动截屏</string>
+    <string name="swipe_to_screenshot_gesture_summary">三指滑动截屏</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">智能暂停</string>
     <string name="adaptive_playback_enabled">使用智能暂停</string>
@@ -113,14 +113,14 @@
     <string name="app_volume">应用音量</string>
     <string name="app_volume_title">每个应用的音量控制</string>
     <string name="app_volume_summary">允许为每个应用设置不同的音量级别</string>
-    <!-- Fullscreen gestures -->
+    <!-- Gesture navbar control -->
     <string name="other_controls_title">其他控制</string>
-    <string name="fullscreen_gestures_title">全面屏手势</string>
-    <string name="fullscreen_gestures_summary">隐藏导航栏药丸填充和键盘空间</string>
-    <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">药丸长度</string>
+    <string name="gesture_navbar_radius_title">手势导航栏半径</string>
     <string name="short_label">短</string>
     <string name="long_label">长</string>
+    <string name="small_label">较小</string>
+    <string name="large_label">较大</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">删除现有的面部扫描并创建新的扫描</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">重做面部扫描</string>
@@ -197,6 +197,7 @@
     <string name="show_powermenu">显示电源菜单</string>
     <string name="partial_screenshot">截取部分屏幕</string>
     <string name="hush_mute">通知静音</string>
+    <string name="action_open_recents">打开最近任务</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">高级手势选项</string>
     <string name="navbar_gesture_tweaks_pref_summary">自定义手势并设置自定义操作</string>
@@ -292,4 +293,124 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">返回手势动画</string>
     <string name="back_gesture_arrow_summary">侧滑返回时为箭头显示动画</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">当前电池容量</string>
+    <string name="designed_battery_capacity">设计电池容量</string>
+    <string name="battery_charge_cycles">充电周期已完成</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">软件包详细信息</string>
+    <string name="package_name">软件包名</string>
+    <string name="package_version">软件包版本</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接</string>
+    <string name="wifi_hotspot_hidden_ssid_title">隐藏网络</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的移动热点名称不会出现在可用的 WLAN 网络列表中</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">从不关闭热点</string>
+    <string name="wifi_hotspot_client_manager_title">已连接的设备</string>
+    <string name="wifi_hotspot_client_manager_summary">列出并管理连接到热点的设备，并设定客户端数量限制</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出连接到热点的设备</string>
+    <string name="wifi_hotspot_client_limit_title">已连接设备的限制</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">被屏蔽的设备</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">屏蔽设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作将断开此设备上的 \"<xliff:g id="device_name">%1$s</xliff:g>\"并将其添加到屏蔽列表</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">不封禁设备</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">此设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到这个热点</string>
+    <string name="wifi_hotspot_client_manager_footer_text">目前没有可用的客户端，连接和被屏蔽的设备将在可存档时列出</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">触摸屏高灵敏度</string>
+    <string name="high_touch_sensitivity_summary">增加触摸屏的灵敏度，以便在戴手套时使用</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">悬浮操作</string>
+    <string name="touchscreen_hovering_summary">允许您将手指悬停在屏幕上作为浏览器、远程桌面等处的鼠标指针</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">高触控采样率</string>
+    <string name="high_touch_polling_rate_summary">提高触摸屏采样率</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">根据时间和环境条件优化你的屏幕，以提高可读性和减少眼睛疲劳</string>
+    <string name="live_display_mode">显示模式</string>
+    <string name="live_display_color_temperature_title">色温</string>
+    <string name="live_display_color_temperature_summary">白天：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d </xliff:g>K</string>
+    <string name="live_display_day">白天</string>
+    <string name="live_display_night">夜晚</string>
+    <string name="live_display_outdoor_mode_title">自动户外模式</string>
+    <string name="live_display_outdoor_mode_summary">强光下自动增加屏幕亮度和饱和度</string>
+    <string name="live_display_anti_flicker_title">防闪烁</string>
+    <string name="live_display_anti_flicker_summary">在弱光条件下，可防止大量闪烁并减少眼睛疲劳。 这可能会降低色彩准确性，并影响某些项目的显示方式。</string>
+    <string name="live_display_low_power_title">降低耗电</string>
+    <string name="live_display_low_power_summary">调整屏幕获得最低功耗，但不削弱显示效果</string>
+    <string name="live_display_enhance_color_title">色彩增强</string>
+    <string name="live_display_enhance_color_summary">为肤色、风景和其他图像提升色彩饱和度</string>
+    <string name="live_display_color_profile_title">颜色配置</string>
+    <string name="live_display_color_profile_standard_title">标准</string>
+    <string name="live_display_color_profile_standard_summary">准确的颜色和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">真实色彩还原</string>
+    <string name="live_display_color_profile_dynamic_title">动态</string>
+    <string name="live_display_color_profile_dynamic_summary">鲜艳模式</string>
+    <string name="live_display_color_profile_cinema_title">影院</string>
+    <string name="live_display_color_profile_cinema_summary">完美重现视频色彩</string>
+    <string name="live_display_color_profile_astronomy_title">天文</string>
+    <string name="live_display_color_profile_astronomy_summary">深红色以保护夜间视力</string>
+    <string name="live_display_color_profile_photography_title">摄影</string>
+    <string name="live_display_color_profile_photography_summary">针对照片的完美色彩重现</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">使用未加校准的显示</string>
+    <string name="live_display_color_profile_adaptive_title">自适应</string>
+    <string name="live_display_color_profile_adaptive_summary">颜色根据环境条件自适应</string>
+    <string name="live_display_color_profile_reading_title">阅读</string>
+    <string name="live_display_color_profile_reading_summary">使用暖色调以减少视疲劳</string>
+    <string name="live_display_color_profile_srgb_title">sRGB 色彩标准</string>
+    <string name="live_display_color_profile_srgb_summary">颜色校准到 sRGB 色彩空间</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3 色彩标准</string>
+    <string name="live_display_color_profile_dci_p3_summary">色彩精确到 DCI-P3 色域</string>
+    <string name="live_display_reading_mode_title">阅读模式</string>
+    <string name="live_display_reading_mode_summary">适合长时间阅读的灰度模式</string>
+    <string name="color_calibration_title">颜色校准</string>
+    <string name="color_calibration_summary">校准屏幕颜色</string>
+    <string name="color_red_title">强调色-红色</string>
+    <string name="color_green_title">强调色-绿色</string>
+    <string name="color_blue_title">蓝色</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">图片调整</string>
+    <string name="picture_adjustment_summary">调整色相、饱和度、亮度和对比度</string>
+    <string name="adj_hue_title">色调</string>
+    <string name="adj_saturation_title">饱和度</string>
+    <string name="adj_intensity_title">强度</string>
+    <string name="adj_contrast_title">对比度</string>
+    <!-- Screenshot timestamp EXIF toggle -->
+    <string name="screenshot_timestamp_exif_title">保存截图时间戳到 EXIF</string>
+    <string name="screenshot_timestamp_exif_summary">启用在屏幕截图 EXIF 元数据中添加时间戳</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">手势指示器</string>
+    <string name="show_navbar_gesture_bar_summary">在屏幕底部显示手势指示</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">重置统计信息</string>
+    <string name="battery_stats_message">电池使用数据将丢失\n(这对像素状态没有影响)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">旋转设置</string>
+    <string name="display_rotation_enabled">自动旋转已启用</string>
+    <string name="display_rotation_disabled">禁用自动旋转</string>
+    <string name="display_rotation_unit">屏幕旋转角度</string>
+    <string name="display_rotation_category_title">旋转模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">最短通知铃声间隔</string>
+    <string name="app_notification_sound_timeout_summary_template">每 <xliff:g id="duration">%1$s</xliff:g> 允许一次响铃或振动</string>
+    <string name="app_notification_sound_timeout_value_none">无限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分钟</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分钟</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 分钟</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分钟</string>
 </resources>
