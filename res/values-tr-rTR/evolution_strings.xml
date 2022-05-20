@@ -112,14 +112,14 @@
     <string name="app_volume">Uygulama ses düzeyi</string>
     <string name="app_volume_title">Uygulama başına ses kontrolü</string>
     <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
-    <!-- Fullscreen gestures -->
+    <!-- Gesture navbar control -->
     <string name="other_controls_title">Diğer kontroller</string>
-    <string name="fullscreen_gestures_title">Tam ekran hareketleri</string>
-    <string name="fullscreen_gestures_summary">Gezinme çubuğu tuşunu ve klavye boşluğunu gizle</string>
-    <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Tuş uzunluğu</string>
+    <string name="gesture_navbar_radius_title">Düğme yarı çapı</string>
     <string name="short_label">Kısa</string>
     <string name="long_label">Uzun</string>
+    <string name="small_label">Küçük</string>
+    <string name="large_label">Büyük</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
@@ -385,4 +385,31 @@
     <!-- Screenshot timestamp EXIF toggle -->
     <string name="screenshot_timestamp_exif_title">Ekran görüntüsü tarih bilgisini EXIF olarak kaydet</string>
     <string name="screenshot_timestamp_exif_summary">Ekran görüntüsü verisine tarih bilgisi eklemeyi etkinleştirir</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Hareket göstergesi</string>
+    <string name="show_navbar_gesture_bar_summary">Ekranın altında hareket göstergesini göster</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Kullanım verileri temizlensin mi?</string>
+    <string name="battery_stats_message">Pil kullanım verileri silinecek\n(Bunun 24 saatlik kullanım istatislikleri üzerinden bir etkisi yoktur)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Döndürme ayarları</string>
+    <string name="display_rotation_enabled">Otomatik döndürme etkin</string>
+    <string name="display_rotation_disabled">Otomatik döndürme devre dışı</string>
+    <string name="display_rotation_unit">derece</string>
+    <string name="display_rotation_category_title">Döndürme modları</string>
+    <string name="display_rotation_0_title">0 derece</string>
+    <string name="display_rotation_90_title">90 derece</string>
+    <string name="display_rotation_180_title">180 derece</string>
+    <string name="display_rotation_270_title">270 derece</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Bildirim sesleri arasında en az zaman</string>
+    <string name="app_notification_sound_timeout_summary_template">Her <xliff:g id="duration">%1$s</xliff:g> bir defadan fazla sese veya titreşime izin ver</string>
+    <string name="app_notification_sound_timeout_value_none">Kısıtlama yok</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 saniyede</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 saniye</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 dakika</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 dakika</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 dakika</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 dakikada</string>
 </resources>
