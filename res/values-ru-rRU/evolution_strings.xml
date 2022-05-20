@@ -113,14 +113,14 @@
     <string name="app_volume">Громкость приложений</string>
     <string name="app_volume_title">Громкость для каждого приложения</string>
     <string name="app_volume_summary">Изменение громкости для отдельных приложений</string>
-    <!-- Fullscreen gestures -->
+    <!-- Gesture navbar control -->
     <string name="other_controls_title">Другие типы управления</string>
-    <string name="fullscreen_gestures_title">Полноэкранные жесты</string>
-    <string name="fullscreen_gestures_summary">Скрыть полосу панели навигации и отступ клавиатуры</string>
-    <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Длина полосы</string>
+    <string name="gesture_navbar_radius_title">Радиус жеста навигации</string>
     <string name="short_label">Короткая</string>
     <string name="long_label">Длинная</string>
+    <string name="small_label">Маленький</string>
+    <string name="large_label">Большое</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить сохранённое лицо и создать новое</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
@@ -386,4 +386,31 @@
     <!-- Screenshot timestamp EXIF toggle -->
     <string name="screenshot_timestamp_exif_title">Сохранить метку времени скриншота в EXIF</string>
     <string name="screenshot_timestamp_exif_summary">Позволяет добавлять метку времени в метаданные EXIF скриншота</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Полоска жестов</string>
+    <string name="show_navbar_gesture_bar_summary">Показывать полоску жестов в нижней части экрана</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Очистить данные об использовании?</string>
+    <string name="battery_stats_message">Данные об использовании батареи будут потеряны\n(это никак не влияет на статистику пикселей)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Поворот</string>
+    <string name="display_rotation_enabled">Автоповорот включён</string>
+    <string name="display_rotation_disabled">Автоповорот выключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы поворота экрана</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Таймаут между звуками уведомлений</string>
+    <string name="app_notification_sound_timeout_summary_template">Разрешить звуки или вибрацию не более чем один раз каждые <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Без ограничений</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 минута</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
 </resources>
