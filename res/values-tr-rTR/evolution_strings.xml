@@ -412,4 +412,11 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 dakika</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 dakika</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 dakikada</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
+    <string name="increasing_ring_min_volume_title">Başlangıç sesi</string>
+    <string name="increasing_ring_ramp_up_time_title">Yükselme zamanı</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Cep algılama</string>
+    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
 </resources>
