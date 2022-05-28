@@ -21,8 +21,6 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import android.hardware.display.ColorDisplayManager;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
@@ -82,8 +80,7 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
         } else if (className.equals(WifiCallingSuggestionActivity.class.getName())) {
             return WifiCallingSuggestionActivity.isSuggestionComplete(context);
         } else if (className.equals(NightDisplaySuggestionActivity.class.getName())) {
-            return ColorDisplayManager.isNightDisplayAvailable(context) &&
-                NightDisplayPreferenceController.isSuggestionComplete(context);
+            return NightDisplayPreferenceController.isSuggestionComplete(context);
         } else if (className.equals(ZenSuggestionActivity.class.getName())) {
             return ZenOnboardingActivity.isSuggestionComplete(context);
         }
