@@ -413,4 +413,11 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5分</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10分</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30分</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
+    <string name="increasing_ring_min_volume_title">開始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">ポケット検出</string>
+    <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
 </resources>
