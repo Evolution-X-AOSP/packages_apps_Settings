@@ -39,13 +39,13 @@
     <string name="max_refresh_rate_title">Максимальная частота обновления</string>
     <string name="low_power_refresh_rate_title_custom">Частота обновления при низком заряде батареи</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Будет установлено незащищенное соединение.</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Ваше соединение не будет защищено.</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Быстрая зарядка</string>
     <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки или продлить срок службы аккумулятора</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Свайп для скриншота</string>
-    <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
+    <string name="swipe_to_screenshot_gesture_title">Снимок экрана жестом</string>
+    <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами для создания снимка экрана</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
     <string name="adaptive_playback_enabled">Использовать адаптивное воспроизведение</string>
