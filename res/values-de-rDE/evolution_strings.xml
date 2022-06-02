@@ -113,14 +113,14 @@
     <string name="app_volume">App-Lautstärke</string>
     <string name="app_volume_title">Lautstärkeregler für Anwendungen</string>
     <string name="app_volume_summary">Unterschiedliche Lautstärken für jede Anwendung erlauben</string>
-    <!-- Fullscreen gestures -->
+    <!-- Gesture navbar control -->
     <string name="other_controls_title">Andere Steuerungen</string>
-    <string name="fullscreen_gestures_title">Gesten im Vollbildmodus</string>
-    <string name="fullscreen_gestures_summary">Navigationsleisten-Pille und Tastaturbereich ausblenden</string>
-    <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pillenlänge</string>
+    <string name="gesture_navbar_radius_title">Pillen-Radius</string>
     <string name="short_label">Kurz</string>
     <string name="long_label">Lang</string>
+    <string name="small_label">Klein</string>
+    <string name="large_label">Groß</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Vorhandenen Gesichts-Scan entfernen und einen neuen Scan erstellen</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Gesichts-Scan wiederholen</string>
@@ -386,4 +386,38 @@
     <!-- Screenshot timestamp EXIF toggle -->
     <string name="screenshot_timestamp_exif_title">Bildschirmfoto-Zeitstempel in EXIF speichern</string>
     <string name="screenshot_timestamp_exif_summary">Ermöglicht das Hinzufügen eines Zeitstempels zu den EXIF-Metadaten von Screenshots</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gestenanzeige</string>
+    <string name="show_navbar_gesture_bar_summary">Gestenanzeige am unteren Bildschirmrand anzeigen</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Nutzungsdaten löschen?</string>
+    <string name="battery_stats_message">Akkuverbrauchsdaten gehen verloren\n(Dies hat keinen Einfluss auf die Pixelstatistik)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Bildschirmausrichtung</string>
+    <string name="display_rotation_enabled">Automatische Bildschirmausrichtung ist aktiviert</string>
+    <string name="display_rotation_disabled">Automatische Bildschirmausrichtung ist deaktiviert</string>
+    <string name="display_rotation_unit">Grad</string>
+    <string name="display_rotation_category_title">Drehungs-Modi</string>
+    <string name="display_rotation_0_title">0 Grad</string>
+    <string name="display_rotation_90_title">90 Grad</string>
+    <string name="display_rotation_180_title">180 Grad</string>
+    <string name="display_rotation_270_title">270 Grad</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimale Zeit zwischen Benachrichtigungstönen</string>
+    <string name="app_notification_sound_timeout_summary_template">Töne und Vibrationen nur alle <xliff:g id="duration">%1$s</xliff:g> zulassen</string>
+    <string name="app_notification_sound_timeout_value_none">Keine Beschränkung</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 Sekunden</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 Sekunden</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 Minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 Minuten</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 Minuten</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 Minuten</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Ansteigende Ruftonlautstärke</string>
+    <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
+    <string name="increasing_ring_ramp_up_time_title">Steigerung nach</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Taschenmodus</string>
+    <string name="pocket_judge_summary">Verhindert Bildschirm und Tasteneingaben, wenn sich das Gerät in einer Tasche befindet</string>
 </resources>
