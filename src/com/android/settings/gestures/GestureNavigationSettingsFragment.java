@@ -148,6 +148,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
                 settingsKey = "";
                 break;
         }
+
+        float[] scales = mBackGestureInsetScales;
         float initScale = 0;
         if (settingsKey != "") {
             initScale = Settings.Secure.getFloat(
@@ -163,7 +165,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         mCurrentLefttWidth = (int) (mDefaultBackGestureInset * currentWidthScale);
 
         if (key == KEY_BACK_HEIGHT) {
-            mBackGestureInsetScales = mBackGestureHeightScales;
+            scales = mBackGestureHeightScales;
             initScale = Settings.System.getInt(
                     getContext().getContentResolver(), settingsKey, 0);
         }
@@ -171,8 +173,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         // Find the closest value to initScale
         float minDistance = Float.MAX_VALUE;
         int minDistanceIndex = -1;
-        for (int i = 0; i < mBackGestureInsetScales.length; i++) {
-            float d = Math.abs(mBackGestureInsetScales[i] - initScale);
+        for (int i = 0; i < scales.length; i++) {
+            float d = Math.abs(scales[i] - initScale);
             if (d < minDistance) {
                 minDistance = d;
                 minDistanceIndex = i;
@@ -190,7 +192,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
                     mCurrentRightWidth = width;
                 }
             } else {
-                final int heightScale = (int) (mBackGestureInsetScales[(int) v]);
+                final int heightScale = (int) (mBackGestureHeightScales[(int) v]);
                 mIndicatorView.setIndicatorHeightScale(heightScale);
                 // dont use updateViewLayout else it will animate
                 mWindowManager.removeView(mIndicatorView);
@@ -204,14 +206,13 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         });
 
         pref.setOnPreferenceChangeStopListener((p, v) -> {
-            final float scale = mBackGestureInsetScales[(int) v];
             if (key == KEY_BACK_HEIGHT) {
                 mIndicatorView.setIndicatorWidth(0, false);
                 mIndicatorView.setIndicatorWidth(0, true);
-                Settings.System.putInt(getContext().getContentResolver(), settingsKey, (int) scale);
+                Settings.System.putInt(getContext().getContentResolver(), settingsKey, (int) mBackGestureHeightScales[(int) v]);
             } else {
                 mIndicatorView.setIndicatorWidth(0, key == LEFT_EDGE_SEEKBAR_KEY);
-                Settings.Secure.putFloat(getContext().getContentResolver(), settingsKey, scale);
+                Settings.Secure.putFloat(getContext().getContentResolver(), settingsKey, mBackGestureInsetScales[(int) v]);
             }
             return true;
         });
