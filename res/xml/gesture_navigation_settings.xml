@@ -50,6 +50,12 @@
             android:title="@string/show_navbar_gesture_bar_title"
             android:summary="@string/show_navbar_gesture_bar_summary"
             android:defaultValue="true" />
+
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="navigation_bar_gestural_narrow"
+            android:title="@string/gestural_navbar_narrow_title"
+            android:summary="@string/gestural_navbar_narrow_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
