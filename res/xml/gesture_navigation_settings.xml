@@ -39,6 +39,12 @@
             android:title="@string/back_gesture_arrow_message"
             android:summary="@string/back_gesture_arrow_summary"
             android:defaultValue="true" />
+
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="navigation_bar_gestural_narrow"
+            android:title="@string/gestural_navbar_narrow_title"
+            android:summary="@string/gestural_navbar_narrow_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory

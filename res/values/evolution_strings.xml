@@ -283,4 +283,8 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+
+    <!-- Narrow gestural navigation bar -->
+    <string name="gestural_navbar_narrow_title">Remove space under keyboard</string>
+    <string name="gestural_navbar_narrow_summary">Make the navigation bar under the keyboard narrow</string>
 </resources>
