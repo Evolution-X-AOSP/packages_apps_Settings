@@ -34,6 +34,12 @@
             settings:textStart="@string/hide_label"
             settings:textEnd="@string/long_label"/>
 
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="navigation_bar_gestural_narrow"
+            android:title="@string/gestural_navbar_narrow_title"
+            android:summary="@string/gestural_navbar_narrow_summary"
+            android:defaultValue="false" />
+
         <com.evolution.settings.preference.SecureSettingSwitchPreference
             android:key="show_back_arrow_gesture"
             android:title="@string/back_gesture_arrow_message"

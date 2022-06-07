@@ -304,4 +304,8 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+
+    <!-- Narrow gestural navigation bar -->
+    <string name="gestural_navbar_narrow_title">Remove space under keyboard</string>
+    <string name="gestural_navbar_narrow_summary">Make the navigation bar under the keyboard narrow</string>
 </resources>
