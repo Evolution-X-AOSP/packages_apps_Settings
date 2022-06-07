@@ -67,6 +67,13 @@
         android:summary="@string/back_gesture_haptic_summary"
         android:defaultValue="true" />
 
+    <com.evolution.settings.preference.SystemSettingListPreference
+        android:key="navigation_bar_ime_space"
+        android:title="@string/navigation_bar_ime_space_title"
+        android:entries="@array/navigation_bar_ime_space_entries"
+        android:entryValues="@array/navigation_bar_ime_space_values"
+        android:defaultValue="0" />
+
     <PreferenceCategory
         android:key="assistant_gesture_category"
         android:persistent="false"
