@@ -26,6 +26,9 @@ import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.WindowManager;
 
+import androidx.preference.ListPreference;
+import androidx.preference.SwitchPreference;
+
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -61,6 +64,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     private LabeledSeekBarPreference mGestureNavbarLengthPreference;
     private LabeledSeekBarPreference mGestureNavbarRadiusPreference;
+    private SwitchPreference mGestureNavbarHint;
 
     public GestureNavigationSettingsFragment() {
         super();
@@ -89,6 +93,20 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         initSeekBarPreference(KEY_BACK_HEIGHT);
 
         initGestureNavbarLengthPreference();
+
+        mGestureNavbarHint = findPreference("navigation_bar_hint");
+        ListPreference pref = findPreference("navigation_bar_ime_space");
+        pref.setOnPreferenceChangeListener((p, v) -> {
+            int value = Integer.parseInt((String) v);
+            // disable navbar hint toggle if ime space is hidden
+            mGestureNavbarHint.setEnabled(value == 2 ? false : true);
+            return true;
+        });
+
+        // disable navbar hint toggle if ime space is hidden
+        mGestureNavbarHint.setEnabled(
+                Settings.System.getInt(getContext().getContentResolver(),
+                Settings.System.NAVIGATION_BAR_IME_SPACE, 0) == 2 ? false : true);
     }
 
     @Override
