@@ -233,6 +233,7 @@
     <string name="wifi_timeout">自动关闭 Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
+    <string name="wifi_timeout_summary1">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
     <string name="wifi_timeout_summary2">已禁用</string>
     <string name="wifi_timeout_summary_never">永不</string>
     <string name="wifi_timeout_summary_15secs">15 秒</string>
@@ -286,10 +287,6 @@
     <string name="notification_battery_charge_level_seek_bar">电池电量</string>
     <string name="notification_battery_charge_level_ringtone">铃声</string>
     <string name="notification_battery_charge_level_silent">静音</string>
-    <!-- IME button space -->
-    <string name="navbar_category">导航栏</string>
-    <string name="navigation_bar_ime_space_title">输入法按钮空间</string>
-    <string name="navigation_bar_ime_space_summary">在键盘下方显示输入法按钮空间</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">返回手势动画</string>
     <string name="back_gesture_arrow_summary">侧滑返回时为箭头显示动画</string>
@@ -389,6 +386,9 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">手势指示器</string>
     <string name="show_navbar_gesture_bar_summary">在屏幕底部显示手势指示</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">键盘下的空间</string>
+    <string name="navigation_bar_ime_space_value_narrow">紧凑</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">重置统计信息</string>
     <string name="battery_stats_message">电池使用数据将丢失\n(这对像素状态没有影响)</string>
