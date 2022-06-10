@@ -15,7 +15,7 @@
     <string name="build_maintainer">Сопровождающий</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Время продолжить эволюцию вашего устройства</string>
+    <string name="evolver_dashboard_summary">Эволюция вашего устройства достигла версии 12.1</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключено</string>
@@ -233,6 +233,7 @@
     <string name="wifi_timeout">Выключать Wi-Fi автоматически</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключения к сети</string>
+    <string name="wifi_timeout_summary1">Wi-Fi будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключения к сети</string>
     <string name="wifi_timeout_summary2">Отключено</string>
     <string name="wifi_timeout_summary_never">Никогда</string>
     <string name="wifi_timeout_summary_15secs">15 секунд</string>
@@ -286,10 +287,6 @@
     <string name="notification_battery_charge_level_seek_bar">Уровень заряда батареи</string>
     <string name="notification_battery_charge_level_ringtone">Рингтон</string>
     <string name="notification_battery_charge_level_silent">Без звука</string>
-    <!-- IME button space -->
-    <string name="navbar_category">Панель навигации</string>
-    <string name="navigation_bar_ime_space_title">Отступ кнопки IME</string>
-    <string name="navigation_bar_ime_space_summary">Отображать отступ под клавиатурой</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Анимация жеста \"Назад\"</string>
     <string name="back_gesture_arrow_summary">Показать анимированную стрелку для жеста \"Назад\".</string>
@@ -389,6 +386,9 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Полоска жестов</string>
     <string name="show_navbar_gesture_bar_summary">Показывать полоску жестов в нижней части экрана</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Пространство под клавиатурой</string>
+    <string name="navigation_bar_ime_space_value_narrow">Узкое</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Очистить данные об использовании?</string>
     <string name="battery_stats_message">Данные об использовании батареи будут потеряны\n(это никак не влияет на статистику пикселей)</string>
