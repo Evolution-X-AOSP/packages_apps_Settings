@@ -232,6 +232,7 @@
     <string name="wifi_timeout">Wi-Fi\'yi otomatik olarak kapat</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
+    <string name="wifi_timeout_summary1">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
     <string name="wifi_timeout_summary2">Devre dışı</string>
     <string name="wifi_timeout_summary_never">Asla</string>
     <string name="wifi_timeout_summary_15secs">15 saniye</string>
@@ -285,10 +286,6 @@
     <string name="notification_battery_charge_level_seek_bar">Pil seviyesi</string>
     <string name="notification_battery_charge_level_ringtone">Zil sesi</string>
     <string name="notification_battery_charge_level_silent">Sessiz</string>
-    <!-- IME button space -->
-    <string name="navbar_category">Gezinme çubuğu</string>
-    <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanı</string>
-    <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını göster</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Geri hareketi animasyonu</string>
     <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
@@ -388,6 +385,9 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Hareket göstergesi</string>
     <string name="show_navbar_gesture_bar_summary">Ekranın altında hareket göstergesini göster</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanı</string>
+    <string name="navigation_bar_ime_space_value_narrow">Dar</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Kullanım verileri temizlensin mi?</string>
     <string name="battery_stats_message">Pil kullanım verileri silinecek\n(Bunun 24 saatlik kullanım istatislikleri üzerinden bir etkisi yoktur)</string>
