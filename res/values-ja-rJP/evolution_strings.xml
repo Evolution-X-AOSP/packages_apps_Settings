@@ -233,6 +233,7 @@
     <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
+    <string name="wifi_timeout_summary1">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
     <string name="wifi_timeout_summary2">無効</string>
     <string name="wifi_timeout_summary_never">なし</string>
     <string name="wifi_timeout_summary_15secs">15秒</string>
@@ -286,10 +287,6 @@
     <string name="notification_battery_charge_level_seek_bar">バッテリー残量</string>
     <string name="notification_battery_charge_level_ringtone">着信音</string>
     <string name="notification_battery_charge_level_silent">サイレント</string>
-    <!-- IME button space -->
-    <string name="navbar_category">ナビゲーションバー</string>
-    <string name="navigation_bar_ime_space_title">IME ボタンのスペース</string>
-    <string name="navigation_bar_ime_space_summary">キーボードの下に IME ボタンのスペースを表示する</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">戻るジェスチャーアニメーション</string>
     <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
@@ -389,6 +386,9 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">ジェスチャーアイコン</string>
     <string name="show_navbar_gesture_bar_summary">ジェスチャーのインジケーターを画面の下部に表示する</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME ボタンのスペース</string>
+    <string name="navigation_bar_ime_space_value_narrow">狭い</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">統計を消去しますか?</string>
     <string name="battery_stats_message">バッテリー統計データは消去されます\n(OS の使用統計には影響ありません)</string>

@@ -232,7 +232,8 @@
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan terhubung</string>
+    <string name="wifi_timeout_summary">Matikan Wi-Fi secara otomatis setelah waktu yang ditentukan.</string>
+    <string name="wifi_timeout_summary1">Wi-Fi akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan terhubung</string>
     <string name="wifi_timeout_summary2">Dinonaktifkan</string>
     <string name="wifi_timeout_summary_never">Jangan pernah</string>
     <string name="wifi_timeout_summary_15secs">15 detik</string>
@@ -286,10 +287,6 @@
     <string name="notification_battery_charge_level_seek_bar">Tingkat baterai</string>
     <string name="notification_battery_charge_level_ringtone">Nada dering</string>
     <string name="notification_battery_charge_level_silent">Senyap</string>
-    <!-- IME button space -->
-    <string name="navbar_category">Bilah navigasi</string>
-    <string name="navigation_bar_ime_space_title">Ruang tombol IME</string>
-    <string name="navigation_bar_ime_space_summary">Tampilkan ruang tombol IME di bawah papan ketik</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Animasi gestur kembali</string>
     <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gestur kembali</string>
@@ -389,6 +386,9 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Indikator gestur</string>
     <string name="show_navbar_gesture_bar_summary">Tampilkan indikator gestur di bagian bawah layar</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Ruang di bawah keyboard</string>
+    <string name="navigation_bar_ime_space_value_narrow">Sempit</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Atur ulang statistik baterai?</string>
     <string name="battery_stats_message">Data penggunaan baterai akan hilang\n(Ini tidak berpengaruh pada statistik Pixel)</string>

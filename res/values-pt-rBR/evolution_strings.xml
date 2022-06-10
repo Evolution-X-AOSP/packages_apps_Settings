@@ -113,14 +113,14 @@
     <string name="app_volume">Volume de aplicativos</string>
     <string name="app_volume_title">Controle de volume por aplicativo</string>
     <string name="app_volume_summary">Permite definir diferentes níveis de volume para cada aplicativo</string>
-    <!-- Fullscreen gestures -->
+    <!-- Gesture navbar control -->
     <string name="other_controls_title">Outros controles</string>
-    <string name="fullscreen_gestures_title">Gestos em tela cheia</string>
-    <string name="fullscreen_gestures_summary">Ocultar barra de gestos e espaço do teclado</string>
-    <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Comprimento da barra gestos</string>
+    <string name="gesture_navbar_radius_title">Altura da barra de gestos</string>
     <string name="short_label">Curto</string>
     <string name="long_label">Longo</string>
+    <string name="small_label">Pequeno</string>
+    <string name="large_label">Grande</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Refazer escaneamento facial</string>
@@ -232,7 +232,8 @@
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Desligar Wi-Fi automaticamente</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
+    <string name="wifi_timeout_summary">Desligar Wi-Fi automaticamente.</string>
+    <string name="wifi_timeout_summary1">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
     <string name="wifi_timeout_summary2">Desativado</string>
     <string name="wifi_timeout_summary_never">Nunca</string>
     <string name="wifi_timeout_summary_15secs">15 segundos</string>
@@ -286,10 +287,6 @@
     <string name="notification_battery_charge_level_seek_bar">Nível da bateria</string>
     <string name="notification_battery_charge_level_ringtone">Toque</string>
     <string name="notification_battery_charge_level_silent">Silencioso</string>
-    <!-- IME button space -->
-    <string name="navbar_category">Barra de navegação</string>
-    <string name="navigation_bar_ime_space_title">Espaço do método de entrada</string>
-    <string name="navigation_bar_ime_space_summary">Mostrar espaço na parte inferior do teclado</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Animação no gesto de voltar</string>
     <string name="back_gesture_arrow_summary">Mostrar uma seta animada para o gesto de voltar</string>
@@ -377,7 +374,7 @@
     <string name="color_green_title">Verde</string>
     <string name="color_blue_title">Azul</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Ajuste da imagem</string>
+    <string name="picture_adjustment_title">Ajuste de imagem</string>
     <string name="picture_adjustment_summary">Ajustar tonalidade, saturação, contraste e intensidade</string>
     <string name="adj_hue_title">Matiz</string>
     <string name="adj_saturation_title">Saturação</string>
@@ -386,4 +383,41 @@
     <!-- Screenshot timestamp EXIF toggle -->
     <string name="screenshot_timestamp_exif_title">Salvar informações da captura de tela</string>
     <string name="screenshot_timestamp_exif_summary">Permite adicionar informações da captura de tela no arquivo gerado</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Indicador de gesto</string>
+    <string name="show_navbar_gesture_bar_summary">Mostrar indicador de gesto na parte inferior da tela</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Espaço do método de entrada</string>
+    <string name="navigation_bar_ime_space_value_narrow">Estreito</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Zerar as estatísticas da bateria?</string>
+    <string name="battery_stats_message">Os dados de uso da bateria serão perdidos\n(Isso não apaga as estatísticas do pixel)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Configurações de rotação</string>
+    <string name="display_rotation_enabled">A rotação automática está ativada</string>
+    <string name="display_rotation_disabled">A rotação automática está desativada</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Modos de rotação</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Tempo minimo entre sons de notificação</string>
+    <string name="app_notification_sound_timeout_summary_template">Permitir sons ou vibrações não mais do que uma vez a cada <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Sem restrição</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 segundos</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Toque crescente</string>
+    <string name="increasing_ring_min_volume_title">Volume inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Intervalo de aumento</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Detecção de bolso</string>
+    <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
 </resources>
