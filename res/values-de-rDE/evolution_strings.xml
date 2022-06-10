@@ -233,6 +233,7 @@
     <string name="wifi_timeout">WLAN automatisch ausschalten</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">WLAN wird <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, wenn kein Netzwerk verbunden ist</string>
+    <string name="wifi_timeout_summary1">WLAN wird nach <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltetet, sofern kein Netzwerk verbunden ist</string>
     <string name="wifi_timeout_summary2">Deaktiviert</string>
     <string name="wifi_timeout_summary_never">Niemals</string>
     <string name="wifi_timeout_summary_15secs">15 Sekunden</string>
@@ -286,10 +287,6 @@
     <string name="notification_battery_charge_level_seek_bar">Akkustand</string>
     <string name="notification_battery_charge_level_ringtone">Klingelton</string>
     <string name="notification_battery_charge_level_silent">Lautlos</string>
-    <!-- IME button space -->
-    <string name="navbar_category">Navigationsleiste</string>
-    <string name="navigation_bar_ime_space_title">IME-Schaltflächenbereich</string>
-    <string name="navigation_bar_ime_space_summary">IME-Schaltflächenbereich unter der Tastatur anzeigen</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Zeige einen animierten Pfeil für die Zurück-Geste</string>
@@ -389,6 +386,9 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Gestenanzeige</string>
     <string name="show_navbar_gesture_bar_summary">Gestenanzeige am unteren Bildschirmrand anzeigen</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME-Schaltflächenbereich</string>
+    <string name="navigation_bar_ime_space_value_narrow">Schmal</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Nutzungsdaten löschen?</string>
     <string name="battery_stats_message">Akkuverbrauchsdaten gehen verloren\n(Dies hat keinen Einfluss auf die Pixelstatistik)</string>
