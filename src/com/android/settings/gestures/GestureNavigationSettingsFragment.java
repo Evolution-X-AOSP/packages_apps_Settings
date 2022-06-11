@@ -100,6 +100,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             int value = Integer.parseInt((String) v);
             // disable navbar hint toggle if ime space is hidden
             mGestureNavbarHint.setEnabled(value == 2 ? false : true);
+            if (value == 2 && mGestureNavbarHint.isChecked())
+                mGestureNavbarHint.setChecked(false);
             return true;
         });
 
