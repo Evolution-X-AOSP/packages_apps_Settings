@@ -232,6 +232,7 @@
     <string name="wifi_timeout">إيقاف تشغيل Wi-Fi تلقائياً</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">سيتم إيقاف تشغيل WiFi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يتم توصيل أي شبكة</string>
+    <string name="wifi_timeout_summary1">سيتم إيقاف تشغيل WiFi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يتم توصيل أي شبكة</string>
     <string name="wifi_timeout_summary2">معطل</string>
     <string name="wifi_timeout_summary_never">ابداً</string>
     <string name="wifi_timeout_summary_15secs">15 ثانية</string>
@@ -285,10 +286,6 @@
     <string name="notification_battery_charge_level_seek_bar">مستوى البطارية</string>
     <string name="notification_battery_charge_level_ringtone">نغمة الرنين</string>
     <string name="notification_battery_charge_level_silent">صامت</string>
-    <!-- IME button space -->
-    <string name="navbar_category">شريط التنقل</string>
-    <string name="navigation_bar_ime_space_title">مساحة زر IME</string>
-    <string name="navigation_bar_ime_space_summary">إظهار مساحة زر IME أسفل لوحة المفاتيح</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">حركة إيماءة الرجوع</string>
     <string name="back_gesture_arrow_summary">إظهار سهم متحرك لإيماء الرجوع</string>
@@ -388,6 +385,9 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">مؤشر الإيماءة</string>
     <string name="show_navbar_gesture_bar_summary">إظهار مؤشر الإيماءات في الجزء السفلي من الشاشة</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">مساحة زر IME</string>
+    <string name="navigation_bar_ime_space_value_narrow">ضيق</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">مسح بيانات الاستخدام؟</string>
     <string name="battery_stats_message">سيتم فقدان بيانات استخدام البطارية\n(ليس لهذا أي تأثير على إحصائيات البكسل)</string>
