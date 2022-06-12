@@ -461,7 +461,7 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Clear usage data?</string>
     <string name="battery_stats_message">Battery usage data will be lost\n(This has no effect on the pixel stats)</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <string name="battery_stats_clear" translatable="false">@string/proxy_clear_text</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation settings</string>

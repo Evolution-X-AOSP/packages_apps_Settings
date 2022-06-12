@@ -380,7 +380,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">مسح بيانات الاستخدام؟</string>
     <string name="battery_stats_message">سيتم فقدان بيانات استخدام البطارية\n(ليس لهذا أي تأثير على إحصائيات البكسل)</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">إعدادات التدوير</string>
     <string name="display_rotation_enabled">التدوير التلقائي مُفعل</string>

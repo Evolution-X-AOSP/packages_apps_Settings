@@ -381,7 +381,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Vynulovat statistiky?</string>
     <string name="battery_stats_message">Data o využití baterie budou ztracena\n(Toto nemá žádný vliv na statistiky pixelů)</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Nastavení otáčení</string>
     <string name="display_rotation_enabled">Automatické otáčení povoleno</string>

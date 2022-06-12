@@ -381,7 +381,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Limpar dados de utilização?</string>
     <string name="battery_stats_message">Os dados de utilização da bateria serão eliminados\n(Isto não apaga as estatísticas do pixel)</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Definições de rotação</string>
     <string name="display_rotation_enabled">A rotação automática está ativada</string>
