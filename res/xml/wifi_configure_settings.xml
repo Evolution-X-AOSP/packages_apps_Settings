@@ -30,8 +30,8 @@
         android:key="wifi_timeout"
         android:title="@string/wifi_timeout"
         android:summary="@string/wifi_timeout_summary"
-        android:entries="@array/wifi_timeout_entries"
-        android:entryValues="@array/wifi_timeout_values"
+        android:entries="@array/custom_timeout_entries"
+        android:entryValues="@array/custom_timeout_values"
         settings:controller="com.android.settings.wifi.WifiTimeoutPreferenceController"/>
 
     <SwitchPreference
