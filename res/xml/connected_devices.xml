@@ -56,8 +56,8 @@
         android:key="bluetooth_timeout"
         android:title="@string/bluetooth_timeout"
         android:summary="@string/summary_placeholder"
-        android:entries="@array/bluetooth_timeout_entries"
-        android:entryValues="@array/bluetooth_timeout_values"
+        android:entries="@array/custom_timeout_entries"
+        android:entryValues="@array/custom_timeout_values"
         settings:controller="com.android.settings.bluetooth.BluetoothTimeoutPreferenceController"/>
 
     <PreferenceCategory
