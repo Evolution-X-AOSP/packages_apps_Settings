@@ -235,35 +235,24 @@
     <string name="wifi_timeout_summary">Desligar Wi-Fi automaticamente.</string>
     <string name="wifi_timeout_summary1">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
     <string name="wifi_timeout_summary2">Desativado</string>
-    <string name="wifi_timeout_summary_never">Nunca</string>
-    <string name="wifi_timeout_summary_15secs">15 segundos</string>
-    <string name="wifi_timeout_summary_30secs">30 segundos</string>
-    <string name="wifi_timeout_summary_1min">1 minuto</string>
-    <string name="wifi_timeout_summary_2mins">2 minutos</string>
-    <string name="wifi_timeout_summary_5mins">5 minutos</string>
-    <string name="wifi_timeout_summary_10mins">10 minutos</string>
-    <string name="wifi_timeout_summary_30mins">30 minutos</string>
-    <string name="wifi_timeout_summary_1hour">1 hora</string>
-    <string name="wifi_timeout_summary_2hours">2 horas</string>
-    <string name="wifi_timeout_summary_4hours">4 horas</string>
-    <string name="wifi_timeout_summary_8hours">8 horas</string>
+    <string name="custom_timeout_summary_never">Nunca</string>
+    <string name="custom_timeout_summary_15secs">15 segundos</string>
+    <string name="custom_timeout_summary_30secs">30 segundos</string>
+    <string name="custom_timeout_summary_1min">1 minuto</string>
+    <string name="custom_timeout_summary_2mins">2 minutos</string>
+    <string name="custom_timeout_summary_5mins">5 minutos</string>
+    <string name="custom_timeout_summary_10mins">10 minutos</string>
+    <string name="custom_timeout_summary_20mins">20 minutos</string>
+    <string name="custom_timeout_summary_30mins">30 minutos</string>
+    <string name="custom_timeout_summary_1hour">1 hora</string>
+    <string name="custom_timeout_summary_2hours">2 horas</string>
+    <string name="custom_timeout_summary_4hours">4 horas</string>
+    <string name="custom_timeout_summary_8hours">8 horas</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">O Bluetooth será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum dispositivo estiver conectado</string>
     <string name="bluetooth_timeout_summary2">Não desativar o Bluetooth automaticamente</string>
-    <string name="bluetooth_timeout_summary_never">Nunca</string>
-    <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
-    <string name="bluetooth_timeout_summary_30secs">30 segundos</string>
-    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hora</string>
-    <string name="bluetooth_timeout_summary_2hours">2 horas</string>
-    <string name="bluetooth_timeout_summary_4hours">4 horas</string>
-    <string name="bluetooth_timeout_summary_8hours">8 horas</string>
     <!-- Density category -->
     <string name="density_category">Opções de densidade</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
@@ -420,4 +409,7 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detecção de bolso</string>
     <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
 </resources>
