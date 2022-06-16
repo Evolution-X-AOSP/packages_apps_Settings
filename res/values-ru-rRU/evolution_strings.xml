@@ -235,35 +235,24 @@
     <string name="wifi_timeout_summary">Wi-Fi будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключения к сети</string>
     <string name="wifi_timeout_summary1">Wi-Fi будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключения к сети</string>
     <string name="wifi_timeout_summary2">Отключено</string>
-    <string name="wifi_timeout_summary_never">Никогда</string>
-    <string name="wifi_timeout_summary_15secs">15 секунд</string>
-    <string name="wifi_timeout_summary_30secs">30 секунд</string>
-    <string name="wifi_timeout_summary_1min">1 минута</string>
-    <string name="wifi_timeout_summary_2mins">2 минуты</string>
-    <string name="wifi_timeout_summary_5mins">5 минут</string>
-    <string name="wifi_timeout_summary_10mins">10 минут</string>
-    <string name="wifi_timeout_summary_30mins">30 минут</string>
-    <string name="wifi_timeout_summary_1hour">1 час</string>
-    <string name="wifi_timeout_summary_2hours">2 часа</string>
-    <string name="wifi_timeout_summary_4hours">4 часа</string>
-    <string name="wifi_timeout_summary_8hours">8 часов</string>
+    <string name="custom_timeout_summary_never">Никогда</string>
+    <string name="custom_timeout_summary_15secs">15 секунд</string>
+    <string name="custom_timeout_summary_30secs">30 секунд</string>
+    <string name="custom_timeout_summary_1min">1 минута</string>
+    <string name="custom_timeout_summary_2mins">2 минуты</string>
+    <string name="custom_timeout_summary_5mins">5 минут</string>
+    <string name="custom_timeout_summary_10mins">10 минут</string>
+    <string name="custom_timeout_summary_20mins">20 минут</string>
+    <string name="custom_timeout_summary_30mins">30 минут</string>
+    <string name="custom_timeout_summary_1hour">1 час</string>
+    <string name="custom_timeout_summary_2hours">2 часа</string>
+    <string name="custom_timeout_summary_4hours">4 часа</string>
+    <string name="custom_timeout_summary_8hours">8 часов</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Тайм-аут Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключённых устройств</string>
     <string name="bluetooth_timeout_summary2">Не выключать Bluetooth автоматически</string>
-    <string name="bluetooth_timeout_summary_never">Никогда</string>
-    <string name="bluetooth_timeout_summary_15secs">15 секунд</string>
-    <string name="bluetooth_timeout_summary_30secs">30 секунд</string>
-    <string name="bluetooth_timeout_summary_1min">1 минута</string>
-    <string name="bluetooth_timeout_summary_2mins">2 минуты</string>
-    <string name="bluetooth_timeout_summary_5mins">5 минут</string>
-    <string name="bluetooth_timeout_summary_10mins">10 минут</string>
-    <string name="bluetooth_timeout_summary_30mins">30 минут</string>
-    <string name="bluetooth_timeout_summary_1hour">1 час</string>
-    <string name="bluetooth_timeout_summary_2hours">2 часа</string>
-    <string name="bluetooth_timeout_summary_4hours">4 часа</string>
-    <string name="bluetooth_timeout_summary_8hours">8 часов</string>
     <!-- Density category -->
     <string name="density_category">Настройки плотности</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
@@ -420,4 +409,7 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Режим \"В кармане\"</string>
     <string name="pocket_judge_summary">Блокировка экрана и кнопки включения, когда устройство находится в кармане</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="longpress_to_clipboard">Длинное нажатие для копирования</string>
 </resources>

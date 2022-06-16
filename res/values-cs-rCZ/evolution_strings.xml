@@ -235,35 +235,24 @@
     <string name="wifi_timeout_summary">Automaticky vypnout Wi-Fi po nastaveném čase.</string>
     <string name="wifi_timeout_summary1">Wi-Fi se vypne za <xliff:g id="timeout_description">%1$s</xliff:g>, pokud není připojena žádná síť</string>
     <string name="wifi_timeout_summary2">Vypnuto</string>
-    <string name="wifi_timeout_summary_never">Nikdy</string>
-    <string name="wifi_timeout_summary_15secs">15 sekund</string>
-    <string name="wifi_timeout_summary_30secs">30 sekund</string>
-    <string name="wifi_timeout_summary_1min">1 minuta</string>
-    <string name="wifi_timeout_summary_2mins">2 minuty</string>
-    <string name="wifi_timeout_summary_5mins">5 minut</string>
-    <string name="wifi_timeout_summary_10mins">10 minut</string>
-    <string name="wifi_timeout_summary_30mins">30 minut</string>
-    <string name="wifi_timeout_summary_1hour">1 hodina</string>
-    <string name="wifi_timeout_summary_2hours">2 hodiny</string>
-    <string name="wifi_timeout_summary_4hours">4 hodiny</string>
-    <string name="wifi_timeout_summary_8hours">8 hodin</string>
+    <string name="custom_timeout_summary_never">Nikdy</string>
+    <string name="custom_timeout_summary_15secs">15 sekund</string>
+    <string name="custom_timeout_summary_30secs">30 sekund</string>
+    <string name="custom_timeout_summary_1min">1 minuta</string>
+    <string name="custom_timeout_summary_2mins">2 minuty</string>
+    <string name="custom_timeout_summary_5mins">5 minut</string>
+    <string name="custom_timeout_summary_10mins">10 minut</string>
+    <string name="custom_timeout_summary_20mins">20 minut</string>
+    <string name="custom_timeout_summary_30mins">30 minut</string>
+    <string name="custom_timeout_summary_1hour">1 hodina</string>
+    <string name="custom_timeout_summary_2hours">2 hodiny</string>
+    <string name="custom_timeout_summary_4hours">4 hodiny</string>
+    <string name="custom_timeout_summary_8hours">8 hodin</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Časový limit Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Pokud nejsou připojena žádná zařízení, Bluetooth se vypne za <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="bluetooth_timeout_summary2">Nevypínat Bluetooth automaticky</string>
-    <string name="bluetooth_timeout_summary_never">Nikdy</string>
-    <string name="bluetooth_timeout_summary_15secs">15 sekund</string>
-    <string name="bluetooth_timeout_summary_30secs">30 sekund</string>
-    <string name="bluetooth_timeout_summary_1min">1 minuta</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minuty</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minut</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minut</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minut</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hodina</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hodiny</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hodiny</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hodin</string>
     <!-- Density category -->
     <string name="density_category">Možnosti hustoty zobrazení</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
@@ -420,4 +409,7 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detekce uložení v kapse</string>
     <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Zkopírováno do schránky</string>
+    <string name="longpress_to_clipboard">Přidržením zkopírovat</string>
 </resources>

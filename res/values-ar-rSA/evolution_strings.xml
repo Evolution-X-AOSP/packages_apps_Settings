@@ -234,35 +234,24 @@
     <string name="wifi_timeout_summary">سيتم إيقاف تشغيل WiFi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يتم توصيل أي شبكة</string>
     <string name="wifi_timeout_summary1">سيتم إيقاف تشغيل WiFi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يتم توصيل أي شبكة</string>
     <string name="wifi_timeout_summary2">معطل</string>
-    <string name="wifi_timeout_summary_never">ابداً</string>
-    <string name="wifi_timeout_summary_15secs">15 ثانية</string>
-    <string name="wifi_timeout_summary_30secs">30 ثانية</string>
-    <string name="wifi_timeout_summary_1min">دقيقة</string>
-    <string name="wifi_timeout_summary_2mins">دقيقتين</string>
-    <string name="wifi_timeout_summary_5mins">٥ دقائق</string>
-    <string name="wifi_timeout_summary_10mins">٥ دقائق</string>
-    <string name="wifi_timeout_summary_30mins">30 دقيقة</string>
-    <string name="wifi_timeout_summary_1hour">ساعة واحدة</string>
-    <string name="wifi_timeout_summary_2hours">ساعتان</string>
-    <string name="wifi_timeout_summary_4hours">4 ساعات</string>
-    <string name="wifi_timeout_summary_8hours">8 ساعات</string>
+    <string name="custom_timeout_summary_never">ابداً</string>
+    <string name="custom_timeout_summary_15secs">15 ثانية</string>
+    <string name="custom_timeout_summary_30secs">30 ثانية</string>
+    <string name="custom_timeout_summary_1min">دقيقة</string>
+    <string name="custom_timeout_summary_2mins">دقيقتين</string>
+    <string name="custom_timeout_summary_5mins">٥ دقائق</string>
+    <string name="custom_timeout_summary_10mins">٥ دقائق</string>
+    <string name="custom_timeout_summary_20mins">20 دقيقة</string>
+    <string name="custom_timeout_summary_30mins">٣٠ دقيقة</string>
+    <string name="custom_timeout_summary_1hour">ساعة واحدة</string>
+    <string name="custom_timeout_summary_2hours">ساعتان</string>
+    <string name="custom_timeout_summary_4hours">4 ساعات</string>
+    <string name="custom_timeout_summary_8hours">8 ساعات</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">مهلة البلوتوث</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">سيتم إيقاف تشغيل البلوتوث بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يكن هناك جهاز متصل</string>
     <string name="bluetooth_timeout_summary2">لا تقم بإيقاف تشغيل البلوتوث تلقائياً</string>
-    <string name="bluetooth_timeout_summary_never">ابداً</string>
-    <string name="bluetooth_timeout_summary_15secs">15 ثانية</string>
-    <string name="bluetooth_timeout_summary_30secs">30 ثانية</string>
-    <string name="bluetooth_timeout_summary_1min">دقيقة</string>
-    <string name="bluetooth_timeout_summary_2mins">دقيقتين</string>
-    <string name="bluetooth_timeout_summary_5mins">٥ دقائق</string>
-    <string name="bluetooth_timeout_summary_10mins">٥ دقائق</string>
-    <string name="bluetooth_timeout_summary_30mins">30 دقيقة</string>
-    <string name="bluetooth_timeout_summary_1hour">ساعة واحدة</string>
-    <string name="bluetooth_timeout_summary_2hours">ساعتان</string>
-    <string name="bluetooth_timeout_summary_4hours">4 ساعات</string>
-    <string name="bluetooth_timeout_summary_8hours">8 ساعات</string>
     <!-- Density category -->
     <string name="density_category">خيارات الكثافة</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
@@ -419,4 +408,7 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">استشعار الجيب</string>
     <string name="pocket_judge_summary">إلغاء تفعيل الشاشة و أزرار الإدخال عندما يكون الجهاز في الجيب</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="longpress_to_clipboard">اضغط مطوّلاً للإيقاف</string>
 </resources>

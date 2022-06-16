@@ -235,35 +235,24 @@
     <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
     <string name="wifi_timeout_summary1">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
     <string name="wifi_timeout_summary2">無効</string>
-    <string name="wifi_timeout_summary_never">なし</string>
-    <string name="wifi_timeout_summary_15secs">15秒</string>
-    <string name="wifi_timeout_summary_30secs">30秒</string>
-    <string name="wifi_timeout_summary_1min">1分</string>
-    <string name="wifi_timeout_summary_2mins">2分</string>
-    <string name="wifi_timeout_summary_5mins">5分</string>
-    <string name="wifi_timeout_summary_10mins">10分</string>
-    <string name="wifi_timeout_summary_30mins">30分</string>
-    <string name="wifi_timeout_summary_1hour">1時間</string>
-    <string name="wifi_timeout_summary_2hours">2時間</string>
-    <string name="wifi_timeout_summary_4hours">4時間</string>
-    <string name="wifi_timeout_summary_8hours">8時間</string>
+    <string name="custom_timeout_summary_never">なし</string>
+    <string name="custom_timeout_summary_15secs">15秒</string>
+    <string name="custom_timeout_summary_30secs">30秒</string>
+    <string name="custom_timeout_summary_1min">1分</string>
+    <string name="custom_timeout_summary_2mins">2分</string>
+    <string name="custom_timeout_summary_5mins">5分</string>
+    <string name="custom_timeout_summary_10mins">10分</string>
+    <string name="custom_timeout_summary_20mins">20分</string>
+    <string name="custom_timeout_summary_30mins">30分</string>
+    <string name="custom_timeout_summary_1hour">1時間</string>
+    <string name="custom_timeout_summary_2hours">2時間</string>
+    <string name="custom_timeout_summary_4hours">4時間</string>
+    <string name="custom_timeout_summary_8hours">8時間</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth の制限時間</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth は オフになります</string>
     <string name="bluetooth_timeout_summary2">自動的に Bluetooth をオフにしない</string>
-    <string name="bluetooth_timeout_summary_never">なし</string>
-    <string name="bluetooth_timeout_summary_15secs">15秒</string>
-    <string name="bluetooth_timeout_summary_30secs">30秒</string>
-    <string name="bluetooth_timeout_summary_1min">1分</string>
-    <string name="bluetooth_timeout_summary_2mins">2分</string>
-    <string name="bluetooth_timeout_summary_5mins">5分</string>
-    <string name="bluetooth_timeout_summary_10mins">10分</string>
-    <string name="bluetooth_timeout_summary_30mins">30分</string>
-    <string name="bluetooth_timeout_summary_1hour">1時間</string>
-    <string name="bluetooth_timeout_summary_2hours">2時間</string>
-    <string name="bluetooth_timeout_summary_4hours">4時間</string>
-    <string name="bluetooth_timeout_summary_8hours">8時間</string>
     <!-- Density category -->
     <string name="density_category">解像度オプション</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
@@ -420,4 +409,7 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">ポケット検出</string>
     <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">クリップボードにコピーしました</string>
+    <string name="longpress_to_clipboard">長押しでコピー</string>
 </resources>
