@@ -381,7 +381,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Atur ulang statistik baterai?</string>
     <string name="battery_stats_message">Data penggunaan baterai akan hilang\n(Ini tidak berpengaruh pada statistik Pixel)</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Setelan rotasi</string>
     <string name="display_rotation_enabled">Rotasi otomatis diaktifkan</string>
