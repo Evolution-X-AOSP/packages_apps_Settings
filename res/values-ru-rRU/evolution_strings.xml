@@ -381,7 +381,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Очистить данные об использовании?</string>
     <string name="battery_stats_message">Данные об использовании батареи будут потеряны\n(это никак не влияет на статистику пикселей)</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Поворот</string>
     <string name="display_rotation_enabled">Автоповорот включён</string>
