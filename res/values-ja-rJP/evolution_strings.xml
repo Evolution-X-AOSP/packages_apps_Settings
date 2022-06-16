@@ -381,7 +381,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">統計を消去しますか?</string>
     <string name="battery_stats_message">バッテリー統計データは消去されます\n(OS の使用統計には影響ありません)</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">回転の設定</string>
     <string name="display_rotation_enabled">画面の自動回転は有効です</string>
