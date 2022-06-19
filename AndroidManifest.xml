@@ -4530,6 +4530,16 @@
                        android:value="true" />
         </activity>
 
+        <activity
+            android:name="com.evolution.settings.fragments.uibench.JitterTestActivity"
+            android:theme="@style/Theme.SubSettingsBase"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
