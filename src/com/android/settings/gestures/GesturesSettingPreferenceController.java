@@ -80,6 +80,8 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
         controllers.add(new SwipeToScreenshotPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new VolumeButtonMusicControlPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new DoubleTapAmbientPreferenceController(context, FAKE_PREF_KEY));
+        controllers.add(new ScreenOffUdfpsPreferenceController(context, FAKE_PREF_KEY)
+                .setConfig(ambientDisplayConfiguration));
         return controllers;
     }
 }
