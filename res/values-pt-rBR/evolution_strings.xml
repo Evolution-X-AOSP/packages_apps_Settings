@@ -411,4 +411,7 @@
     <!-- General -->
     <string name="copied_to_clipboard">Copiado para a área de transferência</string>
     <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Impressão digital com a tela apagada</string>
+    <string name="screen_off_fod_summary">Permitir o uso do desbloqueio por impressão digital com a tela desligada</string>
 </resources>
