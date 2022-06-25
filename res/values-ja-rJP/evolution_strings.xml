@@ -411,4 +411,7 @@
     <!-- General -->
     <string name="copied_to_clipboard">クリップボードにコピーしました</string>
     <string name="longpress_to_clipboard">長押しでコピー</string>
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">画面消灯時の画面内指紋認証</string>
+    <string name="screen_off_fod_summary">画面消灯時も画面内指紋認証を使用する</string>
 </resources>
