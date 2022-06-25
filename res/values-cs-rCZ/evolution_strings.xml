@@ -411,4 +411,7 @@
     <!-- General -->
     <string name="copied_to_clipboard">Zkopírováno do schránky</string>
     <string name="longpress_to_clipboard">Přidržením zkopírovat</string>
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">FOD při vypnuté obrazovce</string>
+    <string name="screen_off_fod_summary">Nechat snímač otisků prstů aktivovaný, když je obrazovka vypnutá</string>
 </resources>
