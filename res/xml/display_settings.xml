@@ -87,6 +87,12 @@
             android:key="density"
             android:title="@string/developer_smallest_width" />
 
+        <!-- Wallpaper Zoom Effects -->
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="display_settings_wallpaper_zoom"
+            android:title="@string/wallpaper_zoom_effect_title"
+            android:summary="@string/wallpaper_zoom_effect_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
