@@ -89,6 +89,13 @@
             android:persistent="false"
             android:title="@string/accessibility_text_reading_options_title"
             settings:controller="com.android.settings.accessibility.TextReadingFragmentForDisplaySettingsController"/>
+
+        <!-- Wallpaper Zoom Effects -->
+        <com.evolution.settings.preference.SecureSettingSwitchPreference
+            android:key="display_settings_wallpaper_zoom"
+            android:title="@string/wallpaper_zoom_effect_title"
+            android:summary="@string/wallpaper_zoom_effect_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
