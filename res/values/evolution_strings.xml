@@ -128,6 +128,11 @@
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
+    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
+    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
+
     <!-- Lock screen pattern size -->
     <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
     <string name="lock_pattern_size_4" translatable="false">4 \u00d7 4</string>
