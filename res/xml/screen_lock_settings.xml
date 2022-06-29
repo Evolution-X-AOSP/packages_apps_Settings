@@ -40,4 +40,11 @@
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 
+    <!-- Fingerprint wake-and-unlock toggle -->
+    <SwitchPreference
+        android:key="fingerprint_wake_unlock"
+        android:title="@string/fingerprint_wake_unlock_title"
+        android:summaryOn="@string/fingerprint_wake_unlock_touch"
+        android:summaryOff="@string/fingerprint_wake_unlock_press" />
+
 </PreferenceScreen>
