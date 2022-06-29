@@ -75,6 +75,7 @@ public class ScreenLockSettings extends DashboardFragment
                 context, MY_USER_ID, lockPatternUtils));
         controllers.add(new LockAfterTimeoutPreferenceController(
                 context, MY_USER_ID, lockPatternUtils));
+        controllers.add(new FingerprintUnlockPreferenceController(context));
         controllers.add(new OwnerInfoPreferenceController(context, parent));
         return controllers;
     }
