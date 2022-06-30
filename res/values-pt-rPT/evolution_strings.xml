@@ -414,4 +414,8 @@
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">FOD com ecrã desligado</string>
     <string name="screen_off_fod_summary">Manter o sensor de impressão digital ativado quando o ecrã estiver desligado</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Efeito de zoom do papel de parede</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Amplie o papel de parede para mostrar a animação de profundidade do zoom. Os papéis de parede podem sofrer uma redução de qualidade</string>
 </resources>
