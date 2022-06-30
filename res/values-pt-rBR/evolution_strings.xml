@@ -414,4 +414,8 @@
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Impressão digital com a tela apagada</string>
     <string name="screen_off_fod_summary">Permitir o uso do desbloqueio por impressão digital com a tela desligada</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Efeito de zoom no papel de parede</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">O efeito de zoom no papel de parede amplia o tamanho da imagem. As imagens podem sofrer uma pequena perda de qualidade</string>
 </resources>

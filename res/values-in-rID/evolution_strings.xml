@@ -414,4 +414,8 @@
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">FOD layar mati</string>
     <string name="screen_off_fod_summary">Tetap aktifkan FOD saat layar mati</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Efek perbesar wallpaper</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Perbesar wallpaper untuk menampilkan animasi kedalaman memperkecil. Wallpaper mungkin mengalami penurunan kualitas</string>
 </resources>

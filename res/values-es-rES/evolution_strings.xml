@@ -414,4 +414,8 @@
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Huella con pantalla apagada</string>
     <string name="screen_off_fod_summary">Mantener huella activa cuando la pantalla está apagada</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Efecto de zoom de fondo de pantalla</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Acercar el fondo de pantalla para mostrar la animación de la profundidad en alejamiento. Los fondos de pantalla pueden sufrir un descenso de calidad</string>
 </resources>
