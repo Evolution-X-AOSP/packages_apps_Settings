@@ -235,35 +235,24 @@
     <string name="wifi_timeout_summary">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
     <string name="wifi_timeout_summary1">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
     <string name="wifi_timeout_summary2">已禁用</string>
-    <string name="wifi_timeout_summary_never">永不</string>
-    <string name="wifi_timeout_summary_15secs">15 秒</string>
-    <string name="wifi_timeout_summary_30secs">30 秒</string>
-    <string name="wifi_timeout_summary_1min">1 分钟</string>
-    <string name="wifi_timeout_summary_2mins">2 分钟</string>
-    <string name="wifi_timeout_summary_5mins">5 分钟</string>
-    <string name="wifi_timeout_summary_10mins">10 分钟</string>
-    <string name="wifi_timeout_summary_30mins">30 分钟</string>
-    <string name="wifi_timeout_summary_1hour">1 小时</string>
-    <string name="wifi_timeout_summary_2hours">2 小时</string>
-    <string name="wifi_timeout_summary_4hours">4 小时</string>
-    <string name="wifi_timeout_summary_8hours">8 小时</string>
+    <string name="custom_timeout_summary_never">永不</string>
+    <string name="custom_timeout_summary_15secs">15 秒</string>
+    <string name="custom_timeout_summary_30secs">30 秒</string>
+    <string name="custom_timeout_summary_1min">1 分钟</string>
+    <string name="custom_timeout_summary_2mins">2 分钟</string>
+    <string name="custom_timeout_summary_5mins">5 分钟</string>
+    <string name="custom_timeout_summary_10mins">10 分钟</string>
+    <string name="custom_timeout_summary_20mins">20 分钟</string>
+    <string name="custom_timeout_summary_30mins">30 分钟</string>
+    <string name="custom_timeout_summary_1hour">1 小时</string>
+    <string name="custom_timeout_summary_2hours">2 小时</string>
+    <string name="custom_timeout_summary_4hours">4 小时</string>
+    <string name="custom_timeout_summary_8hours">8 小时</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">蓝牙超时</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">如果没有设备连接，蓝牙将在<xliff:g id="timeout_description">%1$s</xliff:g>后关闭</string>
     <string name="bluetooth_timeout_summary2">不要自动关闭蓝牙</string>
-    <string name="bluetooth_timeout_summary_never">永不</string>
-    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
-    <string name="bluetooth_timeout_summary_30secs">30 秒</string>
-    <string name="bluetooth_timeout_summary_1min">1 分钟</string>
-    <string name="bluetooth_timeout_summary_2mins">2 分钟</string>
-    <string name="bluetooth_timeout_summary_5mins">5 分钟</string>
-    <string name="bluetooth_timeout_summary_10mins">10 分钟</string>
-    <string name="bluetooth_timeout_summary_30mins">30 分钟</string>
-    <string name="bluetooth_timeout_summary_1hour">1 小时</string>
-    <string name="bluetooth_timeout_summary_2hours">2 小时</string>
-    <string name="bluetooth_timeout_summary_4hours">4 小时</string>
-    <string name="bluetooth_timeout_summary_8hours">8 小时</string>
     <!-- Density category -->
     <string name="density_category">分辨率选项</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
@@ -392,7 +381,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">重置统计信息</string>
     <string name="battery_stats_message">电池使用数据将丢失\n(这对像素状态没有影响)</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">旋转设置</string>
     <string name="display_rotation_enabled">自动旋转已启用</string>
@@ -420,4 +408,14 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">口袋检测</string>
     <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">复制到剪贴板</string>
+    <string name="longpress_to_clipboard">长按复制</string>
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">息屏指纹</string>
+    <string name="screen_off_fod_summary">当屏幕关闭时保持屏幕指纹开启</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">壁纸缩放效果</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">缩放壁纸以展示缩小深度动画。壁纸质量可能降低</string>
 </resources>
