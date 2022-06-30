@@ -234,35 +234,24 @@
     <string name="wifi_timeout_summary">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
     <string name="wifi_timeout_summary1">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
     <string name="wifi_timeout_summary2">Devre dışı</string>
-    <string name="wifi_timeout_summary_never">Asla</string>
-    <string name="wifi_timeout_summary_15secs">15 saniye</string>
-    <string name="wifi_timeout_summary_30secs">30 saniye</string>
-    <string name="wifi_timeout_summary_1min">1 dakika</string>
-    <string name="wifi_timeout_summary_2mins">2 dakika</string>
-    <string name="wifi_timeout_summary_5mins">5 dakika</string>
-    <string name="wifi_timeout_summary_10mins">10 dakika</string>
-    <string name="wifi_timeout_summary_30mins">30 dakikada</string>
-    <string name="wifi_timeout_summary_1hour">1 saat</string>
-    <string name="wifi_timeout_summary_2hours">2 saat</string>
-    <string name="wifi_timeout_summary_4hours">4 saat</string>
-    <string name="wifi_timeout_summary_8hours">8 saat</string>
+    <string name="custom_timeout_summary_never">Asla</string>
+    <string name="custom_timeout_summary_15secs">15 saniye</string>
+    <string name="custom_timeout_summary_30secs">30 saniye</string>
+    <string name="custom_timeout_summary_1min">1 dakika</string>
+    <string name="custom_timeout_summary_2mins">2 dakika</string>
+    <string name="custom_timeout_summary_5mins">5 dakika</string>
+    <string name="custom_timeout_summary_10mins">10 dakika</string>
+    <string name="custom_timeout_summary_20mins">20 dakika</string>
+    <string name="custom_timeout_summary_30mins">30 dakika</string>
+    <string name="custom_timeout_summary_1hour">1 saat</string>
+    <string name="custom_timeout_summary_2hours">2 saat</string>
+    <string name="custom_timeout_summary_4hours">4 saat</string>
+    <string name="custom_timeout_summary_8hours">8 saat</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
     <string name="bluetooth_timeout_summary2">Bluetooth\'u otomatik olarak kapatma</string>
-    <string name="bluetooth_timeout_summary_never">Asla</string>
-    <string name="bluetooth_timeout_summary_15secs">15 saniye</string>
-    <string name="bluetooth_timeout_summary_30secs">30 saniye</string>
-    <string name="bluetooth_timeout_summary_1min">1 dakika</string>
-    <string name="bluetooth_timeout_summary_2mins">2 dakika</string>
-    <string name="bluetooth_timeout_summary_5mins">5 dakika</string>
-    <string name="bluetooth_timeout_summary_10mins">10 dakika</string>
-    <string name="bluetooth_timeout_summary_30mins">30 dakika</string>
-    <string name="bluetooth_timeout_summary_1hour">1 saat</string>
-    <string name="bluetooth_timeout_summary_2hours">2 saat</string>
-    <string name="bluetooth_timeout_summary_4hours">4 saat</string>
-    <string name="bluetooth_timeout_summary_8hours">8 saat</string>
     <!-- Density category -->
     <string name="density_category">Yoğunluk seçenekleri</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
@@ -391,7 +380,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Kullanım verileri temizlensin mi?</string>
     <string name="battery_stats_message">Pil kullanım verileri silinecek\n(Bunun 24 saatlik kullanım istatislikleri üzerinden bir etkisi yoktur)</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Döndürme ayarları</string>
     <string name="display_rotation_enabled">Otomatik döndürme etkin</string>
@@ -419,4 +407,14 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Cep algılama</string>
     <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="longpress_to_clipboard">Kopyalamak için uzun basın</string>
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Ekran kapalı parmak izi</string>
+    <string name="screen_off_fod_summary">Ekran kapalıyken parmak izini açık tutun</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Duvar kağıdı yakınlaştırma efekti</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Uzaklaştırma derinlik efektini göstermek için duvar kağıdını yakınlaştır. Duvar kağıdı kalitesi düşebilir</string>
 </resources>
