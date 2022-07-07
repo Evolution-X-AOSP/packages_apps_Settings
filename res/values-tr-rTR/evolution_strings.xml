@@ -231,7 +231,7 @@
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Wi-Fi\'yi otomatik olarak kapat</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
+    <string name="wifi_timeout_summary">Belirli bir süre sonra Wi-Fi\'yi otomatik olarak kapatın.</string>
     <string name="wifi_timeout_summary1">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
     <string name="wifi_timeout_summary2">Devre dışı</string>
     <string name="custom_timeout_summary_never">Asla</string>
