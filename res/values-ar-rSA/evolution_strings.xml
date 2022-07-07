@@ -410,4 +410,11 @@
     <!-- General -->
     <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
     <string name="longpress_to_clipboard">اضغط مطوّلاً للإيقاف</string>
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">زر البصمة الشاشة المطفأة</string>
+    <string name="screen_off_fod_summary">ابقاء UDFPS مفعل عندما تكون الشاشة مغلقة</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">تأثير تكبير الخلفية</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">تكبير خلفية الشاشة من أجل إظهار حركة عمق التصعيد. قد تعاني الخلفيات من انخفاض الجودة</string>
 </resources>

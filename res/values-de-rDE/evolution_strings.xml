@@ -414,4 +414,8 @@
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Fingerabdruckerkennung bei ausgeschaltetem Bildschirm</string>
     <string name="screen_off_fod_summary">Fingerabdrucksensor bei ausgeschaltetem Bildschirm aktiviert lassen</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Hintergrundbild-Zoom-Effekt</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Zoome das Hintergrundbild, um eine Tiefenanimation zu zeigen. Die Qualität des Hintergrundbildes kann sich verschlechtern</string>
 </resources>

@@ -414,4 +414,8 @@
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">画面消灯時の画面内指紋認証</string>
     <string name="screen_off_fod_summary">画面消灯時も画面内指紋認証を使用する</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">壁紙ズーム効果</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">縮小深度アニメーションを表示するために壁紙を拡大します。壁紙の品質が低下する可能性があります。</string>
 </resources>
