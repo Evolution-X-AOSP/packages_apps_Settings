@@ -42,6 +42,13 @@
         android:key="restricted_app"
         android:title="@string/restricted_app_title"/>
 
+    <Preference
+        android:key="high_power_apps"
+        android:title="@string/high_power_apps"
+        android:summary="@string/high_power_apps_summary">
+        <intent android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS" />
+    </Preference>
+
     <com.android.settingslib.widget.FooterPreference
         android:key="smart_battery_detail_footer"
         android:title="@string/smart_battery_footer"
