@@ -469,4 +469,6 @@
     <!-- Hide apps -->
     <string name="hide">Hide</string>
     <string name="unhide">Unhide</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">Hidden apps</string>
 </resources>
