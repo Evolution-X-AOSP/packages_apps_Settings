@@ -143,6 +143,9 @@ public class ApplicationViewHolder extends RecyclerView.ViewHolder {
                 == PackageManager.COMPONENT_ENABLED_STATE_DISABLED_UNTIL_USED) {
             mDisabled.setVisibility(View.VISIBLE);
             mDisabled.setText(R.string.disabled);
+        } else if ((info.privateFlags & ApplicationInfo.PRIVATE_FLAG_HIDDEN) != 0) {
+            mDisabled.setVisibility(View.VISIBLE);
+            mDisabled.setText(R.string.hidden);
         } else {
             mDisabled.setVisibility(View.GONE);
         }
