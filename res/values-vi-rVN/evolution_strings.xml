@@ -15,7 +15,7 @@
     <string name="build_maintainer">Người duy trì</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Sự phát triển của nguồn mở. Tiếp tục phát triển</string>
+    <string name="evolver_dashboard_summary">\"Sự phát triển\" cho thiết bị của bạn</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Trạng thái SELinux</string>
     <string name="selinux_status_disabled">Tắt</string>
@@ -114,8 +114,8 @@
     <string name="app_volume_summary">Cho phép đặt các mức âm lượng khác nhau cho từng ứng dụng</string>
     <!-- Gesture navbar control -->
     <string name="other_controls_title">Các điều khiển khác</string>
-    <string name="gesture_navbar_length_title">Chiều dài thanh điều hướng</string>
-    <string name="gesture_navbar_radius_title">Bo góc thanh điều hướng</string>
+    <string name="gesture_navbar_length_title">Chiều dài thanh cử chỉ</string>
+    <string name="gesture_navbar_radius_title">Độ dày thanh cử chỉ</string>
     <string name="short_label">Ngắn</string>
     <string name="long_label">Dài</string>
     <string name="small_label">Nhỏ</string>
@@ -151,8 +151,8 @@
     <string name="wake_when_plugged_or_unplugged_summary">Bật màn hình khi kết nối hoặc ngắt kết nối nguồn điện</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Màu sắc đèn</string>
-    <string name="custom_light_on_time_title">Thời gian SÁNG đèn khi nhấp nháy (ms)</string>
-    <string name="custom_light_off_time_title">Thời gian TẮT đèn khi nhấp nháy (ms)</string>
+    <string name="custom_light_on_time_title">Thời gian SÁNG đèn khi nhấp nháy (mili giây)</string>
+    <string name="custom_light_off_time_title">Thời gian TẮT đèn khi nhấp nháy (mili giây)</string>
     <string name="value_equals_default">mặc định</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Định vị trí cảm biến vân tay trên mặt trước máy tính bảng của bạn.</string>
@@ -372,7 +372,7 @@
     <string name="screenshot_timestamp_exif_title">Lưu mốc thời gian chụp màn hình vào EXIF</string>
     <string name="screenshot_timestamp_exif_summary">Cho phép thêm mốc thời gian vào ảnh chụp màn hình EXIF </string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Chỉ báo cử chỉ</string>
+    <string name="show_navbar_gesture_bar_title">Thanh cử chỉ</string>
     <string name="show_navbar_gesture_bar_summary">Hiển thị thanh gợi ý điều hướng ở dưới cùng của màn hình</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Khoảng trống phía dưới bàn phím</string>
