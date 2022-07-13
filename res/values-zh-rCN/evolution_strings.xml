@@ -303,7 +303,7 @@
     <string name="wifi_hotspot_block_client_dialog_title">屏蔽设备</string>
     <string name="wifi_hotspot_block_client_dialog_text">此操作将断开此设备上的 \"<xliff:g id="device_name">%1$s</xliff:g>\"并将其添加到屏蔽列表</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">不封禁设备</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">此设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到这个热点</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到这个热点</string>
     <string name="wifi_hotspot_client_manager_footer_text">目前没有可用的客户端，连接和被屏蔽的设备将在可存档时列出</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
