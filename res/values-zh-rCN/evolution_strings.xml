@@ -236,6 +236,8 @@
     <string name="wifi_timeout_summary1">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
     <string name="wifi_timeout_summary2">已禁用</string>
     <string name="custom_timeout_summary_never">永不</string>
+    <string name="custom_timeout_summary_5secs">5 秒</string>
+    <string name="custom_timeout_summary_10secs">10 秒</string>
     <string name="custom_timeout_summary_15secs">15 秒</string>
     <string name="custom_timeout_summary_30secs">30 秒</string>
     <string name="custom_timeout_summary_1min">1 分钟</string>
@@ -418,4 +420,8 @@
     <string name="wallpaper_zoom_effect_title">壁纸缩放效果</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">缩放壁纸以展示缩小深度动画。壁纸质量可能降低</string>
+    <!-- Device auto reboot -->
+    <string name="device_reboot_timeout_title">自动重启</string>
+    <string name="device_reboot_timeout_summary">设备将在最近<xliff:g id="timeout_description">%1$s</xliff:g>内未解锁时自动重启</string>
+    <string name="device_reboot_timeout_summary2">设备将不会自动重启</string>
 </resources>
