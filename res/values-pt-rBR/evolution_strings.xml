@@ -236,6 +236,8 @@
     <string name="wifi_timeout_summary1">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
     <string name="wifi_timeout_summary2">Desativado</string>
     <string name="custom_timeout_summary_never">Nunca</string>
+    <string name="custom_timeout_summary_5secs">5 segundos</string>
+    <string name="custom_timeout_summary_10secs">10 segundos</string>
     <string name="custom_timeout_summary_15secs">15 segundos</string>
     <string name="custom_timeout_summary_30secs">30 segundos</string>
     <string name="custom_timeout_summary_1min">1 minuto</string>
@@ -418,4 +420,8 @@
     <string name="wallpaper_zoom_effect_title">Efeito de zoom no papel de parede</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">O efeito de zoom no papel de parede amplia o tamanho da imagem. As imagens podem sofrer uma pequena perda de qualidade</string>
+    <!-- Device auto reboot -->
+    <string name="device_reboot_timeout_title">Reinício automático</string>
+    <string name="device_reboot_timeout_summary">O dispositivo será reiniciado automaticamente se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">O dispositivo não será reiniciado automaticamente</string>
 </resources>
