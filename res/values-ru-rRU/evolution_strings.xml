@@ -236,6 +236,8 @@
     <string name="wifi_timeout_summary1">Wi-Fi будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключения к сети</string>
     <string name="wifi_timeout_summary2">Отключено</string>
     <string name="custom_timeout_summary_never">Никогда</string>
+    <string name="custom_timeout_summary_5secs">5 секунд</string>
+    <string name="custom_timeout_summary_10secs">10 секунд</string>
     <string name="custom_timeout_summary_15secs">15 секунд</string>
     <string name="custom_timeout_summary_30secs">30 секунд</string>
     <string name="custom_timeout_summary_1min">1 минута</string>
@@ -411,4 +413,15 @@
     <!-- General -->
     <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
     <string name="longpress_to_clipboard">Длинное нажатие для копирования</string>
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Отпечаток на выключенном экране</string>
+    <string name="screen_off_fod_summary">Не включать FOD при выключенном экране</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Эффект масштаба обоев</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Изменение масштаба обоев для эффекта глубины. Качество обоев может снизиться</string>
+    <!-- Device auto reboot -->
+    <string name="device_reboot_timeout_title">Автоперезагрузка</string>
+    <string name="device_reboot_timeout_summary">Устройство автоматически перезагрузится, если оно не было разблокировано в течение последнего <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">Устройство не перезагружается автоматически</string>
 </resources>
