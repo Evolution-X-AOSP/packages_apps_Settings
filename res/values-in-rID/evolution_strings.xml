@@ -420,8 +420,7 @@
     <string name="wallpaper_zoom_effect_title">Efek perbesar wallpaper</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Perbesar wallpaper untuk menampilkan animasi kedalaman memperkecil. Wallpaper mungkin mengalami penurunan kualitas</string>
-    <!-- Device auto reboot -->
-    <string name="device_reboot_timeout_title">Mulai ulang otomatis</string>
-    <string name="device_reboot_timeout_summary">Perangkat akan secara otomatis mulai ulang jika belum dibuka dalam waktu terakhir <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="device_reboot_timeout_summary2">Perangkat tidak akan mulai ulang secara otomatis</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Debugging Root</string>
+    <string name="adb_enable_summary_root">Izinkan menjalankan Android debugging sebagai root</string>
 </resources>

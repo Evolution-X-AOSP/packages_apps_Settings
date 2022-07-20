@@ -420,8 +420,7 @@
     <string name="wallpaper_zoom_effect_title">壁纸缩放效果</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">缩放壁纸以展示缩小深度动画。壁纸质量可能降低</string>
-    <!-- Device auto reboot -->
-    <string name="device_reboot_timeout_title">自动重启</string>
-    <string name="device_reboot_timeout_summary">设备将在最近<xliff:g id="timeout_description">%1$s</xliff:g>内未解锁时自动重启</string>
-    <string name="device_reboot_timeout_summary2">设备将不会自动重启</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Root 用户调试</string>
+    <string name="adb_enable_summary_root">允许以 root 身份运行 Android 调试</string>
 </resources>

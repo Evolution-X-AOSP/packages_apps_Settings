@@ -420,8 +420,7 @@
     <string name="wallpaper_zoom_effect_title">Efekt přiblížení tapety</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Přiblížení tapety pro zobrazení hloubkové animace. Tapety mohou mít sníženou kvalitu</string>
-    <!-- Device auto reboot -->
-    <string name="device_reboot_timeout_title">Autom. restartovat</string>
-    <string name="device_reboot_timeout_summary">Zařízení se automaticky restartuje, pokud nebylo odemčeno během posledních <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="device_reboot_timeout_summary2">Zařízení se automaticky nerestartuje</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Ladění s právy root</string>
+    <string name="adb_enable_summary_root">Povolit spuštění ladění Androidu s právy root</string>
 </resources>
