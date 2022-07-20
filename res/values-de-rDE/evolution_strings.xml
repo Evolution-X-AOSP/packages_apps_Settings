@@ -236,6 +236,8 @@
     <string name="wifi_timeout_summary1">WLAN wird nach <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltetet, sofern kein Netzwerk verbunden ist</string>
     <string name="wifi_timeout_summary2">Deaktiviert</string>
     <string name="custom_timeout_summary_never">Niemals</string>
+    <string name="custom_timeout_summary_5secs">5 Sekunden</string>
+    <string name="custom_timeout_summary_10secs">10 Sekunden</string>
     <string name="custom_timeout_summary_15secs">15 Sekunden</string>
     <string name="custom_timeout_summary_30secs">30 Sekunden</string>
     <string name="custom_timeout_summary_1min">1 Minute</string>
@@ -418,4 +420,7 @@
     <string name="wallpaper_zoom_effect_title">Hintergrundbild-Zoom-Effekt</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Zoome das Hintergrundbild, um eine Tiefenanimation zu zeigen. Die Qualität des Hintergrundbildes kann sich verschlechtern</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Root-Debugging</string>
+    <string name="adb_enable_summary_root">Android-Debugging als Root erlauben</string>
 </resources>
