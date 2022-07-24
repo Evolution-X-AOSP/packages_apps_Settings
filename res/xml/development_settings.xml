@@ -699,6 +699,7 @@
         <SwitchPreferenceCompat
             android:key="force_resizable_activities"
             android:title="@string/force_resizable_activities"
+            android:defaultValue="true"
             android:summary="@string/force_resizable_activities_summary" />
 
         <SwitchPreferenceCompat
