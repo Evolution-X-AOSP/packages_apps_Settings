@@ -375,4 +375,7 @@
     <string name="battery_charge_cycles">Charge cycles completed</string>
 
     <string name="high_power_apps_summary">Per-app battery optimization</string>
+
+    <string name="daily_battery_usage_chart">Daily battery usage chart</string>
+    <string name="daily_battery_usage_chart_summary">View usage for past 24 hours</string>
 </resources>
