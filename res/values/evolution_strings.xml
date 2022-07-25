@@ -527,4 +527,7 @@
 
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary" translatable="false">Per-app battery optimization</string>
+
+    <string name="battery_24_hrs_stats_title" translatable="false">24-hour battery usage</string>
+    <string name="battery_24_hrs_stats_summary" translatable="false">View usage for past 24 hours</string>
 </resources>

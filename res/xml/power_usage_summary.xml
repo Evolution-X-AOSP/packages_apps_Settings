@@ -38,7 +38,8 @@
 
     <com.evolution.settings.preference.SystemSettingSwitchPreference
         android:key="battery_24_hrs_stats"
-        android:title="@string/advanced_battery_preference_summary_with_hours"
+        android:title="@string/battery_24_hrs_stats_title"
+        android:summary="@string/battery_24_hrs_stats_summary"
         android:defaultValue="false"
         settings:searchable="false" />
 
