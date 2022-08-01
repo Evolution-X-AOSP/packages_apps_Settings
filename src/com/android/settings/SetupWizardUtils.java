@@ -88,7 +88,7 @@ public class SetupWizardUtils {
                 }
             }
         }
-        return R.style.SudDynamicColorThemeSettings_SetupWizard_DayNight;
+        return R.style.GlifTheme;
     }
 
     public static int getTransparentTheme(Context context, Intent intent) {
