@@ -129,6 +129,7 @@
     <string name="face_unlock_method_title">Povolit odemknutí obličejem na obrazovce uzamčení</string>
     <string name="face_unlock_method_default">Když je obrazovka zapnutá</string>
     <string name="face_unlock_method_swipe">Při přejetí prstem na uzamčené obrazovce</string>
+    <string name="skip_biometric_auth_confirmation_title">Ručně přeskočit potvrzení</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Dvojí poklepání</string>
     <string name="doze_double_tap_title">Dvojitým klepnutím zkontrolujte telefon</string>
@@ -423,4 +424,14 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Ladění s právy root</string>
     <string name="adb_enable_summary_root">Povolit spuštění ladění Androidu s právy root</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Chytré nabíjení</string>
+    <string name="smart_charging_summary">Nastavit maximální úroveň nabíjení</string>
+    <string name="smart_charging_switch_title">Použít Chytré nabíjení</string>
+    <string name="smart_charging_level_title">Úroveň ukončení</string>
+    <string name="smart_charging_resume_level_title">Úroveň spuštění</string>
+    <string name="smart_charging_reset_stats_title">Obnovit statistiky baterie</string>
+    <string name="smart_charging_reset_stats_summary">Obnoví statistiku baterie po dosažení úrovně nabití definované uživatelem</string>
+    <string name="smart_charging_footer">Chytré nabíjení vám umožní nastavit maximální úroveň nabití pro prodloužení životnosti baterie</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
 </resources>

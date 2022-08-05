@@ -48,7 +48,7 @@
     <string name="swipe_to_screenshot_gesture_summary">Deslizar tres dedos para hacer captura de pantalla</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pausa Inteligente</string>
-    <string name="adaptive_playback_enabled">Usar Pausa Inteligente</string>
+    <string name="adaptive_playback_master_switch_title">Usar Pausa Inteligente</string>
     <string name="adaptive_playback_disabled_summary">Desactivado</string>
     <string name="adaptive_playback_intro_text">Pausa automáticamente los medios cuando el volumen está silenciado y se reanudará automáticamente cuando el volumen sea restaurado dentro del tiempo establecido.</string>
     <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
@@ -100,6 +100,10 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente al introducir PIN/contraseña correcto</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Tocar huella para desbloquear</string>
+    <string name="fingerprint_wake_unlock_touch">A la escucha de eventos con pantalla apagada</string>
+    <string name="fingerprint_wake_unlock_press">A la escucha de eventos solo con pantalla encendida</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Elige un tamaño de patrón</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -129,6 +133,7 @@
     <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
     <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
     <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <string name="skip_biometric_auth_confirmation_title">Omitir confirmación manual</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doble toque</string>
     <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
@@ -423,4 +428,14 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuración como Superusuario</string>
     <string name="adb_enable_summary_root">Permite ejecutar la depuración de Android como superusuario</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carga inteligente</string>
+    <string name="smart_charging_summary">Establecer nivel máximo de carga</string>
+    <string name="smart_charging_master_switch_title">Usar Carga Inteligente</string>
+    <string name="smart_charging_level_title">Nivel de detención</string>
+    <string name="smart_charging_resume_level_title">Nivel de inicio</string>
+    <string name="smart_charging_reset_stats_title">Reiniciar las estadísticas de la batería</string>
+    <string name="smart_charging_reset_stats_summary">Resetear estadísticas de batería al alcanzar el nivel de carga definido por el usuario</string>
+    <string name="smart_charging_footer">La Carga Inteligente permite establecer el nivel máximo de carga para ampliar la duración de la batería</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
 </resources>

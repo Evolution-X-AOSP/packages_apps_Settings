@@ -100,6 +100,10 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при вводе правильного PIN-кода/пароля</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Прикосновение для разблокировки</string>
+    <string name="fingerprint_wake_unlock_touch">Считывать при выключенном экране</string>
+    <string name="fingerprint_wake_unlock_press">Считывать только после включения экрана</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Выберите размер графического ключа</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -129,6 +133,7 @@
     <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
     <string name="face_unlock_method_default">При включении экрана</string>
     <string name="face_unlock_method_swipe">После свайпа на экране блокировки</string>
+    <string name="skip_biometric_auth_confirmation_title">Пропустить подтверждение вручную</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Двойное нажатие</string>
     <string name="doze_double_tap_title">Двойное нажатие для проверки телефона</string>
@@ -420,8 +425,17 @@
     <string name="wallpaper_zoom_effect_title">Эффект масштаба обоев</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Изменение масштаба обоев для эффекта глубины. Качество обоев может снизиться</string>
-    <!-- Device auto reboot -->
-    <string name="device_reboot_timeout_title">Автоперезагрузка</string>
-    <string name="device_reboot_timeout_summary">Устройство автоматически перезагрузится, если оно не было разблокировано в течение последнего <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="device_reboot_timeout_summary2">Устройство не перезагружается автоматически</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Отладка с root-доступом</string>
+    <string name="adb_enable_summary_root">Разрешить запуск отладки Android с root правами</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Умная зарядка</string>
+    <string name="smart_charging_summary">Установить максимальный уровень зарядки</string>
+    <string name="smart_charging_switch_title">Использовать умную зарядку</string>
+    <string name="smart_charging_level_title">Уровень остановки зарядки</string>
+    <string name="smart_charging_resume_level_title">Уровень возобновления зарядки</string>
+    <string name="smart_charging_reset_stats_title">Сбрасывать статистику батареи</string>
+    <string name="smart_charging_reset_stats_summary">Сброс статистики батареи после достижения определенного уровня заряда</string>
+    <string name="smart_charging_footer">Умная зарядка позволяет установить максимальный уровень зарядки для продления срока службы батареи</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
 </resources>
