@@ -129,6 +129,7 @@
     <string name="face_unlock_method_title">允许在锁定屏幕使用人脸识别解锁</string>
     <string name="face_unlock_method_default">当屏幕开启时</string>
     <string name="face_unlock_method_swipe">在锁屏界面上滑动时</string>
+    <string name="skip_biometric_auth_confirmation_title">跳过手动确认</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">双击检查通知</string>
@@ -423,4 +424,14 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Root 用户调试</string>
     <string name="adb_enable_summary_root">允许以 root 身份运行 Android 调试</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">智能充电</string>
+    <string name="smart_charging_summary">设置充电电量上限</string>
+    <string name="smart_charging_switch_title">使用智能充电</string>
+    <string name="smart_charging_level_title">停止充电电量</string>
+    <string name="smart_charging_resume_level_title">开始充电电量</string>
+    <string name="smart_charging_reset_stats_title">重置电量统计信息</string>
+    <string name="smart_charging_reset_stats_summary">充到用户指定的电量后重置电量统计信息</string>
+    <string name="smart_charging_footer">智能充电允许您设置最大充电电量，以延长电池的使用寿命</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
 </resources>

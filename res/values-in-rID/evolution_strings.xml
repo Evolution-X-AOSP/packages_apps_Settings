@@ -100,6 +100,10 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Buka cepat</string>
     <string name="unlock_quick_unlock_control_summary">Membuka secara otomatis ketika PIN/kata sandi yang dimasukkan benar</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Sentuk sidik jari untuk membuka kunci</string>
+    <string name="fingerprint_wake_unlock_touch">Mendeteksi saat layar mati</string>
+    <string name="fingerprint_wake_unlock_press">Hanya mendeteksi setelah layar menyala</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Pilih ukuran pola</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -129,6 +133,7 @@
     <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <string name="skip_biometric_auth_confirmation_title">Lewati konfirmasi secara manual</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Ketuk dua kali</string>
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
@@ -423,4 +428,14 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Debugging Root</string>
     <string name="adb_enable_summary_root">Izinkan menjalankan Android debugging sebagai root</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Pengisian Pintar</string>
+    <string name="smart_charging_summary">Tentukan level pengisian maksimum</string>
+    <string name="smart_charging_switch_title">Gunakan Pengisian Pintar</string>
+    <string name="smart_charging_level_title">Hentikan level pemicu</string>
+    <string name="smart_charging_resume_level_title">Mulai level pemicu</string>
+    <string name="smart_charging_reset_stats_title">Setel ulang statistik baterai</string>
+    <string name="smart_charging_reset_stats_summary">Setel ulang statistik baterai setelah mencapai tingkat pengisian yang ditentukan pengguna</string>
+    <string name="smart_charging_footer">Pengisian Pintar memungkinkan Anda mengatur tingkat pengisian maksimum untuk memperpanjang umur baterai Anda</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
 </resources>
