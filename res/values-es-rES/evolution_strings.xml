@@ -129,6 +129,7 @@
     <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
     <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
     <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <string name="skip_biometric_auth_confirmation_title">Omitir confirmación manual</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doble toque</string>
     <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
@@ -423,4 +424,14 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuración como Superusuario</string>
     <string name="adb_enable_summary_root">Permite ejecutar la depuración de Android como superusuario</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carga inteligente</string>
+    <string name="smart_charging_summary">Establecer nivel máximo de carga</string>
+    <string name="smart_charging_switch_title">Usar carga inteligente</string>
+    <string name="smart_charging_level_title">Nivel de detención</string>
+    <string name="smart_charging_resume_level_title">Nivel de inicio</string>
+    <string name="smart_charging_reset_stats_title">Reiniciar las estadísticas de la batería</string>
+    <string name="smart_charging_reset_stats_summary">Resetear estadísticas de batería al alcanzar el nivel de carga definido por el usuario</string>
+    <string name="smart_charging_footer">La Carga Inteligente permite establecer el nivel máximo de carga para ampliar la duración de la batería</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
 </resources>
