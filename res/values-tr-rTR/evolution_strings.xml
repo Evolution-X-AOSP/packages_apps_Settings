@@ -128,6 +128,7 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <string name="skip_biometric_auth_confirmation_title">Manuel onaylamayı atla</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Çift dokunma</string>
     <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
@@ -235,6 +236,8 @@
     <string name="wifi_timeout_summary1">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
     <string name="wifi_timeout_summary2">Devre dışı</string>
     <string name="custom_timeout_summary_never">Asla</string>
+    <string name="custom_timeout_summary_5secs">5 saniye</string>
+    <string name="custom_timeout_summary_10secs">10 saniyede</string>
     <string name="custom_timeout_summary_15secs">15 saniye</string>
     <string name="custom_timeout_summary_30secs">30 saniye</string>
     <string name="custom_timeout_summary_1min">1 dakika</string>
@@ -417,4 +420,17 @@
     <string name="wallpaper_zoom_effect_title">Duvar kağıdı yakınlaştırma efekti</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Uzaklaştırma derinlik efektini göstermek için duvar kağıdını yakınlaştır. Duvar kağıdı kalitesi düşebilir</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rootlu hata ayıklama</string>
+    <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Akıllı şarj</string>
+    <string name="smart_charging_summary">Maksimum şarj seviyesi ayarlayın</string>
+    <string name="smart_charging_switch_title">Akıllı şarj kullan</string>
+    <string name="smart_charging_level_title">Durdurma tetikleyici seviyesi</string>
+    <string name="smart_charging_resume_level_title">Başlatma tetikleyici seviyesi</string>
+    <string name="smart_charging_reset_stats_title">Pil istatistiklerini sıfırla</string>
+    <string name="smart_charging_reset_stats_summary">Kullanıcı tanımlı şarj seviyesine ulaştıktan sonra pil istatistiklerini sıfırlayın</string>
+    <string name="smart_charging_footer">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanıza olanak verir</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
 </resources>
