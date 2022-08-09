@@ -100,6 +100,10 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Buka cepat</string>
     <string name="unlock_quick_unlock_control_summary">Membuka secara otomatis ketika PIN/kata sandi yang dimasukkan benar</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Sentuk sidik jari untuk membuka kunci</string>
+    <string name="fingerprint_wake_unlock_touch">Mendeteksi saat layar mati</string>
+    <string name="fingerprint_wake_unlock_press">Hanya mendeteksi setelah layar menyala</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Pilih ukuran pola</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
