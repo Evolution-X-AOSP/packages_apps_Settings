@@ -99,6 +99,10 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Mở khoá nhanh</string>
     <string name="unlock_quick_unlock_control_summary">Tự động mở khóa khi nhập đúng mật khẩu/PIN</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Chạm vân tay để mở khoá</string>
+    <string name="fingerprint_wake_unlock_touch">Quét vân tay ngay cả khi màn hình tắt</string>
+    <string name="fingerprint_wake_unlock_press">Chỉ quét vân tay khi màn hình bật</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Chọn một kích cỡ mẫu hình</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -128,6 +132,7 @@
     <string name="face_unlock_method_title">Cho phép từ màn hình khóa</string>
     <string name="face_unlock_method_default">Khi màn hình bật</string>
     <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
+    <string name="skip_biometric_auth_confirmation_title">Bỏ qua xác nhận thủ công</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Chạm 2 lần</string>
     <string name="doze_double_tap_title">Chạm hai lần để kiểm tra điện thoại</string>
@@ -235,6 +240,8 @@
     <string name="wifi_timeout_summary1">Wi-Fi sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có kết nối mạng</string>
     <string name="wifi_timeout_summary2">Tắt</string>
     <string name="custom_timeout_summary_never">Không bao giờ</string>
+    <string name="custom_timeout_summary_5secs">5 giây</string>
+    <string name="custom_timeout_summary_10secs">10 giây</string>
     <string name="custom_timeout_summary_15secs">15 giây</string>
     <string name="custom_timeout_summary_30secs">30 giây</string>
     <string name="custom_timeout_summary_1min">1 phút</string>
@@ -417,4 +424,17 @@
     <string name="wallpaper_zoom_effect_title">Hiệu ứng thu phóng ảnh nền</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Phóng ảnh nền để hiện hoạt ảnh độ sâu. Hình nền có thể bị giảm chất lượng</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Gỡ lỗi với quyền root</string>
+    <string name="adb_enable_summary_root">Cho phép chạy gỡ lỗi Android với quyền root</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Sạc Thông minh</string>
+    <string name="smart_charging_summary">Đặt mức sạc tối đa</string>
+    <string name="smart_charging_switch_title">Sử dụng Sạc Thông minh</string>
+    <string name="smart_charging_level_title">Mức dừng kích hoạt</string>
+    <string name="smart_charging_resume_level_title">Mức kích hoạt</string>
+    <string name="smart_charging_reset_stats_title">Đặt lại thống kê pin</string>
+    <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt mức sạc do người dùng xác định</string>
+    <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
 </resources>
