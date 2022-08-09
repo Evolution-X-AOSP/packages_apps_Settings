@@ -100,6 +100,10 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente al introducir PIN/contraseña correcto</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Tocar huella para desbloquear</string>
+    <string name="fingerprint_wake_unlock_touch">A la escucha de eventos con pantalla apagada</string>
+    <string name="fingerprint_wake_unlock_press">A la escucha de eventos solo con pantalla encendida</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Elige un tamaño de patrón</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
