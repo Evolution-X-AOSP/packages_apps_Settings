@@ -100,6 +100,10 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
     <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">指紋タッチでロック解除</string>
+    <string name="fingerprint_wake_unlock_touch">画面消灯中に外部操作を受け付ける</string>
+    <string name="fingerprint_wake_unlock_press">画面点灯時にのみ1回だけ外部操作を受け付ける</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択して下さい</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
