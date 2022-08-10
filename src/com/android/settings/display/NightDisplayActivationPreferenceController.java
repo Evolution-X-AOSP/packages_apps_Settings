@@ -93,6 +93,7 @@ public class NightDisplayActivationPreferenceController extends
     @Override
     public final void updateState(Preference preference) {
         updateStateInternal();
+        super.updateState(preference);
     }
 
     /** FOR SLICES */
