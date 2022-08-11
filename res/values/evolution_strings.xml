@@ -66,7 +66,7 @@
 
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Smart Pause</string>
-    <string name="adaptive_playback_enabled">Use smart pause</string>
+    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
     <string name="adaptive_playback_disabled_summary">Off</string>
     <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
@@ -523,7 +523,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Smart charging</string>
     <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use smart charging</string>
+    <string name="smart_charging_master_switch_title">Use Smart Charging</string>
     <string name="smart_charging_level_title">Stop trigger level</string>
     <string name="smart_charging_resume_level_title">Start trigger level</string>
     <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
