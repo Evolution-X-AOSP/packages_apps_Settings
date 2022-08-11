@@ -21,7 +21,7 @@
     android:key="smart_charging_screen"
     android:title="@string/smart_charging_title">
 
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.evolution.settings.preference.SystemSettingMainSwitchPreference
         android:key="smart_charging"
         android:title="@string/smart_charging_switch_title"
         android:defaultValue="false" />
