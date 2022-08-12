@@ -99,6 +99,10 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">فتح سريع</string>
     <string name="unlock_quick_unlock_control_summary">الفتح تلقائياً عندما يتم إدخال PIN/كلمة السر صحيحة</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">المس بصمة الإصبع لفتح القفل</string>
+    <string name="fingerprint_wake_unlock_touch">الاستماع للأحداث أثناء إيقاف تشغيل الشاشة</string>
+    <string name="fingerprint_wake_unlock_press">فقط يستمع للأحداث بمجرد تشغيل الشاشة</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">اختر حجم النمط</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -128,6 +132,7 @@
     <string name="face_unlock_method_title">السماح بفتح قُفْل الوجه على شاشة القُفْل</string>
     <string name="face_unlock_method_default">عند تشغيل الشاشة</string>
     <string name="face_unlock_method_swipe">عند السحب على شاشة القُفْل</string>
+    <string name="skip_biometric_auth_confirmation_title">تخطي التأكيد يدوياً</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">النقر المزدوج</string>
     <string name="doze_double_tap_title">النقر مرّتين للاطّلاع على الهاتف</string>
@@ -235,6 +240,8 @@
     <string name="wifi_timeout_summary1">سيتم إيقاف تشغيل WiFi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يتم توصيل أي شبكة</string>
     <string name="wifi_timeout_summary2">معطل</string>
     <string name="custom_timeout_summary_never">ابداً</string>
+    <string name="custom_timeout_summary_5secs">5 ثوانٍ</string>
+    <string name="custom_timeout_summary_10secs">10 ثوانٍ</string>
     <string name="custom_timeout_summary_15secs">15 ثانية</string>
     <string name="custom_timeout_summary_30secs">30 ثانية</string>
     <string name="custom_timeout_summary_1min">دقيقة</string>
@@ -417,4 +424,17 @@
     <string name="wallpaper_zoom_effect_title">تأثير تكبير الخلفية</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">تكبير خلفية الشاشة من أجل إظهار حركة عمق التصعيد. قد تعاني الخلفيات من انخفاض الجودة</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">تصحيح بالروت</string>
+    <string name="adb_enable_summary_root">السماح بتشغيل مصحح أخطاء أندرويد بصلاحية رووت</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">الشحن الذًكي</string>
+    <string name="smart_charging_summary">ضبط الحد الأقصى لمستوى الشحن</string>
+    <string name="smart_charging_switch_title">استخدم الشحن الذكي</string>
+    <string name="smart_charging_level_title">إيقاف مستوى المشغل</string>
+    <string name="smart_charging_resume_level_title">بدء مستوى المشغل</string>
+    <string name="smart_charging_reset_stats_title">إعادة تعيين إحصائيات البطارية</string>
+    <string name="smart_charging_reset_stats_summary">إعادة تعيين إحصائيات البطارية بعد الوصول إلى مستوى الشحن المحدد من قبل المستخدم</string>
+    <string name="smart_charging_footer">الشحن الذكي يسمح لك بتعيين الحد الأقصى لمستوى الشحن لتمديد عمر البطارية</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
 </resources>
