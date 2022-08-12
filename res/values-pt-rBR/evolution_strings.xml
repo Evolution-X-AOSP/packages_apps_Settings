@@ -48,7 +48,7 @@
     <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para tirar uma captura de tela</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
-    <string name="adaptive_playback_enabled">Usar reprodução adaptável</string>
+    <string name="adaptive_playback_master_switch_title">Usar reprodução adaptável</string>
     <string name="adaptive_playback_disabled_summary">Desativado</string>
     <string name="adaptive_playback_intro_text">A reprodução adaptável pausa automaticamente a mídia quando o volume é silenciado e retorna automaticamente quando o volume for restaurado no tempo definido.</string>
     <string name="adaptive_playback_timeout_title">Usar um tempo limite de</string>
@@ -431,7 +431,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Carregamento inteligente</string>
     <string name="smart_charging_summary">Definir o nível máximo de carregamento</string>
-    <string name="smart_charging_switch_title">Usar carregamento inteligente</string>
+    <string name="smart_charging_master_switch_title">Usar carregamento inteligente</string>
     <string name="smart_charging_level_title">Nível para interromper o carregamento</string>
     <string name="smart_charging_resume_level_title">Nível para resumir o carregamento</string>
     <string name="smart_charging_reset_stats_title">Redefinir estatísticas da bateria</string>
