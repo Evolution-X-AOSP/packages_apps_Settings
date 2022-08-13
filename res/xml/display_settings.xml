@@ -90,6 +90,11 @@
             android:title="@string/accessibility_text_reading_options_title"
             android:summary="@string/accessibility_text_reading_options_summary"
             settings:controller="com.android.settings.accessibility.TextReadingFragmentForDisplaySettingsController"/>
+
+        <com.android.settings.display.DensityPreference
+            android:key="density"
+            android:title="@string/developer_smallest_width" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
