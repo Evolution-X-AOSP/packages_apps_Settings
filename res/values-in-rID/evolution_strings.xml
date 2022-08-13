@@ -48,7 +48,7 @@
     <string name="swipe_to_screenshot_gesture_summary">Gesek tiga jari untuk mengambil tangkapan layar</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pemutaran Adaptif</string>
-    <string name="adaptive_playback_enabled">Gunakan Pemutaran Adaptif</string>
+    <string name="adaptive_playback_master_switch_title">Gunakan Pemutar Adaptif</string>
     <string name="adaptive_playback_disabled_summary">Mati</string>
     <string name="adaptive_playback_intro_text">Pemutaran Adaptif secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dihidupkan dalam waktu yang ditentukan.</string>
     <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
@@ -431,7 +431,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Pengisian Pintar</string>
     <string name="smart_charging_summary">Tentukan level pengisian maksimum</string>
-    <string name="smart_charging_switch_title">Gunakan Pengisian Pintar</string>
+    <string name="smart_charging_master_switch_title">Gunakan Pengisian Pintar</string>
     <string name="smart_charging_level_title">Hentikan level pemicu</string>
     <string name="smart_charging_resume_level_title">Mulai level pemicu</string>
     <string name="smart_charging_reset_stats_title">Setel ulang statistik baterai</string>
