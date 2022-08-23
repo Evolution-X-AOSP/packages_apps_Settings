@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2023 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">The Evolver</string>
+    <string name="evolver_dashboard_summary">Benvenuto alla vigilia dell\'Evoluzione</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Non convalidare</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Nessun certificato specificato. La connessione non sarà privata.</string>
+    <!-- Hardware info -->
+    <string name="soc_model">Modello SoC</string>
+    <string name="total_ram">RAM totale</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Versione di Evolution X</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">Data di compilazione</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Manutentore della build</string>
+    <!-- Build status -->
+    <string name="build_status">Stato di compilazione</string>
+    <string name="radio_info_title">Info radio</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Frequenza di aggiornamento minima</string>
+    <string name="max_refresh_rate_title">Frequenza di aggiornamento massima</string>
+    <string name="low_power_refresh_rate_title_custom">Frequenza di aggiornamento a bassa potenza</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Individua il sensore d\'impronte digitali sul retro del tuo telefono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Individua il sensore d\'impronte digitali sul lato del tuo telefono.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Tocca il sensore sulla parte anteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Tocca il sensore sul retro del tuo telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Tocca il sensore sul lato del tuo telefono.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Attenzione: questa opzione potrebbe non funzionare correttamente o portare alla perdita di dati e quindi non è raccomandata!</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Ricarica rapida</string>
+    <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per estendere la durata della batteria</string>
+    <string name="restricted_current_summary">Imposta la corrente massima consentita (mA)</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Dettagli pacchetto</string>
+    <string name="package_name">Nome pacchetto</string>
+    <string name="package_version">Versione pacchetto</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Rete nascosta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Il nome del tuo hotspot non apparirà nella lista delle reti Wi-Fi disponibili.</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivi connessi</string>
+    <string name="wifi_hotspot_client_manager_summary">Elenca e gestisci i dispositivi connessi all\'hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Elenca i dispositivi connessi all\'hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limite di dispositivi connessi</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivi bloccati</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivi connessi</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blocca dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Questa azione disconnetterà \"<xliff:g id="device_name">%1$s</xliff:g>\" da questo dispositivo e la aggiungerà alla lista di blocco</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Sblocca dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Il dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" potrà connettersi a questo hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nessun client è al momento disponibile. I dispositivi connessi e bloccati saranno elencati qui quando disponibili.</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Copiato negli appunti</string>
+    <string name="longpress_to_clipboard">Pressione prolungata per copiare</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">App a schermo intero</string>
+    <string name="display_cutout_force_fullscreen_summary">Forza le app a ignorare lo spazio del notch</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Nascondi lo stato sviluppatore</string>
+    <string name="hide_developer_status_summary">Nascondi lo stato di sviluppatore dalle app</string>
+    <string name="search">Cerca</string>
+    <string name="search_apps">Cerca nelle app</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Meno di 1 Minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s oggi</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Ottimizzazione batteria per app</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Ottimizza lo schermo in base all\'ora del giorno e alle condizioni ambientali per migliorare la leggibilità e ridurre l\'affaticamento degli occhi</string>
+    <string name="live_display_mode">Modalità display</string>
+    <string name="live_display_color_temperature_title">Temperatura colore</string>
+    <string name="live_display_color_temperature_summary">Giorno: <xliff:g id="day_temperature">%1$d</xliff:g>K  Notte: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Giorno</string>
+    <string name="live_display_night">Notte</string>
+    <string name="live_display_outdoor_mode_title">Modalità all\'aperto automatica</string>
+    <string name="live_display_outdoor_mode_summary">Aumenta automaticamente la luminosità e la saturazione sotto la luce del sole</string>
+    <string name="live_display_anti_flicker_title">Anti-sfarfallio</string>
+    <string name="live_display_anti_flicker_summary">Previene lo sfarfallio estensivo e riduce la tensione oculare in condizioni di scarsa luce. Potrebbe degradare l\'accuratezza del colore e influenzare il modo in cui sono mostrati alcuni oggetti.</string>
+    <string name="live_display_low_power_title">Riduci il consumo energetico</string>
+    <string name="live_display_low_power_summary">Regola il display per un consumo energetico più basso senza degradazione</string>
+    <string name="live_display_enhance_color_title">Migliora i colori</string>
+    <string name="live_display_enhance_color_summary">Migliora la vividezza del colore dei toni della pelle, paesaggi e altre immagini</string>
+    <string name="live_display_color_profile_title">Profilo colore</string>
+    <string name="live_display_color_profile_standard_title">Predefinito</string>
+    <string name="live_display_color_profile_standard_summary">Colori accurati e bianchi luminosi</string>
+    <string name="live_display_color_profile_natural_title">Naturale</string>
+    <string name="live_display_color_profile_natural_summary">Colori e toni della pelle realistici</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamico</string>
+    <string name="live_display_color_profile_dynamic_summary">Colori intensi e bianchi luminosi</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Riproduzione colore perfetta per video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomia</string>
+    <string name="live_display_color_profile_astronomy_summary">Rosso profondo per la visione notturna</string>
+    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_summary">Riproduzione colore perfetta per foto</string>
+    <string name="live_display_color_profile_basic_title">Base</string>
+    <string name="live_display_color_profile_basic_summary">Usa lo schermo senza calibrazione</string>
+    <string name="live_display_color_profile_adaptive_title">Adattivo</string>
+    <string name="live_display_color_profile_adaptive_summary">I colori si adattano alle condizioni ambientali</string>
+    <string name="live_display_color_profile_reading_title">Lettura</string>
+    <string name="live_display_color_profile_reading_summary">Colori più caldi per ridurre l’affaticamento degli occhi</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Colori fedeli allo spazio colore sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colori fedeli allo spazio colore DCI-P3</string>
+    <string name="live_display_reading_mode_title">Modalità lettura</string>
+    <string name="live_display_reading_mode_summary">Modalità scala di grigi per letture prolungate</string>
+    <string name="color_calibration_title">Calibrazione colore</string>
+    <string name="color_calibration_summary">Calibra colori a schermo</string>
+    <string name="color_red_title">Rosso</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Blu</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Regolazione immagine</string>
+    <string name="picture_adjustment_summary">Regola tinta, saturazione, intensità e contrasto</string>
+    <string name="adj_hue_title">Tinta</string>
+    <string name="adj_saturation_title">Saturazione</string>
+    <string name="adj_intensity_title">Intensità</string>
+    <string name="adj_contrast_title">Contrasto</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Tocco ad alta sensibilità</string>
+    <string name="high_touch_sensitivity_summary">Aumenta la sensibilità del touchscreen per l\'utilizzo con i guanti</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Touchscreen a puntamento</string>
+    <string name="touchscreen_hovering_summary">Consente di utilizzare il tocco come un mouse nei browser e nei desktop remoti</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Elevato tasso di polling del touch</string>
+    <string name="high_touch_polling_rate_summary">Aumenta il tasso di polling del touchscreen</string>
+    <!-- Battery Temperature -->
+    <string name="battery_temp">Temperatura</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Salute della batteria</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Disposizione casuale</string>
+    <string name="unlock_scramble_pin_layout_summary">Disposizione del PIN casuale sbloccando il dispositivo</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Scegli la dimensione della sequenza</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Mostra sequenza errata</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Mostra i punti della sequenza</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Risveglia al collegamento</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo collegando o scollegando un alimentatore</string>
+    <!-- Private DNS -->
+    <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
+    <!-- AdGuard DNS Option -->
+    <!-- AdGuard DNS hostname -->
+    <!-- Open DNS Option -->
+    <!-- Open DNS hostname -->
+    <!-- Cleanbrowsing DNS Option -->
+    <!-- Cleanbrowsing DNS hostname -->
+    <!-- Quad9 DNS Option -->
+    <!-- Quad9 DNS hostname -->
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suono screenshot</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Scorri per scattare uno screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Scorri con tre dita per scattare uno screenshot</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Sonno profondo</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
+    <string name="increasing_ring_min_volume_title">Volume iniziale</string>
+    <string name="increasing_ring_ramp_up_time_title">Aumenta ogni</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Forza LTE CA</string>
+    <string name="force_lte_ca_summary">Forza l\'aggregazione degli operatori LTE a funzionare</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Schema vibrazione suoneria</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizzata</string>
+    <string name="custom_vibration_pattern_title">Schema personalizzato</string>
+    <string name="custom_vibration_pattern_summary">Imposta uno schema di vibrazione personalizzato</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Vibrazione personalizzata</string>
+    <string name="notification_custom_vibrate_summary">Sostituisce solo lo schema predefinito\nLo schema impostato dall\'app ha la precedenza</string>
+    <string name="notification_custom_vibrate_slider1">Vibra per</string>
+    <string name="notification_custom_vibrate_slider2">Pausa per</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Pausa Intelligente</string>
+    <string name="adaptive_playback_enabled">Usa pausa intelligente</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_intro_text">Interrompe automaticamente i media quando il volume è silenziato e riprenderà automaticamente quando il volume è ripristinato entro l\'ora impostata.</string>
+    <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
+    <string name="adaptive_playback_timeout_none">Nessun timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">Attivo (nessun timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 secondi</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Attivo (30 secondi)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Attivo (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuti</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Attivo (2 minuti)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minuti</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Attivo (5 minuti)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minuti</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volume app</string>
+    <string name="app_volume_title">Controllo volume per app</string>
+    <string name="app_volume_summary">Consenti di impostare diversi livelli di volume per ogni app.\nNOTA: Questo attiverà multi focus audio</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Torcia rapida</string>
+    <string name="power_button_torch_summary">Quando lo schermo è spento, la pressione prolungata del pulsante di accensione attiverà la torcia</string>
+    <string name="torch_long_press_power_timeout_title">Spegni la torcia automaticamente</string>
+    <string name="torch_long_press_power_timeout_never">Mai</string>
+    <string name="torch_long_press_power_timeout_1min">1 minuto</string>
+    <string name="torch_long_press_power_timeout_2min">2 minuti</string>
+    <string name="torch_long_press_power_timeout_5min">5 minuti</string>
+    <string name="torch_long_press_power_timeout_10min">10 minuti</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Consenti ai clienti di usare le VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_hint_title">Indicatore di navigazione</string>
+    <string name="show_navbar_hint_summary">Mostra l\'indicatore di navigazione in fondo allo schermo</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Lunghezza della barra</string>
+    <string name="short_label">Breve</string>
+    <string name="long_label">Lunga</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Intera</string>
+    <string name="back_height_high_label">Più bassa</string>
+    <string name="back_height_title">Altezza gesto indietro</string>
+    <string name="back_height_summary">Altezza schermo utilizzata per il gesto indietro</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Animazione gesto indietro</string>
+    <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto indietro</string>
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Feedback tattile</string>
+    <string name="back_gesture_haptic_summary">Attiva la vibrazione tattile sul gesto indietro</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Spessore della barra</string>
+    <string name="thin_label">Sottile</string>
+    <string name="thick_label">Spessa</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Spazio IME</string>
+    <string name="ime_narrow">Sottile</string>
+    <string name="ime_default">Predefinito</string>
+    <string name="ime_hidden">Nascosta</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppio tocco</string>
+    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
+    <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Disattiva il Wi-Fi automaticamente</string>
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi si spegnerà dopo <xliff:g id="timeout_description">%1$s</xliff:g> se nessuna rete è connessa</string>
+    <string name="wifi_timeout_summary2">Disabilitato</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Timeout del Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth verrà disattivato dopo <xliff:g id="timeout_description">%1$s</xliff:g> se nessun dispositivo collegato</string>
+    <string name="bluetooth_timeout_summary2">Non disattivare automaticamente il Bluetooth</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando il/la PIN/password corretto/a è inserito/a</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Controllo della ricarica</string>
+    <string name="charging_control_summary">Personalizza la pianificazione di ricarica e i limiti per il tuo dispositivo</string>
+    <string name="charging_control_enable_title">Abilita controllo di carica</string>
+    <string name="charging_control_mode_title">Modalità di carica</string>
+    <string name="charging_control_mode_auto_title">Pianificazione automatica</string>
+    <string name="charging_control_mode_auto_summary">Determina automaticamente quando avviare la ricarica in base agli avvisi impostati</string>
+    <string name="charging_control_mode_custom_title">Pianificazione personalizzata</string>
+    <string name="charging_control_mode_custom_summary">Imposta un tempo di completamento della carica</string>
+    <string name="charging_control_mode_limit_title">Limite di ricarica</string>
+    <string name="charging_control_mode_limit_summary">Limita la ricarica ad una determinata percentuale</string>
+    <string name="charging_control_start_time_title">Ora di inizio</string>
+    <string name="charging_control_start_time_summary">Il controllo di carica si attiva quando si inizia la ricarica dopo %s</string>
+    <string name="charging_control_target_time_title">Tempo previsto per la ricarica completa</string>
+    <string name="charging_control_target_time_summary">La batteria sarà completamente carica entro %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Luminosità automatica in un solo colpo</string>
+    <string name="auto_brightness_one_shot_summary">La regolazione della luminosità avverrà solo nel momento in cui lo schermo viene acceso</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostra registro cronologia notifiche</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">Aumenta automaticamente la frequenza di aggiornamento da 60 a %1$d Hz per alcuni contenuti. Aumenta l\'utilizzo della batteria.</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">VPN Globale</string>
+    <string name="global_vpn_summary">Forza tutto il traffico sul dispositivo attraverso questa VPN, compreso il profilo di lavoro e altri utenti.</string>
+    <string name="global_vpn_summary_on">Forza tutto il traffico sul dispositivo attraverso questa VPN, compreso il profilo di lavoro e altri utenti. Nota: se abilitato, non sarai in grado di utilizzare una VPN separata in un profilo di lavoro o in altri utenti</string>
+    <string name="global_vpn_summary_any_vpn_active">Devi prima disabilitare tutte le connessioni VPN attive per abilitare questo</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Schermo sempre attivo durante la ricarica</string>
+    <string name="doze_on_charge_summary">Mostra sempre la schermata di sospensione durante la ricarica</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modalità Sonno</string>
+    <string name="sleep_mode_summary_on">Attivato / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Disattivato / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modalità suoneria</string>
+    <string name="sleep_mode_ringer_off_title">Non cambiare</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrazione</string>
+    <string name="sleep_mode_ringer_dnd_title">Non Disturbare</string>
+    <string name="sleep_mode_ringer_silent_title">Silenzioso</string>
+    <string name="sleep_mode_schedule_sunset">Tramonto</string>
+    <string name="sleep_mode_schedule_sunrise">Alba</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Si attiva dal tramonto fino ad un orario personalizzato</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Si attiva da un orario personalizzato fino all\'alba</string>
+    <string name="sleep_mode_toggles_title">Opzioni</string>
+    <string name="sleep_mode_wifi_toggle_title">Disattiva Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disabilita Wi-Fi quando la modalità sonno è attivata</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Disattiva Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disabilita Bluetooth quando la modalità sonno è attivata</string>
+    <string name="sleep_mode_cellular_toggle_title">Disattiva dati mobili</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disabilita i dati mobili quando viene attivata la modalità sonno</string>
+    <string name="sleep_mode_location_toggle_title">Disattivare la posizione</string>
+    <string name="sleep_mode_location_toggle_summary">Disabilita la posizione quando la modalità sonno è attivata</string>
+    <string name="sleep_mode_sensors_toggle_title">Disattiva sensori</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disabilita i sensori quando la modalità sonno è attivata</string>
+    <string name="sleep_mode_display_text">La modalità sonno ti consente di disattivare determinati servizi per risparmiare batteria e silenziare il telefono mentre dormi.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Attiva ora</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Disattiva ora</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Attiva fino all\'alba</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Spegni fino al tramonto</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Attiva fino alle ore <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Disattiva fino alle ore <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Scorri tra le modalità</string>
+    <string name="prevent_ringing_option_cycle_summary">Attivo (Scorri tra le modalità)</string>
+    <string name="prevent_ringing_option_normal">Normale</string>
+    <!-- Battery charge warning -->
+    <string name="notification_battery_charge_level_main_switch_title">Usa avviso carica batteria</string>
+    <string name="notification_battery_charge_level_title">Avviso carica batteria</string>
+    <string name="notification_battery_charge_level_summary">Riproduci un suono quando la batteria raggiunge il livello specificato durante la ricarica</string>
+    <string name="notification_battery_charge_level_seek_bar">Percentuale Batteria</string>
+    <string name="notification_battery_charge_level_ringtone">Suoneria</string>
+    <string name="notification_battery_charge_level_silent">Silenzioso</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevenire risvegli accidentali</string>
+    <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di accendere lo schermo</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Modalità anti-sfarfallio</string>
+    <string name="dc_dimming_info">Riduce l\'affaticamento degli occhi in condizioni di scarsa illuminazione minimizzando lo sfarfallio dello schermo. Può comportare una riduzione della qualità dell\'immagine e una scarsa riproduzione dei colori, o un maggiore consumo energetico.</string>
+    <string name="dc_dimming_main_switch_title">Usa la modalità anti-sfarfallio</string>
+    <string name="keywords_display_dc_dimming">attenuazione, sfarfallio, occhio, affaticamento</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Risoluzione dello schermo personalizzata</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">Suoni NFC</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Usa il pulsante di rotazione fluttuante</string>
+    <!-- Battery light -->
+    <string name="battery_light_title">Accendi il LED durante la ricarica</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Impostazioni rotazione</string>
+    <string name="display_rotation_enabled">La rotazione automatica è attivata</string>
+    <string name="display_rotation_disabled">La rotazione automatica è disattivata</string>
+    <string name="display_lockscreen_rotation_title">Schermata di blocco</string>
+    <string name="display_rotation_unit">gradi</string>
+    <string name="display_rotation_category_title">Modalità rotazione</string>
+    <string name="display_rotation_0_title">0 gradi</string>
+    <string name="display_rotation_90_title">90 gradi</string>
+    <string name="display_rotation_180_title">180 gradi</string>
+    <string name="display_rotation_270_title">270 gradi</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Tempo minimo tra suoni di notifica</string>
+    <string name="app_notification_sound_timeout_summary_template">Consenti suoni o vibrazioni non più di una volta ogni <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Nessuna restrizione</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secondi</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 secondi</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minuti</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minuti</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minuti</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controllo riproduzione</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, premere a lungo i tasti volume per cambiare le tracce musicali</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Processi in background</string>
+    <!-- Skip biometric manual confirmation -->
+    <string name="skip_biometric_auth_confirmation_title">Salta la conferma manuale</string>
+    <!-- extra dim schedule -->
+    <string name="extra_dim_schedule_title">Pianificazione</string>
+    <string name="disabled">Disabilitato</string>
+    <string name="always_on_display_schedule_title">Programmazione Always on display</string>
+    <string name="always_on_display_schedule_sunset">Tramonto</string>
+    <string name="always_on_display_schedule_sunrise">Alba</string>
+    <string name="always_on_display_schedule_mixed_sunset">Accendi dall\'alba a un orario</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Accendi da un orario all\'alba</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostra l\'Ambient Display</string>
+    <string name="doze_gesture_ambient_summary">Mostra l\'Ambient Display invece di accendere completamente lo schermo</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Debug con accesso root</string>
+    <string name="adb_enable_summary_root">Consenti l\'esecuzione del debug di Android come root</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Consenti sblocco facciale nella schermata di blocco</string>
+    <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
+    <string name="face_unlock_method_swipe">Quando scorri sulla schermata di blocco</string>
+    <!-- Display settings screen, increased touch polling rate settings title -->
+    <string name="touch_polling_title">Elevato tasso di campionamento del tocco</string>
+    <!-- Display settings screen, increased touch polling rate settings summary -->
+    <string name="touch_polling_summary">Aumenta il tasso di campionamento del tocco per diminuire la latenza</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Livelli Volume</string>
+    <string name="volume_steps_summary">Controllo della granularità di ogni flusso</string>
+    <string name="max_music_volume_title">Multimedia</string>
+    <string name="max_call_volume_title">Chiamate</string>
+    <string name="max_alarm_volume_title">Allarmi</string>
+    <string name="steps_unit">passi</string>
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Aptici Vari</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opzioni vibrazione chiamate</string>
+    <string name="incall_vibrate_connect_title">Vibra alla risposta</string>
+    <string name="incall_vibrate_call_wait_title">Vibra alla messa in attesa</string>
+    <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
+    <!-- Scroll fling haptic feedback -->
+    <string name="scroll_fling_haptic_feedback_title">Vibra sugli scorrimenti lanciati</string>
+    <string name="scroll_fling_haptic_feedback_summary">Vibra quando si raggiungono i bordi durante lo scorrimento con il gesto di lancio</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nessuna azione</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recenti</string>
+    <string name="action_voice_search">Ricerca vocale</string>
+    <string name="action_launch_camera">Fotocamera</string>
+    <string name="action_last_app">Ultima app</string>
+    <string name="action_splitscreen">Schermo diviso</string>
+    <string name="action_flashlight">Torcia</string>
+    <string name="action_clear_notifications">Cancella notifiche</string>
+    <string name="action_volume_panel">Pannelo del volume</string>
+    <string name="action_screen_off">Schermo spento</string>
+    <string name="action_notifications">Notifiche</string>
+    <string name="action_power_menu">Menù di alimentazione</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_qs_panel">Pannello impostazioni rapide</string>
+    <string name="action_app_action">Applicazione</string>
+    <string name="action_ringer_modes">Modalità suoneria</string>
+    <string name="kill_app">Termina app in primo piano</string>
+    <string name="recent_app_toggle">Cambia app recente</string>
+    <string name="show_powermenu">Mostra menu alimentazione</string>
+    <string name="partial_screenshot">Screenshot parziale</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Opzioni gesti avanzate</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizza i gesti e imposta azioni personalizzate</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzate</string>
+    <string name="swipe_app_select_summary">Seleziona un\'app da avviare con l\'azione di compressione</string>
+    <string name="long_back_swipe_timeout_title">Pausa dell\'azione di scorrimento lungo</string>
+    <string name="left_swipe_actions_title">Azione di scorrimento prolungato a sinistra</string>
+    <string name="left_swipe_app_action_title">Seleziona app di scorrimento prolungato a sinistra</string>
+    <string name="right_swipe_actions_title">Azione di scorrimento prolungato a destra</string>
+    <string name="right_swipe_app_action_title">Seleziona app di scorrimento prolungato a destra</string>
+    <string name="left_vertical_swipe_actions_title">Azione per lo scorrimento verticale a sinistra</string>
+    <string name="left_vertical_swipe_app_action_title">Seleziona l\'app per lo scorrimento verticale a sinistra</string>
+    <string name="right_vertical_swipe_actions_title">Azione di scorrimento verticale a destra</string>
+    <string name="right_vertical_swipe_app_action_title">Seleziona l\'app per lo scorrimento verticale a destra</string>
+    <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività app specifica per l\'azione, premere a lungo su qualsiasi app nel selettore delle applicazioni.\n\nSe il launcher è in mostra, fai lo scorrimento nell\'area molto inferiore dello schermo per attivare l\'azione.</string>
+    <string name="back_swipe_extended_title">Azione di scorrimento estesa</string>
+    <string name="back_swipe_extended_summary">Attivare l\'azione con uno scorrimento più ampio (più della metà delle dimensioni del display) o uno scorrimento a L (più a lungo in verticale)</string>
+</resources>
