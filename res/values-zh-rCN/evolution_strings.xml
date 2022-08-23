@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2022 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">Evolution 自定义</string>
+    <string name="evolver_dashboard_summary">欢迎来到进化之路</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">平台</string>
+    <string name="total_ram">总内存</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Evolution X 版本</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">编译日期</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">构建维护者</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux 状态</string>
+    <string name="selinux_status_disabled">已禁用</string>
+    <string name="selinux_status_permissive">许可</string>
+    <string name="selinux_status_enforcing">执行中</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">显示历史通知记录</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">少于 1 分钟</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今日%1$s</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">电池温度</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">滑动截屏</string>
+    <string name="swipe_to_screenshot_gesture_summary">向下滑动三指以截屏</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">防止意外唤醒</string>
+    <string name="proximity_wake_summary">在唤醒屏幕前检查距离传感器</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">最低刷新率</string>
+    <string name="max_refresh_rate_title">最高刷新率</string>
+    <string name="low_power_refresh_rate_title_custom">低电量模式刷新率</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">快速充电中</string>
+    <string name="fast_charging_summary">禁用以降低设备在充电时产生的热量或延长电池寿命</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">屏幕截图音效</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">您的平板是前置指纹解锁</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">您的设备是前置指纹解锁</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">在您的手机正面找到指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">在您的平板背面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">找到设备背面的指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">找到手机背面的指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">在您的平板侧面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">找到设备侧面的指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">找到手机侧面的指纹传感器</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">触摸手机正面的传感器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">触摸手机背面的传感器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">触摸手机侧面的传感器</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">智能暂停</string>
+    <string name="adaptive_playback_master_switch_title">使用智能暂停</string>
+    <string name="adaptive_playback_disabled_summary">关闭</string>
+    <string name="adaptive_playback_intro_text">音量静音时自动暂停媒体，并在设定时间内恢复音量时自动恢复</string>
+    <string name="adaptive_playback_timeout_title">使用超时</string>
+    <string name="adaptive_playback_timeout_none">不限时</string>
+    <string name="adaptive_playback_timeout_none_summary">开启 (永不关闭)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">开启 (30秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1 分钟</string>
+    <string name="adaptive_playback_timeout_1_min_summary">开启 (1分钟)</string>
+    <string name="adaptive_playback_timeout_2_min">2 分钟</string>
+    <string name="adaptive_playback_timeout_2_min_summary">开启 (2分钟)</string>
+    <string name="adaptive_playback_timeout_5_min">5 分钟</string>
+    <string name="adaptive_playback_timeout_5_min_summary">开启 (5分钟)</string>
+    <string name="adaptive_playback_timeout_10_min">10 分钟</string>
+    <string name="adaptive_playback_timeout_10_min_summary">开启 (10分钟)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键来切换不同曲目</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">双击</string>
+    <string name="doze_double_tap_title">双击亮屏</string>
+    <string name="doze_double_tap_summary">双击脉冲通知</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">触摸指纹解锁</string>
+    <string name="fingerprint_wake_unlock_touch">在屏幕关闭时监听事件</string>
+    <string name="fingerprint_wake_unlock_press">仅在屏幕开启后监听事件</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">乱序布局</string>
+    <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序 PIN 布局</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的 PIN 码或密码时自动解锁</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">其他控制</string>
+    <string name="fullscreen_gestures_title">全面屏手势</string>
+    <string name="fullscreen_gestures_summary">隐藏导航栏填充和键盘空间</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">导航栏长度</string>
+    <string name="short_label">短</string>
+    <string name="long_label">长</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">音乐息屏显示</string>
+    <string name="pulse_on_new_tracks_summary">播放新曲目时点亮环境显示</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">全屏</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">选项</string>
+    <string name="back_height_message">屏幕高度用作返回手势的可触摸区域</string>
+</resources>
