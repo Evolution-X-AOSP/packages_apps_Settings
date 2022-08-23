@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2022 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">The Evolver</string>
+    <string name="evolver_dashboard_summary">Benvenuto alla Vigilia di Evolution</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Piattaforma</string>
+    <string name="total_ram">RAM Totale</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Versione di Evolution X</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">Data di compilazione</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Manutentore della build</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Stato di SELinux</string>
+    <string name="selinux_status_disabled">Disabilitato</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Esecutivo</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostra registro cronologico delle notifiche</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Meno di 1 Minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s oggi</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura della batteria</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Scorri per scattare uno screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Scorri con tre dita per scattare uno screenshot</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Impedisci risvegli accidentali</string>
+    <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di accendere lo schermo</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Frequenza d\'aggiornamento minima</string>
+    <string name="max_refresh_rate_title">Frequenza d\'aggiornamento massima</string>
+    <string name="low_power_refresh_rate_title_custom">Frequenza d\'aggiornamento a bassa potenza</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Ricarica rapida</string>
+    <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per estendere la durata della batteria</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suono dello screenshot</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Individua il sensore d\'impronte digitali sul retro del tuo tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Individua il sensore d\'impronte digitali sul retro del tuo dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Individua il sensore d\'impronte digitali sul retro del tuo telefono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Individua il sensore d\'impronte digitali sul lato del tuo tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Individua il sensore d\'impronte digitali sul lato del tuo dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Individua il sensore d\'impronte digitali sul lato del tuo telefono.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Tocca il sensore sulla parte anteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Tocca il sensore sul retro del tuo telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Tocca il sensore sul lato del tuo telefono.</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pausa Intelligente</string>
+    <string name="adaptive_playback_master_switch_title">Usa la Pausa Intelligente</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_intro_text">Interrompe automaticamente i media quando il volume è silenziato e riprenderà automaticamente quando il volume è ripristinato entro l\'ora impostata.</string>
+    <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
+    <string name="adaptive_playback_timeout_none">Nessun timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">Attivo (nessun timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 secondi</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Attivo (30 secondi)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Attivo (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuti</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Attivo (2 minuti)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minuti</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Attivo (5 minuti)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minuti</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controllo di riproduzione</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, tener premuti i tasti del volume salterà i brani musicali</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppio tocco</string>
+    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
+    <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Tocca l\'impronta digitale per sbloccare</string>
+    <string name="fingerprint_wake_unlock_touch">Ascolta gli eventi mentre lo schermo è spento</string>
+    <string name="fingerprint_wake_unlock_press">Ascolta gli evento solo quando lo schermo è acceso</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Disposizione casuale</string>
+    <string name="unlock_scramble_pin_layout_summary">Disposizione del PIN casuale sbloccando il dispositivo</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando il/la PIN/password corretto/a è inserito/a</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Altri controlli</string>
+    <string name="fullscreen_gestures_title">Gesti a schermo intero</string>
+    <string name="fullscreen_gestures_summary">Nascondi la barra di navigazione e lo spazio della tastiera</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Lunghezza del pill</string>
+    <string name="short_label">Breve</string>
+    <string name="long_label">Lunga</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Selettore musicale Ambient</string>
+    <string name="pulse_on_new_tracks_summary">Mostra l\'Ambient Display quando è riprodotto un nuovo brano musicale</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Intero</string>
+    <string name="back_height_high_label">Schermo inferiore</string>
+    <string name="back_options_dialog_title">Opzioni</string>
+    <string name="back_height_message">Porzione d\'altezza dello schermo usata come regione di tocco per il gesto indietro.</string>
+</resources>
