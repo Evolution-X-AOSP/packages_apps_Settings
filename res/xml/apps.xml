@@ -70,6 +70,16 @@
         settings:controller="com.android.settings.applications.GameSpaceController">
     </Preference>
 
+    <Preference
+        android:key="parallel_space"
+        android:title="@string/laboratory_parallel_space_title"
+        android:summary="@string/laboratory_parallel_space_summary"
+        android:order="-994">
+        <intent
+            android:targetPackage="ink.kscope.parallelspace"
+            android:targetClass="ink.kscope.parallelspace.MainActivity" />
+    </Preference>
+
     <PreferenceCategory
         android:key="dashboard_tile_placeholder"
         android:order="10"/>
