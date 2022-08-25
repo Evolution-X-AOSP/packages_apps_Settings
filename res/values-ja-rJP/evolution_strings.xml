@@ -128,7 +128,7 @@
     <string name="smart_charging_resume_level_title">充電開始レベル</string>
     <string name="smart_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
     <string name="smart_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後バッテリーの統計情報をリセットする</string>
-    <string name="smart_charging_footer">スマート充電を使用すると最大充電レベルを設定することでバッテリー寿命を延ばすことができます</string>
+    <string name="smart_charging_footer">スマート充電を有効化すると最大充電レベルの設定が可能になりバッテリー寿命を延ばすことができます</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">戻るジェスチャーアニメーション</string>
     <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
