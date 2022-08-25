@@ -143,20 +143,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes do ponto de acessso utilizem este dispositivo para se conectar a VPN</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu ponto de acesso não aparecerá na lista de redes wi-fi disponíveis.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Nunca desativar o ponto de acesso</string>
-    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
-    <string name="wifi_hotspot_client_manager_summary">Liste e gerencie os dispositivos conectados ao ponto de acesso</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">Lista de dispositivos conectados ao ponto de acesso</string>
-    <string name="wifi_hotspot_client_limit_title">Limite de dispositivos conectados</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos conectados</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
-    <string name="wifi_hotspot_block_client_dialog_text">Esta ação desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" deste dispositivo e o adicionará à lista de bloqueio</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">Este dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" será capaz de se conectar ao ponto de acesso</string>
-    <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente está disponível no momento. Dispositivos conectados e bloqueados serão listados aqui quando disponível.</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_title">Efeito de zoom no papel de parede</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
