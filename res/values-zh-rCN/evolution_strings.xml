@@ -143,20 +143,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接</string>
-    <string name="wifi_hotspot_hidden_ssid_title">隐藏网络</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">您的移动热点名称不会出现在可用的 WLAN 网络列表中</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">始终不关闭热点</string>
-    <string name="wifi_hotspot_client_manager_title">已连接的设备</string>
-    <string name="wifi_hotspot_client_manager_summary">列出并管理连接到热点的设备</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">列出连接到热点的设备</string>
-    <string name="wifi_hotspot_client_limit_title">已连接设备的限制</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">已阻止的设备</string>
-    <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
-    <string name="wifi_hotspot_block_client_dialog_title">阻止设备</string>
-    <string name="wifi_hotspot_block_client_dialog_text">此操作将断开 \"<xliff:g id="device_name">%1$s</xliff:g>\" 与该设备的连接，并将其添加到阻止列表中</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">解封设备</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到这个热点</string>
-    <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端。如果可用，将在此处列出已连接和已阻止的设备。</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_title">壁纸缩放效果</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
