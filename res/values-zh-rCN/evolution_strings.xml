@@ -114,12 +114,48 @@
     <string name="gesture_navbar_length_title">导航栏长度</string>
     <string name="short_label">短</string>
     <string name="long_label">长</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">音乐息屏显示</string>
-    <string name="pulse_on_new_tracks_summary">播放新曲目时点亮环境显示</string>
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">全屏</string>
-    <string name="back_height_high_label">底部</string>
-    <string name="back_options_dialog_title">选项</string>
-    <string name="back_height_message">屏幕高度用作返回手势的可触摸区域</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">连接或移除电源时唤醒屏幕</string>
+    <string name="wake_when_plugged_or_unplugged_summary">连接/断开电源时唤醒屏幕</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+    <string name="longpress_to_clipboard">长按复制</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">智能充电</string>
+    <string name="smart_charging_summary">设置充电电量上限</string>
+    <string name="smart_charging_master_switch_title">使用智能充电</string>
+    <string name="smart_charging_level_title">停止充电电量</string>
+    <string name="smart_charging_resume_level_title">开始充电电量</string>
+    <string name="smart_charging_reset_stats_title">重置电量统计信息</string>
+    <string name="smart_charging_reset_stats_summary">在达到用户定义充电量之后重置电池统计</string>
+    <string name="smart_charging_footer">智能充电允许您设置最大充电电量，以延长电池的使用寿命</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">返回手势动画</string>
+    <string name="back_gesture_arrow_summary">显示返回手势的动画箭头</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">软件包详情</string>
+    <string name="package_name">软件包名</string>
+    <string name="package_version">软件包版本</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">壁纸缩放效果</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">缩放壁纸以展示缩小深度动画。壁纸质量可能降低</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">自动关闭 Wi-Fi</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">在设定时间后自动关闭Wi-Fi。</string>
+    <string name="wifi_timeout_summary1">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
+    <string name="wifi_timeout_summary2">已禁用</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">蓝牙超时</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">如果没有设备连接，蓝牙将在<xliff:g id="timeout_description">%1$s</xliff:g>后关闭</string>
+    <string name="bluetooth_timeout_summary2">不要自动关闭蓝牙</string>
 </resources>
