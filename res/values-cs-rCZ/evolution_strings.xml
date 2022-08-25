@@ -143,20 +143,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro upstream připojení</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Skrytá síť</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Název vašeho mobilního hotspotu se nezobrazí v seznamu dostupných sítí WLAN.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Nikdy nevypínat hotspot</string>
-    <string name="wifi_hotspot_client_manager_title">Připojená zařízení</string>
-    <string name="wifi_hotspot_client_manager_summary">Seznam a správa zařízení připojených k hotspotu</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">Seznam zařízení připojených k hotspotu</string>
-    <string name="wifi_hotspot_client_limit_title">Omezení počtu připojených zařízení</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blokovaná zařízení</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Připojená zařízení</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Blokovat zařízení</string>
-    <string name="wifi_hotspot_block_client_dialog_text">Tato akce odpojí \"<xliff:g id="device_name">%1$s</xliff:g>\" od tohoto zařízení a přidá jej do seznamu blokovaných</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Odblokovat zařízení</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">Zařízení \"<xliff:g id="device_name">%1$s</xliff:g>\" se bude moci připojit k tomuto hotspotu</string>
-    <string name="wifi_hotspot_client_manager_footer_text">Aktuálně nejsou k dispozici žádní klienti. Připojená a blokovaná zařízení budou zobrazena v případě, že budou k dostupná.</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_title">Efekt přiblížení tapety</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
