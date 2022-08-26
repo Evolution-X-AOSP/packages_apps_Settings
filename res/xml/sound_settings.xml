@@ -268,6 +268,13 @@
         android:summary="%s"
         android:order="-10"/>
 
+    <com.evolution.settings.preference.GlobalSettingSwitchPreference
+        android:key="ringer_mute_speaker_media"
+        android:title="@string/ringer_mute_speaker_media_title"
+        android:summary="@string/ringer_mute_speaker_media_summary"
+        android:defaultValue="false"
+        android:order="-4"/>
+
     <Preference
         android:key="sound_work_settings"
         android:title="@string/sound_work_settings"

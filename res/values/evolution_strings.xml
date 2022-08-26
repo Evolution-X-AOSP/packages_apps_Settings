@@ -233,4 +233,8 @@
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
     <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
+    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>    
 </resources>
