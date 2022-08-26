@@ -68,6 +68,13 @@
             android:key="pocket_judge"
             android:title="@string/pocket_judge_title"
             android:summary="@string/pocket_judge_summary" />
+			
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+           android:key="block_alert"
+           android:title="@string/block_alert_title"
+           android:summary="@string/block_alert_summary"
+           android:defaultValue="true"
+           android:dependency="pocket_judge" />
 
     </PreferenceCategory>
 

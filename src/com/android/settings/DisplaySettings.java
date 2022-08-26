@@ -18,6 +18,7 @@ package com.android.settings;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.res.Resources;
 import android.os.Bundle;
 
 import androidx.preference.Preference;
@@ -50,6 +51,9 @@ public class DisplaySettings extends DashboardFragment {
     public static final String KEY_PROXIMITY_ON_WAKE = "proximity_on_wake";
     private static final String KEY_HIGH_TOUCH_POLLING_RATE = "high_touch_polling_rate_enable";
     private static final String KEY_HIGH_TOUCH_SENSITIVITY = "high_touch_sensitivity_enable";
+    private static final String ALERT_SLIDER_PREF = "block_alert";
+
+    private Preference mAlertSlider;
 
     @Override
     public int getMetricsCategory() {
@@ -70,6 +74,9 @@ public class DisplaySettings extends DashboardFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
+        final Context mContext = getActivity().getApplicationContext();
+        final Resources res = mContext.getResources();
+    
         final Preference proximityWakePreference =
                 (Preference) getPreferenceScreen().findPreference(KEY_PROXIMITY_ON_WAKE);
         final boolean enableProximityOnWake =
@@ -78,6 +85,12 @@ public class DisplaySettings extends DashboardFragment {
         if (!enableProximityOnWake && proximityWakePreference != null){
             getPreferenceScreen().removePreference(proximityWakePreference);
         }
+
+        mAlertSlider = (Preference) findPreference(ALERT_SLIDER_PREF);
+        boolean mAlertSliderAvailable = res.getBoolean(
+                com.android.internal.R.bool.config_hasAlertSlider);
+        if (!mAlertSliderAvailable)
+            getPreferenceScreen().removePreference(mAlertSlider);        
     }
 
     @Override
