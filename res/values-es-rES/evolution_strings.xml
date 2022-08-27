@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2022 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">El Evolucionador</string>
+    <string name="evolver_dashboard_summary">Bienvenido a la Eva de la Evolución</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">RAM total</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Versión de Evolution X</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">Fecha de compilación</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Mantenedor</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Desactivado</string>
+    <string name="selinux_status_permissive">Permisivo (Permissive)</string>
+    <string name="selinux_status_enforcing">Forzado (Enforcing)</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostrar el historial de notificaciones</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hoy</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura de la batería</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Deslizar para hacer captura de pantalla</string>
+    <string name="swipe_to_screenshot_gesture_summary">Deslizar tres dedos para hacer captura de pantalla</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevenir encendido accidental</string>
+    <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de encender la pantalla</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Frecuencia mínima de refresco</string>
+    <string name="max_refresh_rate_title">Frecuencia máxima de refresco</string>
+    <string name="low_power_refresh_rate_title_custom">Frecuencia de refresco con batería baja</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Carga rápida</string>
+    <string name="fast_charging_summary">Desactivar para reducir el sobrecalentamiento producido por el dispositivo durante la carga o para extender la vida útil de la batería</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localiza el sensor de huellas dactilares en la parte frontal de tu tableta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localiza el sensor de huellas dactilares en la parte frontal de tu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localiza el sensor de huellas dactilares en la parte frontal de tu teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localice el sensor de huellas dactilares en la parte trasera de la tableta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localice el sensor de huella digital en la parte trasera de su dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localice el sensor de huellas dactilares en la parte trasera del teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localice el sensor de huellas dactilares en el lateral de la tableta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localice el sensor de huella dactilar en el lateral de su dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localice el sensor de huellas dactilares en el lado de su teléfono.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Toque el sensor en la parte frontal de su teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Toque el sensor en la parte trasera de su teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Toque el sensor en el lado de su teléfono.</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pausa Inteligente</string>
+    <string name="adaptive_playback_master_switch_title">Usar Pausa Inteligente</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
+    <string name="adaptive_playback_intro_text">Pausa automáticamente los medios cuando el volumen está silenciado y se reanudará automáticamente cuando el volumen sea restaurado dentro del tiempo establecido.</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Activado (sin tiempo de espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Control de reproducción</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla esté apagada, una pulsación larga de los controles de volumen, avanzará o retrocederá las canciones</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doble toque</string>
+    <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
+    <string name="doze_double_tap_summary">Notificaciones de pulso por doble toque</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Tocar huella para desbloquear</string>
+    <string name="fingerprint_wake_unlock_touch">A la escucha de eventos con pantalla apagada</string>
+    <string name="fingerprint_wake_unlock_press">A la escucha de eventos solo con pantalla encendida</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
+    <string name="unlock_scramble_pin_layout_summary">Aleatoriza la disposición de los números del PIN en el desbloqueo del dispositivo</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente al introducir PIN/contraseña correctos</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Otros controles</string>
+    <string name="fullscreen_gestures_title">Gestos a pantalla completa</string>
+    <string name="fullscreen_gestures_summary">Ocultar píldora de navegación y espacio de teclado</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Longitud de píldora</string>
+    <string name="short_label">Corta</string>
+    <string name="long_label">Larga</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Encender al conectar el cargador</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Enciende la pantalla al conectar o desconectar una fuente de energía</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Copiado al portapapeles</string>
+    <string name="longpress_to_clipboard">Mantén pulsado para copiar</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carga inteligente</string>
+    <string name="smart_charging_summary">Establece un nivel de carga máximo</string>
+    <string name="smart_charging_master_switch_title">Usar Carga Inteligente</string>
+    <string name="smart_charging_level_title">Detener carga al nivel</string>
+    <string name="smart_charging_resume_level_title">Iniciar carga al nivel</string>
+    <string name="smart_charging_reset_stats_title">Reiniciar las estadísticas de la batería</string>
+    <string name="smart_charging_reset_stats_summary">Restablece las estadísticas de la batería después de alcanzar el nivel de carga definido por el usuario</string>
+    <string name="smart_charging_footer">La Carga Inteligente permite establecer un nivel máximo de carga para ampliar la duración de la batería</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animación del gesto atrás</string>
+    <string name="back_gesture_arrow_summary">Muestra una flecha animada para el gesto de atrás</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Detección de bolsillo</string>
+    <string name="pocket_judge_summary">Bloquea la pantalla y los botones cuando el dispositivo esté en el bolsillo</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Detalles del paquete</string>
+    <string name="package_name">Nombre del paquete</string>
+    <string name="package_version">Versión del paquete</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permite a los clientes del punto de acceso usar las conexiones VPN de este dispositivo como conectividad de subida</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Efecto de zoom en el fondo de pantalla</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Amplía el fondo de pantalla para mostrar la animación de la profundidad en alejamiento. Los fondos de pantalla pueden sufrir un descenso de calidad</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Apagar Wi-Fi automáticamente</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Apaga el Wi-Fi automáticamente después de un tiempo establecido.</string>
+    <string name="wifi_timeout_summary1">El Wi-Fi se apagará tras <xliff:g id="timeout_description">%1$s</xliff:g> si no se conecta a ninguna red</string>
+    <string name="wifi_timeout_summary2">Desactivado</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Tiempo de espera de Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">El Bluetooth se apagará tras <xliff:g id="timeout_description">%1$s</xliff:g> si no hay dispositivos conectados</string>
+    <string name="bluetooth_timeout_summary2">No apagar el Bluetooth automáticamente</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilidad táctil</string>
+    <string name="high_touch_sensitivity_summary">Aumenta la sensibilidad del panel táctil para que pueda usarse con guantes</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
+    <string name="touchscreen_hovering_summary">Permite deslizarse por la pantalla como un ratón en navegadores, escritorios remotos, etc</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Tasa alta de muestreo táctil</string>
+    <string name="high_touch_polling_rate_summary">Aumenta la tasa de muestreo táctil</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimiza la pantalla basándose en la hora del día y las condiciones ambientales para mejorar la lectura y reducir la fatiga visual</string>
+    <string name="live_display_mode">Modo de visualización</string>
+    <string name="live_display_color_temperature_title">Temperatura del color</string>
+    <string name="live_display_color_temperature_summary">Día: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Día</string>
+    <string name="live_display_night">Noche</string>
+    <string name="live_display_outdoor_mode_title">Modo exterior automático</string>
+    <string name="live_display_outdoor_mode_summary">Aumenta el brillo y la saturación automáticamente bajo luz solar intensa</string>
+    <string name="live_display_anti_flicker_title">Antiparpadeo</string>
+    <string name="live_display_anti_flicker_summary">Evita el parpadeo intenso y reduce la tensión ocular en condiciones de poca luz. Esto puede degradar la precisión del color y afectar la manera en la que se muestran algunos elementos.</string>
+    <string name="live_display_low_power_title">Reducir el consumo de energía</string>
+    <string name="live_display_low_power_summary">Ajusta la pantalla para un menor consumo de energía sin deterioro de imagen</string>
+    <string name="live_display_enhance_color_title">Colores mejorados</string>
+    <string name="live_display_enhance_color_summary">Mejora la viveza del color de tonos de piel, paisajes y otras imágenes</string>
+    <string name="live_display_color_profile_title">Perfil del color</string>
+    <string name="live_display_color_profile_standard_title">Estándar</string>
+    <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Colores realistas y tonos cálidos</string>
+    <string name="live_display_color_profile_dynamic_title">Dinámico</string>
+    <string name="live_display_color_profile_dynamic_summary">Colores mejorados y blancos brillantes</string>
+    <string name="live_display_color_profile_cinema_title">Cine</string>
+    <string name="live_display_color_profile_cinema_summary">Reproducción perfecta del color para video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomía</string>
+    <string name="live_display_color_profile_astronomy_summary">Rojo oscuro para preservar la visión nocturna</string>
+    <string name="live_display_color_profile_photography_title">Fotografía</string>
+    <string name="live_display_color_profile_photography_summary">Reproducción perfecta del color para fotos</string>
+    <string name="live_display_color_profile_basic_title">Básico</string>
+    <string name="live_display_color_profile_basic_summary">Usa la pantalla sin calibrar</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptativo</string>
+    <string name="live_display_color_profile_adaptive_summary">Los colores se adaptan a las condiciones ambientales</string>
+    <string name="live_display_color_profile_reading_title">Lectura</string>
+    <string name="live_display_color_profile_reading_summary">Colores cálidos para reducir la fatiga visual</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Colores fieles al espacio de color sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colores fieles al espacio de color DCI-P3</string>
+    <string name="live_display_reading_mode_title">Modo lectura</string>
+    <string name="live_display_reading_mode_summary">Escala de grises para lectura prolongada</string>
+    <string name="color_calibration_title">Calibración de color</string>
+    <string name="color_calibration_summary">Calibra los colores de pantalla</string>
+    <string name="color_red_title">Rojo</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajuste de imagen</string>
+    <string name="picture_adjustment_summary">Ajuste el tono, saturación, intensidad y contraste</string>
+    <string name="adj_hue_title">Tono</string>
+    <string name="adj_saturation_title">Saturación</string>
+    <string name="adj_intensity_title">Intensidad</string>
+    <string name="adj_contrast_title">Contraste</string>
+</resources>
