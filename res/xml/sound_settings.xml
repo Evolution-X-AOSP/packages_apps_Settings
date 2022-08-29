@@ -248,6 +248,13 @@
         android:defaultValue="false"
         android:order="-4"/>
 
+    <com.evolution.settings.preference.GlobalSettingSwitchPreference
+        android:key="mute_sp"
+        android:title="@string/mute_sp_title"
+        android:summary="@string/mute_sp_summary"
+        android:defaultValue="false"
+        android:order="-3"/>
+
     <Preference
         android:key="sound_work_settings"
         android:title="@string/sound_work_settings"
