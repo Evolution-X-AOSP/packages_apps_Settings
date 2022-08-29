@@ -255,6 +255,13 @@
         android:defaultValue="false"
         android:order="-3"/>
 
+    <com.evolution.settings.preference.GlobalSettingSwitchPreference
+        android:key="pulse_panel"
+        android:title="@string/pulse_panel_title"
+        android:summary="@string/pulse_panel_summary"
+        android:defaultValue="false"
+        android:order="-2"/>
+
     <Preference
         android:key="sound_work_settings"
         android:title="@string/sound_work_settings"
