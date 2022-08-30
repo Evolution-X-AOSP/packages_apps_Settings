@@ -241,26 +241,15 @@
         android:summary="%s"
         android:order="-10"/>
 
-    <com.evolution.settings.preference.GlobalSettingSwitchPreference
-        android:key="ringer_mute_speaker_media"
-        android:title="@string/ringer_mute_speaker_media_title"
-        android:summary="@string/ringer_mute_speaker_media_summary"
-        android:defaultValue="false"
-        android:order="-4"/>
-
-    <com.evolution.settings.preference.GlobalSettingSwitchPreference
-        android:key="mute_sp"
-        android:title="@string/mute_sp_title"
-        android:summary="@string/mute_sp_summary"
-        android:defaultValue="false"
-        android:order="-3"/>
-
-    <com.evolution.settings.preference.GlobalSettingSwitchPreference
-        android:key="pulse_panel"
-        android:title="@string/pulse_panel_title"
-        android:summary="@string/pulse_panel_summary"
-        android:defaultValue="false"
-        android:order="-2"/>
+    <PreferenceCategory
+    android:key="ringer_mute_cat"
+    android:title="@string/ringer_mute_speaker_media_title">
+        <Preference
+            android:key="ringer_mute_pref"
+            android:title="@string/ringer_mute_speaker_media_title"
+            android:fragment="com.android.settings.RingerMuteSettings"
+            android:order="-4"/>
+    </PreferenceCategory>
 
     <Preference
         android:key="sound_work_settings"
