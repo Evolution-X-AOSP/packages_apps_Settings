@@ -289,14 +289,15 @@
     <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
 
     <!-- Ringer mode mute speaker media -->
-    <string name="ringer_mute_speaker_media_title">Mute media volume on silent</string>
-    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent. This only affects the speaker</string>   
+    <string name="use_ringer_mute_speaker_media_title">Use Silent media mute</string>
+    <string name="ringer_mute_speaker_media_title">Silent media mute</string>
+    <string name="ringer_mute_text">Mute media volume when ringer mode is set to silent. When disconnected from a bluetooth device while in silent mode, the media volume will be automatically muted. \nThis will not affect external speakers and headphones.</string>
 
     <!-- 0 timeout for smart pause while using silent to mute-->
     <string name="mute_sp_title">Don\'t resume media after un-muting</string>
-    <string name="mute_sp_summary">While using silent to mute media, set the Smart Pauses timeout to 0 to prevent accidental playback</string>
+    <string name="mute_sp_summary">Set Smart Pauses timeout to 0 when muting to prevent accidental playback\n(This will be automatically reverted upon un-muting if there is a custom timeout set)</string>
 
     <!-- Pulse Volume Panel on un/mute media-->
-    <string name="pulse_panel_title">Pulse Volume Panel</string>
-    <string name="pulse_panel_summary">While using silent to mute media, pulse the volume panel when un/muting</string>
+    <string name="pulse_panel_title">Pulse Volume panel</string>
+    <string name="pulse_panel_summary">Pulse Volume panel when un/muting</string>
 </resources>
