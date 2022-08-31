@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2022 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">The Evolver</string>
+    <string name="evolver_dashboard_summary">Chào mừng đến \"Eve of Evolution\"</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Nền tảng</string>
+    <string name="total_ram">Tổng RAM</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Phiên bản Evolution X</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">Ngày dựng</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Người duy trì</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Tắt</string>
+    <string name="selinux_status_permissive">Cho phép (Permissive)</string>
+    <string name="selinux_status_enforcing">Thực thi (Enforcing)</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Hiển thị nhật ký lịch sử thông báo</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Cửa hàng Google Play</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Dưới 1 phút</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hôm nay</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Nhiệt độ pin</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Vuốt để chụp màn hình</string>
+    <string name="swipe_to_screenshot_gesture_summary">Vuốt ba ngón tay để chụp màn hình</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Chặn tình cờ bật màn hình</string>
+    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi bật màn hình</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
+    <string name="max_refresh_rate_title">Tốc độ làm mới tối đa</string>
+    <string name="low_power_refresh_rate_title_custom">Tốc độ làm mới pin yếu</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Sạc nhanh</string>
+    <string name="fast_charging_summary">Tắt để giảm nhiệt độ của thiết bị trong khi sạc hoặc để kéo dài tuổi thọ của pin</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Âm thanh chụp màn hình</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Định vị cảm biến vân tay trên mặt trước máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Định vị cảm biến vân tay trên mặt trước thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Định vị cảm biến vân tay trên mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Định vị cảm biến vân tay ở mặt sau máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Định vị cảm biến vân tay ở mặt sau thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Định vị cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Định vị cảm biến vân tay ở cạnh bên máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Định vị cảm biến vân tay ở cạnh bên thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Định vị cảm biến vân tay ở cạnh bên điện thoại của bạn.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Chạm vào cảm biến trên mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Chạm vào cảm biến ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Chạm vào cảm biến ở cạnh bên điện thoại của bạn.</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Tạm dừng Thông minh</string>
+    <string name="adaptive_playback_master_switch_title">Sử dụng Tạm dừng Thông minh</string>
+    <string name="adaptive_playback_disabled_summary">Tắt</string>
+    <string name="adaptive_playback_intro_text">Tự động dừng phát đa phương tiện khi âm lượng bị tắt và tiếp tục phát khi âm lượng được khôi phục trong thời gian đã đặt.</string>
+    <string name="adaptive_playback_timeout_title">Sử dụng thời gian chờ</string>
+    <string name="adaptive_playback_timeout_none">Không có thời gian chờ</string>
+    <string name="adaptive_playback_timeout_none_summary">Bật (không có thời gian chờ)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 giây</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Bật (30 giây)</string>
+    <string name="adaptive_playback_timeout_1_min">1 phút</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Bật (1 phút)</string>
+    <string name="adaptive_playback_timeout_2_min">2 phút</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Bật (2 phút)</string>
+    <string name="adaptive_playback_timeout_5_min">5 phút</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Bật (5 phút)</string>
+    <string name="adaptive_playback_timeout_10_min">10 phút</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Bật (10 phút)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Điều khiển phát nhạc</string>
+    <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ nút âm lượng để chuyển bài</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Chạm hai lần</string>
+    <string name="doze_double_tap_title">Chạm hai lần để kiểm tra điện thoại</string>
+    <string name="doze_double_tap_summary">Chạm hai lần để hiện thông báo</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Chạm vân tay để mở khoá</string>
+    <string name="fingerprint_wake_unlock_touch">Quét vân tay trong khi màn hình tắt</string>
+    <string name="fingerprint_wake_unlock_press">Chỉ quét vân tay khi màn hình bật</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Xáo trộn chữ số</string>
+    <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN ngẫu nhiên khi mở khóa thiết bị</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Mở khoá nhanh</string>
+    <string name="unlock_quick_unlock_control_summary">Tự động mở khoá khi nhập đúng mã PIN hoặc mật khẩu</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Các điều chỉnh khác</string>
+    <string name="fullscreen_gestures_title">Cử chỉ toàn màn hình</string>
+    <string name="fullscreen_gestures_summary">Ẩn thanh điều hướng và khoảng trống dưới bàn phím</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Chiều dài thanh cử chỉ</string>
+    <string name="short_label">Ngắn</string>
+    <string name="long_label">Dài</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Bật màn hình khi cắm sạc</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Bật màn hình khi kết nối hoặc ngắt kết nối với nguồn điện</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Đã sao chép vào bảng nhớ tạm</string>
+    <string name="longpress_to_clipboard">Nhấn giữ để sao chép</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Sạc Thông minh</string>
+    <string name="smart_charging_summary">Đặt mức sạc tối đa</string>
+    <string name="smart_charging_master_switch_title">Sử dụng Sạc Thông minh</string>
+    <string name="smart_charging_level_title">Mức để dừng</string>
+    <string name="smart_charging_resume_level_title">Mức để kích hoạt</string>
+    <string name="smart_charging_reset_stats_title">Đặt lại thống kê pin</string>
+    <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt mức sạc do người dùng xác định</string>
+    <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Hoạt ảnh chử chỉ quay lại</string>
+    <string name="back_gesture_arrow_summary">Hiển thị hoạt ảnh mũi tên cho cử chỉ quay lại</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Phát hiện trong túi</string>
+    <string name="pocket_judge_summary">Chặn bật màn hình và các nút bấm khi thiết bị ở trong túi</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Chi tiết gói</string>
+    <string name="package_name">Tên gói</string>
+    <string name="package_version">Phiên bản gói</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Cho phép các máy khách kết nối với điểm truy cập sử dụng VPN của thiết bị để kết nối đến máy chủ</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Hiệu ứng thu phóng ảnh nền</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Thu phóng hình nền để có hiệu ứng chiều sâu. Hình nền có thể bị giảm chất lượng</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Tự động tắt Wi-Fi</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Tự động tắt Wi-Fi sau một khoảng thời gian.</string>
+    <string name="wifi_timeout_summary1">Wi-Fi sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có kết nối mạng</string>
+    <string name="wifi_timeout_summary2">Tắt</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Thời gian chờ Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có thiết bị được kết nối</string>
+    <string name="bluetooth_timeout_summary2">Không tự động tắt Bluetooth</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Độ nhạy cảm ứng cao</string>
+    <string name="high_touch_sensitivity_summary">Tăng độ nhạy của màn hình cảm ứng để có thể sử dụng khi đeo găng tay</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Cảm ứng không chạm</string>
+    <string name="touchscreen_hovering_summary">Cho phép bạn di trên màn hình như chuột trong trình duyệt web, điều khiển máy tính từ xa, v.v</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Tần số quét cảm ứng cao</string>
+    <string name="high_touch_polling_rate_summary">Tăng tần số quét của màn hình cảm ứng</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Tối ưu hóa màn hình dựa trên điều kiện môi trường và thời gian trong ngày để cải thiện khả năng đọc và giảm mỏi mắt</string>
+    <string name="live_display_mode">Chế độ hiển thị</string>
+    <string name="live_display_color_temperature_title">Nhiệt độ màu</string>
+    <string name="live_display_color_temperature_summary">Ngày: <xliff:g id="day_temperature">%1$d</xliff:g>K  Đêm: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Ngày</string>
+    <string name="live_display_night">Đêm</string>
+    <string name="live_display_outdoor_mode_title">Chế độ ngoài trời tự động</string>
+    <string name="live_display_outdoor_mode_summary">Tự động tăng độ sáng và độ bão hòa dưới ánh sáng mặt trời</string>
+    <string name="live_display_anti_flicker_title">Chống nhấp nháy</string>
+    <string name="live_display_anti_flicker_summary">Ngăn chặn hiện tượng nhấp nháy và giảm mỏi mắt trong điều kiện ánh sáng thấp. Nó có thể làm giảm độ chính xác màu và ảnh hưởng đến cách mà một số mục được hiển thị.</string>
+    <string name="live_display_low_power_title">Giảm tiêu thụ pin</string>
+    <string name="live_display_low_power_summary">Điều chỉnh màn hình để tiêu thụ pin ít nhất mà không làm giảm chất lượng</string>
+    <string name="live_display_enhance_color_title">Tăng cường màu sắc</string>
+    <string name="live_display_enhance_color_summary">Tăng độ tươi của màu sắc cho tông da, cảnh quan và các hình ảnh khác</string>
+    <string name="live_display_color_profile_title">Cấu hình màu</string>
+    <string name="live_display_color_profile_standard_title">Tiêu chuẩn</string>
+    <string name="live_display_color_profile_standard_summary">Màu sắc chính xác và màu trắng sáng</string>
+    <string name="live_display_color_profile_natural_title">Tự nhiên</string>
+    <string name="live_display_color_profile_natural_summary">Màu sắc và tông màu da gần với thực tế</string>
+    <string name="live_display_color_profile_dynamic_title">Sống động</string>
+    <string name="live_display_color_profile_dynamic_summary">Màu sắc được tăng cường và màu trắng sáng</string>
+    <string name="live_display_color_profile_cinema_title">Phim ảnh</string>
+    <string name="live_display_color_profile_cinema_summary">Tái tạo màu sắc hoàn hảo cho video</string>
+    <string name="live_display_color_profile_astronomy_title">Thiên văn học</string>
+    <string name="live_display_color_profile_astronomy_summary">Màu đỏ sâu để duy trì tầm nhìn trời đêm</string>
+    <string name="live_display_color_profile_photography_title">Nhiếp ảnh</string>
+    <string name="live_display_color_profile_photography_summary">Tái tạo màu sắc hoàn hảo cho hình ảnh</string>
+    <string name="live_display_color_profile_basic_title">Cơ bản</string>
+    <string name="live_display_color_profile_basic_summary">Sử dụng màu sắc gốc của màn hình</string>
+    <string name="live_display_color_profile_adaptive_title">Thích ứng</string>
+    <string name="live_display_color_profile_adaptive_summary">Màu sắc thích ứng với điều kiện môi trường</string>
+    <string name="live_display_color_profile_reading_title">Đọc sách</string>
+    <string name="live_display_color_profile_reading_summary">Các màu ấm hơn để giảm mỏi mắt</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Màu sắc chính xác của không gian màu sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Màu sắc chính xác của không gian màu DCI-P3</string>
+    <string name="live_display_reading_mode_title">Chế độ đọc sách</string>
+    <string name="live_display_reading_mode_summary">Chế độ màu đen trắng để đọc sách trong thời gian dài</string>
+    <string name="color_calibration_title">Hiệu chỉnh màu sắc</string>
+    <string name="color_calibration_summary">Hiệu chỉnh màu sắc của màn hình</string>
+    <string name="color_red_title">Đỏ</string>
+    <string name="color_green_title">Lục</string>
+    <string name="color_blue_title">Xanh da trời</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Hiệu chỉnh hình ảnh</string>
+    <string name="picture_adjustment_summary">Hiệu chỉnh tông màu, bão hòa, cường độ và độ tương phản</string>
+    <string name="adj_hue_title">Màu sắc</string>
+    <string name="adj_saturation_title">Độ rực màu</string>
+    <string name="adj_intensity_title">Cường độ</string>
+    <string name="adj_contrast_title">Tương phản</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Âm lượng chuông tăng dần</string>
+    <string name="increasing_ring_min_volume_title">Âm lượng ban đầu</string>
+    <string name="increasing_ring_ramp_up_time_title">Khoảng thời gian tăng dần</string>
+</resources>
