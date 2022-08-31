@@ -231,6 +231,6 @@
     <string name="mute_sp_title">取消静音后不恢复媒体</string>
     <string name="mute_sp_summary">将智能暂停时间设置为 0 以防止意外开始播放\n您的自定义超时设置将在取消静音时自动恢复。</string>
     <!-- Pulse Volume Panel on un/mute media-->
-    <string name="pulse_panel_title">脉冲音量面板</string>
+    <string name="pulse_panel_title">短暂显示音量面板</string>
     <string name="pulse_panel_summary">静音/取消静音时短暂显示音量面板</string>
 </resources>
