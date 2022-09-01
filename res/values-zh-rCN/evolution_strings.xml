@@ -89,9 +89,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">开启 (5分钟)</string>
     <string name="adaptive_playback_timeout_10_min">10 分钟</string>
     <string name="adaptive_playback_timeout_10_min_summary">开启 (10分钟)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">播放控制</string>
-    <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键来切换不同曲目</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">双击亮屏</string>
@@ -220,17 +217,10 @@
     <string name="adj_saturation_title">饱和度</string>
     <string name="adj_intensity_title">亮度</string>
     <string name="adj_contrast_title">对比度</string>
-    <!-- Alert Slider block -->
-    <string name="block_alert_title">屏蔽警报滑块</string>
-    <string name="block_alert_summary">口袋模式将屏蔽警报滑块</string>
-    <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">使用静音媒体静音</string>
-    <string name="ringer_mute_speaker_media_title">静音媒体静音</string>
-    <string name="ringer_mute_text">当铃声模式设置为静音时静音媒体音量。 当在静音模式下断开与蓝牙设备的连接时，媒体音量将自动静音。 \n这不会影响外部扬声器和耳机。</string>
-    <!-- 0 timeout for smart pause while using silent to mute-->
-    <string name="mute_sp_title">取消静音后不恢复媒体</string>
-    <string name="mute_sp_summary">将智能暂停时间设置为 0 以防止意外开始播放\n您的自定义超时设置将在取消静音时自动恢复。</string>
-    <!-- Pulse Volume Panel on un/mute media-->
-    <string name="pulse_panel_title">短暂显示音量面板</string>
-    <string name="pulse_panel_summary">静音/取消静音时短暂显示音量面板</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">关联铃声 &amp; 通知的音量</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">铃声音量渐强</string>
+    <string name="increasing_ring_min_volume_title">初始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">渐强时间</string>
 </resources>
