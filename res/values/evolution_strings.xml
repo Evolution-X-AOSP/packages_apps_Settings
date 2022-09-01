@@ -262,4 +262,8 @@
     <!-- 0 timeout for smart pause while using silent to mute-->
     <string name="mute_sp_title">Don\'t resume media after un-muting</string>
     <string name="mute_sp_summary">While using silent to mute media, set the Smart Pauses timeout to 0 to prevent accidental playback</string>
+
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">Pulse Volume Panel</string>
+    <string name="pulse_panel_summary">While using silent to mute media, pulse the volume panel when un/muting</string>
 </resources>
