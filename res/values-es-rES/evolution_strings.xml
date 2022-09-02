@@ -107,12 +107,10 @@
     <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente al introducir PIN/contraseña correctos</string>
     <!-- Fullscreen gestures -->
-    <string name="other_controls_title">Otros controles</string>
-    <string name="fullscreen_gestures_title">Gestos a pantalla completa</string>
-    <string name="fullscreen_gestures_summary">Ocultar píldora de navegación y espacio de teclado</string>
+    <string name="navbar_category">Barra de navegación</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Longitud de píldora</string>
-    <string name="short_label">Corta</string>
+    <string name="hide_label">Oculto</string>
     <string name="long_label">Larga</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Encender al conectar el cargador</string>
