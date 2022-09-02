@@ -107,12 +107,10 @@
     <string name="unlock_quick_unlock_control_title">Buka cepat</string>
     <string name="unlock_quick_unlock_control_summary">Membuka secara otomatis ketika PIN/kata sandi yang dimasukkan benar</string>
     <!-- Fullscreen gestures -->
-    <string name="other_controls_title">Kontrol lainnya</string>
-    <string name="fullscreen_gestures_title">Gestur layar penuh</string>
-    <string name="fullscreen_gestures_summary">Sembunyikan gestur bilah navigasi dan ruang keyboard</string>
+    <string name="navbar_category">Bilah navigasi</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Panjang gestur bilah navigasi</string>
-    <string name="short_label">Pendek</string>
+    <string name="hide_label">Sembunyikan</string>
     <string name="long_label">Panjang</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Bangun saat pengisi daya dipasang</string>
