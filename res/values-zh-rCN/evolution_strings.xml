@@ -107,12 +107,10 @@
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
     <string name="unlock_quick_unlock_control_summary">输入正确的 PIN 码或密码时自动解锁</string>
     <!-- Fullscreen gestures -->
-    <string name="other_controls_title">其他控制</string>
-    <string name="fullscreen_gestures_title">全面屏手势</string>
-    <string name="fullscreen_gestures_summary">隐藏导航栏填充和键盘空间</string>
+    <string name="navbar_category">导航栏</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">导航栏长度</string>
-    <string name="short_label">短</string>
+    <string name="hide_label">隐藏</string>
     <string name="long_label">长</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">连接或移除电源时唤醒屏幕</string>
