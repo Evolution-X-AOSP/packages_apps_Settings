@@ -89,6 +89,9 @@
     <string name="adaptive_playback_timeout_5_min_summary">ON (5分)</string>
     <string name="adaptive_playback_timeout_10_min">10分</string>
     <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">再生コントロール</string>
+    <string name="volume_button_music_control_summary">画面消灯時に音量ボタンを長押しして曲をシークする</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">ダブルタップ</string>
     <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
