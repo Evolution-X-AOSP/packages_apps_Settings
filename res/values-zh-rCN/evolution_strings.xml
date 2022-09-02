@@ -89,6 +89,9 @@
     <string name="adaptive_playback_timeout_5_min_summary">开启 (5分钟)</string>
     <string name="adaptive_playback_timeout_10_min">10 分钟</string>
     <string name="adaptive_playback_timeout_10_min_summary">开启 (10分钟)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键来切换不同曲目</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">双击亮屏</string>
