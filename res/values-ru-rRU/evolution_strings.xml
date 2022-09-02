@@ -220,4 +220,10 @@
     <string name="adj_saturation_title">Насыщенность</string>
     <string name="adj_intensity_title">Интенсивность</string>
     <string name="adj_contrast_title">Контрастность</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Объединять громкость рингтона и уведомлений</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время повышения громкости</string>
 </resources>
