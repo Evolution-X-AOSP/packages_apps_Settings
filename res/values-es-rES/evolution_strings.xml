@@ -26,7 +26,7 @@
     <!-- About device screen, Build date -->
     <string name="build_date">Fecha de compilación</string>
     <!-- About device screen, build maintainer -->
-    <string name="build_maintainer">Mantenedor</string>
+    <string name="build_maintainer">Desarrollador</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Estado de SELinux</string>
     <string name="selinux_status_disabled">Desactivado</string>
@@ -109,7 +109,7 @@
     <!-- Fullscreen gestures -->
     <string name="navbar_category">Barra de navegación</string>
     <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Longitud de píldora</string>
+    <string name="gesture_navbar_length_title">Longitud de la barra de navegación</string>
     <string name="hide_label">Oculto</string>
     <string name="long_label">Larga</string>
     <!-- Wake on plug -->
@@ -120,7 +120,7 @@
     <string name="longpress_to_clipboard">Mantén pulsado para copiar</string>
     <!-- Smart charging -->
     <string name="smart_charging_title">Carga inteligente</string>
-    <string name="smart_charging_summary">Establece un nivel de carga máximo</string>
+    <string name="smart_charging_summary">Establecer un nivel de carga máximo</string>
     <string name="smart_charging_master_switch_title">Usar Carga Inteligente</string>
     <string name="smart_charging_level_title">Detener carga al nivel</string>
     <string name="smart_charging_resume_level_title">Iniciar carga al nivel</string>
