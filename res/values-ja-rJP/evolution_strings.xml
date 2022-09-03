@@ -107,12 +107,10 @@
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
     <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
     <!-- Fullscreen gestures -->
-    <string name="other_controls_title">その他の操作</string>
-    <string name="fullscreen_gestures_title">全画面ジェスチャー</string>
-    <string name="fullscreen_gestures_summary">ナビゲーションバーのピルとキーボードのスペースを隠す</string>
+    <string name="navbar_category">ナビゲーションバー</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">ピルの長さ</string>
-    <string name="short_label">短い</string>
+    <string name="hide_label">非表示</string>
     <string name="long_label">長い</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除</string>

@@ -107,12 +107,10 @@
     <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente ao inserir o PIN ou senha corretamente</string>
     <!-- Fullscreen gestures -->
-    <string name="other_controls_title">Outros controles</string>
-    <string name="fullscreen_gestures_title">Gestos em tela cheia</string>
-    <string name="fullscreen_gestures_summary">Ocultar barra de gestos e espaço do teclado</string>
+    <string name="navbar_category">Barra de navegação</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Comprimento da barra gestos</string>
-    <string name="short_label">Curto</string>
+    <string name="hide_label">Oculto</string>
     <string name="long_label">Longo</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Acordar ao conectar</string>
