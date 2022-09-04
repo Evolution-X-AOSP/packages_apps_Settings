@@ -219,7 +219,30 @@
     <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
     <string name="increasing_ring_min_volume_title">開始音量</string>
     <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">アプリの音量</string>
+    <string name="app_volume_title">アプリごとの音量調節</string>
+    <string name="app_volume_summary">アプリごとに異なる音量を設定する</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">ルート状態のデバッグ</string>
     <string name="adb_enable_summary_root">ルート状態でも Android デバッグを許可する</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">サイクルスルーモード</string>
+    <string name="prevent_ringing_option_cycle_summary">ON (サイクルスルーモード)</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME ボタンのスペース</string>
+    <string name="navigation_bar_ime_space_value_narrow">狭い</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">復帰時の自動明るさを維持</string>
+    <string name="auto_brightness_one_shot_summary">画面復帰時の周囲の明るさで1度のみ自動で明るさを変更し、以降は変更しない。</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">サイレントでメディアを消音を使用</string>
+    <string name="ringer_mute_speaker_media_title">サイレントでメディアを消音</string>
+    <string name="ringer_mute_text">着信モードがサイレントに設定された時にメディア音量をミュートします。サイレントモード時に Bluetooth 端末から切断された時に、メディア音量は自動的にミュートになります。\nこの設定は外部スピーカーやヘッドホンには影響しません。</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">ミュート解除後にメディアを再開しない</string>
+    <string name="mute_sp_summary">意図しない再生を防ぐために、ミュート時にスマートパルスの制限時間を0に設定します。\n(カスタムの制限時間がされている場合、ミュート解除で自動的に元に戻ります。)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">音量パネルの Pulse</string>
+    <string name="pulse_panel_summary">ミュート/ミュート解除時に音量パネルをパルスさせる</string>
 </resources>
