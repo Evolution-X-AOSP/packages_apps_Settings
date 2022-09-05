@@ -275,6 +275,13 @@
         android:summary="%s"
         android:order="-10"/>
 
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="show_app_volume"
+        android:title="@string/app_volume_title"
+        android:summary="@string/app_volume_summary"
+        android:defaultValue="false"
+        android:order="-5"/>
+
     <Preference
         android:key="sound_work_settings"
         android:title="@string/sound_work_settings"
