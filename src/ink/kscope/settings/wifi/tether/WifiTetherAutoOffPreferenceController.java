@@ -66,19 +66,23 @@ public class WifiTetherAutoOffPreferenceController extends BasePreferenceControl
             return false;
         }
         final SoftApConfiguration softApConfiguration = mWifiManager.getSoftApConfiguration();
-        final SoftApConfiguration newSoftApConfiguration =
-                new SoftApConfiguration.Builder(softApConfiguration)
-                        .setAutoShutdownEnabled(timeout > 0)
-                        .setShutdownTimeoutMillis(timeout * 1000)
-                        .build();
-        return mWifiManager.setSoftApConfiguration(newSoftApConfiguration);
+        final SoftApConfiguration.Builder builder =
+                new SoftApConfiguration.Builder(softApConfiguration);
+        setShutdownTimeout(builder, timeout);
+        return mWifiManager.setSoftApConfiguration(builder.build());
     }
 
     public void updateConfig(SoftApConfiguration.Builder builder) {
         if (builder == null) return;
         final long timeout = getAutoOffTimeout();
-        builder.setAutoShutdownEnabled(timeout > 0)
-                .setShutdownTimeoutMillis(timeout * 1000);
+        setShutdownTimeout(builder, timeout);
+    }
+
+    private void setShutdownTimeout(SoftApConfiguration.Builder builder, long timeout) {
+        builder.setAutoShutdownEnabled(timeout > 0);
+        if (timeout > 0) {
+            builder.setShutdownTimeoutMillis(timeout * 1000);
+        }
     }
 
     public void updateDisplay() {
