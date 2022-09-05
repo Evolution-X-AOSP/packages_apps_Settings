@@ -93,6 +93,8 @@ android_library {
         "SettingsLibActivityEmbedding",
         "SettingsLibMainSwitchPreference",
         "vendor.lineage.fastcharge-V1.0-java",
+        "android.frameworks.stats-V1-java",
+        "google-fuelgauge",
     ],
 
     libs: [
@@ -125,6 +127,18 @@ android_app {
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
+}
+
+android_library_import {
+    name: "google-fuelgauge",
+    aars: ["libs/google-fuelgauge.aar"],
+    sdk_version: "33",
+    static_libs: [
+        "androidx-constraintlayout_constraintlayout",
+        "androidx.appcompat_appcompat",
+        "androidx.preference_preference",
+        "lottie",
+    ]
 }
 
 android_library_import {

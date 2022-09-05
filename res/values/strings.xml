@@ -6230,7 +6230,7 @@
     <!-- Title for the smart battery tip [CHAR LIMIT=NONE] -->
     <string name="battery_tip_smart_battery_title">Improve battery life</string>
     <!-- Summary for the smart battery tip [CHAR LIMIT=NONE] -->
-    <string name="battery_tip_smart_battery_summary">Turn on Battery Manager</string>
+    <string name="battery_tip_smart_battery_summary">Turn on Adaptive Battery</string>
     <!-- Title for the early heads up tip [CHAR LIMIT=NONE] -->
     <string name="battery_tip_early_heads_up_title">Turn on Battery Saver</string>
     <!-- Summary for the early hedas up tip [CHAR LIMIT=NONE] -->
@@ -6314,13 +6314,13 @@
     <string name="battery_tip_dialog_summary_message" product="device">Your apps are using a normal amount of battery. If apps use too much battery, your device will suggest actions you can take.\n\nYou can always turn on Battery Saver if you\u2019re running low on battery.</string>
 
     <!-- Title for the smart battery manager preference [CHAR LIMIT=NONE] -->
-    <string name="smart_battery_manager_title">Battery Manager</string>
+    <string name="smart_battery_manager_title">Adaptive preferences</string>
     <!-- Title for the smart battery toggle [CHAR LIMIT=NONE] -->
-    <string name="smart_battery_title">Manage apps automatically</string>
+    <string name="smart_battery_title">Adaptive Battery</string>
     <!-- Summary for the smart battery toggle [CHAR LIMIT=NONE] -->
-    <string name="smart_battery_summary" product="default">Limit battery for apps that you don\u2019t use often</string>
+    <string name="smart_battery_summary" product="default">Extend battery life based on your phone usage</string>
     <!-- Footer for the aosp smart battery page -->
-    <string name="smart_battery_footer">When Battery Manager detects that apps are draining battery, you\u2019ll have the option to restrict these apps. Restricted apps may not work properly and notifications may be delayed.</string>
+    <string name="smart_battery_footer">To extend battery life, Adaptive Battery may reduce performance and background activity. Some notifications may be delayed.</string>
     <!-- Title for restricted app preference, clicking it will goes to restricted app list [CHAR LIMIT=NONE] -->
     <string name="restricted_app_title">Restricted apps</string>
     <!-- Summary for restricted app preference, clicking it will goes to restricted app list [CHAR LIMIT=NONE] -->
@@ -6341,9 +6341,9 @@
     <string name="battery_auto_restriction_summary">Detect when apps drain battery</string>
 
     <!-- Summary for battery manager when it is on -->
-    <string name="battery_manager_summary">Detecting when apps drain battery</string>
+    <string name="battery_manager_summary">Extend battery life and optimize charging</string>
     <!-- Summary for battery manager when it is on. [CHAR LIMIT=NONE] -->
-    <string name="battery_manager_summary_unsupported">Detecting when apps drain battery</string>
+    <string name="battery_manager_summary_unsupported">Extend battery life</string>
 
     <!-- Summary for battery manager when it is off -->
     <string name="battery_manager_off">Off</string>
@@ -6359,7 +6359,7 @@
     <!-- Summary for top level battery tile if battery is not present. [CHAR LIMIT=NONE] -->
     <string name="battery_missing_message">Problem reading the battery meter.</string>
     <!-- Help text if battery is not present. [CHAR LIMIT=NONE] -->
-    <string name="battery_missing_link_message"></string>
+    <string name="battery_missing_link_message">Learn more</string>
     <!-- Accessibility description for battery missing link. [CHAR LIMIT=NONE] -->
     <string name="battery_missing_link_a11y_message">Tap to learn more about this error</string>
 
@@ -12671,7 +12671,7 @@
     <!--  Title for battery Suggestion. (phone) [CHAR LIMIT=46] -->
     <string name="battery_suggestion_title" product="default" >Improve phone\'s battery life</string>
     <!--  Summary for battery Suggestion. [CHAR LIMIT=55] -->
-    <string name="battery_suggestion_summary"></string>
+    <string name="battery_suggestion_summary">Turn on Adaptive Battery</string>
 
     <!-- Title for prevent ringing gesture screen [CHAR LIMIT=60]-->
     <string name="gesture_prevent_ringing_screen_title">Prevent ringing</string>
