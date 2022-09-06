@@ -183,6 +183,8 @@ import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.evolution.settings.EvolutionSettings;
 import com.evolution.settings.fragments.HeadsUpSettings;
 
+import com.google.android.settings.security.SecurityHubDashboard;
+
 public class SettingsGateway {
 
     /**
@@ -352,7 +354,8 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             EvolutionSettings.class.getName(),
             HeadsUpSettings.class.getName(),
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            SecurityHubDashboard.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
