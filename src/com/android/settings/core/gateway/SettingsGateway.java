@@ -187,6 +187,8 @@ import com.evolution.settings.fragments.SmartPixels;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
+import com.google.android.settings.security.SecurityHubDashboard;
+
 public class SettingsGateway {
 
     /**
@@ -360,6 +362,7 @@ public class SettingsGateway {
             WifiTetherClientManager.class.getName(),
             RunningServices.class.getName(),
             SmartPixels.class.getName(),
+            SecurityHubDashboard.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
