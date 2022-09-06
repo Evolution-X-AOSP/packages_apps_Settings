@@ -76,6 +76,13 @@ import com.android.settings.vpn2.AdvancedVpnFeatureProviderImpl;
 import com.android.settings.wifi.WifiTrackerLibProvider;
 import com.android.settings.wifi.WifiTrackerLibProviderImpl;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
+<<<<<<< HEAD
+=======
+import com.google.android.settings.fuelgauge.BatterySettingsFeatureProviderGoogleImpl;
+import com.google.android.settings.fuelgauge.BatteryStatusFeatureProviderGoogleImpl;
+import com.google.android.settings.fuelgauge.PowerUsageFeatureProviderGoogleImpl;
+import com.google.android.settings.security.SecuritySettingsFeatureProviderGoogleImpl;
+>>>>>>> 2d23e1b768 (Settings: Add Security Hub from Pixel devices)
 
 /**
  * {@link FeatureFactory} implementation for AOSP Settings.
@@ -317,7 +324,8 @@ public class FeatureFactoryImpl extends FeatureFactory {
     @Override
     public SecuritySettingsFeatureProvider getSecuritySettingsFeatureProvider() {
         if (mSecuritySettingsFeatureProvider == null) {
-            mSecuritySettingsFeatureProvider = new SecuritySettingsFeatureProviderImpl();
+            mSecuritySettingsFeatureProvider =
+                    new SecuritySettingsFeatureProviderGoogleImpl(getAppContext());
         }
         return mSecuritySettingsFeatureProvider;
     }
