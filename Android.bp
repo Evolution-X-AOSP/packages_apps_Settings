@@ -112,6 +112,7 @@ android_library {
         "faceunlock_framework",
         "android.frameworks.stats-V1-java",
         "google-fuelgauge",
+        "google-securityhub",
     ],
 
     libs: [
@@ -154,6 +155,17 @@ android_library_import {
         "androidx.appcompat_appcompat",
         "androidx.preference_preference",
         "lottie",
+    ]
+}
+
+android_library_import {
+    name: "google-securityhub",
+    aars: ["libs/google-securityhub.aar"],
+    sdk_version: "33",
+    static_libs: [
+        "androidx.preference_preference",
+        "com.google.android.material_material",
+        "guava",
     ]
 }
 
