@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2022 The Evolution X Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+     Copyright (C) 2019-2022 Evolution X
+     SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver</string>
+    <string name="evolver_dashboard_title">The Evolver (a Fejlesztő)</string>
     <string name="evolver_dashboard_summary">Üdvözlet az \'Evolúció előestéjén\'!</string>
     <!-- Hardware info -->
     <string name="platform_revision">Platform</string>
@@ -79,10 +68,15 @@
     <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
     <string name="adaptive_playback_timeout_none">Nincs időkorlát</string>
     <string name="adaptive_playback_timeout_none_summary">Be (nincs időkorlát)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 másodperc</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Be (30 másodperc)</string>
+    <string name="adaptive_playback_timeout_1_min">1 perc</string>
     <string name="adaptive_playback_timeout_1_min_summary">Be (1 perc)</string>
+    <string name="adaptive_playback_timeout_2_min">2 perc</string>
     <string name="adaptive_playback_timeout_2_min_summary">Be (2 perc)</string>
+    <string name="adaptive_playback_timeout_5_min">5 perc</string>
     <string name="adaptive_playback_timeout_5_min_summary">Be (5 perc)</string>
+    <string name="adaptive_playback_timeout_10_min">10 perc</string>
     <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
@@ -98,16 +92,20 @@
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
     <string name="unlock_scramble_pin_layout_summary">Összekeveri a beviteli mezőn a számok elrendezését az eszköz feloldásakor</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Válassza ki a minta méretét</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Jelenítse meg a hibás mintát</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Jelenítse meg a feleoldási pontokat</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
+    <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
     <string name="unlock_quick_unlock_control_summary">Helyes jelszó/PIN-kód megadásakor azonnal felold</string>
     <!-- Fullscreen gestures -->
-    <string name="other_controls_title">Egyéb vezérlések</string>
-    <string name="fullscreen_gestures_title">Teljesképernyős gesztusok</string>
-    <string name="fullscreen_gestures_summary">A navigációs sáv és a billentyűzetterület elrejtése</string>
+    <string name="navbar_category">Navigációs sáv</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Kapszulahossz</string>
-    <string name="short_label">Rövid</string>
+    <string name="hide_label">Rejtett</string>
     <string name="long_label">Hosszú</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Képenyőébredés töltéskor</string>
@@ -193,7 +191,7 @@
     <string name="live_display_color_profile_photography_summary">Tökéletes színreprodukció fotókhoz</string>
     <string name="live_display_color_profile_basic_title">Alap</string>
     <string name="live_display_color_profile_basic_summary">A kijelző használata kalibrálás nélkül</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptív</string>
+    <string name="live_display_color_profile_adaptive_title">Alkalmazkodó</string>
     <string name="live_display_color_profile_adaptive_summary">A színek alkalmazkodnak a környezethez</string>
     <string name="live_display_color_profile_reading_title">Olvasás</string>
     <string name="live_display_color_profile_reading_summary">Melegebb színek a kisebb szemfáradásért</string>
@@ -207,6 +205,7 @@
     <string name="color_calibration_summary">A képernyőn megjelenő színek kalibrálása</string>
     <string name="color_red_title">Vörös</string>
     <string name="color_green_title">Zöld</string>
+    <string name="color_blue_title">Kék</string>
     <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">Képkorrekciók</string>
     <string name="picture_adjustment_summary">Árnyalat, telítettség, intenzitás és kontraszt beállítása</string>
@@ -214,4 +213,26 @@
     <string name="adj_saturation_title">Telítettség</string>
     <string name="adj_intensity_title">Intenzitás</string>
     <string name="adj_contrast_title">Kontraszt</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Csengőhang és értesítési hangok összekötése</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
+    <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
+    <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Alkalmazásonkénti hangerő</string>
+    <string name="app_volume_title">Hangerőszabályozás alkalmazásonként</string>
+    <string name="app_volume_summary">Lehetővé teszi, hogy minden alkalmazásnak más legyen a hangereje</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rootolt hibakeresés</string>
+    <string name="adb_enable_summary_root">Rootolva engedélyezi az Android hibakeresését</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Üzemmódok közötti váltás</string>
+    <string name="prevent_ringing_option_cycle_summary">Be (üzemmódok közötti váltás)</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Billentyűzet alatti tér</string>
+    <string name="navigation_bar_ime_space_value_narrow">Keskeny</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
+    <string name="auto_brightness_one_shot_summary">A fényerőbeállítás csak a képernyő bekapcsolásának pillanatában történik</string>
 </resources>
