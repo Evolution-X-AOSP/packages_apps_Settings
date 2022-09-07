@@ -235,4 +235,14 @@
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Kecerahan otomatis satu bidikan</string>
     <string name="auto_brightness_one_shot_summary">Penyesuaian kecerahan hanya akan terjadi pada saat layar dihidupkan</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">Gunakan media senyap bisu</string>
+    <string name="ringer_mute_speaker_media_title">Media senyap bisu</string>
+    <string name="ringer_mute_text">Matikan volume media saat mode dering disetel ke senyap. Saat terputus dari perangkat bluetooth saat dalam mode senyap, volume media akan dimatikan secara otomatis. \nIni tidak akan memengaruhi speaker dan headphone eksternal.</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">Jangan melanjutkan media setelah mematikan suara</string>
+    <string name="mute_sp_summary">Setel batas waktu Jeda Cerdas ke 0 saat mematikan suara untuk mencegah pemutaran yang tidak disengaja\n(Ini akan secara otomatis dikembalikan saat tidak dimatikan jika ada batas waktu khusus yang disetel)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">Visual Panel Volume</string>
+    <string name="pulse_panel_summary">Visual Panel Volume saat membuka/mematikan</string>
 </resources>
