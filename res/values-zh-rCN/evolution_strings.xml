@@ -235,4 +235,14 @@
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">一键自动亮度</string>
     <string name="auto_brightness_one_shot_summary">亮度调整仅在屏幕打开时进行</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">使用静音媒体静音</string>
+    <string name="ringer_mute_speaker_media_title">静音媒体静音</string>
+    <string name="ringer_mute_text">当铃声模式设置为静音时静音媒体音量。 当在静音模式下断开与蓝牙设备的连接时，媒体音量将自动静音。 \n这不会影响外部扬声器和耳机。</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">取消静音后不恢复媒体</string>
+    <string name="mute_sp_summary">将智能暂停时间设置为 0 以防止意外播放\n(如果设置了自定义超时，这将在取消静音时自动恢复)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">脉冲音量面板</string>
+    <string name="pulse_panel_summary">取消/静音时显示音量面板</string>
 </resources>
