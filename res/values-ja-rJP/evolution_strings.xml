@@ -242,4 +242,7 @@
     <!-- Pulse Volume Panel on un/mute media-->
     <string name="pulse_panel_title">音量パネルの Pulse</string>
     <string name="pulse_panel_summary">ミュート/ミュート解除時に音量パネルをパルスさせる</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充電時の Always On Display</string>
+    <string name="doze_on_charge_summary">充電時は常に Doze 画面を表示する</string>
 </resources>
