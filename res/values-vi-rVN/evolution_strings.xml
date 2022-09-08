@@ -242,4 +242,7 @@
     <!-- Pulse Volume Panel on un/mute media-->
     <string name="pulse_panel_title">Hiện bảng âm lượng</string>
     <string name="pulse_panel_summary">Hiện bảng âm lượng khi âm lượng được bật/tắt</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">AOD khi sạc</string>
+    <string name="doze_on_charge_summary">Hiển thị trạng thái thiết bị và thông báo khi sạc</string>
 </resources>
