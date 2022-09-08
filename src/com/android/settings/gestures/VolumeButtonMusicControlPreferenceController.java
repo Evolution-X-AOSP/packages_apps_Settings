@@ -52,7 +52,7 @@ public class VolumeButtonMusicControlPreferenceController extends GesturePrefere
     @Override
     public boolean isChecked() {
         return Settings.System.getIntForUser(mContext.getContentResolver(), VOLBTN_MUSIC_CONTROLS,
-                OFF, UserHandle.USER_CURRENT) == ON;
+                ON, UserHandle.USER_CURRENT) == ON;
     }
 
     @Override
