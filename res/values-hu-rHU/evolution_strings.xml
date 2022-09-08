@@ -229,10 +229,17 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Üzemmódok közötti váltás</string>
     <string name="prevent_ringing_option_cycle_summary">Be (üzemmódok közötti váltás)</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Billentyűzet alatti tér</string>
-    <string name="navigation_bar_ime_space_value_narrow">Keskeny</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
     <string name="auto_brightness_one_shot_summary">A fényerőbeállítás csak a képernyő bekapcsolásának pillanatában történik</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">A \'Csendes módban médianémítás\' bekapcsolása</string>
+    <string name="ringer_mute_speaker_media_title">Csendes módban médianémítás</string>
+    <string name="ringer_mute_text">Lenémítja média hangerejét, ha a csengetési mód néma. Ha néma módban leválasztja a Bluetooth-eszközről, a média hangereje automatikusan elnémul.\nEz nem érinti a külső hangszórókat és fejhallgatókat.</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">Ne állítsa vissza a médiahangerőt a némítás feloldása után</string>
+    <string name="mute_sp_summary">Állítsa az \'Intelligens szünet\' időkorlátját 0-ra némításkor hogy elkerülje a véletlen lejátszásokat\n(Ez automatikusan visszaáll a némítás feloldásakor, ha egyéni időkorlát van beállítva)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">Pulse Hangerőszabályozó</string>
+    <string name="pulse_panel_summary">Némítás / felhangosítás a panelen</string>
 </resources>
