@@ -242,4 +242,7 @@
     <!-- Pulse Volume Panel on un/mute media-->
     <string name="pulse_panel_title">Pulsar painel de volume</string>
     <string name="pulse_panel_summary">Pulsar o painel de volume ao desativar/silenciar</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Tela ambiente durante o carregamento</string>
+    <string name="doze_on_charge_summary">Sempre mostrar a tela ambiente durante o carregamento</string>
 </resources>
