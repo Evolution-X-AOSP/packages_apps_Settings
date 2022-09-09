@@ -242,4 +242,7 @@
     <!-- Pulse Volume Panel on un/mute media-->
     <string name="pulse_panel_title">Pulse Hangerőszabályozó</string>
     <string name="pulse_panel_summary">Némítás / felhangosítás a panelen</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Állandóan bekapcsolva töltés közben</string>
+    <string name="doze_on_charge_summary">Töltés során jelenítse meg a gyorstöltés képernyőt</string>
 </resources>
