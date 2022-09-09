@@ -229,10 +229,20 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Alternar entre modos</string>
     <string name="prevent_ringing_option_cycle_summary">Ligado (alternar entre modos)</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Espaço do método de entrada</string>
-    <string name="navigation_bar_ime_space_value_narrow">Estreito</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Ajustar ao ligar a tela</string>
     <string name="auto_brightness_one_shot_summary">O ajuste de brilho ocorrerá somente no momento em que a tela for ligada</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">Use o modo silencioso para pausar músicas</string>
+    <string name="ringer_mute_speaker_media_title">Silencioso/Pausar música</string>
+    <string name="ringer_mute_text">Silenciar o volume da mídia quando o toque estiver definido como silencioso. Quando desconectado de um dispositivo bluetooth no modo silencioso o volume de mídia será silenciado automaticamente. Isto não afetará fones e periféricos de som externos.</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">Não resumir a mídia após desativar o modo silencioso</string>
+    <string name="mute_sp_summary">Defina o tempo de parada automática para \"0\" ao silenciar o dispositivo, para evitar a reprodução acidental de mídias.(Isto será automaticamente revertido ao desmutar se houver um limite de tempo personalizado)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">Pulsar painel de volume</string>
+    <string name="pulse_panel_summary">Pulsar o painel de volume ao desativar/silenciar</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Tela ambiente durante o carregamento</string>
+    <string name="doze_on_charge_summary">Sempre mostrar a tela ambiente durante o carregamento</string>
 </resources>

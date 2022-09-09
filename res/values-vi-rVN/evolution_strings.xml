@@ -229,10 +229,20 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Chuyển đổi qua các chế độ</string>
     <string name="prevent_ringing_option_cycle_summary">Bật (chuyển đổi qua các chế độ)</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Khoảng trống phía dưới bàn phím</string>
-    <string name="navigation_bar_ime_space_value_narrow">Hẹp</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Độ sáng tự động một lần</string>
     <string name="auto_brightness_one_shot_summary">Chỉ điều chỉnh độ sáng tự động duy nhất lúc màn hình được bật</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">Sử dụng Tắt âm media khi tắt chuông</string>
+    <string name="ringer_mute_speaker_media_title">Tắt âm media khi tắt chuông</string>
+    <string name="ringer_mute_text">Tắt âm lượng media khi chế độ chuông được đặt là im lặng. Khi ngắt kết nối với thiết bị Bluetooth ở chế độ im lặng, âm thanh media sẽ tự động tắt. \nNó sẽ không ảnh hướng đến thiết bị âm thanh bên ngoài và tai nghe.</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">Không tiếp tục phát media sau khi âm lượng được khôi phục</string>
+    <string name="mute_sp_summary">Đặt thời gian chờ của Dừng thông minh về 0 khi tắt âm lượng để tránh phát âm thanh ngoài ý muốn\n (Sẽ tự động phát khi có thời gian chờ khác 0 được đặt)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">Hiện bảng âm lượng</string>
+    <string name="pulse_panel_summary">Hiện bảng âm lượng khi âm lượng được bật/tắt</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">AOD khi sạc</string>
+    <string name="doze_on_charge_summary">Hiển thị trạng thái thiết bị và thông báo khi sạc</string>
 </resources>

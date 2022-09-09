@@ -229,10 +229,20 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">التنقل بين الأوضاع</string>
     <string name="prevent_ringing_option_cycle_summary">تشغيل (التنقل عبر الأوضاع)</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">المساحة تحت لوحة المفاتيح</string>
-    <string name="navigation_bar_ime_space_value_narrow">ضيق</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">سطوع تلقائي لقطة واحدة</string>
     <string name="auto_brightness_one_shot_summary">سيتم تعديل السطوع فقط في اللحظة التي يتم فيها تشغيل الشاشة</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">استخدام كتم الوسائط الصامتة</string>
+    <string name="ringer_mute_speaker_media_title">استخدام كتم الوسائط الصامتة</string>
+    <string name="ringer_mute_text">كتم صوت الوسائط عند تعيين وضع الرنين إلى الصمت. عند قطع الاتصال من جهاز بلوتوث أثناء الوضع الصامت، سيتم كتم صوت الوسائط تلقائيا. \nهذا لن يؤثر على سماعات الصوت والسماعات الهاتفية الخارجية.</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">عدم استئناف الوسائط بعد إلغاء كتم الصوت</string>
+    <string name="mute_sp_summary">تعيين مهلة الإيقاف المؤقت الذكي إلى 0 عند الكتم لمنع التشغيل العرضي\n(سيتم عكس هذا تلقائياً عند إلغاء كتم الصوت إذا كانت هناك مجموعة مهلة مخصصة)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">لوحة صوت النبض</string>
+    <string name="pulse_panel_summary">لوحة صوت النبض عند إلغاء / كتم</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">التشغيل دائماً عند الشحن</string>
+    <string name="doze_on_charge_summary">إظهار شاشة الغفو طوال الوقت أثناء الشحن</string>
 </resources>
