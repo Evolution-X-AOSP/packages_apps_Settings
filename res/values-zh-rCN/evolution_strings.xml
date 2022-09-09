@@ -229,9 +229,6 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">循环模式</string>
     <string name="prevent_ringing_option_cycle_summary">开启 (循环模式)</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">键盘下的空间</string>
-    <string name="navigation_bar_ime_space_value_narrow">紧凑</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">一键自动亮度</string>
     <string name="auto_brightness_one_shot_summary">亮度调整仅在屏幕打开时进行</string>
@@ -245,4 +242,7 @@
     <!-- Pulse Volume Panel on un/mute media-->
     <string name="pulse_panel_title">脉冲音量面板</string>
     <string name="pulse_panel_summary">取消/静音时显示音量面板</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充电时始终开启</string>
+    <string name="doze_on_charge_summary">充电时显示熄屏显示</string>
 </resources>
