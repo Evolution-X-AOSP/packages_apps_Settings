@@ -48,9 +48,8 @@ android_library {
         "src/**/*.java",
         "src/**/*.kt",
         "Evolver/src/**/*.java",
+        "Evolver/src/**/*.kt",
     ],
-
-    aaptflags: ["--extra-packages com.evolution.settings"],
 
     resource_dirs: [
         "res",
@@ -95,15 +94,16 @@ android_library {
         "google-securityhub",
         "vendor.lineage.fastcharge-V1.0-java",
     ],
+    manifest: "AndroidManifest.xml",
+    additional_manifests: ["EvolutionManifest.xml"],
+
+    aaptflags: ["--extra-packages com.evolution.settings"],
 
     libs: [
         "telephony-common",
         "ims-common",
         "app-compat-annotations",
     ],
-    optimize: {
-        proguard_flags_files: ["proguard-core.flags"],
-    },
 }
 
 platform_compat_config {
@@ -127,7 +127,10 @@ android_app {
     uses_libs: ["org.apache.http.legacy"],
     resource_dirs: [],
     optimize: {
-        proguard_flags_files: ["proguard.flags"],
+        proguard_flags_files: [
+            "proguard.flags",
+            "proguard-evolution.flags",
+        ],
     },
 }
 
