@@ -245,4 +245,34 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Állandóan bekapcsolva töltés közben</string>
     <string name="doze_on_charge_summary">Töltés során jelenítse meg a gyorstöltés képernyőt</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Billentyűzet alatti tér</string>
+    <string name="navigation_bar_ime_space_value_narrow">Keskeny</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Teljes</string>
+    <string name="back_height_high_label">Alul</string>
+    <string name="back_options_dialog_title">Lehetőségek</string>
+    <string name="back_height_message">A \'Vissza\'-mozdulat felismeréséhez használt képernyőrész.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Figyelmeztetés: Előfordulhat, hogy ez nem működik megfelelően, vagy adatvesztéshez vezethet, ezért nem ajánlott!</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Teljesképernyős-alkalmazások</string>
+    <string name="display_cutout_force_fullscreen_summary">Alkalmazások kényszerítése, hogy a képernyőkivágást mellőzzék</string>
+    <!-- Clang version -->
+    <string name="clang_version">Clang-verzió</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Rejtett hálózat</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Az Ön által létrehozott hotspot neve nem fog megjelenni a mások által elérhető WLAN-hálózatok listájában.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Soha ne kapcsolja ki a hotspotot</string>
+    <string name="wifi_hotspot_client_manager_title">Csatlakozó készülékek</string>
+    <string name="wifi_hotspot_client_manager_summary">A hotspothoz csatlakoztatott készülékek listája és kezelése</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">A hotspothoz csatlakoztatott készülékek listája</string>
+    <string name="wifi_hotspot_client_limit_title">Maximálisan csatlakoztatható készülék</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blokkolt készülékek</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Csatlakoztatott készülékek</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Készüléktiltás</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Ez a művelet lecsatlakoztatja \"<xliff:g id="device_name">%1$s</xliff:g>\" készüléket erről a hotspotról és tiltólistához adja</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Készülékfeloldás</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">\"<xliff:g id="device_name">%1$s</xliff:g>\"-készülék kapcsolódhat ehhez a hotspothoz</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Jelenleg nincs elérhető kliens. Amint lesz akár csatlakoztatott, akár letiltott, az itt fog megjelenni.</string>
 </resources>

@@ -229,10 +229,50 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Зацикленный переход между режимами</string>
     <string name="prevent_ringing_option_cycle_summary">Вкл. (циклическое переключение режимов)</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Пространство под клавиатурой</string>
-    <string name="navigation_bar_ime_space_value_narrow">Узкое</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Однократная автояркость</string>
     <string name="auto_brightness_one_shot_summary">Регулировка яркости будет происходить только один раз в момент включения экран</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">Использовать беззвучное отключение мультимедиа</string>
+    <string name="ringer_mute_speaker_media_title">Беззвучное отключение мультимедиа</string>
+    <string name="ringer_mute_text">Отключать громкость мультимедиа, когда режим звонка установлен на беззвучный. При отключении от устройства bluetooth в беззвучном режиме громкость мультимедиа будет автоматически отключена. \nЭто не влияет на внешние динамики и наушники.</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">Не возобновлять медиа после отключения звука</string>
+    <string name="mute_sp_summary">Установить тайм-аут смарт-паузы в 0 при отключении звука для предотвращения случайного воспроизведения\n(Это будет автоматически возвращено после отключения звука, если установлен тайм-аут)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">Панель импульсной громкости</string>
+    <string name="pulse_panel_summary">Панель импульсной громкости при отключении звука</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Всегда включенный экран при зарядке</string>
+    <string name="doze_on_charge_summary">Активировать Всегда включенный экран во время зарядки</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Пространство под клавиатурой</string>
+    <string name="navigation_bar_ime_space_value_narrow">Узкое</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Полный</string>
+    <string name="back_height_high_label">Внизу</string>
+    <string name="back_options_dialog_title">Настройки</string>
+    <string name="back_height_message">Величина высоты экрана, используемая в качестве сенсорной области для обратного жеста.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Внимание: Этот параметр может работать неправильно или привести к потере данных, поэтому он не рекомендуется!</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
+    <string name="display_cutout_force_fullscreen_summary">Заставить приложения игнорировать пространство надреза</string>
+    <!-- Clang version -->
+    <string name="clang_version">Версия clang</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Скрытая сеть</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Имя вашей мобильной точки доступа не будет отображаться в списке доступных сетей WLAN.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Никогда не выключать точку доступа</string>
+    <string name="wifi_hotspot_client_manager_title">Подключенные устройства</string>
+    <string name="wifi_hotspot_client_manager_summary">Список устройств, подключенных к точке доступа, и управление ими</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Список устройств, подключенных к точке доступа</string>
+    <string name="wifi_hotspot_client_limit_title">Лимит подключенных устройств</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Заблокированные устройства</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Подключенные устройства</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Заблокировать устройство</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Это действие отключит \"<xliff:g id="device_name">%1$s</xliff:g>\" от этого устройства и добавит его в список блокировки</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать устройство</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Это устройство \"<xliff:g id="device_name">%1$s</xliff:g>\" сможет подключиться к этой точке доступа</string>
+    <string name="wifi_hotspot_client_manager_footer_text">В настоящее время нет доступных клиентов. Подключенные и заблокированные устройства будут перечислены здесь, когда они станут доступны.</string>
 </resources>

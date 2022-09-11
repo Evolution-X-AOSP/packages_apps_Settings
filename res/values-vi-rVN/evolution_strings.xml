@@ -245,4 +245,34 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">AOD khi sạc</string>
     <string name="doze_on_charge_summary">Hiển thị trạng thái thiết bị và thông báo khi sạc</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Khoảng trống phía dưới bàn phím</string>
+    <string name="navigation_bar_ime_space_value_narrow">Hẹp</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Đầy đủ</string>
+    <string name="back_height_high_label">Dưới cùng</string>
+    <string name="back_options_dialog_title">Tùy chọn</string>
+    <string name="back_height_message">Chiều cao màn hình dùng cho khu vực nhận cử chỉ vuốt Trở lại.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Cảnh báo: Tuỳ chọn này không được khuyến khích!. Nó có thể hoạt động không đúng hoặc gây mất dữ liệu</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
+    <string name="display_cutout_force_fullscreen_summary">Buộc các ứng dụng bỏ qua phần khuyết của màn hình</string>
+    <!-- Clang version -->
+    <string name="clang_version">Phiên bản Clang</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Mạng ẩn</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Tên điểm phát sóng di động của bạn sẽ không xuất hiện trong danh sách các mạng wifi khả dụng.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Không bao giờ tắt điểm phát sóng</string>
+    <string name="wifi_hotspot_client_manager_title">Thiết bị đã kết nối</string>
+    <string name="wifi_hotspot_client_manager_summary">Liệt kê và quản lý các thiết bị được kết nối với điểm phát sóng</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Chỉ liệt kê các thiết bị được kết nối với điểm phát sóng</string>
+    <string name="wifi_hotspot_client_limit_title">Giới hạn thiết bị kết nối</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Các thiết bị đã chặn</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Thiết bị đã kết nối</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Chặn thiết bị</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Hành động này sẽ ngắt kết nối \"<xliff:g id="device_name">%1$s</xliff:g>\" khỏi thiết bị này và thêm thiết bị vào danh sách chặn</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Bỏ chặn thiết bị</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Thiết bị \"<xliff:g id="device_name">%1$s</xliff:g>\" sẽ có thể kết nối với điểm phát sóng này</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Không có máy khách hiện có sẵn. Các thiết bị đã kết nối và bị chặn sẽ được liệt kê ở đây khi có sẵn.</string>
 </resources>
