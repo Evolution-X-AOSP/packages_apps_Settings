@@ -245,4 +245,19 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">AOD khi sạc</string>
     <string name="doze_on_charge_summary">Hiển thị trạng thái thiết bị và thông báo khi sạc</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Khoảng trống phía dưới bàn phím</string>
+    <string name="navigation_bar_ime_space_value_narrow">Hẹp</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Đầy đủ</string>
+    <string name="back_height_high_label">Dưới cùng</string>
+    <string name="back_options_dialog_title">Tùy chọn</string>
+    <string name="back_height_message">Chiều cao màn hình dùng cho khu vực nhận cử chỉ vuốt Trở lại.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Cảnh báo: Tuỳ chọn này không được khuyến khích!. Nó có thể hoạt động không đúng hoặc gây mất dữ liệu</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
+    <string name="display_cutout_force_fullscreen_summary">Buộc các ứng dụng bỏ qua phần khuyết của màn hình</string>
+    <!-- Clang version -->
+    <string name="clang_version">Phiên bản Clang</string>
 </resources>
