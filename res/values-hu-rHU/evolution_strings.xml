@@ -245,4 +245,19 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Állandóan bekapcsolva töltés közben</string>
     <string name="doze_on_charge_summary">Töltés során jelenítse meg a gyorstöltés képernyőt</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Billentyűzet alatti tér</string>
+    <string name="navigation_bar_ime_space_value_narrow">Keskeny</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Teljes</string>
+    <string name="back_height_high_label">Alul</string>
+    <string name="back_options_dialog_title">Lehetőségek</string>
+    <string name="back_height_message">A \'Vissza\'-mozdulat felismeréséhez használt képernyőrész.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Figyelmeztetés: Előfordulhat, hogy ez nem működik megfelelően, vagy adatvesztéshez vezethet, ezért nem ajánlott!</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Teljesképernyős-alkalmazások</string>
+    <string name="display_cutout_force_fullscreen_summary">Alkalmazások kényszerítése, hogy a képernyőkivágást mellőzzék</string>
+    <!-- Clang version -->
+    <string name="clang_version">Clang-verzió</string>
 </resources>
