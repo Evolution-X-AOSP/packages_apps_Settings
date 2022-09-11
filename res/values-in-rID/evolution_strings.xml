@@ -229,9 +229,6 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Melalui mode siklus</string>
     <string name="prevent_ringing_option_cycle_summary">Aktif (Melalui mode siklus)</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Ruang di bawah keyboard</string>
-    <string name="navigation_bar_ime_space_value_narrow">Sempit</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Kecerahan otomatis satu bidikan</string>
     <string name="auto_brightness_one_shot_summary">Penyesuaian kecerahan hanya akan terjadi pada saat layar dihidupkan</string>
@@ -245,4 +242,22 @@
     <!-- Pulse Volume Panel on un/mute media-->
     <string name="pulse_panel_title">Visual Panel Volume</string>
     <string name="pulse_panel_summary">Visual Panel Volume saat membuka/mematikan</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Selalu menyala saat mengisi daya</string>
+    <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Ruang di bawah keyboard</string>
+    <string name="navigation_bar_ime_space_value_narrow">Sempit</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Penuh</string>
+    <string name="back_height_high_label">Bawah</string>
+    <string name="back_options_dialog_title">Opsi</string>
+    <string name="back_height_message">Jumlah ketinggian layar digunakan sebagai daerah yang dapat disentuh untuk gestur kembali.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Peringatan: Opsi ini mungkin tidak berfungsi dengan baik atau menyebabkan hilangnya data dan oleh karena itu tidak disarankan!</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
+    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
+    <!-- Clang version -->
+    <string name="clang_version">Versi Clang</string>
 </resources>
