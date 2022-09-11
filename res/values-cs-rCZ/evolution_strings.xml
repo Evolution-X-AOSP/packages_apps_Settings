@@ -68,7 +68,7 @@
     <string name="adaptive_playback_timeout_title">Použít časový limit pro</string>
     <string name="adaptive_playback_timeout_none">Žádný časový limit</string>
     <string name="adaptive_playback_timeout_none_summary">Zapnuto (žádný časový limit)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 vteřin</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Zapnuto (30 vteřin)</string>
     <string name="adaptive_playback_timeout_1_min">1 minuta</string>
     <string name="adaptive_playback_timeout_1_min_summary">Zapnuto (1 minuta)</string>
@@ -245,4 +245,19 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Vždy zapnuto při nabíjení</string>
     <string name="doze_on_charge_summary">Při nabíjení vždy zobrazit obrazovku Doze</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Prostor pod klávesnicí</string>
+    <string name="navigation_bar_ime_space_value_narrow">Úzký</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Plný</string>
+    <string name="back_height_high_label">Dole</string>
+    <string name="back_options_dialog_title">Možnosti</string>
+    <string name="back_height_message">Hodnota výšky obrazovky použité jako dotyková oblast pro gesto Zpět.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Varování: Tato možnost nemusí fungovat správně nebo může vést ke ztrátě dat, proto se nedoporučuje!</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikace přes celou obrazovku</string>
+    <string name="display_cutout_force_fullscreen_summary">Vynutit, aby aplikace ignorovaly výřez v displeji</string>
+    <!-- Clang version -->
+    <string name="clang_version">Verze Clang</string>
 </resources>
