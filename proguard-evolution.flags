@@ -1,2 +1,2 @@
-# The Evolver
+# The Evolver: Keep all classes.
 -keep class com.evolution.settings.**
