@@ -275,4 +275,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">端末をブロック解除</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">端末 \"<xliff:g id="device_name">%1$s</xliff:g>\" はこのホットスポットへ接続可能になります</string>
     <string name="wifi_hotspot_client_manager_footer_text">利用可能なクライアントは現在ありません。利用可能になった時に接続済みまたはブロック済みの端末はこのリストに表示されます。</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">証明書が指定されていません。この接続ではプライバシーは保護されません。</string>
 </resources>

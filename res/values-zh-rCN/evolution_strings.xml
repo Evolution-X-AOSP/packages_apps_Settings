@@ -143,7 +143,7 @@
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">自动关闭 Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">在设定时间后自动关闭Wi-Fi。</string>
+    <string name="wifi_timeout_summary">在设定时间后自动关闭 Wi-Fi</string>
     <string name="wifi_timeout_summary1">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
     <string name="wifi_timeout_summary2">已禁用</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
@@ -245,4 +245,36 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充电时始终开启</string>
     <string name="doze_on_charge_summary">充电时显示熄屏显示</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">键盘下的空间</string>
+    <string name="navigation_bar_ime_space_value_narrow">紧凑</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">全屏</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">选项</string>
+    <string name="back_height_message">屏幕高度用作返回手势的可触摸区域</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">警告: 此选项可能无法正常工作或导致数据丢失, 因此不推荐!</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">全屏应用</string>
+    <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域</string>
+    <!-- Clang version -->
+    <string name="clang_version">Clang 版本</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">隐藏的网络</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的移动热点名称不会出现在可用的 WLAN 网络列表中</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">始终不关闭热点</string>
+    <string name="wifi_hotspot_client_manager_title">已连接的设备</string>
+    <string name="wifi_hotspot_client_manager_summary">列出并管理连接到热点的设备</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出连接到热点的设备</string>
+    <string name="wifi_hotspot_client_limit_title">已连接设备的限制</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已阻止的设备</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">阻止设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作将断开 \"<xliff:g id="device_name">%1$s</xliff:g>\" 与该设备的连接，并将其添加到阻止列表中</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">解封设备</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到这个热点</string>
+    <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端。如果可用，将在此处列出已连接和已阻止的设备。</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">未指定任何证书，您的网络连接将不是私密连接</string>
 </resources>
