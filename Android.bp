@@ -111,9 +111,6 @@ android_library {
         "telephony-common",
         "ims-common",
     ],
-    optimize: {
-        proguard_flags_files: ["proguard-core.flags"],
-    },
 }
 
 platform_compat_config {
