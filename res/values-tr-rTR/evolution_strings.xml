@@ -229,10 +229,52 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Modlar arasında geçiş yap</string>
     <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanı</string>
-    <string name="navigation_bar_ime_space_value_narrow">Dar</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Tek seferlik otomatik parlaklık</string>
     <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">Sessiz modda sessiz medya kullan</string>
+    <string name="ringer_mute_speaker_media_title">Sessiz modda sessiz medya</string>
+    <string name="ringer_mute_text">Zil sesi modu sessiz olduğunda medya da sessiz olur. Sessiz modda herhangi bir bluetooth cihazından bağlantıyı kesince medya sesi otomatik olarak sessize alınacak. \n Harici hoparlörler ve kulaklıklar bundan etkilenmez.</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">Sesi açınca medyayı devam ettirme</string>
+    <string name="mute_sp_summary">Yanlışlıkla oynatmayı engellemek için akıllı duraklatma zaman aşımını 0 olarak ayarlayın\n(Eğer özel bir zaman aşımı ayarlandıysa otomatik olarak devre dışı kalır)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">Bulanık ses paneli</string>
+    <string name="pulse_panel_summary">Bulanık ses paneli açılırken/sessize alınırken</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
+    <string name="doze_on_charge_summary">Şarj olurken her zaman ortam ekranını göster</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanı</string>
+    <string name="navigation_bar_ime_space_value_narrow">Dar</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Tam</string>
+    <string name="back_height_high_label">Alt</string>
+    <string name="back_options_dialog_title">Seçenekler</string>
+    <string name="back_height_message">Geri hareketi için dokunulabilir bölge olarak kullanılan ekran yüksekliği miktarı.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Uyarı: Bu özellik düzgün çalışmayabileceğinden veya veri kaybına neden olabileceğinden önerilmez!</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamaları</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
+    <!-- Clang version -->
+    <string name="clang_version">Clang versiyonu</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Hotspot isminiz uygun WLAN ağları listesinde görünmeyecek.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Hotspot\'u asla kapatma</string>
+    <string name="wifi_hotspot_client_manager_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_client_manager_summary">Hotspot a bağlı cihazları görüntüle ve yönet, bağlı cihaz limiti ayarla</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Bağlı cihazları listele</string>
+    <string name="wifi_hotspot_client_limit_title">Bağlı cihaz sınırı</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Engellenen cihazlar</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Cihazı engelle</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Bu eylem \"<xliff:g id="device_name">%1$s</xliff:g>\" bu cihazdan bağlantıyı kesecek ve kara listeye ekleyecek</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Cihazın engelini kaldır</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu hotspot a bağlanabilecek</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecek.</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Sertifika belirtilmedi. Bağlantınız gizli olmayacak.</string>
 </resources>
