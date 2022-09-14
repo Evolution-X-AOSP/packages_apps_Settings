@@ -4597,6 +4597,8 @@
     <string name="accessibility_introduction_title">About <xliff:g id="service" example="Select to Speak">%1$s</xliff:g></string>
     <!-- Title for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_title">Display size and text</string>
+    <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_text_reading_options_summary">Customize display size, font &amp; text</string>
     <!-- Title for the entry of the text reading options. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_suggestion_title">Change how text displays</string>
     <!-- Subject for the mail content of the accessibility text reading preview. [CHAR LIMIT=NONE] -->
