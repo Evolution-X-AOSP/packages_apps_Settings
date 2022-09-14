@@ -245,4 +245,36 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">AOD durante la ricarica</string>
     <string name="doze_on_charge_summary">Mostra l\'Always-On Display durante la ricarica</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Spazio sotto la tastiera</string>
+    <string name="navigation_bar_ime_space_value_narrow">Sottile</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Intero</string>
+    <string name="back_height_high_label">Schermo inferiore</string>
+    <string name="back_options_dialog_title">Opzioni</string>
+    <string name="back_height_message">Porzione di schermo usata come regione di tocco per il gesto indietro.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Attenzione: questa opzione potrebbe non funzionare correttamente o portare alla perdita di dati e quindi non è raccomandata!</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">App a schermo intero</string>
+    <string name="display_cutout_force_fullscreen_summary">Forza le app a ignorare lo spazio del notch</string>
+    <!-- Clang version -->
+    <string name="clang_version">Versione Clang</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Rete nascosta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Il nome del tuo hotspot non apparirà nella lista delle reti Wi-Fi disponibili.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Non spegnere mai l\'hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivi connessi</string>
+    <string name="wifi_hotspot_client_manager_summary">Elenca e gestisci i dispositivi connessi all\'hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Elenca i dispositivi connessi all\'hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limite di dispositivi connessi</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivi bloccati</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivi connessi</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blocca dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Questa azione disconnetterà \"<xliff:g id="device_name">%1$s</xliff:g>\" da questo dispositivo e la aggiungerà alla lista di blocco</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Sblocca dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Il dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" potrà connettersi a questo hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nessun client è al momento disponibile. I dispositivi connessi e bloccati saranno elencati qui quando disponibili.</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Nessun certificato specificato. La connessione non sarà privata.</string>
 </resources>

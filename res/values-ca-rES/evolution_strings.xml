@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2022 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">L\'Evolucionador</string>
+    <string name="evolver_dashboard_summary">Et donem la benvinguda al centre d\'Evolution</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">RAM total</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Versió d\'Evolution X</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">Data de compilació</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Manteniment de la compilació</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Estat d\'SELinux</string>
+    <string name="selinux_status_disabled">Desactivat</string>
+    <string name="selinux_status_permissive">Permissiu</string>
+    <string name="selinux_status_enforcing">Forçat</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostra l\'historial de notificacions</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menys d\'un minut</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s avui</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura de la bateria</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Llisca per a fer una captura</string>
+    <string name="swipe_to_screenshot_gesture_summary">Llisca amb tres dits per a fer una captura de pantalla</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Evita l\'encesa accidental</string>
+    <string name="proximity_wake_summary">Comprova el sensor de proximitat abans d\'encendre la pantalla</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Freqüència de refresc mínima</string>
+    <string name="max_refresh_rate_title">Freqüència de refresc màxima</string>
+    <string name="low_power_refresh_rate_title_custom">Frequüència de refresc amb bateria baixa</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Càrrega ràpida</string>
+    <string name="fast_charging_summary">Desactiveu-la per a reduir la calor produïda pel dispositiu mentre es carrega, o per a ampliar la vida útil de la bateria</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">So de captura de pantalla</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localitza el sensor d\'empremtes digitals a la part davantera de la tauleta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localitza el sensor d\'empremtes digitals a la part davantera del dispositiu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localitza el sensor d\'empremtes digitals a la part davantera del telèfon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localitza el sensor d\'empremtes digitals a la part posterior de la tauleta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localitza el sensor d\'empremtes digitals a la part posterior del dispositiu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localitza el sensor d\'empremtes digitals a la part posterior del telèfon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localitza el sensor d\'empremtes digitals al lateral de la tauleta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localitza el sensor d\'empremtes digitals al lateral del dispositiu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localitza el sensor d\'empremtes digitals al lateral del mòbil.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Toca el sensor a la part davantera del mòbil.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Toca el sensor a la part posterior del mòbil.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Toca el sensor al lateral del mòbil.</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pausa intel·ligent</string>
+    <string name="adaptive_playback_master_switch_title">Utilitza la pausa intel·ligent</string>
+    <string name="adaptive_playback_disabled_summary">Desactivat</string>
+    <string name="adaptive_playback_intro_text">Posa en pausa automàticament la reproducció quan el volum està silenciat i la reprèn quan augmenta el volum en el temps seleccionat.</string>
+    <string name="adaptive_playback_timeout_title">Usa un temps d\'espera</string>
+    <string name="adaptive_playback_timeout_none">Sense temps d\'espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Activat (sense temps d\'espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segons</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activat (30 segons)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minut</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activat (1 minut)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuts</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activat (2 minuts)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minuts</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activat (5 minuts)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minuts</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activat (10 minuts)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Control de reproducció</string>
+    <string name="volume_button_music_control_summary">Amb la pantalla apagada, mantenir polsades les tecles de volum canvia la pista de música</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doble toc</string>
+    <string name="doze_double_tap_title">Doble toc per a consultar el telèfon</string>
+    <string name="doze_double_tap_summary">Mostra les notificacions amb un doble toc</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Toca l\'empremta per a desbloquejar</string>
+    <string name="fingerprint_wake_unlock_touch">Respon als esdeveniments amb la pantalla apagada</string>
+    <string name="fingerprint_wake_unlock_press">Només respon als esdeveniments amb la pantalla encesa</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Disposició aleatòria</string>
+    <string name="unlock_scramble_pin_layout_summary">Disposa aleatòriament les tecles del PIN per a desbloquejar el dispositiu</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Tria una mida de patró</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Mostra el patró erroni</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Mostra els punts del patró</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueig ràpid</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloqueja automàticament quan s\'introdueixi el PIN o contrasenya correctes</string>
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">Barra de navegació</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Longitud de la línia</string>
+    <string name="hide_label">Amagat</string>
+    <string name="long_label">Llarga</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Encén en endollar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Encén la pantalla en connectar o desconnectar una font d\'energia</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">S\'ha copiat al porta-retalls</string>
+    <string name="longpress_to_clipboard">Mantén per a copiar</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Càrrega intel·ligent</string>
+    <string name="smart_charging_summary">Estableix un nivell màxim de càrrega</string>
+    <string name="smart_charging_master_switch_title">Utilitza la càrrega intel·ligent</string>
+    <string name="smart_charging_level_title">Nivell per a aturar la càrrega</string>
+    <string name="smart_charging_resume_level_title">Nivell per a iniciar la càrrega</string>
+    <string name="smart_charging_reset_stats_title">Restableix les estadístiques de la bateria</string>
+    <string name="smart_charging_reset_stats_summary">Restableix les estadístiques de la bateria en arribar al nivell de càrrega definit per l\'usuari</string>
+    <string name="smart_charging_footer">La càrrega intel·ligent et permet definir un nivell màxim de càrrega per a allargar la vida útil de la bateria</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animació del gest cap enrere</string>
+    <string name="back_gesture_arrow_summary">Mostra una fletxa animada per al gest d\'enrere</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Detecció de butxaca</string>
+    <string name="pocket_judge_summary">Bloqueja les entrades de pantalla i botons quan el dispositiu es troba a la butxaca</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Informació del paquet</string>
+    <string name="package_name">Nom del paquet</string>
+    <string name="package_version">Versió del paquet</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permet als clients utilitzar les VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permet que els clients del punt d\'accés utilitzin les connexions VPN d\'aquest dispositiu per a la connexió de pujada</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Efecte de zoom del fons de pantalla</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Apropa el fons de pantalla per mostrar una animació de profunditat. Pot disminuir la qualitat dels fons de pantalla</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Desactiva la Wi-Fi automàticament</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Desactiva la Wi-Fi automàticament després de cert temps.</string>
+    <string name="wifi_timeout_summary1">La WiFi s\'apagarà en <xliff:g id="timeout_description">%1$s</xliff:g> si no s\'ha connectat a cap xarxa</string>
+    <string name="wifi_timeout_summary2">Desactivat</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Temps d\'espera del Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">El Bluetooth s\'apagarà en <xliff:g id="timeout_description">%1$s</xliff:g> si no hi ha cap dispositiu connectat</string>
+    <string name="bluetooth_timeout_summary2">No apaguis automàticament el Bluetooth</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilitat tàctil</string>
+    <string name="high_touch_sensitivity_summary">Augmenta la sensibilitat de la pantalla tàctil per a poder utilitzar-la amb guants</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Passa per sobre amb pantalla tàctil</string>
+    <string name="touchscreen_hovering_summary">Et permet passar per sobre com un ratolí en els navegadors web, escriptoris remots, etc</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Taxa tàctil elevada</string>
+    <string name="high_touch_polling_rate_summary">Augmenta la taxa de petició tàctil de la pantalla</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimitza la pantalla basant-se en l\'hora del dia i les condicions ambientals per a millorar la llegibilitat i reduir la fatiga ocular</string>
+    <string name="live_display_mode">Mode de visualització</string>
+    <string name="live_display_color_temperature_title">Temperatura de color</string>
+    <string name="live_display_color_temperature_summary">Dia <xliff:g id="day_temperature">%1$d</xliff:g> K  Nit: <xliff:g id="night_temperature">%2$d</xliff:g> K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Dia</string>
+    <string name="live_display_night">Nit</string>
+    <string name="live_display_outdoor_mode_title">Mode d\'exterior automàtic</string>
+    <string name="live_display_outdoor_mode_summary">Augmenta la brillantor i la saturació automàticament sota la llum del sol intens</string>
+    <string name="live_display_anti_flicker_title">Antiparpelleig</string>
+    <string name="live_display_anti_flicker_summary">Evita el parpelleig extensiu i redueix la fatiga visual en condicions de poca llum. Pot degradar la precisió del color i afectar la manera com es mostren alguns elements.</string>
+    <string name="live_display_low_power_title">Redueix el consum d\'energia</string>
+    <string name="live_display_low_power_summary">Ajusta la pantalla per a un consum d\'energia més baix però sense degradació</string>
+    <string name="live_display_enhance_color_title">Millora els colors</string>
+    <string name="live_display_enhance_color_summary">Millora la vividesa del color dels tons de la pell, paisatges i altres imatges</string>
+    <string name="live_display_color_profile_title">Perfil de color</string>
+    <string name="live_display_color_profile_standard_title">Estàndard</string>
+    <string name="live_display_color_profile_standard_summary">Colors precisos i blancs brillants</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Colors realistes i tons de la pell</string>
+    <string name="live_display_color_profile_dynamic_title">Dinàmic</string>
+    <string name="live_display_color_profile_dynamic_summary">Colors realçats i blancs brillants</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Reproducció perfecta de color per a vídeo</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomia</string>
+    <string name="live_display_color_profile_astronomy_summary">Vermells profunds per preservar la visió nocturna</string>
+    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_summary">Reproducció del color perfecta per a fotos</string>
+    <string name="live_display_color_profile_basic_title">Bàsic</string>
+    <string name="live_display_color_profile_basic_summary">Utilitza la pantalla sense calibrar</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptatiu</string>
+    <string name="live_display_color_profile_adaptive_summary">Els colors s\'adapten a les condicions ambientals</string>
+    <string name="live_display_color_profile_reading_title">Lectura</string>
+    <string name="live_display_color_profile_reading_summary">Colors càlids per a reduir la fatiga visual</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Colors fidels a l\'espai de colors sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colors fidels a l\'espai de colors DCI-P3</string>
+    <string name="live_display_reading_mode_title">Mode de lectura</string>
+    <string name="live_display_reading_mode_summary">Mode d\'escala de grisos per a lectures prolongades</string>
+    <string name="color_calibration_title">Calibració de color</string>
+    <string name="color_calibration_summary">Calibra els colors de la pantalla</string>
+    <string name="color_red_title">Vermell</string>
+    <string name="color_green_title">Verd</string>
+    <string name="color_blue_title">Blau</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajustament d\'image</string>
+    <string name="picture_adjustment_summary">Ajusta la tonalitat, intensitat i contrast</string>
+    <string name="adj_hue_title">To</string>
+    <string name="adj_saturation_title">Saturació</string>
+    <string name="adj_intensity_title">Intensitat</string>
+    <string name="adj_contrast_title">Contrast</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Vincula el to de telefonada i el volum de notificació</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Volum de to de telefonada ascendent</string>
+    <string name="increasing_ring_min_volume_title">Volum inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Temps d\'increment</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volum de l\'aplicació</string>
+    <string name="app_volume_title">Control de volum per aplicació</string>
+    <string name="app_volume_summary">Permet nivells de volums diferents per a cada aplicació</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Depuració amb accés d\'arrel</string>
+    <string name="adb_enable_summary_root">Permet executar la depuració d\'Android amb accés d\'arrel</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cicle entre els modes</string>
+    <string name="prevent_ringing_option_cycle_summary">Activat (cicle entre els modes)</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Ajusta la brillantor una sola vegada</string>
+    <string name="auto_brightness_one_shot_summary">L\'ajust de la brillantor només es produirà en el moment en què s\'encén la pantalla</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">Utilitza el silenci de multimèdia</string>
+    <string name="ringer_mute_speaker_media_title">Silencia la multimèdia</string>
+    <string name="ringer_mute_text">Silencia la multimèdia quan el mode de silenci està activat. Quan es desconnecta d\'un dispositiu Bluetooth en el mode de silenci, el volum multimèdia se silenciarà automàticament. \nAixò no afectarà els altaveus i auriculars externs.</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">No reprenguis la multimèdia en activar el so</string>
+    <string name="mute_sp_summary">Estableix el temps d\'espera de la pausa intel·ligent a 0 quan se silencia per evitar la reproducció accidental\n(Això es revertirà automàticament en activar el so si hi ha definit un valor personalitzat)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">Mostra el panell de volum</string>
+    <string name="pulse_panel_summary">Mostra el panell de volum en activar/silenciar el so</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Sempre activa durant la càrrega</string>
+    <string name="doze_on_charge_summary">Mostra la pantalla ambiental permanentment durant la càrrega</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Espai davall del teclat</string>
+    <string name="navigation_bar_ime_space_value_narrow">Estret</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Màxim</string>
+    <string name="back_height_high_label">Part inferior</string>
+    <string name="back_options_dialog_title">Opcions</string>
+    <string name="back_height_message">Alçada de la pantalla que es fa servir com a regió per al gest d\'enrere.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Atenció: Aquesta opció pot no funcionar correctament o provocar pèrdues de dades, per tant, no es recomana!</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicacions a pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Força les aplicacions a ignorar l\'espai del «notch»</string>
+    <!-- Clang version -->
+    <string name="clang_version">Versió de Clang</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Xarxa amagada</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">El nom del punt d\'accés mòbil no apareixerà en la llista de xarxes WLAN disponibles.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">No activis mai el punt d\'accés</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositius connectats</string>
+    <string name="wifi_hotspot_client_manager_summary">Llista i gestiona els dispositius connectats al punt d\'accés</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Llista de dispositius connectats al punt d\'accés</string>
+    <string name="wifi_hotspot_client_limit_title">Límit de dispositius connectats</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositius bloquejats</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositius connectats</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloqueja el dispositiu</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Aquesta acció desconnectarà «<xliff:g id="device_name">%1$s</xliff:g>» del dispositiu i l\'afegirà a la llista de bloqueig</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloqueja el dispositiu</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">El dispositiu «<xliff:g id="device_name">%1$s</xliff:g>» es podrà connectar al punt d\'accés</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No hi ha clients disponibles ara mateix. Els dispositius connectats i bloquejats es mostraran aquí en estar disponibles.</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No s\'ha especificat cap certificat. La connexió no serà privada.</string>
+</resources>
