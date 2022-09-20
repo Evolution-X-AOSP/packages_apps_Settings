@@ -277,4 +277,11 @@
     <string name="wifi_hotspot_client_manager_footer_text">利用可能なクライアントは現在ありません。利用可能になった時に接続済みまたはブロック済みの端末はこのリストに表示されます。</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">証明書が指定されていません。この接続ではプライバシーは保護されません。</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">充電時の音</string>
+    <string name="charging_vibro_title">充電時の振動</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">ピルの丸みの半径</string>
+    <string name="thin_label">細い</string>
+    <string name="thick_label">太い</string>
 </resources>

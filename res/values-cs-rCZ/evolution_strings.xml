@@ -277,4 +277,11 @@
     <string name="wifi_hotspot_client_manager_footer_text">Aktuálně nejsou k dispozici žádní klienti. Připojená a blokovaná zařízení budou zobrazena v případě, že budou k dostupná.</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Není určen žádný certifikát. Připojení nebude soukromé.</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Zvuk při nabíjení</string>
+    <string name="charging_vibro_title">Vibrace při nabíjení</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Poloměr pilulky</string>
+    <string name="thin_label">Tenký</string>
+    <string name="thick_label">Tlustý</string>
 </resources>

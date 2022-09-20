@@ -277,4 +277,11 @@
     <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang terhubung dan diblokir akan dicantumkan di sini jika tersedia.</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Tidak ada sertifikat yang ditentukan. Koneksi Anda tidak akan bersifat pribadi.</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Suara pengisian daya</string>
+    <string name="charging_vibro_title">Getaran pengisian daya</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Radius gestur bilah navigasi</string>
+    <string name="thin_label">Tipis</string>
+    <string name="thick_label">Tebal</string>
 </resources>
