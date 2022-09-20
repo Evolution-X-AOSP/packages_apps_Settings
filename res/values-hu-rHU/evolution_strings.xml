@@ -5,8 +5,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver (a Fejlesztő)</string>
-    <string name="evolver_dashboard_summary">Üdvözlet az \'Evolúció előestéjén\'!</string>
+    <string name="evolver_dashboard_title">Az Evolver</string>
+    <string name="evolver_dashboard_summary">Üdvözlünk az \'Evolúció kezdetén\'!</string>
     <!-- Hardware info -->
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Az összes RAM</string>
