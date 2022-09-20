@@ -5,8 +5,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver (a Fejlesztő)</string>
-    <string name="evolver_dashboard_summary">Üdvözlet az \'Evolúció előestéjén\'!</string>
+    <string name="evolver_dashboard_title">Az Evolver</string>
+    <string name="evolver_dashboard_summary">Üdvözlünk az \'Evolúció kezdetén\'!</string>
     <!-- Hardware info -->
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Az összes RAM</string>
@@ -277,4 +277,11 @@
     <string name="wifi_hotspot_client_manager_footer_text">Jelenleg nincs elérhető kliens. Amint lesz akár csatlakoztatott, akár letiltott, az itt fog megjelenni.</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nincs tanusítvány megadva. Kapcsolata nem lesz privát.</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Töltési hang</string>
+    <string name="charging_vibro_title">Töltési rezgés</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">A kapszula rádiusza</string>
+    <string name="thin_label">Vékony</string>
+    <string name="thick_label">Vastag</string>
 </resources>

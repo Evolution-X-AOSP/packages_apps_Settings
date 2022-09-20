@@ -277,4 +277,11 @@
     <string name="wifi_hotspot_client_manager_footer_text">No hi ha clients disponibles ara mateix. Els dispositius connectats i bloquejats es mostraran aquí en estar disponibles.</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">No s\'ha especificat cap certificat. La connexió no serà privada.</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">So de càrrega</string>
+    <string name="charging_vibro_title">Vibració de càrrega</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Radi de la pastilla</string>
+    <string name="thin_label">Prim</string>
+    <string name="thick_label">Gros</string>
 </resources>
