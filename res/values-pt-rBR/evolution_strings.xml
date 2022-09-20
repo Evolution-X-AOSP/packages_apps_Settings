@@ -277,4 +277,11 @@
     <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente está disponível no momento. Dispositivos conectados e bloqueados serão listados aqui quando disponível.</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. Sua conexão não será privada.</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Som de carregamento</string>
+    <string name="charging_vibro_title">Vibrar ao plugar</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Altura da barra de gestos</string>
+    <string name="thin_label">Fino</string>
+    <string name="thick_label">Espesso</string>
 </resources>
