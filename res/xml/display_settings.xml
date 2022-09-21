@@ -258,13 +258,5 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
 
-        <!-- Screen OFF FOD -->
-        <com.evolution.settings.preference.SecureSettingSwitchPreference
-            android:key="screen_off_udfps_enabled"
-            android:title="@string/screen_off_udfps_title"
-            android:summary="@string/screen_off_udfps_summary"
-            android:defaultValue="false"
-            settings:controller="com.android.settings.security.UdfpsGesturePreferenceController" />
-
     </PreferenceCategory>
 </PreferenceScreen>
