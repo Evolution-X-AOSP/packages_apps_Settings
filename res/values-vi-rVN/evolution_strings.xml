@@ -277,4 +277,15 @@
     <string name="wifi_hotspot_client_manager_footer_text">Không có máy khách hiện có sẵn. Các thiết bị đã kết nối và bị chặn sẽ được liệt kê ở đây khi có sẵn.</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Không có chứng chỉ nào được chỉ định. Kết nối của bạn sẽ không phải là riêng tư.</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Âm thanh cắm sạc</string>
+    <string name="charging_vibro_title">Rung khi cắm sạc</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Độ dày thanh cử chỉ</string>
+    <string name="thin_label">Mỏng</string>
+    <string name="thick_label">Dày</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Nhấn giữ cảm biến vân tay để mở khóa thiết bị</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Để đánh thức màn hình và mở khóa, hãy nhấn giữ cảm biến vân tay dưới màn hình của bạn.</string>
 </resources>
