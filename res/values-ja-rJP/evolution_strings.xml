@@ -284,4 +284,8 @@
     <string name="gesture_navbar_radius_title">ピルの丸みの半径</string>
     <string name="thin_label">細い</string>
     <string name="thick_label">太い</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">指紋センサー長押しでロック解除</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">画面内指紋センサーを長押しして画面復帰とロック解除をする</string>
 </resources>
