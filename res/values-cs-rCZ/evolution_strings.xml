@@ -284,4 +284,8 @@
     <string name="gesture_navbar_radius_title">Poloměr pilulky</string>
     <string name="thin_label">Tenký</string>
     <string name="thick_label">Tlustý</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Dlouhým stisknutím snímače otisků prstů odemknout zařízení</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Chcete-li obrazovku probudit a odemknout, dlouze stiskněte snímač otisků prstů v displeji.</string>
 </resources>
