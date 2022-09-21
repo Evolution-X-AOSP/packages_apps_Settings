@@ -277,4 +277,15 @@
     <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端。如果可用，将在此处列出已连接和已阻止的设备。</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">未指定任何证书，您的网络连接将不是私密连接</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">充电提示音</string>
+    <string name="charging_vibro_title">充电时振动</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">手势导航栏半径</string>
+    <string name="thin_label">细</string>
+    <string name="thick_label">粗</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">长按指纹传感器以解锁设备</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">要唤醒您的屏幕并解锁，长按您的屏下指纹传感器。</string>
 </resources>
