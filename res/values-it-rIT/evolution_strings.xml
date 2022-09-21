@@ -284,4 +284,8 @@
     <string name="gesture_navbar_radius_title">Raggio della barra</string>
     <string name="thin_label">Sottile</string>
     <string name="thick_label">Spesso</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Pressione prolungata sul sensore d\'impronte per sbloccare</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Per accendere lo schermo e sbloccare, premere a lungo il sensore d\'impronte digitali sotto al display.</string>
 </resources>
