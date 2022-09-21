@@ -284,4 +284,8 @@
     <string name="gesture_navbar_radius_title">A kapszula rádiusza</string>
     <string name="thin_label">Vékony</string>
     <string name="thick_label">Vastag</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Az ujjlenyomat-olvasó hosszannyomásával feloldható a készülék</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">A képernyő felébresztéséhez és feloldásához nyomja meg hosszan a képernyőbe épitett ujjlenyomat-olvasót.</string>
 </resources>
