@@ -360,4 +360,9 @@
     <string name="battery_stats_reset">Clear usage data?</string>
     <string name="battery_stats_message">Battery usage data will be lost\n(This has no effect on the pixel stats)</string>
     <string name="battery_stats_clear">@string/proxy_clear_text</string>
+
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
 </resources>
