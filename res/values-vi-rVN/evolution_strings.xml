@@ -277,4 +277,21 @@
     <string name="wifi_hotspot_client_manager_footer_text">Không có máy khách hiện có sẵn. Các thiết bị đã kết nối và bị chặn sẽ được liệt kê ở đây khi có sẵn.</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Không có chứng chỉ nào được chỉ định. Kết nối của bạn sẽ không phải là riêng tư.</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Âm thanh cắm sạc</string>
+    <string name="charging_vibro_title">Rung khi cắm sạc</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Độ dày thanh cử chỉ</string>
+    <string name="thin_label">Mỏng</string>
+    <string name="thick_label">Dày</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Tiến trình dưới nền</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Xoá thống kê pin?</string>
+    <string name="battery_stats_message">Dữ liệu sử dụng pin sẽ bị mất\n(Điều này không ảnh hưởng tới bảng pin Pixel)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
+    <string name="designed_battery_capacity">Dung lượng pin thiết kế</string>
+    <string name="battery_charge_cycles">Chu kỳ pin được sạc đầy</string>
 </resources>
