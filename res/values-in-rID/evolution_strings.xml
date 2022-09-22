@@ -284,4 +284,6 @@
     <string name="gesture_navbar_radius_title">Radius gestur bilah navigasi</string>
     <string name="thin_label">Tipis</string>
     <string name="thick_label">Tebal</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Proses latar belakang</string>
 </resources>
