@@ -286,10 +286,6 @@
     <string name="thick_label">Dày</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Tiến trình dưới nền</string>
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Xoá thống kê pin?</string>
-    <string name="battery_stats_message">Dữ liệu sử dụng pin sẽ bị mất\n(Điều này không ảnh hưởng tới bảng pin Pixel)</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
     <string name="designed_battery_capacity">Dung lượng pin thiết kế</string>
