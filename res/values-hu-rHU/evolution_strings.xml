@@ -284,4 +284,6 @@
     <string name="gesture_navbar_radius_title">A kapszula rádiusza</string>
     <string name="thin_label">Vékony</string>
     <string name="thick_label">Vastag</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Háttérfolyamatok</string>
 </resources>
