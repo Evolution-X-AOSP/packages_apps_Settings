@@ -284,4 +284,14 @@
     <string name="gesture_navbar_radius_title">A kapszula rádiusza</string>
     <string name="thin_label">Vékony</string>
     <string name="thick_label">Vastag</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Háttérfolyamatok</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Törli a használat adatait?</string>
+    <string name="battery_stats_message">Az akkuhasználat adatai elvesznek\n(Nem érinti a pixel-statisztikákat)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Az akkumulátor jelenlegi kapacítása</string>
+    <string name="designed_battery_capacity">Tervezett akkumulátor-kapacítás</string>
+    <string name="battery_charge_cycles">A töltési ciklus befejeződött</string>
 </resources>
