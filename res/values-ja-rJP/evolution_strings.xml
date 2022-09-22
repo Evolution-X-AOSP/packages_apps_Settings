@@ -284,4 +284,10 @@
     <string name="gesture_navbar_radius_title">ピルの丸みの半径</string>
     <string name="thin_label">細い</string>
     <string name="thick_label">太い</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">バックグラウンドプロセス</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">現在バッテリー容量</string>
+    <string name="designed_battery_capacity">設計バッテリー容量</string>
+    <string name="battery_charge_cycles">充電サイクル完了数</string>
 </resources>

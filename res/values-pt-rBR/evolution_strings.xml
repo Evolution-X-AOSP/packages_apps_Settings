@@ -87,8 +87,8 @@
     <string name="doze_double_tap_summary">Pulsar notificações ao tocar duas vezes na tela</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Toque na impressão digital para desbloquear</string>
-    <string name="fingerprint_wake_unlock_touch">Permitir desbloqueio com a tela desligada</string>
-    <string name="fingerprint_wake_unlock_press">Desbloquear apenas com a tela ligada</string>
+    <string name="fingerprint_wake_unlock_touch">Aguarda por eventos enquanto a tela está desligada</string>
+    <string name="fingerprint_wake_unlock_press">Aguarda por eventos somente quando a tela está ligada</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
@@ -284,4 +284,10 @@
     <string name="gesture_navbar_radius_title">Altura da barra de gestos</string>
     <string name="thin_label">Fino</string>
     <string name="thick_label">Espesso</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Processos em segundo plano</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Capacidade atual da bateria</string>
+    <string name="designed_battery_capacity">Capacidade projetada da bateria</string>
+    <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
 </resources>
