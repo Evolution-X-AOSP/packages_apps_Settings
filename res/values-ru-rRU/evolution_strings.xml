@@ -285,7 +285,7 @@
     <string name="thin_label">Тонкая</string>
     <string name="thick_label">Толстая</string>
     <!-- Running services - Background processes tab -->
-    <string name="background_processes_settings_title">Фоновые процессы</string>
+    <string name="background_processes_settings_title">Запущенные процессы</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Текущая ёмкость батареи</string>
     <string name="designed_battery_capacity">Заявленная ёмкость батареи</string>
