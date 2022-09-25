@@ -153,6 +153,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
         controllers.add(notificationController);
         mOwnerInfoPreferenceController = new OwnerInfoPreferenceController(context, this);
         controllers.add(mOwnerInfoPreferenceController);
+        controllers.add(new DozeOnChargePreferenceController(context, lifecycle));
 
         return controllers;
     }
@@ -181,6 +182,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
                     controllers.add(new LockScreenNotificationPreferenceController(context));
                     controllers.add(new OwnerInfoPreferenceController(
                             context, null /* fragment */));
+                    controllers.add(new DozeOnChargePreferenceController(context, null /* lifecycle */));
                     return controllers;
                 }
 

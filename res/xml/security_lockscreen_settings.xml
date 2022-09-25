@@ -93,8 +93,7 @@
         <SwitchPreference
             android:key="doze_on_charge"
             android:title="@string/doze_on_charge_title"
-            android:summary="@string/doze_on_charge_summary"
-            settings:controller="com.android.settings.display.DozeOnChargePreferenceController" />
+            android:summary="@string/doze_on_charge_summary" />
 
         <Preference
             android:key="ambient_display_tap"
