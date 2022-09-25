@@ -40,6 +40,8 @@ import com.android.settingslib.widget.FooterPreference;
 import com.android.settingslib.widget.IllustrationPreference;
 import com.android.settingslib.widget.SelectorWithWidgetPreference;
 
+import com.android.internal.util.evolution.EvolutionUtils;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -153,6 +155,7 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
     @VisibleForTesting
     public void setDisplayMode(int width) {
         mDefaultDisplay.setUserPreferredDisplayMode(getPreferMode(width));
+        EvolutionUtils.restartSystemUi(getContext());
     }
 
     /** Get the key corresponding to the resolution. */
