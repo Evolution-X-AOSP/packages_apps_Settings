@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamaları</string>
     <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
+    <string name="search">Ara</string>
+    <string name="search_apps">Uygulamaları ara</string>
     <!-- Clang version -->
     <string name="clang_version">Clang versiyonu</string>
     <!-- Hotspot -->
@@ -286,8 +288,4 @@
     <string name="thick_label">Kalın</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Arkaplan işlemleri</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
-    <string name="designed_battery_capacity">Tasarlanmış pil kapasitesi</string>
-    <string name="battery_charge_cycles">Tamamlanan şarj döngüleri</string>
 </resources>

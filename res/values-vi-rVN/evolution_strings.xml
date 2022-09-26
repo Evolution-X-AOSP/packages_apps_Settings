@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
     <string name="display_cutout_force_fullscreen_summary">Buộc các ứng dụng bỏ qua phần khuyết của màn hình</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="search_apps">Tìm kiếm ứng dụng</string>
     <!-- Clang version -->
     <string name="clang_version">Phiên bản Clang</string>
     <!-- Hotspot -->
@@ -286,8 +288,4 @@
     <string name="thick_label">Dày</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Tiến trình dưới nền</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
-    <string name="designed_battery_capacity">Dung lượng pin thiết kế</string>
-    <string name="battery_charge_cycles">Chu kỳ pin được sạc đầy</string>
 </resources>

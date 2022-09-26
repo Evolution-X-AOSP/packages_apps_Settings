@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">App a schermo intero</string>
     <string name="display_cutout_force_fullscreen_summary">Forza le app a ignorare lo spazio del notch</string>
+    <string name="search">Cerca</string>
+    <string name="search_apps">Cerca nelle app</string>
     <!-- Clang version -->
     <string name="clang_version">Versione Clang</string>
     <!-- Hotspot -->
@@ -284,4 +286,6 @@
     <string name="gesture_navbar_radius_title">Raggio della barra</string>
     <string name="thin_label">Sottile</string>
     <string name="thick_label">Spesso</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Processi in background</string>
 </resources>

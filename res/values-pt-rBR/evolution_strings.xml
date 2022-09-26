@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
     <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do notch</string>
+    <string name="search">Pesquisar</string>
+    <string name="search_apps">Pesquisar aplicativos</string>
     <!-- Clang version -->
     <string name="clang_version">Versão do Clang</string>
     <!-- Hotspot -->
@@ -286,8 +288,4 @@
     <string name="thick_label">Espesso</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Processos em segundo plano</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Capacidade atual da bateria</string>
-    <string name="designed_battery_capacity">Capacidade projetada da bateria</string>
-    <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
 </resources>
