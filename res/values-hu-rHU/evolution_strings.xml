@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Teljesképernyős-alkalmazások</string>
     <string name="display_cutout_force_fullscreen_summary">Alkalmazások kényszerítése, hogy a képernyőkivágást mellőzzék</string>
+    <string name="search">Keresés</string>
+    <string name="search_apps">Alkalmazások keresése</string>
     <!-- Clang version -->
     <string name="clang_version">Clang-verzió</string>
     <!-- Hotspot -->
@@ -286,8 +288,4 @@
     <string name="thick_label">Vastag</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Háttérfolyamatok</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Az akkumulátor jelenlegi kapacítása</string>
-    <string name="designed_battery_capacity">Tervezett akkumulátor-kapacítás</string>
-    <string name="battery_charge_cycles">A töltési ciklus befejeződött</string>
 </resources>
