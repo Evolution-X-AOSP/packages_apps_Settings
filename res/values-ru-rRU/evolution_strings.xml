@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
     <string name="display_cutout_force_fullscreen_summary">Заставить приложения игнорировать пространство надреза</string>
+    <string name="search">Поиск</string>
+    <string name="search_apps">Поиск приложений</string>
     <!-- Clang version -->
     <string name="clang_version">Версия clang</string>
     <!-- Hotspot -->
@@ -285,9 +287,5 @@
     <string name="thin_label">Тонкая</string>
     <string name="thick_label">Толстая</string>
     <!-- Running services - Background processes tab -->
-    <string name="background_processes_settings_title">Фоновые процессы</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
-    <string name="designed_battery_capacity">Заявленная ёмкость батареи</string>
-    <string name="battery_charge_cycles">Количество полных циклов заряда</string>
+    <string name="background_processes_settings_title">Запущенные процессы</string>
 </resources>
