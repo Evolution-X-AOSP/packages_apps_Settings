@@ -143,7 +143,7 @@
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">إيقاف تشغيل Wi-Fi تلقائياً</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">سيتم إيقاف تشغيل WiFi بعد &lt;xliff: g id="timeout_description"&gt;%1$s&lt;/xliff: g&gt; إذا لم يتم توصيل أي شبكة.</string>
+    <string name="wifi_timeout_summary">سيتم إيقاف تشغيل WiFi بعد &lt;xliff: g id=\"timeout_description\"&gt;%1$s&lt;/xliff: g&gt; إذا لم يتم توصيل أي شبكة.</string>
     <string name="wifi_timeout_summary1">سيتم إيقاف تشغيل WiFi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يتم توصيل أي شبكة</string>
     <string name="wifi_timeout_summary2">معطل</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
@@ -245,4 +245,18 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">التشغيل دائماً عند الشحن</string>
     <string name="doze_on_charge_summary">إظهار شاشة الغفو طوال الوقت أثناء الشحن</string>
+    <!-- Navigation bar IME space -->
+    <!-- Back gesture height -->
+    <string name="back_height_high_label">الأسفل</string>
+    <string name="back_options_dialog_title">خيارات</string>
+    <!-- Warning message for the sd card setup -->
+    <!-- Notch: Full screen apps -->
+    <string name="search">البحث</string>
+    <string name="search_apps">البحث عن التطبيقات</string>
+    <!-- Clang version -->
+    <!-- Hotspot -->
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Charging vibration -->
+    <!-- Gesture navbar radius -->
+    <!-- Running services - Background processes tab -->
 </resources>
