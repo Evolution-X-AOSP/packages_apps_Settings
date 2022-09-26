@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2022 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">Evolver</string>
+    <string name="evolver_dashboard_summary">Witaj w Przededniu Ewolucji</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Platforma</string>
+    <string name="total_ram">Całkowita ilość pamięci RAM</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Wersja Evolution X</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">Data kompilacji</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Opiekun kompilacji</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Wyłączone</string>
+    <string name="selinux_status_permissive">Zezwalanie</string>
+    <string name="selinux_status_enforcing">Wymuszanie</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Pokaż historię powiadomień</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Sklep Play</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Mniej niż 1 minuta</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s dzisiaj</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura baterii</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Przesuń, aby zrobić zrzut ekranu</string>
+    <string name="swipe_to_screenshot_gesture_summary">Przesuń trzema palcami, aby zrobić zrzut ekranu</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Zapobiegaj przypadkowemu wybudzeniu</string>
+    <string name="proximity_wake_summary">Używaj czujnika zbliżeniowego do wybudzania ekranu</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimalna częstotliwość odświeżania</string>
+    <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania</string>
+    <string name="low_power_refresh_rate_title_custom">Częstotliwość odświeżania przy niskim poziomie energii</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Szybkie ładowanie</string>
+    <string name="fast_charging_summary">Wyłącz, aby zmniejszyć ilość ciepła wytwarzanego przez urządzenie podczas ładowania lub w celu wydłużenia żywotności baterii</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Dźwięk zrzutu ekranu</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Zlokalizuj czytnik linii papilarnych z przodu twojego tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Zlokalizuj czytnik linii papilarnych z przodu twojego urządzenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Zlokalizuj czytnik linii papilarnych z przodu twojego telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Zlokalizuj czytnik linii papilarnych na tylnej stronie tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Zlokalizuj czytnik linii papilarnych na tylnej stronie urządzenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Zlokalizuj czytnik linii papilarnych na tylnej stronie telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Zlokalizuj czytnik linii papilarnych znajdujący się z boku tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Zlokalizuj czytnik linii papilarnych znajdujący się z boku urządzenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Zlokalizuj czytnik linii papilarnych znajdujący się z boku telefonu.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Dotknij czujnika linii papilarnych z przodu twojego telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Dotknij czujnika linii papilarnych z tyłu twojego telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Dotknij czujnika linii papilarnych na boku telefonu.</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Inteligentne Wstrzymywanie</string>
+    <string name="adaptive_playback_master_switch_title">Używaj Inteligentnego Wstrzymywania</string>
+    <string name="adaptive_playback_disabled_summary">Wyłącz</string>
+    <string name="adaptive_playback_intro_text">Automatycznie zatrzymuje odtwarzanie multimediów, gdy dźwięk jest wyciszony i wznawia ich odtwarzanie, gdy dźwięk zostanie podgłośniony w określonym czasie.</string>
+    <string name="adaptive_playback_timeout_title">Użyj limitu czasowego wynoszącego</string>
+    <string name="adaptive_playback_timeout_none">Bez limitu czasu</string>
+    <string name="adaptive_playback_timeout_none_summary">Włącz (bez limitu czasu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Włącz (30 sekund)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuta</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Włącz (1 minuta)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuty</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Włącz (2 minuty)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minut</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Włącz (5 minut)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minut</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Włącz (10 minut)</string>
+    <!-- Volume button music control -->
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Podwójne dotknięcie</string>
+    <string name="doze_double_tap_title">Dwukrotnie dotknij ekran, aby sprawdzić telefon</string>
+    <string name="doze_double_tap_summary">Pulsujące powiadomienia po dwukrotnym dotknięciu</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Użyj czytnika linii papilarnych, aby odblokować</string>
+    <string name="fingerprint_wake_unlock_touch">Nasłuchuj wydarzeń, gdy ekran jest wyłączony</string>
+    <string name="fingerprint_wake_unlock_press">Nasłuchuje wydarzeń tylko z włączonym ekranem</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Pomieszany układ</string>
+    <string name="unlock_scramble_pin_layout_summary">Pomieszany układ PIN podczas odblokowania urządzenia</string>
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, kiedy zostanie podany prawidłowy PIN/hasło</string>
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">Pasek nawigacji</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Długość pastylki</string>
+    <string name="hide_label">Ukryty</string>
+    <string name="long_label">Długa</string>
+    <!-- Wake on plug -->
+    <!-- General -->
+    <!-- Smart charging -->
+    <!-- Back gesture animation -->
+    <!-- Pocket judge -->
+    <!-- Package details -->
+    <!-- Hotspot extras -->
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <!--  screen, setting option name to change wifi timeout -->
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary2">Wyłączone</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Wysoka czułość dotyku</string>
+    <string name="high_touch_sensitivity_summary">Zwiększa czułość ekranu dotykowego, więc możesz go używać podczas noszenia rękawiczek</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_summary">Umożliwia najechanie na ekran jak myszką w przeglądarkach internetowych, zdalnych pulpitach, itp</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Wysoka szybkość próbkowania dotykowego</string>
+    <string name="high_touch_polling_rate_summary">Zwiększ szybkość próbkowania ekranu dotykowego</string>
+    <!-- LiveDisplay -->
+    <string name="color_red_title">Czerwony</string>
+    <string name="color_green_title">Zielony</string>
+    <string name="color_blue_title">Niebieski</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- Volume link notification -->
+    <!-- Increasing ring tone volume -->
+    <!-- Per-app volume control -->
+    <!-- Android debugging as root -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- One shot automatic brightness -->
+    <!-- Ringer mode mute speaker media -->
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <!-- Pulse Volume Panel on un/mute media-->
+    <!-- Doze on charge -->
+    <!-- Navigation bar IME space -->
+    <!-- Back gesture height -->
+    <string name="back_height_high_label">Dolny</string>
+    <string name="back_options_dialog_title">Opcje</string>
+    <!-- Warning message for the sd card setup -->
+    <!-- Notch: Full screen apps -->
+    <string name="search">Szukaj</string>
+    <string name="search_apps">Wyszukaj aplikacje</string>
+    <!-- Clang version -->
+    <!-- Hotspot -->
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Charging vibration -->
+    <!-- Gesture navbar radius -->
+    <!-- Running services - Background processes tab -->
+</resources>
