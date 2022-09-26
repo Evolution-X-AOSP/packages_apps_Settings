@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
     <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
+    <string name="search">Cari</string>
+    <string name="search_apps">Cari aplikasi</string>
     <!-- Clang version -->
     <string name="clang_version">Versi Clang</string>
     <!-- Hotspot -->
@@ -284,4 +286,6 @@
     <string name="gesture_navbar_radius_title">Radius gestur bilah navigasi</string>
     <string name="thin_label">Tipis</string>
     <string name="thick_label">Tebal</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Proses latar belakang</string>
 </resources>
