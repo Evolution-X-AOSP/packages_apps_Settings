@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2022 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">Evolution X 自定義</string>
+    <string name="evolver_dashboard_summary">歡迎來到進化之路</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">平台</string>
+    <string name="total_ram">總記憶體</string>
+    <!-- About device screen, Evolution X -->
+    <string name="evolution_x_version">Evolution X 版本</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">編譯日期</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">維護者</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux 狀態</string>
+    <string name="selinux_status_disabled">停用</string>
+    <string name="selinux_status_permissive">許可</string>
+    <string name="selinux_status_enforcing">強制執行</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">顯示通知歷史紀錄</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">少於1分鐘</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今天使用了 %1$s</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">電池溫度</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">三指截圖</string>
+    <string name="swipe_to_screenshot_gesture_summary">同時滑動三支指頭以擷取螢幕畫面</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">防止意外喚醒</string>
+    <string name="proximity_wake_summary">在喚醒螢幕之前檢查距離傳感器</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">最低刷新率</string>
+    <string name="max_refresh_rate_title">最高刷新率</string>
+    <string name="low_power_refresh_rate_title_custom">省電模式刷新率</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">快速充電中</string>
+    <string name="fast_charging_summary">禁用以減少裝置在充電時產生的熱量或延長電池的使用壽命</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">螢幕擷取音效</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">智慧暫停</string>
+    <string name="adaptive_playback_master_switch_title">使用智慧暫停</string>
+    <string name="adaptive_playback_disabled_summary">關閉</string>
+    <string name="adaptive_playback_timeout_1_min">1 分鐘</string>
+    <string name="adaptive_playback_timeout_5_min">5 分鐘</string>
+    <string name="adaptive_playback_timeout_10_min">10 分鐘</string>
+    <!-- Volume button music control -->
+    <!-- Doze on double tap -->
+    <!-- Fingerprint wake-and-unlock -->
+    <!-- PIN scramble -->
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Quick unlock -->
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">導覽列</string>
+    <!-- Gesture navbar length -->
+    <string name="hide_label">隱藏</string>
+    <!-- Wake on plug -->
+    <!-- General -->
+    <string name="longpress_to_clipboard">長按複製</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">智慧充電</string>
+    <string name="smart_charging_summary">設定最大充電電量</string>
+    <string name="smart_charging_master_switch_title">使用智慧充電</string>
+    <string name="smart_charging_reset_stats_title">重置電池統計信息</string>
+    <string name="smart_charging_footer">智慧充電允許您設定最大充電量以延長電池壽命</string>
+    <!-- Back gesture animation -->
+    <!-- Pocket judge -->
+    <!-- Package details -->
+    <!-- Hotspot extras -->
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <!--  screen, setting option name to change wifi timeout -->
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary2">停用</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- High touch polling rate -->
+    <!-- LiveDisplay -->
+    <string name="color_red_title">強調色-紅色</string>
+    <string name="color_green_title">強調色-綠色</string>
+    <string name="color_blue_title">藍色</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- Volume link notification -->
+    <!-- Increasing ring tone volume -->
+    <!-- Per-app volume control -->
+    <!-- Android debugging as root -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- One shot automatic brightness -->
+    <!-- Ringer mode mute speaker media -->
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <!-- Pulse Volume Panel on un/mute media-->
+    <!-- Doze on charge -->
+    <!-- Navigation bar IME space -->
+    <!-- Back gesture height -->
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">選項</string>
+    <!-- Warning message for the sd card setup -->
+    <!-- Notch: Full screen apps -->
+    <string name="search">搜尋</string>
+    <string name="search_apps">搜尋 Apps</string>
+    <!-- Clang version -->
+    <!-- Hotspot -->
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">您未指定任何憑證，因此無法為您設定私人連線。</string>
+    <!-- Charging vibration -->
+    <!-- Gesture navbar radius -->
+    <!-- Running services - Background processes tab -->
+</resources>
