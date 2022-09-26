@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2022 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The Evolver -->
+    <string name="evolver_dashboard_title">Setări avansate ROM</string>
+    <!-- Hardware info -->
+    <!-- About device screen, Evolution X -->
+    <!-- About device screen, Build date -->
+    <!-- About device screen, build maintainer -->
+    <!-- SELinux Status -->
+    <string name="selinux_status_disabled">Dezactivat</string>
+    <!-- Notification log -->
+    <!-- App details: open play store link if app is user installed -->
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <!-- Battery temperature -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Proximity wake -->
+    <!-- Refresh rate -->
+    <!-- FastCharge feature -->
+    <!-- Screenshot shutter -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_disabled_summary">Oprit</string>
+    <string name="adaptive_playback_timeout_1_min">1 minut</string>
+    <string name="adaptive_playback_timeout_5_min">5 minute</string>
+    <string name="adaptive_playback_timeout_10_min">10 minute</string>
+    <!-- Volume button music control -->
+    <!-- Doze on double tap -->
+    <!-- Fingerprint wake-and-unlock -->
+    <!-- PIN scramble -->
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Quick unlock -->
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">Bara de navigație</string>
+    <!-- Gesture navbar length -->
+    <string name="hide_label">Ascuns</string>
+    <!-- Wake on plug -->
+    <!-- General -->
+    <!-- Smart charging -->
+    <!-- Back gesture animation -->
+    <!-- Pocket judge -->
+    <!-- Package details -->
+    <!-- Hotspot extras -->
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <!--  screen, setting option name to change wifi timeout -->
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary2">Dezactivat</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- High touch polling rate -->
+    <!-- LiveDisplay -->
+    <string name="color_red_title">Roșu</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Albastru</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- Volume link notification -->
+    <!-- Increasing ring tone volume -->
+    <!-- Per-app volume control -->
+    <!-- Android debugging as root -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- One shot automatic brightness -->
+    <!-- Ringer mode mute speaker media -->
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <!-- Pulse Volume Panel on un/mute media-->
+    <!-- Doze on charge -->
+    <!-- Navigation bar IME space -->
+    <!-- Back gesture height -->
+    <string name="back_height_high_label">Jos</string>
+    <string name="back_options_dialog_title">Opţiuni</string>
+    <!-- Warning message for the sd card setup -->
+    <!-- Notch: Full screen apps -->
+    <string name="search">Căutare</string>
+    <string name="search_apps">Căutare aplicații</string>
+    <!-- Clang version -->
+    <!-- Hotspot -->
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Charging vibration -->
+    <!-- Gesture navbar radius -->
+    <!-- Running services - Background processes tab -->
+</resources>
