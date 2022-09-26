@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全画面表示のアプリ</string>
     <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
+    <string name="search">検索</string>
+    <string name="search_apps">アプリを検索</string>
     <!-- Clang version -->
     <string name="clang_version">Clang バージョン</string>
     <!-- Hotspot -->
@@ -286,8 +288,4 @@
     <string name="thick_label">太い</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">バックグラウンドプロセス</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">現在バッテリー容量</string>
-    <string name="designed_battery_capacity">設計バッテリー容量</string>
-    <string name="battery_charge_cycles">充電サイクル完了数</string>
 </resources>
