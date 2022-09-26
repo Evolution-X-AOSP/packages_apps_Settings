@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Повноекранні застосунки</string>
     <string name="display_cutout_force_fullscreen_summary">Змусити застосунки ігнорувати виріз</string>
+    <string name="search">Пошук</string>
+    <string name="search_apps">Пошук додатків</string>
     <!-- Clang version -->
     <string name="clang_version">Версія клангу</string>
     <!-- Hotspot -->
@@ -275,4 +277,14 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Розблокувати пристрій</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Цей пристрій \"<xliff:g id="device_name">%1$s</xliff:g>\" зможе під\'єднатися до цієї точки доступу</string>
     <string name="wifi_hotspot_client_manager_footer_text">Наразі немає доступних клієнтів. Підключені та заблоковані пристрої з’являться тут, коли вони стануть доступними.</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Звук при зарядці</string>
+    <string name="charging_vibro_title">Вібрація під час підключення зарядки</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Радіус жесту навігації</string>
+    <string name="thin_label">Тонкий</string>
+    <string name="thick_label">Товстий</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Фонові процеси</string>
 </resources>
