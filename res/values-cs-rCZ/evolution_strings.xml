@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikace přes celou obrazovku</string>
     <string name="display_cutout_force_fullscreen_summary">Vynutit, aby aplikace ignorovaly výřez v displeji</string>
+    <string name="search">Hledat</string>
+    <string name="search_apps">Hledat v aplikacích</string>
     <!-- Clang version -->
     <string name="clang_version">Verze Clang</string>
     <!-- Hotspot -->
@@ -286,8 +288,4 @@
     <string name="thick_label">Tlustý</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Procesy na pozadí</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Aktuální kapacita baterie</string>
-    <string name="designed_battery_capacity">Výrobní kapacita baterie</string>
-    <string name="battery_charge_cycles">Dokončené nabíjecí cykly</string>
 </resources>
