@@ -4630,6 +4630,8 @@
             android:permission="android.permission.MANAGE_APP_LOCK"
             android:excludeFromRecents="true"
             android:stateNotNeeded="true"
+            android:taskAffinity="com.android.settings.applock"
+            android:launchMode="singleInstance"
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter>
                 <action android:name="android.app.action.UNLOCK_APP" />
