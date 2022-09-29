@@ -15,6 +15,9 @@
     <!-- Whether SELinux status should be shown or not. -->
     <bool name="config_show_selinux_status">true</bool>
 
+    <!-- Whether build status should be shown or not. -->
+    <bool name="config_show_build_status">false</bool>
+
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 
