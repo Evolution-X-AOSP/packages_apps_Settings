@@ -31,4 +31,7 @@
     <string name="build_maintainer_summary" translatable="false">Unknown</string>
     <string name="build_maintainer_telegram" translatable="false">https://t.me/EvolutionX</string>
 
+    <!-- Build status -->
+    <string name="build_status">Build status</string>
+    <string name="build_status_summary" translatable="false">Custom</string>
 </resources>
