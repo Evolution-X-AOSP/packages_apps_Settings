@@ -33,4 +33,10 @@
 
     <!-- Max network scan search time in seconds -->
     <integer name="config_network_scan_helper_max_search_time_sec">300</integer>
+
+    <!-- Whether build status should be shown or not. -->
+    <bool name="config_show_build_status">false</bool>
+    <bool name="config_show_build_status_exclusive">false</bool>
+    <bool name="config_show_build_status_exclusive_test">false</bool>
+    <bool name="config_show_build_status_test">false</bool>
 </resources>
