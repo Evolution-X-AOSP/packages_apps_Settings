@@ -293,4 +293,8 @@
 
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+
+    <!-- Build status -->
+    <string name="build_status">Build status</string>
+    <string name="build_status_summary">Custom</string>
 </resources>
