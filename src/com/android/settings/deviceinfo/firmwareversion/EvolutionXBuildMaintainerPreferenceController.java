@@ -41,8 +41,10 @@ public class EvolutionXBuildMaintainerPreferenceController extends BasePreferenc
 
     @Override
     public int getAvailabilityStatus() {
-        return !TextUtils.isEmpty(mDeviceMaintainer)
-                ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
+        if (mDeviceMaintainer.equalsIgnoreCase("UNKNOWN")) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
+        return AVAILABLE;
     }
 
     @Override
