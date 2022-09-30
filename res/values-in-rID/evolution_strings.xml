@@ -288,4 +288,12 @@
     <string name="thick_label">Tebal</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Proses latar belakang</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Umpan balik haptik</string>
+    <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada tombol gestur kembali</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
+    <!-- Build status -->
+    <string name="build_status">Status pembuatan</string>
+    <string name="build_status_summary">Kustom</string>
 </resources>
