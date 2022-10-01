@@ -6,10 +6,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">Кастомізація Evolver</string>
-    <string name="evolver_dashboard_summary">Ласкаво просимо в переддень еволюції</string>
+    <string name="evolver_dashboard_summary">Ласкаво просимо в Evolution</string>
     <!-- Hardware info -->
     <string name="platform_revision">Платформа</string>
-    <string name="total_ram">Об\'єм ОЗУ</string>
+    <string name="total_ram">Об\'єм ОЗП</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Версія Evolution X</string>
     <!-- About device screen, Build date -->
@@ -19,12 +19,12 @@
     <!-- SELinux Status -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Вимкнено</string>
-    <string name="selinux_status_permissive">Вільний</string>
-    <string name="selinux_status_enforcing">Примусовий</string>
+    <string name="selinux_status_permissive">Дозволено</string>
+    <string name="selinux_status_enforcing">Примусово</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Показати історію повідомлень</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Google Ігри</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Менше 1 хвилини</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -258,6 +258,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Повноекранні застосунки</string>
     <string name="display_cutout_force_fullscreen_summary">Змусити застосунки ігнорувати виріз</string>
+    <string name="search">Пошук</string>
+    <string name="search_apps">Пошук додатків</string>
     <!-- Clang version -->
     <string name="clang_version">Версія клангу</string>
     <!-- Hotspot -->
@@ -275,4 +277,23 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Розблокувати пристрій</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Цей пристрій \"<xliff:g id="device_name">%1$s</xliff:g>\" зможе під\'єднатися до цієї точки доступу</string>
     <string name="wifi_hotspot_client_manager_footer_text">Наразі немає доступних клієнтів. Підключені та заблоковані пристрої з’являться тут, коли вони стануть доступними.</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Сертифікат не вказано. З’єднання не буде конфіденційним.</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Звук при зарядці</string>
+    <string name="charging_vibro_title">Вібрація під час підключення зарядки</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Радіус жесту навігації</string>
+    <string name="thin_label">Тонкий</string>
+    <string name="thick_label">Товстий</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Фонові процеси</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Вібровідгук</string>
+    <string name="back_gesture_haptic_summary">Увімкнути тактильний ефект від жестів назад</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Використовувати плаваючу кнопку обертання</string>
+    <!-- Build status -->
+    <string name="build_status">Статус збірки</string>
+    <string name="build_status_summary">Персоналізація</string>
 </resources>

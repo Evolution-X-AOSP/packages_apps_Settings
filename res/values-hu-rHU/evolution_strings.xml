@@ -80,7 +80,7 @@
     <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
-    <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszan nyomásával léptetheti a zeneszámokat</string>
+    <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Dupla érintés</string>
     <string name="doze_double_tap_title">Gyorsellenőrzés dupla érintéssel</string>
@@ -288,4 +288,12 @@
     <string name="thick_label">Vastag</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Háttérfolyamatok</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Érintési visszajelzés</string>
+    <string name="back_gesture_haptic_summary">Visszajelző rezgés a vissza mozdulatnál</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Lebegő elforgatás gomb engedélyezése</string>
+    <!-- Build status -->
+    <string name="build_status">Gyártási állapot</string>
+    <string name="build_status_summary">Egyéni</string>
 </resources>
