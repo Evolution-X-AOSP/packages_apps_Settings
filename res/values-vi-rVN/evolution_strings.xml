@@ -288,4 +288,12 @@
     <string name="thick_label">Dày</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Tiến trình dưới nền</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Phản hồi rung</string>
+    <string name="back_gesture_haptic_summary">Kích hoạt hiệu ứng xúc giác trên cử chỉ quay lại</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Sử dụng nút xoay nổi</string>
+    <!-- Build status -->
+    <string name="build_status">Trạng thái bản dựng</string>
+    <string name="build_status_summary">Tùy chọn</string>
 </resources>

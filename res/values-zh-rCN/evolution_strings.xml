@@ -288,4 +288,12 @@
     <string name="thick_label">粗</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">后台进程</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">触觉反馈</string>
+    <string name="back_gesture_haptic_summary">启用返回手势的振动效果</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">使用浮动旋转按钮</string>
+    <!-- Build status -->
+    <string name="build_status">编译状态</string>
+    <string name="build_status_summary">自定义</string>
 </resources>

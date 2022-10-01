@@ -288,4 +288,12 @@
     <string name="thick_label">Espesso</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Processos em segundo plano</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Resposta tátil</string>
+    <string name="back_gesture_haptic_summary">Ativar o efeito tátil no gesto de voltar</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Habilitar botão de rotação flutuante</string>
+    <!-- Build status -->
+    <string name="build_status">Status da compilação</string>
+    <string name="build_status_summary">Personalizado</string>
 </resources>
