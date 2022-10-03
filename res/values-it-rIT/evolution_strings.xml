@@ -288,4 +288,12 @@
     <string name="thick_label">Spesso</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Processi in background</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Feedback tattile</string>
+    <string name="back_gesture_haptic_summary">Attiva la vibrazione sul gesto indietro</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Usa il pulsante di rotazione fluttuante</string>
+    <!-- Build status -->
+    <string name="build_status">Stato build</string>
+    <string name="build_status_summary">Personalizzata</string>
 </resources>

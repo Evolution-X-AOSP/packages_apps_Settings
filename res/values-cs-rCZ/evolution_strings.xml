@@ -288,4 +288,12 @@
     <string name="thick_label">Tlustý</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Procesy na pozadí</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Hmatová odezva</string>
+    <string name="back_gesture_haptic_summary">Povolit efekt krátkého zavibrování při použití gesta „Zpět“</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Použít plovoucí tlačítko otáčení</string>
+    <!-- Build status -->
+    <string name="build_status">Stav sestavení</string>
+    <string name="build_status_summary">Vlastní</string>
 </resources>
