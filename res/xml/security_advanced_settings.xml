@@ -60,6 +60,11 @@
 
     </PreferenceCategory>
 
+    <!-- App lock -->
+    <com.android.settingslib.RestrictedPreference
+        android:key="app_lock"
+        android:title="@string/app_lock_title" />
+
     <Preference
         android:order="50"
         android:key="sim_lock_settings"
