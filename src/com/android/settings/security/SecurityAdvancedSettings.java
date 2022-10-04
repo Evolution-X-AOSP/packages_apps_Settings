@@ -42,6 +42,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.drawer.CategoryKey;
 import com.android.settingslib.search.SearchIndexable;
+import com.evolution.settings.security.applock.AppLockSettingsPreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,6 +61,8 @@ public class SecurityAdvancedSettings extends DashboardFragment {
     /** Used in case of old Security settings when SafetyCenter is disabled */
     private static final String CATEGORY_SECURITY_LEGACY_ADVANCED_SETTINGS =
             "com.android.settings.category.ia.legacy_advanced_security";
+
+    private static final String APP_LOCK_PREF_KEY = "app_lock";
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -158,6 +161,7 @@ public class SecurityAdvancedSettings extends DashboardFragment {
         controllers.add(new PreferenceCategoryController(context, WORK_PROFILE_SECURITY_CATEGORY)
                 .setChildren(profileSecurityControllers));
         controllers.addAll(profileSecurityControllers);
+        controllers.add(new AppLockSettingsPreferenceController(context, APP_LOCK_PREF_KEY, lifecycle, host));
 
         return controllers;
     }
