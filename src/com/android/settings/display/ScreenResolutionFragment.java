@@ -137,6 +137,11 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
     private Display.Mode getPreferMode(int width) {
         for (Point resolution : mResolutions) {
             if (resolution.x == width) {
+                final String screenDiagonalLength = getResources().getString(
+                    R.string.config_screen_diagonal_length);
+                if (screenDiagonalLength != null) {
+                    EvolutionUtils.changeScreenDPI(resolution.x, resolution.y, Float.parseFloat(screenDiagonalLength));
+                }
                 return new Display.Mode(
                         resolution.x, resolution.y, getDisplayMode().getRefreshRate());
             }
