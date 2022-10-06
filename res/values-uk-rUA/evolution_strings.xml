@@ -296,4 +296,11 @@
     <!-- Build status -->
     <string name="build_status">Статус збірки</string>
     <string name="build_status_summary">Персоналізація</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Поточна ємність акумулятора</string>
+    <string name="designed_battery_capacity">Максимальна місткість</string>
+    <string name="battery_charge_cycles">Цикли зарядки завершені</string>
+    <string name="high_power_apps_summary">Вимкнути оптимізацію використання батареї</string>
+    <string name="daily_battery_usage_chart">Діаграма використання заряду</string>
+    <string name="daily_battery_usage_chart_summary">Показати споживання за останні 24 години</string>
 </resources>
