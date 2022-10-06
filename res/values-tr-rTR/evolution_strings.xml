@@ -78,9 +78,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
     <string name="adaptive_playback_timeout_10_min">10 dakika</string>
     <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
-    <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Çift dokunma</string>
     <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
@@ -296,4 +293,18 @@
     <!-- Build status -->
     <string name="build_status">Sürüm durumu</string>
     <string name="build_status_summary">Özel</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">En yüksek kapasite</string>
+    <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
+    <string name="high_power_apps_summary">Pil en iyilemesini devre dışı bırak</string>
+    <string name="daily_battery_usage_chart">Pil kullanım grafiği</string>
+    <string name="daily_battery_usage_chart_summary">Son 24 saatteki kullanımı göster</string>
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">Oynatma kontrolü</string>
+    <string name="gesture_playback_control_primary_switch_title">Oynatma kontrolünü kullan</string>
+    <string name="gesture_playback_control_intro_text">Ekran kapalıyken ses tuşlarına uzun basmak şarkıyı değiştirir</string>
+    <string name="volume_rocker_music_controls_delay_title">Müzik değiştirme tepki süresi</string>
+    <string name="gesture_playback_control_delay">gecikme</string>
+    <string name="unit_ms">ms</string>
 </resources>
