@@ -296,4 +296,11 @@
     <!-- Build status -->
     <string name="build_status">Статус сборки</string>
     <string name="build_status_summary">Пользовательский</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Максимальная емкость батареи</string>
+    <string name="designed_battery_capacity">Максимальная емкость</string>
+    <string name="battery_charge_cycles">Количество полных циклов заряда</string>
+    <string name="high_power_apps_summary">Оптимизация батареи для каждого приложения</string>
+    <string name="daily_battery_usage_chart">График ежедневного использования батареи</string>
+    <string name="daily_battery_usage_chart_summary">Расход заряда за последние 24 часа</string>
 </resources>
