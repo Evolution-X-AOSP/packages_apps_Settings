@@ -296,4 +296,11 @@
     <!-- Build status -->
     <string name="build_status">Sürüm durumu</string>
     <string name="build_status_summary">Özel</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">En yüksek kapasite</string>
+    <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
+    <string name="high_power_apps_summary">Pil en iyilemesini devre dışı bırak</string>
+    <string name="daily_battery_usage_chart">Pil kullanım grafiği</string>
+    <string name="daily_battery_usage_chart_summary">Son 24 saatteki kullanımı göster</string>
 </resources>
