@@ -296,4 +296,11 @@
     <!-- Build status -->
     <string name="build_status">Gyártási állapot</string>
     <string name="build_status_summary">Egyéni</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">A jelenlegi maximum kapacitás</string>
+    <string name="designed_battery_capacity">Maximum kapacitás</string>
+    <string name="battery_charge_cycles">A töltési ciklus befejeződött</string>
+    <string name="high_power_apps_summary">Alkalmazásonkénti akkuoptimalizálás</string>
+    <string name="daily_battery_usage_chart">Napi akkuhasználati diagram</string>
+    <string name="daily_battery_usage_chart_summary">Megtekintheti az elmúlt 24 óra statisztikáit</string>
 </resources>
