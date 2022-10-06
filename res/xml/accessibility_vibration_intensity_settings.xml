@@ -114,6 +114,12 @@
             android:title="@string/qs_brightness_slider_haptic_feedback_title"
             android:defaultValue="false" />
 
+        <!-- QS Tiles haptic -->
+        <com.evolution.settings.preference.SecureSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/qs_tiles_haptic_feedback_title"
+            android:defaultValue="false" />
+
         <!-- Volume slider haptic -->
         <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="volume_slider_haptic"
