@@ -296,4 +296,11 @@
     <!-- Build status -->
     <string name="build_status">Estado da compilação</string>
     <string name="build_status_summary">Personalizada</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Capacidade máxima atual</string>
+    <string name="designed_battery_capacity">Capacidade máxima</string>
+    <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
+    <string name="high_power_apps_summary">Otimização de bateria por app</string>
+    <string name="daily_battery_usage_chart">Gráfico diário de uso de bateria</string>
+    <string name="daily_battery_usage_chart_summary">Ver a utilização nas últimas 24 horas</string>
 </resources>
