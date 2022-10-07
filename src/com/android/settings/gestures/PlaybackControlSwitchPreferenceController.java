@@ -65,7 +65,7 @@ public class PlaybackControlSwitchPreferenceController extends AbstractPreferenc
             updateDelayEnablement(!enabled);
             return true;
         });
-        mSwitch.setTitle(mContext.getString(R.string.gesture_playback_control_screen_title));
+        mSwitch.setTitle(mContext.getString(R.string.gesture_playback_control_primary_switch_title));
         mSwitch.addOnSwitchChangeListener(this);
         updateState(mSwitch);
     }
