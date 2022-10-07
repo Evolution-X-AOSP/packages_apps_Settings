@@ -78,9 +78,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Be (5 perc)</string>
     <string name="adaptive_playback_timeout_10_min">10 perc</string>
     <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
-    <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Dupla érintés</string>
     <string name="doze_double_tap_title">Gyorsellenőrzés dupla érintéssel</string>
@@ -303,4 +300,10 @@
     <string name="high_power_apps_summary">Alkalmazásonkénti akkuoptimalizálás</string>
     <string name="daily_battery_usage_chart">Napi akkuhasználati diagram</string>
     <string name="daily_battery_usage_chart_summary">Megtekintheti az elmúlt 24 óra statisztikáit</string>
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">Lejátszásvezérlés</string>
+    <string name="gesture_playback_control_title">Kikapcsolt képernyőn a hangerőgombok hosszannyomásával léptetheti a zeneszámokat</string>
+    <string name="volume_rocker_music_controls_delay_title">A lejátszásvezérlés késleltetése</string>
+    <string name="gesture_playback_control_delay">késleltetés</string>
+    <string name="unit_ms">ms</string>
 </resources>
