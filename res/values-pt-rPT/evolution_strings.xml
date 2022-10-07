@@ -78,9 +78,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Ligada (5 minutos)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ligada (10 minutos)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Controlo de reprodução</string>
-    <string name="volume_button_music_control_summary">Quando o ecrã estiver desligado, a pressão prolongada nos botões de volume irá alternar as faixas de música</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Toque duplo</string>
     <string name="doze_double_tap_title">Tocar duas vezes para verificar o telemóvel</string>
@@ -303,4 +300,11 @@
     <string name="high_power_apps_summary">Otimização de bateria por app</string>
     <string name="daily_battery_usage_chart">Gráfico diário de uso de bateria</string>
     <string name="daily_battery_usage_chart_summary">Ver a utilização nas últimas 24 horas</string>
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">Controlo de reprodução</string>
+    <string name="gesture_playback_control_primary_switch_title">Usar controlo de reprodução</string>
+    <string name="gesture_playback_control_intro_text">Com o ecrã desligado, prima longamente as teclas de volume para procurar músicas</string>
+    <string name="volume_rocker_music_controls_delay_title">Atraso de ativação do controlo de reprodução</string>
+    <string name="gesture_playback_control_delay">atraso</string>
+    <string name="unit_ms">ms</string>
 </resources>
