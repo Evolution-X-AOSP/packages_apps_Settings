@@ -99,10 +99,6 @@
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
 
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
-
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
@@ -375,4 +371,9 @@
     <string name="battery_charge_cycles">Charge cycles completed</string>
 
     <string name="high_power_apps_summary">Per-app battery optimization</string>
+
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">Playback control</string>
+    <string name="gesture_playback_control_intro_text">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_delay_title">Playback control activation delay</string>
 </resources>
