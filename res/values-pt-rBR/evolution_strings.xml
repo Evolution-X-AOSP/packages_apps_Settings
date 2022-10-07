@@ -78,9 +78,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Controle de reprodução</string>
-    <string name="volume_button_music_control_summary">Alternar faixas de músicas ao manter pressionadas as teclas de volume enquanto a tela estiver desligada</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Toque duplo</string>
     <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
@@ -303,4 +300,11 @@
     <string name="high_power_apps_summary">Otimização de bateria por app</string>
     <string name="daily_battery_usage_chart">Gráfico de uso da bateria</string>
     <string name="daily_battery_usage_chart_summary">Ver o uso nas últimas 24 horas</string>
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">Controle de reprodução</string>
+    <string name="gesture_playback_control_primary_switch_title">Usar controle de reprodução</string>
+    <string name="gesture_playback_control_intro_text">Com a tela desligada, mantenha pressionado o botão de volume para procurar músicas</string>
+    <string name="volume_rocker_music_controls_delay_title">Atraso de ativação do controle de reprodução</string>
+    <string name="gesture_playback_control_delay">Atraso</string>
+    <string name="unit_ms">ms</string>
 </resources>

@@ -38,9 +38,9 @@
     <string name="proximity_wake_title">Impedisci risvegli accidentali</string>
     <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di accendere lo schermo</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Frequenza d\'aggiornamento minima</string>
-    <string name="max_refresh_rate_title">Frequenza d\'aggiornamento massima</string>
-    <string name="low_power_refresh_rate_title_custom">Frequenza d\'aggiornamento a bassa potenza</string>
+    <string name="min_refresh_rate_title">Frequenza di aggiornamento minima</string>
+    <string name="max_refresh_rate_title">Frequenza di aggiornamento massima</string>
+    <string name="low_power_refresh_rate_title_custom">Frequenza di aggiornamento a bassa potenza</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Ricarica rapida</string>
     <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per estendere la durata della batteria</string>
@@ -78,9 +78,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Attivo (5 minuti)</string>
     <string name="adaptive_playback_timeout_10_min">10 minuti</string>
     <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Controllo di riproduzione</string>
-    <string name="volume_button_music_control_summary">Quando lo schermo è spento, tener premuti i tasti del volume salterà i brani musicali</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doppio tocco</string>
     <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
@@ -289,12 +286,12 @@
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Processi in background</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Feedback tattile</string>
-    <string name="back_gesture_haptic_summary">Attiva la vibrazione sul gesto indietro</string>
+    <string name="back_gesture_haptic_title">Vibrazione tattile</string>
+    <string name="back_gesture_haptic_summary">Attiva la vibrazione tattile sul gesto indietro</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Usa il pulsante di rotazione fluttuante</string>
     <!-- Build status -->
-    <string name="build_status">Stato build</string>
+    <string name="build_status">Stato di compilazione</string>
     <string name="build_status_summary">Personalizzata</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Capacità massima attuale</string>
@@ -303,4 +300,11 @@
     <string name="high_power_apps_summary">Ottimizzazione batteria per app</string>
     <string name="daily_battery_usage_chart">Grafico utilizzo batteria giornaliero</string>
     <string name="daily_battery_usage_chart_summary">Visualizza l\'utilizzo nelle ultime 24 ore</string>
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">Controllo della riproduzione</string>
+    <string name="gesture_playback_control_primary_switch_title">Usa controllo di riproduzione</string>
+    <string name="gesture_playback_control_intro_text">Quando lo schermo è spento, premendo a lungo i tasti del volume cambieranno le tracce musicali</string>
+    <string name="volume_rocker_music_controls_delay_title">Ritardo attivazione del controllo riproduzione</string>
+    <string name="gesture_playback_control_delay">Ritardo</string>
+    <string name="unit_ms">millisecondi</string>
 </resources>
