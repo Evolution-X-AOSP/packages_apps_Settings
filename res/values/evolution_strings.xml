@@ -374,6 +374,7 @@
 
     <!-- Playback control -->
     <string name="gesture_playback_control_screen_title">Playback control</string>
+    <string name="gesture_playback_control_primary_switch_title">Use playback control</string>
     <string name="gesture_playback_control_intro_text">When the screen is off, long-pressing the volume keys will seek music tracks</string>
     <string name="volume_rocker_music_controls_delay_title">Playback control activation delay</string>
     <string name="gesture_playback_control_delay">delay</string>
