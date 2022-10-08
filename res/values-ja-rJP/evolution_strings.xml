@@ -78,9 +78,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">ON (5分)</string>
     <string name="adaptive_playback_timeout_10_min">10分</string>
     <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">再生コントロール</string>
-    <string name="volume_button_music_control_summary">画面消灯時に音量ボタンを長押しして曲をシークする</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">ダブルタップ</string>
     <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
@@ -296,4 +293,18 @@
     <!-- Build status -->
     <string name="build_status">ビルドの状態</string>
     <string name="build_status_summary">カスタム</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">現在の最大容量</string>
+    <string name="designed_battery_capacity">最大容量</string>
+    <string name="battery_charge_cycles">充電サイクル完了数</string>
+    <string name="high_power_apps_summary">アプリごとのバッテリー最適化</string>
+    <string name="daily_battery_usage_chart">日別バッテリー使用量グラフ</string>
+    <string name="daily_battery_usage_chart_summary">過去24時間の使用状況を表示する</string>
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">再生コントロール</string>
+    <string name="gesture_playback_control_primary_switch_title">再生コントロールを使用</string>
+    <string name="gesture_playback_control_intro_text">画面消灯時に音量ボタンを長押しで曲をシークする</string>
+    <string name="volume_rocker_music_controls_delay_title">再生コントロールの動作の遅延</string>
+    <string name="gesture_playback_control_delay">遅延</string>
+    <string name="unit_ms">ミリ秒</string>
 </resources>
