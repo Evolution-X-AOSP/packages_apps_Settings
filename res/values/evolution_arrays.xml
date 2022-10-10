@@ -71,31 +71,31 @@
 
     <!-- Random summary -->
     <string-array name="evolver_summaries">
-        <item>#KeepEvolving</item>
-        <item>Welcome to the Eve of Evolution</item>
-        <item>Continue the Evolution of your device</item>
-        <item>Start evolving your device with our features</item>
-        <item>Evolution is a mystery</item>
-        <item>Not just any ROM, this is Evolution X!</item>
-        <item>Haters gonna hate, Evo\'s gonna bake</item>
-        <item>Living in a gangsta\'s paradise</item>
-        <item>Keep moving forward</item>
-        <item>Road trip, vroom vroom, skrr skrr, zoom zoom</item>
-        <item>amogus</item>
-        <item>We were lightning before the thunder</item>
-        <item>Now stay woke, haters creepin\'</item>
-        <item>We\'re about to go H.A.M.</item>
-        <item>Tiramisu really tastes nice</item>
-        <item>13 can be lucky too</item>
-        <item>I\'ll eat my candy with the pork and beans</item>
-        <item>Life isn\'t always pixels and rainbows</item>
-        <item>Still Android, just better</item>
-        <item>Ricers, please proceed to the nearest exit</item>
-        <item>Paging the driver of the black BMW...</item>
-        <item>We\'ll vow to last, just like Carter and Cash</item>
-        <item>Be running up that road, be running up that hill</item>
-        <item>Acknowledge us!</item>
-        <item>We\'re aware we\'re named after a Mitsubishi</item>
-        <item>It\'s bootloop time!</item>
+        <item>@string/random_summary_1</item>
+        <item>@string/random_summary_2</item>
+        <item>@string/random_summary_3</item>
+        <item>@string/random_summary_4</item>
+        <item>@string/random_summary_5</item>
+        <item>@string/random_summary_6</item>
+        <item>@string/random_summary_7</item>
+        <item>@string/random_summary_8</item>
+        <item>@string/random_summary_9</item>
+        <item>@string/random_summary_10</item>
+        <item>@string/random_summary_11</item>
+        <item>@string/random_summary_12</item>
+        <item>@string/random_summary_13</item>
+        <item>@string/random_summary_14</item>
+        <item>@string/random_summary_15</item>
+        <item>@string/random_summary_16</item>
+        <item>@string/random_summary_17</item>
+        <item>@string/random_summary_18</item>
+        <item>@string/random_summary_19</item>
+        <item>@string/random_summary_20</item>
+        <item>@string/random_summary_21</item>
+        <item>@string/random_summary_22</item>
+        <item>@string/random_summary_23</item>
+        <item>@string/random_summary_24</item>
+        <item>@string/random_summary_25</item>
+        <item>@string/random_summary_26</item>
     </string-array>
 </resources>
