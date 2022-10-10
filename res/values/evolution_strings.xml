@@ -345,4 +345,32 @@
     <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
     <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
     <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
+
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_1" translatable="false">#KeepEvolving</string>
+    <string name="random_summary_2">Welcome to the Eve of Evolution</string>
+    <string name="random_summary_3">Continue the Evolution of your device</string>
+    <string name="random_summary_4">Start evolving your device with our features</string>
+    <string name="random_summary_5">Evolution is a mystery</string>
+    <string name="random_summary_6">Not just any ROM, this is Evolution X!</string>
+    <string name="random_summary_7">Haters gonna hate, Evo\'s gonna bake</string>
+    <string name="random_summary_8">Living in a gangsta\'s paradise</string>
+    <string name="random_summary_9">Keep moving forward</string>
+    <string name="random_summary_10" translatable="false">Road trip, vroom vroom, skrr skrr, zoom zoom</string>
+    <string name="random_summary_11" translatable="false">amogus</string>
+    <string name="random_summary_12">We were lightning before the thunder</string>
+    <string name="random_summary_13" translatable="false">Now stay woke, haters creepin\'</string>
+    <string name="random_summary_14" translatable="false">We\'re about to go H.A.M.</string>
+    <string name="random_summary_15">Tiramisu really tastes nice</string>
+    <string name="random_summary_16">13 can be lucky too</string>
+    <string name="random_summary_17" translatable="false">I\'ll eat my candy with the pork and beans</string>
+    <string name="random_summary_18">Life isn\'t always pixels and rainbows</string>
+    <string name="random_summary_19">Still Android, just better</string>
+    <string name="random_summary_20">Ricers, please proceed to the nearest exit</string>
+    <string name="random_summary_21">Paging the driver of the black BMW...</string>
+    <string name="random_summary_22" translatable="false">We\'ll vow to last, just like Carter and Cash</string>
+    <string name="random_summary_23" translatable="false">Be running up that road, be running up that hill</string>
+    <string name="random_summary_24">Acknowledge us!</string>
+    <string name="random_summary_25">We\'re aware we\'re named after a Mitsubishi</string>
+    <string name="random_summary_26">It\'s bootloop time!</string>
 </resources>
