@@ -298,8 +298,6 @@
     <string name="designed_battery_capacity">En yüksek kapasite</string>
     <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
     <string name="high_power_apps_summary">Pil en iyilemesini devre dışı bırak</string>
-    <string name="daily_battery_usage_chart">Pil kullanım grafiği</string>
-    <string name="daily_battery_usage_chart_summary">Son 24 saatteki kullanımı göster</string>
     <!-- Playback control -->
     <string name="gesture_playback_control_screen_title">Oynatma kontrolü</string>
     <string name="gesture_playback_control_primary_switch_title">Oynatma kontrolünü kullan</string>
@@ -307,4 +305,25 @@
     <string name="volume_rocker_music_controls_delay_title">Müzik değiştirme tepki süresi</string>
     <string name="gesture_playback_control_delay">gecikme</string>
     <string name="unit_ms">ms</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Gelişim öncesine hoş geldiniz</string>
+    <string name="random_summary_3">Cihazın evrimine devam et</string>
+    <string name="random_summary_4">Özelliklerimizle cihazınızı geliştirmeye başlayın</string>
+    <string name="random_summary_5">Gelişim gizemlidir</string>
+    <string name="random_summary_6">Herhangi bir ROm değil, bu Evolution X!</string>
+    <string name="random_summary_7">Nefret edenler nefret edecek, Evo yanacak</string>
+    <string name="random_summary_8">Gangster\'in cennetinde yaşamak</string>
+    <string name="random_summary_9">İlerlemeye devam edin</string>
+    <string name="random_summary_12">Gök gürültüsünden önceki şimşek gibiyiz</string>
+    <string name="random_summary_15">Tiramisu gerçekten lezzetli</string>
+    <string name="random_summary_16">13 sayısı da şanslı olabilir</string>
+    <string name="random_summary_18">Hayat her zaman görüntüler ve gökkuşağı değildir</string>
+    <string name="random_summary_19">Hâlâ Android, sadece daha iyi</string>
+    <string name="random_summary_20">Modifiyeciler, lütfen en yakın çıkışa ilerleyin</string>
+    <string name="random_summary_21">Siyah BMW\'nin sürücüsüne çağrı yapmak...</string>
+    <string name="random_summary_24">Bize teşekkür edin!</string>
+    <string name="random_summary_25">Adımızı bir Mitsubishi\'den aldığımızın farkındayız</string>
+    <string name="random_summary_26">Bootloop zamanı!</string>
 </resources>

@@ -294,12 +294,10 @@
     <string name="build_status">Gyártási állapot</string>
     <string name="build_status_summary">Egyéni</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">A jelenlegi maximum kapacitás</string>
+    <string name="current_battery_capacity">A jelenlegi kapacitás</string>
     <string name="designed_battery_capacity">Maximum kapacitás</string>
     <string name="battery_charge_cycles">A töltési ciklus befejeződött</string>
     <string name="high_power_apps_summary">Alkalmazásonkénti akkuoptimalizálás</string>
-    <string name="daily_battery_usage_chart">Napi akkuhasználati diagram</string>
-    <string name="daily_battery_usage_chart_summary">Megtekintheti az elmúlt 24 óra statisztikáit</string>
     <!-- Playback control -->
     <string name="gesture_playback_control_screen_title">Lejátszásvezérlés</string>
     <string name="gesture_playback_control_primary_switch_title">A Lejátszásvezérlés használata</string>
@@ -307,4 +305,25 @@
     <string name="volume_rocker_music_controls_delay_title">A lejátszásvezérlés késleltetése</string>
     <string name="gesture_playback_control_delay">késleltetés</string>
     <string name="unit_ms">ms</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Üdvözlünk az \'Evolúció kezdetén\'!</string>
+    <string name="random_summary_3">Folytatódjon a készülék Evolúciója</string>
+    <string name="random_summary_4">Kezdje a készülék-evolúciót a mi funkcióinkkal</string>
+    <string name="random_summary_5">Az evolúció egy rejtély</string>
+    <string name="random_summary_6">Nem egy szimpla ROM, ez az EvolutionX!</string>
+    <string name="random_summary_7">Aki akarja, utálja, de az Evolúció süt!</string>
+    <string name="random_summary_8">Egy gengszter-paradicsomban élünk</string>
+    <string name="random_summary_9">Tartsuk meg a fejlődés irányát!</string>
+    <string name="random_summary_12">Megvilágítjuk a vihar előtti sötétséget</string>
+    <string name="random_summary_15">A Tiramisu nagyon finom</string>
+    <string name="random_summary_16">A 13 is lehet szerencsés</string>
+    <string name="random_summary_18">Az élet nem mindig áll pixelből és szivárványból</string>
+    <string name="random_summary_19">Ez még mindig Android, csak jobb</string>
+    <string name="random_summary_20">A kétkedők meneküljenek a legközelebbi kijáraton</string>
+    <string name="random_summary_21">Kerestetik a fekete BMV sofőrjét...</string>
+    <string name="random_summary_24">Ismerjen el minket!</string>
+    <string name="random_summary_25">Tisztában vagyunk, hogy Mitsubishiről neveztek el minket</string>
+    <string name="random_summary_26">Itt az idő egy jó kis bootloop-ra!</string>
 </resources>
