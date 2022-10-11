@@ -78,9 +78,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Aktif (5 menit)</string>
     <string name="adaptive_playback_timeout_10_min">10 menit</string>
     <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
-    <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewati trek musik</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Ketuk dua kali</string>
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
@@ -296,4 +293,37 @@
     <!-- Build status -->
     <string name="build_status">Status pembuatan</string>
     <string name="build_status_summary">Kustom</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Kapasitas saat ini</string>
+    <string name="designed_battery_capacity">Kapasitas maksimum</string>
+    <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
+    <string name="high_power_apps_summary">Optimalisasi baterai per aplikasi</string>
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">Kontrol Pemutaran</string>
+    <string name="gesture_playback_control_primary_switch_title">Gunakan kontrol pemutaran</string>
+    <string name="gesture_playback_control_intro_text">Saat layar mati, menekan lama tombol volume akan mencari trek musik</string>
+    <string name="volume_rocker_music_controls_delay_title">Penundaan aktivasi kontrol pemutaran</string>
+    <string name="gesture_playback_control_delay">menunda</string>
+    <string name="unit_ms">milidetik</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Selamat datang di Hawa Evolusi</string>
+    <string name="random_summary_3">Lanjutkan Evolusi perangkat Anda</string>
+    <string name="random_summary_4">Mulai evolusikan perangkat Anda dengan fitur-fitur kami</string>
+    <string name="random_summary_5">Evolusi adalah sebuah misteri</string>
+    <string name="random_summary_6">Bukan sembarang ROM, ini Evolution X!</string>
+    <string name="random_summary_7">Pembenci akan membenci, Evo akan memanggang</string>
+    <string name="random_summary_8">Tinggal di surga gangsta</string>
+    <string name="random_summary_9">Terus melangkah</string>
+    <string name="random_summary_12">Kami adalah kilat sebelum guntur</string>
+    <string name="random_summary_15">Tiramisu sangat enak</string>
+    <string name="random_summary_16">13 bisa beruntung juga</string>
+    <string name="random_summary_18">Hidup tidak selalu piksel dan pelangi</string>
+    <string name="random_summary_19">Masih Android, lebih baik</string>
+    <string name="random_summary_20">Ricers, silakan lanjutkan ke pintu keluar terdekat</string>
+    <string name="random_summary_21">Paging pengemudi BMW hitam...</string>
+    <string name="random_summary_24">Akui kami!</string>
+    <string name="random_summary_25">Kami sadar kami diberi nama setelah Mitsubishi</string>
+    <string name="random_summary_26">Saatnya bootloop!</string>
 </resources>
