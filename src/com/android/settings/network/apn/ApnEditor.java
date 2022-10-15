@@ -78,7 +78,8 @@ public class ApnEditor extends SettingsPreferenceFragment
     private static final String KEY_MVNO_TYPE = "mvno_type";
     private static final String KEY_PASSWORD = "apn_password";
 
-    private static final int MENU_DELETE = Menu.FIRST;
+    @VisibleForTesting
+    static final int MENU_DELETE = Menu.FIRST;
     private static final int MENU_SAVE = Menu.FIRST + 1;
     private static final int MENU_CANCEL = Menu.FIRST + 2;
 
@@ -144,6 +145,17 @@ public class ApnEditor extends SettingsPreferenceFragment
     String mDefaultApnProtocol;
     @VisibleForTesting
     String mDefaultApnRoamingProtocol;
+    /**
+     * The APN deletion feature within menu is aligned with the APN adding feature.
+     * Having only one of them could lead to a UX which not that make sense from user's
+     * perspective.
+     *
+     * mIsAddApnAllowed stores the configuration value reading from
+     * CarrierConfigManager.KEY_ALLOW_ADDING_APNS_BOOL to support the presentation
+     * control of the menu options. When false, delete option would be invisible to
+     * the end user.
+     */
+    private boolean mIsAddApnAllowed;
     private Uri mCarrierUri;
     private boolean mIsCarrierIdApn;
 
@@ -278,7 +290,7 @@ public class ApnEditor extends SettingsPreferenceFragment
                 SubscriptionManager.INVALID_SUBSCRIPTION_ID);
 
         initApnEditorUi();
-        getCarrierCustomizedConfig();
+        getCarrierCustomizedConfig(getContext());
 
         Uri uri = null;
         if (action.equals(Intent.ACTION_EDIT)) {
@@ -806,7 +818,8 @@ public class ApnEditor extends SettingsPreferenceFragment
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
         // If it's a new APN, then cancel will delete the new entry in onPause
-        if (!mNewApn) {
+        // If APN add is not allowed, delete might lead to issue regarding recovery
+        if (!mNewApn && mIsAddApnAllowed) {
             menu.add(0, MENU_DELETE, 0, R.string.menu_delete)
                 .setIcon(R.drawable.ic_delete);
         }
@@ -1272,10 +1285,12 @@ public class ApnEditor extends SettingsPreferenceFragment
         mMvnoMatchData = (EditTextPreference) findPreference("mvno_match_data");
     }
 
-    private void getCarrierCustomizedConfig() {
+    @VisibleForTesting
+    protected void getCarrierCustomizedConfig(Context context) {
+        mIsAddApnAllowed = true;
 
         final CarrierConfigManager configManager = (CarrierConfigManager)
-                getSystemService(Context.CARRIER_CONFIG_SERVICE);
+            context.getSystemService(Context.CARRIER_CONFIG_SERVICE);
         if (configManager != null) {
             final PersistableBundle b = configManager.getConfigForSubId(mSubId);
             if (b != null) {
@@ -1295,6 +1310,11 @@ public class ApnEditor extends SettingsPreferenceFragment
                 if (!TextUtils.isEmpty(mDefaultApnRoamingProtocol)) {
                     Log.d(TAG, "onCreate: default apn roaming protocol: "
                             + mDefaultApnRoamingProtocol);
+                }
+
+                mIsAddApnAllowed = b.getBoolean(CarrierConfigManager.KEY_ALLOW_ADDING_APNS_BOOL);
+                if (!mIsAddApnAllowed) {
+                    Log.d(TAG, "onCreate: not allow to add new APN");
                 }
             }
         }
