@@ -162,12 +162,6 @@
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 
-    <!-- Package details -->
-    <string name="package_details_group_title">Package details</string>
-    <string name="package_name">Package name</string>
-    <string name="package_version">Package version</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
-
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
@@ -353,10 +347,6 @@
 
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Background processes</string>
-
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
 
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
