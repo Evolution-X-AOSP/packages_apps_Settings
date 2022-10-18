@@ -300,7 +300,7 @@
 
     <!-- Battery health -->
     <string name="current_battery_capacity">Current capacity</string>
-    <string name="designed_battery_capacity">Maximum capacity</string>
+    <string name="designed_battery_capacity">Designed maximum capacity</string>
     <string name="battery_charge_cycles">Charge cycles completed</string>
 
     <string name="high_power_apps_summary">Per-app battery optimization</string>
