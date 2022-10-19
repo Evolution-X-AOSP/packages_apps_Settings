@@ -125,11 +125,6 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Zsebészlelés</string>
     <string name="pocket_judge_summary">Ha a készüléket zsebben érzékeli, megakadályozza a véletlen érintéseket</string>
-    <!-- Package details -->
-    <string name="package_details_group_title">A csomag adatai</string>
-    <string name="package_name">A csomag neve</string>
-    <string name="package_version">A csomag verziója</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s </xliff:g></string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Engedélyezi a klienseknek a VPN-használatot</string>
     <string name="tethering_allow_vpn_upstreams_summary">Engedélyezze a hotspot-klienseknek, hogy a készülék VPN-kapcsolatait felfelé csatlakoztathassák</string>
@@ -295,7 +290,7 @@
     <string name="build_status_summary">Egyéni</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">A jelenlegi kapacitás</string>
-    <string name="designed_battery_capacity">Maximum kapacitás</string>
+    <string name="designed_battery_capacity">Megkívánt maximum kapacitás</string>
     <string name="battery_charge_cycles">A töltési ciklus befejeződött</string>
     <string name="high_power_apps_summary">Alkalmazásonkénti akkuoptimalizálás</string>
     <!-- Playback control -->
@@ -326,4 +321,23 @@
     <string name="random_summary_24">Ismerjen el minket!</string>
     <string name="random_summary_25">Tisztában vagyunk, hogy Mitsubishiről neveztek el minket</string>
     <string name="random_summary_26">Itt az idő egy jó kis bootloop-ra!</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Elforgatási beállítások</string>
+    <string name="display_rotation_enabled">Az automatikus elforgatás engedélyezve</string>
+    <string name="display_rotation_disabled">Az automatikus elforgatás letiltva</string>
+    <string name="display_rotation_unit">fok</string>
+    <string name="display_rotation_category_title">Elforgatás módok</string>
+    <string name="display_rotation_0_title">0 fok</string>
+    <string name="display_rotation_90_title">90 fok</string>
+    <string name="display_rotation_180_title">180 fok</string>
+    <string name="display_rotation_270_title">270 fok</string>
+    <string name="app_info_install_time">Telepítve: %1$s</string>
+    <string name="app_info_update_time">Frissítve: %1$s</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Akkumulátor töltés-szint figyelmeztető</string>
+    <string name="notification_battery_charge_level_title">Akkumulátor-töltés figyelmeztető</string>
+    <string name="notification_battery_charge_level_summary">Hang lejátszása, amikor az akkumulátor elér egy szintet töltés közben</string>
+    <string name="notification_battery_charge_level_seek_bar">Akkumulátorszint</string>
+    <string name="notification_battery_charge_level_ringtone">Csengőhang</string>
+    <string name="notification_battery_charge_level_silent">Néma</string>
 </resources>
