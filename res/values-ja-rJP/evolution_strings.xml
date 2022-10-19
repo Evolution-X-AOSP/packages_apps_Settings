@@ -125,11 +125,6 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">ポケット検出</string>
     <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
-    <!-- Package details -->
-    <string name="package_details_group_title">パッケージの詳細</string>
-    <string name="package_name">パッケージ名</string>
-    <string name="package_version">パッケージのバージョン</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用を許可</string>
     <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
@@ -298,8 +293,6 @@
     <string name="designed_battery_capacity">最大容量</string>
     <string name="battery_charge_cycles">充電サイクル完了数</string>
     <string name="high_power_apps_summary">アプリごとのバッテリー最適化</string>
-    <string name="daily_battery_usage_chart">日別バッテリー使用量グラフ</string>
-    <string name="daily_battery_usage_chart_summary">過去24時間の使用状況を表示する</string>
     <!-- Playback control -->
     <string name="gesture_playback_control_screen_title">再生コントロール</string>
     <string name="gesture_playback_control_primary_switch_title">再生コントロールを使用</string>
@@ -307,4 +300,44 @@
     <string name="volume_rocker_music_controls_delay_title">再生コントロールの動作の遅延</string>
     <string name="gesture_playback_control_delay">遅延</string>
     <string name="unit_ms">ミリ秒</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">進化の始まりへようこそ</string>
+    <string name="random_summary_3">デバイスの進化を続行しよう</string>
+    <string name="random_summary_4">私達の機能でお使いの端末を進化させましょう</string>
+    <string name="random_summary_5">進化はミステリーです</string>
+    <string name="random_summary_6">有象無象の ROM でなく、Evolution Xです!</string>
+    <string name="random_summary_7">嫌う者は嫌い、Evo\'s は焼く。</string>
+    <string name="random_summary_8">ギャングの楽園での生活</string>
+    <string name="random_summary_9">前に進み続けよう</string>
+    <string name="random_summary_12">私達は稲妻より前に光っていた</string>
+    <string name="random_summary_15">ティラミスは本当に美味しい</string>
+    <string name="random_summary_16">13 もまた幸運であるだろう</string>
+    <string name="random_summary_18">人生はいつもピクセルや虹ではない</string>
+    <string name="random_summary_19">Android のままで、更に良くなる。</string>
+    <string name="random_summary_20">ライサーよ、最寄りの出口にお進み下さい。</string>
+    <string name="random_summary_21">ブラック BMW のドライバーをページング中...</string>
+    <string name="random_summary_24">私達のことをお知り下さい</string>
+    <string name="random_summary_25">私達は三菱にちなんで名付けられたと知っています</string>
+    <string name="random_summary_26">ブートループの時間だ!</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">回転の設定</string>
+    <string name="display_rotation_enabled">画面の自動回転は有効です</string>
+    <string name="display_rotation_disabled">画面の自動回転は無効です</string>
+    <string name="display_rotation_unit">角度</string>
+    <string name="display_rotation_category_title">回転モード</string>
+    <string name="display_rotation_0_title">0度</string>
+    <string name="display_rotation_90_title">90度</string>
+    <string name="display_rotation_180_title">180度</string>
+    <string name="display_rotation_270_title">270度</string>
+    <string name="app_info_install_time">インストール日時: %1$s</string>
+    <string name="app_info_update_time">アップデート日時: %1$s</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">バッテリー充電レベル警告の有効化</string>
+    <string name="notification_battery_charge_level_title">バッテリー充電の警告</string>
+    <string name="notification_battery_charge_level_summary">バッテリー充電時に指定したレベルに達した時に音を鳴らす</string>
+    <string name="notification_battery_charge_level_seek_bar">バッテリー残量</string>
+    <string name="notification_battery_charge_level_ringtone">着信音</string>
+    <string name="notification_battery_charge_level_silent">サイレント</string>
 </resources>

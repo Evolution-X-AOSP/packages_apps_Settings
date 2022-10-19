@@ -125,11 +125,6 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Cep algılama</string>
     <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
-    <!-- Package details -->
-    <string name="package_details_group_title">Paket ayrıntıları</string>
-    <string name="package_name">Paket adı</string>
-    <string name="package_version">Paket versionu</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın VPN bağlantısını kullanmasına izin ver</string>
@@ -326,4 +321,23 @@
     <string name="random_summary_24">Bize teşekkür edin!</string>
     <string name="random_summary_25">Adımızı bir Mitsubishi\'den aldığımızın farkındayız</string>
     <string name="random_summary_26">Bootloop zamanı!</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Döndürme ayarları</string>
+    <string name="display_rotation_enabled">Otomatik döndürme etkin</string>
+    <string name="display_rotation_disabled">Otomatik döndürme devre dışı</string>
+    <string name="display_rotation_unit">derece</string>
+    <string name="display_rotation_category_title">Döndürme modları</string>
+    <string name="display_rotation_0_title">0 derece</string>
+    <string name="display_rotation_90_title">90 derece</string>
+    <string name="display_rotation_180_title">180 derece</string>
+    <string name="display_rotation_270_title">270 derece</string>
+    <string name="app_info_install_time">Yüklenen: %1$s</string>
+    <string name="app_info_update_time">Güncellendi: %1$s</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Pil şarj seviyesi uyarısını etkinleştir</string>
+    <string name="notification_battery_charge_level_title">Pil şarj uyarısı</string>
+    <string name="notification_battery_charge_level_summary">Pil şarj olurken belirtilen seviyeye ulaştığında ses çıkar</string>
+    <string name="notification_battery_charge_level_seek_bar">Pil seviyesi</string>
+    <string name="notification_battery_charge_level_ringtone">Zil sesi</string>
+    <string name="notification_battery_charge_level_silent">Sessiz</string>
 </resources>
