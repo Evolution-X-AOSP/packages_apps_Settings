@@ -125,11 +125,6 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Режим \"В кармане\"</string>
     <string name="pocket_judge_summary">Блокировка экрана и кнопки включения, когда устройство находится в кармане</string>
-    <!-- Package details -->
-    <string name="package_details_group_title">Информация о пакете</string>
-    <string name="package_name">Имя пакета</string>
-    <string name="package_version">Версия пакета</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешать клиентам точки доступа этого устройства использовать VPN для исходящих подключени</string>
@@ -326,4 +321,23 @@
     <string name="random_summary_24">Признайте нас!</string>
     <string name="random_summary_25">Мы знаем, что названы в честь Mitsubishi</string>
     <string name="random_summary_26">Время бутлупов!</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Настройки поворота</string>
+    <string name="display_rotation_enabled">Автоповорот включён</string>
+    <string name="display_rotation_disabled">Автоповорот выключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы поворота</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+    <string name="app_info_install_time">Установлено: %1$s</string>
+    <string name="app_info_update_time">Обновлено: %1$s</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Включить предупреждение об уровне заряда</string>
+    <string name="notification_battery_charge_level_title">Предупреждение о заряде батареи</string>
+    <string name="notification_battery_charge_level_summary">Проиграть звук, когда батарея достигнет установленного уровня заряда батареи</string>
+    <string name="notification_battery_charge_level_seek_bar">Уровень заряда батареи</string>
+    <string name="notification_battery_charge_level_ringtone">Рингтон</string>
+    <string name="notification_battery_charge_level_silent">Без звука</string>
 </resources>
