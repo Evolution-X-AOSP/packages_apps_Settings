@@ -140,6 +140,12 @@
         android:summary="@string/content_capture_summary"
         settings:controller="com.android.settings.privacy.EnableContentCaptureWithServiceSettingsPreferenceController"/>
 
+    <com.evolution.settings.preference.SecureSettingSwitchPreference
+        android:key="show_clipboard_overlay"
+        android:title="@string/show_clipboard_overlay_title"
+        android:summary="@string/show_clipboard_overlay_summary"
+        android:defaultValue="true"/>
+
     <!-- Clipboard access notifications -->
     <SwitchPreference
         android:key="show_clip_access_notification"
