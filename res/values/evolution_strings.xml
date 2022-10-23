@@ -431,4 +431,8 @@
     <string name="notification_custom_vibrate_summary">Replaces the default pattern only\nApp set pattern takes precedence</string>
     <string name="notification_custom_vibrate_slider1">Vibrate for</string>
     <string name="notification_custom_vibrate_slider2">Pause for</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
 </resources>
