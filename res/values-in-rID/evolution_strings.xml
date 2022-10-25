@@ -280,9 +280,6 @@
     <string name="thick_label">Tebal</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Proses latar belakang</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Umpan balik haptik</string>
-    <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada tombol gestur kembali</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
     <!-- Build status -->
@@ -340,4 +337,28 @@
     <string name="notification_battery_charge_level_seek_bar">Tingkat baterai</string>
     <string name="notification_battery_charge_level_ringtone">Nada dering</string>
     <string name="notification_battery_charge_level_silent">Senyap</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Ketuk untuk menampilkan info</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Bisukan Cepat</string>
+    <string name="volume_button_quick_mute_category_title">Menekan lama tombol volume bawah akan membisukan aliran volume aktif</string>
+    <string name="volume_button_quick_mute_delay_title">Penundaan aktivasi kontrol pemutaran</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Pola getaran nada dering</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Kustom</string>
+    <string name="custom_vibration_pattern_title">Pola kustom</string>
+    <string name="custom_vibration_pattern_summary">Setel pola getaran kustom</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Pola getaran kustom</string>
+    <string name="notification_custom_vibrate_summary">Menggantikan pola default saja\nPola kumpulan aplikasi diutamakan</string>
+    <string name="notification_custom_vibrate_slider1">Bergetar untuk</string>
+    <string name="notification_custom_vibrate_slider2">Jeda untuk</string>
+    <!-- Parallel space -->
+    <string name="parallel_space_title">Ruang paralel</string>
+    <string name="parallel_space_summary">Izinkan menjalankan beberapa contoh dari aplikasi yang sama secara paralel.</string>
 </resources>

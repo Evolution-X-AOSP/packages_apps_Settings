@@ -280,9 +280,6 @@
     <string name="thick_label">Espesso</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Processos em segundo plano</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Resposta tátil</string>
-    <string name="back_gesture_haptic_summary">Ativar o efeito tátil no gesto de voltar</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Habilitar botão de rotação flutuante</string>
     <!-- Build status -->
@@ -309,7 +306,7 @@
     <string name="random_summary_5">Evolução é um mistério</string>
     <string name="random_summary_6">Não é qualquer ROM, esta é Evolution X!</string>
     <string name="random_summary_7">Haters vão odiar, Evo\'s darão risadas</string>
-    <string name="random_summary_8">Vivendo no paraíso de um gangsta</string>
+    <string name="random_summary_8">Vivendo no paraíso dos gangsters</string>
     <string name="random_summary_9">Siga em frente</string>
     <string name="random_summary_12">Nós éramos relâmpagos antes do trovão</string>
     <string name="random_summary_15">Tiramisu está realmente legal</string>
@@ -340,4 +337,6 @@
     <string name="notification_battery_charge_level_seek_bar">Nível da bateria</string>
     <string name="notification_battery_charge_level_ringtone">Toque</string>
     <string name="notification_battery_charge_level_silent">Silencioso</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar informações</string>
 </resources>
