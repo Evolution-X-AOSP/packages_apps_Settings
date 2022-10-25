@@ -125,11 +125,6 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Rilevamento della tasca</string>
     <string name="pocket_judge_summary">Blocca lo schermo e gli input dei pulsanti quando il dispositivo è in tasca</string>
-    <!-- Package details -->
-    <string name="package_details_group_title">Dettagli del pacchetto</string>
-    <string name="package_name">Nome del pacchetto</string>
-    <string name="package_version">Versione del pacchetto</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Consenti ai clienti di usare le VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
@@ -285,9 +280,6 @@
     <string name="thick_label">Spesso</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Processi in background</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Vibrazione tattile</string>
-    <string name="back_gesture_haptic_summary">Attiva la vibrazione tattile sul gesto indietro</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Usa il pulsante di rotazione fluttuante</string>
     <!-- Build status -->
@@ -298,8 +290,6 @@
     <string name="designed_battery_capacity">Capacità massima</string>
     <string name="battery_charge_cycles">Cicli di ricarica completati</string>
     <string name="high_power_apps_summary">Ottimizzazione batteria per app</string>
-    <string name="daily_battery_usage_chart">Grafico utilizzo batteria giornaliero</string>
-    <string name="daily_battery_usage_chart_summary">Visualizza l\'utilizzo nelle ultime 24 ore</string>
     <!-- Playback control -->
     <string name="gesture_playback_control_screen_title">Controllo della riproduzione</string>
     <string name="gesture_playback_control_primary_switch_title">Usa controllo di riproduzione</string>
@@ -307,4 +297,68 @@
     <string name="volume_rocker_music_controls_delay_title">Ritardo attivazione del controllo riproduzione</string>
     <string name="gesture_playback_control_delay">Ritardo</string>
     <string name="unit_ms">millisecondi</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Benvenuto alla Vigilia dell\'Evolution</string>
+    <string name="random_summary_3">Continua l\'Evolution del tuo dispositivo</string>
+    <string name="random_summary_4">Inizia ad evolvere il tuo dispositivo con le nostre funzionalità</string>
+    <string name="random_summary_5">L\'Evolution è un mistero</string>
+    <string name="random_summary_6">Non una ROM qualsiasi, questa è Evolution X!</string>
+    <string name="random_summary_7">Rosiconi, alla larga da Evo</string>
+    <string name="random_summary_8">Vivere nel paradiso di un gangsta</string>
+    <string name="random_summary_9">Continua ad andare avanti</string>
+    <string name="random_summary_12">Eravamo fulmini prima del tuono</string>
+    <string name="random_summary_15">Il tiramisù ha davvero un buon sapore</string>
+    <string name="random_summary_16">Il 13 può anche essere fortunato</string>
+    <string name="random_summary_18">La vita non è sempre pixel e arcobaleni</string>
+    <string name="random_summary_19">Ancora Android, solo meglio</string>
+    <string name="random_summary_20">Ricers, si prega di procedere per l\'uscita più vicina</string>
+    <string name="random_summary_21">Cercando il conducente della BMW nera...</string>
+    <string name="random_summary_24">Riconoscici!</string>
+    <string name="random_summary_25">Siamo consapevoli che stiamo prendendo il nome da una Mitsubishi</string>
+    <string name="random_summary_26">È tempo di bootloop!</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Impostazioni rotazione</string>
+    <string name="display_rotation_enabled">La rotazione automatica è attivata</string>
+    <string name="display_rotation_disabled">La rotazione automatica è disattivata</string>
+    <string name="display_rotation_unit">gradi</string>
+    <string name="display_rotation_category_title">Modalità rotazione</string>
+    <string name="display_rotation_0_title">0 gradi</string>
+    <string name="display_rotation_90_title">90 gradi</string>
+    <string name="display_rotation_180_title">180 gradi</string>
+    <string name="display_rotation_270_title">270 gradi</string>
+    <string name="app_info_install_time">Installata: %1$s</string>
+    <string name="app_info_update_time">Aggiornata: %1$s</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Abilita avviso livello di carica batteria</string>
+    <string name="notification_battery_charge_level_title">Avviso carica della batteria</string>
+    <string name="notification_battery_charge_level_summary">Riproduci un suono quando la batteria raggiunge il livello specificato durante la ricarica</string>
+    <string name="notification_battery_charge_level_seek_bar">Livello batteria</string>
+    <string name="notification_battery_charge_level_ringtone">Suoneria</string>
+    <string name="notification_battery_charge_level_silent">Silenzioso</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tocca per mostrare le info</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Silenzia velocemente</string>
+    <string name="volume_button_quick_mute_category_title">Premendo a lungo il tasto volume giù verrà disattivato lo stream di volume attivo</string>
+    <string name="volume_button_quick_mute_delay_title">Ritardo attivazione del controllo riproduzione</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Schema vibrazione suoneria</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizzata</string>
+    <string name="custom_vibration_pattern_title">Schema personalizzato</string>
+    <string name="custom_vibration_pattern_summary">Imposta uno schema di vibrazione personalizzato</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Vibrazione personalizzata</string>
+    <string name="notification_custom_vibrate_summary">Sostituisce solo lo schema predefinito\nLo schema impostato dall\'app ha la precedenza</string>
+    <string name="notification_custom_vibrate_slider1">Vibra per</string>
+    <string name="notification_custom_vibrate_slider2">Pausa per</string>
+    <!-- Parallel space -->
+    <string name="parallel_space_title">Spazio parallelo</string>
+    <string name="parallel_space_summary">Consente l\'esecuzione di istanze multiple della stessa applicazione in parallelo.</string>
 </resources>

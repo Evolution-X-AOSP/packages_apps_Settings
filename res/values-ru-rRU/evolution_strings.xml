@@ -280,9 +280,6 @@
     <string name="thick_label">Толстая</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Запущенные процессы</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Тактильный отклик</string>
-    <string name="back_gesture_haptic_summary">Включить эффект тактильной отдачи для жеста «Назад»</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Использовать плавающую кнопку поворота</string>
     <!-- Build status -->
@@ -340,4 +337,6 @@
     <string name="notification_battery_charge_level_seek_bar">Уровень заряда батареи</string>
     <string name="notification_battery_charge_level_ringtone">Рингтон</string>
     <string name="notification_battery_charge_level_silent">Без звука</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите для отображения информации</string>
 </resources>

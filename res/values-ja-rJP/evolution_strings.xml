@@ -280,9 +280,6 @@
     <string name="thick_label">太い</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">バックグラウンドプロセス</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">触覚フィードバック</string>
-    <string name="back_gesture_haptic_summary">戻るジェスチャー時に振動を有効化する</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">フローティング回転ボタンを使用</string>
     <!-- Build status -->
@@ -340,4 +337,6 @@
     <string name="notification_battery_charge_level_seek_bar">バッテリー残量</string>
     <string name="notification_battery_charge_level_ringtone">着信音</string>
     <string name="notification_battery_charge_level_silent">サイレント</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">タップして情報を表示</string>
 </resources>
