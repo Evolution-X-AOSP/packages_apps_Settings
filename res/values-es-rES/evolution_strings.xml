@@ -78,9 +78,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Control de reproducción</string>
-    <string name="volume_button_music_control_summary">Cuando la pantalla esté apagada, una pulsación larga de los controles de volumen, avanzará o retrocederá las canciones</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doble toque</string>
     <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
@@ -128,11 +125,6 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detección de bolsillo</string>
     <string name="pocket_judge_summary">Bloquea la pantalla y los botones cuando el dispositivo esté en el bolsillo</string>
-    <!-- Package details -->
-    <string name="package_details_group_title">Detalles del paquete</string>
-    <string name="package_name">Nombre del paquete</string>
-    <string name="package_version">Versión del paquete</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permite a los clientes del punto de acceso usar las conexiones VPN de este dispositivo como conectividad de subida</string>
@@ -229,10 +221,120 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Alternar entre modos</string>
     <string name="prevent_ringing_option_cycle_summary">Activado (alternar entre modos)</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Espacio bajo el teclado</string>
-    <string name="navigation_bar_ime_space_value_narrow">Estrecho</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Brillo automático de una vez</string>
     <string name="auto_brightness_one_shot_summary">El brillo se ajustará sólo en el momento de encender la pantalla</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="use_ringer_mute_speaker_media_title">Usar silencio de medios</string>
+    <string name="ringer_mute_speaker_media_title">Silenciar multimedia</string>
+    <string name="ringer_mute_text">Silenciar volumen multimedia cuando el modo timbre está en silencio. Cuando se desconecta de un dispositivo bluetooth en modo silencioso, el volumen multimedia se silenciará automáticamente. \nEsto no afectará a los altavoces y auriculares externos.</string>
+    <!-- 0 timeout for smart pause while using silent to mute-->
+    <string name="mute_sp_title">No reanudar medios después de des-silenciar</string>
+    <string name="mute_sp_summary">Establece a 0 el tiempo de espera de Pausas Inteligentes para evitar la reproducción accidental\n(Esto se revertirá automáticamente al des-silenciar si hay un tiempo de espera establecido)</string>
+    <!-- Pulse Volume Panel on un/mute media-->
+    <string name="pulse_panel_title">Mostrar panel de volumen</string>
+    <string name="pulse_panel_summary">Mostrar panel de volumen al des-silenciar</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Siempre encendido durante la carga</string>
+    <string name="doze_on_charge_summary">Mantener pantalla ambiente encendida al cargar</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Espacio bajo el teclado</string>
+    <string name="navigation_bar_ime_space_value_narrow">Estrecho</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Completo</string>
+    <string name="back_height_high_label">Inferior</string>
+    <string name="back_options_dialog_title">Opciones</string>
+    <string name="back_height_message">Cantidad de altura de pantalla usada como región para el gesto de atrás.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">¡Advertencia: Esta opción puede no funcionar correctamente o conducir a la pérdida de datos y por lo tanto no es recomendable!</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones en pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Forzar aplicaciones a ignorar el espacio del notch</string>
+    <string name="search">Buscar</string>
+    <string name="search_apps">Buscar aplicaciones</string>
+    <!-- Clang version -->
+    <string name="clang_version">Versión de Clang</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Red oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">El nombre de tu punto de acceso no aparecerá en la lista de redes inalámbricas disponibles.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca apagar el punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Vea y gestione los dispositivos conectados al punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Lista de dispositivos conectados al punto de acceso</string>
+    <string name="wifi_hotspot_client_limit_title">Límite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta acción desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" de este dispositivo y lo añadirá a la lista de bloqueados</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Este dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" podrá conectarse a este punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No hay clientes disponibles. Los dispositivos conectados y bloqueados aparecerán aquí cuando estén disponibles.</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Ningún certificado especificado. Su conexión no será privada.</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Sonido de carga</string>
+    <string name="charging_vibro_title">Vibración al cargar</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Radio de la barra de gestos</string>
+    <string name="thin_label">Delgada</string>
+    <string name="thick_label">Gruesa</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Procesos en segundo plano</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Usar botón flotante de rotación</string>
+    <!-- Build status -->
+    <string name="build_status">Estado de la compilación</string>
+    <string name="build_status_summary">Personalizado</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Capacidad actual</string>
+    <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
+    <string name="battery_charge_cycles">Ciclos de carga completados</string>
+    <string name="high_power_apps_summary">Optimización de batería por aplicación</string>
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">Control de reproducción</string>
+    <string name="gesture_playback_control_primary_switch_title">Usar control de reproducción</string>
+    <string name="gesture_playback_control_intro_text">Con la pantalla apagada, una pulsación larga de los controles de volumen cambiará de canción</string>
+    <string name="volume_rocker_music_controls_delay_title">Retraso de activación del control de reproducción</string>
+    <string name="gesture_playback_control_delay">retraso</string>
+    <string name="unit_ms">ms</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Bienvenido al núcleo de Evolution</string>
+    <string name="random_summary_3">Continúa la Evolución de tu dispositivo</string>
+    <string name="random_summary_4">#Evoluciona tu dispositivo con nuestras funciones</string>
+    <string name="random_summary_5">Evolution es un misterio</string>
+    <string name="random_summary_6">No cualquier ROM, ¡esto es Evolution X!</string>
+    <string name="random_summary_7">Los haters ladrarán, Evo evolucionará</string>
+    <string name="random_summary_8">Viviendo el paraíso de un gangsta</string>
+    <string name="random_summary_9">Sigue avanzando</string>
+    <string name="random_summary_12">Fuimos aquel resplandor antes del trueno</string>
+    <string name="random_summary_15">Tiramisu sabe realmente bien</string>
+    <string name="random_summary_16">El 13 también puede dar buena suerte</string>
+    <string name="random_summary_18">La vida no siempre es píxeles y arcoíris</string>
+    <string name="random_summary_19">Es Android, pero aún mejor</string>
+    <string name="random_summary_20">Ricers, por favor por la salida más cercana</string>
+    <string name="random_summary_21">Buscando al conductor del BMW negro...</string>
+    <string name="random_summary_24">¡Reconocednos!</string>
+    <string name="random_summary_25">Sabemos que se nos nombra tras un Mitsubishi</string>
+    <string name="random_summary_26">¡Es la hora del bootloop!</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Ajustes de rotación</string>
+    <string name="display_rotation_enabled">Rotación automática activada</string>
+    <string name="display_rotation_disabled">Rotación automática desactivada</string>
+    <string name="display_rotation_unit">grados</string>
+    <string name="display_rotation_category_title">Modos de rotación</string>
+    <string name="display_rotation_0_title">0 grados</string>
+    <string name="display_rotation_90_title">90 grados</string>
+    <string name="display_rotation_180_title">180 grados</string>
+    <string name="display_rotation_270_title">270 grados</string>
+    <string name="app_info_install_time">Instalado: %1$s</string>
+    <string name="app_info_update_time">Actualizado: %1$s</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Habilitar advertencia de nivel de carga de batería</string>
+    <string name="notification_battery_charge_level_title">Advertencia de carga de batería</string>
+    <string name="notification_battery_charge_level_summary">Reproducir un sonido cuando la batería alcance un nivel de carga</string>
+    <string name="notification_battery_charge_level_seek_bar">Nivel de bateria</string>
+    <string name="notification_battery_charge_level_ringtone">Tono de llamada</string>
+    <string name="notification_battery_charge_level_silent">Silencio</string>
 </resources>

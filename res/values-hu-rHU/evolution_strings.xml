@@ -237,9 +237,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Állandóan bekapcsolva töltés közben</string>
     <string name="doze_on_charge_summary">Töltés során jelenítse meg a gyorstöltés képernyőt</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Billentyűzet alatti tér</string>
-    <string name="navigation_bar_ime_space_value_narrow">Keskeny</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Teljes</string>
     <string name="back_height_high_label">Alul</string>
@@ -280,9 +277,6 @@
     <string name="thick_label">Vastag</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Háttérfolyamatok</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Érintési visszajelzés</string>
-    <string name="back_gesture_haptic_summary">Visszajelző rezgés a vissza mozdulatnál</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Lebegő elforgatás gomb engedélyezése</string>
     <!-- Build status -->
@@ -340,4 +334,42 @@
     <string name="notification_battery_charge_level_seek_bar">Akkumulátorszint</string>
     <string name="notification_battery_charge_level_ringtone">Csengőhang</string>
     <string name="notification_battery_charge_level_silent">Néma</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Érintse meg az információért</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Gyorsnémítás</string>
+    <string name="volume_button_quick_mute_category_title">A hangerő le gomb hosszan lenyomva némítja az aktív hangerőt</string>
+    <string name="volume_button_quick_mute_delay_title">A lejátszásvezérlés késleltetése</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Csengőhang rezgésmintázat</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Egyéni</string>
+    <string name="custom_vibration_pattern_title">Egyéni mintázat</string>
+    <string name="custom_vibration_pattern_summary">Beállíthat egyéni vibrációs mintát is</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Egyedi rezgésminta</string>
+    <string name="notification_custom_vibrate_summary">Csak az alapértelmezett mintát cseréli le.\nAz alkalmazáskészlet mintája elsőbbséget élvez</string>
+    <string name="notification_custom_vibrate_slider1">Rezgés ennyi ideig</string>
+    <string name="notification_custom_vibrate_slider2">Szüneteltetés ennyi ideig</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Vágólap-átfedés</string>
+    <string name="show_clipboard_overlay_summary">Átfedés megjelenítése a képernyő bal alsó sarkában, ha valamit a vágólapra másol</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Zeneszám a környezeti kijelzőn</string>
+    <string name="pulse_on_new_tracks_summary">A Környezeti kijelző megjelenítése, ha új zeneszám kerül lejátszásra</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">A korábban beolvasott arc eltávolítása és új arc beolvasása</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Az arcbeolvasás megismétlése</string>
+    <string name="face_redo_confirm_btn">Újra</string>
+    <string name="face_redo_warning_msg">Szeretné eltávolítani a korábban beolvasott arcot és beolvasni egy újat?</string>
+    <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
+    <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
+    <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME-gombhely rejtése</string>
+    <string name="navigation_bar_ime_space_summary">Eltünteti az IME-gombhelyet a billentyűzet alatt</string>
 </resources>

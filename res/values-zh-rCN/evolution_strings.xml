@@ -78,9 +78,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">开启 (5分钟)</string>
     <string name="adaptive_playback_timeout_10_min">10 分钟</string>
     <string name="adaptive_playback_timeout_10_min_summary">开启 (10分钟)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">播放控制</string>
-    <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键来切换不同曲目</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">双击亮屏</string>
@@ -128,11 +125,6 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">口袋检测</string>
     <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
-    <!-- Package details -->
-    <string name="package_details_group_title">软件包详情</string>
-    <string name="package_name">软件包名</string>
-    <string name="package_version">软件包版本</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接</string>
@@ -288,12 +280,92 @@
     <string name="thick_label">粗</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">后台进程</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">触觉反馈</string>
-    <string name="back_gesture_haptic_summary">启用返回手势的振动效果</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">使用浮动旋转按钮</string>
     <!-- Build status -->
     <string name="build_status">编译状态</string>
     <string name="build_status_summary">自定义</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">当前容量</string>
+    <string name="designed_battery_capacity">电池设计容量</string>
+    <string name="battery_charge_cycles">充电周期已完成</string>
+    <string name="high_power_apps_summary">每个应用的电池优化</string>
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">播放控制</string>
+    <string name="gesture_playback_control_primary_switch_title">使用播放控制</string>
+    <string name="gesture_playback_control_intro_text">屏幕关闭时，长按音量键跳转音乐曲目</string>
+    <string name="volume_rocker_music_controls_delay_title">播放控制激活延迟</string>
+    <string name="gesture_playback_control_delay">延迟</string>
+    <string name="unit_ms">毫秒</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">欢迎来到进化之路</string>
+    <string name="random_summary_3">继续进化您的设备</string>
+    <string name="random_summary_4">开始以我们的功能进化你的设备</string>
+    <string name="random_summary_5">进化是一个神秘</string>
+    <string name="random_summary_6">这不仅仅是任意的 ROM，这是进化 X！</string>
+    <string name="random_summary_7">该恨的恨，埃沃要去烧烤</string>
+    <string name="random_summary_8">生活在流氓的天堂</string>
+    <string name="random_summary_9">继续前进</string>
+    <string name="random_summary_12">我们是响雷之前的闪电</string>
+    <string name="random_summary_15">提拉米苏真的很好吃</string>
+    <string name="random_summary_16">13 也能是幸运的</string>
+    <string name="random_summary_18">生命并不总是多姿多彩</string>
+    <string name="random_summary_19">永远的安卓，恰到好处</string>
+    <string name="random_summary_20">Ricers，请前往最近的出口</string>
+    <string name="random_summary_21">呼叫黑色宝马车的司机。。。</string>
+    <string name="random_summary_24">感谢我们！</string>
+    <string name="random_summary_25">我们知道我们是以三菱命名的</string>
+    <string name="random_summary_26">这是启动时间！</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">旋转设置</string>
+    <string name="display_rotation_enabled">自动旋转已启用</string>
+    <string name="display_rotation_disabled">自动旋转已禁用</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">旋转模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
+    <string name="app_info_install_time">已安装: %1$s</string>
+    <string name="app_info_update_time">已更新: %1$s</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">启用电池充电级别警告</string>
+    <string name="notification_battery_charge_level_title">电池充电警告</string>
+    <string name="notification_battery_charge_level_summary">充电时电池达到预定水平时播放声音</string>
+    <string name="notification_battery_charge_level_seek_bar">电池电量</string>
+    <string name="notification_battery_charge_level_ringtone">铃声</string>
+    <string name="notification_battery_charge_level_silent">静音</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">点击以显示信息</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">快速静音</string>
+    <string name="volume_button_quick_mute_category_title">长按音量减小键将静音活动的音频</string>
+    <string name="volume_button_quick_mute_delay_title">播放控制激活延迟</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">铃声振动模式</string>
+    <string name="pattern_dzzz_dzzz">嗒滋滋滋-嗒滋滋滋</string>
+    <string name="pattern_dzzz_da">嗒滋滋滋-嗒</string>
+    <string name="pattern_mm_mm_mm">嗡嗡-嗡嗡-嗡嗡</string>
+    <string name="pattern_da_da_dzzz">嗒-嗒-嗒滋滋滋</string>
+    <string name="pattern_da_dzzz_da">嗒-嗒滋滋滋-嗒</string>
+    <string name="pattern_custom">自定义</string>
+    <string name="custom_vibration_pattern_title">自定义模式</string>
+    <string name="custom_vibration_pattern_summary">设置自定义振动模式</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">自定义振动模式</string>
+    <string name="notification_custom_vibrate_summary">仅替换默认模式\n应用程序自身的模式设置优先</string>
+    <string name="notification_custom_vibrate_slider1">振动-</string>
+    <string name="notification_custom_vibrate_slider2">暂停-</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">人脸解锁让你通过面部识别来解锁你的设备。 记住：\n\n● 你的设备可以随时解锁。\n● 如果你的设备被其他人把它放在你面前时，也可以被解锁。\n● 你的设备也可能被像你一样的人解锁，如孩子或同一个兄弟姐妹。</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">人脸解锁功能记录的数据将被永久安全删除。删除后，您将需要使用 PIN、图案或密码来解锁您的手机。</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重做面部扫描</string>
+    <string name="face_redo_confirm_btn">重做</string>
+    <string name="face_redo_warning_msg">是否要移除现有的人脸数据并重新录入？</string>
+    <string name="face_unlock_method_title">允许在锁屏使用人脸识别解锁</string>
+    <string name="face_unlock_method_default">当屏幕开启时</string>
+    <string name="face_unlock_method_swipe">在锁屏界面上滑动时</string>
 </resources>

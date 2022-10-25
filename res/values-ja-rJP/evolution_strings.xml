@@ -280,9 +280,6 @@
     <string name="thick_label">太い</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">バックグラウンドプロセス</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">触覚フィードバック</string>
-    <string name="back_gesture_haptic_summary">戻るジェスチャー時に振動を有効化する</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">フローティング回転ボタンを使用</string>
     <!-- Build status -->
@@ -340,4 +337,39 @@
     <string name="notification_battery_charge_level_seek_bar">バッテリー残量</string>
     <string name="notification_battery_charge_level_ringtone">着信音</string>
     <string name="notification_battery_charge_level_silent">サイレント</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">タップして情報を表示</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">クイックミュート</string>
+    <string name="volume_button_quick_mute_category_title">音量ダウンボタンの長押しでアクティブな音量ストリートを消音</string>
+    <string name="volume_button_quick_mute_delay_title">再生コントロールの動作の遅延</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">着信音の振動のパターン</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">カスタム</string>
+    <string name="custom_vibration_pattern_title">カスタムパターン</string>
+    <string name="custom_vibration_pattern_summary">カスタムの振動パターンを設定する</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">カスタムの振動パターン</string>
+    <string name="notification_custom_vibrate_summary">既定のパターンのみを置き換え\nアプリの設定パターンが優先されます</string>
+    <string name="notification_custom_vibrate_slider1">以下で振動</string>
+    <string name="notification_custom_vibrate_slider2">以下で一時停止</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">クリップボードオーバーレイを表示</string>
+    <string name="show_clipboard_overlay_summary">クリップボードに何かがコピーされた時に画面の左下にコピー内容をオーバーレイを表示する</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">新規楽曲再生時にアンビエント表示をする</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
+    <string name="face_redo_confirm_btn">やり直し</string>
+    <string name="face_redo_warning_msg">既存の顔スキャンを削除して新しいスキャンを作成しますか?</string>
+    <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
+    <string name="face_unlock_method_default">画面が点灯した時</string>
+    <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
 </resources>
