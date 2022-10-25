@@ -280,9 +280,6 @@
     <string name="thick_label">Kalın</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Arkaplan işlemleri</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Dokunmatik geri bildirim</string>
-    <string name="back_gesture_haptic_summary">Geri hareketinde dokunsal tıklama efektini etkinleştirir</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Hareketli yönlendirme tuşu kullan</string>
     <!-- Build status -->
