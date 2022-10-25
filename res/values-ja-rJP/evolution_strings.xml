@@ -280,9 +280,6 @@
     <string name="thick_label">太い</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">バックグラウンドプロセス</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">触覚フィードバック</string>
-    <string name="back_gesture_haptic_summary">戻るジェスチャー時に振動を有効化する</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">フローティング回転ボタンを使用</string>
     <!-- Build status -->
