@@ -280,9 +280,6 @@
     <string name="thick_label">Vastag</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Háttérfolyamatok</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Érintési visszajelzés</string>
-    <string name="back_gesture_haptic_summary">Visszajelző rezgés a vissza mozdulatnál</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Lebegő elforgatás gomb engedélyezése</string>
     <!-- Build status -->
