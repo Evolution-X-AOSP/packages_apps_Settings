@@ -280,9 +280,6 @@
     <string name="thick_label">Grossa</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Processos em segundo plano</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Feedback tátil</string>
-    <string name="back_gesture_haptic_summary">Ativar o efeito de resposta tátil no gesto de voltar</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Usar botão de rotação flutuante</string>
     <!-- Build status -->
@@ -334,10 +331,41 @@
     <string name="app_info_install_time">Instalado: %1$s</string>
     <string name="app_info_update_time">Atualizado: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Ativar aviso de carga da bateria</string>
+    <string name="notification_sound_battery_charge_title">Ativar aviso do nível da bateria</string>
     <string name="notification_battery_charge_level_title">Aviso de carga da bateria</string>
     <string name="notification_battery_charge_level_summary">Reproduzir um som quando a bateria atingir o nível de carga definido</string>
     <string name="notification_battery_charge_level_seek_bar">Nível da bateria</string>
     <string name="notification_battery_charge_level_ringtone">Toque</string>
     <string name="notification_battery_charge_level_silent">Silencioso</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar informações</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Silenciar rapidamente</string>
+    <string name="volume_button_quick_mute_category_title">Manter premido o botão de diminuir volume silenciará o fluxo de volume ativo</string>
+    <string name="volume_button_quick_mute_delay_title">Atraso de ativação do controlo de reprodução</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Padrão de vibração do toque</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizada</string>
+    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Padrão de vibração personalizado</string>
+    <string name="notification_custom_vibrate_summary">Substitui apenas o padrão predefinido\nUm padrão definido na app tem pioridade</string>
+    <string name="notification_custom_vibrate_slider1">Vibrar durante</string>
+    <string name="notification_custom_vibrate_slider2">Pausar durante</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">O desbloqueio facial permite que desbloqueie o dispositivo ao olhar para ele. Tenha em mente:\n\n● O dispositivo poderá ser desbloqueado em qualquer altura que olhe para ele.\n● O dispositivo pode ser desbloqueado se alguém o mantiver à frente do seu rosto quando tem os olhos abertos.\n● O dispositivo também pode ser desbloqueado por alguém bastante parecido consigo, como um filho ou um irmão idêntico.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Os dados guardados pelo desbloqueio facial serão eliminados de forma segura e permanente. Após a eliminação, será necessário o seu PIN, padrão ou palavra-passe para desbloquear o dispositivo.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remover a verificação facial existente e criar uma nova</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Analisar face novamente</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Deseja remover os dados da verificação facial existente e criar uma nova?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueio facial no ecrã de bloqueio</string>
+    <string name="face_unlock_method_default">Quando o ecrã estiver ligado</string>
+    <string name="face_unlock_method_swipe">Ao deslizar no ecrã de bloqueio</string>
 </resources>
