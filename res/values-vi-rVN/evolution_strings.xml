@@ -78,9 +78,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Bật (5 phút)</string>
     <string name="adaptive_playback_timeout_10_min">10 phút</string>
     <string name="adaptive_playback_timeout_10_min_summary">Bật (10 phút)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Điều khiển phát nhạc</string>
-    <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ nút âm lượng để chuyển bài</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Chạm hai lần</string>
     <string name="doze_double_tap_title">Chạm hai lần để kiểm tra điện thoại</string>
@@ -128,16 +125,11 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Phát hiện trong túi</string>
     <string name="pocket_judge_summary">Chặn bật màn hình và các nút bấm khi thiết bị ở trong túi</string>
-    <!-- Package details -->
-    <string name="package_details_group_title">Chi tiết gói</string>
-    <string name="package_name">Tên gói</string>
-    <string name="package_version">Phiên bản gói</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Cho phép các máy khách kết nối với điểm truy cập sử dụng VPN của thiết bị để kết nối đến máy chủ</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_title">Hiệu ứng thu phóng ảnh nền</string>
+    <string name="wallpaper_zoom_effect_title">Hiệu ứng thu phóng hình nền</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Thu phóng hình nền để có hiệu ứng chiều sâu. Hình nền có thể bị giảm chất lượng</string>
     <!--  screen, setting option name to change wifi timeout -->
@@ -243,7 +235,7 @@
     <string name="pulse_panel_title">Hiện bảng âm lượng</string>
     <string name="pulse_panel_summary">Hiện bảng âm lượng khi âm lượng được bật/tắt</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">AOD khi sạc</string>
+    <string name="doze_on_charge_title">Luôn hiển thị khi sạc</string>
     <string name="doze_on_charge_summary">Hiển thị trạng thái thiết bị và thông báo khi sạc</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Khoảng trống phía dưới bàn phím</string>
@@ -288,12 +280,96 @@
     <string name="thick_label">Dày</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Tiến trình dưới nền</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Phản hồi rung</string>
-    <string name="back_gesture_haptic_summary">Kích hoạt hiệu ứng xúc giác trên cử chỉ quay lại</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Sử dụng nút xoay nổi</string>
     <!-- Build status -->
     <string name="build_status">Trạng thái bản dựng</string>
     <string name="build_status_summary">Tùy chọn</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Dung lượng hiện tại</string>
+    <string name="designed_battery_capacity">Dung lượng thiết kế</string>
+    <string name="battery_charge_cycles">Chu kỳ pin được sạc đầy</string>
+    <string name="high_power_apps_summary">Tối ưu hoá pin cho từng ứng dụng</string>
+    <!-- Playback control -->
+    <string name="gesture_playback_control_screen_title">Điều khiển phát nhạc</string>
+    <string name="gesture_playback_control_primary_switch_title">Dùng điều khiển phát nhạc</string>
+    <string name="gesture_playback_control_intro_text">Khi màn hình tắt, nhấn giữ các nút âm lượng để chuyển bài</string>
+    <string name="volume_rocker_music_controls_delay_title">Độ trễ điều khiển phát nhạc</string>
+    <string name="gesture_playback_control_delay">độ trễ</string>
+    <string name="unit_ms">mili giây</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Welcome to the Eve of Evolution</string>
+    <string name="random_summary_3">Continue the Evolution of your device</string>
+    <string name="random_summary_4">Start evolving your device with our features</string>
+    <string name="random_summary_5">Evolution is a mystery</string>
+    <string name="random_summary_6">Not just any ROM, this is Evolution X!</string>
+    <string name="random_summary_7">Haters gonna hate, Evo\'s gonna bake</string>
+    <string name="random_summary_8">Living in a gangsta\'s paradise</string>
+    <string name="random_summary_9">Keep moving forward</string>
+    <string name="random_summary_12">We were lightning before the thunder</string>
+    <string name="random_summary_15">Tiramisu really tastes nice</string>
+    <string name="random_summary_16">13 can be lucky too</string>
+    <string name="random_summary_18">Life isn\'t always pixels and rainbows</string>
+    <string name="random_summary_19">Still Android, just better</string>
+    <string name="random_summary_20">Ricers, please proceed to the nearest exit</string>
+    <string name="random_summary_21">Paging the driver of the black BMW...</string>
+    <string name="random_summary_24">Acknowledge us!</string>
+    <string name="random_summary_25">We\'re aware we\'re named after a Mitsubishi</string>
+    <string name="random_summary_26">It\'s bootloop time!</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Cài đặt xoay</string>
+    <string name="display_rotation_enabled">Tự động xoay được bật</string>
+    <string name="display_rotation_disabled">Tự động xoay bị tắt</string>
+    <string name="display_rotation_unit">độ</string>
+    <string name="display_rotation_category_title">Chế độ xoay</string>
+    <string name="display_rotation_0_title">0 độ</string>
+    <string name="display_rotation_90_title">90 độ</string>
+    <string name="display_rotation_180_title">180 độ</string>
+    <string name="display_rotation_270_title">270 độ</string>
+    <string name="app_info_install_time">Đã cài đặt: %1$s</string>
+    <string name="app_info_update_time">Đã cập nhật: %1$s</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Bật cảnh báo mức sạc pin</string>
+    <string name="notification_battery_charge_level_title">Cảnh báo sạc</string>
+    <string name="notification_battery_charge_level_summary">Phát âm thanh khi pin được sạc đến mức nhất định</string>
+    <string name="notification_battery_charge_level_seek_bar">Mức pin</string>
+    <string name="notification_battery_charge_level_ringtone">Nhạc chuông</string>
+    <string name="notification_battery_charge_level_silent">Im lặng</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Chạm để hiển thị thông tin</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Tắt tiếng nhanh</string>
+    <string name="volume_button_quick_mute_category_title">Nhấn và giữ phím giảm âm lượng sẽ tắt tiếng luồng âm lượng đang hoạt động</string>
+    <string name="volume_button_quick_mute_delay_title">Độ trễ kích hoạt điều khiển phát nhạc</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Kiểu rung nhạc chuông</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Tùy chọn</string>
+    <string name="custom_vibration_pattern_title">Mẫu tùy chỉnh</string>
+    <string name="custom_vibration_pattern_summary">Đặt kiểu rung tùy chỉnh</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Kiểu rung tùy chỉnh</string>
+    <string name="notification_custom_vibrate_summary">Chỉ thay thế mẫu mặc định\nMẫu thiết lập ứng dụng được ưu tiên</string>
+    <string name="notification_custom_vibrate_slider1">Rung cho</string>
+    <string name="notification_custom_vibrate_slider2">Tạm dừng cho</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Hiển thị bảng nhớ tạm nổi</string>
+    <string name="show_clipboard_overlay_summary">Hiển thị một bảng nổi ở góc trái màn hình khi nội dung nào đó được sao chép vào bảng nhớ tạm</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Thẻ âm nhạc Màn hình xem nhanh</string>
+    <string name="pulse_on_new_tracks_summary">Hiển thị Màn hình xem nhanh khi một bản nhạc mới được phát</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Xóa quét khuôn mặt hiện có và tạo một bản quét mới</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
+    <string name="face_redo_confirm_btn">Làm lại</string>
+    <string name="face_redo_warning_msg">Bạn có muốn xóa quét khuôn mặt hiện có và tạo một cái mới không?</string>
+    <string name="face_unlock_method_title">Cho phép mở khoá bằng khuôn mặt trên màn hình khoá</string>
+    <string name="face_unlock_method_default">Khi màn hình được bật</string>
+    <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
 </resources>

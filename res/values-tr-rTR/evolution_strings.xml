@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Değişim öncesine hoş geldiniz</string>
+    <string name="evolver_dashboard_summary">Gelişim öncesine hoş geldiniz</string>
     <!-- Hardware info -->
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Toplam RAM</string>
@@ -280,9 +280,6 @@
     <string name="thick_label">Kalın</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Arkaplan işlemleri</string>
-    <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Dokunmatik geri bildirim</string>
-    <string name="back_gesture_haptic_summary">Geri hareketinde dokunsal tıklama efektini etkinleştirir</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Hareketli yönlendirme tuşu kullan</string>
     <!-- Build status -->
@@ -340,4 +337,41 @@
     <string name="notification_battery_charge_level_seek_bar">Pil seviyesi</string>
     <string name="notification_battery_charge_level_ringtone">Zil sesi</string>
     <string name="notification_battery_charge_level_silent">Sessiz</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Bilgileri göstermek için tıklayın</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Hızlı ses kısma</string>
+    <string name="volume_button_quick_mute_category_title">Ses tuşuna uzun basmak aktif akış sesini kısacak</string>
+    <string name="volume_button_quick_mute_delay_title">Müzik değiştirme tepki süresi</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Zil sesi titreşim modeli</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Özel</string>
+    <string name="custom_vibration_pattern_title">Özel titreşim modeli</string>
+    <string name="custom_vibration_pattern_summary">Özel bir titreşim modeli ayarlayın</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Özel titreşim modeli</string>
+    <string name="notification_custom_vibrate_summary">Varsayılan modeli değiştirir\nUygulama ayarlı model önceliği alır</string>
+    <string name="notification_custom_vibrate_slider1">Titret</string>
+    <string name="notification_custom_vibrate_slider2">Duraklat</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Cihazınızın kilidini açmak için Yüz tanıma kilidini kullanın. Şunları unutmayın:\n\nFarkında olmadığınız durumlarda bile telefona baktığınızda telefonun kilidi açılabilir.\n●0Gözleriniz açıkken telefonunuz yüzünüze doğru çevrilirse telefonunuzun kilidi başka biri tarafından açılabilir.\n●Telefonunuzun kilidi, size çok benzeyen biri (ör. çocuğunuz ya da ikiz kardeşiniz) tarafından açılabilir.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Yüz tanıma kilidi ile kaydedilen veriler kalıcı ve güvenli bir şekilde silinir. Kaldırma işleminden sonra telefonunuzun kilidini açmak için PIN, desen veya şifre kullanmanız gerekir.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
+    <string name="face_redo_confirm_btn">Yeniden yap</string>
+    <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırıp yeni bir tane oluşturmak istiyor musunuz?</string>
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıldığında</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Pano yer paylaşımını göster</string>
+    <string name="show_clipboard_overlay_summary">Panoya bir şey kopyalandığında ekranın sol alt köşesinde bir kaplama göster</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
+    <string name="pulse_on_new_tracks_summary">Yeni bir müzik parçası çalındığında Ortam Ekranını göster</string>
 </resources>
