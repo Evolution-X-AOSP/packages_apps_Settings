@@ -337,4 +337,6 @@
     <string name="notification_battery_charge_level_seek_bar">Tingkat baterai</string>
     <string name="notification_battery_charge_level_ringtone">Nada dering</string>
     <string name="notification_battery_charge_level_silent">Senyap</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Ketuk untuk menampilkan info</string>
 </resources>
