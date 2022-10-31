@@ -339,4 +339,13 @@
     <string name="notification_battery_charge_level_silent">Silenzioso</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tocca per mostrare le info</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Silenzia velocemente</string>
+    <string name="volume_button_quick_mute_category_title">Premendo a lungo il tasto volume giù verrà disattivato lo stream di volume attivo</string>
+    <string name="volume_button_quick_mute_delay_title">Ritardo attivazione del controllo riproduzione</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Vibrazione personalizzata</string>
+    <string name="notification_custom_vibrate_summary">Sostituisci solo il modello predefinito\nIl modello impostato dall\'app ha la precedenza</string>
+    <string name="notification_custom_vibrate_slider1">Vibra per</string>
+    <string name="notification_custom_vibrate_slider2">Pausa per</string>
 </resources>
