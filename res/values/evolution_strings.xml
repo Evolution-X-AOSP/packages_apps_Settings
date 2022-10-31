@@ -433,4 +433,10 @@
     <string name="quick_mute_title">Quick mute</string>
     <string name="volume_button_quick_mute_category_title">Long-pressing volume down key will mute active volume stream</string>
     <string name="volume_button_quick_mute_delay_title">Playback control activation delay</string>
+
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Custom vibration pattern</string>
+    <string name="notification_custom_vibrate_summary">Replaces the default pattern only\nApp set pattern takes precedence</string>
+    <string name="notification_custom_vibrate_slider1">Vibrate for</string>
+    <string name="notification_custom_vibrate_slider2">Pause for</string>
 </resources>
