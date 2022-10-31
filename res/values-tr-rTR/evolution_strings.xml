@@ -337,4 +337,6 @@
     <string name="notification_battery_charge_level_seek_bar">Pil seviyesi</string>
     <string name="notification_battery_charge_level_ringtone">Zil sesi</string>
     <string name="notification_battery_charge_level_silent">Sessiz</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Bilgileri göstermek için tıklayın</string>
 </resources>

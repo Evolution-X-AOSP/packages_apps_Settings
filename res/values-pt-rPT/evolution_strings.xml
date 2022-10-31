@@ -337,4 +337,6 @@
     <string name="notification_battery_charge_level_seek_bar">Nível da bateria</string>
     <string name="notification_battery_charge_level_ringtone">Toque</string>
     <string name="notification_battery_charge_level_silent">Silencioso</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar informações</string>
 </resources>
