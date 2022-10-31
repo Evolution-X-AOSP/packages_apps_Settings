@@ -129,7 +129,7 @@
     <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Cho phép các máy khách kết nối với điểm truy cập sử dụng VPN của thiết bị để kết nối đến máy chủ</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_title">Hiệu ứng thu phóng ảnh nền</string>
+    <string name="wallpaper_zoom_effect_title">Hiệu ứng thu phóng hình nền</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Thu phóng hình nền để có hiệu ứng chiều sâu. Hình nền có thể bị giảm chất lượng</string>
     <!--  screen, setting option name to change wifi timeout -->
@@ -235,7 +235,7 @@
     <string name="pulse_panel_title">Hiện bảng âm lượng</string>
     <string name="pulse_panel_summary">Hiện bảng âm lượng khi âm lượng được bật/tắt</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">AOD khi sạc</string>
+    <string name="doze_on_charge_title">Luôn hiển thị khi sạc</string>
     <string name="doze_on_charge_summary">Hiển thị trạng thái thiết bị và thông báo khi sạc</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Khoảng trống phía dưới bàn phím</string>
