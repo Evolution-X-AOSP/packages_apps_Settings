@@ -4719,6 +4719,12 @@
             </intent-filter>
         </activity>
 
+        <!-- Face enroll -->
+        <activity android:theme="@style/SudThemeGlif.Light"
+                  android:name="com.android.settings.biometrics.face.FaceEnrollActivityDirector"
+                  android:exported="true"
+                  android:screenOrientation="portrait"/>
+                  
         <activity android:name=".Settings$SmartPixelsActivity"
             android:label="@string/smart_pixels_title"
             android:taskAffinity="com.android.settings"
