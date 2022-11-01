@@ -339,4 +339,13 @@
     <string name="notification_battery_charge_level_silent">Silențios</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Atingeți pentru a afișa informații</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Silențios rapid</string>
+    <string name="volume_button_quick_mute_category_title">Apăsarea lungă a tastei de reducere a volumului va dezactiva fluxul de volum activ</string>
+    <string name="volume_button_quick_mute_delay_title">Întârziere activare control redare</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Model de vibrație personalizat</string>
+    <string name="notification_custom_vibrate_summary">Înlocuiește doar modelul implicit\nModelul configurat în aplicații are prioritate</string>
+    <string name="notification_custom_vibrate_slider1">Vibrații</string>
+    <string name="notification_custom_vibrate_slider2">Pauză</string>
 </resources>

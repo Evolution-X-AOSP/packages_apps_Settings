@@ -339,4 +339,13 @@
     <string name="notification_battery_charge_level_silent">Sessiz</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Bilgileri göstermek için tıklayın</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Hızlı ses kısma</string>
+    <string name="volume_button_quick_mute_category_title">Ses tuşuna uzun basmak aktif akış sesini kısacak</string>
+    <string name="volume_button_quick_mute_delay_title">Müzik değiştirme tepki süresi</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Özel titreşim modeli</string>
+    <string name="notification_custom_vibrate_summary">Varsayılan modeli değiştirir\nUygulama ayarlı model önceliği alır</string>
+    <string name="notification_custom_vibrate_slider1">Titret</string>
+    <string name="notification_custom_vibrate_slider2">Duraklat</string>
 </resources>
