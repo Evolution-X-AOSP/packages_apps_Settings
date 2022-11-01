@@ -4724,7 +4724,16 @@
                   android:name="com.android.settings.biometrics.face.FaceEnrollActivityDirector"
                   android:exported="true"
                   android:screenOrientation="portrait"/>
-                  
+        <activity android:theme="@style/SudThemeGlif.Light"
+                  android:name="com.android.settings.biometrics.face.FaceEnrollConfirmation"
+                  android:exported="true"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.google.android.settings.action.CONFIRM_FACE_ENROLLMENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+                                
         <activity android:name=".Settings$SmartPixelsActivity"
             android:label="@string/smart_pixels_title"
             android:taskAffinity="com.android.settings"
