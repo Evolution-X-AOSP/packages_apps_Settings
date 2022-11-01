@@ -343,11 +343,6 @@
     <string name="quick_mute_title">Silenciar rapidamente</string>
     <string name="volume_button_quick_mute_category_title">Manter premido o botão de diminuir volume silenciará o fluxo de volume ativo</string>
     <string name="volume_button_quick_mute_delay_title">Atraso de ativação do controlo de reprodução</string>
-    <!-- Per-channel vibration pattern -->
-    <string name="notification_custom_vibrate_title">Padrão de vibração personalizado</string>
-    <string name="notification_custom_vibrate_summary">Substitui apenas o padrão predefinido\nUm padrão definido na app tem pioridade</string>
-    <string name="notification_custom_vibrate_slider1">Vibrar durante</string>
-    <string name="notification_custom_vibrate_slider2">Pausar durante</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Padrão de vibração do toque</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
@@ -358,4 +353,9 @@
     <string name="pattern_custom">Personalizada</string>
     <string name="custom_vibration_pattern_title">Padrão personalizado</string>
     <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Padrão de vibração personalizado</string>
+    <string name="notification_custom_vibrate_summary">Substitui apenas o padrão predefinido\nUm padrão definido na app tem pioridade</string>
+    <string name="notification_custom_vibrate_slider1">Vibrar durante</string>
+    <string name="notification_custom_vibrate_slider2">Pausar durante</string>
 </resources>
