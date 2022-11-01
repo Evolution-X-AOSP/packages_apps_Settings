@@ -42,6 +42,12 @@
             settings:textStart="@string/thin_label"
             settings:textEnd="@string/thick_label"/>
 
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="hide_ime_space_enable"
+            android:title="@string/navigation_bar_ime_space_title"
+            android:summary="@string/navigation_bar_ime_space_summary"
+            android:defaultValue="false" />
+
         <com.evolution.settings.preference.SecureSettingSwitchPreference
             android:key="show_back_arrow_gesture"
             android:title="@string/back_gesture_arrow_message"
