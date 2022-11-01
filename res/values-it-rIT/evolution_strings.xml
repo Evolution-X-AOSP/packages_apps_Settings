@@ -348,4 +348,14 @@
     <string name="notification_custom_vibrate_summary">Sostituisci solo il modello predefinito\nIl modello impostato dall\'app ha la precedenza</string>
     <string name="notification_custom_vibrate_slider1">Vibra per</string>
     <string name="notification_custom_vibrate_slider2">Pausa per</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Modello vibrazione suoneria</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizzata</string>
+    <string name="custom_vibration_pattern_title">Schema personalizzato</string>
+    <string name="custom_vibration_pattern_summary">Imposta uno schema di vibrazione personalizzato</string>
 </resources>
