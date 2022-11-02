@@ -358,4 +358,7 @@
     <string name="notification_custom_vibrate_summary">Substitui apenas o padrão predefinido\nUm padrão definido na app tem pioridade</string>
     <string name="notification_custom_vibrate_slider1">Vibrar durante</string>
     <string name="notification_custom_vibrate_slider2">Pausar durante</string>
+    <!-- Parallel space -->
+    <string name="parallel_space_title">Espaço paralelo</string>
+    <string name="parallel_space_summary">Permite executar várias instâncias da mesma app em paralelo.</string>
 </resources>
