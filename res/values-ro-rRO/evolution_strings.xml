@@ -358,4 +358,7 @@
     <string name="notification_custom_vibrate_summary">Înlocuiește doar modelul implicit\nModelul configurat în aplicații are prioritate</string>
     <string name="notification_custom_vibrate_slider1">Vibrații</string>
     <string name="notification_custom_vibrate_slider2">Pauză</string>
+    <!-- Parallel space -->
+    <string name="parallel_space_title">Spaţiu paralel</string>
+    <string name="parallel_space_summary">Permite rularea mai multor instanțe ale aceleiași aplicații în paralel.</string>
 </resources>
