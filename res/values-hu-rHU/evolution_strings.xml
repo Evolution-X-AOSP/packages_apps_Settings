@@ -358,4 +358,7 @@
     <string name="notification_custom_vibrate_summary">Csak az alapértelmezett mintát cseréli le.\nAz alkalmazáskészlet mintája elsőbbséget élvez</string>
     <string name="notification_custom_vibrate_slider1">Rezgés ennyi ideig</string>
     <string name="notification_custom_vibrate_slider2">Szüneteltetés ennyi ideig</string>
+    <!-- Parallel space -->
+    <string name="parallel_space_title">Párhuzamos tér</string>
+    <string name="parallel_space_summary">Egy alkalmazás több példányának párhuzamos futtatásának lehetősége.</string>
 </resources>
