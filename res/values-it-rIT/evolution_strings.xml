@@ -358,4 +358,7 @@
     <string name="notification_custom_vibrate_summary">Sostituisce solo lo schema predefinito\nLo schema impostato dall\'app ha la precedenza</string>
     <string name="notification_custom_vibrate_slider1">Vibra per</string>
     <string name="notification_custom_vibrate_slider2">Pausa per</string>
+    <!-- Parallel space -->
+    <string name="parallel_space_title">Spazio parallelo</string>
+    <string name="parallel_space_summary">Consente l\'esecuzione di istanze multiple della stessa applicazione in parallelo.</string>
 </resources>
