@@ -361,11 +361,12 @@
     <string name="gesture_playback_control_delay">delay</string>
     <string name="unit_ms">ms</string>
 
-    <!-- Cloudflare DNS Option -->
+    <!-- Private DNS Providers -->
     <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
-
-    <!-- AdGuard DNS Option -->
     <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
+    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
+    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
 
     <!-- Random Evolver summaries -->
     <string name="random_summary_1" translatable="false">#KeepEvolving</string>
