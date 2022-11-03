@@ -115,13 +115,11 @@ public class FaceEnrollIntroduction extends BiometricEnrollIntroduction {
         final TextView howMessage = findViewById(R.id.how_message);
         final TextView inControlTitle = findViewById(R.id.title_in_control);
         final TextView inControlMessage = findViewById(R.id.message_in_control);
-        final TextView lessSecure = findViewById(R.id.info_message_less_secure);
         infoMessageGlasses.setText(getInfoMessageGlasses());
         infoMessageLooking.setText(getInfoMessageLooking());
         inControlTitle.setText(getInControlTitle());
         howMessage.setText(getHowMessage());
         inControlMessage.setText(getInControlMessage());
-        lessSecure.setText(getLessSecureMessage());
 
         // Set up and show the "less secure" info section if necessary.
         if (getResources().getBoolean(R.bool.config_face_intro_show_less_secure)) {
@@ -227,11 +225,6 @@ public class FaceEnrollIntroduction extends BiometricEnrollIntroduction {
     @StringRes
     protected int getInControlMessage() {
         return R.string.security_settings_face_enroll_introduction_control_message;
-    }
-
-    @StringRes
-    protected int getLessSecureMessage() {
-        return R.string.security_settings_face_enroll_introduction_info_less_secure;
     }
 
     @Override

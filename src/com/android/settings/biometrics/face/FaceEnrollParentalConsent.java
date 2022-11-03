@@ -45,15 +45,13 @@ public class FaceEnrollParentalConsent extends FaceEnrollIntroduction {
             R.string.security_settings_face_enroll_introduction_info_consent_gaze,
             R.string.security_settings_face_enroll_introduction_how_consent_message,
             R.string.security_settings_face_enroll_introduction_control_consent_title,
-            R.string.security_settings_face_enroll_introduction_control_consent_message,
-            R.string.security_settings_face_enroll_introduction_consent_message_0,
-            R.string.security_settings_face_enroll_introduction_info_consent_less_secure
+            R.string.security_settings_face_enroll_introduction_control_consent_message
     };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setDescriptionText(R.string.security_settings_face_enroll_introduction_consent_message_0);
+        setDescriptionText(R.string.security_settings_face_enroll_introduction_consent_message);
     }
 
     @Override
@@ -133,11 +131,6 @@ public class FaceEnrollParentalConsent extends FaceEnrollIntroduction {
     @Override
     protected int getHeaderResDefault() {
         return R.string.security_settings_face_enroll_consent_introduction_title;
-    }
-
-    @Override
-    protected int getLessSecureMessage() {
-        return R.string.security_settings_face_enroll_introduction_info_consent_less_secure;
     }
 
     @Override
