@@ -350,9 +350,10 @@
 
     <string name="high_power_apps_summary">Per-app battery optimization</string>
 
-    <!-- Cloudflare DNS Option -->
+    <!-- Private DNS Providers -->
     <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
-
-    <!-- AdGuard DNS Option -->
     <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
+    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
+    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
 </resources>
