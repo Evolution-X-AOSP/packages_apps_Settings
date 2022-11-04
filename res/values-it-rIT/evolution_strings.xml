@@ -358,7 +358,12 @@
     <string name="notification_custom_vibrate_summary">Sostituisce solo lo schema predefinito\nLo schema impostato dall\'app ha la precedenza</string>
     <string name="notification_custom_vibrate_slider1">Vibra per</string>
     <string name="notification_custom_vibrate_slider2">Pausa per</string>
-    <!-- Parallel space -->
-    <string name="parallel_space_title">Spazio parallelo</string>
-    <string name="parallel_space_summary">Consente l\'esecuzione di istanze multiple della stessa applicazione in parallelo.</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi la scansione del viso esistente e creane una nuova</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti la scansione del viso</string>
+    <string name="face_redo_confirm_btn">Ripeti</string>
+    <string name="face_redo_warning_msg">Rimuovere la scansione del viso esistente e crearne una nuova?</string>
+    <string name="face_unlock_method_title">Consenti sblocco con il viso sulla schermata di blocco</string>
+    <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
+    <string name="face_unlock_method_swipe">Quando si scorre sulla schermata di blocco</string>
 </resources>
