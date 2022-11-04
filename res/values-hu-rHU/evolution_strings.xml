@@ -358,7 +358,12 @@
     <string name="notification_custom_vibrate_summary">Csak az alapértelmezett mintát cseréli le.\nAz alkalmazáskészlet mintája elsőbbséget élvez</string>
     <string name="notification_custom_vibrate_slider1">Rezgés ennyi ideig</string>
     <string name="notification_custom_vibrate_slider2">Szüneteltetés ennyi ideig</string>
-    <!-- Parallel space -->
-    <string name="parallel_space_title">Párhuzamos tér</string>
-    <string name="parallel_space_summary">Egy alkalmazás több példányának párhuzamos futtatásának lehetősége.</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">A korábban beolvasott arc eltávolítása és új arc beolvasása</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Új arcbeolvasás</string>
+    <string name="face_redo_confirm_btn">Újra</string>
+    <string name="face_redo_warning_msg">Szeretné eltávolítani a korábban beolvasott arcot és beolvasni egy újat?</string>
+    <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
+    <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
+    <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
 </resources>

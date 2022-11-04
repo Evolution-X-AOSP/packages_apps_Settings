@@ -358,7 +358,12 @@
     <string name="notification_custom_vibrate_summary">Înlocuiește doar modelul implicit\nModelul configurat în aplicații are prioritate</string>
     <string name="notification_custom_vibrate_slider1">Vibrații</string>
     <string name="notification_custom_vibrate_slider2">Pauză</string>
-    <!-- Parallel space -->
-    <string name="parallel_space_title">Spaţiu paralel</string>
-    <string name="parallel_space_summary">Permite rularea mai multor instanțe ale aceleiași aplicații în paralel.</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Eliminați scanarea feței existente și creați o scanare nouă</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refaceți scanarea facială</string>
+    <string name="face_redo_confirm_btn">Refacere</string>
+    <string name="face_redo_warning_msg">Doriți să eliminați scanarea feței existente și să creați una nouă?</string>
+    <string name="face_unlock_method_title">Permiteți deblocarea facială pe ecranul de blocare</string>
+    <string name="face_unlock_method_default">Când ecranul este pornit</string>
+    <string name="face_unlock_method_swipe">Când glisați ecranul de blocare</string>
 </resources>
