@@ -359,6 +359,8 @@
     <string name="notification_custom_vibrate_slider1">Rezgés ennyi ideig</string>
     <string name="notification_custom_vibrate_slider2">Szüneteltetés ennyi ideig</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Az Arcalapú feloldás lehetővé teszi a készülék feloldását, a kamerába pillantással. Ne felejtse:\n\n● A készülék bármikor feloldhatja a zárat, amikor ránéz.\n● Rosszakaró is feloldhatja, ha az Ön arca előtt tartja, miközben az Ön szeme nyitva van.\n● Készülékét feloldhatja olyan személy is, aki nagyon hasonlít Önre, például gyermek vagy ikertestvér.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Az arcalapú feloldás által rögzített adatok véglegesen és biztonságosan törlődnek. Az eltávolítást követően PIN-kódjára, feloldási mintázatára vagy jelszavára lesz szükség a telefon feloldásához.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">A korábban beolvasott arc eltávolítása és új arc beolvasása</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Új arcbeolvasás</string>
     <string name="face_redo_confirm_btn">Újra</string>
