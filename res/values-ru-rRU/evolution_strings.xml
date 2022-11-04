@@ -358,7 +358,12 @@
     <string name="notification_custom_vibrate_summary">Заменяет только шаблон по умолчанию\nШаблон набора приложений имеет приоритет</string>
     <string name="notification_custom_vibrate_slider1">Вибрация для</string>
     <string name="notification_custom_vibrate_slider2">Пауза для</string>
-    <!-- Parallel space -->
-    <string name="parallel_space_title">Параллельный запуск</string>
-    <string name="parallel_space_summary">Разрешить параллельный запуск нескольких экземпляров одного и того же приложения.</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить сохранённый снимок лица создать новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Вы хотите удалить существующий снимок лица и создать новый?</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
+    <string name="face_unlock_method_default">При включении экрана</string>
+    <string name="face_unlock_method_swipe">После свайпа на экране блокировки</string>
 </resources>
