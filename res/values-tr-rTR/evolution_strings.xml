@@ -358,4 +358,12 @@
     <string name="notification_custom_vibrate_summary">Varsayılan modeli değiştirir\nUygulama ayarlı model önceliği alır</string>
     <string name="notification_custom_vibrate_slider1">Titret</string>
     <string name="notification_custom_vibrate_slider2">Duraklat</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
+    <string name="face_redo_confirm_btn">Yeniden yap</string>
+    <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırıp yeni bir tane oluşturmak istiyor musunuz?</string>
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıldığında</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
 </resources>
