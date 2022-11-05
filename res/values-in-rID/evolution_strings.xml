@@ -358,7 +358,14 @@
     <string name="notification_custom_vibrate_summary">Menggantikan pola default saja\nPola kumpulan aplikasi diutamakan</string>
     <string name="notification_custom_vibrate_slider1">Bergetar untuk</string>
     <string name="notification_custom_vibrate_slider2">Jeda untuk</string>
-    <!-- Parallel space -->
-    <string name="parallel_space_title">Ruang paralel</string>
-    <string name="parallel_space_summary">Izinkan menjalankan beberapa contoh dari aplikasi yang sama secara paralel.</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Face Unlock memungkinkan Anda membuka kunci perangkat dengan melihatnya. Perhatikan:\n\n● Perangkat Anda dapat terbuka kuncinya setiap kali Anda melihatnya.\n● Perangkat Anda dapat dibuka kuncinya oleh orang lain jika mereka memegangnya di depan wajah Anda saat mata Anda terbuka.\n● Perangkat Anda juga dapat dibuka oleh seseorang yang sangat mirip dengan Anda, seperti anak kecil atau saudara kandung yang identik.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Data yang disimpan dengan metode Face Unlock akan dihapus dan diamankan secara permanen. Setelah dihapus, Anda akan memerlukan PIN, pola, atau kata sandi untuk membuka ponsel Anda.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
 </resources>
