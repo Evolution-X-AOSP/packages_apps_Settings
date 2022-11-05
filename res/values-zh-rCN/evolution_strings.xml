@@ -358,7 +358,14 @@
     <string name="notification_custom_vibrate_summary">仅替换默认模式\n应用程序自身的模式设置优先</string>
     <string name="notification_custom_vibrate_slider1">振动-</string>
     <string name="notification_custom_vibrate_slider2">暂停-</string>
-    <!-- Parallel space -->
-    <string name="parallel_space_title">平行空间</string>
-    <string name="parallel_space_summary">允许同时运行同一应用程序的多个实例</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">人脸解锁让你通过面部识别来解锁你的设备。 记住：\n\n● 你的设备可以随时解锁。\n● 如果你的设备被其他人把它放在你面前时，也可以被解锁。\n● 你的设备也可能被像你一样的人解锁，如孩子或同一个兄弟姐妹。</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">人脸解锁功能记录的数据将被永久安全删除。删除后，您将需要使用 PIN、图案或密码来解锁您的手机。</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重做面部扫描</string>
+    <string name="face_redo_confirm_btn">重做</string>
+    <string name="face_redo_warning_msg">是否要移除现有的人脸数据并重新录入？</string>
+    <string name="face_unlock_method_title">允许在锁屏使用人脸识别解锁</string>
+    <string name="face_unlock_method_default">当屏幕开启时</string>
+    <string name="face_unlock_method_swipe">在锁屏界面上滑动时</string>
 </resources>
