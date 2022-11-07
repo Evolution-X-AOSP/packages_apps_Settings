@@ -339,4 +339,33 @@
     <string name="notification_battery_charge_level_silent">Im lặng</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Chạm để hiển thị thông tin</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Tắt tiếng nhanh</string>
+    <string name="volume_button_quick_mute_category_title">Nhấn và giữ phím giảm âm lượng sẽ tắt tiếng luồng âm lượng đang hoạt động</string>
+    <string name="volume_button_quick_mute_delay_title">Độ trễ kích hoạt điều khiển phát nhạc</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Kiểu rung nhạc chuông</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Tùy chọn</string>
+    <string name="custom_vibration_pattern_title">Mẫu tùy chỉnh</string>
+    <string name="custom_vibration_pattern_summary">Đặt kiểu rung tùy chỉnh</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Kiểu rung tùy chỉnh</string>
+    <string name="notification_custom_vibrate_summary">Chỉ thay thế mẫu mặc định\nMẫu thiết lập ứng dụng được ưu tiên</string>
+    <string name="notification_custom_vibrate_slider1">Rung cho</string>
+    <string name="notification_custom_vibrate_slider2">Tạm dừng cho</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Mở khóa bằng khuôn mặt giúp bạn mở khóa thiết bị bằng cách nhìn vào nó. Hãy nhớ:\n\n● Thiết bị của bạn có thể mở bất cứ lúc nào khi mà bạn nhìn vào nó.\n● Thiết bị của bạn có thể được mở khóa bởi người khác nếu họ giơ điện thoại lên trước mặt bạn khi mà mắt bạn đang được mở.\n● Thiết bị của bạn cũng có thể bị mở khóa bởi người nào đó trông giống bạn, chẳng hạn như trẻ em hoặc anh chị em song sinh.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Dữ liệu được ghi lại bằng tính năng mở khóa bằng khuôn mặt sẽ bị xóa vĩnh viễn và an toàn. Sau khi xóa, bạn sẽ cần mã PIN, mẫu hình, mật khẩu để mở khóa điện thoại.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Xoá dữ liệu khuôn mặt hiện tại và tạo cái mới</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
+    <string name="face_redo_confirm_btn">Làm lại</string>
+    <string name="face_redo_warning_msg">Bạn có muốn gỡ bỏ dữ liệu khuôn mặt hiện có và tạo một cái mới không?</string>
+    <string name="face_unlock_method_title">Cho phép mở khoá bằng khuôn mặt trên màn hình khoá</string>
+    <string name="face_unlock_method_default">Khi màn hình được bật</string>
+    <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
 </resources>
