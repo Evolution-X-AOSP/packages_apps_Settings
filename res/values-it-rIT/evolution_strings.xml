@@ -368,4 +368,10 @@
     <string name="face_unlock_method_title">Consenti sblocco con il viso sulla schermata di blocco</string>
     <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
     <string name="face_unlock_method_swipe">Quando si scorre sulla schermata di blocco</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Sovrapposizione appunti</string>
+    <string name="show_clipboard_overlay_summary">Mostra una sovrapposizione nell\'angolo inferiore sinistro dello schermo quando copi qualcosa negli appunti</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Notifica musicale Ambient</string>
+    <string name="pulse_on_new_tracks_summary">Mostra l\'Ambient Display quando viene riprodotta una nuova traccia musicale</string>
 </resources>
