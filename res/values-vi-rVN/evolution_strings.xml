@@ -368,4 +368,10 @@
     <string name="face_unlock_method_title">Cho phép mở khoá bằng khuôn mặt trên màn hình khoá</string>
     <string name="face_unlock_method_default">Khi màn hình được bật</string>
     <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Hiển thị bảng nhớ tạm nổi</string>
+    <string name="show_clipboard_overlay_summary">Hiển thị một bảng nổi ở góc trái màn hình khi nội dung nào đó được sao chép vào bảng nhớ tạm</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Thẻ âm nhạc Màn hình xem nhanh</string>
+    <string name="pulse_on_new_tracks_summary">Hiển thị Màn hình xem nhanh khi một bản nhạc mới được phát</string>
 </resources>
