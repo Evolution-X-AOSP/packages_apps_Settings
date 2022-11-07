@@ -359,8 +359,8 @@
     <string name="notification_custom_vibrate_slider1">Rung cho</string>
     <string name="notification_custom_vibrate_slider2">Tạm dừng cho</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Mở khóa bằng khuôn mặt giúp bạn mở khóa thiết bị bằng cách nhìn vào nó. Hãy nhớ:\n\n● Thiết bị của bạn có thể mở bất cứ lúc nào khi mà bạn nhìn vào nó.\n● Thiết bị của bạn có thể được mở khóa bởi người khác nếu họ giơ điện thoại lên trước mặt bạn khi mà mắt bạn đang được mở.\n● Thiết bị của bạn cũng có thể bị mở khóa bởi người nào đó trông giống bạn, chẳng hạn như trẻ em hoặc anh chị em song sinh.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Dữ liệu được ghi lại bằng tính năng mở khóa bằng khuôn mặt sẽ bị xóa vĩnh viễn và an toàn. Sau khi xóa, bạn sẽ cần mã PIN, mẫu hình, mật khẩu để mở khóa điện thoại.</string>
+    <string name="security_settings_face_settings_footer_custom">Mở khóa bằng khuôn mặt giúp bạn mở khóa thiết bị bằng cách nhìn vào nó. Hãy nhớ:\n\n● Thiết bị của bạn có thể mở bất cứ lúc nào khi mà bạn nhìn vào nó.\n● Thiết bị của bạn có thể được mở khóa bởi người khác nếu họ để điện thoại lên trước mặt bạn khi mắt bạn đang được mở.\n● Thiết bị của bạn cũng có thể bị mở khóa bởi người nào đó trông rất giống bạn, chẳng hạn như con của bạn hoặc anh chị em song sinh.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Dữ liệu khuôn mặt sẽ bị xóa vĩnh viễn một cách an toàn và bảo mật. Sau khi xóa, bạn sẽ cần mã PIN, mẫu hình hoặc mật khẩu để mở khóa điện thoại.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Xoá dữ liệu khuôn mặt hiện tại và tạo cái mới</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
     <string name="face_redo_confirm_btn">Làm lại</string>
