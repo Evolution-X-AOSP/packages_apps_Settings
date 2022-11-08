@@ -358,20 +358,18 @@
     <string name="notification_custom_vibrate_summary">Sostituisce solo lo schema predefinito\nLo schema impostato dall\'app ha la precedenza</string>
     <string name="notification_custom_vibrate_slider1">Vibra per</string>
     <string name="notification_custom_vibrate_slider2">Pausa per</string>
-    <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Lo sblocco con il volto ti consente di sbloccare il tuo dispositivo guardandolo. Tieni presente:\n\n● Il tuo dispositivo potrebbe sbloccarsi ogni volta che lo guardi.\n● Il tuo dispositivo può essere sbloccato da qualcun altro se lo tiene davanti al tuo viso mentre i tuoi occhi sono aperti.\n● Il tuo il dispositivo può anche essere sbloccato da qualcuno che ti somiglia molto, come un bambino o un fratello identico.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">I dati registrati tramite lo sblocco con il viso verranno eliminati in modo definitivo e sicuro. Dopo la rimozione, per sbloccare il telefono sarà necessario inserire il PIN, la sequenza o la password.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi la scansione del viso esistente e creane una nuova</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti la scansione del viso</string>
-    <string name="face_redo_confirm_btn">Ripeti</string>
-    <string name="face_redo_warning_msg">Rimuovere la scansione del viso esistente e crearne una nuova?</string>
-    <string name="face_unlock_method_title">Consenti sblocco con il viso sulla schermata di blocco</string>
-    <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
-    <string name="face_unlock_method_swipe">Quando si scorre sulla schermata di blocco</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Sovrapposizione appunti</string>
     <string name="show_clipboard_overlay_summary">Mostra una sovrapposizione nell\'angolo inferiore sinistro dello schermo quando copi qualcosa negli appunti</string>
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Notifica musicale Ambient</string>
     <string name="pulse_on_new_tracks_summary">Mostra l\'Ambient Display quando viene riprodotta una nuova traccia musicale</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi la scansione del volto esistente e creane una nuova</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti scansione del volto</string>
+    <string name="face_redo_confirm_btn">Ripeti</string>
+    <string name="face_redo_warning_msg">Desideri rimuovere la scansione del volto esistente e crearne una nuova?</string>
+    <string name="face_unlock_method_title">Consenti lo sblocco con il volto sulla schermata di blocco</string>
+    <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
+    <string name="face_unlock_method_swipe">Scorrendo sulla schermata di blocco</string>
 </resources>
