@@ -358,20 +358,18 @@
     <string name="notification_custom_vibrate_summary">Înlocuiește doar modelul implicit\nModelul configurat în aplicații are prioritate</string>
     <string name="notification_custom_vibrate_slider1">Vibrații</string>
     <string name="notification_custom_vibrate_slider2">Pauză</string>
-    <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Deblocarea cu ajutorul feței vă permite să deblocați dispozitivul uitându-vă la el. Țineți cont de faptul că:\n\n● Dispozitivul poate fi deblocat oricând vă uitați la el.\n● Dispozitivul poate fi deblocat de altcineva dacă îl ține în fața dvs. în timp ce ochii sunt deschiși.\n● Dispozitivul poate fi deblocat și de o persoană care arată foarte mult ca dvd., cum ar fi un copil sau un frate identic.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Datele înregistrate de funcția Deblocare facială vor fi șterse permanent și în siguranță. După eliminare, veți avea nevoie de codul PIN, de model sau de parolă pentru deblocarea telefonului.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Eliminați scanarea feței existente și creați o scanare nouă</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Refaceți scanarea facială</string>
-    <string name="face_redo_confirm_btn">Refacere</string>
-    <string name="face_redo_warning_msg">Doriți să eliminați scanarea feței existente și să creați una nouă?</string>
-    <string name="face_unlock_method_title">Permiteți deblocarea facială pe ecranul de blocare</string>
-    <string name="face_unlock_method_default">Când ecranul este pornit</string>
-    <string name="face_unlock_method_swipe">Când glisați ecranul de blocare</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Afișare suprapunere clipboard</string>
     <string name="show_clipboard_overlay_summary">Arată o suprapunere în colțul din stânga jos al ecranului atunci când ceva este copiat în clipboard</string>
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Afișare muzică pe ecranul ambiental</string>
     <string name="pulse_on_new_tracks_summary">Afișare ecran ambiental când este redată o piesă nouă</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Ștergeți scanarea existentă a feței și creați o scanare nouă</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refaceți scanarea facială</string>
+    <string name="face_redo_confirm_btn">Refacere</string>
+    <string name="face_redo_warning_msg">Doriți să eliminați scanarea feței existente și să creați una nouă?</string>
+    <string name="face_unlock_method_title">Permiteți deblocarea facială pe ecranul de blocare</string>
+    <string name="face_unlock_method_default">Când ecranul este pornit</string>
+    <string name="face_unlock_method_swipe">Când glisați ecranul de blocare</string>
 </resources>
