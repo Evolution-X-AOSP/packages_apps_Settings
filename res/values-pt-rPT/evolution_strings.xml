@@ -368,4 +368,10 @@
     <string name="face_unlock_method_title">Permitir desbloqueio facial no ecrã de bloqueio</string>
     <string name="face_unlock_method_default">Quando o ecrã estiver ligado</string>
     <string name="face_unlock_method_swipe">Ao deslizar no ecrã de bloqueio</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Mostrar sobreposição da área de transferência</string>
+    <string name="show_clipboard_overlay_summary">Mostrar uma sobreposição no canto inferior esquerdo do ecrã quando algo for copiado para a área de transferência</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Notificação de música ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar Ecrã Ambiente quando uma nova música for reproduzida</string>
 </resources>
