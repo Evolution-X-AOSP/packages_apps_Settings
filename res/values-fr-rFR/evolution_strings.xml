@@ -358,9 +358,13 @@
     <string name="notification_custom_vibrate_summary">Remplace le modèle par défaut seulement\nLe modèle défini par l\'application est prioritaire</string>
     <string name="notification_custom_vibrate_slider1">Vibrer pour</string>
     <string name="notification_custom_vibrate_slider2">Arrêter pendant</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Afficher l\'IU du presse-papiers</string>
+    <string name="show_clipboard_overlay_summary">Afficher une IU dans le coin inférieur gauche de l\'écran lorsque quelque chose est copié dans le presse-papiers</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Informations sur la musique en mode ambient</string>
+    <string name="pulse_on_new_tracks_summary">Allume l\'écran en mode Ambiant quand une nouvelle piste musicale est jouée</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Le déverrouillage facial vous permet de déverrouiller votre appareil en le regardant. Gardez à l\'esprit :\n\n● Votre appareil peut être déverrouillé à chaque fois que vous le regardez.\n● Votre appareil peut être déverrouillé par quelqu\'un d\'autre s\'il le tient devant votre visage pendant que vos yeux sont ouverts.\n● Votre appareil peut également être déverrouillé par une personne qui vous ressemble beaucoup, comme un enfant ou vos frères et sœurs.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Les données enregistrées par la reconnaissance faciale seront définitivement supprimées et de manière sécurisée. Après la suppression, vous aurez besoin de votre PIN, schéma ou mot de passe pour déverrouiller votre téléphone.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Effacer le visage scanné existant et créer un nouveau scan</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Scanner à nouveau le visage</string>
     <string name="face_redo_confirm_btn">Recommencer</string>
@@ -368,10 +372,4 @@
     <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
     <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
-    <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Afficher l\'IU du presse-papiers</string>
-    <string name="show_clipboard_overlay_summary">Afficher une IU dans le coin inférieur gauche de l\'écran lorsque quelque chose est copié dans le presse-papiers</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Informations sur la musique en mode ambient</string>
-    <string name="pulse_on_new_tracks_summary">Allume l\'écran en mode Ambiant quand une nouvelle piste musicale est jouée</string>
 </resources>
