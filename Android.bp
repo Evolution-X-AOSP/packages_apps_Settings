@@ -99,7 +99,6 @@ android_library {
         "kotlinx_coroutines",
         "vendor.lineage.fastcharge-V1.0-java",
         "google-securityhub",
-        "faceunlock_framework",
     ],
 
     libs: [

@@ -52,9 +52,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.android.settings.custom.biometrics.FaceUtils;
-import com.android.settings.custom.biometrics.face.FaceSettingsRedoPreferenceController;
-
 /**
  * Settings screen for face authentication.
  */
@@ -80,7 +77,6 @@ public class FaceSettings extends DashboardFragment {
     private FaceSettingsRemoveButtonPreferenceController mRemoveController;
     private FaceSettingsEnrollButtonPreferenceController mEnrollController;
     private FaceSettingsLockscreenBypassPreferenceController mLockscreenController;
-    private FaceSettingsRedoPreferenceController mRedoController;
     private List<AbstractPreferenceController> mControllers;
 
     private List<Preference> mTogglePreferences;
@@ -91,12 +87,6 @@ public class FaceSettings extends DashboardFragment {
     private boolean mConfirmingPassword;
 
     private final FaceSettingsRemoveButtonPreferenceController.Listener mRemovalListener = () -> {
-        if (FaceUtils.isFaceUnlockSupported()){
-            if (getActivity() != null) {
-                getActivity().finish();
-            }
-            return;
-        }
 
         // Disable the toggles until the user re-enrolls
         for (Preference preference : mTogglePreferences) {
@@ -177,7 +167,9 @@ public class FaceSettings extends DashboardFragment {
                                     R.string.security_settings_face_profile_preference_title)));
         }
 
-        mLockscreenController = use(FaceSettingsLockscreenBypassPreferenceController.class);
+        mLockscreenController = Utils.isMultipleBiometricsSupported(context)
+                ? use(BiometricLockscreenBypassPreferenceController.class)
+                : use(FaceSettingsLockscreenBypassPreferenceController.class);
         mLockscreenController.setUserId(mUserId);
 
         Preference keyguardPref = findPreference(FaceSettingsKeyguardPreferenceController.KEY);
@@ -201,10 +193,6 @@ public class FaceSettings extends DashboardFragment {
             }
         }
         mRemoveController.setUserId(mUserId);
-
-        if (mRedoController != null) {
-            mRedoController.setUserId(mUserId);
-        }
 
         // Don't show keyguard controller for work profile settings.
         if (mUserManager.isManagedProfile(mUserId)) {
@@ -240,7 +228,6 @@ public class FaceSettings extends DashboardFragment {
         } else {
             mAttentionController.setToken(mToken);
             mEnrollController.setToken(mToken);
-            mRedoController.setToken(mToken);
         }
 
         final boolean hasEnrolled = mFaceManager.hasEnrolledTemplates(mUserId);
@@ -321,9 +308,6 @@ public class FaceSettings extends DashboardFragment {
                 mEnrollController = (FaceSettingsEnrollButtonPreferenceController) controller;
                 mEnrollController.setListener(mEnrollListener);
                 mEnrollController.setActivity((SettingsActivity) getActivity());
-            } else if (controller instanceof FaceSettingsRedoPreferenceController) {
-                mRedoController = (FaceSettingsRedoPreferenceController) controller;
-                mRedoController.setActivity((SettingsActivity) getActivity());
             }
         }
 
@@ -338,7 +322,6 @@ public class FaceSettings extends DashboardFragment {
         controllers.add(new FaceSettingsRemoveButtonPreferenceController(context));
         controllers.add(new FaceSettingsConfirmPreferenceController(context));
         controllers.add(new FaceSettingsEnrollButtonPreferenceController(context));
-        controllers.add(new FaceSettingsRedoPreferenceController(context));
         return controllers;
     }
 
@@ -378,10 +361,6 @@ public class FaceSettings extends DashboardFragment {
 
                     if (!isAttentionSupported(context)) {
                         keys.add(FaceSettingsAttentionPreferenceController.KEY);
-                    }
-
-                    if (FaceUtils.isFaceUnlockSupported()) {
-                        keys.add("security_settings_face_unlock_category");
                     }
 
                     return keys;

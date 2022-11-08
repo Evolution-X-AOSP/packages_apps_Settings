@@ -127,10 +127,6 @@
     <!-- App lock -->
     <uses-permission android:name="android.permission.MANAGE_APP_LOCK" />
 
-    <!-- Face Unlock -->
-    <uses-permission android:name="com.android.settings.FACE_UNLOCK"/>
-    <permission android:name="com.android.settings.FACE_UNLOCK" android:protectionLevel="signatureOrSystem"/>
-
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -4672,17 +4668,6 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.evolution.settings.fragments.SmartPixels" />
-        </activity>
-
-        <!-- Face unlock -->
-        <activity android:name="com.android.settings.custom.biometrics.face.FaceEnrollActivity"
-            android:permission="com.android.settings.FACE_UNLOCK"
-            android:theme="@style/Transparent"
-            android:exported="true">
-            <intent-filter android:priority="1">
-                <action android:name="com.android.settings.intent.action.FACE_ENROLL"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
