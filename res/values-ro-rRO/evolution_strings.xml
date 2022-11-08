@@ -368,4 +368,10 @@
     <string name="face_unlock_method_title">Permiteți deblocarea facială pe ecranul de blocare</string>
     <string name="face_unlock_method_default">Când ecranul este pornit</string>
     <string name="face_unlock_method_swipe">Când glisați ecranul de blocare</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Afișare suprapunere clipboard</string>
+    <string name="show_clipboard_overlay_summary">Arată o suprapunere în colțul din stânga jos al ecranului atunci când ceva este copiat în clipboard</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Afișare muzică pe ecranul ambiental</string>
+    <string name="pulse_on_new_tracks_summary">Afișare ecran ambiental când este redată o piesă nouă</string>
 </resources>

@@ -368,4 +368,10 @@
     <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
     <string name="face_unlock_method_default">При включении экрана</string>
     <string name="face_unlock_method_swipe">После свайпа на экране блокировки</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Показывать окно буфера обмена</string>
+    <string name="show_clipboard_overlay_summary">Показывать содержимое буфера обмена в левом нижнем углу экрана, когда что-то копируется в буфер</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Функция «Сейчас играет»</string>
+    <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении нового трека</string>
 </resources>

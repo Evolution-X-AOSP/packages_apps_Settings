@@ -368,4 +368,10 @@
     <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
     <string name="face_unlock_method_default">画面が点灯した時</string>
     <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">クリップボードオーバーレイを表示</string>
+    <string name="show_clipboard_overlay_summary">クリップボードに何かがコピーされた時に画面の左下にコピー内容をオーバーレイを表示する</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">新規楽曲再生時にアンビエント表示をする</string>
 </resources>

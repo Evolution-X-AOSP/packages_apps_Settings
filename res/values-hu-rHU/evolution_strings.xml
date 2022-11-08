@@ -368,4 +368,10 @@
     <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
     <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
     <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Vágólap-átfedés</string>
+    <string name="show_clipboard_overlay_summary">Átfedés megjelenítése a képernyő bal alsó sarkában, ha valamit a vágólapra másol</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Zeneszám a környezeti kijelzőn</string>
+    <string name="pulse_on_new_tracks_summary">A Környezeti kijelző megjelenítése, ha új zeneszám kerül lejátszásra</string>
 </resources>

@@ -368,4 +368,10 @@
     <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
     <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Afficher l\'IU du presse-papiers</string>
+    <string name="show_clipboard_overlay_summary">Afficher une IU dans le coin inférieur gauche de l\'écran lorsque quelque chose est copié dans le presse-papiers</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Informations sur la musique en mode ambient</string>
+    <string name="pulse_on_new_tracks_summary">Allume l\'écran en mode Ambiant quand une nouvelle piste musicale est jouée</string>
 </resources>
