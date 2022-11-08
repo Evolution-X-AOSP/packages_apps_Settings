@@ -371,5 +371,5 @@
     <string name="face_redo_warning_msg">Desideri rimuovere la scansione del volto esistente e crearne una nuova?</string>
     <string name="face_unlock_method_title">Consenti lo sblocco con il volto sulla schermata di blocco</string>
     <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
-    <string name="face_unlock_method_swipe">Scorrendo sulla schermata di blocco</string>
+    <string name="face_unlock_method_swipe">Quando si scorre sulla schermata di blocco</string>
 </resources>
