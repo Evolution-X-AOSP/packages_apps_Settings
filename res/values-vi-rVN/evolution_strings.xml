@@ -300,24 +300,24 @@
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
     <!-- Random Evolver summaries -->
-    <string name="random_summary_2">Chào mừng đến the Eve of Evolution</string>
-    <string name="random_summary_3">Tiếp tục Khai sáng thiết bị của bạn</string>
-    <string name="random_summary_4">Khai sáng thiết bị của bạn với những tính năng của chúng tôi</string>
-    <string name="random_summary_5">Sự khai sáng là một điều bí ẩn</string>
-    <string name="random_summary_6">Không là bất cứ ROM khác, đây là Evolution X!</string>
-    <string name="random_summary_7">Người ghét vẫn ghét, Evo vẫn cháy</string>
-    <string name="random_summary_8">Sống trong thiên đường tội lỗi</string>
-    <string name="random_summary_9">Không bao giờ lùi bước</string>
-    <string name="random_summary_12">Chúng tôi toả sáng nhanh hơn cả sấm sét</string>
-    <string name="random_summary_15">Bánh Tiramisu thực sự rất tuyệt</string>
-    <string name="random_summary_16">13 cũng có thể là con số may mắn</string>
-    <string name="random_summary_18">Cuộc sống không chỉ có pixel và cầu vồng</string>
-    <string name="random_summary_19">Vẫn là Android, nhưng tốt hơn</string>
-    <string name="random_summary_20">Ricers, vui lòng đi đến lối ra gần nhất</string>
-    <string name="random_summary_21">Phân trang cho người điều khiển chiếc BMW màu đen...</string>
-    <string name="random_summary_24">Công nhận chúng tôi!</string>
-    <string name="random_summary_25">Chúng tôi biết rằng chúng tôi được đặt tên theo Mitsubishi</string>
-    <string name="random_summary_26">Đã đến lúc bootloop!</string>
+    <string name="random_summary_2">Welcome to the Eve of Evolution</string>
+    <string name="random_summary_3">Continue the Evolution of your device</string>
+    <string name="random_summary_4">Start evolving your device with our features</string>
+    <string name="random_summary_5">Evolution is a mystery</string>
+    <string name="random_summary_6">Not just any ROM, this is Evolution X!</string>
+    <string name="random_summary_7">Haters gonna hate, Evo\'s gonna bake</string>
+    <string name="random_summary_8">Living in a gangsta\'s paradise</string>
+    <string name="random_summary_9">Keep moving forward</string>
+    <string name="random_summary_12">We were lightning before the thunder</string>
+    <string name="random_summary_15">Tiramisu really tastes nice</string>
+    <string name="random_summary_16">13 can be lucky too</string>
+    <string name="random_summary_18">Life isn\'t always pixels and rainbows</string>
+    <string name="random_summary_19">Still Android, just better</string>
+    <string name="random_summary_20">Ricers, please proceed to the nearest exit</string>
+    <string name="random_summary_21">Paging the driver of the black BMW...</string>
+    <string name="random_summary_24">Acknowledge us!</string>
+    <string name="random_summary_25">We\'re aware we\'re named after a Mitsubishi</string>
+    <string name="random_summary_26">It\'s bootloop time!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Cài đặt xoay</string>
     <string name="display_rotation_enabled">Tự động xoay được bật</string>
