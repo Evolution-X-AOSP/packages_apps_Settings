@@ -358,20 +358,18 @@
     <string name="notification_custom_vibrate_summary">Chỉ thay thế mẫu mặc định\nMẫu thiết lập ứng dụng được ưu tiên</string>
     <string name="notification_custom_vibrate_slider1">Rung cho</string>
     <string name="notification_custom_vibrate_slider2">Tạm dừng cho</string>
-    <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Mở khóa bằng khuôn mặt giúp bạn mở khóa thiết bị bằng cách nhìn vào nó. Hãy nhớ:\n\n● Thiết bị của bạn có thể mở bất cứ lúc nào khi mà bạn nhìn vào nó.\n● Thiết bị của bạn có thể được mở khóa bởi người khác nếu họ để điện thoại lên trước mặt bạn khi mắt bạn đang được mở.\n● Thiết bị của bạn cũng có thể bị mở khóa bởi người nào đó trông rất giống bạn, chẳng hạn như con của bạn hoặc anh chị em song sinh.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Dữ liệu khuôn mặt sẽ bị xóa vĩnh viễn một cách an toàn và bảo mật. Sau khi xóa, bạn sẽ cần mã PIN, mẫu hình hoặc mật khẩu để mở khóa điện thoại.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Xoá dữ liệu khuôn mặt hiện tại và tạo cái mới</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
-    <string name="face_redo_confirm_btn">Làm lại</string>
-    <string name="face_redo_warning_msg">Bạn có muốn gỡ bỏ dữ liệu khuôn mặt hiện có và tạo một cái mới không?</string>
-    <string name="face_unlock_method_title">Cho phép mở khoá bằng khuôn mặt trên màn hình khoá</string>
-    <string name="face_unlock_method_default">Khi màn hình được bật</string>
-    <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Hiển thị bảng nhớ tạm nổi</string>
     <string name="show_clipboard_overlay_summary">Hiển thị một bảng nổi ở góc trái màn hình khi nội dung nào đó được sao chép vào bảng nhớ tạm</string>
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Thẻ âm nhạc Màn hình xem nhanh</string>
     <string name="pulse_on_new_tracks_summary">Hiển thị Màn hình xem nhanh khi một bản nhạc mới được phát</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Xóa quét khuôn mặt hiện có và tạo một bản quét mới</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
+    <string name="face_redo_confirm_btn">Làm lại</string>
+    <string name="face_redo_warning_msg">Bạn có muốn xóa quét khuôn mặt hiện có và tạo một cái mới không?</string>
+    <string name="face_unlock_method_title">Cho phép mở khoá bằng khuôn mặt trên màn hình khoá</string>
+    <string name="face_unlock_method_default">Khi màn hình được bật</string>
+    <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
 </resources>
