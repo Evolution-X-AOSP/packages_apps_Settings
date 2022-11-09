@@ -358,9 +358,13 @@
     <string name="notification_custom_vibrate_summary">Substitui apenas o padrão predefinido\nUm padrão definido na app tem pioridade</string>
     <string name="notification_custom_vibrate_slider1">Vibrar durante</string>
     <string name="notification_custom_vibrate_slider2">Pausar durante</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Mostrar sobreposição da área de transferência</string>
+    <string name="show_clipboard_overlay_summary">Mostrar uma sobreposição no canto inferior esquerdo do ecrã quando algo for copiado para a área de transferência</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Notificação de música ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar Ecrã Ambiente quando uma nova música for reproduzida</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">O desbloqueio facial permite que desbloqueie o dispositivo ao olhar para ele. Tenha em mente:\n\n● O dispositivo poderá ser desbloqueado em qualquer altura que olhe para ele.\n● O dispositivo pode ser desbloqueado se alguém o mantiver à frente do seu rosto quando tem os olhos abertos.\n● O dispositivo também pode ser desbloqueado por alguém bastante parecido consigo, como um filho ou um irmão idêntico.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Os dados guardados pelo desbloqueio facial serão eliminados de forma segura e permanente. Após a eliminação, será necessário o seu PIN, padrão ou palavra-passe para desbloquear o dispositivo.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Remover a verificação facial existente e criar uma nova</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Analisar face novamente</string>
     <string name="face_redo_confirm_btn">Refazer</string>
@@ -368,10 +372,4 @@
     <string name="face_unlock_method_title">Permitir desbloqueio facial no ecrã de bloqueio</string>
     <string name="face_unlock_method_default">Quando o ecrã estiver ligado</string>
     <string name="face_unlock_method_swipe">Ao deslizar no ecrã de bloqueio</string>
-    <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Mostrar sobreposição da área de transferência</string>
-    <string name="show_clipboard_overlay_summary">Mostrar uma sobreposição no canto inferior esquerdo do ecrã quando algo for copiado para a área de transferência</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Notificação de música ambiente</string>
-    <string name="pulse_on_new_tracks_summary">Mostrar Ecrã Ambiente quando uma nova música for reproduzida</string>
 </resources>
