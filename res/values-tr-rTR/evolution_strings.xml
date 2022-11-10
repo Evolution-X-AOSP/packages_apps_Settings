@@ -358,9 +358,13 @@
     <string name="notification_custom_vibrate_summary">Varsayılan modeli değiştirir\nUygulama ayarlı model önceliği alır</string>
     <string name="notification_custom_vibrate_slider1">Titret</string>
     <string name="notification_custom_vibrate_slider2">Duraklat</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Pano yer paylaşımını göster</string>
+    <string name="show_clipboard_overlay_summary">Panoya bir şey kopyalandığında ekranın sol alt köşesinde bir kaplama göster</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
+    <string name="pulse_on_new_tracks_summary">Yeni bir müzik parçası çalındığında Ortam Ekranını göster</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Cihazınızın kilidini açmak için Yüz tanıma kilidini kullanın. Şunları unutmayın:\n\nFarkında olmadığınız durumlarda bile telefona baktığınızda telefonun kilidi açılabilir.\n●0Gözleriniz açıkken telefonunuz yüzünüze doğru çevrilirse telefonunuzun kilidi başka biri tarafından açılabilir.\n●Telefonunuzun kilidi, size çok benzeyen biri (ör. çocuğunuz ya da ikiz kardeşiniz) tarafından açılabilir.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Yüz tanıma kilidi ile kaydedilen veriler kalıcı ve güvenli bir şekilde silinir. Kaldırma işleminden sonra telefonunuzun kilidini açmak için PIN, desen veya şifre kullanmanız gerekir.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
     <string name="face_redo_confirm_btn">Yeniden yap</string>
@@ -368,10 +372,4 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
-    <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Pano yer paylaşımını göster</string>
-    <string name="show_clipboard_overlay_summary">Panoya bir şey kopyalandığında ekranın sol alt köşesinde bir kaplama göster</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
-    <string name="pulse_on_new_tracks_summary">Yeni bir müzik parçası çalındığında Ortam Ekranını göster</string>
 </resources>
