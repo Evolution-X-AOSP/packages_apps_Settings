@@ -358,9 +358,13 @@
     <string name="notification_custom_vibrate_summary">既定のパターンのみを置き換え\nアプリの設定パターンが優先されます</string>
     <string name="notification_custom_vibrate_slider1">以下で振動</string>
     <string name="notification_custom_vibrate_slider2">以下で一時停止</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">クリップボードオーバーレイを表示</string>
+    <string name="show_clipboard_overlay_summary">クリップボードに何かがコピーされた時に画面の左下にコピー内容をオーバーレイを表示する</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">新規楽曲再生時にアンビエント表示をする</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">顔認証ロック解除では端末を覗き込むことでロック解除できます。以下のことに中止して下さい:\n\n● いつでもあなたの端末はロック解除できるようになります。\n● あなたの目が開いている間に他人があなたの端末をあなたの顔に向けたら誰でもロック解除が可能です。\n● 子供や兄弟などの見た目が似ている人物の顔でロック解除される可能性があります。</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">顔認証ロック解除により記録されたデータは完全かつ安全に削除されます。削除後は PIN、パターン、パスワードで端末をロック解除する必要があります。</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
     <string name="face_redo_confirm_btn">やり直し</string>
@@ -368,10 +372,4 @@
     <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
     <string name="face_unlock_method_default">画面が点灯した時</string>
     <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
-    <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">クリップボードオーバーレイを表示</string>
-    <string name="show_clipboard_overlay_summary">クリップボードに何かがコピーされた時に画面の左下にコピー内容をオーバーレイを表示する</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
-    <string name="pulse_on_new_tracks_summary">新規楽曲再生時にアンビエント表示をする</string>
 </resources>
