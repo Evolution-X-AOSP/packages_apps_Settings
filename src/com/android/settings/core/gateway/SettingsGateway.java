@@ -409,6 +409,5 @@ public class SettingsGateway {
             Settings.HeadsUpSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
-            Settings.PreviouslyConnectedDeviceDashboardActivity.class.getName(),
     };
 }
