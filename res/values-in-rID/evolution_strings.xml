@@ -237,9 +237,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Selalu menyala saat mengisi daya</string>
     <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Ruang di bawah keyboard</string>
-    <string name="navigation_bar_ime_space_value_narrow">Sempit</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Penuh</string>
     <string name="back_height_high_label">Bawah</string>
@@ -290,11 +287,6 @@
     <string name="designed_battery_capacity">Kapasitas maksimum yang dirancang</string>
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
     <string name="high_power_apps_summary">Optimalisasi baterai per aplikasi</string>
-    <!-- Playback control -->
-    <string name="gesture_playback_control_screen_title">Kontrol Pemutaran</string>
-    <string name="gesture_playback_control_primary_switch_title">Gunakan kontrol pemutaran</string>
-    <string name="gesture_playback_control_intro_text">Saat layar mati, menekan lama tombol volume akan mencari trek musik</string>
-    <string name="volume_rocker_music_controls_delay_title">Penundaan aktivasi kontrol pemutaran</string>
     <string name="gesture_playback_control_delay">menunda</string>
     <string name="unit_ms">milidetik</string>
     <!-- Cloudflare DNS Option -->
@@ -372,4 +364,14 @@
     <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <string name="skip_biometric_auth_confirmation_title">Lewati konfirmasi secara manual</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Sembunyikan ruang tombol IME</string>
+    <string name="navigation_bar_ime_space_summary">Sembunyikan ruang tombol IME di bawah keyboard</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
+    <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewati trek musik</string>
+    <!-- Scarlet Assistant Idle Manager -->
+    <string name="idle_manager_title">Asisten Manajer Idle Scarlet</string>
+    <string name="idle_manager_summary">Scarlet akan mengoptimalkan konsumsi daya perangkat saat perangkat tidak digunakan dan secara efisien akan meningkatkan kinerja perangkat di setiap layar bangun.</string>
 </resources>
