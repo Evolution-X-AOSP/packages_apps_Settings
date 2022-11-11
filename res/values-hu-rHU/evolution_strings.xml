@@ -237,9 +237,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Állandóan bekapcsolva töltés közben</string>
     <string name="doze_on_charge_summary">Töltés során jelenítse meg a gyorstöltés képernyőt</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Billentyűzet alatti tér</string>
-    <string name="navigation_bar_ime_space_value_narrow">Keskeny</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Teljes</string>
     <string name="back_height_high_label">Alul</string>
@@ -372,4 +369,7 @@
     <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
     <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
     <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME-gombhely rejtése</string>
+    <string name="navigation_bar_ime_space_summary">Eltünteti az IME-gombhelyet a billentyűzet alatt</string>
 </resources>
