@@ -287,11 +287,6 @@
     <string name="designed_battery_capacity">Capacità massima</string>
     <string name="battery_charge_cycles">Cicli di ricarica completati</string>
     <string name="high_power_apps_summary">Ottimizzazione batteria per app</string>
-    <!-- Playback control -->
-    <string name="gesture_playback_control_screen_title">Controllo della riproduzione</string>
-    <string name="gesture_playback_control_primary_switch_title">Usa controllo di riproduzione</string>
-    <string name="gesture_playback_control_intro_text">Quando lo schermo è spento, premendo a lungo i tasti del volume cambieranno le tracce musicali</string>
-    <string name="volume_rocker_music_controls_delay_title">Ritardo attivazione del controllo riproduzione</string>
     <string name="gesture_playback_control_delay">Ritardo</string>
     <string name="unit_ms">millisecondi</string>
     <!-- Cloudflare DNS Option -->
@@ -372,4 +367,7 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Nascondi spazio pulsante IME</string>
     <string name="navigation_bar_ime_space_summary">Nascondi lo spazio del pulsante IME sotto la tastiera</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controllo riproduzione</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, premendo a lungo i tasti del volume cambieranno le tracce musicali</string>
 </resources>
