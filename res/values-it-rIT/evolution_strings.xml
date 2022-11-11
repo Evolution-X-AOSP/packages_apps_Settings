@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Benvenuto alla vigilia dell\'evoluzione</string>
+    <string name="evolver_dashboard_summary">Benvenuto alla Vigilia di Evolution</string>
     <!-- Hardware info -->
     <string name="platform_revision">Piattaforma</string>
     <string name="total_ram">RAM totale</string>
@@ -287,15 +287,9 @@
     <string name="designed_battery_capacity">Capacità massima</string>
     <string name="battery_charge_cycles">Cicli di ricarica completati</string>
     <string name="high_power_apps_summary">Ottimizzazione batteria per app</string>
-    <!-- Playback control -->
-    <string name="gesture_playback_control_screen_title">Controllo della riproduzione</string>
-    <string name="gesture_playback_control_primary_switch_title">Usa controllo di riproduzione</string>
-    <string name="gesture_playback_control_intro_text">Quando lo schermo è spento, premendo a lungo i tasti del volume cambieranno le tracce musicali</string>
-    <string name="volume_rocker_music_controls_delay_title">Ritardo attivazione del controllo riproduzione</string>
     <string name="gesture_playback_control_delay">Ritardo</string>
     <string name="unit_ms">millisecondi</string>
-    <!-- Cloudflare DNS Option -->
-    <!-- AdGuard DNS Option -->
+    <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
     <string name="random_summary_2">Benvenuto alla Vigilia dell\'Evolution</string>
     <string name="random_summary_3">Continua l\'Evolution del tuo dispositivo</string>
@@ -369,7 +363,11 @@
     <string name="face_unlock_method_title">Consenti lo sblocco con il volto sulla schermata di blocco</string>
     <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
     <string name="face_unlock_method_swipe">Quando si scorre sulla schermata di blocco</string>
+    <string name="skip_biometric_auth_confirmation_title">Salta la conferma manuale</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Nascondi spazio pulsante IME</string>
     <string name="navigation_bar_ime_space_summary">Nascondi lo spazio del pulsante IME sotto la tastiera</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controllo riproduzione</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, premere a lungo i tasti volume per cambiare le tracce musicali</string>
 </resources>

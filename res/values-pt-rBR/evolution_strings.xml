@@ -61,8 +61,8 @@
     <string name="fingerprint_enroll_touch_dialog_message_rear">Toque no sensor na parte traseira do seu telefone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Toque no sensor na parte lateral do seu telefone.</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
-    <string name="adaptive_playback_master_switch_title">Usar reprodução adaptável</string>
+    <string name="adaptive_playback_screen_title">Pausa inteligente</string>
+    <string name="adaptive_playback_master_switch_title">Usar pausa inteligente</string>
     <string name="adaptive_playback_disabled_summary">Desativado</string>
     <string name="adaptive_playback_intro_text">A reprodução adaptável pausa automaticamente a mídia quando o volume é silenciado e retorna automaticamente quando o volume for restaurado no tempo definido.</string>
     <string name="adaptive_playback_timeout_title">Usar um tempo limite de</string>
@@ -237,9 +237,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Tela ambiente durante o carregamento</string>
     <string name="doze_on_charge_summary">Sempre mostrar a tela ambiente durante o carregamento</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Espaço do método de entrada</string>
-    <string name="navigation_bar_ime_space_value_narrow">Estreito</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Largo</string>
     <string name="back_height_high_label">Inferior</string>
@@ -290,15 +287,9 @@
     <string name="designed_battery_capacity">Capacidade projetada da bateria</string>
     <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
     <string name="high_power_apps_summary">Otimização de bateria por app</string>
-    <!-- Playback control -->
-    <string name="gesture_playback_control_screen_title">Controle de reprodução</string>
-    <string name="gesture_playback_control_primary_switch_title">Usar controle de reprodução</string>
-    <string name="gesture_playback_control_intro_text">Com a tela desligada, mantenha pressionado o botão de volume para procurar músicas</string>
-    <string name="volume_rocker_music_controls_delay_title">Atraso de ativação do controle de reprodução</string>
     <string name="gesture_playback_control_delay">Atraso</string>
     <string name="unit_ms">ms</string>
-    <!-- Cloudflare DNS Option -->
-    <!-- AdGuard DNS Option -->
+    <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
     <string name="random_summary_2">Bem-vindo ao início da Evolução</string>
     <string name="random_summary_3">Hora de continuar a Evolução do seu dispositivo</string>
@@ -310,10 +301,10 @@
     <string name="random_summary_9">Siga em frente</string>
     <string name="random_summary_12">Nós éramos relâmpagos antes do trovão</string>
     <string name="random_summary_15">Tiramisu está realmente legal</string>
-    <string name="random_summary_16">13 também pode ter sorte</string>
+    <string name="random_summary_16">13 também pode dar sorte</string>
     <string name="random_summary_18">A vida nem sempre é pixels e arco-íris</string>
     <string name="random_summary_19">Ainda Android, apenas melhor</string>
-    <string name="random_summary_20">Ricers, por favor, dirija-se à saída mais próxima</string>
+    <string name="random_summary_20">Haters, por favor, dirija-se à saída mais próxima</string>
     <string name="random_summary_21">Pagando o motorista do BMW preto...</string>
     <string name="random_summary_24">Conheça-nos!</string>
     <string name="random_summary_25">Estamos cientes de que temos o nome de um Mitsubishi</string>
@@ -339,4 +330,44 @@
     <string name="notification_battery_charge_level_silent">Silencioso</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toque para mostrar informações</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Silenciar rapidamente</string>
+    <string name="volume_button_quick_mute_category_title">Pressionar e segurar o volume para baixo vai silenciar o dispositivo</string>
+    <string name="volume_button_quick_mute_delay_title">Atraso de ativação do controle de reprodução</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Padrão de vibração do toque</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizado</string>
+    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Padrão de vibração personalizado</string>
+    <string name="notification_custom_vibrate_summary">Substitui apenas o padrão da vibração</string>
+    <string name="notification_custom_vibrate_slider1">Vibrar por</string>
+    <string name="notification_custom_vibrate_slider2">Pausado para</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Mostrar sobreposição de texto</string>
+    <string name="show_clipboard_overlay_summary">Exibe uma janela no canto inferior esquerdo da tela quando algum texto for copiado para área de transferência</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ticker de música na tela ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar a tela ambiente ao reproduzir uma nova música</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refazer escaneamento facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Deseja remover o escaneamento facial existente e criar um novo?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueio facial na tela de bloqueio</string>
+    <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
+    <string name="face_unlock_method_swipe">Quando deslizar na tela de bloqueio</string>
+    <string name="skip_biometric_auth_confirmation_title">Ignorar a confirmação manual</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Ocultar espaço do método de entrada</string>
+    <string name="navigation_bar_ime_space_summary">Ocultar espaço na parte inferior do teclado</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Alternar faixas de músicas ao manter pressionadas as teclas de volume enquanto a tela estiver desligada</string>
 </resources>
