@@ -237,9 +237,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Écran toujours allumé pendant la charge</string>
     <string name="doze_on_charge_summary">Afficher l\'écran de veille pendant la charge</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Espace sous le clavier</string>
-    <string name="navigation_bar_ime_space_value_narrow">Fin</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Plein</string>
     <string name="back_height_high_label">Bas</string>
@@ -290,11 +287,6 @@
     <string name="designed_battery_capacity">Capacité nominale</string>
     <string name="battery_charge_cycles">Cycles de charge complets</string>
     <string name="high_power_apps_summary">Optimisation de la batterie par application</string>
-    <!-- Playback control -->
-    <string name="gesture_playback_control_screen_title">Contrôle de lecture</string>
-    <string name="gesture_playback_control_primary_switch_title">Utiliser le contrôle de lecture</string>
-    <string name="gesture_playback_control_intro_text">Lorsque l\'écran est éteint, un appui long sur les touches de volume changera la piste musicale</string>
-    <string name="volume_rocker_music_controls_delay_title">Délai d\'activation du contrôle de lecture</string>
     <string name="gesture_playback_control_delay">délai</string>
     <string name="unit_ms">ms</string>
     <!-- Cloudflare DNS Option -->
@@ -372,4 +364,10 @@
     <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
     <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Cacher l\'espace du bouton IME</string>
+    <string name="navigation_bar_ime_space_summary">Cacher l\'espace du bouton IME sous le clavier</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Contrôle de lecture</string>
+    <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume changera la piste musicale</string>
 </resources>
