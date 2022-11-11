@@ -237,9 +237,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Mereu activ când se încarcă</string>
     <string name="doze_on_charge_summary">Se afișează ecranul ambiental tot timpul când se încarcă</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Spaţiu sub tastatură</string>
-    <string name="navigation_bar_ime_space_value_narrow">Îngust</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Complet</string>
     <string name="back_height_high_label">Jos</string>
@@ -372,4 +369,7 @@
     <string name="face_unlock_method_title">Permiteți deblocarea facială pe ecranul de blocare</string>
     <string name="face_unlock_method_default">Când ecranul este pornit</string>
     <string name="face_unlock_method_swipe">Când glisați ecranul de blocare</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Spațiu buton tastatură</string>
+    <string name="navigation_bar_ime_space_summary">Ascunde spațiul butonului IME de sub tastatură</string>
 </resources>
