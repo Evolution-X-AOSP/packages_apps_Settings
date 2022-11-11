@@ -287,11 +287,6 @@
     <string name="designed_battery_capacity">Capacitatea proiectată a bateriei</string>
     <string name="battery_charge_cycles">Cicluri de încărcare finalizate</string>
     <string name="high_power_apps_summary">Optimizare baterie per-aplicație</string>
-    <!-- Playback control -->
-    <string name="gesture_playback_control_screen_title">Control redare</string>
-    <string name="gesture_playback_control_primary_switch_title">Folosește controlul redării</string>
-    <string name="gesture_playback_control_intro_text">Când ecranul este închis, apăsarea lungă a butoanelor de volum derulează melodia</string>
-    <string name="volume_rocker_music_controls_delay_title">Întârziere activare control redare</string>
     <string name="gesture_playback_control_delay">întârziere</string>
     <string name="unit_ms">ms</string>
     <!-- Cloudflare DNS Option -->
@@ -372,4 +367,7 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Spațiu buton tastatură</string>
     <string name="navigation_bar_ime_space_summary">Ascunde spațiul butonului IME de sub tastatură</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Control redare</string>
+    <string name="volume_button_music_control_summary">Când ecranul este închis, apăsarea lungă a butoanelor de volum derulează melodia</string>
 </resources>
