@@ -237,9 +237,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">AOD durante la ricarica</string>
     <string name="doze_on_charge_summary">Mostra l\'Always-On Display durante la ricarica</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Spazio sotto la tastiera</string>
-    <string name="navigation_bar_ime_space_value_narrow">Sottile</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Intero</string>
     <string name="back_height_high_label">Schermo inferiore</string>
@@ -372,4 +369,7 @@
     <string name="face_unlock_method_title">Consenti lo sblocco con il volto sulla schermata di blocco</string>
     <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
     <string name="face_unlock_method_swipe">Quando si scorre sulla schermata di blocco</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Nascondi spazio pulsante IME</string>
+    <string name="navigation_bar_ime_space_summary">Nascondi lo spazio del pulsante IME sotto la tastiera</string>
 </resources>
