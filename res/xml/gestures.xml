@@ -107,12 +107,6 @@
         settings:controller="com.android.settings.gestures.QuickMuteParentPreferenceController" />
 
     <com.android.settingslib.PrimarySwitchPreference
-        android:key="playback_control_summary"
-        android:title="@string/gesture_playback_control_screen_title"
-        android:fragment="com.android.settings.gestures.PlaybackControlGestureSettings"
-        settings:controller="com.android.settings.gestures.PlaybackControlParentPreferenceController" />
-
-    <com.android.settingslib.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"

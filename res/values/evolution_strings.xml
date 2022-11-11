@@ -295,10 +295,6 @@
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Space under the keyboard</string>
-    <string name="navigation_bar_ime_space_value_narrow">Narrow</string>
-
     <!-- Back gesture height -->
     <string name="back_height_low_label">Full</string>
     <string name="back_height_high_label">Bottom</string>
@@ -362,11 +358,6 @@
 
     <string name="high_power_apps_summary">Per-app battery optimization</string>
 
-    <!-- Playback control -->
-    <string name="gesture_playback_control_screen_title">Playback control</string>
-    <string name="gesture_playback_control_primary_switch_title">Use playback control</string>
-    <string name="gesture_playback_control_intro_text">When the screen is off, long-pressing the volume keys will seek music tracks</string>
-    <string name="volume_rocker_music_controls_delay_title">Playback control activation delay</string>
     <string name="gesture_playback_control_delay">delay</string>
     <string name="unit_ms">ms</string>
 
