@@ -371,4 +371,7 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controllo riproduzione</string>
     <string name="volume_button_music_control_summary">Quando lo schermo è spento, premendo a lungo i tasti del volume cambieranno le tracce musicali</string>
+    <!-- Scarlet Assistant Idle Manager -->
+    <string name="idle_manager_title">Assistente Scarlet per Gestione Inattività</string>
+    <string name="idle_manager_summary">Scarlet ottimizzerà il consumo di energia del dispositivo mentre esso è inattivo e migliorerà prontamente le prestazioni del dispositivo ad ogni risveglio dello schermo.</string>
 </resources>
