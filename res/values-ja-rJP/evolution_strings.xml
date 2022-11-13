@@ -364,6 +364,7 @@
     <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
     <string name="face_unlock_method_default">画面が点灯した時</string>
     <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
+    <string name="skip_biometric_auth_confirmation_title">手動の確認をスキップ</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">IME ボタンのスペースを隠す</string>
     <string name="navigation_bar_ime_space_summary">キーボードの下に IME ボタンのスペースを隠す</string>
