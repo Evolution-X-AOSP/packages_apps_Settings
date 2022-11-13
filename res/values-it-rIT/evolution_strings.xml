@@ -364,6 +364,7 @@
     <string name="face_unlock_method_title">Consenti lo sblocco con il volto sulla schermata di blocco</string>
     <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
     <string name="face_unlock_method_swipe">Quando si scorre sulla schermata di blocco</string>
+    <string name="skip_biometric_auth_confirmation_title">Salta la conferma manuale</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Nascondi spazio pulsante IME</string>
     <string name="navigation_bar_ime_space_summary">Nascondi lo spazio del pulsante IME sotto la tastiera</string>
