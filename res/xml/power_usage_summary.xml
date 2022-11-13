@@ -95,10 +95,11 @@
         <intent android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS" />
     </Preference>
 
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="battery_temp"
-        android:title="@string/battery_temp"
-        android:selectable="false" />
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="scarlet_idle_assistant_manager"
+        android:title="@string/idle_manager_title"
+        android:summary="@string/idle_manager_summary"
+        android:defaultValue="false" />
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="designed_battery_capacity"
@@ -113,6 +114,11 @@
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="battery_charge_cycles"
         android:title="@string/battery_charge_cycles"
+        android:selectable="false" />
+
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="battery_temp"
+        android:title="@string/battery_temp"
         android:selectable="false" />
 
     <com.android.settingslib.widget.FooterPreference
