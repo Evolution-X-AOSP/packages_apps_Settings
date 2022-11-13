@@ -364,6 +364,7 @@
     <string name="face_unlock_method_title">Permiteți deblocarea facială pe ecranul de blocare</string>
     <string name="face_unlock_method_default">Când ecranul este pornit</string>
     <string name="face_unlock_method_swipe">Când glisați ecranul de blocare</string>
+    <string name="skip_biometric_auth_confirmation_title">Omite confirmarea manuală</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Spațiu buton tastatură</string>
     <string name="navigation_bar_ime_space_summary">Ascunde spațiul butonului IME de sub tastatură</string>
