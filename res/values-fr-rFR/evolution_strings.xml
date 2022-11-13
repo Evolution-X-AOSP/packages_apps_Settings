@@ -364,6 +364,7 @@
     <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
     <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
+    <string name="skip_biometric_auth_confirmation_title">Ignorer la confirmation manuelle</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Cacher l\'espace du bouton IME</string>
     <string name="navigation_bar_ime_space_summary">Cacher l\'espace du bouton IME sous le clavier</string>
