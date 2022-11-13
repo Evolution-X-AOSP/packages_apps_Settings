@@ -364,6 +364,7 @@
     <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
     <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
     <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <string name="skip_biometric_auth_confirmation_title">A manuális megerősítés kihagyása</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">IME-gombhely rejtése</string>
     <string name="navigation_bar_ime_space_summary">Eltünteti az IME-gombhelyet a billentyűzet alatt</string>
