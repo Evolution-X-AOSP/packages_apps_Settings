@@ -237,9 +237,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
     <string name="doze_on_charge_summary">Şarj olurken her zaman ortam ekranını göster</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanı</string>
-    <string name="navigation_bar_ime_space_value_narrow">Dar</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Tam</string>
     <string name="back_height_high_label">Alt</string>
@@ -290,11 +287,6 @@
     <string name="designed_battery_capacity">En yüksek kapasite</string>
     <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
     <string name="high_power_apps_summary">Pil en iyilemesini devre dışı bırak</string>
-    <!-- Playback control -->
-    <string name="gesture_playback_control_screen_title">Oynatma kontrolü</string>
-    <string name="gesture_playback_control_primary_switch_title">Oynatma kontrolünü kullan</string>
-    <string name="gesture_playback_control_intro_text">Ekran kapalıyken ses tuşlarına uzun basmak şarkıyı değiştirir</string>
-    <string name="volume_rocker_music_controls_delay_title">Müzik değiştirme tepki süresi</string>
     <string name="gesture_playback_control_delay">gecikme</string>
     <string name="unit_ms">ms</string>
     <!-- Cloudflare DNS Option -->
@@ -372,4 +364,14 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <string name="skip_biometric_auth_confirmation_title">Manuel onaylamayı atla</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanını gizle</string>
+    <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını gizle</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
+    <!-- Scarlet Assistant Idle Manager -->
+    <string name="idle_manager_title">Scarlet Asistan Bekleme Yöneticisi</string>
+    <string name="idle_manager_summary">Cihaz bekleme modundayken pil tasarrufu sağlamak için ve cihaz her uyandığında performansı arttırmak için telefonunuzu optimize eder.</string>
 </resources>
