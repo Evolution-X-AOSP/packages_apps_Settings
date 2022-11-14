@@ -364,10 +364,14 @@
     <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
     <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
     <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <string name="skip_biometric_auth_confirmation_title">A manuális megerősítés kihagyása</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">IME-gombhely rejtése</string>
     <string name="navigation_bar_ime_space_summary">Eltünteti az IME-gombhelyet a billentyűzet alatt</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
     <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
+    <!-- Scarlet Assistant Idle Manager -->
+    <string name="idle_manager_title">Scarlet-asszisztens</string>
+    <string name="idle_manager_summary">A Scarlet optimalizálja a készülék energiafogyasztását miközben az eszköz tétlen, és hatékonyan növeli a teljesítményt minden képernyő-ébredéskor.</string>
 </resources>
