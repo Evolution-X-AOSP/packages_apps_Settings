@@ -364,10 +364,14 @@
     <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <string name="skip_biometric_auth_confirmation_title">Lewati konfirmasi secara manual</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Sembunyikan ruang tombol IME</string>
     <string name="navigation_bar_ime_space_summary">Sembunyikan ruang tombol IME di bawah keyboard</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
     <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewati trek musik</string>
+    <!-- Scarlet Assistant Idle Manager -->
+    <string name="idle_manager_title">Asisten Manajer Idle Scarlet</string>
+    <string name="idle_manager_summary">Scarlet akan mengoptimalkan konsumsi daya perangkat saat perangkat tidak digunakan dan secara efisien akan meningkatkan kinerja perangkat di setiap layar bangun.</string>
 </resources>
