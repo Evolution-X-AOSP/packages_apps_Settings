@@ -364,10 +364,14 @@
     <string name="face_unlock_method_title">Permitir desbloqueio facial no ecrã de bloqueio</string>
     <string name="face_unlock_method_default">Quando o ecrã estiver ligado</string>
     <string name="face_unlock_method_swipe">Ao deslizar no ecrã de bloqueio</string>
+    <string name="skip_biometric_auth_confirmation_title">Saltar confirmação manual</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Ocultar espaço do botão IME</string>
     <string name="navigation_bar_ime_space_summary">Ocultar espaço do botão IME abaixo do teclado</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controlo de reprodução</string>
     <string name="volume_button_music_control_summary">Com o ecrã desligado, premir os botões de volume mudará as faixas de música</string>
+    <!-- Scarlet Assistant Idle Manager -->
+    <string name="idle_manager_title">Gestor de Inatividade do Assistente Scarlet</string>
+    <string name="idle_manager_summary">O Scarlet otimizará o consumo de energia enquanto o dispositivo está inativo e aumentará o desempenho do dispositivo ao ativar o ecrã.</string>
 </resources>
