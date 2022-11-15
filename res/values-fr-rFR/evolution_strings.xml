@@ -364,10 +364,14 @@
     <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
     <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
+    <string name="skip_biometric_auth_confirmation_title">Ignorer la confirmation manuelle</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Cacher l\'espace du bouton IME</string>
     <string name="navigation_bar_ime_space_summary">Cacher l\'espace du bouton IME sous le clavier</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Contrôle de lecture</string>
     <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume changera la piste musicale</string>
+    <!-- Scarlet Assistant Idle Manager -->
+    <string name="idle_manager_title">Gestionnaire d\'inactivité de l\'Assistant Scarlet</string>
+    <string name="idle_manager_summary">Scarlet optimisera la consommation d\'énergie de l\'appareil pendant que celui-ci est inactif et augmentera efficacement les performances de l\'appareil à chaque réveil de l\'écran.</string>
 </resources>
