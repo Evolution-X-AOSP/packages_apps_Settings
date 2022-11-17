@@ -347,7 +347,7 @@
     <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
     <!-- Per-channel vibration pattern -->
     <string name="notification_custom_vibrate_title">Padrão de vibração personalizado</string>
-    <string name="notification_custom_vibrate_summary">Substitui apenas o padrão predefinido\nUm padrão definido na app tem pioridade</string>
+    <string name="notification_custom_vibrate_summary">Substitui apenas o padrão predefinido\nUm padrão definido na app tem prioridade</string>
     <string name="notification_custom_vibrate_slider1">Vibrar durante</string>
     <string name="notification_custom_vibrate_slider2">Pausar durante</string>
     <!-- Show clipboard overlay -->
