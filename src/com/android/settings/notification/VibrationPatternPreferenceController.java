@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 Yet Another AOSP Project
+ * Copyright (C) 2020-2022 Yet Another AOSP Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -44,6 +44,8 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
 
     private ListPreference mVibPattern;
     private Preference mCustomVibCategory;
+
+    protected final Vibrator mVibrator;
 
     private static class VibrationEffectProxy {
         public VibrationEffect createWaveform(long[] timings, int[] amplitudes, int repeat) {
@@ -122,11 +124,12 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
 
     public VibrationPatternPreferenceController(Context context) {
         super(context);
+        mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
     }
 
     @Override
     public boolean isAvailable() {
-        return Utils.isVoiceCapable(mContext);
+        return Utils.isVoiceCapable(mContext) && mVibrator.hasVibrator();
     }
 
     @Override
@@ -134,17 +137,33 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
         return KEY_VIB_PATTERN;
     }
 
+    protected String getCustomPreferenceKey() {
+        return KEY_CUSTOM_VIB_CATEGORY;
+    }
+
+    protected String getSettingsKey() {
+        return Settings.System.RINGTONE_VIBRATION_PATTERN;
+    }
+
+    protected long[] getDefaultPattern() {
+        return SIMPLE_VIBRATION_PATTERN;
+    }
+
+    protected int[] getDefaultPatternAmp() {
+        return FIVE_ELEMENTS_VIBRATION_AMPLITUDE;
+    }
+
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
-        mVibPattern = (ListPreference) screen.findPreference(KEY_VIB_PATTERN);
-        int vibPattern = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.RINGTONE_VIBRATION_PATTERN, 0);
+        mVibPattern = screen.findPreference(getPreferenceKey());
+        int vibPattern = Settings.System.getInt(
+                mContext.getContentResolver(), getSettingsKey(), 0);
         mVibPattern.setValueIndex(vibPattern);
         mVibPattern.setSummary(mVibPattern.getEntries()[vibPattern]);
         mVibPattern.setOnPreferenceChangeListener(this);
 
-        mCustomVibCategory = screen.findPreference(KEY_CUSTOM_VIB_CATEGORY);
+        mCustomVibCategory = screen.findPreference(getCustomPreferenceKey());
         mCustomVibCategory.setVisible(vibPattern == 5);
     }
 
@@ -152,8 +171,8 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mVibPattern) {
             int vibPattern = Integer.valueOf((String) newValue);
-            Settings.System.putInt(mContext.getContentResolver(),
-                    Settings.System.RINGTONE_VIBRATION_PATTERN, vibPattern);
+            Settings.System.putInt(
+                    mContext.getContentResolver(), getSettingsKey(), vibPattern);
             mVibPattern.setSummary(mVibPattern.getEntries()[vibPattern]);
             boolean isCustom = vibPattern == 5;
             mCustomVibCategory.setVisible(isCustom);
@@ -164,11 +183,10 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
     }
 
     private void previewPattern() {
-        Vibrator vibrator = (Vibrator) mContext.getSystemService(Context.VIBRATOR_SERVICE);
         VibrationEffect effect;
         VibrationEffectProxy vibrationEffectProxy = new VibrationEffectProxy();
-        int vibPattern = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.RINGTONE_VIBRATION_PATTERN, 0);
+        int vibPattern = Settings.System.getInt(
+                mContext.getContentResolver(), getSettingsKey(), 0);
         switch (vibPattern) {
             case 1:
                 effect = vibrationEffectProxy.createWaveform(DZZZ_DA_VIBRATION_PATTERN,
@@ -187,10 +205,11 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
                         SEVEN_ELEMENTS_VIBRATION_AMPLITUDE, -1);
                 break;
             default:
-                effect = vibrationEffectProxy.createWaveform(SIMPLE_VIBRATION_PATTERN,
-                        FIVE_ELEMENTS_VIBRATION_AMPLITUDE, -1);
+            case 0:
+                effect = vibrationEffectProxy.createWaveform(getDefaultPattern(),
+                        getDefaultPatternAmp(), -1);
                 break;
         }
-        vibrator.vibrate(effect, VIBRATION_ATTRIBUTES);
+        mVibrator.vibrate(effect, VIBRATION_ATTRIBUTES);
     }
 }
