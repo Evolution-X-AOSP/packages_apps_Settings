@@ -211,6 +211,23 @@
         android:ringtoneType="notification"
         android:order="-70"/>
 
+    <ListPreference
+        android:key="notification_vibration_pattern"
+        android:title="@string/notification_vibration_pattern_title"
+        android:entries="@array/notification_vibration_pattern_entries"
+        android:entryValues="@array/vibration_pattern_values"
+        android:defaultValue="0"
+        android:order="-67" />
+
+    <!-- Custom notification vibration pattern preference -->
+    <Preference
+        android:key="custom_notification_vibration_pattern"
+        android:title="@string/custom_vibration_pattern_title"
+        android:summary="@string/custom_vibration_pattern_summary"
+        android:fragment="com.android.settings.sound.CustomNotificationVibrationPreferenceFragment"
+        android:visibility="gone"
+        android:order="-63" />
+
     <!-- Default alarm ringtone -->
     <com.android.settings.DefaultRingtonePreference
         android:key="alarm_ringtone"
