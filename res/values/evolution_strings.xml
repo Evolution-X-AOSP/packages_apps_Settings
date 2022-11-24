@@ -390,4 +390,7 @@
 
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">In-call notifications</string>
+
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">NFC sounds</string>
 </resources>
