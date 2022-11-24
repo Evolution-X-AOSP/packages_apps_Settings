@@ -251,6 +251,12 @@
         android:title="@string/dial_pad_tones_title"
         android:order="-50"/>
 
+    <!-- In-call notifications -->
+    <SwitchPreference
+        android:key="in_call_notifications"
+        android:title="@string/in_call_notifications_title"
+        android:order="-47"/>
+
     <!-- Screen locking sounds -->
     <SwitchPreference
         android:key="screen_locking_sounds"
