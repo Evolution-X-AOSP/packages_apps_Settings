@@ -478,4 +478,7 @@
     <string name="hide_app_desc">If you hide this app, it will not be visible to Android and other apps, and they may no longer function as intended. Keep in mind, hiding an app preserves it data. By hiding, you turn this app off and hide it on your device.</string>
 
     <string name="advanced_battery_preference_summary_google">Use Pixel Battery usage chart</string>
+
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">In-call notifications</string>
 </resources>
