@@ -456,4 +456,7 @@
 
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Custom screen resolution</string>
+
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">NFC sounds</string>
 </resources>
