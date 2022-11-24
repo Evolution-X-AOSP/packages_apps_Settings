@@ -238,6 +238,12 @@
         android:key="screenshot_shutter_sound"
         android:title="@string/screenshot_shutter_sound_title"
         android:defaultValue="true"
+        android:order="-29"/>
+
+    <!-- NFC sounds -->
+    <SwitchPreference
+        android:key="nfc_sounds"
+        android:title="@string/nfc_sounds_title"
         android:order="-28"/>
 
     <!-- Show vibrate icon in status bar -->
