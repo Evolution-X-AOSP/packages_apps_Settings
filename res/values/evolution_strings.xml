@@ -387,4 +387,7 @@
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
 
     <string name="advanced_battery_preference_summary_google">Use Pixel Battery usage chart</string>
+
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">In-call notifications</string>
 </resources>
