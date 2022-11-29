@@ -111,12 +111,19 @@
     <!-- Misc vibration options -->
     <PreferenceCategory
         android:key="misc_vibration_category"
-        android:title="@string/misc_vibration_category_title" >
+        android:title="@string/misc_vibration_category_title"
+        app:controller="com.android.settings.sound.CustomHapticPreferenceController">
 
         <!-- QS Bightness slider haptic feedback -->
         <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="qs_brightness_slider_haptic"
             android:title="@string/qs_brightness_slider_haptic_feedback_title"
+            android:defaultValue="false" />
+
+        <!-- Volume slider haptic -->
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="volume_slider_haptic"
+            android:title="@string/volume_slider_haptic_feedback_title"
             android:defaultValue="false" />
 
     </PreferenceCategory>
