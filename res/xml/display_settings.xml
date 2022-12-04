@@ -155,6 +155,12 @@
             settings:keywords="@string/keywords_screen_resolution"
             settings:controller="com.android.settings.display.ScreenResolutionController"/>
 
+        <ListPreference
+            android:key="custom_screen_resolution"
+            android:title="@string/custom_screen_resolution_title"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.android.settings.display.CustomScreenResolutionController"/>
+
         <com.android.settings.display.DcDimmingPreference
             android:key="dc_dimming"
             android:title="@string/dc_dimming_title"
