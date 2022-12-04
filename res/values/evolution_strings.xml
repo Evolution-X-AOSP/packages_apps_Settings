@@ -440,4 +440,7 @@
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
     <string name="gesture_playback_control_delay">delay</string>
+
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Custom screen resolution</string>
 </resources>
