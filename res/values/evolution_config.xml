@@ -55,4 +55,7 @@
 
     <!-- Whether to show TouchGestures preference -->
     <bool name="config_supportsTouchGestures">false</bool>
+
+    <!-- Whether to show custom screen resolution settings -->
+    <bool name="config_show_custom_screen_resolution_switch">true</bool>
 </resources>
