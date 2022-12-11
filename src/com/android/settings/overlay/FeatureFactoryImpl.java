@@ -77,8 +77,6 @@ import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.google.android.settings.fuelgauge.BatterySettingsFeatureProviderGoogleImpl;
 import com.google.android.settings.fuelgauge.BatteryStatusFeatureProviderGoogleImpl;
 import com.google.android.settings.fuelgauge.PowerUsageFeatureProviderGoogleImpl;
-import com.google.android.settings.security.SecurityHubDashboard;
-import com.google.android.settings.security.SecuritySettingsFeatureProviderGoogleImpl;
 
 /**
  * {@link FeatureFactory} implementation for AOSP Settings.
@@ -320,8 +318,7 @@ public class FeatureFactoryImpl extends FeatureFactory {
     @Override
     public SecuritySettingsFeatureProvider getSecuritySettingsFeatureProvider() {
         if (mSecuritySettingsFeatureProvider == null) {
-            mSecuritySettingsFeatureProvider =
-                    new SecuritySettingsFeatureProviderGoogleImpl(getAppContext());
+            mSecuritySettingsFeatureProvider = new SecuritySettingsFeatureProviderImpl();
         }
         return mSecuritySettingsFeatureProvider;
     }
