@@ -56,10 +56,6 @@
     <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Encontre o sensor de impressão digital na lateral do seu tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="device">Encontre o sensor de impressão digital na lateral do seu dispositivo.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="default">Encontre o sensor de impressão digital na lateral do seu telemóvel.</string>
-    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Toque no sensor de impressão digital na frente do seu telemóvel.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Toque no sensor de impressão digital na traseira do seu telemóvel.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Toque no sensor de impressão digital na lateral do seu telemóvel.</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Reprodução Adaptável</string>
     <string name="adaptive_playback_master_switch_title">Usar Reprodução Adaptável</string>
@@ -242,8 +238,6 @@
     <string name="back_height_high_label">Inferior</string>
     <string name="back_options_dialog_title">Opções</string>
     <string name="back_height_message">Altura de ecrã utilizada como região sensível para o gesto recuar.</string>
-    <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados não sendo portanto recomendada!</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicações em ecrã inteiro</string>
     <string name="display_cutout_force_fullscreen_summary">Forçar aplicações a ignorar o espaço do entalhe</string>
@@ -287,8 +281,6 @@
     <string name="designed_battery_capacity">Capacidade máxima</string>
     <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
     <string name="high_power_apps_summary">Otimização de bateria por app</string>
-    <string name="gesture_playback_control_delay">atraso</string>
-    <string name="unit_ms">ms</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
     <string name="random_summary_2">Bem-vindo ao início da Evolução</string>
@@ -370,4 +362,9 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controlo de reprodução</string>
     <string name="volume_button_music_control_summary">Com o ecrã desligado, premir os botões de volume mudará as faixas de música</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Resolução de ecrã personalizada</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Repor estatísticas?</string>
+    <string name="battery_stats_message">Os dados de utilização da bateria serão perdidos</string>
 </resources>
