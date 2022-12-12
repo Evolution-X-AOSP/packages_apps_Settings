@@ -46,16 +46,6 @@
     <string name="fast_charging_summary">Dezactivează pentru a reduce căldura produsă de dispozitiv în timpul încărcări pentru a extinde durata de viață a bateriei</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Sunet captură de ecran</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Găsiți senzorul de amprentă pe partea din față a tabletei.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Găsiți senzorul de amprentă pe partea din față a dispozitivului.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Găsiți senzorul de amprentă pe partea din față a telefonului.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Găsiți senzorul de amprentă pe partea din spate a tabletei.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Găsiți senzorul de amprentă pe partea din spate a dispozitivului.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Găsiți senzorul de amprentă pe partea din spate a telefonului.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Găsiți senzorul de amprentă pe partea laterală a tabletei.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Găsiți senzorul de amprentă pe partea laterală a dispozitivului.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Găsiți senzorul de amprentă pe partea laterală a telefonului.</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Redare adaptivă</string>
     <string name="adaptive_playback_master_switch_title">Folosește redare adaptivă</string>
@@ -362,6 +352,7 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Control redare</string>
     <string name="volume_button_music_control_summary">Când ecranul este închis, apăsarea lungă a butoanelor de volum derulează melodia</string>
+    <string name="gesture_playback_control_delay">întârziere</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Rezoluție ecran personalizată</string>
     <!-- Battery stats reset -->
