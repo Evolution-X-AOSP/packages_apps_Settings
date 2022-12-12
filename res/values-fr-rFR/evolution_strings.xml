@@ -46,16 +46,6 @@
     <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil lors de la charge ou étendre la durée de vie de la batterie</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Son lors d\'une capture d\'écran</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localisez le capteur d\'empreintes digitales à l\'avant de votre tablette.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localisez le lecteur d\'empreintes digitales à l\'avant de votre appareil.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localisez le lecteur d\'empreintes digitales à l\'avant de votre téléphone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localisez le capteur frontal d\'empreintes digitales à l\'arrière de votre tablette.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localisez le capteur d\'empreintes digitales à l\'arrière de votre appareil.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre téléphone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localisez le capteur frontal d\'empreintes digitales sur le côté de votre tablette.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localisez le capteur d\'empreintes digitales sur le côté de votre appareil.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localisez le lecteur d\'empreintes digitales sur le côté de votre téléphone.</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pause intelligente</string>
     <string name="adaptive_playback_master_switch_title">Utiliser la pause intelligente</string>
@@ -362,6 +352,7 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Contrôle de lecture</string>
     <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume changera la piste musicale</string>
+    <string name="gesture_playback_control_delay">délai</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Résolution d\'écran personnalisée</string>
     <!-- Battery stats reset -->
