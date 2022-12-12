@@ -29,8 +29,6 @@
     <string name="duration_less_than_one_minute">Kevesebb, mint egy perc</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">Ma: %1$s</string>
-    <!-- Battery temperature -->
-    <string name="battery_temp">Akkuhőmérséklet</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Képernyőkép csúsztatással</string>
     <string name="swipe_to_screenshot_gesture_summary">Csúsztasson három ujjal képernyőkép készítéséhez</string>
@@ -46,16 +44,6 @@
     <string name="fast_charging_summary">Tiltás,  hogy ne melegedjen a készülék töltés közben és az akkuélettartam növeléséért</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">A képernyőmentés hangja</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Táblagépe előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Készüléke előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Táblagépe hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Készüléke hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Táblagépe oldalán találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Készüléke oldalán találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonja oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Okos szüneteltetés</string>
     <string name="adaptive_playback_master_switch_title">Az \'Okos szüneteltetés\' használata</string>
@@ -115,9 +103,6 @@
     <string name="smart_charging_reset_stats_title">Akkustatisztikák törlése</string>
     <string name="smart_charging_reset_stats_summary">Amikor elérte a felhasználó által beállított töltési szintet, alaphelyzetbe állítja az akkustatisztikát</string>
     <string name="smart_charging_footer">Az \'Okos töltés\' lehetővé teszi a maximális töltési szint beállítását az akkumulátor élettartamának meghosszabbítása érdekében</string>
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">A \'Vissza\'-vezérlés animációja</string>
-    <string name="back_gesture_arrow_summary">Mutasson egy animált nyilat a \'Vissza\'-mozdulatvezérléshez</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Zsebészlelés</string>
     <string name="pocket_judge_summary">Ha a készüléket zsebben érzékeli, megakadályozza a véletlen érintéseket</string>
@@ -362,6 +347,7 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
     <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
+    <string name="gesture_playback_control_delay">késleltetés</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Egyéni képernyőfelbontás</string>
     <!-- Battery stats reset -->
