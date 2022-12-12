@@ -102,7 +102,7 @@
     <string name="smart_charging_resume_level_title">Nível para resumir o carregamento</string>
     <string name="smart_charging_reset_stats_title">Redefinir estatísticas da bateria</string>
     <string name="smart_charging_reset_stats_summary">Redefinir as estatísticas da bateria após atingir o nível de carga definido pelo usuário</string>
-    <string name="smart_charging_footer">O carregamento inteligente permite que você defina o nível máximo de carga para prolongar a vida útil da sua bateria</string>
+    <string name="smart_charging_intro_text">O carregamento inteligente permite que você defina o nível máximo de carga para prolongar a vida útil da sua bateria</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detecção de bolso</string>
     <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
@@ -353,4 +353,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Zerar as estatísticas?</string>
     <string name="battery_stats_message">As estatísticas de uso da bateria serão apagadas</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura da bateria</string>
 </resources>
