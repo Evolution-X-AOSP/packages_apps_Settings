@@ -46,16 +46,6 @@
     <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per estendere la durata della batteria</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Suono dello screenshot</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo dispositivo.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Individua il sensore d\'impronte digitali sul retro del tuo tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Individua il sensore d\'impronte digitali sul retro del tuo dispositivo.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Individua il sensore d\'impronte digitali sul retro del tuo telefono.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Individua il sensore d\'impronte digitali sul lato del tuo tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Individua il sensore d\'impronte digitali sul lato del tuo dispositivo.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Individua il sensore d\'impronte digitali sul lato del tuo telefono.</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pausa Intelligente</string>
     <string name="adaptive_playback_master_switch_title">Usa la Pausa Intelligente</string>
@@ -362,6 +352,7 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controllo riproduzione</string>
     <string name="volume_button_music_control_summary">Quando lo schermo è spento, premere a lungo i tasti volume per cambiare le tracce musicali</string>
+    <string name="gesture_playback_control_delay">ritardo</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Risoluzione dello schermo personalizzata</string>
     <!-- Battery stats reset -->
