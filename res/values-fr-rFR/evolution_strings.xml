@@ -102,7 +102,7 @@
     <string name="smart_charging_resume_level_title">Niveau de déclenchement de la recharge</string>
     <string name="smart_charging_reset_stats_title">Réinitialiser les statistiques de batterie</string>
     <string name="smart_charging_reset_stats_summary">Réinitialiser les statistiques de la batterie après avoir atteint le niveau de charge défini par l\'utilisateur</string>
-    <string name="smart_charging_footer">La charge intelligente vous permet de définir le niveau de charge maximal pour prolonger la durée de vie de votre batterie</string>
+    <string name="smart_charging_intro_text">La charge intelligente vous permet de définir le niveau de charge maximal pour prolonger la durée de vie de votre batterie</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Détection de poche</string>
     <string name="pocket_judge_summary">Bloquer l\'utilisation des boutons ou de l\'écran lorsque l\'appareil est dans une poche</string>
@@ -353,4 +353,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Réinitialiser les statistiques?</string>
     <string name="battery_stats_message">Les données d\'utilisation de la batterie seront perdues</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Température de la Batterie</string>
 </resources>
