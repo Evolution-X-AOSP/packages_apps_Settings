@@ -29,8 +29,6 @@
     <string name="duration_less_than_one_minute">Kurang dari 1 Menit</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s hari ini</string>
-    <!-- Battery temperature -->
-    <string name="battery_temp">Suhu baterai</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Gesek untuk menangkap layar</string>
     <string name="swipe_to_screenshot_gesture_summary">Gesek tiga jari untuk mengambil tangkapan layar</string>
@@ -46,16 +44,6 @@
     <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Temukan sensor sidik jari di bagian depan tablet Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Temukan sensor sidik jari di bagian depan perangkat Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Temukan sensor sidik jari di bagian depan ponsel Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Temukan sensor sidik jari di bagian belakang tablet Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Temukan sensor sidik jari di bagian belakang perangkat Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Temukan sensor sidik jari di bagian belakang ponsel Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Temukan sensor sidik jari di bagian samping tablet Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Temukan sensor sidik jari di bagian samping perangkat Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Temukan sensor sidik jari di bagian samping ponsel Anda.</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Jeda Cerdas</string>
     <string name="adaptive_playback_master_switch_title">Gunakan Jeda Cerdas</string>
@@ -114,10 +102,7 @@
     <string name="smart_charging_resume_level_title">Mulai level pemicu</string>
     <string name="smart_charging_reset_stats_title">Setel ulang statistik baterai</string>
     <string name="smart_charging_reset_stats_summary">Setel ulang statistik baterai setelah mencapai tingkat pengisian yang ditentukan pengguna</string>
-    <string name="smart_charging_footer">Pengisian Pintar memungkinkan Anda mengatur tingkat pengisian maksimum untuk memperpanjang umur baterai Anda</string>
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Animasi gestur kembali</string>
-    <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gestur kembali</string>
+    <string name="smart_charging_intro_text">Pengisian Pintar memungkinkan Anda mengatur tingkat pengisian maksimum untuk memperpanjang umur baterai Anda</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Deteksi Saku</string>
     <string name="pocket_judge_summary">Blokir sentuh tombol dan layar saat perangkat berada dalam saku</string>
@@ -362,9 +347,12 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
     <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewati trek musik</string>
+    <string name="gesture_playback_control_delay">tunda</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Resolusi layar kustom</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Setel ulang statistik?</string>
     <string name="battery_stats_message">Statistik riwayat baterai akan disetel ulang</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Suhu baterai</string>
 </resources>
