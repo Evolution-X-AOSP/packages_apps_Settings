@@ -102,7 +102,7 @@
     <string name="smart_charging_resume_level_title">Livello di inizio ricarica</string>
     <string name="smart_charging_reset_stats_title">Ripristina le statistiche della batteria</string>
     <string name="smart_charging_reset_stats_summary">Ripristina le statistiche della batteria dopo aver raggiunto il livello di ricarica definito dall\'utente</string>
-    <string name="smart_charging_footer">La Ricarica Intelligente ti consente di impostare il livello di ricarica massimo per estendere la durata della tua batteria</string>
+    <string name="smart_charging_intro_text">La Ricarica Intelligente ti consente di impostare il livello di ricarica massimo per estendere la durata della tua batteria</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Rilevamento della tasca</string>
     <string name="pocket_judge_summary">Blocca lo schermo e gli input dei pulsanti quando il dispositivo è in tasca</string>
@@ -353,4 +353,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Ripristinare le statistiche?</string>
     <string name="battery_stats_message">I dati di utilizzo della batteria andranno persi</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura batteria</string>
 </resources>
