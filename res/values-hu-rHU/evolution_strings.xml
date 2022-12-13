@@ -102,7 +102,7 @@
     <string name="smart_charging_resume_level_title">Indítási érték</string>
     <string name="smart_charging_reset_stats_title">Akkustatisztikák törlése</string>
     <string name="smart_charging_reset_stats_summary">Amikor elérte a felhasználó által beállított töltési szintet, alaphelyzetbe állítja az akkustatisztikát</string>
-    <string name="smart_charging_footer">Az \'Okos töltés\' lehetővé teszi a maximális töltési szint beállítását az akkumulátor élettartamának meghosszabbítása érdekében</string>
+    <string name="smart_charging_intro_text">Az \'Okos töltés\' lehetővé teszi a maximális töltési szint beállítását az akkumulátor élettartamának meghosszabbítása érdekében</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Zsebészlelés</string>
     <string name="pocket_judge_summary">Ha a készüléket zsebben érzékeli, megakadályozza a véletlen érintéseket</string>
@@ -353,4 +353,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Statisztikatörlés?</string>
     <string name="battery_stats_message">Az akkuhasználati adatok elvesznek</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Akkuhőmérséklet</string>
 </resources>
