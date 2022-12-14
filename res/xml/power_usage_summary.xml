@@ -59,6 +59,12 @@
         android:fragment="com.android.settings.health.ChargingControlSettings"
         settings:controller="com.android.settings.health.ChargingControlPreferenceController" />
 
+    <!-- Sleep Mode -->
+    <Preference
+        android:key="sleep_mode"
+        android:title="@string/sleep_mode_title"
+        android:fragment="com.android.settings.fuelgauge.sleepmode.SleepMode" />
+
     <Preference
         android:key="high_power_apps"
         android:title="@string/high_power_apps">
