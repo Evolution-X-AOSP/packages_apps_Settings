@@ -83,4 +83,35 @@
         <item>4</item>
         <item>5</item>
     </string-array>
+
+    <!-- Sleep Mode -->
+    <string-array name="sleep_mode_auto_mode_entries">
+        <item>@string/night_display_auto_mode_never</item>
+        <item>@string/night_display_auto_mode_twilight</item>
+        <item>@string/sleep_mode_schedule_mixed_sunset</item>
+        <item>@string/sleep_mode_schedule_mixed_sunrise</item>
+        <item>@string/night_display_auto_mode_custom</item>
+    </string-array>
+
+    <string-array name="sleep_mode_auto_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="sleep_mode_ringer_entries">
+        <item>@string/sleep_mode_ringer_off_title</item>
+        <item>@string/sleep_mode_ringer_vibrate_title</item>
+        <item>@string/sleep_mode_ringer_dnd_title</item>
+        <item>@string/sleep_mode_ringer_silent_title</item>
+    </string-array>
+
+    <string-array name="sleep_mode_ringer_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>
