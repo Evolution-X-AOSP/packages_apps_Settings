@@ -521,7 +521,7 @@ public class AdvancedBluetoothDetailsHeaderController extends BasePreferenceCont
         ThreadUtils.postOnBackgroundThread(() -> {
             final Uri uri = Uri.parse(iconUri);
             try {
-                if (uri.toString().startsWith("android.resource://com.android.bluetooth.bthelper/drawable") == false) {
+                if (!uri.toString().startsWith("android.resource://com.android.bluetooth.bthelper/drawable")) {
                     mContext.getContentResolver().takePersistableUriPermission(uri,
                             Intent.FLAG_GRANT_READ_URI_PERMISSION);
                 }
