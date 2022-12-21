@@ -163,7 +163,7 @@ public class PowerUsageAdvanced extends PowerUsageBase {
         AlertDialog dialog = new AlertDialog.Builder(getActivity())
             .setTitle(R.string.battery_stats_reset)
             .setMessage(R.string.battery_stats_message)
-            .setPositiveButton(R.string.battery_stats_clear, new DialogInterface.OnClickListener() {
+            .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     batteryManager.resetStatistics();
