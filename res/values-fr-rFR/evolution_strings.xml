@@ -355,4 +355,16 @@
     <string name="battery_stats_message">Les données d\'utilisation de la batterie seront perdues</string>
     <!-- Battery temperature -->
     <string name="battery_temp">Température de la Batterie</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Animation du geste de retour</string>
+    <string name="back_gesture_arrow_summary">Afficher une flèche animée pour le geste de retour</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localisez le capteur d\'empreintes digitales à l\'avant de votre tablette.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localisez le lecteur d\'empreintes digitales à l\'avant de votre appareil.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localisez le lecteur d\'empreintes digitales à l\'avant de votre téléphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localisez le capteur frontal d\'empreintes digitales à l\'arrière de votre tablette.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localisez le capteur d\'empreintes digitales à l\'arrière de votre appareil.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre téléphone.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Attention : Cette option peut ne pas fonctionner correctement ou entraîner une perte de données et n\'est donc pas recommandée !</string>
 </resources>
