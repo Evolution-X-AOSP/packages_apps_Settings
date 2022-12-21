@@ -102,7 +102,7 @@
     <string name="smart_charging_resume_level_title">Nivel pornire</string>
     <string name="smart_charging_reset_stats_title">Resetare statistici baterie</string>
     <string name="smart_charging_reset_stats_summary">Se resetează statisticile bateriei după atingerea nivelului de încărcare definit de utilizator</string>
-    <string name="smart_charging_footer">Încărcarea inteligentă vă permite să setați nivelul maxim de încărcare pentru a prelungi durata de viață a bateriei</string>
+    <string name="smart_charging_intro_text">Încărcarea inteligentă vă permite să setați nivelul maxim de încărcare pentru a prelungi durata de viață a bateriei</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detectare buzunar</string>
     <string name="pocket_judge_summary">Blocare ecran și butoane atunci când dispozitivul este în buzunar</string>
@@ -353,4 +353,18 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Resetați statisticile?</string>
     <string name="battery_stats_message">Datele de utilizare a bateriei vor fi pierdute</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura bateriei</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Animație gest înapoi</string>
+    <string name="back_gesture_arrow_summary">Afișează o săgeată animată pentru gestul de înapoi</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Găsiți senzorul de amprentă pe partea din față a tabletei.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Găsiți senzorul de amprentă pe partea din față a dispozitivului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Găsiți senzorul de amprentă pe partea din față a telefonului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Găsiți senzorul de amprentă pe partea din spate a tabletei.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Găsiți senzorul de amprentă pe partea din spate a dispozitivului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Găsiți senzorul de amprentă pe partea din spate a telefonului.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Atenție: Este posibil ca această opțiune să nu funcționeze corect sau să ducă la pierderea datelor și, prin urmare, nu este recomandată!</string>
 </resources>
