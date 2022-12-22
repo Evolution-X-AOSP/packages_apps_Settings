@@ -243,7 +243,7 @@
 
     <!-- Settings intelligence package name -->
     <string name="config_settingsintelligence_package_name" translatable="false">
-        com.android.settings.intelligence
+        com.google.android.settings.intelligence
     </string>
 
     <!-- Whether the confirmation for sim deletion is defaulted to be on or off-->
@@ -255,7 +255,7 @@
     </string>
 
     <!-- Settings intelligence interaction log intent action -->
-    <string name="config_settingsintelligence_log_action" translatable="false"></string>
+    <string name="config_settingsintelligence_log_action" translatable="false">com.google.android.settings.intelligence.LOG_BRIDGE</string>
 
     <!-- AOSP Emergency app package name -->
     <string name="config_aosp_emergency_package_name" translatable="false">
