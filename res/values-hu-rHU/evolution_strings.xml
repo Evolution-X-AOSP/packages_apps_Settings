@@ -367,4 +367,7 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Figyelmeztetés: Előfordulhat, hogy ez a lehetőség nem működik megfelelően, vagy adatvesztéshez vezethet, ezért nem ajánlott!</string>
+    <!-- Parallel space -->
+    <string name="laboratory_parallel_space_title">Párhuzamos tér</string>
+    <string name="laboratory_parallel_space_summary">Egy alkalmazás több példányának párhuzamos futtatásának lehetősége</string>
 </resources>
