@@ -367,4 +367,7 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre téléphone.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Attention : Cette option peut ne pas fonctionner correctement ou entraîner une perte de données et n\'est donc pas recommandée !</string>
+    <!-- Parallel space -->
+    <string name="laboratory_parallel_space_title">Espace parallèle</string>
+    <string name="laboratory_parallel_space_summary">Autoriser l\'exécution de plusieurs instances de la même application en simultané</string>
 </resources>
