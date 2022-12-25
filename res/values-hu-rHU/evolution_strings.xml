@@ -367,4 +367,13 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Figyelmeztetés: Előfordulhat, hogy ez a lehetőség nem működik megfelelően, vagy adatvesztéshez vezethet, ezért nem ajánlott!</string>
+    <!-- Hide apps -->
+    <string name="hide">Elrejtés</string>
+    <string name="unhide">Feloldás</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">Rejtett alkalmazások</string>
+    <string name="hide_app">Alkalmazás-elrejtés</string>
+    <string name="unhide_app">Alkalmazás-feloldás</string>
+    <string name="unhide_app_desc">Ha feloldja ezt az alkalmazást, az Android-rendszer és minden alkalmazás látni fogja.</string>
+    <string name="hide_app_desc">Ha elrejti ezt az alkalmazást, az nem lesz látható az Android és más alkalmazások számára, és előfordulhat, hogy mostantól nem fog megfelelően működni. Ne feledje, hogy az elrejtéskor az alkalmazásadatok megmaradnak. Csak ideiglenesen kapcsolja ki ezt az alkalmazást, és elrejti a készülékén.</string>
 </resources>
