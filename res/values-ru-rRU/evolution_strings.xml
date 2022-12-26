@@ -367,4 +367,13 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите датчик отпечатков пальцев на задней поверхности вашего телефона.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Внимание: Эта опция может работать неправильно или привести к потере данных, поэтому она не рекомендуется!</string>
+    <!-- Hide apps -->
+    <string name="hide">Скрыть</string>
+    <string name="unhide">Показать</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">Скрытые приложения</string>
+    <string name="hide_app">Скрыть приложение</string>
+    <string name="unhide_app">Показать приложение</string>
+    <string name="unhide_app_desc">Если вы включите это приложение, оно будет снова видно для Android и других приложений.</string>
+    <string name="hide_app_desc">Если вы скрываете это приложение, оно не будет видно для Android и других приложений, и оно может не работать, как это нужно. Имейте в виду, скрытие приложения сохраняет его данные. Выключив это приложение и скрыв его на вашем устройстве.</string>
 </resources>
