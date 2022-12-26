@@ -367,4 +367,13 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Temukan sensor sidik jari di bagian belakang ponsel Anda.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Peringatan: Opsi ini mungkin tidak berfungsi dengan baik atau menyebabkan hilangnya data dan oleh karena itu tidak disarankan!</string>
+    <!-- Hide apps -->
+    <string name="hide">Sembunyikan</string>
+    <string name="unhide">Perlihatkan</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">Aplikasi tersembunyi</string>
+    <string name="hide_app">Sembunyikan aplikasi</string>
+    <string name="unhide_app">Perlihatkan aplikasi</string>
+    <string name="unhide_app_desc">Jika Anda memperlihatkan aplikasi ini, aplikasi tersebut akan terlihat lagi oleh Android dan aplikasi lainnya.</string>
+    <string name="hide_app_desc">Jika Anda menyembunyikan aplikasi ini, aplikasi tersebut tidak akan terlihat oleh Android dan aplikasi lain, dan aplikasi tersebut mungkin tidak lagi berfungsi sebagaimana mestinya. Perlu diingat, menyembunyikan aplikasi akan mempertahankan datanya. Dengan bersembunyi, Anda mematikan aplikasi ini dan menyembunyikannya di perangkat Anda.</string>
 </resources>
