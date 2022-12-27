@@ -46,7 +46,7 @@
 
     <com.evolution.settings.preference.SystemSettingSwitchPreference
         android:key="battery_24_hrs_stats"
-        android:title="@string/advanced_battery_preference_summary_with_hours"
+        android:title="@string/advanced_battery_preference_summary_google"
         android:defaultValue="false"
         settings:searchable="false" />
 
