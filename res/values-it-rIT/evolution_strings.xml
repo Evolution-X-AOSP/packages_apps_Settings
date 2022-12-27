@@ -367,4 +367,14 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Individua il sensore d\'impronte digitali sul retro del tuo telefono.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Attenzione: questa opzione potrebbe non funzionare correttamente o portare alla perdita di dati e quindi non è raccomandata!</string>
+    <!-- Hide apps -->
+    <string name="hide">Nascondi</string>
+    <string name="unhide">Mostra</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">App nascoste</string>
+    <string name="hide_app">Nascondi app</string>
+    <string name="unhide_app">Mostra app</string>
+    <string name="unhide_app_desc">Se mostri questa app, sarà di nuovo visibile per Android e altre app.</string>
+    <string name="hide_app_desc">Se nascondi questa app, non sarà visibile ad Android e ad altre app che potrebbero non funzionare correttamente. Tieni presente che i dati dell\'app vengono conservati. Nascondendo quest\'app, la disattivi sul tuo dispositivo.</string>
+    <string name="advanced_battery_preference_summary_google">Usa grafico di utilizzo batteria Pixel</string>
 </resources>
