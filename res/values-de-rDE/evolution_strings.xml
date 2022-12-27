@@ -377,4 +377,5 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="unhide_app">Anwendung einblenden</string>
     <string name="unhide_app_desc">Wenn diese Anwendung eingeblendet wird, dann ist diese für Android und andere Apps wieder sichtbar.</string>
     <string name="hide_app_desc">Wenn diese Anwendung ausblendet wird, ist diese für Android und andere Anwendungen nicht mehr sichtbar, und sie funktioniert möglicherweise nicht mehr wie vorgesehen. Denke daran, dass durch das Ausblenden einer Anwendung deren Daten erhalten bleiben. Durch Ausblenden wird diese Anwendung auf deinem Gerät versteckt.</string>
+    <string name="advanced_battery_preference_summary_google">Akkuverbrauchsdiagramm von Pixel verwenden</string>
 </resources>
