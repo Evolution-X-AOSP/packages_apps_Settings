@@ -376,5 +376,5 @@
     <string name="unhide_app">Mostra app</string>
     <string name="unhide_app_desc">Se mostri questa app, sarà di nuovo visibile per Android e altre app.</string>
     <string name="hide_app_desc">Se nascondi questa app, non sarà visibile ad Android e ad altre app che potrebbero non funzionare correttamente. Tieni presente che i dati dell\'app vengono conservati. Nascondendo quest\'app, la disattivi sul tuo dispositivo.</string>
-    <string name="advanced_battery_preference_summary_google">Usa grafico di utilizzo batteria Pixel</string>
+    <string name="advanced_battery_preference_summary_google">Usa il grafico di utilizzo batteria dei Pixel</string>
 </resources>
