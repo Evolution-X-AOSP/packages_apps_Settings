@@ -260,7 +260,6 @@
     <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
     <!-- Build status -->
     <string name="build_status">Status pembuatan</string>
-    <string name="build_status_summary">Kustom</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Kapasitas saat ini</string>
     <string name="designed_battery_capacity">Kapasitas maksimum yang dirancang</string>
@@ -376,4 +375,5 @@
     <string name="unhide_app">Perlihatkan aplikasi</string>
     <string name="unhide_app_desc">Jika Anda memperlihatkan aplikasi ini, aplikasi tersebut akan terlihat lagi oleh Android dan aplikasi lainnya.</string>
     <string name="hide_app_desc">Jika Anda menyembunyikan aplikasi ini, aplikasi tersebut tidak akan terlihat oleh Android dan aplikasi lain, dan aplikasi tersebut mungkin tidak lagi berfungsi sebagaimana mestinya. Perlu diingat, menyembunyikan aplikasi akan mempertahankan datanya. Dengan bersembunyi, Anda mematikan aplikasi ini dan menyembunyikannya di perangkat Anda.</string>
+    <string name="advanced_battery_preference_summary_google">Gunakan bagan penggunaan baterai Pixel</string>
 </resources>
