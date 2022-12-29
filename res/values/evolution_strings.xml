@@ -296,7 +296,7 @@
 
     <!-- Build status -->
     <string name="build_status">Build status</string>
-    <string name="build_status_summary">Custom</string>
+    <string name="build_status_summary" translatable="false">Custom</string>
 
     <!-- Battery health -->
     <string name="current_battery_capacity">Current capacity</string>
