@@ -45,4 +45,7 @@
 
     <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
+
+    <!-- Does the device support color inversion -->
+    <bool name="config_displayInversionAvailable">true</bool>
 </resources>
