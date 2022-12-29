@@ -29,8 +29,6 @@
     <string name="duration_less_than_one_minute">Menys d\'un minut</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s avui</string>
-    <!-- Battery temperature -->
-    <string name="battery_temp">Temperatura de la bateria</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Llisca per a fer una captura</string>
     <string name="swipe_to_screenshot_gesture_summary">Llisca amb tres dits per a fer una captura de pantalla</string>
@@ -46,20 +44,6 @@
     <string name="fast_charging_summary">Desactiveu-la per a reduir la calor produïda pel dispositiu mentre es carrega, o per a ampliar la vida útil de la bateria</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">So de captura de pantalla</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localitza el sensor d\'empremtes digitals a la part davantera de la tauleta.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localitza el sensor d\'empremtes digitals a la part davantera del dispositiu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localitza el sensor d\'empremtes digitals a la part davantera del telèfon.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localitza el sensor d\'empremtes digitals a la part posterior de la tauleta.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localitza el sensor d\'empremtes digitals a la part posterior del dispositiu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localitza el sensor d\'empremtes digitals a la part posterior del telèfon.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localitza el sensor d\'empremtes digitals al lateral de la tauleta.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localitza el sensor d\'empremtes digitals al lateral del dispositiu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localitza el sensor d\'empremtes digitals al lateral del mòbil.</string>
-    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Toca el sensor a la part davantera del mòbil.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Toca el sensor a la part posterior del mòbil.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Toca el sensor al lateral del mòbil.</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pausa intel·ligent</string>
     <string name="adaptive_playback_master_switch_title">Utilitza la pausa intel·ligent</string>
@@ -78,9 +62,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Activat (5 minuts)</string>
     <string name="adaptive_playback_timeout_10_min">10 minuts</string>
     <string name="adaptive_playback_timeout_10_min_summary">Activat (10 minuts)</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Control de reproducció</string>
-    <string name="volume_button_music_control_summary">Amb la pantalla apagada, mantenir polsades les tecles de volum canvia la pista de música</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doble toc</string>
     <string name="doze_double_tap_title">Doble toc per a consultar el telèfon</string>
@@ -121,18 +102,10 @@
     <string name="smart_charging_resume_level_title">Nivell per a iniciar la càrrega</string>
     <string name="smart_charging_reset_stats_title">Restableix les estadístiques de la bateria</string>
     <string name="smart_charging_reset_stats_summary">Restableix les estadístiques de la bateria en arribar al nivell de càrrega definit per l\'usuari</string>
-    <string name="smart_charging_footer">La càrrega intel·ligent et permet definir un nivell màxim de càrrega per a allargar la vida útil de la bateria</string>
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Animació del gest cap enrere</string>
-    <string name="back_gesture_arrow_summary">Mostra una fletxa animada per al gest d\'enrere</string>
+    <string name="smart_charging_intro_text">La càrrega intel·ligent us permet establir el nivell de càrrega màxim per allargar la vida útil de la bateria</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detecció de butxaca</string>
     <string name="pocket_judge_summary">Bloqueja les entrades de pantalla i botons quan el dispositiu es troba a la butxaca</string>
-    <!-- Package details -->
-    <string name="package_details_group_title">Informació del paquet</string>
-    <string name="package_name">Nom del paquet</string>
-    <string name="package_version">Versió del paquet</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permet als clients utilitzar les VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permet que els clients del punt d\'accés utilitzin les connexions VPN d\'aquest dispositiu per a la connexió de pujada</string>
@@ -245,19 +218,16 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Sempre activa durant la càrrega</string>
     <string name="doze_on_charge_summary">Mostra la pantalla ambiental permanentment durant la càrrega</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Espai davall del teclat</string>
-    <string name="navigation_bar_ime_space_value_narrow">Estret</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Màxim</string>
     <string name="back_height_high_label">Part inferior</string>
     <string name="back_options_dialog_title">Opcions</string>
     <string name="back_height_message">Alçada de la pantalla que es fa servir com a regió per al gest d\'enrere.</string>
-    <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Atenció: Aquesta opció pot no funcionar correctament o provocar pèrdues de dades, per tant, no es recomana!</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicacions a pantalla completa</string>
     <string name="display_cutout_force_fullscreen_summary">Força les aplicacions a ignorar l\'espai del «notch»</string>
+    <string name="search">Cerca</string>
+    <string name="search_apps">Cerca aplicacions</string>
     <!-- Clang version -->
     <string name="clang_version">Versió de Clang</string>
     <!-- Hotspot -->
@@ -284,4 +254,125 @@
     <string name="gesture_navbar_radius_title">Radi de la pastilla</string>
     <string name="thin_label">Prim</string>
     <string name="thick_label">Gros</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Processos en segon pla</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Utilitza el botó de rotació flotant</string>
+    <!-- Build status -->
+    <string name="build_status">Estat de la compilació</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Capacitat actual</string>
+    <string name="designed_battery_capacity">Capacitat màxima</string>
+    <string name="battery_charge_cycles">Cicles de càrrega completats</string>
+    <string name="high_power_apps_summary">Optimització de la bateria per aplicació</string>
+    <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Benvinguts al centre d\'Evolution</string>
+    <string name="random_summary_3">Continueu l\'Evolució del vostre dispositiu</string>
+    <string name="random_summary_4">Comenceu a fer evolucionar el vostre dispositiu amb les nostres funcions</string>
+    <string name="random_summary_5">L\'Evolució és un misteri</string>
+    <string name="random_summary_6">No una ROM qualsevol, això és Evolution X!</string>
+    <string name="random_summary_7">Els odiadors odiaran, l\'Evo evolucionarà</string>
+    <string name="random_summary_8">Vivint al paradís d\'un gangsta</string>
+    <string name="random_summary_9">Continueu avançant</string>
+    <string name="random_summary_12">Estàvem un llamp abans del tro</string>
+    <string name="random_summary_15">El tiramisú té un gust molt bo</string>
+    <string name="random_summary_16">El 13 també pot portar sort</string>
+    <string name="random_summary_18">La vida no sempre són píxels i arcs de Sant Martí</string>
+    <string name="random_summary_19">És Android, però encara millor</string>
+    <string name="random_summary_20">Ricers, si us plau, aneu a la sortida més propera</string>
+    <string name="random_summary_21">Buscant al conductor del BMW negre...</string>
+    <string name="random_summary_24">Reconeix-nos!</string>
+    <string name="random_summary_25">Som conscients que portem el nom d\'un Mitsubishi</string>
+    <string name="random_summary_26">És hora de bootloop!</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Configuració de rotació</string>
+    <string name="display_rotation_enabled">La rotació automàtica està activada</string>
+    <string name="display_rotation_disabled">La rotació automàtica està desactivada</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Modes de rotació</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
+    <string name="app_info_install_time">Instal·lat: %1$s</string>
+    <string name="app_info_update_time">Actualitzat: %1$s</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Activa l\'avís de nivell de càrrega de la bateria</string>
+    <string name="notification_battery_charge_level_title">Avís de càrrega de la bateria</string>
+    <string name="notification_battery_charge_level_summary">Reprodueix un so quan la bateria arriba a un nivell de càrrega</string>
+    <string name="notification_battery_charge_level_seek_bar">Nivell de bateria</string>
+    <string name="notification_battery_charge_level_ringtone">To de trucada</string>
+    <string name="notification_battery_charge_level_silent">Silenci</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toqueu per mostrar la informació</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Silenci ràpid</string>
+    <string name="volume_button_quick_mute_category_title">Si manteniu premuda la tecla per abaixar el volum, se silenciarà el so</string>
+    <string name="volume_button_quick_mute_delay_title">Retard d\'activació del control de reproducció</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Patró de vibració del to de trucada</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="custom_vibration_pattern_title">Patró personalitzat</string>
+    <string name="custom_vibration_pattern_summary">Estableix un patró de vibració personalitzat</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Patró de vibració personalitzat</string>
+    <string name="notification_custom_vibrate_summary">Només substitueix el patró per defecte\nUn patró establert per una aplicació tindrà preferència</string>
+    <string name="notification_custom_vibrate_slider1">Vibra per</string>
+    <string name="notification_custom_vibrate_slider2">Pausa per</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Mostra la superposició del porta-retalls</string>
+    <string name="show_clipboard_overlay_summary">Mostra una superposició a l\'extrem inferior esquerre de la pantalla quan es copia alguna cosa al porta-retalls</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Etiqueta de música ambiental</string>
+    <string name="pulse_on_new_tracks_summary">Mostra la pantalla ambiental quan es reprodueix una pista de música nova</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Elimina l\'escaneig facial existent i crea un nou escaneig</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refés l\'escaneig facial</string>
+    <string name="face_redo_confirm_btn">Refés</string>
+    <string name="face_redo_warning_msg">Voleu suprimir l\'escaneig facial existent i crear-ne un de nou?</string>
+    <string name="face_unlock_method_title">Permet el desbloqueig facial a la pantalla de bloqueig</string>
+    <string name="face_unlock_method_default">Quan la pantalla està encesa</string>
+    <string name="face_unlock_method_swipe">Quan llisqueu a la pantalla de bloqueig</string>
+    <string name="skip_biometric_auth_confirmation_title">Omet la confirmació manual</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Amaga l\'espai del botó del mètode d\'entrada</string>
+    <string name="navigation_bar_ime_space_summary">Amaga l\'espai del botó del mètode d\'entrada sota del teclat</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Control de reproducció</string>
+    <string name="volume_button_music_control_summary">Amb la pantalla apagada, mantenir polsades les tecles de volum canvia la pista de música</string>
+    <string name="gesture_playback_control_delay">retard</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Resolució de pantalla personalitzada</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Voleu reiniciar les estadístiques?</string>
+    <string name="battery_stats_message">Les dades d\'ús de la bateria es perdran</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura de la bateria</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Animació del gest cap enrere</string>
+    <string name="back_gesture_arrow_summary">Mostra una fletxa animada per al gest d\'enrere</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localitza el sensor d\'empremtes digitals a la part davantera de la tauleta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localitza el sensor d\'empremtes digitals a la part davantera del dispositiu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localitza el sensor d\'empremtes digitals a la part davantera del telèfon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localitza el sensor d\'empremtes digitals a la part posterior de la tauleta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localitza el sensor d\'empremtes digitals a la part posterior del dispositiu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localitza el sensor d\'empremtes digitals a la part posterior del telèfon.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Atenció: Aquesta opció pot no funcionar correctament o provocar pèrdues de dades, per tant, no es recomana!</string>
+    <!-- Hide apps -->
+    <string name="hide">Amaga</string>
+    <string name="unhide">Mostra</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">Aplicacions amagades</string>
+    <string name="hide_app">Amaga l\'aplicació</string>
+    <string name="unhide_app">Mostra l\'aplicació</string>
+    <string name="unhide_app_desc">Si mostres aquesta aplicació, tornarà a ser visible per a Android i altres aplicacions.</string>
+    <string name="hide_app_desc">Si amagueu aquesta aplicació, no serà visible per a Android i altres aplicacions, i és possible que deixi de funcionar com s\'ha previst. Tingueu en compte que si amagueu una aplicació, es conserven les dades. Si l\'amagueu, desactiveu aquesta aplicació i l\'amagueu al dispositiu.</string>
+    <string name="advanced_battery_preference_summary_google">Utilitza el gràfic d\'ús de la bateria de Píxel</string>
 </resources>
