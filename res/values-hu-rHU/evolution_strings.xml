@@ -260,7 +260,6 @@
     <string name="enable_floating_rotation_button_title">Lebegő elforgatás gomb engedélyezése</string>
     <!-- Build status -->
     <string name="build_status">Gyártási állapot</string>
-    <string name="build_status_summary">Egyéni</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">A jelenlegi kapacitás</string>
     <string name="designed_battery_capacity">Megkívánt maximum kapacitás</string>
