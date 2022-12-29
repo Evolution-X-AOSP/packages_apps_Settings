@@ -29,8 +29,6 @@
     <string name="duration_less_than_one_minute">1分未満</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">今日: %1$s</string>
-    <!-- Battery temperature -->
-    <string name="battery_temp">バッテリー温度</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">スワイプでスクリーンショット</string>
     <string name="swipe_to_screenshot_gesture_summary">3本指でスワイプしてスクリーンショットを取得する</string>
@@ -46,16 +44,6 @@
     <string name="fast_charging_summary">無効にすると充電中の端末の発熱を減らしバッテリー寿命を伸ばすことができます</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">タブレット前面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">端末前面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">スマートフォン前面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">タブレット背面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">端末背面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">スマートフォン背面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">タブレット側面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">端末側面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">スマートフォン側面にある指紋認証センサーを探します</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">アダプティブ再生</string>
     <string name="adaptive_playback_master_switch_title">アダプティブ再生を使用</string>
@@ -114,10 +102,7 @@
     <string name="smart_charging_resume_level_title">充電開始レベル</string>
     <string name="smart_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
     <string name="smart_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後バッテリーの統計情報をリセットする</string>
-    <string name="smart_charging_footer">スマート充電を有効化すると最大充電レベルの設定が可能になりバッテリー寿命を延ばすことができます</string>
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">戻るジェスチャーアニメーション</string>
-    <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
+    <string name="smart_charging_intro_text">スマート充電を有効化すると最大充電レベルの設定が可能になりバッテリー寿命を延ばすことができます</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">ポケット検出</string>
     <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
@@ -275,7 +260,6 @@
     <string name="enable_floating_rotation_button_title">フローティング回転ボタンを使用</string>
     <!-- Build status -->
     <string name="build_status">ビルドの状態</string>
-    <string name="build_status_summary">カスタム</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">現在の最大容量</string>
     <string name="designed_battery_capacity">最大容量</string>
@@ -362,9 +346,34 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">再生コントロール</string>
     <string name="volume_button_music_control_summary">画面消灯時に音量ボタンを長押しして曲をシークする</string>
+    <string name="gesture_playback_control_delay">遅延</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">カスタム画面解像度</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">統計をリセットしますか?</string>
     <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">バッテリー温度</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">戻るジェスチャーアニメーション</string>
+    <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">タブレット前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">端末前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">スマートフォン前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">タブレット背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">端末背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">スマートフォン背面にある指紋認証センサーを探します</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">警告: このオプションは正常に動作しなかったりデータの消失に繋がる可能性がありますので、推奨いたしません。</string>
+    <!-- Hide apps -->
+    <string name="hide">非表示</string>
+    <string name="unhide">表示</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">非表示のアプリ</string>
+    <string name="hide_app">アプリを隠す</string>
+    <string name="unhide_app">アプリを表示する</string>
+    <string name="unhide_app_desc">このアプリを再表示すると、Android や他のアプリに再び表示されます。</string>
+    <string name="hide_app_desc">このアプリを非表示にすると、Android や他のアプリから認識されなくなり、意図した通りに動作しなくなる可能性があります。アプリを非表示にしてもデータは保持されることに留意して下さい。隠すことで、お使いの端末からこのアプリは無効化され非表示になります。</string>
+    <string name="advanced_battery_preference_summary_google">Pixel のバッテリー統計グラフを使用</string>
 </resources>
