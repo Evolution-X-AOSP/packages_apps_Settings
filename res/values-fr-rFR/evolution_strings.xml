@@ -260,7 +260,6 @@
     <string name="enable_floating_rotation_button_title">Utiliser le bouton de rotation flottant</string>
     <!-- Build status -->
     <string name="build_status">Statut de la compilation</string>
-    <string name="build_status_summary">Personnalisé</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Capacité actuelle</string>
     <string name="designed_battery_capacity">Capacité nominale</string>

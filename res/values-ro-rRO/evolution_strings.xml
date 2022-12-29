@@ -260,7 +260,6 @@
     <string name="enable_floating_rotation_button_title">Folosește butonul de rotire plutitor</string>
     <!-- Build status -->
     <string name="build_status">Stare compilare</string>
-    <string name="build_status_summary">Personalizat</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Capacitatea curentă a bateriei</string>
     <string name="designed_battery_capacity">Capacitatea proiectată a bateriei</string>

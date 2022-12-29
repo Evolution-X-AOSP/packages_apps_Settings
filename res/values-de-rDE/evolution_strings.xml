@@ -260,7 +260,6 @@
     <string name="enable_floating_rotation_button_title">Schaltfläche zum Drehen verwenden</string>
     <!-- Build status -->
     <string name="build_status">Build‐Status</string>
-    <string name="build_status_summary">Benutzerdefiniert</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Aktuelle Kapazität</string>
     <string name="designed_battery_capacity">Ursprüngliche Akkukapazität</string>

@@ -260,7 +260,6 @@
     <string name="enable_floating_rotation_button_title">Usar botón flotante de rotación</string>
     <!-- Build status -->
     <string name="build_status">Estado de la compilación</string>
-    <string name="build_status_summary">Personalizado</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Capacidad actual</string>
     <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
@@ -367,4 +366,14 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localice el sensor de huellas dactilares en la parte trasera del teléfono.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">¡Advertencia: Esta opción puede no funcionar correctamente o conducir a la pérdida de datos y por lo tanto no es recomendable!</string>
+    <!-- Hide apps -->
+    <string name="hide">Ocultar</string>
+    <string name="unhide">Volver a mostrar</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">Aplicaciones ocultas</string>
+    <string name="hide_app">Ocultar aplicación</string>
+    <string name="unhide_app">Desocultar</string>
+    <string name="unhide_app_desc">Si desocultas esta aplicación, será visible para Android y otras aplicaciones de nuevo.</string>
+    <string name="hide_app_desc">Si oculta esta aplicación, no será visible para Android y otras aplicaciones, y puede que ya no funcionen como debería. Ten en cuenta, al ocultar una aplicación se conservan sus datos. Al ocultar esta aplicación, se desactiva y oculta en tu dispositivo.</string>
+    <string name="advanced_battery_preference_summary_google">Usar gráfico de batería de Pixel</string>
 </resources>
