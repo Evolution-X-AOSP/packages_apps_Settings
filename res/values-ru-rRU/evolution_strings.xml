@@ -260,7 +260,6 @@
     <string name="enable_floating_rotation_button_title">Использовать плавающую кнопку поворота</string>
     <!-- Build status -->
     <string name="build_status">Статус сборки</string>
-    <string name="build_status_summary">Пользовательский</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Текущая ёмкость батареи</string>
     <string name="designed_battery_capacity">Максимальная емкость батареи</string>
@@ -376,4 +375,5 @@
     <string name="unhide_app">Показать приложение</string>
     <string name="unhide_app_desc">Если вы включите это приложение, оно будет снова видно для Android и других приложений.</string>
     <string name="hide_app_desc">Если вы скрываете это приложение, оно не будет видно для Android и других приложений, и оно может не работать, как это нужно. Имейте в виду, скрытие приложения сохраняет его данные. Выключив это приложение и скрыв его на вашем устройстве.</string>
+    <string name="advanced_battery_preference_summary_google">Использовать график использования батареи Pixel</string>
 </resources>
