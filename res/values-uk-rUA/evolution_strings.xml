@@ -29,8 +29,6 @@
     <string name="duration_less_than_one_minute">Менше 1 хвилини</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s сьогодні</string>
-    <!-- Battery temperature -->
-    <string name="battery_temp">Температура батареї</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Жест трьома пальцями</string>
     <string name="swipe_to_screenshot_gesture_summary">Проведіть трьома пальцями для знімку екрану</string>
@@ -46,20 +44,6 @@
     <string name="fast_charging_summary">Вимкніть, щоб зменшити нагрів пристрою під час зарядки або щоб продовжити термін служби акумулятора</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Звук знімка екрану</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Знайдіть сканер відбитків пальців на екрані вашого планшету.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Знайдіть сканер відбитків пальців на екрані вашого пристрою.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Знайдіть сканер відбитків пальців на екрані вашого смартфону.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Знайдіть сканер відбитків пальців на задній панелі вашого планшета.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Знайдіть сканер відбитків пальців на задній панелі вашого пристрою.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Знайдіть сканер відбитків пальців на задній панелі вашого смартфону.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Знайдіть сканер відбитків пальців на бічній грані вашого планшета.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Знайдіть сканер відбитків пальців на бічній грані вашого пристрою.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Знайдіть сканер відбитків пальців на бічній грані вашого смартфона.</string>
-    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Торкніться сканера на екрані вашого телефона.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Торкніться сканера на задній панелі вашого телефона.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Торкніться сканера на бічній грані вашого телефону.</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Розумна Пауза</string>
     <string name="adaptive_playback_master_switch_title">Використовувати Розумну Паузу</string>
@@ -118,10 +102,7 @@
     <string name="smart_charging_resume_level_title">Рівень початку «Розумного» заряджання</string>
     <string name="smart_charging_reset_stats_title">Скинути статистику батареї</string>
     <string name="smart_charging_reset_stats_summary">Скиньте статистику акумулятора після досягнення визначеного користувачем рівня зарядки</string>
-    <string name="smart_charging_footer">«Розумне» заряджання дозволяє встановити максимальний рівень зарядки для продовження терміну служби батареї</string>
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Анімація жесту \"Назад\"</string>
-    <string name="back_gesture_arrow_summary">Відображати анімовану стрілку жесту \"Назад\"</string>
+    <string name="smart_charging_intro_text">«Розумне» заряджання дозволяє встановити максимальний рівень зарядки для продовження терміну служби батареї</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Режим \"У кишені\"</string>
     <string name="pocket_judge_summary">Заблокувати екран та фізичні кнопки, коли пристрій перебуває в кишені</string>
@@ -237,16 +218,11 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Завжди увімкнено під час зарядки</string>
     <string name="doze_on_charge_summary">Завжди показувати сплячий режим під час зарядки</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Місце під клавіатурою</string>
-    <string name="navigation_bar_ime_space_value_narrow">Вузька</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Повний</string>
     <string name="back_height_high_label">Знизу</string>
     <string name="back_options_dialog_title">Налаштування</string>
     <string name="back_height_message">Довжина екрану, яка використовується як сенсорна область для жесту \"Назад\".</string>
-    <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Увага: Ця опція може працювати не коректно або призвести до втрати даних, тому не рекомендується!</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Повноекранні застосунки</string>
     <string name="display_cutout_force_fullscreen_summary">Змусити застосунки ігнорувати виріз</string>
@@ -284,21 +260,12 @@
     <string name="enable_floating_rotation_button_title">Використовувати плаваючу кнопку обертання</string>
     <!-- Build status -->
     <string name="build_status">Статус збірки</string>
-    <string name="build_status_summary">Персоналізація</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Поточна ємність акумулятора</string>
     <string name="designed_battery_capacity">Розрахована максимальна ємність акумулятора</string>
     <string name="battery_charge_cycles">Цикли зарядки завершені</string>
     <string name="high_power_apps_summary">Вимкнути оптимізацію використання батареї</string>
-    <!-- Playback control -->
-    <string name="gesture_playback_control_screen_title">Керування відтворенням</string>
-    <string name="gesture_playback_control_primary_switch_title">Використовувати керування відтворенням</string>
-    <string name="gesture_playback_control_intro_text">При вимкненому екрані довге натискання клавіш гучності призводить до перемикання музичних треків</string>
-    <string name="volume_rocker_music_controls_delay_title">Затримка активації керування відтворенням</string>
-    <string name="gesture_playback_control_delay">затримка</string>
-    <string name="unit_ms">мс</string>
-    <!-- Cloudflare DNS Option -->
-    <!-- AdGuard DNS Option -->
+    <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
     <string name="random_summary_2">Ласкаво просимо в Evolution</string>
     <string name="random_summary_3">Продовжити еволюцію вашого пристрою</string>
@@ -337,4 +304,76 @@
     <string name="notification_battery_charge_level_seek_bar">Рівень заряду акумулятора</string>
     <string name="notification_battery_charge_level_ringtone">Мелодія сповіщення</string>
     <string name="notification_battery_charge_level_silent">Без звуку</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Натисніть, щоб показати інформацію</string>
+    <!-- Quick Mute -->
+    <string name="quick_mute_title">Швидко прибрати звук</string>
+    <string name="volume_button_quick_mute_category_title">Довге натискання кнопки регулювання гучності \"вниз\" прибере звук активного потоку гучності</string>
+    <string name="volume_button_quick_mute_delay_title">Затримка активації керування відтворенням</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Шаблон вібрації дзвінка</string>
+    <string name="pattern_dzzz_dzzz">дззз-дззз</string>
+    <string name="pattern_dzzz_da">дззз-да</string>
+    <string name="pattern_mm_mm_mm">мм-мм-мм</string>
+    <string name="pattern_da_da_dzzz">да-да-дззз</string>
+    <string name="pattern_da_dzzz_da">да-дззз-да</string>
+    <string name="pattern_custom">Персоналізація</string>
+    <string name="custom_vibration_pattern_title">Користувацький шаблон</string>
+    <string name="custom_vibration_pattern_summary">Встановити користувацький шаблон вібрації</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Користувацький шаблон вібро</string>
+    <string name="notification_custom_vibrate_summary">Замінює типовий візерунок тільки\nвстановити шаблон програми має пріоритет</string>
+    <string name="notification_custom_vibrate_slider1">Вібрація для</string>
+    <string name="notification_custom_vibrate_slider2">Пауза для</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Показати накладення буфера обміну</string>
+    <string name="show_clipboard_overlay_summary">Показувати накладання в лівому нижньому куті екрана, коли щось копіюється в буфер обміну</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Індикатор назви треку на Ambient Display</string>
+    <string name="pulse_on_new_tracks_summary">Показати Ambient Display, коли відтворюється новий трек</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Видалити існуючий скан обличчя та створити новий</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторне сканування обличчя</string>
+    <string name="face_redo_confirm_btn">Повторити</string>
+    <string name="face_redo_warning_msg">Ви хочете видалити існуючий скан обличчя та створити новий?</string>
+    <string name="face_unlock_method_title">Дозволити розблокування обличчям на екрані блокування</string>
+    <string name="face_unlock_method_default">Коли екран увімкнено</string>
+    <string name="face_unlock_method_swipe">При проведенні пальцем на екрані блокування</string>
+    <string name="skip_biometric_auth_confirmation_title">Пропустити ручне підтвердження</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Місце під клавіатурою</string>
+    <string name="navigation_bar_ime_space_summary">Сховати простір кнопки IME під клавіатурою</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Керування відтворенням медіа</string>
+    <string name="volume_button_music_control_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
+    <string name="gesture_playback_control_delay">затримка</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Користувацька роздільна здатність екрана</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Скинути статистику?</string>
+    <string name="battery_stats_message">Дані про використання батареї буде втрачено</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Температура батареї</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Анімація жесту \"Назад\"</string>
+    <string name="back_gesture_arrow_summary">Відображати анімовану стрілку жесту \"Назад\"</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Знайдіть сканер відбитків пальців на екрані вашого планшету.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Знайдіть сканер відбитків пальців на екрані вашого пристрою.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Знайдіть сканер відбитків пальців на екрані вашого смартфону.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Знайдіть сканер відбитків пальців на задній панелі вашого планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Знайдіть сканер відбитків пальців на задній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Знайдіть сканер відбитків пальців на задній панелі вашого смартфону.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Увага: Ця опція може працювати не коректно або призвести до втрати даних, тому не рекомендується!</string>
+    <!-- Hide apps -->
+    <string name="hide">Приховати</string>
+    <string name="unhide">Прибрати з прихованих</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">Приховані додатки</string>
+    <string name="hide_app">Приховати додаток</string>
+    <string name="unhide_app">Прибрати додаток з прихованих</string>
+    <string name="unhide_app_desc">Якщо ви приберете цей додаток з прихованих, він знову буде видимим для системи та інших додатків.</string>
+    <string name="hide_app_desc">Якщо ви приховаєте цей додаток, він не буде видимим для системи та інших додатків, і вони можуть не працювати належним чином. Майте на увазі, що приховування додатка збереже його дані. Приховуючи, ви вимикаєте цей додаток та ховаєте його на своєму пристрої.</string>
+    <string name="advanced_battery_preference_summary_google">Використовувати графік використання батареї як на телефонах Pixel</string>
 </resources>
