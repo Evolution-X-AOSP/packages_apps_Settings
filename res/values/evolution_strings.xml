@@ -393,4 +393,8 @@
 
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">NFC sounds</string>
+
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
 </resources>

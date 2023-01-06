@@ -24,11 +24,14 @@ import android.text.TextUtils;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
+
+import com.evolution.settings.preference.SecureSettingSwitchPreference;
 
 public class AmbientDisplayNotificationsPreferenceController extends
         TogglePreferenceController implements Preference.OnPreferenceChangeListener {
@@ -38,10 +41,12 @@ public class AmbientDisplayNotificationsPreferenceController extends
 
     @VisibleForTesting
     static final String KEY_AMBIENT_DISPLAY_NOTIFICATIONS = "ambient_display_notification";
+    private static final String KEY_DOZE_FOR_NOTIFICATIONS = "doze_for_notifications";
     private static final int MY_USER = UserHandle.myUserId();
 
     private final MetricsFeatureProvider mMetricsFeatureProvider;
     private AmbientDisplayConfiguration mConfig;
+    private SecureSettingSwitchPreference mDozeForNotifPref;
 
     public AmbientDisplayNotificationsPreferenceController(Context context, String key) {
         super(context, key);
@@ -60,6 +65,15 @@ public class AmbientDisplayNotificationsPreferenceController extends
     }
 
     @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+        mDozeForNotifPref = (SecureSettingSwitchPreference)
+                screen.findPreference(KEY_DOZE_FOR_NOTIFICATIONS);
+        if (mDozeForNotifPref != null)
+            mDozeForNotifPref.setEnabled(isChecked());
+    }
+
+    @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
         if (KEY_AMBIENT_DISPLAY_NOTIFICATIONS.equals(preference.getKey())) {
             mMetricsFeatureProvider.action(mContext, SettingsEnums.ACTION_AMBIENT_DISPLAY);
@@ -74,6 +88,8 @@ public class AmbientDisplayNotificationsPreferenceController extends
 
     @Override
     public boolean setChecked(boolean isChecked) {
+        if (mDozeForNotifPref != null)
+            mDozeForNotifPref.setEnabled(isChecked);
         Settings.Secure.putInt(mContext.getContentResolver(), DOZE_ENABLED, isChecked ? ON : OFF);
         return true;
     }
@@ -81,6 +97,7 @@ public class AmbientDisplayNotificationsPreferenceController extends
     @Override
     public int getAvailabilityStatus() {
         return getAmbientConfig().pulseOnNotificationAvailable()
+                && !getAmbientConfig().tapSensorAvailable()
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
