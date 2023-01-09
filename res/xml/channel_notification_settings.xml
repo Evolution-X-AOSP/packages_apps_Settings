@@ -102,7 +102,7 @@
             android:max="2000"
             settings:min="0"
             settings:interval="100"
-            settings:units="ms" />
+            settings:units="@string/unit_ms" />
 
         <!-- Custom vibration pattern 2 -->
         <com.evolution.settings.preference.CustomSeekBarPreference
@@ -112,7 +112,7 @@
             android:max="2000"
             settings:min="0"
             settings:interval="100"
-            settings:units="ms" />
+            settings:units="@string/unit_ms" />
 
         <!-- Custom vibration pattern 3 -->
         <com.evolution.settings.preference.CustomSeekBarPreference
@@ -122,28 +122,63 @@
             android:max="2000"
             settings:min="0"
             settings:interval="100"
-            settings:units="ms" />
+            settings:units="@string/unit_ms" />
+
+    </PreferenceCategory>
+
+    <!-- Flashlight blinking -->
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="default_notification_torch"
+        android:order="18"
+        android:icon="@drawable/ic-flashlight"
+        android:title="@string/default_notification_torch_title"
+        android:summary="@string/default_notification_torch_summary" />
+
+    <PreferenceCategory
+        android:key="default_notification_torch_seek_bars"
+        android:order="19"
+        android:visibility="gone" >
+
+        <!-- Flashlight blinking times -->
+        <com.evolution.settings.preference.CustomSeekBarPreference
+            android:key="default_notification_torch1"
+            android:title="@string/default_notification_torch_slider1"
+            android:order="20"
+            android:max="10"
+            settings:min="1"
+            settings:interval="1"
+            settings:units="@string/unit_times" />
+
+        <!-- Flashlight blinking rate -->
+        <com.evolution.settings.preference.CustomSeekBarPreference
+            android:key="default_notification_torch2"
+            android:title="@string/default_notification_torch_slider2"
+            android:order="21"
+            android:max="10"
+            settings:min="1"
+            settings:interval="1"
+            settings:units="@string/unit_hz" />
 
     </PreferenceCategory>
 
     <!-- Visibility Override -->
     <com.android.settings.RestrictedListPreference
         android:key="visibility_override"
-        android:order="20"
+        android:order="30"
         android:icon="@drawable/ic_notification_vis_override"
         android:title="@string/app_notification_visibility_override_title"/>
 
     <!-- Lights -->
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="lights"
-        android:order="25"
+        android:order="35"
         android:icon="@drawable/ic_lightbulb_outline_24"
         android:title="@string/notification_show_lights_title" />
 
     <!-- Show badge -->
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="badge"
-        android:order="30"
+        android:order="40"
         android:title="@string/notification_channel_badge_title"
         android:icon="@drawable/ic_notification_dot"
         settings:restrictedSwitchSummary="@string/enabled_by_admin"/>
@@ -151,14 +186,14 @@
     <!-- Bypass DND -->
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="bypass_dnd"
-        android:order="35"
+        android:order="45"
         android:icon="@drawable/ic_do_not_disturb_on_24dp"
         android:title="@string/app_notification_override_dnd_title"
         android:summary="@string/app_notification_override_dnd_summary" />
 
     <Preference
         android:key="app_link"
-        android:order="40"
+        android:order="50"
         android:title="@string/app_settings_link"
         android:icon="@drawable/ic_settings_24dp"
         settings:allowDividerAbove="true"/>
