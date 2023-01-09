@@ -92,6 +92,7 @@ public class ConversationNotificationSettings extends NotificationSettings {
                 mDependentFieldListener, mBackend));
         mControllers.add(new VibrationPreferenceController(context, mBackend, mDependentFieldListener));
         mControllers.add(new CustomVibrationPreferenceController(context, mBackend));
+        mControllers.add(new TorchBlinkPreferenceController(context, mBackend));
         mControllers.add(new VisibilityPreferenceController(context, new LockPatternUtils(context),
                 mBackend));
         mControllers.add(new LightsPreferenceController(context, mBackend));

@@ -106,7 +106,7 @@
                 android:max="2000"
                 settings:min="0"
                 settings:interval="100"
-                settings:units="ms" />
+                settings:units="@string/unit_ms" />
 
             <!-- Custom vibration pattern 2 -->
             <com.evolution.settings.preference.CustomSeekBarPreference
@@ -115,7 +115,7 @@
                 android:max="2000"
                 settings:min="0"
                 settings:interval="100"
-                settings:units="ms" />
+                settings:units="@string/unit_ms" />
 
             <!-- Custom vibration pattern 3 -->
             <com.evolution.settings.preference.CustomSeekBarPreference
@@ -124,7 +124,38 @@
                 android:max="2000"
                 settings:min="0"
                 settings:interval="100"
-                settings:units="ms" />
+                settings:units="@string/unit_ms" />
+
+        </PreferenceCategory>
+
+        <!-- Flashlight blinking -->
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="default_notification_torch"
+            android:icon="@drawable/ic-flashlight"
+            android:title="@string/default_notification_torch_title"
+            android:summary="@string/default_notification_torch_summary" />
+
+        <PreferenceCategory
+            android:key="default_notification_torch_seek_bars"
+            android:visibility="gone" >
+
+            <!-- Flashlight blinking times -->
+            <com.evolution.settings.preference.CustomSeekBarPreference
+                android:key="default_notification_torch1"
+                android:title="@string/default_notification_torch_slider1"
+                android:max="10"
+                settings:min="1"
+                settings:interval="1"
+                settings:units="@string/unit_times" />
+
+            <!-- Flashlight blinking rate -->
+            <com.evolution.settings.preference.CustomSeekBarPreference
+                android:key="default_notification_torch2"
+                android:title="@string/default_notification_torch_slider2"
+                android:max="10"
+                settings:min="1"
+                settings:interval="1"
+                settings:units="@string/unit_hz" />
 
         </PreferenceCategory>
 
