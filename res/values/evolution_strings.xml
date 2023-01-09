@@ -355,6 +355,12 @@
     <string name="notification_custom_vibrate_slider1">Vibrate for</string>
     <string name="notification_custom_vibrate_slider2">Pause for</string>
 
+    <!-- Per-channel torch blinking -->
+    <string name="default_notification_torch_title">Blink Torch</string>
+    <string name="default_notification_torch_summary">Blink the camera flashlight for this notification</string>
+    <string name="default_notification_torch_slider1">Times to blink</string>
+    <string name="default_notification_torch_slider2">Rate of blink</string>
+
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
     <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
@@ -363,6 +369,8 @@
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
     <string name="gesture_playback_control_delay">delay</string>
+    <string name="unit_hz">Hz</string>
+    <string name="unit_times">Times</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats?</string>
