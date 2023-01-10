@@ -312,6 +312,7 @@
     <string name="volume_button_quick_mute_delay_title">Ritardo attivazione del controllo riproduzione</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Schema vibrazione suoneria</string>
+    <string name="notification_vibration_pattern_title">Schema vibrazione notifiche</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
@@ -325,6 +326,11 @@
     <string name="notification_custom_vibrate_summary">Sostituisce solo lo schema predefinito\nLo schema impostato dall\'app ha la precedenza</string>
     <string name="notification_custom_vibrate_slider1">Vibra per</string>
     <string name="notification_custom_vibrate_slider2">Pausa per</string>
+    <!-- Per-channel torch blinking -->
+    <string name="default_notification_torch_title">Torcia Lampeggiante</string>
+    <string name="default_notification_torch_summary">Fai lampeggiare la torcia della fotocamera per questa notifica</string>
+    <string name="default_notification_torch_slider1">Numero di lampeggiamenti</string>
+    <string name="default_notification_torch_slider2">Frequenza lampeggiamenti</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Sovrapposizione appunti</string>
     <string name="show_clipboard_overlay_summary">Mostra una sovrapposizione nell\'angolo inferiore sinistro dello schermo quando copi qualcosa negli appunti</string>
@@ -347,6 +353,8 @@
     <string name="volume_button_music_control_title">Controllo riproduzione</string>
     <string name="volume_button_music_control_summary">Quando lo schermo è spento, premere a lungo i tasti volume per cambiare le tracce musicali</string>
     <string name="gesture_playback_control_delay">ritardo</string>
+    <string name="unit_hz">Hz</string>
+    <string name="unit_times">Volte</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Risoluzione dello schermo personalizzata</string>
     <!-- Battery stats reset -->
@@ -376,4 +384,11 @@
     <string name="unhide_app_desc">Se mostri questa app, sarà di nuovo visibile per Android e altre app.</string>
     <string name="hide_app_desc">Se nascondi questa app, non sarà visibile ad Android e ad altre app che potrebbero non funzionare correttamente. Tieni presente che i dati dell\'app vengono conservati. Nascondendo quest\'app, la disattivi sul tuo dispositivo.</string>
     <string name="advanced_battery_preference_summary_google">Usa il grafico di utilizzo batteria dei Pixel</string>
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">Notifiche in chiamata</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">Suoni NFC</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient Display</string>
+    <string name="doze_enabled_summary">Indica se abilitare la funzionalità del pacchetto doze</string>
 </resources>
