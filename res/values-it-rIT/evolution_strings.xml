@@ -327,10 +327,10 @@
     <string name="notification_custom_vibrate_slider1">Vibra per</string>
     <string name="notification_custom_vibrate_slider2">Pausa per</string>
     <!-- Per-channel torch blinking -->
-    <string name="default_notification_torch_title">Torcia Lampeggiante</string>
+    <string name="default_notification_torch_title">Torcia lampeggiante</string>
     <string name="default_notification_torch_summary">Fai lampeggiare la torcia della fotocamera per questa notifica</string>
-    <string name="default_notification_torch_slider1">Numero di lampeggiamenti</string>
-    <string name="default_notification_torch_slider2">Frequenza lampeggiamenti</string>
+    <string name="default_notification_torch_slider1">Numero di lampeggi</string>
+    <string name="default_notification_torch_slider2">Frequenza lampeggi</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Sovrapposizione appunti</string>
     <string name="show_clipboard_overlay_summary">Mostra una sovrapposizione nell\'angolo inferiore sinistro dello schermo quando copi qualcosa negli appunti</string>
