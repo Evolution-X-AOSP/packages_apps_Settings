@@ -312,6 +312,7 @@
     <string name="volume_button_quick_mute_delay_title">Délai d\'activation du contrôle de lecture</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Modèle de vibration de la sonnerie</string>
+    <string name="notification_vibration_pattern_title">Modèle de vibration des notifications</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
@@ -325,6 +326,11 @@
     <string name="notification_custom_vibrate_summary">Remplace le modèle par défaut seulement\nLe modèle défini par l\'application est prioritaire</string>
     <string name="notification_custom_vibrate_slider1">Vibrer pour</string>
     <string name="notification_custom_vibrate_slider2">Arrêter pendant</string>
+    <!-- Per-channel torch blinking -->
+    <string name="default_notification_torch_title">Torche clignotante</string>
+    <string name="default_notification_torch_summary">Faire clignoter la lampe torche de la caméra pour cette notification</string>
+    <string name="default_notification_torch_slider1">Nombre de clignotements</string>
+    <string name="default_notification_torch_slider2">Taux de clignotement</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Afficher l\'IU du presse-papiers</string>
     <string name="show_clipboard_overlay_summary">Afficher une IU dans le coin inférieur gauche de l\'écran lorsque quelque chose est copié dans le presse-papiers</string>
@@ -347,6 +353,8 @@
     <string name="volume_button_music_control_title">Contrôle de lecture</string>
     <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume changera la piste musicale</string>
     <string name="gesture_playback_control_delay">délai</string>
+    <string name="unit_hz">Hz</string>
+    <string name="unit_times">Nombre de fois</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Résolution d\'écran personnalisée</string>
     <!-- Battery stats reset -->
@@ -376,4 +384,11 @@
     <string name="unhide_app_desc">Si vous décochez cette application, elle sera à nouveau visible par Android et d\'autres applications.</string>
     <string name="hide_app_desc">Si vous masquez cette application, elle ne sera pas visible par Android et les autres applications et pourrait ne plus fonctionner comme prévu. Gardez à l\'esprit que cacher une application préserve les données. En masquant, vous éteignez cette application et la masquez sur votre appareil.</string>
     <string name="advanced_battery_preference_summary_google">Utiliser le graphique d\'utilisation de la batterie des Pixel</string>
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">Notification d\'appel</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">Son NFC</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Affichage ambiant</string>
+    <string name="doze_enabled_summary">Activer ou non la fonctionnalité du paquet doze</string>
 </resources>
