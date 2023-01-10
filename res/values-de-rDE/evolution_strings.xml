@@ -312,6 +312,7 @@
     <string name="volume_button_quick_mute_delay_title">Aktivierungsverzögerung bei Wiedergabesteuerung</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Vibrationsmuster des Klingeltons</string>
+    <string name="notification_vibration_pattern_title">Vibrationsmuster für Benachrichtigungen</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
@@ -326,6 +327,11 @@
 Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="notification_custom_vibrate_slider1">Vibrieren für</string>
     <string name="notification_custom_vibrate_slider2">Pausieren für</string>
+    <!-- Per-channel torch blinking -->
+    <string name="default_notification_torch_title">LED-Blitz blinken</string>
+    <string name="default_notification_torch_summary">LED-Blitz für diese Benachrichtigung blinken lassen</string>
+    <string name="default_notification_torch_slider1">Anzahl der Blinke</string>
+    <string name="default_notification_torch_slider2">Blinkrate</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Zwischenablagen-Overlay anzeigen</string>
     <string name="show_clipboard_overlay_summary">Ein Overlay in der linken unteren Ecke des Bildschirms anzeigen, wenn etwas in die Zwischenablage kopiert wird</string>
@@ -348,6 +354,8 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
     <string name="volume_button_music_control_summary">Musiktitel durch langes Drücken der Lautstärketasten bei ausgeschaltetem Bildschirm überspringen</string>
     <string name="gesture_playback_control_delay">Verzögerung</string>
+    <string name="unit_hz">Hz</string>
+    <string name="unit_times">mal</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Benutzerdefinierte Bildschirmauflösung</string>
     <!-- Battery stats reset -->
@@ -377,4 +385,11 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="unhide_app_desc">Wenn diese Anwendung eingeblendet wird, dann ist diese für Android und andere Apps wieder sichtbar.</string>
     <string name="hide_app_desc">Wenn diese Anwendung ausblendet wird, ist diese für Android und andere Anwendungen nicht mehr sichtbar, und sie funktioniert möglicherweise nicht mehr wie vorgesehen. Denke daran, dass durch das Ausblenden einer Anwendung deren Daten erhalten bleiben. Durch Ausblenden wird diese Anwendung auf deinem Gerät versteckt.</string>
     <string name="advanced_battery_preference_summary_google">Akkuverbrauchsdiagramm von Pixel verwenden</string>
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">Benachrichtigungen während des Anrufs</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">NFC-Töne</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient-Display</string>
+    <string name="doze_enabled_summary">Ob die Funktionalität des Doze-Pakets aktiviert werden soll</string>
 </resources>
