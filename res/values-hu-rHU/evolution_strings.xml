@@ -312,6 +312,7 @@
     <string name="volume_button_quick_mute_delay_title">A lejátszásvezérlés késleltetése</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Csengőhang rezgésmintázat</string>
+    <string name="notification_vibration_pattern_title">Vibrációs minta az értesítéshez</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
@@ -325,6 +326,11 @@
     <string name="notification_custom_vibrate_summary">Csak az alapértelmezett mintát cseréli le.\nAz alkalmazáskészlet mintája elsőbbséget élvez</string>
     <string name="notification_custom_vibrate_slider1">Rezgés ennyi ideig</string>
     <string name="notification_custom_vibrate_slider2">Szüneteltetés ennyi ideig</string>
+    <!-- Per-channel torch blinking -->
+    <string name="default_notification_torch_title">Villogó lámpa</string>
+    <string name="default_notification_torch_summary">Ennél az értesítésnél villogjon a vaku</string>
+    <string name="default_notification_torch_slider1">Villogási idő</string>
+    <string name="default_notification_torch_slider2">Villogási mérték</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Vágólap-átfedés</string>
     <string name="show_clipboard_overlay_summary">Átfedés megjelenítése a képernyő bal alsó sarkában, ha valamit a vágólapra másol</string>
@@ -347,6 +353,8 @@
     <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
     <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
     <string name="gesture_playback_control_delay">késleltetés</string>
+    <string name="unit_hz">Hz</string>
+    <string name="unit_times">x villanás</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Egyéni képernyőfelbontás</string>
     <!-- Battery stats reset -->
