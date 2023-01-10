@@ -328,9 +328,9 @@
     <string name="notification_custom_vibrate_slider2">Pausado para</string>
     <!-- Per-channel torch blinking -->
     <string name="default_notification_torch_title">Piscar lanterna</string>
-    <string name="default_notification_torch_summary">Piscar o flash da câmera para esta notificação</string>
-    <string name="default_notification_torch_slider1">Intervalo para acender</string>
-    <string name="default_notification_torch_slider2">Velocidade do flash</string>
+    <string name="default_notification_torch_summary">Piscar lanterna ao receber notificações</string>
+    <string name="default_notification_torch_slider1">Intervalo do piscar</string>
+    <string name="default_notification_torch_slider2">Velocidade do piscar</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Mostrar sobreposição de texto</string>
     <string name="show_clipboard_overlay_summary">Exibe uma janela no canto inferior esquerdo da tela quando algum texto for copiado para área de transferência</string>
