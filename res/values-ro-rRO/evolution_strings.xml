@@ -312,6 +312,7 @@
     <string name="volume_button_quick_mute_delay_title">Întârziere activare control redare</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Model vibrație sonerie</string>
+    <string name="notification_vibration_pattern_title">Model vibrație notificare</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
@@ -325,6 +326,11 @@
     <string name="notification_custom_vibrate_summary">Înlocuiește doar modelul implicit\nModelul configurat în aplicații are prioritate</string>
     <string name="notification_custom_vibrate_slider1">Vibrații</string>
     <string name="notification_custom_vibrate_slider2">Pauză</string>
+    <!-- Per-channel torch blinking -->
+    <string name="default_notification_torch_title">Clipire lanternă</string>
+    <string name="default_notification_torch_summary">Clipire lanternă cameră pentru această notificare</string>
+    <string name="default_notification_torch_slider1">Timpul pentru clipire</string>
+    <string name="default_notification_torch_slider2">Rata de clipire</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Afișare suprapunere clipboard</string>
     <string name="show_clipboard_overlay_summary">Arată o suprapunere în colțul din stânga jos al ecranului atunci când ceva este copiat în clipboard</string>
@@ -347,6 +353,8 @@
     <string name="volume_button_music_control_title">Control redare</string>
     <string name="volume_button_music_control_summary">Când ecranul este închis, apăsarea lungă a butoanelor de volum derulează melodia</string>
     <string name="gesture_playback_control_delay">întârziere</string>
+    <string name="unit_hz">Hz</string>
+    <string name="unit_times">Ori</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Rezoluție ecran personalizată</string>
     <!-- Battery stats reset -->
@@ -376,4 +384,11 @@
     <string name="unhide_app_desc">Dacă reafișați această aplicație, ea va fi vizibilă din nou pentru Android și alte aplicații.</string>
     <string name="hide_app_desc">Dacă ascundeți această aplicație, aceasta nu va fi vizibilă pentru Android și pentru alte aplicații și este posibil ca acestea să nu mai funcționeze conform intenției. Rețineți că ascunderea unei aplicații păstrează datele acesteia. Ascunzând, dezactivați această aplicație și o ascundeți pe dispozitiv.</string>
     <string name="advanced_battery_preference_summary_google">Utilizați graficul de utilizare a bateriei Pixel</string>
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">Notificări în apel</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">Sunete NFC</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Afișaj ambiental</string>
+    <string name="doze_enabled_summary">Dacă să fie activată funcționalitatea pachetului doze</string>
 </resources>
