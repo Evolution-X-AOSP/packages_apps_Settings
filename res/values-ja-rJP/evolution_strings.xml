@@ -312,6 +312,7 @@
     <string name="volume_button_quick_mute_delay_title">再生コントロールの動作の遅延</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">着信音の振動のパターン</string>
+    <string name="notification_vibration_pattern_title">通知の振動パターン</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
@@ -325,6 +326,11 @@
     <string name="notification_custom_vibrate_summary">既定のパターンのみを置き換え\nアプリの設定パターンが優先されます</string>
     <string name="notification_custom_vibrate_slider1">以下で振動</string>
     <string name="notification_custom_vibrate_slider2">以下で一時停止</string>
+    <!-- Per-channel torch blinking -->
+    <string name="default_notification_torch_title">ライトを点滅</string>
+    <string name="default_notification_torch_summary">この通知にカメラのフラッシュを点滅させる</string>
+    <string name="default_notification_torch_slider1">点滅までの回数</string>
+    <string name="default_notification_torch_slider2">点滅の割合</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">クリップボードオーバーレイを表示</string>
     <string name="show_clipboard_overlay_summary">クリップボードに何かがコピーされた時に画面の左下にコピー内容をオーバーレイを表示する</string>
@@ -347,6 +353,8 @@
     <string name="volume_button_music_control_title">再生コントロール</string>
     <string name="volume_button_music_control_summary">画面消灯時に音量ボタンを長押しして曲をシークする</string>
     <string name="gesture_playback_control_delay">遅延</string>
+    <string name="unit_hz">ヘルツ</string>
+    <string name="unit_times">回</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">カスタム画面解像度</string>
     <!-- Battery stats reset -->
@@ -376,4 +384,11 @@
     <string name="unhide_app_desc">このアプリを再表示すると、Android や他のアプリに再び表示されます。</string>
     <string name="hide_app_desc">このアプリを非表示にすると、Android や他のアプリから認識されなくなり、意図した通りに動作しなくなる可能性があります。アプリを非表示にしてもデータは保持されることに留意して下さい。隠すことで、お使いの端末からこのアプリは無効化され非表示になります。</string>
     <string name="advanced_battery_preference_summary_google">Pixel のバッテリー統計グラフを使用</string>
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">通話中の通知</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">NFC の音</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">アンビエント表示</string>
+    <string name="doze_enabled_summary">Doze パッケージ機能を有効にするかどうか選択する</string>
 </resources>
