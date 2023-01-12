@@ -312,6 +312,7 @@
     <string name="volume_button_quick_mute_delay_title">Затримка активації керування відтворенням</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Шаблон вібрації дзвінка</string>
+    <string name="notification_vibration_pattern_title">Шаблон вібрації при сповіщеннях</string>
     <string name="pattern_dzzz_dzzz">дззз-дззз</string>
     <string name="pattern_dzzz_da">дззз-да</string>
     <string name="pattern_mm_mm_mm">мм-мм-мм</string>
@@ -325,6 +326,11 @@
     <string name="notification_custom_vibrate_summary">Замінює типовий візерунок тільки\nвстановити шаблон програми має пріоритет</string>
     <string name="notification_custom_vibrate_slider1">Вібрація для</string>
     <string name="notification_custom_vibrate_slider2">Пауза для</string>
+    <!-- Per-channel torch blinking -->
+    <string name="default_notification_torch_title">Блимання ліхтарика</string>
+    <string name="default_notification_torch_summary">Блимнути підсвіткою камери для цього сповіщення</string>
+    <string name="default_notification_torch_slider1">Скільки разів блимнути</string>
+    <string name="default_notification_torch_slider2">Частота блимання</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Показати накладення буфера обміну</string>
     <string name="show_clipboard_overlay_summary">Показувати накладання в лівому нижньому куті екрана, коли щось копіюється в буфер обміну</string>
@@ -347,6 +353,8 @@
     <string name="volume_button_music_control_title">Керування відтворенням медіа</string>
     <string name="volume_button_music_control_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
     <string name="gesture_playback_control_delay">затримка</string>
+    <string name="unit_hz">Гц</string>
+    <string name="unit_times">Разів</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Користувацька роздільна здатність екрана</string>
     <!-- Battery stats reset -->
@@ -376,4 +384,11 @@
     <string name="unhide_app_desc">Якщо ви приберете цей додаток з прихованих, він знову буде видимим для системи та інших додатків.</string>
     <string name="hide_app_desc">Якщо ви приховаєте цей додаток, він не буде видимим для системи та інших додатків, і вони можуть не працювати належним чином. Майте на увазі, що приховування додатка збереже його дані. Приховуючи, ви вимикаєте цей додаток та ховаєте його на своєму пристрої.</string>
     <string name="advanced_battery_preference_summary_google">Використовувати графік використання батареї як на телефонах Pixel</string>
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">Сповіщення під час дзвінка</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">Звуки NFC</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Активний дисплей</string>
+    <string name="doze_enabled_summary">Чи вмикати функціонал пакету doze</string>
 </resources>
