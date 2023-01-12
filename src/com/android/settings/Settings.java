@@ -488,6 +488,7 @@ public class Settings extends SettingsActivity {
     public static class EvolutionSettingsActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
     public static class SmartPixelsActivity extends SettingsActivity {}
+    public static class WirelessDebuggingActivity extends SettingsActivity { /* empty */ }
 
     /**
      * Activity for PreviouslyConnectedDeviceDashboardFragment
