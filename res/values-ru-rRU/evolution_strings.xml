@@ -312,6 +312,7 @@
     <string name="volume_button_quick_mute_delay_title">Задержка перед активацией управления воспроизведением</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Тип вибрации при звонке</string>
+    <string name="notification_vibration_pattern_title">Шаблон вибрации уведомлений</string>
     <string name="pattern_dzzz_dzzz">дззз-дззз</string>
     <string name="pattern_dzzz_da">дззз-да</string>
     <string name="pattern_mm_mm_mm">мм-мм-мм</string>
@@ -325,6 +326,11 @@
     <string name="notification_custom_vibrate_summary">Заменяет только шаблон по умолчанию\nШаблон набора приложений имеет приоритет</string>
     <string name="notification_custom_vibrate_slider1">Вибрация для</string>
     <string name="notification_custom_vibrate_slider2">Пауза для</string>
+    <!-- Per-channel torch blinking -->
+    <string name="default_notification_torch_title">Мигание фонариком</string>
+    <string name="default_notification_torch_summary">Мигайте фонариком камеры при получении уведомлений</string>
+    <string name="default_notification_torch_slider1">Время мигания</string>
+    <string name="default_notification_torch_slider2">Частота мигания</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Показывать окно буфера обмена</string>
     <string name="show_clipboard_overlay_summary">Показывать содержимое буфера обмена в левом нижнем углу экрана, когда что-то копируется в буфер</string>
@@ -347,6 +353,8 @@
     <string name="volume_button_music_control_title">Управление воспроизведением</string>
     <string name="volume_button_music_control_summary">Когда экран выключен, длительное нажатие клавиш регулировки громкости переключает музыкальные треки</string>
     <string name="gesture_playback_control_delay">задержка</string>
+    <string name="unit_hz">Гц</string>
+    <string name="unit_times">Время</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Пользовательское разрешение экрана</string>
     <!-- Battery stats reset -->
@@ -376,4 +384,11 @@
     <string name="unhide_app_desc">Если вы включите это приложение, оно будет снова видно для Android и других приложений.</string>
     <string name="hide_app_desc">Если вы скрываете это приложение, оно не будет видно для Android и других приложений, и оно может не работать, как это нужно. Имейте в виду, скрытие приложения сохраняет его данные. Выключив это приложение и скрыв его на вашем устройстве.</string>
     <string name="advanced_battery_preference_summary_google">Использовать график использования батареи Pixel</string>
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">Уведомления при звонке</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">Звуки NFC</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient Display</string>
+    <string name="doze_enabled_summary">Включить ли функциональность пакета doze</string>
 </resources>
