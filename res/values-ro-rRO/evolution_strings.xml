@@ -266,25 +266,6 @@
     <string name="battery_charge_cycles">Cicluri de încărcare finalizate</string>
     <string name="high_power_apps_summary">Optimizare baterie per-aplicație</string>
     <!-- Private DNS Providers -->
-    <!-- Random Evolver summaries -->
-    <string name="random_summary_2">Bine ai venit la Eve of Evolution</string>
-    <string name="random_summary_3">Continuați Evoluția dispozitivului</string>
-    <string name="random_summary_4">Începeți evoluția dispozitivului cu caracteristicile noastre</string>
-    <string name="random_summary_5">Evoluția este un mister</string>
-    <string name="random_summary_6">Nu doar orice ROM, acesta este Evolution X!</string>
-    <string name="random_summary_7">Cei care urăsc o să urască, Evo o să ”coace”</string>
-    <string name="random_summary_8">Trăind în paradisul unui gangsta</string>
-    <string name="random_summary_9">Continuați să mergeți înainte</string>
-    <string name="random_summary_12">Eram un fulger înainte de tunet</string>
-    <string name="random_summary_15">Tiramisu are un gust frumos</string>
-    <string name="random_summary_16">13 poate fi și norocos</string>
-    <string name="random_summary_18">Viața nu este întotdeauna pixeli și curcubeu</string>
-    <string name="random_summary_19">Tot Android, doar mai bun</string>
-    <string name="random_summary_20">Ricers, vă rugăm să mergeți la cea mai apropiată ieșire</string>
-    <string name="random_summary_21">Apelând șoferul BMW-ului negru...</string>
-    <string name="random_summary_24">Recunoaște-ne!</string>
-    <string name="random_summary_25">Știm că suntem numiți după un Mitsubishi</string>
-    <string name="random_summary_26">Este timpul pentru bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Setări de rotire</string>
     <string name="display_rotation_enabled">Rotire automată activată</string>
@@ -306,10 +287,6 @@
     <string name="notification_battery_charge_level_silent">Silențios</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Atingeți pentru a afișa informații</string>
-    <!-- Quick Mute -->
-    <string name="quick_mute_title">Silențios rapid</string>
-    <string name="volume_button_quick_mute_category_title">Apăsarea lungă a tastei de reducere a volumului va dezactiva fluxul de volum activ</string>
-    <string name="volume_button_quick_mute_delay_title">Întârziere activare control redare</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Model vibrație sonerie</string>
     <string name="notification_vibration_pattern_title">Model vibrație notificare</string>
