@@ -266,25 +266,6 @@
     <string name="battery_charge_cycles">Cycles de charge complets</string>
     <string name="high_power_apps_summary">Optimisation de la batterie par application</string>
     <!-- Private DNS Providers -->
-    <!-- Random Evolver summaries -->
-    <string name="random_summary_2">Bienvenue à la veille de l\'évolution</string>
-    <string name="random_summary_3">Il est temps de continuer à faire Évoluer votre appareil</string>
-    <string name="random_summary_4">Commencez à faire évoluer votre appareil avec nos fonctionnalités</string>
-    <string name="random_summary_5">L\'évolution est un mystère</string>
-    <string name="random_summary_6">Pas n\'importe quelle ROM, c\'est Evolution X!</string>
-    <string name="random_summary_7">Les haineux continueront de détester, EvoX continuera de cuisiner</string>
-    <string name="random_summary_8">Vivre dans un paradis de gangsta</string>
-    <string name="random_summary_9">Continuez à aller de l\'avant</string>
-    <string name="random_summary_12">Nous éclairions déjà avant le tonnerre</string>
-    <string name="random_summary_15">Tiramisu a vraiment un bon goût</string>
-    <string name="random_summary_16">Le numéro 13 peut aussi porter chance</string>
-    <string name="random_summary_18">La vie n\'est pas toujours faite de pixels et d\'arc-en-ciel</string>
-    <string name="random_summary_19">Toujours Android, juste mieux</string>
-    <string name="random_summary_20">Ricers, veuillez vous diriger vers la sortie la plus proche</string>
-    <string name="random_summary_21">Paginer le pilote de la BMW noire...</string>
-    <string name="random_summary_24">Reconnaissez-nous !</string>
-    <string name="random_summary_25">Nous savons que nous sommes nommés d\'après un Mitsubishi</string>
-    <string name="random_summary_26">Il est temps de rédémarrer en boucle !</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Paramètres de rotation</string>
     <string name="display_rotation_enabled">La rotation automatique est activée</string>
@@ -306,10 +287,6 @@
     <string name="notification_battery_charge_level_silent">Muet</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Appuyez pour afficher les informations</string>
-    <!-- Quick Mute -->
-    <string name="quick_mute_title">Couper le son</string>
-    <string name="volume_button_quick_mute_category_title">Un appui long sur la touche de volume vers le bas rendra muet le flux de volume actif</string>
-    <string name="volume_button_quick_mute_delay_title">Délai d\'activation du contrôle de lecture</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Modèle de vibration de la sonnerie</string>
     <string name="notification_vibration_pattern_title">Modèle de vibration des notifications</string>
