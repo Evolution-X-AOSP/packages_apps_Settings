@@ -208,7 +208,7 @@
     <!-- Ringer mode mute speaker media -->
     <string name="use_ringer_mute_speaker_media_title">Use o modo silencioso para pausar músicas</string>
     <string name="ringer_mute_speaker_media_title">Silencioso/Pausar música</string>
-    <string name="ringer_mute_text">Silenciar o volume da mídia quando o toque estiver definido como silencioso. Quando desconectado de um dispositivo bluetooth no modo silencioso o volume de mídia será silenciado automaticamente. Isto não afetará fones e periféricos de som externos.</string>
+    <string name="ringer_mute_text">Silenciar o volume da mídia quando o toque estiver definido como silencioso. Quando desconectado de um dispositivo bluetooth no modo silencioso, o volume de mídia será silenciado automaticamente. Isto não afetará fones e periféricos de som externos.</string>
     <!-- 0 timeout for smart pause while using silent to mute-->
     <string name="mute_sp_title">Não resumir a mídia após desativar o modo silencioso</string>
     <string name="mute_sp_summary">Defina o tempo de parada automática para \"0\" ao silenciar o dispositivo, para evitar a reprodução acidental de mídias.(Isto será automaticamente revertido ao desmutar se houver um limite de tempo personalizado)</string>
