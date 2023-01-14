@@ -266,6 +266,25 @@
     <string name="battery_charge_cycles">Cycles de charge complets</string>
     <string name="high_power_apps_summary">Optimisation de la batterie par application</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Bienvenue à la veille de l\'évolution</string>
+    <string name="random_summary_3">Poursuivez l\'évolution de votre appareil</string>
+    <string name="random_summary_4">Commencez à faire évoluer votre appareil avec nos fonctionnalités</string>
+    <string name="random_summary_5">L\'évolution est un mystère</string>
+    <string name="random_summary_6">Pas n\'importe quelle ROM, c\'est Evolution X !</string>
+    <string name="random_summary_7">Les haineux continueront de détester, EvoX continuera de cuisiner</string>
+    <string name="random_summary_8">Vivre dans un paradis de gangsta</string>
+    <string name="random_summary_9">Continuez d\'aller de l\'avant</string>
+    <string name="random_summary_12">Nous éclairions déjà avant le tonnerre</string>
+    <string name="random_summary_15">Tiramisu a vraiment un bon goût</string>
+    <string name="random_summary_16">Le numéro 13 peut aussi porter chance</string>
+    <string name="random_summary_18">La vie n\'est pas toujours faite de pixels et d\'arc-en-ciel</string>
+    <string name="random_summary_19">Toujours Android, juste mieux</string>
+    <string name="random_summary_20">Ricers, veuillez vous diriger vers la sortie la plus proche</string>
+    <string name="random_summary_21">Paginer le pilote de la BMW noire...</string>
+    <string name="random_summary_24">Reconnaissez-nous !</string>
+    <string name="random_summary_25">Nous savons que nous sommes nommés d\'après un Mitsubishi</string>
+    <string name="random_summary_26">Il est temps de rédémarrer en boucle !</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Paramètres de rotation</string>
     <string name="display_rotation_enabled">La rotation automatique est activée</string>
@@ -368,4 +387,32 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Affichage ambiant</string>
     <string name="doze_enabled_summary">Activer ou non la fonctionnalité du paquet doze</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Mode veille</string>
+    <string name="sleep_mode_summary_on">Activé / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Désactivé / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Mode de sonnerie</string>
+    <string name="sleep_mode_ringer_off_title">Ne pas modifier</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibreur</string>
+    <string name="sleep_mode_ringer_dnd_title">Ne pas déranger</string>
+    <string name="sleep_mode_ringer_silent_title">Muet</string>
+    <string name="sleep_mode_schedule_sunset">Coucher du soleil</string>
+    <string name="sleep_mode_schedule_sunrise">Lever du soleil</string>
+    <string name="sleep_mode_schedule_mixed_sunset">S\'allume dès le coucher du soleil jusqu\'à une certaine heure</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">S\'allume à une certaine heure jusqu\'au lever du soleil</string>
+    <string name="sleep_mode_toggles_title">Activer/désactiver</string>
+    <string name="sleep_mode_wifi_toggle_title">Désactiver le Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Désactiver le Wi-Fi lorsque le mode veille est activé</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Désactiver le bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Désactiver le Bluetooth lorsque le mode veille est activé</string>
+    <string name="sleep_mode_cellular_toggle_title">Désactiver les données mobiles</string>
+    <string name="sleep_mode_cellular_toggle_summary">Désactiver les données mobiles lorsque le mode veille est activé</string>
+    <string name="sleep_mode_location_toggle_title">Désactiver la localisation</string>
+    <string name="sleep_mode_location_toggle_summary">Désactiver la localisation lorsque le mode veille est activé</string>
+    <string name="sleep_mode_sensors_toggle_title">Désactiver les capteurs</string>
+    <string name="sleep_mode_sensors_toggle_summary">Désactiver les capteurs lorsque le mode veille est activé</string>
+    <string name="sleep_mode_display_text">Le mode Veille vous permet de désactiver certains services pour économiser de la batterie et couper le son de votre téléphone pendant que vous dormez.</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Modifier le fournisseur de sauvegarde</string>
+    <string name="backup_transport_title">Sélectionner un fournisseur de sauvegarde</string>
 </resources>
