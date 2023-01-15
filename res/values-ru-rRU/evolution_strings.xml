@@ -266,6 +266,25 @@
     <string name="battery_charge_cycles">Количество полных циклов заряда</string>
     <string name="high_power_apps_summary">Оптимизация батареи для каждого приложения</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Добро пожаловать в эпоху эволюции</string>
+    <string name="random_summary_3">Время продолжить эволюцию вашего устройства!</string>
+    <string name="random_summary_4">Начни развивать своё устройство с нашими функциями</string>
+    <string name="random_summary_5">Эволюция - это загадка...</string>
+    <string name="random_summary_6">Это не просто прошивка, это - Evolution X!</string>
+    <string name="random_summary_7">Хейтеры будут ненавидеть, но Evo будет всегда впереди</string>
+    <string name="random_summary_8">Living in a gangsta\'s paradise</string>
+    <string name="random_summary_9">Продолжай двигаться только вперёд</string>
+    <string name="random_summary_12">Мы были молнией перед громом</string>
+    <string name="random_summary_15">Тирамису действительно вкусный</string>
+    <string name="random_summary_16">13 - тоже может повезти</string>
+    <string name="random_summary_18">Жизнь - не всегда пиксели и радуга</string>
+    <string name="random_summary_19">Все еще Android, просто лучше</string>
+    <string name="random_summary_20">Ричерс, пожалуйста, пройдите к ближайшему выходу</string>
+    <string name="random_summary_21">Вызываю водителя черного BMW...</string>
+    <string name="random_summary_24">Признайте нас!</string>
+    <string name="random_summary_25">Мы знаем, что названы в честь Mitsubishi</string>
+    <string name="random_summary_26">Время бутлупов!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Настройки поворота</string>
     <string name="display_rotation_enabled">Автоповорот включён</string>
@@ -368,4 +387,32 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambient Display</string>
     <string name="doze_enabled_summary">Включить ли функциональность пакета doze</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Режим сна</string>
+    <string name="sleep_mode_summary_on">Вкл / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Выкл / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Режим звонка</string>
+    <string name="sleep_mode_ringer_off_title">Не изменять</string>
+    <string name="sleep_mode_ringer_vibrate_title">Вибрация</string>
+    <string name="sleep_mode_ringer_dnd_title">Не беспокоить</string>
+    <string name="sleep_mode_ringer_silent_title">Без звука</string>
+    <string name="sleep_mode_schedule_sunset">Закат</string>
+    <string name="sleep_mode_schedule_sunrise">Рассвет</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Включается с момента заката до заданного времени</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Включается с заданного времени до восхода солнца</string>
+    <string name="sleep_mode_toggles_title">Плитки</string>
+    <string name="sleep_mode_wifi_toggle_title">Выключить Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Отключить Wi-Fi при включенном спящем режиме</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Выключить Blueooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Отключать Bluetooth в спящем режиме</string>
+    <string name="sleep_mode_cellular_toggle_title">Выключить передачу мобильных данных</string>
+    <string name="sleep_mode_cellular_toggle_summary">Отключить передачу мобильных данных, когда включен спящий режим</string>
+    <string name="sleep_mode_location_toggle_title">Выключать определение местоположения</string>
+    <string name="sleep_mode_location_toggle_summary">Отключать определение местоположения в спящем режиме</string>
+    <string name="sleep_mode_sensors_toggle_title">Выключать датчики</string>
+    <string name="sleep_mode_sensors_toggle_summary">Отключить датчики, когда включен спящий режим</string>
+    <string name="sleep_mode_display_text">Спящий режим позволяет отключить некоторые службы для экономии заряда батареи и отключения звука телефона во время сна.</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Сменить поставщика услуг резервного копирования</string>
+    <string name="backup_transport_title">Выберите поставщика услуг резервного копирования</string>
 </resources>
