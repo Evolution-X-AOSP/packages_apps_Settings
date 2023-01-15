@@ -266,6 +266,25 @@
     <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
     <string name="high_power_apps_summary">Optymalizacja baterii dla poszczególnych aplikacji</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Witaj w Evolution</string>
+    <string name="random_summary_3">Kontynuuj z Evolution na tym urządzeniu</string>
+    <string name="random_summary_4">Rozpocznij ewolucję na Twoim urządzeniu z naszymi funkcjami</string>
+    <string name="random_summary_5">Ewolucja jest tajemnicą</string>
+    <string name="random_summary_6">To nie jest zwykłe oprogramowanie, to Evolution X!</string>
+    <string name="random_summary_7">Hejterzy hejtują, a użytkownicy ego oprogramowania są szczęśliwi</string>
+    <string name="random_summary_8">Żyj w raju</string>
+    <string name="random_summary_9">Nie przestawaj iść do przodu</string>
+    <string name="random_summary_12">Byliśmy błyskawicą przed grzmotem</string>
+    <string name="random_summary_15">Tiramisu naprawdę dobrze smakuje</string>
+    <string name="random_summary_16">13. może również być szczęśliwa</string>
+    <string name="random_summary_18">Życie nie zawsze jest usłane różami</string>
+    <string name="random_summary_19">To nadal Android, po prostu lepszy</string>
+    <string name="random_summary_20">Rycerze są proszeni do najbliższego wyjścia</string>
+    <string name="random_summary_21">Wzywanie kierowcy czarnego BMW...</string>
+    <string name="random_summary_24">Zaakceptuj nas!</string>
+    <string name="random_summary_25">Jesteśmy świadomi, że nazywa się nas Mitsubishi</string>
+    <string name="random_summary_26">Czas na bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Ustawienia obracania</string>
     <string name="display_rotation_enabled">Autoobracanie jest włączone</string>
@@ -368,4 +387,32 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ekran dostosowany do otoczenia</string>
     <string name="doze_enabled_summary">Czy włączyć funkcję paczki drzemki</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Tryb uśpienia</string>
+    <string name="sleep_mode_summary_on">Wł / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Wył / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Tryb dzwonka</string>
+    <string name="sleep_mode_ringer_off_title">Nie powiadamiaj</string>
+    <string name="sleep_mode_ringer_vibrate_title">Wibracje</string>
+    <string name="sleep_mode_ringer_dnd_title">Nie przeszkadzać</string>
+    <string name="sleep_mode_ringer_silent_title">Wyciszenie</string>
+    <string name="sleep_mode_schedule_sunset">Zachód słońca</string>
+    <string name="sleep_mode_schedule_sunrise">Wschód słońca</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Włączanie od zachodu słońca do ustalonego czasu</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Włącz od ustalonego czasu do wschodu słońca</string>
+    <string name="sleep_mode_toggles_title">Przełączniki</string>
+    <string name="sleep_mode_wifi_toggle_title">Wyłącz Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Wyłącz Wi-Fi, gdy Tryb uśpienia jest włączony</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Wyłącz Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Wyłącz Bluetooth, gdy Tryb uśpienia jest włączony</string>
+    <string name="sleep_mode_cellular_toggle_title">Wyłącz mobilną transmisję danych</string>
+    <string name="sleep_mode_cellular_toggle_summary">Wyłącz mobilną transmisję danych, gdy Tryb uśpienia jest włączony</string>
+    <string name="sleep_mode_location_toggle_title">Wyłącz lokalizację</string>
+    <string name="sleep_mode_location_toggle_summary">Wyłącz lokalizację, gdy Tryb uśpienia jest włączony</string>
+    <string name="sleep_mode_sensors_toggle_title">Wyłącz czujniki</string>
+    <string name="sleep_mode_sensors_toggle_summary">Wyłącz czujniki, gdy Tryb uśpienia jest włączony</string>
+    <string name="sleep_mode_display_text">Tryb uśpienia pozwala wyłączyć niektóre usługi, aby pomóc oszczędzać baterię i wyciszyć telefon, kiedy śpisz.</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Zmień dostawcę kopii zapasowej</string>
+    <string name="backup_transport_title">Wybierz dostawcę kopii zapasowej</string>
 </resources>
