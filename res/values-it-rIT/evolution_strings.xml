@@ -262,10 +262,29 @@
     <string name="build_status">Stato di compilazione</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Capacità massima attuale</string>
-    <string name="designed_battery_capacity">Capacità massima</string>
-    <string name="battery_charge_cycles">Cicli di ricarica completati</string>
+    <string name="designed_battery_capacity">Capacità nominale</string>
+    <string name="battery_charge_cycles">Cicli di ricarica completi</string>
     <string name="high_power_apps_summary">Ottimizzazione batteria per app</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Benvenuto alla vigilia dell\'evoluzione</string>
+    <string name="random_summary_3">Continua l\'evoluzione del tuo dispositivo</string>
+    <string name="random_summary_4">Inizia ad evolvere il tuo dispositivo con le nostre funzionalità</string>
+    <string name="random_summary_5">L\'evoluzione è un mistero</string>
+    <string name="random_summary_6">Non una ROM qualsiasi, questa è Evolution X!</string>
+    <string name="random_summary_7">Rosiconi, alla larga da Evolution</string>
+    <string name="random_summary_8">Vivere nel paradiso dei gangster</string>
+    <string name="random_summary_9">Continua ad andare avanti</string>
+    <string name="random_summary_12">Eravamo fulmini prima del tuono</string>
+    <string name="random_summary_15">Il tiramisù ha davvero un buon sapore</string>
+    <string name="random_summary_16">Il 13 può anche essere fortunato</string>
+    <string name="random_summary_18">La vita non è sempre pixel e arcobaleni</string>
+    <string name="random_summary_19">Ancora Android, solo meglio</string>
+    <string name="random_summary_20">Ricers, procedete fino all\'uscita più vicina</string>
+    <string name="random_summary_21">Cercando il conducente della BMW nera...</string>
+    <string name="random_summary_24">Riconoscici!</string>
+    <string name="random_summary_25">Sappiamo di prendere il nome da una Mitsubishi</string>
+    <string name="random_summary_26">È tempo di bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Impostazioni rotazione</string>
     <string name="display_rotation_enabled">La rotazione automatica è attivata</string>
@@ -338,7 +357,7 @@
     <string name="battery_stats_reset">Ripristinare le statistiche?</string>
     <string name="battery_stats_message">I dati di utilizzo della batteria andranno persi</string>
     <!-- Battery temperature -->
-    <string name="battery_temp">Temperatura batteria</string>
+    <string name="battery_temp">Temperatura</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animazione gesto indietro</string>
     <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto indietro</string>
@@ -368,4 +387,32 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambient Display</string>
     <string name="doze_enabled_summary">Indica se abilitare la funzionalità del pacchetto doze</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modalità sonno</string>
+    <string name="sleep_mode_summary_on">Attivata / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Disattivata / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modalità suoneria</string>
+    <string name="sleep_mode_ringer_off_title">Non cambiare</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrazione</string>
+    <string name="sleep_mode_ringer_dnd_title">Non disturbare</string>
+    <string name="sleep_mode_ringer_silent_title">Silenzioso</string>
+    <string name="sleep_mode_schedule_sunset">Tramonto</string>
+    <string name="sleep_mode_schedule_sunrise">Alba</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Si attiva dal tramonto a un dato orario</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Si attiva da un dato orario fino all\'alba</string>
+    <string name="sleep_mode_toggles_title">Attiva/disattiva</string>
+    <string name="sleep_mode_wifi_toggle_title">Disattiva Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disabilita il Wi-Fi quando la modalità sonno è attiva</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Disattiva il Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disabilita il Bluetooth quando la modalità sonno è attiva</string>
+    <string name="sleep_mode_cellular_toggle_title">Disattiva i dati mobili</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disabilita i dati mobili quando la modalità sonno è attivata</string>
+    <string name="sleep_mode_location_toggle_title">Disattiva la posizione</string>
+    <string name="sleep_mode_location_toggle_summary">Disabilita la posizione quando la modalità sonno è attiva</string>
+    <string name="sleep_mode_sensors_toggle_title">Disattiva i sensori</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disabilita i sensori quando la modalità sonno è attiva</string>
+    <string name="sleep_mode_display_text">La modalità sonno consente di disattivare alcuni servizi per risparmiare batteria e silenziare il telefono mentre dormi.</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Cambia gestore di backup</string>
+    <string name="backup_transport_title">Seleziona un gestore di backup</string>
 </resources>
