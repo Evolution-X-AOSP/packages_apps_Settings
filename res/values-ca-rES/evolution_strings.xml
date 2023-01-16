@@ -415,4 +415,13 @@
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Canvia el proveïdor de còpies de seguretat</string>
     <string name="backup_transport_title">Seleccioneu el proveïdor de còpia de seguretat</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Equilibri de color</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Intensitat de vermell</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Intensitat de verd</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Intensitat de blau</string>
+    <string name="keywords_color_balance">color, equilibri de color, correcció de color, vermell, verd, blau, LiveDisplay</string>
 </resources>
