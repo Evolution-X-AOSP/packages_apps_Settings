@@ -266,6 +266,25 @@
     <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
     <string name="high_power_apps_summary">Otimização de bateria por app</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Bem-vindo ao início da Evolução</string>
+    <string name="random_summary_3">Continue a Evolução do seu dispositivo</string>
+    <string name="random_summary_4">Comece a evoluir o seu dispositivo com os nossos recursos</string>
+    <string name="random_summary_5">Evolução é um mistério</string>
+    <string name="random_summary_6">Não é uma ROM qualquer, esta é a Evolution X!</string>
+    <string name="random_summary_7">Haters gonna hate, Evo\'s gonna bake</string>
+    <string name="random_summary_8">Living in a gangsta\'s paradise</string>
+    <string name="random_summary_9">Continue a seguir em frente</string>
+    <string name="random_summary_12">Fomos o relâmpago antes do trovão</string>
+    <string name="random_summary_15">Tiramisu sabe mesmo bem</string>
+    <string name="random_summary_16">13 também pode ser sorte</string>
+    <string name="random_summary_18">A vida nem sempre é pixeis e arco-íris</string>
+    <string name="random_summary_19">Ainda Android, mas melhor</string>
+    <string name="random_summary_20">Ricers, por favor dirijam-se à saída mais próxima</string>
+    <string name="random_summary_21">Contactando o motorista do BMW preto...</string>
+    <string name="random_summary_24">Reconheça-nos!</string>
+    <string name="random_summary_25">Sabemos que temos o nome dum Mitsubishi</string>
+    <string name="random_summary_26">É hora de bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Definições de rotação</string>
     <string name="display_rotation_enabled">A rotação automática está ativada</string>
@@ -368,4 +387,41 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ecrã ambiente</string>
     <string name="doze_enabled_summary">Se habilitar a funcionalidade de pacote Doze</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modo de suspensão</string>
+    <string name="sleep_mode_summary_on">Ligado / <xliff:g name="auto_mode_summary" example="Nunca desligar automaticamente">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Desligado / <xliff:g name="auto_mode_summary" example="Nunca ligar automaticamente">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modo de toque</string>
+    <string name="sleep_mode_ringer_off_title">Não alterar</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="sleep_mode_ringer_dnd_title">Não incomodar</string>
+    <string name="sleep_mode_ringer_silent_title">Silencioso</string>
+    <string name="sleep_mode_schedule_sunset">Pôr do sol</string>
+    <string name="sleep_mode_schedule_sunrise">Nascer do sol</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Ligar do pôr do sol até um tempo determinado</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Ligar duma hora determinada até ao amanhecer</string>
+    <string name="sleep_mode_toggles_title">Opções</string>
+    <string name="sleep_mode_wifi_toggle_title">Desligar Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Desativar Wi-Fi quando o modo de sono estiver ativado</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Desligar Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Desativar Bluetooth quando o modo de sono estiver ativado</string>
+    <string name="sleep_mode_cellular_toggle_title">Desligar dados móveis</string>
+    <string name="sleep_mode_cellular_toggle_summary">Desativar dados móveis quando o modo de sono estiver ativado</string>
+    <string name="sleep_mode_location_toggle_title">Desativar a localização</string>
+    <string name="sleep_mode_location_toggle_summary">Desativar localização quando o modo de sono estiver ativado</string>
+    <string name="sleep_mode_sensors_toggle_title">Desativar sensores</string>
+    <string name="sleep_mode_sensors_toggle_summary">Desativar sensores quando o modo de sono estiver ativado</string>
+    <string name="sleep_mode_display_text">O modo de suspensão permite desativar certos serviços para ajudar a poupar bateria e silenciar o seu telefone enquanto dorme.</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Alterar o fornecedor de cópias de segurança</string>
+    <string name="backup_transport_title">Seleccionar o fornecedor de cópias de segurança</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Equilíbrio de cores</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Intensidade de vermelho</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Intensidade de verde</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Intensidade de azul</string>
+    <string name="keywords_color_balance">cor, equilíbrio de cores, correção de cor, vermelho, verde, azul, modo de visualização</string>
 </resources>
