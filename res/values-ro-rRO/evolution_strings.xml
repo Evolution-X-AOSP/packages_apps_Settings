@@ -266,6 +266,25 @@
     <string name="battery_charge_cycles">Cicluri de încărcare finalizate</string>
     <string name="high_power_apps_summary">Optimizare baterie per-aplicație</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Bine ai venit la Eve of Evolution</string>
+    <string name="random_summary_3">Continuă evoluția dispozitivului</string>
+    <string name="random_summary_4">Începeți evoluția dispozitivului cu caracteristicile noastre</string>
+    <string name="random_summary_5">Evoluția este un mister</string>
+    <string name="random_summary_6">Nu doar orice ROM, acesta este Evolution X!</string>
+    <string name="random_summary_7">Cei care urăsc o să urască, Evo o să ”coace”</string>
+    <string name="random_summary_8">Trăind în paradisul unui gangsta</string>
+    <string name="random_summary_9">Continuați să mergeți înainte</string>
+    <string name="random_summary_12">Eram un fulger înainte de tunet</string>
+    <string name="random_summary_15">Tiramisu are un gust frumos</string>
+    <string name="random_summary_16">13 poate fi și norocos</string>
+    <string name="random_summary_18">Viața nu este întotdeauna pixeli și curcubeu</string>
+    <string name="random_summary_19">Tot Android, doar mai bun</string>
+    <string name="random_summary_20">Ricers, vă rugăm să mergeți la cea mai apropiată ieșire</string>
+    <string name="random_summary_21">Apelând șoferul BMW-ului negru...</string>
+    <string name="random_summary_24">Recunoaște-ne!</string>
+    <string name="random_summary_25">Știm că suntem numiți după un Mitsubishi</string>
+    <string name="random_summary_26">Este timpul pentru bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Setări de rotire</string>
     <string name="display_rotation_enabled">Rotire automată activată</string>
@@ -368,4 +387,41 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Afișaj ambiental</string>
     <string name="doze_enabled_summary">Dacă să fie activată funcționalitatea pachetului doze</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modul suspendare</string>
+    <string name="sleep_mode_summary_on">Pornit / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Oprit / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Mod sonerie</string>
+    <string name="sleep_mode_ringer_off_title">Nu se schimbă</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrații</string>
+    <string name="sleep_mode_ringer_dnd_title">Nu deranjați</string>
+    <string name="sleep_mode_ringer_silent_title">Silențios</string>
+    <string name="sleep_mode_schedule_sunset">Apus</string>
+    <string name="sleep_mode_schedule_sunrise">Răsărit</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Pornește de la apus la un timp personalizat</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Pornește de la un timp personalizat la răsărit</string>
+    <string name="sleep_mode_toggles_title">Comutare</string>
+    <string name="sleep_mode_wifi_toggle_title">Dezactivare Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Dezactivează Wi-Fi când modul suspendare este pornit</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Dezactivare Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Dezactivează Bluetooth când modul suspendare este pornit</string>
+    <string name="sleep_mode_cellular_toggle_title">Dezactivare date mobile</string>
+    <string name="sleep_mode_cellular_toggle_summary">Dezactivează datele mobile atunci când este activat modul suspendare</string>
+    <string name="sleep_mode_location_toggle_title">Dezactivare locație</string>
+    <string name="sleep_mode_location_toggle_summary">Dezactivează locația când modul suspendare este pornit</string>
+    <string name="sleep_mode_sensors_toggle_title">Oprește senzorii</string>
+    <string name="sleep_mode_sensors_toggle_summary">Dezactivează senzorii când modul suspendare este pornit</string>
+    <string name="sleep_mode_display_text">Modul suspendare permite dezactivarea anumitor servicii pentru a ajuta la economisirea bateriei și pentru a opri telefonul în timp ce dormiți.</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Schimbă furnizorul de backup</string>
+    <string name="backup_transport_title">Selectați furnizorul de backup</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Echilibru de culoare</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Intensitate roșu</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Intensitate verde</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Intensitate albastru</string>
+    <string name="keywords_color_balance">culoare, balans culoare, corectarea culorilor, roșu, verde, albastru, LiveDisplay</string>
 </resources>
