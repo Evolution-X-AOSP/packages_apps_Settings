@@ -266,6 +266,25 @@
     <string name="battery_charge_cycles">充电周期已完成</string>
     <string name="high_power_apps_summary">每个应用的电池优化</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">欢迎来到进化之路</string>
+    <string name="random_summary_3">继续进化您的设备</string>
+    <string name="random_summary_4">开始以我们的功能进化你的设备</string>
+    <string name="random_summary_5">进化的神秘</string>
+    <string name="random_summary_6">这是 Evolution X</string>
+    <string name="random_summary_7">平静的进化</string>
+    <string name="random_summary_8">生活在进化的世界</string>
+    <string name="random_summary_9">迈步向前</string>
+    <string name="random_summary_12">雷鸣前夕之光</string>
+    <string name="random_summary_15">提拉米苏的美好</string>
+    <string name="random_summary_16">13 ，一个幸运数字</string>
+    <string name="random_summary_18">生命将丰富多彩</string>
+    <string name="random_summary_19">永远的 Android，愈发美好</string>
+    <string name="random_summary_20">若心有住，则为非住</string>
+    <string name="random_summary_21">单丝不成线，独木不成林。</string>
+    <string name="random_summary_24">致谢彼此</string>
+    <string name="random_summary_25">远方之名</string>
+    <string name="random_summary_26">起航之时</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">旋转设置</string>
     <string name="display_rotation_enabled">自动旋转已启用</string>
@@ -368,4 +387,41 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">环境显示</string>
     <string name="doze_enabled_summary">是否启用 Doze 软件包功能</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">睡眠模式</string>
+    <string name="sleep_mode_summary_on">开启 / <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">关闭 / <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">响铃模式</string>
+    <string name="sleep_mode_ringer_off_title">不要更改</string>
+    <string name="sleep_mode_ringer_vibrate_title">振动</string>
+    <string name="sleep_mode_ringer_dnd_title">勿扰模式</string>
+    <string name="sleep_mode_ringer_silent_title">静音</string>
+    <string name="sleep_mode_schedule_sunset">日落</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">从日落开启到某一时间关闭</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">从某一时间开启到日出关闭</string>
+    <string name="sleep_mode_toggles_title">快捷开关</string>
+    <string name="sleep_mode_wifi_toggle_title">关闭 WiFi</string>
+    <string name="sleep_mode_wifi_toggle_summary">开启睡眠模式时禁用WiFi</string>
+    <string name="sleep_mode_bluetooth_toggle_title">禁用蓝牙</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">开启睡眠模式时禁用蓝牙</string>
+    <string name="sleep_mode_cellular_toggle_title">关闭移动数据</string>
+    <string name="sleep_mode_cellular_toggle_summary">开启睡眠模式时禁用移动数据</string>
+    <string name="sleep_mode_location_toggle_title">关闭位置信息</string>
+    <string name="sleep_mode_location_toggle_summary">开启睡眠模式时禁用位置信息</string>
+    <string name="sleep_mode_sensors_toggle_title">关闭传感器</string>
+    <string name="sleep_mode_sensors_toggle_summary">开启睡眠模式时禁用传感器</string>
+    <string name="sleep_mode_display_text">睡眠模式允许您禁用某些服务以帮助在您睡觉时节省电量并静音您的手机</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">更改备份提供商</string>
+    <string name="backup_transport_title">选择备份提供商</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">色彩平衡</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">红色增强</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">绿色增强</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">蓝色增强</string>
+    <string name="keywords_color_balance">颜色、颜色平衡、颜色校正、红色、绿色、蓝色、增强显示</string>
 </resources>
