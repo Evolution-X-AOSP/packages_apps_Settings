@@ -415,4 +415,13 @@
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Alterar provedor de backup</string>
     <string name="backup_transport_title">Selecione o provedor de backup</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Balanço de cores</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Vermelho</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Verde</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Azul</string>
+    <string name="keywords_color_balance">cor, equilíbrio de cores, correção de cores, vermelho, verde, azul, LiveDisplay</string>
 </resources>
