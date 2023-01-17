@@ -77,7 +77,7 @@
     <string name="lock_settings_picker_pattern_size_message">Größe des Musters auswählen</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Sperrmuster-Fehler anzeigen</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Entsperrmuster-Punkte anzeigen</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
@@ -109,9 +109,9 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Geräten erlauben, VPNs zu verwenden</string>
     <string name="tethering_allow_vpn_upstreams_summary">Erlaube Hotspot-Clients, die VPN-Verbindung dieses Gerätes\u2019 für ausgehende Verbindungen zu nutzen</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_title">Hintergrundbild-Zoom-Effekt</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_summary">Vergrößert das Hintergrundbild, um eine Tiefen-Animation zu zeigen. Die Qualität des Hintergrundbildes kann sich verschlechtern</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">WLAN automatisch ausschalten</string>
@@ -119,9 +119,9 @@
     <string name="wifi_timeout_summary">WLAN nach einer festgelegten Zeit automatisch ausschalten.</string>
     <string name="wifi_timeout_summary1">WLAN wird nach <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, sofern kein Netzwerk verbunden ist</string>
     <string name="wifi_timeout_summary2">Deaktiviert</string>
-    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option name to change Bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth automatisch ausschalten</string>
-    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change Bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth wird <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, wenn kein Gerät verbunden ist</string>
     <string name="bluetooth_timeout_summary2">Bluetooth nie automatisch ausschalten</string>
     <!-- High touch sensitivity -->
@@ -179,7 +179,7 @@
     <string name="color_red_title">Rot</string>
     <string name="color_green_title">Grün</string>
     <string name="color_blue_title">Blau</string>
-    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay: Picture Adjustment -->
     <string name="picture_adjustment_title">Bildanpassung</string>
     <string name="picture_adjustment_summary">Farbton, Sättigung, Intensität und Kontrast anpassen</string>
     <string name="adj_hue_title">Farbton</string>
@@ -209,7 +209,7 @@
     <string name="use_ringer_mute_speaker_media_title">Medien-Stummschaltung verwenden</string>
     <string name="ringer_mute_speaker_media_title">Medien-Stummschaltung</string>
     <string name="ringer_mute_text">Medienlautstärke stummschalten, wenn der Klingelmodus auf lautlos eingestellt wird. Bei Trennung von einem Bluetooth-Gerät im Lautlos-Modus wird die Medienlautstärke automatisch stummgeschaltet. \nDies wirkt sich nicht auf externe Lautsprecher und Kopfhörer aus.</string>
-    <!-- 0 timeout for smart pause while using silent to mute-->
+    <!-- 0 timeout for Smart Pause while using silent to mute-->
     <string name="mute_sp_title">Medien nach Aufhebung der Stummschaltung nicht fortsetzen</string>
     <string name="mute_sp_summary">Setze die \"Intelligente Pause\"-Wartezeit bei Stummschaltung auf 0, um versehentliche Wiedergabe zu verhindern.\n(Dies wird automatisch bei Aufhebung der Stummschaltung rückgängig gemacht, wenn ein benutzerdefinierter Wartezeit-Wert festgelegt wurde.)</string>
     <!-- Pulse Volume Panel on un/mute media-->
@@ -223,7 +223,7 @@
     <string name="back_height_high_label">Unten</string>
     <string name="back_options_dialog_title">Optionen</string>
     <string name="back_height_message">Bereich der Bildschirmkante, welcher für Zurück-Geste verwendet wird.</string>
-    <!-- Notch: Full screen apps -->
+    <!-- Notch: Full-screen apps -->
     <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
     <string name="display_cutout_force_fullscreen_summary">Zwinge Apps, die Aussparung zu ignorieren</string>
     <string name="search">Suche</string>
@@ -245,7 +245,7 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Gerät nicht mehr blockieren</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Das Gerät \"<xliff:g id="device_name">%1$s</xliff:g>\" wird sich mit diesem Hotspot verbinden können</string>
     <string name="wifi_hotspot_client_manager_footer_text">Derzeit sind keine Clients verfügbar. Verbundene und blockierte Geräte werden hier aufgelistet, wenn sie verfügbar sind.</string>
-    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Warning message displayed if user chooses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Es wird keine private Verbindung hergestellt.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Ton beim Aufladen</string>
@@ -260,12 +260,27 @@
     <string name="enable_floating_rotation_button_title">Schaltfläche zum Drehen verwenden</string>
     <!-- Build status -->
     <string name="build_status">Build‐Status</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Aktuelle Kapazität</string>
-    <string name="designed_battery_capacity">Ursprüngliche Akkukapazität</string>
-    <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
     <string name="high_power_apps_summary">Akku-Optimierung pro App</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Willkommen am Vorabend der Evolution</string>
+    <string name="random_summary_3">Setze die Evolution deines Geräts fort</string>
+    <string name="random_summary_4">Beginne dein Gerät mit unseren Funktionen weiterzuentwickeln</string>
+    <string name="random_summary_5">Evolution ist ein Geheimnis</string>
+    <string name="random_summary_6">Das ist nicht irgendeine ROM, das ist Evolution X!</string>
+    <string name="random_summary_7">Hasser werden hassen, Evo wird backen</string>
+    <string name="random_summary_8">Leben in einem Gangsterparadies</string>
+    <string name="random_summary_9">Weiter vorwärts kommen</string>
+    <string name="random_summary_12">Wir waren der Blitz, bevor der Donner kam</string>
+    <string name="random_summary_15">Tiramisu schmeckt wirklich gut</string>
+    <string name="random_summary_16">13 kann auch Glück bedeuten</string>
+    <string name="random_summary_18">Das Leben besteht nicht immer aus Pixel und Regenbögen</string>
+    <string name="random_summary_19">Immer noch Android, nur besser</string>
+    <string name="random_summary_20">Ricers, bitte begeben Sie sich zum nächsten Ausgang</string>
+    <string name="random_summary_21">Rufe den Fahrer des schwarzen BMW...</string>
+    <string name="random_summary_24">Erkennen Sie uns an!</string>
+    <string name="random_summary_25">Wir sind uns bewusst, dass wir nach einem Mitsubishi benannt sind</string>
+    <string name="random_summary_26">Es ist Zeit für einen Bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Bildschirmausrichtung</string>
     <string name="display_rotation_enabled">Automatische Bildschirmausrichtung ist aktiviert</string>
@@ -369,4 +384,45 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambient-Display</string>
     <string name="doze_enabled_summary">Ob die Funktionalität des Doze-Pakets aktiviert werden soll</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Schlafmodus</string>
+    <string name="sleep_mode_summary_on">An / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Aus / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Klingelmodus</string>
+    <string name="sleep_mode_ringer_off_title">Nicht ändern</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrieren</string>
+    <string name="sleep_mode_ringer_dnd_title">Bitte nicht stören</string>
+    <string name="sleep_mode_ringer_silent_title">Lautlos</string>
+    <string name="sleep_mode_schedule_sunset">Sonnenuntergang</string>
+    <string name="sleep_mode_schedule_sunrise">Sonnenaufgang</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Schaltet sich von Sonnenuntergang bis zu einer benutzerdefinierten Zeit ein</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Schaltet sich von einer benutzerdefinierten Zeit bis zum Sonnenaufgang ein</string>
+    <string name="sleep_mode_toggles_title">Umschalten</string>
+    <string name="sleep_mode_wifi_toggle_title">WLAN ausschalten</string>
+    <string name="sleep_mode_wifi_toggle_summary">WLAN deaktivieren, wenn der Ruhemodus aktiviert ist</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth ausschalten</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Bluetooth deaktivieren, wenn der Ruhemodus aktiviert ist</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobile Daten ausschalten</string>
+    <string name="sleep_mode_cellular_toggle_summary">Mobile Daten deaktivieren, wenn der Ruhemodus aktiviert ist</string>
+    <string name="sleep_mode_location_toggle_title">Standort ausschalten</string>
+    <string name="sleep_mode_location_toggle_summary">Standort deaktivieren, wenn der Ruhemodus aktiviert ist</string>
+    <string name="sleep_mode_sensors_toggle_title">Sensoren ausschalten</string>
+    <string name="sleep_mode_sensors_toggle_summary">Sensoren deaktivieren, wenn der Ruhemodus aktiviert ist</string>
+    <string name="sleep_mode_display_text">Im Ruhemodus können Sie bestimmte Dienste deaktivieren, um den Akku zu schonen und Ihr Telefon im Schlaf leise zu stellen.</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Backup-Anbieter ändern</string>
+    <string name="backup_transport_title">Backup-Anbieter auswählen</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Farbausgleich</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Rot (Stärke)</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Grün (Stärke)</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Blau (Stärke)</string>
+    <string name="keywords_color_balance">Farbe, Farbausgleich, Farbkorrektur, Rot, Grün, Blau, LiveDisplay</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Aktuelle Kapazität</string>
+    <string name="designed_battery_capacity">Ursprüngliche Akkukapazität</string>
+    <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
 </resources>
