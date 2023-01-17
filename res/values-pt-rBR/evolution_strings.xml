@@ -48,7 +48,7 @@
     <string name="adaptive_playback_screen_title">Pausa inteligente</string>
     <string name="adaptive_playback_master_switch_title">Usar pausa inteligente</string>
     <string name="adaptive_playback_disabled_summary">Desativado</string>
-    <string name="adaptive_playback_intro_text">A reprodução adaptável pausa automaticamente a mídia quando o volume é silenciado e retorna automaticamente quando o volume for restaurado no tempo definido.</string>
+    <string name="adaptive_playback_intro_text">Pausa automaticamente a mídia quando o volume é silenciado e retoma automaticamente quando o volume é restaurado dentro do tempo definido.</string>
     <string name="adaptive_playback_timeout_title">Usar um tempo limite de</string>
     <string name="adaptive_playback_timeout_none">Sem tempo limite</string>
     <string name="adaptive_playback_timeout_none_summary">Ativado (sem limite de tempo)</string>
