@@ -77,7 +77,7 @@
     <string name="lock_settings_picker_pattern_size_message">Выберите размер графического ключа</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Показывать неверный графический ключ</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Показывать точки</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
@@ -109,9 +109,9 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешать клиентам точки доступа этого устройства использовать VPN для исходящих подключени</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_title">Эффект масштаба обоев</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_summary">Изменение масштаба обоев для эффекта глубины. Качество обоев может снизиться</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Выключать Wi-Fi автоматически</string>
@@ -119,9 +119,9 @@
     <string name="wifi_timeout_summary">Автоматически выключать Wi-Fi через заданное время.</string>
     <string name="wifi_timeout_summary1">Wi-Fi будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключения к сети</string>
     <string name="wifi_timeout_summary2">Отключено</string>
-    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option name to change Bluetooth timeout -->
     <string name="bluetooth_timeout">Время ожидания Bluetooth</string>
-    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change Bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключённых устройств</string>
     <string name="bluetooth_timeout_summary2">Не выключать Bluetooth автоматически</string>
     <!-- High touch sensitivity -->
@@ -179,7 +179,7 @@
     <string name="color_red_title">Красный</string>
     <string name="color_green_title">Зелёный</string>
     <string name="color_blue_title">Синий</string>
-    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay: Picture Adjustment -->
     <string name="picture_adjustment_title">Настройка изображения</string>
     <string name="picture_adjustment_summary">Регулировка оттенка, насыщенности, интенсивности и контрастности</string>
     <string name="adj_hue_title">Оттенок</string>
@@ -209,7 +209,7 @@
     <string name="use_ringer_mute_speaker_media_title">Использовать беззвучное отключение мультимедиа</string>
     <string name="ringer_mute_speaker_media_title">Беззвучное отключение мультимедиа</string>
     <string name="ringer_mute_text">Отключать громкость мультимедиа, когда режим звонка установлен на беззвучный. При отключении от устройства bluetooth в беззвучном режиме громкость мультимедиа будет автоматически отключена. \nЭто не влияет на внешние динамики и наушники.</string>
-    <!-- 0 timeout for smart pause while using silent to mute-->
+    <!-- 0 timeout for Smart Pause while using silent to mute-->
     <string name="mute_sp_title">Не возобновлять медиа после отключения звука</string>
     <string name="mute_sp_summary">Установить тайм-аут смарт-паузы в 0 при отключении звука для предотвращения случайного воспроизведения\n(Это будет автоматически возвращено после отключения звука, если установлен тайм-аут)</string>
     <!-- Pulse Volume Panel on un/mute media-->
@@ -223,7 +223,7 @@
     <string name="back_height_high_label">Внизу</string>
     <string name="back_options_dialog_title">Настройки</string>
     <string name="back_height_message">Величина высоты экрана, используемая в качестве сенсорной области для обратного жеста.</string>
-    <!-- Notch: Full screen apps -->
+    <!-- Notch: Full-screen apps -->
     <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
     <string name="display_cutout_force_fullscreen_summary">Заставить приложения игнорировать пространство надреза</string>
     <string name="search">Поиск</string>
@@ -245,7 +245,7 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать устройство</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Это устройство \"<xliff:g id="device_name">%1$s</xliff:g>\" сможет подключиться к этой точке доступа</string>
     <string name="wifi_hotspot_client_manager_footer_text">В настоящее время нет доступных клиентов. Подключенные и заблокированные устройства будут перечислены здесь, когда они станут доступны.</string>
-    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Warning message displayed if user chooses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Ваше соединение не будет защищено.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Сигнал при подключении зарядки</string>
@@ -260,10 +260,6 @@
     <string name="enable_floating_rotation_button_title">Использовать плавающую кнопку поворота</string>
     <!-- Build status -->
     <string name="build_status">Статус сборки</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
-    <string name="designed_battery_capacity">Максимальная емкость батареи</string>
-    <string name="battery_charge_cycles">Количество полных циклов заряда</string>
     <string name="high_power_apps_summary">Оптимизация батареи для каждого приложения</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -415,4 +411,17 @@
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Сменить поставщика услуг резервного копирования</string>
     <string name="backup_transport_title">Выберите поставщика услуг резервного копирования</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Цветовой баланс</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Уровень красного</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Уровень зеленого</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Уровень синего</string>
+    <string name="keywords_color_balance">цвет, цветовой баланс, цветовая коррекция, красный, зелёный, синий, LiveDisplay</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
+    <string name="designed_battery_capacity">Максимальная емкость батареи</string>
+    <string name="battery_charge_cycles">Количество полных циклов заряда</string>
 </resources>
