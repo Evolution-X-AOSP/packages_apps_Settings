@@ -34,11 +34,11 @@
     <!-- Whether build status should be shown or not. -->
     <bool name="config_show_build_status">false</bool>
 
-    <!-- Battery health -->
+    <!-- Battery Health -->
     <bool name="config_supportBatteryHealth">false</bool>
-    <string name="config_batteryCalculatedCapacity">/sys/class/power_supply/bms/charge_full</string>
-    <string name="config_batteryDesignCapacity">/sys/class/power_supply/bms/charge_full_design</string>
-    <string name="config_batteryChargeCycles">/sys/class/power_supply/bms/cycle_count</string>
+    <string name="config_batCurCap"></string>
+    <string name="config_batDesCap"></string>
+    <string name="config_batChargeCycle"></string>
 
     <!-- Whether to show custom screen resolution settings -->
     <bool name="config_show_custom_screen_resolution_switch">true</bool>
