@@ -260,10 +260,6 @@
     <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
     <!-- Build status -->
     <string name="build_status">Status pembuatan</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Kapasitas saat ini</string>
-    <string name="designed_battery_capacity">Kapasitas yang dirancang</string>
-    <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
     <string name="high_power_apps_summary">Optimalisasi baterai per aplikasi</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -424,4 +420,8 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Kepekatan biru</string>
     <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, LiveDisplay</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Kapasitas saat ini</string>
+    <string name="designed_battery_capacity">Kapasitas yang dirancang</string>
+    <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
 </resources>
