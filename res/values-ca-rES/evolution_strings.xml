@@ -77,7 +77,7 @@
     <string name="lock_settings_picker_pattern_size_message">Tria una mida de patró</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Mostra el patró erroni</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Mostra els punts del patró</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueig ràpid</string>
@@ -109,9 +109,9 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permet als clients utilitzar les VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permet que els clients del punt d\'accés utilitzin les connexions VPN d\'aquest dispositiu per a la connexió de pujada</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_title">Efecte de zoom del fons de pantalla</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_summary">Apropa el fons de pantalla per mostrar una animació de profunditat. Pot disminuir la qualitat dels fons de pantalla</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Desactiva la Wi-Fi automàticament</string>
@@ -119,9 +119,9 @@
     <string name="wifi_timeout_summary">Desactiva la Wi-Fi automàticament després de cert temps.</string>
     <string name="wifi_timeout_summary1">La WiFi s\'apagarà en <xliff:g id="timeout_description">%1$s</xliff:g> si no s\'ha connectat a cap xarxa</string>
     <string name="wifi_timeout_summary2">Desactivat</string>
-    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option name to change Bluetooth timeout -->
     <string name="bluetooth_timeout">Temps d\'espera del Bluetooth</string>
-    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change Bluetooth timeout -->
     <string name="bluetooth_timeout_summary">El Bluetooth s\'apagarà en <xliff:g id="timeout_description">%1$s</xliff:g> si no hi ha cap dispositiu connectat</string>
     <string name="bluetooth_timeout_summary2">No apaguis automàticament el Bluetooth</string>
     <!-- High touch sensitivity -->
@@ -179,7 +179,7 @@
     <string name="color_red_title">Vermell</string>
     <string name="color_green_title">Verd</string>
     <string name="color_blue_title">Blau</string>
-    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay: Picture Adjustment -->
     <string name="picture_adjustment_title">Ajustament d\'image</string>
     <string name="picture_adjustment_summary">Ajusta la tonalitat, intensitat i contrast</string>
     <string name="adj_hue_title">To</string>
@@ -209,7 +209,7 @@
     <string name="use_ringer_mute_speaker_media_title">Utilitza el silenci de multimèdia</string>
     <string name="ringer_mute_speaker_media_title">Silencia la multimèdia</string>
     <string name="ringer_mute_text">Silencia la multimèdia quan el mode de silenci està activat. Quan es desconnecta d\'un dispositiu Bluetooth en el mode de silenci, el volum multimèdia se silenciarà automàticament. \nAixò no afectarà els altaveus i auriculars externs.</string>
-    <!-- 0 timeout for smart pause while using silent to mute-->
+    <!-- 0 timeout for Smart Pause while using silent to mute-->
     <string name="mute_sp_title">No reprenguis la multimèdia en activar el so</string>
     <string name="mute_sp_summary">Estableix el temps d\'espera de la pausa intel·ligent a 0 quan se silencia per evitar la reproducció accidental\n(Això es revertirà automàticament en activar el so si hi ha definit un valor personalitzat)</string>
     <!-- Pulse Volume Panel on un/mute media-->
@@ -223,7 +223,7 @@
     <string name="back_height_high_label">Part inferior</string>
     <string name="back_options_dialog_title">Opcions</string>
     <string name="back_height_message">Alçada de la pantalla que es fa servir com a regió per al gest d\'enrere.</string>
-    <!-- Notch: Full screen apps -->
+    <!-- Notch: Full-screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicacions a pantalla completa</string>
     <string name="display_cutout_force_fullscreen_summary">Força les aplicacions a ignorar l\'espai del «notch»</string>
     <string name="search">Cerca</string>
@@ -245,7 +245,7 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Desbloqueja el dispositiu</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">El dispositiu «<xliff:g id="device_name">%1$s</xliff:g>» es podrà connectar al punt d\'accés</string>
     <string name="wifi_hotspot_client_manager_footer_text">No hi ha clients disponibles ara mateix. Els dispositius connectats i bloquejats es mostraran aquí en estar disponibles.</string>
-    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Warning message displayed if user chooses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">No s\'ha especificat cap certificat. La connexió no serà privada.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">So de càrrega</string>
