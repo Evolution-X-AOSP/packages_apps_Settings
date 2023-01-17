@@ -37,11 +37,11 @@
     <!-- Whether build status should be shown or not. -->
     <bool name="config_show_build_status">false</bool>
 
-    <!-- Battery health -->
+    <!-- Battery Health -->
     <bool name="config_supportBatteryHealth">false</bool>
-    <string name="config_batteryCalculatedCapacity">/sys/class/power_supply/bms/charge_full</string>
-    <string name="config_batteryDesignCapacity">/sys/class/power_supply/bms/charge_full_design</string>
-    <string name="config_batteryChargeCycles">/sys/class/power_supply/bms/cycle_count</string>
+    <string name="config_batCurCap"></string>
+    <string name="config_batDesCap"></string>
+    <string name="config_batChargeCycle"></string>
 
     <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
