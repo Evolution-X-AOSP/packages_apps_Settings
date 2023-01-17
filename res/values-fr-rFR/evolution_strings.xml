@@ -260,10 +260,6 @@
     <string name="enable_floating_rotation_button_title">Utiliser le bouton de rotation flottant</string>
     <!-- Build status -->
     <string name="build_status">Statut de la compilation</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Capacité actuelle</string>
-    <string name="designed_battery_capacity">Capacité nominale</string>
-    <string name="battery_charge_cycles">Cycles de charge complets</string>
     <string name="high_power_apps_summary">Optimisation de la batterie par application</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -424,4 +420,8 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Intensité de bleu</string>
     <string name="keywords_color_balance">couleurs, nuances des couleurs, correction des couleurs, rouge, vert, bleu, LiveDisplay</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Capacité actuelle</string>
+    <string name="designed_battery_capacity">Capacité nominale</string>
+    <string name="battery_charge_cycles">Cycles de charge complets</string>
 </resources>
