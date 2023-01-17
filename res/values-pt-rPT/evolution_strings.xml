@@ -260,10 +260,6 @@
     <string name="enable_floating_rotation_button_title">Usar botão de rotação flutuante</string>
     <!-- Build status -->
     <string name="build_status">Estado da compilação</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Capacidade máxima atual</string>
-    <string name="designed_battery_capacity">Capacidade máxima</string>
-    <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
     <string name="high_power_apps_summary">Otimização de bateria por app</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -424,4 +420,8 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Intensidade de azul</string>
     <string name="keywords_color_balance">cor, equilíbrio de cores, correção de cor, vermelho, verde, azul, modo de visualização</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Capacidade máxima atual</string>
+    <string name="designed_battery_capacity">Capacidade máxima</string>
+    <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
 </resources>
