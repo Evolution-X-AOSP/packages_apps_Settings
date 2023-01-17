@@ -77,7 +77,7 @@
     <string name="lock_settings_picker_pattern_size_message">Escolher tamanho do padrão</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Mostrar erros do padrão</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Mostrar os pontos do padrão</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueio Rápido</string>
@@ -109,9 +109,9 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir que os clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem as ligações VPN deste dispositivo</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_title">Efeito de zoom do papel de parede</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_summary">Amplie o papel de parede para mostrar a animação de profundidade do zoom. Os papéis de parede podem sofrer uma redução de qualidade</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Desligar Wi-Fi automaticamente</string>
@@ -119,9 +119,9 @@
     <string name="wifi_timeout_summary">Desligar automaticamente o Wi-Fi após o tempo definido.</string>
     <string name="wifi_timeout_summary1">O Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver ligado a uma rede</string>
     <string name="wifi_timeout_summary2">Desativado</string>
-    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option name to change Bluetooth timeout -->
     <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
-    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change Bluetooth timeout -->
     <string name="bluetooth_timeout_summary">O Bluetooth será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum dispositivo estiver ligado</string>
     <string name="bluetooth_timeout_summary2">Não desligar automaticamente o Bluetooth</string>
     <!-- High touch sensitivity -->
@@ -179,7 +179,7 @@
     <string name="color_red_title">Vermelho</string>
     <string name="color_green_title">Verde</string>
     <string name="color_blue_title">Azul</string>
-    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay: Picture Adjustment -->
     <string name="picture_adjustment_title">Ajuste de imagem</string>
     <string name="picture_adjustment_summary">Ajustar a tonalidade, a saturação, a intensidade e o contraste</string>
     <string name="adj_hue_title">Tonalidade</string>
@@ -209,7 +209,7 @@
     <string name="use_ringer_mute_speaker_media_title">Usar silenciamento de mídia silencioso</string>
     <string name="ringer_mute_speaker_media_title">Silenciar mídia silenciosa</string>
     <string name="ringer_mute_text">Silenciar volume de média quando o modo de toque estiver definido como silencioso. Quando desconectado de um dispositivo bluetooth no modo silencioso, o volume de média será silenciado automaticamente. \nIsto não afetará altifalantes e auscultadores externos.</string>
-    <!-- 0 timeout for smart pause while using silent to mute-->
+    <!-- 0 timeout for Smart Pause while using silent to mute-->
     <string name="mute_sp_title">Não retomar a mídia após reativar o som</string>
     <string name="mute_sp_summary">Defina o tempo limite de reprodução adaptável para 0 ao silenciar o dispositivo, para prevenir a reprodução acidental\n(Isto será automaticamente revertido ao reativar o som, se estiver definido um tempo limite personalizado)</string>
     <!-- Pulse Volume Panel on un/mute media-->
@@ -223,7 +223,7 @@
     <string name="back_height_high_label">Inferior</string>
     <string name="back_options_dialog_title">Opções</string>
     <string name="back_height_message">Altura de ecrã utilizada como região sensível para o gesto recuar.</string>
-    <!-- Notch: Full screen apps -->
+    <!-- Notch: Full-screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicações em ecrã inteiro</string>
     <string name="display_cutout_force_fullscreen_summary">Forçar aplicações a ignorar o espaço do entalhe</string>
     <string name="search">Pesquisar</string>
@@ -245,7 +245,7 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">O dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" será capaz de se conectar a este ponto de acesso</string>
     <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível atualmente. Dispositivos conectados e bloqueados serão listados aqui quando disponíveis.</string>
-    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Warning message displayed if user chooses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. A sua ligação não será privada.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Som de carregamento</string>
