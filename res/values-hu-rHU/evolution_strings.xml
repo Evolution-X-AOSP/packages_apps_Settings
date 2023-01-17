@@ -260,10 +260,6 @@
     <string name="enable_floating_rotation_button_title">Lebegő elforgatás gomb engedélyezése</string>
     <!-- Build status -->
     <string name="build_status">Gyártási állapot</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">A jelenlegi kapacitás</string>
-    <string name="designed_battery_capacity">A kívánt kapacitás</string>
-    <string name="battery_charge_cycles">Töltés ciklusok</string>
     <string name="high_power_apps_summary">Alkalmazásonkénti akkuoptimalizálás</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -424,4 +420,8 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Kék-erősség</string>
     <string name="keywords_color_balance">szín, színegyensúly, színjavítás, színkorrekció, vörös, zöld, kék, LiveDisplay</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">A jelenlegi kapacitás</string>
+    <string name="designed_battery_capacity">A kívánt kapacitás</string>
+    <string name="battery_charge_cycles">Töltés ciklusok</string>
 </resources>
