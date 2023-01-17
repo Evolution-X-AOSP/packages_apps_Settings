@@ -77,7 +77,7 @@
     <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択して下さい</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">間違えたパターンを表示</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
     <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
@@ -109,9 +109,9 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用を許可</string>
     <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_title">壁紙ズーム効果</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_summary">縮小深度アニメーションを表示するために壁紙を拡大します。壁紙の品質が低下する可能性があります。</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
@@ -119,9 +119,9 @@
     <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
     <string name="wifi_timeout_summary1">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
     <string name="wifi_timeout_summary2">無効</string>
-    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option name to change Bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth の制限時間</string>
-    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change Bluetooth timeout -->
     <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth は オフになります</string>
     <string name="bluetooth_timeout_summary2">自動的に Bluetooth をオフにしない</string>
     <!-- High touch sensitivity -->
@@ -179,7 +179,7 @@
     <string name="color_red_title">赤</string>
     <string name="color_green_title">緑</string>
     <string name="color_blue_title">青</string>
-    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay: Picture Adjustment -->
     <string name="picture_adjustment_title">画像調整</string>
     <string name="picture_adjustment_summary">色彩・彩度・輝度・コントラストを調整する</string>
     <string name="adj_hue_title">色相</string>
@@ -209,7 +209,7 @@
     <string name="use_ringer_mute_speaker_media_title">サイレントでメディアを消音を使用</string>
     <string name="ringer_mute_speaker_media_title">サイレントでメディアを消音</string>
     <string name="ringer_mute_text">着信モードがサイレントに設定された時にメディア音量をミュートします。サイレントモード時に Bluetooth 端末から切断された時に、メディア音量は自動的にミュートになります。\nこの設定は外部スピーカーやヘッドホンには影響しません。</string>
-    <!-- 0 timeout for smart pause while using silent to mute-->
+    <!-- 0 timeout for Smart Pause while using silent to mute-->
     <string name="mute_sp_title">ミュート解除後にメディアを再開しない</string>
     <string name="mute_sp_summary">意図しない再生を防ぐために、ミュート時にスマートパルスの制限時間を0に設定します。\n(カスタムの制限時間がされている場合、ミュート解除で自動的に元に戻ります。)</string>
     <!-- Pulse Volume Panel on un/mute media-->
@@ -223,7 +223,7 @@
     <string name="back_height_high_label">下部</string>
     <string name="back_options_dialog_title">オプション</string>
     <string name="back_height_message">戻るジェスチャーに使用される操作可能な画面領域の高さです</string>
-    <!-- Notch: Full screen apps -->
+    <!-- Notch: Full-screen apps -->
     <string name="display_cutout_force_fullscreen_title">全画面表示のアプリ</string>
     <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
     <string name="search">検索</string>
@@ -245,7 +245,7 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">端末をブロック解除</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">端末 \"<xliff:g id="device_name">%1$s</xliff:g>\" はこのホットスポットへ接続可能になります</string>
     <string name="wifi_hotspot_client_manager_footer_text">利用可能なクライアントは現在ありません。利用可能になった時に接続済みまたはブロック済みの端末はこのリストに表示されます。</string>
-    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Warning message displayed if user chooses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">証明書が指定されていません。この接続ではプライバシーは保護されません。</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">充電時の音</string>
@@ -260,12 +260,27 @@
     <string name="enable_floating_rotation_button_title">フローティング回転ボタンを使用</string>
     <!-- Build status -->
     <string name="build_status">ビルドの状態</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">現在の最大容量</string>
-    <string name="designed_battery_capacity">最大容量</string>
-    <string name="battery_charge_cycles">充電サイクル完了数</string>
     <string name="high_power_apps_summary">アプリごとのバッテリー最適化</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">進化の始まりへようこそ</string>
+    <string name="random_summary_3">デバイスの進化を続行しよう</string>
+    <string name="random_summary_4">私達の機能でお使いの端末を進化させましょう</string>
+    <string name="random_summary_5">進化はミステリーです</string>
+    <string name="random_summary_6">有象無象の ROM でなく、Evolution Xです!</string>
+    <string name="random_summary_7">嫌う者は嫌い、Evo\'s は焼く。</string>
+    <string name="random_summary_8">ギャングの楽園での生活</string>
+    <string name="random_summary_9">前に進み続けよう</string>
+    <string name="random_summary_12">私達は稲妻より前に光っていた</string>
+    <string name="random_summary_15">ティラミスは本当に美味しい</string>
+    <string name="random_summary_16">13 もまた幸運であるだろう</string>
+    <string name="random_summary_18">人生はいつもピクセルや虹ではない</string>
+    <string name="random_summary_19">Android のままで、更に良くなる。</string>
+    <string name="random_summary_20">ライサーよ、最寄りの出口にお進み下さい。</string>
+    <string name="random_summary_21">ブラック BMW のドライバーをページング中...</string>
+    <string name="random_summary_24">私達のことをお知り下さい</string>
+    <string name="random_summary_25">私達は三菱にちなんで名付けられたと知っています</string>
+    <string name="random_summary_26">ブートループの時間だ!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">回転の設定</string>
     <string name="display_rotation_enabled">画面の自動回転は有効です</string>
@@ -368,4 +383,45 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">アンビエント表示</string>
     <string name="doze_enabled_summary">Doze パッケージ機能を有効にするかどうか選択する</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">スリープモード</string>
+    <string name="sleep_mode_summary_on">ON / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">OFF / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">着信モード</string>
+    <string name="sleep_mode_ringer_off_title">変更しない</string>
+    <string name="sleep_mode_ringer_vibrate_title">振動</string>
+    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="sleep_mode_ringer_silent_title">サイレント</string>
+    <string name="sleep_mode_schedule_sunset">日没</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">日没から設定時刻まで</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">設定時刻から日の出まで</string>
+    <string name="sleep_mode_toggles_title">切り替え</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi を無効化</string>
+    <string name="sleep_mode_wifi_toggle_summary">スリープモードが ON の時は Wi-Fi を無効にする</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth を無効化</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">スリープモードが ON の時は Bluetooth を無効にする</string>
+    <string name="sleep_mode_cellular_toggle_title">モバイルデータを無効化</string>
+    <string name="sleep_mode_cellular_toggle_summary">スリープモードが ON の時はモバイルデータを無効にする</string>
+    <string name="sleep_mode_location_toggle_title">位置情報を無効化</string>
+    <string name="sleep_mode_location_toggle_summary">スリープモードが ON の時は位置情報を無効にする</string>
+    <string name="sleep_mode_sensors_toggle_title">センサーを無効化</string>
+    <string name="sleep_mode_sensors_toggle_summary">スリープモードが ON の時はセンサーを無効にする</string>
+    <string name="sleep_mode_display_text">スリープモードはバッテリー消費を減らし睡眠中に音を鳴らさないために端末の特定のサービスを無効化します</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">バックアッププロバイダの変更</string>
+    <string name="backup_transport_title">バックアッププロバイダの選択</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">色のバランス</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">赤の強度</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">緑の強度</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">青の強度</string>
+    <string name="keywords_color_balance">色、色のバランス、色のコレクション、赤、緑、青、LiveDisplay</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">現在の最大容量</string>
+    <string name="designed_battery_capacity">最大容量</string>
+    <string name="battery_charge_cycles">充電サイクル完了数</string>
 </resources>
