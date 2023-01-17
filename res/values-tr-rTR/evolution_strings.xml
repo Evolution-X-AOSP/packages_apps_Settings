@@ -77,7 +77,7 @@
     <string name="lock_settings_picker_pattern_size_message">Desen boyutu seçin</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Desen hatalarını göster</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Desen noktalarını göster</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Kilidi hızlıca aç</string>
@@ -109,9 +109,9 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın VPN bağlantısını kullanmasına izin ver</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_title">Duvar kağıdı yakınlaştırma efekti</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_summary">Uzaklaştırma derinlik efektini göstermek için duvar kağıdını yakınlaştır. Duvar kağıdı kalitesi düşebilir</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Wi-Fi\'yi otomatik olarak kapat</string>
@@ -119,9 +119,9 @@
     <string name="wifi_timeout_summary">Belirli bir süre sonra Wi-Fi\'yi otomatik olarak kapatın.</string>
     <string name="wifi_timeout_summary1">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
     <string name="wifi_timeout_summary2">Devre dışı</string>
-    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option name to change Bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
-    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change Bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
     <string name="bluetooth_timeout_summary2">Bluetooth\'u otomatik olarak kapatma</string>
     <!-- High touch sensitivity -->
@@ -179,7 +179,7 @@
     <string name="color_red_title">Kırmızı</string>
     <string name="color_green_title">Yeşil</string>
     <string name="color_blue_title">Mavi</string>
-    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay: Picture Adjustment -->
     <string name="picture_adjustment_title">Resim ayarlama</string>
     <string name="picture_adjustment_summary">Ton, doygunluk, yoğunluk ve kontrastı ayarlayın</string>
     <string name="adj_hue_title">Ton</string>
@@ -209,7 +209,7 @@
     <string name="use_ringer_mute_speaker_media_title">Sessiz modda sessiz medya kullan</string>
     <string name="ringer_mute_speaker_media_title">Sessiz modda sessiz medya</string>
     <string name="ringer_mute_text">Zil sesi modu sessiz olduğunda medya da sessiz olur. Sessiz modda herhangi bir bluetooth cihazından bağlantıyı kesince medya sesi otomatik olarak sessize alınacak. \n Harici hoparlörler ve kulaklıklar bundan etkilenmez.</string>
-    <!-- 0 timeout for smart pause while using silent to mute-->
+    <!-- 0 timeout for Smart Pause while using silent to mute-->
     <string name="mute_sp_title">Sesi açınca medyayı devam ettirme</string>
     <string name="mute_sp_summary">Yanlışlıkla oynatmayı engellemek için akıllı duraklatma zaman aşımını 0 olarak ayarlayın\n(Eğer özel bir zaman aşımı ayarlandıysa otomatik olarak devre dışı kalır)</string>
     <!-- Pulse Volume Panel on un/mute media-->
@@ -223,7 +223,7 @@
     <string name="back_height_high_label">Alt</string>
     <string name="back_options_dialog_title">Seçenekler</string>
     <string name="back_height_message">Geri hareketi için dokunulabilir bölge olarak kullanılan ekran yüksekliği miktarı.</string>
-    <!-- Notch: Full screen apps -->
+    <!-- Notch: Full-screen apps -->
     <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamaları</string>
     <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
     <string name="search">Ara</string>
@@ -245,7 +245,7 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Cihazın engelini kaldır</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu hotspot a bağlanabilecek</string>
     <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecek.</string>
-    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Warning message displayed if user chooses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Sertifika belirtilmedi. Bağlantınız gizli olmayacak.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Şarj sesi</string>
@@ -260,12 +260,27 @@
     <string name="enable_floating_rotation_button_title">Hareketli yönlendirme tuşu kullan</string>
     <!-- Build status -->
     <string name="build_status">Sürüm durumu</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
-    <string name="designed_battery_capacity">En yüksek kapasite</string>
-    <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
     <string name="high_power_apps_summary">Pil en iyilemesini devre dışı bırak</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Gelişim öncesine hoş geldiniz</string>
+    <string name="random_summary_3">Cihazın evrimine devam et</string>
+    <string name="random_summary_4">Özelliklerimizle cihazınızı geliştirmeye başlayın</string>
+    <string name="random_summary_5">Gelişim gizemlidir</string>
+    <string name="random_summary_6">Herhangi bir Rom değil, bu Evolution X!</string>
+    <string name="random_summary_7">Nefret edenler nefret edecek, Evo yakacak</string>
+    <string name="random_summary_8">Gangster\'in cennetinde yaşamak</string>
+    <string name="random_summary_9">İlerlemeye devam edin</string>
+    <string name="random_summary_12">Gök gürültüsünden önceki şimşek gibiyiz</string>
+    <string name="random_summary_15">Tiramisu gerçekten lezzetli</string>
+    <string name="random_summary_16">13 sayısı da şanslı olabilir</string>
+    <string name="random_summary_18">Hayat her zaman pikseller ve gökkuşağı değildir</string>
+    <string name="random_summary_19">Hâlâ Android, sadece daha iyi</string>
+    <string name="random_summary_20">Modifiyeciler, lütfen en yakın çıkışa ilerleyin</string>
+    <string name="random_summary_21">Siyah BMW\'nin sürücüsüne çağrı yapıyoruz...</string>
+    <string name="random_summary_24">Bize teşekkür edin!</string>
+    <string name="random_summary_25">Adımızı bir Mitsubishi\'den aldığımızın farkındayız</string>
+    <string name="random_summary_26">Bootloop zamanı!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Döndürme ayarları</string>
     <string name="display_rotation_enabled">Otomatik döndürme etkin</string>
@@ -368,4 +383,45 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ortam ekranı</string>
     <string name="doze_enabled_summary">Doze paketi işlevselliğinin etkinleştirilip etkinleştirilmeyeceği</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Uyku modu</string>
+    <string name="sleep_mode_summary_on">Açık / <xliff:g id="Id_1">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Kapalı / <xliff:g id="Id_1">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Zil modu</string>
+    <string name="sleep_mode_ringer_off_title">Değiştirme</string>
+    <string name="sleep_mode_ringer_vibrate_title">Titreşim</string>
+    <string name="sleep_mode_ringer_dnd_title">Rahatsız Etme</string>
+    <string name="sleep_mode_ringer_silent_title">Sessiz</string>
+    <string name="sleep_mode_schedule_sunset">Gün batımı</string>
+    <string name="sleep_mode_schedule_sunrise">Gün doğumu</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Gün batımından bir zamana kadar açılıyor</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Bir zamandan gün doğumuna kadar açılıyor</string>
+    <string name="sleep_mode_toggles_title">Aç/Kapa</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi\'yi kapat</string>
+    <string name="sleep_mode_wifi_toggle_summary">Uyku modu açıldığında kablosuz bağlantıyı devre dışı bırak</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth\'u kapat</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Uyku modu açıldığında Bluetooth\'u devre dışı bırak</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobil veriyi kapat</string>
+    <string name="sleep_mode_cellular_toggle_summary">Uyku modu açıldığında Mobil veriyi devre dışı bırak</string>
+    <string name="sleep_mode_location_toggle_title">Konumu kapat</string>
+    <string name="sleep_mode_location_toggle_summary">Uyku modu açıldığında konum hizmetlerini devre dışı bırak</string>
+    <string name="sleep_mode_sensors_toggle_title">Sensörleri kapat</string>
+    <string name="sleep_mode_sensors_toggle_summary">Uyku modu açıldığında sensörleri devre dışı bırak</string>
+    <string name="sleep_mode_display_text">Uyku modu pil tasarrufu için bazı servisleri devre dışı bırakmanızı ve siz uyurken telefonunuzu sessiz moda almanızı sağlar.</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Yedekleme sağlayıcısını değiştir</string>
+    <string name="backup_transport_title">Yedekleme sağlayıcı seçin</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Renk dengesi</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Kırmızı yoğunluğu</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Yeşil yoğunluğu</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Mavi yoğunluğu</string>
+    <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">En yüksek kapasite</string>
+    <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
 </resources>
