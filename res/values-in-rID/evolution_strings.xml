@@ -208,7 +208,7 @@
     <!-- Ringer mode mute speaker media -->
     <string name="use_ringer_mute_speaker_media_title">Gunakan media senyap bisu</string>
     <string name="ringer_mute_speaker_media_title">Media senyap bisu</string>
-    <string name="ringer_mute_text">Matikan volume media saat mode dering disetel ke senyap. Saat terputus dari perangkat bluetooth saat dalam mode senyap, volume media akan dimatikan secara otomatis. \nIni tidak akan memengaruhi speaker dan headphone eksternal.</string>
+    <string name="ringer_mute_text">Nonaktifkan volume media saat mode dering disetel ke senyap. Saat terputus dari perangkat Bluetooth dalam mode senyap, volume media akan dinonaktifkan secara otomatis. \nIni tidak akan memengaruhi speaker dan headphone eksternal.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
     <string name="mute_sp_title">Jangan melanjutkan media setelah mematikan suara</string>
     <string name="mute_sp_summary">Setel batas waktu Jeda Cerdas ke 0 saat mematikan suara untuk mencegah pemutaran yang tidak disengaja\n(Ini akan secara otomatis dikembalikan saat tidak dimatikan jika ada batas waktu khusus yang disetel)</string>
@@ -296,7 +296,7 @@
     <!-- Battery charge warning -->
     <string name="notification_sound_battery_charge_title">Aktifkan peringatan tingkat pengisian daya baterai</string>
     <string name="notification_battery_charge_level_title">Peringatan daya baterai</string>
-    <string name="notification_battery_charge_level_summary">Putar suara saat baterai mencapai level saat mengisi daya</string>
+    <string name="notification_battery_charge_level_summary">Mainkan suara saat baterai mencapai tingkat yang ditentukan saat mengisi daya</string>
     <string name="notification_battery_charge_level_seek_bar">Tingkat baterai</string>
     <string name="notification_battery_charge_level_ringtone">Nada dering</string>
     <string name="notification_battery_charge_level_silent">Senyap</string>
