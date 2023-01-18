@@ -18,26 +18,11 @@ package com.android.settings.notification;
 
 import static com.google.common.truth.Truth.assertThat;
 
-import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import android.content.ComponentName;
-import android.os.UserHandle;
-import android.telecom.PhoneAccount;
-import android.telecom.PhoneAccountHandle;
-import android.telecom.TelecomManager;
-import android.telephony.SubscriptionInfo;
-import android.telephony.SubscriptionManager;
 import android.content.Context;
 import android.media.RingtoneManager;
 import android.telephony.TelephonyManager;
-
-import androidx.preference.PreferenceScreen;
-
-import com.android.settings.DefaultRingtonePreference;
-import com.android.settings.R;
-
-import java.util.Arrays;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -48,23 +33,11 @@ import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
 import org.robolectric.shadows.ShadowApplication;
 
-import static org.mockito.ArgumentMatchers.anyInt;
-
 @RunWith(RobolectricTestRunner.class)
 public class PhoneRingtonePreferenceControllerTest {
 
     @Mock
     private TelephonyManager mTelephonyManager;
-    @Mock
-    private TelecomManager mTelecomManager;
-    @Mock
-    private SubscriptionManager mSubscriptionManager;
-    @Mock
-    private SubscriptionInfo mSubscriptionInfo;
-    @Mock
-    private PreferenceScreen mPreferenceScreen;
-    @Mock
-    private DefaultRingtonePreference mPreference;
 
     private Context mContext;
     private PhoneRingtonePreferenceController mController;
@@ -74,9 +47,6 @@ public class PhoneRingtonePreferenceControllerTest {
         MockitoAnnotations.initMocks(this);
         ShadowApplication shadowContext = ShadowApplication.getInstance();
         shadowContext.setSystemService(Context.TELEPHONY_SERVICE, mTelephonyManager);
-        shadowContext.setSystemService(Context.TELECOM_SERVICE, mTelecomManager);
-        shadowContext.setSystemService(Context.TELEPHONY_SUBSCRIPTION_SERVICE,
-                mSubscriptionManager);
         mContext = RuntimeEnvironment.application;
         mController = new PhoneRingtonePreferenceController(mContext);
     }
@@ -86,38 +56,6 @@ public class PhoneRingtonePreferenceControllerTest {
         when(mTelephonyManager.isVoiceCapable()).thenReturn(false);
 
         assertThat(mController.isAvailable()).isFalse();
-    }
-
-    @Test
-    public void displayPreference_shouldSetPhoneAccountHandle() {
-        when(mPreferenceScreen.findPreference(mController.getPreferenceKey()))
-                .thenReturn(mPreference);
-        when(mTelecomManager.getCallCapablePhoneAccounts(true))
-                .thenReturn(Arrays.asList(PHONE_ACCOUNT_HANDLE_1));
-        when(mTelecomManager.getPhoneAccount(PHONE_ACCOUNT_HANDLE_1))
-                .thenReturn(PHONE_ACCOUNT_1);
-        mController.displayPreference(mPreferenceScreen);
-
-        verify(mPreference).setPhoneAccountHandle(PHONE_ACCOUNT_HANDLE_1);
-    }
-
-    @Test
-    public void displayPreference_shouldUpdateTitle_when_MultiPhoneAccountHandle() {
-        when(mPreferenceScreen.findPreference(mController.getPreferenceKey()))
-                .thenReturn(mPreference);
-        when(mTelecomManager.getCallCapablePhoneAccounts(true))
-                .thenReturn(Arrays.asList(PHONE_ACCOUNT_HANDLE_1, PHONE_ACCOUNT_HANDLE_2));
-        when(mTelecomManager.getPhoneAccount(PHONE_ACCOUNT_HANDLE_1))
-                .thenReturn(PHONE_ACCOUNT_1);
-        when(mTelecomManager.getPhoneAccount(PHONE_ACCOUNT_HANDLE_2))
-                .thenReturn(PHONE_ACCOUNT_2);
-        when(mSubscriptionManager.getActiveSubscriptionInfo(anyInt()))
-                .thenReturn(mSubscriptionInfo);
-        when(mSubscriptionInfo.getDisplayName()).thenReturn(PHONE_ACCOUNT_HANDLE_DISPLAY_NAME);
-        mController.displayPreference(mPreferenceScreen);
-
-        verify(mPreference).setTitle(mContext.getString(R.string.ringtone_title)
-                + " - " + PHONE_ACCOUNT_HANDLE_DISPLAY_NAME);
     }
 
     @Test
