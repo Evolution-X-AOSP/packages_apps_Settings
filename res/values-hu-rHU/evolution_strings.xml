@@ -424,4 +424,9 @@
     <string name="current_battery_capacity">A jelenlegi kapacitás</string>
     <string name="designed_battery_capacity">A kívánt kapacitás</string>
     <string name="battery_charge_cycles">Töltés ciklusok</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC-kiegyenlítés</string>
+    <string name="dc_dimming_info">Csökkenti a szem megerőltetését gyenge fényviszonyok mellett a képernyővillogás csökkentésével. Rossz képminőséget és gyenge színeket vagy magasabb akkufogyasztást okozhat.</string>
+    <string name="dc_dimming_main_switch_title">A DC-kiegyenlítés használata</string>
+    <string name="keywords_display_dc_dimming">DC-kiegyenlítés, vibrálás, szem, megterhelés, mentesítés</string>
 </resources>
