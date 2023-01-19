@@ -424,4 +424,9 @@
     <string name="current_battery_capacity">Capacidade atual da bateria</string>
     <string name="designed_battery_capacity">Capacidade projetada da bateria</string>
     <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Modo anti cintilação</string>
+    <string name="dc_dimming_info">Reduz a fadiga ocular em condições de pouca luz minimizando a cintilação da tela. Pode afetar a qualidade da imagem e cores, também pode gerar maior consumo de energia.</string>
+    <string name="dc_dimming_main_switch_title">Usar modo anti cintilação</string>
+    <string name="keywords_display_dc_dimming">anti cintilação, anti flicker, proteção para os olhos</string>
 </resources>
