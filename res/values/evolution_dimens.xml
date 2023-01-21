@@ -9,4 +9,7 @@
 
     <!-- Rounded corner theme radius -->
     <dimen name="rounded_corner_theme_overlay_radius">24dp</dimen>
+
+    <!-- Dimensions for Contextual Card -->
+    <dimen name="contextual_card_content_padding">13dp</dimen>
 </resources>
