@@ -159,6 +159,8 @@
     <dimen name="homepage_app_bar_padding_two_pane">6dp</dimen>
     <!-- bottom: search_bar_margin - homepage_app_bar_padding_two_pane -->
     <dimen name="homepage_app_bar_margin_bottom_two_pane">10dp</dimen>
+    <!-- Dimensions for Contextual Card -->
+    <dimen name="contextual_card_content_padding">13dp</dimen>
     <!-- horizontal: homepage_padding_horizontal_two_pane - homepage_app_bar_padding_two_pane -->
     <dimen name="homepage_app_bar_margin_horizontal_two_pane">18dp</dimen>
 
