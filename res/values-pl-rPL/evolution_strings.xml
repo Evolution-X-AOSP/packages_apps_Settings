@@ -424,4 +424,9 @@
     <string name="current_battery_capacity">Obecna pojemność</string>
     <string name="designed_battery_capacity">Fabryczna pojemność baterii</string>
     <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Redukcja migotania</string>
+    <string name="dc_dimming_info">Zmniejsza zmęczenie oczu w warunkach słabego oświetlenia, minimalizując migotanie ekranu. Może skutkować obniżeniem jakości obrazu i słabą reprodukcją kolorów lub zwiększonym zużyciem energii.</string>
+    <string name="dc_dimming_main_switch_title">Włącz Redukcję migotania</string>
+    <string name="keywords_display_dc_dimming">redukcja migotania, redukcja, miganie, oko, zmęczenie</string>
 </resources>
