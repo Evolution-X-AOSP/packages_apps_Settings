@@ -425,4 +425,9 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="current_battery_capacity">Aktuelle Kapazität</string>
     <string name="designed_battery_capacity">Ursprüngliche Akkukapazität</string>
     <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC-Dimming</string>
+    <string name="dc_dimming_info">Reduziert die Belastung bei geringen Lichtverhältnissen durch die Minimierung des Bildschirmflackers. Kann zu einer geringeren Bildqualität und einer schlechten Farbproduktion oder einem höheren Stromverbrauch führen.</string>
+    <string name="dc_dimming_main_switch_title">DC-Dimming verwenden</string>
+    <string name="keywords_display_dc_dimming">DC-Dimming, Anti, Flackern, Auge, Belastung</string>
 </resources>
