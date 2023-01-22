@@ -424,4 +424,9 @@
     <string name="current_battery_capacity">Kapasitas saat ini</string>
     <string name="designed_battery_capacity">Kapasitas yang dirancang</string>
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Peredupan DC</string>
+    <string name="dc_dimming_info">Mengurangi ketegangan mata dalam kondisi cahaya rendah dengan meminimalkan kedipan layar. Dapat mengakibatkan penurunan kualitas gambar dan produksi warna yang buruk, atau konsumsi daya yang lebih tinggi.</string>
+    <string name="dc_dimming_main_switch_title">Gunakan Peredupan DC</string>
+    <string name="keywords_display_dc_dimming">peredupan dc, anti-kedip, ketegangan mata</string>
 </resources>
