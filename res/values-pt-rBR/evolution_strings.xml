@@ -251,7 +251,7 @@
     <string name="charging_sounds_custom_title">Som de carregamento</string>
     <string name="charging_vibro_title">Vibrar ao plugar</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Altura da barra de gestos</string>
+    <string name="gesture_navbar_radius_title">Espessura da barra de gestos</string>
     <string name="thin_label">Fino</string>
     <string name="thick_label">Espesso</string>
     <!-- Running services - Background processes tab -->
@@ -268,7 +268,7 @@
     <string name="random_summary_4">Evolua seu dispositivo com os nossos recursos</string>
     <string name="random_summary_5">Evolução é um mistério</string>
     <string name="random_summary_6">Não é qualquer ROM, esta é Evolution X!</string>
-    <string name="random_summary_7">Hater, saia daqui!</string>
+    <string name="random_summary_7">Não tenha medo do fracasso, pois o único fracasso é nunca tentar</string>
     <string name="random_summary_8">É necessário sempre acreditar que o sonho é possível</string>
     <string name="random_summary_9">Siga em frente</string>
     <string name="random_summary_12">A lei de Murphy nunca esteve tão certa</string>
@@ -280,7 +280,7 @@
     <string name="random_summary_21">Receba</string>
     <string name="random_summary_24">Navegue em nossas opções</string>
     <string name="random_summary_25">Estamos cientes de que temos o nome de um Mitsubishi</string>
-    <string name="random_summary_26">É hora do bootloop!</string>
+    <string name="random_summary_26">Em terra de cego, quem tem olho é rei</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Configurações de rotação</string>
     <string name="display_rotation_enabled">A rotação automática está ativada</string>
