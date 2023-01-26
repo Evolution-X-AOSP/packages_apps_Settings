@@ -19,11 +19,14 @@ package com.android.settings.gestures;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.hardware.display.AmbientDisplayConfiguration;
+import android.os.Bundle;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
+
+import androidx.preference.Preference;
 
 import java.util.List;
 
@@ -32,6 +35,7 @@ public class GestureSettings extends DashboardFragment {
 
     private static final String TAG = "GestureSettings";
     private static final String PREF_KEY_PREVENT_RINGING = "gesture_prevent_ringing_summary";
+    private static final String KEY_TOUCHGESTURES = "touchscreen_gesture_settings";
 
     private AmbientDisplayConfiguration mAmbientDisplayConfig;
 
@@ -48,6 +52,16 @@ public class GestureSettings extends DashboardFragment {
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.gestures;
+    }
+
+    @Override
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+
+        Preference mtouchGesturesPreference = (Preference) findPreference(KEY_TOUCHGESTURES);
+        if (!getResources().getBoolean(R.bool.config_supportsTouchGestures)) {
+            getPreferenceScreen().removePreference(mtouchGesturesPreference);
+        }
     }
 
     @Override
@@ -70,6 +84,9 @@ public class GestureSettings extends DashboardFragment {
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     final List<String> keys = super.getNonIndexableKeys(context);
+                    if (!context.getResources().getBoolean(R.bool.config_supportsTouchGestures)) {
+                        keys.add(KEY_TOUCHGESTURES);
+                    }
                     // de-duplicated due to another same entry in Sound page
                     keys.add(PREF_KEY_PREVENT_RINGING);
                     return keys;
