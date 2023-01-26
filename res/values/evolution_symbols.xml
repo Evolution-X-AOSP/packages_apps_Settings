@@ -9,4 +9,7 @@
 
     <!-- Battery Health -->
     <java-symbol type="bool" name="config_supportBatteryHealth" />
+
+    <!-- TouchGestures -->
+    <java-symbol type="bool" name="config_supportsTouchGestures" />
 </resources>
