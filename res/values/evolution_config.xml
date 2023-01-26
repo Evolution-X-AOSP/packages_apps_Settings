@@ -48,4 +48,7 @@
 
     <!-- Does the device support color inversion -->
     <bool name="config_displayInversionAvailable">true</bool>
+
+    <!-- Whether to show TouchGestures preference -->
+    <bool name="config_supportsTouchGestures">false</bool>
 </resources>
