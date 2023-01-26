@@ -26,4 +26,7 @@
 
     <!-- Fingerprint -->
     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
+
+    <!-- Whether to show TouchGestures preference -->
+    <bool name="config_supportsTouchGestures">false</bool>
 </resources>
