@@ -234,8 +234,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         final LabeledSeekBarPreference pref = getPreferenceScreen().
             findPreference(GESTURE_NAVBAR_RADIUS_KEY);
         pref.setContinuousUpdates(true);
-        pref.setProgress(Settings.System.getInt(getContext().getContentResolver(),
-            Settings.System.GESTURE_NAVBAR_RADIUS, 0));
+        pref.setProgress(Settings.System.getIntForUser(getContext().getContentResolver(),
+            Settings.System.GESTURE_NAVBAR_RADIUS, 3, UserHandle.USER_CURRENT));
         pref.setOnPreferenceChangeListener((p, v) ->
             Settings.System.putInt(getContext().getContentResolver(),
                 Settings.System.GESTURE_NAVBAR_RADIUS, (Integer) v));
