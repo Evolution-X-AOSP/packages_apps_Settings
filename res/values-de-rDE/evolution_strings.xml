@@ -36,9 +36,9 @@
     <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
     <string name="proximity_wake_summary">Vor dem Aufwecken des Bildschirms den Näherungssensor überprüfen</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
-    <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
-    <string name="low_power_refresh_rate_title_custom">Energiesparmodus Aktualisierungsrate</string>
+    <string name="min_refresh_rate_title">Bildwiederholrate (Minimal)</string>
+    <string name="max_refresh_rate_title">Bildwiederholrate (Maximal)</string>
+    <string name="low_power_refresh_rate_title_custom">Bildwiederholrate (Energiesparmodus)</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Deaktivieren, um die vom Gerät erzeugte Hitze während des Ladevorgangs zu reduzieren und die Lebensdauer des Akkus zu verlängern</string>
@@ -194,8 +194,8 @@
     <string name="increasing_ring_ramp_up_time_title">Anstieg alle</string>
     <!-- Per-app volume control -->
     <string name="app_volume">App-Lautstärke</string>
-    <string name="app_volume_title">Lautstärkeregler pro App</string>
-    <string name="app_volume_summary">Setzen unterschiedlicher Lautstärke-Stufen pro App erlauben</string>
+    <string name="app_volume_title">Lautstärkeregler pro Anwendung</string>
+    <string name="app_volume_summary">Unterschiedliche Lautstärken für jede Anwendung erlauben</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Debugging als Root</string>
     <string name="adb_enable_summary_root">Android-Debugging als Root erlauben</string>
@@ -224,8 +224,8 @@
     <string name="back_options_dialog_title">Optionen</string>
     <string name="back_height_message">Bereich der Bildschirmkante, welcher für Zurück-Geste verwendet wird.</string>
     <!-- Notch: Full-screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Zwinge Apps, die Aussparung zu ignorieren</string>
+    <string name="display_cutout_force_fullscreen_title">Vollbild-Anwendungen</string>
+    <string name="display_cutout_force_fullscreen_summary">Zwinge Anwendungen, die Notch-Aussparung zu ignorieren</string>
     <string name="search">Suche</string>
     <string name="search_apps">Anwendungen suchen</string>
     <!-- Clang version -->
@@ -260,7 +260,7 @@
     <string name="enable_floating_rotation_button_title">Schaltfläche zum Drehen verwenden</string>
     <!-- Build status -->
     <string name="build_status">Build‐Status</string>
-    <string name="high_power_apps_summary">Akku-Optimierung pro App</string>
+    <string name="high_power_apps_summary">Akku-Optimierung pro Anwendung</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
     <string name="random_summary_2">Willkommen am Vorabend der Evolution</string>
@@ -316,7 +316,7 @@
     <!-- Per-channel vibration pattern -->
     <string name="notification_custom_vibrate_title">Benutzerdefiniertes Vibrationsmuster</string>
     <string name="notification_custom_vibrate_summary">Ersetzt nur das Standardmuster\n
-Die in Apps festgelegten Muster haben Vorrang</string>
+Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="notification_custom_vibrate_slider1">Vibrieren für</string>
     <string name="notification_custom_vibrate_slider2">Pausieren für</string>
     <!-- Per-channel torch blinking -->
