@@ -321,7 +321,7 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="notification_custom_vibrate_slider2">Pausieren für</string>
     <!-- Per-channel torch blinking -->
     <string name="default_notification_torch_title">LED-Blitz blinken</string>
-    <string name="default_notification_torch_summary">LED-Blitz für diese Benachrichtigung blinken lassen</string>
+    <string name="default_notification_torch_summary">Blinkende Taschenlampe für eingehende Benachrichtigungen</string>
     <string name="default_notification_torch_slider1">Anzahl der Blinke</string>
     <string name="default_notification_torch_slider2">Blinkrate</string>
     <!-- Show clipboard overlay -->
