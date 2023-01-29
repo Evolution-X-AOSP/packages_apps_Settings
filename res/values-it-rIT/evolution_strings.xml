@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">Disattiva i sensori</string>
     <string name="sleep_mode_sensors_toggle_summary">Disabilita i sensori quando la modalità sonno è attiva</string>
     <string name="sleep_mode_display_text">La modalità sonno consente di disattivare alcuni servizi per risparmiare batteria e silenziare il telefono mentre dormi.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Cambia gestore di backup</string>
-    <string name="backup_transport_title">Seleziona un gestore di backup</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Bilanciamento colore</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
