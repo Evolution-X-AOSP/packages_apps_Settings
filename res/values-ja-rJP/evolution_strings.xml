@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">センサーを無効化</string>
     <string name="sleep_mode_sensors_toggle_summary">スリープモードが ON の時はセンサーを無効にする</string>
     <string name="sleep_mode_display_text">スリープモードはバッテリー消費を減らし睡眠中に音を鳴らさないために端末の特定のサービスを無効化します</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">バックアッププロバイダの変更</string>
-    <string name="backup_transport_title">バックアッププロバイダの選択</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">色のバランス</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
