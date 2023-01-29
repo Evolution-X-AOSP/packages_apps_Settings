@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">Sensörleri kapat</string>
     <string name="sleep_mode_sensors_toggle_summary">Uyku modu açıldığında sensörleri devre dışı bırak</string>
     <string name="sleep_mode_display_text">Uyku modu pil tasarrufu için bazı servisleri devre dışı bırakmanızı ve siz uyurken telefonunuzu sessiz moda almanızı sağlar.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Yedekleme sağlayıcısını değiştir</string>
-    <string name="backup_transport_title">Yedekleme sağlayıcı seçin</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Renk dengesi</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
