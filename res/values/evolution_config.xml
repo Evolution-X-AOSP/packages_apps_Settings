@@ -43,11 +43,6 @@
     <!-- Does the device support color inversion -->
     <bool name="config_displayInversionAvailable">true</bool>
 
-    <!-- Seedvault -->
-    <string-array name="config_ignored_backup_transports" translatable="false">
-        <item>com.android.localtransport/.LocalTransport</item>
-    </string-array>
-
     <!-- Battery Health -->
     <string name="config_batCurCap"></string>
     <string name="config_batDesCap"></string>
