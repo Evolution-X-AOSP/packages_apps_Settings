@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">关闭传感器</string>
     <string name="sleep_mode_sensors_toggle_summary">开启睡眠模式时禁用传感器</string>
     <string name="sleep_mode_display_text">睡眠模式允许您禁用某些服务以帮助在您睡觉时节省电量并静音您的手机</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">更改备份提供商</string>
-    <string name="backup_transport_title">选择备份提供商</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">色彩平衡</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
