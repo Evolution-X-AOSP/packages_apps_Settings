@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">Выключать датчики</string>
     <string name="sleep_mode_sensors_toggle_summary">Отключить датчики, когда включен спящий режим</string>
     <string name="sleep_mode_display_text">Спящий режим позволяет отключить некоторые службы для экономии заряда батареи и отключения звука телефона во время сна.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Сменить поставщика услуг резервного копирования</string>
-    <string name="backup_transport_title">Выберите поставщика услуг резервного копирования</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Цветовой баланс</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
