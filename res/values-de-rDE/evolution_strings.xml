@@ -409,9 +409,6 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="sleep_mode_sensors_toggle_title">Sensoren ausschalten</string>
     <string name="sleep_mode_sensors_toggle_summary">Sensoren deaktivieren, wenn der Ruhemodus aktiviert ist</string>
     <string name="sleep_mode_display_text">Im Ruhemodus können Sie bestimmte Dienste deaktivieren, um den Akku zu schonen und Ihr Telefon im Schlaf leise zu stellen.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Backup-Anbieter ändern</string>
-    <string name="backup_transport_title">Backup-Anbieter auswählen</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Farbausgleich</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
