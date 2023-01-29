@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">Wyłącz czujniki</string>
     <string name="sleep_mode_sensors_toggle_summary">Wyłącz czujniki, gdy Tryb uśpienia jest włączony</string>
     <string name="sleep_mode_display_text">Tryb uśpienia pozwala wyłączyć niektóre usługi, aby pomóc oszczędzać baterię i wyciszyć telefon, kiedy śpisz.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Zmień dostawcę kopii zapasowej</string>
-    <string name="backup_transport_title">Wybierz dostawcę kopii zapasowej</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Balans kolorów</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
