@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">Nonaktifkan Sensor</string>
     <string name="sleep_mode_sensors_toggle_summary">Nonaktifkan Sensor saat Mode Tidur diaktifkan</string>
     <string name="sleep_mode_display_text">Mode Tidur memungkinkan Anda menonaktifkan layanan tertentu untuk membantu menghemat baterai dan membungkam ponsel saat Anda tidur.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Ubah penyedia cadangan</string>
-    <string name="backup_transport_title">Pilih penyedia cadangan</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Keseimbangan warna</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
