@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">Desactivar sensores</string>
     <string name="sleep_mode_sensors_toggle_summary">Desactivar sensores cuando el modo hora de dormir está activado</string>
     <string name="sleep_mode_display_text">El modo hora de dormir le permite desactivar ciertos servicios para ahorrar batería y silenciar su teléfono mientras duerme.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Cambiar proveedor de copia de seguridad</string>
-    <string name="backup_transport_title">Seleccionar proveedor de copia de seguridad</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Balance de color</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
