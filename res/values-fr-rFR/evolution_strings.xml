@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">Désactiver les capteurs</string>
     <string name="sleep_mode_sensors_toggle_summary">Désactiver les capteurs lorsque le mode veille est activé</string>
     <string name="sleep_mode_display_text">Le mode Veille vous permet de désactiver certains services pour économiser de la batterie et couper le son de votre téléphone pendant que vous dormez.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Modifier le fournisseur de sauvegarde</string>
-    <string name="backup_transport_title">Sélectionner un fournisseur de sauvegarde</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Nuances de couleur</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
