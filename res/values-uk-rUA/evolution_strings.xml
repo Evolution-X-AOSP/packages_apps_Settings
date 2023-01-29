@@ -77,7 +77,7 @@
     <string name="lock_settings_picker_pattern_size_message">Оберіть розмір графічного ключа</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Показувати неправильний ключ</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Показувати точки візерунку</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
@@ -109,9 +109,9 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати VPN-з\'єднання цього пристрою\u2019 для підключення до потоку</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_title">Ефект масштабування шпалер</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
     <string name="wallpaper_zoom_effect_summary">Масштабувати шпалери для відображення анімації збільшення. Якість шпалер може знизитись</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Автоматично вимикати Wi‑Fi</string>
@@ -119,9 +119,9 @@
     <string name="wifi_timeout_summary">Автоматично вимикати Wi-Fi через певний проміжок часу.</string>
     <string name="wifi_timeout_summary1">Wi-Fi вимкнеться через <xliff:g id="timeout_description">%1$s</xliff:g> якщо не під\'єднано до мережі</string>
     <string name="wifi_timeout_summary2">Вимкнено</string>
-    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option name to change Bluetooth timeout -->
     <string name="bluetooth_timeout">Час очікування Bluetooth</string>
-    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <!-- Connected devices screen, setting option summary to change Bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо пристрої не під\'єднані</string>
     <string name="bluetooth_timeout_summary2">Не вимикати Bluetooth автоматично</string>
     <!-- High touch sensitivity -->
@@ -179,7 +179,7 @@
     <string name="color_red_title">Червоний</string>
     <string name="color_green_title">Зелений</string>
     <string name="color_blue_title">Синій</string>
-    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay: Picture Adjustment -->
     <string name="picture_adjustment_title">Налаштування зображення</string>
     <string name="picture_adjustment_summary">Налаштуйте відтінок, насиченість, інтенсивність і контраст</string>
     <string name="adj_hue_title">Відтінок</string>
@@ -209,7 +209,7 @@
     <string name="use_ringer_mute_speaker_media_title">Вимк. беззвучний режим медіа</string>
     <string name="ringer_mute_speaker_media_title">Без звуку медіа</string>
     <string name="ringer_mute_text">Вимкнути звук мультимедіа при беззвучному режимі дзвінка. При відключенні від пристрою Bluetooth в беззвучному режимі, гучність медіа буде автоматично приглушена. \nЦе не вплине на зовнішні динаміки та навушники.</string>
-    <!-- 0 timeout for smart pause while using silent to mute-->
+    <!-- 0 timeout for Smart Pause while using silent to mute-->
     <string name="mute_sp_title">Не відновлювати медіа після скасування звуку</string>
     <string name="mute_sp_summary">Встановити тайм-аут Smart Пауза на 0, коли звучить, щоб запобігти випадковому відтворенню\n(Це буде автоматично відновлено після відключення звуку, якщо встановлений користувацький тайм-аут)</string>
     <!-- Pulse Volume Panel on un/mute media-->
@@ -223,7 +223,7 @@
     <string name="back_height_high_label">Знизу</string>
     <string name="back_options_dialog_title">Налаштування</string>
     <string name="back_height_message">Довжина екрану, яка використовується як сенсорна область для жесту \"Назад\".</string>
-    <!-- Notch: Full screen apps -->
+    <!-- Notch: Full-screen apps -->
     <string name="display_cutout_force_fullscreen_title">Повноекранні застосунки</string>
     <string name="display_cutout_force_fullscreen_summary">Змусити застосунки ігнорувати виріз</string>
     <string name="search">Пошук</string>
@@ -245,7 +245,7 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Розблокувати пристрій</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Цей пристрій \"<xliff:g id="device_name">%1$s</xliff:g>\" зможе під\'єднатися до цієї точки доступу</string>
     <string name="wifi_hotspot_client_manager_footer_text">Наразі немає доступних клієнтів. Підключені та заблоковані пристрої з’являться тут, коли вони стануть доступними.</string>
-    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <!-- Warning message displayed if user chooses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Сертифікат не вказано. З’єднання не буде конфіденційним.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Звук при зарядці</string>
@@ -260,12 +260,27 @@
     <string name="enable_floating_rotation_button_title">Використовувати плаваючу кнопку обертання</string>
     <!-- Build status -->
     <string name="build_status">Статус збірки</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Поточна ємність акумулятора</string>
-    <string name="designed_battery_capacity">Розрахована максимальна ємність акумулятора</string>
-    <string name="battery_charge_cycles">Цикли зарядки завершені</string>
     <string name="high_power_apps_summary">Вимкнути оптимізацію використання батареї</string>
     <!-- Private DNS Providers -->
+    <!-- Random Evolver summaries -->
+    <string name="random_summary_2">Ласкаво просимо до Єви Еволюції</string>
+    <string name="random_summary_3">Продовжити Еволюцію вашого пристрою</string>
+    <string name="random_summary_4">Почніть розвивати свій пристрій з нашими можливостями</string>
+    <string name="random_summary_5">Еволюція — загадка (відсилка до пісні Motörhead - Line in the Sand)</string>
+    <string name="random_summary_6">Це не просто якась прошивка, це Evolution X!</string>
+    <string name="random_summary_7">Ненависники будуть ненавидіти, Ево буде жити</string>
+    <string name="random_summary_8">Живемо у гангстерському раю</string>
+    <string name="random_summary_9">Продовжуй рухатися вперед</string>
+    <string name="random_summary_12">Ми були блискавкою перед грозою</string>
+    <string name="random_summary_15">Тірамісу справді добре смакує</string>
+    <string name="random_summary_16">І 13 може бути щасливим числом</string>
+    <string name="random_summary_18">Життя не завжди пікселі й веселки</string>
+    <string name="random_summary_19">Все ще Android, але кращий</string>
+    <string name="random_summary_20">Будь ласка, підходьте до найближчого виходу</string>
+    <string name="random_summary_21">Звертаємось до водія чорного BMW...</string>
+    <string name="random_summary_24">Визнайте нас!</string>
+    <string name="random_summary_25">Ми знаємо, що названі на честь Міцубісі</string>
+    <string name="random_summary_26">Час циклу завантажень!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Параметри автоповороту</string>
     <string name="display_rotation_enabled">Автоповорот увімкнуто</string>
@@ -368,4 +383,47 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Активний дисплей</string>
     <string name="doze_enabled_summary">Чи вмикати функціонал пакету doze</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Режим сну</string>
+    <string name="sleep_mode_summary_on">Увімкнено / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Вимкнено / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Режим дзвінка</string>
+    <string name="sleep_mode_ringer_off_title">Не змінювати</string>
+    <string name="sleep_mode_ringer_vibrate_title">Вібрувати</string>
+    <string name="sleep_mode_ringer_dnd_title">Не турбувати</string>
+    <string name="sleep_mode_ringer_silent_title">Без звуку</string>
+    <string name="sleep_mode_schedule_sunset">Захід сонця</string>
+    <string name="sleep_mode_schedule_sunrise">Схід сонця</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Вмикає від заходу сонця до заданого часу</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Вмикається час від заданого часу до сходу сонця</string>
+    <string name="sleep_mode_toggles_title">Перемикачі</string>
+    <string name="sleep_mode_wifi_toggle_title">Вимкнути Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Вимикати Wi-Fi, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Вимкнути Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Вимикати Bluetooth, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_cellular_toggle_title">Вимкнути мобільний трафік</string>
+    <string name="sleep_mode_cellular_toggle_summary">Вимикати передачу мобільних даних, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_location_toggle_title">Вимкнути геодані</string>
+    <string name="sleep_mode_location_toggle_summary">Вимикати геодані, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_sensors_toggle_title">Вимкнути сенсори</string>
+    <string name="sleep_mode_sensors_toggle_summary">Вимикати сенсори, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_display_text">Режим сну дозволяє вимкнути певні сервіси, щоб заощадити заряд і стишити телефон у режимі сну.</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Баланс кольорів</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Рівень червоного</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Рівень зеленого</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Рівень синього</string>
+    <string name="keywords_color_balance">колір, баланс кольорів, корекція кольорів, червоний, зелений, синій, LiveDisplay</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Поточна ємність акумулятора</string>
+    <string name="designed_battery_capacity">Розрахована максимальна ємність акумулятора</string>
+    <string name="battery_charge_cycles">Цикли зарядки завершені</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Затемнення</string>
+    <string name="dc_dimming_info">Знижує навантаження на очі при низькому освітленні шляхом мінімізації мерехтіння екрану. Може призвести до зниження якості зображення та поганого відтворення кольорів або збільшення енергоспоживання.</string>
+    <string name="dc_dimming_main_switch_title">Використати DC Затемнення</string>
+    <string name="keywords_display_dc_dimming">dc затемнення, проти, мерехтіння, очі, навантаження</string>
 </resources>
