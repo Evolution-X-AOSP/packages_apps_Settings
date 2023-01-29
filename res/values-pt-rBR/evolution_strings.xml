@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">Desativar sensores</string>
     <string name="sleep_mode_sensors_toggle_summary">Desativar Sensores quando o modo de suspensão estiver ativado</string>
     <string name="sleep_mode_display_text">O modo de suspensão permitite que você desative certos serviços para economizar bateria e silenciar seu telefone enquanto você dorme.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Alterar provedor de backup</string>
-    <string name="backup_transport_title">Selecione o provedor de backup</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Balanço de cores</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
