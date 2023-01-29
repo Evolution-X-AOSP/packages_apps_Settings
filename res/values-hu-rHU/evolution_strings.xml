@@ -408,9 +408,6 @@
     <string name="sleep_mode_sensors_toggle_title">Szenzor-kikapcsolás</string>
     <string name="sleep_mode_sensors_toggle_summary">Letiltja a Szenzorokat, ha az Alvómód be van kapcsolva</string>
     <string name="sleep_mode_display_text">Az Alvómód lehetővé teszi Önnek szolgáltatások letiltását az akkumulátor kímélése és a telefon alvás közbeni némítása érdekében.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Mentési-szolgáltatás megváltoztatása</string>
-    <string name="backup_transport_title">Mentési-szolgáltatás kiválasztása</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Színegyensúly</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
