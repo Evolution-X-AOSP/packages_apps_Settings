@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2022 Evolution X
+     Copyright (C) 2019-2023 Evolution X
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -326,9 +326,6 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Mostra la superposició del porta-retalls</string>
     <string name="show_clipboard_overlay_summary">Mostra una superposició a l\'extrem inferior esquerre de la pantalla quan es copia alguna cosa al porta-retalls</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Etiqueta de música ambiental</string>
-    <string name="pulse_on_new_tracks_summary">Mostra la pantalla ambiental quan es reprodueix una pista de música nova</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Elimina l\'escaneig facial existent i crea un nou escaneig</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Refés l\'escaneig facial</string>
@@ -424,4 +421,9 @@
     <string name="current_battery_capacity">Capacitat actual</string>
     <string name="designed_battery_capacity">Capacitat màxima</string>
     <string name="battery_charge_cycles">Cicles de càrrega</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Atenuació DC</string>
+    <string name="dc_dimming_info">Redueix la fatiga ocular en condicions de poca llum minimitzant el parpelleig de la pantalla. Pot provocar una reducció de la qualitat de la imatge i una producció de color deficient o un consum d\'energia més elevat.</string>
+    <string name="dc_dimming_main_switch_title">Utilitza l\'Atenuació DC</string>
+    <string name="keywords_display_dc_dimming">atenuació dc, anti, parpelleig, ull, tensió</string>
 </resources>
