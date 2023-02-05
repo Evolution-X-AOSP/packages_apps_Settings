@@ -42,13 +42,6 @@ public class BackupSettingsFragment extends DashboardFragment {
         super.onCreate(savedInstanceState);
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        // update information when we navigate back from TransportActivity
-        displayResourceTilesToScreen(getPreferenceScreen());
-    }
-
     /**
      * Get the tag string for logging.
      */
