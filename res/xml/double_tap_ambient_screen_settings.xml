@@ -16,7 +16,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:key="double_tap"
-    android:title="@string/double_tap_title">
+    android:title="@string/doze_double_tap_title">
 
     <com.android.settingslib.widget.IllustrationPreference
         android:key="gesture_double_tap_screen_video"
