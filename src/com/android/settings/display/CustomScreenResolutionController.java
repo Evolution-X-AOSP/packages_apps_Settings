@@ -43,7 +43,7 @@ public class CustomScreenResolutionController extends BasePreferenceController i
         Preference.OnPreferenceChangeListener {
     private static final String KEY_RESOLUTION_SWITCH = "custom_screen_resolution";
     private static final String TAG = "customScreenResolution";
-    private static final String RESOLUTION_METRIC_SETTING_KEY = "user_selected_custom_resolution";
+    private static final String RESOLUTION_METRIC_SETTING_KEY = "user_selected_resolution";
 
     private ListPreference mListPreference;
 
