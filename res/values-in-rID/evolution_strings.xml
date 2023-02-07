@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2022 Evolution X
+     Copyright (C) 2019-2023 Evolution X
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -63,7 +63,6 @@
     <string name="adaptive_playback_timeout_10_min">10 menit</string>
     <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Ketuk dua kali</string>
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
     <string name="doze_double_tap_summary">Tampilkan notifikasi dengan ketukan ganda</string>
     <!-- Fingerprint wake-and-unlock -->
@@ -245,8 +244,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Buka blokir perangkat</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Perangkat ini \"<xliff:g id="device_name">%1$s</xliff:g>\" akan dapat terhubung ke hotspot ini</string>
     <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang terhubung dan diblokir akan dicantumkan di sini jika tersedia.</string>
-    <!-- Warning message displayed if user chooses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">Tidak ada sertifikat yang ditentukan. Koneksi Anda tidak akan bersifat pribadi.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Suara pengisian daya</string>
     <string name="charging_vibro_title">Getaran pengisian daya</string>
