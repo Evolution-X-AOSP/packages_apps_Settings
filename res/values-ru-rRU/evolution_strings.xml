@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2022 Evolution X
+     Copyright (C) 2019-2023 Evolution X
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -63,7 +63,6 @@
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
     <string name="adaptive_playback_timeout_10_min_summary">Вкл. (10 минут)</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Двойное касание</string>
     <string name="doze_double_tap_title">Двойное касание для проверки телефона</string>
     <string name="doze_double_tap_summary">Пульсирующие уведомления по двойному касанию</string>
     <!-- Fingerprint wake-and-unlock -->
@@ -245,8 +244,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать устройство</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Это устройство \"<xliff:g id="device_name">%1$s</xliff:g>\" сможет подключиться к этой точке доступа</string>
     <string name="wifi_hotspot_client_manager_footer_text">В настоящее время нет доступных клиентов. Подключенные и заблокированные устройства будут перечислены здесь, когда они станут доступны.</string>
-    <!-- Warning message displayed if user chooses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Ваше соединение не будет защищено.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Сигнал при подключении зарядки</string>
     <string name="charging_vibro_title">Вибрация при подключении зарядки</string>
@@ -380,9 +377,6 @@
     <string name="in_call_notifications_title">Уведомления при звонке</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Звуки NFC</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient Display</string>
-    <string name="doze_enabled_summary">Включить ли функциональность пакета doze</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Режим сна</string>
     <string name="sleep_mode_summary_on">Вкл / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
