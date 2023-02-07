@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2022 Evolution X
+     Copyright (C) 2019-2023 Evolution X
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -63,7 +63,6 @@
     <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
     <string name="adaptive_playback_timeout_10_min_summary">An (10 Minuten)</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Doppelt Tippen</string>
     <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
     <string name="doze_double_tap_summary">Benachrichtigungen durch doppeltes Tippen anzeigen</string>
     <!-- Fingerprint wake-and-unlock -->
@@ -245,8 +244,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Gerät nicht mehr blockieren</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Das Gerät \"<xliff:g id="device_name">%1$s</xliff:g>\" wird sich mit diesem Hotspot verbinden können</string>
     <string name="wifi_hotspot_client_manager_footer_text">Derzeit sind keine Clients verfügbar. Verbundene und blockierte Geräte werden hier aufgelistet, wenn sie verfügbar sind.</string>
-    <!-- Warning message displayed if user chooses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Es wird keine private Verbindung hergestellt.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Ton beim Aufladen</string>
     <string name="charging_vibro_title">Vibration beim Laden</string>
@@ -335,7 +332,7 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Gesichts-Scan wiederholen</string>
     <string name="face_redo_confirm_btn">Wiederholen</string>
     <string name="face_redo_warning_msg">Möchten Sie den vorhandenen Gesichts-Scan löschen und einen neuen Scan erstellen?</string>
-    <string name="face_unlock_method_title">Face unlock auf Sperrbildschirm zulassen</string>
+    <string name="face_unlock_method_title">Gesichtsentsperrung auf Sperrbildschirm zulassen</string>
     <string name="face_unlock_method_default">Wenn der Bildschirm aktiviert ist</string>
     <string name="face_unlock_method_swipe">Wischen auf dem Sperrbildschirm</string>
     <string name="skip_biometric_auth_confirmation_title">Manuelle Bestätigung überspringen</string>
