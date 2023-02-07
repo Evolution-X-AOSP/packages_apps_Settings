@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2022 Evolution X
+     Copyright (C) 2019-2023 Evolution X
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -63,7 +63,6 @@
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Doble toque</string>
     <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
     <string name="doze_double_tap_summary">Notificaciones de pulso por doble toque</string>
     <!-- Fingerprint wake-and-unlock -->
@@ -245,8 +244,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Este dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" podrá conectarse a este punto de acceso</string>
     <string name="wifi_hotspot_client_manager_footer_text">No hay clientes disponibles. Los dispositivos conectados y bloqueados aparecerán aquí cuando estén disponibles.</string>
-    <!-- Warning message displayed if user chooses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">Ningún certificado especificado. Su conexión no será privada.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Sonido de carga</string>
     <string name="charging_vibro_title">Vibración al cargar</string>
@@ -380,9 +377,6 @@
     <string name="in_call_notifications_title">Notificaciones en llamada</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Sonidos de NFC</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Pantalla ambiente</string>
-    <string name="doze_enabled_summary">Siempre activar la funcionalidad del paquete doze</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Modo hora de dormir</string>
     <string name="sleep_mode_summary_on">Activado / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
