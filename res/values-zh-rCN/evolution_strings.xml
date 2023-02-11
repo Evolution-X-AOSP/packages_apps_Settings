@@ -257,6 +257,10 @@
     <string name="enable_floating_rotation_button_title">使用浮动旋转按钮</string>
     <!-- Build status -->
     <string name="build_status">编译状态</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">当前容量</string>
+    <string name="designed_battery_capacity">电池设计容量</string>
+    <string name="battery_charge_cycles">充电周期已完成</string>
     <string name="high_power_apps_summary">每个应用的电池优化</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -414,10 +418,6 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">蓝色增强</string>
     <string name="keywords_color_balance">颜色、颜色平衡、颜色校正、红色、绿色、蓝色、增强显示</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">当前容量</string>
-    <string name="designed_battery_capacity">电池设计容量</string>
-    <string name="battery_charge_cycles">充电周期已完成</string>
     <!-- DC Dimming -->
     <string name="dc_dimming_title">DC 调光</string>
     <string name="dc_dimming_info">通过最大限度地减少屏幕闪烁来降低低光线条件下的眼睛紧张。可能导致图像质量下降、色彩生成差或能耗增加。</string>
