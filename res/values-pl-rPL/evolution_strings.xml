@@ -257,6 +257,10 @@
     <string name="enable_floating_rotation_button_title">Użyj pływającego przycisku obrotu</string>
     <!-- Build status -->
     <string name="build_status">Status kompilacji</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Obecna pojemność</string>
+    <string name="designed_battery_capacity">Fabryczna pojemność baterii</string>
+    <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
     <string name="high_power_apps_summary">Optymalizacja baterii dla poszczególnych aplikacji</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -414,10 +418,6 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Poziom niebieskiego</string>
     <string name="keywords_color_balance">kolor, balans kolorów, korekcja kolorów, czarowny, zielony, niebieski, LiveDisplay</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Obecna pojemność</string>
-    <string name="designed_battery_capacity">Fabryczna pojemność baterii</string>
-    <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
     <!-- DC Dimming -->
     <string name="dc_dimming_title">Redukcja migotania</string>
     <string name="dc_dimming_info">Zmniejsza zmęczenie oczu w warunkach słabego oświetlenia, minimalizując migotanie ekranu. Może skutkować obniżeniem jakości obrazu i słabą reprodukcją kolorów lub zwiększonym zużyciem energii.</string>
