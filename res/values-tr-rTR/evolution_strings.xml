@@ -257,6 +257,10 @@
     <string name="enable_floating_rotation_button_title">Hareketli yönlendirme tuşu kullan</string>
     <!-- Build status -->
     <string name="build_status">Sürüm durumu</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">En yüksek kapasite</string>
+    <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
     <string name="high_power_apps_summary">Pil en iyilemesini devre dışı bırak</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -414,10 +418,6 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Mavi yoğunluğu</string>
     <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
-    <string name="designed_battery_capacity">En yüksek kapasite</string>
-    <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
     <!-- DC Dimming -->
     <string name="dc_dimming_title">DC Karartma</string>
     <string name="dc_dimming_info">Düşük ışık koşullarında ekran titremesini en aza indirerek göz yorgunluğunu azaltır. Görüntü kalitesinin düşmesine, düşük renk üretimine veya daha yüksek güç tüketimine neden olabilir.</string>
