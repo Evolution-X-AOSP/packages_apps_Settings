@@ -170,5 +170,5 @@ filegroup {
 
 android_library_import {
     name: "glide",
-    aars: ["libs/glide-4.9.0.aar"],
+    aars: ["libs/glide-4.14.2.aar"],
 }
