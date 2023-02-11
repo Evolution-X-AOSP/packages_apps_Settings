@@ -16,26 +16,21 @@
 
 package com.android.settings.security;
 
-import com.android.settings.R;
-import com.android.settings.overlay.FeatureFactory;
-import com.google.android.settings.security.SecurityHubDashboard;
-
 /** Implementation for {@code SecuritySettingsFeatureProvider}. */
 public class SecuritySettingsFeatureProviderImpl implements SecuritySettingsFeatureProvider {
 
     @Override
     public boolean hasAlternativeSecuritySettingsFragment() {
-        return true;
+        return false;
     }
 
     @Override
     public String getAlternativeSecuritySettingsFragmentClassname() {
-        return SecurityHubDashboard.class.getName();
+        return null;
     }
 
     @Override
     public String getAlternativeAdvancedSettingsCategoryKey() {
-        return FeatureFactory.getAppContext().getString(
-                R.string.config_alternative_advanced_security_category_key);
+        return null;
     }
 }
