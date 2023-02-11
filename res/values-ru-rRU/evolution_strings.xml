@@ -257,6 +257,10 @@
     <string name="enable_floating_rotation_button_title">Использовать плавающую кнопку поворота</string>
     <!-- Build status -->
     <string name="build_status">Статус сборки</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
+    <string name="designed_battery_capacity">Максимальная емкость батареи</string>
+    <string name="battery_charge_cycles">Количество полных циклов заряда</string>
     <string name="high_power_apps_summary">Оптимизация батареи для каждого приложения</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -414,10 +418,6 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Уровень синего</string>
     <string name="keywords_color_balance">цвет, цветовой баланс, цветовая коррекция, красный, зелёный, синий, LiveDisplay</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
-    <string name="designed_battery_capacity">Максимальная емкость батареи</string>
-    <string name="battery_charge_cycles">Количество полных циклов заряда</string>
     <!-- DC Dimming -->
     <string name="dc_dimming_title">DC Dimming</string>
     <string name="dc_dimming_info">Снижает нагрузку на глаза в условиях низкой освещенности за счет уменьшения мерцания экрана. Может привести к снижению качества изображения и ухудшению цветопередачи, а также к увеличению энергопотребления.</string>
