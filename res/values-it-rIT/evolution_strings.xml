@@ -257,6 +257,10 @@
     <string name="enable_floating_rotation_button_title">Usa il pulsante di rotazione fluttuante</string>
     <!-- Build status -->
     <string name="build_status">Stato di compilazione</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Capacità massima attuale</string>
+    <string name="designed_battery_capacity">Capacità nominale</string>
+    <string name="battery_charge_cycles">Cicli di ricarica</string>
     <string name="high_power_apps_summary">Ottimizzazione batteria per app</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -414,10 +418,6 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Intensità blu</string>
     <string name="keywords_color_balance">colore, bilanciamento colore, correzione colore, rosso, verde, blu, LiveDisplay</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Capacità massima attuale</string>
-    <string name="designed_battery_capacity">Capacità nominale</string>
-    <string name="battery_charge_cycles">Cicli di ricarica</string>
     <!-- DC Dimming -->
     <string name="dc_dimming_title">Attenuazione DC</string>
     <string name="dc_dimming_info">Riduce l\'affaticamento degli occhi in condizioni di scarsa luminosità minimizzando lo sfarfallio dello schermo. Può comportare una minore qualità dell\'immagine e una scarsa resa dei colori, o un maggiore consumo energetico.</string>
