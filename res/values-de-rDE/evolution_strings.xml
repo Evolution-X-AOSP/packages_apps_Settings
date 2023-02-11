@@ -257,6 +257,10 @@
     <string name="enable_floating_rotation_button_title">Schaltfläche zum Drehen verwenden</string>
     <!-- Build status -->
     <string name="build_status">Build‐Status</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Aktuelle Kapazität</string>
+    <string name="designed_battery_capacity">Ursprüngliche Akkukapazität</string>
+    <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
     <string name="high_power_apps_summary">Akku-Optimierung pro Anwendung</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -415,10 +419,6 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Blau (Stärke)</string>
     <string name="keywords_color_balance">Farbe, Farbausgleich, Farbkorrektur, Rot, Grün, Blau, LiveDisplay</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Aktuelle Kapazität</string>
-    <string name="designed_battery_capacity">Ursprüngliche Akkukapazität</string>
-    <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
     <!-- DC Dimming -->
     <string name="dc_dimming_title">DC-Dimming</string>
     <string name="dc_dimming_info">Reduziert die Belastung bei geringen Lichtverhältnissen durch die Minimierung des Bildschirmflackers. Kann zu einer geringeren Bildqualität und einer schlechten Farbproduktion oder einem höheren Stromverbrauch führen.</string>
