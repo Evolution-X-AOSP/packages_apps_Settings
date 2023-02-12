@@ -8,7 +8,7 @@
     <string name="evolver_dashboard_title">The Evolver</string>
     <string name="evolver_dashboard_summary">Добро пожаловать в эпоху эволюции</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Платформа</string>
+    <string name="soc_model">Модель SoC</string>
     <string name="total_ram">Всего ОЗУ</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Версия Evolution X</string>
