@@ -8,7 +8,7 @@
     <string name="evolver_dashboard_title">Az Evolver</string>
     <string name="evolver_dashboard_summary">Üdvözlünk az \'Evolúció kezdetén\'!</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
+    <string name="soc_model">CPU modell</string>
     <string name="total_ram">Az összes RAM</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Evolution X-verzió</string>
