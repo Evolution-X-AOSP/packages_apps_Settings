@@ -8,7 +8,7 @@
     <string name="evolver_dashboard_title">Evolver</string>
     <string name="evolver_dashboard_summary">Witaj w zmierzchu Ewolucji</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platforma</string>
+    <string name="soc_model">Procesor</string>
     <string name="total_ram">Całkowita ilość pamięci RAM</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Wersja Evolution X</string>
@@ -423,4 +423,9 @@
     <string name="dc_dimming_info">Zmniejsza zmęczenie oczu w warunkach słabego oświetlenia, minimalizując migotanie ekranu. Może skutkować obniżeniem jakości obrazu i słabą reprodukcją kolorów lub zwiększonym zużyciem energii.</string>
     <string name="dc_dimming_main_switch_title">Włącz Redukcję migotania</string>
     <string name="keywords_display_dc_dimming">redukcja migotania, redukcja, miganie, oko, zmęczenie</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Globalny VPN</string>
+    <string name="global_vpn_summary">Wymuś cały ruch na urządzeniu przez ten VPN, w tym profil do pracy i innych użytkowników.</string>
+    <string name="global_vpn_summary_on">Wymuś cały ruch na urządzeniu przez ten VPN, w tym profil do pracy i innych użytkowników. Uwaga: Gdy włączone, nie będziesz mógł używać oddzielnego VPN w profilu do pracy lub innych użytkowników</string>
+    <string name="global_vpn_summary_any_vpn_active">Musisz najpierw wyłączyć wszystkie aktywne połączenia VPN, aby to włączyć</string>
 </resources>
