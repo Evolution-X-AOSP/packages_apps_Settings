@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2022 Evolution X
+     Copyright (C) 2019-2023 Evolution X
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -8,7 +8,7 @@
     <string name="evolver_dashboard_title">Setări avansate ROM</string>
     <string name="evolver_dashboard_summary">Bine ai venit la Eve of Evolution</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platformă</string>
+    <string name="soc_model">Model SoC</string>
     <string name="total_ram">RAM total</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Versiune Evolution X</string>
@@ -63,8 +63,7 @@
     <string name="adaptive_playback_timeout_10_min">10 minute</string>
     <string name="adaptive_playback_timeout_10_min_summary">Pornit (10 minute)</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Apăsare dublă</string>
-    <string name="doze_double_tap_title">Atingeți de două ori pentru a verifica telefonul</string>
+    <string name="doze_double_tap_title">Atinge de două ori pentru a verifica telefonul</string>
     <string name="doze_double_tap_summary">Pulsează notificările la apăsare dublă</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Atingeți amprenta pentru a debloca</string>
@@ -245,8 +244,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Deblocare dispozitiv</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Dispozitivul \"%1$s\" se va putea conecta la acest hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">Nu sunt clienți disponibili momentan. Dispozitivele conectate și blocate vor fi listate aici atunci când sunt disponibile.</string>
-    <!-- Warning message displayed if user chooses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">Nu s-a specificat niciun certificat. Conexiunea nu va fi privată.</string>
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Sunet de încărcare</string>
     <string name="charging_vibro_title">Vibrații la încărcare</string>
@@ -260,6 +257,10 @@
     <string name="enable_floating_rotation_button_title">Folosește butonul de rotire plutitor</string>
     <!-- Build status -->
     <string name="build_status">Stare compilare</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Capacitatea curentă a bateriei</string>
+    <string name="designed_battery_capacity">Capacitatea proiectată a bateriei</string>
+    <string name="battery_charge_cycles">Cicluri de încărcare finalizate</string>
     <string name="high_power_apps_summary">Optimizare baterie per-aplicație</string>
     <!-- Private DNS Providers -->
     <!-- Random Evolver summaries -->
@@ -408,9 +409,6 @@
     <string name="sleep_mode_sensors_toggle_title">Oprește senzorii</string>
     <string name="sleep_mode_sensors_toggle_summary">Dezactivează senzorii când modul suspendare este pornit</string>
     <string name="sleep_mode_display_text">Modul suspendare permite dezactivarea anumitor servicii pentru a ajuta la economisirea bateriei și pentru a opri telefonul în timp ce dormiți.</string>
-    <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Schimbă furnizorul de backup</string>
-    <string name="backup_transport_title">Selectați furnizorul de backup</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Echilibru de culoare</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -420,8 +418,14 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Intensitate albastru</string>
     <string name="keywords_color_balance">culoare, balans culoare, corectarea culorilor, roșu, verde, albastru, LiveDisplay</string>
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Capacitatea curentă a bateriei</string>
-    <string name="designed_battery_capacity">Capacitatea proiectată a bateriei</string>
-    <string name="battery_charge_cycles">Cicluri de încărcare finalizate</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Mod întunecare protecție ochi</string>
+    <string name="dc_dimming_info">Reduce presiunea ochilor în condiții de lumină joasă prin minimizarea pâlpâirii ecranului. Poate avea ca rezultat o calitate redusă a imaginii și o producție slabă de culori sau un consum mai mare de energie.</string>
+    <string name="dc_dimming_main_switch_title">Folosește DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, pâlpâire, ochi, încordare</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">VPN global</string>
+    <string name="global_vpn_summary">Forțează tot traficul de pe dispozitiv prin acest VPN, inclusiv profilul de serviciu și alți utilizatori.</string>
+    <string name="global_vpn_summary_on">Forțează tot traficul de pe dispozitiv prin acest VPN, inclusiv profilul de serviciu și alți utilizatori. Notă: Când este activat, nu vei putea folosi un VPN separat într-un profil de serviciu sau alți utilizatori</string>
+    <string name="global_vpn_summary_any_vpn_active">Trebuie să dezactivezi toate conexiunile VPN active mai întâi pentru a activa</string>
 </resources>
