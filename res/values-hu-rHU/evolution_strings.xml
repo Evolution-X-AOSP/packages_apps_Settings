@@ -423,4 +423,9 @@
     <string name="dc_dimming_info">Csökkenti a szem megerőltetését gyenge fényviszonyok mellett a képernyővillogás csökkentésével. Rossz képminőséget és gyenge színeket vagy magasabb akkufogyasztást okozhat.</string>
     <string name="dc_dimming_main_switch_title">A DC-kiegyenlítés használata</string>
     <string name="keywords_display_dc_dimming">DC-kiegyenlítés, vibrálás, szem, megterhelés, mentesítés</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Globális VPN</string>
+    <string name="global_vpn_summary">A készülék összes forgalmának kényszerítése ezen a VPN-en keresztül, beleértve a munkaprofilt és a többi felhasználót is.</string>
+    <string name="global_vpn_summary_on">A készülék összes forgalmának kényszerítése ezen a VPN-en keresztül, beleértve a munkaprofilt és a többi felhasználót is. Figyelmeztetés: Ha engedélyezi, nem fog tudni más VPN-t használni a munkaprofilban vagy más felhasználók profiljában</string>
+    <string name="global_vpn_summary_any_vpn_active">Mielőtt engedélyezné le kell tiltania az összes aktív VPN-kapcsolatot</string>
 </resources>
