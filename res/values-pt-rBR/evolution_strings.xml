@@ -423,4 +423,9 @@
     <string name="dc_dimming_info">Reduz a fadiga ocular em condições de pouca luz minimizando a cintilação da tela. Pode afetar a qualidade da imagem e cores, também pode gerar maior consumo de energia.</string>
     <string name="dc_dimming_main_switch_title">Usar modo anti cintilação</string>
     <string name="keywords_display_dc_dimming">anti cintilação, anti flicker, proteção para os olhos</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Global VPN</string>
+    <string name="global_vpn_summary">Forçar todo o tráfego no dispositivo através desta VPN, incluindo perfil de trabalho e outros usuários.</string>
+    <string name="global_vpn_summary_on">Forçar todo o tráfego no dispositivo através desta VPN, incluindo perfil de trabalho e outros usuários. Nota: Quando ativado, você não poderá usar uma VPN separada em um perfil de trabalho ou outros usuários</string>
+    <string name="global_vpn_summary_any_vpn_active">Primeiro, você precisa desativar todas as conexões de VPN ativas para habilitar isso</string>
 </resources>
