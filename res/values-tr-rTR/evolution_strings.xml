@@ -423,4 +423,9 @@
     <string name="dc_dimming_info">Düşük ışık koşullarında ekran titremesini en aza indirerek göz yorgunluğunu azaltır. Görüntü kalitesinin düşmesine, düşük renk üretimine veya daha yüksek güç tüketimine neden olabilir.</string>
     <string name="dc_dimming_main_switch_title">DC Karartma kullan</string>
     <string name="keywords_display_dc_dimming">dc karartma, anti, titreme, göz, zorlanma</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Global VPN</string>
+    <string name="global_vpn_summary">İş profili ve diğer kullanıcılar dahil olmak üzere cihazdaki tüm trafiği bu VPN üzerinden zorlayın.</string>
+    <string name="global_vpn_summary_on">İş profili ve diğer kullanıcılar dahil olmak üzere cihazdaki tüm trafiği bu VPN üzerinden zorlayın. Not: Etkinleştirildiğinde, bir iş profilinde veya diğer kullanıcılarda ayrı bir VPN kullanamazsınız</string>
+    <string name="global_vpn_summary_any_vpn_active">Bunu etkinleştirmek için önce tüm etkin VPN bağlantılarını devre dışı bırakmanız gerekir</string>
 </resources>
