@@ -8,7 +8,7 @@
     <string name="evolver_dashboard_title">The Evolver</string>
     <string name="evolver_dashboard_summary">Benvenuto alla Vigilia di Evolution</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Piattaforma</string>
+    <string name="soc_model">Modello SoC</string>
     <string name="total_ram">RAM totale</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Versione di Evolution X</string>
@@ -423,4 +423,9 @@
     <string name="dc_dimming_info">Riduce l\'affaticamento degli occhi in condizioni di scarsa luminosità minimizzando lo sfarfallio dello schermo. Può comportare una minore qualità dell\'immagine e una scarsa resa dei colori, o un maggiore consumo energetico.</string>
     <string name="dc_dimming_main_switch_title">Usa Attenuazione DC</string>
     <string name="keywords_display_dc_dimming">attenuazione dc, anti, sfarfallio, occhi, affaticamento</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">VPN Globale</string>
+    <string name="global_vpn_summary">Forza tutto il traffico sul dispositivo attraverso questa VPN, compreso il profilo di lavoro e altri utenti.</string>
+    <string name="global_vpn_summary_on">Forza tutto il traffico sul dispositivo attraverso questa VPN, compreso il profilo di lavoro e altri utenti. Nota: se abilitato, non sarai in grado di utilizzare una VPN separata in un profilo di lavoro o in altri utenti</string>
+    <string name="global_vpn_summary_any_vpn_active">Devi disabilitare tutte le connessioni VPN attive prima di abilitare questo</string>
 </resources>
