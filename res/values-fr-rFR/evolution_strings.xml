@@ -423,4 +423,9 @@
     <string name="dc_dimming_info">Réduit les contraintes oculaires dans des conditions de faible lumière en réduisant le scintillement de l\'écran. Peut entraîner une baisse de la qualité de l\'image et une faible production de couleurs, ou une augmentation de la consommation d\'énergie.</string>
     <string name="dc_dimming_main_switch_title">Utiliser l\'atténuation DC</string>
     <string name="keywords_display_dc_dimming">Atténuation DC, anti scintillement, fatigue occulaire</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">VPN global</string>
+    <string name="global_vpn_summary">Forcer tout le trafic sur l\'appareil via ce VPN, y compris le profil professionnel et celui d\'autres utilisateurs.</string>
+    <string name="global_vpn_summary_on">Forcer tout le trafic sur l\'appareil via ce VPN, y compris le profil professionnel et celui d\'autres utilisateurs. Remarque : Lorsque cette option est activée, vous ne serez pas en mesure d\'utiliser un VPN séparé dans un profil professionnel ou dans celui d\'autres utilisateurs</string>
+    <string name="global_vpn_summary_any_vpn_active">Vous devez d\'abord désactiver toutes les connexions VPN actives pour activer ceci</string>
 </resources>
