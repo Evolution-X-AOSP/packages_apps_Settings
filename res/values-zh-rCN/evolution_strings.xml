@@ -8,7 +8,7 @@
     <string name="evolver_dashboard_title">Evolution 自定义</string>
     <string name="evolver_dashboard_summary">欢迎来到进化之路</string>
     <!-- Hardware info -->
-    <string name="platform_revision">平台</string>
+    <string name="soc_model">SoC 模型</string>
     <string name="total_ram">总内存</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Evolution X 版本</string>
@@ -423,4 +423,9 @@
     <string name="dc_dimming_info">通过最大限度地减少屏幕闪烁来降低低光线条件下的眼睛紧张。可能导致图像质量下降、色彩生成差或能耗增加。</string>
     <string name="dc_dimming_main_switch_title">使用 DC 调光</string>
     <string name="keywords_display_dc_dimming">DC 调光, 闪烁, 眼睛, 疲劳</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">全局VPN</string>
+    <string name="global_vpn_summary">强制设备上的所有流量通过此 VPN，包括工作账户和其他用户。</string>
+    <string name="global_vpn_summary_on">强制设备上的所有流量通过此 VPN，包括工作账户和其他用户。 注意：如果启用，您将无法在工作账户或其他用户中使用单独的 VPN</string>
+    <string name="global_vpn_summary_any_vpn_active">您需要先禁用所有启动的 VPN 连接才能启用此功能</string>
 </resources>
