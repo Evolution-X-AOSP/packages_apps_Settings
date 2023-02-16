@@ -8,7 +8,7 @@
     <string name="evolver_dashboard_title">The Evolver</string>
     <string name="evolver_dashboard_summary">Willkommen zum Vorabend der Evolution</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Plattform</string>
+    <string name="soc_model">SoC-Modell</string>
     <string name="total_ram">Gesamter Arbeitsspeicher</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Evolution X-Version</string>
@@ -424,4 +424,9 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="dc_dimming_info">Reduziert die Belastung bei geringen Lichtverhältnissen durch die Minimierung des Bildschirmflackers. Kann zu einer geringeren Bildqualität und einer schlechten Farbproduktion oder einem höheren Stromverbrauch führen.</string>
     <string name="dc_dimming_main_switch_title">DC-Dimming verwenden</string>
     <string name="keywords_display_dc_dimming">DC-Dimming, Anti, Flackern, Auge, Belastung</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Globales VPN</string>
+    <string name="global_vpn_summary">Erzwinge den gesamten Datenverkehr auf dem Gerät über dieses VPN, einschließlich Arbeitsprofil und anderen Benutzern.</string>
+    <string name="global_vpn_summary_on">Erzwinge den gesamten Datenverkehr auf dem Gerät über dieses VPN, einschließlich Arbeitsprofil und anderen Benutzern. Hinweis: Wenn aktiviert, können Sie kein separates VPN in einem Arbeitsprofil oder anderen Benutzern verwenden</string>
+    <string name="global_vpn_summary_any_vpn_active">Du musst zuerst alle aktiven VPN-Verbindungen deaktivieren, um dies zu aktivieren</string>
 </resources>
