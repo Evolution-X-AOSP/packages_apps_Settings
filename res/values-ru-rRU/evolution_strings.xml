@@ -423,4 +423,9 @@
     <string name="dc_dimming_info">Снижает нагрузку на глаза в условиях низкой освещенности за счет уменьшения мерцания экрана. Может привести к снижению качества изображения и ухудшению цветопередачи, а также к увеличению энергопотребления.</string>
     <string name="dc_dimming_main_switch_title">Использовать DC Dimming</string>
     <string name="keywords_display_dc_dimming">dc dimming, защита глаз от мерцания</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Глобальный VPN</string>
+    <string name="global_vpn_summary">Принудительный трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей.</string>
+    <string name="global_vpn_summary_on">Принудительный трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей. Примечание: Когда включено, вы не сможете использовать отдельный VPN в рабочем профиле или других пользователей</string>
+    <string name="global_vpn_summary_any_vpn_active">Вам нужно сначала отключить все активные VPN соединения, чтобы включить это</string>
 </resources>
