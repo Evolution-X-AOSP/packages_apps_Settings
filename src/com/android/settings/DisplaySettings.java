@@ -32,6 +32,7 @@ import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.ThemePreferenceController;
+import com.android.settings.display.TimeoutLockscreenPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -50,6 +51,7 @@ public class DisplaySettings extends DashboardFragment {
     public static final String KEY_PROXIMITY_ON_WAKE = "proximity_on_wake";
     private static final String KEY_HIGH_TOUCH_POLLING_RATE = "high_touch_polling_rate_enable";
     private static final String KEY_HIGH_TOUCH_SENSITIVITY = "high_touch_sensitivity_enable";
+    private static final String KEY_LOCKSCREEN_TIMEOUT = "lockscreen_timeout";
 
     @Override
     public int getMetricsCategory() {
@@ -99,6 +101,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new PocketJudgePreferenceController(context));
         controllers.add(new ScreenSaverPreferenceController(context));
         controllers.add(new TapToWakePreferenceController(context));
+        controllers.add(new TimeoutLockscreenPreferenceController(context, KEY_LOCKSCREEN_TIMEOUT));
         controllers.add(new VrDisplayPreferenceController(context));
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));

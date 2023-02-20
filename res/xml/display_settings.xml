@@ -64,6 +64,13 @@
             android:fragment="com.android.settings.display.ScreenTimeoutSettings"
             settings:controller="com.android.settings.display.ScreenTimeoutPreferenceController"/>
 
+        <com.evolution.settings.preference.SystemSettingListPreference
+            android:key="lockscreen_timeout"
+            android:title="@string/lockscreen_timeout_title"
+            android:entries="@array/screen_timeout_entries"
+            android:entryValues="@array/screen_timeout_values"
+            android:defaultValue="15000" />
+
         <SwitchPreference
             android:key="pocket_judge"
             android:title="@string/pocket_judge_title"
