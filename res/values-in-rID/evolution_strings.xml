@@ -227,8 +227,6 @@
     <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
     <string name="search">Cari</string>
     <string name="search_apps">Cari aplikasi</string>
-    <!-- Clang version -->
-    <string name="clang_version">Versi Clang</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Jaringan tersembunyi</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Nama hotspot seluler Anda tidak akan muncul dalam daftar jaringan WiFi yang tersedia.</string>
