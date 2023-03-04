@@ -8,7 +8,7 @@
     <string name="evolver_dashboard_title">The Evolver</string>
     <string name="evolver_dashboard_summary">進化の始まりへようこそ</string>
     <!-- Hardware info -->
-    <string name="platform_revision">プラットフォーム</string>
+    <string name="soc_model">SoC モデル</string>
     <string name="total_ram">合計 RAM</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Evolution X バージョン</string>
@@ -227,8 +227,6 @@
     <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
     <string name="search">検索</string>
     <string name="search_apps">アプリを検索</string>
-    <!-- Clang version -->
-    <string name="clang_version">Clang バージョン</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">非公開ネットワーク</string>
     <string name="wifi_hotspot_hidden_ssid_summary">お使いのモバイルホットスポット名は利用可能な WLAN ネットワークのリスト内から消えます</string>
@@ -423,4 +421,9 @@
     <string name="dc_dimming_info">画面のちらつきを低下させることで暗い状況での目の負担を減らします。画像品質や色の表現の低下につながる可能性があり、または消費電力が高まることがあります。</string>
     <string name="dc_dimming_main_switch_title">DC 調光を使用</string>
     <string name="keywords_display_dc_dimming">DC 調光、アンチフリッカー、眼精疲労</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">グローバル VPN</string>
+    <string name="global_vpn_summary">この端末上で仕事用プロファイルやその他のユーザーを含めたこの VPN に通信を通すことを強制する。</string>
+    <string name="global_vpn_summary_on">この端末上で仕事用プロファイルやその他のユーザーを含めたこの VPN に通信を通すことを強制する。注意: 有効時、仕事用プロファイルや他のユーザーでの異なる VPN を使用することができなくなります。</string>
+    <string name="global_vpn_summary_any_vpn_active">この機能を有効化するには最初に全ての有効な VPN 接続を無効化する必要があります</string>
 </resources>
