@@ -227,8 +227,6 @@
     <string name="display_cutout_force_fullscreen_summary">Forza le app a ignorare lo spazio del notch</string>
     <string name="search">Cerca</string>
     <string name="search_apps">Cerca nelle app</string>
-    <!-- Clang version -->
-    <string name="clang_version">Versione Clang</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Rete nascosta</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Il nome del tuo hotspot non apparirà nella lista delle reti Wi-Fi disponibili.</string>
