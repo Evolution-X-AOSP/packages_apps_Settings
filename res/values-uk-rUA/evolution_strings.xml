@@ -8,7 +8,7 @@
     <string name="evolver_dashboard_title">Кастомізація Evolver</string>
     <string name="evolver_dashboard_summary">Ласкаво просимо в Evolution</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Платформа</string>
+    <string name="soc_model">Модель SoC</string>
     <string name="total_ram">Об\'єм ОЗП</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Версія Evolution X</string>
@@ -227,8 +227,6 @@
     <string name="display_cutout_force_fullscreen_summary">Змусити застосунки ігнорувати виріз</string>
     <string name="search">Пошук</string>
     <string name="search_apps">Пошук додатків</string>
-    <!-- Clang version -->
-    <string name="clang_version">Версія клангу</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Прихована мережа</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Назва вашої точки доступу не буде показуватися в списку доступних мереж WLAN.</string>
@@ -423,4 +421,9 @@
     <string name="dc_dimming_info">Знижує навантаження на очі при низькому освітленні шляхом мінімізації мерехтіння екрану. Може призвести до зниження якості зображення та поганого відтворення кольорів або збільшення енергоспоживання.</string>
     <string name="dc_dimming_main_switch_title">Використати DC Затемнення</string>
     <string name="keywords_display_dc_dimming">dc затемнення, проти, мерехтіння, очі, навантаження</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Глобальний VPN</string>
+    <string name="global_vpn_summary">Примусово пропускати весь трафік на пристрої через цю VPN, включаючи робочий профіль та профілі інших користувачів.</string>
+    <string name="global_vpn_summary_on">Примусово пропускати весь трафік на пристрої через цю VPN, включаючи робочий профіль та профілі інших користувачів. Примітка: Якщо увімкнено, то не буде можливості використовувати окрему VPN у робочому профілі чи профілях інших користувачів</string>
+    <string name="global_vpn_summary_any_vpn_active">Для цього спершу необхідно вимкнути всі активні VPN-під\'єднання</string>
 </resources>
