@@ -227,8 +227,6 @@
     <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域</string>
     <string name="search">搜索</string>
     <string name="search_apps">搜索应用</string>
-    <!-- Clang version -->
-    <string name="clang_version">Clang 版本</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">隐藏的网络</string>
     <string name="wifi_hotspot_hidden_ssid_summary">您的移动热点名称不会出现在可用的 WLAN 网络列表中</string>
