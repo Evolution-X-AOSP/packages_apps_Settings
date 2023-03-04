@@ -6,9 +6,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">El Evolucionador</string>
-    <string name="evolver_dashboard_summary">Bienvenido al núcleo de Evolution</string>
+    <string name="evolver_dashboard_summary">Bienvenidos a la víspera de la Evolución</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Plataforma</string>
+    <string name="soc_model">Modelo SoC</string>
     <string name="total_ram">RAM total</string>
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Versión de Evolution X</string>
@@ -227,8 +227,6 @@
     <string name="display_cutout_force_fullscreen_summary">Forzar aplicaciones a ignorar el espacio del notch</string>
     <string name="search">Buscar</string>
     <string name="search_apps">Buscar aplicaciones</string>
-    <!-- Clang version -->
-    <string name="clang_version">Versión de Clang</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Red oculta</string>
     <string name="wifi_hotspot_hidden_ssid_summary">El nombre de tu punto de acceso no aparecerá en la lista de redes inalámbricas disponibles.</string>
@@ -423,4 +421,9 @@
     <string name="dc_dimming_info">Reduce la fatiga visual en condiciones de poca luz al minimizar el parpadeo de la pantalla. Puede dar lugar a una reducción de la calidad de la imagen y de la producción de color, o a un mayor consumo de energía.</string>
     <string name="dc_dimming_main_switch_title">Usar atenuación extra</string>
     <string name="keywords_display_dc_dimming">Atenuación extra, anti, parpadeo, ojo, fatiga</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">VPN global</string>
+    <string name="global_vpn_summary">Forzar todo el tráfico en el dispositivo a través de esta VPN, incluyendo el perfil de trabajo y otros usuarios.</string>
+    <string name="global_vpn_summary_on">Forzar todo el tráfico en el dispositivo a través de esta VPN, incluyendo el perfil de trabajo y otros usuarios. Nota: Cuando está habilitado, no podrá utilizar una VPN separada en un perfil de trabajo u otros usuarios</string>
+    <string name="global_vpn_summary_any_vpn_active">Necesitas desactivar todas las conexiones VPN activas primero para activar esto</string>
 </resources>
