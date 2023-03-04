@@ -227,8 +227,6 @@
     <string name="display_cutout_force_fullscreen_summary">Alkalmazások kényszerítése, hogy a képernyőkivágást mellőzzék</string>
     <string name="search">Keresés</string>
     <string name="search_apps">Alkalmazások keresése</string>
-    <!-- Clang version -->
-    <string name="clang_version">Clang-verzió</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Rejtett hálózat</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Az Ön által létrehozott hotspot neve nem fog megjelenni a mások által elérhető WLAN-hálózatok listájában.</string>
