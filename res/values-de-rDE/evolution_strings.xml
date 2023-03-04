@@ -227,8 +227,6 @@
     <string name="display_cutout_force_fullscreen_summary">Zwinge Anwendungen, die Notch-Aussparung zu ignorieren</string>
     <string name="search">Suche</string>
     <string name="search_apps">Anwendungen suchen</string>
-    <!-- Clang version -->
-    <string name="clang_version">Clang-Version</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Verborgenes Netzwerk</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Der Name des mobilen Hotspots wird nicht in der Liste der verfügbaren WLAN-Netzwerke erscheinen.</string>
