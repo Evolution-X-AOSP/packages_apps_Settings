@@ -227,8 +227,6 @@
     <string name="display_cutout_force_fullscreen_summary">Forcer les applications à ignorer l\'encoche</string>
     <string name="search">Rechercher</string>
     <string name="search_apps">Rechercher des applications</string>
-    <!-- Clang version -->
-    <string name="clang_version">Version de Clang</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Réseau masqué</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Le nom de votre point d\'accès n\'apparaîtra pas dans la liste des réseaux WLAN disponibles.</string>
