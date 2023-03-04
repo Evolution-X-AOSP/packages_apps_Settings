@@ -227,8 +227,6 @@
     <string name="display_cutout_force_fullscreen_summary">Заставить приложения игнорировать пространство надреза</string>
     <string name="search">Поиск</string>
     <string name="search_apps">Поиск приложений</string>
-    <!-- Clang version -->
-    <string name="clang_version">Версия clang</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Скрытая сеть</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Имя вашей мобильной точки доступа не будет отображаться в списке доступных сетей WLAN.</string>
