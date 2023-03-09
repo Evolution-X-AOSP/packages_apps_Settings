@@ -261,25 +261,6 @@
     <string name="battery_charge_cycles">Ciclos de carga completados</string>
     <string name="high_power_apps_summary">Optimización de batería por aplicación</string>
     <!-- Private DNS Providers -->
-    <!-- Random Evolver summaries -->
-    <string name="random_summary_2">Bienvenido al núcleo de Evolution</string>
-    <string name="random_summary_3">Continúa la Evolución de tu dispositivo</string>
-    <string name="random_summary_4">#Evoluciona tu dispositivo con nuestras funciones</string>
-    <string name="random_summary_5">Evolution es un misterio</string>
-    <string name="random_summary_6">No cualquier ROM, ¡esto es Evolution X!</string>
-    <string name="random_summary_7">Los haters ladrarán, Evo evolucionará</string>
-    <string name="random_summary_8">Viviendo el paraíso de un gangsta</string>
-    <string name="random_summary_9">Sigue avanzando</string>
-    <string name="random_summary_12">Fuimos aquel resplandor antes del trueno</string>
-    <string name="random_summary_15">Tiramisu sabe realmente bien</string>
-    <string name="random_summary_16">El 13 también puede dar buena suerte</string>
-    <string name="random_summary_18">La vida no siempre es píxeles y arcoíris</string>
-    <string name="random_summary_19">Es Android, pero aún mejor</string>
-    <string name="random_summary_20">Ricers, por favor por la salida más cercana</string>
-    <string name="random_summary_21">Buscando al conductor del BMW negro...</string>
-    <string name="random_summary_24">¡Reconocednos!</string>
-    <string name="random_summary_25">Sabemos que se nos nombra tras un Mitsubishi</string>
-    <string name="random_summary_26">¡Es la hora del bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Ajustes de rotación</string>
     <string name="display_rotation_enabled">Rotación automática activada</string>
@@ -337,9 +318,6 @@
     <string name="face_unlock_method_default">Al encender la pantalla</string>
     <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
     <string name="skip_biometric_auth_confirmation_title">Omitir confirmación manual</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Espacio bajo el teclado</string>
-    <string name="navigation_bar_ime_space_summary">Ocultar botón de método de entrada debajo del teclado</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Control de reproducción</string>
     <string name="volume_button_music_control_summary">Usar teclas de volúmen para cambiar de canción cuando la pantalla está apagada</string>
@@ -426,4 +404,10 @@
     <string name="global_vpn_summary">Forzar todo el tráfico en el dispositivo a través de esta VPN, incluyendo el perfil de trabajo y otros usuarios.</string>
     <string name="global_vpn_summary_on">Forzar todo el tráfico en el dispositivo a través de esta VPN, incluyendo el perfil de trabajo y otros usuarios. Nota: Cuando está habilitado, no podrá utilizar una VPN separada en un perfil de trabajo u otros usuarios</string>
     <string name="global_vpn_summary_any_vpn_active">Necesitas desactivar todas las conexiones VPN activas primero para activar esto</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Espacio bajo el teclado</string>
+    <string name="navigation_bar_ime_space_summary">Ocultar botón de método de entrada debajo del teclado</string>
+    <string name="ime_narrow">Estrecho</string>
+    <string name="ime_default">Predeterminado</string>
+    <string name="ime_hidden">Oculto</string>
 </resources>
