@@ -65,36 +65,6 @@
         <item>@string/pattern_custom</item>
     </string-array>
 
-    <!-- Random summary -->
-    <string-array name="evolver_summaries">
-        <item>@string/random_summary_1</item>
-        <item>@string/random_summary_2</item>
-        <item>@string/random_summary_3</item>
-        <item>@string/random_summary_4</item>
-        <item>@string/random_summary_5</item>
-        <item>@string/random_summary_6</item>
-        <item>@string/random_summary_7</item>
-        <item>@string/random_summary_8</item>
-        <item>@string/random_summary_9</item>
-        <item>@string/random_summary_10</item>
-        <item>@string/random_summary_11</item>
-        <item>@string/random_summary_12</item>
-        <item>@string/random_summary_13</item>
-        <item>@string/random_summary_14</item>
-        <item>@string/random_summary_15</item>
-        <item>@string/random_summary_16</item>
-        <item>@string/random_summary_17</item>
-        <item>@string/random_summary_18</item>
-        <item>@string/random_summary_19</item>
-        <item>@string/random_summary_20</item>
-        <item>@string/random_summary_21</item>
-        <item>@string/random_summary_22</item>
-        <item>@string/random_summary_23</item>
-        <item>@string/random_summary_24</item>
-        <item>@string/random_summary_25</item>
-        <item>@string/random_summary_26</item>
-    </string-array>
-
     <!-- Vibration patterns -->
     <string-array name="vibration_pattern_entries">
         <item>@string/pattern_dzzz_dzzz</item>
