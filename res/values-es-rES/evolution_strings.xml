@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">El Evolucionador</string>
-    <string name="evolver_dashboard_summary">Bienvenidos a la víspera de la Evolución</string>
+    <string name="evolver_dashboard_summary">Mejora tu teléfono con nuestras funciones</string>
     <!-- Hardware info -->
     <string name="soc_model">Modelo SoC</string>
     <string name="total_ram">RAM total</string>
@@ -406,7 +406,7 @@
     <string name="global_vpn_summary_any_vpn_active">Necesitas desactivar todas las conexiones VPN activas primero para activar esto</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Espacio bajo el teclado</string>
-    <string name="navigation_bar_ime_space_summary">Ocultar botón de método de entrada debajo del teclado</string>
+    <string name="navigation_bar_ime_space_summary">Opciones de espacio bajo el teclado</string>
     <string name="ime_narrow">Estrecho</string>
     <string name="ime_default">Predeterminado</string>
     <string name="ime_hidden">Oculto</string>
