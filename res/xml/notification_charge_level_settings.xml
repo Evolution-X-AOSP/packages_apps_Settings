@@ -12,9 +12,10 @@
         android:key="notification_battery_charge_level_summary_intro_text"
         android:title="@string/notification_battery_charge_level_summary" />
 
-    <SwitchPreference
+    <com.evolution.settings.preference.SystemSettingMainSwitchPreference
         android:key="battery_level_charge_alarm_enabled"
-        android:title="@string/notification_sound_battery_charge_title" />
+        android:title="@string/notification_sound_battery_charge_title"
+        android:defaultValue="false" />
 
     <Preference
         android:key="battery_level_charge_ringtone"
