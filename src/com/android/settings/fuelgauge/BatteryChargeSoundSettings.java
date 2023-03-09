@@ -36,6 +36,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.evolution.settings.preference.CustomSeekBarPreference;
+import com.evolution.settings.preference.SystemSettingMainSwitchPreference;
 
 public class BatteryChargeSoundSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -48,14 +49,14 @@ public class BatteryChargeSoundSettings extends SettingsPreferenceFragment imple
 
     private CustomSeekBarPreference mBatteryLevelChargeSeekbar;
     private Preference mBatteryLevelChargeRingtone;
-    private SwitchPreference mBatteryLevelChargeAlarmEnabled;
+    private SystemSettingMainSwitchPreference mBatteryLevelChargeAlarmEnabled;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.notification_charge_level_settings);
 
-        mBatteryLevelChargeAlarmEnabled = (SwitchPreference) findPreference(KEY_BATTERY_LEVEL_CHARGE_ALARM_ENABLED);
+        mBatteryLevelChargeAlarmEnabled = (SystemSettingMainSwitchPreference) findPreference(KEY_BATTERY_LEVEL_CHARGE_ALARM_ENABLED);
         mBatteryLevelChargeAlarmEnabled.setChecked(Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.BATTERY_LEVEL_CHARGE_ALARM_ENABLED, 0, UserHandle.USER_CURRENT) == 1);
         mBatteryLevelChargeAlarmEnabled.setOnPreferenceChangeListener(this);
