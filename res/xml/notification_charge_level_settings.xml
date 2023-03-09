@@ -8,10 +8,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notification_battery_charge_level_title" >
 
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="notification_battery_charge_level_summary_intro_text"
+        android:title="@string/notification_battery_charge_level_summary" />
+
     <SwitchPreference
         android:key="battery_level_charge_alarm_enabled"
-        android:title="@string/notification_sound_battery_charge_title"
-        android:summary="@string/notification_battery_charge_level_summary" />
+        android:title="@string/notification_sound_battery_charge_title" />
 
     <Preference
         android:key="battery_level_charge_ringtone"
