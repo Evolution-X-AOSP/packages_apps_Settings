@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Benvenuto alla Vigilia di Evolution</string>
+    <string name="evolver_dashboard_summary">Rinfresca il tuo dispositivo con le nostre funzionalità</string>
     <!-- Hardware info -->
     <string name="soc_model">Modello SoC</string>
     <string name="total_ram">RAM totale</string>
@@ -261,25 +261,6 @@
     <string name="battery_charge_cycles">Cicli di ricarica</string>
     <string name="high_power_apps_summary">Ottimizzazione batteria per app</string>
     <!-- Private DNS Providers -->
-    <!-- Random Evolver summaries -->
-    <string name="random_summary_2">Benvenuto alla Vigilia di Evolution</string>
-    <string name="random_summary_3">Continua l\'evoluzione del tuo dispositivo</string>
-    <string name="random_summary_4">Inizia ad evolvere il tuo dispositivo con le nostre funzionalità</string>
-    <string name="random_summary_5">L\'Evolution è un mistero</string>
-    <string name="random_summary_6">Non una ROM qualsiasi, questa è Evolution X!</string>
-    <string name="random_summary_7">Rosiconi, alla larga da Evo</string>
-    <string name="random_summary_8">Vivere nel paradiso di un gangsta</string>
-    <string name="random_summary_9">Continua ad andare avanti</string>
-    <string name="random_summary_12">Eravamo fulmini prima del tuono</string>
-    <string name="random_summary_15">Il tiramisù ha davvero un buon sapore</string>
-    <string name="random_summary_16">Il 13 può anche essere fortunato</string>
-    <string name="random_summary_18">La vita non è sempre pixel e arcobaleni</string>
-    <string name="random_summary_19">Ancora Android, solo meglio</string>
-    <string name="random_summary_20">Ricers, si prega di procedere per l\'uscita più vicina</string>
-    <string name="random_summary_21">Cercando il conducente della BMW nera...</string>
-    <string name="random_summary_24">Riconoscici!</string>
-    <string name="random_summary_25">Sappiamo di prendere il nome da una Mitsubishi</string>
-    <string name="random_summary_26">È tempo di bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Impostazioni rotazione</string>
     <string name="display_rotation_enabled">La rotazione automatica è attivata</string>
@@ -337,9 +318,6 @@
     <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
     <string name="face_unlock_method_swipe">Quando si scorre sulla schermata di blocco</string>
     <string name="skip_biometric_auth_confirmation_title">Salta la conferma manuale</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Nascondi spazio pulsante IME</string>
-    <string name="navigation_bar_ime_space_summary">Nascondi lo spazio del pulsante IME sotto la tastiera</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controllo riproduzione</string>
     <string name="volume_button_music_control_summary">Quando lo schermo è spento, premere a lungo i tasti volume per cambiare le tracce musicali</string>
@@ -426,4 +404,10 @@
     <string name="global_vpn_summary">Forza tutto il traffico sul dispositivo attraverso questa VPN, compreso il profilo di lavoro e altri utenti.</string>
     <string name="global_vpn_summary_on">Forza tutto il traffico sul dispositivo attraverso questa VPN, compreso il profilo di lavoro e altri utenti. Nota: se abilitato, non sarai in grado di utilizzare una VPN separata in un profilo di lavoro o in altri utenti</string>
     <string name="global_vpn_summary_any_vpn_active">Devi disabilitare tutte le connessioni VPN attive prima di abilitare questo</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Spazio IME</string>
+    <string name="navigation_bar_ime_space_summary">Opzioni spazio sotto la tastiera</string>
+    <string name="ime_narrow">Sottile</string>
+    <string name="ime_default">Predefinito</string>
+    <string name="ime_hidden">Nascosto</string>
 </resources>
