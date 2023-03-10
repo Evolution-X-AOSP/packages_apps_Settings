@@ -46,7 +46,7 @@
     <string name="screenshot_shutter_sound_title">Som de captura de tela</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pausa inteligente</string>
-    <string name="adaptive_playback_master_switch_title">Usar pausa inteligente</string>
+    <string name="adaptive_playback_main_switch_title">Usar pausa inteligente</string>
     <string name="adaptive_playback_disabled_summary">Desativado</string>
     <string name="adaptive_playback_intro_text">Pausa automaticamente a mídia quando o volume é silenciado e retoma automaticamente quando o volume é restaurado dentro do tempo definido.</string>
     <string name="adaptive_playback_timeout_title">Usar um tempo limite de</string>
@@ -96,7 +96,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Carregamento inteligente</string>
     <string name="smart_charging_summary">Definir o nível máximo de carregamento</string>
-    <string name="smart_charging_master_switch_title">Usar carregamento inteligente</string>
+    <string name="smart_charging_main_switch_title">Usar carregamento inteligente</string>
     <string name="smart_charging_level_title">Nível para interromper o carregamento</string>
     <string name="smart_charging_resume_level_title">Nível para resumir o carregamento</string>
     <string name="smart_charging_reset_stats_title">Redefinir estatísticas da bateria</string>
@@ -205,7 +205,7 @@
     <string name="auto_brightness_one_shot_title">Ajustar ao ligar a tela</string>
     <string name="auto_brightness_one_shot_summary">O ajuste de brilho ocorrerá somente no momento em que a tela for ligada</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Use o modo silencioso para pausar músicas</string>
+    <string name="ringer_mute_main_switch_title">Use o modo silencioso para pausar músicas</string>
     <string name="ringer_mute_speaker_media_title">Silencioso/Pausar música</string>
     <string name="ringer_mute_text">Silenciar o volume da mídia quando o toque estiver definido como silencioso. Quando desconectado de um dispositivo bluetooth no modo silencioso, o volume de mídia será silenciado automaticamente. Isto não afetará fones e periféricos de som externos.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -252,7 +252,7 @@
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Processos em segundo plano</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Habilitar botão de rotação flutuante</string>
+    <string name="enable_floating_rotation_button_title">Botão de rotação flutuante</string>
     <!-- Build status -->
     <string name="build_status">Status da compilação</string>
     <!-- Battery health -->
@@ -274,7 +274,7 @@
     <string name="app_info_install_time">Instalado: %1$s</string>
     <string name="app_info_update_time">Atualizado: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Ativar aviso de carga da bateria</string>
+    <string name="notification_battery_charge_level_main_switch_title">Ativar aviso de carga da bateria</string>
     <string name="notification_battery_charge_level_title">Alerta de carga da bateria</string>
     <string name="notification_battery_charge_level_summary">Reproduzir um som quando a bateria atingir o nível de carga definido</string>
     <string name="notification_battery_charge_level_seek_bar">Nível da bateria</string>
@@ -353,6 +353,7 @@
     <string name="unhide_app_desc">Se você desocultar este aplicativo, ele será visível para o Android e outros aplicativos novamente.</string>
     <string name="hide_app_desc">Se você ocultar esse aplicativo, ele não será visível para o Android e outros aplicativos, e eles podem não funcionar mais como deveriam. Ocultar um aplicativo pode ser útil para proteger algumas informações. Ao ocultar, você desativa e oculta este aplicativo em seu dispositivo.</string>
     <string name="advanced_battery_preference_summary_google">Usar gráfico de bateria do Pixel</string>
+    <string name="advanced_battery_preference_google_summary">Redefinir as estatísticas da bateria não funcionará quando estiver usando isso</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Notificações nas chamadas</string>
     <!-- NFC sounds -->
