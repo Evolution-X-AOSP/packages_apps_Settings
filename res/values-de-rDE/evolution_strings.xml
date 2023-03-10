@@ -46,7 +46,7 @@
     <string name="screenshot_shutter_sound_title">Bildschirmfoto-Auslöseton</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive Medienwiedergabe</string>
-    <string name="adaptive_playback_master_switch_title">Adaptive Medienwiedergabe verwenden</string>
+    <string name="adaptive_playback_main_switch_title">Adaptive Medienwiedergabe verwenden</string>
     <string name="adaptive_playback_disabled_summary">Aus</string>
     <string name="adaptive_playback_intro_text">Medien werden bei Stummschaltung automatisch pausiert und bei Aufhebung der Stummschaltung innerhalb des Zeitlimits wieder fortgesetzt.</string>
     <string name="adaptive_playback_timeout_title">Abschalten nach</string>
@@ -96,7 +96,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Intelligentes Laden</string>
     <string name="smart_charging_summary">Maximalen Ladestand festlegen</string>
-    <string name="smart_charging_master_switch_title">Intelligentes Laden verwenden</string>
+    <string name="smart_charging_main_switch_title">Intelligentes Laden verwenden</string>
     <string name="smart_charging_level_title">Laden stoppen bei</string>
     <string name="smart_charging_resume_level_title">Laden starten bei</string>
     <string name="smart_charging_reset_stats_title">Akku-Statistik zurücksetzen</string>
@@ -205,7 +205,7 @@
     <string name="auto_brightness_one_shot_title">Einmalige automatische Helligkeitsanpassung</string>
     <string name="auto_brightness_one_shot_summary">Helligkeitsanpassung erfolgt nur beim Einschalten des Bildschirms</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Medien-Stummschaltung verwenden</string>
+    <string name="ringer_mute_main_switch_title">Medien-Stummschaltung verwenden</string>
     <string name="ringer_mute_speaker_media_title">Medien-Stummschaltung</string>
     <string name="ringer_mute_text">Medienlautstärke stummschalten, wenn der Klingelmodus auf lautlos eingestellt wird. Bei Trennung von einem Bluetooth-Gerät im Lautlos-Modus wird die Medienlautstärke automatisch stummgeschaltet. \nDies wirkt sich nicht auf externe Lautsprecher und Kopfhörer aus.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -274,7 +274,7 @@
     <string name="app_info_install_time">Installiert: %1$s</string>
     <string name="app_info_update_time">Aktualisiert: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Akkuladestands-Warnung aktivieren</string>
+    <string name="notification_battery_charge_level_main_switch_title">Akkuladestands-Warnung</string>
     <string name="notification_battery_charge_level_title">Akkuladestands-Warnung</string>
     <string name="notification_battery_charge_level_summary">Sound abspielen, wenn der Akkuladestand den angegebenen Akkustand erreicht hat</string>
     <string name="notification_battery_charge_level_seek_bar">Akkustand</string>
@@ -354,6 +354,7 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="unhide_app_desc">Wenn diese Anwendung eingeblendet wird, dann ist diese für Android und andere Apps wieder sichtbar.</string>
     <string name="hide_app_desc">Wenn diese Anwendung ausblendet wird, ist diese für Android und andere Anwendungen nicht mehr sichtbar, und sie funktioniert möglicherweise nicht mehr wie vorgesehen. Denke daran, dass durch das Ausblenden einer Anwendung deren Daten erhalten bleiben. Durch Ausblenden wird diese Anwendung auf deinem Gerät versteckt.</string>
     <string name="advanced_battery_preference_summary_google">Akkuverbrauchsdiagramm von Pixel verwenden</string>
+    <string name="advanced_battery_preference_google_summary">Zurücksetzen der Akku-Statistik wird nicht funktionieren, wenn dies verwendet wird</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Benachrichtigungen während des Anrufs</string>
     <!-- NFC sounds -->
