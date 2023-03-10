@@ -46,7 +46,7 @@
     <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Akıllı duraklatma</string>
-    <string name="adaptive_playback_master_switch_title">Akıllı duraklatmayı kullan</string>
+    <string name="adaptive_playback_main_switch_title">Akıllı duraklatma kullan</string>
     <string name="adaptive_playback_disabled_summary">Kapalı</string>
     <string name="adaptive_playback_intro_text">Ses tamamen kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses tekrar açıldığında otomatik olarak devam eder.</string>
     <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
@@ -96,7 +96,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Akıllı şarj</string>
     <string name="smart_charging_summary">Maksimum şarj seviyesi ayarlayın</string>
-    <string name="smart_charging_master_switch_title">Akıllı şarj</string>
+    <string name="smart_charging_main_switch_title">Akıllı şarj kullan</string>
     <string name="smart_charging_level_title">Durdurma tetikleyici seviyesi</string>
     <string name="smart_charging_resume_level_title">Başlatma tetikleyici seviyesi</string>
     <string name="smart_charging_reset_stats_title">Pil istatistiklerini sıfırla</string>
@@ -205,7 +205,7 @@
     <string name="auto_brightness_one_shot_title">Tek seferlik otomatik parlaklık</string>
     <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Sessiz modda sessiz medya kullan</string>
+    <string name="ringer_mute_main_switch_title">Medyayı sessize al</string>
     <string name="ringer_mute_speaker_media_title">Sessiz modda sessiz medya</string>
     <string name="ringer_mute_text">Zil sesi modu sessiz olduğunda medya da sessiz olur. Sessiz modda herhangi bir bluetooth cihazından bağlantıyı kesince medya sesi otomatik olarak sessize alınacak. \n Harici hoparlörler ve kulaklıklar bundan etkilenmez.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -274,7 +274,7 @@
     <string name="app_info_install_time">Yüklenen: %1$s</string>
     <string name="app_info_update_time">Güncellendi: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Pil şarj seviyesi uyarısını etkinleştir</string>
+    <string name="notification_battery_charge_level_main_switch_title">Pil şarj uyarısı</string>
     <string name="notification_battery_charge_level_title">Pil şarj uyarısı</string>
     <string name="notification_battery_charge_level_summary">Pil şarj olurken belirtilen seviyeye ulaştığında ses çıkar</string>
     <string name="notification_battery_charge_level_seek_bar">Pil seviyesi</string>
@@ -353,6 +353,7 @@
     <string name="unhide_app_desc">Eğer uygulamayı gösterirseniz, uygulama android ve diğer uygulamalar için tekrar görünür olacak.</string>
     <string name="hide_app_desc">Eğer uygulamayı gizlerseniz, uygulama android ve diğer uygulamalar için görünür olmayacak ve beklendiği gibi çalışmayabilir. Unutmayın ki uygulama gizlemek veri kaybına sebep olabilir.</string>
     <string name="advanced_battery_preference_summary_google">Pixel pil kullanım grafiğini kullan</string>
+    <string name="advanced_battery_preference_google_summary">Bunu kullanırken pil istatistiklerini sıfırla çalışmayacaktır</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Arama içi bildirimleri</string>
     <!-- NFC sounds -->
