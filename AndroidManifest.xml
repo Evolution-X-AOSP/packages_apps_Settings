@@ -4668,7 +4668,8 @@
                 android:value="true" />
         </activity>
 
-        <activity android:name="com.evolution.settings.security.applock.AppLockCredentialActivity"
+        <!-- App lock -->
+        <activity android:name=".security.applock.AppLockCredentialActivity"
             android:exported="false"
             android:permission="android.permission.MANAGE_APP_LOCK"
             android:excludeFromRecents="true"
@@ -4682,7 +4683,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.evolution.settings.security.applock.AppLockSubSettings"
+        <activity android:name=".security.applock.AppLockSubSettings"
             android:exported="false"
             android:excludeFromRecents="true"
             android:taskAffinity="com.android.settings.applock"
