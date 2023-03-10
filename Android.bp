@@ -103,6 +103,7 @@ android_library {
         "android.hardware.dumpstate-V1-java",
         "glide",
         "lottie",
+        "kotlin-stdlib",
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",
         "WifiTrackerLib",
