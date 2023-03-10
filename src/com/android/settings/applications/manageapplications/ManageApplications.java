@@ -27,7 +27,6 @@ import static com.android.settings.applications.manageapplications.AppFilterRegi
 import static com.android.settings.applications.manageapplications.AppFilterRegistry.FILTER_APPS_DISABLED;
 import static com.android.settings.applications.manageapplications.AppFilterRegistry.FILTER_APPS_ENABLED;
 import static com.android.settings.applications.manageapplications.AppFilterRegistry.FILTER_APPS_FREQUENT;
-import static com.android.settings.applications.manageapplications.AppFilterRegistry.FILTER_APPS_HIDDEN;
 import static com.android.settings.applications.manageapplications.AppFilterRegistry.FILTER_APPS_INSTANT;
 import static com.android.settings.applications.manageapplications.AppFilterRegistry.FILTER_APPS_PERSONAL;
 import static com.android.settings.applications.manageapplications.AppFilterRegistry.FILTER_APPS_POWER_ALLOWLIST;
@@ -907,13 +906,6 @@ public class ManageApplications extends InstrumentedFragment
         }
     }
 
-    public void setHasHidden(boolean hasHiddenApps) {
-        if (mListType != LIST_TYPE_MAIN) {
-            return;
-        }
-        mFilterAdapter.setFilterEnabled(FILTER_APPS_HIDDEN, hasHiddenApps);
-    }
-
     private void disableToolBarScrollableBehavior() {
         final CoordinatorLayout.LayoutParams params =
                 (CoordinatorLayout.LayoutParams) mAppBarLayout.getLayoutParams();
@@ -1454,7 +1446,6 @@ public class ManageApplications extends InstrumentedFragment
 
             mManageApplications.setHasDisabled(mState.haveDisabledApps());
             mManageApplications.setHasInstant(mState.haveInstantApps());
-            mManageApplications.setHasHidden(mState.haveHiddenApps());
         }
 
         @VisibleForTesting

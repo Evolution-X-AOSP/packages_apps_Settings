@@ -431,16 +431,6 @@
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
 
-    <!-- Hide apps -->
-    <string name="hide">Hide</string>
-    <string name="unhide">Unhide</string>
-    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
-    <string name="filter_hidden_apps">Hidden apps</string>
-    <string name="hide_app">Hide app</string>
-    <string name="unhide_app">Unhide app</string>
-    <string name="unhide_app_desc">If you unhide this app, it will be visible to Android and other apps again.</string>
-    <string name="hide_app_desc">If you hide this app, it will not be visible to Android and other apps, and they may no longer function as intended. Keep in mind, hiding an app preserves its data. By hiding, you turn this app off and hide it on your device.</string>
-
     <string name="advanced_battery_preference_summary_google">Pixel Battery usage chart</string>
     <string name="advanced_battery_preference_google_summary">Reset battery stats will not work while using this</string>
 

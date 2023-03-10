@@ -61,7 +61,6 @@ public class AppFilterRegistry {
                 FILTER_APPS_BATTERY_UNRESTRICTED,
                 FILTER_APPS_BATTERY_OPTIMIZED,
                 FILTER_APPS_BATTERY_RESTRICTED,
-                FILTER_APPS_HIDDEN,
             })
     @interface FilterType {}
 
@@ -90,9 +89,8 @@ public class AppFilterRegistry {
     public static final int FILTER_APPS_BATTERY_UNRESTRICTED = 21;
     public static final int FILTER_APPS_BATTERY_OPTIMIZED = 22;
     public static final int FILTER_APPS_BATTERY_RESTRICTED = 23;
-    public static final int FILTER_APPS_HIDDEN = 24;
-    // Next id: 25. If you add an entry here, please change NUM_FILTER_ENTRIES.
-    private static final int NUM_FILTER_ENTRIES = 25;
+    // Next id: 24. If you add an entry here, please change NUM_FILTER_ENTRIES.
+    private static final int NUM_FILTER_ENTRIES = 24;
 
     private static AppFilterRegistry sRegistry;
 
@@ -244,12 +242,6 @@ public class AppFilterRegistry {
                         AppStateAppBatteryUsageBridge.FILTER_BATTERY_RESTRICTED_APPS,
                         FILTER_APPS_BATTERY_RESTRICTED,
                         R.string.filter_battery_restricted_title);
-
-        // Apps that are hidden
-        mFilters[FILTER_APPS_HIDDEN] = new AppFilterItem(
-                ApplicationsState.FILTER_HIDDEN,
-                FILTER_APPS_HIDDEN,
-                R.string.filter_hidden_apps);
     }
 
 
