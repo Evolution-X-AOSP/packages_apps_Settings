@@ -52,6 +52,7 @@
         android:key="battery_24_hrs_stats"
         android:order="-3"
         android:title="@string/advanced_battery_preference_summary_google"
+        android:summary="@string/advanced_battery_preference_google_summary"
         android:defaultValue="false"
         settings:searchable="false" />
 
