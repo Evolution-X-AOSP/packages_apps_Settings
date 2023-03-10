@@ -343,15 +343,6 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasında bulunan parmak izi sensörünü bulun.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Uyarı: Bu özellik düzgün çalışmayabilir veya veri kaybına neden olabilir ve bu nedenle önerilmez!</string>
-    <!-- Hide apps -->
-    <string name="hide">Gizle</string>
-    <string name="unhide">Göster</string>
-    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
-    <string name="filter_hidden_apps">Gizlenmiş uygulamalar</string>
-    <string name="hide_app">Uygulamayı gizle</string>
-    <string name="unhide_app">Uygulamayı göster</string>
-    <string name="unhide_app_desc">Eğer uygulamayı gösterirseniz, uygulama android ve diğer uygulamalar için tekrar görünür olacak.</string>
-    <string name="hide_app_desc">Eğer uygulamayı gizlerseniz, uygulama android ve diğer uygulamalar için görünür olmayacak ve beklendiği gibi çalışmayabilir. Unutmayın ki uygulama gizlemek veri kaybına sebep olabilir.</string>
     <string name="advanced_battery_preference_summary_google">Pixel pil kullanım grafiğini kullan</string>
     <string name="advanced_battery_preference_google_summary">Bunu kullanırken pil istatistiklerini sıfırla çalışmayacaktır</string>
     <!-- In-call notifications -->
