@@ -343,15 +343,6 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre téléphone.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Attention : Cette option peut ne pas fonctionner correctement ou entraîner une perte de données et n\'est donc pas recommandée !</string>
-    <!-- Hide apps -->
-    <string name="hide">Masquer</string>
-    <string name="unhide">Afficher</string>
-    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
-    <string name="filter_hidden_apps">Applications masquées</string>
-    <string name="hide_app">Masquer l\'application</string>
-    <string name="unhide_app">Afficher l\'application</string>
-    <string name="unhide_app_desc">Si vous décochez cette application, elle sera à nouveau visible par Android et d\'autres applications.</string>
-    <string name="hide_app_desc">Si vous masquez cette application, elle ne sera pas visible par Android et les autres applications et pourrait ne plus fonctionner comme prévu. Gardez à l\'esprit que cacher une application préserve les données. En masquant, vous éteignez cette application et la masquez sur votre appareil.</string>
     <string name="advanced_battery_preference_summary_google">Utiliser le graphique d\'utilisation de la batterie des Pixel</string>
     <string name="advanced_battery_preference_google_summary">Réinitialiser les statistiques de la batterie ne fonctionnera pas en utilisant ceci</string>
     <!-- In-call notifications -->
