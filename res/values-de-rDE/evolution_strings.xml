@@ -261,25 +261,6 @@
     <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
     <string name="high_power_apps_summary">Akku-Optimierung pro Anwendung</string>
     <!-- Private DNS Providers -->
-    <!-- Random Evolver summaries -->
-    <string name="random_summary_2">Willkommen am Vorabend der Evolution</string>
-    <string name="random_summary_3">Setze die Evolution deines Geräts fort</string>
-    <string name="random_summary_4">Beginne dein Gerät mit unseren Funktionen weiterzuentwickeln</string>
-    <string name="random_summary_5">Evolution ist ein Geheimnis</string>
-    <string name="random_summary_6">Das ist nicht irgendeine ROM, das ist Evolution X!</string>
-    <string name="random_summary_7">Hasser werden hassen, Evo wird backen</string>
-    <string name="random_summary_8">Leben in einem Gangsterparadies</string>
-    <string name="random_summary_9">Weiter vorwärts kommen</string>
-    <string name="random_summary_12">Wir waren der Blitz, bevor der Donner kam</string>
-    <string name="random_summary_15">Tiramisu schmeckt wirklich gut</string>
-    <string name="random_summary_16">13 kann auch Glück bedeuten</string>
-    <string name="random_summary_18">Das Leben besteht nicht immer aus Pixel und Regenbögen</string>
-    <string name="random_summary_19">Immer noch Android, nur besser</string>
-    <string name="random_summary_20">Ricers, bitte begeben Sie sich zum nächsten Ausgang</string>
-    <string name="random_summary_21">Rufe den Fahrer des schwarzen BMW...</string>
-    <string name="random_summary_24">Erkennen Sie uns an!</string>
-    <string name="random_summary_25">Wir sind uns bewusst, dass wir nach einem Mitsubishi benannt sind</string>
-    <string name="random_summary_26">Es ist Zeit für einen Bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Bildschirmausrichtung</string>
     <string name="display_rotation_enabled">Automatische Bildschirmausrichtung ist aktiviert</string>
@@ -338,9 +319,6 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="face_unlock_method_default">Wenn der Bildschirm aktiviert ist</string>
     <string name="face_unlock_method_swipe">Wischen auf dem Sperrbildschirm</string>
     <string name="skip_biometric_auth_confirmation_title">Manuelle Bestätigung überspringen</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">IME-Schaltflächenbereich ausblenden</string>
-    <string name="navigation_bar_ime_space_summary">IME-Schaltflächenbereich unter der Tastatur ausblenden</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
     <string name="volume_button_music_control_summary">Musiktitel durch langes Drücken der Lautstärketasten bei ausgeschaltetem Bildschirm überspringen</string>
@@ -427,4 +405,10 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="global_vpn_summary">Erzwinge den gesamten Datenverkehr auf dem Gerät über dieses VPN, einschließlich Arbeitsprofil und anderen Benutzern.</string>
     <string name="global_vpn_summary_on">Erzwinge den gesamten Datenverkehr auf dem Gerät über dieses VPN, einschließlich Arbeitsprofil und anderen Benutzern. Hinweis: Wenn aktiviert, können Sie kein separates VPN in einem Arbeitsprofil oder anderen Benutzern verwenden</string>
     <string name="global_vpn_summary_any_vpn_active">Du musst zuerst alle aktiven VPN-Verbindungen deaktivieren, um dies zu aktivieren</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME-Schaltflächenbereich ausblenden</string>
+    <string name="navigation_bar_ime_space_summary">IME-Schaltflächenbereich unter der Tastatur ausblenden</string>
+    <string name="ime_narrow">Schmal</string>
+    <string name="ime_default">Standard</string>
+    <string name="ime_hidden">Ausgeblendet</string>
 </resources>
