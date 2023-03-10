@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Selamat datang di Hawa Evolusi</string>
+    <string name="evolver_dashboard_summary">Segarkan perangkatmu dengan fitur kami</string>
     <!-- Hardware info -->
     <string name="soc_model">Model SoC</string>
     <string name="total_ram">Total RAM</string>
@@ -46,7 +46,7 @@
     <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Jeda Cerdas</string>
-    <string name="adaptive_playback_master_switch_title">Gunakan Jeda Cerdas</string>
+    <string name="adaptive_playback_main_switch_title">Gunakan Jeda Cerdas</string>
     <string name="adaptive_playback_disabled_summary">Nonaktif</string>
     <string name="adaptive_playback_intro_text">Secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dihidupkan dalam waktu yang ditentukan.</string>
     <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
@@ -94,9 +94,9 @@
     <string name="copied_to_clipboard">Disalin ke papan klip</string>
     <string name="longpress_to_clipboard">Tekan lama untuk menyalin</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Pengisian Pintar</string>
+    <string name="smart_charging_title">Pengisian Cerdas</string>
     <string name="smart_charging_summary">Tentukan level pengisian maksimum</string>
-    <string name="smart_charging_master_switch_title">Gunakan Pengisian Pintar</string>
+    <string name="smart_charging_main_switch_title">Gunakan Pengisian Cerdas</string>
     <string name="smart_charging_level_title">Hentikan level pemicu</string>
     <string name="smart_charging_resume_level_title">Mulai level pemicu</string>
     <string name="smart_charging_reset_stats_title">Setel ulang statistik baterai</string>
@@ -205,7 +205,7 @@
     <string name="auto_brightness_one_shot_title">Kecerahan otomatis satu bidikan</string>
     <string name="auto_brightness_one_shot_summary">Penyesuaian kecerahan hanya akan terjadi pada saat layar dihidupkan</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Gunakan media senyap bisu</string>
+    <string name="ringer_mute_main_switch_title">Gunakan media senyap</string>
     <string name="ringer_mute_speaker_media_title">Media senyap bisu</string>
     <string name="ringer_mute_text">Nonaktifkan volume media saat mode dering disetel ke senyap. Saat terputus dari perangkat Bluetooth dalam mode senyap, volume media akan dinonaktifkan secara otomatis. \nIni tidak akan memengaruhi speaker dan headphone eksternal.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -252,7 +252,7 @@
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Proses latar belakang</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
+    <string name="enable_floating_rotation_button_title">Tombol rotasi mengambang</string>
     <!-- Build status -->
     <string name="build_status">Status pembuatan</string>
     <!-- Battery health -->
@@ -261,25 +261,6 @@
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
     <string name="high_power_apps_summary">Optimalisasi baterai per aplikasi</string>
     <!-- Private DNS Providers -->
-    <!-- Random Evolver summaries -->
-    <string name="random_summary_2">Selamat datang di Hawa Evolusi</string>
-    <string name="random_summary_3">Lanjutkan Evolusi perangkat Anda</string>
-    <string name="random_summary_4">Mulai evolusikan perangkat Anda dengan fitur-fitur kami</string>
-    <string name="random_summary_5">Evolusi adalah sebuah misteri</string>
-    <string name="random_summary_6">Bukan sembarang ROM, ini Evolution X!</string>
-    <string name="random_summary_7">Pembenci akan membenci, Evo akan memanggang</string>
-    <string name="random_summary_8">Tinggal di surga gangsta</string>
-    <string name="random_summary_9">Terus melangkah</string>
-    <string name="random_summary_12">Kami adalah kilat sebelum guntur</string>
-    <string name="random_summary_15">Tiramisu sangat enak</string>
-    <string name="random_summary_16">13 bisa beruntung juga</string>
-    <string name="random_summary_18">Hidup tidak selalu piksel dan pelangi</string>
-    <string name="random_summary_19">Masih Android, lebih baik</string>
-    <string name="random_summary_20">Ricers, silakan lanjutkan ke pintu keluar terdekat</string>
-    <string name="random_summary_21">Paging pengemudi BMW hitam...</string>
-    <string name="random_summary_24">Akui kami!</string>
-    <string name="random_summary_25">Kami sadar kami diberi nama setelah Mitsubishi</string>
-    <string name="random_summary_26">Saatnya bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Setelan rotasi</string>
     <string name="display_rotation_enabled">Rotasi otomatis diaktifkan</string>
@@ -293,7 +274,7 @@
     <string name="app_info_install_time">Terpasang: %1$s</string>
     <string name="app_info_update_time">Diperbarui: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Aktifkan peringatan tingkat pengisian daya baterai</string>
+    <string name="notification_battery_charge_level_main_switch_title">Gunakan peringatan pengisian baterai</string>
     <string name="notification_battery_charge_level_title">Peringatan daya baterai</string>
     <string name="notification_battery_charge_level_summary">Mainkan suara saat baterai mencapai tingkat yang ditentukan saat mengisi daya</string>
     <string name="notification_battery_charge_level_seek_bar">Tingkat baterai</string>
@@ -337,9 +318,6 @@
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
     <string name="skip_biometric_auth_confirmation_title">Lewati konfirmasi secara manual</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Sembunyikan ruang tombol IME</string>
-    <string name="navigation_bar_ime_space_summary">Sembunyikan ruang tombol IME di bawah keyboard</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
     <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewati trek musik</string>
@@ -374,7 +352,8 @@
     <string name="unhide_app">Perlihatkan aplikasi</string>
     <string name="unhide_app_desc">Jika Anda memperlihatkan aplikasi ini, aplikasi tersebut akan terlihat lagi oleh Android dan aplikasi lainnya.</string>
     <string name="hide_app_desc">Jika Anda menyembunyikan aplikasi ini, aplikasi tersebut tidak akan terlihat oleh Android dan aplikasi lain, dan aplikasi tersebut mungkin tidak lagi berfungsi sebagaimana mestinya. Perlu diingat, menyembunyikan aplikasi akan mempertahankan datanya. Dengan bersembunyi, Anda mematikan aplikasi ini dan menyembunyikannya di perangkat Anda.</string>
-    <string name="advanced_battery_preference_summary_google">Gunakan bagan penggunaan baterai Pixel</string>
+    <string name="advanced_battery_preference_summary_google">Bagan penggunaan baterai Pixel</string>
+    <string name="advanced_battery_preference_google_summary">Setel ulang statistik baterai tidak akan berfungsi saat menggunakan ini</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Notifikasi dalam panggilan</string>
     <!-- NFC sounds -->
@@ -426,4 +405,10 @@
     <string name="global_vpn_summary">Paksa semua lalu lintas di perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain.</string>
     <string name="global_vpn_summary_on">Paksa semua lalu lintas di perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain. Catatan: Saat diaktifkan, Anda tidak akan dapat menggunakan VPN terpisah di profil kerja atau pengguna lain</string>
     <string name="global_vpn_summary_any_vpn_active">Anda harus menonaktifkan semua koneksi VPN aktif terlebih dahulu untuk mengaktifkan ini</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Ruang tombol IME</string>
+    <string name="navigation_bar_ime_space_summary">Opsi ruang tombol IME di bawah keyboard</string>
+    <string name="ime_narrow">Sempit</string>
+    <string name="ime_default">Bawaan</string>
+    <string name="ime_hidden">Tersembunyi</string>
 </resources>
