@@ -46,7 +46,7 @@
     <string name="screenshot_shutter_sound_title">A képernyőmentés hangja</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Okos szüneteltetés</string>
-    <string name="adaptive_playback_master_switch_title">Az \'Okos szüneteltetés\' használata</string>
+    <string name="adaptive_playback_main_switch_title">Az \'Okos szüneteltetés\' használata</string>
     <string name="adaptive_playback_disabled_summary">Ki</string>
     <string name="adaptive_playback_intro_text">Hangerőnémításkor automatikusan leállítja a lejátszást és automatikusan újra is indítja, ha a némítás megszűnik.</string>
     <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
@@ -96,7 +96,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Okos töltés</string>
     <string name="smart_charging_summary">A maximális töltési szint beállítása</string>
-    <string name="smart_charging_master_switch_title">Az \'Okos töltés\' használata</string>
+    <string name="smart_charging_main_switch_title">Az \'Okos töltés\' használata</string>
     <string name="smart_charging_level_title">Megállítási érték</string>
     <string name="smart_charging_resume_level_title">Indítási érték</string>
     <string name="smart_charging_reset_stats_title">Akkustatisztikák törlése</string>
@@ -205,7 +205,7 @@
     <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
     <string name="auto_brightness_one_shot_summary">A fényerőbeállítás csak a képernyő bekapcsolásának pillanatában történik</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">A \'Csendes módban médianémítás\' bekapcsolása</string>
+    <string name="ringer_mute_main_switch_title">A \'Csendes módban médianémítás\' bekapcsolása</string>
     <string name="ringer_mute_speaker_media_title">Csendes módban médianémítás</string>
     <string name="ringer_mute_text">Lenémítja média hangerejét, ha a csengetési mód néma. Ha néma módban leválasztja a Bluetooth-eszközről, a média hangereje automatikusan elnémul.\nEz nem érinti a külső hangszórókat és fejhallgatókat.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -252,7 +252,7 @@
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Háttérfolyamatok</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Lebegő elforgatás gomb engedélyezése</string>
+    <string name="enable_floating_rotation_button_title">A \'Lebegő elforgatás\'-gomb engedélyezése</string>
     <!-- Build status -->
     <string name="build_status">Gyártási állapot</string>
     <!-- Battery health -->
@@ -274,7 +274,7 @@
     <string name="app_info_install_time">Telepítve: %1$s</string>
     <string name="app_info_update_time">Frissítve: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Akkumulátor töltés-szint figyelmeztető</string>
+    <string name="notification_battery_charge_level_main_switch_title">Az \'Akku-töltés figyelmeztető\' használata</string>
     <string name="notification_battery_charge_level_title">Akkumulátor-töltés figyelmeztető</string>
     <string name="notification_battery_charge_level_summary">Hang lejátszása, amikor az akkumulátor elér egy szintet töltés közben</string>
     <string name="notification_battery_charge_level_seek_bar">Akkumulátorszint</string>
@@ -352,7 +352,8 @@
     <string name="unhide_app">Alkalmazás-feloldás</string>
     <string name="unhide_app_desc">Ha feloldja ezt az alkalmazást, az Android-rendszer és minden alkalmazás látni fogja.</string>
     <string name="hide_app_desc">Ha elrejti ezt az alkalmazást, az nem lesz látható az Android és más alkalmazások számára, és előfordulhat, hogy mostantól nem fog megfelelően működni. Ne feledje, hogy az elrejtéskor az alkalmazásadatok megmaradnak. Csak ideiglenesen kapcsolja ki ezt az alkalmazást, és elrejti a készülékén.</string>
-    <string name="advanced_battery_preference_summary_google">A Pixel akkumulátorhasználati diagramm használata</string>
+    <string name="advanced_battery_preference_summary_google">Pixel akkumulátorhasználati diagramm</string>
+    <string name="advanced_battery_preference_google_summary">Amikor ezt használja, nem fogja tudni alaphelyzetbe állítani az akkustatisztikát</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Hívás közbeni értesítések</string>
     <!-- NFC sounds -->
@@ -407,7 +408,7 @@
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">IME-gombhely</string>
     <string name="navigation_bar_ime_space_summary">Az IME-gombhely beállításai</string>
-    <string name="ime_narrow">Nyíl</string>
+    <string name="ime_narrow">Keskeny</string>
     <string name="ime_default">Alapértelmezett</string>
     <string name="ime_hidden">Rejtett</string>
 </resources>
