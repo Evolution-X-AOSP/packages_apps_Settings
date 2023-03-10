@@ -46,7 +46,7 @@
     <string name="screenshot_shutter_sound_title">Звук создания снимка экрана</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
-    <string name="adaptive_playback_master_switch_title">Использовать адаптивное воспроизведение</string>
+    <string name="adaptive_playback_main_switch_title">Использовать умную паузу</string>
     <string name="adaptive_playback_disabled_summary">Выкл.</string>
     <string name="adaptive_playback_intro_text">Адаптивное воспроизведение автоматически приостанавливает воспроизведение при отключении громкости и автоматически возобновляется в течение заданного времени.</string>
     <string name="adaptive_playback_timeout_title">Использовать время ожидания</string>
@@ -96,7 +96,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Умная зарядка</string>
     <string name="smart_charging_summary">Установить максимальный уровень зарядки</string>
-    <string name="smart_charging_master_switch_title">Использовать умную зарядку</string>
+    <string name="smart_charging_main_switch_title">Использовать умную зарядку</string>
     <string name="smart_charging_level_title">Уровень остановки зарядки</string>
     <string name="smart_charging_resume_level_title">Уровень возобновления зарядки</string>
     <string name="smart_charging_reset_stats_title">Сбрасывать статистику батареи</string>
@@ -205,7 +205,7 @@
     <string name="auto_brightness_one_shot_title">Однократная автояркость</string>
     <string name="auto_brightness_one_shot_summary">Регулировка яркости будет происходить только один раз в момент включения экран</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Использовать беззвучное отключение мультимедиа</string>
+    <string name="ringer_mute_main_switch_title">Использовать беззвучное отключение мультимедиа</string>
     <string name="ringer_mute_speaker_media_title">Беззвучное отключение мультимедиа</string>
     <string name="ringer_mute_text">Отключать громкость мультимедиа, когда режим звонка установлен на беззвучный. При отключении от устройства bluetooth в беззвучном режиме громкость мультимедиа будет автоматически отключена. \nЭто не влияет на внешние динамики и наушники.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -274,7 +274,7 @@
     <string name="app_info_install_time">Установлено: %1$s</string>
     <string name="app_info_update_time">Обновлено: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Включить предупреждение об уровне заряда</string>
+    <string name="notification_battery_charge_level_main_switch_title">Предупреждение о заряде батареи</string>
     <string name="notification_battery_charge_level_title">Предупреждение о заряде батареи</string>
     <string name="notification_battery_charge_level_summary">Проиграть звук, когда батарея достигнет установленного уровня заряда батареи</string>
     <string name="notification_battery_charge_level_seek_bar">Уровень заряда батареи</string>
@@ -353,6 +353,7 @@
     <string name="unhide_app_desc">Если вы включите это приложение, оно будет снова видно для Android и других приложений.</string>
     <string name="hide_app_desc">Если вы скрываете это приложение, оно не будет видно для Android и других приложений, и оно может не работать, как это нужно. Имейте в виду, скрытие приложения сохраняет его данные. Выключив это приложение и скрыв его на вашем устройстве.</string>
     <string name="advanced_battery_preference_summary_google">Использовать график использования батареи Pixel</string>
+    <string name="advanced_battery_preference_google_summary">Сброс статистики батареи не будет работать при использовании этого</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Уведомления при звонке</string>
     <!-- NFC sounds -->
