@@ -46,7 +46,7 @@
     <string name="screenshot_shutter_sound_title">Sunet captură de ecran</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Redare adaptivă</string>
-    <string name="adaptive_playback_master_switch_title">Folosește pauză inteligentă</string>
+    <string name="adaptive_playback_main_switch_title">Folosește pauză inteligentă</string>
     <string name="adaptive_playback_disabled_summary">Oprit</string>
     <string name="adaptive_playback_intro_text">Se întrerupe automat redarea media când volumul este oprit și se reia automat când volumul este restabilit în timpul setat.</string>
     <string name="adaptive_playback_timeout_title">Folosește un timp expirare de</string>
@@ -96,7 +96,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Încărcare inteligentă</string>
     <string name="smart_charging_summary">Setează nivelul maxim de încărcare</string>
-    <string name="smart_charging_master_switch_title">Folosește încărcarea inteligentă</string>
+    <string name="smart_charging_main_switch_title">Folosește încărcarea inteligentă</string>
     <string name="smart_charging_level_title">Nivel oprire</string>
     <string name="smart_charging_resume_level_title">Nivel pornire</string>
     <string name="smart_charging_reset_stats_title">Resetare statistici baterie</string>
@@ -205,7 +205,7 @@
     <string name="auto_brightness_one_shot_title">Luminozitate automată instantă</string>
     <string name="auto_brightness_one_shot_summary">Ajustarea luminozității va avea loc doar în momentul în care ecranul este pornit</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Utilizează sunetul media silențios</string>
+    <string name="ringer_mute_main_switch_title">Utilizează sunetul media silențios</string>
     <string name="ringer_mute_speaker_media_title">Sunetul media silențios</string>
     <string name="ringer_mute_text">Se dezactivează volumul media când modul sonerie este setat la silențios. Când se deconectează un dispozitiv Bluetooth în modul silențios, volumul media va fi dezactivat automat. \nAcest lucru nu va afecta difuzoarele și căștile externe.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -261,25 +261,6 @@
     <string name="battery_charge_cycles">Cicluri de încărcare finalizate</string>
     <string name="high_power_apps_summary">Optimizare baterie per-aplicație</string>
     <!-- Private DNS Providers -->
-    <!-- Random Evolver summaries -->
-    <string name="random_summary_2">Bine ai venit la Eve of Evolution</string>
-    <string name="random_summary_3">Continuă evoluția dispozitivului</string>
-    <string name="random_summary_4">Începeți evoluția dispozitivului cu caracteristicile noastre</string>
-    <string name="random_summary_5">Evoluția este un mister</string>
-    <string name="random_summary_6">Nu doar orice ROM, acesta este Evolution X!</string>
-    <string name="random_summary_7">Cei care urăsc o să urască, Evo o să ”coace”</string>
-    <string name="random_summary_8">Trăind în paradisul unui gangsta</string>
-    <string name="random_summary_9">Continuați să mergeți înainte</string>
-    <string name="random_summary_12">Eram un fulger înainte de tunet</string>
-    <string name="random_summary_15">Tiramisu are un gust frumos</string>
-    <string name="random_summary_16">13 poate fi și norocos</string>
-    <string name="random_summary_18">Viața nu este întotdeauna pixeli și curcubeu</string>
-    <string name="random_summary_19">Tot Android, doar mai bun</string>
-    <string name="random_summary_20">Ricers, vă rugăm să mergeți la cea mai apropiată ieșire</string>
-    <string name="random_summary_21">Apelând șoferul BMW-ului negru...</string>
-    <string name="random_summary_24">Recunoaște-ne!</string>
-    <string name="random_summary_25">Știm că suntem numiți după un Mitsubishi</string>
-    <string name="random_summary_26">Este timpul pentru bootloop!</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Setări de rotire</string>
     <string name="display_rotation_enabled">Rotire automată activată</string>
@@ -293,7 +274,7 @@
     <string name="app_info_install_time">Instalat: %1$s</string>
     <string name="app_info_update_time">Actualizat: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Activează avertismentul privind nivelul de încărcare a bateriei</string>
+    <string name="notification_battery_charge_level_main_switch_title">Folosește avertisment de încărcare a bateriei</string>
     <string name="notification_battery_charge_level_title">Avertizare încărcare baterie</string>
     <string name="notification_battery_charge_level_summary">Se redă un sunet atunci când bateria atinge un nivel la încărcare</string>
     <string name="notification_battery_charge_level_seek_bar">Nivelul bateriei</string>
@@ -337,9 +318,6 @@
     <string name="face_unlock_method_default">Când ecranul este pornit</string>
     <string name="face_unlock_method_swipe">Când glisezi ecranul de blocare</string>
     <string name="skip_biometric_auth_confirmation_title">Omite confirmarea manuală</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Spațiu buton tastatură</string>
-    <string name="navigation_bar_ime_space_summary">Ascunde spațiul butonului IME de sub tastatură</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Control redare</string>
     <string name="volume_button_music_control_summary">Când ecranul este închis, apăsarea lungă a butoanelor de volum derulează melodia</string>
@@ -365,16 +343,8 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Găsește senzorul de amprentă pe partea din spate a telefonului.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Atenție: Este posibil ca această opțiune să nu funcționeze corect sau să ducă la pierderea datelor și, prin urmare, nu este recomandată!</string>
-    <!-- Hide apps -->
-    <string name="hide">Ascundere</string>
-    <string name="unhide">Reafișare</string>
-    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
-    <string name="filter_hidden_apps">Aplicații ascunse</string>
-    <string name="hide_app">Ascundere aplicație</string>
-    <string name="unhide_app">Reafișare aplicație</string>
-    <string name="unhide_app_desc">Dacă reafișezi această aplicație, ea va fi vizibilă din nou pentru Android și alte aplicații.</string>
-    <string name="hide_app_desc">Dacă ascunzi această aplicație, aceasta nu va fi vizibilă pentru Android și pentru alte aplicații și este posibil ca acestea să nu mai funcționeze conform intenției. Reține, ascunderea unei aplicații păstrează datele acesteia. Ascunzând, această aplicație se dezactivează și este ascunsă pe dispozitiv.</string>
     <string name="advanced_battery_preference_summary_google">Folosește diagrama de utilizare a bateriei Pixel</string>
+    <string name="advanced_battery_preference_google_summary">Resetarea statisticilor bateriei nu va funcționa în timp ce se utilizează aceasta</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Notificări în apel</string>
     <!-- NFC sounds -->
@@ -426,4 +396,10 @@
     <string name="global_vpn_summary">Forțează tot traficul de pe dispozitiv prin acest VPN, inclusiv profilul de serviciu și alți utilizatori.</string>
     <string name="global_vpn_summary_on">Forțează tot traficul de pe dispozitiv prin acest VPN, inclusiv profilul de serviciu și alți utilizatori. Notă: Când este activat, nu vei putea folosi un VPN separat într-un profil de serviciu sau alți utilizatori</string>
     <string name="global_vpn_summary_any_vpn_active">Trebuie să dezactivezi toate conexiunile VPN active mai întâi pentru a activa</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Spațiu buton tastatură</string>
+    <string name="navigation_bar_ime_space_summary">Ascunde spațiul butonului IME de sub tastatură</string>
+    <string name="ime_narrow">Îngustă</string>
+    <string name="ime_default">Implicit</string>
+    <string name="ime_hidden">Ascunsă</string>
 </resources>
