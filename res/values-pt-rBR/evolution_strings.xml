@@ -343,15 +343,6 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localize o sensor de impressão digital na parte de trás do seu telefone.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados, portanto, não é recomendado!</string>
-    <!-- Hide apps -->
-    <string name="hide">Ocultar</string>
-    <string name="unhide">Desocultar</string>
-    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
-    <string name="filter_hidden_apps">Aplicativos ocultos</string>
-    <string name="hide_app">Ocultar aplicativo</string>
-    <string name="unhide_app">Desocultar aplicativo</string>
-    <string name="unhide_app_desc">Se você desocultar este aplicativo, ele será visível para o Android e outros aplicativos novamente.</string>
-    <string name="hide_app_desc">Se você ocultar esse aplicativo, ele não será visível para o Android e outros aplicativos, e eles podem não funcionar mais como deveriam. Ocultar um aplicativo pode ser útil para proteger algumas informações. Ao ocultar, você desativa e oculta este aplicativo em seu dispositivo.</string>
     <string name="advanced_battery_preference_summary_google">Usar gráfico de bateria do Pixel</string>
     <string name="advanced_battery_preference_google_summary">Redefinir as estatísticas da bateria não funcionará quando estiver usando isso</string>
     <!-- In-call notifications -->
