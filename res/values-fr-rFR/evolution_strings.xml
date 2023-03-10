@@ -46,7 +46,7 @@
     <string name="screenshot_shutter_sound_title">Son lors d\'une capture d\'écran</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pause intelligente</string>
-    <string name="adaptive_playback_master_switch_title">Utiliser la pause intelligente</string>
+    <string name="adaptive_playback_main_switch_title">Utiliser la pause intelligente</string>
     <string name="adaptive_playback_disabled_summary">Désactivé</string>
     <string name="adaptive_playback_intro_text">Met automatiquement les médias en pause lorsque le volume est mis en sourdine et reprend automatiquement lorsque le volume est restauré dans le délai défini.</string>
     <string name="adaptive_playback_timeout_title">Utiliser un délai de</string>
@@ -96,7 +96,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Charge intelligente</string>
     <string name="smart_charging_summary">Définir le niveau de charge maximal</string>
-    <string name="smart_charging_master_switch_title">Utiliser la charge intelligente</string>
+    <string name="smart_charging_main_switch_title">Utiliser la charge intelligente</string>
     <string name="smart_charging_level_title">Niveau d\'arrêt de la charge</string>
     <string name="smart_charging_resume_level_title">Niveau de déclenchement de la recharge</string>
     <string name="smart_charging_reset_stats_title">Réinitialiser les statistiques de batterie</string>
@@ -205,7 +205,7 @@
     <string name="auto_brightness_one_shot_title">Luminosité automatique en un coup</string>
     <string name="auto_brightness_one_shot_summary">La luminosité ne s\'ajustera qu\'au moment où l\'écran s\'allume</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Utiliser le mode silencieux pour les médias</string>
+    <string name="ringer_mute_main_switch_title">Utiliser le mode silencieux pour les médias</string>
     <string name="ringer_mute_speaker_media_title">Utiliser le mode silencieux pour les médias</string>
     <string name="ringer_mute_text">Couper le son des médias lorsque le mode de sonnerie est configuré sur silencieux. Lorsque vous êtes déconnecté d\'un périphérique bluetooth en mode silencieux, le volume du média sera automatiquement mis en sourdine. \nCela n\'affectera pas les haut-parleurs et écouteurs externes.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -274,7 +274,7 @@
     <string name="app_info_install_time">Installées: %1$s</string>
     <string name="app_info_update_time">Mises à jour : %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Activer l\'avertissement de niveau de charge de la batterie</string>
+    <string name="notification_battery_charge_level_main_switch_title">Utiliser l\'avertissement de charge de la batterie</string>
     <string name="notification_battery_charge_level_title">Avertissement de charge de la batterie</string>
     <string name="notification_battery_charge_level_summary">Jouer un son lorsque la batterie atteint un niveau lors de la charge</string>
     <string name="notification_battery_charge_level_seek_bar">Niveau de batterie</string>
@@ -353,6 +353,7 @@
     <string name="unhide_app_desc">Si vous décochez cette application, elle sera à nouveau visible par Android et d\'autres applications.</string>
     <string name="hide_app_desc">Si vous masquez cette application, elle ne sera pas visible par Android et les autres applications et pourrait ne plus fonctionner comme prévu. Gardez à l\'esprit que cacher une application préserve les données. En masquant, vous éteignez cette application et la masquez sur votre appareil.</string>
     <string name="advanced_battery_preference_summary_google">Utiliser le graphique d\'utilisation de la batterie des Pixel</string>
+    <string name="advanced_battery_preference_google_summary">Réinitialiser les statistiques de la batterie ne fonctionnera pas en utilisant ceci</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Notification d\'appel</string>
     <!-- NFC sounds -->
