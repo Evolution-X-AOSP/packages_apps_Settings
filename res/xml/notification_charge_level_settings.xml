@@ -14,7 +14,7 @@
 
     <com.evolution.settings.preference.SystemSettingMainSwitchPreference
         android:key="battery_level_charge_alarm_enabled"
-        android:title="@string/notification_sound_battery_charge_title"
+        android:title="@string/notification_battery_charge_level_main_switch_title"
         android:defaultValue="false" />
 
     <Preference

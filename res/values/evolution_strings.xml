@@ -60,7 +60,7 @@
 
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Smart Pause</string>
-    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
+    <string name="adaptive_playback_main_switch_title">Use Smart Pause</string>
     <string name="adaptive_playback_disabled_summary">Off</string>
     <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when the volume is restored within the set time.</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
@@ -113,9 +113,9 @@
     <string name="longpress_to_clipboard">Long-press to copy</string>
 
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart charging</string>
+    <string name="smart_charging_title">Smart Charging</string>
     <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_master_switch_title">Use Smart Charging</string>
+    <string name="smart_charging_main_switch_title">Use Smart Charging</string>
     <string name="smart_charging_level_title">Stop trigger level</string>
     <string name="smart_charging_resume_level_title">Start trigger level</string>
     <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
@@ -235,7 +235,7 @@
     <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
 
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Use Silent media mute</string>
+    <string name="ringer_mute_main_switch_title">Use Silent media mute</string>
     <string name="ringer_mute_speaker_media_title">Silent media mute</string>
     <string name="ringer_mute_text">Mute media volume when ringer mode is set to silent. When disconnected from a Bluetooth device while in silent mode, the media volume will be automatically muted. \nThis will not affect external speakers and headphones.</string>
 
@@ -292,7 +292,7 @@
     <string name="background_processes_settings_title">Background processes</string>
 
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <string name="enable_floating_rotation_button_title">Floating rotate button</string>
 
     <!-- Build status -->
     <string name="build_status">Build status</string>
@@ -327,7 +327,7 @@
     <string name="app_info_update_time">Updated: %1$s</string>
 
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
+    <string name="notification_battery_charge_level_main_switch_title">Use Battery charge warning</string>
     <string name="notification_battery_charge_level_title">Battery charge warning</string>
     <string name="notification_battery_charge_level_summary">Play a sound when the battery reaches a certain level while charging</string>
     <string name="notification_battery_charge_level_seek_bar">Battery level</string>
@@ -394,7 +394,8 @@
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
 
-    <string name="advanced_battery_preference_summary_google">Use Pixel Battery usage chart</string>
+    <string name="advanced_battery_preference_summary_google">Pixel Battery usage chart</string>
+    <string name="advanced_battery_preference_google_summary">Reset battery stats will not work while using this</string>
 
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">In-call notifications</string>
