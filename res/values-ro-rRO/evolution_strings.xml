@@ -42,8 +42,6 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Încărcare rapidă</string>
     <string name="fast_charging_summary">Dezactivează pentru a reduce căldura produsă de dispozitiv în timpul încărcări pentru a extinde durata de viață a bateriei</string>
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Sunet captură de ecran</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Redare adaptivă</string>
     <string name="adaptive_playback_main_switch_title">Folosește pauză inteligentă</string>
@@ -65,10 +63,6 @@
     <!-- Doze on double tap -->
     <string name="doze_double_tap_title">Atinge de două ori pentru a verifica telefonul</string>
     <string name="doze_double_tap_summary">Pulsează notificările la apăsare dublă</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Atinge amprenta pentru a debloca</string>
-    <string name="fingerprint_wake_unlock_touch">Ascultă evenimente în timp ce ecranul este oprit</string>
-    <string name="fingerprint_wake_unlock_press">Ascultă evenimente numai după ce ecranul este pornit</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Amestecare aspect</string>
     <string name="unlock_scramble_pin_layout_summary">Amestecă aspectul ecranului de PIN atunci când se deblochează dispozitivul</string>
@@ -108,10 +102,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permite clienților să utilizeze VPN-uri</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permite clienților hotspot-ului să utilizeze conexiunile VPN ale acestui dispozitiv pentru conexiunea upstream</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_title">Efect de mărire-micșorare a imaginii de fundal</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_summary">Zoom imagine de fundal pentru a afișa animația de adâncime de micșorare. Imaginile de fundal pot suferi o scădere a calității</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Se dezactivează automat Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -185,8 +175,6 @@
     <string name="adj_saturation_title">Saturație</string>
     <string name="adj_intensity_title">Intensitate</string>
     <string name="adj_contrast_title">Contrast</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Se leagă volumele de apel și notificare</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Volum ascendent</string>
     <string name="increasing_ring_min_volume_title">Volum inițial</string>
@@ -261,7 +249,7 @@
     <string name="battery_charge_cycles">Cicluri de încărcare finalizate</string>
     <string name="high_power_apps_summary">Optimizare baterie per-aplicație</string>
     <!-- Private DNS Providers -->
-    <!-- Display : Rotation -->
+    <!-- Display: Rotation -->
     <string name="display_rotation_title">Setări de rotire</string>
     <string name="display_rotation_enabled">Rotire automată activată</string>
     <string name="display_rotation_disabled">Rotire automată dezactivată</string>
@@ -402,4 +390,6 @@
     <string name="ime_narrow">Îngustă</string>
     <string name="ime_default">Implicit</string>
     <string name="ime_hidden">Ascunsă</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Nu s-a specificat niciun certificat. Conexiunea nu va fi privată.</string>
 </resources>
