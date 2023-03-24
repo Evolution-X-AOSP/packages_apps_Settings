@@ -42,8 +42,6 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Быстрая зарядка</string>
     <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки или продлить срок службы аккумулятора</string>
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Звук создания снимка экрана</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
     <string name="adaptive_playback_main_switch_title">Использовать умную паузу</string>
@@ -65,10 +63,6 @@
     <!-- Doze on double tap -->
     <string name="doze_double_tap_title">Двойное касание для проверки телефона</string>
     <string name="doze_double_tap_summary">Пульсирующие уведомления по двойному касанию</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Коснитесь сканера отпечатка пальца для разблокировки</string>
-    <string name="fingerprint_wake_unlock_touch">Считывать при выключенном экране</string>
-    <string name="fingerprint_wake_unlock_press">Считывать только после включения экрана</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Перемешать клавиши</string>
     <string name="unlock_scramble_pin_layout_summary">Перемешать кнопки ввода PIN-кода при разблокировке устройства</string>
@@ -108,10 +102,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешать клиентам точки доступа этого устройства использовать VPN для исходящих подключени</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_title">Эффект масштаба обоев</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_summary">Изменение масштаба обоев для эффекта глубины. Качество обоев может снизиться</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Выключать Wi-Fi автоматически</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -185,8 +175,6 @@
     <string name="adj_saturation_title">Насыщенность</string>
     <string name="adj_intensity_title">Интенсивность</string>
     <string name="adj_contrast_title">Контрастность</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Объединить громкость рингтона и уведомлений</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
     <string name="increasing_ring_min_volume_title">Начальная громкость</string>
@@ -252,7 +240,7 @@
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Запущенные процессы</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Использовать плавающую кнопку поворота</string>
+    <string name="enable_floating_rotation_button_title">Плавающая кнопка поворота</string>
     <!-- Build status -->
     <string name="build_status">Статус сборки</string>
     <!-- Battery health -->
@@ -261,7 +249,7 @@
     <string name="battery_charge_cycles">Количество полных циклов заряда</string>
     <string name="high_power_apps_summary">Оптимизация батареи для каждого приложения</string>
     <!-- Private DNS Providers -->
-    <!-- Display : Rotation -->
+    <!-- Display: Rotation -->
     <string name="display_rotation_title">Настройки поворота</string>
     <string name="display_rotation_enabled">Автоповорот включён</string>
     <string name="display_rotation_disabled">Автоповорот выключен</string>
@@ -397,9 +385,11 @@
     <string name="global_vpn_summary_on">Принудительный трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей. Примечание: Когда включено, вы не сможете использовать отдельный VPN в рабочем профиле или других пользователей</string>
     <string name="global_vpn_summary_any_vpn_active">Вам нужно сначала отключить все активные VPN соединения, чтобы включить это</string>
     <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Скрыть отступ</string>
+    <string name="navigation_bar_ime_space_title">Отступ под клавиатурой</string>
     <string name="navigation_bar_ime_space_summary">Скрыть отступ под клавиатурой</string>
     <string name="ime_narrow">Узкое</string>
     <string name="ime_default">По умолчанию</string>
     <string name="ime_hidden">Скрыть</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Ваше соединение не будет защищено.</string>
 </resources>
