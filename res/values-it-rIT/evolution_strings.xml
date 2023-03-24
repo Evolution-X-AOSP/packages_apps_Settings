@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Rinfresca il tuo dispositivo con le nostre funzionalità</string>
+    <string name="evolver_dashboard_summary">Benvenuto alla vigilia dell\'Evoluzione</string>
     <!-- Hardware info -->
     <string name="soc_model">Modello SoC</string>
     <string name="total_ram">RAM totale</string>
@@ -42,11 +42,9 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Ricarica rapida</string>
     <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per estendere la durata della batteria</string>
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Suono dello screenshot</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pausa Intelligente</string>
-    <string name="adaptive_playback_master_switch_title">Usa la Pausa Intelligente</string>
+    <string name="adaptive_playback_main_switch_title">Usa la pausa intelligente</string>
     <string name="adaptive_playback_disabled_summary">Off</string>
     <string name="adaptive_playback_intro_text">Interrompe automaticamente i media quando il volume è silenziato e riprenderà automaticamente quando il volume è ripristinato entro l\'ora impostata.</string>
     <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
@@ -65,10 +63,6 @@
     <!-- Doze on double tap -->
     <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
     <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Tocca l\'impronta digitale per sbloccare</string>
-    <string name="fingerprint_wake_unlock_touch">Ascolta gli eventi mentre lo schermo è spento</string>
-    <string name="fingerprint_wake_unlock_press">Ascolta gli evento solo quando lo schermo è acceso</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Disposizione casuale</string>
     <string name="unlock_scramble_pin_layout_summary">Disposizione del PIN casuale sbloccando il dispositivo</string>
@@ -96,7 +90,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Ricarica intelligente</string>
     <string name="smart_charging_summary">Imposta il livello massimo di ricarica</string>
-    <string name="smart_charging_master_switch_title">Usa la Ricarica Intelligente</string>
+    <string name="smart_charging_main_switch_title">Usa la ricarica intelligente</string>
     <string name="smart_charging_level_title">Livello di fine ricarica</string>
     <string name="smart_charging_resume_level_title">Livello di inizio ricarica</string>
     <string name="smart_charging_reset_stats_title">Ripristina le statistiche della batteria</string>
@@ -108,10 +102,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Consenti ai clienti di usare le VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_title">Effetto ingrandimento dello sfondo</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_summary">Ingrandisci lo sfondo per mostrare l\'animazione della profondità. Gli sfondi potrebbero subire una diminuzione della qualità</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Disattiva automaticamente la Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -185,8 +175,6 @@
     <string name="adj_saturation_title">Saturazione</string>
     <string name="adj_intensity_title">Intensità</string>
     <string name="adj_contrast_title">Contrasto</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
     <string name="increasing_ring_min_volume_title">Volume iniziale</string>
@@ -205,7 +193,7 @@
     <string name="auto_brightness_one_shot_title">Luminosità automatica singola </string>
     <string name="auto_brightness_one_shot_summary">La regolazione della luminosità avverrà solo quando lo schermo viene acceso</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Disattiva l\'audio multimediale se silenzioso</string>
+    <string name="ringer_mute_main_switch_title">Usa l\'audio multimediale muto se silenzioso</string>
     <string name="ringer_mute_speaker_media_title">Media muto se silenzioso</string>
     <string name="ringer_mute_text">Disattiva l\'audio multimediale quando la modalità suoneria è impostata su silenzioso. Quando disconnesso da un dispositivo bluetooth in modalità silenziosa, il volume multimediale verrà automaticamente disattivato. \nQuesto non influirà su altoparlanti e cuffie esterni.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -261,7 +249,7 @@
     <string name="battery_charge_cycles">Cicli di ricarica</string>
     <string name="high_power_apps_summary">Ottimizzazione batteria per app</string>
     <!-- Private DNS Providers -->
-    <!-- Display : Rotation -->
+    <!-- Display: Rotation -->
     <string name="display_rotation_title">Impostazioni rotazione</string>
     <string name="display_rotation_enabled">La rotazione automatica è attivata</string>
     <string name="display_rotation_disabled">La rotazione automatica è disattivata</string>
@@ -274,7 +262,7 @@
     <string name="app_info_install_time">Installata: %1$s</string>
     <string name="app_info_update_time">Aggiornata: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Abilita avviso livello di carica batteria</string>
+    <string name="notification_battery_charge_level_main_switch_title">Usa l\'avviso di carica della batteria</string>
     <string name="notification_battery_charge_level_title">Avviso carica della batteria</string>
     <string name="notification_battery_charge_level_summary">Riproduci un suono quando la batteria raggiunge il livello specificato durante la ricarica</string>
     <string name="notification_battery_charge_level_seek_bar">Livello batteria</string>
@@ -343,23 +331,12 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Individua il sensore d\'impronte digitali sul retro del tuo telefono.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Attenzione: questa opzione potrebbe non funzionare correttamente o portare alla perdita di dati e quindi non è raccomandata!</string>
-    <!-- Hide apps -->
-    <string name="hide">Nascondi</string>
-    <string name="unhide">Mostra</string>
-    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
-    <string name="filter_hidden_apps">App nascoste</string>
-    <string name="hide_app">Nascondi app</string>
-    <string name="unhide_app">Mostra app</string>
-    <string name="unhide_app_desc">Se mostri questa app, sarà di nuovo visibile per Android e altre app.</string>
-    <string name="hide_app_desc">Se nascondi questa app, non sarà visibile ad Android e ad altre app che potrebbero non funzionare correttamente. Tieni presente che i dati dell\'app vengono conservati. Nascondendo quest\'app, la disattivi sul tuo dispositivo.</string>
     <string name="advanced_battery_preference_summary_google">Usa il grafico di utilizzo batteria dei Pixel</string>
+    <string name="advanced_battery_preference_google_summary">Reimpostare le statistiche della batteria non funzionerà durante il suo utilizzo</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Notifiche in chiamata</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Suoni NFC</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient Display</string>
-    <string name="doze_enabled_summary">Indica se abilitare la funzionalità del pacchetto doze</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Modalità sonno</string>
     <string name="sleep_mode_summary_on">Attivata / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
@@ -410,4 +387,6 @@
     <string name="ime_narrow">Sottile</string>
     <string name="ime_default">Predefinito</string>
     <string name="ime_hidden">Nascosto</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Nessun certificato specificato. La connessione non sarà privata.</string>
 </resources>
