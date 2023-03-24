@@ -42,8 +42,6 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Pengisian Cepat</string>
     <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Jeda Cerdas</string>
     <string name="adaptive_playback_main_switch_title">Gunakan Jeda Cerdas</string>
@@ -65,10 +63,6 @@
     <!-- Doze on double tap -->
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
     <string name="doze_double_tap_summary">Tampilkan notifikasi dengan ketukan ganda</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Sentuk sidik jari untuk membuka kunci</string>
-    <string name="fingerprint_wake_unlock_touch">Mendeteksi saat layar mati</string>
-    <string name="fingerprint_wake_unlock_press">Hanya mendeteksi setelah layar menyala</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
     <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
@@ -108,10 +102,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat ini untuk konektivitas upstream</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_title">Efek perbesar wallpaper</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_summary">Perbesar wallpaper untuk menampilkan animasi kedalaman memperkecil. Wallpaper mungkin mengalami penurunan kualitas</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -185,8 +175,6 @@
     <string name="adj_saturation_title">Saturasi</string>
     <string name="adj_intensity_title">Intensitas</string>
     <string name="adj_contrast_title">Kontras</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Tingkatkan volume dering</string>
     <string name="increasing_ring_min_volume_title">Mulai volume</string>
@@ -261,7 +249,7 @@
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
     <string name="high_power_apps_summary">Optimalisasi baterai per aplikasi</string>
     <!-- Private DNS Providers -->
-    <!-- Display : Rotation -->
+    <!-- Display: Rotation -->
     <string name="display_rotation_title">Setelan rotasi</string>
     <string name="display_rotation_enabled">Rotasi otomatis diaktifkan</string>
     <string name="display_rotation_disabled">Rotasi otomatis dinonaktifkan</string>
@@ -349,9 +337,6 @@
     <string name="in_call_notifications_title">Notifikasi dalam panggilan</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Suara NFC</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Tampilan Ambien</string>
-    <string name="doze_enabled_summary">Apakah akan mengaktifkan fungsi paket doze</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Mode Tidur</string>
     <string name="sleep_mode_summary_on">Aktif / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
@@ -402,4 +387,6 @@
     <string name="ime_narrow">Sempit</string>
     <string name="ime_default">Bawaan</string>
     <string name="ime_hidden">Tersembunyi</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Tidak ada sertifikat yang ditentukan. Koneksi Anda tidak akan bersifat pribadi.</string>
 </resources>
