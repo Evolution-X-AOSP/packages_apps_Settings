@@ -42,8 +42,6 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Carregamento rápido</string>
     <string name="fast_charging_summary">Desative para reduzir o calor produzido pelo dispositivo durante o carregamento ou para estender a vida útil da bateria</string>
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Som de captura de tela</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pausa inteligente</string>
     <string name="adaptive_playback_main_switch_title">Usar pausa inteligente</string>
@@ -65,10 +63,6 @@
     <!-- Doze on double tap -->
     <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
     <string name="doze_double_tap_summary">Pulsar notificações ao tocar duas vezes na tela</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Toque na impressão digital para desbloquear</string>
-    <string name="fingerprint_wake_unlock_touch">Aguarda por eventos enquanto a tela está desligada</string>
-    <string name="fingerprint_wake_unlock_press">Aguarda por eventos somente quando a tela está ligada</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
@@ -108,10 +102,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes do ponto de acessso utilizem este dispositivo para se conectar a VPN</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_title">Efeito de zoom no papel de parede</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_summary">O efeito de zoom no papel de parede amplia o tamanho da imagem. As imagens podem sofrer uma pequena perda de qualidade</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Desligar Wi-Fi automaticamente</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -185,8 +175,6 @@
     <string name="adj_saturation_title">Saturação</string>
     <string name="adj_intensity_title">Intensidade</string>
     <string name="adj_contrast_title">Contraste</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Associar volumes de toque e notificação</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Toque crescente</string>
     <string name="increasing_ring_min_volume_title">Volume inicial</string>
@@ -261,7 +249,7 @@
     <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
     <string name="high_power_apps_summary">Otimização de bateria por app</string>
     <!-- Private DNS Providers -->
-    <!-- Display : Rotation -->
+    <!-- Display: Rotation -->
     <string name="display_rotation_title">Configurações de rotação</string>
     <string name="display_rotation_enabled">A rotação automática está ativada</string>
     <string name="display_rotation_disabled">A rotação automática está desativada</string>
@@ -402,4 +390,6 @@
     <string name="ime_narrow">Estreito</string>
     <string name="ime_default">Padrão</string>
     <string name="ime_hidden">Oculto</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. Sua conexão não será privada.</string>
 </resources>
