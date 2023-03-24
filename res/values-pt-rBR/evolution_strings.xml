@@ -337,9 +337,6 @@
     <string name="in_call_notifications_title">Notificações nas chamadas</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Sons NFC</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Tela ambiente</string>
-    <string name="doze_enabled_summary">Se deve habilitar a função doze</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Modo de suspensão</string>
     <string name="sleep_mode_summary_on">Ativado / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
