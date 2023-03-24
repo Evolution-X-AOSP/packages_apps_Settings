@@ -338,9 +338,6 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="in_call_notifications_title">Benachrichtigungen während des Anrufs</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">NFC-Töne</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient-Display</string>
-    <string name="doze_enabled_summary">Ob die Funktionalität des Doze-Pakets aktiviert werden soll</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Schlafmodus</string>
     <string name="sleep_mode_summary_on">An / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
