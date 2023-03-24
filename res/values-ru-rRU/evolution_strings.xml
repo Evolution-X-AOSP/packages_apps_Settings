@@ -337,9 +337,6 @@
     <string name="in_call_notifications_title">Уведомления при звонке</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Звуки NFC</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient Display</string>
-    <string name="doze_enabled_summary">Включить ли функциональность пакета doze</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Режим сна</string>
     <string name="sleep_mode_summary_on">Вкл / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
