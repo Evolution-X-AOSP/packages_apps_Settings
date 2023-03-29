@@ -389,4 +389,50 @@
     <string name="ime_hidden">Rejtett</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nincs tanusítvány megadva. Kapcsolata nem lesz privát.</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Érintési visszajelzés</string>
+    <string name="back_gesture_haptic_summary">Visszajelző rezgés a vissza mozdulatnál</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nincs művelet</string>
+    <string name="action_menu">Menü</string>
+    <string name="action_app_switch">Előzmények</string>
+    <string name="action_voice_search">Hangalapú keresés</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_last_app">Legutóbbi alkalmazás</string>
+    <string name="action_splitscreen">Osztott képernyő</string>
+    <string name="action_flashlight">Zseblámpa</string>
+    <string name="action_clear_notifications">Értesítések törlése</string>
+    <string name="action_volume_panel">Hangerőszabályzó</string>
+    <string name="action_screen_off">Kijelző kikapcsolása</string>
+    <string name="action_notifications">Értesítések</string>
+    <string name="action_power_menu">Kikapcsolási menü</string>
+    <string name="action_screenshot">Képernyőkép</string>
+    <string name="action_qs_panel">Gyorsbeállítások-panel</string>
+    <string name="action_app_action">Alkalmazás</string>
+    <string name="action_ringer_modes">Csengésmódok</string>
+    <string name="kill_app">Az előtérben lévő alkalmazás kilövése</string>
+    <string name="recent_app_toggle">Korábbi alkalmazások kapcsolója</string>
+    <string name="skip_song">Zeneszám átugrása</string>
+    <string name="prev_song">Előző zeneszám</string>
+    <string name="show_powermenu">A Kikapcsolási menü megjelenítésa</string>
+    <string name="partial_screenshot">Részleges képernyőmentés</string>
+    <string name="hush_mute">Értesítések némítása</string>
+    <string name="action_open_recents">Előzmények megnyitása</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Speciális vezérlési lehetőségek</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Mozdulatok testreszabása és egyedi műveletek beállítása</string>
+    <string name="navbar_gesture_tweaks_cat_title">Speciális</string>
+    <string name="swipe_app_select_summary">Válasszon ki egy alkalmazást, amely nyomásra elindul</string>
+    <string name="long_back_swipe_timeout_title">A hosszú csúsztatás időkorlátja</string>
+    <string name="left_swipe_actions_title">Hosszú balra húzás művelete</string>
+    <string name="left_swipe_app_action_title">Válassza ki a hosszú balra csúsztatás alkalmazását</string>
+    <string name="right_swipe_actions_title">Hosszú jobbra csúsztatás művelete</string>
+    <string name="right_swipe_app_action_title">Válassza ki a jobb oldali hosszú csúsztatás alkalmazását</string>
+    <string name="left_vertical_swipe_actions_title">Függőleges balra L formázás művelete</string>
+    <string name="left_vertical_swipe_app_action_title">Válassza ki a bal függőleges csúsztatás alkalmazását</string>
+    <string name="right_vertical_swipe_actions_title">Függőleges jobbra L formázás művelete</string>
+    <string name="right_vertical_swipe_app_action_title">Válassza ki a függőleges jobbra csúsztatás alkalmazását</string>
+    <string name="gesture_nav_tweaks_footer_info">Ahhoz, hogy válasszon egy alkalmazást a művelethez, nyomja hosszan bármelyik alkalmazásra a választó menüben.\n\nHa a főképernyőn van, csúsztasson a képernyő alsó harmadában a művelethez.</string>
+    <string name="back_swipe_extended_title">Bővített csúsztatási művelet</string>
+    <string name="back_swipe_extended_summary">Műveletkapcsolás szélesebb csúsztatáskor (több mint a kijelző felén), vagy L alakú csúsztatáskor (vertikálisan elég hosszan)</string>
 </resources>
