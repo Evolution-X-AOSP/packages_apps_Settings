@@ -390,4 +390,50 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="ime_hidden">Ausgeblendet</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Es wird keine private Verbindung hergestellt.</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptische Rückmeldung</string>
+    <string name="back_gesture_haptic_summary">Vibrieren beim Ausführen der Zurück-Geste</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Keine Aktion</string>
+    <string name="action_menu">Menü</string>
+    <string name="action_app_switch">Anwendungsverlauf</string>
+    <string name="action_voice_search">Sprachsuche</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_last_app">Letzte App</string>
+    <string name="action_splitscreen">Geteilter Bildschirm</string>
+    <string name="action_flashlight">Taschenlampe</string>
+    <string name="action_clear_notifications">Benachrichtigungen löschen</string>
+    <string name="action_volume_panel">Lautstärkeregler</string>
+    <string name="action_screen_off">Bildschirm aus</string>
+    <string name="action_notifications">Benachrichtigungen</string>
+    <string name="action_power_menu">Startmenü</string>
+    <string name="action_screenshot">Bildschirmfoto</string>
+    <string name="action_qs_panel">Schnelleinstellungen</string>
+    <string name="action_app_action">Anwendung</string>
+    <string name="action_ringer_modes">Klingelton-Modus</string>
+    <string name="kill_app">App im Vordergrund beenden</string>
+    <string name="recent_app_toggle">Zu letzter App wechseln</string>
+    <string name="skip_song">Titel überspringen</string>
+    <string name="prev_song">Vorheriger Titel</string>
+    <string name="show_powermenu">Power-Menü anzeigen</string>
+    <string name="partial_screenshot">Bildschirmbereich aufnehmen</string>
+    <string name="hush_mute">Alle Benachrichtigungen stummschalten</string>
+    <string name="action_open_recents">Zuletzt geöffnet</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Erweiterte Gesten-Einstellungen</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Gesten anpassen und benutzerdefinierte Aktionen festlegen</string>
+    <string name="navbar_gesture_tweaks_cat_title">Erweitert</string>
+    <string name="swipe_app_select_summary">App auswählen, die mit der Druck-Aktion gestartet werden soll</string>
+    <string name="long_back_swipe_timeout_title">Timeout für lange Zurück-Geste</string>
+    <string name="left_swipe_actions_title">Lange Wischaktion nach links</string>
+    <string name="left_swipe_app_action_title">Anwendung für lange Wischaktion nach links wählen</string>
+    <string name="right_swipe_actions_title">Lange Wischaktion nach rechts</string>
+    <string name="right_swipe_app_action_title">Anwendung für lange Wischaktion nach rechts wählen</string>
+    <string name="left_vertical_swipe_actions_title">Vertikales Streichen nach links (L-Swipe)</string>
+    <string name="left_vertical_swipe_app_action_title">Anwendung für vertikales Wischen von links wählen</string>
+    <string name="right_vertical_swipe_actions_title">Vertikales Streichen nach Rechts (L-Swipe)</string>
+    <string name="right_vertical_swipe_app_action_title">Anwendung für vertikales Wischen von rechts wählen</string>
+    <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine App in der Apps-Auswahl.\n\nWenn der Launcher angezeigt wird, streichen Sie ganz unten auf dem Bildschirm, um die Aktion auszulösen.</string>
+    <string name="back_swipe_extended_title">Erweiterte Wischaktion</string>
+    <string name="back_swipe_extended_summary">Aktion für breiteres Wischen (mehr als die Hälfte des Bildschirms), oder Wischen in Form eines L (vertikal lang genug)</string>
 </resources>
