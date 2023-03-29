@@ -42,11 +42,9 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Rychlé nabíjení</string>
     <string name="fast_charging_summary">Vypnutím snížíte teplo produkované zařízením během nabíjení nebo prodloužíte životnost baterie</string>
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Zvuk při snímku obrazovky</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Chytré pozastavení</string>
-    <string name="adaptive_playback_master_switch_title">Použít chytré pozastavení</string>
+    <string name="adaptive_playback_main_switch_title">Použít chytré pozastavení</string>
     <string name="adaptive_playback_disabled_summary">Vyp.</string>
     <string name="adaptive_playback_intro_text">Adaptivní přehrávání automaticky pozastaví média, když je hlasitost ztlumena a automaticky se obnoví při obnově hlasitosti v daném čase.</string>
     <string name="adaptive_playback_timeout_title">Použít časový limit pro</string>
@@ -65,10 +63,6 @@
     <!-- Doze on double tap -->
     <string name="doze_double_tap_title">Dvojitým klepnutím zkontrolujte telefon</string>
     <string name="doze_double_tap_summary">Pulzující oznámení dvojitým poklepáním</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Odemknout použitím otisku prstu</string>
-    <string name="fingerprint_wake_unlock_touch">Naslouchá událostem, když je obrazovka vypnutá</string>
-    <string name="fingerprint_wake_unlock_press">Naslouchá událostem, pouze když je obrazovka zapnutá</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
     <string name="unlock_scramble_pin_layout_summary">Přeházet rozložení pro zadání PINu při odemykání zařízení</string>
@@ -96,7 +90,7 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Chytré nabíjení</string>
     <string name="smart_charging_summary">Nastavit maximální úroveň nabíjení</string>
-    <string name="smart_charging_master_switch_title">Použít Chytré nabíjení</string>
+    <string name="smart_charging_main_switch_title">Použít Chytré nabíjení</string>
     <string name="smart_charging_level_title">Úroveň ukončení</string>
     <string name="smart_charging_resume_level_title">Úroveň spuštění</string>
     <string name="smart_charging_reset_stats_title">Obnovit statistiky baterie</string>
@@ -108,10 +102,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro upstream připojení</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_title">Efekt přiblížení tapety</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_summary">Přiblížení tapety pro zobrazení hloubkové animace. Tapety mohou mít sníženou kvalitu</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Automaticky vypnout Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -185,8 +175,6 @@
     <string name="adj_saturation_title">Sytost</string>
     <string name="adj_intensity_title">Intenzita</string>
     <string name="adj_contrast_title">Kontrast</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Sjednotit hlasitosti vyzvánění a oznámení</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Narůstající hlasitost vyzvánění</string>
     <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
@@ -205,7 +193,7 @@
     <string name="auto_brightness_one_shot_title">Rychlé nastavení automatického jasu</string>
     <string name="auto_brightness_one_shot_summary">K úpravě jasu dojde pouze v\u00a0okamžiku zapnutí obrazovky</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Použít tiché ztlumení médií</string>
+    <string name="ringer_mute_main_switch_title">Použít tiché ztlumení médií</string>
     <string name="ringer_mute_speaker_media_title">Tiché ztlumení médií</string>
     <string name="ringer_mute_text">Ztlumit hlasitost médií, když je režim vyzvánění nastaven na tichý. Při odpojení od bluetooth zařízení v tichém režimu bude hlasitost médií automaticky ztlumena. \nToto neovlivní externí reproduktory ani sluchátka.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -261,26 +249,7 @@
     <string name="battery_charge_cycles">Nabíjecí cykly</string>
     <string name="high_power_apps_summary">Optimalizace baterie podle aplikací</string>
     <!-- Private DNS Providers -->
-    <!-- Random Evolver summaries -->
-    <string name="random_summary_2">Vítejte v době evoluce</string>
-    <string name="random_summary_3">Pokračujte v evoluci svého zařízení</string>
-    <string name="random_summary_4">Začněte evoluci vašeho zařízení s našemi funkcemi</string>
-    <string name="random_summary_5">Evoluce je záhadou</string>
-    <string name="random_summary_6">Není to jen tak ledajaká ROM, je to Evolution X!</string>
-    <string name="random_summary_7">Haters gonna hate, Evo\'s gonna bake</string>
-    <string name="random_summary_8">Život v ráji gangsterů</string>
-    <string name="random_summary_9">Pokračuj vpřed</string>
-    <string name="random_summary_12">Byli jsme bleskem před bouří</string>
-    <string name="random_summary_15">Tiramisu opravdu chutná dobře</string>
-    <string name="random_summary_16">13 může být také šťastné číslo</string>
-    <string name="random_summary_18">Život není vždy jen o pixelech a duze</string>
-    <string name="random_summary_19">Pořád Android, jen lepší</string>
-    <string name="random_summary_20">Řidiči, pokračujte k nejbližšímu východu</string>
-    <string name="random_summary_21">Voláme řidiče černého BMW...</string>
-    <string name="random_summary_24">Uznávej nás!</string>
-    <string name="random_summary_25">Jsme si vědomi toho, že jsme pojmenováni po Mitsubishi</string>
-    <string name="random_summary_26">Je čas na bootloop!</string>
-    <!-- Display : Rotation -->
+    <!-- Display: Rotation -->
     <string name="display_rotation_title">Nastavení otáčení</string>
     <string name="display_rotation_enabled">Automatické otáčení povoleno</string>
     <string name="display_rotation_disabled">Automatické otáčení zakázáno</string>
@@ -293,7 +262,7 @@
     <string name="app_info_install_time">Nainstalováno: %1$s</string>
     <string name="app_info_update_time">Aktualizováno: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Povolit varování úrovně nabití baterie</string>
+    <string name="notification_battery_charge_level_main_switch_title">Použít upozornění na nabití baterie</string>
     <string name="notification_battery_charge_level_title">Varování úrovně nabití baterie</string>
     <string name="notification_battery_charge_level_summary">Přehrát zvuk, když baterie při nabíjení dosáhne stanovené úrovně</string>
     <string name="notification_battery_charge_level_seek_bar">Úroveň baterie</string>
@@ -337,9 +306,6 @@
     <string name="face_unlock_method_default">Když je obrazovka zapnutá</string>
     <string name="face_unlock_method_swipe">Při přejetí prstem na uzamčené obrazovce</string>
     <string name="skip_biometric_auth_confirmation_title">Ručně přeskočit potvrzení</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Prostor pod klávesnicí</string>
-    <string name="navigation_bar_ime_space_summary">Skrýt prostor pro tlačítko IME pod klávesnicí</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Ovládání přehrávání</string>
     <string name="volume_button_music_control_summary">Pokud je obrazovka vypnutá, dlouhým stisknutím tlačítek hlasitosti přeskočíte skladby</string>
@@ -365,23 +331,12 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vyhledejte snímač otisků prstů na zadní straně telefonu.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Varování: Tato možnost nemusí fungovat správně nebo může vést ke ztrátě dat, proto se nedoporučuje!</string>
-    <!-- Hide apps -->
-    <string name="hide">Skrýt</string>
-    <string name="unhide">Odkrýt</string>
-    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
-    <string name="filter_hidden_apps">Skryté aplikace</string>
-    <string name="hide_app">Skrýt aplikaci</string>
-    <string name="unhide_app">Odkrýt aplikaci</string>
-    <string name="unhide_app_desc">Pokud tuto aplikaci odkryjete, bude pro systém Android a ostatní aplikace opět viditelná.</string>
-    <string name="hide_app_desc">Pokud tuto aplikaci skryjete, nebude pro systém Android a ostatní aplikace viditelná a nemusí fungovat tak, jak má. Mějte na paměti, že skrytí aplikace zachovává její data. Skrytím tuto aplikaci vypnete a skryjete ji ve svém zařízení.</string>
     <string name="advanced_battery_preference_summary_google">Použít graf využití baterie Pixel</string>
+    <string name="advanced_battery_preference_google_summary">Reset statistiky baterie nebude fungovat, dokud je používáno toto</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Oznámení při volání</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Zvuky NFC</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambientní displej</string>
-    <string name="doze_enabled_summary">Zda má být povolena funkce balíčku doze</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Režim spánku</string>
     <string name="sleep_mode_summary_on">Zap. / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
@@ -426,4 +381,58 @@
     <string name="global_vpn_summary">Vynutit, aby veškerý provoz v zařízení probíhal prostřednictvím této sítě VPN, včetně pracovního profilu a ostatních uživatelů.</string>
     <string name="global_vpn_summary_on">Vynutit, aby veškerý provoz v zařízení probíhal prostřednictvím této sítě VPN, včetně pracovního profilu a ostatních uživatelů. Poznámka: Pokud je tato funkce povolena, nebude možné používat samostatnou síť VPN v pracovním profilu ani u jiných uživatelů</string>
     <string name="global_vpn_summary_any_vpn_active">Chcete-li tuto funkci povolit, musíte nejprve vypnout všechna aktivní připojení VPN</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Prostor pod klávesnicí</string>
+    <string name="navigation_bar_ime_space_summary">Skrýt prostor pro tlačítko IME pod klávesnicí</string>
+    <string name="ime_narrow">Úzký</string>
+    <string name="ime_default">Výchozí</string>
+    <string name="ime_hidden">Skryté</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Není určen žádný certifikát. Připojení nebude soukromé.</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Hmatová odezva</string>
+    <string name="back_gesture_haptic_summary">Povolit efekt krátkého zavibrování při použití gesta „Zpět“</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Žádná akce</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Nedávné</string>
+    <string name="action_voice_search">Hlasové vyhledávání</string>
+    <string name="action_launch_camera">Fotoaparát</string>
+    <string name="action_last_app">Poslední aplikace</string>
+    <string name="action_splitscreen">Rozdělená obrazovka</string>
+    <string name="action_flashlight">Svítilna</string>
+    <string name="action_clear_notifications">Vymazat oznámení</string>
+    <string name="action_volume_panel">Panel hlasitosti</string>
+    <string name="action_screen_off">Vypnout obazovku</string>
+    <string name="action_notifications">Oznámení</string>
+    <string name="action_power_menu">Menu napájení</string>
+    <string name="action_screenshot">Snímek obrazovky</string>
+    <string name="action_qs_panel">Panel QS</string>
+    <string name="action_app_action">Aplikace</string>
+    <string name="action_ringer_modes">Režimy vyzvánění</string>
+    <string name="kill_app">Ukončit aplikaci na popředí</string>
+    <string name="recent_app_toggle">Přepnout nedávné aplikace</string>
+    <string name="skip_song">Přeskočit skladbu</string>
+    <string name="prev_song">Předchozí skladba</string>
+    <string name="show_powermenu">Zobrazit Menu napájení</string>
+    <string name="partial_screenshot">Částečný snímek obrazovky</string>
+    <string name="hush_mute">Tichá oznámení</string>
+    <string name="action_open_recents">Otevřít nedávné</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Rozšířené možnosti gest</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Přizpůsobte gesta a nastavte vlastní akce</string>
+    <string name="navbar_gesture_tweaks_cat_title">Pokročilé</string>
+    <string name="swipe_app_select_summary">Vyberte aplikaci, která se spustí při zmáčknutí</string>
+    <string name="long_back_swipe_timeout_title">Časový limit akce dlouhým přejetím vlevo</string>
+    <string name="left_swipe_actions_title">Akce dlouhým přejetím vlevo</string>
+    <string name="left_swipe_app_action_title">Vyberte aplikaci dlouhým přejetím vlevo</string>
+    <string name="right_swipe_actions_title">Akce dlouhým přejetím vpravo</string>
+    <string name="right_swipe_app_action_title">Vyberte aplikaci dlouhým přejetím vpravo</string>
+    <string name="left_vertical_swipe_actions_title">Akce svislým L přejetím vlevo</string>
+    <string name="left_vertical_swipe_app_action_title">Vyberte aplikaci svislým přejetím vlevo</string>
+    <string name="right_vertical_swipe_actions_title">Akce svislým L přejetím vpravo</string>
+    <string name="right_vertical_swipe_app_action_title">Vyberte aplikaci svislým přejetím vpravo</string>
+    <string name="gesture_nav_tweaks_footer_info">Chcete-li vybrat konkrétní aktivitu aplikace pro akci, podržte stisknutou libovolnou aplikaci ve výběru aplikací.\n\nPokud se zobrazuje spouštěč, proveďte akci přejetím prstem v dolní dolní části obrazovky.</string>
+    <string name="back_swipe_extended_title">Pokročilé akce přejetím</string>
+    <string name="back_swipe_extended_summary">Aktivovat akci širším přejetím (více než polovina velikosti displeje) nebo gestem L (dostatečně svisle)</string>
 </resources>
