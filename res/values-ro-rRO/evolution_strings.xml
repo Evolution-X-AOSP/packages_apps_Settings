@@ -389,4 +389,50 @@
     <string name="ime_hidden">Ascunsă</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nu s-a specificat niciun certificat. Conexiunea nu va fi privată.</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Vibrații la atingere</string>
+    <string name="back_gesture_haptic_summary">Activare vibrație pentru gestul Înapoi</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nicio acțiune</string>
+    <string name="action_menu">Meniu</string>
+    <string name="action_app_switch">Recente</string>
+    <string name="action_voice_search">Căutare vocală</string>
+    <string name="action_launch_camera">Cameră</string>
+    <string name="action_last_app">Ultima aplicație</string>
+    <string name="action_splitscreen">Ecran divizat</string>
+    <string name="action_flashlight">Lanternă</string>
+    <string name="action_clear_notifications">Șterge notificările</string>
+    <string name="action_volume_panel">Panou de volum</string>
+    <string name="action_screen_off">Închidere ecran</string>
+    <string name="action_notifications">Notificări</string>
+    <string name="action_power_menu">Meniu de alimentare</string>
+    <string name="action_screenshot">Captură de ecran</string>
+    <string name="action_qs_panel">Panou setări rapide</string>
+    <string name="action_app_action">Aplicație</string>
+    <string name="action_ringer_modes">Moduri sonerie</string>
+    <string name="kill_app">Închide aplicația din prim-plan</string>
+    <string name="recent_app_toggle">Comută între aplicațiile recente</string>
+    <string name="skip_song">Omite melodia</string>
+    <string name="prev_song">Melodia precedentă</string>
+    <string name="show_powermenu">Arată meniul de alimentare</string>
+    <string name="partial_screenshot">Captură de ecran parțială</string>
+    <string name="hush_mute">Dezactivare notificări</string>
+    <string name="action_open_recents">Deschide recente</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Opțiuni gesturi avansate</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizează gesturile și setează acțiuni personalizate</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avansat</string>
+    <string name="swipe_app_select_summary">Selectează o aplicație pentru a o lansa cu acțiunea de apăsare</string>
+    <string name="long_back_swipe_timeout_title">Interval de acțiune glisare lungă</string>
+    <string name="left_swipe_actions_title">Acțiune glisare lungă la stânga</string>
+    <string name="left_swipe_app_action_title">Selectează aplicația la glisare stânga lungă</string>
+    <string name="right_swipe_actions_title">Acțiune glisare lungă la dreapta</string>
+    <string name="right_swipe_app_action_title">Selectează aplicația la glisare dreapta lungă</string>
+    <string name="left_vertical_swipe_actions_title">Acțiune L-glisare verticală la stânga</string>
+    <string name="left_vertical_swipe_app_action_title">Selectează aplicația la glisare stânga verticală</string>
+    <string name="right_vertical_swipe_actions_title">Acțiune verticală L-glisare la dreapta</string>
+    <string name="right_vertical_swipe_app_action_title">Selectează aplicația la glisare dreapta verticală</string>
+    <string name="gesture_nav_tweaks_footer_info">Pentru a alege o activitate specifică a aplicației pentru acțiune, apasă lung pe orice aplicație din selectorul de aplicații.\n\nDacă se afișează lansatorul, glisează în partea de jos a ecranului pentru a declanșa acțiunea.</string>
+    <string name="back_swipe_extended_title">Acțiune glisare extinsă</string>
+    <string name="back_swipe_extended_summary">Declanșează o acțiune cu glisare mai largă (mai mult de jumătate din dimensiunea afișajului) sau o glisare în L (suficient de lungă pe verticală)</string>
 </resources>
