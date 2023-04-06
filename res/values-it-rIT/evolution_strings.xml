@@ -389,4 +389,50 @@
     <string name="ime_hidden">Nascosto</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nessun certificato specificato. La connessione non sarà privata.</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Feedback tattile</string>
+    <string name="back_gesture_haptic_summary">Attiva la vibrazione tattile sul gesto indietro</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nessuna azione</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recenti</string>
+    <string name="action_voice_search">Ricerca vocale</string>
+    <string name="action_launch_camera">Fotocamera</string>
+    <string name="action_last_app">Ultima app</string>
+    <string name="action_splitscreen">Schermo diviso</string>
+    <string name="action_flashlight">Torcia</string>
+    <string name="action_clear_notifications">Cancella le notifiche</string>
+    <string name="action_volume_panel">Pannelo del volume</string>
+    <string name="action_screen_off">Spegni schermo</string>
+    <string name="action_notifications">Notifiche</string>
+    <string name="action_power_menu">Menù di alimentazione</string>
+    <string name="action_screenshot">Cattura schermo</string>
+    <string name="action_qs_panel">Pannello impostazioni rapide</string>
+    <string name="action_app_action">Applicazione</string>
+    <string name="action_ringer_modes">Modalità suoneria</string>
+    <string name="kill_app">Termina app in primo piano</string>
+    <string name="recent_app_toggle">Cambia app recente</string>
+    <string name="skip_song">Salta brano</string>
+    <string name="prev_song">Brano precedente</string>
+    <string name="show_powermenu">Mostra menu alimentazione</string>
+    <string name="partial_screenshot">Screenshot parziale</string>
+    <string name="hush_mute">Silenzia le notifiche</string>
+    <string name="action_open_recents">Apri i recenti</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Opzioni avanzate per i gesti</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizza i gesti e imposta azioni personalizzate</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzate</string>
+    <string name="swipe_app_select_summary">Seleziona un\'app da avviare con l\'azione di compressione</string>
+    <string name="long_back_swipe_timeout_title">Timeout azione di scorrimento prolungato</string>
+    <string name="left_swipe_actions_title">Azione di scorrimento prolungato a sinistra</string>
+    <string name="left_swipe_app_action_title">Seleziona l\'app per lo scorrimento prolungato a sinistra</string>
+    <string name="right_swipe_actions_title">Azione di scorrimento prolungato a destra</string>
+    <string name="right_swipe_app_action_title">Seleziona l\'app per lo scorrimento prolungato a destra</string>
+    <string name="left_vertical_swipe_actions_title">Azione per lo scorrimento verticale sinistro ad L</string>
+    <string name="left_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento verticale a sinistra</string>
+    <string name="right_vertical_swipe_actions_title">Azione per lo scorrimento verticale destro ad L</string>
+    <string name="right_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento verticale a destra</string>
+    <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'app per l\'azione, premi a lungo su qualsiasi app nel selettore delle app.\n\nSe il launcher è a schermo, fai uno scorrimento nell\'area inferiore dello schermo per attivare l\'azione.</string>
+    <string name="back_swipe_extended_title">Azione scorrimento esteso</string>
+    <string name="back_swipe_extended_summary">Innesca l\'azione sullo scorrimento esteso (più di metà della dimensione dello schermo) o uno scorrimento a L (abbastanza lungo in verticale)</string>
 </resources>
