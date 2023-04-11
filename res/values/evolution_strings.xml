@@ -540,4 +540,8 @@
     <string name="prevent_pointer_acceleration_wheel">Wheel only</string>
     <string name="prevent_pointer_acceleration_pointer">Pointer only</string>
     <string name="prevent_pointer_acceleration_none">None</string>
+
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
 </resources>
