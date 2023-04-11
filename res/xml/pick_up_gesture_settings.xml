@@ -26,12 +26,17 @@
         settings:searchable="false"
         app:lottie_rawRes="@raw/lottie_lift_to_check_phone"/>
 
-
     <SwitchPreference
         android:key="gesture_pick_up"
         android:title="@string/ambient_display_pickup_title"
         android:summary="@string/ambient_display_pickup_summary"
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
+
+    <com.evolution.settings.preference.SecureSettingSwitchPreference
+        android:key="doze_pick_up_gesture_ambient"
+        android:title="@string/doze_gesture_ambient_title"
+        android:summary="@string/doze_gesture_ambient_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
