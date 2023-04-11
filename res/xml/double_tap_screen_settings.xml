@@ -34,4 +34,10 @@
         app:controller="com.android.settings.gestures.DoubleTapScreenPreferenceController"
         app:allowDividerAbove="true" />
 
+    <com.evolution.settings.preferences.SecureSettingSwitchPreference
+        android:key="doze_double_tap_gesture_ambient"
+        android:title="@string/doze_gesture_ambient_title"
+        android:summary="@string/doze_gesture_ambient_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
