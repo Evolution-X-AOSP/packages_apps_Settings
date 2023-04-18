@@ -407,6 +407,7 @@
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
 
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
