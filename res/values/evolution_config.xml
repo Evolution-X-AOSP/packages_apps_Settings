@@ -35,4 +35,8 @@
 
     <!-- Whether to enable Lineage Fast Charge Prefernece -->
     <bool name="config_lineageFastChargeSupported">false</bool>
+
+    <!-- Indicates whether device has a side mounted fingerprint sensor,
+         but a dedicated one, i.e. not embedded in the power button. -->
+    <bool name="config_is_side_fps" translatable="false">false</bool>
 </resources>
