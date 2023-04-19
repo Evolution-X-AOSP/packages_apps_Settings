@@ -435,4 +435,11 @@
     <string name="gesture_nav_tweaks_footer_info">Ahhoz, hogy válasszon egy alkalmazást a művelethez, nyomja hosszan bármelyik alkalmazásra a választó menüben.\n\nHa a főképernyőn van, csúsztasson a képernyő alsó harmadában a művelethez.</string>
     <string name="back_swipe_extended_title">Bővített csúsztatási művelet</string>
     <string name="back_swipe_extended_summary">Műveletkapcsolás szélesebb csúsztatáskor (több mint a kijelző felén), vagy L alakú csúsztatáskor (vertikálisan elég hosszan)</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Műholdsegítő adatok letöltése az internetről, amelyek nagymértékben javíthatják a GPS indulási hatékonyságát. Segélyhívásokhoz a támogatott GPS mindig elérhető.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Kapcsolódási teszt</string>
+    <string name="captive_portal_summary">Internet-csatlakozási képesség behatárolása a Google-val való kapcsolódás alatt. Nyilvános, de rögzített portálok észlelésére is használható.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Csengőhang és értesítési hangok összekötése</string>
 </resources>
