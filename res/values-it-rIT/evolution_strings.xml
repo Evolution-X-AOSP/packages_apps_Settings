@@ -60,9 +60,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Attivo (5 minuti)</string>
     <string name="adaptive_playback_timeout_10_min">10 minuti</string>
     <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
-    <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Disposizione casuale</string>
     <string name="unlock_scramble_pin_layout_summary">Disposizione del PIN casuale sbloccando il dispositivo</string>
@@ -323,12 +320,13 @@
     <string name="back_gesture_arrow_title">Animazione gesto indietro</string>
     <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto indietro</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo dispositivo.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Individua il sensore d\'impronte digitali sul retro del tuo tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Individua il sensore d\'impronte digitali sul retro del tuo dispositivo.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Individua il sensore d\'impronte digitali sul retro del tuo telefono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Individua il sensore d\'impronte digitali sul retro del tuo telefono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Individua il sensore d\'impronte digitali sul lato del tuo telefono.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Tocca il sensore sulla parte anteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Tocca il sensore sul retro del tuo telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Tocca il sensore sul lato del tuo telefono.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Attenzione: questa opzione potrebbe non funzionare correttamente o portare alla perdita di dati e quindi non è raccomandata!</string>
     <string name="advanced_battery_preference_summary_google">Usa il grafico di utilizzo batteria dei Pixel</string>
@@ -435,4 +433,50 @@
     <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'app per l\'azione, premi a lungo su qualsiasi app nel selettore delle app.\n\nSe il launcher è a schermo, fai uno scorrimento nell\'area inferiore dello schermo per attivare l\'azione.</string>
     <string name="back_swipe_extended_title">Azione scorrimento esteso</string>
     <string name="back_swipe_extended_summary">Innesca l\'azione sullo scorrimento esteso (più di metà della dimensione dello schermo) o uno scorrimento a L (abbastanza lungo in verticale)</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Scarica da internet i dati di assistenza satellitare che possono migliorare le prestazioni di avvio del GPS. Per le chiamate di emergenza, il GPS assistito è sempre permesso.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Controllo connettività</string>
+    <string name="captive_portal_summary">Determina se il dispositivo può connettersi a internet contattando Google. Viene utilizzato anche per rilevare i captive portal.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Modalità operativa transitoria</string>
+    <string name="transistent_task_mode_dialog_title">Modalità operativa transitoria (riavvia il dispositivo per applicare le modifiche)</string>
+    <string name="transistent_task_mode_summary">Rimuovi le app dai recenti quando l\'ultima attività viene chiusa utilizzando il pulsante indietro.</string>
+    <string name="transistent_task_mode_default">Disabilitato (predefinito)</string>
+    <string name="transistent_task_mode_allow">Abilitato (alcune app resteranno attive)</string>
+    <string name="transistent_task_mode_force">Forza (sovrascrivi il comportamento dell\'app)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Accelerazione puntatore</string>
+    <string name="prevent_pointer_acceleration_full">Completo (puntatore + rotellina)</string>
+    <string name="prevent_pointer_acceleration_wheel">Solo rotellina</string>
+    <string name="prevent_pointer_acceleration_pointer">Solo puntatore</string>
+    <string name="prevent_pointer_acceleration_none">Nessuno</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient Display</string>
+    <string name="doze_enabled_summary">Indica se abilitare la funzionalità del pacchetto doze</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostra l\'Ambient Display</string>
+    <string name="doze_gesture_ambient_summary">Mostra l\'Ambient Display invece di accendere completamente lo schermo</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Consenti l\'accesso alla rete</string>
+    <string name="data_usage_app_restrict_all_summary">Abilita l\'uso della rete</string>
+    <string name="data_usage_app_restrict_mobile">Dati mobili</string>
+    <string name="data_usage_app_restrict_mobile_summary">Abilita l\'uso dei dati mobili</string>
+    <string name="data_usage_app_restrict_vpn">Dati VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Abilita l\'uso dei dati VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati Wi\u2011Fi</string>
+    <!-- Developer Options -->
+    <string name="cleartext_network_policy_title">Limita il traffico di rete in chiaro</string>
+    <string name="cleartext_network_policy_summary">Blocca tutto il traffico di rete non-TLS. Richiede la configurazione del DNS privato. Nota: senza eccezioni esplicite, le app che utilizzano il traffico in chiaro potrebbero non funzionare</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps">Disabilita l\'installazione di app</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps_unknown_sources">Disabilita l\'installazione di app da fonti esterne</string>
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Accesso alla rete in background</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Abilita l\'uso della rete in background</string>
 </resources>

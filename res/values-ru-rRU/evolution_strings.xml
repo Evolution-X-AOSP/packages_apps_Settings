@@ -60,9 +60,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Вкл. (5 минут)</string>
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
     <string name="adaptive_playback_timeout_10_min_summary">Вкл. (10 минут)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Двойное касание для проверки телефона</string>
-    <string name="doze_double_tap_summary">Пульсирующие уведомления по двойному касанию</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Перемешать клавиши</string>
     <string name="unlock_scramble_pin_layout_summary">Перемешать кнопки ввода PIN-кода при разблокировке устройства</string>
@@ -323,12 +320,13 @@
     <string name="back_gesture_arrow_title">Анимация жеста \"Назад\"</string>
     <string name="back_gesture_arrow_summary">Показать анимированную стрелку для жеста \"Назад\"</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на лицевой стороне вашего планшета.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на лицевой стороне вашего устройства.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на лицевой стороне вашего телефона.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите сканер отпечатков пальцев на задней поверхности вашего планшета.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите датчик отпечатков пальцев на задней поверхности вашего устройства.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите датчик отпечатков пальцев на задней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Найдите сканер отпечатков пальцев на лицевой стороне вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Найдите датчик отпечатков пальцев на задней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Найдите датчик отпечатков пальцев сбоку вашего телефона.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Коснитесь сенсора на передней панели телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Коснитесь сенсора на задней панели телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Коснитесь сенсора на боковой стороне телефона.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Внимание: Эта опция может работать неправильно или привести к потере данных, поэтому она не рекомендуется!</string>
     <string name="advanced_battery_preference_summary_google">Использовать график использования батареи Pixel</string>
@@ -390,8 +388,8 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Ваше соединение не будет защищено.</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Виброотклик</string>
-    <string name="back_gesture_haptic_summary">Включить вибрацию для жеста «Назад»</string>
+    <string name="back_gesture_haptic_title">Тактильный отклик</string>
+    <string name="back_gesture_haptic_summary">Включить эффект тактильной отдачи для жеста «Назад»</string>
     <!-- Custom actions -->
     <string name="action_nothing">Не задано</string>
     <string name="action_menu">Меню</string>
@@ -411,11 +409,11 @@
     <string name="action_app_action">Приложение</string>
     <string name="action_ringer_modes">Режимы звонка</string>
     <string name="kill_app">Закрыть активное приложение</string>
-    <string name="recent_app_toggle">Недавнее приложение</string>
+    <string name="recent_app_toggle">Переключить недавнее приложение</string>
     <string name="skip_song">Следующий трек</string>
     <string name="prev_song">Предыдущий трек</string>
     <string name="show_powermenu">Показать меню питания</string>
-    <string name="partial_screenshot">Частичный скриншот</string>
+    <string name="partial_screenshot">Частичный снимок экрана</string>
     <string name="hush_mute">Отключить звук уведомлений</string>
     <string name="action_open_recents">Недавние приложения</string>
     <!-- Long swipe gestures -->
@@ -435,4 +433,30 @@
     <string name="gesture_nav_tweaks_footer_info">Для выбора конкретного действия приложения, долго нажимайте на любое приложение в меню их выбора.\n\nЕсли лаунчер показывается, выполните свайп в самой нижней части экрана, чтобы запустить действие.</string>
     <string name="back_swipe_extended_title">Расширенные действия свайпа</string>
     <string name="back_swipe_extended_summary">Запуск действия при длинном свайпе (более чем на половину экрана), или L-свайп (от края и вверх)</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Загрузка спутниковых данных из интернета, что может значительно повысить эффективность запуска GPS. Для вызовов с помощью экстренной помощи GPS всегда допускается.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Проверка соединения</string>
+    <string name="captive_portal_summary">Проверяет, может ли устройство подключиться к Интернету, связавшись с Google. Также используется для обнаружения порталов авторизации.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Режим временных задач</string>
+    <string name="transistent_task_mode_dialog_title">Режим временных задач (перезагрузите устройство, чтобы применить изменения)</string>
+    <string name="transistent_task_mode_summary">Убирать приложения из недавних, с помощью кнопки «Назад».</string>
+    <string name="transistent_task_mode_default">Отключить (по умолчанию)</string>
+    <string name="transistent_task_mode_allow">Включить (некоторые приложения остановятся)</string>
+    <string name="transistent_task_mode_force">Принудительно (Переопределить поведение)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Ускорение указателя</string>
+    <string name="prevent_pointer_acceleration_full">Полная (указатель + колесо)</string>
+    <string name="prevent_pointer_acceleration_wheel">Только колесо</string>
+    <string name="prevent_pointer_acceleration_pointer">Только указатель</string>
+    <string name="prevent_pointer_acceleration_none">Ничего</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Активный экран</string>
+    <string name="doze_enabled_summary">Следует ли включать функциональность пакета пробуждения</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Показать События</string>
+    <string name="doze_gesture_ambient_summary">Показывать Активный экран вместо полного пробуждения экрана</string>
 </resources>
