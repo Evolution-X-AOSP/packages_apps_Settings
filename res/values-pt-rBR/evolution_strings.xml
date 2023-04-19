@@ -323,12 +323,13 @@
     <string name="back_gesture_arrow_title">Animação no gesto de voltar</string>
     <string name="back_gesture_arrow_summary">Mostrar uma seta animada para o gesto de voltar</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressão digital na parte frontal do seu dispositivo.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localize o sensor de impressão digital na parte de trás do seu tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localize o sensor de impressão digital na parte de trás do seu dispositivo.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localize o sensor de impressão digital na parte de trás do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Localize o sensor de impressão digital na parte de trás do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Localize o sensor de impressão digital na parte lateral do seu telefone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Toque no sensor na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Toque no sensor na parte traseira do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Toque no sensor na parte lateral do seu telefone.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados, portanto, não é recomendado!</string>
     <string name="advanced_battery_preference_summary_google">Usar gráfico de bateria do Pixel</string>
@@ -435,4 +436,24 @@
     <string name="gesture_nav_tweaks_footer_info">Para escolher uma atividade de aplicativo específica para a ação, pressione e segure qualquer aplicativo no seletor de aplicativos. \n\nSe o iniciador estiver sendo exibido, deslize o dedo na área inferior da tela para acionar a ação.</string>
     <string name="back_swipe_extended_title">Ação de deslize estendido</string>
     <string name="back_swipe_extended_summary">Acione a ação com um deslize mais amplo (mais da metade do tamanho da tela) ou com um deslize em L (verticalmente suficiente)</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Baixar dados de assistência por satélite através da internet, o que pode melhorar muito o desempenho da inicialização do GPS. Para chamadas de emergência, o GPS assistido é sempre permitido.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Verificar conectividade</string>
+    <string name="captive_portal_summary">Determine se o dispositivo pode conectar-se à internet, entrando em contato com o Google. Também usado para detectar portais cativos.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Associar volumes de toque e notificação</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Modo de tarefa transitório</string>
+    <string name="transistent_task_mode_dialog_title">Modo de tarefa transitória (reinicie seu dispositivo para aplicar as alterações)</string>
+    <string name="transistent_task_mode_summary">Dispensar aplicativos dos recentes quando a última atividade for fechada usando o botão Voltar.</string>
+    <string name="transistent_task_mode_default">Desativar (Padrão)</string>
+    <string name="transistent_task_mode_allow">Ativar (Os aplicativos permanecerão)</string>
+    <string name="transistent_task_mode_force">Forçar (Substituir o comportamento do aplicativo)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Aceleração do ponteiro</string>
+    <string name="prevent_pointer_acceleration_full">Cheio (Ponteiro + Roda)</string>
+    <string name="prevent_pointer_acceleration_wheel">Apenas roda</string>
+    <string name="prevent_pointer_acceleration_pointer">Apenas o ponteiro</string>
+    <string name="prevent_pointer_acceleration_none">Nenhum</string>
 </resources>

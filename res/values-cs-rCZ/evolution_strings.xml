@@ -323,12 +323,13 @@
     <string name="back_gesture_arrow_title">Animace gesta Zpět</string>
     <string name="back_gesture_arrow_summary">Zobrazit animovanou šipku gesta Zpět</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vyhledejte snímač otisků prstů na přední straně tabletu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Vyhledejte snímač otisků prstů na přední straně zařízení.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Vyhledejte snímač otisků prstů na přední straně telefonu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vyhledejte snímač otisků prstů na zadní straně tabletu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vyhledejte snímač otisků prstů na zadní straně zařízení.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vyhledejte snímač otisků prstů na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Vyhledejte snímač otisků prstů na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Vyhledejte snímač otisků prstů na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Vyhledejte snímač otisků prstů na boční straně telefonu.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Dotkněte se senzoru na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Dotkněte se senzoru na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Dotkněte se senzoru na boční straně telefonu.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Varování: Tato možnost nemusí fungovat správně nebo může vést ke ztrátě dat, proto se nedoporučuje!</string>
     <string name="advanced_battery_preference_summary_google">Použít graf využití baterie Pixel</string>
@@ -435,4 +436,11 @@
     <string name="gesture_nav_tweaks_footer_info">Chcete-li vybrat konkrétní aktivitu aplikace pro akci, podržte stisknutou libovolnou aplikaci ve výběru aplikací.\n\nPokud se zobrazuje spouštěč, proveďte akci přejetím prstem v dolní dolní části obrazovky.</string>
     <string name="back_swipe_extended_title">Pokročilé akce přejetím</string>
     <string name="back_swipe_extended_summary">Aktivovat akci širším přejetím (více než polovina velikosti displeje) nebo gestem L (dostatečně svisle)</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Stáhněte si data satelitní asistence z internetu, což může výrazně zlepšit výkon spouštění GPS. Při tísňovém volání je asistovaná GPS povolena vždy.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Kontrola připojení</string>
+    <string name="captive_portal_summary">Zjistí, zda je zařízení připojeno k internetu kontaktováním Google. Používá se také pro detekci captive portálů.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Sjednotit hlasitosti vyzvánění a oznámení</string>
 </resources>

@@ -323,12 +323,13 @@
     <string name="back_gesture_arrow_title">Animasi gestur kembali</string>
     <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gestur kembali</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Temukan sensor sidik jari di bagian depan tablet Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Temukan sensor sidik jari di bagian depan perangkat Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Temukan sensor sidik jari di bagian depan ponsel Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Temukan sensor sidik jari di bagian belakang tablet Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Temukan sensor sidik jari di bagian belakang perangkat Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Temukan sensor sidik jari di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Temukan sensor sidik jari di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Temukan sensor sidik jari di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Temukan sensor sidik jari di bagian samping ponsel Anda.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Sentuh sensor di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Sentuh sensor di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Sentuh sensor di bagian samping ponsel Anda.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Peringatan: Opsi ini mungkin tidak berfungsi dengan baik atau menyebabkan hilangnya data dan oleh karena itu tidak disarankan!</string>
     <string name="advanced_battery_preference_summary_google">Bagan penggunaan baterai Pixel</string>
@@ -435,4 +436,24 @@
     <string name="gesture_nav_tweaks_footer_info">Untuk memilih aktivitas aplikasi tertentu untuk tindakan, tekan lama pada aplikasi apa pun di pemilih aplikasi.\n\nJika peluncur ditampilkan, lakukan usap di bagian paling bawah layar untuk memicu tindakan.</string>
     <string name="back_swipe_extended_title">Tindakan mengusap yang diperpanjang</string>
     <string name="back_swipe_extended_summary">Memicu tindakan pada mengusap yang lebih lebar (lebih dari setengah ukuran tampilan), atau mengusap L (cukup panjang secara vertikal)</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Unduh data bantuan satelit dari internet yang dapat sangat meningkatkan kinerja pengaktifan GPS. Untuk panggilan darurat, GPS berbantuan selalu diizinkan.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Pemeriksaan konektivitas</string>
+    <string name="captive_portal_summary">Tentukan apakah perangkat dapat terhubung ke internet, dengan menghubungi Google. Juga digunakan untuk mendeteksi captive portal.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Mode tugas sementara</string>
+    <string name="transistent_task_mode_dialog_title">Mode tugas sementara (Mulai ulang perangkat Anda untuk menerapkan perubahan)</string>
+    <string name="transistent_task_mode_summary">Singkirkan aplikasi dari baru-baru ini saat aktivitas terakhir ditutup menggunakan tombol kembali.</string>
+    <string name="transistent_task_mode_default">Nonaktif (Bawaan)</string>
+    <string name="transistent_task_mode_allow">Aktifkan (Beberapa aplikasi akan tetap ada)</string>
+    <string name="transistent_task_mode_force">Paksa (Kesampingkan perilaku aplikasi)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Akselerasi penunjuk</string>
+    <string name="prevent_pointer_acceleration_full">Penuh (Penunjuk + Roda)</string>
+    <string name="prevent_pointer_acceleration_wheel">Hanya roda</string>
+    <string name="prevent_pointer_acceleration_pointer">Hanya penunjuk</string>
+    <string name="prevent_pointer_acceleration_none">Tidak ada</string>
 </resources>

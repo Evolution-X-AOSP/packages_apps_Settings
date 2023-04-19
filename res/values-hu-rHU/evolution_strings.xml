@@ -323,12 +323,13 @@
     <string name="back_gesture_arrow_title">A \'Vissza\'-vezérlés animációja</string>
     <string name="back_gesture_arrow_summary">Mutasson egy animált nyilat a \'Vissza\'-mozdulatvezérléshez</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Táblagépe előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Készüléke előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Táblagépe hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Készüléke hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Telefonja oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Érintse meg a szenzort telefonja előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Érintse meg a szenzort telefonja hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Érintse meg a szenzort telefonja oldalán.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Figyelmeztetés: Előfordulhat, hogy ez a lehetőség nem működik megfelelően, vagy adatvesztéshez vezethet, ezért nem ajánlott!</string>
     <string name="advanced_battery_preference_summary_google">Pixel akkumulátorhasználati diagramm</string>
@@ -435,4 +436,24 @@
     <string name="gesture_nav_tweaks_footer_info">Ahhoz, hogy válasszon egy alkalmazást a művelethez, nyomja hosszan bármelyik alkalmazásra a választó menüben.\n\nHa a főképernyőn van, csúsztasson a képernyő alsó harmadában a művelethez.</string>
     <string name="back_swipe_extended_title">Bővített csúsztatási művelet</string>
     <string name="back_swipe_extended_summary">Műveletkapcsolás szélesebb csúsztatáskor (több mint a kijelző felén), vagy L alakú csúsztatáskor (vertikálisan elég hosszan)</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Műholdsegítő adatok letöltése az internetről, amelyek nagymértékben javíthatják a GPS indulási hatékonyságát. Segélyhívásokhoz a támogatott GPS mindig elérhető.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Kapcsolódási teszt</string>
+    <string name="captive_portal_summary">Internet-csatlakozási képesség behatárolása a Google-val való kapcsolódás alatt. Nyilvános, de rögzített portálok észlelésére is használható.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Csengőhang és értesítési hangok összekötése</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Átmeneti-feladatmód</string>
+    <string name="transistent_task_mode_dialog_title">Átmeneti-feladatmód (Újraindítás szükséges a változtatásokhoz)</string>
+    <string name="transistent_task_mode_summary">A \'Vissza\' gombbal elvethetők a legutóbb használt alkalmazások, amikor az utolsó tevékenység bezárul.</string>
+    <string name="transistent_task_mode_default">Kikapcsolva (alapértelmezett)</string>
+    <string name="transistent_task_mode_allow">Engedélyezve (néhány alkalmazás megmarad)</string>
+    <string name="transistent_task_mode_force">Erőltetve (felülír minden alkalmazásszabályt)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Mutató-gyorsulás</string>
+    <string name="prevent_pointer_acceleration_full">Teljes (Mutató + Kerék)</string>
+    <string name="prevent_pointer_acceleration_wheel">Csak a kerék</string>
+    <string name="prevent_pointer_acceleration_pointer">Csak a mutató</string>
+    <string name="prevent_pointer_acceleration_none">Nincs</string>
 </resources>

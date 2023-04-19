@@ -323,12 +323,13 @@
     <string name="back_gesture_arrow_title">Анімація жесту \"Назад\"</string>
     <string name="back_gesture_arrow_summary">Відображати анімовану стрілку жесту \"Назад\"</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Знайдіть сканер відбитків пальців на екрані вашого планшету.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Знайдіть сканер відбитків пальців на екрані вашого пристрою.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Знайдіть сканер відбитків пальців на екрані вашого смартфону.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Знайдіть сканер відбитків пальців на задній панелі вашого планшета.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Знайдіть сканер відбитків пальців на задній панелі вашого пристрою.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Знайдіть сканер відбитків пальців на задній панелі вашого смартфону.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Знайдіть сканер відбитків пальців на екрані вашого смартфону.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Знайдіть сканер відбитків пальців на задній панелі вашого смартфону.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Знайдіть сканер відбитків пальців на бічній грані вашого смартфона.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Торкніться сканера на екрані вашого телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Торкніться сканера на задній панелі вашого телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Торкніться сканера на бічній грані вашого телефону.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Увага: Ця опція може працювати не коректно або призвести до втрати даних, тому не рекомендується!</string>
     <string name="advanced_battery_preference_summary_google">Використовувати графік використання батареї як на телефонах Pixel</string>
@@ -435,4 +436,24 @@
     <string name="gesture_nav_tweaks_footer_info">Щоб вибрати певні дії додатку, довго натисніть на будь-який додаток у розділі вибору програм.\n\nЯкщо відображається лаунчер, зробіть свайп в самій нижній області екрана, щоб запустити дію.</string>
     <string name="back_swipe_extended_title">Розширена дія свайпу</string>
     <string name="back_swipe_extended_summary">Запуск дії при широкому свайпі (більше половини розміру екрану), або свайп з L (вертикально довше достатньо)</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Завантажити дані допомоги супутникам з Інтернету, які можуть значно покращити швидкодію запуску GPS. Для екстрених дзвінків помічник GPS завжди дозволений.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Перевірка підключення</string>
+    <string name="captive_portal_summary">Визначте, якщо пристрій може підключатися до інтернету, зв\'язавшись із Google. Також використовується для виявлення портальних порталів.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Гучність рінгтону &amp; повідомлень разом</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Режим тимчасового завдання</string>
+    <string name="transistent_task_mode_dialog_title">Режим тимчасового завдання (перезавантажте пристрій для застосування змін)</string>
+    <string name="transistent_task_mode_summary">Видалити програми з недавніх додатків, коли останні дії закриваються за допомогою кнопки назад.</string>
+    <string name="transistent_task_mode_default">Відключити (за замовчуванням)</string>
+    <string name="transistent_task_mode_allow">Увімкнути (Деякі програми залишаться)</string>
+    <string name="transistent_task_mode_force">Примусова (зміна поведінки додатку)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Прискорення вказівника</string>
+    <string name="prevent_pointer_acceleration_full">Повний (вказівник + колесо)</string>
+    <string name="prevent_pointer_acceleration_wheel">Тільки колесо</string>
+    <string name="prevent_pointer_acceleration_pointer">Тільки вказівник</string>
+    <string name="prevent_pointer_acceleration_none">Нічого</string>
 </resources>

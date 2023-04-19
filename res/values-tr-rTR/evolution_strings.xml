@@ -323,12 +323,13 @@
     <string name="back_gesture_arrow_title">Geri hareketi animasyonu</string>
     <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin önünde bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Cihazınızın önünde bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arkasında bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arkasında bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Telefonunuzun arkasında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Telefonunuzun yanında bulunan parmak izi sensörünü bulun.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Telefonunuzun önünde bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Telefonunuzun arkasında bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Uyarı: Bu özellik düzgün çalışmayabilir veya veri kaybına neden olabilir ve bu nedenle önerilmez!</string>
     <string name="advanced_battery_preference_summary_google">Pixel pil kullanım grafiğini kullan</string>
@@ -435,4 +436,24 @@
     <string name="gesture_nav_tweaks_footer_info">Eylem için belirli bir uygulama etkinliği seçmek için uygulama seçicideki herhangi bir uygulamaya uzun basın.\n\nBaşlatıcıda gösteriliyorsa, eylemi tetiklemek için ekranın en alt kısmındaki kaydırmayı yapın.</string>
     <string name="back_swipe_extended_title">Genişletilmiş kaydırma hareketi</string>
     <string name="back_swipe_extended_summary">Geniş kaydırmada (ekran boyutunun yarısından fazlası) veya L kaydırmada (dikey olarak yeterince uzun) tetikleme eylemi</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">GPS başlatma performansını büyük ölçüde artırabilecek uydu yardım verilerini internetten indirin. Acil aramalar için destekli GPS\'e her zaman izin verilir.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Bağlantı kontrolü</string>
+    <string name="captive_portal_summary">Google ile iletişime geçerek cihazın internete bağlanıp bağlanamayacağını belirleyin. Ayrıca sabit portalları tespit etmek için kullanılır.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Zil &amp; bildirim sesini birleştir</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Geçici görev modu</string>
+    <string name="transistent_task_mode_dialog_title">Geçici görev modu (Değişiklikleri uygulamak için cihazınızı yeniden başlatın)</string>
+    <string name="transistent_task_mode_summary">Son eylem geri tuşu ile kapatıldıysa uygulamaları son uygulamalarda bırak.</string>
+    <string name="transistent_task_mode_default">Devre dışı (Varsayılan)</string>
+    <string name="transistent_task_mode_allow">Etkin (Bazı uygulamalar kalacak)</string>
+    <string name="transistent_task_mode_force">Zorla ( Uygulama davranışını geçersiz kıl)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">İşaretçi ivmesi</string>
+    <string name="prevent_pointer_acceleration_full">Tam ( İşaretçi + Tekerlek)</string>
+    <string name="prevent_pointer_acceleration_wheel">Sadece tekerlek</string>
+    <string name="prevent_pointer_acceleration_pointer">Sadece işaretçi</string>
+    <string name="prevent_pointer_acceleration_none">Hiçbiri</string>
 </resources>
