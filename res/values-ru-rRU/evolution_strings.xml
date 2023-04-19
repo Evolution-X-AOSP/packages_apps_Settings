@@ -323,12 +323,13 @@
     <string name="back_gesture_arrow_title">Анимация жеста \"Назад\"</string>
     <string name="back_gesture_arrow_summary">Показать анимированную стрелку для жеста \"Назад\"</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на лицевой стороне вашего планшета.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на лицевой стороне вашего устройства.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на лицевой стороне вашего телефона.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите сканер отпечатков пальцев на задней поверхности вашего планшета.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите датчик отпечатков пальцев на задней поверхности вашего устройства.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите датчик отпечатков пальцев на задней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Найдите сканер отпечатков пальцев на лицевой стороне вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Найдите датчик отпечатков пальцев на задней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Найдите датчик отпечатков пальцев сбоку вашего телефона.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Коснитесь сенсора на передней панели телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Коснитесь сенсора на задней панели телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Коснитесь сенсора на боковой стороне телефона.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Внимание: Эта опция может работать неправильно или привести к потере данных, поэтому она не рекомендуется!</string>
     <string name="advanced_battery_preference_summary_google">Использовать график использования батареи Pixel</string>
@@ -435,4 +436,11 @@
     <string name="gesture_nav_tweaks_footer_info">Для выбора конкретного действия приложения, долго нажимайте на любое приложение в меню их выбора.\n\nЕсли лаунчер показывается, выполните свайп в самой нижней части экрана, чтобы запустить действие.</string>
     <string name="back_swipe_extended_title">Расширенные действия свайпа</string>
     <string name="back_swipe_extended_summary">Запуск действия при длинном свайпе (более чем на половину экрана), или L-свайп (от края и вверх)</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Загрузка спутниковых данных из интернета, что может значительно повысить эффективность запуска GPS. Для вызовов с помощью экстренной помощи GPS всегда допускается.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Проверка соединения</string>
+    <string name="captive_portal_summary">Проверяет, может ли устройство подключиться к Интернету, связавшись с Google. Также используется для обнаружения порталов авторизации.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
 </resources>
