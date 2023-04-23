@@ -553,4 +553,11 @@
     <string name="transistent_task_mode_default">Disable (Default)</string>
     <string name="transistent_task_mode_allow">Enable (Some apps will stay)</string>
     <string name="transistent_task_mode_force">Force (Override app behaviour)</string>
+
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Pointer acceleration</string>
+    <string name="prevent_pointer_acceleration_full">Full (Pointer + Wheel)</string>
+    <string name="prevent_pointer_acceleration_wheel">Wheel only</string>
+    <string name="prevent_pointer_acceleration_pointer">Pointer only</string>
+    <string name="prevent_pointer_acceleration_none">None</string>
 </resources>
