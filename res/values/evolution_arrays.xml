@@ -215,4 +215,18 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <!-- Prevent pointer acceleration -->
+    <string-array name="prevent_pointer_acceleration_entries">
+        <item>@string/prevent_pointer_acceleration_full</item>
+        <item>@string/prevent_pointer_acceleration_wheel</item>
+        <item>@string/prevent_pointer_acceleration_pointer</item>
+        <item>@string/prevent_pointer_acceleration_none</item>
+    </string-array>
+    <string-array name="prevent_pointer_acceleration_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>
