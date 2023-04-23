@@ -192,4 +192,16 @@
        <item>1500</item>
        <item>2000</item>
     </string-array>
+
+    <!-- Transistent task mode -->
+    <string-array name="transistent_task_mode_entries">
+        <item>@string/transistent_task_mode_default</item>
+        <item>@string/transistent_task_mode_allow</item>
+        <item>@string/transistent_task_mode_force</item>
+    </string-array>
+    <string-array name="transistent_task_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

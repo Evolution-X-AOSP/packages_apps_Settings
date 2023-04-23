@@ -525,4 +525,12 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Connectivity check</string>
     <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
+
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Transistent task mode</string>
+    <string name="transistent_task_mode_dialog_title">Transistent task mode (Reboot your device to apply changes)</string>
+    <string name="transistent_task_mode_summary">Dismiss apps from recents when last activity gets closed using back button.</string>
+    <string name="transistent_task_mode_default">Disable (Default)</string>
+    <string name="transistent_task_mode_allow">Enable (Some apps will stay)</string>
+    <string name="transistent_task_mode_force">Force (Override app behaviour)</string>
 </resources>
