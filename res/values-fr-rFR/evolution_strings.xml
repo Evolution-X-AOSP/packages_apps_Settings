@@ -443,4 +443,17 @@
     <string name="captive_portal_summary">Détermine si l\'appareil peut se connecter à Internet, en contactant Google. Également utilisé pour détecter les portails captifs.</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Lier les volumes de la sonnerie &amp; des notifications</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Mode tâche trantitoire</string>
+    <string name="transistent_task_mode_dialog_title">Mode tâche transistoire (Redémarrez votre appareil pour appliquer les modifications)</string>
+    <string name="transistent_task_mode_summary">Fermer les applications des applications récentes lorsque la dernière activité est fermée en utilisant le bouton \"Retour\".</string>
+    <string name="transistent_task_mode_default">Désactivé (par défaut)</string>
+    <string name="transistent_task_mode_allow">Activer (certaines applications resteront)</string>
+    <string name="transistent_task_mode_force">Forcer (outrepasser le comportement de l\'application)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Accélération du pointeur</string>
+    <string name="prevent_pointer_acceleration_full">Plein (Pointeur + Roue)</string>
+    <string name="prevent_pointer_acceleration_wheel">Roue uniquement</string>
+    <string name="prevent_pointer_acceleration_pointer">Pointeur uniquement</string>
+    <string name="prevent_pointer_acceleration_none">Aucun</string>
 </resources>

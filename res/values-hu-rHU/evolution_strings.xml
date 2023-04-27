@@ -443,4 +443,17 @@
     <string name="captive_portal_summary">Internet-csatlakozási képesség behatárolása a Google-val való kapcsolódás alatt. Nyilvános, de rögzített portálok észlelésére is használható.</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Csengőhang és értesítési hangok összekötése</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Átmeneti-feladatmód</string>
+    <string name="transistent_task_mode_dialog_title">Átmeneti-feladatmód (Újraindítás szükséges a változtatásokhoz)</string>
+    <string name="transistent_task_mode_summary">A \'Vissza\' gombbal elvethetők a legutóbb használt alkalmazások, amikor az utolsó tevékenység bezárul.</string>
+    <string name="transistent_task_mode_default">Kikapcsolva (alapértelmezett)</string>
+    <string name="transistent_task_mode_allow">Engedélyezve (néhány alkalmazás megmarad)</string>
+    <string name="transistent_task_mode_force">Erőltetve (felülír minden alkalmazásszabályt)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Mutató-gyorsulás</string>
+    <string name="prevent_pointer_acceleration_full">Teljes (Mutató + Kerék)</string>
+    <string name="prevent_pointer_acceleration_wheel">Csak a kerék</string>
+    <string name="prevent_pointer_acceleration_pointer">Csak a mutató</string>
+    <string name="prevent_pointer_acceleration_none">Nincs</string>
 </resources>

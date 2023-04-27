@@ -444,4 +444,17 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="captive_portal_summary">Feststellen, ob das Gerät eine Verbindung zum Internet herstellen kann, indem es Google kontaktiert. Wird auch zur Erkennung unverschlüsselter Portale verwendet.</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Klingelton- &amp; Benachrichtigungslautstärke koppeln</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Transistent Task-Modus</string>
+    <string name="transistent_task_mode_dialog_title">Transistent Task-Modus (Starte dein Gerät neu, um Änderungen anzuwenden)</string>
+    <string name="transistent_task_mode_summary">Apps aus dem Anwendungsverlauf entfernen, wenn die letzte Aktivität mit der Zurück-Taste geschlossen wird.</string>
+    <string name="transistent_task_mode_default">Deaktiviert (Standard)</string>
+    <string name="transistent_task_mode_allow">Aktivieren (einige Apps bleiben erhalten)</string>
+    <string name="transistent_task_mode_force">Erzwingen (App-Verhalten überschreiben)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Zeigerbeschleunigung</string>
+    <string name="prevent_pointer_acceleration_full">Voll (Zeiger + Rad)</string>
+    <string name="prevent_pointer_acceleration_wheel">Nur Rad</string>
+    <string name="prevent_pointer_acceleration_pointer">Nur Zeiger</string>
+    <string name="prevent_pointer_acceleration_none">Kein</string>
 </resources>

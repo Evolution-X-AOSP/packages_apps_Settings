@@ -443,4 +443,17 @@
     <string name="captive_portal_summary">Визначте, якщо пристрій може підключатися до інтернету, зв\'язавшись із Google. Також використовується для виявлення портальних порталів.</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Гучність рінгтону &amp; повідомлень разом</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Режим тимчасового завдання</string>
+    <string name="transistent_task_mode_dialog_title">Режим тимчасового завдання (перезавантажте пристрій для застосування змін)</string>
+    <string name="transistent_task_mode_summary">Видалити програми з недавніх додатків, коли останні дії закриваються за допомогою кнопки назад.</string>
+    <string name="transistent_task_mode_default">Відключити (за замовчуванням)</string>
+    <string name="transistent_task_mode_allow">Увімкнути (Деякі програми залишаться)</string>
+    <string name="transistent_task_mode_force">Примусова (зміна поведінки додатку)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Прискорення вказівника</string>
+    <string name="prevent_pointer_acceleration_full">Повний (вказівник + колесо)</string>
+    <string name="prevent_pointer_acceleration_wheel">Тільки колесо</string>
+    <string name="prevent_pointer_acceleration_pointer">Тільки вказівник</string>
+    <string name="prevent_pointer_acceleration_none">Нічого</string>
 </resources>
