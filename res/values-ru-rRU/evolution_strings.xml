@@ -443,4 +443,17 @@
     <string name="captive_portal_summary">Проверяет, может ли устройство подключиться к Интернету, связавшись с Google. Также используется для обнаружения порталов авторизации.</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Режим временных задач</string>
+    <string name="transistent_task_mode_dialog_title">Режим временных задач (перезагрузите устройство, чтобы применить изменения)</string>
+    <string name="transistent_task_mode_summary">Убирать приложения из недавних, с помощью кнопки «Назад».</string>
+    <string name="transistent_task_mode_default">Отключить (по умолчанию)</string>
+    <string name="transistent_task_mode_allow">Включить (некоторые приложения остановятся)</string>
+    <string name="transistent_task_mode_force">Принудительно (Переопределить поведение)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Ускорение указателя</string>
+    <string name="prevent_pointer_acceleration_full">Полная (указатель + колесо)</string>
+    <string name="prevent_pointer_acceleration_wheel">Только колесо</string>
+    <string name="prevent_pointer_acceleration_pointer">Только указатель</string>
+    <string name="prevent_pointer_acceleration_none">Ничего</string>
 </resources>
