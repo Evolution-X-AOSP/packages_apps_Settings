@@ -443,4 +443,17 @@
     <string name="captive_portal_summary">Google ile iletişime geçerek cihazın internete bağlanıp bağlanamayacağını belirleyin. Ayrıca sabit portalları tespit etmek için kullanılır.</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil &amp; bildirim sesini birleştir</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Geçici görev modu</string>
+    <string name="transistent_task_mode_dialog_title">Geçici görev modu (Değişiklikleri uygulamak için cihazınızı yeniden başlatın)</string>
+    <string name="transistent_task_mode_summary">Son eylem geri tuşu ile kapatıldıysa uygulamaları son uygulamalarda bırak.</string>
+    <string name="transistent_task_mode_default">Devre dışı (Varsayılan)</string>
+    <string name="transistent_task_mode_allow">Etkin (Bazı uygulamalar kalacak)</string>
+    <string name="transistent_task_mode_force">Zorla ( Uygulama davranışını geçersiz kıl)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">İşaretçi ivmesi</string>
+    <string name="prevent_pointer_acceleration_full">Tam ( İşaretçi + Tekerlek)</string>
+    <string name="prevent_pointer_acceleration_wheel">Sadece tekerlek</string>
+    <string name="prevent_pointer_acceleration_pointer">Sadece işaretçi</string>
+    <string name="prevent_pointer_acceleration_none">Hiçbiri</string>
 </resources>
