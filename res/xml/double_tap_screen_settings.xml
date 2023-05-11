@@ -20,11 +20,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/ambient_display_title">
 
-    <com.android.settings.widget.VideoPreference
+    <com.android.settingslib.widget.IllustrationPreference
         android:key="gesture_double_tap_screen_video"
-        app:animation="@raw/gesture_ambient_tap"
-        app:preview="@drawable/gesture_ambient_tap"
-        app:controller="com.android.settings.widget.VideoPreferenceController" />
+        app:lottie_rawRes="@raw/lottie_tap_to_check_phone"
+        app:preview="@drawable/gesture_ambient_tap"/>
 
     <SwitchPreference
         android:key="gesture_double_tap_screen"
