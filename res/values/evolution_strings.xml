@@ -588,4 +588,8 @@
     <string name="data_usage_app_restrict_background_all">Background network access</string>
     <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
     <string name="data_usage_app_restrict_background_all_summary">Enable network usage in the background</string>
+
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Turn off 5G</string>
+    <string name="battery_saver_5g_summary">Disable 5G to save power when Battery Saver is on</string>
 </resources>
