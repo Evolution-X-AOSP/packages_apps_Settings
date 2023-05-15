@@ -391,8 +391,8 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Ваше соединение не будет защищено.</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Виброотклик</string>
-    <string name="back_gesture_haptic_summary">Включить вибрацию для жеста «Назад»</string>
+    <string name="back_gesture_haptic_title">Тактильный отклик</string>
+    <string name="back_gesture_haptic_summary">Включить эффект тактильной отдачи для жеста «Назад»</string>
     <!-- Custom actions -->
     <string name="action_nothing">Не задано</string>
     <string name="action_menu">Меню</string>
@@ -412,11 +412,11 @@
     <string name="action_app_action">Приложение</string>
     <string name="action_ringer_modes">Режимы звонка</string>
     <string name="kill_app">Закрыть активное приложение</string>
-    <string name="recent_app_toggle">Недавнее приложение</string>
+    <string name="recent_app_toggle">Переключить недавнее приложение</string>
     <string name="skip_song">Следующий трек</string>
     <string name="prev_song">Предыдущий трек</string>
     <string name="show_powermenu">Показать меню питания</string>
-    <string name="partial_screenshot">Частичный скриншот</string>
+    <string name="partial_screenshot">Частичный снимок экрана</string>
     <string name="hush_mute">Отключить звук уведомлений</string>
     <string name="action_open_recents">Недавние приложения</string>
     <!-- Long swipe gestures -->
