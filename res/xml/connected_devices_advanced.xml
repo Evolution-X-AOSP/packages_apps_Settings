@@ -53,6 +53,14 @@
         android:order="-5"/>
 
     <com.android.settingslib.RestrictedPreference
+        android:fragment="com.microsoft.appmanager"
+        android:key="link_to_windows_settings"
+        android:title="@string/link_to_windows_settings_title"
+        settings:controller="com.android.settings.connecteddevice.LinkToWindowsActivityController"
+        android:icon="@drawable/ic_link_to_windows"
+        android:order="-4"/>
+
+    <com.android.settingslib.RestrictedPreference
         android:key="connected_device_printing"
         android:title="@string/print_settings"
         android:summary="@string/summary_placeholder"

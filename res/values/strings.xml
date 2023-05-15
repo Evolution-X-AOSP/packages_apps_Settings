@@ -1661,6 +1661,10 @@
     <!-- Explanation of the Android Beam feature in the Android Beam settings panel. The use of "beam" here is as a verb and not considered trademarked. [CHAR LIMIT=NONE] -->
     <string name="android_beam_explained">When this feature is turned on, you can beam app content to another NFC-capable device by holding the devices close together. For example, you can beam web pages, YouTube videos, contacts, and more.\n\nJust bring the devices together (typically back to back) and then tap your screen. The app determines what gets beamed.</string>
 
+    <!-- LinkToWindows settings -->
+    <!-- Used to enter the Link To Windows preferences screen. [CHAR LIMIT=32] -->
+    <string name="link_to_windows_settings_title">Link To Windows</string>
+
     <!-- Wi-Fi Settings --> <skip />
     <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen  [CHAR LIMIT=20]-->
     <string name="wifi_settings">Wi\u2011Fi</string>
@@ -8655,6 +8659,11 @@
     <string name="nfc_setting_on">On</string>
     <!-- Switch text for nfc feature being off [CHAR LIMIT=NONE] -->
     <string name="nfc_setting_off">Off</string>
+
+    <!-- Switch text for LinkToWindows feature being on [CHAR LIMIT=NONE] -->
+    <string name="link_to_windows_setting_on">On</string>
+    <!-- Switch text for LinkToWindows feature being off [CHAR LIMIT=NONE] -->
+    <string name="link_to_windows_setting_off">Off</string>
 
     <!-- The subtext when screen pinning feature is enabled. [CHAR LIMIT=28] -->
     <string name="screen_pinning_switch_on_text">On</string>
