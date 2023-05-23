@@ -60,9 +60,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Вкл. (5 минут)</string>
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
     <string name="adaptive_playback_timeout_10_min_summary">Вкл. (10 минут)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Двойное касание для проверки телефона</string>
-    <string name="doze_double_tap_summary">Пульсирующие уведомления по двойному касанию</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Перемешать клавиши</string>
     <string name="unlock_scramble_pin_layout_summary">Перемешать кнопки ввода PIN-кода при разблокировке устройства</string>
@@ -456,4 +453,10 @@
     <string name="prevent_pointer_acceleration_wheel">Только колесо</string>
     <string name="prevent_pointer_acceleration_pointer">Только указатель</string>
     <string name="prevent_pointer_acceleration_none">Ничего</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Активный экран</string>
+    <string name="doze_enabled_summary">Следует ли включать функциональность пакета пробуждения</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Показать События</string>
+    <string name="doze_gesture_ambient_summary">Показывать Активный экран вместо полного пробуждения экрана</string>
 </resources>
