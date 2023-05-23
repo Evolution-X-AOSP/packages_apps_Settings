@@ -60,9 +60,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Be (5 perc)</string>
     <string name="adaptive_playback_timeout_10_min">10 perc</string>
     <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Érintse duplán a pulzáló értesítésekhez</string>
-    <string name="doze_double_tap_summary">Pulzáló értesítések dupla érintésre</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
     <string name="unlock_scramble_pin_layout_summary">Összekeveri a beviteli mezőn a számok elrendezését az eszköz feloldásakor</string>
@@ -456,4 +453,10 @@
     <string name="prevent_pointer_acceleration_wheel">Csak a kerék</string>
     <string name="prevent_pointer_acceleration_pointer">Csak a mutató</string>
     <string name="prevent_pointer_acceleration_none">Nincs</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Környezeti kijelző</string>
+    <string name="doze_enabled_summary">Itt engedélyezheti a Doze-csomagfunkciókat</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Csak a \'Környezeti\'</string>
+    <string name="doze_gesture_ambient_summary">A képernyő teljes felébresztése helyett a \'Környezeti kijelző\' megjelenítése</string>
 </resources>
