@@ -60,9 +60,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Activé (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">Activé (10 minutes)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Appuyez deux fois pour allumer l\'écran</string>
-    <string name="doze_double_tap_summary">Faire apparaître les notifications par double appui</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Disposition aléatoire</string>
     <string name="unlock_scramble_pin_layout_summary">Disposer aléatoirement les chiffres de saisie du code PIN au déverrouillage</string>
@@ -456,4 +453,10 @@
     <string name="prevent_pointer_acceleration_wheel">Roue uniquement</string>
     <string name="prevent_pointer_acceleration_pointer">Pointeur uniquement</string>
     <string name="prevent_pointer_acceleration_none">Aucun</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Affichage ambiant</string>
+    <string name="doze_enabled_summary">Activer ou non la fonctionnalité du paquet doze</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Afficher l\'affichage ambiant</string>
+    <string name="doze_gesture_ambient_summary">Afficher l\'affichage ambiant au lieu de réveiller complètement l\'écran</string>
 </resources>
