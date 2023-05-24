@@ -459,4 +459,24 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Csak a \'Környezeti\'</string>
     <string name="doze_gesture_ambient_summary">A képernyő teljes felébresztése helyett a \'Környezeti kijelző\' megjelenítése</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Hálózat-hozzáférés engedélyezése</string>
+    <string name="data_usage_app_restrict_all_summary">Hálózat-használat engedélyezése</string>
+    <string name="data_usage_app_restrict_mobile">Mobiladatforgalom</string>
+    <string name="data_usage_app_restrict_mobile_summary">A mobiladatforgalom használható</string>
+    <string name="data_usage_app_restrict_vpn">VPN-adatok</string>
+    <string name="data_usage_app_restrict_vpn_summary">A VPN-adathasználat engedélyezése</string>
+    <string name="data_usage_app_restrict_wifi">WiFi-adathasználat</string>
+    <string name="data_usage_app_restrict_wifi_summary">A WiFi-adathasználat engedélyezése</string>
+    <!-- Developer Options -->
+    <string name="cleartext_network_policy_title">A Cleartext hálózati forgalom korlátozása</string>
+    <string name="cleartext_network_policy_summary">Letiltja az összes nem TLS hálózati forgalmat. Privát DNS-konfigurációt igényel. Megjegyzés: kivételek megadása nélkül a Cleartextet használó alkalmazások nem fognak működni</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps">Nem telepíthetők alkalmazások</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps_unknown_sources">Külső forrásból tilos alkalmazásokat telepíteni</string>
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Háttérbéli hálózatelérés</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Engedi, hogy egy alkalmazás hálózatot használjon a háttérben</string>
 </resources>
