@@ -60,9 +60,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Attivo (5 minuti)</string>
     <string name="adaptive_playback_timeout_10_min">10 minuti</string>
     <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
-    <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Disposizione casuale</string>
     <string name="unlock_scramble_pin_layout_summary">Disposizione del PIN casuale sbloccando il dispositivo</string>
@@ -456,4 +453,30 @@
     <string name="prevent_pointer_acceleration_wheel">Solo rotellina</string>
     <string name="prevent_pointer_acceleration_pointer">Solo puntatore</string>
     <string name="prevent_pointer_acceleration_none">Nessuno</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient Display</string>
+    <string name="doze_enabled_summary">Indica se abilitare la funzionalità del pacchetto doze</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostra l\'Ambient Display</string>
+    <string name="doze_gesture_ambient_summary">Mostra l\'Ambient Display invece di accendere completamente lo schermo</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Consenti l\'accesso alla rete</string>
+    <string name="data_usage_app_restrict_all_summary">Abilita l\'uso della rete</string>
+    <string name="data_usage_app_restrict_mobile">Dati mobili</string>
+    <string name="data_usage_app_restrict_mobile_summary">Abilita l\'uso dei dati mobili</string>
+    <string name="data_usage_app_restrict_vpn">Dati VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Abilita l\'uso dei dati VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati Wi\u2011Fi</string>
+    <!-- Developer Options -->
+    <string name="cleartext_network_policy_title">Limita il traffico di rete in chiaro</string>
+    <string name="cleartext_network_policy_summary">Blocca tutto il traffico di rete non-TLS. Richiede la configurazione del DNS privato. Nota: senza eccezioni esplicite, le app che utilizzano il traffico in chiaro potrebbero non funzionare</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps">Disabilita l\'installazione di app</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps_unknown_sources">Disabilita l\'installazione di app da fonti esterne</string>
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Accesso alla rete in background</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Abilita l\'uso della rete in background</string>
 </resources>
