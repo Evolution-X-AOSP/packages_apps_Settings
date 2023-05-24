@@ -60,9 +60,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
-    <string name="doze_double_tap_summary">Pulsar notificações ao tocar duas vezes na tela</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
@@ -448,7 +445,7 @@
     <string name="transistent_task_mode_dialog_title">Modo de tarefa transitória (reinicie seu dispositivo para aplicar as alterações)</string>
     <string name="transistent_task_mode_summary">Dispensar aplicativos dos recentes quando a última atividade for fechada usando o botão Voltar.</string>
     <string name="transistent_task_mode_default">Desativar (Padrão)</string>
-    <string name="transistent_task_mode_allow">Ativar (Os aplicativos permanecerão)</string>
+    <string name="transistent_task_mode_allow">Ativar (Alguns aplicativos permanecerão)</string>
     <string name="transistent_task_mode_force">Forçar (Substituir o comportamento do aplicativo)</string>
     <!-- Prevent pointer accleration -->
     <string name="prevent_pointer_acceleration_title">Aceleração do ponteiro</string>
@@ -456,4 +453,30 @@
     <string name="prevent_pointer_acceleration_wheel">Apenas roda</string>
     <string name="prevent_pointer_acceleration_pointer">Apenas o ponteiro</string>
     <string name="prevent_pointer_acceleration_none">Nenhum</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Tela ambiente</string>
+    <string name="doze_enabled_summary">Se deve habilitar a função doze</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostrar ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar a tela ambiente em vez da tela padrão de bloqueio</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Permitir acesso à rede</string>
+    <string name="data_usage_app_restrict_all_summary">Ativar uso de rede</string>
+    <string name="data_usage_app_restrict_mobile">Dados móveis</string>
+    <string name="data_usage_app_restrict_mobile_summary">Permitir o uso de dados móveis</string>
+    <string name="data_usage_app_restrict_vpn">Dados VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Ativar o uso de dados VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dados Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Ativar o uso de dados Wi\u2011Fi</string>
+    <!-- Developer Options -->
+    <string name="cleartext_network_policy_title">Restringir tráfego de rede não encriptado</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS privado. Nota: Sem isenções explícitas, apps que usam o tráfego descriptografado podem não funcionar</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps">Desabilitar a instalação de apps</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps_unknown_sources">Proibir a instalação de aplicativos de terceiros</string>
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Acesso à rede em segundo plano</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Ativar uso de rede em segundo plano</string>
 </resources>
