@@ -33,4 +33,10 @@
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.TapScreenGesturePreferenceController" />
 
+    <com.evolution.settings.preference.SecureSettingSwitchPreference
+        android:key="doze_single_tap_gesture_ambient"
+        android:title="@string/doze_gesture_ambient_title"
+        android:summary="@string/doze_gesture_ambient_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
