@@ -60,9 +60,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Увімкнено (5 хвилин)</string>
     <string name="adaptive_playback_timeout_10_min">10 хвилин</string>
     <string name="adaptive_playback_timeout_10_min_summary">Увімкнено (10 хвилин)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Двічі торкніться, щоб перевірити телефон</string>
-    <string name="doze_double_tap_summary">Імпульсні повідомлення подвійним натисканням</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Перемішати кнопки</string>
     <string name="unlock_scramble_pin_layout_summary">Перемішати кнопки вводу PIN-коду при розблокуванні</string>
@@ -456,4 +453,30 @@
     <string name="prevent_pointer_acceleration_wheel">Тільки колесо</string>
     <string name="prevent_pointer_acceleration_pointer">Тільки вказівник</string>
     <string name="prevent_pointer_acceleration_none">Нічого</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Активний дисплей</string>
+    <string name="doze_enabled_summary">Чи вмикати функціонал пакету doze</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Показати Ambient Display</string>
+    <string name="doze_gesture_ambient_summary">Показувати на Ambient Display замість повного пробудження екрану вгору</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Дозволити доступ до мережі</string>
+    <string name="data_usage_app_restrict_all_summary">Увімкнути використання мережі</string>
+    <string name="data_usage_app_restrict_mobile">Передача даних</string>
+    <string name="data_usage_app_restrict_mobile_summary">Увімкнути використання мобільних даних</string>
+    <string name="data_usage_app_restrict_vpn">Дані VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Увімкнути використання даних VPN</string>
+    <string name="data_usage_app_restrict_wifi">Дані Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Увімкнути використання даних Wi-Fi</string>
+    <!-- Developer Options -->
+    <string name="cleartext_network_policy_title">Обмежте мережевий трафік відкритим текстом</string>
+    <string name="cleartext_network_policy_summary">Блокує весь трафік мережі не TLS. Потребує приватної конфігурації DNS. Без явних вимог, додатки, які використовують чіткий текстовий трафік, можуть не працювати</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps">Заборонити встановлення застосунків</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps_unknown_sources">Забороняти встановлення програм з сторонніх джерел</string>
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Доступ до фонової мережі</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Увімкнути використання мережі у фоновому режимі</string>
 </resources>
