@@ -112,6 +112,13 @@
         settings:isPreferenceVisible="@bool/config_show_sim_info"
         settings:controller="com.android.settings.security.ConfirmSimDeletionPreferenceController" />
 
+    <com.evolution.settings.preference.SecureSettingSwitchPreference
+        android:order="93"
+        android:key="spoof_storage_encryption_status"
+        android:title="@string/spoof_storage_encryption_status_title"
+        android:summary="@string/spoof_storage_encryption_status_summary"
+        android:defaultValue="false"/>
+
     <!-- work profile security section -->
     <PreferenceCategory
         android:order="100"
