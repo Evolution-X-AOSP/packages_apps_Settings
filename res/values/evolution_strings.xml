@@ -75,6 +75,10 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
 </resources>
