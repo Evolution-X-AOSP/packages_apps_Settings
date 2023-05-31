@@ -535,6 +535,10 @@
     <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
     <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
 
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
