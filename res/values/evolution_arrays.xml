@@ -19,4 +19,12 @@
         <item>com.google.android.documentsui</item>
         <item>com.google.android.googlequicksearchbox</item>
     </string-array>
+
+    <!-- Apps list to hide from Hide developer status setting -->
+    <string-array name="hide_developer_status_hidden_apps" translatable="false">
+        <item>android</item>
+        <item>com.android.settings</item>
+        <item>com.android.systemui</item>
+        <item>com.android.shell</item>
+    </string-array>
 </resources>
