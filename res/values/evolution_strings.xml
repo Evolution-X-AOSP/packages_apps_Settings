@@ -595,5 +595,9 @@
 
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
 </resources>
