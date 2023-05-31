@@ -60,9 +60,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
     <string name="adaptive_playback_timeout_10_min">10 dakika</string>
     <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Bildirimleri kontrol etmek için çift dokunun</string>
-    <string name="doze_double_tap_summary">Çift dokunuşla ortam ekranı bildirimleri</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
     <string name="unlock_scramble_pin_layout_summary">Cihazın kilidini açarken PIN düzenini karıştır</string>
@@ -456,4 +453,36 @@
     <string name="prevent_pointer_acceleration_wheel">Sadece tekerlek</string>
     <string name="prevent_pointer_acceleration_pointer">Sadece işaretçi</string>
     <string name="prevent_pointer_acceleration_none">Hiçbiri</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ortam ekranı</string>
+    <string name="doze_enabled_summary">Ortam Ekranı işlevinin etkinleştirilip etkinleştirilmeyeceği</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Ambiyansı Göster</string>
+    <string name="doze_gesture_ambient_summary">Ekranı tamamen uyandırmak yerine Ambient Display\'i göster</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Ağ erişimine izin ver</string>
+    <string name="data_usage_app_restrict_all_summary">Ağ kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_mobile">Mobil veri</string>
+    <string name="data_usage_app_restrict_mobile_summary">Mobil veri kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_vpn">VPN verileri</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN veri kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
+    <!-- Developer Options -->
+    <string name="cleartext_network_policy_title">Açık metin ağ trafiğini kısıtla</string>
+    <string name="cleartext_network_policy_summary">TLS dışı tüm ağ trafiğini engeller. Özel DNS yapılandırması gerektirir. Not: Açık muafiyetler olmadan Tor ve çoğu VPN çalışmaz</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps">Uygulama yüklemeye izin verme</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps_unknown_sources">Üçüncü taraf kaynaklardan uygulama yüklenmesine izin verme</string>
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Arka planda ağ erişimi</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Arka planda ağ kullanımını etkinleştirin</string>
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">5G\'yi kapat</string>
+    <string name="battery_saver_5g_summary">Pil Tasarrufu açıkken güç tasarrufu için 5G\'yi devre dışı bırakın</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Depolama şifreleme sahtekarlığını kullan</string>
+    <string name="spoof_storage_encryption_status_summary">Depolama şifreleme durumunu şifreli olarak değiştirin.</string>
 </resources>
