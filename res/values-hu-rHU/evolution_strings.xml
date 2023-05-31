@@ -479,4 +479,10 @@
     <string name="data_usage_app_restrict_background_all">Háttérbéli hálózatelérés</string>
     <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
     <string name="data_usage_app_restrict_background_all_summary">Engedi, hogy egy alkalmazás hálózatot használjon a háttérben</string>
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Az 5G kikapcsolása</string>
+    <string name="battery_saver_5g_summary">Ha az Akkukímélés be van kapcsolva, letiltja az 5G-t</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Tárhelytitkosítás-hamisítás</string>
+    <string name="spoof_storage_encryption_status_summary">A tárhely állapotának hamisítása titkosítottra.</string>
 </resources>
