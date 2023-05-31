@@ -479,4 +479,10 @@
     <string name="data_usage_app_restrict_background_all">Accès au réseau en arrière-plan</string>
     <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
     <string name="data_usage_app_restrict_background_all_summary">Activer l\'utilisation du réseau en arrière-plan</string>
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Eteindre 5G</string>
+    <string name="battery_saver_5g_summary">Désactiver la 5G pour économiser de l\'énergie lorsque l\'économiseur de batterie est activé</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Utiliser l\'usurpation du chiffrement de stockage</string>
+    <string name="spoof_storage_encryption_status_summary">Usurper un statut chiffré pour le stockage non-chiffré.</string>
 </resources>
