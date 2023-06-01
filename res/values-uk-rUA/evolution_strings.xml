@@ -479,4 +479,10 @@
     <string name="data_usage_app_restrict_background_all">Доступ до фонової мережі</string>
     <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
     <string name="data_usage_app_restrict_background_all_summary">Увімкнути використання мережі у фоновому режимі</string>
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Вимкнути 5G</string>
+    <string name="battery_saver_5g_summary">Вимкніть 5G, щоб зберегти енергію, коли ввімкнено режим економії заряду акумулятора</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Використовувати спуфінг шифрування носія</string>
+    <string name="spoof_storage_encryption_status_summary">Імітація стану шифрування сховища.</string>
 </resources>
