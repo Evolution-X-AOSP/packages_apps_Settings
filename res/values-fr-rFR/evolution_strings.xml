@@ -484,5 +484,8 @@
     <string name="battery_saver_5g_summary">Désactiver la 5G pour économiser de l\'énergie lorsque l\'économiseur de batterie est activé</string>
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Utiliser l\'usurpation du chiffrement de stockage</string>
-    <string name="spoof_storage_encryption_status_summary">Usurper un statut chiffré pour le stockage non-chiffré.</string>
+    <string name="spoof_storage_encryption_status_summary">Usurper un statut chiffré pour le stockage non-chiffré</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Masquer le statut de développeur</string>
+    <string name="hide_developer_status_summary">Masquer le statut de développeur aux applications</string>
 </resources>
