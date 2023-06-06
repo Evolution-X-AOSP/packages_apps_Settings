@@ -485,4 +485,7 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Tárhelytitkosítás-hamisítás</string>
     <string name="spoof_storage_encryption_status_summary">A tárhely állapotának hamisítása titkosítottra.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Rejtett fejlesztői állapot</string>
+    <string name="hide_developer_status_summary">A fejlesztői állapot elrejtése az alkalmazások elől</string>
 </resources>
