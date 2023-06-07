@@ -485,4 +485,7 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Depolama şifreleme sahtekarlığını kullan</string>
     <string name="spoof_storage_encryption_status_summary">Depolama şifreleme durumunu şifreli olarak değiştirin.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Geliştirici durumunu gizle</string>
+    <string name="hide_developer_status_summary">Uygulamalardan geliştirici durumunu gizle</string>
 </resources>

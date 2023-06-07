@@ -485,4 +485,7 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Використовувати спуфінг шифрування носія</string>
     <string name="spoof_storage_encryption_status_summary">Імітація стану шифрування сховища.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Приховати статус розробника</string>
+    <string name="hide_developer_status_summary">Приховати статус розробника від додатків</string>
 </resources>
