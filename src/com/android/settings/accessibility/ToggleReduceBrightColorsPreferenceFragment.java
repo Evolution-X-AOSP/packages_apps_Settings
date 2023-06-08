@@ -18,6 +18,11 @@ package com.android.settings.accessibility;
 
 import static com.android.internal.accessibility.AccessibilityShortcutController.REDUCE_BRIGHT_COLORS_COMPONENT_NAME;
 import static com.android.internal.accessibility.AccessibilityShortcutController.REDUCE_BRIGHT_COLORS_TILE_SERVICE_COMPONENT_NAME;
+import static com.android.internal.util.evolution.AutoSettingConsts.MODE_DISABLED;
+import static com.android.internal.util.evolution.AutoSettingConsts.MODE_NIGHT;
+import static com.android.internal.util.evolution.AutoSettingConsts.MODE_TIME;
+import static com.android.internal.util.evolution.AutoSettingConsts.MODE_MIXED_SUNSET;
+import static com.android.internal.util.evolution.AutoSettingConsts.MODE_MIXED_SUNRISE;
 import static com.android.settings.accessibility.AccessibilityStatsLogUtils.logAccessibilityServiceEnabled;
 
 import android.app.settings.SettingsEnums;
@@ -27,11 +32,13 @@ import android.content.Context;
 import android.hardware.display.ColorDisplayManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.TwoStatePreference;
 
@@ -54,10 +61,12 @@ public class ToggleReduceBrightColorsPreferenceFragment extends ToggleFeaturePre
     private static final String KEY_PERSIST = "rbc_persist";
     private static final String REDUCE_BRIGHT_COLORS_ACTIVATED_KEY =
             Settings.Secure.REDUCE_BRIGHT_COLORS_ACTIVATED;
+    private static final String KEY_SCHEDULE = "extra_dim_schedule";
 
     private ReduceBrightColorsIntensityPreferenceController mRbcIntensityPreferenceController;
     private ReduceBrightColorsPersistencePreferenceController mRbcPersistencePreferenceController;
     private ColorDisplayManager mColorDisplayManager;
+    private Preference mSchedulePref;
 
     @Override
     protected void registerKeysToObserverCallback(
@@ -91,8 +100,16 @@ public class ToggleReduceBrightColorsPreferenceFragment extends ToggleFeaturePre
         final View view = super.onCreateView(inflater, container, savedInstanceState);
         // Parent sets the title when creating the view, so set it after calling super
         mToggleServiceSwitchPreference.setTitle(R.string.reduce_bright_colors_switch_title);
+
+        mSchedulePref = new Preference(getPrefContext());
+        mSchedulePref.setKey(KEY_SCHEDULE);
+        mSchedulePref.setTitle(getText(R.string.extra_dim_schedule_title));
+        mSchedulePref.setFragment("com.android.settings.accessibility.ExtraDimScheduleFragment");
+
+        getPreferenceScreen().addPreference(mTopIntroPreference);
         updateGeneralCategoryOrder();
         updateFooterPreference();
+        updateSchedulePreference();
         return view;
     }
 
@@ -106,6 +123,7 @@ public class ToggleReduceBrightColorsPreferenceFragment extends ToggleFeaturePre
         getPreferenceScreen().removePreference(persist);
         persist.setOrder(mShortcutPreference.getOrder() - 1);
         generalCategory.addPreference(persist);
+        generalCategory.addPreference(mSchedulePref);
     }
 
     private void updateFooterPreference() {
@@ -114,10 +132,29 @@ public class ToggleReduceBrightColorsPreferenceFragment extends ToggleFeaturePre
         mFooterPreferenceController.displayPreference(getPreferenceScreen());
     }
 
+    private void updateSchedulePreference() {
+        if (mSchedulePref == null) return;
+        int mode = Settings.Secure.getIntForUser(getActivity().getContentResolver(),
+                Settings.Secure.EXTRA_DIM_AUTO_MODE, 0, UserHandle.USER_CURRENT);
+        switch (mode) {
+            default:
+            case MODE_DISABLED:
+                mSchedulePref.setSummary(R.string.disabled);
+                break;
+            case MODE_NIGHT:
+                mSchedulePref.setSummary(R.string.night_display_auto_mode_twilight);
+                break;
+            case MODE_TIME:
+                mSchedulePref.setSummary(R.string.night_display_auto_mode_custom);
+                break;
+        }
+    }
+
     @Override
     public void onResume() {
         super.onResume();
         updateSwitchBarToggleSwitch();
+        updateSchedulePreference();
     }
 
     @Override
