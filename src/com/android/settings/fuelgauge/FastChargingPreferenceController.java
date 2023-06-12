@@ -25,6 +25,8 @@ import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.BasePreferenceController;
 
+import com.android.settings.R;
+
 import vendor.lineage.fastcharge.V1_0.IFastCharge;
 
 import java.util.NoSuchElementException;
@@ -39,9 +41,12 @@ public class FastChargingPreferenceController extends BasePreferenceController
     private static final String TAG = "FastChargingPreferenceController";
 
     private IFastCharge mFastCharge = null;
+    private Context mContext = null;
 
     public FastChargingPreferenceController(Context context) {
         super(context, KEY_FAST_CHARGING);
+        mContext = context;
+        if (!mContext.getResources().getBoolean(R.bool.config_lineageFastChargeSupported)) return;
         try {
             mFastCharge = IFastCharge.getService();
         } catch (NoSuchElementException | RemoteException e) {
@@ -51,6 +56,7 @@ public class FastChargingPreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
+        if (!mContext.getResources().getBoolean(R.bool.config_lineageFastChargeSupported)) return UNSUPPORTED_ON_DEVICE;
         return mFastCharge != null ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
@@ -58,6 +64,8 @@ public class FastChargingPreferenceController extends BasePreferenceController
     public void updateState(Preference preference) {
         super.updateState(preference);
         boolean fastChargingEnabled = false;
+
+        if (!mContext.getResources().getBoolean(R.bool.config_lineageFastChargeSupported)) return;
 
         try {
             fastChargingEnabled = mFastCharge.isEnabled();
@@ -71,6 +79,8 @@ public class FastChargingPreferenceController extends BasePreferenceController
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         final boolean shouldEnableFastCharging = (Boolean) newValue;
+
+        if (!mContext.getResources().getBoolean(R.bool.config_lineageFastChargeSupported)) return false;
 
         try {
             mFastCharge.setEnabled(shouldEnableFastCharging);

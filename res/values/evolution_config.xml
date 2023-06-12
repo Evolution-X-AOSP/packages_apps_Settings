@@ -47,4 +47,7 @@
 
     <!-- Show battery cycle count -->
     <bool name="config_show_battery_cycle_count" translatable="false">false</bool>
+
+    <!-- Whether to enable Lineage Fast Charge Prefernece -->
+    <bool name="config_lineageFastChargeSupported">false</bool>
 </resources>
