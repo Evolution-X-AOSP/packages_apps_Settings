@@ -60,9 +60,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Aktif (5 menit)</string>
     <string name="adaptive_playback_timeout_10_min">10 menit</string>
     <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
-    <string name="doze_double_tap_summary">Tampilkan notifikasi dengan ketukan ganda</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
     <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
@@ -456,4 +453,39 @@
     <string name="prevent_pointer_acceleration_wheel">Hanya roda</string>
     <string name="prevent_pointer_acceleration_pointer">Hanya penunjuk</string>
     <string name="prevent_pointer_acceleration_none">Tidak ada</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Tampilan Ambien</string>
+    <string name="doze_enabled_summary">Apakah akan mengaktifkan fungsi paket doze</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Tampilkan Ambien</string>
+    <string name="doze_gesture_ambient_summary">Tampilkan Tampilan Ambien alih-alih sepenuhnya membangunkan layar</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Izinkan akses jaringan</string>
+    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
+    <string name="data_usage_app_restrict_mobile">Data Seluler</string>
+    <string name="data_usage_app_restrict_mobile_summary">Aktifkan penggunaan data seluler</string>
+    <string name="data_usage_app_restrict_vpn">Data VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Aktifkan penggunaan data VPN</string>
+    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
+    <!-- Developer Options -->
+    <string name="cleartext_network_policy_title">Batasi lalu lintas jaringan cleartext</string>
+    <string name="cleartext_network_policy_summary">Memblokir semua lalu lintas jaringan non-tls. Membutuhkan konfigurasi DNS Pribadi. Catatan: Tanpa pengecualian eksplisit, aplikasi yang menggunakan lalu lintas cleartext mungkin tidak berfungsi</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps">Larang menginstal aplikasi</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps_unknown_sources">Larang penginstalan aplikasi dari sumber pihak ketiga</string>
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Akses jaringan latar belakang</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Aktifkan penggunaan jaringan di latar belakang</string>
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Nonaktifkan 5G</string>
+    <string name="battery_saver_5g_summary">Nonaktifkan 5G untuk menghemat daya saat Penghemat Baterai aktif</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Gunakan pemalsuan enkripsi penyimpanan</string>
+    <string name="spoof_storage_encryption_status_summary">Status palsu enkripsi penyimpanan menjadi terenkripsi</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Sembunyikan status pengembang</string>
+    <string name="hide_developer_status_summary">Sembunyikan status pengembang dari aplikasi</string>
 </resources>
