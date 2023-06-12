@@ -459,4 +459,33 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Показать События</string>
     <string name="doze_gesture_ambient_summary">Показывать Активный экран вместо полного пробуждения экрана</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Разрешить доступ к сети</string>
+    <string name="data_usage_app_restrict_all_summary">Включить использование сети</string>
+    <string name="data_usage_app_restrict_mobile">Мобильные данные</string>
+    <string name="data_usage_app_restrict_mobile_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_vpn">Данные VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Использование Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wii\u2011Fi</string>
+    <!-- Developer Options -->
+    <string name="cleartext_network_policy_title">Ограничить сетевой трафик в чистом виде</string>
+    <string name="cleartext_network_policy_summary">Блокирует весь non-TLS сетевой трафик. Требуется личная настройка DNS. Примечание: без явных исключений Tor и большинство VPN не будут работать</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps">Запретить установку приложений</string>
+    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
+    <string name="user_disallow_install_apps_unknown_sources">Запретить установку приложений из сторонних источников</string>
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Фоновый доступ к сети</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Включить использование сети в фоновом режиме</string>
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Выключить 5G</string>
+    <string name="battery_saver_5g_summary">Отключить 5G для экономии энергии при включенном энергосбережении</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Использовать подмену шифрования хранилища</string>
+    <string name="spoof_storage_encryption_status_summary">Подменить статус шифрования хранилища на зашифрованный</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Скрыть статус разработчика</string>
+    <string name="hide_developer_status_summary">Скрыть статус разработчика в приложениях</string>
 </resources>
