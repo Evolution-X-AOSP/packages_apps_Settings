@@ -291,26 +291,12 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Pano yer paylaşımını göster</string>
     <string name="show_clipboard_overlay_summary">Panoya bir şey kopyalandığında ekranın sol alt köşesinde bir kaplama göster</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
-    <string name="pulse_on_new_tracks_summary">Yeni bir müzik parçası çalındığında Ortam Ekranını göster</string>
-    <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
-    <string name="face_redo_confirm_btn">Yeniden yap</string>
-    <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırıp yeni bir tane oluşturmak istiyor musunuz?</string>
-    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
-    <string name="face_unlock_method_default">Ekran açıldığında</string>
-    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
-    <string name="skip_biometric_auth_confirmation_title">Manuel onaylamayı atla</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Oynatma kontrolü</string>
     <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
     <string name="gesture_playback_control_delay">gecikme</string>
     <string name="unit_hz">Hz</string>
     <string name="unit_times">Zamanlar</string>
-    <!-- Screen resolution -->
-    <string name="custom_screen_resolution_title">Özel ekran çözünürlüğü</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">İstatistikleri sıfırla?</string>
     <string name="battery_stats_message">Pil kullanım geçmişi istatistikleri sıfırlanacak</string>
@@ -335,6 +321,9 @@
     <string name="in_call_notifications_title">Arama içi bildirimleri</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">NFC sesi</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ortam ekranı</string>
+    <string name="doze_enabled_summary">Ortam Ekranı işlevinin etkinleştirilip etkinleştirilmeyeceği</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Uyku modu</string>
     <string name="sleep_mode_summary_on">Açık / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
@@ -438,8 +427,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Bağlantı kontrolü</string>
     <string name="captive_portal_summary">Google ile iletişime geçerek cihazın internete bağlanıp bağlanamayacağını belirleyin. Ayrıca sabit portalları tespit etmek için kullanılır.</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Zil &amp; bildirim sesini birleştir</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Geçici görev modu</string>
     <string name="transistent_task_mode_dialog_title">Geçici görev modu (Değişiklikleri uygulamak için cihazınızı yeniden başlatın)</string>
@@ -453,39 +440,31 @@
     <string name="prevent_pointer_acceleration_wheel">Sadece tekerlek</string>
     <string name="prevent_pointer_acceleration_pointer">Sadece işaretçi</string>
     <string name="prevent_pointer_acceleration_none">Hiçbiri</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ortam ekranı</string>
-    <string name="doze_enabled_summary">Ortam Ekranı işlevinin etkinleştirilip etkinleştirilmeyeceği</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Ortam ekranını göster</string>
     <string name="doze_gesture_ambient_summary">Ekranı tamamen uyandırmak yerine ortam ekranını göster</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Ağ erişimine izin ver</string>
-    <string name="data_usage_app_restrict_all_summary">Ağ kullanımını etkinleştir</string>
-    <string name="data_usage_app_restrict_mobile">Mobil veri</string>
-    <string name="data_usage_app_restrict_mobile_summary">Mobil veri kullanımını etkinleştir</string>
-    <string name="data_usage_app_restrict_vpn">VPN verisi</string>
-    <string name="data_usage_app_restrict_vpn_summary">VPN veri kullanımını etkinleştir</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi verisi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">Şifresiz metin ağ trafiğini kısıtla</string>
     <string name="cleartext_network_policy_summary">TLS dışı tüm ağ trafiğini engeller. Özel DNS yapılandırması gerektirir. Not: Açık muafiyetler olmadan şifresiz metin kullanan ağlar çalışmaz</string>
-    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
-    <string name="user_disallow_install_apps">Uygulama yüklemeye izin verme</string>
-    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
-    <string name="user_disallow_install_apps_unknown_sources">Üçüncü taraf kaynaklardan uygulama yüklenmesine izin verme</string>
-    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
-    <string name="data_usage_app_restrict_background_all">Arka planda ağ erişimi</string>
-    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
-    <string name="data_usage_app_restrict_background_all_summary">Arka planda ağ kullanımını etkinleştirin</string>
-    <!-- Disable 5G in battery saver -->
-    <string name="battery_saver_5g_title">5G\'yi kapat</string>
-    <string name="battery_saver_5g_summary">Pil Tasarrufu açıkken güç tasarrufu için 5G\'yi devre dışı bırakın</string>
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Depolama şifreleme sahtekarlığını kullan</string>
     <string name="spoof_storage_encryption_status_summary">Depolama şifreleme durumunu şifreli olarak değiştirin.</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Geliştirici durumunu gizle</string>
     <string name="hide_developer_status_summary">Uygulamalardan geliştirici durumunu gizle</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
+    <string name="face_redo_confirm_btn">Yeniden yap</string>
+    <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırıp yeni bir tane oluşturmak istiyor musunuz?</string>
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıldığında</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Kilidi açmak için parmak izinizi kullanın</string>
+    <string name="fingerprint_wake_unlock_touch">Ekran kapalıylen etkinlikleri dinler</string>
+    <string name="fingerprint_wake_unlock_press">Etkinlikleri yalnızca ekran açıkken dinler</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Akıllı 5G</string>
+    <string name="smart_5g_summary">Pil tüketimini azaltmak için 5G ve 4G arasında otomatik olarak geçiş yapın</string>
 </resources>
