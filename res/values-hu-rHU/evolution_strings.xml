@@ -291,26 +291,12 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Vágólap-átfedés</string>
     <string name="show_clipboard_overlay_summary">Átfedés megjelenítése a képernyő bal alsó sarkában, ha valamit a vágólapra másol</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Zeneszám a környezeti kijelzőn</string>
-    <string name="pulse_on_new_tracks_summary">A Környezeti kijelző megjelenítése, ha új zeneszám kerül lejátszásra</string>
-    <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">A korábban beolvasott arc eltávolítása és új arc beolvasása</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Az arcbeolvasás megismétlése</string>
-    <string name="face_redo_confirm_btn">Újra</string>
-    <string name="face_redo_warning_msg">Szeretné eltávolítani a korábban beolvasott arcot és beolvasni egy újat?</string>
-    <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
-    <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
-    <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
-    <string name="skip_biometric_auth_confirmation_title">A manuális megerősítés kihagyása</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
     <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
     <string name="gesture_playback_control_delay">késleltetés</string>
     <string name="unit_hz">Hz</string>
     <string name="unit_times">x villanás</string>
-    <!-- Screen resolution -->
-    <string name="custom_screen_resolution_title">Egyéni képernyőfelbontás</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Statisztikatörlés?</string>
     <string name="battery_stats_message">Az akkuhasználati adatok elvesznek</string>
@@ -335,6 +321,9 @@
     <string name="in_call_notifications_title">Hívás közbeni értesítések</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Az NFC hangjai</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Környezeti kijelző</string>
+    <string name="doze_enabled_summary">Itt engedélyezheti a Doze-csomagfunkciókat</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Alvómód</string>
     <string name="sleep_mode_summary_on"><xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g> / Be</string>
@@ -438,8 +427,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Kapcsolódási teszt</string>
     <string name="captive_portal_summary">Internet-csatlakozási képesség behatárolása a Google-val való kapcsolódás alatt. Nyilvános, de rögzített portálok észlelésére is használható.</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Csengőhang és értesítési hangok összekötése</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Átmeneti-feladatmód</string>
     <string name="transistent_task_mode_dialog_title">Átmeneti-feladatmód (Újraindítás szükséges a változtatásokhoz)</string>
@@ -453,39 +440,31 @@
     <string name="prevent_pointer_acceleration_wheel">Csak a kerék</string>
     <string name="prevent_pointer_acceleration_pointer">Csak a mutató</string>
     <string name="prevent_pointer_acceleration_none">Nincs</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Környezeti kijelző</string>
-    <string name="doze_enabled_summary">Itt engedélyezheti a Doze-csomagfunkciókat</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Csak a \'Környezeti\'</string>
     <string name="doze_gesture_ambient_summary">A képernyő teljes felébresztése helyett a \'Környezeti kijelző\' megjelenítése</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Hálózat-hozzáférés engedélyezése</string>
-    <string name="data_usage_app_restrict_all_summary">Hálózat-használat engedélyezése</string>
-    <string name="data_usage_app_restrict_mobile">Mobiladatforgalom</string>
-    <string name="data_usage_app_restrict_mobile_summary">A mobiladatforgalom használható</string>
-    <string name="data_usage_app_restrict_vpn">VPN-adatok</string>
-    <string name="data_usage_app_restrict_vpn_summary">A VPN-adathasználat engedélyezése</string>
-    <string name="data_usage_app_restrict_wifi">WiFi-adathasználat</string>
-    <string name="data_usage_app_restrict_wifi_summary">A WiFi-adathasználat engedélyezése</string>
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">A Cleartext hálózati forgalom korlátozása</string>
     <string name="cleartext_network_policy_summary">Letiltja az összes nem TLS hálózati forgalmat. Privát DNS-konfigurációt igényel. Megjegyzés: kivételek megadása nélkül a Cleartextet használó alkalmazások nem fognak működni</string>
-    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
-    <string name="user_disallow_install_apps">Nem telepíthetők alkalmazások</string>
-    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
-    <string name="user_disallow_install_apps_unknown_sources">Külső forrásból tilos alkalmazásokat telepíteni</string>
-    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
-    <string name="data_usage_app_restrict_background_all">Háttérbéli hálózatelérés</string>
-    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
-    <string name="data_usage_app_restrict_background_all_summary">Engedi, hogy egy alkalmazás hálózatot használjon a háttérben</string>
-    <!-- Disable 5G in battery saver -->
-    <string name="battery_saver_5g_title">Az 5G kikapcsolása</string>
-    <string name="battery_saver_5g_summary">Ha az Akkukímélés be van kapcsolva, letiltja az 5G-t</string>
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Tárhelytitkosítás-hamisítás</string>
     <string name="spoof_storage_encryption_status_summary">A tárhely állapotának hamisítása titkosítottra.</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Rejtett fejlesztői állapot</string>
     <string name="hide_developer_status_summary">A fejlesztői állapot elrejtése az alkalmazások elől</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">A korábban beolvasott arc eltávolítása és új arc beolvasása</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Az arcbeolvasás megismétlése</string>
+    <string name="face_redo_confirm_btn">Újra</string>
+    <string name="face_redo_warning_msg">Szeretné eltávolítani a korábban beolvasott arcot és beolvasni egy újat?</string>
+    <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
+    <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
+    <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Ébresztés ujjlenyomattal</string>
+    <string name="fingerprint_wake_unlock_touch">Eseményfigyelés kikapcsolt képernyőn</string>
+    <string name="fingerprint_wake_unlock_press">Eseményfigyelés csak bekapcsolt képernyőn</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Okos 5G</string>
+    <string name="smart_5g_summary">Az akkufogyasztás csökkentése érdekében automatikusan vált az 5G és a 4G között</string>
 </resources>
