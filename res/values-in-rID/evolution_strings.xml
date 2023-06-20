@@ -291,26 +291,12 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Tampilkan hamparan papan klip</string>
     <string name="show_clipboard_overlay_summary">Tampilkan hamparan di sudut kiri bawah layar ketika sesuatu disalin ke papan klip</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ticker musik ambien</string>
-    <string name="pulse_on_new_tracks_summary">Tampilkan Tampilan Ambien saat trek musik baru diputar</string>
-    <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
-    <string name="face_redo_confirm_btn">Ulangi</string>
-    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
-    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
-    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
-    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
-    <string name="skip_biometric_auth_confirmation_title">Lewati konfirmasi secara manual</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
     <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewati trek musik</string>
     <string name="gesture_playback_control_delay">tunda</string>
     <string name="unit_hz">Hz</string>
     <string name="unit_times">Waktu</string>
-    <!-- Screen resolution -->
-    <string name="custom_screen_resolution_title">Resolusi layar kustom</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Setel ulang statistik?</string>
     <string name="battery_stats_message">Statistik riwayat baterai akan disetel ulang</string>
@@ -335,6 +321,9 @@
     <string name="in_call_notifications_title">Notifikasi dalam panggilan</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Suara NFC</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Tampilan Ambien</string>
+    <string name="doze_enabled_summary">Apakah akan mengaktifkan fungsi paket doze</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Mode Tidur</string>
     <string name="sleep_mode_summary_on">Aktif / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
@@ -438,8 +427,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Pemeriksaan konektivitas</string>
     <string name="captive_portal_summary">Tentukan apakah perangkat dapat terhubung ke internet, dengan menghubungi Google. Juga digunakan untuk mendeteksi captive portal.</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Mode tugas sementara</string>
     <string name="transistent_task_mode_dialog_title">Mode tugas sementara (Mulai ulang perangkat Anda untuk menerapkan perubahan)</string>
@@ -453,39 +440,31 @@
     <string name="prevent_pointer_acceleration_wheel">Hanya roda</string>
     <string name="prevent_pointer_acceleration_pointer">Hanya penunjuk</string>
     <string name="prevent_pointer_acceleration_none">Tidak ada</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Tampilan Ambien</string>
-    <string name="doze_enabled_summary">Apakah akan mengaktifkan fungsi paket doze</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Tampilkan Ambien</string>
     <string name="doze_gesture_ambient_summary">Tampilkan Tampilan Ambien alih-alih sepenuhnya membangunkan layar</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Izinkan akses jaringan</string>
-    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
-    <string name="data_usage_app_restrict_mobile">Data Seluler</string>
-    <string name="data_usage_app_restrict_mobile_summary">Aktifkan penggunaan data seluler</string>
-    <string name="data_usage_app_restrict_vpn">Data VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Aktifkan penggunaan data VPN</string>
-    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">Batasi lalu lintas jaringan cleartext</string>
     <string name="cleartext_network_policy_summary">Memblokir semua lalu lintas jaringan non-tls. Membutuhkan konfigurasi DNS Pribadi. Catatan: Tanpa pengecualian eksplisit, aplikasi yang menggunakan lalu lintas cleartext mungkin tidak berfungsi</string>
-    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
-    <string name="user_disallow_install_apps">Larang menginstal aplikasi</string>
-    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
-    <string name="user_disallow_install_apps_unknown_sources">Larang penginstalan aplikasi dari sumber pihak ketiga</string>
-    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
-    <string name="data_usage_app_restrict_background_all">Akses jaringan latar belakang</string>
-    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
-    <string name="data_usage_app_restrict_background_all_summary">Aktifkan penggunaan jaringan di latar belakang</string>
-    <!-- Disable 5G in battery saver -->
-    <string name="battery_saver_5g_title">Nonaktifkan 5G</string>
-    <string name="battery_saver_5g_summary">Nonaktifkan 5G untuk menghemat daya saat Penghemat Baterai aktif</string>
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Gunakan pemalsuan enkripsi penyimpanan</string>
     <string name="spoof_storage_encryption_status_summary">Status palsu enkripsi penyimpanan menjadi terenkripsi</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Sembunyikan status pengembang</string>
     <string name="hide_developer_status_summary">Sembunyikan status pengembang dari aplikasi</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Sentuh sensor sidik jari untuk membuka kunci</string>
+    <string name="fingerprint_wake_unlock_touch">Mendeteksi saat layar mati</string>
+    <string name="fingerprint_wake_unlock_press">Hanya mendeteksi setelah layar menyala</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Cerdas</string>
+    <string name="smart_5g_summary">Secara otomatis beralih antara 5G dan 4G untuk mengurangi konsumsi baterai</string>
 </resources>
