@@ -291,26 +291,12 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Afficher l\'IU du presse-papiers</string>
     <string name="show_clipboard_overlay_summary">Afficher une IU dans le coin inférieur gauche de l\'écran lorsque quelque chose est copié dans le presse-papiers</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Informations sur la musique en mode ambient</string>
-    <string name="pulse_on_new_tracks_summary">Allume l\'écran en mode Ambiant quand une nouvelle piste musicale est jouée</string>
-    <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Effacer le visage scanné existant et créer un nouveau scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Scanner à nouveau le visage</string>
-    <string name="face_redo_confirm_btn">Recommencer</string>
-    <string name="face_redo_warning_msg">Voulez-vous effacer le visage scanné existant et refaire un scan ?</string>
-    <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
-    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
-    <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
-    <string name="skip_biometric_auth_confirmation_title">Ignorer la confirmation manuelle</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Contrôle de lecture</string>
     <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume changera la piste musicale</string>
     <string name="gesture_playback_control_delay">délai</string>
     <string name="unit_hz">Hz</string>
     <string name="unit_times">Nombre de fois</string>
-    <!-- Screen resolution -->
-    <string name="custom_screen_resolution_title">Résolution d\'écran personnalisée</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Réinitialiser les statistiques?</string>
     <string name="battery_stats_message">Les données d\'utilisation de la batterie seront perdues</string>
@@ -335,6 +321,9 @@
     <string name="in_call_notifications_title">Notification d\'appel</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Son NFC</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Affichage ambiant</string>
+    <string name="doze_enabled_summary">Activer ou non la fonctionnalité du paquet doze</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Mode veille</string>
     <string name="sleep_mode_summary_on">Activé / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
@@ -438,8 +427,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Vérification de la connectivité</string>
     <string name="captive_portal_summary">Détermine si l\'appareil peut se connecter à Internet, en contactant Google. Également utilisé pour détecter les portails captifs.</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Lier les volumes de la sonnerie &amp; des notifications</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Mode tâche trantitoire</string>
     <string name="transistent_task_mode_dialog_title">Mode tâche transistoire (Redémarrez votre appareil pour appliquer les modifications)</string>
@@ -453,39 +440,31 @@
     <string name="prevent_pointer_acceleration_wheel">Roue uniquement</string>
     <string name="prevent_pointer_acceleration_pointer">Pointeur uniquement</string>
     <string name="prevent_pointer_acceleration_none">Aucun</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Affichage ambiant</string>
-    <string name="doze_enabled_summary">Activer ou non la fonctionnalité du paquet doze</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Afficher l\'affichage ambiant</string>
     <string name="doze_gesture_ambient_summary">Afficher l\'affichage ambiant au lieu de réveiller complètement l\'écran</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Autoriser l\'accès au réseau</string>
-    <string name="data_usage_app_restrict_all_summary">Activer l\'utilisation du réseau</string>
-    <string name="data_usage_app_restrict_mobile">Données mobiles</string>
-    <string name="data_usage_app_restrict_mobile_summary">Activer l\'utilisation des données mobiles</string>
-    <string name="data_usage_app_restrict_vpn">Données VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Activer l\'utilisation des données VPN</string>
-    <string name="data_usage_app_restrict_wifi">Données Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Activer l\'utilisation des données Wi\u2011Fi</string>
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">Restreindre le trafic réseau en texte clair</string>
     <string name="cleartext_network_policy_summary">Bloque tout le trafic réseau non-TLS. Nécessite une configuration DNS privée. Note : Sans exemptions explicites, les applications qui utilisent du trafic en clair peuvent ne pas fonctionner</string>
-    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
-    <string name="user_disallow_install_apps">Interdire l\'installation d\'applications</string>
-    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
-    <string name="user_disallow_install_apps_unknown_sources">Interdire l\'installation d\'applications provenant de sources tierces</string>
-    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
-    <string name="data_usage_app_restrict_background_all">Accès au réseau en arrière-plan</string>
-    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
-    <string name="data_usage_app_restrict_background_all_summary">Activer l\'utilisation du réseau en arrière-plan</string>
-    <!-- Disable 5G in battery saver -->
-    <string name="battery_saver_5g_title">Eteindre 5G</string>
-    <string name="battery_saver_5g_summary">Désactiver la 5G pour économiser de l\'énergie lorsque l\'économiseur de batterie est activé</string>
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Utiliser l\'usurpation du chiffrement de stockage</string>
     <string name="spoof_storage_encryption_status_summary">Usurper un statut chiffré pour le stockage non-chiffré</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Masquer le statut de développeur</string>
     <string name="hide_developer_status_summary">Masquer le statut de développeur aux applications</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Effacer le visage scanné existant et créer un nouveau scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Scanner à nouveau le visage</string>
+    <string name="face_redo_confirm_btn">Recommencer</string>
+    <string name="face_redo_warning_msg">Voulez-vous effacer le visage scanné existant et refaire un scan ?</string>
+    <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
+    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
+    <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Touchez le lecteur d\'empreintes digitales pour déverrouiller</string>
+    <string name="fingerprint_wake_unlock_touch">Écouter les événements lorsque l\'écran est éteint</string>
+    <string name="fingerprint_wake_unlock_press">Écouter uniquement les événements une fois que l\'écran est allumé</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Intelligente</string>
+    <string name="smart_5g_summary">Basculer automatiquement entre 5G et 4G pour réduire la consommation de la batterie</string>
 </resources>
