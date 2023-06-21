@@ -147,7 +147,7 @@ public class CustomScreenResolutionController extends BasePreferenceController i
                 return;
             }
             final DisplayDensityUtils density = new DisplayDensityUtils(mContext);
-            mOldDensity.set(density.getValues()[density.getCurrentIndex()]);
+            mOldDensity.set(density.getDefaultDisplayDensityValues()[density.getCurrentIndexForDefaultDisplay()]);
             mPreviousWidth.set(getCurrentWidth());
 
             // Register itself as a display listener
@@ -191,7 +191,7 @@ public class CustomScreenResolutionController extends BasePreferenceController i
             final DisplayDensityUtils density = new DisplayDensityUtils(mContext);
 
             // Get available density values and current resolution width
-            int[] densityValues = density.getValues();
+            int[] densityValues = density.getDefaultDisplayDensityValues();
             int newWidth = getCurrentWidth();
 
             // Scale the DPI based on the following formula:
@@ -214,8 +214,7 @@ public class CustomScreenResolutionController extends BasePreferenceController i
             Log.d(TAG,
                     "Original dpi: " + mOldDensity + ", would like to change to " + newDensity
                             + " actually set to " + densityValues[idx]);
-            DisplayDensityUtils.setForcedDisplayDensity(Display.DEFAULT_DISPLAY,
-                    densityValues[idx]);
+            density.setForcedDisplayDensity(idx);
 
             // Update values
             mPreviousWidth.set(newWidth);
