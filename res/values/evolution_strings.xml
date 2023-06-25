@@ -573,4 +573,7 @@
 
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Custom screen resolution</string>
+
+    <!-- Brightness slider haptic -->
+    <string name="brightness_slider_haptic_title">Vibrate on brightness slider changes</string>
 </resources>
