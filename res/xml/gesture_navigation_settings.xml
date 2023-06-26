@@ -56,6 +56,7 @@
             android:entries="@array/navigation_bar_ime_space_entries"
             android:entryValues="@array/navigation_bar_ime_space_values" />
 
+        <!--
         <com.evolution.settings.preference.SecureSettingSwitchPreference
             android:key="back_gesture_arrow"
             android:title="@string/back_gesture_arrow_title"
@@ -67,6 +68,7 @@
             android:title="@string/back_gesture_haptic_title"
             android:summary="@string/back_gesture_haptic_summary"
             android:defaultValue="false" />
+        -->
     </PreferenceCategory>
 
     <PreferenceCategory
