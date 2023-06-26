@@ -576,4 +576,7 @@
 
     <!-- Brightness slider haptic -->
     <string name="brightness_slider_haptic_title">Vibrate on brightness slider changes</string>
+
+    <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_text_reading_options_translatable_summary">Customize display size, font &amp; text</string>
 </resources>
