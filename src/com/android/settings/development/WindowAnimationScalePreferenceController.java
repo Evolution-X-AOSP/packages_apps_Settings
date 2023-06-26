@@ -38,7 +38,7 @@ public class WindowAnimationScalePreferenceController extends
     @VisibleForTesting
     static final int WINDOW_ANIMATION_SCALE_SELECTOR = 0;
     @VisibleForTesting
-    static final float DEFAULT_VALUE = 0.8f;
+    static final float DEFAULT_VALUE = 1f;
 
     private final IWindowManager mWindowManager;
     private final String[] mListValues;
