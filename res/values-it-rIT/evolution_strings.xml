@@ -302,6 +302,9 @@
     <string name="battery_stats_message">I dati di utilizzo della batteria andranno persi</string>
     <!-- Battery temperature -->
     <string name="battery_temp">Temperatura</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Animazione gesto indietro</string>
+    <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto indietro</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Individua il sensore d\'impronte digitali sul retro del tuo telefono.</string>
@@ -461,9 +464,10 @@
     <string name="fingerprint_wake_unlock_title">Tocca l\'impronta digitale per sbloccare</string>
     <string name="fingerprint_wake_unlock_touch">Monitora gli eventi a schermo spento</string>
     <string name="fingerprint_wake_unlock_press">Monitora gli eventi solo quando lo schermo è acceso</string>
-    <!-- Smart 5G -->
-    <string name="smart_5g_title">5G intelligente</string>
-    <string name="smart_5g_summary">Cambia automaticamente tra 5G e 4G per ridurre il consumo di batteria</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Risoluzione dello schermo personalizzata</string>
+    <!-- Brightness slider haptic -->
+    <string name="brightness_slider_haptic_title">Vibra al variare del cursore della luminosità</string>
+    <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_text_reading_options_translatable_summary">Personalizza le dimensioni dello schermo e del carattere</string>
 </resources>
