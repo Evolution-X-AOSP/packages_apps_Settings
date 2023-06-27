@@ -32,9 +32,6 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Свайп для создания снимка экрана</string>
     <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами для создания снимка экрана</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Предотвращать случайное пробуждение</string>
-    <string name="proximity_wake_summary">Проверять датчик приближения при выходе из режима сна</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Минимальная частота обновления</string>
     <string name="max_refresh_rate_title">Максимальная частота обновления</string>
@@ -93,9 +90,6 @@
     <string name="smart_charging_reset_stats_title">Сбрасывать статистику батареи</string>
     <string name="smart_charging_reset_stats_summary">Сброс статистики батареи после достижения определенного уровня заряда</string>
     <string name="smart_charging_intro_text">Умная зарядка позволяет установить максимальный уровень зарядки для продления срока службы батареи</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Режим \"В кармане\"</string>
-    <string name="pocket_judge_summary">Блокировка экрана и кнопки включения, когда устройство находится в кармане</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешать клиентам точки доступа этого устройства использовать VPN для исходящих подключени</string>
@@ -427,19 +421,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Проверка соединения</string>
     <string name="captive_portal_summary">Проверяет, может ли устройство подключиться к Интернету, связавшись с Google. Также используется для обнаружения порталов авторизации.</string>
-    <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">Режим временных задач</string>
-    <string name="transistent_task_mode_dialog_title">Режим временных задач (перезагрузите устройство, чтобы применить изменения)</string>
-    <string name="transistent_task_mode_summary">Убирать приложения из недавних, с помощью кнопки «Назад».</string>
-    <string name="transistent_task_mode_default">Отключить (по умолчанию)</string>
-    <string name="transistent_task_mode_allow">Включить (некоторые приложения остановятся)</string>
-    <string name="transistent_task_mode_force">Принудительно (Переопределить поведение)</string>
-    <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">Ускорение указателя</string>
-    <string name="prevent_pointer_acceleration_full">Полная (указатель + колесо)</string>
-    <string name="prevent_pointer_acceleration_wheel">Только колесо</string>
-    <string name="prevent_pointer_acceleration_pointer">Только указатель</string>
-    <string name="prevent_pointer_acceleration_none">Ничего</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Показать События</string>
     <string name="doze_gesture_ambient_summary">Показывать Активный экран вместо полного пробуждения экрана</string>
