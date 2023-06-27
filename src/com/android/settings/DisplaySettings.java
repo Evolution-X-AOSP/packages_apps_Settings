@@ -20,16 +20,13 @@ import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.os.Bundle;
 
-import androidx.preference.Preference;
-
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
-import com.android.settings.display.EnableBlursPreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
-import com.android.settings.display.PocketJudgePreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
+import com.android.settings.display.EnableBlursPreferenceController;
 import com.android.settings.display.ThemePreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -46,7 +43,6 @@ import java.util.List;
 public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
 
-    public static final String KEY_PROXIMITY_ON_WAKE = "proximity_on_wake";
     private static final String KEY_HIGH_TOUCH_POLLING_RATE = "high_touch_polling_rate_enable";
     private static final String KEY_HIGH_TOUCH_SENSITIVITY = "high_touch_sensitivity_enable";
 
@@ -68,15 +64,6 @@ public class DisplaySettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-
-        final Preference proximityWakePreference =
-                (Preference) getPreferenceScreen().findPreference(KEY_PROXIMITY_ON_WAKE);
-        final boolean enableProximityOnWake =
-                getResources().getBoolean(com.android.internal.R.bool.config_proximityCheckOnWake);
-
-        if (!enableProximityOnWake && proximityWakePreference != null){
-            getPreferenceScreen().removePreference(proximityWakePreference);
-        }
     }
 
     @Override
@@ -93,10 +80,9 @@ public class DisplaySettings extends DashboardFragment {
             Context context, Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new CameraGesturePreferenceController(context));
-        controllers.add(new EnableBlursPreferenceController(context));
         controllers.add(new LiftToWakePreferenceController(context));
-        controllers.add(new PocketJudgePreferenceController(context));
         controllers.add(new TapToWakePreferenceController(context));
+        controllers.add(new EnableBlursPreferenceController(context));
         controllers.add(new VrDisplayPreferenceController(context));
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
@@ -118,10 +104,6 @@ public class DisplaySettings extends DashboardFragment {
                     if (!hardware.isSupported(
                             LineageHardwareManager.FEATURE_HIGH_TOUCH_SENSITIVITY)) {
                         keys.add(KEY_HIGH_TOUCH_SENSITIVITY);
-                    }
-                    if (!context.getResources().getBoolean(
-                            com.android.internal.R.bool.config_proximityCheckOnWake)) {
-                        keys.add(KEY_PROXIMITY_ON_WAKE);
                     }
                     return keys;
                 }

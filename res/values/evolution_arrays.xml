@@ -193,32 +193,6 @@
        <item>2000</item>
     </string-array>
 
-    <!-- Transistent task mode -->
-    <string-array name="transistent_task_mode_entries">
-        <item>@string/transistent_task_mode_default</item>
-        <item>@string/transistent_task_mode_allow</item>
-        <item>@string/transistent_task_mode_force</item>
-    </string-array>
-    <string-array name="transistent_task_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <!-- Prevent pointer acceleration -->
-    <string-array name="prevent_pointer_acceleration_entries">
-        <item>@string/prevent_pointer_acceleration_full</item>
-        <item>@string/prevent_pointer_acceleration_wheel</item>
-        <item>@string/prevent_pointer_acceleration_pointer</item>
-        <item>@string/prevent_pointer_acceleration_none</item>
-    </string-array>
-    <string-array name="prevent_pointer_acceleration_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
     <!-- Face Unlock -->
      <string-array name="face_unlock_method_entries">
          <item>@string/face_unlock_method_default</item>

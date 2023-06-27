@@ -63,12 +63,6 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.display.ScreenTimeoutSettings"
             settings:controller="com.android.settings.display.ScreenTimeoutPreferenceController"/>
-
-        <SwitchPreference
-            android:key="pocket_judge"
-            android:title="@string/pocket_judge_title"
-            android:summary="@string/pocket_judge_summary" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -228,12 +222,6 @@
             android:key="tap_to_wake"
             android:title="@string/tap_to_wake"
             android:summary="@string/tap_to_wake_summary"/>
-
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
-            android:key="proximity_on_wake"
-            android:title="@string/proximity_wake_title"
-            android:summary="@string/proximity_wake_summary"
-            android:defaultValue="@*android:bool/config_proximityCheckOnWakeEnabledByDefault" />
 
         <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
