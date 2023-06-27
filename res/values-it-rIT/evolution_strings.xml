@@ -32,9 +32,6 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Scorri per scattare uno screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Scorri con tre dita per scattare uno screenshot</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Impedisci risvegli accidentali</string>
-    <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di accendere lo schermo</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Frequenza di aggiornamento minima</string>
     <string name="max_refresh_rate_title">Frequenza di aggiornamento massima</string>
@@ -93,9 +90,6 @@
     <string name="smart_charging_reset_stats_title">Ripristina le statistiche della batteria</string>
     <string name="smart_charging_reset_stats_summary">Ripristina le statistiche della batteria dopo aver raggiunto il livello di ricarica definito dall\'utente</string>
     <string name="smart_charging_intro_text">La Ricarica Intelligente ti consente di impostare il livello di ricarica massimo per estendere la vita della tua batteria</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Rilevamento della tasca</string>
-    <string name="pocket_judge_summary">Blocca lo schermo e gli input dei pulsanti quando il dispositivo è in tasca</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Consenti ai clienti di usare le VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
@@ -427,19 +421,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Controllo connettività</string>
     <string name="captive_portal_summary">Determina se il dispositivo può connettersi a internet contattando Google. Viene utilizzato anche per rilevare i captive portal.</string>
-    <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">Modalità operativa transitoria</string>
-    <string name="transistent_task_mode_dialog_title">Modalità operativa transitoria (riavvia il dispositivo per applicare le modifiche)</string>
-    <string name="transistent_task_mode_summary">Rimuovi le app dai recenti quando l\'ultima attività viene chiusa utilizzando il pulsante indietro.</string>
-    <string name="transistent_task_mode_default">Disabilitato (predefinito)</string>
-    <string name="transistent_task_mode_allow">Abilitato (alcune app resteranno attive)</string>
-    <string name="transistent_task_mode_force">Forza (sovrascrivi il comportamento dell\'app)</string>
-    <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">Accelerazione puntatore</string>
-    <string name="prevent_pointer_acceleration_full">Completo (puntatore + rotellina)</string>
-    <string name="prevent_pointer_acceleration_wheel">Solo rotellina</string>
-    <string name="prevent_pointer_acceleration_pointer">Solo puntatore</string>
-    <string name="prevent_pointer_acceleration_none">Nessuno</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Mostra l\'Ambient Display</string>
     <string name="doze_gesture_ambient_summary">Mostra l\'Ambient Display invece di accendere completamente lo schermo</string>
@@ -467,4 +448,6 @@
     <string name="brightness_slider_haptic_title">Vibra al variare del cursore della luminosità</string>
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_translatable_summary">Personalizza le dimensioni dello schermo e del carattere</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
 </resources>
