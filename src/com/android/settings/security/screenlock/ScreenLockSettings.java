@@ -86,7 +86,6 @@ public class ScreenLockSettings extends DashboardFragment
                 context, MY_USER_ID, lockPatternUtils));
         controllers.add(new QuickUnlockPreferenceController(
                 context, MY_USER_ID, lockPatternUtils));
-        controllers.add(new FingerprintUnlockPreferenceController(context));
         controllers.add(new OwnerInfoPreferenceController(context, parent));
         return controllers;
     }
