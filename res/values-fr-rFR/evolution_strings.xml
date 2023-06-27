@@ -467,4 +467,6 @@
     <string name="brightness_slider_haptic_title">Vibrer lors des changements du curseur de luminosité</string>
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_translatable_summary">Personnaliser la taille de l\'affichage, la police &amp; le texte</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Lier les volumes de la sonnerie &amp; des notifications</string>
 </resources>
