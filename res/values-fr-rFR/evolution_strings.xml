@@ -32,9 +32,6 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Balayer pour prendre une capture d\'écran</string>
     <string name="swipe_to_screenshot_gesture_summary">Balayer l\'écran avec trois doigts pour faire une capture d\'écran</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
-    <string name="proximity_wake_summary">Utiliser le capteur de proximité pour prévenir les réveils accidentels de l\'écran</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
     <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
@@ -93,9 +90,6 @@
     <string name="smart_charging_reset_stats_title">Réinitialiser les statistiques de batterie</string>
     <string name="smart_charging_reset_stats_summary">Réinitialiser les statistiques de la batterie après avoir atteint le niveau de charge défini par l\'utilisateur</string>
     <string name="smart_charging_intro_text">La charge intelligente vous permet de définir le niveau de charge maximal pour prolonger la durée de vie de votre batterie</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Détection de poche</string>
-    <string name="pocket_judge_summary">Bloquer l\'utilisation des boutons ou de l\'écran lorsque l\'appareil est dans une poche</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Autoriser les clients à utiliser des VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permettre aux clients du point d\'accès d\'utiliser les connexions VPN de cet appareil</string>
@@ -427,19 +421,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Vérification de la connectivité</string>
     <string name="captive_portal_summary">Détermine si l\'appareil peut se connecter à Internet, en contactant Google. Également utilisé pour détecter les portails captifs.</string>
-    <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">Mode tâche trantitoire</string>
-    <string name="transistent_task_mode_dialog_title">Mode tâche transistoire (Redémarrez votre appareil pour appliquer les modifications)</string>
-    <string name="transistent_task_mode_summary">Fermer les applications des applications récentes lorsque la dernière activité est fermée en utilisant le bouton \"Retour\".</string>
-    <string name="transistent_task_mode_default">Désactivé (par défaut)</string>
-    <string name="transistent_task_mode_allow">Activer (certaines applications resteront)</string>
-    <string name="transistent_task_mode_force">Forcer (outrepasser le comportement de l\'application)</string>
-    <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">Accélération du pointeur</string>
-    <string name="prevent_pointer_acceleration_full">Plein (Pointeur + Roue)</string>
-    <string name="prevent_pointer_acceleration_wheel">Roue uniquement</string>
-    <string name="prevent_pointer_acceleration_pointer">Pointeur uniquement</string>
-    <string name="prevent_pointer_acceleration_none">Aucun</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Afficher l\'affichage ambiant</string>
     <string name="doze_gesture_ambient_summary">Afficher l\'affichage ambiant au lieu de réveiller complètement l\'écran</string>
