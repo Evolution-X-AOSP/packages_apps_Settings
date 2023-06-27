@@ -291,26 +291,12 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Показывать окно буфера обмена</string>
     <string name="show_clipboard_overlay_summary">Показывать содержимое буфера обмена в левом нижнем углу экрана, когда что-то копируется в буфер</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Функция «Сейчас играет»</string>
-    <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении нового трека</string>
-    <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить сохранённый снимок лица создать новый</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
-    <string name="face_redo_confirm_btn">Повторить</string>
-    <string name="face_redo_warning_msg">Вы хотите удалить существующий снимок лица и создать новый?</string>
-    <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
-    <string name="face_unlock_method_default">При включении экрана</string>
-    <string name="face_unlock_method_swipe">После свайпа на экране блокировки</string>
-    <string name="skip_biometric_auth_confirmation_title">Пропускать подтверждение вручную</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Управление воспроизведением</string>
     <string name="volume_button_music_control_summary">Когда экран выключен, длительное нажатие клавиш регулировки громкости переключает музыкальные треки</string>
     <string name="gesture_playback_control_delay">задержка</string>
     <string name="unit_hz">Гц</string>
     <string name="unit_times">Время</string>
-    <!-- Screen resolution -->
-    <string name="custom_screen_resolution_title">Пользовательское разрешение экрана</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Сбросить статистику?</string>
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
@@ -335,6 +321,9 @@
     <string name="in_call_notifications_title">Уведомления при звонке</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Звуки NFC</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Активный экран</string>
+    <string name="doze_enabled_summary">Следует ли включать функциональность пакета пробуждения</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Режим сна</string>
     <string name="sleep_mode_summary_on">Вкл / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
@@ -438,8 +427,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Проверка соединения</string>
     <string name="captive_portal_summary">Проверяет, может ли устройство подключиться к Интернету, связавшись с Google. Также используется для обнаружения порталов авторизации.</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Режим временных задач</string>
     <string name="transistent_task_mode_dialog_title">Режим временных задач (перезагрузите устройство, чтобы применить изменения)</string>
@@ -453,39 +440,33 @@
     <string name="prevent_pointer_acceleration_wheel">Только колесо</string>
     <string name="prevent_pointer_acceleration_pointer">Только указатель</string>
     <string name="prevent_pointer_acceleration_none">Ничего</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Активный экран</string>
-    <string name="doze_enabled_summary">Следует ли включать функциональность пакета пробуждения</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Показать События</string>
     <string name="doze_gesture_ambient_summary">Показывать Активный экран вместо полного пробуждения экрана</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Разрешить доступ к сети</string>
-    <string name="data_usage_app_restrict_all_summary">Включить использование сети</string>
-    <string name="data_usage_app_restrict_mobile">Мобильные данные</string>
-    <string name="data_usage_app_restrict_mobile_summary">Включить использование мобильных данных</string>
-    <string name="data_usage_app_restrict_vpn">Данные VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
-    <string name="data_usage_app_restrict_wifi">Использование Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wii\u2011Fi</string>
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">Ограничить сетевой трафик в чистом виде</string>
     <string name="cleartext_network_policy_summary">Блокирует весь non-TLS сетевой трафик. Требуется личная настройка DNS. Примечание: без явных исключений Tor и большинство VPN не будут работать</string>
-    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
-    <string name="user_disallow_install_apps">Запретить установку приложений</string>
-    <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
-    <string name="user_disallow_install_apps_unknown_sources">Запретить установку приложений из сторонних источников</string>
-    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
-    <string name="data_usage_app_restrict_background_all">Фоновый доступ к сети</string>
-    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
-    <string name="data_usage_app_restrict_background_all_summary">Включить использование сети в фоновом режиме</string>
-    <!-- Disable 5G in battery saver -->
-    <string name="battery_saver_5g_title">Выключить 5G</string>
-    <string name="battery_saver_5g_summary">Отключить 5G для экономии энергии при включенном энергосбережении</string>
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Использовать подмену шифрования хранилища</string>
     <string name="spoof_storage_encryption_status_summary">Подменить статус шифрования хранилища на зашифрованный</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Скрыть статус разработчика</string>
-    <string name="hide_developer_status_summary">Скрыть статус разработчика в приложениях</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить сохранённый снимок лица создать новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Вы хотите удалить существующий снимок лица и создать новый?</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
+    <string name="face_unlock_method_default">При включении экрана</string>
+    <string name="face_unlock_method_swipe">После свайпа на экране блокировки</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Коснитесь сканера отпечатка пальца для разблокировки</string>
+    <string name="fingerprint_wake_unlock_touch">Прослушивание событий при выключенном экране</string>
+    <string name="fingerprint_wake_unlock_press">Прослушивает события только после включения экрана</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Пользовательское разрешение экрана</string>
+    <!-- Brightness slider haptic -->
+    <string name="brightness_slider_haptic_title">Вибрация при изменении яркости ползунка</string>
+    <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_text_reading_options_translatable_summary">Настроить размер отображения, шрифта &amp; текста</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонка &amp; уведомлений</string>
 </resources>
