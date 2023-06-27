@@ -32,9 +32,6 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Жест трьома пальцями</string>
     <string name="swipe_to_screenshot_gesture_summary">Проведіть трьома пальцями для знімку екрану</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Запобігти випадковому вмиканню екрану</string>
-    <string name="proximity_wake_summary">Перевірте датчик наближення для пробудження екрану</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Мінімальна частота оновлення</string>
     <string name="max_refresh_rate_title">Максимальна частота оновлення</string>
@@ -93,9 +90,6 @@
     <string name="smart_charging_reset_stats_title">Скинути статистику батареї</string>
     <string name="smart_charging_reset_stats_summary">Скиньте статистику акумулятора після досягнення визначеного користувачем рівня зарядки</string>
     <string name="smart_charging_intro_text">«Розумне» заряджання дозволяє встановити максимальний рівень зарядки для продовження терміну служби батареї</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Режим \"У кишені\"</string>
-    <string name="pocket_judge_summary">Заблокувати екран та фізичні кнопки, коли пристрій перебуває в кишені</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати VPN-з\'єднання цього пристрою\u2019 для підключення до потоку</string>
@@ -427,19 +421,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Перевірка підключення</string>
     <string name="captive_portal_summary">Визначте, якщо пристрій може підключатися до інтернету, зв\'язавшись із Google. Також використовується для виявлення портальних порталів.</string>
-    <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">Режим тимчасового завдання</string>
-    <string name="transistent_task_mode_dialog_title">Режим тимчасового завдання (перезавантажте пристрій для застосування змін)</string>
-    <string name="transistent_task_mode_summary">Видалити програми з недавніх додатків, коли останні дії закриваються за допомогою кнопки назад.</string>
-    <string name="transistent_task_mode_default">Відключити (за замовчуванням)</string>
-    <string name="transistent_task_mode_allow">Увімкнути (Деякі програми залишаться)</string>
-    <string name="transistent_task_mode_force">Примусова (зміна поведінки додатку)</string>
-    <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">Прискорення вказівника</string>
-    <string name="prevent_pointer_acceleration_full">Повний (вказівник + колесо)</string>
-    <string name="prevent_pointer_acceleration_wheel">Тільки колесо</string>
-    <string name="prevent_pointer_acceleration_pointer">Тільки вказівник</string>
-    <string name="prevent_pointer_acceleration_none">Нічого</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Показати Ambient Display</string>
     <string name="doze_gesture_ambient_summary">Показувати на Ambient Display замість повного пробудження екрану вгору</string>
@@ -467,4 +448,6 @@
     <string name="brightness_slider_haptic_title">Вібрувати при зміні повзунка яскравості</string>
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_translatable_summary">Налаштування розміру дисплея, шрифту та &amp; тексту</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Гучність рінгтону &amp; повідомлень разом</string>
 </resources>
