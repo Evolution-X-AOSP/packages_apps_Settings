@@ -32,9 +32,6 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Vuốt để chụp màn hình</string>
     <string name="swipe_to_screenshot_gesture_summary">Vuốt ba ngón tay để chụp màn hình</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Chặn tình cờ bật màn hình</string>
-    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi bật màn hình</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Tần số quét tối thiểu</string>
     <string name="max_refresh_rate_title">Tần số quét tối đa</string>
@@ -93,9 +90,6 @@
     <string name="smart_charging_reset_stats_title">Đặt lại thống kê pin</string>
     <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt mức sạc do người dùng xác định</string>
     <string name="smart_charging_intro_text">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Phát hiện trong túi</string>
-    <string name="pocket_judge_summary">Chặn bật màn hình và các nút bấm khi thiết bị ở trong túi</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Cho phép các máy khách kết nối với điểm truy cập sử dụng VPN của thiết bị để kết nối đến máy chủ</string>
@@ -427,19 +421,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Kiểm tra kết nối</string>
     <string name="captive_portal_summary">Xác định xem thiết bị có thể kết nối với Internet hay không bằng cách kết nối với dịch vụ Google. Cũng được sử dụng để phát hiện các cổng kết nối cố định.</string>
-    <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">Chế độ nhiệm vụ chờ</string>
-    <string name="transistent_task_mode_dialog_title">Chế độ tác vụ chờ (Khởi động lại thiết bị của bạn để áp dụng các thay đổi)</string>
-    <string name="transistent_task_mode_summary">Loại bỏ các ứng dụng khỏi các ứng dụng gần đây khi hoạt động cuối cùng bị đóng bằng nút quay lại.</string>
-    <string name="transistent_task_mode_default">Vô hiệu hoá (mặc định)</string>
-    <string name="transistent_task_mode_allow">Bật (Một số ứng dụng sẽ ở lại)</string>
-    <string name="transistent_task_mode_force">Buộc (Ghi đè hành vi ứng dụng)</string>
-    <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">Vị trí con trỏ</string>
-    <string name="prevent_pointer_acceleration_full">Đầy đủ (Con trỏ + Bánh xe)</string>
-    <string name="prevent_pointer_acceleration_wheel">Chỉ có bánh xe</string>
-    <string name="prevent_pointer_acceleration_pointer">Chỉ con trỏ</string>
-    <string name="prevent_pointer_acceleration_none">Không</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Hiển thị màn hình xem nhanh</string>
     <string name="doze_gesture_ambient_summary">Hiển thị màn hình xem nhanh thay vì đánh thức hoàn toàn màn hình</string>
