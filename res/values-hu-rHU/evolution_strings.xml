@@ -32,9 +32,6 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Képernyőkép csúsztatással</string>
     <string name="swipe_to_screenshot_gesture_summary">Csúsztasson három ujjal képernyőkép készítéséhez</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Véletlenébresztés-gátló</string>
-    <string name="proximity_wake_summary">Közelségérzékelő ellenőrzése a képernyő felébresztése előtt</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Képernyőfrissítési minimum</string>
     <string name="max_refresh_rate_title">Képernyőfrissítési maximum</string>
@@ -93,9 +90,6 @@
     <string name="smart_charging_reset_stats_title">Akkustatisztikák törlése</string>
     <string name="smart_charging_reset_stats_summary">Amikor elérte a felhasználó által beállított töltési szintet, alaphelyzetbe állítja az akkustatisztikát</string>
     <string name="smart_charging_intro_text">Az \'Okos töltés\' lehetővé teszi a maximális töltési szint beállítását az akkumulátor élettartamának meghosszabbítása érdekében</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Zsebészlelés</string>
-    <string name="pocket_judge_summary">Ha a készüléket zsebben érzékeli, megakadályozza a véletlen érintéseket</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Engedélyezi a klienseknek a VPN-használatot</string>
     <string name="tethering_allow_vpn_upstreams_summary">Engedélyezze a hotspot-klienseknek, hogy a készülék VPN-kapcsolatait felfelé csatlakoztathassák</string>
@@ -427,19 +421,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Kapcsolódási teszt</string>
     <string name="captive_portal_summary">Internet-csatlakozási képesség behatárolása a Google-val való kapcsolódás alatt. Nyilvános, de rögzített portálok észlelésére is használható.</string>
-    <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">Átmeneti-feladatmód</string>
-    <string name="transistent_task_mode_dialog_title">Átmeneti-feladatmód (Újraindítás szükséges a változtatásokhoz)</string>
-    <string name="transistent_task_mode_summary">A \'Vissza\' gombbal elvethetők a legutóbb használt alkalmazások, amikor az utolsó tevékenység bezárul.</string>
-    <string name="transistent_task_mode_default">Kikapcsolva (alapértelmezett)</string>
-    <string name="transistent_task_mode_allow">Engedélyezve (néhány alkalmazás megmarad)</string>
-    <string name="transistent_task_mode_force">Erőltetve (felülír minden alkalmazásszabályt)</string>
-    <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">Mutató-gyorsulás</string>
-    <string name="prevent_pointer_acceleration_full">Teljes (Mutató + Kerék)</string>
-    <string name="prevent_pointer_acceleration_wheel">Csak a kerék</string>
-    <string name="prevent_pointer_acceleration_pointer">Csak a mutató</string>
-    <string name="prevent_pointer_acceleration_none">Nincs</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Csak a \'Környezeti\'</string>
     <string name="doze_gesture_ambient_summary">A képernyő teljes felébresztése helyett a \'Környezeti kijelző\' megjelenítése</string>
@@ -467,4 +448,6 @@
     <string name="brightness_slider_haptic_title">Rezgő visszajelzés a csúszkához</string>
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_translatable_summary">Képernyőméret, font és szöveg testreszabása</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Csengőhang és értesítési hangok összekötése</string>
 </resources>
