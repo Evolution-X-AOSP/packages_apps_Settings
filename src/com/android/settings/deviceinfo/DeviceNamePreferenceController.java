@@ -81,9 +81,16 @@ public class DeviceNamePreferenceController extends BasePreferenceController
     private void initializeDeviceName() {
         String deviceName = Settings.Global.getString(mContext.getContentResolver(),
                 Settings.Global.DEVICE_NAME);
-        if (deviceName == null)
-            deviceName = Build.MODEL;
-        mDeviceName = SystemProperties.get(KEY_MARKET_NAME_PROP, deviceName);
+
+        // Try using market name if there is not set device name
+        if (deviceName == null) {
+            deviceName = SystemProperties.get(KEY_MARKET_NAME_PROP, null);
+        
+            // If market name is not available, fallback to device model
+            if (deviceName == null)
+                deviceName = Build.MODEL;
+        }
+        mDeviceName = deviceName;
     }
 
     @Override
