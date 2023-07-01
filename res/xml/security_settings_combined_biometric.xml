@@ -57,6 +57,11 @@
             settings:keywords="@string/keywords_biometric_unlock"
             settings:controller="com.android.settings.biometrics.combination.BiometricSettingsAppPreferenceController"/>
 
+        <com.evolution.settings.preference.SecureSettingSwitchPreference
+            android:key="ignore_auth_confirmation"
+            android:title="@string/skip_biometric_auth_confirmation_title"
+            android:dependency="biometric_settings_biometric_app"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
