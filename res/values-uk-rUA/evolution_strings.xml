@@ -364,7 +364,6 @@
     <string name="global_vpn_summary_any_vpn_active">Для цього спершу необхідно вимкнути всі активні VPN-під\'єднання</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Місце під клавіатурою</string>
-    <string name="navigation_bar_ime_space_summary">Сховати простір кнопки IME під клавіатурою</string>
     <string name="ime_narrow">Вузький</string>
     <string name="ime_default">За замовчуванням</string>
     <string name="ime_hidden">Прихований</string>
@@ -438,6 +437,7 @@
     <string name="face_unlock_method_title">Дозволити розблокування обличчям на екрані блокування</string>
     <string name="face_unlock_method_default">Коли екран увімкнено</string>
     <string name="face_unlock_method_swipe">При проведенні пальцем на екрані блокування</string>
+    <string name="skip_biometric_auth_confirmation_title">Пропустити ручне підтвердження</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Торкніться сенсору відбитка пальців, щоб розблокувати</string>
     <string name="fingerprint_wake_unlock_touch">Очікує на події поки екран вимкнено</string>
