@@ -364,7 +364,6 @@
     <string name="global_vpn_summary_any_vpn_active">Вам нужно сначала отключить все активные VPN соединения, чтобы включить это</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Отступ под клавиатурой</string>
-    <string name="navigation_bar_ime_space_summary">Скрыть отступ под клавиатурой</string>
     <string name="ime_narrow">Узкое</string>
     <string name="ime_default">По умолчанию</string>
     <string name="ime_hidden">Скрыть</string>
@@ -438,6 +437,7 @@
     <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
     <string name="face_unlock_method_default">При включении экрана</string>
     <string name="face_unlock_method_swipe">После свайпа на экране блокировки</string>
+    <string name="skip_biometric_auth_confirmation_title">Пропускать ручное подтверждение</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Коснитесь сканера отпечатка пальца для разблокировки</string>
     <string name="fingerprint_wake_unlock_touch">Прослушивание событий при выключенном экране</string>
