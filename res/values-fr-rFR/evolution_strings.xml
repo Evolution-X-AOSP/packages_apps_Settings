@@ -364,7 +364,6 @@
     <string name="global_vpn_summary_any_vpn_active">Vous devez d\'abord désactiver toutes les connexions VPN actives pour activer ceci</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Cacher l\'espace du bouton IME</string>
-    <string name="navigation_bar_ime_space_summary">Cacher l\'espace du bouton IME sous le clavier</string>
     <string name="ime_narrow">Fin</string>
     <string name="ime_default">Défaut</string>
     <string name="ime_hidden">Non visible</string>
@@ -438,6 +437,7 @@
     <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
     <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
+    <string name="skip_biometric_auth_confirmation_title">Ignorer la confirmation manuelle</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Touchez le lecteur d\'empreintes digitales pour déverrouiller</string>
     <string name="fingerprint_wake_unlock_touch">Écouter les événements lorsque l\'écran est éteint</string>

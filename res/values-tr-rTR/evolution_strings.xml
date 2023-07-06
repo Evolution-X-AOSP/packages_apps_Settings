@@ -32,9 +32,6 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Ekran görüntüsü için kaydır</string>
     <string name="swipe_to_screenshot_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
-    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
     <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
@@ -93,9 +90,6 @@
     <string name="smart_charging_reset_stats_title">Pil istatistiklerini sıfırla</string>
     <string name="smart_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırla</string>
     <string name="smart_charging_intro_text">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanıza olanak verir</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Cep algılama</string>
-    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın VPN bağlantısını kullanmasına izin ver</string>
@@ -370,7 +364,6 @@
     <string name="global_vpn_summary_any_vpn_active">Bunu etkinleştirmek için önce tüm etkin VPN bağlantılarını devre dışı bırakmanız gerekir</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanını gizle</string>
-    <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını gizle</string>
     <string name="ime_narrow">Dar</string>
     <string name="ime_default">Varsayılan</string>
     <string name="ime_hidden">Gizli</string>
@@ -427,19 +420,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Bağlantı kontrolü</string>
     <string name="captive_portal_summary">Google ile iletişime geçerek cihazın internete bağlanıp bağlanamayacağını belirleyin. Ayrıca sabit portalları tespit etmek için kullanılır.</string>
-    <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">Geçici görev modu</string>
-    <string name="transistent_task_mode_dialog_title">Geçici görev modu (Değişiklikleri uygulamak için cihazınızı yeniden başlatın)</string>
-    <string name="transistent_task_mode_summary">Son eylem geri tuşu ile kapatıldıysa uygulamaları son uygulamalarda bırak.</string>
-    <string name="transistent_task_mode_default">Devre dışı (Varsayılan)</string>
-    <string name="transistent_task_mode_allow">Etkin (Bazı uygulamalar kalacak)</string>
-    <string name="transistent_task_mode_force">Zorla ( Uygulama davranışını geçersiz kıl)</string>
-    <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">İşaretçi ivmesi</string>
-    <string name="prevent_pointer_acceleration_full">Tam ( İşaretçi + Tekerlek)</string>
-    <string name="prevent_pointer_acceleration_wheel">Sadece tekerlek</string>
-    <string name="prevent_pointer_acceleration_pointer">Sadece işaretçi</string>
-    <string name="prevent_pointer_acceleration_none">Hiçbiri</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Ortam ekranını göster</string>
     <string name="doze_gesture_ambient_summary">Ekranı tamamen uyandırmak yerine ortam ekranını göster</string>
@@ -449,9 +429,6 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Depolama şifreleme sahtekarlığını kullan</string>
     <string name="spoof_storage_encryption_status_summary">Depolama şifreleme durumunu şifreli olarak değiştirin.</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Geliştirici durumunu gizle</string>
-    <string name="hide_developer_status_summary">Uygulamalardan geliştirici durumunu gizle</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
@@ -460,11 +437,17 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <string name="skip_biometric_auth_confirmation_title">Manuel onaylamayı atla</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Kilidi açmak için parmak izinizi kullanın</string>
     <string name="fingerprint_wake_unlock_touch">Ekran kapalıylen etkinlikleri dinler</string>
     <string name="fingerprint_wake_unlock_press">Etkinlikleri yalnızca ekran açıkken dinler</string>
-    <!-- Smart 5G -->
-    <string name="smart_5g_title">Akıllı 5G</string>
-    <string name="smart_5g_summary">Pil tüketimini azaltmak için 5G ve 4G arasında otomatik olarak geçiş yapın</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Özel ekran çözünürlüğü</string>
+    <!-- Brightness slider haptic -->
+    <string name="brightness_slider_haptic_title">Parlaklık kaydırıcısı değiştiğinde titreşim</string>
+    <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_text_reading_options_translatable_summary">Ekran boyutunu, yazı tipini &amp; metin</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Zil &amp; bildirim sesini birleştir</string>
 </resources>
