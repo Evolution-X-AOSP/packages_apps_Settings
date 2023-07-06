@@ -364,7 +364,6 @@
     <string name="global_vpn_summary_any_vpn_active">Mielőtt engedélyezné le kell tiltania az összes aktív VPN-kapcsolatot</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">IME-gombhely</string>
-    <string name="navigation_bar_ime_space_summary">Az IME-gombhely beállításai</string>
     <string name="ime_narrow">Keskeny</string>
     <string name="ime_default">Alapértelmezett</string>
     <string name="ime_hidden">Rejtett</string>
@@ -438,6 +437,7 @@
     <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
     <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
     <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <string name="skip_biometric_auth_confirmation_title">A manuális megerősítés kihagyása</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Ébresztés ujjlenyomattal</string>
     <string name="fingerprint_wake_unlock_touch">Eseményfigyelés kikapcsolt képernyőn</string>
