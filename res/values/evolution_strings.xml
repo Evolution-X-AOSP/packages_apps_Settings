@@ -547,4 +547,7 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- Android Beam -->
+    <string name="android_beam_main_switch_title">Use Android Beam</string>
 </resources>
