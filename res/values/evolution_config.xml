@@ -28,9 +28,6 @@
     <!-- Whether to enable Lineage Fast Charge Prefernece -->
     <bool name="config_lineageFastChargeSupported">false</bool>
 
-    <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">false</bool>
-
     <!-- Max network scan search time in seconds -->
     <integer name="config_network_scan_helper_max_search_time_sec">300</integer>
 
