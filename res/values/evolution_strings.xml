@@ -543,11 +543,6 @@
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
     <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
 
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
-    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
-    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
-
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Custom screen resolution</string>
 

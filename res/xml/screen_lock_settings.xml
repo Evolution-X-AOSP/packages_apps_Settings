@@ -66,11 +66,4 @@
         android:title="@string/unlock_quick_unlock_control_title"
         android:summary="@string/unlock_quick_unlock_control_summary" />
 
-    <!-- Fingerprint wake-and-unlock toggle -->
-    <SwitchPreference
-        android:key="fingerprint_wake_unlock"
-        android:title="@string/fingerprint_wake_unlock_title"
-        android:summaryOn="@string/fingerprint_wake_unlock_touch"
-        android:summaryOff="@string/fingerprint_wake_unlock_press" />
-
 </PreferenceScreen>
