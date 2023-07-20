@@ -61,15 +61,6 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
 
-    <!-- Baseband -->
-    <Preference
-        android:key="base_band"
-        android:title="@string/baseband_version"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
-
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"
@@ -77,6 +68,18 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
+
+    <!-- Build maintainer -->
+    <Preference
+        android:key="os_build_maintainer"
+        android:title="@string/build_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildMaintainerPreferenceController">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/build_maintainer_telegram"/>
+    </Preference>
 
     <!-- Build status -->
     <Preference
@@ -96,17 +99,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildDatePreferenceController"/>
 
-    <!-- Build maintainer -->
+    <!-- Baseband -->
     <Preference
-        android:key="os_build_maintainer"
-        android:title="@string/build_maintainer"
+        android:key="base_band"
+        android:title="@string/baseband_version"
         android:summary="@string/summary_placeholder"
+        android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildMaintainerPreferenceController">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="@string/build_maintainer_telegram"/>
-    </Preference>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
 
     <!-- Build number -->
     <!--Preference
