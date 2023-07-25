@@ -21,6 +21,7 @@ import static com.android.settings.fuelgauge.BatteryBroadcastReceiver.BatteryUpd
 import android.annotation.Nullable;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.res.Resources;
 import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Bundle;
@@ -81,6 +82,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
     private static final String KEY_BATTERY_CHARGE_CYCLES = "battery_charge_cycles";
     private static final String KEY_BATTERY_TEMP = "battery_temp";
+    private static final String SMART_CHARGING = "smart_charging_key";
 
     private String mBatDesCap;
     private String mBatCurCap;
@@ -231,7 +233,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         updateSleepModeSummary();
 
         // Check availability of Smart Charging
-        Preference mSmartCharging = (Preference) findPreference("smart_charging_key");
+        Preference mSmartCharging = (Preference) findPreference(SMART_CHARGING);
         if (!getResources().getBoolean(com.android.internal.R.bool.config_smartChargingAvailable)) {
             getPreferenceScreen().removePreference(mSmartCharging);
         }
@@ -482,5 +484,18 @@ public class PowerUsageSummary extends PowerUsageBase implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.power_usage_summary);
+            new BaseSearchIndexProvider(R.xml.power_usage_summary) {
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    final Resources res = context.getResources();
+
+                    boolean mSmartChargingSupported = res.getBoolean(
+                            com.android.internal.R.bool.config_smartChargingAvailable);
+                    if (!mSmartChargingSupported)
+                        keys.add(SMART_CHARGING);
+
+                    return keys;
+                }
+            };
 }
