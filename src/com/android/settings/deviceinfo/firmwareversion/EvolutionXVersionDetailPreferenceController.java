@@ -45,7 +45,6 @@ public class EvolutionXVersionDetailPreferenceController extends BasePreferenceC
 
     private static final String KEY_EVOLUTION_BUILD_VERSION_PROP = "org.evolution.build_version";
     private static final String KEY_EVOLUTION_CODENAME_PROP = "org.evolution.build_codename";
-    private static final String KEY_EVOLUTION_DEVICE_PROP = "org.evolution.device";
     private static final String KEY_EVOLUTION_RELEASE_TYPE_PROP = "org.evolution.build_type";
     private static final String KEY_EVOLUTION_VERSION_PROP = "org.evolution.version.display";
 
@@ -130,11 +129,9 @@ public class EvolutionXVersionDetailPreferenceController extends BasePreferenceC
                 this.mContext.getString(R.string.device_info_default));
         String romCodename = SystemProperties.get(KEY_EVOLUTION_CODENAME_PROP,
                 this.mContext.getString(R.string.device_info_default));
-        String deviceCodename = SystemProperties.get(KEY_EVOLUTION_DEVICE_PROP,
-                this.mContext.getString(R.string.device_info_default));
         String romReleasetype = SystemProperties.get(KEY_EVOLUTION_RELEASE_TYPE_PROP,
                 this.mContext.getString(R.string.device_info_default));
-        String shortVersion = romVersion + " | " + romCodename + " | " + deviceCodename + " | " + romReleasetype;
+        String shortVersion = romVersion + " (" + romCodename + ") | " + romReleasetype;
         return shortVersion;
     }
 
