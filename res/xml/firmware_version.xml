@@ -52,7 +52,11 @@
         android:title="@string/about_device_name"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/build_device_url"/>
+    </Preference>
 
     <!-- Security patch -->
     <Preference
@@ -104,7 +108,7 @@
         settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildMaintainerPreferenceController">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="@string/build_maintainer_telegram"/>
+            android:data="@string/build_maintainer_donate_url"/>
     </Preference>
 
     <!-- Build date -->

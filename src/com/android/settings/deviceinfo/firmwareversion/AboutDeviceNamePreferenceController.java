@@ -22,6 +22,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.SystemProperties;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -36,6 +37,7 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
 
     private static final String KEY_BRAND_NAME_PROP = "ro.product.manufacturer";
     private static final String KEY_DEVICE_NAME_PROP = "org.evolution.device";
+    private static final String KEY_MARKET_NAME_PROP = "ro.product.marketname";
 
     public AboutDeviceNamePreferenceController(Context context, String key) {
         super(context, key);
@@ -52,7 +54,17 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
                 mContext.getString(R.string.device_info_default));
         String deviceCodename = SystemProperties.get(KEY_DEVICE_NAME_PROP,
                 mContext.getString(R.string.device_info_default));
-        String deviceModel = Build.MODEL;
-        return deviceBrand + " " + deviceModel + " | " + deviceCodename;
+        String deviceName = Settings.Global.getString(mContext.getContentResolver(),
+                Settings.Global.DEVICE_NAME);
+
+        // Try using market name if there is not set device name
+        if (deviceName == null) {
+            deviceName = SystemProperties.get(KEY_MARKET_NAME_PROP, null);
+
+            // If market name is not available, fallback to device model
+            if (deviceName == null)
+                deviceName = Build.MODEL;
+        }
+        return deviceBrand + " " + deviceName + " (" + deviceCodename + ")";
     }
 }
