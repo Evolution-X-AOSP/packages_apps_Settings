@@ -4653,8 +4653,7 @@
         <!-- The Evolver -->
         <activity android:name="Settings$EvolutionSettingsActivity"
                   android:label="@string/evolver_dashboard_title"
-                  android:exported="true"
-                  android:icon="@drawable/ic_homepage_evolution">
+                  android:exported="true">
             <intent-filter android:priority="1">
                 <action android:name="com.evolution.settings.EvolutionSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
