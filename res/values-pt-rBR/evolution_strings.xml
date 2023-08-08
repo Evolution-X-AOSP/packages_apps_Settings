@@ -11,6 +11,7 @@
     <string name="soc_model">Modelo do SoC</string>
     <string name="total_ram">Total de RAM</string>
     <!-- About device screen, Evolution X -->
+    <string name="about_device_name">Dispositivo</string>
     <string name="evolution_x_version">Versão da Evolution X</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Data da compilação</string>
@@ -32,6 +33,9 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Deslize para capturar a tela</string>
     <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para tirar uma captura de tela</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Impedir que a tela ligue acidentalmente</string>
+    <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
     <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
@@ -364,7 +368,6 @@
     <string name="global_vpn_summary_any_vpn_active">Primeiro, você precisa desativar todas as conexões de VPN ativas para habilitar isso</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Ocultar espaço do método de entrada</string>
-    <string name="navigation_bar_ime_space_summary">Ocultar espaço na parte inferior do teclado</string>
     <string name="ime_narrow">Estreito</string>
     <string name="ime_default">Padrão</string>
     <string name="ime_hidden">Oculto</string>
@@ -430,6 +433,9 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Mascarar informações de criptografia do armazenamento</string>
     <string name="spoof_storage_encryption_status_summary">Mudará o status de criptografia do armazenamento para criptografado quando não estiver.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ocultar status do desenvolvedor</string>
+    <string name="hide_developer_status_summary">Ocultar status de desenvolvedor de aplicativos</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Refazer escaneamento facial</string>
@@ -438,16 +444,17 @@
     <string name="face_unlock_method_title">Permitir desbloqueio facial na tela de bloqueio</string>
     <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
     <string name="face_unlock_method_swipe">Quando deslizar na tela de bloqueio</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Toque na impressão digital para desbloquear</string>
-    <string name="fingerprint_wake_unlock_touch">Aguarda por eventos enquanto a tela está desligada</string>
-    <string name="fingerprint_wake_unlock_press">Aguarda por eventos somente quando a tela está ligada</string>
+    <string name="skip_biometric_auth_confirmation_title">Ignorar a confirmação manual</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Resolução de tela personalizada</string>
-    <!-- Brightness slider haptic -->
-    <string name="brightness_slider_haptic_title">Vibrar ao alterar o controle deslizante de brilho</string>
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_translatable_summary">Personalizar tamanho da exibição, fonte e texto</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Associar volumes de toque e notificação</string>
+    <!-- Android Beam -->
+    <string name="android_beam_main_switch_title">Usar o Android Beam</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Toque duplo</string>
+    <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
+    <string name="doze_double_tap_summary">Pulsar notificações ao tocar duas vezes na tela</string>
 </resources>

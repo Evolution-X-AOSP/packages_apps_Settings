@@ -11,6 +11,7 @@
     <string name="soc_model">Mẫu SoC</string>
     <string name="total_ram">Tổng RAM</string>
     <!-- About device screen, Evolution X -->
+    <string name="about_device_name">Thiết bị</string>
     <string name="evolution_x_version">Phiên bản Evolution X</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Ngày dựng</string>
@@ -32,6 +33,9 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Vuốt để chụp màn hình</string>
     <string name="swipe_to_screenshot_gesture_summary">Vuốt ba ngón tay để chụp màn hình</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Chặn màn hình vô tình bật</string>
+    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi bật màn hình</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Tần số quét tối thiểu</string>
     <string name="max_refresh_rate_title">Tần số quét tối đa</string>
@@ -184,9 +188,9 @@
     <string name="auto_brightness_one_shot_title">Độ sáng tự động một lần</string>
     <string name="auto_brightness_one_shot_summary">Chỉ điều chỉnh độ sáng tự động duy nhất lúc màn hình được bật</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="ringer_mute_main_switch_title">Tắt âm media khi tắt chuông</string>
-    <string name="ringer_mute_speaker_media_title">Tắt âm media khi tắt chuông</string>
-    <string name="ringer_mute_text">Tắt âm lượng media khi chế độ chuông được đặt là im lặng. Khi ngắt kết nối với thiết bị Bluetooth ở chế độ im lặng, âm thanh media sẽ tự động tắt. \nNó sẽ không ảnh hướng đến thiết bị âm thanh bên ngoài và tai nghe.</string>
+    <string name="ringer_mute_main_switch_title">Tắt âm phương tiện khi tắt chuông</string>
+    <string name="ringer_mute_speaker_media_title">Tắt âm phương tiện khi tắt chuông</string>
+    <string name="ringer_mute_text">Tắt âm thanh phương tiện khi ở chế độ là im lặng. Khi ngắt kết nối với thiết bị Bluetooth ở chế độ im lặng, âm thanh media sẽ tự động tắt. \nĐiều này sẽ không ảnh hướng đến thiết bị âm thanh bên ngoài và tai nghe.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
     <string name="mute_sp_title">Không tiếp tục phát media sau khi âm lượng được khôi phục</string>
     <string name="mute_sp_summary">Đặt thời gian chờ của Dừng thông minh về 0 khi tắt âm lượng để tránh phát âm thanh ngoài ý muốn\n (Sẽ tự động phát khi có thời gian chờ khác 0 được đặt)</string>
@@ -346,7 +350,7 @@
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Cân bằng màu</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
-    <string name="color_mode_balance_red">Đỏ rực</string>
+    <string name="color_mode_balance_red">Đỏ đậm</string>
     <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_green">Xanh lá đậm</string>
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
@@ -364,7 +368,6 @@
     <string name="global_vpn_summary_any_vpn_active">Trước tiên, bạn cần tắt tất cả các kết nối VPN đang hoạt động để kích hoạt tính năng này</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Ẩn không gian nút IME</string>
-    <string name="navigation_bar_ime_space_summary">Ẩn không gian nút IME bên dưới bàn phím</string>
     <string name="ime_narrow">Thu hẹp</string>
     <string name="ime_default">Mặc định</string>
     <string name="ime_hidden">Ẩn</string>
@@ -438,16 +441,17 @@
     <string name="face_unlock_method_title">Cho phép mở khoá bằng khuôn mặt trên màn hình khoá</string>
     <string name="face_unlock_method_default">Khi màn hình được bật</string>
     <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Chạm vân tay để mở khoá</string>
-    <string name="fingerprint_wake_unlock_touch">Quét vân tay trong khi màn hình tắt</string>
-    <string name="fingerprint_wake_unlock_press">Chỉ quét vân tay khi màn hình bật</string>
+    <string name="skip_biometric_auth_confirmation_title">Bỏ qua xác nhận thủ công</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Tùy chỉnh độ phân giải màn hình</string>
-    <!-- Brightness slider haptic -->
-    <string name="brightness_slider_haptic_title">Phản hồi rung khi thay đổi độ sáng</string>
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_translatable_summary">Tùy chỉnh kích thước hiển thị, phông chữ &amp; văn bản</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
+    <!-- Android Beam -->
+    <string name="android_beam_main_switch_title">Sử dụng Android Beam</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Chạm hai lần</string>
+    <string name="doze_double_tap_title">Chạm hai lần để kiểm tra điện thoại</string>
+    <string name="doze_double_tap_summary">Hiển thị thông báo khi chạm hai lần</string>
 </resources>

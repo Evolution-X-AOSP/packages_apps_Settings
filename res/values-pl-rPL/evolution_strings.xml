@@ -11,6 +11,7 @@
     <string name="soc_model">Procesor</string>
     <string name="total_ram">Całkowita ilość pamięci RAM</string>
     <!-- About device screen, Evolution X -->
+    <string name="about_device_name">Urządzenie</string>
     <string name="evolution_x_version">Wersja Evolution X</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Data kompilacji</string>
@@ -42,11 +43,9 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Szybkie ładowanie</string>
     <string name="fast_charging_summary">Wyłącz, aby zmniejszyć ilość ciepła wytwarzanego przez urządzenie podczas ładowania lub w celu wydłużenia żywotności baterii</string>
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Dźwięk zrzutu ekranu</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Inteligentne Wstrzymywanie</string>
-    <string name="adaptive_playback_master_switch_title">Używaj Inteligentnego Wstrzymywania</string>
+    <string name="adaptive_playback_main_switch_title">Użyj inteligentnej pauzy</string>
     <string name="adaptive_playback_disabled_summary">Wyłącz</string>
     <string name="adaptive_playback_intro_text">Automatycznie zatrzymuje odtwarzanie multimediów, gdy dźwięk jest wyciszony i wznawia ich odtwarzanie, gdy dźwięk zostanie podgłośniony w określonym czasie.</string>
     <string name="adaptive_playback_timeout_title">Użyj limitu czasowego wynoszącego</string>
@@ -62,13 +61,6 @@
     <string name="adaptive_playback_timeout_5_min_summary">Włącz (5 minut)</string>
     <string name="adaptive_playback_timeout_10_min">10 minut</string>
     <string name="adaptive_playback_timeout_10_min_summary">Włącz (10 minut)</string>
-    <!-- Doze on double tap -->
-    <string name="doze_double_tap_title">Dwukrotnie dotknij ekran, aby sprawdzić telefon</string>
-    <string name="doze_double_tap_summary">Pulsujące powiadomienia po dwukrotnym dotknięciu</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Użyj czytnika linii papilarnych, aby odblokować</string>
-    <string name="fingerprint_wake_unlock_touch">Nasłuchuj wydarzeń, gdy ekran jest wyłączony</string>
-    <string name="fingerprint_wake_unlock_press">Nasłuchuje wydarzeń tylko z włączonym ekranem</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Pomieszany układ</string>
     <string name="unlock_scramble_pin_layout_summary">Pomieszany układ PIN podczas odblokowania urządzenia</string>
@@ -96,22 +88,15 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Inteligentne ładowanie</string>
     <string name="smart_charging_summary">Ustaw maksymalny poziom naładowania</string>
-    <string name="smart_charging_master_switch_title">Użyj inteligentnego ładowania</string>
+    <string name="smart_charging_main_switch_title">Użyj inteligentnego ładowania</string>
     <string name="smart_charging_level_title">Poziom zatrzymania</string>
     <string name="smart_charging_resume_level_title">Poziom rozpoczęcia</string>
     <string name="smart_charging_reset_stats_title">Resetuj statystyki baterii</string>
     <string name="smart_charging_reset_stats_summary">Zresetuj statystyki baterii po osiągnięciu określonego przez użytkownika poziomu ładowania</string>
     <string name="smart_charging_intro_text">Inteligentne ładowanie pozwala na ustawienie maksymalnego poziomu naładowania, aby wydłużyć żywotność baterii</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Tryb kieszonkowy</string>
-    <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Zezwól podłączonym urządzeniom na korzystanie z VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Zezwól urządzeniom, podłączonym do udostępnionej sieci, na wysyłanie pakietów, poprzez VPN tego urządzenia</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_title">Efekt powiększenia tapety</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interaction -->
-    <string name="wallpaper_zoom_effect_summary">Powiększ tapetę, aby pokazać animację głębokości powiększenia. Tapety mogą cierpieć na spadek jakości</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Wyłącz automatycznie Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -185,8 +170,6 @@
     <string name="adj_saturation_title">Nasycenie</string>
     <string name="adj_intensity_title">Intensywność</string>
     <string name="adj_contrast_title">Kontrast</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Połącz głośność dzwonka &amp; powiadomień</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Narastająca głośność dzwonka</string>
     <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
@@ -205,7 +188,7 @@
     <string name="auto_brightness_one_shot_title">Zastosuj tylko, gdy ekran jest włączony</string>
     <string name="auto_brightness_one_shot_summary">Zmiana jasności będzie występować tylko, gdy ekran będzie włączony</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="use_ringer_mute_speaker_media_title">Użyj cichego wyciszania multimediów</string>
+    <string name="ringer_mute_main_switch_title">Użyj wyciszenia cichych mediów</string>
     <string name="ringer_mute_speaker_media_title">Ciche wyciszenie multimediów</string>
     <string name="ringer_mute_text">Wycisz głośność multimediów, gdy tryb dzwonka jest ustawiony na wyciszenie. Po odłączeniu od urządzenia bluetooth w trybie cichym, głośność multimediów zostanie automatycznie wyciszona. \nTo nie wpłynie na zewnętrzne głośniki i słuchawki.</string>
     <!-- 0 timeout for Smart Pause while using silent to mute-->
@@ -261,26 +244,7 @@
     <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
     <string name="high_power_apps_summary">Optymalizacja baterii dla poszczególnych aplikacji</string>
     <!-- Private DNS Providers -->
-    <!-- Random Evolver summaries -->
-    <string name="random_summary_2">Witaj w Evolution</string>
-    <string name="random_summary_3">Kontynuuj z Evolution na tym urządzeniu</string>
-    <string name="random_summary_4">Rozpocznij ewolucję na Twoim urządzeniu z naszymi funkcjami</string>
-    <string name="random_summary_5">Ewolucja jest tajemnicą</string>
-    <string name="random_summary_6">To nie jest zwykłe oprogramowanie, to Evolution X!</string>
-    <string name="random_summary_7">Hejterzy hejtują, a użytkownicy ego oprogramowania są szczęśliwi</string>
-    <string name="random_summary_8">Żyj w raju</string>
-    <string name="random_summary_9">Nie przestawaj iść do przodu</string>
-    <string name="random_summary_12">Byliśmy błyskawicą przed grzmotem</string>
-    <string name="random_summary_15">Tiramisu naprawdę dobrze smakuje</string>
-    <string name="random_summary_16">13. może również być szczęśliwa</string>
-    <string name="random_summary_18">Życie nie zawsze jest usłane różami</string>
-    <string name="random_summary_19">To nadal Android, po prostu lepszy</string>
-    <string name="random_summary_20">Rycerze są proszeni do najbliższego wyjścia</string>
-    <string name="random_summary_21">Wzywanie kierowcy czarnego BMW...</string>
-    <string name="random_summary_24">Zaakceptuj nas!</string>
-    <string name="random_summary_25">Jesteśmy świadomi, że nazywa się nas Mitsubishi</string>
-    <string name="random_summary_26">Czas na bootloop!</string>
-    <!-- Display : Rotation -->
+    <!-- Display: Rotation -->
     <string name="display_rotation_title">Ustawienia obracania</string>
     <string name="display_rotation_enabled">Autoobracanie jest włączone</string>
     <string name="display_rotation_disabled">Autoobracanie jest wyłączone</string>
@@ -293,7 +257,7 @@
     <string name="app_info_install_time">Zainstalowano: %1$s</string>
     <string name="app_info_update_time">Zaktualizowano: %1$s</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Włącz ostrzeżenie o poziomie naładowania baterii</string>
+    <string name="notification_battery_charge_level_main_switch_title">Ostrzeżenie o naładowaniu baterii</string>
     <string name="notification_battery_charge_level_title">Ostrzeżenie naładowania baterii</string>
     <string name="notification_battery_charge_level_summary">Odtwórz dźwięk, gdy bateria osiągnie wyznaczony poziom podczas ładowania</string>
     <string name="notification_battery_charge_level_seek_bar">Poziom naładowania baterii</string>
@@ -325,29 +289,12 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Pokaż nakładkę schowka</string>
     <string name="show_clipboard_overlay_summary">Pokaż nakładkę w lewym dolnym rogu ekranu, kiedy zawartość zostanie skopiowana do schowka</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Nazwa utworu na ekranie Ambient</string>
-    <string name="pulse_on_new_tracks_summary">Pokaż ekran Ambient, kiedy grany jest nowy utwór</string>
-    <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Usuń istniejący skan twarzy i utwórz nowy</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Powtórz skanowanie twarzy</string>
-    <string name="face_redo_confirm_btn">Powtórz</string>
-    <string name="face_redo_warning_msg">Czy chcesz usunąć istniejący skan twarzy i utworzyć nowy?</string>
-    <string name="face_unlock_method_title">Zezwól na odblokowywanie twarzą na ekranie blokady</string>
-    <string name="face_unlock_method_default">Gdy ekran jest włączony</string>
-    <string name="face_unlock_method_swipe">Po przesunięciu palcem na ekranie blokady</string>
-    <string name="skip_biometric_auth_confirmation_title">Pomiń potwierdzenie</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Ukryj przestrzeń IME</string>
-    <string name="navigation_bar_ime_space_summary">Ukryj przestrzeń IME pod klawiaturą</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Kontrola odtwarzania</string>
     <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
     <string name="gesture_playback_control_delay">opóźnienie</string>
     <string name="unit_hz">Hz</string>
     <string name="unit_times">Liczba</string>
-    <!-- Screen resolution -->
-    <string name="custom_screen_resolution_title">Niestandardowa rozdzielczość ekranu</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Wyczyścić statystyki?</string>
     <string name="battery_stats_message">Dane o zużyciu baterii zostaną utracone</string>
@@ -357,30 +304,23 @@
     <string name="back_gesture_arrow_title">Animacja gestu wstecz</string>
     <string name="back_gesture_arrow_summary">Pokaż animowaną strzałkę dla gestu wstecz</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Zlokalizuj czytnik linii papilarnych z przodu twojego tabletu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Zlokalizuj czytnik linii papilarnych z przodu twojego urządzenia.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Zlokalizuj czytnik linii papilarnych z przodu twojego telefonu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Zlokalizuj czytnik linii papilarnych na tylnej stronie tabletu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Zlokalizuj czytnik linii papilarnych na tylnej stronie urządzenia.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Zlokalizuj czytnik linii papilarnych na tylnej stronie telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Zlokalizuj czytnik linii papilarnych z przodu twojego telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Zlokalizuj czytnik linii papilarnych na tylnej stronie telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Zlokalizuj czytnik linii papilarnych znajdujący się z boku urządzenia.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Dotknij czujnika z przodu telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Dotknij czytnika znajdującego się z tyłu telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Dotknij czytnika na boku telefonu.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Ostrzeżenie: Ta opcja może nie działać poprawnie lub prowadzić do utraty danych i dlatego nie jest zalecana!</string>
-    <!-- Hide apps -->
-    <string name="hide">Ukryj</string>
-    <string name="unhide">Pokaż</string>
-    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
-    <string name="filter_hidden_apps">Ukryte aplikacje</string>
-    <string name="hide_app">Ukryj aplikacje</string>
-    <string name="unhide_app">Pokaż aplikacje</string>
-    <string name="unhide_app_desc">Jeśli odkryjesz tę aplikację, będzie ona widoczna dla Androida i innych aplikacji.</string>
-    <string name="hide_app_desc">Jeśli ukryjesz tę aplikację, nie będzie ona widoczna dla Androida i innych aplikacji i nie będą już działać zgodnie z zamierzeniami. Pamiętaj, że ukrywanie aplikacji zachowuje dane. Ukrywając tę aplikację wyłączasz i ukryjesz ją na swoim urządzeniu.</string>
     <string name="advanced_battery_preference_summary_google">Użyj wykresu zużycia baterii z Pixela</string>
+    <string name="advanced_battery_preference_google_summary">Zresetowanie statystyk baterii nie będzie działać podczas używania tego</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Powiadomienia podczas połączenia</string>
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Dźwięki NFC</string>
     <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ekran dostosowany do otoczenia</string>
+    <string name="doze_enabled_title">Ekran Ambient</string>
     <string name="doze_enabled_summary">Czy włączyć funkcję paczki drzemki</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Tryb uśpienia</string>
@@ -426,4 +366,95 @@
     <string name="global_vpn_summary">Wymuś cały ruch na urządzeniu przez ten VPN, w tym profil do pracy i innych użytkowników.</string>
     <string name="global_vpn_summary_on">Wymuś cały ruch na urządzeniu przez ten VPN, w tym profil do pracy i innych użytkowników. Uwaga: Gdy włączone, nie będziesz mógł używać oddzielnego VPN w profilu do pracy lub innych użytkowników</string>
     <string name="global_vpn_summary_any_vpn_active">Musisz najpierw wyłączyć wszystkie aktywne połączenia VPN, aby to włączyć</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Ukryj przestrzeń IME</string>
+    <string name="ime_narrow">Wąskie</string>
+    <string name="ime_default">Domyślnie</string>
+    <string name="ime_hidden">Ukryty</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Nie określono certyfikatu. Twoje połączenie nie będzie prywatne.</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Wibracje haptyczne</string>
+    <string name="back_gesture_haptic_summary">Włącz efekt dotykowy przy gestie wstecz</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Brak działań</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Ostatnie aplikacje</string>
+    <string name="action_voice_search">Wyszukiwanie głosowe</string>
+    <string name="action_launch_camera">Aparat</string>
+    <string name="action_last_app">Ostatnia aplikacja</string>
+    <string name="action_splitscreen">Podziel ekran</string>
+    <string name="action_flashlight">Latarka</string>
+    <string name="action_clear_notifications">Wyczyść powiadomienia</string>
+    <string name="action_volume_panel">Panel głośności</string>
+    <string name="action_screen_off">Ekran włączony</string>
+    <string name="action_notifications">Powiadomienia</string>
+    <string name="action_power_menu">Menu zasilania</string>
+    <string name="action_screenshot">Zrzut ekranu</string>
+    <string name="action_qs_panel">Panel szybkich ustawień</string>
+    <string name="action_app_action">Aplikacja</string>
+    <string name="action_ringer_modes">Tryby dzwonka</string>
+    <string name="kill_app">Zabij aplikację na pierwszym planie</string>
+    <string name="recent_app_toggle">Przełącz ostatnią aplikację</string>
+    <string name="skip_song">Pomiń utwór</string>
+    <string name="prev_song">Poprzedni utwór</string>
+    <string name="show_powermenu">Pokaż menu zasilania</string>
+    <string name="partial_screenshot">Częściowy zrzut ekranu</string>
+    <string name="hush_mute">Wycisz powiadomienia</string>
+    <string name="action_open_recents">Otwórz ostatnie</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Zaawansowane opcje gestów</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Dostosuj gesty i ustaw własne akcje</string>
+    <string name="navbar_gesture_tweaks_cat_title">Zaawansowane</string>
+    <string name="swipe_app_select_summary">Wybierz aplikację do uruchomienia z akcją ściskania</string>
+    <string name="long_back_swipe_timeout_title">Limit czasu akcji długiego przeciągnięcia</string>
+    <string name="left_swipe_actions_title">Akcja długiego przesunięcia w lewo</string>
+    <string name="left_swipe_app_action_title">Wybierz aplikację przeciągnięcia w lewo</string>
+    <string name="right_swipe_actions_title">Akcja długiego przesunięcia w prawo</string>
+    <string name="right_swipe_app_action_title">Wybierz długą aplikację przeciągnięcia w prawo</string>
+    <string name="left_vertical_swipe_actions_title">Akcja przesunięcia w lewo w pionie</string>
+    <string name="left_vertical_swipe_app_action_title">Wybierz aplikację przesunięcia w lewo w pionie</string>
+    <string name="right_vertical_swipe_actions_title">Akcja przesunięcia w prawo w pionie</string>
+    <string name="right_vertical_swipe_app_action_title">Wybierz aplikację przesunięcia w prawo w pionie</string>
+    <string name="gesture_nav_tweaks_footer_info">Aby wybrać konkretną aktywność aplikacji dla akcji, przytrzymaj dłużej dowolną aplikację w selektorze aplikacji.\n\nJeśli launcher jest wyświetlany, przesuń palcem w bardzo dolnej części ekranu, aby uruchomić akcję.</string>
+    <string name="back_swipe_extended_title">Akcja rozszerzonego przesunięcia palcem</string>
+    <string name="back_swipe_extended_summary">Wyzwalacz na szersze przeciągnięcie (ponad połowa rozmiaru wyświetlacza), lub przesunięcie L (wystarczająco dłużej)</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Pobierz dane pomocy satelitarnej z Internetu, co może znacznie poprawić wydajność uruchamiania GPS. W przypadku połączeń alarmowych wspomagany GPS jest zawsze dozwolony.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Kontrola połączenia</string>
+    <string name="captive_portal_summary">Określ czy urządzenie może połączyć się z Internetem, kontaktując się z Google. Służy również do wykrywania portali captive.</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Pokaż aktywny wyświetlacz</string>
+    <string name="doze_gesture_ambient_summary">Pokaż aktywny wyświetlacz, zamiast wybudzać ekran</string>
+    <!-- Developer Options -->
+    <string name="cleartext_network_policy_title">Ogranicz ruch sieci tekstowej</string>
+    <string name="cleartext_network_policy_summary">Blokuje cały ruch sieciowy spoza TLS. Wymaga prywatnej konfiguracji DNS. Uwaga: Bez wyraźnych wyłączeń aplikacje, które używają ruchu tekstowego mogą nie działać</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Użyj szyfrowania pamięci masowej</string>
+    <string name="spoof_storage_encryption_status_summary">Status szyfrowania szyfrowanego przechowywania danych</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ukryj status programisty</string>
+    <string name="hide_developer_status_summary">Ukryj status programisty w aplikacjach</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Usuń istniejący skan twarzy i utwórz nowy</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Powtórz skanowanie twarzy</string>
+    <string name="face_redo_confirm_btn">Powtórz</string>
+    <string name="face_redo_warning_msg">Czy chcesz usunąć istniejący skan twarzy i utworzyć nowy?</string>
+    <string name="face_unlock_method_title">Zezwól na odblokowywanie twarzą na ekranie blokady</string>
+    <string name="face_unlock_method_default">Gdy ekran jest włączony</string>
+    <string name="face_unlock_method_swipe">Po przesunięciu palcem na ekranie blokady</string>
+    <string name="skip_biometric_auth_confirmation_title">Pomiń potwierdzenie</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Niestandardowa rozdzielczość ekranu</string>
+    <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_text_reading_options_translatable_summary">Dostosuj rozmiar wyświetlania, czcionka &amp; tekst</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Połącz głośność dzwonka &amp; powiadomień</string>
+    <!-- Android Beam -->
+    <string name="android_beam_main_switch_title">Użyj Android Beam</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Podwójne dotknięcie</string>
+    <string name="doze_double_tap_title">Dwukrotnie dotknij ekran, aby sprawdzić telefon</string>
+    <string name="doze_double_tap_summary">Pulsujące powiadomienia po dwukrotnym dotknięciu</string>
 </resources>
