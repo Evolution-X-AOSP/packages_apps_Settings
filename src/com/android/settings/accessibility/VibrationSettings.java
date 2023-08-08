@@ -18,6 +18,8 @@ package com.android.settings.accessibility;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Vibrator;
@@ -28,19 +30,29 @@ import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import androidx.preference.Preference;
+
+import com.android.internal.util.evolution.EvolutionUtils;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
+
+import com.evolution.settings.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /** Accessibility settings for the vibration. */
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
-public class VibrationSettings extends DashboardFragment {
+public class VibrationSettings extends DashboardFragment
+        implements Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "VibrationSettings";
+
+    private static final String SCROLL_FLING_HAPTIC_FEEDBACK = "scroll_fling_haptic_feedback";
+
+    private SystemSettingSwitchPreference mScrollFlingHapticFeedback;
 
     private static int getVibrationXmlResourceId(Context context) {
         final int supportedIntensities = context.getResources().getInteger(
@@ -49,6 +61,29 @@ public class VibrationSettings extends DashboardFragment {
                 ? R.xml.accessibility_vibration_intensity_settings
                 : R.xml.accessibility_vibration_settings;
 
+    }
+
+    public String getLauncherPackage() {
+        Intent intent = new Intent("android.intent.action.MAIN");
+        intent.addCategory("android.intent.category.HOME");
+        return getContext().getPackageManager().resolveActivity(intent, PackageManager.MATCH_DEFAULT_ONLY)
+                    .activityInfo.packageName;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mScrollFlingHapticFeedback = (SystemSettingSwitchPreference) findPreference(SCROLL_FLING_HAPTIC_FEEDBACK);
+        mScrollFlingHapticFeedback.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mScrollFlingHapticFeedback) {
+            EvolutionUtils.restartApp(getLauncherPackage(), getActivity());
+            return true;
+        }
+        return false;
     }
 
     @Override
