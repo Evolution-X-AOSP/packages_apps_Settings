@@ -11,6 +11,7 @@
     <string name="soc_model">CPU modell</string>
     <string name="total_ram">Az összes RAM</string>
     <!-- About device screen, Evolution X -->
+    <string name="about_device_name">Készülék</string>
     <string name="evolution_x_version">Evolution X-verzió</string>
     <!-- About device screen, Build date -->
     <string name="build_date">A kiadás dátuma</string>
@@ -32,6 +33,9 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Képernyőkép csúsztatással</string>
     <string name="swipe_to_screenshot_gesture_summary">Csúsztasson három ujjal képernyőkép készítéséhez</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Véletlenébresztés-gátló</string>
+    <string name="proximity_wake_summary">Közelségérzékelő ellenőrzése a képernyő felébresztése előtt</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Képernyőfrissítési minimum</string>
     <string name="max_refresh_rate_title">Képernyőfrissítési maximum</string>
@@ -438,16 +442,16 @@
     <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
     <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
     <string name="skip_biometric_auth_confirmation_title">A manuális megerősítés kihagyása</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Ébresztés ujjlenyomattal</string>
-    <string name="fingerprint_wake_unlock_touch">Eseményfigyelés kikapcsolt képernyőn</string>
-    <string name="fingerprint_wake_unlock_press">Eseményfigyelés csak bekapcsolt képernyőn</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Egyéni képernyőfelbontás</string>
-    <!-- Brightness slider haptic -->
-    <string name="brightness_slider_haptic_title">Rezgő visszajelzés a csúszkához</string>
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_translatable_summary">Képernyőméret, font és szöveg testreszabása</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Csengőhang és értesítési hangok összekötése</string>
+    <!-- Android Beam -->
+    <string name="android_beam_main_switch_title">Az Átvitel (Android Beam) használata</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Dupla érintés</string>
+    <string name="doze_double_tap_title">Gyorsellenőrzés dupla érintéssel</string>
+    <string name="doze_double_tap_summary">Pulzáló értesítések dupla érintésre</string>
 </resources>
