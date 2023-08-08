@@ -126,6 +126,13 @@
             android:title="@string/volume_slider_haptic_feedback_title"
             android:defaultValue="false" />
 
+        <!-- Scroll fling haptic feedback -->
+        <com.evolution.settings.preference.SystemSettingSwitchPreference
+            android:key="scroll_fling_haptic_feedback"
+            android:title="@string/scroll_fling_haptic_feedback_title"
+            android:dependency="touch_vibration_preference_screen"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
