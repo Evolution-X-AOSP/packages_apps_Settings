@@ -11,6 +11,7 @@
     <string name="soc_model">SoC 模型</string>
     <string name="total_ram">总内存</string>
     <!-- About device screen, Evolution X -->
+    <string name="about_device_name">设备</string>
     <string name="evolution_x_version">Evolution X 版本</string>
     <!-- About device screen, Build date -->
     <string name="build_date">编译日期</string>
@@ -93,9 +94,6 @@
     <string name="smart_charging_reset_stats_title">重置电量统计信息</string>
     <string name="smart_charging_reset_stats_summary">在达到用户定义充电量之后重置电池统计</string>
     <string name="smart_charging_intro_text">智能充电允许您设置最大充电电量，以延长电池的使用寿命</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">口袋检测</string>
-    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接</string>
@@ -370,7 +368,6 @@
     <string name="global_vpn_summary_any_vpn_active">您需要先禁用所有启动的 VPN 连接才能启用此功能</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">键盘下的空间</string>
-    <string name="navigation_bar_ime_space_summary">在键盘下方显示输入法按钮空间</string>
     <string name="ime_narrow">紧凑</string>
     <string name="ime_default">默认</string>
     <string name="ime_hidden">隐藏</string>
@@ -427,19 +424,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">连接检查</string>
     <string name="captive_portal_summary">确定设备是否可以通过联系Google连接到互联网。也用来检测入网门户。</string>
-    <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">传输任务模式</string>
-    <string name="transistent_task_mode_dialog_title">传输任务模式 (重启您的设备以应用更改)</string>
-    <string name="transistent_task_mode_summary">当上次活动使用后退按钮关闭时，从最近任务中取消应用。</string>
-    <string name="transistent_task_mode_default">禁用 (默认)</string>
-    <string name="transistent_task_mode_allow">启用 (群组应用将保持)</string>
-    <string name="transistent_task_mode_force">强制(覆盖应用行为)</string>
-    <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">指针加速度</string>
-    <string name="prevent_pointer_acceleration_full">全(指点数+轮)</string>
-    <string name="prevent_pointer_acceleration_wheel">仅滚轮</string>
-    <string name="prevent_pointer_acceleration_pointer">仅指点数</string>
-    <string name="prevent_pointer_acceleration_none">无</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">环境显示</string>
     <string name="doze_gesture_ambient_summary">在不完全唤醒屏幕的状态下显示时间和部分信息</string>
@@ -449,9 +433,6 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">使用已损坏的存储加密</string>
     <string name="spoof_storage_encryption_status_summary">欺骗存储加密状态为加密</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">隐藏开发者状态</string>
-    <string name="hide_developer_status_summary">从应用中隐藏开发者状态</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">重做面部扫描</string>
@@ -460,11 +441,17 @@
     <string name="face_unlock_method_title">允许在锁屏使用人脸识别解锁</string>
     <string name="face_unlock_method_default">当屏幕开启时</string>
     <string name="face_unlock_method_swipe">在锁屏界面上滑动时</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">触摸指纹解锁</string>
-    <string name="fingerprint_wake_unlock_touch">在屏幕关闭时监听事件</string>
-    <string name="fingerprint_wake_unlock_press">仅在屏幕开启后监听事件</string>
-    <!-- Smart 5G -->
-    <string name="smart_5g_title">智能5G</string>
-    <string name="smart_5g_summary">自动切换5G 和 4G 之间以降低电池消耗</string>
+    <string name="skip_biometric_auth_confirmation_title">跳过手动确认</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">自定义屏幕分辨率</string>
+    <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_text_reading_options_translatable_summary">自定义显示大小、&amp; 字体和文本</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">关联铃声 &amp; 通知的音量</string>
+    <!-- Android Beam -->
+    <string name="android_beam_main_switch_title">使用Android Beam</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">双击</string>
+    <string name="doze_double_tap_title">双击亮屏</string>
+    <string name="doze_double_tap_summary">双击查看息屏显示通知</string>
 </resources>
