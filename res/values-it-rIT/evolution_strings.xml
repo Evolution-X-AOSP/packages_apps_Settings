@@ -433,6 +433,9 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Maschera la crittografia dell\'archiviazione</string>
     <string name="spoof_storage_encryption_status_summary">Simula lo stato di crittografia dell\'archiviazione su crittografato</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Nascondi stato sviluppatore</string>
+    <string name="hide_developer_status_summary">Nascondi lo stato di sviluppatore dalle app</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi la scansione del volto esistente e creane una nuova</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti scansione del volto</string>
