@@ -433,6 +433,9 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Использовать подмену шифрования хранилища</string>
     <string name="spoof_storage_encryption_status_summary">Подменить статус шифрования хранилища на зашифрованный</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Скрыть статус разработчика</string>
+    <string name="hide_developer_status_summary">Скрыть статус разработчика из приложений</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить сохранённый снимок лица создать новый</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
