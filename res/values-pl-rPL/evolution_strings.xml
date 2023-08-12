@@ -433,6 +433,9 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Użyj szyfrowania pamięci masowej</string>
     <string name="spoof_storage_encryption_status_summary">Status szyfrowania szyfrowanego przechowywania danych</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ukryj status programisty</string>
+    <string name="hide_developer_status_summary">Ukryj status programisty w aplikacjach</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Usuń istniejący skan twarzy i utwórz nowy</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Powtórz skanowanie twarzy</string>
