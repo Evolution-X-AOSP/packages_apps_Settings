@@ -11,6 +11,7 @@
     <string name="soc_model">SoC Modeli</string>
     <string name="total_ram">Toplam RAM</string>
     <!-- About device screen, Evolution X -->
+    <string name="about_device_name">Cihaz</string>
     <string name="evolution_x_version">Evolution X sürümü</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Sürüm tarihi</string>
@@ -32,6 +33,9 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Ekran görüntüsü için kaydır</string>
     <string name="swipe_to_screenshot_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
+    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
     <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
@@ -429,6 +433,9 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Depolama şifreleme sahtekarlığını kullan</string>
     <string name="spoof_storage_encryption_status_summary">Depolama şifreleme durumunu şifreli olarak değiştirin.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Geliştirici durumunu gizle</string>
+    <string name="hide_developer_status_summary">Geliştirici durumunu uygulamalardan gizle</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
@@ -438,16 +445,16 @@
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
     <string name="skip_biometric_auth_confirmation_title">Manuel onaylamayı atla</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Kilidi açmak için parmak izinizi kullanın</string>
-    <string name="fingerprint_wake_unlock_touch">Ekran kapalıylen etkinlikleri dinler</string>
-    <string name="fingerprint_wake_unlock_press">Etkinlikleri yalnızca ekran açıkken dinler</string>
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Özel ekran çözünürlüğü</string>
-    <!-- Brightness slider haptic -->
-    <string name="brightness_slider_haptic_title">Parlaklık kaydırıcısı değiştiğinde titreşim</string>
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_translatable_summary">Ekran boyutunu, yazı tipini &amp; metin</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil &amp; bildirim sesini birleştir</string>
+    <!-- Android Beam -->
+    <string name="android_beam_main_switch_title">Android Beam kullan</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Çift dokunma</string>
+    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
+    <string name="doze_double_tap_summary">Çift dokunuşla ortam ekranı bildirimleri</string>
 </resources>
