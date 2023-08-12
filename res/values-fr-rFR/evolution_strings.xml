@@ -433,6 +433,9 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Utiliser l\'usurpation du chiffrement de stockage</string>
     <string name="spoof_storage_encryption_status_summary">Usurper un statut chiffré pour le stockage non-chiffré</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Masquer le statut de développeur</string>
+    <string name="hide_developer_status_summary">Masquer le statut de développeur aux applications</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Effacer le visage scanné existant et créer un nouveau scan</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Scanner à nouveau le visage</string>
