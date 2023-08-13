@@ -59,9 +59,19 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     private lateinit var appBarLayout: AppBarLayout
 
     private var searchText = ""
-    private var category: Int = CATEGORY_USER_ONLY
     private var customFilter: ((PackageInfo) -> Boolean)? = null
     private var comparator: ((PackageInfo, PackageInfo) -> Int)? = null
+    private var showSystem = false
+    private var optionsMenu: Menu? = null
+
+    override fun onStart() {
+        super.onStart()
+        updateOptionsMenu()
+        val host = getActivity()
+        if (host != null) {
+            host.invalidateOptionsMenu();
+        }
+    }
 
     @SuppressLint("QueryPermissionsNeeded")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -101,7 +111,16 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        val activity = getActivity()
+        if (activity == null) {
+            return;
+        }
+        optionsMenu = menu;
         inflater.inflate(R.menu.cutout_force_fullscreen_menu, menu)
+
+        menu.findItem(R.id.show_system).setVisible(!showSystem);
+        menu.findItem(R.id.hide_system).setVisible(showSystem);
+
         val searchMenuItem = menu.findItem(R.id.search) as MenuItem
         searchMenuItem.setOnActionExpandListener(object: MenuItem.OnActionExpandListener {
             override fun onMenuItemActionExpand(item: MenuItem): Boolean {
@@ -130,6 +149,37 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
                 return true
             }
         })
+
+        updateOptionsMenu()
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        var i = item.getItemId()
+        if (i == R.id.show_system || i == R.id.hide_system) {
+            showSystem = !showSystem;
+            refreshList();
+        }
+        updateOptionsMenu()
+        return true
+    }
+
+    override fun onPrepareOptionsMenu(menu: Menu) {
+        updateOptionsMenu()
+    }
+
+    override fun onDestroyOptionsMenu() {
+        optionsMenu = null;
+    }
+
+    private fun updateOptionsMenu() {
+        if (optionsMenu == null) {
+            return;
+        }
+
+        var menu = optionsMenu as Menu
+
+        menu.findItem(R.id.show_system).setVisible(!showSystem);
+        menu.findItem(R.id.hide_system).setVisible(showSystem);
     }
 
     /**
@@ -156,10 +206,17 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
 
     private fun refreshList() {
         var list = packageList.filter {
-            when (category) {
-                CATEGORY_SYSTEM_ONLY -> it.applicationInfo.isSystemApp()
-                CATEGORY_USER_ONLY -> !it.applicationInfo.isSystemApp()
-                else -> true
+            if (!showSystem) {
+                !it.applicationInfo.isSystemApp()
+                && !it.applicationInfo.packageName.contains("dialer")
+                && !it.applicationInfo.packageName.contains("android.settings")
+            } else {
+                !resources.getStringArray(
+                    R.array.cutout_force_fullscreen_hidden_apps)
+                        .asList().contains(it.applicationInfo.packageName)
+                && !it.applicationInfo.packageName.contains("dialer")
+                && !it.applicationInfo.packageName.contains("android.settings")
+                && !it.applicationInfo.isResourceOverlay()
             }
         }.filter {
             getLabel(it).contains(searchText, true)
@@ -239,9 +296,6 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     )
 
     companion object {
-        const val CATEGORY_SYSTEM_ONLY = 0
-        const val CATEGORY_USER_ONLY = 1
-
         private val itemCallback = object: DiffUtil.ItemCallback<AppInfo>() {
             override fun areItemsTheSame(oldInfo: AppInfo, newInfo: AppInfo) =
                 oldInfo.packageName == newInfo.packageName
