@@ -208,6 +208,9 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         var list = packageList.filter {
             if (!showSystem) {
                 !it.applicationInfo.isSystemApp()
+                && !resources.getStringArray(
+                        R.array.cutout_force_fullscreen_hidden_apps)
+                            .asList().contains(it.applicationInfo.packageName)
                 && !it.applicationInfo.packageName.contains("dialer")
                 && !it.applicationInfo.packageName.contains("android.settings")
             } else {
