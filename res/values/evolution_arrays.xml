@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Apps list to hide from Cutout force fullscreen setting -->
+    <string-array name="cutout_force_fullscreen_hidden_apps" translatable="false">
+        <item>android</item>
+        <item>com.android.documentsui</item>
+        <item>com.android.fmradio</item>
+        <item>com.android.stk</item>
+        <item>com.android.systemui</item>
+        <item>com.android.vending</item>
+        <item>com.caf.fmradio</item>
+        <item>com.google.android.apps.messaging</item>
+        <item>com.google.android.apps.wallpaper</item>
+        <item>com.google.android.as</item>
+        <item>com.google.android.calculator</item>
+        <item>com.google.android.calendar</item>
+        <item>com.google.android.contacts</item>
+        <item>com.google.android.deskclock</item>
+        <item>com.google.android.documentsui</item>
+        <item>com.google.android.googlequicksearchbox</item>
+    </string-array>
+</resources>
