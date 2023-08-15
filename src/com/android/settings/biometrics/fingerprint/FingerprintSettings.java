@@ -320,6 +320,11 @@ public class FingerprintSettings extends SubSettings {
         }
 
         private void retryFingerprint() {
+            if (isUdfps()) {
+                // Do not authenticate for UDFPS devices.
+                return;
+            }
+
             if (mRemovalSidecar.inProgress()
                     || 0 == mFingerprintManager.getEnrolledFingerprints(mUserId).size()) {
                 return;
