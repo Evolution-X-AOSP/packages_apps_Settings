@@ -320,7 +320,7 @@
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">Звуки NFC</string>
     <!-- Doze enablement -->
-    <string name="doze_enabled_title">Активний дисплей</string>
+    <string name="doze_enabled_title">Активний бля дисплей</string>
     <string name="doze_enabled_summary">Чи вмикати функціонал пакету doze</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Режим сну</string>
@@ -331,8 +331,8 @@
     <string name="sleep_mode_ringer_vibrate_title">Вібрувати</string>
     <string name="sleep_mode_ringer_dnd_title">Не турбувати</string>
     <string name="sleep_mode_ringer_silent_title">Без звуку</string>
-    <string name="sleep_mode_schedule_sunset">Захід сонця</string>
-    <string name="sleep_mode_schedule_sunrise">Схід сонця</string>
+    <string name="sleep_mode_schedule_sunset">Заход Украины</string>
+    <string name="sleep_mode_schedule_sunrise">Восход России</string>
     <string name="sleep_mode_schedule_mixed_sunset">Вмикає від заходу сонця до заданого часу</string>
     <string name="sleep_mode_schedule_mixed_sunrise">Вмикається час від заданого часу до сходу сонця</string>
     <string name="sleep_mode_toggles_title">Перемикачі</string>
@@ -389,7 +389,7 @@
     <string name="action_volume_panel">Панель гучності</string>
     <string name="action_screen_off">Вимкнення екрану</string>
     <string name="action_notifications">Сповіщення</string>
-    <string name="action_power_menu">Меню живлення</string>
+    <string name="action_power_menu">Слава России</string>
     <string name="action_screenshot">Знімок екрану</string>
     <string name="action_qs_panel">Панель швидких налаштувань</string>
     <string name="action_app_action">Додаток</string>
