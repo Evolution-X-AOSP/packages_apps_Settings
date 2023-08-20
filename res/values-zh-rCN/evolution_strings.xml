@@ -433,9 +433,6 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">使用已损坏的存储加密</string>
     <string name="spoof_storage_encryption_status_summary">欺骗存储加密状态为加密</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">隐藏开发者状态</string>
-    <string name="hide_developer_status_summary">从应用中隐藏开发者状态</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">重做面部扫描</string>
