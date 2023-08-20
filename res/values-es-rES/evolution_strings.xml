@@ -433,9 +433,6 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Usar suplantación del cifrado del almacenamiento</string>
     <string name="spoof_storage_encryption_status_summary">Suplanta el estado del cifrado del almacenamiento a Cifrado</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Ocultar estado de desarrollador</string>
-    <string name="hide_developer_status_summary">Ocultar el estado del modo desarrollador en aplicaciones</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Eliminar desbloqueo facial y volver a configurarlo</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Rehacer desbloqueo facial</string>
