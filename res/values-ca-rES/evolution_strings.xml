@@ -433,9 +433,6 @@
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Utilitza la falsificació de xifratge d\'emmagatzematge</string>
     <string name="spoof_storage_encryption_status_summary">Falsifica l\'estat de xifratge d\'emmagatzematge a xifrat</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Amaga l\'estat de desenvolupador</string>
-    <string name="hide_developer_status_summary">Amaga l\'estat de desenvolupador de les aplicacions</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Elimina l\'escaneig facial existent i crea un nou escaneig</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Refés l\'escaneig facial</string>
