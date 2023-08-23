@@ -134,7 +134,7 @@ public class EvolutionXVersionDetailPreferenceController extends BasePreferenceC
                 this.mContext.getString(R.string.device_info_default));
         String romReleasetype = SystemProperties.get(KEY_EVOLUTION_RELEASE_TYPE_PROP,
                 this.mContext.getString(R.string.device_info_default));
-        String shortVersion = romVersion + " | " + romCodename + " | " + deviceCodename + " | " + romReleasetype;
+        String shortVersion = romVersion + " (" + romCodename + ") | " + deviceCodename + " | " + romReleasetype;
         return shortVersion;
     }
 
