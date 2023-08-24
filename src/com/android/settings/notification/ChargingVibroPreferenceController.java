@@ -19,8 +19,9 @@ package com.android.settings.notification;
 import static com.android.settings.notification.SettingPref.TYPE_GLOBAL;
 
 import android.content.Context;
-
+import android.os.Vibrator;
 import android.provider.Settings.Global;
+
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
@@ -28,11 +29,19 @@ public class ChargingVibroPreferenceController extends SettingPrefController {
 
     private static final String KEY_CHARGING_VIBRO = "charging_vibro";
 
+    protected final Vibrator mVibrator;
+
     public ChargingVibroPreferenceController(Context context, SettingsPreferenceFragment parent,
             Lifecycle lifecycle) {
         super(context, parent, lifecycle);
+        mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
         mPreference = new SettingPref(
             TYPE_GLOBAL, KEY_CHARGING_VIBRO, Global.CHARGING_VIBRATION_ENABLED, DEFAULT_ON);
 
+    }
+
+    @Override
+    public boolean isAvailable() {
+        return mVibrator.hasVibrator();
     }
 }
