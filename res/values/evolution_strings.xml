@@ -429,7 +429,9 @@
     <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
     <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
     <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your device while you sleep.</string>
+    <string name="sleep_mode_display_text" product="default">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_display_text" product="tablet">Sleep mode allows you to disable certain services to help save battery and silence your tablet while you sleep.</string>
+    <string name="sleep_mode_display_text" product="device">Sleep mode allows you to disable certain services to help save battery and silence your device while you sleep.</string>
 
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Color balance</string>
@@ -557,6 +559,8 @@
 
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check device</string>
+    <string name="doze_double_tap_title" product="default">Double tap to check phone</string>
+    <string name="doze_double_tap_title" product="tablet">Double tap to check tablet</string>
+    <string name="doze_double_tap_title" product="device">Double tap to check device</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 </resources>
