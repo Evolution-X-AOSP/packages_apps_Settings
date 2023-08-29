@@ -97,7 +97,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     @VisibleForTesting
     static final String EXTRA_INITIAL_REFERRER = "initial_referrer";
 
-    static final int DEFAULT_HIGHLIGHT_MENU_KEY = R.string.menu_key_network;
+    static final int DEFAULT_HIGHLIGHT_MENU_KEY = R.string.menu_key_evolver;
     private static final long HOMEPAGE_LOADING_TIMEOUT_MS = 300;
 
     private TopLevelSettings mMainFragment;
