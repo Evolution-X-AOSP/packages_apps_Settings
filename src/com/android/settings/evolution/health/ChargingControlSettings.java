@@ -16,6 +16,7 @@
 
 package com.android.settings.evolution.health;
 
+import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.provider.Settings;
@@ -23,18 +24,25 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import androidx.fragment.app.DialogFragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 import java.util.stream.Stream;
 
 import com.android.internal.lineage.health.HealthInterface;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
+import com.evolution.settings.preference.CustomDialogPreference;
 import com.evolution.settings.preference.SystemSettingDropDownPreference;
 import com.evolution.settings.preference.SystemSettingMainSwitchPreference;
 
@@ -42,10 +50,12 @@ import static com.android.internal.lineage.health.HealthInterface.MODE_AUTO;
 import static com.android.internal.lineage.health.HealthInterface.MODE_MANUAL;
 import static com.android.internal.lineage.health.HealthInterface.MODE_LIMIT;
 
+@SearchIndexable
 public class ChargingControlSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = ChargingControlSettings.class.getSimpleName();
 
+    private static final String CHARGING_CONTROL_PREF = "charging_control";
     private static final String CHARGING_CONTROL_ENABLED_PREF = "charging_control_enabled";
     private static final String CHARGING_CONTROL_MODE_PREF = "charging_control_mode";
     private static final String CHARGING_CONTROL_START_TIME_PREF = "charging_control_start_time";
@@ -111,6 +121,25 @@ public class ChargingControlSettings extends SettingsPreferenceFragment implemen
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.EVO_SETTINGS;
+    }
+
+    @Override
+    public void onDisplayPreferenceDialog(Preference preference) {
+        if (preference.getKey() == null) {
+            // Auto-key preferences that don't have a key, so the dialog can find them.
+            preference.setKey(UUID.randomUUID().toString());
+        }
+        DialogFragment f = null;
+        if (preference instanceof CustomDialogPreference) {
+            f = CustomDialogPreference.CustomPreferenceDialogFragment
+                    .newInstance(preference.getKey());
+        } else {
+            super.onDisplayPreferenceDialog(preference);
+            return;
+        }
+        f.setTargetFragment(this, 0);
+        f.show(getFragmentManager(), "dialog_preference");
+        onDialogShowing();
     }
 
     private void refreshValues() {
@@ -226,4 +255,22 @@ public class ChargingControlSettings extends SettingsPreferenceFragment implemen
         return Stream.concat(Arrays.stream(array1), Arrays.stream(array2)).toArray(size ->
                 (CharSequence[]) Array.newInstance(CharSequence.class, size));
     }
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+        @Override
+        public List<String> getNonIndexableKeys(Context context) {
+            final List<String> result = new ArrayList<String>();
+            if (!HealthInterface.isChargingControlSupported(context)) {
+                result.add(CHARGING_CONTROL_PREF);
+                result.add(CHARGING_CONTROL_ENABLED_PREF);
+                result.add(CHARGING_CONTROL_MODE_PREF);
+                result.add(CHARGING_CONTROL_START_TIME_PREF);
+                result.add(CHARGING_CONTROL_TARGET_TIME_PREF);
+                result.add(CHARGING_CONTROL_LIMIT_PREF);
+            }
+            return result;
+        }
+    };
+
 }
