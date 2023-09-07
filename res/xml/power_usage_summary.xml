@@ -86,12 +86,14 @@
         android:order="1"
         settings:controller="com.android.settings.fuelgauge.FastChargingPreferenceController"/>
 
+    <!-- Charging control -->
     <Preference
-        android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings" 
-        android:key="smart_charging_key"
+        android:key="charging_control"
         android:order="2"
-        android:title="@string/smart_charging_title"
-        android:summary="@string/smart_charging_summary" />
+        android:title="@string/charging_control_title"
+        android:summary="@string/charging_control_summary"
+        android:fragment="com.android.settings.evolution.health.ChargingControlSettings"
+        settings:controller="com.android.settings.evolution.health.ChargingControlPreferenceController" />
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings"
