@@ -11,7 +11,6 @@
     <string name="soc_model">Modelo do SoC</string>
     <string name="total_ram">Total de RAM</string>
     <!-- About device screen, Evolution X -->
-    <string name="about_device_name">Dispositivo</string>
     <string name="evolution_x_version">Versão da Evolution X</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Data da compilação</string>
@@ -85,15 +84,6 @@
     <!-- General -->
     <string name="copied_to_clipboard">Copiado para a área de transferência</string>
     <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Carregamento inteligente</string>
-    <string name="smart_charging_summary">Definir o nível máximo de carregamento</string>
-    <string name="smart_charging_main_switch_title">Usar carregamento inteligente</string>
-    <string name="smart_charging_level_title">Nível para interromper o carregamento</string>
-    <string name="smart_charging_resume_level_title">Nível para resumir o carregamento</string>
-    <string name="smart_charging_reset_stats_title">Redefinir estatísticas da bateria</string>
-    <string name="smart_charging_reset_stats_summary">Redefinir as estatísticas da bateria após atingir o nível de carga definido pelo usuário</string>
-    <string name="smart_charging_intro_text">O carregamento inteligente permite que você defina o nível máximo de carga para prolongar a vida útil da sua bateria</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes do ponto de acessso utilizem este dispositivo para se conectar a VPN</string>
@@ -346,7 +336,9 @@
     <string name="sleep_mode_location_toggle_summary">Desativar a Localização quando o modo de suspensão estiver ativado</string>
     <string name="sleep_mode_sensors_toggle_title">Desativar sensores</string>
     <string name="sleep_mode_sensors_toggle_summary">Desativar Sensores quando o modo de suspensão estiver ativado</string>
-    <string name="sleep_mode_display_text">O modo de suspensão permitite que você desative certos serviços para economizar bateria e silenciar seu telefone enquanto você dorme.</string>
+    <string name="sleep_mode_display_text" product="default">O modo de suspensão permitite que você desative certos serviços para economizar bateria e silenciar seu telefone enquanto você dorme.</string>
+    <string name="sleep_mode_display_text" product="tablet">O modo de suspensão permitite que você desative certos serviços para economizar bateria e silenciar seu telefone enquanto você dorme.</string>
+    <string name="sleep_mode_display_text" product="device">O modo de suspensão permitite que você desative certos serviços para economizar bateria e silenciar seu telefone enquanto você dorme.</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Balanço de cores</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -452,6 +444,24 @@
     <string name="android_beam_main_switch_title">Usar o Android Beam</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Toque duplo</string>
-    <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
+    <string name="doze_double_tap_title" product="default">Tocar duas vezes na tela para verificar o smartphone</string>
+    <string name="doze_double_tap_title" product="tablet">Tocar duas vezes na tela para verificar o tablet</string>
+    <string name="doze_double_tap_title" product="device">Tocar duas vezes na tela para verificar o dispositivo</string>
     <string name="doze_double_tap_summary">Pulsar notificações ao tocar duas vezes na tela</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Carregamento inteligente</string>
+    <string name="charging_control_summary">Personalize o cronograma e os limites de carregamento do seu dispositivo</string>
+    <string name="charging_control_enable_title">Ativar carregamento inteligente</string>
+    <string name="charging_control_mode_title">Modo de carregamento</string>
+    <string name="charging_control_mode_auto_title">Agendamento automático</string>
+    <string name="charging_control_mode_auto_summary">Determinar automaticamente quando iniciar o carregamento com base nos alarmes definidos</string>
+    <string name="charging_control_mode_custom_title">Agendamento personalizado</string>
+    <string name="charging_control_mode_custom_summary">Defina um tempo para iniciar a carga completa</string>
+    <string name="charging_control_mode_limit_title">Limitar o carregamento</string>
+    <string name="charging_control_mode_limit_summary">Pausar a carga ao atingir certa porcentagem</string>
+    <string name="charging_control_start_time_title">Horário de início</string>
+    <string name="charging_control_start_time_summary">O carregamento inteligente é ativado quando você inicia o carregamento após %s</string>
+    <string name="charging_control_target_time_title">Tempo alvo para carga completa</string>
+    <string name="charging_control_target_time_summary">A bateria estará totalmente carregada em %s</string>
+    <string name="charging_control_limit_title">Limite</string>
 </resources>
