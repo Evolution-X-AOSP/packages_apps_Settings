@@ -11,7 +11,6 @@
     <string name="soc_model">Modello SoC</string>
     <string name="total_ram">RAM totale</string>
     <!-- About device screen, Evolution X -->
-    <string name="about_device_name">Dispositivo</string>
     <string name="evolution_x_version">Versione di Evolution X</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Data di compilazione</string>
@@ -43,6 +42,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Ricarica rapida</string>
     <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per estendere la durata della batteria</string>
+    <string name="restricted_current_summary">Imposta la corrente massima consentita (mA)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pausa Intelligente</string>
     <string name="adaptive_playback_main_switch_title">Usa la pausa intelligente</string>
@@ -85,15 +85,6 @@
     <!-- General -->
     <string name="copied_to_clipboard">Copiato negli appunti</string>
     <string name="longpress_to_clipboard">Pressione prolungata per copiare</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Ricarica intelligente</string>
-    <string name="smart_charging_summary">Imposta il livello massimo di ricarica</string>
-    <string name="smart_charging_main_switch_title">Usa la ricarica intelligente</string>
-    <string name="smart_charging_level_title">Livello di fine ricarica</string>
-    <string name="smart_charging_resume_level_title">Livello di inizio ricarica</string>
-    <string name="smart_charging_reset_stats_title">Ripristina le statistiche della batteria</string>
-    <string name="smart_charging_reset_stats_summary">Ripristina le statistiche della batteria dopo aver raggiunto il livello di ricarica definito dall\'utente</string>
-    <string name="smart_charging_intro_text">La Ricarica Intelligente ti consente di impostare il livello di ricarica massimo per estendere la vita della tua batteria</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Consenti ai clienti di usare le VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
@@ -346,7 +337,9 @@
     <string name="sleep_mode_location_toggle_summary">Disabilita la posizione quando la modalità sonno è attiva</string>
     <string name="sleep_mode_sensors_toggle_title">Disattiva i sensori</string>
     <string name="sleep_mode_sensors_toggle_summary">Disabilita i sensori quando la modalità sonno è attiva</string>
-    <string name="sleep_mode_display_text">La modalità sonno consente di disattivare alcuni servizi per risparmiare batteria e silenziare il telefono mentre dormi.</string>
+    <string name="sleep_mode_display_text" product="default">La modalità sonno consente di disattivare alcuni servizi per risparmiare batteria e silenziare il telefono mentre dormi.</string>
+    <string name="sleep_mode_display_text" product="tablet">La modalità sonno consente di disattivare alcuni servizi per risparmiare batteria e silenziare il tablet mentre dormi.</string>
+    <string name="sleep_mode_display_text" product="device">La modalità sonno consente di disattivare alcuni servizi per risparmiare batteria e silenziare il dispositivo mentre dormi.</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Bilanciamento colore</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -452,6 +445,24 @@
     <string name="android_beam_main_switch_title">Usa Android Beam</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doppio tocco</string>
-    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
+    <string name="doze_double_tap_title" product="default">Doppio tocco per controllare il telefono</string>
+    <string name="doze_double_tap_title" product="tablet">Doppio tocco per controllare il tablet</string>
+    <string name="doze_double_tap_title" product="device">Doppio tocco per controllare il dispositivo</string>
     <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Controllo della carica</string>
+    <string name="charging_control_summary">Personalizza la pianificazione e i limiti di carica del dispositivo</string>
+    <string name="charging_control_enable_title">Abilita il controllo della carica</string>
+    <string name="charging_control_mode_title">Modalità di carica</string>
+    <string name="charging_control_mode_auto_title">Programmazione automatica</string>
+    <string name="charging_control_mode_auto_summary">Determina automaticamente quando avviare la carica in base alle sveglie impostate</string>
+    <string name="charging_control_mode_custom_title">Programmazione personalizzata</string>
+    <string name="charging_control_mode_custom_summary">Imposta un orario di completamento della carica</string>
+    <string name="charging_control_mode_limit_title">Limite di carica</string>
+    <string name="charging_control_mode_limit_summary">Limita la carica ad una determinata percentuale</string>
+    <string name="charging_control_start_time_title">Ora di inizio</string>
+    <string name="charging_control_start_time_summary">Il controllo della carica si attiva quando si inizia la carica dopo le %s</string>
+    <string name="charging_control_target_time_title">Orario di completamento della carica</string>
+    <string name="charging_control_target_time_summary">La batteria sarà completamente carica alle %s</string>
+    <string name="charging_control_limit_title">Limite</string>
 </resources>

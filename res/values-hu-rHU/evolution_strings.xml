@@ -11,7 +11,6 @@
     <string name="soc_model">CPU modell</string>
     <string name="total_ram">Az összes RAM</string>
     <!-- About device screen, Evolution X -->
-    <string name="about_device_name">Készülék</string>
     <string name="evolution_x_version">Evolution X-verzió</string>
     <!-- About device screen, Build date -->
     <string name="build_date">A kiadás dátuma</string>
@@ -43,6 +42,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Gyorstöltés</string>
     <string name="fast_charging_summary">Tiltás,  hogy ne melegedjen a készülék töltés közben és az akkuélettartam növeléséért</string>
+    <string name="restricted_current_summary">Állítsa be a maximális megengedettet (mA)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Okos szüneteltetés</string>
     <string name="adaptive_playback_main_switch_title">Az \'Okos szüneteltetés\' használata</string>
@@ -85,15 +85,6 @@
     <!-- General -->
     <string name="copied_to_clipboard">Vágólapra másolva</string>
     <string name="longpress_to_clipboard">Másolás hosszannyomással</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Okos töltés</string>
-    <string name="smart_charging_summary">A maximális töltési szint beállítása</string>
-    <string name="smart_charging_main_switch_title">Az \'Okos töltés\' használata</string>
-    <string name="smart_charging_level_title">Megállítási érték</string>
-    <string name="smart_charging_resume_level_title">Indítási érték</string>
-    <string name="smart_charging_reset_stats_title">Akkustatisztikák törlése</string>
-    <string name="smart_charging_reset_stats_summary">Amikor elérte a felhasználó által beállított töltési szintet, alaphelyzetbe állítja az akkustatisztikát</string>
-    <string name="smart_charging_intro_text">Az \'Okos töltés\' lehetővé teszi a maximális töltési szint beállítását az akkumulátor élettartamának meghosszabbítása érdekében</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Engedélyezi a klienseknek a VPN-használatot</string>
     <string name="tethering_allow_vpn_upstreams_summary">Engedélyezze a hotspot-klienseknek, hogy a készülék VPN-kapcsolatait felfelé csatlakoztathassák</string>
@@ -346,7 +337,9 @@
     <string name="sleep_mode_location_toggle_summary">Letiltja a Lokalizációt, ha az Alvómód be van kapcsolva</string>
     <string name="sleep_mode_sensors_toggle_title">Szenzor-kikapcsolás</string>
     <string name="sleep_mode_sensors_toggle_summary">Letiltja a Szenzorokat, ha az Alvómód be van kapcsolva</string>
-    <string name="sleep_mode_display_text">Az Alvómód lehetővé teszi Önnek szolgáltatások letiltását az akkumulátor kímélése és a telefon alvás közbeni némítása érdekében.</string>
+    <string name="sleep_mode_display_text" product="default">Az Alvómód lehetővé teszi Önnek szolgáltatások letiltását az akkumulátor kímélése és a telefon alvás közbeni némítása érdekében.</string>
+    <string name="sleep_mode_display_text" product="tablet">Amikor Ön alszik az Alvómód lehetővé teszi Önnek szolgáltatások letiltását az akkumulátor kímélése és a tablet némítása érdekében.</string>
+    <string name="sleep_mode_display_text" product="device">Amikor Ön alszik az Alvómód lehetővé teszi Önnek szolgáltatások letiltását az akkumulátor kímélése és a készülék némítása érdekében.</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Színegyensúly</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -452,6 +445,24 @@
     <string name="android_beam_main_switch_title">Az Átvitel (Android Beam) használata</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Dupla érintés</string>
-    <string name="doze_double_tap_title">Gyorsellenőrzés dupla érintéssel</string>
+    <string name="doze_double_tap_title" product="default">Gyorsellenőrzés dupla érintéssel</string>
+    <string name="doze_double_tap_title" product="tablet">Kattintson duplán a táblagép ellenőrzéséhez</string>
+    <string name="doze_double_tap_title" product="device">Kattintson duplán az eszköz ellenőrzéséhez</string>
     <string name="doze_double_tap_summary">Pulzáló értesítések dupla érintésre</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Kontrollált töltés</string>
+    <string name="charging_control_summary">Testreszabhatja készüléke töltési ütemezését és korlátait</string>
+    <string name="charging_control_enable_title">Itt engedélyezheti a kontrolált töltést</string>
+    <string name="charging_control_mode_title">A töltés módja</string>
+    <string name="charging_control_mode_auto_title">Automatikus ütemezés</string>
+    <string name="charging_control_mode_auto_summary">A beállított ébresztések alapján automatikusan határozza meg, hogy mikor kezdődjön a töltés</string>
+    <string name="charging_control_mode_custom_title">Egyéni ütemezés</string>
+    <string name="charging_control_mode_custom_summary">Ön állítat be célidőt a teljes feltöltéshez</string>
+    <string name="charging_control_mode_limit_title">Limitált töltés</string>
+    <string name="charging_control_mode_limit_summary">Egy bizonyos akkuszázalékhoz köti a töltést</string>
+    <string name="charging_control_start_time_title">Kezdési idő</string>
+    <string name="charging_control_start_time_summary">A kontroll aktiválódik amennyiben %s után kezdi a töltést</string>
+    <string name="charging_control_target_time_title">A teljes töltés célideje</string>
+    <string name="charging_control_target_time_summary">%s - lesz teljesen feltöltve az akku</string>
+    <string name="charging_control_limit_title">Korlát</string>
 </resources>
