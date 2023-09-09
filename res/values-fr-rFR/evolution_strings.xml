@@ -11,7 +11,6 @@
     <string name="soc_model">Modèle SoC</string>
     <string name="total_ram">Mémoire RAM totale</string>
     <!-- About device screen, Evolution X -->
-    <string name="about_device_name">Appareil</string>
     <string name="evolution_x_version">Version de Evolution X</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Date de compilation</string>
@@ -43,6 +42,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Charge rapide</string>
     <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil lors de la charge ou étendre la durée de vie de la batterie</string>
+    <string name="restricted_current_summary">Définir le courant maximum autorisé (mA)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pause intelligente</string>
     <string name="adaptive_playback_main_switch_title">Utiliser la pause intelligente</string>
@@ -85,15 +85,6 @@
     <!-- General -->
     <string name="copied_to_clipboard">Copié dans le presse-papier</string>
     <string name="longpress_to_clipboard">Appui long pour copier</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Charge intelligente</string>
-    <string name="smart_charging_summary">Définir le niveau de charge maximal</string>
-    <string name="smart_charging_main_switch_title">Utiliser la charge intelligente</string>
-    <string name="smart_charging_level_title">Niveau d\'arrêt de la charge</string>
-    <string name="smart_charging_resume_level_title">Niveau de déclenchement de la recharge</string>
-    <string name="smart_charging_reset_stats_title">Réinitialiser les statistiques de batterie</string>
-    <string name="smart_charging_reset_stats_summary">Réinitialiser les statistiques de la batterie après avoir atteint le niveau de charge défini par l\'utilisateur</string>
-    <string name="smart_charging_intro_text">La charge intelligente vous permet de définir le niveau de charge maximal pour prolonger la durée de vie de votre batterie</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Autoriser les clients à utiliser des VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permettre aux clients du point d\'accès d\'utiliser les connexions VPN de cet appareil</string>
@@ -346,7 +337,9 @@
     <string name="sleep_mode_location_toggle_summary">Désactiver la localisation lorsque le mode veille est activé</string>
     <string name="sleep_mode_sensors_toggle_title">Désactiver les capteurs</string>
     <string name="sleep_mode_sensors_toggle_summary">Désactiver les capteurs lorsque le mode veille est activé</string>
-    <string name="sleep_mode_display_text">Le mode Veille vous permet de désactiver certains services pour économiser de la batterie et couper le son de votre téléphone pendant que vous dormez.</string>
+    <string name="sleep_mode_display_text" product="default">Le mode Veille vous permet de désactiver certains services pour économiser de la batterie et couper le son de votre téléphone pendant que vous dormez.</string>
+    <string name="sleep_mode_display_text" product="tablet">Le mode Veille vous permet de désactiver certains services pour économiser de la batterie et couper le son de votre tablette pendant que vous dormez.</string>
+    <string name="sleep_mode_display_text" product="device">Le mode Veille vous permet de désactiver certains services pour économiser de la batterie et couper le son de votre appareil pendant que vous dormez.</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Nuances de couleur</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -452,6 +445,24 @@
     <string name="android_beam_main_switch_title">Utiliser Android Beam</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double appui</string>
-    <string name="doze_double_tap_title">Appuyez deux fois pour allumer l\'écran</string>
+    <string name="doze_double_tap_title" product="default">Appuyez deux fois pour allumer l\'écran</string>
+    <string name="doze_double_tap_title" product="tablet">Appuyez deux fois sur la tablette pour la consulter</string>
+    <string name="doze_double_tap_title" product="device">Appuyez deux fois sur l\'appareil pour le consulter</string>
     <string name="doze_double_tap_summary">Faire apparaître les notifications par double appui</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Contrôle de la charge</string>
+    <string name="charging_control_summary">Personnalisez le planning de charge et les limites pour votre appareil</string>
+    <string name="charging_control_enable_title">Activer le contrôle de la charge</string>
+    <string name="charging_control_mode_title">Mode de Charge</string>
+    <string name="charging_control_mode_auto_title">Planification automatique</string>
+    <string name="charging_control_mode_auto_summary">Déterminer automatiquement quand démarrer la charge en fonction des alarmes définies</string>
+    <string name="charging_control_mode_custom_title">Planification personnalisée</string>
+    <string name="charging_control_mode_custom_summary">Définir l\'heure de fin de la charge complète</string>
+    <string name="charging_control_mode_limit_title">Limiter la charge</string>
+    <string name="charging_control_mode_limit_summary">Limiter la charge à un certain pourcentage</string>
+    <string name="charging_control_start_time_title">Heure de début</string>
+    <string name="charging_control_start_time_summary">Le contrôle de charge s\'active lorsque vous commencez à charger après %s</string>
+    <string name="charging_control_target_time_title">Heure de fin de la charge complète</string>
+    <string name="charging_control_target_time_summary">La batterie sera complètement chargée dans %s</string>
+    <string name="charging_control_limit_title">Limite</string>
 </resources>

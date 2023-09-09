@@ -11,7 +11,6 @@
     <string name="soc_model">Модель SoC</string>
     <string name="total_ram">Об\'єм ОЗП</string>
     <!-- About device screen, Evolution X -->
-    <string name="about_device_name">Пристрій</string>
     <string name="evolution_x_version">Версія Evolution X</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Дата збірки</string>
@@ -85,15 +84,6 @@
     <!-- General -->
     <string name="copied_to_clipboard">Скопійовано до буферу обміну</string>
     <string name="longpress_to_clipboard">Довге натискання для копіювання</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">«Розумне» заряджання</string>
-    <string name="smart_charging_summary">Встановіть максимальний рівень зарядки</string>
-    <string name="smart_charging_main_switch_title">Використовувати Розумне заряджання</string>
-    <string name="smart_charging_level_title">Рівень зупинки «Розумного» заряджання</string>
-    <string name="smart_charging_resume_level_title">Рівень початку «Розумного» заряджання</string>
-    <string name="smart_charging_reset_stats_title">Скинути статистику батареї</string>
-    <string name="smart_charging_reset_stats_summary">Скиньте статистику акумулятора після досягнення визначеного користувачем рівня зарядки</string>
-    <string name="smart_charging_intro_text">«Розумне» заряджання дозволяє встановити максимальний рівень зарядки для продовження терміну служби батареї</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати VPN-з\'єднання цього пристрою\u2019 для підключення до потоку</string>
@@ -346,7 +336,9 @@
     <string name="sleep_mode_location_toggle_summary">Вимикати геодані, коли ввімкнено режим сну</string>
     <string name="sleep_mode_sensors_toggle_title">Вимкнути сенсори</string>
     <string name="sleep_mode_sensors_toggle_summary">Вимикати сенсори, коли ввімкнено режим сну</string>
-    <string name="sleep_mode_display_text">Режим сну дозволяє вимкнути певні сервіси, щоб заощадити заряд і стишити телефон у режимі сну.</string>
+    <string name="sleep_mode_display_text" product="default">Режим сну дозволяє вимкнути певні сервіси, щоб заощадити заряд і стишити телефон у режимі сну.</string>
+    <string name="sleep_mode_display_text" product="tablet">Режим сну дозволяє вимкнути певні сервіси, щоб заощадити заряд і стишити планшет поки ви спите.</string>
+    <string name="sleep_mode_display_text" product="device">Режим сну дозволяє вимкнути певні сервіси, щоб заощадити заряд і стишити пристрій поки ви спите.</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Баланс кольорів</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -452,6 +444,24 @@
     <string name="android_beam_main_switch_title">Використовуйте Android Beam</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Подвійне натискання</string>
-    <string name="doze_double_tap_title">Двічі торкніться, щоб перевірити телефон</string>
+    <string name="doze_double_tap_title" product="default">Двічі торкніться, щоб перевірити телефон</string>
+    <string name="doze_double_tap_title" product="tablet">Торкніться двічі, щоб перевірити планшет</string>
+    <string name="doze_double_tap_title" product="device">Торкніться двічі, щоб перевірити пристрій</string>
     <string name="doze_double_tap_summary">Імпульсні повідомлення подвійним натисканням</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Керування заряджанням</string>
+    <string name="charging_control_summary">Налаштуйте розклад заряджання та обмеження для вашого пристрою</string>
+    <string name="charging_control_enable_title">Увімкнути керування заряджанням</string>
+    <string name="charging_control_mode_title">Режим заряджання</string>
+    <string name="charging_control_mode_auto_title">Автоматичний розклад</string>
+    <string name="charging_control_mode_auto_summary">Автоматично визначати коли починати заряджання на основі встановлених будильників</string>
+    <string name="charging_control_mode_custom_title">Розклад користувача</string>
+    <string name="charging_control_mode_custom_summary">Встановити час до повного заряджання</string>
+    <string name="charging_control_mode_limit_title">Обмежити заряджання</string>
+    <string name="charging_control_mode_limit_summary">Обмежити заряд до певного відсотка</string>
+    <string name="charging_control_start_time_title">Час початку</string>
+    <string name="charging_control_start_time_summary">Керування заряджанням активується через %s після початку заряджання</string>
+    <string name="charging_control_target_time_title">Час до повного заряджання</string>
+    <string name="charging_control_target_time_summary">Батарея буде повністю заряджена за %s</string>
+    <string name="charging_control_limit_title">Обмеження</string>
 </resources>
