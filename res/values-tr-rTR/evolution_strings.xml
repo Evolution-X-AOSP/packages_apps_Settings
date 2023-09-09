@@ -11,7 +11,6 @@
     <string name="soc_model">SoC Modeli</string>
     <string name="total_ram">Toplam RAM</string>
     <!-- About device screen, Evolution X -->
-    <string name="about_device_name">Cihaz</string>
     <string name="evolution_x_version">Evolution X sürümü</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Sürüm tarihi</string>
@@ -85,15 +84,6 @@
     <!-- General -->
     <string name="copied_to_clipboard">Panoya kopyalandı</string>
     <string name="longpress_to_clipboard">Kopyalamak için uzun basın</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Akıllı şarj</string>
-    <string name="smart_charging_summary">Maksimum şarj seviyesi ayarlayın</string>
-    <string name="smart_charging_main_switch_title">Akıllı şarj kullan</string>
-    <string name="smart_charging_level_title">Durdurma tetikleyici seviyesi</string>
-    <string name="smart_charging_resume_level_title">Başlatma tetikleyici seviyesi</string>
-    <string name="smart_charging_reset_stats_title">Pil istatistiklerini sıfırla</string>
-    <string name="smart_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırla</string>
-    <string name="smart_charging_intro_text">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanıza olanak verir</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın VPN bağlantısını kullanmasına izin ver</string>
@@ -346,7 +336,9 @@
     <string name="sleep_mode_location_toggle_summary">Uyku modu açıldığında konum hizmetlerini devre dışı bırak</string>
     <string name="sleep_mode_sensors_toggle_title">Sensörleri kapat</string>
     <string name="sleep_mode_sensors_toggle_summary">Uyku modu açıldığında sensörleri devre dışı bırak</string>
-    <string name="sleep_mode_display_text">Uyku modu pil tasarrufu için bazı servisleri devre dışı bırakmanızı ve siz uyurken telefonunuzu sessiz moda almanızı sağlar.</string>
+    <string name="sleep_mode_display_text" product="default">Uyku modu pil tasarrufu için bazı servisleri devre dışı bırakmanızı ve siz uyurken telefonunuzu sessiz moda almanızı sağlar.</string>
+    <string name="sleep_mode_display_text" product="tablet">Uyku modu, pilden tasarruf etmenize ve uyurken tabletinizi susturmanıza yardımcı olmak için belirli hizmetleri devre dışı bırakmanıza olanak tanır.</string>
+    <string name="sleep_mode_display_text" product="device">Uyku modu, pilden tasarruf etmenize ve uyurken cihazınızı susturmanıza yardımcı olmak için belirli hizmetleri devre dışı bırakmanıza olanak tanır.</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Renk dengesi</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -452,6 +444,24 @@
     <string name="android_beam_main_switch_title">Android Beam kullan</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Çift dokunma</string>
-    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
+    <string name="doze_double_tap_title" product="default">Telefonu kontrol etmek için çift dokunun</string>
+    <string name="doze_double_tap_title" product="tablet">Tableti denetlemek için çift dokunun</string>
+    <string name="doze_double_tap_title" product="device">Cihazı denetlemek için çift dokunun</string>
     <string name="doze_double_tap_summary">Çift dokunuşla ortam ekranı bildirimleri</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Şarj kontrolü</string>
+    <string name="charging_control_summary">Cihazınız için şarj programını ve sınırlarını özelleştirin</string>
+    <string name="charging_control_enable_title">Şarj kontrolünü etkinleştir</string>
+    <string name="charging_control_mode_title">Şarj Modu</string>
+    <string name="charging_control_mode_auto_title">Otomatik planlama</string>
+    <string name="charging_control_mode_auto_summary">Alarm kurulmuş saatlere göre şarjın ne zaman başlayacağını otomatik belirle</string>
+    <string name="charging_control_mode_custom_title">Özel zamanlama</string>
+    <string name="charging_control_mode_custom_summary">Tam şarj için bir hedef zaman belirleyin</string>
+    <string name="charging_control_mode_limit_title">Şarjı Kısıtla</string>
+    <string name="charging_control_mode_limit_summary">Şarjı belirli bir yüzdeye kısıtla</string>
+    <string name="charging_control_start_time_title">Başlangıç zamanı</string>
+    <string name="charging_control_start_time_summary">Şarj kontrolü %s saatinden sonra şarj etmeye başladığında aktive edilir</string>
+    <string name="charging_control_target_time_title">Tam şarj için hedef zaman</string>
+    <string name="charging_control_target_time_summary">Pil şu saatte tamamen şarj olmuş olacak: %s</string>
+    <string name="charging_control_limit_title">Limit</string>
 </resources>
