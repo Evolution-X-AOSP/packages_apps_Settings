@@ -11,7 +11,6 @@
     <string name="soc_model">SoC 模型</string>
     <string name="total_ram">总内存</string>
     <!-- About device screen, Evolution X -->
-    <string name="about_device_name">设备</string>
     <string name="evolution_x_version">Evolution X 版本</string>
     <!-- About device screen, Build date -->
     <string name="build_date">编译日期</string>
@@ -85,15 +84,6 @@
     <!-- General -->
     <string name="copied_to_clipboard">已复制到剪贴板</string>
     <string name="longpress_to_clipboard">长按复制</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">智能充电</string>
-    <string name="smart_charging_summary">设置充电电量上限</string>
-    <string name="smart_charging_main_switch_title">使用智能充电</string>
-    <string name="smart_charging_level_title">停止充电电量</string>
-    <string name="smart_charging_resume_level_title">开始充电电量</string>
-    <string name="smart_charging_reset_stats_title">重置电量统计信息</string>
-    <string name="smart_charging_reset_stats_summary">在达到用户定义充电量之后重置电池统计</string>
-    <string name="smart_charging_intro_text">智能充电允许您设置最大充电电量，以延长电池的使用寿命</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接</string>
@@ -346,7 +336,9 @@
     <string name="sleep_mode_location_toggle_summary">开启睡眠模式时禁用位置信息</string>
     <string name="sleep_mode_sensors_toggle_title">关闭传感器</string>
     <string name="sleep_mode_sensors_toggle_summary">开启睡眠模式时禁用传感器</string>
-    <string name="sleep_mode_display_text">睡眠模式允许您禁用某些服务以帮助在您睡觉时节省电量并静音您的手机</string>
+    <string name="sleep_mode_display_text" product="default">睡眠模式允许您禁用某些服务以帮助在您睡觉时节省电量并静音您的手机</string>
+    <string name="sleep_mode_display_text" product="tablet">睡眠模式允许您禁用某些服务以帮助在您睡觉时节省电量并静音您的平板</string>
+    <string name="sleep_mode_display_text" product="device">睡眠模式允许您禁用某些服务以帮助在您睡觉时节省电量并静音您的设备</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">色彩平衡</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -452,6 +444,24 @@
     <string name="android_beam_main_switch_title">使用Android Beam</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
-    <string name="doze_double_tap_title">双击亮屏</string>
+    <string name="doze_double_tap_title" product="default">双击亮屏</string>
+    <string name="doze_double_tap_title" product="tablet">双击唤醒</string>
+    <string name="doze_double_tap_title" product="device">双击唤醒</string>
     <string name="doze_double_tap_summary">双击查看息屏显示通知</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">充电控制</string>
+    <string name="charging_control_summary">自定义您设备的充电计划和限制</string>
+    <string name="charging_control_enable_title">启用充电控制</string>
+    <string name="charging_control_mode_title">充电模式</string>
+    <string name="charging_control_mode_auto_title">自动计划</string>
+    <string name="charging_control_mode_auto_summary">自动基于闹钟设置决定何时开始充电</string>
+    <string name="charging_control_mode_custom_title">自定义计划</string>
+    <string name="charging_control_mode_custom_summary">设定一个完全充满时间</string>
+    <string name="charging_control_mode_limit_title">充电限制</string>
+    <string name="charging_control_mode_limit_summary">限制充电到一定百分比</string>
+    <string name="charging_control_start_time_title">开始时间</string>
+    <string name="charging_control_start_time_summary">当您在充电 %s 后激活充电控制</string>
+    <string name="charging_control_target_time_title">完全充满时间</string>
+    <string name="charging_control_target_time_summary">电池将会充 %s 秒</string>
+    <string name="charging_control_limit_title">限制</string>
 </resources>
