@@ -21,7 +21,6 @@ import android.os.RemoteException;
 import android.util.Log;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.BasePreferenceController;
 
@@ -31,64 +30,28 @@ import vendor.lineage.fastcharge.V1_0.IFastCharge;
 
 import java.util.NoSuchElementException;
 
-/**
- * Controller to change and update the fast charging toggle
- */
-public class FastChargingPreferenceController extends BasePreferenceController
-        implements Preference.OnPreferenceChangeListener {
+public class FastChargingPreferenceController extends BasePreferenceController {
 
     private static final String KEY_FAST_CHARGING = "fast_charging";
     private static final String TAG = "FastChargingPreferenceController";
 
-    private IFastCharge mFastCharge = null;
+    private final boolean DEBUG = false;
     private Context mContext = null;
 
     public FastChargingPreferenceController(Context context) {
         super(context, KEY_FAST_CHARGING);
         mContext = context;
         if (!mContext.getResources().getBoolean(R.bool.config_lineageFastChargeSupported)) return;
-        try {
-            mFastCharge = IFastCharge.getService();
-        } catch (NoSuchElementException | RemoteException e) {
-            Log.e(TAG, "Failed to get IFastCharge interface", e);
-        }
     }
 
     @Override
     public int getAvailabilityStatus() {
-        if (!mContext.getResources().getBoolean(R.bool.config_lineageFastChargeSupported)) return UNSUPPORTED_ON_DEVICE;
-        return mFastCharge != null ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
-    }
-
-    @Override
-    public void updateState(Preference preference) {
-        super.updateState(preference);
-        boolean fastChargingEnabled = false;
-
-        if (!mContext.getResources().getBoolean(R.bool.config_lineageFastChargeSupported)) return;
-
         try {
-            fastChargingEnabled = mFastCharge.isEnabled();
-        } catch (RemoteException e) {
-            Log.e(TAG, "isEnabled failed", e);
+            if (!mContext.getResources().getBoolean(R.bool.config_lineageFastChargeSupported)) return UNSUPPORTED_ON_DEVICE;
+            return IFastCharge.getService() != null ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        } catch (NoSuchElementException | RemoteException e) {
+            if (DEBUG) Log.e(TAG, "Failed to get IFastCharge interface", e);
         }
-
-        ((SwitchPreference) preference).setChecked(fastChargingEnabled);
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        final boolean shouldEnableFastCharging = (Boolean) newValue;
-
-        if (!mContext.getResources().getBoolean(R.bool.config_lineageFastChargeSupported)) return false;
-
-        try {
-            mFastCharge.setEnabled(shouldEnableFastCharging);
-            updateState(preference);
-        } catch (RemoteException e) {
-            Log.e(TAG, "setEnabled failed", e);
-        }
-
-        return false;
+        return UNSUPPORTED_ON_DEVICE;
     }
 }
