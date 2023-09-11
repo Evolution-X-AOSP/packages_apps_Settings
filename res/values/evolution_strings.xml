@@ -57,6 +57,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Fast charging</string>
     <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="restricted_current_summary">Set max allowed current (mA)</string>
 
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Smart Pause</string>
