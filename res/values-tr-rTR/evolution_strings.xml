@@ -42,6 +42,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Hızlı şarj</string>
     <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
+    <string name="restricted_current_summary">Maksimum izin verilen akım (mA)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Akıllı duraklatma</string>
     <string name="adaptive_playback_main_switch_title">Akıllı duraklatma kullan</string>
