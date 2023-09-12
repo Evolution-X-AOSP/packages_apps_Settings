@@ -42,6 +42,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Charge rapide</string>
     <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil lors de la charge ou étendre la durée de vie de la batterie</string>
+    <string name="restricted_current_summary">Définir le courant maximum autorisé (mA)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pause intelligente</string>
     <string name="adaptive_playback_main_switch_title">Utiliser la pause intelligente</string>

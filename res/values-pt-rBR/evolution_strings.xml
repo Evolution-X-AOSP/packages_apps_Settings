@@ -42,6 +42,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Carregamento rápido</string>
     <string name="fast_charging_summary">Desative para reduzir o calor produzido pelo dispositivo durante o carregamento ou para estender a vida útil da bateria</string>
+    <string name="restricted_current_summary">Defina a corrente máxima a ser usada (mA)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pausa inteligente</string>
     <string name="adaptive_playback_main_switch_title">Usar pausa inteligente</string>
@@ -460,7 +461,7 @@
     <string name="charging_control_mode_limit_title">Limitar o carregamento</string>
     <string name="charging_control_mode_limit_summary">Pausar a carga ao atingir determinada porcentagem</string>
     <string name="charging_control_start_time_title">Horário de início</string>
-    <string name="charging_control_start_time_summary">O carregamento inteligente será ativado quando você iniciar o carregamento após %s</string>
+    <string name="charging_control_start_time_summary">O carregamento inteligente será ativado quando você iniciar o carregamento após as %s</string>
     <string name="charging_control_target_time_title">Tempo alvo para carga completa</string>
     <string name="charging_control_target_time_summary">A bateria estará totalmente carregada às %s</string>
     <string name="charging_control_limit_title">Limite</string>
