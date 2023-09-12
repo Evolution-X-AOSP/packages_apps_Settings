@@ -458,10 +458,10 @@
     <string name="charging_control_mode_custom_title">Agendamento personalizado</string>
     <string name="charging_control_mode_custom_summary">Defina um tempo para iniciar a carga completa</string>
     <string name="charging_control_mode_limit_title">Limitar o carregamento</string>
-    <string name="charging_control_mode_limit_summary">Pausar a carga ao atingir certa porcentagem</string>
+    <string name="charging_control_mode_limit_summary">Pausar a carga ao atingir determinada porcentagem</string>
     <string name="charging_control_start_time_title">Horário de início</string>
     <string name="charging_control_start_time_summary">O carregamento inteligente é ativado quando você inicia o carregamento após %s</string>
     <string name="charging_control_target_time_title">Tempo alvo para carga completa</string>
-    <string name="charging_control_target_time_summary">A bateria estará totalmente carregada em %s</string>
+    <string name="charging_control_target_time_summary">A bateria estará totalmente carregada às %s</string>
     <string name="charging_control_limit_title">Limite</string>
 </resources>
