@@ -42,6 +42,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Gyorstöltés</string>
     <string name="fast_charging_summary">Tiltás,  hogy ne melegedjen a készülék töltés közben és az akkuélettartam növeléséért</string>
+    <string name="restricted_current_summary">Állítsa be a maximális megengedettet (mA)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Okos szüneteltetés</string>
     <string name="adaptive_playback_main_switch_title">Az \'Okos szüneteltetés\' használata</string>
