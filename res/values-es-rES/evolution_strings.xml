@@ -11,7 +11,6 @@
     <string name="soc_model">Modelo SoC</string>
     <string name="total_ram">RAM total</string>
     <!-- About device screen, Evolution X -->
-    <string name="about_device_name">Dispositivo</string>
     <string name="evolution_x_version">Versión de Evolution X</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Fecha de compilación</string>
@@ -43,6 +42,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Carga rápida</string>
     <string name="fast_charging_summary">Desactive para reducir el sobrecalentamiento del dispositivo durante la carga o para extender la vida útil de la batería</string>
+    <string name="restricted_current_summary">Establecer corriente máxima permitida (mA)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pausa Inteligente</string>
     <string name="adaptive_playback_main_switch_title">Usar Pausa Inteligente</string>
@@ -85,15 +85,6 @@
     <!-- General -->
     <string name="copied_to_clipboard">Copiado al portapapeles</string>
     <string name="longpress_to_clipboard">Mantén pulsado para copiar</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Carga inteligente</string>
-    <string name="smart_charging_summary">Establecer un nivel de carga máximo</string>
-    <string name="smart_charging_main_switch_title">Usar Carga Inteligente</string>
-    <string name="smart_charging_level_title">Detener carga al nivel</string>
-    <string name="smart_charging_resume_level_title">Iniciar carga al nivel</string>
-    <string name="smart_charging_reset_stats_title">Reiniciar las estadísticas de la batería</string>
-    <string name="smart_charging_reset_stats_summary">Restablece las estadísticas de la batería después de alcanzar el nivel de carga definido por el usuario</string>
-    <string name="smart_charging_intro_text">La Carga Inteligente permite establecer un nivel máximo de carga para ampliar la duración de la batería</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permite a los clientes del punto de acceso usar las conexiones VPN de este dispositivo como conectividad de subida</string>
@@ -346,7 +337,9 @@
     <string name="sleep_mode_location_toggle_summary">Desactivar ubicación cuando el modo Sueño está activado</string>
     <string name="sleep_mode_sensors_toggle_title">Desactivar sensores</string>
     <string name="sleep_mode_sensors_toggle_summary">Desactivar sensores cuando el modo Sueño está activado</string>
-    <string name="sleep_mode_display_text">El modo Sueño te permite desactivar ciertos servicios para ahorrar batería y silenciar tu teléfono mientras duermes.</string>
+    <string name="sleep_mode_display_text" product="default">El modo Sueño te permite desactivar ciertos servicios para ahorrar batería y silenciar tu teléfono mientras duermes.</string>
+    <string name="sleep_mode_display_text" product="tablet">El modo de suspensión te permite desactivar ciertos servicios para ahorrar batería y silenciar tu tableta mientras duermes.</string>
+    <string name="sleep_mode_display_text" product="device">El modo de suspensión te permite desactivar ciertos servicios para ayudar a ahorrar batería y silenciar tu dispositivo mientras duermes.</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Balance de color</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -452,6 +445,24 @@
     <string name="android_beam_main_switch_title">Usar Android Beam</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doble toque</string>
-    <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
+    <string name="doze_double_tap_title" product="default">Doble toque para comprobar el teléfono</string>
+    <string name="doze_double_tap_title" product="tablet">Presiona dos veces para verificar la tableta</string>
+    <string name="doze_double_tap_title" product="device">Presiona dos veces para verificar el dispositivo</string>
     <string name="doze_double_tap_summary">Notificaciones de pulso por doble toque</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Control de carga</string>
+    <string name="charging_control_summary">Personaliza el horario de carga y los límites para tu dispositivo</string>
+    <string name="charging_control_enable_title">Habilitar el control de carga</string>
+    <string name="charging_control_mode_title">Modo de carga</string>
+    <string name="charging_control_mode_auto_title">Programación automática</string>
+    <string name="charging_control_mode_auto_summary">Determinar automáticamente cuándo comenzar a cargar según las alarmas configuradas</string>
+    <string name="charging_control_mode_custom_title">Programación personalizada</string>
+    <string name="charging_control_mode_custom_summary">Establecer un tiempo objetivo para la carga completa</string>
+    <string name="charging_control_mode_limit_title">Limitar la carga</string>
+    <string name="charging_control_mode_limit_summary">Limitar la carga a un porcentaje específico</string>
+    <string name="charging_control_start_time_title">Hora de inicio</string>
+    <string name="charging_control_start_time_summary">El control de carga se activa cuando comienzas a cargar después del %s</string>
+    <string name="charging_control_target_time_title">Tiempo objetivo para carga completa</string>
+    <string name="charging_control_target_time_summary">La batería estará completamente cargada para las %s</string>
+    <string name="charging_control_limit_title">Límite</string>
 </resources>
