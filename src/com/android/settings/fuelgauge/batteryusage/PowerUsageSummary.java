@@ -21,6 +21,7 @@ import static com.android.settings.fuelgauge.BatteryBroadcastReceiver.BatteryUpd
 import android.annotation.Nullable;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.res.Resources;
 import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Bundle;
@@ -81,6 +82,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
     private static final String KEY_BATTERY_CHARGE_CYCLES = "battery_charge_cycles";
     private static final String KEY_BATTERY_TEMP = "battery_temp";
+    private static final String KEY_FAST_CHARGING = "fast_charging";
 
     private String mBatDesCap;
     private String mBatCurCap;
@@ -476,5 +478,18 @@ public class PowerUsageSummary extends PowerUsageBase implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.power_usage_summary);
+            new BaseSearchIndexProvider(R.xml.power_usage_summary) {
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    final Resources res = context.getResources();
+
+                    boolean mFastChargingSupported = res.getBoolean(
+                            R.bool.config_lineageFastChargeSupported);
+                    if (!mFastChargingSupported)
+                        keys.add(KEY_FAST_CHARGING);
+
+                    return keys;
+                }
+            };
 }
