@@ -213,6 +213,7 @@ public class BlockingPrefWithSliceController extends BasePreferenceController im
             Intent intentFromSliceAction = sliceAction.get().getAction().getIntent();
             Intent expectedActivityIntent = null;
             Log.d(TAG, "SliceAction: intent's Action:" + intentFromSliceAction.getAction());
+            if (mSliceIntentAction == null) return;
             if (intentFromSliceAction.getAction().equals(mSliceIntentAction)) {
                 expectedActivityIntent = intentFromSliceAction
                         .getParcelableExtra(mExtraIntent, Intent.class);
