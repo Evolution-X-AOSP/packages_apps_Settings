@@ -393,10 +393,6 @@
     <!-- NFC sounds -->
     <string name="nfc_sounds_title">NFC sounds</string>
 
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient display</string>
-    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
-
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Sleep Mode</string>
     <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
