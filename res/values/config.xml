@@ -744,7 +744,7 @@
     <bool name="config_battery_manager_consider_ac">false</bool>
 
     <!-- Whether to display Cloned Apps page in Settings (Settings > Apps > Cloned Apps).-->
-    <bool name="config_cloned_apps_page_enabled">false</bool>
+    <bool name="config_cloned_apps_page_enabled">true</bool>
 
     <!-- Certificates of apps which are allowed to use activity embedding with Settings.-->
     <string-array name="config_known_host_certs" translatable="false">
