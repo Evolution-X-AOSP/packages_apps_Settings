@@ -163,6 +163,6 @@ private fun AppInfoSettings(packageInfoPresenter: PackageInfoPresenter) {
         Category(title = stringResource(R.string.app_install_details_group_title)) {
             AppInstallerInfoPreference(app)
         }
-        appInfoProvider.FooterAppVersion()
+        appInfoProvider.FooterAppInfoDetails()
     }
 }
