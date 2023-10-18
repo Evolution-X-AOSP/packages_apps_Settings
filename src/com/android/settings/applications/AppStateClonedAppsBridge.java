@@ -26,6 +26,7 @@ import android.util.Log;
 
 import com.android.settings.Utils;
 import com.android.settingslib.applications.ApplicationsState;
+import com.android.settingslib.applications.AppUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -47,8 +48,7 @@ public class AppStateClonedAppsBridge extends AppStateBaseBridge{
             Callback callback) {
         super(appState, callback);
         mContext = context;
-        mAllowedApps = Arrays.asList(mContext.getResources()
-                .getStringArray(com.android.internal.R.array.cloneable_apps));
+        mAllowedApps = AppUtils.getCloneableAppList(mContext);
     }
 
     @Override
