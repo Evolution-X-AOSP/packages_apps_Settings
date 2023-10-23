@@ -22,8 +22,10 @@ import android.annotation.SuppressLint
 import android.app.ActivityManager
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
+import android.content.pm.UserInfo
 import android.graphics.drawable.Drawable
 import android.os.Bundle
+import android.os.UserManager
 import android.provider.Settings
 import android.view.Menu
 import android.view.MenuInflater
@@ -56,8 +58,10 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     private lateinit var adapter: AppListAdapter
     private lateinit var packageList: List<PackageInfo>
     private lateinit var cutoutForceFullscreenSettings: CutoutFullscreenController
-    private lateinit var appBarLayout: AppBarLayout
+    private lateinit var userManager: UserManager
+    private lateinit var userInfos: List<UserInfo>
 
+    private var appBarLayout: AppBarLayout? = requireActivity().findViewById(R.id.app_bar)
     private var searchText = ""
     private var customFilter: ((PackageInfo) -> Boolean)? = null
     private var comparator: ((PackageInfo, PackageInfo) -> Int)? = null
@@ -78,11 +82,12 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
         requireActivity().setTitle(getTitle())
-        appBarLayout = requireActivity().findViewById(R.id.app_bar)
-        activityManager = requireContext().getSystemService(ActivityManager::class.java)
+        activityManager = requireContext().getSystemService(ActivityManager::class.java) as ActivityManager
         packageManager = requireContext().packageManager
-        packageList = packageManager.getInstalledPackages(0)
-        cutoutForceFullscreenSettings = CutoutFullscreenController(requireContext());
+        packageList = packageManager.getInstalledPackages(PackageManager.MATCH_ANY_USER)
+        userManager = UserManager.get(requireContext())
+        userInfos = userManager.getUsers()
+        cutoutForceFullscreenSettings = CutoutFullscreenController(requireContext())
     }
 
     private fun getTitle(): Int {
@@ -92,9 +97,9 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         adapter = AppListAdapter()
         recyclerView = view.findViewById<RecyclerView>(R.id.apps_list).also {
-            it.layoutManager = LinearLayoutManager(context)
-            it.adapter = adapter
-        }
+            it!!.layoutManager = LinearLayoutManager(context)
+            it!!.adapter = adapter
+        } as RecyclerView
         refreshList()
     }
 
@@ -118,14 +123,14 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         optionsMenu = menu;
         inflater.inflate(R.menu.cutout_force_fullscreen_menu, menu)
 
-        menu.findItem(R.id.show_system).setVisible(!showSystem);
-        menu.findItem(R.id.hide_system).setVisible(showSystem);
+        menu.findItem(R.id.show_system).setVisible(!showSystem)
+        menu.findItem(R.id.hide_system).setVisible(showSystem)
 
         val searchMenuItem = menu.findItem(R.id.search) as MenuItem
         searchMenuItem.setOnActionExpandListener(object: MenuItem.OnActionExpandListener {
             override fun onMenuItemActionExpand(item: MenuItem): Boolean {
                 // To prevent a large space on tool bar.
-                appBarLayout.setExpanded(false /*expanded*/, false /*animate*/)
+                appBarLayout!!.setExpanded(false /*expanded*/, false /*animate*/)
                 // To prevent user can expand the collapsing tool bar view.
                 ViewCompat.setNestedScrollingEnabled(recyclerView, false)
                 return true
@@ -133,7 +138,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
 
             override fun onMenuItemActionCollapse(item: MenuItem): Boolean {
                 // We keep the collapsed status after user cancel the search function.
-                appBarLayout.setExpanded(false /*expanded*/, false /*animate*/)
+                appBarLayout!!.setExpanded(false /*expanded*/, false /*animate*/)
                 ViewCompat.setNestedScrollingEnabled(recyclerView, true)
                 return true
             }
@@ -178,8 +183,8 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
 
         var menu = optionsMenu as Menu
 
-        menu.findItem(R.id.show_system).setVisible(!showSystem);
-        menu.findItem(R.id.hide_system).setVisible(showSystem);
+        menu.findItem(R.id.show_system).setVisible(!showSystem)
+        menu.findItem(R.id.hide_system).setVisible(showSystem)
     }
 
     /**
@@ -189,13 +194,15 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
      */
     private fun onListUpdate(packageName: String, isChecked: Boolean) {
         if (packageName.isBlank()) return
-        if (isChecked) {
-            cutoutForceFullscreenSettings.addApp(packageName);
-        } else {
-            cutoutForceFullscreenSettings.removeApp(packageName);
+        for (info in userInfos) {
+            if (isChecked) {
+                cutoutForceFullscreenSettings.addApp(packageName, info.id)
+            } else {
+                cutoutForceFullscreenSettings.removeApp(packageName, info.id)
+            }
         }
         try {
-            activityManager.forceStopPackage(packageName);
+            activityManager.forceStopPackage(packageName)
         } catch (ignored: Exception) {
         }
     }
@@ -207,19 +214,19 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     private fun refreshList() {
         var list = packageList.filter {
             if (!showSystem) {
-                !it.applicationInfo.isSystemApp()
+                !it.applicationInfo!!.isSystemApp()
                 && !resources.getStringArray(
                         R.array.cutout_force_fullscreen_hidden_apps)
-                            .asList().contains(it.applicationInfo.packageName)
-                && !it.applicationInfo.packageName.contains("dialer")
-                && !it.applicationInfo.packageName.contains("android.settings")
+                            .asList().contains(it.applicationInfo!!.packageName)
+                && !it.applicationInfo!!.packageName.contains("dialer")
+                && !it.applicationInfo!!.packageName.contains("android.settings")
             } else {
                 !resources.getStringArray(
                     R.array.cutout_force_fullscreen_hidden_apps)
-                        .asList().contains(it.applicationInfo.packageName)
-                && !it.applicationInfo.packageName.contains("dialer")
-                && !it.applicationInfo.packageName.contains("android.settings")
-                && !it.applicationInfo.isResourceOverlay()
+                        .asList().contains(it.applicationInfo!!.packageName)
+                && !it.applicationInfo!!.packageName.contains("dialer")
+                && !it.applicationInfo!!.packageName.contains("android.settings")
+                && !it.applicationInfo!!.isResourceOverlay()
             }
         }.filter {
             getLabel(it).contains(searchText, true)
@@ -241,11 +248,11 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         AppInfo(
             packageInfo.packageName,
             getLabel(packageInfo),
-            packageInfo.applicationInfo.loadIcon(packageManager),
+            packageInfo.applicationInfo!!.loadIcon(packageManager),
         )
     
     private fun getLabel(packageInfo: PackageInfo) =
-        packageInfo.applicationInfo.loadLabel(packageManager).toString()
+        packageInfo.applicationInfo!!.loadLabel(packageManager).toString()
 
     private inner class AppListAdapter: ListAdapter<AppInfo, AppListViewHolder>(itemCallback) {
         private val selectedIndices = mutableSetOf<Int>()
@@ -257,16 +264,16 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
 
         override fun onBindViewHolder(holder: AppListViewHolder, position: Int) {
             getItem(position).let {
-                holder.label.text = it.label
-                holder.packageName.text = it.packageName
-                holder.icon.setImageDrawable(it.icon)
-                holder.itemView.setOnClickListener {
+                holder.label!!.text = it.label
+                holder.packageName!!.text = it.packageName
+                holder.icon!!.setImageDrawable(it.icon)
+                holder.itemView!!.setOnClickListener {
                     if (selectedIndices.contains(position)) {
                         selectedIndices.remove(position)
-                        onListUpdate(holder.packageName.text.toString(), false)
+                        onListUpdate(holder.packageName!!.text.toString(), false)
                     } else {
                         selectedIndices.add(position)
-                        onListUpdate(holder.packageName.text.toString(), true)
+                        onListUpdate(holder.packageName!!.text.toString(), true)
                     }
                     notifyItemChanged(position)
                 }
@@ -274,7 +281,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
                     initialList.remove(it.packageName)
                     selectedIndices.add(position)
                 }
-                holder.checkBox.isChecked = selectedIndices.contains(position)
+                holder.checkBox!!.isChecked = selectedIndices.contains(position)
             }
         }
 
@@ -286,10 +293,10 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     }
 
     private class AppListViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-        val icon: ImageView = itemView.findViewById(R.id.icon)
-        val label: TextView = itemView.findViewById(R.id.label)
-        val packageName: TextView = itemView.findViewById(R.id.packageName)
-        val checkBox: CheckBox = itemView.findViewById(R.id.checkBox)
+        val icon: ImageView? = itemView.findViewById(R.id.icon)
+        val label: TextView? = itemView.findViewById(R.id.label)
+        val packageName: TextView? = itemView.findViewById(R.id.packageName)
+        val checkBox: CheckBox? = itemView.findViewById(R.id.checkBox)
     }
 
     private data class AppInfo(
