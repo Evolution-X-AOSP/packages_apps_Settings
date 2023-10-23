@@ -22,8 +22,10 @@ import android.annotation.SuppressLint
 import android.app.ActivityManager
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
+import android.content.pm.UserInfo
 import android.graphics.drawable.Drawable
 import android.os.Bundle
+import android.os.UserManager
 import android.provider.Settings
 import android.view.Menu
 import android.view.MenuInflater
@@ -57,6 +59,8 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     private lateinit var packageList: List<PackageInfo>
     private lateinit var cutoutForceFullscreenSettings: CutoutFullscreenController
     private lateinit var appBarLayout: AppBarLayout
+    private lateinit var userManager: UserManager
+    private lateinit var userInfos: List<UserInfo>
 
     private var searchText = ""
     private var customFilter: ((PackageInfo) -> Boolean)? = null
@@ -81,8 +85,10 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         appBarLayout = requireActivity().findViewById(R.id.app_bar)
         activityManager = requireContext().getSystemService(ActivityManager::class.java)
         packageManager = requireContext().packageManager
-        packageList = packageManager.getInstalledPackages(0)
-        cutoutForceFullscreenSettings = CutoutFullscreenController(requireContext());
+        packageList = packageManager.getInstalledPackages(PackageManager.MATCH_ANY_USER)
+        userManager = UserManager.get(requireContext())
+        userInfos = userManager.getUsers()
+        cutoutForceFullscreenSettings = CutoutFullscreenController(requireContext())
     }
 
     private fun getTitle(): Int {
@@ -118,8 +124,8 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         optionsMenu = menu;
         inflater.inflate(R.menu.cutout_force_fullscreen_menu, menu)
 
-        menu.findItem(R.id.show_system).setVisible(!showSystem);
-        menu.findItem(R.id.hide_system).setVisible(showSystem);
+        menu.findItem(R.id.show_system).setVisible(!showSystem)
+        menu.findItem(R.id.hide_system).setVisible(showSystem)
 
         val searchMenuItem = menu.findItem(R.id.search) as MenuItem
         searchMenuItem.setOnActionExpandListener(object: MenuItem.OnActionExpandListener {
@@ -178,8 +184,8 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
 
         var menu = optionsMenu as Menu
 
-        menu.findItem(R.id.show_system).setVisible(!showSystem);
-        menu.findItem(R.id.hide_system).setVisible(showSystem);
+        menu.findItem(R.id.show_system).setVisible(!showSystem)
+        menu.findItem(R.id.hide_system).setVisible(showSystem)
     }
 
     /**
@@ -189,13 +195,15 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
      */
     private fun onListUpdate(packageName: String, isChecked: Boolean) {
         if (packageName.isBlank()) return
-        if (isChecked) {
-            cutoutForceFullscreenSettings.addApp(packageName);
-        } else {
-            cutoutForceFullscreenSettings.removeApp(packageName);
+        for (info in userInfos) {
+            if (isChecked) {
+                cutoutForceFullscreenSettings.addApp(packageName, info.id)
+            } else {
+                cutoutForceFullscreenSettings.removeApp(packageName, info.id)
+            }
         }
         try {
-            activityManager.forceStopPackage(packageName);
+            activityManager.forceStopPackage(packageName)
         } catch (ignored: Exception) {
         }
     }
