@@ -22,8 +22,10 @@ import android.annotation.SuppressLint
 import android.app.ActivityManager
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
+import android.content.pm.UserInfo
 import android.graphics.drawable.Drawable
 import android.os.Bundle
+import android.os.UserManager
 import android.provider.Settings
 import android.view.Menu
 import android.view.MenuInflater
@@ -56,6 +58,8 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
     private lateinit var adapter: AppListAdapter
     private lateinit var packageList: List<PackageInfo>
     private lateinit var appBarLayout: AppBarLayout
+    private lateinit var userManager: UserManager
+    private lateinit var userInfos: List<UserInfo>
 
     private var searchText = ""
     private var customFilter: ((PackageInfo) -> Boolean)? = null
@@ -81,8 +85,12 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
         appBarLayout = requireActivity().findViewById(R.id.app_bar)
         activityManager = requireContext().getSystemService(ActivityManager::class.java)
         packageManager = requireContext().packageManager
-        packageList = packageManager.getInstalledPackages(0)
-        hideDeveloperStatusUtils.setApps(requireContext())
+        packageList = packageManager.getInstalledPackages(PackageManager.MATCH_ANY_USER)
+        userManager = UserManager.get(requireContext())
+        userInfos = userManager.getUsers()
+        for (info in userInfos) {
+            hideDeveloperStatusUtils.setApps(requireContext(), info.id)
+        }
     }
 
     private fun getTitle(): Int {
@@ -118,8 +126,8 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
         optionsMenu = menu;
         inflater.inflate(R.menu.hide_developer_status_menu, menu)
 
-        menu.findItem(R.id.show_system).setVisible(showSystem);
-        menu.findItem(R.id.hide_system).setVisible(!showSystem);
+        menu.findItem(R.id.show_system).setVisible(showSystem)
+        menu.findItem(R.id.hide_system).setVisible(!showSystem)
 
         val searchMenuItem = menu.findItem(R.id.search) as MenuItem
         searchMenuItem.setOnActionExpandListener(object: MenuItem.OnActionExpandListener {
@@ -178,8 +186,8 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
 
         var menu = optionsMenu as Menu
 
-        menu.findItem(R.id.show_system).setVisible(!showSystem);
-        menu.findItem(R.id.hide_system).setVisible(showSystem);
+        menu.findItem(R.id.show_system).setVisible(!showSystem)
+        menu.findItem(R.id.hide_system).setVisible(showSystem)
     }
 
     /**
@@ -189,10 +197,12 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
      */
     private fun onListUpdate(packageName: String, isChecked: Boolean) {
         if (packageName.isBlank()) return
-        if (isChecked) {
-            hideDeveloperStatusUtils.addApp(requireContext(), packageName);
-        } else {
-            hideDeveloperStatusUtils.removeApp(requireContext(), packageName);
+        for (info in userInfos) {
+            if (isChecked) {
+                hideDeveloperStatusUtils.addApp(requireContext(), packageName, info.id)
+            } else {
+                hideDeveloperStatusUtils.removeApp(requireContext(), packageName, info.id)
+            }
         }
         try {
             activityManager.forceStopPackage(packageName);
