@@ -36,6 +36,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 
+import com.android.internal.util.ArrayUtils;
 import com.android.internal.accessibility.AccessibilityShortcutController;
 import com.android.internal.accessibility.util.AccessibilityUtils;
 import com.android.internal.content.PackageMonitor;
@@ -473,7 +474,9 @@ public class AccessibilitySettings extends DashboardFragment {
      */
     private void updateCategoryOrderFromArray(String categoryKey, int key) {
         String[] services = getResources().getStringArray(key);
+        if (ArrayUtils.isEmpty(services)) return;
         PreferenceCategory category = mCategoryToPrefCategoryMap.get(categoryKey);
+        if (category == null) return;
         int preferenceCount = category.getPreferenceCount();
         int serviceLength = services.length;
         for (int preferenceIndex = 0; preferenceIndex < preferenceCount; preferenceIndex++) {
@@ -494,6 +497,7 @@ public class AccessibilitySettings extends DashboardFragment {
      */
     private void updatePreferenceCategoryVisibility(String categoryKey) {
         final PreferenceCategory category = mCategoryToPrefCategoryMap.get(categoryKey);
+        if (category == null) return;
         category.setVisible(category.getPreferenceCount() != 0);
     }
 
