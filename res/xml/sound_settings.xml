@@ -193,6 +193,13 @@
         android:title="@string/touch_sounds_title"
         android:order="-30"/>
 
+    <!-- Screenshot sound -->
+    <com.evolution.settings.preference.SystemSettingSwitchPreference
+        android:key="screenshot_shutter_sound"
+        android:title="@string/screenshot_shutter_sound_title"
+        android:defaultValue="true"
+        android:order="-28"/>
+
     <!-- Show vibrate icon in status bar -->
     <SwitchPreference
         android:key="vibrate_icon"
