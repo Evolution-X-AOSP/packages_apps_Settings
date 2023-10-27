@@ -66,12 +66,12 @@
     <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
         android:key="battery_temp"
         android:title="@string/battery_temp"
-        android:selectable="false" />
+        android:selectable="true" />
 
     <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
         android:key="battery_health"
         android:title="@string/battery_health_title"
-        android:selectable="false" />
+        android:selectable="true" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
