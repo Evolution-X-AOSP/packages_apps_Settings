@@ -255,4 +255,16 @@
     <string name="gesture_navbar_radius_title">A kapszula rádiusza</string>
     <string name="thin_label">Vékony</string>
     <string name="thick_label">Vastag</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME-gombhely</string>
+    <string name="ime_narrow">Keskeny</string>
+    <string name="ime_default">Alapértelmezett</string>
+    <string name="ime_hidden">Rejtett</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Duplakopp</string>
+    <string name="doze_double_tap_title">Gyorsellenőrzés dupla érintéssel</string>
+    <string name="doze_double_tap_summary">Pulzáló értesítések dupla érintésre</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
+    <string name="unlock_quick_unlock_control_summary">Helyes jelszó/PIN-kód megadásakor azonnal felold</string>
 </resources>
