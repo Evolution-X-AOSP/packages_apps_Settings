@@ -259,7 +259,7 @@
     <string name="navigation_bar_ime_space_title">Spazio IME</string>
     <string name="ime_narrow">Sottile</string>
     <string name="ime_default">Predefinito</string>
-    <string name="ime_hidden">Nascosto</string>
+    <string name="ime_hidden">Nascosta</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doppio tocco</string>
     <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
