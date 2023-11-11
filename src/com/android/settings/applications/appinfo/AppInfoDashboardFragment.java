@@ -499,9 +499,6 @@ public class AppInfoDashboardFragment extends DashboardFragment
             case UNINSTALL_UPDATES:
                 uninstallPkg(mAppEntry.info.packageName, false, false);
                 return true;
-            case PLAY_STORE:
-                openPlayStore(mAppEntry.info.packageName);
-                return true;
             case ACCESS_RESTRICTED_SETTINGS:
                 showLockScreen(getContext(), () -> {
                     final AppOpsManager appOpsManager = getContext().getSystemService(
@@ -516,6 +513,10 @@ public class AppInfoDashboardFragment extends DashboardFragment
                             mAppEntry.label);
                     Toast.makeText(getContext(), toastString, Toast.LENGTH_LONG).show();
                 });
+                return true;
+            case PLAY_STORE:
+                openPlayStore(mAppEntry.info.packageName);
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }
