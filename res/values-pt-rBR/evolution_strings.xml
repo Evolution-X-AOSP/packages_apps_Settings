@@ -256,7 +256,7 @@
     <string name="thin_label">Fino</string>
     <string name="thick_label">Espesso</string>
     <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Ocultar espaço do método de entrada</string>
+    <string name="navigation_bar_ime_space_title">Espaço do método de entrada</string>
     <string name="ime_narrow">Estreito</string>
     <string name="ime_default">Padrão</string>
     <string name="ime_hidden">Oculto</string>
