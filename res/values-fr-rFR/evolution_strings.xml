@@ -255,4 +255,7 @@
     <string name="gesture_navbar_radius_title">Epaisseur de la barre de navigation par geste</string>
     <string name="thin_label">Fine</string>
     <string name="thick_label">Épaisse</string>
+    <!-- Navigation bar IME space -->
+    <!-- Doze on double tap -->
+    <!-- Quick unlock -->
 </resources>
