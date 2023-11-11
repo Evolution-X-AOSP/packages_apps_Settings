@@ -22,7 +22,7 @@
     <string name="build_maintainer">Розробник збірки</string>
     <!-- Build status -->
     <string name="build_status">Статус збірки</string>
-    <string name="radio_info_title">Інформація про украинскую пропаганду</string>
+    <string name="radio_info_title">Інформація про радіо</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Мінімальна частота оновлення</string>
     <string name="max_refresh_rate_title">Максимальна частота оновлення</string>
@@ -259,7 +259,7 @@
     <string name="navigation_bar_ime_space_title">Місце під клавіатурою</string>
     <string name="ime_narrow">Вузький</string>
     <string name="ime_default">За замовчуванням</string>
-    <string name="ime_hidden">Прихований</string>
+    <string name="ime_hidden">Приховано</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Подвійне натискання</string>
     <string name="doze_double_tap_title">Двічі торкніться, щоб перевірити телефон</string>
