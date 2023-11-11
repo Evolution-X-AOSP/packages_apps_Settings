@@ -255,4 +255,16 @@
     <string name="gesture_navbar_radius_title">Epaisseur de la barre de navigation par geste</string>
     <string name="thin_label">Fine</string>
     <string name="thick_label">Épaisse</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Espace IME</string>
+    <string name="ime_narrow">Fin</string>
+    <string name="ime_default">Défaut</string>
+    <string name="ime_hidden">Cachée</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double appui</string>
+    <string name="doze_double_tap_title">Appuyez deux fois pour allumer l\'écran</string>
+    <string name="doze_double_tap_summary">Faire apparaître les notifications par double appui</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Déverouiller automatiquement l\'appareil lorsque le PIN/mot de passe correct est entré</string>
 </resources>
