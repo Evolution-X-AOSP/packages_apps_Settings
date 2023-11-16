@@ -187,10 +187,13 @@
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
 
         <!-- Heads up -->
-        <com.evolution.settings.preference.GlobalSettingSwitchPreference
+        <com.evolution.settings.preference.GlobalSettingPrimarySwitchPreference
             android:key="heads_up_notifications_enabled"
             android:order="24"
             android:title="@string/notification_heads_up_title"
-            android:summary="@string/notification_heads_up_summary" />
+            android:summary="@string/notification_heads_up_summary"
+            android:defaultValue="true"
+            android:fragment="com.evolution.settings.fragments.HeadsUpSettings"
+            settings:observe="true" />
     </PreferenceCategory>
 </PreferenceScreen>
