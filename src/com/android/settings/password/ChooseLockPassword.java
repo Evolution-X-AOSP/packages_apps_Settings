@@ -229,7 +229,7 @@ public class ChooseLockPassword extends SettingsActivity {
         private static final String KEY_IS_AUTO_CONFIRM_CHECK_MANUALLY_CHANGED =
                 "auto_confirm_option_set_manually";
 
-        private static final int MIN_AUTO_PIN_REQUIREMENT_LENGTH = 6;
+        private static final int MIN_AUTO_PIN_REQUIREMENT_LENGTH = 4;
 
         private LockscreenCredential mCurrentCredential;
         private LockscreenCredential mChosenPassword;
