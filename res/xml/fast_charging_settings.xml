@@ -23,8 +23,7 @@
 
     <SwitchPreference
         android:key="fast_charging_switch"
-        android:title="@string/fast_charging_title"
-        android:summary="@string/fast_charging_summary"/>
+        android:title="@string/fast_charging_title"/>
 
     <com.evolution.settings.preference.CustomSeekBarPreference
         android:key="restricted_current"
@@ -32,4 +31,9 @@
         settings:interval="100"
         settings:units="mA"
         settings:showSign="true" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="fast_charging_footer"
+        android:selectable="false"
+        settings:searchable="false" />
 </PreferenceScreen>
