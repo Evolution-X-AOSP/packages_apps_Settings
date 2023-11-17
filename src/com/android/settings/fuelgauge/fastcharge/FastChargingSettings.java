@@ -48,6 +48,7 @@ public class FastChargingSettings extends SettingsPreferenceFragment implements
     public static final String TAG = "FastChargingSettings";
 
     private static final String KEY_FAST_CHARGING = "fast_charging_switch";
+    private static final String KEY_FAST_CHARGING_FOOTER = "fast_charging_footer";
     private static final String KEY_RESTRICTED_CURRENT = "restricted_current";
 
     private SwitchPreference mFastChargingSwitch;
@@ -110,6 +111,8 @@ public class FastChargingSettings extends SettingsPreferenceFragment implements
 
         mRestrictedCurrentSeekBar.setEnabled(!mFastChargeEnabled);
         mRestrictedCurrentSeekBar.setOnPreferenceChangeListener(this);
+
+        findPreference(KEY_FAST_CHARGING_FOOTER).setTitle(R.string.fast_charging_summary);
     }
 
     private boolean isFastChargeEnabled() {
