@@ -471,4 +471,9 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rooted debugging</string>
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+
+    <!-- Display settings screen, increased touch polling rate settings title -->
+    <string name="touch_polling_title">High touch polling rate</string>
+    <!-- Display settings screen, increased touch polling rate settings summary -->
+    <string name="touch_polling_summary">Increase touchscreen polling rate to decrease latency</string>
 </resources>
