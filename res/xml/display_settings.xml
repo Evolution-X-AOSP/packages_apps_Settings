@@ -233,6 +233,12 @@
             android:defaultValue="false"
             settings:controller="com.android.settings.custom.touch.HighTouchPollingRateSettingsPreferenceController" />
 
+        <SwitchPreference
+            android:key="touch_polling"
+            android:title="@string/touch_polling_title"
+            android:summary="@string/touch_polling_summary"
+            settings:controller="com.android.settings.display.TouchPollingPreferenceController" />
+
         <com.evolution.settings.preference.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wake_when_plugged_or_unplugged_title"
