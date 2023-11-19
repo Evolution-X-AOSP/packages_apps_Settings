@@ -40,6 +40,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Швидке заряджання</string>
     <string name="fast_charging_summary">Вимкніть, щоб зменшити нагрів пристрою під час зарядки або щоб продовжити термін служби акумулятора</string>
+    <string name="restricted_current_summary">Встановити допустимий максимальний струм (mA)</string>
     <!-- Package details -->
     <string name="package_details_group_title">Інформація про пакунок</string>
     <string name="package_name">Назва пакунку</string>
@@ -179,8 +180,6 @@
     <string name="increasing_ring_volume_option_title">Наростаюча гучність дзвінка</string>
     <string name="increasing_ring_min_volume_title">Початкова гучність</string>
     <string name="increasing_ring_ramp_up_time_title">Час наростання</string>
-    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <string name="sim_card_number_title">SIM-карта <xliff:g id="CARD_NUMBER">%1$d</xliff:g></string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Примусово увімкнути LTE CA</string>
     <string name="force_lte_ca_summary">Примусово застосовувати агрегацію операторів LTE</string>
@@ -264,7 +263,89 @@
     <string name="double_tap_title">Подвійне натискання</string>
     <string name="doze_double_tap_title">Двічі торкніться, щоб перевірити телефон</string>
     <string name="doze_double_tap_summary">Імпульсні повідомлення подвійним натисканням</string>
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Автоматично вимикати Wi‑Fi</string>
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi вимкнеться через <xliff:g id="timeout_description">%1$s</xliff:g> якщо не під\'єднано до мережі</string>
+    <string name="wifi_timeout_summary2">Вимкнено</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Час очікування Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо пристрої не під\'єднані</string>
+    <string name="bluetooth_timeout_summary2">Не вимикати Bluetooth автоматично</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
     <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Керування заряджанням</string>
+    <string name="charging_control_summary">Налаштуйте розклад заряджання та обмеження для вашого пристрою</string>
+    <string name="charging_control_enable_title">Увімкнути керування заряджанням</string>
+    <string name="charging_control_mode_title">Режим заряджання</string>
+    <string name="charging_control_mode_auto_title">Автоматичний розклад</string>
+    <string name="charging_control_mode_auto_summary">Автоматично визначати коли починати заряджання на основі встановлених будильників</string>
+    <string name="charging_control_mode_custom_title">Розклад користувача</string>
+    <string name="charging_control_mode_custom_summary">Встановити час до повного заряджання</string>
+    <string name="charging_control_mode_limit_title">Обмежити заряджання</string>
+    <string name="charging_control_mode_limit_summary">Обмежити заряд до певного відсотка</string>
+    <string name="charging_control_start_time_title">Час початку</string>
+    <string name="charging_control_start_time_summary">Керування заряджанням активується через %s після початку заряджання</string>
+    <string name="charging_control_target_time_title">Час до повного заряджання</string>
+    <string name="charging_control_target_time_summary">Батарея буде повністю заряджена за %s</string>
+    <string name="charging_control_limit_title">Обмеження</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Однократна автоматична яскравість</string>
+    <string name="auto_brightness_one_shot_summary">Регулювання яскравості відбуватиметься тільки при ввімкненні екрану</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Показати історію повідомлень</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">Автоматично збільшує частоту оновлення певного вмісту з 60 до %1$d Гц. Підвищує використання заряду акумулятора.</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Глобальний VPN</string>
+    <string name="global_vpn_summary">Примусово пропускати весь трафік на пристрої через цю VPN, включаючи робочий профіль та профілі інших користувачів.</string>
+    <string name="global_vpn_summary_on">Примусово пропускати весь трафік на пристрої через цю VPN, включаючи робочий профіль та профілі інших користувачів. Примітка: Якщо увімкнено, то не буде можливості використовувати окрему VPN у робочому профілі чи профілях інших користувачів</string>
+    <string name="global_vpn_summary_any_vpn_active">Для цього спершу необхідно вимкнути всі активні VPN-під\'єднання</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Завжди увімкнено під час зарядки</string>
+    <string name="doze_on_charge_summary">Завжди показувати сплячий режим під час зарядки</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Режим сну</string>
+    <string name="sleep_mode_summary_on">Увімкнено / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Вимкнено / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Режим дзвінка</string>
+    <string name="sleep_mode_ringer_off_title">Не змінювати</string>
+    <string name="sleep_mode_ringer_vibrate_title">Вібрувати</string>
+    <string name="sleep_mode_ringer_dnd_title">Не турбувати</string>
+    <string name="sleep_mode_ringer_silent_title">Без звуку</string>
+    <string name="sleep_mode_schedule_sunset">Захід сонця</string>
+    <string name="sleep_mode_schedule_sunrise">Схід сонця</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Вмикає від заходу сонця до заданого часу</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Вмикається час від заданого часу до сходу сонця</string>
+    <string name="sleep_mode_toggles_title">Перемикачі</string>
+    <string name="sleep_mode_wifi_toggle_title">Вимкнути Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Вимикати Wi-Fi, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Вимкнути Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Вимикати Bluetooth, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_cellular_toggle_title">Вимкнути мобільний трафік</string>
+    <string name="sleep_mode_cellular_toggle_summary">Вимикати передачу мобільних даних, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_location_toggle_title">Вимкнути геодані</string>
+    <string name="sleep_mode_location_toggle_summary">Вимикати геодані, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_sensors_toggle_title">Вимкнути сенсори</string>
+    <string name="sleep_mode_sensors_toggle_summary">Вимикати сенсори, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_display_text">Режим сну дозволяє вимкнути певні сервіси, щоб заощадити заряд і стишити телефон у режимі сну.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Увімкнути</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Вимкнути</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Увімкнути до сходу сонця</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Вимкнути до заходу сонця</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Увімкнути до <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Вимкнути до <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Перемикання між режимами</string>
+    <string name="prevent_ringing_option_cycle_summary">Увімкнути (переключення між режимами)</string>
+    <string name="prevent_ringing_option_normal">Звичайний</string>
 </resources>

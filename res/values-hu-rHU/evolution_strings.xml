@@ -40,6 +40,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Gyorstöltés</string>
     <string name="fast_charging_summary">Tiltás,  hogy ne melegedjen a készülék töltés közben és az akkuélettartam növeléséért</string>
+    <string name="restricted_current_summary">Állítsa be a maximális megengedettet (mA)</string>
     <!-- Package details -->
     <string name="package_details_group_title">Csomagadatok</string>
     <string name="package_name">Csomagnév</string>
@@ -179,8 +180,6 @@
     <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
     <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
     <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
-    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <string name="sim_card_number_title"><xliff:g id="CARD_NUMBER">%1$d</xliff:g>. SIM-kártya</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Az LTE CA erőltetése</string>
     <string name="force_lte_ca_summary">A működéshez kényszerítse az LTE szolgáltató aggregációt</string>
@@ -220,7 +219,7 @@
     <!-- Per-app volume control -->
     <string name="app_volume">Alkalmazásonkénti hangerő</string>
     <string name="app_volume_title">Hangerőszabályozás alkalmazásonként</string>
-    <string name="app_volume_summary">Lehetővé teszi, hogy minden alkalmazásnak más legyen a hangereje</string>
+    <string name="app_volume_summary">Lehetővé teszi az egyes alkalmazásokhoz különböző hangerőszintek beállítását.\nMEGJEGYZÉS: Ez lehetővé teszi a sokszorozott audió-fókuszt</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Gyors zseblámpa</string>
     <string name="power_button_torch_summary">Kikapcsolt képernyőnél a bekapcsológomb hosszan nyomására a zseblámpa bekapcsol</string>
@@ -264,7 +263,89 @@
     <string name="double_tap_title">Duplakopp</string>
     <string name="doze_double_tap_title">Gyorsellenőrzés dupla érintéssel</string>
     <string name="doze_double_tap_summary">Pulzáló értesítések dupla érintésre</string>
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Automatikus Wi-Fi-kikapcsolás</string>
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Ha nincs hálózat, a Wi-Fi <xliff:g id="timeout_description">%1$s</xliff:g> elteltével kikapcsol</string>
+    <string name="wifi_timeout_summary2">Kikapcsolva</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth-időkorlát</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Ha nincs csatlakoztatott eszköz, a Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> elteltével kapcsol ki</string>
+    <string name="bluetooth_timeout_summary2">Ne kapcsolódjon ki automatikusan a Bluetooth</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
     <string name="unlock_quick_unlock_control_summary">Helyes jelszó/PIN-kód megadásakor azonnal felold</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Kontrollált töltés</string>
+    <string name="charging_control_summary">Testreszabhatja készüléke töltési ütemezését és korlátait</string>
+    <string name="charging_control_enable_title">Itt engedélyezheti a kontrollált töltést</string>
+    <string name="charging_control_mode_title">A töltés módja</string>
+    <string name="charging_control_mode_auto_title">Automatikus ütemezés</string>
+    <string name="charging_control_mode_auto_summary">A beállított ébresztések alapján automatikusan határozza meg, hogy mikor kezdődjön a töltés</string>
+    <string name="charging_control_mode_custom_title">Egyéni ütemezés</string>
+    <string name="charging_control_mode_custom_summary">Ön állíthat be célidőt a teljes feltöltéshez</string>
+    <string name="charging_control_mode_limit_title">Limitált töltés</string>
+    <string name="charging_control_mode_limit_summary">Egy bizonyos akkuszázalékhoz köti a töltést</string>
+    <string name="charging_control_start_time_title">Kezdési idő</string>
+    <string name="charging_control_start_time_summary">A kontroll aktiválódik amennyiben %s után kezdi a töltést</string>
+    <string name="charging_control_target_time_title">A teljes töltés célideje</string>
+    <string name="charging_control_target_time_summary">%s - lesz teljesen feltöltve az akku</string>
+    <string name="charging_control_limit_title">Korlát</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
+    <string name="auto_brightness_one_shot_summary">A fényerőbeállítás csak a képernyő bekapcsolásának pillanatában történik</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Értesítéselőzmény-napló megjelenítése</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">Néhány tartalomnál automatikusan megemeli a frissítés gyakoriságát 60-ról %1$d Hz-re. Növeli az akkumulátorhasználatot.</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Globális VPN</string>
+    <string name="global_vpn_summary">A készülék összes forgalmának kényszerítése ezen a VPN-en keresztül, beleértve a munkaprofilt és a többi felhasználót is.</string>
+    <string name="global_vpn_summary_on">A készülék összes forgalmának kényszerítése ezen a VPN-en keresztül, beleértve a munkaprofilt és a többi felhasználót is. Figyelmeztetés: Ha engedélyezi, nem fog tudni más VPN-t használni a munkaprofilban vagy más felhasználók profiljában</string>
+    <string name="global_vpn_summary_any_vpn_active">Mielőtt engedélyezné le kell tiltania az összes aktív VPN-kapcsolatot</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Állandóan bekapcsolva töltés közben</string>
+    <string name="doze_on_charge_summary">Töltés során jelenítse meg a gyorstöltés képernyőt</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Alvómód</string>
+    <string name="sleep_mode_summary_on"><xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g> / Be</string>
+    <string name="sleep_mode_summary_off"><xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g> / Ki</string>
+    <string name="sleep_mode_ringer_title">Hívásértesítési mód</string>
+    <string name="sleep_mode_ringer_off_title">Ne változzon</string>
+    <string name="sleep_mode_ringer_vibrate_title">Rezgés</string>
+    <string name="sleep_mode_ringer_dnd_title">Ne zavarjanak (DND)</string>
+    <string name="sleep_mode_ringer_silent_title">Néma</string>
+    <string name="sleep_mode_schedule_sunset">Napnyugta</string>
+    <string name="sleep_mode_schedule_sunrise">Napkelte</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Bekapcsolódik napnyugtától az Ön által megadott ideig</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Bekapcsolódik az Ön által megadott időtől napkeltéig</string>
+    <string name="sleep_mode_toggles_title">Kapcsolók</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi-kikapcsolás</string>
+    <string name="sleep_mode_wifi_toggle_summary">Letiltja a Wi-Fi-t, ha az Alvómód be van kapcsolva</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth-kikapcsolás</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Letiltja a Bluetooth-ot, ha az Alvómód be van kapcsolva</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobiladat-kikapcsolás</string>
+    <string name="sleep_mode_cellular_toggle_summary">Letiltja a Mobilinternetet, ha az Alvómód be van kapcsolva</string>
+    <string name="sleep_mode_location_toggle_title">Lokalizáció-kikapcsolás</string>
+    <string name="sleep_mode_location_toggle_summary">Letiltja a helymeghatározást, ha az Alvómód be van kapcsolva</string>
+    <string name="sleep_mode_sensors_toggle_title">Szenzor-kikapcsolás</string>
+    <string name="sleep_mode_sensors_toggle_summary">Letiltja a Szenzorokat, ha az Alvómód be van kapcsolva</string>
+    <string name="sleep_mode_display_text">Az Alvómód lehetővé teszi Önnek szolgáltatások letiltását az akkumulátor kímélése és a telefon alvás közbeni némítása érdekében.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Bekapcsolás most</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Kikapcsolás most</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Bekapcsolás napkeltéig</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Kikapcsolás napnyugtáig</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Bekapcsolás eddig: <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Kikapcsolás eddig: <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Üzemmódok közötti váltás</string>
+    <string name="prevent_ringing_option_cycle_summary">Be (üzemmódok közötti váltás)</string>
+    <string name="prevent_ringing_option_normal">Normál</string>
 </resources>
