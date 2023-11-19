@@ -180,8 +180,6 @@
     <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
     <string name="increasing_ring_min_volume_title">Başlangıç sesi</string>
     <string name="increasing_ring_ramp_up_time_title">Yükseliş süresi</string>
-    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">LTE CA\'ya Zorla</string>
     <string name="force_lte_ca_summary">LTE taşıyıcı birleştirmeyi çalışmaya zorla</string>
