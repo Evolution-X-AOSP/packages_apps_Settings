@@ -40,6 +40,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Charge rapide</string>
     <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil lors de la charge ou étendre la durée de vie de la batterie</string>
+    <string name="restricted_current_summary">Définir le courant maximum autorisé (mA)</string>
     <!-- Package details -->
     <string name="package_details_group_title">Détails du package</string>
     <string name="package_name">Nom du package</string>
@@ -179,8 +180,6 @@
     <string name="increasing_ring_volume_option_title">Augmenter le volume de la sonnerie</string>
     <string name="increasing_ring_min_volume_title">Volume de départ</string>
     <string name="increasing_ring_ramp_up_time_title">Temps de montée en puissance</string>
-    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <string name="sim_card_number_title">Carte SIM <xliff:g id="card_number">%1$d </xliff:g></string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Forcer LTE/4G CA</string>
     <string name="force_lte_ca_summary">Forcer l\'agrégation de l\'opérateur LTE à fonctionner</string>
@@ -264,7 +263,48 @@
     <string name="double_tap_title">Double appui</string>
     <string name="doze_double_tap_title">Appuyez deux fois pour allumer l\'écran</string>
     <string name="doze_double_tap_summary">Faire apparaître les notifications par double appui</string>
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Désactiver le Wi-Fi automatiquement</string>
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Le Wi-Fi se désactivera après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun réseau n\'est connecté</string>
+    <string name="wifi_timeout_summary2">Désactivé</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Délai de désactivation du Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Le Bluetooth sera désactivé après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
+    <string name="bluetooth_timeout_summary2">Ne pas désactiver le Bluetooth automatiquement</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="unlock_quick_unlock_control_summary">Déverouiller automatiquement l\'appareil lorsque le PIN/mot de passe correct est entré</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Contrôle de la charge</string>
+    <string name="charging_control_summary">Personnalisez le planning de charge et les limites pour votre appareil</string>
+    <string name="charging_control_enable_title">Activer le contrôle de la charge</string>
+    <string name="charging_control_mode_title">Mode de Charge</string>
+    <string name="charging_control_mode_auto_title">Planification automatique</string>
+    <string name="charging_control_mode_auto_summary">Déterminer automatiquement quand démarrer la charge en fonction des alarmes définies</string>
+    <string name="charging_control_mode_custom_title">Planification personnalisée</string>
+    <string name="charging_control_mode_custom_summary">Définir l\'heure de fin de la charge complète</string>
+    <string name="charging_control_mode_limit_title">Limiter la charge</string>
+    <string name="charging_control_mode_limit_summary">Limiter la charge à un certain pourcentage</string>
+    <string name="charging_control_start_time_title">Heure de début</string>
+    <string name="charging_control_start_time_summary">Le contrôle de charge s\'active lorsque vous commencez à charger après %s</string>
+    <string name="charging_control_target_time_title">Heure de fin de la charge complète</string>
+    <string name="charging_control_target_time_summary">La batterie sera complètement chargée dans %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Luminosité automatique en un coup</string>
+    <string name="auto_brightness_one_shot_summary">La luminosité ne s\'ajustera qu\'au moment où l\'écran s\'allume</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Afficher l\'historique des notifications</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">Augmente automatiquement le taux de rafraîchissement de 60 à %1$d Hz pour certains contenus. Accroît l\'utilisation de la batterie.</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">VPN global</string>
+    <string name="global_vpn_summary">Forcer tout le trafic sur l\'appareil via ce VPN, y compris le profil professionnel et celui d\'autres utilisateurs.</string>
+    <string name="global_vpn_summary_on">Forcer tout le trafic sur l\'appareil via ce VPN, y compris le profil professionnel et celui d\'autres utilisateurs. Remarque : Lorsque cette option est activée, vous ne serez pas en mesure d\'utiliser un VPN séparé dans un profil professionnel ou dans celui d\'autres utilisateurs</string>
+    <string name="global_vpn_summary_any_vpn_active">Vous devez d\'abord désactiver toutes les connexions VPN actives pour activer ceci</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Écran toujours allumé pendant la charge</string>
+    <string name="doze_on_charge_summary">Afficher l\'écran de veille pendant la charge</string>
 </resources>
