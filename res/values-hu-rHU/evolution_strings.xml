@@ -219,7 +219,7 @@
     <!-- Per-app volume control -->
     <string name="app_volume">Alkalmazásonkénti hangerő</string>
     <string name="app_volume_title">Hangerőszabályozás alkalmazásonként</string>
-    <string name="app_volume_summary">Lehetővé teszi, hogy minden alkalmazásnak más legyen a hangereje</string>
+    <string name="app_volume_summary">Lehetővé teszi az egyes alkalmazásokhoz különböző hangerőszintek beállítását.\nMEGJEGYZÉS: Ez lehetővé teszi a sokszorozott audió-fókuszt</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Gyors zseblámpa</string>
     <string name="power_button_torch_summary">Kikapcsolt képernyőnél a bekapcsológomb hosszan nyomására a zseblámpa bekapcsol</string>
@@ -279,7 +279,7 @@
     <!-- Charging control settings -->
     <string name="charging_control_title">Kontrollált töltés</string>
     <string name="charging_control_summary">Testreszabhatja készüléke töltési ütemezését és korlátait</string>
-    <string name="charging_control_enable_title">Itt engedélyezheti a kontrolált töltést</string>
+    <string name="charging_control_enable_title">Itt engedélyezheti a kontrollált töltést</string>
     <string name="charging_control_mode_title">A töltés módja</string>
     <string name="charging_control_mode_auto_title">Automatikus ütemezés</string>
     <string name="charging_control_mode_auto_summary">A beállított ébresztések alapján automatikusan határozza meg, hogy mikor kezdődjön a töltés</string>
@@ -307,4 +307,45 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Állandóan bekapcsolva töltés közben</string>
     <string name="doze_on_charge_summary">Töltés során jelenítse meg a gyorstöltés képernyőt</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Alvómód</string>
+    <string name="sleep_mode_summary_on"><xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g> / Be</string>
+    <string name="sleep_mode_summary_off"><xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g> / Ki</string>
+    <string name="sleep_mode_ringer_title">Hívásértesítési mód</string>
+    <string name="sleep_mode_ringer_off_title">Ne változzon</string>
+    <string name="sleep_mode_ringer_vibrate_title">Rezgés</string>
+    <string name="sleep_mode_ringer_dnd_title">Ne zavarjanak (DND)</string>
+    <string name="sleep_mode_ringer_silent_title">Néma</string>
+    <string name="sleep_mode_schedule_sunset">Napnyugta</string>
+    <string name="sleep_mode_schedule_sunrise">Napkelte</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Bekapcsolódik napnyugtától az Ön által megadott ideig</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Bekapcsolódik az Ön által megadott időtől napkeltéig</string>
+    <string name="sleep_mode_toggles_title">Kapcsolók</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi-kikapcsolás</string>
+    <string name="sleep_mode_wifi_toggle_summary">Letiltja a Wi-Fi-t, ha az Alvómód be van kapcsolva</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth-kikapcsolás</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Letiltja a Bluetooth-ot, ha az Alvómód be van kapcsolva</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobiladat-kikapcsolás</string>
+    <string name="sleep_mode_cellular_toggle_summary">Letiltja a Mobilinternetet, ha az Alvómód be van kapcsolva</string>
+    <string name="sleep_mode_location_toggle_title">Lokalizáció-kikapcsolás</string>
+    <string name="sleep_mode_location_toggle_summary">Letiltja a helymeghatározást, ha az Alvómód be van kapcsolva</string>
+    <string name="sleep_mode_sensors_toggle_title">Szenzor-kikapcsolás</string>
+    <string name="sleep_mode_sensors_toggle_summary">Letiltja a Szenzorokat, ha az Alvómód be van kapcsolva</string>
+    <string name="sleep_mode_display_text">Az Alvómód lehetővé teszi Önnek szolgáltatások letiltását az akkumulátor kímélése és a telefon alvás közbeni némítása érdekében.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Bekapcsolás most</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Kikapcsolás most</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Bekapcsolás napkeltéig</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Kikapcsolás napnyugtáig</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Bekapcsolás eddig: <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Kikapcsolás eddig: <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Üzemmódok közötti váltás</string>
+    <string name="prevent_ringing_option_cycle_summary">Be (üzemmódok közötti váltás)</string>
+    <string name="prevent_ringing_option_normal">Normál</string>
 </resources>
