@@ -80,7 +80,7 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">Bugün %1$s</string>
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
-    <string name="high_power_apps_summary">Pil en iyilemesini devre dışı bırak</string>
+    <string name="high_power_apps_summary">Pil optimizasyonu kullanılabilirliği</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğu azaltmak için gün ve ortam koşulları zamanına bağlı olarak ekranı iyileştirir</string>
     <string name="live_display_mode">Görüntü modu</string>
@@ -307,4 +307,45 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
     <string name="doze_on_charge_summary">Şarj olurken her zaman ortam ekranını göster</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Uyku modu</string>
+    <string name="sleep_mode_summary_on">Açık / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Kapalı / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Zil modu</string>
+    <string name="sleep_mode_ringer_off_title">Değiştirme</string>
+    <string name="sleep_mode_ringer_vibrate_title">Titreşim</string>
+    <string name="sleep_mode_ringer_dnd_title">Rahatsız Etme</string>
+    <string name="sleep_mode_ringer_silent_title">Sessiz</string>
+    <string name="sleep_mode_schedule_sunset">Gün batımı</string>
+    <string name="sleep_mode_schedule_sunrise">Gün doğumu</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Gün batımından özel bir zamana kadar açılır</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Özel bir zamandan gün doğumuna kadar açılır</string>
+    <string name="sleep_mode_toggles_title">Değiştir</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi\'yi kapat</string>
+    <string name="sleep_mode_wifi_toggle_summary">Uyku modu açıldığında Wi-Fi\'yi devre dışı bırakın</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth\'u kapat</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Uyku modu açıldığında Bluetooth\'u devre dışı bırak</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobil veriyi kapat</string>
+    <string name="sleep_mode_cellular_toggle_summary">Uyku modu açıldığında Mobil veriyi devre dışı bırak</string>
+    <string name="sleep_mode_location_toggle_title">Konumu kapat</string>
+    <string name="sleep_mode_location_toggle_summary">Uyku modu açıldığında konum hizmetlerini devre dışı bırak</string>
+    <string name="sleep_mode_sensors_toggle_title">Sensörleri kapat</string>
+    <string name="sleep_mode_sensors_toggle_summary">Uyku modu açıldığında sensörleri devre dışı bırak</string>
+    <string name="sleep_mode_display_text">Uyku modu pil tasarrufu için bazı servisleri devre dışı bırakmanızı ve siz uyurken telefonunuzu sessiz moda almanızı sağlar.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Şimdi aç</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Şimdi kapat</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Güneş doğana kadar açık tut</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Gün batımına kadar kapalı tut</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Şu saate kadar açık tut: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Şu saate kadar kapalı tut: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Modlar arasında geçiş yap</string>
+    <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
+    <string name="prevent_ringing_option_normal">Normal</string>
 </resources>
