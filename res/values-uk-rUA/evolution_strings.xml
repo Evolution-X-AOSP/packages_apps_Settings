@@ -307,4 +307,45 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Завжди увімкнено під час зарядки</string>
     <string name="doze_on_charge_summary">Завжди показувати сплячий режим під час зарядки</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Режим сну</string>
+    <string name="sleep_mode_summary_on">Увімкнено / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Вимкнено / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Режим дзвінка</string>
+    <string name="sleep_mode_ringer_off_title">Не змінювати</string>
+    <string name="sleep_mode_ringer_vibrate_title">Вібрувати</string>
+    <string name="sleep_mode_ringer_dnd_title">Не турбувати</string>
+    <string name="sleep_mode_ringer_silent_title">Без звуку</string>
+    <string name="sleep_mode_schedule_sunset">Захід сонця</string>
+    <string name="sleep_mode_schedule_sunrise">Схід сонця</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Вмикає від заходу сонця до заданого часу</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Вмикається час від заданого часу до сходу сонця</string>
+    <string name="sleep_mode_toggles_title">Перемикачі</string>
+    <string name="sleep_mode_wifi_toggle_title">Вимкнути Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Вимикати Wi-Fi, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Вимкнути Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Вимикати Bluetooth, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_cellular_toggle_title">Вимкнути мобільний трафік</string>
+    <string name="sleep_mode_cellular_toggle_summary">Вимикати передачу мобільних даних, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_location_toggle_title">Вимкнути геодані</string>
+    <string name="sleep_mode_location_toggle_summary">Вимикати геодані, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_sensors_toggle_title">Вимкнути сенсори</string>
+    <string name="sleep_mode_sensors_toggle_summary">Вимикати сенсори, коли ввімкнено режим сну</string>
+    <string name="sleep_mode_display_text">Режим сну дозволяє вимкнути певні сервіси, щоб заощадити заряд і стишити телефон у режимі сну.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Увімкнути</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Вимкнути</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Увімкнути до сходу сонця</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Вимкнути до заходу сонця</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Увімкнути до <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Вимкнути до <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Перемикання між режимами</string>
+    <string name="prevent_ringing_option_cycle_summary">Увімкнути (переключення між режимами)</string>
+    <string name="prevent_ringing_option_normal">Звичайний</string>
 </resources>
