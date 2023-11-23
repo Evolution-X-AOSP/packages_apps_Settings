@@ -348,4 +348,21 @@
     <string name="prevent_ringing_option_cycle">Üzemmódok közötti váltás</string>
     <string name="prevent_ringing_option_cycle_summary">Be (üzemmódok közötti váltás)</string>
     <string name="prevent_ringing_option_normal">Normál</string>
+    <!-- Battery charge warning -->
+    <string name="notification_battery_charge_level_main_switch_title">Az \'Akku-töltés figyelmeztető\' használata</string>
+    <string name="notification_battery_charge_level_title">Akkumulátor-töltés figyelmeztető</string>
+    <string name="notification_battery_charge_level_summary">Hangjelzés, amikor az akkumulátor elér egy szintet töltés közben</string>
+    <string name="notification_battery_charge_level_seek_bar">Akkumulátorszint</string>
+    <string name="notification_battery_charge_level_ringtone">Csengőhang</string>
+    <string name="notification_battery_charge_level_silent">Néma</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Véletlenébresztés-gátló</string>
+    <string name="proximity_wake_summary">Közelségérzékelő ellenőrzése a képernyő felébresztése előtt</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC-kiegyenlítés</string>
+    <string name="dc_dimming_info">Csökkenti a szem megerőltetését gyenge fényviszonyok mellett a képernyővillogás csökkentésével. Rossz képminőséget és gyenge színeket vagy magasabb akkufogyasztást okozhat.</string>
+    <string name="dc_dimming_main_switch_title">A DC-kiegyenlítés használata</string>
+    <string name="keywords_display_dc_dimming">DC-kiegyenlítés, vibrálás, szem, megterhelés, mentesítés</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Egyéni képernyőfelbontás</string>
 </resources>
