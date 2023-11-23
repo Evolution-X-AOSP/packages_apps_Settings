@@ -348,4 +348,21 @@
     <string name="prevent_ringing_option_cycle">Modlar arasında geçiş yap</string>
     <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
     <string name="prevent_ringing_option_normal">Normal</string>
+    <!-- Battery charge warning -->
+    <string name="notification_battery_charge_level_main_switch_title">Pil şarj uyarısını kullan</string>
+    <string name="notification_battery_charge_level_title">Pil şarj uyarısı</string>
+    <string name="notification_battery_charge_level_summary">Şarj sırasında pil belirli bir seviyeye ulaştığında bir ses çaldır</string>
+    <string name="notification_battery_charge_level_seek_bar">Pil seviyesi</string>
+    <string name="notification_battery_charge_level_ringtone">Zil sesi</string>
+    <string name="notification_battery_charge_level_silent">Sessiz</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Yanlışlıkla uyandırmayı önle</string>
+    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol edin</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Karartma</string>
+    <string name="dc_dimming_info">Ekran titremesini en aza indirerek düşük ışık koşullarında göz yorgunluğunu azaltır. Düşük görüntü kalitesi ve zayıf renk üretimine veya daha yüksek güç tüketimine neden olabilir.</string>
+    <string name="dc_dimming_main_switch_title">DC Karartma kullan</string>
+    <string name="keywords_display_dc_dimming">dc karartma, anti, titreme, göz, zorlanma</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Özel ekran çözünürlüğü</string>
 </resources>
