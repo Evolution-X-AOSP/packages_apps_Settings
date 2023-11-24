@@ -348,4 +348,21 @@
     <string name="prevent_ringing_option_cycle">Перемикання між режимами</string>
     <string name="prevent_ringing_option_cycle_summary">Увімкнути (переключення між режимами)</string>
     <string name="prevent_ringing_option_normal">Звичайний</string>
+    <!-- Battery charge warning -->
+    <string name="notification_battery_charge_level_main_switch_title">Попередження про заряд акумулятора</string>
+    <string name="notification_battery_charge_level_title">Попередження про заряд акумулятора</string>
+    <string name="notification_battery_charge_level_summary">Програвати звук коли батарея досягає рівня заряду під час зарядки</string>
+    <string name="notification_battery_charge_level_seek_bar">Рівень заряду акумулятора</string>
+    <string name="notification_battery_charge_level_ringtone">Мелодія сповіщення</string>
+    <string name="notification_battery_charge_level_silent">Без звуку</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Запобігти випадковому вмиканню екрану</string>
+    <string name="proximity_wake_summary">Перевірте датчик наближення для пробудження екрану</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Затемнення</string>
+    <string name="dc_dimming_info">Знижує навантаження на очі при низькому освітленні шляхом мінімізації мерехтіння екрану. Може призвести до зниження якості зображення та поганого відтворення кольорів або збільшення енергоспоживання.</string>
+    <string name="dc_dimming_main_switch_title">Використати DC Затемнення</string>
+    <string name="keywords_display_dc_dimming">dc затемнення, проти, мерехтіння, очі, навантаження</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Користувацька роздільна здатність екрана</string>
 </resources>
