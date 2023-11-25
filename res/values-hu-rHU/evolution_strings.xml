@@ -372,4 +372,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Statisztikatörlés</string>
     <string name="battery_stats_message">Az akkumulátorhasználati statisztikák törlésre kerülnek</string>
+    <!-- Battery light -->
+    <string name="battery_light_title">Töltéskor kapcsolódjon be fényjelzés</string>
 </resources>
