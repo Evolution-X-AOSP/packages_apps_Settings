@@ -40,6 +40,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Ricarica rapida</string>
     <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per estendere la durata della batteria</string>
+    <string name="restricted_current_summary">Imposta la corrente massima consentita (mA)</string>
     <!-- Package details -->
     <string name="package_details_group_title">Dettagli pacchetto</string>
     <string name="package_name">Nome pacchetto</string>
@@ -174,13 +175,11 @@
     <string name="swipe_to_screenshot_gesture_title">Scorri per scattare uno screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Scorri con tre dita per scattare uno screenshot</string>
     <!-- Deep Sleep percentage in device info -->
-    <string name="status_sleep_time">Deep sleep</string>
+    <string name="status_sleep_time">Sonno profondo</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
     <string name="increasing_ring_min_volume_title">Volume iniziale</string>
     <string name="increasing_ring_ramp_up_time_title">Aumenta ogni</string>
-    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Forza LTE CA</string>
     <string name="force_lte_ca_summary">Forza l\'aggregazione degli operatori LTE a funzionare</string>
@@ -201,7 +200,7 @@
     <string name="notification_custom_vibrate_slider2">Pausa per</string>
     <!-- Smart Pause -->
     <string name="adaptive_playback_screen_title">Pausa Intelligente</string>
-    <string name="adaptive_playback_enabled">Usa la pausa intelligente</string>
+    <string name="adaptive_playback_enabled">Usa pausa intelligente</string>
     <string name="adaptive_playback_disabled_summary">Off</string>
     <string name="adaptive_playback_intro_text">Interrompe automaticamente i media quando il volume è silenziato e riprenderà automaticamente quando il volume è ripristinato entro l\'ora impostata.</string>
     <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
@@ -220,7 +219,7 @@
     <!-- Per-app volume control -->
     <string name="app_volume">Volume app</string>
     <string name="app_volume_title">Controllo volume per app</string>
-    <string name="app_volume_summary">Consenti d\'impostare diversi livelli di volume per ogni app</string>
+    <string name="app_volume_summary">Consenti di impostare diversi livelli di volume per ogni app.\nNOTA: Questo attiverà multi focus audio</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Torcia rapida</string>
     <string name="power_button_torch_summary">Quando lo schermo è spento, la pressione prolungata del pulsante di accensione attiverà la torcia</string>
@@ -238,7 +237,7 @@
     <string name="show_navbar_hint_summary">Mostra l\'indicatore di navigazione in fondo allo schermo</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Lunghezza della barra</string>
-    <string name="short_label">Corto</string>
+    <string name="short_label">Breve</string>
     <string name="long_label">Lunga</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Intera</string>
@@ -264,7 +263,136 @@
     <string name="double_tap_title">Doppio tocco</string>
     <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
     <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Disattiva il Wi-Fi automaticamente</string>
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi si spegnerà dopo <xliff:g id="timeout_description">%1$s</xliff:g> se nessuna rete è connessa</string>
+    <string name="wifi_timeout_summary2">Disabilitato</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Timeout del Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth verrà disattivato dopo <xliff:g id="timeout_description">%1$s</xliff:g> se nessun dispositivo collegato</string>
+    <string name="bluetooth_timeout_summary2">Non disattivare automaticamente il Bluetooth</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
     <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando il/la PIN/password corretto/a è inserito/a</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Controllo della ricarica</string>
+    <string name="charging_control_summary">Personalizza la pianificazione di ricarica e i limiti per il tuo dispositivo</string>
+    <string name="charging_control_enable_title">Abilita controllo di carica</string>
+    <string name="charging_control_mode_title">Modalità di carica</string>
+    <string name="charging_control_mode_auto_title">Pianificazione automatica</string>
+    <string name="charging_control_mode_auto_summary">Determina automaticamente quando avviare la ricarica in base agli avvisi impostati</string>
+    <string name="charging_control_mode_custom_title">Pianificazione personalizzata</string>
+    <string name="charging_control_mode_custom_summary">Imposta un tempo di completamento della carica</string>
+    <string name="charging_control_mode_limit_title">Limite di ricarica</string>
+    <string name="charging_control_mode_limit_summary">Limita la ricarica ad una determinata percentuale</string>
+    <string name="charging_control_start_time_title">Ora di inizio</string>
+    <string name="charging_control_start_time_summary">Il controllo di carica si attiva quando si inizia la ricarica dopo %s</string>
+    <string name="charging_control_target_time_title">Tempo previsto per la ricarica completa</string>
+    <string name="charging_control_target_time_summary">La batteria sarà completamente carica entro %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Luminosità automatica in un solo colpo</string>
+    <string name="auto_brightness_one_shot_summary">La regolazione della luminosità avverrà solo nel momento in cui lo schermo viene acceso</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostra registro cronologia notifiche</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">Aumenta automaticamente la frequenza di aggiornamento da 60 a %1$d Hz per alcuni contenuti. Aumenta l\'utilizzo della batteria.</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">VPN Globale</string>
+    <string name="global_vpn_summary">Forza tutto il traffico sul dispositivo attraverso questa VPN, compreso il profilo di lavoro e altri utenti.</string>
+    <string name="global_vpn_summary_on">Forza tutto il traffico sul dispositivo attraverso questa VPN, compreso il profilo di lavoro e altri utenti. Nota: se abilitato, non sarai in grado di utilizzare una VPN separata in un profilo di lavoro o in altri utenti</string>
+    <string name="global_vpn_summary_any_vpn_active">Devi prima disabilitare tutte le connessioni VPN attive per abilitare questo</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Schermo sempre attivo durante la ricarica</string>
+    <string name="doze_on_charge_summary">Mostra sempre la schermata di sospensione durante la ricarica</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modalità Sonno</string>
+    <string name="sleep_mode_summary_on">Attivo/<xliff:g name="auto_mode_summary" example="Non disattivare mai automaticamente">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Disattivato/<xliff:g name="auto_mode_summary" example="Non attivare mai automaticamente">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modalità suoneria</string>
+    <string name="sleep_mode_ringer_off_title">Non cambiare</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrazione</string>
+    <string name="sleep_mode_ringer_dnd_title">Non Disturbare</string>
+    <string name="sleep_mode_ringer_silent_title">Silenzioso</string>
+    <string name="sleep_mode_schedule_sunset">Tramonto</string>
+    <string name="sleep_mode_schedule_sunrise">Alba</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Si attiva dal tramonto fino ad un orario personalizzato</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Si attiva da un orario personalizzato fino all\'alba</string>
+    <string name="sleep_mode_toggles_title">Opzioni</string>
+    <string name="sleep_mode_wifi_toggle_title">Disattiva Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disabilita Wi-Fi quando la modalità sonno è attivata</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Disattiva Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disabilita Bluetooth quando la modalità sonno è attivata</string>
+    <string name="sleep_mode_cellular_toggle_title">Disattiva dati mobili</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disabilita i dati mobili quando viene attivata la modalità sonno</string>
+    <string name="sleep_mode_location_toggle_title">Disattivare la posizione</string>
+    <string name="sleep_mode_location_toggle_summary">Disabilita la posizione quando la modalità sonno è attivata</string>
+    <string name="sleep_mode_sensors_toggle_title">Disattiva sensori</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disabilita i sensori quando la modalità sonno è attivata</string>
+    <string name="sleep_mode_display_text">La modalità sonno ti consente di disattivare determinati servizi per risparmiare batteria e silenziare il telefono mentre dormi.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Attiva ora</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Disattiva ora</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Attiva fino all\'alba</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Spegni fino al tramonto</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Attiva fino alle ore <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Disattiva fino alle ore <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Scorri tra le modalità</string>
+    <string name="prevent_ringing_option_cycle_summary">Attivo (Scorri tra le modalità)</string>
+    <string name="prevent_ringing_option_normal">Normale</string>
+    <!-- Battery charge warning -->
+    <string name="notification_battery_charge_level_main_switch_title">Usa avviso carica batteria</string>
+    <string name="notification_battery_charge_level_title">Avviso carica batteria</string>
+    <string name="notification_battery_charge_level_summary">Riproduci un suono quando la batteria raggiunge il livello specificato durante la ricarica</string>
+    <string name="notification_battery_charge_level_seek_bar">Percentuale Batteria</string>
+    <string name="notification_battery_charge_level_ringtone">Suoneria</string>
+    <string name="notification_battery_charge_level_silent">Silenzioso</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevenire risvegli accidentali</string>
+    <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di accendere lo schermo</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Modalità anti-sfarfallio</string>
+    <string name="dc_dimming_info">Riduce l\'affaticamento degli occhi in condizioni di scarsa illuminazione minimizzando lo sfarfallio dello schermo. Può comportare una riduzione della qualità dell\'immagine e una scarsa riproduzione dei colori, o un maggiore consumo energetico.</string>
+    <string name="dc_dimming_main_switch_title">Usa la modalità anti-sfarfallio</string>
+    <string name="keywords_display_dc_dimming">attenuazione, sfarfallio, occhio, affaticamento</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Risoluzione dello schermo personalizzata</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">Suoni NFC</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Usa il pulsante di rotazione fluttuante</string>
+    <!-- Battery light -->
+    <string name="battery_light_title">Accendi il LED durante la ricarica</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Impostazioni rotazione</string>
+    <string name="display_rotation_enabled">La rotazione automatica è attivata</string>
+    <string name="display_rotation_disabled">La rotazione automatica è disattivata</string>
+    <string name="display_rotation_unit">gradi</string>
+    <string name="display_rotation_category_title">Modalità rotazione</string>
+    <string name="display_rotation_0_title">0 gradi</string>
+    <string name="display_rotation_90_title">90 gradi</string>
+    <string name="display_rotation_180_title">180 gradi</string>
+    <string name="display_rotation_270_title">270 gradi</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Tempo minimo tra suoni di notifica</string>
+    <string name="app_notification_sound_timeout_summary_template">Consenti suoni o vibrazioni non più di una volta ogni <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Nessuna restrizione</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secondi</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 secondi</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minuti</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minuti</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minuti</string>
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Comportamento del notch</string>
+    <string name="display_cutout_mode_normal">Predefinito</string>
+    <string name="display_cutout_mode_hidden">Nascosta</string>
 </resources>

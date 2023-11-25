@@ -348,4 +348,51 @@
     <string name="prevent_ringing_option_cycle">Ciclo entre modos</string>
     <string name="prevent_ringing_option_cycle_summary">Ligado (alternar entre modos)</string>
     <string name="prevent_ringing_option_normal">Normal</string>
+    <!-- Battery charge warning -->
+    <string name="notification_battery_charge_level_main_switch_title">Usar alerta de carga da bateria</string>
+    <string name="notification_battery_charge_level_title">Alerta de carga da bateria</string>
+    <string name="notification_battery_charge_level_summary">Reproduzir um som quando a bateria atingir o nível de carga definido</string>
+    <string name="notification_battery_charge_level_seek_bar">Nível da bateria</string>
+    <string name="notification_battery_charge_level_ringtone">Toque</string>
+    <string name="notification_battery_charge_level_silent">Silencioso</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Impedir que a tela ligue acidentalmente</string>
+    <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Modo anti cintilação</string>
+    <string name="dc_dimming_info">Reduz a fadiga ocular em condições de pouca luz minimizando a cintilação da tela. Pode afetar a qualidade da imagem e cores, também pode gerar maior consumo de energia.</string>
+    <string name="dc_dimming_main_switch_title">Usar modo anti cintilação</string>
+    <string name="keywords_display_dc_dimming">anti cintilação, anti flicker, proteção para os olhos</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Resolução de tela personalizada</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">Sons NFC</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Habilitar botão de rotação flutuante</string>
+    <!-- Battery light -->
+    <string name="battery_light_title">Luz da bateria enquanto carrega</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Configurações de rotação</string>
+    <string name="display_rotation_enabled">A rotação automática está ativada</string>
+    <string name="display_rotation_disabled">A rotação automática está desativada</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Modos de rotação</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Tempo minimo entre sons de notificação</string>
+    <string name="app_notification_sound_timeout_summary_template">Permitir sons ou vibrações não mais do que uma vez a cada <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Sem restrição</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 segundos</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Comportamento do notch</string>
+    <string name="display_cutout_mode_normal">Padrão</string>
+    <string name="display_cutout_mode_hidden">Oculto</string>
 </resources>
