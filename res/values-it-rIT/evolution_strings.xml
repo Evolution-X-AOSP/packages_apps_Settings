@@ -372,4 +372,30 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Ripristina le statistiche</string>
     <string name="battery_stats_message">Le statistiche della batteria stanno per essere ripristinate</string>
+    <!-- Battery light -->
+    <string name="battery_light_title">Accendi il LED durante la ricarica</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Impostazioni rotazione</string>
+    <string name="display_rotation_enabled">La rotazione automatica è attivata</string>
+    <string name="display_rotation_disabled">La rotazione automatica è disattivata</string>
+    <string name="display_rotation_unit">gradi</string>
+    <string name="display_rotation_category_title">Modalità rotazione</string>
+    <string name="display_rotation_0_title">0 gradi</string>
+    <string name="display_rotation_90_title">90 gradi</string>
+    <string name="display_rotation_180_title">180 gradi</string>
+    <string name="display_rotation_270_title">270 gradi</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Tempo minimo tra suoni di notifica</string>
+    <string name="app_notification_sound_timeout_summary_template">Consenti suoni o vibrazioni non più di una volta ogni <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Nessuna restrizione</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secondi</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 secondi</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minuti</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minuti</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minuti</string>
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Comportamento del notch</string>
+    <string name="display_cutout_mode_normal">Predefinito</string>
+    <string name="display_cutout_mode_hidden">Nascosta</string>
 </resources>
