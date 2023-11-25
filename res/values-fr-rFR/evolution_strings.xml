@@ -307,4 +307,71 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Écran toujours allumé pendant la charge</string>
     <string name="doze_on_charge_summary">Afficher l\'écran de veille pendant la charge</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Mode veille</string>
+    <string name="sleep_mode_summary_on">Activé / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Désactivé / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Mode de sonnerie</string>
+    <string name="sleep_mode_ringer_off_title">Ne pas modifier</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibreur</string>
+    <string name="sleep_mode_ringer_dnd_title">Ne pas déranger</string>
+    <string name="sleep_mode_ringer_silent_title">Muet</string>
+    <string name="sleep_mode_schedule_sunset">Coucher du soleil</string>
+    <string name="sleep_mode_schedule_sunrise">Lever du soleil</string>
+    <string name="sleep_mode_schedule_mixed_sunset">S\'allume dès le coucher du soleil jusqu\'à une certaine heure</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">S\'allume à une certaine heure jusqu\'au lever du soleil</string>
+    <string name="sleep_mode_toggles_title">Activer/désactiver</string>
+    <string name="sleep_mode_wifi_toggle_title">Désactiver le Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Désactiver le Wi-Fi lorsque le mode veille est activé</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Désactiver le bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Désactiver le Bluetooth lorsque le mode veille est activé</string>
+    <string name="sleep_mode_cellular_toggle_title">Désactiver les données mobiles</string>
+    <string name="sleep_mode_cellular_toggle_summary">Désactiver les données mobiles lorsque le mode veille est activé</string>
+    <string name="sleep_mode_location_toggle_title">Désactiver la localisation</string>
+    <string name="sleep_mode_location_toggle_summary">Désactiver la localisation lorsque le mode veille est activé</string>
+    <string name="sleep_mode_sensors_toggle_title">Désactiver les capteurs</string>
+    <string name="sleep_mode_sensors_toggle_summary">Désactiver les capteurs lorsque le mode veille est activé</string>
+    <string name="sleep_mode_display_text">Le mode Veille vous permet de désactiver certains services pour économiser de la batterie et couper le son de votre téléphone pendant que vous dormez.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Activer maintenant</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Désactiver maintenant</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Activer jusqu\'au lever du soleil</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Désactiver jusqu\'au coucher du soleil</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Activer jusqu\'à <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Désactiver jusqu\'à <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Alterner entre les modes</string>
+    <string name="prevent_ringing_option_cycle_summary">Activé (alterner entre les modes)</string>
+    <string name="prevent_ringing_option_normal">Normal</string>
+    <!-- Battery charge warning -->
+    <string name="notification_battery_charge_level_main_switch_title">Utiliser l\'avertissement de charge de la batterie</string>
+    <string name="notification_battery_charge_level_title">Avertissement de charge de la batterie</string>
+    <string name="notification_battery_charge_level_summary">Jouer un son lorsque la batterie atteint un niveau lors de la charge</string>
+    <string name="notification_battery_charge_level_seek_bar">Niveau de batterie</string>
+    <string name="notification_battery_charge_level_ringtone">Sonnerie</string>
+    <string name="notification_battery_charge_level_silent">Silencieux</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
+    <string name="proximity_wake_summary">Utiliser le capteur de proximité pour prévenir les réveils accidentels de l\'écran</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Atténuation DC</string>
+    <string name="dc_dimming_info">Réduit les contraintes oculaires dans des conditions de faible lumière en réduisant le scintillement de l\'écran. Peut entraîner une baisse de la qualité de l\'image et une faible production de couleurs, ou une augmentation de la consommation d\'énergie.</string>
+    <string name="dc_dimming_main_switch_title">Utiliser l\'atténuation DC</string>
+    <string name="keywords_display_dc_dimming">Atténuation DC, anti scintillement, fatigue occulaire</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Résolution d\'écran personnalisée</string>
+    <!-- NFC sounds -->
+    <string name="nfc_sounds_title">Sons NFC</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Utiliser le bouton de rotation flottant</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Réinitialiser les statistiques</string>
+    <string name="battery_stats_message">Les statistiques d\'utilisation de la batterie vont être réinitialisées</string>
+    <!-- Battery light -->
+    <string name="battery_light_title">Allumer la lumière pendant la charge</string>
 </resources>
