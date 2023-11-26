@@ -345,8 +345,14 @@ public class PowerUsageSummary extends PowerUsageBase implements
             health = readLine(mBatteryHealth);
         } else if (!TextUtils.isEmpty(mBatteryRemainingCapacity) &&
                 !TextUtils.isEmpty(mBatteryDesignCapacity)) {
-            health = String.valueOf(Integer.parseInt(readLine(mBatteryRemainingCapacity)) * 100 /
-                    Integer.parseInt(readLine(mBatteryDesignCapacity)));
+            String batteryRemainingCapacityValue = readLine(mBatteryRemainingCapacity);
+            String batteryDesignCapacityValue = readLine(mBatteryDesignCapacity);
+            if(batteryRemainingCapacityValue != null && batteryDesignCapacityValue != null) {
+                health = String.valueOf(Integer.parseInt(batteryRemainingCapacityValue) * 100 /
+                    Integer.parseInt(batteryDesignCapacityValue));
+            } else {
+                health = null;
+            }
         } else {
             health = null;
         }
@@ -408,7 +414,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         restartBatteryTipLoader();
     }
 
-    private static String readLine(String filename) {
+    private String readLine(String filename) {
         BufferedReader reader;
         String line = null;
         try {
@@ -418,7 +424,8 @@ public class PowerUsageSummary extends PowerUsageBase implements
             } finally {
                 reader.close();
             }
-        } catch (Exception e) {
+        } catch (IOException e) {
+            Log.e(getLogTag(), "error while reading " + filename, e);
             return null;
         }
         return line;
