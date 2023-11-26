@@ -374,4 +374,28 @@
     <string name="battery_stats_message">Les statistiques d\'utilisation de la batterie vont être réinitialisées</string>
     <!-- Battery light -->
     <string name="battery_light_title">Allumer la lumière pendant la charge</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Paramètres de rotation</string>
+    <string name="display_rotation_enabled">La rotation automatique est activée</string>
+    <string name="display_rotation_disabled">La rotation automatique est désactivée</string>
+    <string name="display_rotation_unit">degrés</string>
+    <string name="display_rotation_category_title">Modes de rotation</string>
+    <string name="display_rotation_0_title">0 degré</string>
+    <string name="display_rotation_90_title">90 degrés</string>
+    <string name="display_rotation_180_title">180 degrés</string>
+    <string name="display_rotation_270_title">270 degrés</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Temps minimum entre les notifications sonores</string>
+    <string name="app_notification_sound_timeout_summary_template">Ne pas permettre plus d\'un son ou vibration toutes les <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Pas de restriction</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secondes</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 secondes</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Comportement de l\'encoche</string>
+    <string name="display_cutout_mode_normal">Défaut</string>
+    <string name="display_cutout_mode_hidden">Cachée</string>
 </resources>
