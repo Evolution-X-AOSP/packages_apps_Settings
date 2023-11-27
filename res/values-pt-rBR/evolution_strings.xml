@@ -369,9 +369,6 @@
     <string name="nfc_sounds_title">Sons NFC</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Habilitar botão de rotação flutuante</string>
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Zerar as estatísticas</string>
-    <string name="battery_stats_message">As estatísticas com o histórico de uso da bateria serão redefinidas</string>
     <!-- Battery light -->
     <string name="battery_light_title">Luz da bateria enquanto carrega</string>
     <!-- Display : Rotation -->
