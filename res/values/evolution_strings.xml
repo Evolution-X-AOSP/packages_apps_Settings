@@ -179,6 +179,7 @@
 
     <!-- Battery health -->
     <string name="battery_health_title">Battery health</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
 
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
