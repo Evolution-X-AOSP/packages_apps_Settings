@@ -34,6 +34,7 @@
     <string name="config_batteryHealthNode"></string>
     <string name="config_batteryRemainingCapacityNode"></string>
     <string name="config_batteryDesignCapacityNode"></string>
+    <string name="config_batteryChargeCycles"></string>
 
     <!-- Whether to show custom screen resolution settings -->
     <bool name="config_show_custom_screen_resolution_switch">true</bool>
