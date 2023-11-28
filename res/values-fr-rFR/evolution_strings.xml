@@ -396,4 +396,7 @@
     <string name="display_cutout_mode_title">Comportement de l\'encoche</string>
     <string name="display_cutout_mode_normal">Défaut</string>
     <string name="display_cutout_mode_hidden">Cachée</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Contrôle de lecture</string>
+    <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume changera la piste musicale</string>
 </resources>
