@@ -392,11 +392,9 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 minuti</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minuti</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minuti</string>
-    <!-- Notch behavior -->
-    <string name="display_cutout_mode_title">Comportamento del notch</string>
-    <string name="display_cutout_mode_normal">Predefinito</string>
-    <string name="display_cutout_mode_hidden">Nascosta</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controllo di riproduzione</string>
     <string name="volume_button_music_control_summary">Quando lo schermo è spento, premere a lungo i tasti volume per cambiare le tracce musicali</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Processi in background</string>
 </resources>
