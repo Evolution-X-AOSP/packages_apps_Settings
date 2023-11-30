@@ -77,7 +77,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
 
     private static final String KEY_SHOW_A11Y_TUTORIAL_DIALOG = "show_a11y_tutorial_dialog_bool";
 
-    static final String LAUNCHER_PACKAGE_NAME = "com.google.android.apps.nexuslauncher";
+    static final String LAUNCHER_PACKAGE_NAME = "com.android.launcher3";
 
     static final String ACTION_GESTURE_SANDBOX = "com.android.quickstep.action.GESTURE_SANDBOX";
 
