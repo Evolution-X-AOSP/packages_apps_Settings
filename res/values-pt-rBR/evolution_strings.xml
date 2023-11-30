@@ -147,6 +147,7 @@
     <string name="battery_temp">Temperatura da bateria</string>
     <!-- Battery health -->
     <string name="battery_health_title">Saúde da bateria</string>
+    <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
@@ -391,8 +392,9 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
-    <!-- Notch behavior -->
-    <string name="display_cutout_mode_title">Comportamento do notch</string>
-    <string name="display_cutout_mode_normal">Padrão</string>
-    <string name="display_cutout_mode_hidden">Oculto</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Alternar faixas de músicas ao manter pressionadas as teclas de volume enquanto a tela estiver desligada</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Processos em segundo plano</string>
 </resources>
