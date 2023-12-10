@@ -86,7 +86,7 @@
     <string name="live_display_mode">Modo da tela</string>
     <string name="live_display_color_temperature_title">Temperatura da cor</string>
     <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d </xliff:g> K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Dia</string>
     <string name="live_display_night">Noite</string>
     <string name="live_display_outdoor_mode_title">Modo externo automático</string>
@@ -147,15 +147,10 @@
     <string name="battery_temp">Temperatura da bateria</string>
     <!-- Battery health -->
     <string name="battery_health_title">Saúde da bateria</string>
+    <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
-    <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho para o padrão</string>
-    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Mostrar erro do padrão</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Mostrar pontos do padrão</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Acordar ao conectar</string>
     <string name="wake_when_plugged_or_unplugged_summary">Ativar a tela quando conectar ou desconectar o carregador</string>
@@ -391,8 +386,22 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
-    <!-- Notch behavior -->
-    <string name="display_cutout_mode_title">Comportamento do notch</string>
-    <string name="display_cutout_mode_normal">Padrão</string>
-    <string name="display_cutout_mode_hidden">Oculto</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Alternar faixas de músicas ao manter pressionadas as teclas de volume enquanto a tela estiver desligada</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Processos em segundo plano</string>
+    <!-- Skip biometric manual confirmation -->
+    <string name="skip_biometric_auth_confirmation_title">Ignorar a confirmação manual</string>
+    <!-- extra dim schedule -->
+    <string name="extra_dim_schedule_title">Programação</string>
+    <string name="disabled">Desativado</string>
+    <string name="always_on_display_schedule_title">Cronograma da tela ambiente sempre ativa</string>
+    <string name="always_on_display_schedule_sunset">Pôr do sol</string>
+    <string name="always_on_display_schedule_sunrise">Nascer do sol</string>
+    <string name="always_on_display_schedule_mixed_sunset">Ativado do anoitecer até um tempo específico</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Ativado do tempo específico até o amanhecer</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostrar tela ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar a tela ambiente ao invés de ativar a tela completamente</string>
 </resources>
