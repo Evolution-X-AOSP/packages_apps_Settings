@@ -43,6 +43,7 @@ import com.android.settings.Utils;
 import com.android.settings.fuelgauge.BatteryHeaderPreferenceController;
 import com.android.settings.fuelgauge.BatteryInfo;
 import com.android.settings.fuelgauge.BatteryInfoLoader;
+import com.android.settings.fuelgauge.BatteryUtils;
 import com.android.settings.fuelgauge.PowerUsageFeatureProvider;
 import com.android.settings.fuelgauge.batterytip.BatteryTipLoader;
 import com.android.settings.fuelgauge.batterytip.BatteryTipPreferenceController;
@@ -83,6 +84,8 @@ public class PowerUsageSummary extends PowerUsageBase implements
 
     @VisibleForTesting
     PowerUsageFeatureProvider mPowerFeatureProvider;
+    @VisibleForTesting
+    BatteryUtils mBatteryUtils;
     @VisibleForTesting
     LayoutPreference mBatteryLayoutPref;
     @VisibleForTesting
@@ -190,6 +193,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         initFeatureProvider();
         initPreference();
 
+        mBatteryUtils = BatteryUtils.getInstance(getContext());
         mBatteryHealthPref = (PowerGaugePreference) findPreference(KEY_BATTERY_HEALTH);
         mBatteryTempPref = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mBatteryChargeCyclesPref = (PowerGaugePreference) findPreference(KEY_BATTERY_CHARGE_CYCLES);
