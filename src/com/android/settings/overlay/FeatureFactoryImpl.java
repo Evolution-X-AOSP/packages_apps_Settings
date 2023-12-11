@@ -42,6 +42,8 @@ import com.android.settings.biometrics2.factory.BiometricsRepositoryProviderImpl
 import com.android.settings.bluetooth.BluetoothFeatureProvider;
 import com.android.settings.bluetooth.BluetoothFeatureProviderImpl;
 import com.android.settings.connecteddevice.dock.DockUpdaterFeatureProviderImpl;
+import com.android.settings.connecteddevice.stylus.StylusFeatureProvider;
+import com.android.settings.connecteddevice.stylus.StylusFeatureProviderImpl;
 import com.android.settings.core.instrumentation.SettingsMetricsFeatureProvider;
 import com.android.settings.dashboard.DashboardFeatureProvider;
 import com.android.settings.dashboard.DashboardFeatureProviderImpl;
@@ -61,6 +63,8 @@ import com.android.settings.gestures.AssistGestureFeatureProvider;
 import com.android.settings.gestures.AssistGestureFeatureProviderImpl;
 import com.android.settings.homepage.contextualcards.ContextualCardFeatureProvider;
 import com.android.settings.homepage.contextualcards.ContextualCardFeatureProviderImpl;
+import com.android.settings.inputmethod.KeyboardSettingsFeatureProvider;
+import com.android.settings.inputmethod.KeyboardSettingsFeatureProviderImpl;
 import com.android.settings.localepicker.LocaleFeatureProvider;
 import com.android.settings.localepicker.LocaleFeatureProviderImpl;
 import com.android.settings.panel.PanelFeatureProvider;
@@ -121,6 +125,8 @@ public class FeatureFactoryImpl extends FeatureFactory {
     private AccessibilityMetricsFeatureProvider mAccessibilityMetricsFeatureProvider;
     private AdvancedVpnFeatureProvider mAdvancedVpnFeatureProvider;
     private WifiFeatureProvider mWifiFeatureProvider;
+    private KeyboardSettingsFeatureProvider mKeyboardSettingsFeatureProvider;
+    private StylusFeatureProvider mStylusFeatureProvider;
 
     @Override
     public HardwareInfoFeatureProvider getHardwareInfoFeatureProvider() {
@@ -159,10 +165,10 @@ public class FeatureFactoryImpl extends FeatureFactory {
     }
 
     @Override
-    public BatterySettingsFeatureProvider getBatterySettingsFeatureProvider(Context context) {
+    public BatterySettingsFeatureProvider getBatterySettingsFeatureProvider() {
         if (mBatterySettingsFeatureProvider == null) {
             mBatterySettingsFeatureProvider = new BatterySettingsFeatureProviderGoogleImpl(
-                context.getApplicationContext());
+                    getAppContext());
         }
         return mBatterySettingsFeatureProvider;
     }
@@ -378,5 +384,21 @@ public class FeatureFactoryImpl extends FeatureFactory {
             mWifiFeatureProvider = new WifiFeatureProvider(getAppContext());
         }
         return mWifiFeatureProvider;
+    }
+
+    @Override
+    public KeyboardSettingsFeatureProvider getKeyboardSettingsFeatureProvider() {
+        if (mKeyboardSettingsFeatureProvider == null) {
+            mKeyboardSettingsFeatureProvider = new KeyboardSettingsFeatureProviderImpl();
+        }
+        return mKeyboardSettingsFeatureProvider;
+    }
+
+    @Override
+    public StylusFeatureProvider getStylusFeatureProvider() {
+        if (mStylusFeatureProvider == null) {
+            mStylusFeatureProvider = new StylusFeatureProviderImpl();
+        }
+        return mStylusFeatureProvider;
     }
 }
