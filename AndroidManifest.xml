@@ -153,7 +153,7 @@
             android:appComponentFactory="androidx.core.app.CoreComponentFactory"
             android:gwpAsanMode="always"
             android:enableOnBackInvokedCallback="true"
-            tools:replace="android:appComponentFactory">
+            tools:replace="android:appComponentFactory,android:name">
 
         <uses-library android:name="org.apache.http.legacy" />
 
