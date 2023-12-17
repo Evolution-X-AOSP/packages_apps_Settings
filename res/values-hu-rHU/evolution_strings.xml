@@ -369,9 +369,47 @@
     <string name="nfc_sounds_title">NFC-hangok</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">A \'Lebegő elforgatás\'-gomb engedélyezése</string>
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Statisztikatörlés</string>
-    <string name="battery_stats_message">Az akkumulátorhasználati statisztikák törlésre kerülnek</string>
     <!-- Battery light -->
     <string name="battery_light_title">Töltéskor kapcsolódjon be fényjelzés</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Elforgatási beállítások</string>
+    <string name="display_rotation_enabled">Az automatikus elforgatás engedélyezve</string>
+    <string name="display_rotation_disabled">Az automatikus elforgatás letiltva</string>
+    <string name="display_rotation_unit">fok</string>
+    <string name="display_rotation_category_title">Elforgatási módok</string>
+    <string name="display_rotation_0_title">0 fok</string>
+    <string name="display_rotation_90_title">90 fok</string>
+    <string name="display_rotation_180_title">180 fok</string>
+    <string name="display_rotation_270_title">270 fok</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Értesítési hangok közötti minimum időtartam</string>
+    <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g> alatt legfeljebb egy értesítési hang vagy rezgés engedélyezett</string>
+    <string name="app_notification_sound_timeout_value_none">Nincs korlátozás</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 másodperc</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 másodperc</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 perc</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 perc</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 perc</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 perc</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
+    <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Háttérfolyamatok</string>
+    <!-- Skip biometric manual confirmation -->
+    <string name="skip_biometric_auth_confirmation_title">A manuális megerősítés kihagyása</string>
+    <!-- extra dim schedule -->
+    <string name="extra_dim_schedule_title">Időzítés</string>
+    <string name="disabled">Kikapcsolva</string>
+    <string name="always_on_display_schedule_title">A \'Mindig bekapcsolva\' ütemezése</string>
+    <string name="always_on_display_schedule_sunset">Napnyugta</string>
+    <string name="always_on_display_schedule_sunrise">Napkelte</string>
+    <string name="always_on_display_schedule_mixed_sunset">Napnyugtától egy bizonyos ideig bekapcsol</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Egy adott időponttól Napkeltéig kapcsol be</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Csak a \'Környezeti\'</string>
+    <string name="doze_gesture_ambient_summary">A képernyő teljes felébresztése helyett a \'Környezeti kijelző\' megjelenítése</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rootolt hibakeresés</string>
+    <string name="adb_enable_summary_root">Rootolva engedélyezi az Android hibakeresését</string>
 </resources>
