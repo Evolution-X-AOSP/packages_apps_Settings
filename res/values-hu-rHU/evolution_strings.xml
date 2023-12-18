@@ -147,7 +147,6 @@
     <string name="battery_temp">Akkuhőmérséklet</string>
     <!-- Battery health -->
     <string name="battery_health_title">Akkuállapot</string>
-    <string name="battery_charge_cycles">A töltési ciklus befejeződött</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
     <string name="unlock_scramble_pin_layout_summary">Összekeveri a beviteli mezőn a számok elrendezését az eszköz feloldásakor</string>
