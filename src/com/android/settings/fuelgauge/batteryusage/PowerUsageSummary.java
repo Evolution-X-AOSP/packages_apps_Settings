@@ -76,7 +76,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @VisibleForTesting
     static final String KEY_BATTERY_USAGE = "battery_usage_summary";
 
-    private static final String KEY_BATTERY_CHARGE_CYCLES = "battery_charge_cycles";
     private static final String KEY_BATTERY_TEMP = "battery_temp";
     private static final String KEY_BATTERY_HEALTH = "battery_health";
     private static final String KEY_FAST_CHARGING = "fast_charging";
@@ -91,8 +90,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     PowerGaugePreference mBatteryTempPref;
     @VisibleForTesting
     PowerGaugePreference mBatteryHealthPref;
-    @VisibleForTesting
-    PowerGaugePreference mBatteryChargeCyclesPref;
 
     @VisibleForTesting
     BatteryHeaderPreferenceController mBatteryHeaderPreferenceController;
@@ -108,7 +105,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     private String mBatteryHealth;
     private String mBatteryRemainingCapacity;
     private String mBatteryDesignCapacity;
-    private String mBatteryChargeCycles;
 
     Preference mSleepMode;
 
@@ -193,15 +189,12 @@ public class PowerUsageSummary extends PowerUsageBase implements
         mBatteryUtils = BatteryUtils.getInstance(getContext());
         mBatteryHealthPref = (PowerGaugePreference) findPreference(KEY_BATTERY_HEALTH);
         mBatteryTempPref = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
-        mBatteryChargeCyclesPref = (PowerGaugePreference) findPreference(KEY_BATTERY_CHARGE_CYCLES);
 
         mBatteryHealth = getResources().getString(R.string.config_batteryHealthNode);
         mBatteryRemainingCapacity = getResources().getString(R.string.config_batteryRemainingCapacityNode);
         mBatteryDesignCapacity = getResources().getString(R.string.config_batteryDesignCapacityNode);
-        mBatteryChargeCycles = getResources().getString(R.string.config_batteryChargeCycles);
 
         mBatteryHealthPref.setVisible(getBatteryHealth() != null);
-        mBatteryChargeCyclesPref.setVisible(parseBatteryCycle(getResources().getString(R.string.config_batteryChargeCycles)) != null);
 
         if (Utils.isBatteryPresent(getContext())) {
             restartBatteryInfoLoader();
@@ -330,8 +323,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
         restartBatteryInfoLoader();
         if (mBatteryHealthPref != null)
             mBatteryHealthPref.setSummary(getBatteryHealth() + "%");
-        if (mBatteryChargeCyclesPref != null)
-            mBatteryChargeCyclesPref.setSummary(parseBatteryCycle(getResources().getString(R.string.config_batteryChargeCycles)));
     }
 
     String getBatteryHealth() {
@@ -424,21 +415,11 @@ public class PowerUsageSummary extends PowerUsageBase implements
             } finally {
                 reader.close();
             }
-        } catch (Exception e) {
+        } catch (IOException e) {
             Log.e(getLogTag(), "error while reading " + filename, e);
             return null;
         }
         return line;
-    }
-
-    private String parseBatteryCycle(String file) {
-        try {
-            return Integer.parseInt(readLine(file)) + " Cycles";
-        } catch (Exception e) {
-            Log.e(TAG, "Cannot read battery cycle from "
-                    + file, e);
-        }
-        return getResources().getString(R.string.status_unavailable);
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
