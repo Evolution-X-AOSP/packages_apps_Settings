@@ -219,7 +219,7 @@
     <!-- Per-app volume control -->
     <string name="app_volume">Uygulama ses düzeyi</string>
     <string name="app_volume_title">Uygulama başına ses kontrolü</string>
-    <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
+    <string name="app_volume_summary">Her uygulama için farklı ses seviyeleri ayarlamanıza izin verir.\nNOT: Bu, çoklu ses odağını etkinleştirecektir</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Hızlı el feneri</string>
     <string name="power_button_torch_summary">Ekran kapalıyken, güç düğmesine uzun basıldığında fener etkinleştirilir</string>
@@ -286,7 +286,7 @@
     <string name="charging_control_mode_custom_title">Özel zamanlama</string>
     <string name="charging_control_mode_custom_summary">Tam şarj için bir hedef zaman belirleyin</string>
     <string name="charging_control_mode_limit_title">Şarjı Kısıtla</string>
-    <string name="charging_control_mode_limit_summary">Şarjı belirli bir yüzdeye kısıtla</string>
+    <string name="charging_control_mode_limit_summary">Şarjı belirli bir yüzdeyle sınırlayın</string>
     <string name="charging_control_start_time_title">Başlangıç zamanı</string>
     <string name="charging_control_start_time_summary">Şarj kontrolü %s saatinden sonra şarj etmeye başladığında aktive edilir</string>
     <string name="charging_control_target_time_title">Tam şarj için hedef zaman</string>
