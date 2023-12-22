@@ -79,4 +79,11 @@
 
     </PreferenceCategory>
 
+    <!-- Misc vibration options -->
+    <PreferenceCategory
+        android:key="misc_vibration_category"
+        android:title="@string/misc_vibration_category_title" >
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
