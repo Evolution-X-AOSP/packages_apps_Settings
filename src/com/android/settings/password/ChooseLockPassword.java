@@ -977,7 +977,7 @@ public class ChooseLockPassword extends SettingsActivity {
                 mAutoPinConfirmOption.setVisibility(View.VISIBLE);
                 mAutoConfirmSecurityMessage.setVisibility(View.VISIBLE);
                 if (!mIsAutoPinConfirmOptionSetManually) {
-                    mAutoPinConfirmOption.setChecked(length == MIN_AUTO_PIN_REQUIREMENT_LENGTH);
+                    mAutoPinConfirmOption.setChecked(length >= MIN_AUTO_PIN_REQUIREMENT_LENGTH);
                 }
             } else {
                 mAutoPinConfirmOption.setVisibility(View.GONE);
