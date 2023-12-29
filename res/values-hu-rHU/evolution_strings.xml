@@ -375,6 +375,7 @@
     <string name="display_rotation_title">Elforgatási beállítások</string>
     <string name="display_rotation_enabled">Az automatikus elforgatás engedélyezve</string>
     <string name="display_rotation_disabled">Az automatikus elforgatás letiltva</string>
+    <string name="display_lockscreen_rotation_title">Képernyőzár</string>
     <string name="display_rotation_unit">fok</string>
     <string name="display_rotation_category_title">Elforgatási módok</string>
     <string name="display_rotation_0_title">0 fok</string>
