@@ -375,6 +375,7 @@
     <string name="display_rotation_title">Ustawienia obracania</string>
     <string name="display_rotation_enabled">Autoobracanie jest włączone</string>
     <string name="display_rotation_disabled">Autoobracanie jest wyłączone</string>
+    <string name="display_lockscreen_rotation_title">Ekran blokady</string>
     <string name="display_rotation_unit">stopnie</string>
     <string name="display_rotation_category_title">Tryby obracania</string>
     <string name="display_rotation_0_title">0 stopni</string>
