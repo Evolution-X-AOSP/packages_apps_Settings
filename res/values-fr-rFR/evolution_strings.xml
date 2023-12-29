@@ -375,6 +375,7 @@
     <string name="display_rotation_title">Paramètres de rotation</string>
     <string name="display_rotation_enabled">La rotation automatique est activée</string>
     <string name="display_rotation_disabled">La rotation automatique est désactivée</string>
+    <string name="display_lockscreen_rotation_title">Écran de verrouillage</string>
     <string name="display_rotation_unit">degrés</string>
     <string name="display_rotation_category_title">Modes de rotation</string>
     <string name="display_rotation_0_title">0 degré</string>
