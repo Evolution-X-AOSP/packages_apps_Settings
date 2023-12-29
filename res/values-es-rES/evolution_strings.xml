@@ -375,6 +375,7 @@
     <string name="display_rotation_title">Ajustes de rotación</string>
     <string name="display_rotation_enabled">Rotación automática activada</string>
     <string name="display_rotation_disabled">Rotación automática desactivada</string>
+    <string name="display_lockscreen_rotation_title">Pantalla de bloqueo</string>
     <string name="display_rotation_unit">grados</string>
     <string name="display_rotation_category_title">Modos de rotación</string>
     <string name="display_rotation_0_title">0 grados</string>
