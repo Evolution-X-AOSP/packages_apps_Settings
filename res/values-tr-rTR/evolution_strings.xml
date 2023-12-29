@@ -375,6 +375,7 @@
     <string name="display_rotation_title">Döndürme ayarları</string>
     <string name="display_rotation_enabled">Otomatik döndürme etkin</string>
     <string name="display_rotation_disabled">Otomatik döndürme devre dışı</string>
+    <string name="display_lockscreen_rotation_title">Kilit ekranı</string>
     <string name="display_rotation_unit">derece</string>
     <string name="display_rotation_category_title">Döndürme modları</string>
     <string name="display_rotation_0_title">0 derece</string>
