@@ -17,7 +17,10 @@
 package com.android.settings.custom.touch;
 
 import android.content.Context;
+
 import com.android.internal.custom.hardware.LineageHardwareManager;
+
+import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
 public class HighTouchPollingRateSettingsPreferenceController extends BasePreferenceController {
@@ -41,6 +44,8 @@ public class HighTouchPollingRateSettingsPreferenceController extends BasePrefer
         if (!mHardware.isSupported(LineageHardwareManager.FEATURE_HIGH_TOUCH_POLLING_RATE)){
             return UNSUPPORTED_ON_DEVICE;
         }
-        return AVAILABLE;
+        return mContext.getResources().getBoolean(R.bool.config_supportTouchPollingMode)
+            ? AVAILABLE
+            : UNSUPPORTED_ON_DEVICE;
     }
 }

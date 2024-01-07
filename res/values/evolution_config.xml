@@ -38,4 +38,7 @@
 
     <!-- Whether to show custom screen resolution settings -->
     <bool name="config_show_custom_screen_resolution_switch">true</bool>
+
+    <!-- Whether device supports increased touch sensitvity -->
+    <bool name="config_supportTouchPollingMode">false</bool>
 </resources>
