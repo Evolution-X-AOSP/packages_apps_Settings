@@ -109,6 +109,14 @@
         android:title="@string/battery_health_title"
         android:selectable="true" />
 
+    <Preference
+        android:key="battery_info_cycle_count"
+        android:title="@string/battery_cycle_count"
+        android:summary="@string/summary_placeholder"
+        android:selectable="true"
+        settings:controller="com.android.settings.deviceinfo.batteryinfo.BatteryCycleCountPreferenceController"
+        settings:enableCopying="true" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
         android:title="@string/battery_footer_summary"
