@@ -474,4 +474,12 @@
     <string name="touch_polling_title">High touch polling rate</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
     <string name="touch_polling_summary">Increase touchscreen polling rate to decrease latency</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Volume Steps</string>
+    <string name="volume_steps_summary">Control the granularity of each stream</string>
+    <string name="max_music_volume_title">Media</string>
+    <string name="max_call_volume_title">Calls</string>
+    <string name="max_alarm_volume_title">Alarms</string>
+    <string name="steps_unit">steps</string>
 </resources>
