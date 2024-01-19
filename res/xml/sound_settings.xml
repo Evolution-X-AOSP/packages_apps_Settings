@@ -110,6 +110,14 @@
         android:order="-135"
         settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
 
+    <!-- Volume steps -->
+    <Preference
+        android:key="volume_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.android.settings.sound.VolumeSteps"
+        android:order="-134"/>
+
     <!-- TODO(b/174964721): make this a PrimarySwitchPreference -->
     <!-- Interruptions -->
     <com.android.settingslib.RestrictedPreference
