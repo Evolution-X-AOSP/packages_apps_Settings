@@ -35,6 +35,13 @@
     <string name="radio_info_title">Radio info</string>
 
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string> 
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string> 
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string> 
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
     <string name="max_refresh_rate_title">Maximum refresh rate</string>
     <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
