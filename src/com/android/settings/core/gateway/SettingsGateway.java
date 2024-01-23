@@ -104,6 +104,7 @@ import com.android.settings.display.AutoBrightnessSettings;
 import com.android.settings.display.DcDimmingSettings;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.display.ScreenTimeoutSettings;
+import com.android.settings.display.RefreshRateSettings;
 import com.android.settings.display.SmartAutoRotatePreferenceFragment;
 import com.android.settings.display.SmartPixels;
 import com.android.settings.display.darkmode.DarkModeSettingsFragment;
@@ -338,6 +339,7 @@ public class SettingsGateway {
             ResetDashboardFragment.class.getName(),
             NightDisplaySettings.class.getName(),
             DcDimmingSettings.class.getName(),
+            RefreshRateSettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             StorageDashboardFragment.class.getName(),
