@@ -57,9 +57,12 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: AppListAdapter
     private lateinit var packageList: List<PackageInfo>
-    private lateinit var appBarLayout: AppBarLayout
     private lateinit var userManager: UserManager
     private lateinit var userInfos: List<UserInfo>
+
+    private val appBarLayout: AppBarLayout by lazy{
+        requireActivity().findViewById(R.id.app_bar)
+    }
 
     private var searchText = ""
     private var customFilter: ((PackageInfo) -> Boolean)? = null
@@ -82,7 +85,6 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
         requireActivity().setTitle(getTitle())
-        appBarLayout = requireActivity().findViewById(R.id.app_bar)
         activityManager = requireContext().getSystemService(ActivityManager::class.java)
         packageManager = requireContext().packageManager
         packageList = packageManager.getInstalledPackages(PackageManager.MATCH_ANY_USER)
