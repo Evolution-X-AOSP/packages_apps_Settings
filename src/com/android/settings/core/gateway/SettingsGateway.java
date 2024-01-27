@@ -105,6 +105,7 @@ import com.android.settings.display.AutoBrightnessSettings;
 import com.android.settings.display.DcDimmingSettings;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.display.SmartAutoRotatePreferenceFragment;
+import com.android.settings.display.SmartPixels;
 import com.android.settings.display.darkmode.DarkModeSettingsFragment;
 import com.android.settings.dream.DreamSettings;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
@@ -203,7 +204,6 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.evolution.settings.EvolutionSettings;
 import com.evolution.settings.fragments.HeadsUpSettings;
-import com.evolution.settings.fragments.SmartPixels;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
