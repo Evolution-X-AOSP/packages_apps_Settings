@@ -24,17 +24,39 @@
     <string name="build_status">Gyártási állapot</string>
     <string name="radio_info_title">Rádióinformációk</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Frissítési gyakoriság</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Alkalmazkodó)</string>
+    <string name="refresh_rate_vrr_title">Alkalmazkodó frissítési gyakoriság</string>
+    <string name="refresh_rate_vrr_summary">Az energiatakarékosság érdekében automatikusan csökkenti a frissítési gyakoriságot, amikor a kijelző tétlen. Egyes kijelzőkön villogást vagy színeltérést okozhat</string>
+    <string name="refresh_rate_footer">A nagyobb frissítési gyakoriság simábbá teszi a kijelző képét, de növeli az energiafogyasztást</string>
+    <string name="keywords_refresh_rate">frissítés, gyakoriság, sima, csúcs, 60Hz, 90Hz, 120Hz, 144Hz, 165Hz</string>
     <string name="min_refresh_rate_title">Képernyőfrissítési minimum</string>
     <string name="max_refresh_rate_title">Képernyőfrissítési maximum</string>
     <string name="low_power_refresh_rate_title_custom">Képernyőfrissítés gyenge akkuhoz</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Készüléke előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Készüléke hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Készüléke oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Táblagépe előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Készüléke előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Táblagépe hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Készüléke hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Táblagépe oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Készüléke oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonja oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Érintse meg a szenzort készüléke előlapján.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Érintse meg a szenzort készüléke hátlapján.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Érintse meg a szenzort készüléke oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Érintse meg a szenzort táblagépe előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Érintse meg a szenzort készüléke előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Érintse meg a szenzort telefonja előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Érintse meg a szenzort táblagépe hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Érintse meg a szenzort készüléke hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Érintse meg a szenzort telefonja hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Érintse meg a szenzort táblagépe oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Érintse meg a szenzort készüléke oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Érintse meg a szenzort telefonja oldalán.</string>
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Feloldáshoz érintse meg az érzékelőt, kikapcsolt képernyőnél is. A közelségérzékelő megakadályozza a véletlen feloldást.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Figyelmeztetés: Előfordulhat, hogy ez a lehetőség nem működik megfelelően, vagy adatvesztéshez vezethet, ezért nem ajánlott!</string>
     <!-- FastCharge feature -->
@@ -72,9 +94,6 @@
     <string name="hide_developer_status_summary">A fejlesztői állapot elrejtése az alkalmazások elől</string>
     <string name="search">Keresés</string>
     <string name="search_apps">Alkalmazások keresése</string>
-    <!-- Captive portal -->
-    <string name="captive_portal_title">Kapcsolódási teszt</string>
-    <string name="captive_portal_summary">Internet-csatlakozási képesség behatárolása a Google-val való kapcsolódás alatt. Nyilvános, de rögzített portálok észlelésére is használható.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Kevesebb, mint egy perc</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -143,10 +162,6 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Magas értékű képernyő-lekérdezés</string>
     <string name="high_touch_polling_rate_summary">Az érintőképernyő lekérdezési értékének növelése</string>
-    <!-- Battery Temperature -->
-    <string name="battery_temp">Akkuhőmérséklet</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">Akkuállapot</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
     <string name="unlock_scramble_pin_layout_summary">Összekeveri a beviteli mezőn a számok elrendezését az eszköz feloldásakor</string>
@@ -369,8 +384,6 @@
     <string name="nfc_sounds_title">NFC-hangok</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">A \'Lebegő elforgatás\'-gomb engedélyezése</string>
-    <!-- Battery light -->
-    <string name="battery_light_title">Töltéskor kapcsolódjon be fényjelzés</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Elforgatási beállítások</string>
     <string name="display_rotation_enabled">Az automatikus elforgatás engedélyezve</string>
@@ -413,4 +426,149 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rootolt hibakeresés</string>
     <string name="adb_enable_summary_root">Rootolva engedélyezi az Android hibakeresését</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
+    <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
+    <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <!-- Display settings screen, increased touch polling rate settings title -->
+    <string name="touch_polling_title">Magas értékű képernyő-lekérdezés</string>
+    <!-- Display settings screen, increased touch polling rate settings summary -->
+    <string name="touch_polling_summary">Képernyő-lekérdezés (polling-rate) növelése a kisebb késleltetés érdekében</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Hangerőléptetések</string>
+    <string name="volume_steps_summary">Az egyes adatfolyamok részletességének szabályozása</string>
+    <string name="max_music_volume_title">Média</string>
+    <string name="max_call_volume_title">Hívások</string>
+    <string name="max_alarm_volume_title">Ébresztések</string>
+    <string name="steps_unit">lépés</string>
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Egyéb rezgő visszajelzők</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">A hívás közbeni rezgés beállításai</string>
+    <string name="incall_vibrate_connect_title">Rezgés a kapcsolat létrejöttekor</string>
+    <string name="incall_vibrate_call_wait_title">Rezgés hívásvárakoztatásnál</string>
+    <string name="incall_vibrate_disconnect_title">Rezgés a kapcsolat bontásakor</string>
+    <!-- Scroll fling haptic feedback -->
+    <string name="scroll_fling_haptic_feedback_title">Rezgés görgetésekkor</string>
+    <string name="scroll_fling_haptic_feedback_summary">Rezgés az élek érintésekor, amikor görgető kézmozdulatot végez</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nincs művelet</string>
+    <string name="action_menu">Menü</string>
+    <string name="action_app_switch">Előzmények</string>
+    <string name="action_voice_search">Hangalapú keresés</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_last_app">Legutóbbi alkalmazás</string>
+    <string name="action_splitscreen">Osztott képernyő</string>
+    <string name="action_flashlight">Zseblámpa</string>
+    <string name="action_clear_notifications">Értesítések törlése</string>
+    <string name="action_volume_panel">Hangerőszabályzó</string>
+    <string name="action_screen_off">Kijelző kikapcsolása</string>
+    <string name="action_notifications">Értesítések</string>
+    <string name="action_power_menu">Kikapcsolási menü</string>
+    <string name="action_screenshot">Képernyőkép</string>
+    <string name="action_qs_panel">Gyorsbeállítások-panel</string>
+    <string name="action_app_action">Alkalmazás</string>
+    <string name="action_ringer_modes">Csengésmódok</string>
+    <string name="kill_app">Az előtérben lévő alkalmazás kilövése</string>
+    <string name="recent_app_toggle">Korábbi alkalmazások kapcsolója</string>
+    <string name="show_powermenu">A Kikapcsolási menü megjelenítése</string>
+    <string name="partial_screenshot">Részleges képernyőmentés</string>
+    <string name="action_forward">Továbblépés</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Speciális vezérlési lehetőségek</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Mozdulatok testreszabása és egyedi műveletek beállítása</string>
+    <string name="navbar_gesture_tweaks_cat_title">Speciális</string>
+    <string name="swipe_app_select_summary">Válasszon ki egy alkalmazást, amely összenyomási művelettel indul</string>
+    <string name="left_swipe_actions_title">A hosszú balra húzás művelete</string>
+    <string name="left_swipe_app_action_title">Válassza ki a hosszú balra csúsztatás alkalmazását</string>
+    <string name="right_swipe_actions_title">A hosszú jobbra húzás művelete</string>
+    <string name="right_swipe_app_action_title">Válassza ki a hosszú jobbra csúsztatás alkalmazását</string>
+    <string name="left_vertical_swipe_actions_title">A függőleges balra L formázás művelete</string>
+    <string name="left_vertical_swipe_app_action_title">Válassza ki a függőleges balra csúsztatás alkalmazását</string>
+    <string name="right_vertical_swipe_actions_title">A függőleges jobbra L formázás művelete</string>
+    <string name="right_vertical_swipe_app_action_title">Válassza ki a függőleges jobbra csúsztatás alkalmazását</string>
+    <string name="gesture_nav_tweaks_footer_info">Ahhoz, hogy válasszon egy alkalmazást a művelethez, nyomjon hosszan bármelyik alkalmazásra a választó menüben.\n\nHa a főképernyőn van, csúsztasson a képernyő alsó harmadában a művelethez.</string>
+    <string name="back_swipe_extended_title">Bővített csúsztatási művelet</string>
+    <string name="back_swipe_extended_summary">Műveletkapcsolás szélesebb csúsztatáskor (több mint a kijelző felén), vagy L alakú csúsztatáskor (vertikálisan elég hosszan)</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Helyes PIN beírásakor automatikusan feleldódik. Ez kevésbé biztonságos mint a megerősítéses belépés.</string>
+    <!-- Notification channels -->
+    <string name="channel_light_settings_name">Fénybeállítási előnézet</string>
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Fénybeállítások szerkesztése</string>
+    <string name="pulse_speed_title">A pulzálás hossza és gyorsasága</string>
+    <string name="default_time">Normál</string>
+    <string name="custom_time">Egyéni</string>
+    <string name="dialog_delete_title">Törlés</string>
+    <string name="dialog_delete_message">Törli a kiválasztott elemeket?</string>
+    <string name="brightness">Fényerőszint</string>
+    <string name="choose_app">Válasszon alkalmazást</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Mindig bekapcsolva</string>
+    <string name="pulse_length_very_short">Nagyon rövid</string>
+    <string name="pulse_length_short">Rövid</string>
+    <string name="pulse_length_normal">Normál</string>
+    <string name="pulse_length_long">Hosszú</string>
+    <string name="pulse_length_very_long">Nagyon hosszú</string>
+    <string name="pulse_speed_very_fast">Nagyon gyors</string>
+    <string name="pulse_speed_fast">Gyors</string>
+    <string name="pulse_speed_normal">Normál</string>
+    <string name="pulse_speed_slow">Lassú</string>
+    <string name="pulse_speed_very_slow">Nagyon lassú</string>
+    <!-- Common light settings strings -->
+    <string name="light_brightness_title">Fényerőszintek</string>
+    <string name="light_brightness_normal">Normál</string>
+    <string name="light_brightness_zen">Ne zavarjanak (DND)</string>
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Akkumulátor-jelzőfény</string>
+    <string name="battery_light_summary">Testreszabhatja az akkutöltési fény viselkedését</string>
+    <string name="battery_light_enable_title">Akku-fények bekapcsolása</string>
+    <string name="battery_low_pulse_title">Villogással jelzi az alacsony akkutöltöttséget</string>
+    <string name="battery_light_full_charge_disabled_title">Teljes feltöltődéskor kapcsoljon ki</string>
+    <string name="battery_light_list_title">Színek</string>
+    <string name="battery_light_low_color_title">Alacsony akkuszint</string>
+    <string name="battery_light_medium_color_title">Töltés</string>
+    <string name="battery_light_full_color_title">Töltöttség (90%)</string>
+    <string name="battery_light_really_full_color_title">Töltöttség (100%)</string>
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Értesítési fény</string>
+    <string name="notification_light_summary">Testreszabhatja az értesítési fény viselkedését</string>
+    <string name="notification_light_enable_title">Értesítés-fények bekapcsolása</string>
+    <string name="notification_light_general_title">Általános</string>
+    <string name="notification_light_advanced_title">Speciális</string>
+    <string name="notification_light_applist_title">Alkalmazások</string>
+    <string name="notification_light_phonelist_title">Telefon</string>
+    <string name="notification_light_use_custom">Egyéni értékek használata</string>
+    <string name="notification_light_default_value">Alapértelmezett</string>
+    <string name="notification_light_missed_call_title">Nem fogadott hívás</string>
+    <string name="notification_light_voicemail_title">Hangpostaüzenet</string>
+    <string name="notification_light_screen_on">Fények bekapcsolt képernyőnél</string>
+    <string name="notification_light_zen_mode">Fények a Ne zavarjanak (DND) módban</string>
+    <string name="keywords_lights_brightness_level">halványítás ledek fényerő</string>
+    <string name="notification_light_automagic">Automatikus színválasztás</string>
+    <string name="notification_light_automagic_summary">A színek automatikusan kerülnek kiválasztásra</string>
+    <!-- Lights settings, LED notification -->
+    <string name="led_notification_title">A LED-fény beállításai</string>
+    <string name="led_notification_text">LED-fény engedélyezve a beállítások által</string>
+    <string name="notification_light_add_apps_empty_summary">Alkalmazásonkénti vezérléshez aktiválja ezt: \"%1$s\", majd nyomja meg a \'Hozzáadás\'-t</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technológia</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Állapot</string>
+    <string name="battery_health_good">Jó</string>
+    <string name="battery_health_overheat">Túlmelegedett</string>
+    <string name="battery_health_dead">Tönkrement</string>
+    <string name="battery_health_over_voltage">Túlfeszültség</string>
+    <string name="battery_health_unspecified_failure">Meghatározatlan hiba</string>
+    <string name="battery_health_cold">Hideg</string>
+    <string name="battery_health_unknown">Ismeretlen</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Hőmérséklet</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Feszültség</string>
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Elvárt kapacitás</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum kapacitás</string>
 </resources>
