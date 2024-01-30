@@ -72,9 +72,6 @@
     <string name="hide_developer_status_summary">A fejlesztői állapot elrejtése az alkalmazások elől</string>
     <string name="search">Keresés</string>
     <string name="search_apps">Alkalmazások keresése</string>
-    <!-- Captive portal -->
-    <string name="captive_portal_title">Kapcsolódási teszt</string>
-    <string name="captive_portal_summary">Internet-csatlakozási képesség behatárolása a Google-val való kapcsolódás alatt. Nyilvános, de rögzített portálok észlelésére is használható.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Kevesebb, mint egy perc</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -413,4 +410,29 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rootolt hibakeresés</string>
     <string name="adb_enable_summary_root">Rootolva engedélyezi az Android hibakeresését</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
+    <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
+    <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <!-- Display settings screen, increased touch polling rate settings title -->
+    <string name="touch_polling_title">Magas értékű képernyő-lekérdezés</string>
+    <!-- Display settings screen, increased touch polling rate settings summary -->
+    <string name="touch_polling_summary">Képernyő-lekérdezés (polling-rate) növelése a kisebb késleltetés érdekében</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Hangerőléptetések</string>
+    <string name="volume_steps_summary">Az egyes adatfolyamok részletességének szabályozása</string>
+    <string name="max_music_volume_title">Média</string>
+    <string name="max_call_volume_title">Hívások</string>
+    <string name="max_alarm_volume_title">Ébresztések</string>
+    <string name="steps_unit">lépés</string>
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Egyéb rezgő visszajelzők</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">A hívás közbeni rezgés beállításai</string>
+    <string name="incall_vibrate_connect_title">Rezgés a kapcsolat létrejöttekor</string>
+    <string name="incall_vibrate_call_wait_title">Rezgés hívásvárakoztatásnál</string>
+    <string name="incall_vibrate_disconnect_title">Rezgés a kapcsolat bontásakor</string>
+    <!-- Scroll fling haptic feedback -->
+    <string name="scroll_fling_haptic_feedback_title">Rezgés görgetésekkor</string>
+    <string name="scroll_fling_haptic_feedback_summary">Rezgés az élek érintésekor, amikor görgető kézmozdulatot végez</string>
 </resources>
