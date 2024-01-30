@@ -72,9 +72,6 @@
     <string name="hide_developer_status_summary">Ocultar as Opções de Desenvolvedor para os aplicativos</string>
     <string name="search">Pesquisar</string>
     <string name="search_apps">Pesquisar aplicativos</string>
-    <!-- Captive portal -->
-    <string name="captive_portal_title">Verificar conectividade</string>
-    <string name="captive_portal_summary">Determine se o dispositivo pode conectar-se à internet, entrando em contato com o Google. Também usado para detectar portais cativos.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -83,7 +80,7 @@
     <string name="high_power_apps_summary">Otimização de bateria por app</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Otimiza sua tela com base na hora do dia e condições do ambiente para melhorar a legibilidade e reduzir o cansaço visual</string>
-    <string name="live_display_mode">Modo da tela</string>
+    <string name="live_display_mode">Modo de exibição</string>
     <string name="live_display_color_temperature_title">Temperatura da cor</string>
     <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
@@ -413,4 +410,29 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuração como superusuário</string>
     <string name="adb_enable_summary_root">Permite executar a depuração do Android como superusuário</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Permitir desbloqueio facial na tela de bloqueio</string>
+    <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
+    <string name="face_unlock_method_swipe">Quando deslizar na tela de bloqueio</string>
+    <!-- Display settings screen, increased touch polling rate settings title -->
+    <string name="touch_polling_title">Aumentar taxa de resposta ao toque</string>
+    <!-- Display settings screen, increased touch polling rate settings summary -->
+    <string name="touch_polling_summary">Melhora a sensibilidade da tela reduzindo o tempo de resposta ao toque</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Níveis de volume</string>
+    <string name="volume_steps_summary">Controle os níveis de volume para cada setor</string>
+    <string name="max_music_volume_title">Mídia</string>
+    <string name="max_call_volume_title">Chamadas</string>
+    <string name="max_alarm_volume_title">Alarmes</string>
+    <string name="steps_unit">passos</string>
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Mais opções de vibração</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opções de vibração na chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
+    <!-- Scroll fling haptic feedback -->
+    <string name="scroll_fling_haptic_feedback_title">Vibrar ao rolar listas</string>
+    <string name="scroll_fling_haptic_feedback_summary">Vibrar ao alcançar a borda com o gesto de rolar</string>
 </resources>
