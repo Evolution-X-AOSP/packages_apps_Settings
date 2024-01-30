@@ -72,9 +72,6 @@
     <string name="hide_developer_status_summary">Masquer le statut de développeur aux applications</string>
     <string name="search">Rechercher</string>
     <string name="search_apps">Rechercher des applications</string>
-    <!-- Captive portal -->
-    <string name="captive_portal_title">Vérification de la connectivité</string>
-    <string name="captive_portal_summary">Détermine si l\'appareil peut se connecter à Internet, en contactant Google. Également utilisé pour détecter les portails captifs.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Moins d\'une minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -413,4 +410,29 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Débogage en mode root</string>
     <string name="adb_enable_summary_root">Autoriser le débogage Android en tant que root</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
+    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
+    <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
+    <!-- Display settings screen, increased touch polling rate settings title -->
+    <string name="touch_polling_title">Taux d’échantillonnage tactile élevé</string>
+    <!-- Display settings screen, increased touch polling rate settings summary -->
+    <string name="touch_polling_summary">Augmente le taux d’échantillonnage tactile pour diminuer la latence</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Niveaux de volume</string>
+    <string name="volume_steps_summary">Contrôler la granularité de chaque flux</string>
+    <string name="max_music_volume_title">Média</string>
+    <string name="max_call_volume_title">Appels</string>
+    <string name="max_alarm_volume_title">Alarmes</string>
+    <string name="steps_unit">étapes</string>
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Haptiques diverses</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Options des vibrations pour l\'appel entrant</string>
+    <string name="incall_vibrate_connect_title">Vibrer lors de la connexion</string>
+    <string name="incall_vibrate_call_wait_title">Vibrer pendant un appel en attente</string>
+    <string name="incall_vibrate_disconnect_title">Vibrer lors de la déconnexion</string>
+    <!-- Scroll fling haptic feedback -->
+    <string name="scroll_fling_haptic_feedback_title">Vibrer pendant le défilement</string>
+    <string name="scroll_fling_haptic_feedback_summary">Vibrer en atteignant les bords lors du défilement avec un geste de lancement</string>
 </resources>
