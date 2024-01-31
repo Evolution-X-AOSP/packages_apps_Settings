@@ -72,9 +72,6 @@
     <string name="hide_developer_status_summary">Geliştirici durumunu uygulamalardan gizle</string>
     <string name="search">Ara</string>
     <string name="search_apps">Uygulamaları ara</string>
-    <!-- Captive portal -->
-    <string name="captive_portal_title">Bağlantı kontrolü</string>
-    <string name="captive_portal_summary">Google ile iletişime geçerek cihazın internete bağlanıp bağlanamayacağını belirleyin. Ayrıca sabit portalları tespit etmek için kullanılır.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">1 dakikadan az</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -413,4 +410,29 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rootlu hata ayıklama</string>
     <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıldığında</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <!-- Display settings screen, increased touch polling rate settings title -->
+    <string name="touch_polling_title">Yüksek dokunmatik yoklama oranı</string>
+    <!-- Display settings screen, increased touch polling rate settings summary -->
+    <string name="touch_polling_summary">Gecikmeyi azaltmak için dokunmatik ekran örnekleme oranını artırın</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Ses Seviyeleri</string>
+    <string name="volume_steps_summary">Her bir akışın ayrıntı düzeyini kontrol edin</string>
+    <string name="max_music_volume_title">Medya</string>
+    <string name="max_call_volume_title">Aramalar</string>
+    <string name="max_alarm_volume_title">Alarmlar</string>
+    <string name="steps_unit">adımlar</string>
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Çeşitli Haptikler</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Görüşme sırasındaki titreşim seçenekleri</string>
+    <string name="incall_vibrate_connect_title">Arama bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Arama bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Arama bağlantısı kesildiğinde titret</string>
+    <!-- Scroll fling haptic feedback -->
+    <string name="scroll_fling_haptic_feedback_title">Kaydırma hareketlerinde titreşim</string>
+    <string name="scroll_fling_haptic_feedback_summary">Fling hareketi ile kaydırma yaparken kenarlara ulaşıldığında titreşim</string>
 </resources>
