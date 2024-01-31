@@ -435,4 +435,46 @@
     <!-- Scroll fling haptic feedback -->
     <string name="scroll_fling_haptic_feedback_title">Vibrer pendant le défilement</string>
     <string name="scroll_fling_haptic_feedback_summary">Vibrer en atteignant les bords lors du défilement avec un geste de lancement</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Aucune action</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Applications récentes</string>
+    <string name="action_voice_search">Recherche vocale</string>
+    <string name="action_launch_camera">Appareil photo</string>
+    <string name="action_last_app">Dernière application</string>
+    <string name="action_splitscreen">Diviser l\'écran</string>
+    <string name="action_flashlight">Lampe-torche</string>
+    <string name="action_clear_notifications">Effacer les notifications</string>
+    <string name="action_volume_panel">Panneau de volume</string>
+    <string name="action_screen_off">Écran éteint</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_power_menu">Menu marche/arrêt</string>
+    <string name="action_screenshot">Capture d\'écran</string>
+    <string name="action_qs_panel">Panneau des réglages rapide</string>
+    <string name="action_app_action">Application</string>
+    <string name="action_ringer_modes">Modes de sonnerie</string>
+    <string name="kill_app">Tuer l\'application en premier plan</string>
+    <string name="recent_app_toggle">Changer d\'application récente</string>
+    <string name="skip_song">Passer la chanson</string>
+    <string name="prev_song">Chanson précédente</string>
+    <string name="show_powermenu">Afficher le menu marche/arrêt</string>
+    <string name="partial_screenshot">Capture d\'écran partielle</string>
+    <string name="hush_mute">Notifications silencieuses</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Options de gestes avancées</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personnaliser les gestes et définir des actions personnalisées</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avancé</string>
+    <string name="swipe_app_select_summary">Sélectionner l\'application à lancer en secouant l\'appareil</string>
+    <string name="long_back_swipe_timeout_title">Délai d\'attente de l\'action de balayage long</string>
+    <string name="left_swipe_actions_title">Action de balayage long à gauche</string>
+    <string name="left_swipe_app_action_title">Sélectionner une application pour le balayage long vers la gauche</string>
+    <string name="right_swipe_actions_title">Action de balayage long à droite</string>
+    <string name="right_swipe_app_action_title">Sélectionner une application pour le balayage long vers la droite</string>
+    <string name="left_vertical_swipe_actions_title">Action du balayage vertical gauche</string>
+    <string name="left_vertical_swipe_app_action_title">Sélectionner une application pour le balayage vertical gauche</string>
+    <string name="right_vertical_swipe_actions_title">Action du balayage vertical droit</string>
+    <string name="right_vertical_swipe_app_action_title">Sélectionner une application pour le balayage vertical droit</string>
+    <string name="gesture_nav_tweaks_footer_info">Pour choisir une activité d\'application spécifique pour l\'action, appuyez longuement sur n\'importe quelle application dans le sélecteur d\'applications. \n\nSi le lanceur s\'affiche, faites glisser votre doigt tout en bas de l\'écran pour déclencher l\'action.</string>
+    <string name="back_swipe_extended_title">Action de balayage étendu</string>
+    <string name="back_swipe_extended_summary">Déclencher l\'action sur un balayage plus large (plus de la moitié de la taille de l\'écran), ou un balayage en L (suffisamment long verticalement)</string>
 </resources>
