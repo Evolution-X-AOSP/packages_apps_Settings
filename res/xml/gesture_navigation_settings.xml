@@ -23,15 +23,6 @@
     android:title="@string/edge_to_edge_navigation_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
-    <com.evolution.settings.preference.SystemSettingListPreference
-        android:key="key_edge_long_swipe_action"
-        android:dialogTitle="@string/navigation_bar_edge_long_swipe_title"
-        android:title="@string/navigation_bar_edge_long_swipe_title"
-        android:summary="%s"
-        android:entries="@array/hardware_keys_action_entries"
-        android:entryValues="@array/hardware_keys_action_values"
-        android:defaultValue="0" />
-
     <com.evolution.settings.preference.SystemSettingSwitchPreference
         android:key="navigation_bar_hint"
         android:title="@string/show_navbar_hint_title"
