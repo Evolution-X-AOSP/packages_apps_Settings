@@ -231,7 +231,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">Cho phép các máy khách kết nối với điểm truy cập sử dụng VPN của thiết bị để kết nối đến máy chủ</string>
     <!-- Navigation bar hint -->
     <string name="show_navbar_hint_title">Gợi ý cử chỉ</string>
-    <string name="show_navbar_hint_summary">Hiển thị thanh gợi ý điều hướng ở dưới cùng màn hình</string>
+    <string name="show_navbar_hint_summary">Hiển thị thanh gợi ý điều hướng ở dưới cuối màn hình</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Chiều dài thanh cử chỉ</string>
     <string name="short_label">Ngắn</string>
@@ -252,7 +252,7 @@
     <string name="thin_label">Mỏng</string>
     <string name="thick_label">Dày</string>
     <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Ẩn không gian nút IME</string>
+    <string name="navigation_bar_ime_space_title">Khoảng trống dưới bàn phím</string>
     <string name="ime_narrow">Thu hẹp</string>
     <string name="ime_default">Mặc định</string>
     <string name="ime_hidden">Ẩn</string>
@@ -313,8 +313,8 @@
     <string name="sleep_mode_ringer_vibrate_title">Rung</string>
     <string name="sleep_mode_ringer_dnd_title">Không làm phiền</string>
     <string name="sleep_mode_ringer_silent_title">Im lặng</string>
-    <string name="sleep_mode_schedule_sunset">Trời tối</string>
-    <string name="sleep_mode_schedule_sunrise">Trời sáng</string>
+    <string name="sleep_mode_schedule_sunset">Hoàng hôn</string>
+    <string name="sleep_mode_schedule_sunrise">Bình minh</string>
     <string name="sleep_mode_schedule_mixed_sunset">Bật từ hoàng hôn đến tùy chọn thời gian</string>
     <string name="sleep_mode_schedule_mixed_sunrise">Bật cho tùy chọn thời gian đến lúc bình minh</string>
     <string name="sleep_mode_toggles_title">Chuyển đổi</string>
@@ -400,10 +400,10 @@
     <string name="extra_dim_schedule_title">Lên lịch</string>
     <string name="disabled">Tắt</string>
     <string name="always_on_display_schedule_title">Luôn hiển thị theo lịch biểu</string>
-    <string name="always_on_display_schedule_sunset">Trời tối</string>
-    <string name="always_on_display_schedule_sunrise">Trời sáng</string>
-    <string name="always_on_display_schedule_mixed_sunset">Bật từ hoàng hôn đến bình minh</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Bật từ hoàng hôn đến bình minh</string>
+    <string name="always_on_display_schedule_sunset">Hoàng hôn</string>
+    <string name="always_on_display_schedule_sunrise">Bình minh</string>
+    <string name="always_on_display_schedule_mixed_sunset">Bật từ hoàng hôn cho đến một thời gian nhất định</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Bật từ một thời gian nhất định cho đến bình minh</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Hiển thị màn hình xem nhanh</string>
     <string name="doze_gesture_ambient_summary">Hiển thị màn hình xem nhanh thay vì đánh thức hoàn toàn màn hình</string>
@@ -435,4 +435,43 @@
     <!-- Scroll fling haptic feedback -->
     <string name="scroll_fling_haptic_feedback_title">Rung khi vuốt</string>
     <string name="scroll_fling_haptic_feedback_summary">Phản hồi rung khi vuốt đến cuối nội dung</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Không hành động</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Gần đây</string>
+    <string name="action_voice_search">Tìm kiếm bằng giọng nói</string>
+    <string name="action_launch_camera">Máy ảnh</string>
+    <string name="action_last_app">Ứng dụng cuối cùng</string>
+    <string name="action_splitscreen">Chia màn hình</string>
+    <string name="action_flashlight">Đèn pin</string>
+    <string name="action_clear_notifications">Xóa thông báo</string>
+    <string name="action_volume_panel">Bảng điều chỉnh âm lượng</string>
+    <string name="action_screen_off">Tắt màn hình</string>
+    <string name="action_notifications">Thông báo</string>
+    <string name="action_power_menu">Menu nguồn</string>
+    <string name="action_screenshot">Chụp ảnh màn hình</string>
+    <string name="action_qs_panel">Bảng cài đặt nhanh</string>
+    <string name="action_app_action">Ứng dụng</string>
+    <string name="action_ringer_modes">Chế độ chuông</string>
+    <string name="kill_app">Đóng ứng dụng dưới nền</string>
+    <string name="recent_app_toggle">Chuyển ứng dụng gần đây</string>
+    <string name="show_powermenu">Hiển thị Menu nguồn</string>
+    <string name="partial_screenshot">Chụp một phần màn hình</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Tùy chọn cử chỉ nâng cao</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Tùy chỉnh cử chỉ và thiết lập hành động tùy chỉnh</string>
+    <string name="navbar_gesture_tweaks_cat_title">Nâng cao</string>
+    <string name="swipe_app_select_summary">Chọn một ứng dụng để khởi động với hành động bóp</string>
+    <string name="long_back_swipe_timeout_title">Thời gian chờ thao tác vuốt dài</string>
+    <string name="left_swipe_actions_title">Thao tác vuốt dài bên trái</string>
+    <string name="left_swipe_app_action_title">Chọn ứng dụng vuốt dài bên trái</string>
+    <string name="right_swipe_actions_title">Thao tác vuốt dài bên phải</string>
+    <string name="right_swipe_app_action_title">Chọn ứng dụng vuốt dài bên phải</string>
+    <string name="left_vertical_swipe_actions_title">Vuốt dọc chữ L bên trái</string>
+    <string name="left_vertical_swipe_app_action_title">Chọn ứng dụng vuốt dọc trái</string>
+    <string name="right_vertical_swipe_actions_title">Vuốt dọc chữ L bên phải</string>
+    <string name="right_vertical_swipe_app_action_title">Chọn ứng dụng vuốt dọc phải</string>
+    <string name="gesture_nav_tweaks_footer_info">Để chọn một hoạt động cụ thể của ứng dụng cho một hành động, nhấn giữ một ứng dụng bất kì trong bộ chọn ứng dụng.\n\nNếu trình khởi chạy đang được hiển thị, hãy vuốt lên từ khu vực phía dưới màn hình để thực hiện hành động.</string>
+    <string name="back_swipe_extended_title">Hành động vuốt mở rộng</string>
+    <string name="back_swipe_extended_summary">Kích hoạt hành động khi vuốt rộng hơn (hơn một nửa kích thước màn hình) hoặc vuốt chữ L (đủ dài theo chiều dọc)</string>
 </resources>
