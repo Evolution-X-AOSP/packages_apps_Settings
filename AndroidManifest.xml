@@ -5089,7 +5089,7 @@
         </activity>
 
         <!-- Changelog Activity -->
-        <activity android:name="com.evolution.settings.about.ChangelogActivity"
+        <activity android:name="com.evolution.settings.fragments.about.ChangelogActivity"
             android:label="@string/changelog_evolution_title"
             android:parentActivityName="com.android.settings"
             android:theme="@style/Theme.SubSettingsBase"
@@ -5133,7 +5133,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.evolution.settings.fragments.SmartPixels" />
+                android:value="com.android.settings.display.SmartPixels" />
         </activity>
 
         <!-- Sleep Mode -->
