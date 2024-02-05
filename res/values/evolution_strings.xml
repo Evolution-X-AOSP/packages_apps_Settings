@@ -459,9 +459,6 @@
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
 
-    <!-- Battery light -->
-    <string name="battery_light_title">Turn on the light when charging</string>
-
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation settings</string>
     <string name="display_rotation_enabled">Auto-rotation is enabled</string>
