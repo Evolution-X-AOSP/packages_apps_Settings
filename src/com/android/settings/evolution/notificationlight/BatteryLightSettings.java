@@ -36,6 +36,8 @@ import com.android.internal.evolution.notification.LightsCapabilities;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
 import com.evolution.settings.preference.CustomDialogPreference;
 import com.evolution.settings.preference.SystemSettingMainSwitchPreference;
@@ -44,6 +46,7 @@ import com.evolution.settings.preference.SystemSettingSwitchPreference;
 import java.util.List;
 import java.util.UUID;
 
+@SearchIndexable
 public class BatteryLightSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "BatteryLightSettings";
@@ -56,6 +59,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     private static final String LOW_COLOR_PREF = "low_color";
     private static final String MEDIUM_COLOR_PREF = "medium_color";
     private static final String FULL_COLOR_PREF = "full_color";
+    private static final String REALLY_FULL_COLOR_PREF = "really_full_color";
     private static final String LIGHT_ENABLED_PREF = "battery_light_enabled";
     private static final String LIGHT_FULL_CHARGE_DISABLED_PREF =
             "battery_light_full_charge_disabled";
@@ -66,6 +70,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     private ApplicationLightPreference mLowColorPref;
     private ApplicationLightPreference mMediumColorPref;
     private ApplicationLightPreference mFullColorPref;
+    private ApplicationLightPreference mReallyFullColorPref;
     private SystemSettingMainSwitchPreference mLightEnabledPref;
     private SystemSettingSwitchPreference mLightFullChargeDisabledPref;
     private SystemSettingSwitchPreference mPulseEnabledPref;
@@ -74,6 +79,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     private int mDefaultLowColor;
     private int mDefaultMediumColor;
     private int mDefaultFullColor;
+    private int mDefaultReallyFullColor;
     private boolean mMultiColorLed;
 
     private static final int MENU_RESET = Menu.FIRST;
@@ -115,6 +121,8 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
                 com.android.internal.R.integer.config_notificationsBatteryMediumARGB);
         mDefaultFullColor = res.getInteger(
                 com.android.internal.R.integer.config_notificationsBatteryFullARGB);
+        mDefaultReallyFullColor = res.getInteger(
+                com.android.internal.R.integer.config_notificationsBatteryReallyFullARGB);
 
         int batteryBrightness = mBatteryBrightnessPref.getBrightnessSetting();
 
@@ -142,11 +150,17 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             mFullColorPref.setDefaultValues(mDefaultFullColor, 0, 0);
             mFullColorPref.setBrightness(batteryBrightness);
 
+            mReallyFullColorPref = prefSet.findPreference(REALLY_FULL_COLOR_PREF);
+            mReallyFullColorPref.setOnPreferenceChangeListener(this);
+            mReallyFullColorPref.setDefaultValues(mDefaultReallyFullColor, 0, 0);
+            mReallyFullColorPref.setBrightness(batteryBrightness);
+
             final BrightnessPreference.OnBrightnessChangedListener brightnessListener =
                     brightness -> {
                 mLowColorPref.setBrightness(brightness);
                 mMediumColorPref.setBrightness(brightness);
                 mFullColorPref.setBrightness(brightness);
+                mReallyFullColorPref.setBrightness(brightness);
             };
             mBatteryBrightnessPref.setOnBrightnessChangedListener(brightnessListener);
         } else {
@@ -188,6 +202,13 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             mFullColorPref.setAllValues(fullColor, 0, 0, false);
             updateBrightnessPrefColor(fullColor);
         }
+
+        if (mReallyFullColorPref != null) {
+            int reallyfullColor = Settings.System.getIntForUser(resolver,
+                    Settings.System.BATTERY_LIGHT_REALLY_FULL_COLOR, mDefaultReallyFullColor, UserHandle.USER_CURRENT);
+            mReallyFullColorPref.setAllValues(reallyfullColor, 0, 0, false);
+            updateBrightnessPrefColor(reallyfullColor);
+        }
     }
 
     private void updateBrightnessPrefColor(int color) {
@@ -217,6 +238,10 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         } else if (key.equals(FULL_COLOR_PREF)) {
             Settings.System.putInt(resolver,
                     Settings.System.BATTERY_LIGHT_FULL_COLOR, color);
+            updateBrightnessPrefColor(color);
+        } else if (key.equals(REALLY_FULL_COLOR_PREF)) {
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.BATTERY_LIGHT_REALLY_FULL_COLOR, color, UserHandle.USER_CURRENT);
             updateBrightnessPrefColor(color);
         }
     }
@@ -252,6 +277,8 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
                 mDefaultMediumColor);
         Settings.System.putInt(resolver, Settings.System.BATTERY_LIGHT_FULL_COLOR,
                 mDefaultFullColor);
+        Settings.System.putIntForUser(resolver, Settings.System.BATTERY_LIGHT_REALLY_FULL_COLOR,
+                mDefaultReallyFullColor, UserHandle.USER_CURRENT);
         refreshColors();
     }
 
@@ -279,11 +306,6 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     }
 
     @Override
-    public int getMetricsCategory() {
-        return MetricsEvent.EVO_SETTINGS;
-    }
-
-    @Override
     public void onDisplayPreferenceDialog(Preference preference) {
         if (preference.getKey() == null) {
             // Auto-key preferences that don't have a key, so the dialog can find them.
@@ -301,4 +323,51 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         f.show(getFragmentManager(), "dialog_preference");
         onDialogShowing();
     }
+
+    @Override
+    public int getMetricsCategory() {
+        return MetricsEvent.EVO_SETTINGS;
+    }
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.battery_light_settings) {
+
+        @Override
+        public List<String> getNonIndexableKeys(Context context) {
+            final List<String> result = super.getNonIndexableKeys(context);
+
+            if (!LightsCapabilities.supports(context, LightsCapabilities.LIGHTS_BATTERY_LED)) {
+                result.add(KEY_BATTERY_LIGHTS);
+                result.add(LIGHT_ENABLED_PREF);
+                result.add(GENERAL_SECTION);
+                result.add(LIGHT_FULL_CHARGE_DISABLED_PREF);
+                result.add(COLORS_SECTION);
+                result.add(LOW_COLOR_PREF);
+                result.add(MEDIUM_COLOR_PREF);
+                result.add(FULL_COLOR_PREF);
+                result.add(REALLY_FULL_COLOR_PREF);
+            } else if (LightsCapabilities.supports(context,
+                    LightsCapabilities.LIGHTS_RGB_BATTERY_LED)) {
+                result.add(LIGHT_FULL_CHARGE_DISABLED_PREF);
+            } else {
+                result.add(COLORS_SECTION);
+                result.add(LOW_COLOR_PREF);
+                result.add(MEDIUM_COLOR_PREF);
+                result.add(FULL_COLOR_PREF);
+                result.add(REALLY_FULL_COLOR_PREF);
+            }
+            if (!LightsCapabilities.supports(context,
+                    LightsCapabilities.LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS)) {
+                result.add(BRIGHTNESS_SECTION);
+                result.add(BRIGHTNESS_PREFERENCE);
+                result.add(BRIGHTNESS_ZEN_PREFERENCE);
+            }
+            if (!LightsCapabilities.supports(context, LightsCapabilities.LIGHTS_PULSATING_LED) ||
+                    LightsCapabilities.supports(context,
+                            LightsCapabilities.LIGHTS_SEGMENTED_BATTERY_LED)) {
+                result.add(PULSE_ENABLED_PREF);
+            }
+            return result;
+        }
+    };
 }
