@@ -46,6 +46,8 @@ import com.evolution.settings.preference.PackageListAdapter;
 import com.evolution.settings.preference.PackageListAdapter.PackageItem;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -58,6 +60,7 @@ import com.evolution.settings.preference.SystemSettingSwitchPreference;
 import com.evolution.settings.preference.SystemSettingMainSwitchPreference;
 import com.android.internal.util.evolution.ColorUtils;
 
+@SearchIndexable
 public class NotificationLightSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, ApplicationLightPreference.ItemLongClickListener {
     private static final String TAG = "NotificationLightSettings";
@@ -553,14 +556,6 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         return dialog;
     }
 
-    @Override
-    public int getDialogMetricsCategory(int dialogId) {
-        if (dialogId == DIALOG_APPS) {
-            return MetricsEvent.EVO_SETTINGS;
-        }
-        return 0;
-    }
-
     /**
      * Application class
      */
@@ -615,11 +610,6 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     }
 
     @Override
-    public int getMetricsCategory() {
-        return MetricsEvent.EVO_SETTINGS;
-    }
-
-    @Override
     public void onDisplayPreferenceDialog(Preference preference) {
         if (preference.getKey() == null) {
             // Auto-key preferences that don't have a key, so the dialog can find them.
@@ -637,4 +627,57 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         f.show(getFragmentManager(), "dialog_preference");
         onDialogShowing();
     }
+
+    @Override
+    public int getDialogMetricsCategory(int dialogId) {
+        return MetricsEvent.EVO_SETTINGS;
+    }
+
+    @Override
+    public int getMetricsCategory() {
+        return MetricsEvent.EVO_SETTINGS;
+    }
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.notification_light_settings) {
+
+        @Override
+        public List<String> getNonIndexableKeys(Context context) {
+            final List<String> result = super.getNonIndexableKeys(context);
+
+            TelephonyManager tm = context.getSystemService(TelephonyManager.class);
+
+            if (!context.getResources().getBoolean(com.android.internal.R.bool
+                    .config_intrusiveNotificationLed)) {
+                result.add(KEY_NOTIFICATION_LIGHTS);
+                result.add(NOTIFICATION_LIGHT_PULSE);
+            }
+            if (!LightsCapabilities.supports(context, LightsCapabilities.LIGHTS_PULSATING_LED) &&
+                    !LightsCapabilities.supports(context,
+                            LightsCapabilities.LIGHTS_RGB_NOTIFICATION_LED)) {
+                result.add(GENERAL_SECTION);
+                result.add(NOTIFICATION_LIGHT_COLOR_AUTO);
+                result.add(DEFAULT_PREF);
+                result.add(ADVANCED_SECTION);
+                result.add(NOTIFICATION_LIGHT_SCREEN_ON);
+                result.add(NOTIFICATION_LIGHT_PULSE_CUSTOM_ENABLE);
+                result.add(PHONE_SECTION);
+                result.add(MISSED_CALL_PREF);
+                result.add(VOICEMAIL_PREF);
+                result.add(APPLICATION_SECTION);
+                result.add(ADD_APPS);
+            } else if (tm.getPhoneType() == TelephonyManager.PHONE_TYPE_NONE) {
+                result.add(PHONE_SECTION);
+                result.add(MISSED_CALL_PREF);
+                result.add(VOICEMAIL_PREF);
+            }
+            if (!LightsCapabilities.supports(context,
+                    LightsCapabilities.LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS)) {
+                result.add(BRIGHTNESS_SECTION);
+                result.add(NOTIFICATION_LIGHT_BRIGHTNESS_LEVEL);
+                result.add(NOTIFICATION_LIGHT_BRIGHTNESS_LEVEL_ZEN);
+            }
+            return result;
+        }
+    };
 }
