@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Chào mừng đến \"Eve of Evolution\"</string>
+    <string name="evolver_dashboard_summary">Tiến lên Android 14</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Không xác thực</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -366,8 +366,6 @@
     <string name="nfc_sounds_title">Âm thanh NFC</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Sử dụng nút xoay nổi</string>
-    <!-- Battery light -->
-    <string name="battery_light_title">Bật đèn báo khi sạc</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Cài đặt xoay</string>
     <string name="display_rotation_enabled">Tự động xoay được bật</string>
@@ -474,4 +472,65 @@
     <string name="gesture_nav_tweaks_footer_info">Để chọn một hoạt động cụ thể của ứng dụng cho một hành động, nhấn giữ một ứng dụng bất kì trong bộ chọn ứng dụng.\n\nNếu trình khởi chạy đang được hiển thị, hãy vuốt lên từ khu vực phía dưới màn hình để thực hiện hành động.</string>
     <string name="back_swipe_extended_title">Hành động vuốt mở rộng</string>
     <string name="back_swipe_extended_summary">Kích hoạt hành động khi vuốt rộng hơn (hơn một nửa kích thước màn hình) hoặc vuốt chữ L (đủ dài theo chiều dọc)</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Tự động mở khóa nếu bạn nhập mã PIN đúng. Việc này sẽ khiến bảo mật kém hơn là nhấn Enter để xác nhận.</string>
+    <!-- Notification channels -->
+    <string name="channel_light_settings_name">Xem trước cài đặt đèn sáng</string>
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Chỉnh sửa cài đặt đèn sáng</string>
+    <string name="pulse_speed_title">Thời gian và tốc độ nháy</string>
+    <string name="default_time">Bình thường</string>
+    <string name="custom_time">Tùy chọn</string>
+    <string name="dialog_delete_title">Xoá</string>
+    <string name="dialog_delete_message">Xoá các mục đã chọn?</string>
+    <string name="brightness">Độ sáng</string>
+    <string name="choose_app">Chọn ứng dụng</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Luôn bật</string>
+    <string name="pulse_length_very_short">Rất ngắn</string>
+    <string name="pulse_length_short">Ngắn</string>
+    <string name="pulse_length_normal">Bình thường</string>
+    <string name="pulse_length_long">Dài</string>
+    <string name="pulse_length_very_long">Rất dài</string>
+    <string name="pulse_speed_very_fast">Rất nhanh</string>
+    <string name="pulse_speed_fast">Nhanh</string>
+    <string name="pulse_speed_normal">Bình thường</string>
+    <string name="pulse_speed_slow">Chậm</string>
+    <string name="pulse_speed_very_slow">Rất chậm</string>
+    <!-- Common light settings strings -->
+    <string name="light_brightness_title">Các mức độ sáng</string>
+    <string name="light_brightness_normal">Bình thường</string>
+    <string name="light_brightness_zen">Không làm phiền</string>
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Đèn báo sạc pin</string>
+    <string name="battery_light_summary">Tùy chỉnh hành vi của đèn báo pin</string>
+    <string name="battery_light_enable_title">Bật đèn báo pin</string>
+    <string name="battery_low_pulse_title">Đèn nhấp nháy khi pin yếu</string>
+    <string name="battery_light_full_charge_disabled_title">Tắt khi đã sạc đầy</string>
+    <string name="battery_light_list_title">Màu sắc</string>
+    <string name="battery_light_low_color_title">Pin yếu</string>
+    <string name="battery_light_medium_color_title">Pin trung bình</string>
+    <string name="battery_light_full_color_title">Đã sạc (90%)</string>
+    <string name="battery_light_really_full_color_title">Đã sạc (100%)</string>
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Đèn thông báo</string>
+    <string name="notification_light_summary">Tùy chỉnh hành vi của đèn thông báo</string>
+    <string name="notification_light_enable_title">Bật đèn thông báo</string>
+    <string name="notification_light_general_title">Chung</string>
+    <string name="notification_light_advanced_title">Nâng cao</string>
+    <string name="notification_light_applist_title">Ứng dụng</string>
+    <string name="notification_light_phonelist_title">Điện thoại</string>
+    <string name="notification_light_use_custom">Sử dụng giá trị tùy chọn</string>
+    <string name="notification_light_default_value">Mặc định</string>
+    <string name="notification_light_missed_call_title">Cuộc gọi nhỡ</string>
+    <string name="notification_light_voicemail_title">Thư thoại</string>
+    <string name="notification_light_screen_on">Bật đèn thông báo khi màn hình bật</string>
+    <string name="notification_light_zen_mode">Đèn báo ở chế độ Không Làm Phiền</string>
+    <string name="keywords_lights_brightness_level">giảm độ sáng đèn</string>
+    <string name="notification_light_automagic">Chọn màu tự động</string>
+    <string name="notification_light_automagic_summary">Chọn màu một cách tự động</string>
+    <!-- Lights settings, LED notification -->
+    <string name="led_notification_title">Cài đặt đèn</string>
+    <string name="led_notification_text">Đèn LED được bật theo cài đặt</string>
+    <string name="notification_light_add_apps_empty_summary">Để thêm điều khiển cho từng ứng dụng, hãy kích hoạt \'%1$s\' và nhấn \'Thêm\'</string>
 </resources>
