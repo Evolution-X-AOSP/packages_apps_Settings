@@ -366,8 +366,6 @@
     <string name="nfc_sounds_title">Звуки NFC</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Использовать плавающую кнопку поворота</string>
-    <!-- Battery light -->
-    <string name="battery_light_title">Включить световой индикатор во время зарядки</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Настройки поворота</string>
     <string name="display_rotation_enabled">Автоповорот включен</string>
@@ -474,4 +472,65 @@
     <string name="gesture_nav_tweaks_footer_info">Для выбора конкретного активити приложения для действия, долго нажимайте на любое приложение в меню их выбора.\n\nЕсли лаунчер в данный момент показывается, выполните свайп от самой нижней части экрана, чтобы запустить действие.</string>
     <string name="back_swipe_extended_title">Расширенные действия свайпа</string>
     <string name="back_swipe_extended_summary">Запуск действия при широком свайпе (более чем на половину экрана), или при L-свайпе (существенно длиннее по вертикали)</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Разблокировать автоматически, если вы введете правильный PIN-код. Это немного менее безопасно, чем нажатие Enter, чтобы подтвердить.</string>
+    <!-- Notification channels -->
+    <string name="channel_light_settings_name">Перепросмотр настроек индикатора</string>
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Изменить настройки индикатора</string>
+    <string name="pulse_speed_title">Длина и скорость импульса</string>
+    <string name="default_time">Обычный</string>
+    <string name="custom_time">Пользовательский</string>
+    <string name="dialog_delete_title">Удалить</string>
+    <string name="dialog_delete_message">Удалить выбранный элемент?</string>
+    <string name="brightness">Уровень яркости</string>
+    <string name="choose_app">Выберите приложение</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Всегда вкл.</string>
+    <string name="pulse_length_very_short">Очень коротко</string>
+    <string name="pulse_length_short">Короткий</string>
+    <string name="pulse_length_normal">Обычный</string>
+    <string name="pulse_length_long">Длинный</string>
+    <string name="pulse_length_very_long">Очень длинный</string>
+    <string name="pulse_speed_very_fast">Очень быстрая</string>
+    <string name="pulse_speed_fast">Быстрая</string>
+    <string name="pulse_speed_normal">Обычный</string>
+    <string name="pulse_speed_slow">Медленный</string>
+    <string name="pulse_speed_very_slow">Очень медленный</string>
+    <!-- Common light settings strings -->
+    <string name="light_brightness_title">Уровень яркости</string>
+    <string name="light_brightness_normal">Обычный</string>
+    <string name="light_brightness_zen">Не беспокоить</string>
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Индикатор зарядки батареи</string>
+    <string name="battery_light_summary">Настроить поведение индикатора зарядки батареи</string>
+    <string name="battery_light_enable_title">Включить индикатор батареи</string>
+    <string name="battery_low_pulse_title">Мигать при низком уровне заряда батареи</string>
+    <string name="battery_light_full_charge_disabled_title">Выключать при полном заряде</string>
+    <string name="battery_light_list_title">Цвета</string>
+    <string name="battery_light_low_color_title">Низкий заряд батареи</string>
+    <string name="battery_light_medium_color_title">Зарядка</string>
+    <string name="battery_light_full_color_title">Заряжено (90%)</string>
+    <string name="battery_light_really_full_color_title">Заряжено (100%)</string>
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Индикатор уведомлений</string>
+    <string name="notification_light_summary">Настройка поведения индикатора уведомлений</string>
+    <string name="notification_light_enable_title">Включить индикатор уведомлений</string>
+    <string name="notification_light_general_title">Основные</string>
+    <string name="notification_light_advanced_title">Дополнительно</string>
+    <string name="notification_light_applist_title">Приложения</string>
+    <string name="notification_light_phonelist_title">Телефон</string>
+    <string name="notification_light_use_custom">Использовать свои значения</string>
+    <string name="notification_light_default_value">По умолчанию</string>
+    <string name="notification_light_missed_call_title">Пропущенный вызов</string>
+    <string name="notification_light_voicemail_title">Голосовая почта</string>
+    <string name="notification_light_screen_on">Индикация при вкл. экране</string>
+    <string name="notification_light_zen_mode">Индикатор в режиме «Не беспокоить»</string>
+    <string name="keywords_lights_brightness_level">яркость светодиодов</string>
+    <string name="notification_light_automagic">Подбирать цвета автоматически</string>
+    <string name="notification_light_automagic_summary">Автоматический выбор цветов</string>
+    <!-- Lights settings, LED notification -->
+    <string name="led_notification_title">Настройки индикации батареи</string>
+    <string name="led_notification_text">Светодиод включен в настройках</string>
+    <string name="notification_light_add_apps_empty_summary">Чтобы добавить управление приложениями, активируйте \'%1$s\' и нажмите \'Добавить\'</string>
 </resources>
