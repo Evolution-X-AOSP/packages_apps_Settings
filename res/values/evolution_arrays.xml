@@ -220,6 +220,7 @@
         <item>@string/recent_app_toggle</item>
         <item>@string/show_powermenu</item>
         <item>@string/partial_screenshot</item>
+        <item>@string/action_app_switch</item>
     </string-array>
 
     <string-array name="swipe_actions_values" translatable="false">
@@ -239,6 +240,7 @@
         <item>13</item>
         <item>14</item>
         <item>15</item>
+        <item>16</item>
     </string-array>
 
     <!-- Values for the notification light pulse spinners -->
