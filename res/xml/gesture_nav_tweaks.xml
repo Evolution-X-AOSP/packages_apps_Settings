@@ -25,13 +25,6 @@
         android:summary="@string/back_swipe_extended_summary"
         android:defaultValue="false" />
 
-    <com.evolution.settings.preference.SystemSettingListPreference
-        android:key="long_back_swipe_timeout"
-        android:title="@string/long_back_swipe_timeout_title"
-        android:entries="@array/long_back_swipe_timeout_entries"
-        android:entryValues="@array/long_back_swipe_timeout_values"
-        android:defaultValue="2000" />
-
     <ListPreference
         android:key="left_swipe_actions"
         android:title="@string/left_swipe_actions_title"
