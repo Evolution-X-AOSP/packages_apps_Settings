@@ -36,7 +36,6 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.SystemSettingListPreference;
 import com.evolution.settings.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
@@ -54,7 +53,6 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
     private ListPreference mRightVerticalSwipeActions;
     private Preference mLeftVerticalSwipeAppSelection;
     private Preference mRightVerticalSwipeAppSelection;
-    private SystemSettingListPreference mTimeout;
     private SystemSettingSwitchPreference mExtendedSwipe;
 
     @Override
@@ -64,14 +62,12 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
 
         final ContentResolver resolver = getActivity().getContentResolver();
 
-        mTimeout = (SystemSettingListPreference) findPreference("long_back_swipe_timeout");
         mExtendedSwipe = (SystemSettingSwitchPreference) findPreference("back_swipe_extended");
         boolean extendedSwipe = Settings.System.getIntForUser(resolver,
             Settings.System.BACK_SWIPE_EXTENDED, 0,
             UserHandle.USER_CURRENT) != 0;
         mExtendedSwipe.setChecked(extendedSwipe);
         mExtendedSwipe.setOnPreferenceChangeListener(this);
-        mTimeout.setEnabled(!mExtendedSwipe.isChecked());
 
         int leftSwipeActions = Settings.System.getIntForUser(resolver,
                 Settings.System.LEFT_LONG_BACK_SWIPE_ACTION, 0,
@@ -180,7 +176,6 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
         } else if (preference == mExtendedSwipe) {
             boolean enabled = ((Boolean) newValue).booleanValue();
             mExtendedSwipe.setChecked(enabled);
-            mTimeout.setEnabled(!enabled);
             mLeftVerticalSwipeActions.setEnabled(enabled);
             mRightVerticalSwipeActions.setEnabled(enabled);
             mLeftVerticalSwipeAppSelection.setVisible(enabled && mLeftVerticalSwipeActions.getValue().equals("4"));
