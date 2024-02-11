@@ -524,7 +524,6 @@
     <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
     <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
     <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
     <string name="left_swipe_actions_title">Long left swipe action</string>
     <string name="left_swipe_app_action_title">Select long left swipe app</string>
     <string name="right_swipe_actions_title">Long right swipe action</string>
