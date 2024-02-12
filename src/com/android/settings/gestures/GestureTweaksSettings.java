@@ -75,6 +75,7 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
         mLeftSwipeActions = (ListPreference) findPreference("left_swipe_actions");
         mLeftSwipeActions.setValue(Integer.toString(leftSwipeActions));
         mLeftSwipeActions.setSummary(mLeftSwipeActions.getEntry());
+        mLeftSwipeActions.setEnabled(extendedSwipe);
         mLeftSwipeActions.setOnPreferenceChangeListener(this);
 
         int rightSwipeActions = Settings.System.getIntForUser(resolver,
@@ -83,6 +84,7 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
         mRightSwipeActions = (ListPreference) findPreference("right_swipe_actions");
         mRightSwipeActions.setValue(Integer.toString(rightSwipeActions));
         mRightSwipeActions.setSummary(mRightSwipeActions.getEntry());
+        mRightSwipeActions.setEnabled(extendedSwipe);
         mRightSwipeActions.setOnPreferenceChangeListener(this);
 
         mLeftSwipeAppSelection = (Preference) findPreference("left_swipe_app_action");
@@ -135,7 +137,7 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
             int index = mLeftSwipeActions.findIndexOfValue((String) newValue);
             mLeftSwipeActions.setSummary(
                     mLeftSwipeActions.getEntries()[index]);
-            mLeftSwipeAppSelection.setVisible(leftSwipeActions == 4);
+            mLeftSwipeAppSelection.setVisible(mExtendedSwipe.isChecked() && leftSwipeActions == 4);
             actionPreferenceReload();
             customAppCheck();
             return true;
@@ -147,7 +149,7 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
             int index = mRightSwipeActions.findIndexOfValue((String) newValue);
             mRightSwipeActions.setSummary(
                     mRightSwipeActions.getEntries()[index]);
-            mRightSwipeAppSelection.setVisible(rightSwipeActions == 4);
+            mRightSwipeAppSelection.setVisible(mExtendedSwipe.isChecked() && rightSwipeActions == 4);
             actionPreferenceReload();
             customAppCheck();
             return true;
@@ -176,6 +178,8 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
         } else if (preference == mExtendedSwipe) {
             boolean enabled = ((Boolean) newValue).booleanValue();
             mExtendedSwipe.setChecked(enabled);
+            mLeftSwipeActions.setEnabled(enabled);
+            mRightSwipeActions.setEnabled(enabled);
             mLeftVerticalSwipeActions.setEnabled(enabled);
             mRightVerticalSwipeActions.setEnabled(enabled);
             mLeftVerticalSwipeAppSelection.setVisible(enabled && mLeftVerticalSwipeActions.getValue().equals("4"));
