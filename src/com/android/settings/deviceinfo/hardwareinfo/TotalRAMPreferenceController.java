@@ -17,25 +17,16 @@
 
 package com.android.settings.deviceinfo.hardwareinfo;
 
+import android.app.ActivityManager;
 import android.content.Context;
-import android.text.format.Formatter;
-
-import androidx.annotation.VisibleForTesting;
-import androidx.preference.Preference;
-import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
-import com.android.settings.applications.ProcStatsData;
-import com.android.settings.applications.ProcessStatsBase;
 import com.android.settings.core.BasePreferenceController;
-import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settingslib.utils.ThreadUtils;
+import com.android.settings.slices.Sliceable;
 
-public class TotalRAMPreferenceController extends BasePreferenceController implements
-        PreferenceControllerMixin {
+import java.text.DecimalFormat;
 
-    private ProcStatsData mProcStatsData;
-    private PreferenceScreen mPreferenceScreen;
+public class TotalRAMPreferenceController extends BasePreferenceController {
 
     public TotalRAMPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
@@ -48,35 +39,42 @@ public class TotalRAMPreferenceController extends BasePreferenceController imple
     }
 
     @Override
-    public void displayPreference(PreferenceScreen screen) {
-        super.displayPreference(screen);
-
-        mProcStatsData = getProcStatsData();
-        mPreferenceScreen = screen;
-        setDuration();
+    public boolean useDynamicSliceSummary() {
+        return true;
     }
 
     @Override
-    public void updateState(Preference preference) {
-        // This is posted on the background thread to speed up fragment launch time for dev options
-        // mProcStasData.refreshStats(true) takes ~20ms to run.
-        ThreadUtils.postOnBackgroundThread(() -> {
-            mProcStatsData.refreshStats(true);
-            final ProcStatsData.MemInfo memInfo = mProcStatsData.getMemInfo();
-            final String totalResult = Formatter.formatShortFileSize(mContext,
-                    (long) memInfo.realTotalRam);
-            ThreadUtils.postOnMainThread(
-                    () -> mPreferenceScreen.findPreference(mPreferenceKey).setSummary(totalResult));
-        });
+    public boolean isSliceable() {
+        return true;
     }
 
-    @VisibleForTesting
-    void setDuration() {
-        mProcStatsData.setDuration(ProcessStatsBase.sDurations[0] /* 3 hours */);
+    @Override
+    public CharSequence getSummary() {
+    ActivityManager actManager = (ActivityManager) mContext.getSystemService(Context.ACTIVITY_SERVICE);
+    ActivityManager.MemoryInfo memInfo = new ActivityManager.MemoryInfo();
+    actManager.getMemoryInfo(memInfo);
+
+    long totRam = memInfo.totalMem;
+    double gb = (double) totRam / 1073741824.0;
+
+    String aproxRam;
+    if (gb > 0 && gb <= 2) {
+        aproxRam = "2";
+    } else if (gb <= 3) {
+        aproxRam = "3";
+    } else if (gb <= 4) {
+        aproxRam = "4";
+    } else if (gb <= 6) {
+        aproxRam = "6";
+    } else if (gb <= 8) {
+        aproxRam = "8";
+    } else if (gb <= 12) {
+        aproxRam = "12";
+    } else {
+        aproxRam = "12+";
     }
 
-    @VisibleForTesting
-    ProcStatsData getProcStatsData() {
-        return new ProcStatsData(mContext, false);
-    }
+    String actualRam = aproxRam.concat(" GB");
+    return actualRam;
+   }
 }
