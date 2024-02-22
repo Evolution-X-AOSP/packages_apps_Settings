@@ -23,6 +23,9 @@
          but a dedicated one, i.e. not embedded in the power button. -->
     <bool name="config_is_side_fps" translatable="false">false</bool>
 
+    <!-- Whether device supports showing battery charge cycles -->
+    <bool name="config_showBatteryChargeCycles">true</bool>
+
     <!-- Whether to show custom screen resolution settings -->
     <bool name="config_show_custom_screen_resolution_switch">true</bool>
 
