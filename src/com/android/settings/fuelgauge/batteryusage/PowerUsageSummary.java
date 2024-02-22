@@ -50,7 +50,6 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import java.lang.Integer;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalTime;
 import java.util.ArrayList;
