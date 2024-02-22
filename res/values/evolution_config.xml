@@ -30,10 +30,7 @@
          but a dedicated one, i.e. not embedded in the power button. -->
     <bool name="config_is_side_fps" translatable="false">false</bool>
 
-    <!-- Battery health -->
-    <string name="config_batteryHealthNode"></string>
-    <string name="config_batteryRemainingCapacityNode"></string>
-    <string name="config_batteryDesignCapacityNode"></string>
+    <!-- Whether device supports showing battery charge cycles -->
     <bool name="config_showBatteryChargeCycles">true</bool>
 
     <!-- Whether to show custom screen resolution settings -->

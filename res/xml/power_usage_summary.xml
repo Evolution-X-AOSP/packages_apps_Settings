@@ -101,23 +101,11 @@
         android:summary="@string/battery_percentage_description"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
-    <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
-        android:key="battery_temp"
-        android:title="@string/battery_temp"
-        android:selectable="true" />
-
-    <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
-        android:key="battery_health"
-        android:title="@string/battery_health_title"
-        android:selectable="true" />
-
     <Preference
-        android:key="battery_info_cycle_count"
-        android:title="@string/battery_cycle_count"
-        android:summary="@string/summary_placeholder"
-        android:selectable="true"
-        settings:controller="com.android.settings.deviceinfo.batteryinfo.BatteryCycleCountPreferenceController"
-        settings:enableCopying="true" />
+        android:key="battery_info"
+        android:title="@string/battery_info"
+        android:fragment="com.android.settings.deviceinfo.batteryinfo.BatteryInfoFragment"
+        settings:keywords="@string/keywords_battery_info"/>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
