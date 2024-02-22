@@ -28,7 +28,6 @@ import android.os.Handler;
 import android.os.UserHandle;
 import android.provider.Settings.Global;
 import android.provider.Settings.Secure;
-import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.util.Log;
 
@@ -52,10 +51,6 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.lang.Integer;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalTime;
 import java.util.ArrayList;
@@ -76,8 +71,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @VisibleForTesting
     static final String KEY_BATTERY_USAGE = "battery_usage_summary";
 
-    private static final String KEY_BATTERY_TEMP = "battery_temp";
-    private static final String KEY_BATTERY_HEALTH = "battery_health";
     private static final String KEY_FAST_CHARGING = "fast_charging";
 
     @VisibleForTesting
@@ -86,10 +79,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     BatteryUtils mBatteryUtils;
     @VisibleForTesting
     BatteryInfo mBatteryInfo;
-    @VisibleForTesting
-    PowerGaugePreference mBatteryTempPref;
-    @VisibleForTesting
-    PowerGaugePreference mBatteryHealthPref;
 
     @VisibleForTesting
     BatteryHeaderPreferenceController mBatteryHeaderPreferenceController;
@@ -101,10 +90,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     Preference mHelpPreference;
     @VisibleForTesting
     Preference mBatteryUsagePreference;
-
-    private String mBatteryHealth;
-    private String mBatteryRemainingCapacity;
-    private String mBatteryDesignCapacity;
 
     Preference mSleepMode;
 
@@ -131,7 +116,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
                     mBatteryHeaderPreferenceController.updateHeaderByBatteryTips(
                             mBatteryTipPreferenceController.getCurrentBatteryTip(), batteryInfo);
                     mBatteryInfo = batteryInfo;
-                    mBatteryTempPref.setSummary(mBatteryInfo.batteryTemp + " \u2103");
                 }
 
                 @Override
@@ -187,14 +171,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
         initPreference();
 
         mBatteryUtils = BatteryUtils.getInstance(getContext());
-        mBatteryHealthPref = (PowerGaugePreference) findPreference(KEY_BATTERY_HEALTH);
-        mBatteryTempPref = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
-
-        mBatteryHealth = getResources().getString(R.string.config_batteryHealthNode);
-        mBatteryRemainingCapacity = getResources().getString(R.string.config_batteryRemainingCapacityNode);
-        mBatteryDesignCapacity = getResources().getString(R.string.config_batteryDesignCapacityNode);
-
-        mBatteryHealthPref.setVisible(getBatteryHealth() != null);
 
         if (Utils.isBatteryPresent(getContext())) {
             restartBatteryInfoLoader();
@@ -321,28 +297,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
         }
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
-        if (mBatteryHealthPref != null)
-            mBatteryHealthPref.setSummary(getBatteryHealth() + "%");
-    }
-
-    String getBatteryHealth() {
-        String health;
-        if (!TextUtils.isEmpty(mBatteryHealth)) {
-            health = readLine(mBatteryHealth);
-        } else if (!TextUtils.isEmpty(mBatteryRemainingCapacity) &&
-                !TextUtils.isEmpty(mBatteryDesignCapacity)) {
-            String batteryRemainingCapacityValue = readLine(mBatteryRemainingCapacity);
-            String batteryDesignCapacityValue = readLine(mBatteryDesignCapacity);
-            if(batteryRemainingCapacityValue != null && batteryDesignCapacityValue != null) {
-                health = String.valueOf(Integer.parseInt(batteryRemainingCapacityValue) * 100 /
-                    Integer.parseInt(batteryDesignCapacityValue));
-            } else {
-                health = null;
-            }
-        } else {
-            health = null;
-        }
-        return health;
     }
 
     @VisibleForTesting
@@ -403,23 +357,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @Override
     public void onBatteryTipHandled(BatteryTip batteryTip) {
         restartBatteryTipLoader();
-    }
-
-    private String readLine(String filename) {
-        BufferedReader reader;
-        String line = null;
-        try {
-            reader = new BufferedReader(new FileReader(filename), 256);
-            try {
-                line = reader.readLine();
-            } finally {
-                reader.close();
-            }
-        } catch (IOException e) {
-            Log.e(getLogTag(), "error while reading " + filename, e);
-            return null;
-        }
-        return line;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
