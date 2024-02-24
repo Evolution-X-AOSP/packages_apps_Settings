@@ -24,6 +24,13 @@
     <string name="build_status">Statut de la compilation</string>
     <string name="radio_info_title">Infos radio</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Taux de rafraîchissement</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (adaptatif)</string>
+    <string name="refresh_rate_vrr_title">Taux de rafraîchissement adaptatif</string>
+    <string name="refresh_rate_vrr_summary">Diminuer automatiquement la fréquence de rafraîchissement lorsque l\'affichage est inactif, pour économiser de l\'énergie. Peut causer un scintillement ou un décalage de couleur sur certains affichages</string>
+    <string name="refresh_rate_footer">Un taux de rafraîchissement plus élevé rend l\'affichage plus lisse, mais augmente la consommation d\'énergie</string>
+    <string name="keywords_refresh_rate">rafraîchissement, taux, atténuation, pic, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
     <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
     <string name="low_power_refresh_rate_title_custom">Taux de rafraîchissement avec économiseur d\'énergie</string>
@@ -140,10 +147,6 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Taux de rafraîchissement tactile élevé</string>
     <string name="high_touch_polling_rate_summary">Augmenter le taux de rafraîchissement tactile de l\'écran</string>
-    <!-- Battery Temperature -->
-    <string name="battery_temp">Température de la Batterie</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">État de la batterie</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Disposition aléatoire</string>
     <string name="unlock_scramble_pin_layout_summary">Disposer aléatoirement les chiffres de saisie du code PIN au déverrouillage</string>
@@ -455,12 +458,12 @@
     <string name="recent_app_toggle">Changer d\'application récente</string>
     <string name="show_powermenu">Afficher le menu marche/arrêt</string>
     <string name="partial_screenshot">Capture d\'écran partielle</string>
+    <string name="action_forward">Avancer</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Options de gestes avancées</string>
     <string name="navbar_gesture_tweaks_pref_summary">Personnaliser les gestes et définir des actions personnalisées</string>
     <string name="navbar_gesture_tweaks_cat_title">Avancé</string>
     <string name="swipe_app_select_summary">Sélectionner l\'application à lancer en secouant l\'appareil</string>
-    <string name="long_back_swipe_timeout_title">Délai d\'attente de l\'action de balayage long</string>
     <string name="left_swipe_actions_title">Action de balayage long à gauche</string>
     <string name="left_swipe_app_action_title">Sélectionner une application pour le balayage long vers la gauche</string>
     <string name="right_swipe_actions_title">Action de balayage long à droite</string>
@@ -533,4 +536,31 @@
     <string name="led_notification_title">Paramètres de la Led</string>
     <string name="led_notification_text">Lumière LED activé par les paramètres</string>
     <string name="notification_light_add_apps_empty_summary">Pour permettre le contrôle individuel des applications, activez \'%1$s\' et appuyez sur \'Ajouter\'</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technologie</string>
+    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Santé</string>
+    <string name="battery_health_good">Bonne</string>
+    <string name="battery_health_overheat">Surchauffe</string>
+    <string name="battery_health_dead">Morte</string>
+    <string name="battery_health_over_voltage">Surtension</string>
+    <string name="battery_health_unspecified_failure">Défaillance non précisée</string>
+    <string name="battery_health_cold">Froide</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Température</string>
+    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Tension</string>
+    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Capacité de conception</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Capacité maximale</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
 </resources>
