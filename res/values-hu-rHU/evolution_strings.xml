@@ -538,7 +538,6 @@
     <string name="notification_light_add_apps_empty_summary">Alkalmazásonkénti vezérléshez aktiválja ezt: \"%1$s\", majd nyomja meg a \'Hozzáadás\'-t</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technológia</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Állapot</string>
     <string name="battery_health_good">Jó</string>
@@ -550,18 +549,11 @@
     <string name="battery_health_unknown">Ismeretlen</string>
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Hőmérséklet</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Voltage -->
     <string name="battery_voltage">Feszültség</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
     <string name="battery_design_capacity">Elvárt kapacitás</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximum kapacitás</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
 </resources>
