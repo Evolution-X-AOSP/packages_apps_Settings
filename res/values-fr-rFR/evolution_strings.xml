@@ -35,13 +35,28 @@
     <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
     <string name="low_power_refresh_rate_title_custom">Taux de rafraîchissement avec économiseur d\'énergie</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Localisez le lecteur d\'empreintes digitales à l\'avant de votre téléphone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre téléphone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Localisez le lecteur d\'empreintes digitales sur le côté de votre téléphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localisez le capteur d\'empreintes digitales à l\'avant de votre tablette.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localisez le lecteur d\'empreintes digitales à l\'avant de votre appareil.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localisez le lecteur d\'empreintes digitales à l\'avant de votre téléphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localisez le capteur frontal d\'empreintes digitales à l\'arrière de votre tablette.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localisez le capteur d\'empreintes digitales à l\'arrière de votre appareil.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre téléphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localisez le capteur frontal d\'empreintes digitales sur le côté de votre tablette.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localisez le capteur d\'empreintes digitales sur le côté de votre appareil.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localisez le lecteur d\'empreintes digitales sur le côté de votre téléphone.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Touchez le capteur à l\'avant de votre téléphone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Touchez le capteur à l\'arrière de votre téléphone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Touchez le capteur sur le côté de votre téléphone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touchez le capteur à l\'avant de votre tablette.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touchez le capteur à l\'avant de votre appareil.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touchez le capteur à l\'avant de votre téléphone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touchez le capteur à l\'arrière de votre tablette.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touchez le capteur à l\'arrière de votre appareil.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touchez le capteur à l\'arrière de votre téléphone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touchez le capteur sur le côté de votre tablette.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touchez le capteur sur le côté de votre appareil.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touchez le capteur sur le côté de votre téléphone.</string>
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Toucher le capteur pour déverrouiller, même lorsque l\'écran est éteint. Le capteur de proximité empêche un déverrouillage accidentel.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Attention : Cette option peut ne pas fonctionner correctement ou entraîner une perte de données et n\'est donc pas recommandée !</string>
     <!-- FastCharge feature -->
