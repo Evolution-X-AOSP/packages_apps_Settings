@@ -538,7 +538,6 @@
     <string name="notification_light_add_apps_empty_summary">Чтобы добавить управление приложениями, активируйте \'%1$s\' и нажмите \'Добавить\'</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Технология</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Здоровье</string>
     <string name="battery_health_good">Хорошо</string>
@@ -549,18 +548,11 @@
     <string name="battery_health_cold">Охлаждён</string>
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Температура</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Voltage -->
     <string name="battery_voltage">Напряжение</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
     <string name="battery_design_capacity">Расчетная ёмкость</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Текущая ёмкость</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
 </resources>
