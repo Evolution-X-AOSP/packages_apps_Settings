@@ -538,7 +538,6 @@
     <string name="notification_light_add_apps_empty_summary">Pour permettre le contrôle individuel des applications, activez \'%1$s\' et appuyez sur \'Ajouter\'</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technologie</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Santé</string>
     <string name="battery_health_good">Bonne</string>
@@ -549,18 +548,11 @@
     <string name="battery_health_cold">Froide</string>
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Température</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Voltage -->
     <string name="battery_voltage">Tension</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
     <string name="battery_design_capacity">Capacité de conception</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Capacité maximale</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
 </resources>
