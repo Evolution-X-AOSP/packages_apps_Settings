@@ -24,17 +24,39 @@
     <string name="build_status">Gyártási állapot</string>
     <string name="radio_info_title">Rádióinformációk</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Frissítési gyakoriság</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Alkalmazkodó)</string>
+    <string name="refresh_rate_vrr_title">Alkalmazkodó frissítési gyakoriság</string>
+    <string name="refresh_rate_vrr_summary">Az energiatakarékosság érdekében automatikusan csökkenti a frissítési gyakoriságot, amikor a kijelző tétlen. Egyes kijelzőkön villogást vagy színeltérést okozhat</string>
+    <string name="refresh_rate_footer">A nagyobb frissítési gyakoriság simábbá teszi a kijelző képét, de növeli az energiafogyasztást</string>
+    <string name="keywords_refresh_rate">frissítés, gyakoriság, sima, csúcs, 60Hz, 90Hz, 120Hz, 144Hz, 165Hz</string>
     <string name="min_refresh_rate_title">Képernyőfrissítési minimum</string>
     <string name="max_refresh_rate_title">Képernyőfrissítési maximum</string>
     <string name="low_power_refresh_rate_title_custom">Képernyőfrissítés gyenge akkuhoz</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Készüléke előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Készüléke hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Készüléke oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Táblagépe előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Készüléke előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Táblagépe hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Készüléke hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Táblagépe oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Készüléke oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonja oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Érintse meg a szenzort készüléke előlapján.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Érintse meg a szenzort készüléke hátlapján.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Érintse meg a szenzort készüléke oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Érintse meg a szenzort táblagépe előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Érintse meg a szenzort készüléke előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Érintse meg a szenzort telefonja előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Érintse meg a szenzort táblagépe hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Érintse meg a szenzort készüléke hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Érintse meg a szenzort telefonja hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Érintse meg a szenzort táblagépe oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Érintse meg a szenzort készüléke oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Érintse meg a szenzort telefonja oldalán.</string>
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Feloldáshoz érintse meg az érzékelőt, kikapcsolt képernyőnél is. A közelségérzékelő megakadályozza a véletlen feloldást.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Figyelmeztetés: Előfordulhat, hogy ez a lehetőség nem működik megfelelően, vagy adatvesztéshez vezethet, ezért nem ajánlott!</string>
     <!-- FastCharge feature -->
@@ -140,10 +162,6 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Magas értékű képernyő-lekérdezés</string>
     <string name="high_touch_polling_rate_summary">Az érintőképernyő lekérdezési értékének növelése</string>
-    <!-- Battery Temperature -->
-    <string name="battery_temp">Akkuhőmérséklet</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">Akkuállapot</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
     <string name="unlock_scramble_pin_layout_summary">Összekeveri a beviteli mezőn a számok elrendezését az eszköz feloldásakor</string>
@@ -455,12 +473,12 @@
     <string name="recent_app_toggle">Korábbi alkalmazások kapcsolója</string>
     <string name="show_powermenu">A Kikapcsolási menü megjelenítése</string>
     <string name="partial_screenshot">Részleges képernyőmentés</string>
+    <string name="action_forward">Továbblépés</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Speciális vezérlési lehetőségek</string>
     <string name="navbar_gesture_tweaks_pref_summary">Mozdulatok testreszabása és egyedi műveletek beállítása</string>
     <string name="navbar_gesture_tweaks_cat_title">Speciális</string>
     <string name="swipe_app_select_summary">Válasszon ki egy alkalmazást, amely összenyomási művelettel indul</string>
-    <string name="long_back_swipe_timeout_title">A hosszú csúsztatás időkorlátja</string>
     <string name="left_swipe_actions_title">A hosszú balra húzás művelete</string>
     <string name="left_swipe_app_action_title">Válassza ki a hosszú balra csúsztatás alkalmazását</string>
     <string name="right_swipe_actions_title">A hosszú jobbra húzás művelete</string>
@@ -533,4 +551,26 @@
     <string name="led_notification_title">A LED-fény beállításai</string>
     <string name="led_notification_text">LED-fény engedélyezve a beállítások által</string>
     <string name="notification_light_add_apps_empty_summary">Alkalmazásonkénti vezérléshez aktiválja ezt: \"%1$s\", majd nyomja meg a \'Hozzáadás\'-t</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technológia</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Állapot</string>
+    <string name="battery_health_good">Jó</string>
+    <string name="battery_health_overheat">Túlmelegedett</string>
+    <string name="battery_health_dead">Tönkrement</string>
+    <string name="battery_health_over_voltage">Túlfeszültség</string>
+    <string name="battery_health_unspecified_failure">Meghatározatlan hiba</string>
+    <string name="battery_health_cold">Hideg</string>
+    <string name="battery_health_unknown">Ismeretlen</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Hőmérséklet</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Feszültség</string>
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Elvárt kapacitás</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum kapacitás</string>
+    <!-- Charger haptic feedback -->
+    <string name="charger_haptic_feedback_title">Töltéskapcsolat-változás jelzése rezgéssel</string>
 </resources>

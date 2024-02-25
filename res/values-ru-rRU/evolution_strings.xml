@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Эволюция в Адроид 14</string>
+    <string name="evolver_dashboard_summary">Эволюция в Андроид 14</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Не проверять</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -24,17 +24,39 @@
     <string name="build_status">Статус сборки</string>
     <string name="radio_info_title">Информация о сети</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Частота обновления</string>
+    <string name="refresh_rate_summary_vrr_off">%d Гц</string>
+    <string name="refresh_rate_summary_vrr_on">%d Гц (Адаптивные)</string>
+    <string name="refresh_rate_vrr_title">Адаптивная частота обновления</string>
+    <string name="refresh_rate_vrr_summary">Автоматическое снижение частоты обновления для экономии заряда во время простоя. Может вызывать мерцания или искажение цветов на некоторых дисплеях</string>
+    <string name="refresh_rate_footer">При высокой частоте обновления изображение на экране становится более плавным, но при этом увеличивается энергопотребление</string>
+    <string name="keywords_refresh_rate">обновления, частота, плавно, пиковая, 60гц, 90гц, 120гц, 144гц, 165гц</string>
     <string name="min_refresh_rate_title">Минимальная частота обновления</string>
     <string name="max_refresh_rate_title">Максимальная частота обновления</string>
     <string name="low_power_refresh_rate_title_custom">Частота обновления при низком заряде батареи</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Найдите сканер отпечатков пальцев на лицевой стороне вашего телефона.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Найдите датчик отпечатков пальцев на задней поверхности вашего телефона.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Найдите датчик отпечатков пальцев сбоку вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на лицевой стороне вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на лицевой стороне вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на лицевой стороне вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите сканер отпечатков пальцев на задней поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите сканер отпечатков пальцев на задней поверхности вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите сканер отпечатков пальцев на задней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Найдите сканер отпечатков пальцев на боковой грани вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Найдите сканер отпечатков пальцев на боковой грани вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Найдите сканер отпечатков пальцев на боковой грани вашего телефона.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Коснитесь сенсора на передней панели телефона.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Коснитесь сенсора на задней панели телефона.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Коснитесь сенсора на боковой стороне телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Коснитесь сенсора на лицевой стороне вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Коснитесь сенсора на лицевой стороне вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Коснитесь сенсора на лицевой стороне вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Коснитесь сенсора на задней поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Коснитесь сенсора на задней поверхности вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Коснитесь сенсора на задней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Коснитесь сенсора на боковой грани вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Коснитесь сенсора на боковой грани вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Коснитесь сенсора на боковой грани вашего телефона.</string>
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Коснитесь сенсора, чтобы разблокировать устройство, даже если экран выключен. Датчик приближения предотвращает случайную разблокировку.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Внимание: Эта опция может работать неправильно или привести к потере данных, поэтому она не рекомендуется!</string>
     <!-- FastCharge feature -->
@@ -140,10 +162,6 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Высокая частота сенсора</string>
     <string name="high_touch_polling_rate_summary">Увеличить скорость опроса сенсорного экрана</string>
-    <!-- Battery Temperature -->
-    <string name="battery_temp">Температура батареи</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">Состояние батареи</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Перемешать клавиши</string>
     <string name="unlock_scramble_pin_layout_summary">Перемешать кнопки ввода PIN-кода при разблокировке устройства</string>
@@ -415,14 +433,14 @@
     <!-- Display settings screen, increased touch polling rate settings title -->
     <string name="touch_polling_title">Высокая частота опроса касаний</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
-    <string name="touch_polling_summary">Увеличить частоту опроса касаний тачскрина для уменьшения задержки</string>
+    <string name="touch_polling_summary">Увеличение частоты опроса сенсорного слоя для снижения задержки</string>
     <!-- Volume Steps -->
     <string name="volume_steps_title">Шаги громкости</string>
-    <string name="volume_steps_summary">Управление уровнем шага регулировки для каждого потока</string>
+    <string name="volume_steps_summary">Управление количеством шагов регулировки звука для каждого потока</string>
     <string name="max_music_volume_title">Медиа</string>
     <string name="max_call_volume_title">Звонки</string>
     <string name="max_alarm_volume_title">Будильники</string>
-    <string name="steps_unit">шаги</string>
+    <string name="steps_unit">шагов</string>
     <!-- Misc Haptics -->
     <string name="misc_vibration_category_title">Прочие тактильные события</string>
     <!-- Incall vibrate options -->
@@ -431,8 +449,8 @@
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании вызова</string>
     <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
     <!-- Scroll fling haptic feedback -->
-    <string name="scroll_fling_haptic_feedback_title">Вибрация при бросковой прокрутке</string>
-    <string name="scroll_fling_haptic_feedback_summary">Вибрировать при достижении краев при прокрутке с бросковым жестом</string>
+    <string name="scroll_fling_haptic_feedback_title">Вибрация при быстрой прокрутке</string>
+    <string name="scroll_fling_haptic_feedback_summary">Вибрация при достижении краев при быстром пролистывании жестом</string>
     <!-- Custom actions -->
     <string name="action_nothing">Не задано</string>
     <string name="action_menu">Меню</string>
@@ -452,15 +470,15 @@
     <string name="action_app_action">Приложение</string>
     <string name="action_ringer_modes">Режимы звонка</string>
     <string name="kill_app">Принудительно закрыть активное приложение</string>
-    <string name="recent_app_toggle">Переключить недавнее приложение</string>
+    <string name="recent_app_toggle">Переключение на недавнее приложение</string>
     <string name="show_powermenu">Показать меню питания</string>
     <string name="partial_screenshot">Частичный снимок экрана</string>
+    <string name="action_forward">Далее</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Расширенные настройки жестов</string>
     <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и настройка пользовательских действий</string>
     <string name="navbar_gesture_tweaks_cat_title">Дополнительно</string>
     <string name="swipe_app_select_summary">Выберите приложение, которое хотите запускать при сжатии</string>
-    <string name="long_back_swipe_timeout_title">Длительность долгого свайпа</string>
     <string name="left_swipe_actions_title">Действие при длинном свайпе слева</string>
     <string name="left_swipe_app_action_title">Выбрать приложение для длинного свайпа слева</string>
     <string name="right_swipe_actions_title">Действие при длинном свайпе справа</string>
@@ -469,16 +487,16 @@
     <string name="left_vertical_swipe_app_action_title">Выбрать приложение для вертикального L-свайпа слева</string>
     <string name="right_vertical_swipe_actions_title">Действие на вертикальный L-свайп справа</string>
     <string name="right_vertical_swipe_app_action_title">Выбрать приложение для вертикального L-свайпа справа</string>
-    <string name="gesture_nav_tweaks_footer_info">Для выбора конкретного активити приложения для действия, долго нажимайте на любое приложение в меню их выбора.\n\nЕсли лаунчер в данный момент показывается, выполните свайп от самой нижней части экрана, чтобы запустить действие.</string>
-    <string name="back_swipe_extended_title">Расширенные действия свайпа</string>
+    <string name="gesture_nav_tweaks_footer_info">Зажмите любое приложение в меню выбора для запуска конкретной активности.\n\nКогда лаунчер откроется, выполните свайп от самой нижней части экрана, чтобы запустить действие.</string>
+    <string name="back_swipe_extended_title">Расширенные действия при свайпе</string>
     <string name="back_swipe_extended_summary">Запуск действия при широком свайпе (более чем на половину экрана), или при L-свайпе (существенно длиннее по вертикали)</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Разблокировать автоматически, если вы введете правильный PIN-код. Это немного менее безопасно, чем нажатие Enter, чтобы подтвердить.</string>
     <!-- Notification channels -->
-    <string name="channel_light_settings_name">Перепросмотр настроек индикатора</string>
+    <string name="channel_light_settings_name">Предпросмотр настроек индикатора</string>
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Изменить настройки индикатора</string>
-    <string name="pulse_speed_title">Длина и скорость импульса</string>
+    <string name="pulse_speed_title">Длительность и скорость сегмента</string>
     <string name="default_time">Обычный</string>
     <string name="custom_time">Пользовательский</string>
     <string name="dialog_delete_title">Удалить</string>
@@ -486,19 +504,19 @@
     <string name="brightness">Уровень яркости</string>
     <string name="choose_app">Выберите приложение</string>
     <!-- Values for the notification light pulse spinners -->
-    <string name="pulse_length_always_on">Всегда вкл.</string>
-    <string name="pulse_length_very_short">Очень коротко</string>
+    <string name="pulse_length_always_on">Всегда включен</string>
+    <string name="pulse_length_very_short">Очень короткий</string>
     <string name="pulse_length_short">Короткий</string>
     <string name="pulse_length_normal">Обычный</string>
     <string name="pulse_length_long">Длинный</string>
     <string name="pulse_length_very_long">Очень длинный</string>
-    <string name="pulse_speed_very_fast">Очень быстрая</string>
+    <string name="pulse_speed_very_fast">Очень быстрый</string>
     <string name="pulse_speed_fast">Быстрая</string>
     <string name="pulse_speed_normal">Обычный</string>
     <string name="pulse_speed_slow">Медленный</string>
     <string name="pulse_speed_very_slow">Очень медленный</string>
     <!-- Common light settings strings -->
-    <string name="light_brightness_title">Уровень яркости</string>
+    <string name="light_brightness_title">Уровни яркости</string>
     <string name="light_brightness_normal">Обычный</string>
     <string name="light_brightness_zen">Не беспокоить</string>
     <!-- Battery light settings -->
@@ -510,8 +528,8 @@
     <string name="battery_light_list_title">Цвета</string>
     <string name="battery_light_low_color_title">Низкий заряд батареи</string>
     <string name="battery_light_medium_color_title">Зарядка</string>
-    <string name="battery_light_full_color_title">Заряжено (90%)</string>
-    <string name="battery_light_really_full_color_title">Заряжено (100%)</string>
+    <string name="battery_light_full_color_title">Заряжен (90%)</string>
+    <string name="battery_light_really_full_color_title">Заряжен (100%)</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Индикатор уведомлений</string>
     <string name="notification_light_summary">Настройка поведения индикатора уведомлений</string>
@@ -524,13 +542,34 @@
     <string name="notification_light_default_value">По умолчанию</string>
     <string name="notification_light_missed_call_title">Пропущенный вызов</string>
     <string name="notification_light_voicemail_title">Голосовая почта</string>
-    <string name="notification_light_screen_on">Индикация при вкл. экране</string>
-    <string name="notification_light_zen_mode">Индикатор в режиме «Не беспокоить»</string>
+    <string name="notification_light_screen_on">Индикация при включенном экране</string>
+    <string name="notification_light_zen_mode">Индикация в режиме «Не беспокоить»</string>
     <string name="keywords_lights_brightness_level">яркость светодиодов</string>
     <string name="notification_light_automagic">Подбирать цвета автоматически</string>
     <string name="notification_light_automagic_summary">Автоматический выбор цветов</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Настройки индикации батареи</string>
     <string name="led_notification_text">Светодиод включен в настройках</string>
-    <string name="notification_light_add_apps_empty_summary">Чтобы добавить управление приложениями, активируйте \'%1$s\' и нажмите \'Добавить\'</string>
+    <string name="notification_light_add_apps_empty_summary">Активируйте \'%1$s\' и нажмите \'Добавить\', чтобы настроить для отдельных приложений</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Технология</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Здоровье</string>
+    <string name="battery_health_good">Хорошо</string>
+    <string name="battery_health_overheat">Перегрев</string>
+    <string name="battery_health_dead">Неисправен</string>
+    <string name="battery_health_over_voltage">Повышенное напряжение</string>
+    <string name="battery_health_unspecified_failure">Неизвестно</string>
+    <string name="battery_health_cold">Охлаждён</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Температура</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Напряжение</string>
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Расчетная ёмкость</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Текущая ёмкость</string>
+    <!-- Charger haptic feedback -->
+    <string name="charger_haptic_feedback_title">Вибрация при подключении к зарядке</string>
 </resources>
