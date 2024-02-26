@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Эволюция в Адроид 14</string>
+    <string name="evolver_dashboard_summary">Эволюция в Андроид 14</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Не проверять</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -436,11 +436,11 @@
     <string name="touch_polling_summary">Увеличить частоту опроса касаний тачскрина для уменьшения задержки</string>
     <!-- Volume Steps -->
     <string name="volume_steps_title">Шаги громкости</string>
-    <string name="volume_steps_summary">Управление уровнем шага регулировки для каждого потока</string>
+    <string name="volume_steps_summary">Управление количеством шагов регулировки звука для каждого потока</string>
     <string name="max_music_volume_title">Медиа</string>
     <string name="max_call_volume_title">Звонки</string>
     <string name="max_alarm_volume_title">Будильники</string>
-    <string name="steps_unit">шаги</string>
+    <string name="steps_unit">шагов</string>
     <!-- Misc Haptics -->
     <string name="misc_vibration_category_title">Прочие тактильные события</string>
     <!-- Incall vibrate options -->
