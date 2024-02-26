@@ -35,13 +35,28 @@
     <string name="max_refresh_rate_title">Képernyőfrissítési maximum</string>
     <string name="low_power_refresh_rate_title_custom">Képernyőfrissítés gyenge akkuhoz</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Készüléke előlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Készüléke hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Készüléke oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Táblagépe előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Készüléke előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Táblagépe hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Készüléke hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Táblagépe oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Készüléke oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonja oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Érintse meg a szenzort készüléke előlapján.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Érintse meg a szenzort készüléke hátlapján.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Érintse meg a szenzort készüléke oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Érintse meg a szenzort táblagépe előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Érintse meg a szenzort készüléke előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Érintse meg a szenzort telefonja előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Érintse meg a szenzort táblagépe hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Érintse meg a szenzort készüléke hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Érintse meg a szenzort telefonja hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Érintse meg a szenzort táblagépe oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Érintse meg a szenzort készüléke oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Érintse meg a szenzort telefonja oldalán.</string>
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Feloldáshoz érintse meg az érzékelőt, kikapcsolt képernyőnél is. A közelségérzékelő megakadályozza a véletlen feloldást.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Figyelmeztetés: Előfordulhat, hogy ez a lehetőség nem működik megfelelően, vagy adatvesztéshez vezethet, ezért nem ajánlott!</string>
     <!-- FastCharge feature -->
