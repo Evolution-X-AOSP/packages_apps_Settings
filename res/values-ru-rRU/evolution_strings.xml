@@ -450,7 +450,7 @@
     <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
     <!-- Scroll fling haptic feedback -->
     <string name="scroll_fling_haptic_feedback_title">Вибрация при быстрой прокрутке</string>
-    <string name="scroll_fling_haptic_feedback_summary">Вибрировать при достижении краев при прокрутке с бросковым жестом</string>
+    <string name="scroll_fling_haptic_feedback_summary">Вибрация при достижении краев при быстром пролистывании жестом</string>
     <!-- Custom actions -->
     <string name="action_nothing">Не задано</string>
     <string name="action_menu">Меню</string>
@@ -487,7 +487,7 @@
     <string name="left_vertical_swipe_app_action_title">Выбрать приложение для вертикального L-свайпа слева</string>
     <string name="right_vertical_swipe_actions_title">Действие на вертикальный L-свайп справа</string>
     <string name="right_vertical_swipe_app_action_title">Выбрать приложение для вертикального L-свайпа справа</string>
-    <string name="gesture_nav_tweaks_footer_info">Зажмите любое приложение в меню выбора для запуска конкретной активности.\n\nЕсли лаунчер в данный момент показывается, выполните свайп от самой нижней части экрана, чтобы запустить действие.</string>
+    <string name="gesture_nav_tweaks_footer_info">Зажмите любое приложение в меню выбора для запуска конкретной активности.\n\nКогда лаунчер откроется, выполните свайп от самой нижней части экрана, чтобы запустить действие.</string>
     <string name="back_swipe_extended_title">Расширенные действия при свайпе</string>
     <string name="back_swipe_extended_summary">Запуск действия при широком свайпе (более чем на половину экрана), или при L-свайпе (существенно длиннее по вертикали)</string>
     <!-- Auto pin confirm -->
