@@ -35,13 +35,28 @@
     <string name="max_refresh_rate_title">最高更新率</string>
     <string name="low_power_refresh_rate_title_custom">省電模式更新率</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">尋找位於裝置正面的指紋感測器</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">尋找位於裝置背面的指紋感測器</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">尋找位於裝置側面的指紋感測器</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">尋找位於平板正面的指紋感測器</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">尋找位於裝置正面的指紋感測器</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">尋找位於手機正面的指紋感測器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">尋找位於平板背面的指紋感測器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">尋找位於裝置背面的指紋感測器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">尋找位於手機背面的指紋感測器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">尋找位於平板側面的指紋感測器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">尋找位於裝置側面的指紋感測器</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">尋找位於手機側面的指紋感測器</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">輕觸位於裝置正面的指紋感測器</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">輕觸位於裝置背面的指紋感測器</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">輕觸位於裝置側面的指紋感測器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">輕觸位於平板正面的指紋感測器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">輕觸位於裝置正面的指紋感測器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">輕觸位於手機正面的指紋感測器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">輕觸位於平板背面的指紋感測器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">輕觸位於裝置背面的指紋感測器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">輕觸位於手機背面的指紋感測器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">輕觸位於平板側面的指紋感測器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">輕觸位於裝置側面的指紋感測器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">輕觸位於手機側面的指紋感測器</string>
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">即使螢幕關閉，觸控指紋感測器即可解鎖。距離感測器可防止意外解鎖。</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">警告：此選項可能無法正常運作或導致資料遺失，因此並不建議使用。</string>
     <!-- FastCharge feature -->
