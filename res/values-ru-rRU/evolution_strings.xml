@@ -570,4 +570,6 @@
     <string name="battery_design_capacity">Расчетная ёмкость</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Текущая ёмкость</string>
+    <!-- Charger haptic feedback -->
+    <string name="charger_haptic_feedback_title">Вибрация при подключении к зарядке</string>
 </resources>
