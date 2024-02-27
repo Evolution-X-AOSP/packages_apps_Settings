@@ -35,13 +35,28 @@
     <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania</string>
     <string name="low_power_refresh_rate_title_custom">Częstotliwość odświeżania przy niskim poziomie energii</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Zlokalizuj czytnik linii papilarnych z przodu twojego telefonu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Zlokalizuj czytnik linii papilarnych na tylnej stronie telefonu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Zlokalizuj czytnik linii papilarnych znajdujący się z boku urządzenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Zlokalizuj czytnik linii papilarnych z przodu twojego tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Zlokalizuj czytnik linii papilarnych z przodu twojego urządzenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Zlokalizuj czytnik linii papilarnych z przodu twojego telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Zlokalizuj czytnik linii papilarnych na tylnej stronie tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Zlokalizuj czytnik linii papilarnych na tylnej stronie telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Zlokalizuj czytnik linii papilarnych na tylnej stronie telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Zlokalizuj czytnik linii papilarnych znajdujący się z boku tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Zlokalizuj czytnik linii papilarnych znajdujący się z boku urządzenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Zlokalizuj czytnik linii papilarnych znajdujący się z boku urządzenia.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Dotknij czujnika z przodu telefonu.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Dotknij czytnika znajdującego się z tyłu telefonu.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Dotknij czytnika na boku telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Dotknij czytnika znajdującego się z przodu tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Dotknij czujnika z przodu telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Dotknij czujnika z przodu telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Dotknij czujnika znajdującego się z tyłu twojego tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Dotknij czytnika znajdującego się z tyłu telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Dotknij czytnika znajdującego się z tyłu telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Dotknij czytnika znajdującego się z boku tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Dotknij czytnika na boku telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Dotknij czytnika na boku telefonu.</string>
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Dotknij czujnika, aby odblokować, nawet gdy ekran jest wyłączony. Czujnik zbliżeniowy zapobiega przypadkowemu odblokowaniu.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Ostrzeżenie: Ta opcja może nie działać poprawnie lub prowadzić do utraty danych i dlatego nie jest zalecana!</string>
     <!-- FastCharge feature -->
@@ -555,4 +570,6 @@
     <string name="battery_design_capacity">Fabryczna pojemność baterii</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maksymalna pojemność</string>
+    <!-- Charger haptic feedback -->
+    <string name="charger_haptic_feedback_title">Wibracje przy zmianie połączenia</string>
 </resources>
