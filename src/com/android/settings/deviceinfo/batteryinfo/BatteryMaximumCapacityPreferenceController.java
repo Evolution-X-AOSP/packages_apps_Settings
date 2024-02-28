@@ -42,11 +42,11 @@ public class BatteryMaximumCapacityPreferenceController extends BasePreferenceCo
     public CharSequence getSummary() {
         Intent batteryIntent = BatteryUtils.getBatteryIntent(mContext);
         final int maxCapacityUah =
-                batteryIntent.getIntExtra(BatteryManager.EXTRA_MAXIMUM_CAPACITY, -1);
+                batteryIntent.getIntExtra(BatteryManager.EXTRA_MAXIMUM_CAPACITY, 0);
         final int designCapacityUah =
-                batteryIntent.getIntExtra(BatteryManager.EXTRA_DESIGN_CAPACITY, -1);
+                batteryIntent.getIntExtra(BatteryManager.EXTRA_DESIGN_CAPACITY, 0);
 
-        if (maxCapacityUah != -1 && designCapacityUah != -1 && designCapacityUah != 0) {
+        if (maxCapacityUah != 0 && designCapacityUah != 0) {
             int maxCapacity = maxCapacityUah / 1_000;
             int designCapacity = designCapacityUah / 1_000;
             int percentage = (maxCapacity * 100) / designCapacity;
