@@ -36,6 +36,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import com.android.internal.util.evolution.EvolutionUtils;
+
 import com.android.settings.core.BasePreferenceController;
 
 /** Controller that switch the screen resolution. */
@@ -47,6 +49,8 @@ public class CustomScreenResolutionController extends BasePreferenceController i
 
     private ListPreference mListPreference;
 
+    private Context mContext;
+
     private final List<String> mEntries = new ArrayList<>();
     private final List<String> mValues = new ArrayList<>();
 
@@ -55,6 +59,7 @@ public class CustomScreenResolutionController extends BasePreferenceController i
 
     public CustomScreenResolutionController(Context context) {
         super(context, KEY_RESOLUTION_SWITCH);
+        mContext = context;
         mDisplay = Objects.requireNonNull(
                 context.getSystemService(DisplayManager.class)).getDisplay(Display.DEFAULT_DISPLAY);
 
@@ -128,6 +133,7 @@ public class CustomScreenResolutionController extends BasePreferenceController i
                         + switchMode.getPhysicalHeight());
 
         mDisplay.setUserPreferredDisplayMode(switchMode);
+        EvolutionUtils.restartProcess(mContext, "com.android.systemui");
         return true;
     }
 
