@@ -450,7 +450,7 @@
     <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
     <!-- Scroll fling haptic feedback -->
     <string name="scroll_fling_haptic_feedback_title">Вибрация при быстрой прокрутке</string>
-    <string name="scroll_fling_haptic_feedback_summary">Вибрация при достижении краев при быстром пролистывании жестом</string>
+    <string name="scroll_fling_haptic_feedback_summary">Вибрация при достижении краев при быстром пролистывании</string>
     <!-- Custom actions -->
     <string name="action_nothing">Не задано</string>
     <string name="action_menu">Меню</string>
@@ -570,6 +570,4 @@
     <string name="battery_design_capacity">Расчетная ёмкость</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Текущая ёмкость</string>
-    <!-- Charger haptic feedback -->
-    <string name="charger_haptic_feedback_title">Вибрация при подключении к зарядке</string>
 </resources>
