@@ -571,6 +571,4 @@
     <string name="battery_design_capacity">Elvárt kapacitás</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximum kapacitás</string>
-    <!-- Charger haptic feedback -->
-    <string name="charger_haptic_feedback_title">Töltéskapcsolat-változás jelzése rezgéssel</string>
 </resources>
