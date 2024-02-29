@@ -570,6 +570,4 @@
     <string name="battery_design_capacity">Fabryczna pojemność baterii</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maksymalna pojemność</string>
-    <!-- Charger haptic feedback -->
-    <string name="charger_haptic_feedback_title">Wibracje przy zmianie połączenia</string>
 </resources>
