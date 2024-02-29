@@ -571,6 +571,4 @@
     <string name="battery_design_capacity">Capacidade projetada</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Capacidade máxima</string>
-    <!-- Charger haptic feedback -->
-    <string name="charger_haptic_feedback_title">Vibrar ao mudar a conexão do carregador</string>
 </resources>
