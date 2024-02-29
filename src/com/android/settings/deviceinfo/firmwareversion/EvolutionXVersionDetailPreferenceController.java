@@ -45,7 +45,7 @@ public class EvolutionXVersionDetailPreferenceController extends BasePreferenceC
 
     private static final String KEY_EVOLUTION_BUILD_VERSION_PROP = "org.evolution.build_version";
     private static final String KEY_EVOLUTION_CODENAME_PROP = "org.evolution.build_codename";
-    private static final String KEY_EVOLUTION_DEVICE_PROP = "org.evolution.device";
+    private static final String KEY_EVOLUTION_DEVICE_PROP = "ro.product.device";
     private static final String KEY_EVOLUTION_RELEASE_TYPE_PROP = "org.evolution.build_type";
     private static final String KEY_EVOLUTION_VERSION_PROP = "org.evolution.version.display";
 
