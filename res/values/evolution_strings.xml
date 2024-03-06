@@ -26,7 +26,7 @@
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Build maintainer</string>
     <string name="build_maintainer_summary" translatable="false">Unknown</string>
-    <string name="build_maintainer_donate_url" translatable="false">https://linktr.ee/shaazice</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://linktr.ee/joeyhuab</string>
 
     <!-- Build status -->
     <string name="build_status">Build status</string>
