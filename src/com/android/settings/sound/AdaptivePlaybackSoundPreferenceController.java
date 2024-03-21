@@ -34,10 +34,10 @@ import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
-import com.android.settingslib.widget.RadioButtonPreference;
+import com.android.settingslib.widget.SelectorWithWidgetPreference;
 
 public class AdaptivePlaybackSoundPreferenceController extends BasePreferenceController
-        implements RadioButtonPreference.OnClickListener, LifecycleObserver, OnStart, OnStop {
+        implements SelectorWithWidgetPreference.OnClickListener, LifecycleObserver, OnStart, OnStop {
 
     private static final String KEY_NO_TIMEOUT = "adaptive_playback_timeout_none";
     private static final String KEY_30_SECS = "adaptive_playback_timeout_30_secs";
@@ -57,12 +57,12 @@ public class AdaptivePlaybackSoundPreferenceController extends BasePreferenceCon
     private int mAdaptivePlaybackTimeout;
 
     private PreferenceCategory mPreferenceCategory;
-    private RadioButtonPreference mTimeoutNonePref;
-    private RadioButtonPreference mTimeout30SecPref;
-    private RadioButtonPreference mTimeout1MinPref;
-    private RadioButtonPreference mTimeout2MinPref;
-    private RadioButtonPreference mTimeout5MinPref;
-    private RadioButtonPreference mTimeout10MinPref;
+    private SelectorWithWidgetPreference mTimeoutNonePref;
+    private SelectorWithWidgetPreference mTimeout30SecPref;
+    private SelectorWithWidgetPreference mTimeout1MinPref;
+    private SelectorWithWidgetPreference mTimeout2MinPref;
+    private SelectorWithWidgetPreference mTimeout5MinPref;
+    private SelectorWithWidgetPreference mTimeout10MinPref;
 
     private final SettingObserver mSettingObserver;
 
@@ -100,7 +100,7 @@ public class AdaptivePlaybackSoundPreferenceController extends BasePreferenceCon
     }
 
     @Override
-    public void onRadioButtonClicked(RadioButtonPreference preference) {
+    public void onRadioButtonClicked(SelectorWithWidgetPreference preference) {
         int adaptivePlaybackTimeout = keyToSetting(preference.getKey());
         if (adaptivePlaybackTimeout != Settings.System.getIntForUser(mContext.getContentResolver(),
                 Settings.System.ADAPTIVE_PLAYBACK_TIMEOUT, ADAPTIVE_PLAYBACK_TIMEOUT_30_SECS,
@@ -190,8 +190,9 @@ public class AdaptivePlaybackSoundPreferenceController extends BasePreferenceCon
         }
     }
 
-    private RadioButtonPreference makeRadioPreference(String key, int titleId) {
-        RadioButtonPreference pref = new RadioButtonPreference(mPreferenceCategory.getContext());
+    private SelectorWithWidgetPreference makeRadioPreference(String key, int titleId) {
+        SelectorWithWidgetPreference pref = new SelectorWithWidgetPreference(
+                mPreferenceCategory.getContext());
         pref.setKey(key);
         pref.setTitle(titleId);
         pref.setOnClickListener(this);
