@@ -23,7 +23,8 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.provider.SearchIndexableResource;
 import android.util.Log;
-import android.widget.Switch;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 
 import androidx.preference.DropDownPreference;
 import androidx.preference.Preference;
@@ -35,7 +36,6 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.widget.MainSwitchPreference;
-import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +45,7 @@ import java.util.List;
  */
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class DcDimmingSettings extends DashboardFragment
-        implements Preference.OnPreferenceChangeListener, OnMainSwitchChangeListener  {
+        implements Preference.OnPreferenceChangeListener, OnCheckedChangeListener {
 
     private static final String TAG = "DcDimmingSettings";
 
@@ -110,7 +110,7 @@ public class DcDimmingSettings extends DashboardFragment
     }
 
     @Override
-    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         mDcDimmingManager.setDcDimming(isChecked);
     }
 

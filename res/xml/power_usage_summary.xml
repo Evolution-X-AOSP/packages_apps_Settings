@@ -59,13 +59,11 @@
         android:fragment="com.android.settings.health.ChargingControlSettings"
         settings:controller="com.android.settings.health.ChargingControlPreferenceController" />
 
-    <com.evolution.settings.preference.SystemSettingPrimarySwitchPreference
-        android:key="battery_level_charge_alarm_enabled"
+    <Preference
+        android:key="battery_level_charge_alarm"
         android:title="@string/notification_battery_charge_level_title"
         android:summary="@string/notification_battery_charge_level_summary"
-        android:defaultValue="false"
-        android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings"
-        settings:observe="true" />
+        android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings" />
 
     <!-- Sleep Mode -->
     <Preference
