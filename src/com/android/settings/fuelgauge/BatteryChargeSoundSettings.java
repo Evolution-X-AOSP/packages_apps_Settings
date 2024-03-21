@@ -29,7 +29,8 @@ import android.util.Log;
 
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
+import androidx.preference.TwoStatePreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;

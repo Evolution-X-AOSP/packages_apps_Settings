@@ -22,7 +22,8 @@ import android.os.UserManager;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
+import androidx.preference.TwoStatePreference;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -57,7 +58,7 @@ public class AdbRootPreferenceController extends DeveloperOptionsPreferenceContr
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
 
-        ((SwitchPreference) mPreference).setChecked(mADBRootService.getEnabled());
+        ((TwoStatePreference) mPreference).setChecked(mADBRootService.getEnabled());
 
         if (!isAdminUser()) {
             mPreference.setEnabled(false);
