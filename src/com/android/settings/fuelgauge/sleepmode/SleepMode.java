@@ -26,7 +26,8 @@ import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.view.View;
-import android.widget.Switch;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TimePicker;
 
 import androidx.preference.DropDownPreference;
@@ -39,13 +40,12 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.evolution.settings.preference.CustomSecureSettingMainSwitchPreference;
 
-import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
 import java.time.format.DateTimeFormatter;
 import java.time.LocalTime;
 
 public class SleepMode extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceClickListener, Preference.OnPreferenceChangeListener, OnMainSwitchChangeListener {
+        Preference.OnPreferenceClickListener, Preference.OnPreferenceChangeListener, OnCheckedChangeListener {
 
     private static final String ENABLE_KEY = "sleep_mode_enabled";
     private static final String MODE_KEY = "sleep_mode_auto_mode";
@@ -141,7 +141,7 @@ public class SleepMode extends SettingsPreferenceFragment implements
     }
 
     @Override
-    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         enableSleepMode(isChecked);
         updateStateInternal();
         mHandler.postDelayed(new Runnable() {
