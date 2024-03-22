@@ -219,7 +219,6 @@
         <item>@string/kill_app</item>
         <item>@string/recent_app_toggle</item>
         <item>@string/show_powermenu</item>
-        <item>@string/partial_screenshot</item>
         <item>@string/action_app_switch</item>
         <item>@string/action_forward</item>
         <item>@string/action_menu</item>
@@ -244,7 +243,6 @@
         <item>15</item>
         <item>16</item>
         <item>17</item>
-        <item>18</item>
     </string-array>
 
     <!-- Values for the notification light pulse spinners -->
