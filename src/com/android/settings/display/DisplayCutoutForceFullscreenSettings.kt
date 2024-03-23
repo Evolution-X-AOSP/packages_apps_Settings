@@ -47,6 +47,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.android.internal.util.evolution.cutout.CutoutFullscreenController
 
 import com.android.settings.R
+import com.android.settings.SettingsActivity
 
 import com.google.android.material.appbar.AppBarLayout
 
@@ -61,7 +62,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     private lateinit var userManager: UserManager
     private lateinit var userInfos: List<UserInfo>
 
-    private var appBarLayout: AppBarLayout? = requireActivity().findViewById(R.id.app_bar)
+    private var appBarLayout: AppBarLayout? = null
     private var searchText = ""
     private var customFilter: ((PackageInfo) -> Boolean)? = null
     private var comparator: ((PackageInfo, PackageInfo) -> Int)? = null
@@ -82,6 +83,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
         requireActivity().setTitle(getTitle())
+        appBarLayout = requireActivity().findViewById(R.id.app_bar)
         activityManager = requireContext().getSystemService(ActivityManager::class.java) as ActivityManager
         packageManager = requireContext().packageManager
         packageList = packageManager.getInstalledPackages(PackageManager.MATCH_ANY_USER)
