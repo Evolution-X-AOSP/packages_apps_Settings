@@ -118,25 +118,28 @@
         <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="qs_brightness_slider_haptic"
             android:title="@string/qs_brightness_slider_haptic_feedback_title"
+            android:dependency="vibration_preference_touch"
             android:defaultValue="false" />
 
         <!-- QS Tiles haptic -->
         <com.evolution.settings.preference.SecureSettingSwitchPreference
             android:key="quick_settings_vibrate"
             android:title="@string/qs_tiles_haptic_feedback_title"
+            android:dependency="vibration_preference_touch"
             android:defaultValue="false" />
 
         <!-- Volume slider haptic -->
         <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="volume_slider_haptic"
             android:title="@string/volume_slider_haptic_feedback_title"
+            android:dependency="vibration_preference_touch"
             android:defaultValue="false" />
 
         <!-- Scroll fling haptic feedback -->
         <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="scroll_fling_haptic_feedback"
             android:title="@string/scroll_fling_haptic_feedback_title"
-            android:dependency="vibration_intensity_preference_touch"
+            android:dependency="vibration_preference_touch"
             android:defaultValue="false" />
 
     </PreferenceCategory>
