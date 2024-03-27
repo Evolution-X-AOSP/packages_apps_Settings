@@ -21,7 +21,8 @@ import android.net.wifi.SoftApConfiguration;
 import android.util.FeatureFlagUtils;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
+import androidx.preference.TwoStatePreference;
 
 import com.android.settings.R;
 import com.android.settings.core.FeatureFlags;
@@ -61,7 +62,7 @@ public class WifiTetherHiddenSsidPreferenceController extends
         if (mPreference == null) {
             return;
         }
-        ((SwitchPreference) mPreference).setChecked(mHiddenSsid);
+        ((TwoStatePreference) mPreference).setChecked(mHiddenSsid);
     }
 
     @Override

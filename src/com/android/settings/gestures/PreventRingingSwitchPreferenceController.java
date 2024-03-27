@@ -24,7 +24,8 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
+import androidx.preference.TwoStatePreference;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -39,7 +40,7 @@ public class PreventRingingSwitchPreferenceController extends AbstractPreference
     private final Context mContext;
 
     MainSwitchPreference mSwitch;
-    SwitchPreference mVibratePref;
+    TwoStatePreference mVibratePref;
 
     public PreventRingingSwitchPreferenceController(Context context) {
         super(context);
