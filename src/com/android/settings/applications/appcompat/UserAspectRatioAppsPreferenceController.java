@@ -18,6 +18,8 @@ package com.android.settings.applications.appcompat;
 
 import android.content.Context;
 import android.os.Build;
+import android.os.SystemProperties;
+import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
@@ -43,6 +45,10 @@ public class UserAspectRatioAppsPreferenceController extends BasePreferenceContr
 
     @Override
     public CharSequence getSummary() {
-        return mContext.getResources().getString(R.string.aspect_ratio_summary_text, Build.MODEL);
+        String device = SystemProperties.get("ro.product.marketname");
+        if (TextUtils.isEmpty(device)) {
+            device = Build.MODEL;
+        }
+        return mContext.getResources().getString(R.string.aspect_ratio_summary_text, device);
     }
 }
