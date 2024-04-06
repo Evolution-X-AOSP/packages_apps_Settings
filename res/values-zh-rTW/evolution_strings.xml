@@ -24,15 +24,6 @@
     <string name="build_status">建置狀態</string>
     <string name="radio_info_title">無線連接資訊</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">螢幕更新率</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (自適應)</string>
-    <string name="refresh_rate_vrr_title">自適應更新率</string>
-    <string name="refresh_rate_vrr_summary">當螢幕閒置時自動降低更新率以節省電量，可能會導致某些裝置的螢幕閃爍或色偏。</string>
-    <string name="refresh_rate_footer">更高的螢幕更新率可以讓顯示更流暢，但會增加功耗</string>
-    <string name="keywords_refresh_rate">螢幕更新率、流暢度、峰值、60 Hz、90 Hz、120 Hz、144 Hz、165 Hz</string>
-    <string name="min_refresh_rate_title">最低更新率</string>
-    <string name="max_refresh_rate_title">最高更新率</string>
     <string name="low_power_refresh_rate_title_custom">省電模式更新率</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">尋找位於平板正面的指紋感測器</string>
@@ -59,10 +50,6 @@
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">即使螢幕關閉，觸控指紋感測器即可解鎖。距離感測器可防止意外解鎖。</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">警告：此選項可能無法正常運作或導致資料遺失，因此並不建議使用。</string>
-    <!-- FastCharge feature -->
-    <string name="fast_charging_title">快速充電</string>
-    <string name="fast_charging_summary">停用以減少裝置在充電時產生的熱量及延長電池的使用壽命</string>
-    <string name="restricted_current_summary">設定允許的最大電流 (mA)</string>
     <!-- Package details -->
     <string name="package_details_group_title">套件詳細資料</string>
     <string name="package_name">套件名稱</string>
@@ -288,9 +275,6 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">如果沒有連線到任何裝置，將在 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉藍牙</string>
     <string name="bluetooth_timeout_summary2">不要自動關閉藍牙</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
-    <string name="unlock_quick_unlock_control_summary">當輸入正確 PIN 碼及密碼時自動解鎖</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">充電控制</string>
     <string name="charging_control_summary">自訂裝置的充電時間和限制</string>
@@ -312,8 +296,6 @@
     <string name="auto_brightness_one_shot_summary">亮度只會在螢幕開啟時自動調整一次</string>
     <!-- Notification log -->
     <string name="notification_log_summary">顯示通知歷史紀錄</string>
-    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">自動將某些內容的螢幕更新頻率從 60 調高到 %1$d Hz。請注意，開啟這項設定會增加電池用量。</string>
     <!-- VPN app management screen, global VPN -->
     <string name="global_vpn_title">全域 VPN</string>
     <string name="global_vpn_summary">強制裝置上的所有流量通過此 VPN，包括工作帳號和其他使用者</string>
@@ -384,7 +366,7 @@
     <string name="nfc_sounds_title">NFC 音效</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">使用浮動螢幕旋轉按鈕</string>
-    <!-- Display : Rotation -->
+    <!-- Display - Rotation -->
     <string name="display_rotation_title">螢幕旋轉設定</string>
     <string name="display_rotation_enabled">啟用自動旋轉</string>
     <string name="display_rotation_disabled">停用自動旋轉</string>
@@ -405,14 +387,9 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 分鐘</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 分鐘</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 分鐘</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">播放控制</string>
-    <string name="volume_button_music_control_summary">螢幕關閉時，長按音量鍵即可切換曲目</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">背景處理程序</string>
-    <!-- Skip biometric manual confirmation -->
-    <string name="skip_biometric_auth_confirmation_title">略過手動確認</string>
-    <!-- extra dim schedule -->
+    <!-- Extra dim schedule -->
     <string name="extra_dim_schedule_title">排程</string>
     <string name="disabled">停用</string>
     <string name="always_on_display_schedule_title">AOD 開啟時間</string>
@@ -426,10 +403,6 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Root 偵錯</string>
     <string name="adb_enable_summary_root">允許使用 root 身份進行 Android 偵錯</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
-    <string name="face_unlock_method_default">當螢幕開啟時</string>
-    <string name="face_unlock_method_swipe">在鎖定畫面滑動時</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
     <string name="touch_polling_title">高觸控採樣率</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
@@ -472,7 +445,6 @@
     <string name="kill_app">關閉前景應用程式</string>
     <string name="recent_app_toggle">切換最近的應用程式</string>
     <string name="show_powermenu">顯示電源選單</string>
-    <string name="partial_screenshot">擷取部分螢幕畫面</string>
     <string name="action_forward">前往</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">進階手勢選項</string>
@@ -570,4 +542,21 @@
     <string name="battery_design_capacity">設計容量</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">最大容量</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="refresh_rate_title">螢幕更新率</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (自適應)</string>
+    <string name="refresh_rate_vrr_title">自適應更新率</string>
+    <string name="refresh_rate_vrr_summary">當螢幕閒置時自動降低更新率以節省電量，可能會導致某些裝置的螢幕閃爍或色偏。</string>
+    <string name="refresh_rate_footer">更高的螢幕更新率可以讓顯示更流暢，但會增加功耗</string>
+    <string name="keywords_refresh_rate">螢幕更新率、流暢度、峰值、60 Hz、90 Hz、120 Hz、144 Hz、165 Hz</string>
+    <string name="peak_refresh_rate_summary_custom">自動將某些內容的螢幕更新頻率從 60 調高到 %1$d Hz。請注意，開啟這項設定會增加電池用量。</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">快速充電</string>
+    <string name="fast_charging_summary">停用以減少裝置在充電時產生的熱量及延長電池的使用壽命</string>
+    <string name="restricted_current_summary">設定允許的最大電流 (mA)</string>
+    <string name="string_enabled">已啟用</string>
+    <string name="string_disabled">停用</string>
+    <string name="string_on">開啟</string>
+    <string name="string_off">關閉</string>
 </resources>
