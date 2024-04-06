@@ -24,15 +24,6 @@
     <string name="build_status">Sürüm durumu</string>
     <string name="radio_info_title">Radyo bilgisi</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Yenileme hızı</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Uyarlanabilir)</string>
-    <string name="refresh_rate_vrr_title">Uyarlanabilir yenileme hızı</string>
-    <string name="refresh_rate_vrr_summary">Güç tasarrufu yapmak için, ekran boştayken yenileme hızını otomatik olarak düşür. Bazı ekranlarda titremeye veya renk kaymasına sebep olabilir</string>
-    <string name="refresh_rate_footer">Yüksek yenileme hızı ekranı daha hızlı yapar, ancak güç tüketimini artırır</string>
-    <string name="keywords_refresh_rate">yenileme, hızı, yumuşak, zirve, 60hz, 90hz, 120hz, 144hz, 165hz</string>
-    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
-    <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
     <string name="low_power_refresh_rate_title_custom">Düşük pil yenileme hızı</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin önünde bulunan parmak izi sensörünü bulun.</string>
@@ -59,10 +50,6 @@
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Ekran kapalıyken bile kilidi açmak için sensöre dokunun. Yakınlık sensörü kilidin yanlışlıkla açılmasını önler.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Uyarı: Bu özellik düzgün çalışmayabilir veya veri kaybına neden olabilir ve bu nedenle önerilmez!</string>
-    <!-- FastCharge feature -->
-    <string name="fast_charging_title">Hızlı şarj</string>
-    <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
-    <string name="restricted_current_summary">Maksimum izin verilen akım (mA)</string>
     <!-- Package details -->
     <string name="package_details_group_title">Paket ayrıntıları</string>
     <string name="package_name">Paket adı</string>
@@ -288,9 +275,6 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
     <string name="bluetooth_timeout_summary2">Bluetooth\'u otomatik olarak kapatma</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Kilidi hızlıca aç</string>
-    <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde kilidi otomatik olarak açar</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">Şarj kontrolü</string>
     <string name="charging_control_summary">Cihazınız için şarj programını ve sınırlarını özelleştirin</string>
@@ -312,8 +296,6 @@
     <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
-    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">Bazı içerikler için yenileme hızını otomatik olarak 60\'tan %1$d Hz\'e yükseltir. Pil kullanımını artırır.</string>
     <!-- VPN app management screen, global VPN -->
     <string name="global_vpn_title">Küresel VPN</string>
     <string name="global_vpn_summary">İş profili ve diğer kullanıcılar dahil olmak üzere cihazdaki tüm trafiği bu VPN üzerinden zorlayın.</string>
@@ -384,7 +366,7 @@
     <string name="nfc_sounds_title">NFC sesi</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Kayan döndürme tuşunu kullan</string>
-    <!-- Display : Rotation -->
+    <!-- Display - Rotation -->
     <string name="display_rotation_title">Döndürme ayarları</string>
     <string name="display_rotation_enabled">Otomatik döndürme etkin</string>
     <string name="display_rotation_disabled">Otomatik döndürme devre dışı</string>
@@ -405,14 +387,9 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 dakika</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 dakika</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
-    <string name="volume_button_music_control_summary">Ekran kapalıyken, ses seviyesi tuşlarına uzun basıldığında müzik parçaları atlanır</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Arkaplan işlemleri</string>
-    <!-- Skip biometric manual confirmation -->
-    <string name="skip_biometric_auth_confirmation_title">Manuel onaylamayı atla</string>
-    <!-- extra dim schedule -->
+    <!-- Extra dim schedule -->
     <string name="extra_dim_schedule_title">Zamanla</string>
     <string name="disabled">Devre dışı</string>
     <string name="always_on_display_schedule_title">Her zaman açık ekranı programla</string>
@@ -426,10 +403,6 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rootlu hata ayıklama</string>
     <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
-    <string name="face_unlock_method_default">Ekran açıldığında</string>
-    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
     <string name="touch_polling_title">Yüksek dokunmatik yoklama oranı</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
@@ -472,7 +445,6 @@
     <string name="kill_app">Ön plan uygulamasını sonlandır</string>
     <string name="recent_app_toggle">Son kullanılan uygulamaya geç</string>
     <string name="show_powermenu">Güç menüsünü göster</string>
-    <string name="partial_screenshot">Kısmi ekran görüntüsü</string>
     <string name="action_forward">İlerle</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Gelişmiş hareket seçenekleri</string>
@@ -570,4 +542,21 @@
     <string name="battery_design_capacity">Tasarım kapasitesi</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">En yüksek kapasite</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="refresh_rate_title">Yenileme hızı</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Uyarlanabilir)</string>
+    <string name="refresh_rate_vrr_title">Uyarlanabilir yenileme hızı</string>
+    <string name="refresh_rate_vrr_summary">Güç tasarrufu yapmak için, ekran boştayken yenileme hızını otomatik olarak düşür. Bazı ekranlarda titremeye veya renk kaymasına sebep olabilir</string>
+    <string name="refresh_rate_footer">Yüksek yenileme hızı ekranı daha hızlı yapar, ancak güç tüketimini artırır</string>
+    <string name="keywords_refresh_rate">yenileme, hızı, yumuşak, zirve, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary_custom">Bazı içerikler için yenileme hızını otomatik olarak 60\'tan %1$d Hz\'e yükseltir. Pil kullanımını artırır.</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Hızlı şarj</string>
+    <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
+    <string name="restricted_current_summary">Maksimum izin verilen akım (mA)</string>
+    <string name="string_enabled">Etkin</string>
+    <string name="string_disabled">Devre dışı</string>
+    <string name="string_on">Açık</string>
+    <string name="string_off">Kapalı</string>
 </resources>
