@@ -24,15 +24,6 @@
     <string name="build_status">Statut de la compilation</string>
     <string name="radio_info_title">Infos radio</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Taux de rafraîchissement</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (adaptatif)</string>
-    <string name="refresh_rate_vrr_title">Taux de rafraîchissement adaptatif</string>
-    <string name="refresh_rate_vrr_summary">Diminuer automatiquement la fréquence de rafraîchissement lorsque l\'affichage est inactif, pour économiser de l\'énergie. Peut causer un scintillement ou un décalage de couleur sur certains affichages</string>
-    <string name="refresh_rate_footer">Un taux de rafraîchissement plus élevé rend l\'affichage plus lisse, mais augmente la consommation d\'énergie</string>
-    <string name="keywords_refresh_rate">rafraîchissement, taux, atténuation, pic, 60hz, 90hz, 120hz, 144hz, 165hz</string>
-    <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
-    <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
     <string name="low_power_refresh_rate_title_custom">Taux de rafraîchissement avec économiseur d\'énergie</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localisez le capteur d\'empreintes digitales à l\'avant de votre tablette.</string>
@@ -59,10 +50,6 @@
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Toucher le capteur pour déverrouiller, même lorsque l\'écran est éteint. Le capteur de proximité empêche un déverrouillage accidentel.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Attention : Cette option peut ne pas fonctionner correctement ou entraîner une perte de données et n\'est donc pas recommandée !</string>
-    <!-- FastCharge feature -->
-    <string name="fast_charging_title">Charge rapide</string>
-    <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil lors de la charge ou étendre la durée de vie de la batterie</string>
-    <string name="restricted_current_summary">Définir le courant maximum autorisé (mA)</string>
     <!-- Package details -->
     <string name="package_details_group_title">Détails du package</string>
     <string name="package_name">Nom du package</string>
@@ -288,9 +275,6 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Le Bluetooth sera désactivé après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
     <string name="bluetooth_timeout_summary2">Ne pas désactiver le Bluetooth automatiquement</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
-    <string name="unlock_quick_unlock_control_summary">Déverouiller automatiquement l\'appareil lorsque le PIN/mot de passe correct est entré</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">Contrôle de la charge</string>
     <string name="charging_control_summary">Personnalisez le planning de charge et les limites pour votre appareil</string>
@@ -312,8 +296,6 @@
     <string name="auto_brightness_one_shot_summary">La luminosité ne s\'ajustera qu\'au moment où l\'écran s\'allume</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Afficher l\'historique des notifications</string>
-    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">Augmente automatiquement le taux de rafraîchissement de 60 à %1$d Hz pour certains contenus. Accroît l\'utilisation de la batterie.</string>
     <!-- VPN app management screen, global VPN -->
     <string name="global_vpn_title">VPN global</string>
     <string name="global_vpn_summary">Forcer tout le trafic sur l\'appareil via ce VPN, y compris le profil professionnel et celui d\'autres utilisateurs.</string>
@@ -384,7 +366,7 @@
     <string name="nfc_sounds_title">Sons NFC</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Utiliser le bouton de rotation flottant</string>
-    <!-- Display : Rotation -->
+    <!-- Display - Rotation -->
     <string name="display_rotation_title">Paramètres de rotation</string>
     <string name="display_rotation_enabled">La rotation automatique est activée</string>
     <string name="display_rotation_disabled">La rotation automatique est désactivée</string>
@@ -405,14 +387,9 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Contrôle de lecture</string>
-    <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume changera la piste musicale</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Processus en arrière-plan</string>
-    <!-- Skip biometric manual confirmation -->
-    <string name="skip_biometric_auth_confirmation_title">Ignorer la confirmation manuelle</string>
-    <!-- extra dim schedule -->
+    <!-- Extra dim schedule -->
     <string name="extra_dim_schedule_title">Planifier</string>
     <string name="disabled">Désactivé</string>
     <string name="always_on_display_schedule_title">Affichage permanent programmé</string>
@@ -426,10 +403,6 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Débogage en mode root</string>
     <string name="adb_enable_summary_root">Autoriser le débogage Android en tant que root</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
-    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
-    <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
     <string name="touch_polling_title">Taux d’échantillonnage tactile élevé</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
@@ -472,7 +445,6 @@
     <string name="kill_app">Tuer l\'application en premier plan</string>
     <string name="recent_app_toggle">Changer d\'application récente</string>
     <string name="show_powermenu">Afficher le menu marche/arrêt</string>
-    <string name="partial_screenshot">Capture d\'écran partielle</string>
     <string name="action_forward">Avancer</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Options de gestes avancées</string>
@@ -570,4 +542,21 @@
     <string name="battery_design_capacity">Capacité de conception</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Capacité maximale</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="refresh_rate_title">Taux de rafraîchissement</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (adaptatif)</string>
+    <string name="refresh_rate_vrr_title">Taux de rafraîchissement adaptatif</string>
+    <string name="refresh_rate_vrr_summary">Diminuer automatiquement la fréquence de rafraîchissement lorsque l\'affichage est inactif, pour économiser de l\'énergie. Peut causer un scintillement ou un décalage de couleur sur certains affichages</string>
+    <string name="refresh_rate_footer">Un taux de rafraîchissement plus élevé rend l\'affichage plus lisse, mais augmente la consommation d\'énergie</string>
+    <string name="keywords_refresh_rate">rafraîchissement, taux, atténuation, pic, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary_custom">Augmente automatiquement le taux de rafraîchissement de 60 à %1$d Hz pour certains contenus. Accroît l\'utilisation de la batterie.</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Charge rapide</string>
+    <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil lors de la charge ou étendre la durée de vie de la batterie</string>
+    <string name="restricted_current_summary">Définir le courant maximum autorisé (mA)</string>
+    <string name="string_enabled">Activé</string>
+    <string name="string_disabled">Désactivé</string>
+    <string name="string_on">Activé</string>
+    <string name="string_off">Désactivé</string>
 </resources>
