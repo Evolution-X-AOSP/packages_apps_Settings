@@ -24,15 +24,6 @@
     <string name="build_status">Статус сборки</string>
     <string name="radio_info_title">Информация о сети</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Частота обновления</string>
-    <string name="refresh_rate_summary_vrr_off">%d Гц</string>
-    <string name="refresh_rate_summary_vrr_on">%d Гц (Адаптивные)</string>
-    <string name="refresh_rate_vrr_title">Адаптивная частота обновления</string>
-    <string name="refresh_rate_vrr_summary">Автоматическое снижение частоты обновления для экономии заряда во время простоя. Может вызывать мерцания или искажение цветов на некоторых дисплеях</string>
-    <string name="refresh_rate_footer">При высокой частоте обновления изображение на экране становится более плавным, но при этом увеличивается энергопотребление</string>
-    <string name="keywords_refresh_rate">обновления, частота, плавно, пиковая, 60гц, 90гц, 120гц, 144гц, 165гц</string>
-    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
-    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
     <string name="low_power_refresh_rate_title_custom">Частота обновления при низком заряде батареи</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на лицевой стороне вашего планшета.</string>
@@ -59,10 +50,6 @@
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Коснитесь сенсора, чтобы разблокировать устройство, даже если экран выключен. Датчик приближения предотвращает случайную разблокировку.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Внимание: Эта опция может работать неправильно или привести к потере данных, поэтому она не рекомендуется!</string>
-    <!-- FastCharge feature -->
-    <string name="fast_charging_title">Быстрая зарядка</string>
-    <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки или продлить срок службы аккумулятора</string>
-    <string name="restricted_current_summary">Установка максимально допустимого тока (мА)</string>
     <!-- Package details -->
     <string name="package_details_group_title">Информация о пакете</string>
     <string name="package_name">Имя пакета</string>
@@ -288,9 +275,6 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключённых устройств</string>
     <string name="bluetooth_timeout_summary2">Не выключать Bluetooth автоматически</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
-    <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при вводе правильного PIN-кода/пароля</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">Управление зарядкой</string>
     <string name="charging_control_summary">Настроить график и ограничения зарядки для вашего устройства</string>
@@ -312,8 +296,6 @@
     <string name="auto_brightness_one_shot_summary">Регулировка яркости будет происходить только один раз в момент включения экрана</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Показать историю уведомлений</string>
-    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">Автоматически увеличивать частоту обновления экрана с 60 до %1$d Гц для некоторых типов контента. Это увеличит разряд батареи.</string>
     <!-- VPN app management screen, global VPN -->
     <string name="global_vpn_title">Глобальный VPN</string>
     <string name="global_vpn_summary">Принудительный трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей.</string>
@@ -384,7 +366,7 @@
     <string name="nfc_sounds_title">Звуки NFC</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Использовать плавающую кнопку поворота</string>
-    <!-- Display : Rotation -->
+    <!-- Display - Rotation -->
     <string name="display_rotation_title">Настройки поворота</string>
     <string name="display_rotation_enabled">Автоповорот включен</string>
     <string name="display_rotation_disabled">Автоповорот выключен</string>
@@ -405,14 +387,9 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Управление воспроизведением</string>
-    <string name="volume_button_music_control_summary">Когда экран выключен, длительное нажатие клавиш регулировки громкости переключает музыкальные треки</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Фоновые процессы</string>
-    <!-- Skip biometric manual confirmation -->
-    <string name="skip_biometric_auth_confirmation_title">Пропустить подтверждение вручную</string>
-    <!-- extra dim schedule -->
+    <!-- Extra dim schedule -->
     <string name="extra_dim_schedule_title">Расписание</string>
     <string name="disabled">Отключено</string>
     <string name="always_on_display_schedule_title">Расписание работы Всегда включённого экрана</string>
@@ -426,10 +403,6 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Отладка суперпользователем</string>
     <string name="adb_enable_summary_root">Разрешить запуск отладки Андроид с правами суперпользователя</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
-    <string name="face_unlock_method_default">Когда экран включён</string>
-    <string name="face_unlock_method_swipe">При свайпе на экране блокировки</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
     <string name="touch_polling_title">Высокая частота опроса касаний</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
@@ -472,7 +445,6 @@
     <string name="kill_app">Принудительно закрыть активное приложение</string>
     <string name="recent_app_toggle">Переключение на недавнее приложение</string>
     <string name="show_powermenu">Показать меню питания</string>
-    <string name="partial_screenshot">Частичный снимок экрана</string>
     <string name="action_forward">Далее</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Расширенные настройки жестов</string>
@@ -570,4 +542,21 @@
     <string name="battery_design_capacity">Расчетная ёмкость</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Текущая ёмкость</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="refresh_rate_title">Частота обновления</string>
+    <string name="refresh_rate_summary_vrr_off">%d Гц</string>
+    <string name="refresh_rate_summary_vrr_on">%d Гц (Адаптивные)</string>
+    <string name="refresh_rate_vrr_title">Адаптивная частота обновления</string>
+    <string name="refresh_rate_vrr_summary">Автоматическое снижение частоты обновления для экономии заряда во время простоя. Может вызывать мерцания или искажение цветов на некоторых дисплеях</string>
+    <string name="refresh_rate_footer">При высокой частоте обновления изображение на экране становится более плавным, но при этом увеличивается энергопотребление</string>
+    <string name="keywords_refresh_rate">обновления, частота, плавно, пиковая, 60гц, 90гц, 120гц, 144гц, 165гц</string>
+    <string name="peak_refresh_rate_summary_custom">Автоматически увеличивать частоту обновления экрана с 60 до %1$d Гц для некоторых типов контента. Это увеличит разряд батареи.</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Быстрая зарядка</string>
+    <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки или продлить срок службы аккумулятора</string>
+    <string name="restricted_current_summary">Установка максимально допустимого тока (мА)</string>
+    <string name="string_enabled">Включено</string>
+    <string name="string_disabled">Отключено</string>
+    <string name="string_on">Вкл</string>
+    <string name="string_off">Выкл.</string>
 </resources>
