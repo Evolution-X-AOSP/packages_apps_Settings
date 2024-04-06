@@ -24,15 +24,6 @@
     <string name="build_status">Status kompilacji</string>
     <string name="radio_info_title">Informacje o radiu</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Częstotliwość odświeżania</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptacyjne)</string>
-    <string name="refresh_rate_vrr_title">Adaptacyjna częstotliwość odświeżania</string>
-    <string name="refresh_rate_vrr_summary">Automatycznie obniżaj częstotliwość odświeżania, gdy wyświetlacz jest bezczynny, aby zaoszczędzić energię. Może to powodować migotanie lub zmianę kolorów na niektórych wyświetlaczach</string>
-    <string name="refresh_rate_footer">Wyższa częstotliwość odświeżania sprawia, że wyświetlacz jest bardziej płynny, ale zwiększa to zużycie energii</string>
-    <string name="keywords_refresh_rate">odświeżanie, współczynnik, płynność, 60hz, 90hz, 120hz, 144hz, 165hz</string>
-    <string name="min_refresh_rate_title">Minimalna częstotliwość odświeżania</string>
-    <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania</string>
     <string name="low_power_refresh_rate_title_custom">Częstotliwość odświeżania przy niskim poziomie energii</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Zlokalizuj czytnik linii papilarnych z przodu twojego tabletu.</string>
@@ -59,10 +50,6 @@
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Dotknij czujnika, aby odblokować, nawet gdy ekran jest wyłączony. Czujnik zbliżeniowy zapobiega przypadkowemu odblokowaniu.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Ostrzeżenie: Ta opcja może nie działać poprawnie lub prowadzić do utraty danych i dlatego nie jest zalecana!</string>
-    <!-- FastCharge feature -->
-    <string name="fast_charging_title">Szybkie ładowanie</string>
-    <string name="fast_charging_summary">Wyłącz, aby zmniejszyć ilość ciepła wytwarzanego przez urządzenie podczas ładowania lub w celu wydłużenia żywotności baterii</string>
-    <string name="restricted_current_summary">Ustaw maksymalny dozwolony prąd (mA)</string>
     <!-- Package details -->
     <string name="package_details_group_title">Szczegóły pakietu</string>
     <string name="package_name">Nazwa pakietu</string>
@@ -288,9 +275,6 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth wyłączy się po <xliff:g id="timeout_description">%1$s</xliff:g> jeśli nie ma podłączonych urządzeń</string>
     <string name="bluetooth_timeout_summary2">Nie wyłączaj automatycznie Bluetooth</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
-    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, kiedy zostanie podany prawidłowy PIN/hasło</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">Kontrola ładowania</string>
     <string name="charging_control_summary">Dostosuj harmonogram ładowania i limity dla urządzenia</string>
@@ -312,8 +296,6 @@
     <string name="auto_brightness_one_shot_summary">Zmiana jasności będzie występować tylko, gdy ekran będzie włączony</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Pokaż historię powiadomień</string>
-    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">W przypadku niektórych treści automatycznie podwyższa częstotliwość odświeżania z 60 na %1$d Hz. Zwiększa zużycie baterii.</string>
     <!-- VPN app management screen, global VPN -->
     <string name="global_vpn_title">Globalny VPN</string>
     <string name="global_vpn_summary">Wymuś cały ruch na urządzeniu przez ten VPN, w tym profil do pracy i innych użytkowników.</string>
@@ -384,7 +366,7 @@
     <string name="nfc_sounds_title">Dźwięki NFC</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Użyj pływającego przycisku obrotu</string>
-    <!-- Display : Rotation -->
+    <!-- Display - Rotation -->
     <string name="display_rotation_title">Ustawienia obracania</string>
     <string name="display_rotation_enabled">Autoobracanie jest włączone</string>
     <string name="display_rotation_disabled">Autoobracanie jest wyłączone</string>
@@ -405,14 +387,9 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Kontrola odtwarzania</string>
-    <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Procesy w tle</string>
-    <!-- Skip biometric manual confirmation -->
-    <string name="skip_biometric_auth_confirmation_title">Pomiń potwierdzenie</string>
-    <!-- extra dim schedule -->
+    <!-- Extra dim schedule -->
     <string name="extra_dim_schedule_title">Harmonogram</string>
     <string name="disabled">Wyłączone</string>
     <string name="always_on_display_schedule_title">Always-On Display</string>
@@ -426,10 +403,6 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Zrootowane debugowanie</string>
     <string name="adb_enable_summary_root">Zezwól na debugowanie Androida jako root</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Zezwól na odblokowanie twarzą na ekranie blokady</string>
-    <string name="face_unlock_method_default">Gdy ekran jest włączony</string>
-    <string name="face_unlock_method_swipe">Po przesunięciu palcem na ekranie blokady</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
     <string name="touch_polling_title">Wysoka częstotliwość próbkowania dotykowego</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
@@ -472,7 +445,6 @@
     <string name="kill_app">Zamknij aktywną aplikację</string>
     <string name="recent_app_toggle">Przełącz ostatnią aplikację</string>
     <string name="show_powermenu">Pokaż menu zasilania</string>
-    <string name="partial_screenshot">Częściowy zrzut ekranu</string>
     <string name="action_forward">Przejdź dalej</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Zaawansowane opcje gestów</string>
@@ -570,4 +542,21 @@
     <string name="battery_design_capacity">Fabryczna pojemność baterii</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maksymalna pojemność</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="refresh_rate_title">Częstotliwość odświeżania</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptacyjne)</string>
+    <string name="refresh_rate_vrr_title">Adaptacyjna częstotliwość odświeżania</string>
+    <string name="refresh_rate_vrr_summary">Automatycznie obniżaj częstotliwość odświeżania, gdy wyświetlacz jest bezczynny, aby zaoszczędzić energię. Może to powodować migotanie lub zmianę kolorów na niektórych wyświetlaczach</string>
+    <string name="refresh_rate_footer">Wyższa częstotliwość odświeżania sprawia, że wyświetlacz jest bardziej płynny, ale zwiększa to zużycie energii</string>
+    <string name="keywords_refresh_rate">odświeżanie, współczynnik, płynność, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary_custom">W przypadku niektórych treści automatycznie podwyższa częstotliwość odświeżania z 60 na %1$d Hz. Zwiększa zużycie baterii.</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Szybkie ładowanie</string>
+    <string name="fast_charging_summary">Wyłącz, aby zmniejszyć ilość ciepła wytwarzanego przez urządzenie podczas ładowania lub w celu wydłużenia żywotności baterii</string>
+    <string name="restricted_current_summary">Ustaw maksymalny dozwolony prąd (mA)</string>
+    <string name="string_enabled">Włączony</string>
+    <string name="string_disabled">Wyłączone</string>
+    <string name="string_on">Włącz</string>
+    <string name="string_off">Wyłącz</string>
 </resources>
