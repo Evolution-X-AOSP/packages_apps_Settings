@@ -24,6 +24,8 @@
     <string name="build_status">Gyártási állapot</string>
     <string name="radio_info_title">Rádióinformációk</string>
     <!-- Refresh rate -->
+    <string name="max_refresh_rate_title">Frissítés csúcsértéke</string>
+    <string name="min_refresh_rate_title">Frissítés minimumértéke</string>
     <string name="low_power_refresh_rate_title_custom">Képernyőfrissítés gyenge akkuhoz</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Táblagépe előlapján találhatja meg az ujjlenyomat-olvasót.</string>
@@ -560,4 +562,7 @@
     <string name="string_disabled">Kikapcsolva</string>
     <string name="string_on">Be</string>
     <string name="string_off">Ki</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
+    <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
 </resources>
