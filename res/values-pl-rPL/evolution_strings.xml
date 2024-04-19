@@ -24,6 +24,8 @@
     <string name="build_status">Status kompilacji</string>
     <string name="radio_info_title">Informacje o radiu</string>
     <!-- Refresh rate -->
+    <string name="max_refresh_rate_title">Szczytowe odświeżanie</string>
+    <string name="min_refresh_rate_title">Min. częstotliwość odświeżania</string>
     <string name="low_power_refresh_rate_title_custom">Częstotliwość odświeżania przy niskim poziomie energii</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Zlokalizuj czytnik linii papilarnych z przodu twojego tabletu.</string>
@@ -559,4 +561,7 @@
     <string name="string_disabled">Wyłączone</string>
     <string name="string_on">Włącz</string>
     <string name="string_off">Wyłącz</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Kontrola odtwarzania</string>
+    <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
 </resources>
