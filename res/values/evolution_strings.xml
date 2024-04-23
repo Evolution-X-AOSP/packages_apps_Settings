@@ -17,20 +17,16 @@
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
 
-    <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Evolution X version</string>
-
-    <!-- About device screen, Build date -->
+    <!-- About device screen -->
+    <string name="evolution_version">Evolution X version</string>
+    <string name="evolution_version_codename">Version codename</string>
     <string name="build_date">Build date</string>
-
-    <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Build maintainer</string>
     <string name="build_maintainer_summary" translatable="false">Unknown</string>
     <string name="build_maintainer_donate_url" translatable="false">https://linktr.ee/joeyhuab</string>
-
-    <!-- Build status -->
     <string name="build_status">Build status</string>
     <string name="build_status_summary" translatable="false">Custom</string>
+    <string name="build_type">Build type</string>
 
     <string name="radio_info_title">Radio info</string>
 
