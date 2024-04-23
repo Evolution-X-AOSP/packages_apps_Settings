@@ -201,7 +201,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.evolution.settings.EvolutionSettings;
-import com.evolution.settings.fragments.HeadsUpSettings;
+import com.evolution.settings.fragments.notifications.HeadsUpSettings;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
