@@ -14,14 +14,14 @@
     <!-- Hardware info -->
     <string name="soc_model">Модель SoC</string>
     <string name="total_ram">Об\'єм ОЗП</string>
-    <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Версія Evolution X</string>
-    <!-- About device screen, Build date -->
+    <!-- About device screen -->
+    <string name="evolution_version">Версія Evolution X</string>
+    <string name="evolution_version_codename">Кодове ім\'я версії</string>
     <string name="build_date">Дата збірки</string>
-    <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Розробник збірки</string>
-    <!-- Build status -->
     <string name="build_status">Статус збірки</string>
+    <string name="build_type">Тип збірки</string>
+    <string name="about_device_name">Пристрій</string>
     <string name="radio_info_title">Інформація про радіо</string>
     <!-- Refresh rate -->
     <string name="max_refresh_rate_title">Максимальна частота оновлення</string>
