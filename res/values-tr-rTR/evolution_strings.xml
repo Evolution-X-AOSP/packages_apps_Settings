@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2023 Evolution X
+     Copyright (C) 2024 Evolution X
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -14,14 +14,14 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC Modeli</string>
     <string name="total_ram">Toplam RAM</string>
-    <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Evolution X sürümü</string>
-    <!-- About device screen, Build date -->
+    <!-- About device screen -->
+    <string name="evolution_version">Evolution X sürümü</string>
+    <string name="evolution_version_codename">Sürüm kod adı</string>
     <string name="build_date">Sürüm tarihi</string>
-    <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Cihaz sorumlusu</string>
-    <!-- Build status -->
     <string name="build_status">Sürüm durumu</string>
+    <string name="build_type">Yapı türü</string>
+    <string name="about_device_name">Cihaz</string>
     <string name="radio_info_title">Radyo bilgisi</string>
     <!-- Refresh rate -->
     <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
