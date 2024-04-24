@@ -18,7 +18,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/firmware_version"
+    android:title="@string/evolution_version"
     settings:keywords="@string/keywords_android_version">
 
     <!-- Evolution X logo -->
@@ -28,64 +28,73 @@
         android:clickable="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXLogoPreferenceController"/>
 
-    <!-- Android version -->
+    <!-- Device name -->
     <Preference
-        android:key="os_firmware_version"
-        android:title="@string/firmware_version"
+        android:key="about_device_name"
+        android:title="@string/about_device_name"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://discord.gg/evolution-x-670512508871639041"/>
+    </Preference>
 
     <!-- Evolution X version -->
     <Preference
         android:key="evolution_version"
         android:title="@string/evolution_version"
         android:summary="@string/summary_placeholder"
-        android:fragment="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionSettings"
         settings:enableCopying="true"
         settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionDetailPreferenceController"/>
 
-    <!-- Security patch -->
+    <!-- Evolution X version codename -->
     <Preference
-        android:key="security_key"
-        android:title="@string/security_patch"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
-
-    <!-- Mainline module version -->
-    <Preference
-        android:key="module_version"
-        android:title="@string/module_version"
+        android:key="evolution_version_codename"
+        android:title="@string/evolution_version_codename"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXVersionCodenamePreferenceController"/>
 
-    <!-- Baseband -->
+    <!-- Build type -->
     <Preference
-        android:key="base_band"
-        android:title="@string/baseband_version"
+        android:key="os_build_type"
+        android:title="@string/build_type"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildTypePreferenceController"/>
 
-    <!-- Kernel -->
+    <!-- Build status -->
     <Preference
-        android:key="kernel_version"
-        android:title="@string/kernel_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
-
-    <!-- Build number -->
-    <Preference
-        android:key="os_build_number"
-        android:title="@string/build_number"
+        android:key="os_build_status"
+        android:title="@string/build_status"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildStatusPreferenceController"/>
+
+    <!-- Build maintainer -->
+    <Preference
+        android:key="os_build_maintainer"
+        android:title="@string/build_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildMaintainerPreferenceController">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/build_maintainer_donate_url"/>
+    </Preference>
+
+    <!-- Build date -->
+    <Preference
+        android:key="os_build_date"
+        android:title="@string/build_date"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildDatePreferenceController"/>
 
 </PreferenceScreen>
