@@ -564,4 +564,7 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Müzik kontrolü</string>
     <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
+    <!-- Unlimit screenrecord -->
+    <string name="unlimit_screenrecord_title">Sınırsız ekran kaydı</string>
+    <string name="unlimit_screenrecord_summary">15GiB dosya boyutu sınırını kaldırın\nGerektiğinden daha büyük bir dosyaya neden olabilir</string>
 </resources>
