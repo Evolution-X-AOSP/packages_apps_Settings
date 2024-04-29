@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2023 Evolution X
+     Copyright (C) 2024 Evolution X
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -564,4 +564,7 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Керування медіа програвачем</string>
     <string name="volume_button_music_control_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
+    <!-- Unlimit screenrecord -->
+    <string name="unlimit_screenrecord_title">Скасувати обмеження запису екрану</string>
+    <string name="unlimit_screenrecord_summary">Видалити обмеження розміру 15 Гб файлу\nМоже призвести до більшого, ніж необхідний файл виводу</string>
 </resources>

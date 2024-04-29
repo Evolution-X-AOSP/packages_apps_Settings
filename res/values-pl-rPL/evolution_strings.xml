@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2023 Evolution X
+     Copyright (C) 2024 Evolution X
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -14,14 +14,14 @@
     <!-- Hardware info -->
     <string name="soc_model">Model procesora</string>
     <string name="total_ram">Całkowita ilość pamięci RAM</string>
-    <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Wersja Evolution X</string>
-    <!-- About device screen, Build date -->
+    <!-- About device screen -->
+    <string name="evolution_version">Wersja Evolution X</string>
+    <string name="evolution_version_codename">Nazwa kodowa wersji</string>
     <string name="build_date">Data kompilacji</string>
-    <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Opiekun kompilacji</string>
-    <!-- Build status -->
     <string name="build_status">Status kompilacji</string>
+    <string name="build_type">Typ kompilacji</string>
+    <string name="about_device_name">Urządzenie</string>
     <string name="radio_info_title">Informacje o radiu</string>
     <!-- Refresh rate -->
     <string name="max_refresh_rate_title">Szczytowe odświeżanie</string>
