@@ -155,14 +155,6 @@
             settings:widgetLayout="@null"
             settings:keywords="@string/keywords_display_dc_dimming"/>
 
-        <!-- Smart Pixels -->
-        <Preference
-            android:key="smart_pixels"
-            android:title="@string/smart_pixels_title" 
-            android:summary="@string/smart_pixels_summary"
-            android:fragment="com.android.settings.display.SmartPixels"
-            settings:requiresConfig="@*android:bool/config_supportSmartPixels" />
-
         <SwitchPreferenceCompat
             android:key="display_white_balance"
             android:title="@string/display_white_balance_title"

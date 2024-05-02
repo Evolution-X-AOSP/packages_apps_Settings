@@ -106,7 +106,6 @@ import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.display.ScreenTimeoutSettings;
 import com.android.settings.display.RefreshRateSettings;
 import com.android.settings.display.SmartAutoRotatePreferenceFragment;
-import com.android.settings.display.SmartPixels;
 import com.android.settings.display.darkmode.DarkModeSettingsFragment;
 import com.android.settings.dream.DreamSettings;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
@@ -201,6 +200,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.evolution.settings.EvolutionSettings;
+import com.evolution.settings.fragments.miscellaneous.SmartPixels;
 import com.evolution.settings.fragments.notifications.HeadsUpSettings;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
