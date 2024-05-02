@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2023 Evolution X
+     Copyright (C) 2024 Evolution X
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -14,16 +14,18 @@
     <!-- Hardware info -->
     <string name="soc_model">晶片型號</string>
     <string name="total_ram">總記憶體</string>
-    <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Evolution X 版本</string>
-    <!-- About device screen, Build date -->
+    <!-- About device screen -->
+    <string name="evolution_version">Evolution X 版本</string>
+    <string name="evolution_version_codename">版本代號</string>
     <string name="build_date">建置日期</string>
-    <!-- About device screen, build maintainer -->
     <string name="build_maintainer">維護者</string>
-    <!-- Build status -->
     <string name="build_status">建置狀態</string>
+    <string name="build_type">組建類型</string>
+    <string name="about_device_name">裝置</string>
     <string name="radio_info_title">無線連接資訊</string>
     <!-- Refresh rate -->
+    <string name="max_refresh_rate_title">最高螢幕更新率</string>
+    <string name="min_refresh_rate_title">最低螢幕更新率</string>
     <string name="low_power_refresh_rate_title_custom">省電模式更新率</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">尋找位於平板正面的指紋感測器</string>
@@ -559,4 +561,10 @@
     <string name="string_disabled">停用</string>
     <string name="string_on">開啟</string>
     <string name="string_off">關閉</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">螢幕關閉時，長按音量鍵即可切換曲目</string>
+    <!-- Unlimit screenrecord -->
+    <string name="unlimit_screenrecord_title">無限制螢幕錄影</string>
+    <string name="unlimit_screenrecord_summary">移除檔案大小最高 15GB 的限制\n可能導致輸出檔案大小高於所需的大小</string>
 </resources>
