@@ -24,13 +24,6 @@
     <string name="build_status">建置狀態</string>
     <string name="radio_info_title">無線連接資訊</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">螢幕更新率</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (自適應)</string>
-    <string name="refresh_rate_vrr_title">自適應更新率</string>
-    <string name="refresh_rate_vrr_summary">當螢幕閒置時自動降低更新率以節省電量，可能會導致某些裝置的螢幕閃爍或色偏。</string>
-    <string name="refresh_rate_footer">更高的螢幕更新率可以讓顯示更流暢，但會增加功耗</string>
-    <string name="keywords_refresh_rate">螢幕更新率、流暢度、峰值、60 Hz、90 Hz、120 Hz、144 Hz、165 Hz</string>
     <string name="min_refresh_rate_title">最低更新率</string>
     <string name="max_refresh_rate_title">最高更新率</string>
     <string name="low_power_refresh_rate_title_custom">省電模式更新率</string>
@@ -388,7 +381,6 @@
     <string name="display_rotation_title">螢幕旋轉設定</string>
     <string name="display_rotation_enabled">啟用自動旋轉</string>
     <string name="display_rotation_disabled">停用自動旋轉</string>
-    <string name="display_lockscreen_rotation_title">鎖定畫面</string>
     <string name="display_rotation_unit">度</string>
     <string name="display_rotation_category_title">螢幕旋轉模式</string>
     <string name="display_rotation_0_title">0 度</string>
@@ -465,7 +457,6 @@
     <string name="action_screen_off">關閉螢幕</string>
     <string name="action_notifications">通知</string>
     <string name="action_power_menu">電源按鈕選單</string>
-    <string name="action_screenshot">螢幕截圖</string>
     <string name="action_qs_panel">快速設定面板</string>
     <string name="action_app_action">應用程式</string>
     <string name="action_ringer_modes">鈴聲模式</string>
