@@ -372,7 +372,6 @@
     <string name="display_rotation_title">Параметри автоповороту</string>
     <string name="display_rotation_enabled">Автоповорот увімкнуто</string>
     <string name="display_rotation_disabled">Автоповорот вимкнуто</string>
-    <string name="display_lockscreen_rotation_title">Екран блокування</string>
     <string name="display_rotation_unit">градусів</string>
     <string name="display_rotation_category_title">Режими повороту</string>
     <string name="display_rotation_0_title">0 градусів</string>
@@ -440,7 +439,6 @@
     <string name="action_screen_off">Вимкнення екрану</string>
     <string name="action_notifications">Сповіщення</string>
     <string name="action_power_menu">Меню живлення</string>
-    <string name="action_screenshot">Скріншот</string>
     <string name="action_qs_panel">Панель швидких налаштувань</string>
     <string name="action_app_action">Додаток</string>
     <string name="action_ringer_modes">Режими дзвінка</string>
@@ -559,7 +557,7 @@
     <string name="restricted_current_summary">Встановити допустимий максимальний струм (mA)</string>
     <string name="string_enabled">Увімкнено</string>
     <string name="string_disabled">Вимкнено</string>
-    <string name="string_on">Увімкнено</string>
+    <string name="string_on">Увімкнути</string>
     <string name="string_off">Вимкнути</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Керування медіа програвачем</string>
