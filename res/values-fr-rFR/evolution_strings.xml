@@ -24,13 +24,6 @@
     <string name="build_status">Statut de la compilation</string>
     <string name="radio_info_title">Infos radio</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Taux de rafraîchissement</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (adaptatif)</string>
-    <string name="refresh_rate_vrr_title">Taux de rafraîchissement adaptatif</string>
-    <string name="refresh_rate_vrr_summary">Diminuer automatiquement la fréquence de rafraîchissement lorsque l\'affichage est inactif, pour économiser de l\'énergie. Peut causer un scintillement ou un décalage de couleur sur certains affichages</string>
-    <string name="refresh_rate_footer">Un taux de rafraîchissement plus élevé rend l\'affichage plus lisse, mais augmente la consommation d\'énergie</string>
-    <string name="keywords_refresh_rate">rafraîchissement, taux, atténuation, pic, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
     <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
     <string name="low_power_refresh_rate_title_custom">Taux de rafraîchissement avec économiseur d\'énergie</string>
@@ -272,7 +265,7 @@
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Espace IME</string>
     <string name="ime_narrow">Fin</string>
-    <string name="ime_default">Défaut</string>
+    <string name="ime_default">Par défaut</string>
     <string name="ime_hidden">Cachée</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double appui</string>
@@ -388,7 +381,6 @@
     <string name="display_rotation_title">Paramètres de rotation</string>
     <string name="display_rotation_enabled">La rotation automatique est activée</string>
     <string name="display_rotation_disabled">La rotation automatique est désactivée</string>
-    <string name="display_lockscreen_rotation_title">Écran de verrouillage</string>
     <string name="display_rotation_unit">degrés</string>
     <string name="display_rotation_category_title">Modes de rotation</string>
     <string name="display_rotation_0_title">0 degré</string>
@@ -465,7 +457,6 @@
     <string name="action_screen_off">Écran éteint</string>
     <string name="action_notifications">Notifications</string>
     <string name="action_power_menu">Menu marche/arrêt</string>
-    <string name="action_screenshot">Capture d\'écran</string>
     <string name="action_qs_panel">Panneau des réglages rapide</string>
     <string name="action_app_action">Application</string>
     <string name="action_ringer_modes">Modes de sonnerie</string>
@@ -539,7 +530,7 @@
     <string name="notification_light_applist_title">Applications</string>
     <string name="notification_light_phonelist_title">Téléphone</string>
     <string name="notification_light_use_custom">Utiliser des valeurs personnalisées</string>
-    <string name="notification_light_default_value">Défaut</string>
+    <string name="notification_light_default_value">Par défaut</string>
     <string name="notification_light_missed_call_title">Appel manqué</string>
     <string name="notification_light_voicemail_title">Messagerie vocale</string>
     <string name="notification_light_screen_on">Voyants sur écran allumé</string>
