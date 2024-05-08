@@ -24,13 +24,6 @@
     <string name="build_status">Status da compilação</string>
     <string name="radio_info_title">Informação de rádio</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Taxa de atualização</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptável)</string>
-    <string name="refresh_rate_vrr_title">Taxa de atualização adaptável</string>
-    <string name="refresh_rate_vrr_summary">Reduza automaticamente a taxa de atualização quando a tela estiver ociosa para economizar energia. Pode causar cintilação ou mudança de cor em determinadas telas</string>
-    <string name="refresh_rate_footer">Uma taxa de atualização mais alta torna a tela mais suave, mas aumenta o consumo de energia</string>
-    <string name="keywords_refresh_rate">atualização, taxa, suave, pico, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
     <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
     <string name="low_power_refresh_rate_title_custom">Taxa de atualização para poupar energia</string>
@@ -388,7 +381,6 @@
     <string name="display_rotation_title">Configurações de rotação</string>
     <string name="display_rotation_enabled">A rotação automática está ativada</string>
     <string name="display_rotation_disabled">A rotação automática está desativada</string>
-    <string name="display_lockscreen_rotation_title">Tela de bloqueio</string>
     <string name="display_rotation_unit">graus</string>
     <string name="display_rotation_category_title">Modos de rotação</string>
     <string name="display_rotation_0_title">0 graus</string>
@@ -465,7 +457,6 @@
     <string name="action_screen_off">Desligar tela</string>
     <string name="action_notifications">Notificações</string>
     <string name="action_power_menu">Menu de energia</string>
-    <string name="action_screenshot">Captura de tela</string>
     <string name="action_qs_panel">Painel de configurações rápidas</string>
     <string name="action_app_action">Aplicativo</string>
     <string name="action_ringer_modes">Modos de toque</string>
