@@ -24,13 +24,6 @@
     <string name="build_status">Статус сборки</string>
     <string name="radio_info_title">Информация о сети</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Частота обновления</string>
-    <string name="refresh_rate_summary_vrr_off">%d Гц</string>
-    <string name="refresh_rate_summary_vrr_on">%d Гц (Адаптивные)</string>
-    <string name="refresh_rate_vrr_title">Адаптивная частота обновления</string>
-    <string name="refresh_rate_vrr_summary">Автоматическое снижение частоты обновления для экономии заряда во время простоя. Может вызывать мерцания или искажение цветов на некоторых дисплеях</string>
-    <string name="refresh_rate_footer">При высокой частоте обновления изображение на экране становится более плавным, но при этом увеличивается энергопотребление</string>
-    <string name="keywords_refresh_rate">обновления, частота, плавно, пиковая, 60гц, 90гц, 120гц, 144гц, 165гц</string>
     <string name="min_refresh_rate_title">Минимальная частота обновления</string>
     <string name="max_refresh_rate_title">Максимальная частота обновления</string>
     <string name="low_power_refresh_rate_title_custom">Частота обновления при низком заряде батареи</string>
@@ -388,7 +381,6 @@
     <string name="display_rotation_title">Настройки поворота</string>
     <string name="display_rotation_enabled">Автоповорот включен</string>
     <string name="display_rotation_disabled">Автоповорот выключен</string>
-    <string name="display_lockscreen_rotation_title">Экран блокировки</string>
     <string name="display_rotation_unit">градусов</string>
     <string name="display_rotation_category_title">Режимы поворота</string>
     <string name="display_rotation_0_title">0 градусов</string>
@@ -407,7 +399,7 @@
     <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Управление воспроизведением</string>
-    <string name="volume_button_music_control_summary">Когда экран выключен, длительное нажатие клавиш регулировки громкости переключает музыкальные треки</string>
+    <string name="volume_button_music_control_summary">Переключение треков долгим нажатием кнопок громкости при выключенном экране</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Фоновые процессы</string>
     <!-- Skip biometric manual confirmation -->
@@ -465,7 +457,6 @@
     <string name="action_screen_off">Выключить экран</string>
     <string name="action_notifications">Уведомления</string>
     <string name="action_power_menu">Меню питания</string>
-    <string name="action_screenshot">Снимок экрана</string>
     <string name="action_qs_panel">Панель быстрых настроек</string>
     <string name="action_app_action">Приложение</string>
     <string name="action_ringer_modes">Режимы звонка</string>
