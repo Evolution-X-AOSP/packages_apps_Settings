@@ -24,14 +24,7 @@
     <string name="build_status">Gyártási állapot</string>
     <string name="radio_info_title">Rádióinformációk</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Frissítési gyakoriság</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Alkalmazkodó)</string>
-    <string name="refresh_rate_vrr_title">Alkalmazkodó frissítési gyakoriság</string>
-    <string name="refresh_rate_vrr_summary">Az energiatakarékosság érdekében automatikusan csökkenti a frissítési gyakoriságot, amikor a kijelző tétlen. Egyes kijelzőkön villogást vagy színeltérést okozhat</string>
-    <string name="refresh_rate_footer">A nagyobb frissítési gyakoriság simábbá teszi a kijelző képét, de növeli az energiafogyasztást</string>
-    <string name="keywords_refresh_rate">frissítés, gyakoriság, sima, csúcs, 60Hz, 90Hz, 120Hz, 144Hz, 165Hz</string>
-    <string name="min_refresh_rate_title">Képernyőfrissítési minimum</string>
+    <string name="min_refresh_rate_title">Frissítés minimumértéke</string>
     <string name="max_refresh_rate_title">Képernyőfrissítési maximum</string>
     <string name="low_power_refresh_rate_title_custom">Képernyőfrissítés gyenge akkuhoz</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
@@ -388,7 +381,6 @@
     <string name="display_rotation_title">Elforgatási beállítások</string>
     <string name="display_rotation_enabled">Az automatikus elforgatás engedélyezve</string>
     <string name="display_rotation_disabled">Az automatikus elforgatás letiltva</string>
-    <string name="display_lockscreen_rotation_title">Képernyőzár</string>
     <string name="display_rotation_unit">fok</string>
     <string name="display_rotation_category_title">Elforgatási módok</string>
     <string name="display_rotation_0_title">0 fok</string>
@@ -465,7 +457,6 @@
     <string name="action_screen_off">Kijelző kikapcsolása</string>
     <string name="action_notifications">Értesítések</string>
     <string name="action_power_menu">Kikapcsolási menü</string>
-    <string name="action_screenshot">Képernyőkép</string>
     <string name="action_qs_panel">Gyorsbeállítások-panel</string>
     <string name="action_app_action">Alkalmazás</string>
     <string name="action_ringer_modes">Csengésmódok</string>
