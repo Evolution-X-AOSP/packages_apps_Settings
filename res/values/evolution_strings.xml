@@ -512,7 +512,7 @@
     <string name="steps_unit">steps</string>
 
     <!-- Misc Haptics -->
-    <string name="misc_vibration_category_title">Misc Haptics</string>
+    <string name="misc_vibration_category_title">Additional vibration options</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
