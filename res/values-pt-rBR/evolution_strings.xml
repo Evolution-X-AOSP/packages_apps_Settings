@@ -24,13 +24,6 @@
     <string name="build_status">Status da compilação</string>
     <string name="radio_info_title">Informação de rádio</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Taxa de atualização</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptável)</string>
-    <string name="refresh_rate_vrr_title">Taxa de atualização adaptável</string>
-    <string name="refresh_rate_vrr_summary">Reduza automaticamente a taxa de atualização quando a tela estiver ociosa para economizar energia. Pode causar cintilação ou mudança de cor em determinadas telas</string>
-    <string name="refresh_rate_footer">Uma taxa de atualização mais alta torna a tela mais suave, mas aumenta o consumo de energia</string>
-    <string name="keywords_refresh_rate">atualização, taxa, suave, pico, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
     <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
     <string name="low_power_refresh_rate_title_custom">Taxa de atualização para poupar energia</string>
