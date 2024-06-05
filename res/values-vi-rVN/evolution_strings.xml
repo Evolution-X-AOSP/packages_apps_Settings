@@ -10,7 +10,7 @@
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Không xác thực</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">Không có chứng chỉ nào được chỉ định. Kết nối của bạn sẽ không phải là riêng tư.</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Không có chứng chỉ nào được chỉ định. Kết nối của bạn sẽ không được bảo mật.</string>
     <!-- Hardware info -->
     <string name="soc_model">Mẫu SoC</string>
     <string name="total_ram">Tổng RAM</string>
@@ -28,15 +28,30 @@
     <string name="max_refresh_rate_title">Tần số quét tối đa</string>
     <string name="low_power_refresh_rate_title_custom">Tấn số quét khi pin yếu</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Định vị cảm biến vân tay trên mặt trước điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Định vị cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Định vị cảm biến vân tay ở cạnh bên điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vị trí cảm biến vân tay trên mặt trước máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Vị trí cảm biến vân tay trên mặt trước thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Định vị cảm biến vân tay trên mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vị trí cảm biến vân tay ở mặt sau máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vị trí cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Định vị cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vị trí cảm biến vân tay ở cạnh bên máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Vị trí cảm biến vân tay ở cạnh bên thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Định vị cảm biến vân tay ở cạnh bên điện thoại của bạn.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Chạm vào cảm biến trên mặt trước điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Chạm vào cảm biến ở mặt sau điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Chạm vào cảm biến ở cạnh bên điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Chạm vào cảm biến ở mặt trước máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Chạm vào cảm biến ở mặt trước thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Chạm vào cảm biến trên mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Chạm vào cảm biến ở mặt sau máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Chạm vào cảm biến ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Chạm vào cảm biến ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Chạm vào cảm biến ở mặt bên của máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Chạm vào cảm biến ở bên cạnh thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Chạm vào cảm biến ở cạnh bên điện thoại của bạn.</string>
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Chạm vào cảm biến để mở khóa, ngay cả khi màn hình tắt. Cảm biến tiệm cận ngăn ngừa việc vô tình mở khóa.</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Cảnh báo: Tuỳ chọn này không được khuyến khích!. Nó có thể hoạt động không đúng hoặc gây mất dữ liệu</string>
+    <string name="storage_warning_internal">Cảnh báo: Tuỳ chọn này không được khuyến khích! Nó có thể hoạt động không đúng hoặc gây mất dữ liệu.</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Sạc nhanh</string>
     <string name="fast_charging_summary">Tắt để giảm nhiệt độ của thiết bị trong khi sạc hoặc để kéo dài tuổi thọ của pin</string>
@@ -49,8 +64,8 @@
     <string name="wifi_hotspot_hidden_ssid_title">Mạng ẩn</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Tên điểm phát sóng di động của bạn sẽ không xuất hiện trong danh sách các mạng wifi khả dụng.</string>
     <string name="wifi_hotspot_client_manager_title">Thiết bị đã kết nối</string>
-    <string name="wifi_hotspot_client_manager_summary">Liệt kê và quản lý các thiết bị được kết nối với điểm phát sóng</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">Chỉ liệt kê các thiết bị được kết nối với điểm phát sóng</string>
+    <string name="wifi_hotspot_client_manager_summary">Danh sách và quản lý các thiết bị được kết nối với điểm phát sóng</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Danh sách các thiết bị được kết nối với điểm phát sóng</string>
     <string name="wifi_hotspot_client_limit_title">Giới hạn thiết bị kết nối</string>
     <string name="wifi_hotspot_blocked_clients_list_title">Các thiết bị đã chặn</string>
     <string name="wifi_hotspot_connected_clients_list_title">Thiết bị đã kết nối</string>
@@ -140,10 +155,6 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Tần số quét cảm ứng cao</string>
     <string name="high_touch_polling_rate_summary">Tăng tần số quét của màn hình cảm ứng</string>
-    <!-- Battery Temperature -->
-    <string name="battery_temp">Nhiệt độ pin</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">Sức khỏe của pin</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Xáo trộn chữ số</string>
     <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN ngẫu nhiên khi mở khóa thiết bị</string>
@@ -187,7 +198,7 @@
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Tùy chọn</string>
+    <string name="pattern_custom">Tùy chỉnh</string>
     <string name="custom_vibration_pattern_title">Mẫu tùy chỉnh</string>
     <string name="custom_vibration_pattern_summary">Đặt kiểu rung tùy chỉnh</string>
     <!-- Per-channel vibration pattern -->
@@ -434,13 +445,13 @@
     <string name="scroll_fling_haptic_feedback_title">Rung khi vuốt</string>
     <string name="scroll_fling_haptic_feedback_summary">Phản hồi rung khi vuốt đến cuối nội dung</string>
     <!-- Custom actions -->
-    <string name="action_nothing">Không hành động</string>
+    <string name="action_nothing">Không có hành động</string>
     <string name="action_menu">Menu</string>
     <string name="action_app_switch">Gần đây</string>
     <string name="action_voice_search">Tìm kiếm bằng giọng nói</string>
     <string name="action_launch_camera">Máy ảnh</string>
     <string name="action_last_app">Ứng dụng cuối cùng</string>
-    <string name="action_splitscreen">Chia màn hình</string>
+    <string name="action_splitscreen">Chia đôi màn hình</string>
     <string name="action_flashlight">Đèn pin</string>
     <string name="action_clear_notifications">Xóa thông báo</string>
     <string name="action_volume_panel">Bảng điều chỉnh âm lượng</string>
@@ -455,12 +466,12 @@
     <string name="recent_app_toggle">Chuyển ứng dụng gần đây</string>
     <string name="show_powermenu">Hiển thị Menu nguồn</string>
     <string name="partial_screenshot">Chụp một phần màn hình</string>
+    <string name="action_forward">Tiếp theo</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Tùy chọn cử chỉ nâng cao</string>
     <string name="navbar_gesture_tweaks_pref_summary">Tùy chỉnh cử chỉ và thiết lập hành động tùy chỉnh</string>
     <string name="navbar_gesture_tweaks_cat_title">Nâng cao</string>
     <string name="swipe_app_select_summary">Chọn một ứng dụng để khởi động với hành động bóp</string>
-    <string name="long_back_swipe_timeout_title">Thời gian chờ thao tác vuốt dài</string>
     <string name="left_swipe_actions_title">Thao tác vuốt dài bên trái</string>
     <string name="left_swipe_app_action_title">Chọn ứng dụng vuốt dài bên trái</string>
     <string name="right_swipe_actions_title">Thao tác vuốt dài bên phải</string>
@@ -480,7 +491,7 @@
     <string name="edit_light_settings">Chỉnh sửa cài đặt đèn sáng</string>
     <string name="pulse_speed_title">Thời gian và tốc độ nháy</string>
     <string name="default_time">Bình thường</string>
-    <string name="custom_time">Tùy chọn</string>
+    <string name="custom_time">Tùy chỉnh</string>
     <string name="dialog_delete_title">Xoá</string>
     <string name="dialog_delete_message">Xoá các mục đã chọn?</string>
     <string name="brightness">Độ sáng</string>
@@ -533,4 +544,23 @@
     <string name="led_notification_title">Cài đặt đèn</string>
     <string name="led_notification_text">Đèn LED được bật theo cài đặt</string>
     <string name="notification_light_add_apps_empty_summary">Để thêm điều khiển cho từng ứng dụng, hãy kích hoạt \'%1$s\' và nhấn \'Thêm\'</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Công nghệ</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Sức khoẻ pin</string>
+    <string name="battery_health_good">Tốt</string>
+    <string name="battery_health_overheat">Quá nhiệt</string>
+    <string name="battery_health_dead">Hư hỏng</string>
+    <string name="battery_health_over_voltage">Quá điện áp</string>
+    <string name="battery_health_unspecified_failure">Lỗi không xác định</string>
+    <string name="battery_health_cold">Lạnh</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Nhiệt độ</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Điện áp</string>
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Dung lượng thiết kế</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Dung lượng tối đa</string>
 </resources>
