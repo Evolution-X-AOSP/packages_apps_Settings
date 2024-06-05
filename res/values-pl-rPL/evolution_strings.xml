@@ -24,13 +24,6 @@
     <string name="build_status">Status kompilacji</string>
     <string name="radio_info_title">Informacje o radiu</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Częstotliwość odświeżania</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptacyjne)</string>
-    <string name="refresh_rate_vrr_title">Adaptacyjna częstotliwość odświeżania</string>
-    <string name="refresh_rate_vrr_summary">Automatycznie obniżaj częstotliwość odświeżania, gdy wyświetlacz jest bezczynny, aby zaoszczędzić energię. Może to powodować migotanie lub zmianę kolorów na niektórych wyświetlaczach</string>
-    <string name="refresh_rate_footer">Wyższa częstotliwość odświeżania sprawia, że wyświetlacz jest bardziej płynny, ale zwiększa to zużycie energii</string>
-    <string name="keywords_refresh_rate">odświeżanie, współczynnik, płynność, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="min_refresh_rate_title">Minimalna częstotliwość odświeżania</string>
     <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania</string>
     <string name="low_power_refresh_rate_title_custom">Częstotliwość odświeżania przy niskim poziomie energii</string>
