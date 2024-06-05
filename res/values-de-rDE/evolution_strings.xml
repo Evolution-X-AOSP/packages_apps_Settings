@@ -15,7 +15,7 @@
     <string name="soc_model">SoC-Modell</string>
     <string name="total_ram">Gesamter Arbeitsspeicher</string>
     <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Evolution X-Version</string>
+    <string name="evolution_x_version">Evolution X Version</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Build-Datum</string>
     <!-- About device screen, build maintainer -->
@@ -28,13 +28,28 @@
     <string name="max_refresh_rate_title">Bildwiederholrate (Maximal)</string>
     <string name="low_power_refresh_rate_title_custom">Bildwiederholrate (Energiesparmodus)</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Finde den Fingerabdrucksensor auf der Vorderseite deines Telefons.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Finde den Fingerabdrucksensor auf der Rückseite deines Handys.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Finde den Fingerabdrucksensor an der Seite deines Handys.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Finden Sie den Fingerabdrucksensor auf der Vorderseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Finden Sie den Fingerabdrucksensor auf der Vorderseite Ihres Gerätes.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Finde den Fingerabdrucksensor auf der Vorderseite deines Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Finden Sie den Fingerabdrucksensor auf der Hinterseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Finden Sie den Fingerabdrucksensor auf der Hinterseite Ihres Gerätes.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Finde den Fingerabdrucksensor auf der Rückseite deines Handys.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Finden Sie den Fingerabdrucksensor auf der Seite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Finden Sie den Fingerabdrucksensor auf der Seite Ihres Gerätes.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Finde den Fingerabdrucksensor an der Seite deines Handys.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Berühre den Sensor auf der Vorderseite deines Handys.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Berühre den Sensor auf der Rückseite deines Handys.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Berühre den Sensor an der Seite deines Handys.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Berühren Sie den Sensor auf der Vorderseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Berühren Sie den Sensor auf der Vorderseite Ihres Gerätes.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Berühre den Sensor auf der Vorderseite deines Handys.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Berühren Sie den Sensor auf der Hinterseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Berühren Sie den Sensor auf der Hinterseite Ihres Gerätes.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Berühre den Sensor auf der Rückseite deines Handys.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Berühren Sie den Sensor auf der Seite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Berühren Sie den Sensor auf der Seite Ihres Gerätes.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Berühre den Sensor an der Seite deines Handys.</string>
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Berühren Sie den Sensor, um ihn zu entsperren, auch wenn der Bildschirm ausgeschaltet ist. Der Annäherungssensor verhindert versehentliches Entsperren.</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warnung: Diese Option funktioniert möglicherweise nicht richtig oder führt zu Datenverlust und wird daher nicht empfohlen!</string>
     <!-- FastCharge feature -->
@@ -140,10 +155,6 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Hohe Berührungs-Abtastrate</string>
     <string name="high_touch_polling_rate_summary">Berührungs-Abtastrate erhöhen</string>
-    <!-- Battery Temperature -->
-    <string name="battery_temp">Akku-Temperatur</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">Batteriezustand</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
     <string name="unlock_scramble_pin_layout_summary">Mit jedem Entsperrversuch die Ziffern zufällig anordnen</string>
@@ -367,8 +378,6 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="nfc_sounds_title">NFC-Töne</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Schaltfläche zum Drehen verwenden</string>
-    <!-- Battery light -->
-    <string name="battery_light_title">Akku-LED während dem aufladen anzeigen</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Bildschirmausrichtung</string>
     <string name="display_rotation_enabled">Automatische Bildschirmausrichtung ist aktiviert</string>
@@ -449,7 +458,7 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="action_volume_panel">Lautstärkeregler</string>
     <string name="action_screen_off">Bildschirm aus</string>
     <string name="action_notifications">Benachrichtigungen</string>
-    <string name="action_power_menu">Startmenü</string>
+    <string name="action_power_menu">Power Menü</string>
     <string name="action_screenshot">Bildschirmfoto</string>
     <string name="action_qs_panel">Schnelleinstellungen</string>
     <string name="action_app_action">Anwendung</string>
@@ -458,12 +467,12 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="recent_app_toggle">Zu letzter App wechseln</string>
     <string name="show_powermenu">Power-Menü anzeigen</string>
     <string name="partial_screenshot">Bildschirmbereich aufnehmen</string>
+    <string name="action_forward">Weiter</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Erweiterte Gesten-Optionen</string>
     <string name="navbar_gesture_tweaks_pref_summary">Gesten anpassen und benutzerdefinierte Aktionen festlegen</string>
     <string name="navbar_gesture_tweaks_cat_title">Erweitert</string>
     <string name="swipe_app_select_summary">App auswählen, die mit der Druck-Aktion gestartet werden soll</string>
-    <string name="long_back_swipe_timeout_title">Timeout für lange Zurück-Geste</string>
     <string name="left_swipe_actions_title">Lange Wischaktion nach links</string>
     <string name="left_swipe_app_action_title">Anwendung für lange Wischaktion nach links wählen</string>
     <string name="right_swipe_actions_title">Lange Wischaktion nach rechts</string>
@@ -475,4 +484,85 @@ Die in Anwendungen festgelegten Muster haben Vorrang</string>
     <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine App in der Apps-Auswahl.\n\nWenn der Launcher angezeigt wird, streichen Sie ganz unten auf dem Bildschirm, um die Aktion auszulösen.</string>
     <string name="back_swipe_extended_title">Erweiterte Wischaktion</string>
     <string name="back_swipe_extended_summary">Aktion für breiteres Wischen (mehr als die Hälfte des Bildschirms), oder Wischen in Form eines L (vertikal lang genug)</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Automatisch entsperren bei korrekter PIN-Eingabe. Diese Option ist etwas unsicherer, als zum Bestätigen auf „Eingabe“ tippen zu müssen.</string>
+    <!-- Notification channels -->
+    <string name="channel_light_settings_name">Vorschau der Lichteinstellungen</string>
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Lichteinstellungen bearbeiten</string>
+    <string name="pulse_speed_title">Pulsdauer und Geschwindigkeit</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Benutzerdefiniert</string>
+    <string name="dialog_delete_title">Löschen</string>
+    <string name="dialog_delete_message">Ausgewähltes Element löschen?</string>
+    <string name="brightness">Helligkeitsstufe</string>
+    <string name="choose_app">App auswählen</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Immer an</string>
+    <string name="pulse_length_very_short">Sehr kurz</string>
+    <string name="pulse_length_short">Kurz</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_long">Lang</string>
+    <string name="pulse_length_very_long">Sehr lang</string>
+    <string name="pulse_speed_very_fast">Sehr schnell</string>
+    <string name="pulse_speed_fast">Schnell</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_slow">Langsam</string>
+    <string name="pulse_speed_very_slow">Sehr langsam</string>
+    <!-- Common light settings strings -->
+    <string name="light_brightness_title">Helligkeitsstufen</string>
+    <string name="light_brightness_normal">Normal</string>
+    <string name="light_brightness_zen">Nicht stören</string>
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Akku Lade-LED</string>
+    <string name="battery_light_summary">Akku-Leuchtverhalten anpassen</string>
+    <string name="battery_light_enable_title">Akkulicht aktivieren</string>
+    <string name="battery_low_pulse_title">Blinkende LED bei schwachem Akku</string>
+    <string name="battery_light_full_charge_disabled_title">Bei vollem Akku ausschalten</string>
+    <string name="battery_light_list_title">Farben</string>
+    <string name="battery_light_low_color_title">Niedriger Akkustand</string>
+    <string name="battery_light_medium_color_title">Mittlerer Akkustand</string>
+    <string name="battery_light_full_color_title">Aufgeladen (90 %)</string>
+    <string name="battery_light_really_full_color_title">Aufgeladen (100 %)</string>
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Benachrichtigungs-LED</string>
+    <string name="notification_light_summary">Benachrichtigungslichtverhalten anpassen</string>
+    <string name="notification_light_enable_title">Benachrichtigungslicht aktivieren</string>
+    <string name="notification_light_general_title">Allgemein</string>
+    <string name="notification_light_advanced_title">Erweitert</string>
+    <string name="notification_light_applist_title">Apps</string>
+    <string name="notification_light_phonelist_title">Telefon</string>
+    <string name="notification_light_use_custom">Benutzerdefinierte Werte verwenden</string>
+    <string name="notification_light_default_value">Standard</string>
+    <string name="notification_light_missed_call_title">Verpasster Anruf</string>
+    <string name="notification_light_voicemail_title">Anrufbeantworter</string>
+    <string name="notification_light_screen_on">LED-Anzeige bei aktivem Display</string>
+    <string name="notification_light_zen_mode">LED-Anzeige im \"Nicht stören\"-Modus</string>
+    <string name="keywords_lights_brightness_level">LED-Helligkeit dimmen</string>
+    <string name="notification_light_automagic">Farben automatisch wählen</string>
+    <string name="notification_light_automagic_summary">Farben automatisch auswählen</string>
+    <!-- Lights settings, LED notification -->
+    <string name="led_notification_title">Lichteinstellungen</string>
+    <string name="led_notification_text">LED Licht aktiviert durch Einstellungen</string>
+    <string name="notification_light_add_apps_empty_summary">Um pro App-Steuerung hinzuzufügen, aktivieren Sie \'%1$s\' und drücken Sie \'Hinzufügen\'</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technologie</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Batteriezustand</string>
+    <string name="battery_health_good">Gut</string>
+    <string name="battery_health_overheat">Überhitzt</string>
+    <string name="battery_health_dead">Unbrauchbar</string>
+    <string name="battery_health_over_voltage">Überspannung</string>
+    <string name="battery_health_unspecified_failure">Unspezifizierter Fehler</string>
+    <string name="battery_health_cold">Kalt</string>
+    <string name="battery_health_unknown">Unbekannt</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperatur</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Spannung</string>
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Vorgesehene Kapazität</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximale Kapazität</string>
 </resources>
