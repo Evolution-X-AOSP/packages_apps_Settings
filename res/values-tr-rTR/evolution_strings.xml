@@ -24,13 +24,6 @@
     <string name="build_status">Sürüm durumu</string>
     <string name="radio_info_title">Radyo bilgisi</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Yenileme hızı</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Uyarlanabilir)</string>
-    <string name="refresh_rate_vrr_title">Uyarlanabilir yenileme hızı</string>
-    <string name="refresh_rate_vrr_summary">Güç tasarrufu yapmak için, ekran boştayken yenileme hızını otomatik olarak düşür. Bazı ekranlarda titremeye veya renk kaymasına sebep olabilir</string>
-    <string name="refresh_rate_footer">Yüksek yenileme hızı ekranı daha hızlı yapar, ancak güç tüketimini artırır</string>
-    <string name="keywords_refresh_rate">yenileme, hızı, yumuşak, zirve, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
     <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
     <string name="low_power_refresh_rate_title_custom">Düşük pil yenileme hızı</string>
@@ -406,8 +399,8 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 dakika</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
     <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
-    <string name="volume_button_music_control_summary">Ekran kapalıyken, ses seviyesi tuşlarına uzun basıldığında müzik parçaları atlanır</string>
+    <string name="volume_button_music_control_title">Müzik kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Arkaplan işlemleri</string>
     <!-- Skip biometric manual confirmation -->
